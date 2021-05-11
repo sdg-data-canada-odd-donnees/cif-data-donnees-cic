@@ -1,7 +1,1261 @@
-Year,Group,Value
-2015,A,1
-2015,B,3
-2015,,2
-2016,A,1
-2016,B,3
-2016,,2
+Year,Geography,Age group,Sex,Value
+2016,Canada,Total 15 to 29 years,Both sexes,13.0
+2017,Canada,Total 15 to 29 years,Both sexes,12.0
+2018,Canada,Total 15 to 29 years,Both sexes,12.0
+2019,Canada,Total 15 to 29 years,Both sexes,11.0
+2020,Canada,Total 15 to 29 years,Both sexes,14.0
+2016,Canada,Total 15 to 29 years,Males,14.0
+2017,Canada,Total 15 to 29 years,Males,12.0
+2018,Canada,Total 15 to 29 years,Males,12.0
+2019,Canada,Total 15 to 29 years,Males,12.0
+2020,Canada,Total 15 to 29 years,Males,14.0
+2016,Canada,Total 15 to 29 years,Females,12.0
+2017,Canada,Total 15 to 29 years,Females,12.0
+2018,Canada,Total 15 to 29 years,Females,12.0
+2019,Canada,Total 15 to 29 years,Females,11.0
+2020,Canada,Total 15 to 29 years,Females,13.0
+2016,Canada,15 to 19 years,Both sexes,6.0
+2017,Canada,15 to 19 years,Both sexes,6.0
+2018,Canada,15 to 19 years,Both sexes,6.0
+2019,Canada,15 to 19 years,Both sexes,6.0
+2020,Canada,15 to 19 years,Both sexes,9.0
+2016,Canada,15 to 19 years,Males,7.0
+2017,Canada,15 to 19 years,Males,7.0
+2018,Canada,15 to 19 years,Males,7.0
+2019,Canada,15 to 19 years,Males,7.0
+2020,Canada,15 to 19 years,Males,10.0
+2016,Canada,15 to 19 years,Females,5.0
+2017,Canada,15 to 19 years,Females,5.0
+2018,Canada,15 to 19 years,Females,5.0
+2019,Canada,15 to 19 years,Females,5.0
+2020,Canada,15 to 19 years,Females,8.0
+2016,Canada,15 to 24 years,Both sexes,11.0
+2017,Canada,15 to 24 years,Both sexes,10.0
+2018,Canada,15 to 24 years,Both sexes,10.0
+2019,Canada,15 to 24 years,Both sexes,9.0
+2020,Canada,15 to 24 years,Both sexes,12.0
+2016,Canada,15 to 24 years,Males,12.0
+2017,Canada,15 to 24 years,Males,11.0
+2018,Canada,15 to 24 years,Males,11.0
+2019,Canada,15 to 24 years,Males,10.0
+2020,Canada,15 to 24 years,Males,13.0
+2016,Canada,15 to 24 years,Females,9.0
+2017,Canada,15 to 24 years,Females,9.0
+2018,Canada,15 to 24 years,Females,9.0
+2019,Canada,15 to 24 years,Females,8.0
+2020,Canada,15 to 24 years,Females,10.0
+2016,Canada,18 to 24 years,Both sexes,13.0
+2017,Canada,18 to 24 years,Both sexes,12.0
+2018,Canada,18 to 24 years,Both sexes,12.0
+2019,Canada,18 to 24 years,Both sexes,12.0
+2020,Canada,18 to 24 years,Both sexes,13.0
+2016,Canada,18 to 24 years,Males,15.0
+2017,Canada,18 to 24 years,Males,13.0
+2018,Canada,18 to 24 years,Males,14.0
+2019,Canada,18 to 24 years,Males,13.0
+2020,Canada,18 to 24 years,Males,15.0
+2016,Canada,18 to 24 years,Females,11.0
+2017,Canada,18 to 24 years,Females,11.0
+2018,Canada,18 to 24 years,Females,11.0
+2019,Canada,18 to 24 years,Females,10.0
+2020,Canada,18 to 24 years,Females,11.0
+2016,Canada,20 to 24 years,Both sexes,14.0
+2017,Canada,20 to 24 years,Both sexes,13.0
+2018,Canada,20 to 24 years,Both sexes,13.0
+2019,Canada,20 to 24 years,Both sexes,12.0
+2020,Canada,20 to 24 years,Both sexes,14.0
+2016,Canada,20 to 24 years,Males,16.0
+2017,Canada,20 to 24 years,Males,14.0
+2018,Canada,20 to 24 years,Males,14.0
+2019,Canada,20 to 24 years,Males,13.0
+2020,Canada,20 to 24 years,Males,16.0
+2016,Canada,20 to 24 years,Females,13.0
+2017,Canada,20 to 24 years,Females,12.0
+2018,Canada,20 to 24 years,Females,12.0
+2019,Canada,20 to 24 years,Females,11.0
+2020,Canada,20 to 24 years,Females,12.0
+2016,Canada,25 to 29 years,Both sexes,17.0
+2017,Canada,25 to 29 years,Both sexes,16.0
+2018,Canada,25 to 29 years,Both sexes,15.0
+2019,Canada,25 to 29 years,Both sexes,14.0
+2020,Canada,25 to 29 years,Both sexes,17.0
+2016,Canada,25 to 29 years,Males,16.0
+2017,Canada,25 to 29 years,Males,16.0
+2018,Canada,25 to 29 years,Males,14.0
+2019,Canada,25 to 29 years,Males,14.0
+2020,Canada,25 to 29 years,Males,16.0
+2016,Canada,25 to 29 years,Females,18.0
+2017,Canada,25 to 29 years,Females,17.0
+2018,Canada,25 to 29 years,Females,17.0
+2019,Canada,25 to 29 years,Females,15.0
+2020,Canada,25 to 29 years,Females,18.0
+2016,Newfoundland and Labrador,Total 15 to 29 years,Both sexes,18.0
+2017,Newfoundland and Labrador,Total 15 to 29 years,Both sexes,21.0
+2018,Newfoundland and Labrador,Total 15 to 29 years,Both sexes,17.0
+2019,Newfoundland and Labrador,Total 15 to 29 years,Both sexes,18.0
+2020,Newfoundland and Labrador,Total 15 to 29 years,Both sexes,19.0
+2016,Newfoundland and Labrador,Total 15 to 29 years,Males,23.0
+2017,Newfoundland and Labrador,Total 15 to 29 years,Males,25.0
+2018,Newfoundland and Labrador,Total 15 to 29 years,Males,20.0
+2019,Newfoundland and Labrador,Total 15 to 29 years,Males,21.0
+2020,Newfoundland and Labrador,Total 15 to 29 years,Males,22.0
+2016,Newfoundland and Labrador,Total 15 to 29 years,Females,14.0
+2017,Newfoundland and Labrador,Total 15 to 29 years,Females,18.0
+2018,Newfoundland and Labrador,Total 15 to 29 years,Females,13.0
+2019,Newfoundland and Labrador,Total 15 to 29 years,Females,13.0
+2020,Newfoundland and Labrador,Total 15 to 29 years,Females,17.0
+2016,Newfoundland and Labrador,15 to 19 years,Both sexes,5.0
+2017,Newfoundland and Labrador,15 to 19 years,Both sexes,9.0
+2018,Newfoundland and Labrador,15 to 19 years,Both sexes,5.0
+2019,Newfoundland and Labrador,15 to 19 years,Both sexes,9.0
+2020,Newfoundland and Labrador,15 to 19 years,Both sexes,11.0
+2016,Newfoundland and Labrador,15 to 19 years,Males,7.0
+2017,Newfoundland and Labrador,15 to 19 years,Males,10.0
+2018,Newfoundland and Labrador,15 to 19 years,Males,8.0
+2019,Newfoundland and Labrador,15 to 19 years,Males,13.0
+2020,Newfoundland and Labrador,15 to 19 years,Males,15.0
+2016,Newfoundland and Labrador,15 to 19 years,Females,
+2017,Newfoundland and Labrador,15 to 19 years,Females,7.0
+2018,Newfoundland and Labrador,15 to 19 years,Females,
+2019,Newfoundland and Labrador,15 to 19 years,Females,
+2020,Newfoundland and Labrador,15 to 19 years,Females,8.0
+2016,Newfoundland and Labrador,15 to 24 years,Both sexes,15.0
+2017,Newfoundland and Labrador,15 to 24 years,Both sexes,17.0
+2018,Newfoundland and Labrador,15 to 24 years,Both sexes,12.0
+2019,Newfoundland and Labrador,15 to 24 years,Both sexes,14.0
+2020,Newfoundland and Labrador,15 to 24 years,Both sexes,17.0
+2016,Newfoundland and Labrador,15 to 24 years,Males,19.0
+2017,Newfoundland and Labrador,15 to 24 years,Males,21.0
+2018,Newfoundland and Labrador,15 to 24 years,Males,15.0
+2019,Newfoundland and Labrador,15 to 24 years,Males,17.0
+2020,Newfoundland and Labrador,15 to 24 years,Males,20.0
+2016,Newfoundland and Labrador,15 to 24 years,Females,11.0
+2017,Newfoundland and Labrador,15 to 24 years,Females,13.0
+2018,Newfoundland and Labrador,15 to 24 years,Females,7.0
+2019,Newfoundland and Labrador,15 to 24 years,Females,10.0
+2020,Newfoundland and Labrador,15 to 24 years,Females,13.0
+2016,Newfoundland and Labrador,18 to 24 years,Both sexes,21.0
+2017,Newfoundland and Labrador,18 to 24 years,Both sexes,22.0
+2018,Newfoundland and Labrador,18 to 24 years,Both sexes,15.0
+2019,Newfoundland and Labrador,18 to 24 years,Both sexes,18.0
+2020,Newfoundland and Labrador,18 to 24 years,Both sexes,20.0
+2016,Newfoundland and Labrador,18 to 24 years,Males,27.0
+2017,Newfoundland and Labrador,18 to 24 years,Males,27.0
+2018,Newfoundland and Labrador,18 to 24 years,Males,20.0
+2019,Newfoundland and Labrador,18 to 24 years,Males,22.0
+2020,Newfoundland and Labrador,18 to 24 years,Males,24.0
+2016,Newfoundland and Labrador,18 to 24 years,Females,14.0
+2017,Newfoundland and Labrador,18 to 24 years,Females,17.0
+2018,Newfoundland and Labrador,18 to 24 years,Females,10.0
+2019,Newfoundland and Labrador,18 to 24 years,Females,14.0
+2020,Newfoundland and Labrador,18 to 24 years,Females,16.0
+2016,Newfoundland and Labrador,20 to 24 years,Both sexes,25.0
+2017,Newfoundland and Labrador,20 to 24 years,Both sexes,25.0
+2018,Newfoundland and Labrador,20 to 24 years,Both sexes,18.0
+2019,Newfoundland and Labrador,20 to 24 years,Both sexes,19.0
+2020,Newfoundland and Labrador,20 to 24 years,Both sexes,22.0
+2016,Newfoundland and Labrador,20 to 24 years,Males,31.0
+2017,Newfoundland and Labrador,20 to 24 years,Males,31.0
+2018,Newfoundland and Labrador,20 to 24 years,Males,23.0
+2019,Newfoundland and Labrador,20 to 24 years,Males,21.0
+2020,Newfoundland and Labrador,20 to 24 years,Males,25.0
+2016,Newfoundland and Labrador,20 to 24 years,Females,17.0
+2017,Newfoundland and Labrador,20 to 24 years,Females,19.0
+2018,Newfoundland and Labrador,20 to 24 years,Females,12.0
+2019,Newfoundland and Labrador,20 to 24 years,Females,16.0
+2020,Newfoundland and Labrador,20 to 24 years,Females,17.0
+2016,Newfoundland and Labrador,25 to 29 years,Both sexes,24.0
+2017,Newfoundland and Labrador,25 to 29 years,Both sexes,30.0
+2018,Newfoundland and Labrador,25 to 29 years,Both sexes,26.0
+2019,Newfoundland and Labrador,25 to 29 years,Both sexes,25.0
+2020,Newfoundland and Labrador,25 to 29 years,Both sexes,25.0
+2016,Newfoundland and Labrador,25 to 29 years,Males,30.0
+2017,Newfoundland and Labrador,25 to 29 years,Males,33.0
+2018,Newfoundland and Labrador,25 to 29 years,Males,29.0
+2019,Newfoundland and Labrador,25 to 29 years,Males,30.0
+2020,Newfoundland and Labrador,25 to 29 years,Males,25.0
+2016,Newfoundland and Labrador,25 to 29 years,Females,19.0
+2017,Newfoundland and Labrador,25 to 29 years,Females,27.0
+2018,Newfoundland and Labrador,25 to 29 years,Females,23.0
+2019,Newfoundland and Labrador,25 to 29 years,Females,19.0
+2020,Newfoundland and Labrador,25 to 29 years,Females,25.0
+2016,Prince Edward Island,Total 15 to 29 years,Both sexes,15.0
+2017,Prince Edward Island,Total 15 to 29 years,Both sexes,17.0
+2018,Prince Edward Island,Total 15 to 29 years,Both sexes,13.0
+2019,Prince Edward Island,Total 15 to 29 years,Both sexes,13.0
+2020,Prince Edward Island,Total 15 to 29 years,Both sexes,14.0
+2016,Prince Edward Island,Total 15 to 29 years,Males,18.0
+2017,Prince Edward Island,Total 15 to 29 years,Males,19.0
+2018,Prince Edward Island,Total 15 to 29 years,Males,16.0
+2019,Prince Edward Island,Total 15 to 29 years,Males,15.0
+2020,Prince Edward Island,Total 15 to 29 years,Males,14.0
+2016,Prince Edward Island,Total 15 to 29 years,Females,12.0
+2017,Prince Edward Island,Total 15 to 29 years,Females,15.0
+2018,Prince Edward Island,Total 15 to 29 years,Females,11.0
+2019,Prince Edward Island,Total 15 to 29 years,Females,10.0
+2020,Prince Edward Island,Total 15 to 29 years,Females,13.0
+2016,Prince Edward Island,15 to 19 years,Both sexes,6.0
+2017,Prince Edward Island,15 to 19 years,Both sexes,11.0
+2018,Prince Edward Island,15 to 19 years,Both sexes,
+2019,Prince Edward Island,15 to 19 years,Both sexes,6.0
+2020,Prince Edward Island,15 to 19 years,Both sexes,9.0
+2016,Prince Edward Island,15 to 19 years,Males,9.0
+2017,Prince Edward Island,15 to 19 years,Males,13.0
+2018,Prince Edward Island,15 to 19 years,Males,
+2019,Prince Edward Island,15 to 19 years,Males,9.0
+2020,Prince Edward Island,15 to 19 years,Males,10.0
+2016,Prince Edward Island,15 to 19 years,Females,
+2017,Prince Edward Island,15 to 19 years,Females,8.0
+2018,Prince Edward Island,15 to 19 years,Females,
+2019,Prince Edward Island,15 to 19 years,Females,
+2020,Prince Edward Island,15 to 19 years,Females,7.0
+2016,Prince Edward Island,15 to 24 years,Both sexes,13.0
+2017,Prince Edward Island,15 to 24 years,Both sexes,16.0
+2018,Prince Edward Island,15 to 24 years,Both sexes,10.0
+2019,Prince Edward Island,15 to 24 years,Both sexes,10.0
+2020,Prince Edward Island,15 to 24 years,Both sexes,11.0
+2016,Prince Edward Island,15 to 24 years,Males,16.0
+2017,Prince Edward Island,15 to 24 years,Males,19.0
+2018,Prince Edward Island,15 to 24 years,Males,13.0
+2019,Prince Edward Island,15 to 24 years,Males,14.0
+2020,Prince Edward Island,15 to 24 years,Males,12.0
+2016,Prince Edward Island,15 to 24 years,Females,10.0
+2017,Prince Edward Island,15 to 24 years,Females,14.0
+2018,Prince Edward Island,15 to 24 years,Females,6.0
+2019,Prince Edward Island,15 to 24 years,Females,6.0
+2020,Prince Edward Island,15 to 24 years,Females,10.0
+2016,Prince Edward Island,18 to 24 years,Both sexes,18.0
+2017,Prince Edward Island,18 to 24 years,Both sexes,22.0
+2018,Prince Edward Island,18 to 24 years,Both sexes,13.0
+2019,Prince Edward Island,18 to 24 years,Both sexes,13.0
+2020,Prince Edward Island,18 to 24 years,Both sexes,13.0
+2016,Prince Edward Island,18 to 24 years,Males,22.0
+2017,Prince Edward Island,18 to 24 years,Males,25.0
+2018,Prince Edward Island,18 to 24 years,Males,17.0
+2019,Prince Edward Island,18 to 24 years,Males,18.0
+2020,Prince Edward Island,18 to 24 years,Males,15.0
+2016,Prince Edward Island,18 to 24 years,Females,14.0
+2017,Prince Edward Island,18 to 24 years,Females,18.0
+2018,Prince Edward Island,18 to 24 years,Females,8.0
+2019,Prince Edward Island,18 to 24 years,Females,8.0
+2020,Prince Edward Island,18 to 24 years,Females,11.0
+2016,Prince Edward Island,20 to 24 years,Both sexes,20.0
+2017,Prince Edward Island,20 to 24 years,Both sexes,22.0
+2018,Prince Edward Island,20 to 24 years,Both sexes,16.0
+2019,Prince Edward Island,20 to 24 years,Both sexes,14.0
+2020,Prince Edward Island,20 to 24 years,Both sexes,13.0
+2016,Prince Edward Island,20 to 24 years,Males,24.0
+2017,Prince Edward Island,20 to 24 years,Males,24.0
+2018,Prince Edward Island,20 to 24 years,Males,20.0
+2019,Prince Edward Island,20 to 24 years,Males,18.0
+2020,Prince Edward Island,20 to 24 years,Males,14.0
+2016,Prince Edward Island,20 to 24 years,Females,17.0
+2017,Prince Edward Island,20 to 24 years,Females,19.0
+2018,Prince Edward Island,20 to 24 years,Females,11.0
+2019,Prince Edward Island,20 to 24 years,Females,9.0
+2020,Prince Edward Island,20 to 24 years,Females,13.0
+2016,Prince Edward Island,25 to 29 years,Both sexes,20.0
+2017,Prince Edward Island,25 to 29 years,Both sexes,18.0
+2018,Prince Edward Island,25 to 29 years,Both sexes,21.0
+2019,Prince Edward Island,25 to 29 years,Both sexes,18.0
+2020,Prince Edward Island,25 to 29 years,Both sexes,18.0
+2016,Prince Edward Island,25 to 29 years,Males,23.0
+2017,Prince Edward Island,25 to 29 years,Males,19.0
+2018,Prince Edward Island,25 to 29 years,Males,21.0
+2019,Prince Edward Island,25 to 29 years,Males,18.0
+2020,Prince Edward Island,25 to 29 years,Males,18.0
+2016,Prince Edward Island,25 to 29 years,Females,16.0
+2017,Prince Edward Island,25 to 29 years,Females,17.0
+2018,Prince Edward Island,25 to 29 years,Females,21.0
+2019,Prince Edward Island,25 to 29 years,Females,18.0
+2020,Prince Edward Island,25 to 29 years,Females,19.0
+2016,Nova Scotia,Total 15 to 29 years,Both sexes,14.0
+2017,Nova Scotia,Total 15 to 29 years,Both sexes,14.0
+2018,Nova Scotia,Total 15 to 29 years,Both sexes,13.0
+2019,Nova Scotia,Total 15 to 29 years,Both sexes,13.0
+2020,Nova Scotia,Total 15 to 29 years,Both sexes,16.0
+2016,Nova Scotia,Total 15 to 29 years,Males,16.0
+2017,Nova Scotia,Total 15 to 29 years,Males,16.0
+2018,Nova Scotia,Total 15 to 29 years,Males,14.0
+2019,Nova Scotia,Total 15 to 29 years,Males,14.0
+2020,Nova Scotia,Total 15 to 29 years,Males,18.0
+2016,Nova Scotia,Total 15 to 29 years,Females,12.0
+2017,Nova Scotia,Total 15 to 29 years,Females,12.0
+2018,Nova Scotia,Total 15 to 29 years,Females,12.0
+2019,Nova Scotia,Total 15 to 29 years,Females,12.0
+2020,Nova Scotia,Total 15 to 29 years,Females,14.0
+2016,Nova Scotia,15 to 19 years,Both sexes,8.0
+2017,Nova Scotia,15 to 19 years,Both sexes,7.0
+2018,Nova Scotia,15 to 19 years,Both sexes,7.0
+2019,Nova Scotia,15 to 19 years,Both sexes,5.0
+2020,Nova Scotia,15 to 19 years,Both sexes,7.0
+2016,Nova Scotia,15 to 19 years,Males,9.0
+2017,Nova Scotia,15 to 19 years,Males,8.0
+2018,Nova Scotia,15 to 19 years,Males,7.0
+2019,Nova Scotia,15 to 19 years,Males,6.0
+2020,Nova Scotia,15 to 19 years,Males,8.0
+2016,Nova Scotia,15 to 19 years,Females,7.0
+2017,Nova Scotia,15 to 19 years,Females,5.0
+2018,Nova Scotia,15 to 19 years,Females,7.0
+2019,Nova Scotia,15 to 19 years,Females,3.0
+2020,Nova Scotia,15 to 19 years,Females,7.0
+2016,Nova Scotia,15 to 24 years,Both sexes,12.0
+2017,Nova Scotia,15 to 24 years,Both sexes,11.0
+2018,Nova Scotia,15 to 24 years,Both sexes,12.0
+2019,Nova Scotia,15 to 24 years,Both sexes,10.0
+2020,Nova Scotia,15 to 24 years,Both sexes,14.0
+2016,Nova Scotia,15 to 24 years,Males,13.0
+2017,Nova Scotia,15 to 24 years,Males,13.0
+2018,Nova Scotia,15 to 24 years,Males,13.0
+2019,Nova Scotia,15 to 24 years,Males,12.0
+2020,Nova Scotia,15 to 24 years,Males,15.0
+2016,Nova Scotia,15 to 24 years,Females,10.0
+2017,Nova Scotia,15 to 24 years,Females,9.0
+2018,Nova Scotia,15 to 24 years,Females,11.0
+2019,Nova Scotia,15 to 24 years,Females,9.0
+2020,Nova Scotia,15 to 24 years,Females,13.0
+2016,Nova Scotia,18 to 24 years,Both sexes,14.0
+2017,Nova Scotia,18 to 24 years,Both sexes,14.0
+2018,Nova Scotia,18 to 24 years,Both sexes,15.0
+2019,Nova Scotia,18 to 24 years,Both sexes,14.0
+2020,Nova Scotia,18 to 24 years,Both sexes,17.0
+2016,Nova Scotia,18 to 24 years,Males,16.0
+2017,Nova Scotia,18 to 24 years,Males,17.0
+2018,Nova Scotia,18 to 24 years,Males,17.0
+2019,Nova Scotia,18 to 24 years,Males,15.0
+2020,Nova Scotia,18 to 24 years,Males,18.0
+2016,Nova Scotia,18 to 24 years,Females,13.0
+2017,Nova Scotia,18 to 24 years,Females,11.0
+2018,Nova Scotia,18 to 24 years,Females,13.0
+2019,Nova Scotia,18 to 24 years,Females,13.0
+2020,Nova Scotia,18 to 24 years,Females,16.0
+2016,Nova Scotia,20 to 24 years,Both sexes,15.0
+2017,Nova Scotia,20 to 24 years,Both sexes,15.0
+2018,Nova Scotia,20 to 24 years,Both sexes,16.0
+2019,Nova Scotia,20 to 24 years,Both sexes,15.0
+2020,Nova Scotia,20 to 24 years,Both sexes,19.0
+2016,Nova Scotia,20 to 24 years,Males,17.0
+2017,Nova Scotia,20 to 24 years,Males,18.0
+2018,Nova Scotia,20 to 24 years,Males,18.0
+2019,Nova Scotia,20 to 24 years,Males,16.0
+2020,Nova Scotia,20 to 24 years,Males,20.0
+2016,Nova Scotia,20 to 24 years,Females,13.0
+2017,Nova Scotia,20 to 24 years,Females,13.0
+2018,Nova Scotia,20 to 24 years,Females,13.0
+2019,Nova Scotia,20 to 24 years,Females,15.0
+2020,Nova Scotia,20 to 24 years,Females,18.0
+2016,Nova Scotia,25 to 29 years,Both sexes,19.0
+2017,Nova Scotia,25 to 29 years,Both sexes,21.0
+2018,Nova Scotia,25 to 29 years,Both sexes,15.0
+2019,Nova Scotia,25 to 29 years,Both sexes,18.0
+2020,Nova Scotia,25 to 29 years,Both sexes,20.0
+2016,Nova Scotia,25 to 29 years,Males,23.0
+2017,Nova Scotia,25 to 29 years,Males,23.0
+2018,Nova Scotia,25 to 29 years,Males,16.0
+2019,Nova Scotia,25 to 29 years,Males,17.0
+2020,Nova Scotia,25 to 29 years,Males,22.0
+2016,Nova Scotia,25 to 29 years,Females,15.0
+2017,Nova Scotia,25 to 29 years,Females,18.0
+2018,Nova Scotia,25 to 29 years,Females,14.0
+2019,Nova Scotia,25 to 29 years,Females,18.0
+2020,Nova Scotia,25 to 29 years,Females,18.0
+2016,New Brunswick,Total 15 to 29 years,Both sexes,17.0
+2017,New Brunswick,Total 15 to 29 years,Both sexes,17.0
+2018,New Brunswick,Total 15 to 29 years,Both sexes,16.0
+2019,New Brunswick,Total 15 to 29 years,Both sexes,14.0
+2020,New Brunswick,Total 15 to 29 years,Both sexes,15.0
+2016,New Brunswick,Total 15 to 29 years,Males,18.0
+2017,New Brunswick,Total 15 to 29 years,Males,19.0
+2018,New Brunswick,Total 15 to 29 years,Males,18.0
+2019,New Brunswick,Total 15 to 29 years,Males,17.0
+2020,New Brunswick,Total 15 to 29 years,Males,17.0
+2016,New Brunswick,Total 15 to 29 years,Females,16.0
+2017,New Brunswick,Total 15 to 29 years,Females,15.0
+2018,New Brunswick,Total 15 to 29 years,Females,14.0
+2019,New Brunswick,Total 15 to 29 years,Females,11.0
+2020,New Brunswick,Total 15 to 29 years,Females,14.0
+2016,New Brunswick,15 to 19 years,Both sexes,7.0
+2017,New Brunswick,15 to 19 years,Both sexes,8.0
+2018,New Brunswick,15 to 19 years,Both sexes,6.0
+2019,New Brunswick,15 to 19 years,Both sexes,6.0
+2020,New Brunswick,15 to 19 years,Both sexes,9.0
+2016,New Brunswick,15 to 19 years,Males,8.0
+2017,New Brunswick,15 to 19 years,Males,10.0
+2018,New Brunswick,15 to 19 years,Males,9.0
+2019,New Brunswick,15 to 19 years,Males,9.0
+2020,New Brunswick,15 to 19 years,Males,9.0
+2016,New Brunswick,15 to 19 years,Females,6.0
+2017,New Brunswick,15 to 19 years,Females,7.0
+2018,New Brunswick,15 to 19 years,Females,
+2019,New Brunswick,15 to 19 years,Females,3.0
+2020,New Brunswick,15 to 19 years,Females,8.0
+2016,New Brunswick,15 to 24 years,Both sexes,16.0
+2017,New Brunswick,15 to 24 years,Both sexes,15.0
+2018,New Brunswick,15 to 24 years,Both sexes,15.0
+2019,New Brunswick,15 to 24 years,Both sexes,12.0
+2020,New Brunswick,15 to 24 years,Both sexes,12.0
+2016,New Brunswick,15 to 24 years,Males,17.0
+2017,New Brunswick,15 to 24 years,Males,17.0
+2018,New Brunswick,15 to 24 years,Males,18.0
+2019,New Brunswick,15 to 24 years,Males,16.0
+2020,New Brunswick,15 to 24 years,Males,14.0
+2016,New Brunswick,15 to 24 years,Females,15.0
+2017,New Brunswick,15 to 24 years,Females,12.0
+2018,New Brunswick,15 to 24 years,Females,11.0
+2019,New Brunswick,15 to 24 years,Females,8.0
+2020,New Brunswick,15 to 24 years,Females,10.0
+2016,New Brunswick,18 to 24 years,Both sexes,21.0
+2017,New Brunswick,18 to 24 years,Both sexes,19.0
+2018,New Brunswick,18 to 24 years,Both sexes,20.0
+2019,New Brunswick,18 to 24 years,Both sexes,16.0
+2020,New Brunswick,18 to 24 years,Both sexes,14.0
+2016,New Brunswick,18 to 24 years,Males,23.0
+2017,New Brunswick,18 to 24 years,Males,21.0
+2018,New Brunswick,18 to 24 years,Males,24.0
+2019,New Brunswick,18 to 24 years,Males,21.0
+2020,New Brunswick,18 to 24 years,Males,17.0
+2016,New Brunswick,18 to 24 years,Females,19.0
+2017,New Brunswick,18 to 24 years,Females,16.0
+2018,New Brunswick,18 to 24 years,Females,15.0
+2019,New Brunswick,18 to 24 years,Females,11.0
+2020,New Brunswick,18 to 24 years,Females,12.0
+2016,New Brunswick,20 to 24 years,Both sexes,24.0
+2017,New Brunswick,20 to 24 years,Both sexes,20.0
+2018,New Brunswick,20 to 24 years,Both sexes,23.0
+2019,New Brunswick,20 to 24 years,Both sexes,18.0
+2020,New Brunswick,20 to 24 years,Both sexes,15.0
+2016,New Brunswick,20 to 24 years,Males,26.0
+2017,New Brunswick,20 to 24 years,Males,23.0
+2018,New Brunswick,20 to 24 years,Males,27.0
+2019,New Brunswick,20 to 24 years,Males,22.0
+2020,New Brunswick,20 to 24 years,Males,18.0
+2016,New Brunswick,20 to 24 years,Females,23.0
+2017,New Brunswick,20 to 24 years,Females,17.0
+2018,New Brunswick,20 to 24 years,Females,19.0
+2019,New Brunswick,20 to 24 years,Females,14.0
+2020,New Brunswick,20 to 24 years,Females,12.0
+2016,New Brunswick,25 to 29 years,Both sexes,20.0
+2017,New Brunswick,25 to 29 years,Both sexes,22.0
+2018,New Brunswick,25 to 29 years,Both sexes,18.0
+2019,New Brunswick,25 to 29 years,Both sexes,18.0
+2020,New Brunswick,25 to 29 years,Both sexes,21.0
+2016,New Brunswick,25 to 29 years,Males,20.0
+2017,New Brunswick,25 to 29 years,Males,24.0
+2018,New Brunswick,25 to 29 years,Males,17.0
+2019,New Brunswick,25 to 29 years,Males,19.0
+2020,New Brunswick,25 to 29 years,Males,23.0
+2016,New Brunswick,25 to 29 years,Females,19.0
+2017,New Brunswick,25 to 29 years,Females,20.0
+2018,New Brunswick,25 to 29 years,Females,19.0
+2019,New Brunswick,25 to 29 years,Females,17.0
+2020,New Brunswick,25 to 29 years,Females,20.0
+2016,Quebec,Total 15 to 29 years,Both sexes,13.0
+2017,Quebec,Total 15 to 29 years,Both sexes,10.0
+2018,Quebec,Total 15 to 29 years,Both sexes,10.0
+2019,Quebec,Total 15 to 29 years,Both sexes,10.0
+2020,Quebec,Total 15 to 29 years,Both sexes,12.0
+2016,Quebec,Total 15 to 29 years,Males,15.0
+2017,Quebec,Total 15 to 29 years,Males,12.0
+2018,Quebec,Total 15 to 29 years,Males,10.0
+2019,Quebec,Total 15 to 29 years,Males,10.0
+2020,Quebec,Total 15 to 29 years,Males,14.0
+2016,Quebec,Total 15 to 29 years,Females,11.0
+2017,Quebec,Total 15 to 29 years,Females,9.0
+2018,Quebec,Total 15 to 29 years,Females,9.0
+2019,Quebec,Total 15 to 29 years,Females,9.0
+2020,Quebec,Total 15 to 29 years,Females,10.0
+2016,Quebec,15 to 19 years,Both sexes,7.0
+2017,Quebec,15 to 19 years,Both sexes,6.0
+2018,Quebec,15 to 19 years,Both sexes,5.0
+2019,Quebec,15 to 19 years,Both sexes,5.0
+2020,Quebec,15 to 19 years,Both sexes,10.0
+2016,Quebec,15 to 19 years,Males,8.0
+2017,Quebec,15 to 19 years,Males,6.0
+2018,Quebec,15 to 19 years,Males,7.0
+2019,Quebec,15 to 19 years,Males,5.0
+2020,Quebec,15 to 19 years,Males,11.0
+2016,Quebec,15 to 19 years,Females,6.0
+2017,Quebec,15 to 19 years,Females,6.0
+2018,Quebec,15 to 19 years,Females,3.0
+2019,Quebec,15 to 19 years,Females,5.0
+2020,Quebec,15 to 19 years,Females,9.0
+2016,Quebec,15 to 24 years,Both sexes,11.0
+2017,Quebec,15 to 24 years,Both sexes,8.0
+2018,Quebec,15 to 24 years,Both sexes,8.0
+2019,Quebec,15 to 24 years,Both sexes,8.0
+2020,Quebec,15 to 24 years,Both sexes,12.0
+2016,Quebec,15 to 24 years,Males,14.0
+2017,Quebec,15 to 24 years,Males,9.0
+2018,Quebec,15 to 24 years,Males,10.0
+2019,Quebec,15 to 24 years,Males,9.0
+2020,Quebec,15 to 24 years,Males,14.0
+2016,Quebec,15 to 24 years,Females,8.0
+2017,Quebec,15 to 24 years,Females,7.0
+2018,Quebec,15 to 24 years,Females,7.0
+2019,Quebec,15 to 24 years,Females,7.0
+2020,Quebec,15 to 24 years,Females,9.0
+2016,Quebec,18 to 24 years,Both sexes,13.0
+2017,Quebec,18 to 24 years,Both sexes,10.0
+2018,Quebec,18 to 24 years,Both sexes,10.0
+2019,Quebec,18 to 24 years,Both sexes,10.0
+2020,Quebec,18 to 24 years,Both sexes,13.0
+2016,Quebec,18 to 24 years,Males,17.0
+2017,Quebec,18 to 24 years,Males,12.0
+2018,Quebec,18 to 24 years,Males,11.0
+2019,Quebec,18 to 24 years,Males,11.0
+2020,Quebec,18 to 24 years,Males,16.0
+2016,Quebec,18 to 24 years,Females,9.0
+2017,Quebec,18 to 24 years,Females,8.0
+2018,Quebec,18 to 24 years,Females,9.0
+2019,Quebec,18 to 24 years,Females,8.0
+2020,Quebec,18 to 24 years,Females,9.0
+2016,Quebec,20 to 24 years,Both sexes,14.0
+2017,Quebec,20 to 24 years,Both sexes,10.0
+2018,Quebec,20 to 24 years,Both sexes,11.0
+2019,Quebec,20 to 24 years,Both sexes,11.0
+2020,Quebec,20 to 24 years,Both sexes,13.0
+2016,Quebec,20 to 24 years,Males,18.0
+2017,Quebec,20 to 24 years,Males,12.0
+2018,Quebec,20 to 24 years,Males,12.0
+2019,Quebec,20 to 24 years,Males,12.0
+2020,Quebec,20 to 24 years,Males,17.0
+2016,Quebec,20 to 24 years,Females,9.0
+2017,Quebec,20 to 24 years,Females,7.0
+2018,Quebec,20 to 24 years,Females,10.0
+2019,Quebec,20 to 24 years,Females,9.0
+2020,Quebec,20 to 24 years,Females,9.0
+2016,Quebec,25 to 29 years,Both sexes,17.0
+2017,Quebec,25 to 29 years,Both sexes,14.0
+2018,Quebec,25 to 29 years,Both sexes,11.0
+2019,Quebec,25 to 29 years,Both sexes,12.0
+2020,Quebec,25 to 29 years,Both sexes,14.0
+2016,Quebec,25 to 29 years,Males,17.0
+2017,Quebec,25 to 29 years,Males,15.0
+2018,Quebec,25 to 29 years,Males,11.0
+2019,Quebec,25 to 29 years,Males,13.0
+2020,Quebec,25 to 29 years,Males,15.0
+2016,Quebec,25 to 29 years,Females,17.0
+2017,Quebec,25 to 29 years,Females,13.0
+2018,Quebec,25 to 29 years,Females,12.0
+2019,Quebec,25 to 29 years,Females,12.0
+2020,Quebec,25 to 29 years,Females,13.0
+2016,Ontario,Total 15 to 29 years,Both sexes,12.0
+2017,Ontario,Total 15 to 29 years,Both sexes,12.0
+2018,Ontario,Total 15 to 29 years,Both sexes,12.0
+2019,Ontario,Total 15 to 29 years,Both sexes,11.0
+2020,Ontario,Total 15 to 29 years,Both sexes,13.0
+2016,Ontario,Total 15 to 29 years,Males,13.0
+2017,Ontario,Total 15 to 29 years,Males,12.0
+2018,Ontario,Total 15 to 29 years,Males,12.0
+2019,Ontario,Total 15 to 29 years,Males,12.0
+2020,Ontario,Total 15 to 29 years,Males,14.0
+2016,Ontario,Total 15 to 29 years,Females,12.0
+2017,Ontario,Total 15 to 29 years,Females,12.0
+2018,Ontario,Total 15 to 29 years,Females,12.0
+2019,Ontario,Total 15 to 29 years,Females,11.0
+2020,Ontario,Total 15 to 29 years,Females,13.0
+2016,Ontario,15 to 19 years,Both sexes,5.0
+2017,Ontario,15 to 19 years,Both sexes,5.0
+2018,Ontario,15 to 19 years,Both sexes,6.0
+2019,Ontario,15 to 19 years,Both sexes,6.0
+2020,Ontario,15 to 19 years,Both sexes,8.0
+2016,Ontario,15 to 19 years,Males,6.0
+2017,Ontario,15 to 19 years,Males,6.0
+2018,Ontario,15 to 19 years,Males,7.0
+2019,Ontario,15 to 19 years,Males,7.0
+2020,Ontario,15 to 19 years,Males,10.0
+2016,Ontario,15 to 19 years,Females,4.0
+2017,Ontario,15 to 19 years,Females,4.0
+2018,Ontario,15 to 19 years,Females,5.0
+2019,Ontario,15 to 19 years,Females,5.0
+2020,Ontario,15 to 19 years,Females,7.0
+2016,Ontario,15 to 24 years,Both sexes,10.0
+2017,Ontario,15 to 24 years,Both sexes,9.0
+2018,Ontario,15 to 24 years,Both sexes,10.0
+2019,Ontario,15 to 24 years,Both sexes,10.0
+2020,Ontario,15 to 24 years,Both sexes,11.0
+2016,Ontario,15 to 24 years,Males,11.0
+2017,Ontario,15 to 24 years,Males,10.0
+2018,Ontario,15 to 24 years,Males,11.0
+2019,Ontario,15 to 24 years,Males,10.0
+2020,Ontario,15 to 24 years,Males,13.0
+2016,Ontario,15 to 24 years,Females,9.0
+2017,Ontario,15 to 24 years,Females,9.0
+2018,Ontario,15 to 24 years,Females,8.0
+2019,Ontario,15 to 24 years,Females,9.0
+2020,Ontario,15 to 24 years,Females,10.0
+2016,Ontario,18 to 24 years,Both sexes,13.0
+2017,Ontario,18 to 24 years,Both sexes,12.0
+2018,Ontario,18 to 24 years,Both sexes,12.0
+2019,Ontario,18 to 24 years,Both sexes,12.0
+2020,Ontario,18 to 24 years,Both sexes,13.0
+2016,Ontario,18 to 24 years,Males,14.0
+2017,Ontario,18 to 24 years,Males,12.0
+2018,Ontario,18 to 24 years,Males,13.0
+2019,Ontario,18 to 24 years,Males,13.0
+2020,Ontario,18 to 24 years,Males,15.0
+2016,Ontario,18 to 24 years,Females,11.0
+2017,Ontario,18 to 24 years,Females,11.0
+2018,Ontario,18 to 24 years,Females,11.0
+2019,Ontario,18 to 24 years,Females,11.0
+2020,Ontario,18 to 24 years,Females,11.0
+2016,Ontario,20 to 24 years,Both sexes,14.0
+2017,Ontario,20 to 24 years,Both sexes,13.0
+2018,Ontario,20 to 24 years,Both sexes,13.0
+2019,Ontario,20 to 24 years,Both sexes,13.0
+2020,Ontario,20 to 24 years,Both sexes,14.0
+2016,Ontario,20 to 24 years,Males,15.0
+2017,Ontario,20 to 24 years,Males,13.0
+2018,Ontario,20 to 24 years,Males,14.0
+2019,Ontario,20 to 24 years,Males,13.0
+2020,Ontario,20 to 24 years,Males,15.0
+2016,Ontario,20 to 24 years,Females,13.0
+2017,Ontario,20 to 24 years,Females,13.0
+2018,Ontario,20 to 24 years,Females,12.0
+2019,Ontario,20 to 24 years,Females,12.0
+2020,Ontario,20 to 24 years,Females,12.0
+2016,Ontario,25 to 29 years,Both sexes,17.0
+2017,Ontario,25 to 29 years,Both sexes,17.0
+2018,Ontario,25 to 29 years,Both sexes,17.0
+2019,Ontario,25 to 29 years,Both sexes,15.0
+2020,Ontario,25 to 29 years,Both sexes,17.0
+2016,Ontario,25 to 29 years,Males,17.0
+2017,Ontario,25 to 29 years,Males,16.0
+2018,Ontario,25 to 29 years,Males,15.0
+2019,Ontario,25 to 29 years,Males,14.0
+2020,Ontario,25 to 29 years,Males,15.0
+2016,Ontario,25 to 29 years,Females,17.0
+2017,Ontario,25 to 29 years,Females,17.0
+2018,Ontario,25 to 29 years,Females,18.0
+2019,Ontario,25 to 29 years,Females,15.0
+2020,Ontario,25 to 29 years,Females,18.0
+2016,Manitoba,Total 15 to 29 years,Both sexes,13.0
+2017,Manitoba,Total 15 to 29 years,Both sexes,13.0
+2018,Manitoba,Total 15 to 29 years,Both sexes,13.0
+2019,Manitoba,Total 15 to 29 years,Both sexes,13.0
+2020,Manitoba,Total 15 to 29 years,Both sexes,13.0
+2016,Manitoba,Total 15 to 29 years,Males,13.0
+2017,Manitoba,Total 15 to 29 years,Males,12.0
+2018,Manitoba,Total 15 to 29 years,Males,13.0
+2019,Manitoba,Total 15 to 29 years,Males,13.0
+2020,Manitoba,Total 15 to 29 years,Males,13.0
+2016,Manitoba,Total 15 to 29 years,Females,14.0
+2017,Manitoba,Total 15 to 29 years,Females,14.0
+2018,Manitoba,Total 15 to 29 years,Females,14.0
+2019,Manitoba,Total 15 to 29 years,Females,13.0
+2020,Manitoba,Total 15 to 29 years,Females,14.0
+2016,Manitoba,15 to 19 years,Both sexes,6.0
+2017,Manitoba,15 to 19 years,Both sexes,6.0
+2018,Manitoba,15 to 19 years,Both sexes,7.0
+2019,Manitoba,15 to 19 years,Both sexes,8.0
+2020,Manitoba,15 to 19 years,Both sexes,7.0
+2016,Manitoba,15 to 19 years,Males,7.0
+2017,Manitoba,15 to 19 years,Males,7.0
+2018,Manitoba,15 to 19 years,Males,8.0
+2019,Manitoba,15 to 19 years,Males,9.0
+2020,Manitoba,15 to 19 years,Males,7.0
+2016,Manitoba,15 to 19 years,Females,6.0
+2017,Manitoba,15 to 19 years,Females,5.0
+2018,Manitoba,15 to 19 years,Females,6.0
+2019,Manitoba,15 to 19 years,Females,7.0
+2020,Manitoba,15 to 19 years,Females,6.0
+2016,Manitoba,15 to 24 years,Both sexes,11.0
+2017,Manitoba,15 to 24 years,Both sexes,11.0
+2018,Manitoba,15 to 24 years,Both sexes,12.0
+2019,Manitoba,15 to 24 years,Both sexes,12.0
+2020,Manitoba,15 to 24 years,Both sexes,11.0
+2016,Manitoba,15 to 24 years,Males,11.0
+2017,Manitoba,15 to 24 years,Males,12.0
+2018,Manitoba,15 to 24 years,Males,12.0
+2019,Manitoba,15 to 24 years,Males,13.0
+2020,Manitoba,15 to 24 years,Males,12.0
+2016,Manitoba,15 to 24 years,Females,12.0
+2017,Manitoba,15 to 24 years,Females,11.0
+2018,Manitoba,15 to 24 years,Females,11.0
+2019,Manitoba,15 to 24 years,Females,10.0
+2020,Manitoba,15 to 24 years,Females,11.0
+2016,Manitoba,18 to 24 years,Both sexes,15.0
+2017,Manitoba,18 to 24 years,Both sexes,15.0
+2018,Manitoba,18 to 24 years,Both sexes,14.0
+2019,Manitoba,18 to 24 years,Both sexes,15.0
+2020,Manitoba,18 to 24 years,Both sexes,14.0
+2016,Manitoba,18 to 24 years,Males,14.0
+2017,Manitoba,18 to 24 years,Males,15.0
+2018,Manitoba,18 to 24 years,Males,15.0
+2019,Manitoba,18 to 24 years,Males,17.0
+2020,Manitoba,18 to 24 years,Males,14.0
+2016,Manitoba,18 to 24 years,Females,15.0
+2017,Manitoba,18 to 24 years,Females,14.0
+2018,Manitoba,18 to 24 years,Females,14.0
+2019,Manitoba,18 to 24 years,Females,14.0
+2020,Manitoba,18 to 24 years,Females,13.0
+2016,Manitoba,20 to 24 years,Both sexes,16.0
+2017,Manitoba,20 to 24 years,Both sexes,16.0
+2018,Manitoba,20 to 24 years,Both sexes,16.0
+2019,Manitoba,20 to 24 years,Both sexes,15.0
+2020,Manitoba,20 to 24 years,Both sexes,15.0
+2016,Manitoba,20 to 24 years,Males,15.0
+2017,Manitoba,20 to 24 years,Males,15.0
+2018,Manitoba,20 to 24 years,Males,15.0
+2019,Manitoba,20 to 24 years,Males,16.0
+2020,Manitoba,20 to 24 years,Males,16.0
+2016,Manitoba,20 to 24 years,Females,16.0
+2017,Manitoba,20 to 24 years,Females,17.0
+2018,Manitoba,20 to 24 years,Females,16.0
+2019,Manitoba,20 to 24 years,Females,14.0
+2020,Manitoba,20 to 24 years,Females,15.0
+2016,Manitoba,25 to 29 years,Both sexes,17.0
+2017,Manitoba,25 to 29 years,Both sexes,15.0
+2018,Manitoba,25 to 29 years,Both sexes,17.0
+2019,Manitoba,25 to 29 years,Both sexes,16.0
+2020,Manitoba,25 to 29 years,Both sexes,17.0
+2016,Manitoba,25 to 29 years,Males,16.0
+2017,Manitoba,25 to 29 years,Males,12.0
+2018,Manitoba,25 to 29 years,Males,16.0
+2019,Manitoba,25 to 29 years,Males,14.0
+2020,Manitoba,25 to 29 years,Males,14.0
+2016,Manitoba,25 to 29 years,Females,18.0
+2017,Manitoba,25 to 29 years,Females,19.0
+2018,Manitoba,25 to 29 years,Females,19.0
+2019,Manitoba,25 to 29 years,Females,18.0
+2020,Manitoba,25 to 29 years,Females,20.0
+2016,Saskatchewan,Total 15 to 29 years,Both sexes,13.0
+2017,Saskatchewan,Total 15 to 29 years,Both sexes,13.0
+2018,Saskatchewan,Total 15 to 29 years,Both sexes,13.0
+2019,Saskatchewan,Total 15 to 29 years,Both sexes,11.0
+2020,Saskatchewan,Total 15 to 29 years,Both sexes,14.0
+2016,Saskatchewan,Total 15 to 29 years,Males,12.0
+2017,Saskatchewan,Total 15 to 29 years,Males,13.0
+2018,Saskatchewan,Total 15 to 29 years,Males,13.0
+2019,Saskatchewan,Total 15 to 29 years,Males,10.0
+2020,Saskatchewan,Total 15 to 29 years,Males,14.0
+2016,Saskatchewan,Total 15 to 29 years,Females,14.0
+2017,Saskatchewan,Total 15 to 29 years,Females,14.0
+2018,Saskatchewan,Total 15 to 29 years,Females,13.0
+2019,Saskatchewan,Total 15 to 29 years,Females,13.0
+2020,Saskatchewan,Total 15 to 29 years,Females,15.0
+2016,Saskatchewan,15 to 19 years,Both sexes,8.0
+2017,Saskatchewan,15 to 19 years,Both sexes,8.0
+2018,Saskatchewan,15 to 19 years,Both sexes,8.0
+2019,Saskatchewan,15 to 19 years,Both sexes,6.0
+2020,Saskatchewan,15 to 19 years,Both sexes,12.0
+2016,Saskatchewan,15 to 19 years,Males,9.0
+2017,Saskatchewan,15 to 19 years,Males,9.0
+2018,Saskatchewan,15 to 19 years,Males,8.0
+2019,Saskatchewan,15 to 19 years,Males,6.0
+2020,Saskatchewan,15 to 19 years,Males,14.0
+2016,Saskatchewan,15 to 19 years,Females,8.0
+2017,Saskatchewan,15 to 19 years,Females,6.0
+2018,Saskatchewan,15 to 19 years,Females,8.0
+2019,Saskatchewan,15 to 19 years,Females,6.0
+2020,Saskatchewan,15 to 19 years,Females,11.0
+2016,Saskatchewan,15 to 24 years,Both sexes,12.0
+2017,Saskatchewan,15 to 24 years,Both sexes,12.0
+2018,Saskatchewan,15 to 24 years,Both sexes,11.0
+2019,Saskatchewan,15 to 24 years,Both sexes,9.0
+2020,Saskatchewan,15 to 24 years,Both sexes,14.0
+2016,Saskatchewan,15 to 24 years,Males,12.0
+2017,Saskatchewan,15 to 24 years,Males,12.0
+2018,Saskatchewan,15 to 24 years,Males,12.0
+2019,Saskatchewan,15 to 24 years,Males,9.0
+2020,Saskatchewan,15 to 24 years,Males,13.0
+2016,Saskatchewan,15 to 24 years,Females,11.0
+2017,Saskatchewan,15 to 24 years,Females,11.0
+2018,Saskatchewan,15 to 24 years,Females,10.0
+2019,Saskatchewan,15 to 24 years,Females,10.0
+2020,Saskatchewan,15 to 24 years,Females,14.0
+2016,Saskatchewan,18 to 24 years,Both sexes,15.0
+2017,Saskatchewan,18 to 24 years,Both sexes,15.0
+2018,Saskatchewan,18 to 24 years,Both sexes,14.0
+2019,Saskatchewan,18 to 24 years,Both sexes,12.0
+2020,Saskatchewan,18 to 24 years,Both sexes,16.0
+2016,Saskatchewan,18 to 24 years,Males,16.0
+2017,Saskatchewan,18 to 24 years,Males,16.0
+2018,Saskatchewan,18 to 24 years,Males,16.0
+2019,Saskatchewan,18 to 24 years,Males,12.0
+2020,Saskatchewan,18 to 24 years,Males,15.0
+2016,Saskatchewan,18 to 24 years,Females,14.0
+2017,Saskatchewan,18 to 24 years,Females,14.0
+2018,Saskatchewan,18 to 24 years,Females,12.0
+2019,Saskatchewan,18 to 24 years,Females,12.0
+2020,Saskatchewan,18 to 24 years,Females,17.0
+2016,Saskatchewan,20 to 24 years,Both sexes,15.0
+2017,Saskatchewan,20 to 24 years,Both sexes,15.0
+2018,Saskatchewan,20 to 24 years,Both sexes,14.0
+2019,Saskatchewan,20 to 24 years,Both sexes,12.0
+2020,Saskatchewan,20 to 24 years,Both sexes,15.0
+2016,Saskatchewan,20 to 24 years,Males,16.0
+2017,Saskatchewan,20 to 24 years,Males,15.0
+2018,Saskatchewan,20 to 24 years,Males,16.0
+2019,Saskatchewan,20 to 24 years,Males,12.0
+2020,Saskatchewan,20 to 24 years,Males,13.0
+2016,Saskatchewan,20 to 24 years,Females,14.0
+2017,Saskatchewan,20 to 24 years,Females,15.0
+2018,Saskatchewan,20 to 24 years,Females,12.0
+2019,Saskatchewan,20 to 24 years,Females,13.0
+2020,Saskatchewan,20 to 24 years,Females,17.0
+2016,Saskatchewan,25 to 29 years,Both sexes,15.0
+2017,Saskatchewan,25 to 29 years,Both sexes,17.0
+2018,Saskatchewan,25 to 29 years,Both sexes,17.0
+2019,Saskatchewan,25 to 29 years,Both sexes,15.0
+2020,Saskatchewan,25 to 29 years,Both sexes,16.0
+2016,Saskatchewan,25 to 29 years,Males,12.0
+2017,Saskatchewan,25 to 29 years,Males,14.0
+2018,Saskatchewan,25 to 29 years,Males,15.0
+2019,Saskatchewan,25 to 29 years,Males,12.0
+2020,Saskatchewan,25 to 29 years,Males,14.0
+2016,Saskatchewan,25 to 29 years,Females,19.0
+2017,Saskatchewan,25 to 29 years,Females,20.0
+2018,Saskatchewan,25 to 29 years,Females,20.0
+2019,Saskatchewan,25 to 29 years,Females,18.0
+2020,Saskatchewan,25 to 29 years,Females,17.0
+2016,Alberta,Total 15 to 29 years,Both sexes,14.0
+2017,Alberta,Total 15 to 29 years,Both sexes,13.0
+2018,Alberta,Total 15 to 29 years,Both sexes,13.0
+2019,Alberta,Total 15 to 29 years,Both sexes,12.0
+2020,Alberta,Total 15 to 29 years,Both sexes,15.0
+2016,Alberta,Total 15 to 29 years,Males,13.0
+2017,Alberta,Total 15 to 29 years,Males,13.0
+2018,Alberta,Total 15 to 29 years,Males,12.0
+2019,Alberta,Total 15 to 29 years,Males,12.0
+2020,Alberta,Total 15 to 29 years,Males,15.0
+2016,Alberta,Total 15 to 29 years,Females,15.0
+2017,Alberta,Total 15 to 29 years,Females,13.0
+2018,Alberta,Total 15 to 29 years,Females,15.0
+2019,Alberta,Total 15 to 29 years,Females,12.0
+2020,Alberta,Total 15 to 29 years,Females,15.0
+2016,Alberta,15 to 19 years,Both sexes,6.0
+2017,Alberta,15 to 19 years,Both sexes,6.0
+2018,Alberta,15 to 19 years,Both sexes,7.0
+2019,Alberta,15 to 19 years,Both sexes,8.0
+2020,Alberta,15 to 19 years,Both sexes,8.0
+2016,Alberta,15 to 19 years,Males,7.0
+2017,Alberta,15 to 19 years,Males,7.0
+2018,Alberta,15 to 19 years,Males,8.0
+2019,Alberta,15 to 19 years,Males,9.0
+2020,Alberta,15 to 19 years,Males,10.0
+2016,Alberta,15 to 19 years,Females,5.0
+2017,Alberta,15 to 19 years,Females,5.0
+2018,Alberta,15 to 19 years,Females,6.0
+2019,Alberta,15 to 19 years,Females,6.0
+2020,Alberta,15 to 19 years,Females,6.0
+2016,Alberta,15 to 24 years,Both sexes,11.0
+2017,Alberta,15 to 24 years,Both sexes,11.0
+2018,Alberta,15 to 24 years,Both sexes,11.0
+2019,Alberta,15 to 24 years,Both sexes,10.0
+2020,Alberta,15 to 24 years,Both sexes,12.0
+2016,Alberta,15 to 24 years,Males,12.0
+2017,Alberta,15 to 24 years,Males,11.0
+2018,Alberta,15 to 24 years,Males,11.0
+2019,Alberta,15 to 24 years,Males,11.0
+2020,Alberta,15 to 24 years,Males,13.0
+2016,Alberta,15 to 24 years,Females,10.0
+2017,Alberta,15 to 24 years,Females,10.0
+2018,Alberta,15 to 24 years,Females,11.0
+2019,Alberta,15 to 24 years,Females,8.0
+2020,Alberta,15 to 24 years,Females,11.0
+2016,Alberta,18 to 24 years,Both sexes,14.0
+2017,Alberta,18 to 24 years,Both sexes,13.0
+2018,Alberta,18 to 24 years,Both sexes,14.0
+2019,Alberta,18 to 24 years,Both sexes,12.0
+2020,Alberta,18 to 24 years,Both sexes,15.0
+2016,Alberta,18 to 24 years,Males,15.0
+2017,Alberta,18 to 24 years,Males,14.0
+2018,Alberta,18 to 24 years,Males,14.0
+2019,Alberta,18 to 24 years,Males,14.0
+2020,Alberta,18 to 24 years,Males,16.0
+2016,Alberta,18 to 24 years,Females,13.0
+2017,Alberta,18 to 24 years,Females,13.0
+2018,Alberta,18 to 24 years,Females,14.0
+2019,Alberta,18 to 24 years,Females,11.0
+2020,Alberta,18 to 24 years,Females,14.0
+2016,Alberta,20 to 24 years,Both sexes,15.0
+2017,Alberta,20 to 24 years,Both sexes,15.0
+2018,Alberta,20 to 24 years,Both sexes,15.0
+2019,Alberta,20 to 24 years,Both sexes,12.0
+2020,Alberta,20 to 24 years,Both sexes,16.0
+2016,Alberta,20 to 24 years,Males,16.0
+2017,Alberta,20 to 24 years,Males,15.0
+2018,Alberta,20 to 24 years,Males,14.0
+2019,Alberta,20 to 24 years,Males,14.0
+2020,Alberta,20 to 24 years,Males,16.0
+2016,Alberta,20 to 24 years,Females,14.0
+2017,Alberta,20 to 24 years,Females,14.0
+2018,Alberta,20 to 24 years,Females,16.0
+2019,Alberta,20 to 24 years,Females,10.0
+2020,Alberta,20 to 24 years,Females,15.0
+2016,Alberta,25 to 29 years,Both sexes,18.0
+2017,Alberta,25 to 29 years,Both sexes,17.0
+2018,Alberta,25 to 29 years,Both sexes,17.0
+2019,Alberta,25 to 29 years,Both sexes,16.0
+2020,Alberta,25 to 29 years,Both sexes,21.0
+2016,Alberta,25 to 29 years,Males,15.0
+2017,Alberta,25 to 29 years,Males,16.0
+2018,Alberta,25 to 29 years,Males,14.0
+2019,Alberta,25 to 29 years,Males,13.0
+2020,Alberta,25 to 29 years,Males,19.0
+2016,Alberta,25 to 29 years,Females,22.0
+2017,Alberta,25 to 29 years,Females,19.0
+2018,Alberta,25 to 29 years,Females,20.0
+2019,Alberta,25 to 29 years,Females,18.0
+2020,Alberta,25 to 29 years,Females,23.0
+2016,British Columbia,Total 15 to 29 years,Both sexes,12.0
+2017,British Columbia,Total 15 to 29 years,Both sexes,11.0
+2018,British Columbia,Total 15 to 29 years,Both sexes,11.0
+2019,British Columbia,Total 15 to 29 years,Both sexes,10.0
+2020,British Columbia,Total 15 to 29 years,Both sexes,14.0
+2016,British Columbia,Total 15 to 29 years,Males,12.0
+2017,British Columbia,Total 15 to 29 years,Males,11.0
+2018,British Columbia,Total 15 to 29 years,Males,12.0
+2019,British Columbia,Total 15 to 29 years,Males,11.0
+2020,British Columbia,Total 15 to 29 years,Males,14.0
+2016,British Columbia,Total 15 to 29 years,Females,12.0
+2017,British Columbia,Total 15 to 29 years,Females,11.0
+2018,British Columbia,Total 15 to 29 years,Females,10.0
+2019,British Columbia,Total 15 to 29 years,Females,10.0
+2020,British Columbia,Total 15 to 29 years,Females,13.0
+2016,British Columbia,15 to 19 years,Both sexes,7.0
+2017,British Columbia,15 to 19 years,Both sexes,6.0
+2018,British Columbia,15 to 19 years,Both sexes,6.0
+2019,British Columbia,15 to 19 years,Both sexes,5.0
+2020,British Columbia,15 to 19 years,Both sexes,11.0
+2016,British Columbia,15 to 19 years,Males,8.0
+2017,British Columbia,15 to 19 years,Males,8.0
+2018,British Columbia,15 to 19 years,Males,7.0
+2019,British Columbia,15 to 19 years,Males,6.0
+2020,British Columbia,15 to 19 years,Males,11.0
+2016,British Columbia,15 to 19 years,Females,6.0
+2017,British Columbia,15 to 19 years,Females,4.0
+2018,British Columbia,15 to 19 years,Females,6.0
+2019,British Columbia,15 to 19 years,Females,5.0
+2020,British Columbia,15 to 19 years,Females,10.0
+2016,British Columbia,15 to 24 years,Both sexes,10.0
+2017,British Columbia,15 to 24 years,Both sexes,9.0
+2018,British Columbia,15 to 24 years,Both sexes,9.0
+2019,British Columbia,15 to 24 years,Both sexes,9.0
+2020,British Columbia,15 to 24 years,Both sexes,12.0
+2016,British Columbia,15 to 24 years,Males,11.0
+2017,British Columbia,15 to 24 years,Males,11.0
+2018,British Columbia,15 to 24 years,Males,10.0
+2019,British Columbia,15 to 24 years,Males,10.0
+2020,British Columbia,15 to 24 years,Males,14.0
+2016,British Columbia,15 to 24 years,Females,9.0
+2017,British Columbia,15 to 24 years,Females,7.0
+2018,British Columbia,15 to 24 years,Females,8.0
+2019,British Columbia,15 to 24 years,Females,7.0
+2020,British Columbia,15 to 24 years,Females,11.0
+2016,British Columbia,18 to 24 years,Both sexes,12.0
+2017,British Columbia,18 to 24 years,Both sexes,11.0
+2018,British Columbia,18 to 24 years,Both sexes,11.0
+2019,British Columbia,18 to 24 years,Both sexes,11.0
+2020,British Columbia,18 to 24 years,Both sexes,14.0
+2016,British Columbia,18 to 24 years,Males,13.0
+2017,British Columbia,18 to 24 years,Males,13.0
+2018,British Columbia,18 to 24 years,Males,13.0
+2019,British Columbia,18 to 24 years,Males,13.0
+2020,British Columbia,18 to 24 years,Males,15.0
+2016,British Columbia,18 to 24 years,Females,11.0
+2017,British Columbia,18 to 24 years,Females,8.0
+2018,British Columbia,18 to 24 years,Females,10.0
+2019,British Columbia,18 to 24 years,Females,9.0
+2020,British Columbia,18 to 24 years,Females,13.0
+2016,British Columbia,20 to 24 years,Both sexes,12.0
+2017,British Columbia,20 to 24 years,Both sexes,12.0
+2018,British Columbia,20 to 24 years,Both sexes,12.0
+2019,British Columbia,20 to 24 years,Both sexes,11.0
+2020,British Columbia,20 to 24 years,Both sexes,14.0
+2016,British Columbia,20 to 24 years,Males,13.0
+2017,British Columbia,20 to 24 years,Males,13.0
+2018,British Columbia,20 to 24 years,Males,13.0
+2019,British Columbia,20 to 24 years,Males,13.0
+2020,British Columbia,20 to 24 years,Males,15.0
+2016,British Columbia,20 to 24 years,Females,11.0
+2017,British Columbia,20 to 24 years,Females,10.0
+2018,British Columbia,20 to 24 years,Females,10.0
+2019,British Columbia,20 to 24 years,Females,9.0
+2020,British Columbia,20 to 24 years,Females,12.0
+2016,British Columbia,25 to 29 years,Both sexes,17.0
+2017,British Columbia,25 to 29 years,Both sexes,15.0
+2018,British Columbia,25 to 29 years,Both sexes,14.0
+2019,British Columbia,25 to 29 years,Both sexes,14.0
+2020,British Columbia,25 to 29 years,Both sexes,16.0
+2016,British Columbia,25 to 29 years,Males,15.0
+2017,British Columbia,25 to 29 years,Males,12.0
+2018,British Columbia,25 to 29 years,Males,14.0
+2019,British Columbia,25 to 29 years,Males,12.0
+2020,British Columbia,25 to 29 years,Males,16.0
+2016,British Columbia,25 to 29 years,Females,19.0
+2017,British Columbia,25 to 29 years,Females,18.0
+2018,British Columbia,25 to 29 years,Females,15.0
+2019,British Columbia,25 to 29 years,Females,15.0
+2020,British Columbia,25 to 29 years,Females,17.0
+2016,Yukon,Total 15 to 29 years,Both sexes,15.0
+2017,Yukon,Total 15 to 29 years,Both sexes,15.0
+2018,Yukon,Total 15 to 29 years,Both sexes,13.0
+2019,Yukon,Total 15 to 29 years,Both sexes,9.0
+2020,Yukon,Total 15 to 29 years,Both sexes,16.0
+2016,Yukon,Total 15 to 29 years,Males,16.0
+2017,Yukon,Total 15 to 29 years,Males,10.0
+2018,Yukon,Total 15 to 29 years,Males,10.0
+2019,Yukon,Total 15 to 29 years,Males,
+2020,Yukon,Total 15 to 29 years,Males,16.0
+2016,Yukon,Total 15 to 29 years,Females,13.0
+2017,Yukon,Total 15 to 29 years,Females,21.0
+2018,Yukon,Total 15 to 29 years,Females,18.0
+2019,Yukon,Total 15 to 29 years,Females,12.0
+2020,Yukon,Total 15 to 29 years,Females,15.0
+2016,Yukon,15 to 19 years,Both sexes,
+2017,Yukon,15 to 19 years,Both sexes,
+2018,Yukon,15 to 19 years,Both sexes,
+2019,Yukon,15 to 19 years,Both sexes,
+2020,Yukon,15 to 19 years,Both sexes,14.0
+2016,Yukon,15 to 19 years,Males,
+2017,Yukon,15 to 19 years,Males,
+2018,Yukon,15 to 19 years,Males,
+2019,Yukon,15 to 19 years,Males,
+2020,Yukon,15 to 19 years,Males,17.0
+2016,Yukon,15 to 19 years,Females,
+2017,Yukon,15 to 19 years,Females,
+2018,Yukon,15 to 19 years,Females,
+2019,Yukon,15 to 19 years,Females,
+2020,Yukon,15 to 19 years,Females,
+2016,Yukon,15 to 24 years,Both sexes,13.0
+2017,Yukon,15 to 24 years,Both sexes,14.0
+2018,Yukon,15 to 24 years,Both sexes,12.0
+2019,Yukon,15 to 24 years,Both sexes,8.0
+2020,Yukon,15 to 24 years,Both sexes,14.0
+2016,Yukon,15 to 24 years,Males,14.0
+2017,Yukon,15 to 24 years,Males,
+2018,Yukon,15 to 24 years,Males,
+2019,Yukon,15 to 24 years,Males,
+2020,Yukon,15 to 24 years,Males,17.0
+2016,Yukon,15 to 24 years,Females,11.0
+2017,Yukon,15 to 24 years,Females,20.0
+2018,Yukon,15 to 24 years,Females,13.0
+2019,Yukon,15 to 24 years,Females,
+2020,Yukon,15 to 24 years,Females,
+2016,Yukon,18 to 24 years,Both sexes,18.0
+2017,Yukon,18 to 24 years,Both sexes,19.0
+2018,Yukon,18 to 24 years,Both sexes,16.0
+2019,Yukon,18 to 24 years,Both sexes,9.0
+2020,Yukon,18 to 24 years,Both sexes,18.0
+2016,Yukon,18 to 24 years,Males,21.0
+2017,Yukon,18 to 24 years,Males,
+2018,Yukon,18 to 24 years,Males,
+2019,Yukon,18 to 24 years,Males,
+2020,Yukon,18 to 24 years,Males,21.0
+2016,Yukon,18 to 24 years,Females,15.0
+2017,Yukon,18 to 24 years,Females,23.0
+2018,Yukon,18 to 24 years,Females,16.0
+2019,Yukon,18 to 24 years,Females,
+2020,Yukon,18 to 24 years,Females,
+2016,Yukon,20 to 24 years,Both sexes,19.0
+2017,Yukon,20 to 24 years,Both sexes,21.0
+2018,Yukon,20 to 24 years,Both sexes,17.0
+2019,Yukon,20 to 24 years,Both sexes,
+2020,Yukon,20 to 24 years,Both sexes,14.0
+2016,Yukon,20 to 24 years,Males,21.0
+2017,Yukon,20 to 24 years,Males,
+2018,Yukon,20 to 24 years,Males,
+2019,Yukon,20 to 24 years,Males,
+2020,Yukon,20 to 24 years,Males,
+2016,Yukon,20 to 24 years,Females,
+2017,Yukon,20 to 24 years,Females,25.0
+2018,Yukon,20 to 24 years,Females,19.0
+2019,Yukon,20 to 24 years,Females,
+2020,Yukon,20 to 24 years,Females,
+2016,Yukon,25 to 29 years,Both sexes,17.0
+2017,Yukon,25 to 29 years,Both sexes,17.0
+2018,Yukon,25 to 29 years,Both sexes,16.0
+2019,Yukon,25 to 29 years,Both sexes,11.0
+2020,Yukon,25 to 29 years,Both sexes,19.0
+2016,Yukon,25 to 29 years,Males,18.0
+2017,Yukon,25 to 29 years,Males,
+2018,Yukon,25 to 29 years,Males,
+2019,Yukon,25 to 29 years,Males,
+2020,Yukon,25 to 29 years,Males,
+2016,Yukon,25 to 29 years,Females,17.0
+2017,Yukon,25 to 29 years,Females,22.0
+2018,Yukon,25 to 29 years,Females,26.0
+2019,Yukon,25 to 29 years,Females,
+2020,Yukon,25 to 29 years,Females,24.0
+2016,Northwest Territories,Total 15 to 29 years,Both sexes,19.0
+2017,Northwest Territories,Total 15 to 29 years,Both sexes,19.0
+2018,Northwest Territories,Total 15 to 29 years,Both sexes,21.0
+2019,Northwest Territories,Total 15 to 29 years,Both sexes,21.0
+2020,Northwest Territories,Total 15 to 29 years,Both sexes,22.0
+2016,Northwest Territories,Total 15 to 29 years,Males,21.0
+2017,Northwest Territories,Total 15 to 29 years,Males,22.0
+2018,Northwest Territories,Total 15 to 29 years,Males,23.0
+2019,Northwest Territories,Total 15 to 29 years,Males,23.0
+2020,Northwest Territories,Total 15 to 29 years,Males,22.0
+2016,Northwest Territories,Total 15 to 29 years,Females,17.0
+2017,Northwest Territories,Total 15 to 29 years,Females,16.0
+2018,Northwest Territories,Total 15 to 29 years,Females,18.0
+2019,Northwest Territories,Total 15 to 29 years,Females,19.0
+2020,Northwest Territories,Total 15 to 29 years,Females,22.0
+2016,Northwest Territories,15 to 19 years,Both sexes,12.0
+2017,Northwest Territories,15 to 19 years,Both sexes,
+2018,Northwest Territories,15 to 19 years,Both sexes,10.0
+2019,Northwest Territories,15 to 19 years,Both sexes,
+2020,Northwest Territories,15 to 19 years,Both sexes,13.0
+2016,Northwest Territories,15 to 19 years,Males,
+2017,Northwest Territories,15 to 19 years,Males,
+2018,Northwest Territories,15 to 19 years,Males,
+2019,Northwest Territories,15 to 19 years,Males,
+2020,Northwest Territories,15 to 19 years,Males,
+2016,Northwest Territories,15 to 19 years,Females,
+2017,Northwest Territories,15 to 19 years,Females,
+2018,Northwest Territories,15 to 19 years,Females,
+2019,Northwest Territories,15 to 19 years,Females,
+2020,Northwest Territories,15 to 19 years,Females,
+2016,Northwest Territories,15 to 24 years,Both sexes,20.0
+2017,Northwest Territories,15 to 24 years,Both sexes,19.0
+2018,Northwest Territories,15 to 24 years,Both sexes,20.0
+2019,Northwest Territories,15 to 24 years,Both sexes,19.0
+2020,Northwest Territories,15 to 24 years,Both sexes,22.0
+2016,Northwest Territories,15 to 24 years,Males,22.0
+2017,Northwest Territories,15 to 24 years,Males,21.0
+2018,Northwest Territories,15 to 24 years,Males,21.0
+2019,Northwest Territories,15 to 24 years,Males,18.0
+2020,Northwest Territories,15 to 24 years,Males,22.0
+2016,Northwest Territories,15 to 24 years,Females,18.0
+2017,Northwest Territories,15 to 24 years,Females,17.0
+2018,Northwest Territories,15 to 24 years,Females,20.0
+2019,Northwest Territories,15 to 24 years,Females,20.0
+2020,Northwest Territories,15 to 24 years,Females,22.0
+2016,Northwest Territories,18 to 24 years,Both sexes,27.0
+2017,Northwest Territories,18 to 24 years,Both sexes,24.0
+2018,Northwest Territories,18 to 24 years,Both sexes,27.0
+2019,Northwest Territories,18 to 24 years,Both sexes,27.0
+2020,Northwest Territories,18 to 24 years,Both sexes,29.0
+2016,Northwest Territories,18 to 24 years,Males,29.0
+2017,Northwest Territories,18 to 24 years,Males,27.0
+2018,Northwest Territories,18 to 24 years,Males,27.0
+2019,Northwest Territories,18 to 24 years,Males,24.0
+2020,Northwest Territories,18 to 24 years,Males,31.0
+2016,Northwest Territories,18 to 24 years,Females,24.0
+2017,Northwest Territories,18 to 24 years,Females,21.0
+2018,Northwest Territories,18 to 24 years,Females,26.0
+2019,Northwest Territories,18 to 24 years,Females,29.0
+2020,Northwest Territories,18 to 24 years,Females,28.0
+2016,Northwest Territories,20 to 24 years,Both sexes,28.0
+2017,Northwest Territories,20 to 24 years,Both sexes,28.0
+2018,Northwest Territories,20 to 24 years,Both sexes,31.0
+2019,Northwest Territories,20 to 24 years,Both sexes,33.0
+2020,Northwest Territories,20 to 24 years,Both sexes,33.0
+2016,Northwest Territories,20 to 24 years,Males,32.0
+2017,Northwest Territories,20 to 24 years,Males,32.0
+2018,Northwest Territories,20 to 24 years,Males,37.0
+2019,Northwest Territories,20 to 24 years,Males,28.0
+2020,Northwest Territories,20 to 24 years,Males,33.0
+2016,Northwest Territories,20 to 24 years,Females,24.0
+2017,Northwest Territories,20 to 24 years,Females,24.0
+2018,Northwest Territories,20 to 24 years,Females,24.0
+2019,Northwest Territories,20 to 24 years,Females,37.0
+2020,Northwest Territories,20 to 24 years,Females,33.0
+2016,Northwest Territories,25 to 29 years,Both sexes,18.0
+2017,Northwest Territories,25 to 29 years,Both sexes,19.0
+2018,Northwest Territories,25 to 29 years,Both sexes,22.0
+2019,Northwest Territories,25 to 29 years,Both sexes,25.0
+2020,Northwest Territories,25 to 29 years,Both sexes,23.0
+2016,Northwest Territories,25 to 29 years,Males,20.0
+2017,Northwest Territories,25 to 29 years,Males,24.0
+2018,Northwest Territories,25 to 29 years,Males,28.0
+2019,Northwest Territories,25 to 29 years,Males,33.0
+2020,Northwest Territories,25 to 29 years,Males,23.0
+2016,Northwest Territories,25 to 29 years,Females,17.0
+2017,Northwest Territories,25 to 29 years,Females,
+2018,Northwest Territories,25 to 29 years,Females,16.0
+2019,Northwest Territories,25 to 29 years,Females,18.0
+2020,Northwest Territories,25 to 29 years,Females,22.0
+2016,Nunavut,Total 15 to 29 years,Both sexes,37.0
+2017,Nunavut,Total 15 to 29 years,Both sexes,35.0
+2018,Nunavut,Total 15 to 29 years,Both sexes,39.0
+2019,Nunavut,Total 15 to 29 years,Both sexes,36.0
+2020,Nunavut,Total 15 to 29 years,Both sexes,39.0
+2016,Nunavut,Total 15 to 29 years,Males,39.0
+2017,Nunavut,Total 15 to 29 years,Males,36.0
+2018,Nunavut,Total 15 to 29 years,Males,42.0
+2019,Nunavut,Total 15 to 29 years,Males,39.0
+2020,Nunavut,Total 15 to 29 years,Males,42.0
+2016,Nunavut,Total 15 to 29 years,Females,34.0
+2017,Nunavut,Total 15 to 29 years,Females,34.0
+2018,Nunavut,Total 15 to 29 years,Females,35.0
+2019,Nunavut,Total 15 to 29 years,Females,32.0
+2020,Nunavut,Total 15 to 29 years,Females,36.0
+2016,Nunavut,15 to 19 years,Both sexes,23.0
+2017,Nunavut,15 to 19 years,Both sexes,24.0
+2018,Nunavut,15 to 19 years,Both sexes,25.0
+2019,Nunavut,15 to 19 years,Both sexes,19.0
+2020,Nunavut,15 to 19 years,Both sexes,25.0
+2016,Nunavut,15 to 19 years,Males,
+2017,Nunavut,15 to 19 years,Males,25.0
+2018,Nunavut,15 to 19 years,Males,
+2019,Nunavut,15 to 19 years,Males,
+2020,Nunavut,15 to 19 years,Males,
+2016,Nunavut,15 to 19 years,Females,
+2017,Nunavut,15 to 19 years,Females,
+2018,Nunavut,15 to 19 years,Females,
+2019,Nunavut,15 to 19 years,Females,
+2020,Nunavut,15 to 19 years,Females,
+2016,Nunavut,15 to 24 years,Both sexes,34.0
+2017,Nunavut,15 to 24 years,Both sexes,33.0
+2018,Nunavut,15 to 24 years,Both sexes,37.0
+2019,Nunavut,15 to 24 years,Both sexes,35.0
+2020,Nunavut,15 to 24 years,Both sexes,37.0
+2016,Nunavut,15 to 24 years,Males,35.0
+2017,Nunavut,15 to 24 years,Males,34.0
+2018,Nunavut,15 to 24 years,Males,40.0
+2019,Nunavut,15 to 24 years,Males,37.0
+2020,Nunavut,15 to 24 years,Males,41.0
+2016,Nunavut,15 to 24 years,Females,34.0
+2017,Nunavut,15 to 24 years,Females,32.0
+2018,Nunavut,15 to 24 years,Females,34.0
+2019,Nunavut,15 to 24 years,Females,32.0
+2020,Nunavut,15 to 24 years,Females,33.0
+2016,Nunavut,18 to 24 years,Both sexes,44.0
+2017,Nunavut,18 to 24 years,Both sexes,42.0
+2018,Nunavut,18 to 24 years,Both sexes,48.0
+2019,Nunavut,18 to 24 years,Both sexes,45.0
+2020,Nunavut,18 to 24 years,Both sexes,47.0
+2016,Nunavut,18 to 24 years,Males,43.0
+2017,Nunavut,18 to 24 years,Males,44.0
+2018,Nunavut,18 to 24 years,Males,49.0
+2019,Nunavut,18 to 24 years,Males,48.0
+2020,Nunavut,18 to 24 years,Males,53.0
+2016,Nunavut,18 to 24 years,Females,44.0
+2017,Nunavut,18 to 24 years,Females,40.0
+2018,Nunavut,18 to 24 years,Females,47.0
+2019,Nunavut,18 to 24 years,Females,42.0
+2020,Nunavut,18 to 24 years,Females,40.0
+2016,Nunavut,20 to 24 years,Both sexes,46.0
+2017,Nunavut,20 to 24 years,Both sexes,44.0
+2018,Nunavut,20 to 24 years,Both sexes,52.0
+2019,Nunavut,20 to 24 years,Both sexes,53.0
+2020,Nunavut,20 to 24 years,Both sexes,53.0
+2016,Nunavut,20 to 24 years,Males,46.0
+2017,Nunavut,20 to 24 years,Males,46.0
+2018,Nunavut,20 to 24 years,Males,51.0
+2019,Nunavut,20 to 24 years,Males,55.0
+2020,Nunavut,20 to 24 years,Males,60.0
+2016,Nunavut,20 to 24 years,Females,47.0
+2017,Nunavut,20 to 24 years,Females,41.0
+2018,Nunavut,20 to 24 years,Females,54.0
+2019,Nunavut,20 to 24 years,Females,51.0
+2020,Nunavut,20 to 24 years,Females,45.0
+2016,Nunavut,25 to 29 years,Both sexes,42.0
+2017,Nunavut,25 to 29 years,Both sexes,40.0
+2018,Nunavut,25 to 29 years,Both sexes,42.0
+2019,Nunavut,25 to 29 years,Both sexes,39.0
+2020,Nunavut,25 to 29 years,Both sexes,43.0
+2016,Nunavut,25 to 29 years,Males,47.0
+2017,Nunavut,25 to 29 years,Males,41.0
+2018,Nunavut,25 to 29 years,Males,46.0
+2019,Nunavut,25 to 29 years,Males,43.0
+2020,Nunavut,25 to 29 years,Males,45.0
+2016,Nunavut,25 to 29 years,Females,36.0
+2017,Nunavut,25 to 29 years,Females,40.0
+2018,Nunavut,25 to 29 years,Females,37.0
+2019,Nunavut,25 to 29 years,Females,34.0
+2020,Nunavut,25 to 29 years,Females,42.0

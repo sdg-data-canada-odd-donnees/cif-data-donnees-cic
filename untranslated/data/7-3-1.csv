@@ -1,7 +1,280 @@
-Year,Group,Value
-2015,A,1
-2015,B,3
-2015,,2
-2016,A,1
-2016,B,3
-2016,,2
+Year,Geography,Type of electricity generation,Value
+2015.0,Canada,"Total hydro, tidal, wind, solar and other generation", 63.50 
+2016.0,Canada,"Total hydro, tidal, wind, solar and other generation", 64.10 
+2017.0,Canada,"Total hydro, tidal, wind, solar and other generation", 65.40 
+2018.0,Canada,"Total hydro, tidal, wind, solar and other generation", 65.20 
+2019.0,Canada,"Total hydro, tidal, wind, solar and other generation", 64.80 
+2015.0,Canada,Hydraulic turbine, 59.10 
+2016.0,Canada,Hydraulic turbine, 59.10 
+2017.0,Canada,Hydraulic turbine, 60.20 
+2018.0,Canada,Hydraulic turbine, 59.70 
+2019.0,Canada,Hydraulic turbine, 59.40 
+2015.0,Canada,Tidal power turbine, -   
+2016.0,Canada,Tidal power turbine, -   
+2017.0,Canada,Tidal power turbine, -   
+2018.0,Canada,Tidal power turbine, -   
+2019.0,Canada,Tidal power turbine, -   
+2015.0,Canada,Wind power turbine, 4.20 
+2016.0,Canada,Wind power turbine, 4.70 
+2017.0,Canada,Wind power turbine, 4.80 
+2018.0,Canada,Wind power turbine, 5.10 
+2019.0,Canada,Wind power turbine, 5.10 
+2015.0,Canada,Solar, 0.20 
+2016.0,Canada,Solar, 0.30 
+2017.0,Canada,Solar, 0.30 
+2018.0,Canada,Solar, 0.30 
+2019.0,Canada,Solar, 0.30 
+2015.0,Canada,Other types of electricity generation, -   
+2016.0,Canada,Other types of electricity generation, -   
+2017.0,Canada,Other types of electricity generation, -   
+2018.0,Canada,Other types of electricity generation, -   
+2019.0,Canada,Other types of electricity generation, -   
+2015.0,Newfoundland and Labrador,"Total hydro, tidal, wind, solar and other generation", 95.50 
+2016.0,Newfoundland and Labrador,"Total hydro, tidal, wind, solar and other generation", 94.80 
+2017.0,Newfoundland and Labrador,"Total hydro, tidal, wind, solar and other generation", 94.40 
+2018.0,Newfoundland and Labrador,"Total hydro, tidal, wind, solar and other generation", 96.30 
+2019.0,Newfoundland and Labrador,"Total hydro, tidal, wind, solar and other generation", 96.00 
+2015.0,Newfoundland and Labrador,Hydraulic turbine, 95.00 
+2016.0,Newfoundland and Labrador,Hydraulic turbine, 94.30 
+2017.0,Newfoundland and Labrador,Hydraulic turbine, 93.90 
+2018.0,Newfoundland and Labrador,Hydraulic turbine, 95.90 
+2019.0,Newfoundland and Labrador,Hydraulic turbine, 95.60 
+2015.0,Newfoundland and Labrador,Wind power turbine, 0.40 
+2016.0,Newfoundland and Labrador,Wind power turbine, 0.50 
+2017.0,Newfoundland and Labrador,Wind power turbine, 0.50 
+2018.0,Newfoundland and Labrador,Wind power turbine, 0.50 
+2019.0,Newfoundland and Labrador,Wind power turbine, 0.40 
+2015.0,Prince Edward Island,"Total hydro, tidal, wind, solar and other generation", 98.40 
+2016.0,Prince Edward Island,"Total hydro, tidal, wind, solar and other generation", 98.40 
+2017.0,Prince Edward Island,"Total hydro, tidal, wind, solar and other generation", 98.50 
+2018.0,Prince Edward Island,"Total hydro, tidal, wind, solar and other generation", 98.70 
+2019.0,Prince Edward Island,"Total hydro, tidal, wind, solar and other generation", 99.00 
+2015.0,Prince Edward Island,Wind power turbine, 98.40 
+2016.0,Prince Edward Island,Wind power turbine, 98.40 
+2017.0,Prince Edward Island,Wind power turbine, 98.50 
+2018.0,Prince Edward Island,Wind power turbine, 98.60 
+2019.0,Prince Edward Island,Wind power turbine, 99.00 
+2016.0,Prince Edward Island,Solar, -   
+2017.0,Prince Edward Island,Solar, -   
+2018.0,Prince Edward Island,Solar, 0.10 
+2019.0,Prince Edward Island,Solar, 0.10 
+2015.0,Nova Scotia,"Total hydro, tidal, wind, solar and other generation", 17.90 
+2016.0,Nova Scotia,"Total hydro, tidal, wind, solar and other generation", 18.50 
+2017.0,Nova Scotia,"Total hydro, tidal, wind, solar and other generation", 21.50 
+2018.0,Nova Scotia,"Total hydro, tidal, wind, solar and other generation", 20.70 
+2019.0,Nova Scotia,"Total hydro, tidal, wind, solar and other generation", 21.60 
+2015.0,Nova Scotia,Hydraulic turbine, 9.90 
+2016.0,Nova Scotia,Hydraulic turbine, 8.20 
+2017.0,Nova Scotia,Hydraulic turbine, 8.40 
+2018.0,Nova Scotia,Hydraulic turbine, 9.20 
+2019.0,Nova Scotia,Hydraulic turbine, 10.60 
+2015.0,Nova Scotia,Tidal power turbine, 0.10 
+2016.0,Nova Scotia,Tidal power turbine, 0.20 
+2017.0,Nova Scotia,Tidal power turbine, 0.10 
+2018.0,Nova Scotia,Tidal power turbine, 0.20 
+2019.0,Nova Scotia,Tidal power turbine, -   
+2015.0,Nova Scotia,Wind power turbine, 7.90 
+2016.0,Nova Scotia,Wind power turbine, 10.20 
+2017.0,Nova Scotia,Wind power turbine, 13.00 
+2018.0,Nova Scotia,Wind power turbine, 11.30 
+2019.0,Nova Scotia,Wind power turbine, 10.90 
+2015.0,New Brunswick,"Total hydro, tidal, wind, solar and other generation", 24.40 
+2016.0,New Brunswick,"Total hydro, tidal, wind, solar and other generation", 26.50 
+2017.0,New Brunswick,"Total hydro, tidal, wind, solar and other generation", 25.10 
+2018.0,New Brunswick,"Total hydro, tidal, wind, solar and other generation", 24.80 
+2019.0,New Brunswick,"Total hydro, tidal, wind, solar and other generation", 29.10 
+2015.0,New Brunswick,Hydraulic turbine, 18.80 
+2016.0,New Brunswick,Hydraulic turbine, 21.40 
+2017.0,New Brunswick,Hydraulic turbine, 19.30 
+2018.0,New Brunswick,Hydraulic turbine, 18.70 
+2019.0,New Brunswick,Hydraulic turbine, 22.40 
+2015.0,New Brunswick,Wind power turbine, 5.70 
+2016.0,New Brunswick,Wind power turbine, 5.00 
+2017.0,New Brunswick,Wind power turbine, 5.80 
+2018.0,New Brunswick,Wind power turbine, 6.10 
+2019.0,New Brunswick,Wind power turbine, 6.70 
+2015.0,New Brunswick,Other types of electricity generation, -   
+2016.0,New Brunswick,Other types of electricity generation, -   
+2017.0,New Brunswick,Other types of electricity generation, -   
+2018.0,New Brunswick,Other types of electricity generation, -   
+2019.0,New Brunswick,Other types of electricity generation, -   
+2015.0,Quebec,"Total hydro, tidal, wind, solar and other generation", 99.20 
+2016.0,Quebec,"Total hydro, tidal, wind, solar and other generation", 98.90 
+2017.0,Quebec,"Total hydro, tidal, wind, solar and other generation", 98.80 
+2018.0,Quebec,"Total hydro, tidal, wind, solar and other generation", 98.80 
+2019.0,Quebec,"Total hydro, tidal, wind, solar and other generation", 98.90 
+2015.0,Quebec,Hydraulic turbine, 96.00 
+2016.0,Quebec,Hydraulic turbine, 94.20 
+2017.0,Quebec,Hydraulic turbine, 94.20 
+2018.0,Quebec,Hydraulic turbine, 93.80 
+2019.0,Quebec,Hydraulic turbine, 93.70 
+2015.0,Quebec,Wind power turbine, 3.20 
+2016.0,Quebec,Wind power turbine, 4.70 
+2017.0,Quebec,Wind power turbine, 4.60 
+2018.0,Quebec,Wind power turbine, 5.00 
+2019.0,Quebec,Wind power turbine, 5.20 
+2015.0,Quebec,Solar, -   
+2016.0,Quebec,Solar, -   
+2017.0,Quebec,Solar, -   
+2018.0,Quebec,Solar, -   
+2019.0,Quebec,Solar, -   
+2015.0,Quebec,Other types of electricity generation, -   
+2016.0,Quebec,Other types of electricity generation, -   
+2017.0,Quebec,Other types of electricity generation, -   
+2018.0,Quebec,Other types of electricity generation, -   
+2019.0,Quebec,Other types of electricity generation, -   
+2015.0,Ontario,"Total hydro, tidal, wind, solar and other generation", 30.30 
+2016.0,Ontario,"Total hydro, tidal, wind, solar and other generation", 31.20 
+2017.0,Ontario,"Total hydro, tidal, wind, solar and other generation", 34.40 
+2018.0,Ontario,"Total hydro, tidal, wind, solar and other generation", 33.50 
+2019.0,Ontario,"Total hydro, tidal, wind, solar and other generation", 32.20 
+2015.0,Ontario,Hydraulic turbine, 22.20 
+2016.0,Ontario,Hydraulic turbine, 23.20 
+2017.0,Ontario,Hydraulic turbine, 26.20 
+2018.0,Ontario,Hydraulic turbine, 24.50 
+2019.0,Ontario,Hydraulic turbine, 23.60 
+2015.0,Ontario,Wind power turbine, 7.20 
+2016.0,Ontario,Wind power turbine, 6.80 
+2017.0,Ontario,Wind power turbine, 6.90 
+2018.0,Ontario,Wind power turbine, 7.60 
+2019.0,Ontario,Wind power turbine, 7.20 
+2015.0,Ontario,Solar, 0.90 
+2016.0,Ontario,Solar, 1.10 
+2017.0,Ontario,Solar, 1.30 
+2018.0,Ontario,Solar, 1.40 
+2019.0,Ontario,Solar, 1.40 
+2015.0,Ontario,Other types of electricity generation, -   
+2016.0,Ontario,Other types of electricity generation, -   
+2017.0,Ontario,Other types of electricity generation, -   
+2018.0,Ontario,Other types of electricity generation, -   
+2019.0,Ontario,Other types of electricity generation, -   
+2015.0,Manitoba,"Total hydro, tidal, wind, solar and other generation", 99.30 
+2016.0,Manitoba,"Total hydro, tidal, wind, solar and other generation", 99.60 
+2017.0,Manitoba,"Total hydro, tidal, wind, solar and other generation", 99.60 
+2018.0,Manitoba,"Total hydro, tidal, wind, solar and other generation", 99.70 
+2019.0,Manitoba,"Total hydro, tidal, wind, solar and other generation", 99.60 
+2015.0,Manitoba,Hydraulic turbine, 96.70 
+2016.0,Manitoba,Hydraulic turbine, 97.00 
+2017.0,Manitoba,Hydraulic turbine, 97.10 
+2018.0,Manitoba,Hydraulic turbine, 96.90 
+2019.0,Manitoba,Hydraulic turbine, 97.00 
+2015.0,Manitoba,Wind power turbine, 2.50 
+2016.0,Manitoba,Wind power turbine, 2.60 
+2017.0,Manitoba,Wind power turbine, 2.50 
+2018.0,Manitoba,Wind power turbine, 2.80 
+2019.0,Manitoba,Wind power turbine, 2.60 
+2018.0,Manitoba,Solar, -   
+2019.0,Manitoba,Solar, -   
+2015.0,Saskatchewan,"Total hydro, tidal, wind, solar and other generation", 17.30 
+2016.0,Saskatchewan,"Total hydro, tidal, wind, solar and other generation", 16.40 
+2017.0,Saskatchewan,"Total hydro, tidal, wind, solar and other generation", 18.00 
+2018.0,Saskatchewan,"Total hydro, tidal, wind, solar and other generation", 18.30 
+2019.0,Saskatchewan,"Total hydro, tidal, wind, solar and other generation", 18.50 
+2015.0,Saskatchewan,Hydraulic turbine, 14.60 
+2016.0,Saskatchewan,Hydraulic turbine, 13.30 
+2017.0,Saskatchewan,Hydraulic turbine, 15.10 
+2018.0,Saskatchewan,Hydraulic turbine, 14.90 
+2019.0,Saskatchewan,Hydraulic turbine, 15.20 
+2015.0,Saskatchewan,Wind power turbine, 2.60 
+2016.0,Saskatchewan,Wind power turbine, 3.00 
+2017.0,Saskatchewan,Wind power turbine, 2.90 
+2018.0,Saskatchewan,Wind power turbine, 2.90 
+2019.0,Saskatchewan,Wind power turbine, 2.90 
+2015.0,Saskatchewan,Other types of electricity generation, -   
+2016.0,Saskatchewan,Other types of electricity generation, -   
+2017.0,Saskatchewan,Other types of electricity generation, -   
+2018.0,Saskatchewan,Other types of electricity generation, 0.50 
+2019.0,Saskatchewan,Other types of electricity generation, 0.50 
+2015.0,Alberta,"Total hydro, tidal, wind, solar and other generation", 7.70 
+2016.0,Alberta,"Total hydro, tidal, wind, solar and other generation", 8.60 
+2017.0,Alberta,"Total hydro, tidal, wind, solar and other generation", 8.60 
+2018.0,Alberta,"Total hydro, tidal, wind, solar and other generation", 8.20 
+2019.0,Alberta,"Total hydro, tidal, wind, solar and other generation", 8.30 
+2015.0,Alberta,Hydraulic turbine, 2.40 
+2016.0,Alberta,Hydraulic turbine, 2.50 
+2017.0,Alberta,Hydraulic turbine, 2.60 
+2018.0,Alberta,Hydraulic turbine, 2.60 
+2019.0,Alberta,Hydraulic turbine, 2.70 
+2015.0,Alberta,Wind power turbine, 5.10 
+2016.0,Alberta,Wind power turbine, 5.80 
+2017.0,Alberta,Wind power turbine, 5.80 
+2018.0,Alberta,Wind power turbine, 5.40 
+2019.0,Alberta,Wind power turbine, 5.50 
+2015.0,Alberta,Solar, -   
+2016.0,Alberta,Solar, -   
+2017.0,Alberta,Solar, -   
+2018.0,Alberta,Solar, -   
+2019.0,Alberta,Solar, -   
+2015.0,Alberta,Other types of electricity generation, 0.20 
+2016.0,Alberta,Other types of electricity generation, 0.20 
+2017.0,Alberta,Other types of electricity generation, 0.30 
+2018.0,Alberta,Other types of electricity generation, 0.10 
+2019.0,Alberta,Other types of electricity generation, 0.10 
+2015.0,British Columbia,"Total hydro, tidal, wind, solar and other generation", 91.80 
+2016.0,British Columbia,"Total hydro, tidal, wind, solar and other generation", 90.50 
+2017.0,British Columbia,"Total hydro, tidal, wind, solar and other generation", 91.50 
+2018.0,British Columbia,"Total hydro, tidal, wind, solar and other generation", 90.80 
+2019.0,British Columbia,"Total hydro, tidal, wind, solar and other generation", 88.90 
+2015.0,British Columbia,Hydraulic turbine, 90.60 
+2016.0,British Columbia,Hydraulic turbine, 88.70 
+2017.0,British Columbia,Hydraulic turbine, 89.30 
+2018.0,British Columbia,Hydraulic turbine, 88.40 
+2019.0,British Columbia,Hydraulic turbine, 86.30 
+2015.0,British Columbia,Wind power turbine, 1.20 
+2016.0,British Columbia,Wind power turbine, 1.80 
+2017.0,British Columbia,Wind power turbine, 2.20 
+2018.0,British Columbia,Wind power turbine, 2.50 
+2019.0,British Columbia,Wind power turbine, 2.60 
+2015.0,British Columbia,Solar, -   
+2016.0,British Columbia,Solar, -   
+2017.0,British Columbia,Solar, -   
+2018.0,British Columbia,Solar, -   
+2019.0,British Columbia,Solar, -   
+2015.0,British Columbia,Other types of electricity generation, -   
+2016.0,British Columbia,Other types of electricity generation, -   
+2017.0,British Columbia,Other types of electricity generation, -   
+2018.0,British Columbia,Other types of electricity generation, -   
+2019.0,British Columbia,Other types of electricity generation, -   
+2015.0,Yukon,"Total hydro, tidal, wind, solar and other generation", 94.30 
+2016.0,Yukon,"Total hydro, tidal, wind, solar and other generation", 94.00 
+2017.0,Yukon,"Total hydro, tidal, wind, solar and other generation", 92.40 
+2018.0,Yukon,"Total hydro, tidal, wind, solar and other generation", 87.60 
+2019.0,Yukon,"Total hydro, tidal, wind, solar and other generation", 80.40 
+2015.0,Yukon,Hydraulic turbine, 94.20 
+2016.0,Yukon,Hydraulic turbine, 93.80 
+2017.0,Yukon,Hydraulic turbine, 92.40 
+2018.0,Yukon,Hydraulic turbine, 87.60 
+2019.0,Yukon,Hydraulic turbine, 80.40 
+2015.0,Yukon,Wind power turbine, 0.10 
+2016.0,Yukon,Wind power turbine, 0.10 
+2017.0,Yukon,Wind power turbine, -   
+2018.0,Yukon,Wind power turbine, -   
+2019.0,Yukon,Wind power turbine, -   
+2015.0,Northwest Territories,"Total hydro, tidal, wind, solar and other generation", 25.00 
+2016.0,Northwest Territories,"Total hydro, tidal, wind, solar and other generation", 31.90 
+2017.0,Northwest Territories,"Total hydro, tidal, wind, solar and other generation", 35.60 
+2018.0,Northwest Territories,"Total hydro, tidal, wind, solar and other generation", 35.70 
+2019.0,Northwest Territories,"Total hydro, tidal, wind, solar and other generation", 39.60 
+2015.0,Northwest Territories,Hydraulic turbine, 22.20 
+2016.0,Northwest Territories,Hydraulic turbine, 30.10 
+2017.0,Northwest Territories,Hydraulic turbine, 33.30 
+2018.0,Northwest Territories,Hydraulic turbine, 33.30 
+2019.0,Northwest Territories,Hydraulic turbine, 37.10 
+2015.0,Northwest Territories,Wind power turbine, 2.80 
+2016.0,Northwest Territories,Wind power turbine, 1.80 
+2017.0,Northwest Territories,Wind power turbine, 2.30 
+2018.0,Northwest Territories,Wind power turbine, 2.40 
+2019.0,Northwest Territories,Wind power turbine, 2.40 
+2015.0,Northwest Territories,Solar, -   
+2016.0,Northwest Territories,Solar, -   
+2017.0,Northwest Territories,Solar, -   
+2018.0,Northwest Territories,Solar, -   
+2019.0,Northwest Territories,Solar, -   
+2018.0,Northwest Territories,Other types of electricity generation, -   
+2019.0,Northwest Territories,Other types of electricity generation, -   
+2015.0,Nunavut,"Total hydro, tidal, wind, solar and other generation", -   
+2016.0,Nunavut,"Total hydro, tidal, wind, solar and other generation", -   
+2017.0,Nunavut,"Total hydro, tidal, wind, solar and other generation", -   
+2018.0,Nunavut,"Total hydro, tidal, wind, solar and other generation", -   
+2019.0,Nunavut,"Total hydro, tidal, wind, solar and other generation", -   
+,,,

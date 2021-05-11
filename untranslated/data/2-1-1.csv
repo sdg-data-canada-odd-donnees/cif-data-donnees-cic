@@ -1,7 +1,673 @@
-Year,Group,Value
-2015,A,1
-2015,B,3
-2015,,2
-2016,A,1
-2016,B,3
-2016,,2
+Year,Geography,Living arrangement,Household food security status,Value
+2015-2016,Canada,Total all living arrangements,Food secure,
+2017-2018,Canada,Total all living arrangements,Food secure,87.3
+2015-2016,Canada,Total all living arrangements,Food insecure marginal,
+2017-2018,Canada,Total all living arrangements,Food insecure marginal,4.0
+2015-2016,Canada,Total all living arrangements,Food insecure moderate and severe,
+2017-2018,Canada,Total all living arrangements,Food insecure moderate and severe,8.7
+2015-2016,Canada,Female living alone,Food secure,
+2017-2018,Canada,Female living alone,Food secure,83.8
+2015-2016,Canada,Female living alone,Food insecure marginal,
+2017-2018,Canada,Female living alone,Food insecure marginal,4.1
+2015-2016,Canada,Female living alone,Food insecure moderate and severe,
+2017-2018,Canada,Female living alone,Food insecure moderate and severe,12.1
+2015-2016,Canada,Male living alone,Food secure,
+2017-2018,Canada,Male living alone,Food secure,83.3
+2015-2016,Canada,Male living alone,Food insecure marginal,
+2017-2018,Canada,Male living alone,Food insecure marginal,4.7
+2015-2016,Canada,Male living alone,Food insecure moderate and severe,
+2017-2018,Canada,Male living alone,Food insecure moderate and severe,12.0
+2015-2016,Canada,Couple no children,Food secure,
+2017-2018,Canada,Couple no children,Food secure,94.3
+2015-2016,Canada,Couple no children,Food insecure marginal,
+2017-2018,Canada,Couple no children,Food insecure marginal,2.3
+2015-2016,Canada,Couple no children,Food insecure moderate and severe,
+2017-2018,Canada,Couple no children,Food insecure moderate and severe,3.4
+2015-2016,Canada,Couple with child(ren) less than 18 years old,Food secure,
+2017-2018,Canada,Couple with child(ren) less than 18 years old,Food secure,88.2
+2015-2016,Canada,Couple with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Canada,Couple with child(ren) less than 18 years old,Food insecure marginal,4.4
+2015-2016,Canada,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Canada,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,7.3
+2015-2016,Canada,Female lone parent with child(ren) less than 18 years old,Food secure,
+2017-2018,Canada,Female lone parent with child(ren) less than 18 years old,Food secure,66.9
+2015-2016,Canada,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Canada,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,8.0
+2015-2016,Canada,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Canada,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,25.1
+2015-2016,Canada,Male lone parent with child(ren) less than 18 years old,Food secure,
+2017-2018,Canada,Male lone parent with child(ren) less than 18 years old,Food secure,78.4
+2015-2016,Canada,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Canada,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,5.3
+2015-2016,Canada,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Canada,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,16.3
+2015-2016,Canada,Other living arrangements,Food secure,
+2017-2018,Canada,Other living arrangements,Food secure,86.2
+2015-2016,Canada,Other living arrangements,Food insecure marginal,
+2017-2018,Canada,Other living arrangements,Food insecure marginal,4.5
+2015-2016,Canada,Other living arrangements,Food insecure moderate and severe,
+2017-2018,Canada,Other living arrangements,Food insecure moderate and severe,9.3
+2015-2016,Newfoundland and Labrador,Total all living arrangements,Food secure,
+2017-2018,Newfoundland and Labrador,Total all living arrangements,Food secure,85.3
+2015-2016,Newfoundland and Labrador,Total all living arrangements,Food insecure marginal,
+2017-2018,Newfoundland and Labrador,Total all living arrangements,Food insecure marginal,4.7
+2015-2016,Newfoundland and Labrador,Total all living arrangements,Food insecure moderate and severe,
+2017-2018,Newfoundland and Labrador,Total all living arrangements,Food insecure moderate and severe,10.1
+2015-2016,Newfoundland and Labrador,Female living alone,Food secure,
+2017-2018,Newfoundland and Labrador,Female living alone,Food secure,74.4
+2015-2016,Newfoundland and Labrador,Female living alone,Food insecure marginal,
+2017-2018,Newfoundland and Labrador,Female living alone,Food insecure marginal,7.3
+2015-2016,Newfoundland and Labrador,Female living alone,Food insecure moderate and severe,
+2017-2018,Newfoundland and Labrador,Female living alone,Food insecure moderate and severe,18.3
+2015-2016,Newfoundland and Labrador,Male living alone,Food secure,
+2017-2018,Newfoundland and Labrador,Male living alone,Food secure,77.7
+2015-2016,Newfoundland and Labrador,Male living alone,Food insecure marginal,
+2017-2018,Newfoundland and Labrador,Male living alone,Food insecure marginal,6.8
+2015-2016,Newfoundland and Labrador,Male living alone,Food insecure moderate and severe,
+2017-2018,Newfoundland and Labrador,Male living alone,Food insecure moderate and severe,15.5
+2015-2016,Newfoundland and Labrador,Couple no children,Food secure,
+2017-2018,Newfoundland and Labrador,Couple no children,Food secure,93.4
+2015-2016,Newfoundland and Labrador,Couple no children,Food insecure marginal,
+2017-2018,Newfoundland and Labrador,Couple no children,Food insecure marginal,3.6
+2015-2016,Newfoundland and Labrador,Couple no children,Food insecure moderate and severe,
+2017-2018,Newfoundland and Labrador,Couple no children,Food insecure moderate and severe,3.1
+2015-2016,Newfoundland and Labrador,Couple with child(ren) less than 18 years old,Food secure,
+2017-2018,Newfoundland and Labrador,Couple with child(ren) less than 18 years old,Food secure,88.5
+2015-2016,Newfoundland and Labrador,Couple with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Newfoundland and Labrador,Couple with child(ren) less than 18 years old,Food insecure marginal,3.9
+2015-2016,Newfoundland and Labrador,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Newfoundland and Labrador,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,7.6
+2015-2016,Newfoundland and Labrador,Female lone parent with child(ren) less than 18 years old,Food secure,
+2017-2018,Newfoundland and Labrador,Female lone parent with child(ren) less than 18 years old,Food secure,54.5
+2015-2016,Newfoundland and Labrador,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Newfoundland and Labrador,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,8.9
+2015-2016,Newfoundland and Labrador,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Newfoundland and Labrador,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,36.6
+2015-2016,Newfoundland and Labrador,Male lone parent with child(ren) less than 18 years old,Food secure,
+2017-2018,Newfoundland and Labrador,Male lone parent with child(ren) less than 18 years old,Food secure,84.0
+2015-2016,Newfoundland and Labrador,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Newfoundland and Labrador,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Newfoundland and Labrador,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Newfoundland and Labrador,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2015-2016,Newfoundland and Labrador,Other living arrangements,Food secure,
+2017-2018,Newfoundland and Labrador,Other living arrangements,Food secure,86.5
+2015-2016,Newfoundland and Labrador,Other living arrangements,Food insecure marginal,
+2017-2018,Newfoundland and Labrador,Other living arrangements,Food insecure marginal,3.7
+2015-2016,Newfoundland and Labrador,Other living arrangements,Food insecure moderate and severe,
+2017-2018,Newfoundland and Labrador,Other living arrangements,Food insecure moderate and severe,9.9
+2015-2016,Prince Edward Island,Total all living arrangements,Food secure,85.4
+2017-2018,Prince Edward Island,Total all living arrangements,Food secure,86.0
+2015-2016,Prince Edward Island,Total all living arrangements,Food insecure marginal,3.7
+2017-2018,Prince Edward Island,Total all living arrangements,Food insecure marginal,4.0
+2015-2016,Prince Edward Island,Total all living arrangements,Food insecure moderate and severe,10.9
+2017-2018,Prince Edward Island,Total all living arrangements,Food insecure moderate and severe,9.9
+2015-2016,Prince Edward Island,Female living alone,Food secure,83.3
+2017-2018,Prince Edward Island,Female living alone,Food secure,81.8
+2015-2016,Prince Edward Island,Female living alone,Food insecure marginal,3.4
+2017-2018,Prince Edward Island,Female living alone,Food insecure marginal,3.6
+2015-2016,Prince Edward Island,Female living alone,Food insecure moderate and severe,13.4
+2017-2018,Prince Edward Island,Female living alone,Food insecure moderate and severe,14.6
+2015-2016,Prince Edward Island,Male living alone,Food secure,77.8
+2017-2018,Prince Edward Island,Male living alone,Food secure,79.7
+2015-2016,Prince Edward Island,Male living alone,Food insecure marginal,6.2
+2017-2018,Prince Edward Island,Male living alone,Food insecure marginal,6.7
+2015-2016,Prince Edward Island,Male living alone,Food insecure moderate and severe,16.0
+2017-2018,Prince Edward Island,Male living alone,Food insecure moderate and severe,13.7
+2015-2016,Prince Edward Island,Couple no children,Food secure,92.5
+2017-2018,Prince Edward Island,Couple no children,Food secure,91.9
+2015-2016,Prince Edward Island,Couple no children,Food insecure marginal,3.3
+2017-2018,Prince Edward Island,Couple no children,Food insecure marginal,2.7
+2015-2016,Prince Edward Island,Couple no children,Food insecure moderate and severe,4.2
+2017-2018,Prince Edward Island,Couple no children,Food insecure moderate and severe,5.5
+2015-2016,Prince Edward Island,Couple with child(ren) less than 18 years old,Food secure,86.4
+2017-2018,Prince Edward Island,Couple with child(ren) less than 18 years old,Food secure,88.9
+2015-2016,Prince Edward Island,Couple with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Prince Edward Island,Couple with child(ren) less than 18 years old,Food insecure marginal,3.5
+2015-2016,Prince Edward Island,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,10.2
+2017-2018,Prince Edward Island,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,7.6
+2015-2016,Prince Edward Island,Female lone parent with child(ren) less than 18 years old,Food secure,45.0
+2017-2018,Prince Edward Island,Female lone parent with child(ren) less than 18 years old,Food secure,60.3
+2015-2016,Prince Edward Island,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Prince Edward Island,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Prince Edward Island,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,49.4
+2017-2018,Prince Edward Island,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,30.4
+2015-2016,Prince Edward Island,Male lone parent with child(ren) less than 18 years old,Food secure,
+2017-2018,Prince Edward Island,Male lone parent with child(ren) less than 18 years old,Food secure,
+2015-2016,Prince Edward Island,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Prince Edward Island,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Prince Edward Island,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Prince Edward Island,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2015-2016,Prince Edward Island,Other living arrangements,Food secure,89.6
+2017-2018,Prince Edward Island,Other living arrangements,Food secure,85.1
+2015-2016,Prince Edward Island,Other living arrangements,Food insecure marginal,3.3
+2017-2018,Prince Edward Island,Other living arrangements,Food insecure marginal,4.7
+2015-2016,Prince Edward Island,Other living arrangements,Food insecure moderate and severe,7.1
+2017-2018,Prince Edward Island,Other living arrangements,Food insecure moderate and severe,10.2
+2015-2016,Nova Scotia,Total all living arrangements,Food secure,83.1
+2017-2018,Nova Scotia,Total all living arrangements,Food secure,84.7
+2015-2016,Nova Scotia,Total all living arrangements,Food insecure marginal,5.2
+2017-2018,Nova Scotia,Total all living arrangements,Food insecure marginal,4.4
+2015-2016,Nova Scotia,Total all living arrangements,Food insecure moderate and severe,11.7
+2017-2018,Nova Scotia,Total all living arrangements,Food insecure moderate and severe,11.0
+2015-2016,Nova Scotia,Female living alone,Food secure,77.6
+2017-2018,Nova Scotia,Female living alone,Food secure,80.1
+2015-2016,Nova Scotia,Female living alone,Food insecure marginal,6.9
+2017-2018,Nova Scotia,Female living alone,Food insecure marginal,6.2
+2015-2016,Nova Scotia,Female living alone,Food insecure moderate and severe,15.5
+2017-2018,Nova Scotia,Female living alone,Food insecure moderate and severe,13.7
+2015-2016,Nova Scotia,Male living alone,Food secure,78.7
+2017-2018,Nova Scotia,Male living alone,Food secure,77.4
+2015-2016,Nova Scotia,Male living alone,Food insecure marginal,5.5
+2017-2018,Nova Scotia,Male living alone,Food insecure marginal,4.8
+2015-2016,Nova Scotia,Male living alone,Food insecure moderate and severe,15.8
+2017-2018,Nova Scotia,Male living alone,Food insecure moderate and severe,17.8
+2015-2016,Nova Scotia,Couple no children,Food secure,92.8
+2017-2018,Nova Scotia,Couple no children,Food secure,93.2
+2015-2016,Nova Scotia,Couple no children,Food insecure marginal,2.7
+2017-2018,Nova Scotia,Couple no children,Food insecure marginal,2.3
+2015-2016,Nova Scotia,Couple no children,Food insecure moderate and severe,4.6
+2017-2018,Nova Scotia,Couple no children,Food insecure moderate and severe,4.6
+2015-2016,Nova Scotia,Couple with child(ren) less than 18 years old,Food secure,83.9
+2017-2018,Nova Scotia,Couple with child(ren) less than 18 years old,Food secure,87.2
+2015-2016,Nova Scotia,Couple with child(ren) less than 18 years old,Food insecure marginal,5.5
+2017-2018,Nova Scotia,Couple with child(ren) less than 18 years old,Food insecure marginal,3.6
+2015-2016,Nova Scotia,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,10.5
+2017-2018,Nova Scotia,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,9.2
+2015-2016,Nova Scotia,Female lone parent with child(ren) less than 18 years old,Food secure,51.6
+2017-2018,Nova Scotia,Female lone parent with child(ren) less than 18 years old,Food secure,59.0
+2015-2016,Nova Scotia,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,11.5
+2017-2018,Nova Scotia,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,10.3
+2015-2016,Nova Scotia,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,36.9
+2017-2018,Nova Scotia,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,30.7
+2015-2016,Nova Scotia,Male lone parent with child(ren) less than 18 years old,Food secure,74.9
+2017-2018,Nova Scotia,Male lone parent with child(ren) less than 18 years old,Food secure,60.6
+2015-2016,Nova Scotia,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Nova Scotia,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Nova Scotia,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Nova Scotia,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2015-2016,Nova Scotia,Other living arrangements,Food secure,81.1
+2017-2018,Nova Scotia,Other living arrangements,Food secure,82.8
+2015-2016,Nova Scotia,Other living arrangements,Food insecure marginal,5.6
+2017-2018,Nova Scotia,Other living arrangements,Food insecure marginal,5.0
+2015-2016,Nova Scotia,Other living arrangements,Food insecure moderate and severe,13.3
+2017-2018,Nova Scotia,Other living arrangements,Food insecure moderate and severe,12.2
+2015-2016,New Brunswick,Total all living arrangements,Food secure,85.0
+2017-2018,New Brunswick,Total all living arrangements,Food secure,87.0
+2015-2016,New Brunswick,Total all living arrangements,Food insecure marginal,4.9
+2017-2018,New Brunswick,Total all living arrangements,Food insecure marginal,4.1
+2015-2016,New Brunswick,Total all living arrangements,Food insecure moderate and severe,10.1
+2017-2018,New Brunswick,Total all living arrangements,Food insecure moderate and severe,8.9
+2015-2016,New Brunswick,Female living alone,Food secure,78.2
+2017-2018,New Brunswick,Female living alone,Food secure,80.0
+2015-2016,New Brunswick,Female living alone,Food insecure marginal,7.6
+2017-2018,New Brunswick,Female living alone,Food insecure marginal,5.5
+2015-2016,New Brunswick,Female living alone,Food insecure moderate and severe,14.3
+2017-2018,New Brunswick,Female living alone,Food insecure moderate and severe,14.5
+2015-2016,New Brunswick,Male living alone,Food secure,79.3
+2017-2018,New Brunswick,Male living alone,Food secure,83.5
+2015-2016,New Brunswick,Male living alone,Food insecure marginal,5.0
+2017-2018,New Brunswick,Male living alone,Food insecure marginal,5.2
+2015-2016,New Brunswick,Male living alone,Food insecure moderate and severe,15.7
+2017-2018,New Brunswick,Male living alone,Food insecure moderate and severe,11.3
+2015-2016,New Brunswick,Couple no children,Food secure,93.0
+2017-2018,New Brunswick,Couple no children,Food secure,93.2
+2015-2016,New Brunswick,Couple no children,Food insecure marginal,2.5
+2017-2018,New Brunswick,Couple no children,Food insecure marginal,2.5
+2015-2016,New Brunswick,Couple no children,Food insecure moderate and severe,4.4
+2017-2018,New Brunswick,Couple no children,Food insecure moderate and severe,4.3
+2015-2016,New Brunswick,Couple with child(ren) less than 18 years old,Food secure,81.1
+2017-2018,New Brunswick,Couple with child(ren) less than 18 years old,Food secure,85.4
+2015-2016,New Brunswick,Couple with child(ren) less than 18 years old,Food insecure marginal,6.5
+2017-2018,New Brunswick,Couple with child(ren) less than 18 years old,Food insecure marginal,4.8
+2015-2016,New Brunswick,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,12.4
+2017-2018,New Brunswick,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,9.9
+2015-2016,New Brunswick,Female lone parent with child(ren) less than 18 years old,Food secure,68.1
+2017-2018,New Brunswick,Female lone parent with child(ren) less than 18 years old,Food secure,71.2
+2015-2016,New Brunswick,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,New Brunswick,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,New Brunswick,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,24.0
+2017-2018,New Brunswick,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,22.7
+2015-2016,New Brunswick,Male lone parent with child(ren) less than 18 years old,Food secure,95.5
+2017-2018,New Brunswick,Male lone parent with child(ren) less than 18 years old,Food secure,72.9
+2015-2016,New Brunswick,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,New Brunswick,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,New Brunswick,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,New Brunswick,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2015-2016,New Brunswick,Other living arrangements,Food secure,87.6
+2017-2018,New Brunswick,Other living arrangements,Food secure,90.1
+2015-2016,New Brunswick,Other living arrangements,Food insecure marginal,4.7
+2017-2018,New Brunswick,Other living arrangements,Food insecure marginal,4.1
+2015-2016,New Brunswick,Other living arrangements,Food insecure moderate and severe,7.7
+2017-2018,New Brunswick,Other living arrangements,Food insecure moderate and severe,5.8
+2015-2016,Quebec,Total all living arrangements,Food secure,87.3
+2017-2018,Quebec,Total all living arrangements,Food secure,88.9
+2015-2016,Quebec,Total all living arrangements,Food insecure marginal,4.3
+2017-2018,Quebec,Total all living arrangements,Food insecure marginal,3.7
+2015-2016,Quebec,Total all living arrangements,Food insecure moderate and severe,8.5
+2017-2018,Quebec,Total all living arrangements,Food insecure moderate and severe,7.4
+2015-2016,Quebec,Female living alone,Food secure,83.6
+2017-2018,Quebec,Female living alone,Food secure,85.8
+2015-2016,Quebec,Female living alone,Food insecure marginal,4.5
+2017-2018,Quebec,Female living alone,Food insecure marginal,3.9
+2015-2016,Quebec,Female living alone,Food insecure moderate and severe,11.9
+2017-2018,Quebec,Female living alone,Food insecure moderate and severe,10.3
+2015-2016,Quebec,Male living alone,Food secure,82.5
+2017-2018,Quebec,Male living alone,Food secure,84.2
+2015-2016,Quebec,Male living alone,Food insecure marginal,6.2
+2017-2018,Quebec,Male living alone,Food insecure marginal,5.0
+2015-2016,Quebec,Male living alone,Food insecure moderate and severe,11.3
+2017-2018,Quebec,Male living alone,Food insecure moderate and severe,10.8
+2015-2016,Quebec,Couple no children,Food secure,94.5
+2017-2018,Quebec,Couple no children,Food secure,96.0
+2015-2016,Quebec,Couple no children,Food insecure marginal,2.3
+2017-2018,Quebec,Couple no children,Food insecure marginal,1.6
+2015-2016,Quebec,Couple no children,Food insecure moderate and severe,3.2
+2017-2018,Quebec,Couple no children,Food insecure moderate and severe,2.3
+2015-2016,Quebec,Couple with child(ren) less than 18 years old,Food secure,87.8
+2017-2018,Quebec,Couple with child(ren) less than 18 years old,Food secure,89.4
+2015-2016,Quebec,Couple with child(ren) less than 18 years old,Food insecure marginal,4.2
+2017-2018,Quebec,Couple with child(ren) less than 18 years old,Food insecure marginal,4.5
+2015-2016,Quebec,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,8.1
+2017-2018,Quebec,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,6.1
+2015-2016,Quebec,Female lone parent with child(ren) less than 18 years old,Food secure,66.7
+2017-2018,Quebec,Female lone parent with child(ren) less than 18 years old,Food secure,71.9
+2015-2016,Quebec,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,9.6
+2017-2018,Quebec,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,7.7
+2015-2016,Quebec,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,23.8
+2017-2018,Quebec,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,20.4
+2015-2016,Quebec,Male lone parent with child(ren) less than 18 years old,Food secure,83.8
+2017-2018,Quebec,Male lone parent with child(ren) less than 18 years old,Food secure,87.5
+2015-2016,Quebec,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,7.4
+2017-2018,Quebec,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,3.4
+2015-2016,Quebec,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,8.7
+2017-2018,Quebec,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,9.1
+2015-2016,Quebec,Other living arrangements,Food secure,88.0
+2017-2018,Quebec,Other living arrangements,Food secure,88.1
+2015-2016,Quebec,Other living arrangements,Food insecure marginal,4.2
+2017-2018,Quebec,Other living arrangements,Food insecure marginal,4.0
+2015-2016,Quebec,Other living arrangements,Food insecure moderate and severe,7.8
+2017-2018,Quebec,Other living arrangements,Food insecure moderate and severe,7.9
+2015-2016,Ontario,Total all living arrangements,Food secure,
+2017-2018,Ontario,Total all living arrangements,Food secure,86.7
+2015-2016,Ontario,Total all living arrangements,Food insecure marginal,
+2017-2018,Ontario,Total all living arrangements,Food insecure marginal,4.3
+2015-2016,Ontario,Total all living arrangements,Food insecure moderate and severe,
+2017-2018,Ontario,Total all living arrangements,Food insecure moderate and severe,9.0
+2015-2016,Ontario,Female living alone,Food secure,
+2017-2018,Ontario,Female living alone,Food secure,82.1
+2015-2016,Ontario,Female living alone,Food insecure marginal,
+2017-2018,Ontario,Female living alone,Food insecure marginal,4.4
+2015-2016,Ontario,Female living alone,Food insecure moderate and severe,
+2017-2018,Ontario,Female living alone,Food insecure moderate and severe,13.5
+2015-2016,Ontario,Male living alone,Food secure,
+2017-2018,Ontario,Male living alone,Food secure,83.3
+2015-2016,Ontario,Male living alone,Food insecure marginal,
+2017-2018,Ontario,Male living alone,Food insecure marginal,4.7
+2015-2016,Ontario,Male living alone,Food insecure moderate and severe,
+2017-2018,Ontario,Male living alone,Food insecure moderate and severe,12.0
+2015-2016,Ontario,Couple no children,Food secure,
+2017-2018,Ontario,Couple no children,Food secure,93.2
+2015-2016,Ontario,Couple no children,Food insecure marginal,
+2017-2018,Ontario,Couple no children,Food insecure marginal,2.8
+2015-2016,Ontario,Couple no children,Food insecure moderate and severe,
+2017-2018,Ontario,Couple no children,Food insecure moderate and severe,4.0
+2015-2016,Ontario,Couple with child(ren) less than 18 years old,Food secure,
+2017-2018,Ontario,Couple with child(ren) less than 18 years old,Food secure,88.2
+2015-2016,Ontario,Couple with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Ontario,Couple with child(ren) less than 18 years old,Food insecure marginal,4.7
+2015-2016,Ontario,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Ontario,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,7.2
+2015-2016,Ontario,Female lone parent with child(ren) less than 18 years old,Food secure,
+2017-2018,Ontario,Female lone parent with child(ren) less than 18 years old,Food secure,66.3
+2015-2016,Ontario,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Ontario,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,7.6
+2015-2016,Ontario,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Ontario,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,26.0
+2015-2016,Ontario,Male lone parent with child(ren) less than 18 years old,Food secure,
+2017-2018,Ontario,Male lone parent with child(ren) less than 18 years old,Food secure,75.3
+2015-2016,Ontario,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Ontario,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Ontario,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Ontario,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,18.2
+2015-2016,Ontario,Other living arrangements,Food secure,
+2017-2018,Ontario,Other living arrangements,Food secure,87.0
+2015-2016,Ontario,Other living arrangements,Food insecure marginal,
+2017-2018,Ontario,Other living arrangements,Food insecure marginal,4.6
+2015-2016,Ontario,Other living arrangements,Food insecure moderate and severe,
+2017-2018,Ontario,Other living arrangements,Food insecure moderate and severe,8.4
+2015-2016,Manitoba,Total all living arrangements,Food secure,86.0
+2017-2018,Manitoba,Total all living arrangements,Food secure,85.6
+2015-2016,Manitoba,Total all living arrangements,Food insecure marginal,4.1
+2017-2018,Manitoba,Total all living arrangements,Food insecure marginal,4.2
+2015-2016,Manitoba,Total all living arrangements,Food insecure moderate and severe,10.0
+2017-2018,Manitoba,Total all living arrangements,Food insecure moderate and severe,10.2
+2015-2016,Manitoba,Female living alone,Food secure,85.0
+2017-2018,Manitoba,Female living alone,Food secure,81.4
+2015-2016,Manitoba,Female living alone,Food insecure marginal,2.7
+2017-2018,Manitoba,Female living alone,Food insecure marginal,5.8
+2015-2016,Manitoba,Female living alone,Food insecure moderate and severe,12.3
+2017-2018,Manitoba,Female living alone,Food insecure moderate and severe,12.8
+2015-2016,Manitoba,Male living alone,Food secure,80.2
+2017-2018,Manitoba,Male living alone,Food secure,82.3
+2015-2016,Manitoba,Male living alone,Food insecure marginal,5.3
+2017-2018,Manitoba,Male living alone,Food insecure marginal,6.6
+2015-2016,Manitoba,Male living alone,Food insecure moderate and severe,14.5
+2017-2018,Manitoba,Male living alone,Food insecure moderate and severe,11.0
+2015-2016,Manitoba,Couple no children,Food secure,95.4
+2017-2018,Manitoba,Couple no children,Food secure,94.5
+2015-2016,Manitoba,Couple no children,Food insecure marginal,1.5
+2017-2018,Manitoba,Couple no children,Food insecure marginal,2.0
+2015-2016,Manitoba,Couple no children,Food insecure moderate and severe,3.1
+2017-2018,Manitoba,Couple no children,Food insecure moderate and severe,3.5
+2015-2016,Manitoba,Couple with child(ren) less than 18 years old,Food secure,86.8
+2017-2018,Manitoba,Couple with child(ren) less than 18 years old,Food secure,87.2
+2015-2016,Manitoba,Couple with child(ren) less than 18 years old,Food insecure marginal,4.8
+2017-2018,Manitoba,Couple with child(ren) less than 18 years old,Food insecure marginal,4.0
+2015-2016,Manitoba,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,8.3
+2017-2018,Manitoba,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,8.9
+2015-2016,Manitoba,Female lone parent with child(ren) less than 18 years old,Food secure,51.0
+2017-2018,Manitoba,Female lone parent with child(ren) less than 18 years old,Food secure,51.1
+2015-2016,Manitoba,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,14.0
+2017-2018,Manitoba,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,7.8
+2015-2016,Manitoba,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,35.0
+2017-2018,Manitoba,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,41.1
+2015-2016,Manitoba,Male lone parent with child(ren) less than 18 years old,Food secure,77.7
+2017-2018,Manitoba,Male lone parent with child(ren) less than 18 years old,Food secure,56.0
+2015-2016,Manitoba,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Manitoba,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Manitoba,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Manitoba,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,37.3
+2015-2016,Manitoba,Other living arrangements,Food secure,83.3
+2017-2018,Manitoba,Other living arrangements,Food secure,84.9
+2015-2016,Manitoba,Other living arrangements,Food insecure marginal,5.2
+2017-2018,Manitoba,Other living arrangements,Food insecure marginal,3.9
+2015-2016,Manitoba,Other living arrangements,Food insecure moderate and severe,11.4
+2017-2018,Manitoba,Other living arrangements,Food insecure moderate and severe,11.2
+2015-2016,Saskatchewan,Total all living arrangements,Food secure,86.8
+2017-2018,Saskatchewan,Total all living arrangements,Food secure,86.1
+2015-2016,Saskatchewan,Total all living arrangements,Food insecure marginal,4.0
+2017-2018,Saskatchewan,Total all living arrangements,Food insecure marginal,4.6
+2015-2016,Saskatchewan,Total all living arrangements,Food insecure moderate and severe,9.3
+2017-2018,Saskatchewan,Total all living arrangements,Food insecure moderate and severe,9.3
+2015-2016,Saskatchewan,Female living alone,Food secure,88.2
+2017-2018,Saskatchewan,Female living alone,Food secure,84.8
+2015-2016,Saskatchewan,Female living alone,Food insecure marginal,
+2017-2018,Saskatchewan,Female living alone,Food insecure marginal,3.9
+2015-2016,Saskatchewan,Female living alone,Food insecure moderate and severe,9.8
+2017-2018,Saskatchewan,Female living alone,Food insecure moderate and severe,11.2
+2015-2016,Saskatchewan,Male living alone,Food secure,83.4
+2017-2018,Saskatchewan,Male living alone,Food secure,86.8
+2015-2016,Saskatchewan,Male living alone,Food insecure marginal,4.6
+2017-2018,Saskatchewan,Male living alone,Food insecure marginal,2.7
+2015-2016,Saskatchewan,Male living alone,Food insecure moderate and severe,11.9
+2017-2018,Saskatchewan,Male living alone,Food insecure moderate and severe,10.4
+2015-2016,Saskatchewan,Couple no children,Food secure,94.8
+2017-2018,Saskatchewan,Couple no children,Food secure,93.6
+2015-2016,Saskatchewan,Couple no children,Food insecure marginal,2.0
+2017-2018,Saskatchewan,Couple no children,Food insecure marginal,2.8
+2015-2016,Saskatchewan,Couple no children,Food insecure moderate and severe,3.2
+2017-2018,Saskatchewan,Couple no children,Food insecure moderate and severe,3.6
+2015-2016,Saskatchewan,Couple with child(ren) less than 18 years old,Food secure,87.4
+2017-2018,Saskatchewan,Couple with child(ren) less than 18 years old,Food secure,87.6
+2015-2016,Saskatchewan,Couple with child(ren) less than 18 years old,Food insecure marginal,5.5
+2017-2018,Saskatchewan,Couple with child(ren) less than 18 years old,Food insecure marginal,5.2
+2015-2016,Saskatchewan,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,7.1
+2017-2018,Saskatchewan,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,7.2
+2015-2016,Saskatchewan,Female lone parent with child(ren) less than 18 years old,Food secure,58.2
+2017-2018,Saskatchewan,Female lone parent with child(ren) less than 18 years old,Food secure,63.1
+2015-2016,Saskatchewan,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Saskatchewan,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,8.9
+2015-2016,Saskatchewan,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,34.0
+2017-2018,Saskatchewan,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,28.0
+2015-2016,Saskatchewan,Male lone parent with child(ren) less than 18 years old,Food secure,91.8
+2017-2018,Saskatchewan,Male lone parent with child(ren) less than 18 years old,Food secure,67.4
+2015-2016,Saskatchewan,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Saskatchewan,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Saskatchewan,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Saskatchewan,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2015-2016,Saskatchewan,Other living arrangements,Food secure,79.8
+2017-2018,Saskatchewan,Other living arrangements,Food secure,78.8
+2015-2016,Saskatchewan,Other living arrangements,Food insecure marginal,5.9
+2017-2018,Saskatchewan,Other living arrangements,Food insecure marginal,7.2
+2015-2016,Saskatchewan,Other living arrangements,Food insecure moderate and severe,14.3
+2017-2018,Saskatchewan,Other living arrangements,Food insecure moderate and severe,14.0
+2015-2016,Alberta,Total all living arrangements,Food secure,87.4
+2017-2018,Alberta,Total all living arrangements,Food secure,87.1
+2015-2016,Alberta,Total all living arrangements,Food insecure marginal,3.7
+2017-2018,Alberta,Total all living arrangements,Food insecure marginal,3.7
+2015-2016,Alberta,Total all living arrangements,Food insecure moderate and severe,8.8
+2017-2018,Alberta,Total all living arrangements,Food insecure moderate and severe,9.2
+2015-2016,Alberta,Female living alone,Food secure,84.3
+2017-2018,Alberta,Female living alone,Food secure,84.6
+2015-2016,Alberta,Female living alone,Food insecure marginal,4.0
+2017-2018,Alberta,Female living alone,Food insecure marginal,3.5
+2015-2016,Alberta,Female living alone,Food insecure moderate and severe,11.8
+2017-2018,Alberta,Female living alone,Food insecure moderate and severe,11.9
+2015-2016,Alberta,Male living alone,Food secure,85.3
+2017-2018,Alberta,Male living alone,Food secure,83.4
+2015-2016,Alberta,Male living alone,Food insecure marginal,4.1
+2017-2018,Alberta,Male living alone,Food insecure marginal,3.9
+2015-2016,Alberta,Male living alone,Food insecure moderate and severe,10.6
+2017-2018,Alberta,Male living alone,Food insecure moderate and severe,12.7
+2015-2016,Alberta,Couple no children,Food secure,94.6
+2017-2018,Alberta,Couple no children,Food secure,94.2
+2015-2016,Alberta,Couple no children,Food insecure marginal,1.7
+2017-2018,Alberta,Couple no children,Food insecure marginal,2.3
+2015-2016,Alberta,Couple no children,Food insecure moderate and severe,3.7
+2017-2018,Alberta,Couple no children,Food insecure moderate and severe,3.6
+2015-2016,Alberta,Couple with child(ren) less than 18 years old,Food secure,86.3
+2017-2018,Alberta,Couple with child(ren) less than 18 years old,Food secure,86.8
+2015-2016,Alberta,Couple with child(ren) less than 18 years old,Food insecure marginal,4.8
+2017-2018,Alberta,Couple with child(ren) less than 18 years old,Food insecure marginal,4.7
+2015-2016,Alberta,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,9.0
+2017-2018,Alberta,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,8.6
+2015-2016,Alberta,Female lone parent with child(ren) less than 18 years old,Food secure,66.9
+2017-2018,Alberta,Female lone parent with child(ren) less than 18 years old,Food secure,65.0
+2015-2016,Alberta,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,7.7
+2017-2018,Alberta,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,9.1
+2015-2016,Alberta,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,25.5
+2017-2018,Alberta,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,25.9
+2015-2016,Alberta,Male lone parent with child(ren) less than 18 years old,Food secure,78.2
+2017-2018,Alberta,Male lone parent with child(ren) less than 18 years old,Food secure,81.4
+2015-2016,Alberta,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Alberta,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Alberta,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,13.0
+2017-2018,Alberta,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2015-2016,Alberta,Other living arrangements,Food secure,85.8
+2017-2018,Alberta,Other living arrangements,Food secure,85.3
+2015-2016,Alberta,Other living arrangements,Food insecure marginal,4.1
+2017-2018,Alberta,Other living arrangements,Food insecure marginal,3.6
+2015-2016,Alberta,Other living arrangements,Food insecure moderate and severe,10.0
+2017-2018,Alberta,Other living arrangements,Food insecure moderate and severe,11.1
+2015-2016,British Columbia,Total all living arrangements,Food secure,87.7
+2017-2018,British Columbia,Total all living arrangements,Food secure,87.6
+2015-2016,British Columbia,Total all living arrangements,Food insecure marginal,3.5
+2017-2018,British Columbia,Total all living arrangements,Food insecure marginal,3.7
+2015-2016,British Columbia,Total all living arrangements,Food insecure moderate and severe,8.8
+2017-2018,British Columbia,Total all living arrangements,Food insecure moderate and severe,8.7
+2015-2016,British Columbia,Female living alone,Food secure,85.4
+2017-2018,British Columbia,Female living alone,Food secure,86.0
+2015-2016,British Columbia,Female living alone,Food insecure marginal,3.9
+2017-2018,British Columbia,Female living alone,Food insecure marginal,3.1
+2015-2016,British Columbia,Female living alone,Food insecure moderate and severe,10.7
+2017-2018,British Columbia,Female living alone,Food insecure moderate and severe,10.9
+2015-2016,British Columbia,Male living alone,Food secure,80.8
+2017-2018,British Columbia,Male living alone,Food secure,82.9
+2015-2016,British Columbia,Male living alone,Food insecure marginal,4.9
+2017-2018,British Columbia,Male living alone,Food insecure marginal,4.1
+2015-2016,British Columbia,Male living alone,Food insecure moderate and severe,14.4
+2017-2018,British Columbia,Male living alone,Food insecure moderate and severe,13.0
+2015-2016,British Columbia,Couple no children,Food secure,94.8
+2017-2018,British Columbia,Couple no children,Food secure,95.1
+2015-2016,British Columbia,Couple no children,Food insecure marginal,1.8
+2017-2018,British Columbia,Couple no children,Food insecure marginal,2.1
+2015-2016,British Columbia,Couple no children,Food insecure moderate and severe,3.5
+2017-2018,British Columbia,Couple no children,Food insecure moderate and severe,2.8
+2015-2016,British Columbia,Couple with child(ren) less than 18 years old,Food secure,88.3
+2017-2018,British Columbia,Couple with child(ren) less than 18 years old,Food secure,89.2
+2015-2016,British Columbia,Couple with child(ren) less than 18 years old,Food insecure marginal,4.2
+2017-2018,British Columbia,Couple with child(ren) less than 18 years old,Food insecure marginal,3.6
+2015-2016,British Columbia,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,7.5
+2017-2018,British Columbia,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,7.2
+2015-2016,British Columbia,Female lone parent with child(ren) less than 18 years old,Food secure,69.7
+2017-2018,British Columbia,Female lone parent with child(ren) less than 18 years old,Food secure,68.0
+2015-2016,British Columbia,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,8.7
+2017-2018,British Columbia,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,9.1
+2015-2016,British Columbia,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,21.5
+2017-2018,British Columbia,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,22.9
+2015-2016,British Columbia,Male lone parent with child(ren) less than 18 years old,Food secure,78.8
+2017-2018,British Columbia,Male lone parent with child(ren) less than 18 years old,Food secure,69.4
+2015-2016,British Columbia,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,British Columbia,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,British Columbia,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,15.9
+2017-2018,British Columbia,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,27.5
+2015-2016,British Columbia,Other living arrangements,Food secure,87.6
+2017-2018,British Columbia,Other living arrangements,Food secure,84.1
+2015-2016,British Columbia,Other living arrangements,Food insecure marginal,2.8
+2017-2018,British Columbia,Other living arrangements,Food insecure marginal,5.2
+2015-2016,British Columbia,Other living arrangements,Food insecure moderate and severe,9.6
+2017-2018,British Columbia,Other living arrangements,Food insecure moderate and severe,10.7
+2015-2016,Yukon,Total all living arrangements,Food secure,
+2017-2018,Yukon,Total all living arrangements,Food secure,83.1
+2015-2016,Yukon,Total all living arrangements,Food insecure marginal,
+2017-2018,Yukon,Total all living arrangements,Food insecure marginal,4.3
+2015-2016,Yukon,Total all living arrangements,Food insecure moderate and severe,
+2017-2018,Yukon,Total all living arrangements,Food insecure moderate and severe,12.6
+2015-2016,Yukon,Female living alone,Food secure,
+2017-2018,Yukon,Female living alone,Food secure,80.4
+2015-2016,Yukon,Female living alone,Food insecure marginal,
+2017-2018,Yukon,Female living alone,Food insecure marginal,
+2015-2016,Yukon,Female living alone,Food insecure moderate and severe,
+2017-2018,Yukon,Female living alone,Food insecure moderate and severe,16.2
+2015-2016,Yukon,Male living alone,Food secure,
+2017-2018,Yukon,Male living alone,Food secure,79.5
+2015-2016,Yukon,Male living alone,Food insecure marginal,
+2017-2018,Yukon,Male living alone,Food insecure marginal,
+2015-2016,Yukon,Male living alone,Food insecure moderate and severe,
+2017-2018,Yukon,Male living alone,Food insecure moderate and severe,14.1
+2015-2016,Yukon,Couple no children,Food secure,
+2017-2018,Yukon,Couple no children,Food secure,91.3
+2015-2016,Yukon,Couple no children,Food insecure marginal,
+2017-2018,Yukon,Couple no children,Food insecure marginal,
+2015-2016,Yukon,Couple no children,Food insecure moderate and severe,
+2017-2018,Yukon,Couple no children,Food insecure moderate and severe,6.3
+2015-2016,Yukon,Couple with child(ren) less than 18 years old,Food secure,
+2017-2018,Yukon,Couple with child(ren) less than 18 years old,Food secure,89.4
+2015-2016,Yukon,Couple with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Yukon,Couple with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Yukon,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Yukon,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,
+2015-2016,Yukon,Female lone parent with child(ren) less than 18 years old,Food secure,
+2017-2018,Yukon,Female lone parent with child(ren) less than 18 years old,Food secure,63.8
+2015-2016,Yukon,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Yukon,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Yukon,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Yukon,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2015-2016,Yukon,Male lone parent with child(ren) less than 18 years old,Food secure,
+2017-2018,Yukon,Male lone parent with child(ren) less than 18 years old,Food secure,
+2015-2016,Yukon,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Yukon,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Yukon,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Yukon,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2015-2016,Yukon,Other living arrangements,Food secure,
+2017-2018,Yukon,Other living arrangements,Food secure,75.2
+2015-2016,Yukon,Other living arrangements,Food insecure marginal,
+2017-2018,Yukon,Other living arrangements,Food insecure marginal,
+2015-2016,Yukon,Other living arrangements,Food insecure moderate and severe,
+2017-2018,Yukon,Other living arrangements,Food insecure moderate and severe,20.4
+2015-2016,Northwest Territories,Total all living arrangements,Food secure,79.7
+2017-2018,Northwest Territories,Total all living arrangements,Food secure,78.4
+2015-2016,Northwest Territories,Total all living arrangements,Food insecure marginal,5.6
+2017-2018,Northwest Territories,Total all living arrangements,Food insecure marginal,5.7
+2015-2016,Northwest Territories,Total all living arrangements,Food insecure moderate and severe,14.7
+2017-2018,Northwest Territories,Total all living arrangements,Food insecure moderate and severe,16.0
+2015-2016,Northwest Territories,Female living alone,Food secure,85.9
+2017-2018,Northwest Territories,Female living alone,Food secure,81.7
+2015-2016,Northwest Territories,Female living alone,Food insecure marginal,
+2017-2018,Northwest Territories,Female living alone,Food insecure marginal,
+2015-2016,Northwest Territories,Female living alone,Food insecure moderate and severe,
+2017-2018,Northwest Territories,Female living alone,Food insecure moderate and severe,15.5
+2015-2016,Northwest Territories,Male living alone,Food secure,70.6
+2017-2018,Northwest Territories,Male living alone,Food secure,77.0
+2015-2016,Northwest Territories,Male living alone,Food insecure marginal,
+2017-2018,Northwest Territories,Male living alone,Food insecure marginal,
+2015-2016,Northwest Territories,Male living alone,Food insecure moderate and severe,24.4
+2017-2018,Northwest Territories,Male living alone,Food insecure moderate and severe,19.8
+2015-2016,Northwest Territories,Couple no children,Food secure,93.4
+2017-2018,Northwest Territories,Couple no children,Food secure,85.6
+2015-2016,Northwest Territories,Couple no children,Food insecure marginal,
+2017-2018,Northwest Territories,Couple no children,Food insecure marginal,8.2
+2015-2016,Northwest Territories,Couple no children,Food insecure moderate and severe,
+2017-2018,Northwest Territories,Couple no children,Food insecure moderate and severe,6.2
+2015-2016,Northwest Territories,Couple with child(ren) less than 18 years old,Food secure,78.7
+2017-2018,Northwest Territories,Couple with child(ren) less than 18 years old,Food secure,82.4
+2015-2016,Northwest Territories,Couple with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Northwest Territories,Couple with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Northwest Territories,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,16.0
+2017-2018,Northwest Territories,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,12.1
+2015-2016,Northwest Territories,Female lone parent with child(ren) less than 18 years old,Food secure,53.3
+2017-2018,Northwest Territories,Female lone parent with child(ren) less than 18 years old,Food secure,45.1
+2015-2016,Northwest Territories,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Northwest Territories,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Northwest Territories,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,28.8
+2017-2018,Northwest Territories,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,47.6
+2015-2016,Northwest Territories,Male lone parent with child(ren) less than 18 years old,Food secure,
+2017-2018,Northwest Territories,Male lone parent with child(ren) less than 18 years old,Food secure,
+2015-2016,Northwest Territories,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Northwest Territories,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Northwest Territories,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Northwest Territories,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2015-2016,Northwest Territories,Other living arrangements,Food secure,77.6
+2017-2018,Northwest Territories,Other living arrangements,Food secure,73.2
+2015-2016,Northwest Territories,Other living arrangements,Food insecure marginal,5.8
+2017-2018,Northwest Territories,Other living arrangements,Food insecure marginal,
+2015-2016,Northwest Territories,Other living arrangements,Food insecure moderate and severe,16.6
+2017-2018,Northwest Territories,Other living arrangements,Food insecure moderate and severe,20.6
+2015-2016,Nunavut,Total all living arrangements,Food secure,47.9
+2017-2018,Nunavut,Total all living arrangements,Food secure,43.1
+2015-2016,Nunavut,Total all living arrangements,Food insecure marginal,6.0
+2017-2018,Nunavut,Total all living arrangements,Food insecure marginal,7.6
+2015-2016,Nunavut,Total all living arrangements,Food insecure moderate and severe,46.1
+2017-2018,Nunavut,Total all living arrangements,Food insecure moderate and severe,49.4
+2015-2016,Nunavut,Female living alone,Food secure,72.2
+2017-2018,Nunavut,Female living alone,Food secure,73.9
+2015-2016,Nunavut,Female living alone,Food insecure marginal,
+2017-2018,Nunavut,Female living alone,Food insecure marginal,
+2015-2016,Nunavut,Female living alone,Food insecure moderate and severe,
+2017-2018,Nunavut,Female living alone,Food insecure moderate and severe,
+2015-2016,Nunavut,Male living alone,Food secure,66.0
+2017-2018,Nunavut,Male living alone,Food secure,63.0
+2015-2016,Nunavut,Male living alone,Food insecure marginal,
+2017-2018,Nunavut,Male living alone,Food insecure marginal,
+2015-2016,Nunavut,Male living alone,Food insecure moderate and severe,31.8
+2017-2018,Nunavut,Male living alone,Food insecure moderate and severe,36.3
+2015-2016,Nunavut,Couple no children,Food secure,83.2
+2017-2018,Nunavut,Couple no children,Food secure,80.6
+2015-2016,Nunavut,Couple no children,Food insecure marginal,
+2017-2018,Nunavut,Couple no children,Food insecure marginal,
+2015-2016,Nunavut,Couple no children,Food insecure moderate and severe,
+2017-2018,Nunavut,Couple no children,Food insecure moderate and severe,
+2015-2016,Nunavut,Couple with child(ren) less than 18 years old,Food secure,40.1
+2017-2018,Nunavut,Couple with child(ren) less than 18 years old,Food secure,33.9
+2015-2016,Nunavut,Couple with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Nunavut,Couple with child(ren) less than 18 years old,Food insecure marginal,12.7
+2015-2016,Nunavut,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,51.5
+2017-2018,Nunavut,Couple with child(ren) less than 18 years old,Food insecure moderate and severe,53.3
+2015-2016,Nunavut,Female lone parent with child(ren) less than 18 years old,Food secure,
+2017-2018,Nunavut,Female lone parent with child(ren) less than 18 years old,Food secure,20.7
+2015-2016,Nunavut,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Nunavut,Female lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Nunavut,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,78.1
+2017-2018,Nunavut,Female lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,69.0
+2015-2016,Nunavut,Male lone parent with child(ren) less than 18 years old,Food secure,
+2017-2018,Nunavut,Male lone parent with child(ren) less than 18 years old,Food secure,
+2015-2016,Nunavut,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2017-2018,Nunavut,Male lone parent with child(ren) less than 18 years old,Food insecure marginal,
+2015-2016,Nunavut,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2017-2018,Nunavut,Male lone parent with child(ren) less than 18 years old,Food insecure moderate and severe,
+2015-2016,Nunavut,Other living arrangements,Food secure,34.3
+2017-2018,Nunavut,Other living arrangements,Food secure,29.5
+2015-2016,Nunavut,Other living arrangements,Food insecure marginal,
+2017-2018,Nunavut,Other living arrangements,Food insecure marginal,8.0
+2015-2016,Nunavut,Other living arrangements,Food insecure moderate and severe,59.8
+2017-2018,Nunavut,Other living arrangements,Food insecure moderate and severe,62.6

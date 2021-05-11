@@ -1,7 +1,216 @@
-Year,Group,Value
-2015,A,1
-2015,B,3
-2015,,2
-2016,A,1
-2016,B,3
-2016,,2
+Year,data.Geography,data.Selected diseases,data.Age,data.Sex,Value
+2017,data.Canada,data.Diphtheria,data.by 2 years of age,data.All children,75.8
+2017,data.Canada,data.Pertussis,data.by 2 years of age,data.All children,75.8
+2017,data.Canada,data.Tetanus,data.by 2 years of age,data.All children,75.8
+2017,data.Canada,data.Polio,data.by 2 years of age,data.All children,90.7
+2017,data.Canada,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,73.4
+2017,data.Canada,data.Measles,data.by 2 years of age,data.All children,90.2
+2017,data.Canada,data.Mumps,data.by 2 years of age,data.All children,89.9
+2017,data.Canada,data.Rubella,data.by 2 years of age,data.All children,90.0
+2017,data.Canada,data.Hepatitis B,data.by 2 years of age,data.All children,74.1
+2017,data.Canada,data.Varicella,data.by 2 years of age,data.All children,82.9
+2017,data.Canada,data.Meningococcal type C,data.by 2 years of age,data.All children,87.6
+2017,data.Canada,data.Pneumococcal,data.by 2 years of age,data.All children,81.4
+2017,data.Canada,data.Rotavirus,data.by 2 years of age,data.All children,78.8
+2017,data.Canada,data.Diphtheria,data.by 2 years of age,data.Male,74.1
+2017,data.Canada,data.Pertussis,data.by 2 years of age,data.Male,74.1
+2017,data.Canada,data.Tetanus,data.by 2 years of age,data.Male,74.1
+2017,data.Canada,data.Polio,data.by 2 years of age,data.Male,90.0
+2017,data.Canada,data.Haemophilus influenzae type B,data.by 2 years of age,data.Male,72.1
+2017,data.Canada,data.Measles,data.by 2 years of age,data.Male,88.9
+2017,data.Canada,data.Mumps,data.by 2 years of age,data.Male,88.8
+2017,data.Canada,data.Rubella,data.by 2 years of age,data.Male,88.8
+2017,data.Canada,data.Hepatitis B,data.by 2 years of age,data.Male,72.5
+2017,data.Canada,data.Varicella,data.by 2 years of age,data.Male,82.1
+2017,data.Canada,data.Meningococcal type C,data.by 2 years of age,data.Male,87.1
+2017,data.Canada,data.Pneumococcal,data.by 2 years of age,data.Male,80.1
+2017,data.Canada,data.Rotavirus,data.by 2 years of age,data.Male,78.3
+2017,data.Canada,data.Diphtheria,data.by 2 years of age,data.Female,77.5
+2017,data.Canada,data.Pertussis,data.by 2 years of age,data.Female,77.5
+2017,data.Canada,data.Tetanus,data.by 2 years of age,data.Female,77.5
+2017,data.Canada,data.Polio,data.by 2 years of age,data.Female,91.4
+2017,data.Canada,data.Haemophilus influenzae type B,data.by 2 years of age,data.Female,74.7
+2017,data.Canada,data.Measles,data.by 2 years of age,data.Female,91.6
+2017,data.Canada,data.Mumps,data.by 2 years of age,data.Female,91.1
+2017,data.Canada,data.Rubella,data.by 2 years of age,data.Female,91.1
+2017,data.Canada,data.Hepatitis B,data.by 2 years of age,data.Female,75.8
+2017,data.Canada,data.Varicella,data.by 2 years of age,data.Female,83.8
+2017,data.Canada,data.Meningococcal type C,data.by 2 years of age,data.Female,88.3
+2017,data.Canada,data.Pneumococcal,data.by 2 years of age,data.Female,82.6
+2017,data.Canada,data.Rotavirus,data.by 2 years of age,data.Female,79.3
+2017,data.Canada,data.Diphtheria,data.by 7 years of age,data.All children,80.5
+2017,data.Canada,data.Pertussis,data.by 7 years of age,data.All children,80.5
+2017,data.Canada,data.Tetanus,data.by 7 years of age,data.All children,80.5
+2017,data.Canada,data.Polio,data.by 7 years of age,data.All children,92.3
+2017,data.Canada,data.Haemophilus influenzae type B,data.by 7 years of age,data.All children,83.9
+2017,data.Canada,data.Measles,data.by 7 years of age,data.All children,87.0
+2017,data.Canada,data.Mumps,data.by 7 years of age,data.All children,86.4
+2017,data.Canada,data.Rubella,data.by 7 years of age,data.All children,94.5
+2017,data.Canada,data.Diphtheria,data.by 7 years of age,data.Male,76.4
+2017,data.Canada,data.Pertussis,data.by 7 years of age,data.Male,76.4
+2017,data.Canada,data.Tetanus,data.by 7 years of age,data.Male,76.4
+2017,data.Canada,data.Polio,data.by 7 years of age,data.Male,91.7
+2017,data.Canada,data.Haemophilus influenzae type B,data.by 7 years of age,data.Male,83.8
+2017,data.Canada,data.Measles,data.by 7 years of age,data.Male,86.5
+2017,data.Canada,data.Mumps,data.by 7 years of age,data.Male,86.5
+2017,data.Canada,data.Rubella,data.by 7 years of age,data.Male,93.8
+2017,data.Canada,data.Diphtheria,data.by 7 years of age,data.Female,85.5
+2017,data.Canada,data.Pertussis,data.by 7 years of age,data.Female,85.5
+2017,data.Canada,data.Tetanus,data.by 7 years of age,data.Female,85.5
+2017,data.Canada,data.Polio,data.by 7 years of age,data.Female,93.0
+2017,data.Canada,data.Haemophilus influenzae type B,data.by 7 years of age,data.Female,84.1
+2017,data.Canada,data.Measles,data.by 7 years of age,data.Female,87.9
+2017,data.Canada,data.Mumps,data.by 7 years of age,data.Female,86.7
+2017,data.Canada,data.Rubella,data.by 7 years of age,data.Female,95.8
+2017,data.Canada,data.Hepatitis B,data.by 14 years of age,data.All children,83.1
+2017,data.Canada,data.Human Papillomavirus,data.by 14 years of age,data.All children,
+2017,data.Canada,data.Diphtheria - Tetanus - acellular Pertussis booster,data.by 17 years of age,data.All children,89.3
+2017,data.Canada,data.Hepatitis B,data.by 14 years of age,data.Male,82.1
+2017,data.Canada,data.Human Papillomavirus,data.by 14 years of age,data.Male,
+2017,data.Canada,data.Diphtheria - Tetanus - acellular Pertussis booster,data.by 17 years of age,data.Male,87.9
+2017,data.Canada,data.Hepatitis B,data.by 14 years of age,data.Female,84.1
+2017,data.Canada,data.Human Papillomavirus,data.by 14 years of age,data.Female,83.0
+2017,data.Canada,data.Diphtheria - Tetanus - acellular Pertussis booster,data.by 17 years of age,data.Female,90.7
+2017,data.Newfoundland and Labrador,data.Diphtheria - Pertussis and tetanus,data.by 2 years of age,data.All children,88.9
+2017,data.Newfoundland and Labrador,data.Polio,data.by 2 years of age,data.All children,96.9
+2017,data.Newfoundland and Labrador,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,87.7
+2017,data.Newfoundland and Labrador,data.Measles,data.by 2 years of age,data.All children,96.9
+2017,data.Newfoundland and Labrador,data.Mumps,data.by 2 years of age,data.All children,96.9
+2017,data.Newfoundland and Labrador,data.Rubella,data.by 2 years of age,data.All children,96.9
+2017,data.Prince Edward Island,data.Diphtheria - Pertussis and tetanus,data.by 2 years of age,data.All children,81.2
+2017,data.Prince Edward Island,data.Polio,data.by 2 years of age,data.All children,93.9
+2017,data.Prince Edward Island,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,79.8
+2017,data.Prince Edward Island,data.Measles,data.by 2 years of age,data.All children,93.2
+2017,data.Prince Edward Island,data.Mumps,data.by 2 years of age,data.All children,92.6
+2017,data.Prince Edward Island,data.Rubella,data.by 2 years of age,data.All children,92.6
+2017,data.Nova Scotia,data.Diphtheria - Pertussis and tetanus,data.by 2 years of age,data.All children,73.8
+2017,data.Nova Scotia,data.Polio,data.by 2 years of age,data.All children,93.5
+2017,data.Nova Scotia,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,68.5
+2017,data.Nova Scotia,data.Measles,data.by 2 years of age,data.All children,87.1
+2017,data.Nova Scotia,data.Mumps,data.by 2 years of age,data.All children,86.8
+2017,data.Nova Scotia,data.Rubella,data.by 2 years of age,data.All children,86.8
+2017,data.New Brunswick,data.Diphtheria - Pertussis and tetanus,data.by 2 years of age,data.All children,75.5
+2017,data.New Brunswick,data.Polio,data.by 2 years of age,data.All children,90.1
+2017,data.New Brunswick,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,74.7
+2017,data.New Brunswick,data.Measles,data.by 2 years of age,data.All children,92.0
+2017,data.New Brunswick,data.Mumps,data.by 2 years of age,data.All children,92.0
+2017,data.New Brunswick,data.Rubella,data.by 2 years of age,data.All children,92.0
+2017,data.Quebec,data.Diphtheria - Pertussis and tetanus,data.by 2 years of age,data.All children,73.7
+2017,data.Quebec,data.Polio,data.by 2 years of age,data.All children,90.9
+2017,data.Quebec,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,71.3
+2017,data.Quebec,data.Measles,data.by 2 years of age,data.All children,91.0
+2017,data.Quebec,data.Mumps,data.by 2 years of age,data.All children,90.5
+2017,data.Quebec,data.Rubella,data.by 2 years of age,data.All children,90.5
+2017,data.Ontario,data.Diphtheria - Pertussis and tetanus,data.by 2 years of age,data.All children,75.7
+2017,data.Ontario,data.Polio,data.by 2 years of age,data.All children,91.0
+2017,data.Ontario,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,72.9
+2017,data.Ontario,data.Measles,data.by 2 years of age,data.All children,90.9
+2017,data.Ontario,data.Mumps,data.by 2 years of age,data.All children,90.5
+2017,data.Ontario,data.Rubella,data.by 2 years of age,data.All children,90.5
+2017,data.Manitoba,data.Diphtheria - Pertussis and tetanus,data.by 2 years of age,data.All children,67.5
+2017,data.Manitoba,data.Polio,data.by 2 years of age,data.All children,85.6
+2017,data.Manitoba,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,62.2
+2017,data.Manitoba,data.Measles,data.by 2 years of age,data.All children,86.1
+2017,data.Manitoba,data.Mumps,data.by 2 years of age,data.All children,85.9
+2017,data.Manitoba,data.Rubella,data.by 2 years of age,data.All children,86.2
+2017,data.Saskatchewan,data.Diphtheria - Pertussis and tetanus,data.by 2 years of age,data.All children,78.6
+2017,data.Saskatchewan,data.Polio,data.by 2 years of age,data.All children,90.0
+2017,data.Saskatchewan,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,75.1
+2017,data.Saskatchewan,data.Measles,data.by 2 years of age,data.All children,89.5
+2017,data.Saskatchewan,data.Mumps,data.by 2 years of age,data.All children,89.5
+2017,data.Saskatchewan,data.Rubella,data.by 2 years of age,data.All children,89.5
+2017,data.Alberta,data.Diphtheria - Pertussis and tetanus,data.by 2 years of age,data.All children,79.9
+2017,data.Alberta,data.Polio,data.by 2 years of age,data.All children,93.0
+2017,data.Alberta,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,79.0
+2017,data.Alberta,data.Measles,data.by 2 years of age,data.All children,91.7
+2017,data.Alberta,data.Mumps,data.by 2 years of age,data.All children,91.4
+2017,data.Alberta,data.Rubella,data.by 2 years of age,data.All children,91.4
+2017,data.British Columbia,data.Diphtheria - Pertussis and tetanus,data.by 2 years of age,data.All children,76.6
+2017,data.British Columbia,data.Polio,data.by 2 years of age,data.All children,87.5
+2017,data.British Columbia,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,74.4
+2017,data.British Columbia,data.Measles,data.by 2 years of age,data.All children,86.1
+2017,data.British Columbia,data.Mumps,data.by 2 years of age,data.All children,86.1
+2017,data.British Columbia,data.Rubella,data.by 2 years of age,data.All children,86.1
+2017,data.Yukon,data.Diphtheria - Pertussis and tetanus,data.by 2 years of age,data.All children,70.7
+2017,data.Yukon,data.Polio,data.by 2 years of age,data.All children,93.7
+2017,data.Yukon,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,69.3
+2017,data.Yukon,data.Measles,data.by 2 years of age,data.All children,91.0
+2017,data.Yukon,data.Mumps,data.by 2 years of age,data.All children,91.0
+2017,data.Yukon,data.Rubella,data.by 2 years of age,data.All children,91.0
+2017,data.Northwest Territories,data.Diphtheria - Pertussis and tetanus,data.by 2 years of age,data.All children,76.7
+2017,data.Northwest Territories,data.Polio,data.by 2 years of age,data.All children,91.1
+2017,data.Northwest Territories,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,75.5
+2017,data.Northwest Territories,data.Measles,data.by 2 years of age,data.All children,91.8
+2017,data.Northwest Territories,data.Mumps,data.by 2 years of age,data.All children,91.8
+2017,data.Northwest Territories,data.Rubella,data.by 2 years of age,data.All children,91.8
+2017,data.Nunavut,data.Diphtheria - Pertussis and tetanus,data.by 2 years of age,data.All children,63.8
+2017,data.Nunavut,data.Polio,data.by 2 years of age,data.All children,82.1
+2017,data.Nunavut,data.Haemophilus influenzae type B,data.by 2 years of age,data.All children,57.2
+2017,data.Nunavut,data.Measles,data.by 2 years of age,data.All children,88.7
+2017,data.Nunavut,data.Mumps,data.by 2 years of age,data.All children,88.7
+2017,data.Nunavut,data.Rubella,data.by 2 years of age,data.All children,88.7
+2017,data.Newfoundland and Labrador,data.Varicella,data.by 2 years of age,data.All children,95.1
+2017,data.Newfoundland and Labrador,data.Meningococcal type C,data.by 2 years of age,data.All children,93.2
+2017,data.Newfoundland and Labrador,data.Pneumococcal,data.by 2 years of age,data.All children,90.2
+2017,data.Newfoundland and Labrador,data.Rotavirus,data.by 2 years of age,data.All children,
+2017,data.Newfoundland and Labrador,data.Hepatitis B,data.by 2 years of age,data.All children,
+2017,data.Prince Edward Island,data.Varicella,data.by 2 years of age,data.All children,92.0
+2017,data.Prince Edward Island,data.Meningococcal type C,data.by 2 years of age,data.All children,92.7
+2017,data.Prince Edward Island,data.Pneumococcal,data.by 2 years of age,data.All children,89.5
+2017,data.Prince Edward Island,data.Rotavirus,data.by 2 years of age,data.All children,85.6
+2017,data.Prince Edward Island,data.Hepatitis B,data.by 2 years of age,data.All children,86.7
+2017,data.Nova Scotia,data.Varicella,data.by 2 years of age,data.All children,84.8
+2017,data.Nova Scotia,data.Meningococcal type C,data.by 2 years of age,data.All children,81.8
+2017,data.Nova Scotia,data.Pneumococcal,data.by 2 years of age,data.All children,80.4
+2017,data.Nova Scotia,data.Rotavirus,data.by 2 years of age,data.All children,
+2017,data.Nova Scotia,data.Hepatitis B,data.by 2 years of age,data.All children,
+2017,data.New Brunswick,data.Varicella,data.by 2 years of age,data.All children,90.9
+2017,data.New Brunswick,data.Meningococcal type C,data.by 2 years of age,data.All children,88.3
+2017,data.New Brunswick,data.Pneumococcal,data.by 2 years of age,data.All children,82.2
+2017,data.New Brunswick,data.Rotavirus,data.by 2 years of age,data.All children,
+2017,data.New Brunswick,data.Hepatitis B,data.by 2 years of age,data.All children,81.0
+2017,data.Quebec,data.Varicella,data.by 2 years of age,data.All children,76.1
+2017,data.Quebec,data.Meningococcal type C,data.by 2 years of age,data.All children,89.9
+2017,data.Quebec,data.Pneumococcal,data.by 2 years of age,data.All children,83.3
+2017,data.Quebec,data.Rotavirus,data.by 2 years of age,data.All children,81.0
+2017,data.Quebec,data.Hepatitis B,data.by 2 years of age,data.All children,75.7
+2017,data.Ontario,data.Varicella,data.by 2 years of age,data.All children,84.3
+2017,data.Ontario,data.Meningococcal type C,data.by 2 years of age,data.All children,85.7
+2017,data.Ontario,data.Pneumococcal,data.by 2 years of age,data.All children,80.5
+2017,data.Ontario,data.Rotavirus,data.by 2 years of age,data.All children,77.7
+2017,data.Ontario,data.Hepatitis B,data.by 2 years of age,data.All children,
+2017,data.Manitoba,data.Varicella,data.by 2 years of age,data.All children,81.6
+2017,data.Manitoba,data.Meningococcal type C,data.by 2 years of age,data.All children,82.2
+2017,data.Manitoba,data.Pneumococcal,data.by 2 years of age,data.All children,74.6
+2017,data.Manitoba,data.Rotavirus,data.by 2 years of age,data.All children,68.4
+2017,data.Manitoba,data.Hepatitis B,data.by 2 years of age,data.All children,
+2017,data.Saskatchewan,data.Varicella,data.by 2 years of age,data.All children,84.8
+2017,data.Saskatchewan,data.Meningococcal type C,data.by 2 years of age,data.All children,81.1
+2017,data.Saskatchewan,data.Pneumococcal,data.by 2 years of age,data.All children,83.7
+2017,data.Saskatchewan,data.Rotavirus,data.by 2 years of age,data.All children,84.0
+2017,data.Saskatchewan,data.Hepatitis B,data.by 2 years of age,data.All children,
+2017,data.Alberta,data.Varicella,data.by 2 years of age,data.All children,86.7
+2017,data.Alberta,data.Meningococcal type C,data.by 2 years of age,data.All children,91.0
+2017,data.Alberta,data.Pneumococcal,data.by 2 years of age,data.All children,82.6
+2017,data.Alberta,data.Rotavirus,data.by 2 years of age,data.All children,
+2017,data.Alberta,data.Hepatitis B,data.by 2 years of age,data.All children,
+2017,data.British Columbia,data.Varicella,data.by 2 years of age,data.All children,83.7
+2017,data.British Columbia,data.Meningococcal type C,data.by 2 years of age,data.All children,89.3
+2017,data.British Columbia,data.Pneumococcal,data.by 2 years of age,data.All children,80.3
+2017,data.British Columbia,data.Rotavirus,data.by 2 years of age,data.All children,80.2
+2017,data.British Columbia,data.Hepatitis B,data.by 2 years of age,data.All children,69.7
+2017,data.Yukon,data.Varicella,data.by 2 years of age,data.All children,85.5
+2017,data.Yukon,data.Meningococcal type C,data.by 2 years of age,data.All children,93.7
+2017,data.Yukon,data.Pneumococcal,data.by 2 years of age,data.All children,83.2
+2017,data.Yukon,data.Rotavirus,data.by 2 years of age,data.All children,76.6
+2017,data.Yukon,data.Hepatitis B,data.by 2 years of age,data.All children,62.8
+2017,data.Northwest Territories,data.Varicella,data.by 2 years of age,data.All children,88.9
+2017,data.Northwest Territories,data.Meningococcal type C,data.by 2 years of age,data.All children,95.2
+2017,data.Northwest Territories,data.Pneumococcal,data.by 2 years of age,data.All children,63.8
+2017,data.Northwest Territories,data.Rotavirus,data.by 2 years of age,data.All children,66.3
+2017,data.Northwest Territories,data.Hepatitis B,data.by 2 years of age,data.All children,80.5
+2017,data.Nunavut,data.Varicella,data.by 2 years of age,data.All children,82.1
+2017,data.Nunavut,data.Meningococcal type C,data.by 2 years of age,data.All children,80.1
+2017,data.Nunavut,data.Pneumococcal,data.by 2 years of age,data.All children,62.4
+2017,data.Nunavut,data.Rotavirus,data.by 2 years of age,data.All children,
+2017,data.Nunavut,data.Hepatitis B,data.by 2 years of age,data.All children,70.8

@@ -1,7 +1,281 @@
-Year,Group,Value
-2015,A,1
-2015,B,3
-2015,,2
-2016,A,1
-2016,B,3
-2016,,2
+Year,data.Geography,data.Index,Value
+2015,data.Canada,data.Crime severity index,70.39
+2016,data.Canada,data.Crime severity index,72.01
+2017,data.Canada,data.Crime severity index,73.6
+2018,data.Canada,data.Crime severity index,75.63
+2019,data.Canada,data.Crime severity index,79.45
+2015,data.Canada,data.Violent crime severity index,75.34
+2016,data.Canada,data.Violent crime severity index,76.88
+2017,data.Canada,data.Violent crime severity index,81.28
+2018,data.Canada,data.Violent crime severity index,83.57
+2019,data.Canada,data.Violent crime severity index,89.67
+2015,data.Canada,data.Youth crime severity index,60.42
+2016,data.Canada,data.Youth crime severity index,59.89
+2017,data.Canada,data.Youth crime severity index,62.68
+2018,data.Canada,data.Youth crime severity index,56.59
+2019,data.Canada,data.Youth crime severity index,54.55
+2015,data.Canada,data.Youth violent crime severity index,66.39
+2016,data.Canada,data.Youth violent crime severity index,70.93
+2017,data.Canada,data.Youth violent crime severity index,80.51
+2018,data.Canada,data.Youth violent crime severity index,77.06
+2019,data.Canada,data.Youth violent crime severity index,78.82
+2015,data.Newfoundland and Labrador,data.Crime severity index,65.78
+2016,data.Newfoundland and Labrador,data.Crime severity index,69.55
+2017,data.Newfoundland and Labrador,data.Crime severity index,63.51
+2018,data.Newfoundland and Labrador,data.Crime severity index,64.84
+2019,data.Newfoundland and Labrador,data.Crime severity index,71.56
+2015,data.Newfoundland and Labrador,data.Violent crime severity index,67.02
+2016,data.Newfoundland and Labrador,data.Violent crime severity index,73.58
+2017,data.Newfoundland and Labrador,data.Violent crime severity index,70.52
+2018,data.Newfoundland and Labrador,data.Violent crime severity index,71.74
+2019,data.Newfoundland and Labrador,data.Violent crime severity index,79.1
+2015,data.Newfoundland and Labrador,data.Youth crime severity index,59.62
+2016,data.Newfoundland and Labrador,data.Youth crime severity index,60.66
+2017,data.Newfoundland and Labrador,data.Youth crime severity index,65.66
+2018,data.Newfoundland and Labrador,data.Youth crime severity index,55.63
+2019,data.Newfoundland and Labrador,data.Youth crime severity index,45.67
+2015,data.Newfoundland and Labrador,data.Youth violent crime severity index,50.24
+2016,data.Newfoundland and Labrador,data.Youth violent crime severity index,52.31
+2017,data.Newfoundland and Labrador,data.Youth violent crime severity index,58.35
+2018,data.Newfoundland and Labrador,data.Youth violent crime severity index,57.77
+2019,data.Newfoundland and Labrador,data.Youth violent crime severity index,48.33
+2015,data.Prince Edward Island,data.Crime severity index,50.63
+2016,data.Prince Edward Island,data.Crime severity index,49.33
+2017,data.Prince Edward Island,data.Crime severity index,45.86
+2018,data.Prince Edward Island,data.Crime severity index,54.18
+2019,data.Prince Edward Island,data.Crime severity index,64.03
+2015,data.Prince Edward Island,data.Violent crime severity index,42.16
+2016,data.Prince Edward Island,data.Violent crime severity index,36.85
+2017,data.Prince Edward Island,data.Violent crime severity index,40.2
+2018,data.Prince Edward Island,data.Violent crime severity index,48.99
+2019,data.Prince Edward Island,data.Violent crime severity index,64.29
+2015,data.Prince Edward Island,data.Youth crime severity index,34.64
+2016,data.Prince Edward Island,data.Youth crime severity index,31.4
+2017,data.Prince Edward Island,data.Youth crime severity index,29.23
+2018,data.Prince Edward Island,data.Youth crime severity index,30.18
+2019,data.Prince Edward Island,data.Youth crime severity index,30.83
+2015,data.Prince Edward Island,data.Youth violent crime severity index,30.44
+2016,data.Prince Edward Island,data.Youth violent crime severity index,27.16
+2017,data.Prince Edward Island,data.Youth violent crime severity index,30.75
+2018,data.Prince Edward Island,data.Youth violent crime severity index,34.86
+2019,data.Prince Edward Island,data.Youth violent crime severity index,32.57
+2015,data.Nova Scotia,data.Crime severity index,63.26
+2016,data.Nova Scotia,data.Crime severity index,62.32
+2017,data.Nova Scotia,data.Crime severity index,66.26
+2018,data.Nova Scotia,data.Crime severity index,65.51
+2019,data.Nova Scotia,data.Crime severity index,66.05
+2015,data.Nova Scotia,data.Violent crime severity index,70.93
+2016,data.Nova Scotia,data.Violent crime severity index,71.11
+2017,data.Nova Scotia,data.Violent crime severity index,78.81
+2018,data.Nova Scotia,data.Violent crime severity index,78.96
+2019,data.Nova Scotia,data.Violent crime severity index,82.13
+2015,data.Nova Scotia,data.Youth crime severity index,71.34
+2016,data.Nova Scotia,data.Youth crime severity index,80.77
+2017,data.Nova Scotia,data.Youth crime severity index,69.18
+2018,data.Nova Scotia,data.Youth crime severity index,58.62
+2019,data.Nova Scotia,data.Youth crime severity index,51.04
+2015,data.Nova Scotia,data.Youth violent crime severity index,67.34
+2016,data.Nova Scotia,data.Youth violent crime severity index,89.0
+2017,data.Nova Scotia,data.Youth violent crime severity index,82.4
+2018,data.Nova Scotia,data.Youth violent crime severity index,73.67
+2019,data.Nova Scotia,data.Youth violent crime severity index,59.07
+2015,data.New Brunswick,data.Crime severity index,62.41
+2016,data.New Brunswick,data.Crime severity index,61.56
+2017,data.New Brunswick,data.Crime severity index,68.74
+2018,data.New Brunswick,data.Crime severity index,72.95
+2019,data.New Brunswick,data.Crime severity index,79.45
+2015,data.New Brunswick,data.Violent crime severity index,59.82
+2016,data.New Brunswick,data.Violent crime severity index,65.89
+2017,data.New Brunswick,data.Violent crime severity index,69.74
+2018,data.New Brunswick,data.Violent crime severity index,76.81
+2019,data.New Brunswick,data.Violent crime severity index,84.87
+2015,data.New Brunswick,data.Youth crime severity index,56.92
+2016,data.New Brunswick,data.Youth crime severity index,58.1
+2017,data.New Brunswick,data.Youth crime severity index,51.83
+2018,data.New Brunswick,data.Youth crime severity index,48.38
+2019,data.New Brunswick,data.Youth crime severity index,47.79
+2015,data.New Brunswick,data.Youth violent crime severity index,51.15
+2016,data.New Brunswick,data.Youth violent crime severity index,54.72
+2017,data.New Brunswick,data.Youth violent crime severity index,51.7
+2018,data.New Brunswick,data.Youth violent crime severity index,53.55
+2019,data.New Brunswick,data.Youth violent crime severity index,64.58
+2015,data.Quebec,data.Crime severity index,56.95
+2016,data.Quebec,data.Crime severity index,56.62
+2017,data.Quebec,data.Crime severity index,57.82
+2018,data.Quebec,data.Crime severity index,56.63
+2019,data.Quebec,data.Crime severity index,55.87
+2015,data.Quebec,data.Violent crime severity index,66.47
+2016,data.Quebec,data.Violent crime severity index,67.85
+2017,data.Quebec,data.Violent crime severity index,72.78
+2018,data.Quebec,data.Violent crime severity index,71.8
+2019,data.Quebec,data.Violent crime severity index,75.2
+2015,data.Quebec,data.Youth crime severity index,53.71
+2016,data.Quebec,data.Youth crime severity index,57.75
+2017,data.Quebec,data.Youth crime severity index,58.53
+2018,data.Quebec,data.Youth crime severity index,58.41
+2019,data.Quebec,data.Youth crime severity index,59.44
+2015,data.Quebec,data.Youth violent crime severity index,63.82
+2016,data.Quebec,data.Youth violent crime severity index,77.76
+2017,data.Quebec,data.Youth violent crime severity index,77.95
+2018,data.Quebec,data.Youth violent crime severity index,81.57
+2019,data.Quebec,data.Youth violent crime severity index,91.03
+2015,data.Ontario,data.Crime severity index,51.05
+2016,data.Ontario,data.Crime severity index,53.29
+2017,data.Ontario,data.Crime severity index,56.34
+2018,data.Ontario,data.Crime severity index,60.36
+2019,data.Ontario,data.Crime severity index,60.7
+2015,data.Ontario,data.Violent crime severity index,59.98
+2016,data.Ontario,data.Violent crime severity index,64.6
+2017,data.Ontario,data.Violent crime severity index,69.82
+2018,data.Ontario,data.Violent crime severity index,74.45
+2019,data.Ontario,data.Violent crime severity index,74.9
+2015,data.Ontario,data.Youth crime severity index,49.7
+2016,data.Ontario,data.Youth crime severity index,51.06
+2017,data.Ontario,data.Youth crime severity index,57.33
+2018,data.Ontario,data.Youth crime severity index,50.99
+2019,data.Ontario,data.Youth crime severity index,48.03
+2015,data.Ontario,data.Youth violent crime severity index,59.44
+2016,data.Ontario,data.Youth violent crime severity index,66.85
+2017,data.Ontario,data.Youth violent crime severity index,83.2
+2018,data.Ontario,data.Youth violent crime severity index,77.37
+2019,data.Ontario,data.Youth violent crime severity index,75.46
+2015,data.Manitoba,data.Crime severity index,106.29
+2016,data.Manitoba,data.Crime severity index,115.38
+2017,data.Manitoba,data.Crime severity index,119.01
+2018,data.Manitoba,data.Crime severity index,126.1
+2019,data.Manitoba,data.Crime severity index,139.26
+2015,data.Manitoba,data.Violent crime severity index,138.63
+2016,data.Manitoba,data.Violent crime severity index,153.38
+2017,data.Manitoba,data.Violent crime severity index,160.76
+2018,data.Manitoba,data.Violent crime severity index,170.42
+2019,data.Manitoba,data.Violent crime severity index,188.92
+2015,data.Manitoba,data.Youth crime severity index,117.93
+2016,data.Manitoba,data.Youth crime severity index,113.24
+2017,data.Manitoba,data.Youth crime severity index,131.23
+2018,data.Manitoba,data.Youth crime severity index,108.84
+2019,data.Manitoba,data.Youth crime severity index,98.04
+2015,data.Manitoba,data.Youth violent crime severity index,125.78
+2016,data.Manitoba,data.Youth violent crime severity index,126.73
+2017,data.Manitoba,data.Youth violent crime severity index,178.98
+2018,data.Manitoba,data.Youth violent crime severity index,144.2
+2019,data.Manitoba,data.Youth violent crime severity index,139.39
+2015,data.Saskatchewan,data.Crime severity index,138.33
+2016,data.Saskatchewan,data.Crime severity index,151.37
+2017,data.Saskatchewan,data.Crime severity index,143.1
+2018,data.Saskatchewan,data.Crime severity index,140.59
+2019,data.Saskatchewan,data.Crime severity index,148.18
+2015,data.Saskatchewan,data.Violent crime severity index,137.64
+2016,data.Saskatchewan,data.Violent crime severity index,150.52
+2017,data.Saskatchewan,data.Violent crime severity index,145.52
+2018,data.Saskatchewan,data.Violent crime severity index,141.16
+2019,data.Saskatchewan,data.Violent crime severity index,170.97
+2015,data.Saskatchewan,data.Youth crime severity index,186.74
+2016,data.Saskatchewan,data.Youth crime severity index,172.77
+2017,data.Saskatchewan,data.Youth crime severity index,161.43
+2018,data.Saskatchewan,data.Youth crime severity index,117.05
+2019,data.Saskatchewan,data.Youth crime severity index,109.54
+2015,data.Saskatchewan,data.Youth violent crime severity index,173.02
+2016,data.Saskatchewan,data.Youth violent crime severity index,164.2
+2017,data.Saskatchewan,data.Youth violent crime severity index,158.65
+2018,data.Saskatchewan,data.Youth violent crime severity index,125.55
+2019,data.Saskatchewan,data.Youth violent crime severity index,130.89
+2015,data.Alberta,data.Crime severity index,104.49
+2016,data.Alberta,data.Crime severity index,105.99
+2017,data.Alberta,data.Crime severity index,112.0
+2018,data.Alberta,data.Crime severity index,113.59
+2019,data.Alberta,data.Crime severity index,119.07
+2015,data.Alberta,data.Violent crime severity index,98.9
+2016,data.Alberta,data.Violent crime severity index,92.89
+2017,data.Alberta,data.Violent crime severity index,98.51
+2018,data.Alberta,data.Violent crime severity index,99.44
+2019,data.Alberta,data.Violent crime severity index,106.65
+2015,data.Alberta,data.Youth crime severity index,65.04
+2016,data.Alberta,data.Youth crime severity index,56.77
+2017,data.Alberta,data.Youth crime severity index,56.21
+2018,data.Alberta,data.Youth crime severity index,57.0
+2019,data.Alberta,data.Youth crime severity index,52.3
+2015,data.Alberta,data.Youth violent crime severity index,70.86
+2016,data.Alberta,data.Youth violent crime severity index,60.89
+2017,data.Alberta,data.Youth violent crime severity index,63.64
+2018,data.Alberta,data.Youth violent crime severity index,76.19
+2019,data.Alberta,data.Youth violent crime severity index,70.67
+2015,data.British Columbia,data.Crime severity index,92.65
+2016,data.British Columbia,data.Crime severity index,91.73
+2017,data.British Columbia,data.Crime severity index,87.23
+2018,data.British Columbia,data.Crime severity index,89.0
+2019,data.British Columbia,data.Crime severity index,104.41
+2015,data.British Columbia,data.Violent crime severity index,81.55
+2016,data.British Columbia,data.Violent crime severity index,73.54
+2017,data.British Columbia,data.Violent crime severity index,74.58
+2018,data.British Columbia,data.Violent crime severity index,75.31
+2019,data.British Columbia,data.Violent crime severity index,91.48
+2015,data.British Columbia,data.Youth crime severity index,38.85
+2016,data.British Columbia,data.Youth crime severity index,35.97
+2017,data.British Columbia,data.Youth crime severity index,37.36
+2018,data.British Columbia,data.Youth crime severity index,33.9
+2019,data.British Columbia,data.Youth crime severity index,38.32
+2015,data.British Columbia,data.Youth violent crime severity index,40.16
+2016,data.British Columbia,data.Youth violent crime severity index,37.02
+2017,data.British Columbia,data.Youth violent crime severity index,41.8
+2018,data.British Columbia,data.Youth violent crime severity index,38.62
+2019,data.British Columbia,data.Youth violent crime severity index,49.63
+2015,data.Yukon,data.Crime severity index,182.97
+2016,data.Yukon,data.Crime severity index,185.89
+2017,data.Yukon,data.Crime severity index,183.56
+2018,data.Yukon,data.Crime severity index,171.73
+2019,data.Yukon,data.Crime severity index,215.68
+2015,data.Yukon,data.Violent crime severity index,209.02
+2016,data.Yukon,data.Violent crime severity index,236.25
+2017,data.Yukon,data.Violent crime severity index,251.4
+2018,data.Yukon,data.Violent crime severity index,213.93
+2019,data.Yukon,data.Violent crime severity index,236.6
+2015,data.Yukon,data.Youth crime severity index,266.12
+2016,data.Yukon,data.Youth crime severity index,193.18
+2017,data.Yukon,data.Youth crime severity index,172.86
+2018,data.Yukon,data.Youth crime severity index,150.94
+2019,data.Yukon,data.Youth crime severity index,105.26
+2015,data.Yukon,data.Youth violent crime severity index,161.22
+2016,data.Yukon,data.Youth violent crime severity index,196.48
+2017,data.Yukon,data.Youth violent crime severity index,139.46
+2018,data.Yukon,data.Youth violent crime severity index,123.48
+2019,data.Yukon,data.Youth violent crime severity index,90.18
+2015,data.Northwest Territories,data.Crime severity index,321.91
+2016,data.Northwest Territories,data.Crime severity index,297.36
+2017,data.Northwest Territories,data.Crime severity index,309.36
+2018,data.Northwest Territories,data.Crime severity index,325.49
+2019,data.Northwest Territories,data.Crime severity index,388.55
+2015,data.Northwest Territories,data.Violent crime severity index,365.33
+2016,data.Northwest Territories,data.Violent crime severity index,336.14
+2017,data.Northwest Territories,data.Violent crime severity index,373.09
+2018,data.Northwest Territories,data.Violent crime severity index,426.52
+2019,data.Northwest Territories,data.Violent crime severity index,480.79
+2015,data.Northwest Territories,data.Youth crime severity index,274.17
+2016,data.Northwest Territories,data.Youth crime severity index,246.93
+2017,data.Northwest Territories,data.Youth crime severity index,258.58
+2018,data.Northwest Territories,data.Youth crime severity index,214.33
+2019,data.Northwest Territories,data.Youth crime severity index,203.31
+2015,data.Northwest Territories,data.Youth violent crime severity index,190.28
+2016,data.Northwest Territories,data.Youth violent crime severity index,139.48
+2017,data.Northwest Territories,data.Youth violent crime severity index,218.03
+2018,data.Northwest Territories,data.Youth violent crime severity index,170.94
+2019,data.Northwest Territories,data.Youth violent crime severity index,198.18
+2015,data.Nunavut,data.Crime severity index,275.19
+2016,data.Nunavut,data.Crime severity index,294.87
+2017,data.Nunavut,data.Crime severity index,300.43
+2018,data.Nunavut,data.Crime severity index,325.5
+2019,data.Nunavut,data.Crime severity index,361.27
+2015,data.Nunavut,data.Violent crime severity index,388.59
+2016,data.Nunavut,data.Violent crime severity index,433.18
+2017,data.Nunavut,data.Violent crime severity index,474.44
+2018,data.Nunavut,data.Violent crime severity index,562.61
+2019,data.Nunavut,data.Violent crime severity index,612.77
+2015,data.Nunavut,data.Youth crime severity index,323.62
+2016,data.Nunavut,data.Youth crime severity index,292.3
+2017,data.Nunavut,data.Youth crime severity index,298.7
+2018,data.Nunavut,data.Youth crime severity index,210.18
+2019,data.Nunavut,data.Youth crime severity index,226.78
+2015,data.Nunavut,data.Youth violent crime severity index,225.69
+2016,data.Nunavut,data.Youth violent crime severity index,198.21
+2017,data.Nunavut,data.Youth violent crime severity index,279.97
+2018,data.Nunavut,data.Youth violent crime severity index,179.3
+2019,data.Nunavut,data.Youth violent crime severity index,240.77
