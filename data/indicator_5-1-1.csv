@@ -1,7 +1,1793 @@
-Year,Group,Value
-2015,A,1
-2015,B,3
-2015,,2
-2016,A,1
-2016,B,3
-2016,,2
+Year,data.Geography,data.Selected demographic characteristics,data.Gender,Value
+2018,data.Canada,data.Total - age,data.Total - gender,19.38
+2018,data.Canada,data.Total - age,data.Male gender,8.23
+2018,data.Canada,data.Total - age,data.Female gender,30.24
+2018,data.Canada,data.Total - age,data.Gender diverse,
+2018,data.Canada,data.15 to 24 years,data.Total - gender,16.47
+2018,data.Canada,data.15 to 24 years,data.Male gender,7.77
+2018,data.Canada,data.15 to 24 years,data.Female gender,25.83
+2018,data.Canada,data.15 to 24 years,data.Gender diverse,
+2018,data.Canada,data.25 to 34 years,data.Total - gender,24.73
+2018,data.Canada,data.25 to 34 years,data.Male gender,9.87
+2018,data.Canada,data.25 to 34 years,data.Female gender,39.57
+2018,data.Canada,data.25 to 34 years,data.Gender diverse,
+2018,data.Canada,data.35 to 44 years,data.Total - gender,22.51
+2018,data.Canada,data.35 to 44 years,data.Male gender,9.97
+2018,data.Canada,data.35 to 44 years,data.Female gender,34.92
+2018,data.Canada,data.35 to 44 years,data.Gender diverse,
+2018,data.Canada,data.45 to 54 years,data.Total - gender,20.03
+2018,data.Canada,data.45 to 54 years,data.Male gender,8.61
+2018,data.Canada,data.45 to 54 years,data.Female gender,31.33
+2018,data.Canada,data.45 to 54 years,data.Gender diverse,
+2018,data.Canada,data.55 years and over,data.Total - gender,16.44
+2018,data.Canada,data.55 years and over,data.Male gender,6.67
+2018,data.Canada,data.55 years and over,data.Female gender,25.34
+2018,data.Canada,data.55 years and over,data.Gender diverse,
+2018,data.Canada,data.Total - immigrant status,data.Total - gender,19.38
+2018,data.Canada,data.Total - immigrant status,data.Male gender,8.23
+2018,data.Canada,data.Total - immigrant status,data.Female gender,30.24
+2018,data.Canada,data.Total - immigrant status,data.Gender diverse,
+2018,data.Canada,data.Non-immigrants,data.Total - gender,21.84
+2018,data.Canada,data.Non-immigrants,data.Male gender,9.09
+2018,data.Canada,data.Non-immigrants,data.Female gender,33.64
+2018,data.Canada,data.Non-immigrants,data.Gender diverse,
+2018,data.Canada,data.Immigrants,data.Total - gender,12.42
+2018,data.Canada,data.Immigrants,data.Male gender,5.98
+2018,data.Canada,data.Immigrants,data.Female gender,19.68
+2018,data.Canada,data.Immigrants,data.Gender diverse,
+2018,data.Canada,data.Not stated - immigrant status,data.Total - gender,10.86
+2018,data.Canada,data.Not stated - immigrant status,data.Male gender,
+2018,data.Canada,data.Not stated - immigrant status,data.Female gender,12.98
+2018,data.Canada,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.Canada,data.Total - visible minority population,data.Total - gender,19.38
+2018,data.Canada,data.Total - visible minority population,data.Male gender,8.23
+2018,data.Canada,data.Total - visible minority population,data.Female gender,30.24
+2018,data.Canada,data.Total - visible minority population,data.Gender diverse,
+2018,data.Canada,data.Visible minority population,data.Total - gender,11.89
+2018,data.Canada,data.Visible minority population,data.Male gender,5.88
+2018,data.Canada,data.Visible minority population,data.Female gender,18.75
+2018,data.Canada,data.Visible minority population,data.Gender diverse,
+2018,data.Canada,data.Not a visible minority,data.Total - gender,21.56
+2018,data.Canada,data.Not a visible minority,data.Male gender,8.96
+2018,data.Canada,data.Not a visible minority,data.Female gender,33.3
+2018,data.Canada,data.Not a visible minority,data.Gender diverse,
+2018,data.Canada,data.Not stated - visible minority population,data.Total - gender,10.84
+2018,data.Canada,data.Not stated - visible minority population,data.Male gender,6.37
+2018,data.Canada,data.Not stated - visible minority population,data.Female gender,14.75
+2018,data.Canada,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.Canada,data.Total - population by indigenous identity,data.Total - gender,19.38
+2018,data.Canada,data.Total - population by indigenous identity,data.Male gender,8.23
+2018,data.Canada,data.Total - population by indigenous identity,data.Female gender,30.24
+2018,data.Canada,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.Canada,data.Indigenous identity,data.Total - gender,28.45
+2018,data.Canada,data.Indigenous identity,data.Male gender,12.34
+2018,data.Canada,data.Indigenous identity,data.Female gender,43.18
+2018,data.Canada,data.Indigenous identity,data.Gender diverse,
+2018,data.Canada,data.First Nations (North American Indian),data.Total - gender,28.76
+2018,data.Canada,data.First Nations (North American Indian),data.Male gender,9.08
+2018,data.Canada,data.First Nations (North American Indian),data.Female gender,45.3
+2018,data.Canada,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.Canada,data.Métis,data.Total - gender,29.51
+2018,data.Canada,data.Métis,data.Male gender,16.05
+2018,data.Canada,data.Métis,data.Female gender,43.64
+2018,data.Canada,data.Métis,data.Gender diverse,
+2018,data.Canada,data.Inuk (Inuit),data.Total - gender,17.42
+2018,data.Canada,data.Inuk (Inuit),data.Male gender,7.77
+2018,data.Canada,data.Inuk (Inuit),data.Female gender,25.59
+2018,data.Canada,data.Inuk (Inuit),data.Gender diverse,
+2018,data.Canada,data.Other indigenous identity,data.Total - gender,25.7
+2018,data.Canada,data.Other indigenous identity,data.Male gender,
+2018,data.Canada,data.Other indigenous identity,data.Female gender,
+2018,data.Canada,data.Other indigenous identity,data.Gender diverse,
+2018,data.Canada,data.Non-indigenous identity,data.Total - gender,19.12
+2018,data.Canada,data.Non-indigenous identity,data.Male gender,8.09
+2018,data.Canada,data.Non-indigenous identity,data.Female gender,29.87
+2018,data.Canada,data.Non-indigenous identity,data.Gender diverse,
+2018,data.Canada,data.Not stated - population by indigenous identity,data.Total - gender,15.64
+2018,data.Canada,data.Not stated - population by indigenous identity,data.Male gender,8.7
+2018,data.Canada,data.Not stated - population by indigenous identity,data.Female gender,22.96
+2018,data.Canada,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.Canada,data.Total - disability status,data.Total - gender,19.38
+2018,data.Canada,data.Total - disability status,data.Male gender,8.23
+2018,data.Canada,data.Total - disability status,data.Female gender,30.24
+2018,data.Canada,data.Total - disability status,data.Gender diverse,
+2018,data.Canada,data.Has a disability,data.Total - gender,27.8
+2018,data.Canada,data.Has a disability,data.Male gender,12.75
+2018,data.Canada,data.Has a disability,data.Female gender,39.21
+2018,data.Canada,data.Has a disability,data.Gender diverse,
+2018,data.Canada,data.Does not have a disability,data.Total - gender,14.81
+2018,data.Canada,data.Does not have a disability,data.Male gender,6.22
+2018,data.Canada,data.Does not have a disability,data.Female gender,24.4
+2018,data.Canada,data.Does not have a disability,data.Gender diverse,
+2018,data.Canada,data.Total - sexual orientation,data.Total - gender,19.38
+2018,data.Canada,data.Total - sexual orientation,data.Male gender,8.23
+2018,data.Canada,data.Total - sexual orientation,data.Female gender,30.24
+2018,data.Canada,data.Total - sexual orientation,data.Gender diverse,
+2018,data.Canada,data.Heterosexual,data.Total - gender,18.85
+2018,data.Canada,data.Heterosexual,data.Male gender,7.72
+2018,data.Canada,data.Heterosexual,data.Female gender,29.78
+2018,data.Canada,data.Heterosexual,data.Gender diverse,
+2018,data.Canada,data.Sexual minority,data.Total - gender,38.57
+2018,data.Canada,data.Sexual minority,data.Male gender,25.46
+2018,data.Canada,data.Sexual minority,data.Female gender,50.41
+2018,data.Canada,data.Sexual minority,data.Gender diverse,
+2018,data.Canada,data.Lesbian or gay,data.Total - gender,31.19
+2018,data.Canada,data.Lesbian or gay,data.Male gender,26.56
+2018,data.Canada,data.Lesbian or gay,data.Female gender,39.37
+2018,data.Canada,data.Lesbian or gay,data.Gender diverse,
+2018,data.Canada,data.Bisexual or pansexual,data.Total - gender,44.99
+2018,data.Canada,data.Bisexual or pansexual,data.Male gender,25.41
+2018,data.Canada,data.Bisexual or pansexual,data.Female gender,55.41
+2018,data.Canada,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.Canada,data.Sexual orientation not elsewhere classified,data.Total - gender,37.47
+2018,data.Canada,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.Canada,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.Canada,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.Canada,data.Not stated - sexual orientation,data.Total - gender,11.58
+2018,data.Canada,data.Not stated - sexual orientation,data.Male gender,4.57
+2018,data.Canada,data.Not stated - sexual orientation,data.Female gender,17.48
+2018,data.Canada,data.Not stated - sexual orientation,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Total - age,data.Total - gender,17.03
+2018,data.Newfoundland and Labrador,data.Total - age,data.Male gender,8.18
+2018,data.Newfoundland and Labrador,data.Total - age,data.Female gender,25.43
+2018,data.Newfoundland and Labrador,data.Total - age,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.15 to 24 years,data.Total - gender,18.21
+2018,data.Newfoundland and Labrador,data.15 to 24 years,data.Male gender,
+2018,data.Newfoundland and Labrador,data.15 to 24 years,data.Female gender,22.26
+2018,data.Newfoundland and Labrador,data.15 to 24 years,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.25 to 34 years,data.Total - gender,24.7
+2018,data.Newfoundland and Labrador,data.25 to 34 years,data.Male gender,
+2018,data.Newfoundland and Labrador,data.25 to 34 years,data.Female gender,43.71
+2018,data.Newfoundland and Labrador,data.25 to 34 years,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.35 to 44 years,data.Total - gender,20.89
+2018,data.Newfoundland and Labrador,data.35 to 44 years,data.Male gender,12.13
+2018,data.Newfoundland and Labrador,data.35 to 44 years,data.Female gender,28.9
+2018,data.Newfoundland and Labrador,data.35 to 44 years,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.45 to 54 years,data.Total - gender,18.39
+2018,data.Newfoundland and Labrador,data.45 to 54 years,data.Male gender,7.11
+2018,data.Newfoundland and Labrador,data.45 to 54 years,data.Female gender,28.96
+2018,data.Newfoundland and Labrador,data.45 to 54 years,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.55 years and over,data.Total - gender,12.42
+2018,data.Newfoundland and Labrador,data.55 years and over,data.Male gender,6.26
+2018,data.Newfoundland and Labrador,data.55 years and over,data.Female gender,18.13
+2018,data.Newfoundland and Labrador,data.55 years and over,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Total - immigrant status,data.Total - gender,17.03
+2018,data.Newfoundland and Labrador,data.Total - immigrant status,data.Male gender,8.18
+2018,data.Newfoundland and Labrador,data.Total - immigrant status,data.Female gender,25.43
+2018,data.Newfoundland and Labrador,data.Total - immigrant status,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Non-immigrants,data.Total - gender,16.29
+2018,data.Newfoundland and Labrador,data.Non-immigrants,data.Male gender,7.28
+2018,data.Newfoundland and Labrador,data.Non-immigrants,data.Female gender,24.62
+2018,data.Newfoundland and Labrador,data.Non-immigrants,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Immigrants,data.Total - gender,32.74
+2018,data.Newfoundland and Labrador,data.Immigrants,data.Male gender,
+2018,data.Newfoundland and Labrador,data.Immigrants,data.Female gender,
+2018,data.Newfoundland and Labrador,data.Immigrants,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Not stated - immigrant status,data.Total - gender,
+2018,data.Newfoundland and Labrador,data.Not stated - immigrant status,data.Male gender,
+2018,data.Newfoundland and Labrador,data.Not stated - immigrant status,data.Female gender,
+2018,data.Newfoundland and Labrador,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Total - visible minority population,data.Total - gender,17.03
+2018,data.Newfoundland and Labrador,data.Total - visible minority population,data.Male gender,8.18
+2018,data.Newfoundland and Labrador,data.Total - visible minority population,data.Female gender,25.43
+2018,data.Newfoundland and Labrador,data.Total - visible minority population,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Visible minority population,data.Total - gender,
+2018,data.Newfoundland and Labrador,data.Visible minority population,data.Male gender,
+2018,data.Newfoundland and Labrador,data.Visible minority population,data.Female gender,
+2018,data.Newfoundland and Labrador,data.Visible minority population,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Not a visible minority,data.Total - gender,16.76
+2018,data.Newfoundland and Labrador,data.Not a visible minority,data.Male gender,7.22
+2018,data.Newfoundland and Labrador,data.Not a visible minority,data.Female gender,25.53
+2018,data.Newfoundland and Labrador,data.Not a visible minority,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Not stated - visible minority population,data.Total - gender,
+2018,data.Newfoundland and Labrador,data.Not stated - visible minority population,data.Male gender,
+2018,data.Newfoundland and Labrador,data.Not stated - visible minority population,data.Female gender,
+2018,data.Newfoundland and Labrador,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Total - population by indigenous identity,data.Total - gender,17.03
+2018,data.Newfoundland and Labrador,data.Total - population by indigenous identity,data.Male gender,8.18
+2018,data.Newfoundland and Labrador,data.Total - population by indigenous identity,data.Female gender,25.43
+2018,data.Newfoundland and Labrador,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Indigenous identity,data.Total - gender,23.67
+2018,data.Newfoundland and Labrador,data.Indigenous identity,data.Male gender,
+2018,data.Newfoundland and Labrador,data.Indigenous identity,data.Female gender,
+2018,data.Newfoundland and Labrador,data.Indigenous identity,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.First Nations (North American Indian),data.Total - gender,
+2018,data.Newfoundland and Labrador,data.First Nations (North American Indian),data.Male gender,
+2018,data.Newfoundland and Labrador,data.First Nations (North American Indian),data.Female gender,
+2018,data.Newfoundland and Labrador,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Métis,data.Total - gender,
+2018,data.Newfoundland and Labrador,data.Métis,data.Male gender,
+2018,data.Newfoundland and Labrador,data.Métis,data.Female gender,
+2018,data.Newfoundland and Labrador,data.Métis,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Inuk (Inuit),data.Total - gender,
+2018,data.Newfoundland and Labrador,data.Inuk (Inuit),data.Male gender,
+2018,data.Newfoundland and Labrador,data.Inuk (Inuit),data.Female gender,
+2018,data.Newfoundland and Labrador,data.Inuk (Inuit),data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Other indigenous identity,data.Total - gender,
+2018,data.Newfoundland and Labrador,data.Other indigenous identity,data.Male gender,
+2018,data.Newfoundland and Labrador,data.Other indigenous identity,data.Female gender,
+2018,data.Newfoundland and Labrador,data.Other indigenous identity,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Non-indigenous identity,data.Total - gender,16.71
+2018,data.Newfoundland and Labrador,data.Non-indigenous identity,data.Male gender,8.43
+2018,data.Newfoundland and Labrador,data.Non-indigenous identity,data.Female gender,24.36
+2018,data.Newfoundland and Labrador,data.Non-indigenous identity,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Not stated - population by indigenous identity,data.Total - gender,
+2018,data.Newfoundland and Labrador,data.Not stated - population by indigenous identity,data.Male gender,
+2018,data.Newfoundland and Labrador,data.Not stated - population by indigenous identity,data.Female gender,
+2018,data.Newfoundland and Labrador,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Total - disability status,data.Total - gender,17.03
+2018,data.Newfoundland and Labrador,data.Total - disability status,data.Male gender,8.18
+2018,data.Newfoundland and Labrador,data.Total - disability status,data.Female gender,25.43
+2018,data.Newfoundland and Labrador,data.Total - disability status,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Has a disability,data.Total - gender,25.46
+2018,data.Newfoundland and Labrador,data.Has a disability,data.Male gender,12
+2018,data.Newfoundland and Labrador,data.Has a disability,data.Female gender,34.35
+2018,data.Newfoundland and Labrador,data.Has a disability,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Does not have a disability,data.Total - gender,12.58
+2018,data.Newfoundland and Labrador,data.Does not have a disability,data.Male gender,6.68
+2018,data.Newfoundland and Labrador,data.Does not have a disability,data.Female gender,19.34
+2018,data.Newfoundland and Labrador,data.Does not have a disability,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Total - sexual orientation,data.Total - gender,17.03
+2018,data.Newfoundland and Labrador,data.Total - sexual orientation,data.Male gender,8.18
+2018,data.Newfoundland and Labrador,data.Total - sexual orientation,data.Female gender,25.43
+2018,data.Newfoundland and Labrador,data.Total - sexual orientation,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Heterosexual,data.Total - gender,16.63
+2018,data.Newfoundland and Labrador,data.Heterosexual,data.Male gender,7.32
+2018,data.Newfoundland and Labrador,data.Heterosexual,data.Female gender,25.58
+2018,data.Newfoundland and Labrador,data.Heterosexual,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Sexual minority,data.Total - gender,
+2018,data.Newfoundland and Labrador,data.Sexual minority,data.Male gender,
+2018,data.Newfoundland and Labrador,data.Sexual minority,data.Female gender,
+2018,data.Newfoundland and Labrador,data.Sexual minority,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Lesbian or gay,data.Total - gender,
+2018,data.Newfoundland and Labrador,data.Lesbian or gay,data.Male gender,
+2018,data.Newfoundland and Labrador,data.Lesbian or gay,data.Female gender,
+2018,data.Newfoundland and Labrador,data.Lesbian or gay,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Bisexual or pansexual,data.Total - gender,
+2018,data.Newfoundland and Labrador,data.Bisexual or pansexual,data.Male gender,
+2018,data.Newfoundland and Labrador,data.Bisexual or pansexual,data.Female gender,
+2018,data.Newfoundland and Labrador,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Sexual orientation not elsewhere classified,data.Total - gender,
+2018,data.Newfoundland and Labrador,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.Newfoundland and Labrador,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.Newfoundland and Labrador,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.Newfoundland and Labrador,data.Not stated - sexual orientation,data.Total - gender,
+2018,data.Newfoundland and Labrador,data.Not stated - sexual orientation,data.Male gender,
+2018,data.Newfoundland and Labrador,data.Not stated - sexual orientation,data.Female gender,
+2018,data.Newfoundland and Labrador,data.Not stated - sexual orientation,data.Gender diverse,
+2018,data.Prince Edward Island,data.Total - age,data.Total - gender,20.43
+2018,data.Prince Edward Island,data.Total - age,data.Male gender,6.11
+2018,data.Prince Edward Island,data.Total - age,data.Female gender,34.57
+2018,data.Prince Edward Island,data.Total - age,data.Gender diverse,
+2018,data.Prince Edward Island,data.15 to 24 years,data.Total - gender,
+2018,data.Prince Edward Island,data.15 to 24 years,data.Male gender,
+2018,data.Prince Edward Island,data.15 to 24 years,data.Female gender,
+2018,data.Prince Edward Island,data.15 to 24 years,data.Gender diverse,
+2018,data.Prince Edward Island,data.25 to 34 years,data.Total - gender,25
+2018,data.Prince Edward Island,data.25 to 34 years,data.Male gender,
+2018,data.Prince Edward Island,data.25 to 34 years,data.Female gender,41.02
+2018,data.Prince Edward Island,data.25 to 34 years,data.Gender diverse,
+2018,data.Prince Edward Island,data.35 to 44 years,data.Total - gender,23.91
+2018,data.Prince Edward Island,data.35 to 44 years,data.Male gender,
+2018,data.Prince Edward Island,data.35 to 44 years,data.Female gender,42.17
+2018,data.Prince Edward Island,data.35 to 44 years,data.Gender diverse,
+2018,data.Prince Edward Island,data.45 to 54 years,data.Total - gender,21.03
+2018,data.Prince Edward Island,data.45 to 54 years,data.Male gender,
+2018,data.Prince Edward Island,data.45 to 54 years,data.Female gender,36.81
+2018,data.Prince Edward Island,data.45 to 54 years,data.Gender diverse,
+2018,data.Prince Edward Island,data.55 years and over,data.Total - gender,17.48
+2018,data.Prince Edward Island,data.55 years and over,data.Male gender,6.52
+2018,data.Prince Edward Island,data.55 years and over,data.Female gender,27.23
+2018,data.Prince Edward Island,data.55 years and over,data.Gender diverse,
+2018,data.Prince Edward Island,data.Total - immigrant status,data.Total - gender,20.43
+2018,data.Prince Edward Island,data.Total - immigrant status,data.Male gender,6.11
+2018,data.Prince Edward Island,data.Total - immigrant status,data.Female gender,34.57
+2018,data.Prince Edward Island,data.Total - immigrant status,data.Gender diverse,
+2018,data.Prince Edward Island,data.Non-immigrants,data.Total - gender,21.22
+2018,data.Prince Edward Island,data.Non-immigrants,data.Male gender,6.83
+2018,data.Prince Edward Island,data.Non-immigrants,data.Female gender,35.29
+2018,data.Prince Edward Island,data.Non-immigrants,data.Gender diverse,
+2018,data.Prince Edward Island,data.Immigrants,data.Total - gender,15.75
+2018,data.Prince Edward Island,data.Immigrants,data.Male gender,
+2018,data.Prince Edward Island,data.Immigrants,data.Female gender,30.28
+2018,data.Prince Edward Island,data.Immigrants,data.Gender diverse,
+2018,data.Prince Edward Island,data.Not stated - immigrant status,data.Total - gender,
+2018,data.Prince Edward Island,data.Not stated - immigrant status,data.Male gender,
+2018,data.Prince Edward Island,data.Not stated - immigrant status,data.Female gender,
+2018,data.Prince Edward Island,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.Prince Edward Island,data.Total - visible minority population,data.Total - gender,20.43
+2018,data.Prince Edward Island,data.Total - visible minority population,data.Male gender,6.11
+2018,data.Prince Edward Island,data.Total - visible minority population,data.Female gender,34.57
+2018,data.Prince Edward Island,data.Total - visible minority population,data.Gender diverse,
+2018,data.Prince Edward Island,data.Visible minority population,data.Total - gender,
+2018,data.Prince Edward Island,data.Visible minority population,data.Male gender,
+2018,data.Prince Edward Island,data.Visible minority population,data.Female gender,
+2018,data.Prince Edward Island,data.Visible minority population,data.Gender diverse,
+2018,data.Prince Edward Island,data.Not a visible minority,data.Total - gender,20.84
+2018,data.Prince Edward Island,data.Not a visible minority,data.Male gender,6.62
+2018,data.Prince Edward Island,data.Not a visible minority,data.Female gender,35.09
+2018,data.Prince Edward Island,data.Not a visible minority,data.Gender diverse,
+2018,data.Prince Edward Island,data.Not stated - visible minority population,data.Total - gender,
+2018,data.Prince Edward Island,data.Not stated - visible minority population,data.Male gender,
+2018,data.Prince Edward Island,data.Not stated - visible minority population,data.Female gender,
+2018,data.Prince Edward Island,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.Prince Edward Island,data.Total - population by indigenous identity,data.Total - gender,20.43
+2018,data.Prince Edward Island,data.Total - population by indigenous identity,data.Male gender,6.11
+2018,data.Prince Edward Island,data.Total - population by indigenous identity,data.Female gender,34.57
+2018,data.Prince Edward Island,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.Prince Edward Island,data.Indigenous identity,data.Total - gender,
+2018,data.Prince Edward Island,data.Indigenous identity,data.Male gender,
+2018,data.Prince Edward Island,data.Indigenous identity,data.Female gender,
+2018,data.Prince Edward Island,data.Indigenous identity,data.Gender diverse,
+2018,data.Prince Edward Island,data.First Nations (North American Indian),data.Total - gender,
+2018,data.Prince Edward Island,data.First Nations (North American Indian),data.Male gender,
+2018,data.Prince Edward Island,data.First Nations (North American Indian),data.Female gender,
+2018,data.Prince Edward Island,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.Prince Edward Island,data.Métis,data.Total - gender,
+2018,data.Prince Edward Island,data.Métis,data.Male gender,
+2018,data.Prince Edward Island,data.Métis,data.Female gender,
+2018,data.Prince Edward Island,data.Métis,data.Gender diverse,
+2018,data.Prince Edward Island,data.Inuk (Inuit),data.Total - gender,
+2018,data.Prince Edward Island,data.Inuk (Inuit),data.Male gender,
+2018,data.Prince Edward Island,data.Inuk (Inuit),data.Female gender,
+2018,data.Prince Edward Island,data.Inuk (Inuit),data.Gender diverse,
+2018,data.Prince Edward Island,data.Other indigenous identity,data.Total - gender,
+2018,data.Prince Edward Island,data.Other indigenous identity,data.Male gender,
+2018,data.Prince Edward Island,data.Other indigenous identity,data.Female gender,
+2018,data.Prince Edward Island,data.Other indigenous identity,data.Gender diverse,
+2018,data.Prince Edward Island,data.Non-indigenous identity,data.Total - gender,20.6
+2018,data.Prince Edward Island,data.Non-indigenous identity,data.Male gender,6.3
+2018,data.Prince Edward Island,data.Non-indigenous identity,data.Female gender,34.75
+2018,data.Prince Edward Island,data.Non-indigenous identity,data.Gender diverse,
+2018,data.Prince Edward Island,data.Not stated - population by indigenous identity,data.Total - gender,
+2018,data.Prince Edward Island,data.Not stated - population by indigenous identity,data.Male gender,
+2018,data.Prince Edward Island,data.Not stated - population by indigenous identity,data.Female gender,
+2018,data.Prince Edward Island,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.Prince Edward Island,data.Total - disability status,data.Total - gender,20.43
+2018,data.Prince Edward Island,data.Total - disability status,data.Male gender,6.11
+2018,data.Prince Edward Island,data.Total - disability status,data.Female gender,34.57
+2018,data.Prince Edward Island,data.Total - disability status,data.Gender diverse,
+2018,data.Prince Edward Island,data.Has a disability,data.Total - gender,27.25
+2018,data.Prince Edward Island,data.Has a disability,data.Male gender,8.08
+2018,data.Prince Edward Island,data.Has a disability,data.Female gender,43.1
+2018,data.Prince Edward Island,data.Has a disability,data.Gender diverse,
+2018,data.Prince Edward Island,data.Does not have a disability,data.Total - gender,16.61
+2018,data.Prince Edward Island,data.Does not have a disability,data.Male gender,5.15
+2018,data.Prince Edward Island,data.Does not have a disability,data.Female gender,29.11
+2018,data.Prince Edward Island,data.Does not have a disability,data.Gender diverse,
+2018,data.Prince Edward Island,data.Total - sexual orientation,data.Total - gender,20.43
+2018,data.Prince Edward Island,data.Total - sexual orientation,data.Male gender,6.11
+2018,data.Prince Edward Island,data.Total - sexual orientation,data.Female gender,34.57
+2018,data.Prince Edward Island,data.Total - sexual orientation,data.Gender diverse,
+2018,data.Prince Edward Island,data.Heterosexual,data.Total - gender,19.52
+2018,data.Prince Edward Island,data.Heterosexual,data.Male gender,5.49
+2018,data.Prince Edward Island,data.Heterosexual,data.Female gender,33.76
+2018,data.Prince Edward Island,data.Heterosexual,data.Gender diverse,
+2018,data.Prince Edward Island,data.Sexual minority,data.Total - gender,
+2018,data.Prince Edward Island,data.Sexual minority,data.Male gender,
+2018,data.Prince Edward Island,data.Sexual minority,data.Female gender,
+2018,data.Prince Edward Island,data.Sexual minority,data.Gender diverse,
+2018,data.Prince Edward Island,data.Lesbian or gay,data.Total - gender,
+2018,data.Prince Edward Island,data.Lesbian or gay,data.Male gender,
+2018,data.Prince Edward Island,data.Lesbian or gay,data.Female gender,
+2018,data.Prince Edward Island,data.Lesbian or gay,data.Gender diverse,
+2018,data.Prince Edward Island,data.Bisexual or pansexual,data.Total - gender,
+2018,data.Prince Edward Island,data.Bisexual or pansexual,data.Male gender,
+2018,data.Prince Edward Island,data.Bisexual or pansexual,data.Female gender,
+2018,data.Prince Edward Island,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.Prince Edward Island,data.Sexual orientation not elsewhere classified,data.Total - gender,
+2018,data.Prince Edward Island,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.Prince Edward Island,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.Prince Edward Island,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.Prince Edward Island,data.Not stated - sexual orientation,data.Total - gender,
+2018,data.Prince Edward Island,data.Not stated - sexual orientation,data.Male gender,
+2018,data.Prince Edward Island,data.Not stated - sexual orientation,data.Female gender,
+2018,data.Prince Edward Island,data.Not stated - sexual orientation,data.Gender diverse,
+2018,data.Nova Scotia,data.Total - age,data.Total - gender,21.67
+2018,data.Nova Scotia,data.Total - age,data.Male gender,9.61
+2018,data.Nova Scotia,data.Total - age,data.Female gender,33.1
+2018,data.Nova Scotia,data.Total - age,data.Gender diverse,
+2018,data.Nova Scotia,data.15 to 24 years,data.Total - gender,14.04
+2018,data.Nova Scotia,data.15 to 24 years,data.Male gender,
+2018,data.Nova Scotia,data.15 to 24 years,data.Female gender,25.15
+2018,data.Nova Scotia,data.15 to 24 years,data.Gender diverse,
+2018,data.Nova Scotia,data.25 to 34 years,data.Total - gender,28.57
+2018,data.Nova Scotia,data.25 to 34 years,data.Male gender,11.98
+2018,data.Nova Scotia,data.25 to 34 years,data.Female gender,46.32
+2018,data.Nova Scotia,data.25 to 34 years,data.Gender diverse,
+2018,data.Nova Scotia,data.35 to 44 years,data.Total - gender,21.57
+2018,data.Nova Scotia,data.35 to 44 years,data.Male gender,10.07
+2018,data.Nova Scotia,data.35 to 44 years,data.Female gender,32.48
+2018,data.Nova Scotia,data.35 to 44 years,data.Gender diverse,
+2018,data.Nova Scotia,data.45 to 54 years,data.Total - gender,26.25
+2018,data.Nova Scotia,data.45 to 54 years,data.Male gender,10.51
+2018,data.Nova Scotia,data.45 to 54 years,data.Female gender,40.53
+2018,data.Nova Scotia,data.45 to 54 years,data.Gender diverse,
+2018,data.Nova Scotia,data.55 years and over,data.Total - gender,19.94
+2018,data.Nova Scotia,data.55 years and over,data.Male gender,10.34
+2018,data.Nova Scotia,data.55 years and over,data.Female gender,28.55
+2018,data.Nova Scotia,data.55 years and over,data.Gender diverse,
+2018,data.Nova Scotia,data.Total - immigrant status,data.Total - gender,21.67
+2018,data.Nova Scotia,data.Total - immigrant status,data.Male gender,9.61
+2018,data.Nova Scotia,data.Total - immigrant status,data.Female gender,33.1
+2018,data.Nova Scotia,data.Total - immigrant status,data.Gender diverse,
+2018,data.Nova Scotia,data.Non-immigrants,data.Total - gender,22.67
+2018,data.Nova Scotia,data.Non-immigrants,data.Male gender,10.07
+2018,data.Nova Scotia,data.Non-immigrants,data.Female gender,34.42
+2018,data.Nova Scotia,data.Non-immigrants,data.Gender diverse,
+2018,data.Nova Scotia,data.Immigrants,data.Total - gender,12.74
+2018,data.Nova Scotia,data.Immigrants,data.Male gender,
+2018,data.Nova Scotia,data.Immigrants,data.Female gender,20.31
+2018,data.Nova Scotia,data.Immigrants,data.Gender diverse,
+2018,data.Nova Scotia,data.Not stated - immigrant status,data.Total - gender,
+2018,data.Nova Scotia,data.Not stated - immigrant status,data.Male gender,
+2018,data.Nova Scotia,data.Not stated - immigrant status,data.Female gender,
+2018,data.Nova Scotia,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.Nova Scotia,data.Total - visible minority population,data.Total - gender,21.67
+2018,data.Nova Scotia,data.Total - visible minority population,data.Male gender,9.61
+2018,data.Nova Scotia,data.Total - visible minority population,data.Female gender,33.1
+2018,data.Nova Scotia,data.Total - visible minority population,data.Gender diverse,
+2018,data.Nova Scotia,data.Visible minority population,data.Total - gender,13.71
+2018,data.Nova Scotia,data.Visible minority population,data.Male gender,
+2018,data.Nova Scotia,data.Visible minority population,data.Female gender,20.77
+2018,data.Nova Scotia,data.Visible minority population,data.Gender diverse,
+2018,data.Nova Scotia,data.Not a visible minority,data.Total - gender,22.24
+2018,data.Nova Scotia,data.Not a visible minority,data.Male gender,9.83
+2018,data.Nova Scotia,data.Not a visible minority,data.Female gender,33.92
+2018,data.Nova Scotia,data.Not a visible minority,data.Gender diverse,
+2018,data.Nova Scotia,data.Not stated - visible minority population,data.Total - gender,
+2018,data.Nova Scotia,data.Not stated - visible minority population,data.Male gender,
+2018,data.Nova Scotia,data.Not stated - visible minority population,data.Female gender,
+2018,data.Nova Scotia,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.Nova Scotia,data.Total - population by indigenous identity,data.Total - gender,21.67
+2018,data.Nova Scotia,data.Total - population by indigenous identity,data.Male gender,9.61
+2018,data.Nova Scotia,data.Total - population by indigenous identity,data.Female gender,33.1
+2018,data.Nova Scotia,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.Nova Scotia,data.Indigenous identity,data.Total - gender,30.18
+2018,data.Nova Scotia,data.Indigenous identity,data.Male gender,
+2018,data.Nova Scotia,data.Indigenous identity,data.Female gender,46.54
+2018,data.Nova Scotia,data.Indigenous identity,data.Gender diverse,
+2018,data.Nova Scotia,data.First Nations (North American Indian),data.Total - gender,
+2018,data.Nova Scotia,data.First Nations (North American Indian),data.Male gender,
+2018,data.Nova Scotia,data.First Nations (North American Indian),data.Female gender,
+2018,data.Nova Scotia,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.Nova Scotia,data.Métis,data.Total - gender,25.4
+2018,data.Nova Scotia,data.Métis,data.Male gender,
+2018,data.Nova Scotia,data.Métis,data.Female gender,
+2018,data.Nova Scotia,data.Métis,data.Gender diverse,
+2018,data.Nova Scotia,data.Inuk (Inuit),data.Total - gender,
+2018,data.Nova Scotia,data.Inuk (Inuit),data.Male gender,
+2018,data.Nova Scotia,data.Inuk (Inuit),data.Female gender,
+2018,data.Nova Scotia,data.Inuk (Inuit),data.Gender diverse,
+2018,data.Nova Scotia,data.Other indigenous identity,data.Total - gender,
+2018,data.Nova Scotia,data.Other indigenous identity,data.Male gender,
+2018,data.Nova Scotia,data.Other indigenous identity,data.Female gender,
+2018,data.Nova Scotia,data.Other indigenous identity,data.Gender diverse,
+2018,data.Nova Scotia,data.Non-indigenous identity,data.Total - gender,21.23
+2018,data.Nova Scotia,data.Non-indigenous identity,data.Male gender,9.49
+2018,data.Nova Scotia,data.Non-indigenous identity,data.Female gender,32.44
+2018,data.Nova Scotia,data.Non-indigenous identity,data.Gender diverse,
+2018,data.Nova Scotia,data.Not stated - population by indigenous identity,data.Total - gender,
+2018,data.Nova Scotia,data.Not stated - population by indigenous identity,data.Male gender,
+2018,data.Nova Scotia,data.Not stated - population by indigenous identity,data.Female gender,
+2018,data.Nova Scotia,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.Nova Scotia,data.Total - disability status,data.Total - gender,21.67
+2018,data.Nova Scotia,data.Total - disability status,data.Male gender,9.61
+2018,data.Nova Scotia,data.Total - disability status,data.Female gender,33.1
+2018,data.Nova Scotia,data.Total - disability status,data.Gender diverse,
+2018,data.Nova Scotia,data.Has a disability,data.Total - gender,28.26
+2018,data.Nova Scotia,data.Has a disability,data.Male gender,11.23
+2018,data.Nova Scotia,data.Has a disability,data.Female gender,41.59
+2018,data.Nova Scotia,data.Has a disability,data.Gender diverse,
+2018,data.Nova Scotia,data.Does not have a disability,data.Total - gender,17.07
+2018,data.Nova Scotia,data.Does not have a disability,data.Male gender,8.64
+2018,data.Nova Scotia,data.Does not have a disability,data.Female gender,26.21
+2018,data.Nova Scotia,data.Does not have a disability,data.Gender diverse,
+2018,data.Nova Scotia,data.Total - sexual orientation,data.Total - gender,21.67
+2018,data.Nova Scotia,data.Total - sexual orientation,data.Male gender,9.61
+2018,data.Nova Scotia,data.Total - sexual orientation,data.Female gender,33.1
+2018,data.Nova Scotia,data.Total - sexual orientation,data.Gender diverse,
+2018,data.Nova Scotia,data.Heterosexual,data.Total - gender,21.02
+2018,data.Nova Scotia,data.Heterosexual,data.Male gender,9.07
+2018,data.Nova Scotia,data.Heterosexual,data.Female gender,32.53
+2018,data.Nova Scotia,data.Heterosexual,data.Gender diverse,
+2018,data.Nova Scotia,data.Sexual minority,data.Total - gender,40.87
+2018,data.Nova Scotia,data.Sexual minority,data.Male gender,
+2018,data.Nova Scotia,data.Sexual minority,data.Female gender,60.77
+2018,data.Nova Scotia,data.Sexual minority,data.Gender diverse,
+2018,data.Nova Scotia,data.Lesbian or gay,data.Total - gender,
+2018,data.Nova Scotia,data.Lesbian or gay,data.Male gender,
+2018,data.Nova Scotia,data.Lesbian or gay,data.Female gender,
+2018,data.Nova Scotia,data.Lesbian or gay,data.Gender diverse,
+2018,data.Nova Scotia,data.Bisexual or pansexual,data.Total - gender,
+2018,data.Nova Scotia,data.Bisexual or pansexual,data.Male gender,
+2018,data.Nova Scotia,data.Bisexual or pansexual,data.Female gender,
+2018,data.Nova Scotia,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.Nova Scotia,data.Sexual orientation not elsewhere classified,data.Total - gender,
+2018,data.Nova Scotia,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.Nova Scotia,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.Nova Scotia,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.Nova Scotia,data.Not stated - sexual orientation,data.Total - gender,11.61
+2018,data.Nova Scotia,data.Not stated - sexual orientation,data.Male gender,
+2018,data.Nova Scotia,data.Not stated - sexual orientation,data.Female gender,
+2018,data.Nova Scotia,data.Not stated - sexual orientation,data.Gender diverse,
+2018,data.New Brunswick,data.Total - age,data.Total - gender,19.27
+2018,data.New Brunswick,data.Total - age,data.Male gender,9.84
+2018,data.New Brunswick,data.Total - age,data.Female gender,28.52
+2018,data.New Brunswick,data.Total - age,data.Gender diverse,
+2018,data.New Brunswick,data.15 to 24 years,data.Total - gender,24.49
+2018,data.New Brunswick,data.15 to 24 years,data.Male gender,
+2018,data.New Brunswick,data.15 to 24 years,data.Female gender,42.72
+2018,data.New Brunswick,data.15 to 24 years,data.Gender diverse,
+2018,data.New Brunswick,data.25 to 34 years,data.Total - gender,23.61
+2018,data.New Brunswick,data.25 to 34 years,data.Male gender,
+2018,data.New Brunswick,data.25 to 34 years,data.Female gender,39.39
+2018,data.New Brunswick,data.25 to 34 years,data.Gender diverse,
+2018,data.New Brunswick,data.35 to 44 years,data.Total - gender,25.67
+2018,data.New Brunswick,data.35 to 44 years,data.Male gender,16.03
+2018,data.New Brunswick,data.35 to 44 years,data.Female gender,35.01
+2018,data.New Brunswick,data.35 to 44 years,data.Gender diverse,
+2018,data.New Brunswick,data.45 to 54 years,data.Total - gender,20.25
+2018,data.New Brunswick,data.45 to 54 years,data.Male gender,10.68
+2018,data.New Brunswick,data.45 to 54 years,data.Female gender,29.5
+2018,data.New Brunswick,data.45 to 54 years,data.Gender diverse,
+2018,data.New Brunswick,data.55 years and over,data.Total - gender,13.74
+2018,data.New Brunswick,data.55 years and over,data.Male gender,8.08
+2018,data.New Brunswick,data.55 years and over,data.Female gender,18.92
+2018,data.New Brunswick,data.55 years and over,data.Gender diverse,
+2018,data.New Brunswick,data.Total - immigrant status,data.Total - gender,19.27
+2018,data.New Brunswick,data.Total - immigrant status,data.Male gender,9.84
+2018,data.New Brunswick,data.Total - immigrant status,data.Female gender,28.52
+2018,data.New Brunswick,data.Total - immigrant status,data.Gender diverse,
+2018,data.New Brunswick,data.Non-immigrants,data.Total - gender,19.74
+2018,data.New Brunswick,data.Non-immigrants,data.Male gender,10.07
+2018,data.New Brunswick,data.Non-immigrants,data.Female gender,28.84
+2018,data.New Brunswick,data.Non-immigrants,data.Gender diverse,
+2018,data.New Brunswick,data.Immigrants,data.Total - gender,13.56
+2018,data.New Brunswick,data.Immigrants,data.Male gender,
+2018,data.New Brunswick,data.Immigrants,data.Female gender,22.65
+2018,data.New Brunswick,data.Immigrants,data.Gender diverse,
+2018,data.New Brunswick,data.Not stated - immigrant status,data.Total - gender,
+2018,data.New Brunswick,data.Not stated - immigrant status,data.Male gender,
+2018,data.New Brunswick,data.Not stated - immigrant status,data.Female gender,
+2018,data.New Brunswick,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.New Brunswick,data.Total - visible minority population,data.Total - gender,19.27
+2018,data.New Brunswick,data.Total - visible minority population,data.Male gender,9.84
+2018,data.New Brunswick,data.Total - visible minority population,data.Female gender,28.52
+2018,data.New Brunswick,data.Total - visible minority population,data.Gender diverse,
+2018,data.New Brunswick,data.Visible minority population,data.Total - gender,13.32
+2018,data.New Brunswick,data.Visible minority population,data.Male gender,
+2018,data.New Brunswick,data.Visible minority population,data.Female gender,
+2018,data.New Brunswick,data.Visible minority population,data.Gender diverse,
+2018,data.New Brunswick,data.Not a visible minority,data.Total - gender,19.72
+2018,data.New Brunswick,data.Not a visible minority,data.Male gender,9.95
+2018,data.New Brunswick,data.Not a visible minority,data.Female gender,28.76
+2018,data.New Brunswick,data.Not a visible minority,data.Gender diverse,
+2018,data.New Brunswick,data.Not stated - visible minority population,data.Total - gender,
+2018,data.New Brunswick,data.Not stated - visible minority population,data.Male gender,
+2018,data.New Brunswick,data.Not stated - visible minority population,data.Female gender,
+2018,data.New Brunswick,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.New Brunswick,data.Total - population by indigenous identity,data.Total - gender,19.27
+2018,data.New Brunswick,data.Total - population by indigenous identity,data.Male gender,9.84
+2018,data.New Brunswick,data.Total - population by indigenous identity,data.Female gender,28.52
+2018,data.New Brunswick,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.New Brunswick,data.Indigenous identity,data.Total - gender,22.04
+2018,data.New Brunswick,data.Indigenous identity,data.Male gender,
+2018,data.New Brunswick,data.Indigenous identity,data.Female gender,
+2018,data.New Brunswick,data.Indigenous identity,data.Gender diverse,
+2018,data.New Brunswick,data.First Nations (North American Indian),data.Total - gender,
+2018,data.New Brunswick,data.First Nations (North American Indian),data.Male gender,
+2018,data.New Brunswick,data.First Nations (North American Indian),data.Female gender,
+2018,data.New Brunswick,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.New Brunswick,data.Métis,data.Total - gender,
+2018,data.New Brunswick,data.Métis,data.Male gender,
+2018,data.New Brunswick,data.Métis,data.Female gender,
+2018,data.New Brunswick,data.Métis,data.Gender diverse,
+2018,data.New Brunswick,data.Inuk (Inuit),data.Total - gender,
+2018,data.New Brunswick,data.Inuk (Inuit),data.Male gender,
+2018,data.New Brunswick,data.Inuk (Inuit),data.Female gender,
+2018,data.New Brunswick,data.Inuk (Inuit),data.Gender diverse,
+2018,data.New Brunswick,data.Other indigenous identity,data.Total - gender,
+2018,data.New Brunswick,data.Other indigenous identity,data.Male gender,
+2018,data.New Brunswick,data.Other indigenous identity,data.Female gender,
+2018,data.New Brunswick,data.Other indigenous identity,data.Gender diverse,
+2018,data.New Brunswick,data.Non-indigenous identity,data.Total - gender,19.34
+2018,data.New Brunswick,data.Non-indigenous identity,data.Male gender,9.77
+2018,data.New Brunswick,data.Non-indigenous identity,data.Female gender,28.65
+2018,data.New Brunswick,data.Non-indigenous identity,data.Gender diverse,
+2018,data.New Brunswick,data.Not stated - population by indigenous identity,data.Total - gender,
+2018,data.New Brunswick,data.Not stated - population by indigenous identity,data.Male gender,
+2018,data.New Brunswick,data.Not stated - population by indigenous identity,data.Female gender,
+2018,data.New Brunswick,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.New Brunswick,data.Total - disability status,data.Total - gender,19.27
+2018,data.New Brunswick,data.Total - disability status,data.Male gender,9.84
+2018,data.New Brunswick,data.Total - disability status,data.Female gender,28.52
+2018,data.New Brunswick,data.Total - disability status,data.Gender diverse,
+2018,data.New Brunswick,data.Has a disability,data.Total - gender,27.75
+2018,data.New Brunswick,data.Has a disability,data.Male gender,15.88
+2018,data.New Brunswick,data.Has a disability,data.Female gender,37.23
+2018,data.New Brunswick,data.Has a disability,data.Gender diverse,
+2018,data.New Brunswick,data.Does not have a disability,data.Total - gender,13.98
+2018,data.New Brunswick,data.Does not have a disability,data.Male gender,6.66
+2018,data.New Brunswick,data.Does not have a disability,data.Female gender,22.12
+2018,data.New Brunswick,data.Does not have a disability,data.Gender diverse,
+2018,data.New Brunswick,data.Total - sexual orientation,data.Total - gender,19.27
+2018,data.New Brunswick,data.Total - sexual orientation,data.Male gender,9.84
+2018,data.New Brunswick,data.Total - sexual orientation,data.Female gender,28.52
+2018,data.New Brunswick,data.Total - sexual orientation,data.Gender diverse,
+2018,data.New Brunswick,data.Heterosexual,data.Total - gender,18.93
+2018,data.New Brunswick,data.Heterosexual,data.Male gender,9.43
+2018,data.New Brunswick,data.Heterosexual,data.Female gender,28.28
+2018,data.New Brunswick,data.Heterosexual,data.Gender diverse,
+2018,data.New Brunswick,data.Sexual minority,data.Total - gender,38
+2018,data.New Brunswick,data.Sexual minority,data.Male gender,
+2018,data.New Brunswick,data.Sexual minority,data.Female gender,
+2018,data.New Brunswick,data.Sexual minority,data.Gender diverse,
+2018,data.New Brunswick,data.Lesbian or gay,data.Total - gender,
+2018,data.New Brunswick,data.Lesbian or gay,data.Male gender,
+2018,data.New Brunswick,data.Lesbian or gay,data.Female gender,
+2018,data.New Brunswick,data.Lesbian or gay,data.Gender diverse,
+2018,data.New Brunswick,data.Bisexual or pansexual,data.Total - gender,
+2018,data.New Brunswick,data.Bisexual or pansexual,data.Male gender,
+2018,data.New Brunswick,data.Bisexual or pansexual,data.Female gender,
+2018,data.New Brunswick,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.New Brunswick,data.Sexual orientation not elsewhere classified,data.Total - gender,
+2018,data.New Brunswick,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.New Brunswick,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.New Brunswick,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.New Brunswick,data.Not stated - sexual orientation,data.Total - gender,8.28
+2018,data.New Brunswick,data.Not stated - sexual orientation,data.Male gender,
+2018,data.New Brunswick,data.Not stated - sexual orientation,data.Female gender,
+2018,data.New Brunswick,data.Not stated - sexual orientation,data.Gender diverse,
+2018,data.Quebec,data.Total - age,data.Total - gender,15.2
+2018,data.Quebec,data.Total - age,data.Male gender,5.67
+2018,data.Quebec,data.Total - age,data.Female gender,24.51
+2018,data.Quebec,data.Total - age,data.Gender diverse,
+2018,data.Quebec,data.15 to 24 years,data.Total - gender,14.14
+2018,data.Quebec,data.15 to 24 years,data.Male gender,4.7
+2018,data.Quebec,data.15 to 24 years,data.Female gender,23.95
+2018,data.Quebec,data.15 to 24 years,data.Gender diverse,
+2018,data.Quebec,data.25 to 34 years,data.Total - gender,16.25
+2018,data.Quebec,data.25 to 34 years,data.Male gender,5.19
+2018,data.Quebec,data.25 to 34 years,data.Female gender,27.51
+2018,data.Quebec,data.25 to 34 years,data.Gender diverse,
+2018,data.Quebec,data.35 to 44 years,data.Total - gender,16.82
+2018,data.Quebec,data.35 to 44 years,data.Male gender,6.04
+2018,data.Quebec,data.35 to 44 years,data.Female gender,27.66
+2018,data.Quebec,data.35 to 44 years,data.Gender diverse,
+2018,data.Quebec,data.45 to 54 years,data.Total - gender,17.58
+2018,data.Quebec,data.45 to 54 years,data.Male gender,6.03
+2018,data.Quebec,data.45 to 54 years,data.Female gender,29.42
+2018,data.Quebec,data.45 to 54 years,data.Gender diverse,
+2018,data.Quebec,data.55 years and over,data.Total - gender,13.53
+2018,data.Quebec,data.55 years and over,data.Male gender,5.89
+2018,data.Quebec,data.55 years and over,data.Female gender,20.47
+2018,data.Quebec,data.55 years and over,data.Gender diverse,
+2018,data.Quebec,data.Total - immigrant status,data.Total - gender,15.2
+2018,data.Quebec,data.Total - immigrant status,data.Male gender,5.67
+2018,data.Quebec,data.Total - immigrant status,data.Female gender,24.51
+2018,data.Quebec,data.Total - immigrant status,data.Gender diverse,
+2018,data.Quebec,data.Non-immigrants,data.Total - gender,15.96
+2018,data.Quebec,data.Non-immigrants,data.Male gender,5.8
+2018,data.Quebec,data.Non-immigrants,data.Female gender,25.44
+2018,data.Quebec,data.Non-immigrants,data.Gender diverse,
+2018,data.Quebec,data.Immigrants,data.Total - gender,11.78
+2018,data.Quebec,data.Immigrants,data.Male gender,5.12
+2018,data.Quebec,data.Immigrants,data.Female gender,20.08
+2018,data.Quebec,data.Immigrants,data.Gender diverse,
+2018,data.Quebec,data.Not stated - immigrant status,data.Total - gender,
+2018,data.Quebec,data.Not stated - immigrant status,data.Male gender,
+2018,data.Quebec,data.Not stated - immigrant status,data.Female gender,
+2018,data.Quebec,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.Quebec,data.Total - visible minority population,data.Total - gender,15.2
+2018,data.Quebec,data.Total - visible minority population,data.Male gender,5.67
+2018,data.Quebec,data.Total - visible minority population,data.Female gender,24.51
+2018,data.Quebec,data.Total - visible minority population,data.Gender diverse,
+2018,data.Quebec,data.Visible minority population,data.Total - gender,10.06
+2018,data.Quebec,data.Visible minority population,data.Male gender,
+2018,data.Quebec,data.Visible minority population,data.Female gender,17.69
+2018,data.Quebec,data.Visible minority population,data.Gender diverse,
+2018,data.Quebec,data.Not a visible minority,data.Total - gender,15.98
+2018,data.Quebec,data.Not a visible minority,data.Male gender,6.12
+2018,data.Quebec,data.Not a visible minority,data.Female gender,25.52
+2018,data.Quebec,data.Not a visible minority,data.Gender diverse,
+2018,data.Quebec,data.Not stated - visible minority population,data.Total - gender,
+2018,data.Quebec,data.Not stated - visible minority population,data.Male gender,
+2018,data.Quebec,data.Not stated - visible minority population,data.Female gender,
+2018,data.Quebec,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.Quebec,data.Total - population by indigenous identity,data.Total - gender,15.2
+2018,data.Quebec,data.Total - population by indigenous identity,data.Male gender,5.67
+2018,data.Quebec,data.Total - population by indigenous identity,data.Female gender,24.51
+2018,data.Quebec,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.Quebec,data.Indigenous identity,data.Total - gender,21.93
+2018,data.Quebec,data.Indigenous identity,data.Male gender,
+2018,data.Quebec,data.Indigenous identity,data.Female gender,34.19
+2018,data.Quebec,data.Indigenous identity,data.Gender diverse,
+2018,data.Quebec,data.First Nations (North American Indian),data.Total - gender,
+2018,data.Quebec,data.First Nations (North American Indian),data.Male gender,
+2018,data.Quebec,data.First Nations (North American Indian),data.Female gender,
+2018,data.Quebec,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.Quebec,data.Métis,data.Total - gender,27.21
+2018,data.Quebec,data.Métis,data.Male gender,
+2018,data.Quebec,data.Métis,data.Female gender,
+2018,data.Quebec,data.Métis,data.Gender diverse,
+2018,data.Quebec,data.Inuk (Inuit),data.Total - gender,
+2018,data.Quebec,data.Inuk (Inuit),data.Male gender,
+2018,data.Quebec,data.Inuk (Inuit),data.Female gender,
+2018,data.Quebec,data.Inuk (Inuit),data.Gender diverse,
+2018,data.Quebec,data.Other indigenous identity,data.Total - gender,
+2018,data.Quebec,data.Other indigenous identity,data.Male gender,
+2018,data.Quebec,data.Other indigenous identity,data.Female gender,
+2018,data.Quebec,data.Other indigenous identity,data.Gender diverse,
+2018,data.Quebec,data.Non-indigenous identity,data.Total - gender,15.12
+2018,data.Quebec,data.Non-indigenous identity,data.Male gender,5.71
+2018,data.Quebec,data.Non-indigenous identity,data.Female gender,24.35
+2018,data.Quebec,data.Non-indigenous identity,data.Gender diverse,
+2018,data.Quebec,data.Not stated - population by indigenous identity,data.Total - gender,
+2018,data.Quebec,data.Not stated - population by indigenous identity,data.Male gender,
+2018,data.Quebec,data.Not stated - population by indigenous identity,data.Female gender,
+2018,data.Quebec,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.Quebec,data.Total - disability status,data.Total - gender,15.2
+2018,data.Quebec,data.Total - disability status,data.Male gender,5.67
+2018,data.Quebec,data.Total - disability status,data.Female gender,24.51
+2018,data.Quebec,data.Total - disability status,data.Gender diverse,
+2018,data.Quebec,data.Has a disability,data.Total - gender,22.18
+2018,data.Quebec,data.Has a disability,data.Male gender,9.8
+2018,data.Quebec,data.Has a disability,data.Female gender,31.69
+2018,data.Quebec,data.Has a disability,data.Gender diverse,
+2018,data.Quebec,data.Does not have a disability,data.Total - gender,12.07
+2018,data.Quebec,data.Does not have a disability,data.Male gender,4.13
+2018,data.Quebec,data.Does not have a disability,data.Female gender,20.72
+2018,data.Quebec,data.Does not have a disability,data.Gender diverse,
+2018,data.Quebec,data.Total - sexual orientation,data.Total - gender,15.2
+2018,data.Quebec,data.Total - sexual orientation,data.Male gender,5.67
+2018,data.Quebec,data.Total - sexual orientation,data.Female gender,24.51
+2018,data.Quebec,data.Total - sexual orientation,data.Gender diverse,
+2018,data.Quebec,data.Heterosexual,data.Total - gender,14.74
+2018,data.Quebec,data.Heterosexual,data.Male gender,5.06
+2018,data.Quebec,data.Heterosexual,data.Female gender,24.23
+2018,data.Quebec,data.Heterosexual,data.Gender diverse,
+2018,data.Quebec,data.Sexual minority,data.Total - gender,33.49
+2018,data.Quebec,data.Sexual minority,data.Male gender,24.71
+2018,data.Quebec,data.Sexual minority,data.Female gender,42.95
+2018,data.Quebec,data.Sexual minority,data.Gender diverse,
+2018,data.Quebec,data.Lesbian or gay,data.Total - gender,24.7
+2018,data.Quebec,data.Lesbian or gay,data.Male gender,22.05
+2018,data.Quebec,data.Lesbian or gay,data.Female gender,
+2018,data.Quebec,data.Lesbian or gay,data.Gender diverse,
+2018,data.Quebec,data.Bisexual or pansexual,data.Total - gender,40.33
+2018,data.Quebec,data.Bisexual or pansexual,data.Male gender,
+2018,data.Quebec,data.Bisexual or pansexual,data.Female gender,48.01
+2018,data.Quebec,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.Quebec,data.Sexual orientation not elsewhere classified,data.Total - gender,
+2018,data.Quebec,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.Quebec,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.Quebec,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.Quebec,data.Not stated - sexual orientation,data.Total - gender,
+2018,data.Quebec,data.Not stated - sexual orientation,data.Male gender,
+2018,data.Quebec,data.Not stated - sexual orientation,data.Female gender,
+2018,data.Quebec,data.Not stated - sexual orientation,data.Gender diverse,
+2018,data.Ontario,data.Total - age,data.Total - gender,19.21
+2018,data.Ontario,data.Total - age,data.Male gender,8.17
+2018,data.Ontario,data.Total - age,data.Female gender,29.77
+2018,data.Ontario,data.Total - age,data.Gender diverse,
+2018,data.Ontario,data.15 to 24 years,data.Total - gender,14.67
+2018,data.Ontario,data.15 to 24 years,data.Male gender,8.63
+2018,data.Ontario,data.15 to 24 years,data.Female gender,21.4
+2018,data.Ontario,data.15 to 24 years,data.Gender diverse,
+2018,data.Ontario,data.25 to 34 years,data.Total - gender,25.43
+2018,data.Ontario,data.25 to 34 years,data.Male gender,8.97
+2018,data.Ontario,data.25 to 34 years,data.Female gender,41.38
+2018,data.Ontario,data.25 to 34 years,data.Gender diverse,
+2018,data.Ontario,data.35 to 44 years,data.Total - gender,23.52
+2018,data.Ontario,data.35 to 44 years,data.Male gender,9.81
+2018,data.Ontario,data.35 to 44 years,data.Female gender,36.76
+2018,data.Ontario,data.35 to 44 years,data.Gender diverse,
+2018,data.Ontario,data.45 to 54 years,data.Total - gender,18.68
+2018,data.Ontario,data.45 to 54 years,data.Male gender,8.59
+2018,data.Ontario,data.45 to 54 years,data.Female gender,28.45
+2018,data.Ontario,data.45 to 54 years,data.Gender diverse,
+2018,data.Ontario,data.55 years and over,data.Total - gender,16.59
+2018,data.Ontario,data.55 years and over,data.Male gender,6.65
+2018,data.Ontario,data.55 years and over,data.Female gender,25.42
+2018,data.Ontario,data.55 years and over,data.Gender diverse,
+2018,data.Ontario,data.Total - immigrant status,data.Total - gender,19.21
+2018,data.Ontario,data.Total - immigrant status,data.Male gender,8.17
+2018,data.Ontario,data.Total - immigrant status,data.Female gender,29.77
+2018,data.Ontario,data.Total - immigrant status,data.Gender diverse,
+2018,data.Ontario,data.Non-immigrants,data.Total - gender,23.26
+2018,data.Ontario,data.Non-immigrants,data.Male gender,9.77
+2018,data.Ontario,data.Non-immigrants,data.Female gender,35.55
+2018,data.Ontario,data.Non-immigrants,data.Gender diverse,
+2018,data.Ontario,data.Immigrants,data.Total - gender,11.35
+2018,data.Ontario,data.Immigrants,data.Male gender,5.43
+2018,data.Ontario,data.Immigrants,data.Female gender,17.62
+2018,data.Ontario,data.Immigrants,data.Gender diverse,
+2018,data.Ontario,data.Not stated - immigrant status,data.Total - gender,
+2018,data.Ontario,data.Not stated - immigrant status,data.Male gender,
+2018,data.Ontario,data.Not stated - immigrant status,data.Female gender,
+2018,data.Ontario,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.Ontario,data.Total - visible minority population,data.Total - gender,19.21
+2018,data.Ontario,data.Total - visible minority population,data.Male gender,8.17
+2018,data.Ontario,data.Total - visible minority population,data.Female gender,29.77
+2018,data.Ontario,data.Total - visible minority population,data.Gender diverse,
+2018,data.Ontario,data.Visible minority population,data.Total - gender,11.16
+2018,data.Ontario,data.Visible minority population,data.Male gender,6.05
+2018,data.Ontario,data.Visible minority population,data.Female gender,17.06
+2018,data.Ontario,data.Visible minority population,data.Gender diverse,
+2018,data.Ontario,data.Not a visible minority,data.Total - gender,22.59
+2018,data.Ontario,data.Not a visible minority,data.Male gender,9.22
+2018,data.Ontario,data.Not a visible minority,data.Female gender,34.56
+2018,data.Ontario,data.Not a visible minority,data.Gender diverse,
+2018,data.Ontario,data.Not stated - visible minority population,data.Total - gender,9.56
+2018,data.Ontario,data.Not stated - visible minority population,data.Male gender,
+2018,data.Ontario,data.Not stated - visible minority population,data.Female gender,
+2018,data.Ontario,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.Ontario,data.Total - population by indigenous identity,data.Total - gender,19.21
+2018,data.Ontario,data.Total - population by indigenous identity,data.Male gender,8.17
+2018,data.Ontario,data.Total - population by indigenous identity,data.Female gender,29.77
+2018,data.Ontario,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.Ontario,data.Indigenous identity,data.Total - gender,27.4
+2018,data.Ontario,data.Indigenous identity,data.Male gender,11.49
+2018,data.Ontario,data.Indigenous identity,data.Female gender,44.94
+2018,data.Ontario,data.Indigenous identity,data.Gender diverse,
+2018,data.Ontario,data.First Nations (North American Indian),data.Total - gender,30.46
+2018,data.Ontario,data.First Nations (North American Indian),data.Male gender,
+2018,data.Ontario,data.First Nations (North American Indian),data.Female gender,
+2018,data.Ontario,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.Ontario,data.Métis,data.Total - gender,
+2018,data.Ontario,data.Métis,data.Male gender,
+2018,data.Ontario,data.Métis,data.Female gender,
+2018,data.Ontario,data.Métis,data.Gender diverse,
+2018,data.Ontario,data.Inuk (Inuit),data.Total - gender,
+2018,data.Ontario,data.Inuk (Inuit),data.Male gender,
+2018,data.Ontario,data.Inuk (Inuit),data.Female gender,
+2018,data.Ontario,data.Inuk (Inuit),data.Gender diverse,
+2018,data.Ontario,data.Other indigenous identity,data.Total - gender,
+2018,data.Ontario,data.Other indigenous identity,data.Male gender,
+2018,data.Ontario,data.Other indigenous identity,data.Female gender,
+2018,data.Ontario,data.Other indigenous identity,data.Gender diverse,
+2018,data.Ontario,data.Non-indigenous identity,data.Total - gender,19.11
+2018,data.Ontario,data.Non-indigenous identity,data.Male gender,8.08
+2018,data.Ontario,data.Non-indigenous identity,data.Female gender,29.61
+2018,data.Ontario,data.Non-indigenous identity,data.Gender diverse,
+2018,data.Ontario,data.Not stated - population by indigenous identity,data.Total - gender,15.36
+2018,data.Ontario,data.Not stated - population by indigenous identity,data.Male gender,
+2018,data.Ontario,data.Not stated - population by indigenous identity,data.Female gender,
+2018,data.Ontario,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.Ontario,data.Total - disability status,data.Total - gender,19.21
+2018,data.Ontario,data.Total - disability status,data.Male gender,8.17
+2018,data.Ontario,data.Total - disability status,data.Female gender,29.77
+2018,data.Ontario,data.Total - disability status,data.Gender diverse,
+2018,data.Ontario,data.Has a disability,data.Total - gender,28.07
+2018,data.Ontario,data.Has a disability,data.Male gender,13.27
+2018,data.Ontario,data.Has a disability,data.Female gender,39
+2018,data.Ontario,data.Has a disability,data.Gender diverse,
+2018,data.Ontario,data.Does not have a disability,data.Total - gender,14.18
+2018,data.Ontario,data.Does not have a disability,data.Male gender,5.86
+2018,data.Ontario,data.Does not have a disability,data.Female gender,23.44
+2018,data.Ontario,data.Does not have a disability,data.Gender diverse,
+2018,data.Ontario,data.Total - sexual orientation,data.Total - gender,19.21
+2018,data.Ontario,data.Total - sexual orientation,data.Male gender,8.17
+2018,data.Ontario,data.Total - sexual orientation,data.Female gender,29.77
+2018,data.Ontario,data.Total - sexual orientation,data.Gender diverse,
+2018,data.Ontario,data.Heterosexual,data.Total - gender,18.84
+2018,data.Ontario,data.Heterosexual,data.Male gender,7.72
+2018,data.Ontario,data.Heterosexual,data.Female gender,29.48
+2018,data.Ontario,data.Heterosexual,data.Gender diverse,
+2018,data.Ontario,data.Sexual minority,data.Total - gender,34.38
+2018,data.Ontario,data.Sexual minority,data.Male gender,23.48
+2018,data.Ontario,data.Sexual minority,data.Female gender,46.22
+2018,data.Ontario,data.Sexual minority,data.Gender diverse,
+2018,data.Ontario,data.Lesbian or gay,data.Total - gender,32.76
+2018,data.Ontario,data.Lesbian or gay,data.Male gender,26.93
+2018,data.Ontario,data.Lesbian or gay,data.Female gender,
+2018,data.Ontario,data.Lesbian or gay,data.Gender diverse,
+2018,data.Ontario,data.Bisexual or pansexual,data.Total - gender,37.07
+2018,data.Ontario,data.Bisexual or pansexual,data.Male gender,
+2018,data.Ontario,data.Bisexual or pansexual,data.Female gender,47.13
+2018,data.Ontario,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.Ontario,data.Sexual orientation not elsewhere classified,data.Total - gender,
+2018,data.Ontario,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.Ontario,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.Ontario,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.Ontario,data.Not stated - sexual orientation,data.Total - gender,12.6
+2018,data.Ontario,data.Not stated - sexual orientation,data.Male gender,
+2018,data.Ontario,data.Not stated - sexual orientation,data.Female gender,19.73
+2018,data.Ontario,data.Not stated - sexual orientation,data.Gender diverse,
+2018,data.Manitoba,data.Total - age,data.Total - gender,20.35
+2018,data.Manitoba,data.Total - age,data.Male gender,8.91
+2018,data.Manitoba,data.Total - age,data.Female gender,31.74
+2018,data.Manitoba,data.Total - age,data.Gender diverse,
+2018,data.Manitoba,data.15 to 24 years,data.Total - gender,13.95
+2018,data.Manitoba,data.15 to 24 years,data.Male gender,10.34
+2018,data.Manitoba,data.15 to 24 years,data.Female gender,18.14
+2018,data.Manitoba,data.15 to 24 years,data.Gender diverse,
+2018,data.Manitoba,data.25 to 34 years,data.Total - gender,24.06
+2018,data.Manitoba,data.25 to 34 years,data.Male gender,9.35
+2018,data.Manitoba,data.25 to 34 years,data.Female gender,39.32
+2018,data.Manitoba,data.25 to 34 years,data.Gender diverse,
+2018,data.Manitoba,data.35 to 44 years,data.Total - gender,25.67
+2018,data.Manitoba,data.35 to 44 years,data.Male gender,14.97
+2018,data.Manitoba,data.35 to 44 years,data.Female gender,35.99
+2018,data.Manitoba,data.35 to 44 years,data.Gender diverse,
+2018,data.Manitoba,data.45 to 54 years,data.Total - gender,23.39
+2018,data.Manitoba,data.45 to 54 years,data.Male gender,6.83
+2018,data.Manitoba,data.45 to 54 years,data.Female gender,40.96
+2018,data.Manitoba,data.45 to 54 years,data.Gender diverse,
+2018,data.Manitoba,data.55 years and over,data.Total - gender,17.74
+2018,data.Manitoba,data.55 years and over,data.Male gender,6
+2018,data.Manitoba,data.55 years and over,data.Female gender,28.33
+2018,data.Manitoba,data.55 years and over,data.Gender diverse,
+2018,data.Manitoba,data.Total - immigrant status,data.Total - gender,20.35
+2018,data.Manitoba,data.Total - immigrant status,data.Male gender,8.91
+2018,data.Manitoba,data.Total - immigrant status,data.Female gender,31.74
+2018,data.Manitoba,data.Total - immigrant status,data.Gender diverse,
+2018,data.Manitoba,data.Non-immigrants,data.Total - gender,22.14
+2018,data.Manitoba,data.Non-immigrants,data.Male gender,9.49
+2018,data.Manitoba,data.Non-immigrants,data.Female gender,34.01
+2018,data.Manitoba,data.Non-immigrants,data.Gender diverse,
+2018,data.Manitoba,data.Immigrants,data.Total - gender,14.7
+2018,data.Manitoba,data.Immigrants,data.Male gender,7.31
+2018,data.Manitoba,data.Immigrants,data.Female gender,23.66
+2018,data.Manitoba,data.Immigrants,data.Gender diverse,
+2018,data.Manitoba,data.Not stated - immigrant status,data.Total - gender,
+2018,data.Manitoba,data.Not stated - immigrant status,data.Male gender,
+2018,data.Manitoba,data.Not stated - immigrant status,data.Female gender,
+2018,data.Manitoba,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.Manitoba,data.Total - visible minority population,data.Total - gender,20.35
+2018,data.Manitoba,data.Total - visible minority population,data.Male gender,8.91
+2018,data.Manitoba,data.Total - visible minority population,data.Female gender,31.74
+2018,data.Manitoba,data.Total - visible minority population,data.Gender diverse,
+2018,data.Manitoba,data.Visible minority population,data.Total - gender,12.82
+2018,data.Manitoba,data.Visible minority population,data.Male gender,6.02
+2018,data.Manitoba,data.Visible minority population,data.Female gender,20.82
+2018,data.Manitoba,data.Visible minority population,data.Gender diverse,
+2018,data.Manitoba,data.Not a visible minority,data.Total - gender,22.15
+2018,data.Manitoba,data.Not a visible minority,data.Male gender,9.7
+2018,data.Manitoba,data.Not a visible minority,data.Female gender,34.09
+2018,data.Manitoba,data.Not a visible minority,data.Gender diverse,
+2018,data.Manitoba,data.Not stated - visible minority population,data.Total - gender,
+2018,data.Manitoba,data.Not stated - visible minority population,data.Male gender,
+2018,data.Manitoba,data.Not stated - visible minority population,data.Female gender,
+2018,data.Manitoba,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.Manitoba,data.Total - population by indigenous identity,data.Total - gender,20.35
+2018,data.Manitoba,data.Total - population by indigenous identity,data.Male gender,8.91
+2018,data.Manitoba,data.Total - population by indigenous identity,data.Female gender,31.74
+2018,data.Manitoba,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.Manitoba,data.Indigenous identity,data.Total - gender,24.2
+2018,data.Manitoba,data.Indigenous identity,data.Male gender,13.21
+2018,data.Manitoba,data.Indigenous identity,data.Female gender,34.16
+2018,data.Manitoba,data.Indigenous identity,data.Gender diverse,
+2018,data.Manitoba,data.First Nations (North American Indian),data.Total - gender,30.94
+2018,data.Manitoba,data.First Nations (North American Indian),data.Male gender,
+2018,data.Manitoba,data.First Nations (North American Indian),data.Female gender,34.11
+2018,data.Manitoba,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.Manitoba,data.Métis,data.Total - gender,19.06
+2018,data.Manitoba,data.Métis,data.Male gender,6.7
+2018,data.Manitoba,data.Métis,data.Female gender,32.8
+2018,data.Manitoba,data.Métis,data.Gender diverse,
+2018,data.Manitoba,data.Inuk (Inuit),data.Total - gender,
+2018,data.Manitoba,data.Inuk (Inuit),data.Male gender,
+2018,data.Manitoba,data.Inuk (Inuit),data.Female gender,
+2018,data.Manitoba,data.Inuk (Inuit),data.Gender diverse,
+2018,data.Manitoba,data.Other indigenous identity,data.Total - gender,
+2018,data.Manitoba,data.Other indigenous identity,data.Male gender,
+2018,data.Manitoba,data.Other indigenous identity,data.Female gender,
+2018,data.Manitoba,data.Other indigenous identity,data.Gender diverse,
+2018,data.Manitoba,data.Non-indigenous identity,data.Total - gender,19.96
+2018,data.Manitoba,data.Non-indigenous identity,data.Male gender,8.53
+2018,data.Manitoba,data.Non-indigenous identity,data.Female gender,31.42
+2018,data.Manitoba,data.Non-indigenous identity,data.Gender diverse,
+2018,data.Manitoba,data.Not stated - population by indigenous identity,data.Total - gender,
+2018,data.Manitoba,data.Not stated - population by indigenous identity,data.Male gender,
+2018,data.Manitoba,data.Not stated - population by indigenous identity,data.Female gender,
+2018,data.Manitoba,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.Manitoba,data.Total - disability status,data.Total - gender,20.35
+2018,data.Manitoba,data.Total - disability status,data.Male gender,8.91
+2018,data.Manitoba,data.Total - disability status,data.Female gender,31.74
+2018,data.Manitoba,data.Total - disability status,data.Gender diverse,
+2018,data.Manitoba,data.Has a disability,data.Total - gender,29.28
+2018,data.Manitoba,data.Has a disability,data.Male gender,13.19
+2018,data.Manitoba,data.Has a disability,data.Female gender,42.67
+2018,data.Manitoba,data.Has a disability,data.Gender diverse,
+2018,data.Manitoba,data.Does not have a disability,data.Total - gender,15.08
+2018,data.Manitoba,data.Does not have a disability,data.Male gender,6.72
+2018,data.Manitoba,data.Does not have a disability,data.Female gender,24.27
+2018,data.Manitoba,data.Does not have a disability,data.Gender diverse,
+2018,data.Manitoba,data.Total - sexual orientation,data.Total - gender,20.35
+2018,data.Manitoba,data.Total - sexual orientation,data.Male gender,8.91
+2018,data.Manitoba,data.Total - sexual orientation,data.Female gender,31.74
+2018,data.Manitoba,data.Total - sexual orientation,data.Gender diverse,
+2018,data.Manitoba,data.Heterosexual,data.Total - gender,19.82
+2018,data.Manitoba,data.Heterosexual,data.Male gender,8.25
+2018,data.Manitoba,data.Heterosexual,data.Female gender,31.61
+2018,data.Manitoba,data.Heterosexual,data.Gender diverse,
+2018,data.Manitoba,data.Sexual minority,data.Total - gender,39.57
+2018,data.Manitoba,data.Sexual minority,data.Male gender,
+2018,data.Manitoba,data.Sexual minority,data.Female gender,43.42
+2018,data.Manitoba,data.Sexual minority,data.Gender diverse,
+2018,data.Manitoba,data.Lesbian or gay,data.Total - gender,
+2018,data.Manitoba,data.Lesbian or gay,data.Male gender,
+2018,data.Manitoba,data.Lesbian or gay,data.Female gender,
+2018,data.Manitoba,data.Lesbian or gay,data.Gender diverse,
+2018,data.Manitoba,data.Bisexual or pansexual,data.Total - gender,
+2018,data.Manitoba,data.Bisexual or pansexual,data.Male gender,
+2018,data.Manitoba,data.Bisexual or pansexual,data.Female gender,
+2018,data.Manitoba,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.Manitoba,data.Sexual orientation not elsewhere classified,data.Total - gender,
+2018,data.Manitoba,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.Manitoba,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.Manitoba,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.Manitoba,data.Not stated - sexual orientation,data.Total - gender,14.44
+2018,data.Manitoba,data.Not stated - sexual orientation,data.Male gender,
+2018,data.Manitoba,data.Not stated - sexual orientation,data.Female gender,
+2018,data.Manitoba,data.Not stated - sexual orientation,data.Gender diverse,
+2018,data.Saskatchewan,data.Total - age,data.Total - gender,19.38
+2018,data.Saskatchewan,data.Total - age,data.Male gender,7.89
+2018,data.Saskatchewan,data.Total - age,data.Female gender,30.88
+2018,data.Saskatchewan,data.Total - age,data.Gender diverse,
+2018,data.Saskatchewan,data.15 to 24 years,data.Total - gender,20.06
+2018,data.Saskatchewan,data.15 to 24 years,data.Male gender,9.1
+2018,data.Saskatchewan,data.15 to 24 years,data.Female gender,31.95
+2018,data.Saskatchewan,data.15 to 24 years,data.Gender diverse,
+2018,data.Saskatchewan,data.25 to 34 years,data.Total - gender,22.55
+2018,data.Saskatchewan,data.25 to 34 years,data.Male gender,8.57
+2018,data.Saskatchewan,data.25 to 34 years,data.Female gender,36.59
+2018,data.Saskatchewan,data.25 to 34 years,data.Gender diverse,
+2018,data.Saskatchewan,data.35 to 44 years,data.Total - gender,20.57
+2018,data.Saskatchewan,data.35 to 44 years,data.Male gender,7.97
+2018,data.Saskatchewan,data.35 to 44 years,data.Female gender,33.4
+2018,data.Saskatchewan,data.35 to 44 years,data.Gender diverse,
+2018,data.Saskatchewan,data.45 to 54 years,data.Total - gender,21.27
+2018,data.Saskatchewan,data.45 to 54 years,data.Male gender,10.09
+2018,data.Saskatchewan,data.45 to 54 years,data.Female gender,32.48
+2018,data.Saskatchewan,data.45 to 54 years,data.Gender diverse,
+2018,data.Saskatchewan,data.55 years and over,data.Total - gender,15.98
+2018,data.Saskatchewan,data.55 years and over,data.Male gender,5.9
+2018,data.Saskatchewan,data.55 years and over,data.Female gender,25.65
+2018,data.Saskatchewan,data.55 years and over,data.Gender diverse,
+2018,data.Saskatchewan,data.Total - immigrant status,data.Total - gender,19.38
+2018,data.Saskatchewan,data.Total - immigrant status,data.Male gender,7.89
+2018,data.Saskatchewan,data.Total - immigrant status,data.Female gender,30.88
+2018,data.Saskatchewan,data.Total - immigrant status,data.Gender diverse,
+2018,data.Saskatchewan,data.Non-immigrants,data.Total - gender,20.7
+2018,data.Saskatchewan,data.Non-immigrants,data.Male gender,8
+2018,data.Saskatchewan,data.Non-immigrants,data.Female gender,32.86
+2018,data.Saskatchewan,data.Non-immigrants,data.Gender diverse,
+2018,data.Saskatchewan,data.Immigrants,data.Total - gender,11.46
+2018,data.Saskatchewan,data.Immigrants,data.Male gender,7.45
+2018,data.Saskatchewan,data.Immigrants,data.Female gender,16.79
+2018,data.Saskatchewan,data.Immigrants,data.Gender diverse,
+2018,data.Saskatchewan,data.Not stated - immigrant status,data.Total - gender,
+2018,data.Saskatchewan,data.Not stated - immigrant status,data.Male gender,
+2018,data.Saskatchewan,data.Not stated - immigrant status,data.Female gender,
+2018,data.Saskatchewan,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.Saskatchewan,data.Total - visible minority population,data.Total - gender,19.38
+2018,data.Saskatchewan,data.Total - visible minority population,data.Male gender,7.89
+2018,data.Saskatchewan,data.Total - visible minority population,data.Female gender,30.88
+2018,data.Saskatchewan,data.Total - visible minority population,data.Gender diverse,
+2018,data.Saskatchewan,data.Visible minority population,data.Total - gender,10.83
+2018,data.Saskatchewan,data.Visible minority population,data.Male gender,
+2018,data.Saskatchewan,data.Visible minority population,data.Female gender,16.98
+2018,data.Saskatchewan,data.Visible minority population,data.Gender diverse,
+2018,data.Saskatchewan,data.Not a visible minority,data.Total - gender,20.51
+2018,data.Saskatchewan,data.Not a visible minority,data.Male gender,8.06
+2018,data.Saskatchewan,data.Not a visible minority,data.Female gender,32.49
+2018,data.Saskatchewan,data.Not a visible minority,data.Gender diverse,
+2018,data.Saskatchewan,data.Not stated - visible minority population,data.Total - gender,
+2018,data.Saskatchewan,data.Not stated - visible minority population,data.Male gender,
+2018,data.Saskatchewan,data.Not stated - visible minority population,data.Female gender,
+2018,data.Saskatchewan,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.Saskatchewan,data.Total - population by indigenous identity,data.Total - gender,19.38
+2018,data.Saskatchewan,data.Total - population by indigenous identity,data.Male gender,7.89
+2018,data.Saskatchewan,data.Total - population by indigenous identity,data.Female gender,30.88
+2018,data.Saskatchewan,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.Saskatchewan,data.Indigenous identity,data.Total - gender,24.84
+2018,data.Saskatchewan,data.Indigenous identity,data.Male gender,8.47
+2018,data.Saskatchewan,data.Indigenous identity,data.Female gender,41.23
+2018,data.Saskatchewan,data.Indigenous identity,data.Gender diverse,
+2018,data.Saskatchewan,data.First Nations (North American Indian),data.Total - gender,19.92
+2018,data.Saskatchewan,data.First Nations (North American Indian),data.Male gender,
+2018,data.Saskatchewan,data.First Nations (North American Indian),data.Female gender,40.26
+2018,data.Saskatchewan,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.Saskatchewan,data.Métis,data.Total - gender,25.57
+2018,data.Saskatchewan,data.Métis,data.Male gender,
+2018,data.Saskatchewan,data.Métis,data.Female gender,39.34
+2018,data.Saskatchewan,data.Métis,data.Gender diverse,
+2018,data.Saskatchewan,data.Inuk (Inuit),data.Total - gender,
+2018,data.Saskatchewan,data.Inuk (Inuit),data.Male gender,
+2018,data.Saskatchewan,data.Inuk (Inuit),data.Female gender,
+2018,data.Saskatchewan,data.Inuk (Inuit),data.Gender diverse,
+2018,data.Saskatchewan,data.Other indigenous identity,data.Total - gender,
+2018,data.Saskatchewan,data.Other indigenous identity,data.Male gender,
+2018,data.Saskatchewan,data.Other indigenous identity,data.Female gender,
+2018,data.Saskatchewan,data.Other indigenous identity,data.Gender diverse,
+2018,data.Saskatchewan,data.Non-indigenous identity,data.Total - gender,18.92
+2018,data.Saskatchewan,data.Non-indigenous identity,data.Male gender,7.91
+2018,data.Saskatchewan,data.Non-indigenous identity,data.Female gender,30.13
+2018,data.Saskatchewan,data.Non-indigenous identity,data.Gender diverse,
+2018,data.Saskatchewan,data.Not stated - population by indigenous identity,data.Total - gender,20.04
+2018,data.Saskatchewan,data.Not stated - population by indigenous identity,data.Male gender,
+2018,data.Saskatchewan,data.Not stated - population by indigenous identity,data.Female gender,
+2018,data.Saskatchewan,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.Saskatchewan,data.Total - disability status,data.Total - gender,19.38
+2018,data.Saskatchewan,data.Total - disability status,data.Male gender,7.89
+2018,data.Saskatchewan,data.Total - disability status,data.Female gender,30.88
+2018,data.Saskatchewan,data.Total - disability status,data.Gender diverse,
+2018,data.Saskatchewan,data.Has a disability,data.Total - gender,28.98
+2018,data.Saskatchewan,data.Has a disability,data.Male gender,11.11
+2018,data.Saskatchewan,data.Has a disability,data.Female gender,43.57
+2018,data.Saskatchewan,data.Has a disability,data.Gender diverse,
+2018,data.Saskatchewan,data.Does not have a disability,data.Total - gender,14.35
+2018,data.Saskatchewan,data.Does not have a disability,data.Male gender,6.44
+2018,data.Saskatchewan,data.Does not have a disability,data.Female gender,23.2
+2018,data.Saskatchewan,data.Does not have a disability,data.Gender diverse,
+2018,data.Saskatchewan,data.Total - sexual orientation,data.Total - gender,19.38
+2018,data.Saskatchewan,data.Total - sexual orientation,data.Male gender,7.89
+2018,data.Saskatchewan,data.Total - sexual orientation,data.Female gender,30.88
+2018,data.Saskatchewan,data.Total - sexual orientation,data.Gender diverse,
+2018,data.Saskatchewan,data.Heterosexual,data.Total - gender,19.06
+2018,data.Saskatchewan,data.Heterosexual,data.Male gender,7.98
+2018,data.Saskatchewan,data.Heterosexual,data.Female gender,30.26
+2018,data.Saskatchewan,data.Heterosexual,data.Gender diverse,
+2018,data.Saskatchewan,data.Sexual minority,data.Total - gender,31.91
+2018,data.Saskatchewan,data.Sexual minority,data.Male gender,
+2018,data.Saskatchewan,data.Sexual minority,data.Female gender,51.73
+2018,data.Saskatchewan,data.Sexual minority,data.Gender diverse,
+2018,data.Saskatchewan,data.Lesbian or gay,data.Total - gender,
+2018,data.Saskatchewan,data.Lesbian or gay,data.Male gender,
+2018,data.Saskatchewan,data.Lesbian or gay,data.Female gender,
+2018,data.Saskatchewan,data.Lesbian or gay,data.Gender diverse,
+2018,data.Saskatchewan,data.Bisexual or pansexual,data.Total - gender,32.5
+2018,data.Saskatchewan,data.Bisexual or pansexual,data.Male gender,
+2018,data.Saskatchewan,data.Bisexual or pansexual,data.Female gender,
+2018,data.Saskatchewan,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.Saskatchewan,data.Sexual orientation not elsewhere classified,data.Total - gender,
+2018,data.Saskatchewan,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.Saskatchewan,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.Saskatchewan,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.Saskatchewan,data.Not stated - sexual orientation,data.Total - gender,16.39
+2018,data.Saskatchewan,data.Not stated - sexual orientation,data.Male gender,
+2018,data.Saskatchewan,data.Not stated - sexual orientation,data.Female gender,27.22
+2018,data.Saskatchewan,data.Not stated - sexual orientation,data.Gender diverse,
+2018,data.Alberta,data.Total - age,data.Total - gender,22.29
+2018,data.Alberta,data.Total - age,data.Male gender,9.41
+2018,data.Alberta,data.Total - age,data.Female gender,35.25
+2018,data.Alberta,data.Total - age,data.Gender diverse,
+2018,data.Alberta,data.15 to 24 years,data.Total - gender,22.02
+2018,data.Alberta,data.15 to 24 years,data.Male gender,9.33
+2018,data.Alberta,data.15 to 24 years,data.Female gender,34.59
+2018,data.Alberta,data.15 to 24 years,data.Gender diverse,
+2018,data.Alberta,data.25 to 34 years,data.Total - gender,29.41
+2018,data.Alberta,data.25 to 34 years,data.Male gender,13.18
+2018,data.Alberta,data.25 to 34 years,data.Female gender,45.71
+2018,data.Alberta,data.25 to 34 years,data.Gender diverse,
+2018,data.Alberta,data.35 to 44 years,data.Total - gender,22.72
+2018,data.Alberta,data.35 to 44 years,data.Male gender,12.61
+2018,data.Alberta,data.35 to 44 years,data.Female gender,33.33
+2018,data.Alberta,data.35 to 44 years,data.Gender diverse,
+2018,data.Alberta,data.45 to 54 years,data.Total - gender,19.2
+2018,data.Alberta,data.45 to 54 years,data.Male gender,6.67
+2018,data.Alberta,data.45 to 54 years,data.Female gender,32.54
+2018,data.Alberta,data.45 to 54 years,data.Gender diverse,
+2018,data.Alberta,data.55 years and over,data.Total - gender,19.12
+2018,data.Alberta,data.55 years and over,data.Male gender,6.32
+2018,data.Alberta,data.55 years and over,data.Female gender,31.43
+2018,data.Alberta,data.55 years and over,data.Gender diverse,
+2018,data.Alberta,data.Total - immigrant status,data.Total - gender,22.29
+2018,data.Alberta,data.Total - immigrant status,data.Male gender,9.41
+2018,data.Alberta,data.Total - immigrant status,data.Female gender,35.25
+2018,data.Alberta,data.Total - immigrant status,data.Gender diverse,
+2018,data.Alberta,data.Non-immigrants,data.Total - gender,25.07
+2018,data.Alberta,data.Non-immigrants,data.Male gender,10.5
+2018,data.Alberta,data.Non-immigrants,data.Female gender,38.56
+2018,data.Alberta,data.Non-immigrants,data.Gender diverse,
+2018,data.Alberta,data.Immigrants,data.Total - gender,13.48
+2018,data.Alberta,data.Immigrants,data.Male gender,6.33
+2018,data.Alberta,data.Immigrants,data.Female gender,22.73
+2018,data.Alberta,data.Immigrants,data.Gender diverse,
+2018,data.Alberta,data.Not stated - immigrant status,data.Total - gender,
+2018,data.Alberta,data.Not stated - immigrant status,data.Male gender,
+2018,data.Alberta,data.Not stated - immigrant status,data.Female gender,
+2018,data.Alberta,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.Alberta,data.Total - visible minority population,data.Total - gender,22.29
+2018,data.Alberta,data.Total - visible minority population,data.Male gender,9.41
+2018,data.Alberta,data.Total - visible minority population,data.Female gender,35.25
+2018,data.Alberta,data.Total - visible minority population,data.Gender diverse,
+2018,data.Alberta,data.Visible minority population,data.Total - gender,13.26
+2018,data.Alberta,data.Visible minority population,data.Male gender,6.05
+2018,data.Alberta,data.Visible minority population,data.Female gender,22.33
+2018,data.Alberta,data.Visible minority population,data.Gender diverse,
+2018,data.Alberta,data.Not a visible minority,data.Total - gender,24.69
+2018,data.Alberta,data.Not a visible minority,data.Male gender,10.21
+2018,data.Alberta,data.Not a visible minority,data.Female gender,38.28
+2018,data.Alberta,data.Not a visible minority,data.Gender diverse,
+2018,data.Alberta,data.Not stated - visible minority population,data.Total - gender,22.12
+2018,data.Alberta,data.Not stated - visible minority population,data.Male gender,
+2018,data.Alberta,data.Not stated - visible minority population,data.Female gender,
+2018,data.Alberta,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.Alberta,data.Total - population by indigenous identity,data.Total - gender,22.29
+2018,data.Alberta,data.Total - population by indigenous identity,data.Male gender,9.41
+2018,data.Alberta,data.Total - population by indigenous identity,data.Female gender,35.25
+2018,data.Alberta,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.Alberta,data.Indigenous identity,data.Total - gender,33.5
+2018,data.Alberta,data.Indigenous identity,data.Male gender,13.66
+2018,data.Alberta,data.Indigenous identity,data.Female gender,48.94
+2018,data.Alberta,data.Indigenous identity,data.Gender diverse,
+2018,data.Alberta,data.First Nations (North American Indian),data.Total - gender,34.28
+2018,data.Alberta,data.First Nations (North American Indian),data.Male gender,
+2018,data.Alberta,data.First Nations (North American Indian),data.Female gender,
+2018,data.Alberta,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.Alberta,data.Métis,data.Total - gender,35.27
+2018,data.Alberta,data.Métis,data.Male gender,20.87
+2018,data.Alberta,data.Métis,data.Female gender,48.92
+2018,data.Alberta,data.Métis,data.Gender diverse,
+2018,data.Alberta,data.Inuk (Inuit),data.Total - gender,
+2018,data.Alberta,data.Inuk (Inuit),data.Male gender,
+2018,data.Alberta,data.Inuk (Inuit),data.Female gender,
+2018,data.Alberta,data.Inuk (Inuit),data.Gender diverse,
+2018,data.Alberta,data.Other indigenous identity,data.Total - gender,
+2018,data.Alberta,data.Other indigenous identity,data.Male gender,
+2018,data.Alberta,data.Other indigenous identity,data.Female gender,
+2018,data.Alberta,data.Other indigenous identity,data.Gender diverse,
+2018,data.Alberta,data.Non-indigenous identity,data.Total - gender,21.63
+2018,data.Alberta,data.Non-indigenous identity,data.Male gender,9.06
+2018,data.Alberta,data.Non-indigenous identity,data.Female gender,34.41
+2018,data.Alberta,data.Non-indigenous identity,data.Gender diverse,
+2018,data.Alberta,data.Not stated - population by indigenous identity,data.Total - gender,27.39
+2018,data.Alberta,data.Not stated - population by indigenous identity,data.Male gender,
+2018,data.Alberta,data.Not stated - population by indigenous identity,data.Female gender,
+2018,data.Alberta,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.Alberta,data.Total - disability status,data.Total - gender,22.29
+2018,data.Alberta,data.Total - disability status,data.Male gender,9.41
+2018,data.Alberta,data.Total - disability status,data.Female gender,35.25
+2018,data.Alberta,data.Total - disability status,data.Gender diverse,
+2018,data.Alberta,data.Has a disability,data.Total - gender,31.27
+2018,data.Alberta,data.Has a disability,data.Male gender,15.1
+2018,data.Alberta,data.Has a disability,data.Female gender,43
+2018,data.Alberta,data.Has a disability,data.Gender diverse,
+2018,data.Alberta,data.Does not have a disability,data.Total - gender,17.5
+2018,data.Alberta,data.Does not have a disability,data.Male gender,7.04
+2018,data.Alberta,data.Does not have a disability,data.Female gender,30.06
+2018,data.Alberta,data.Does not have a disability,data.Gender diverse,
+2018,data.Alberta,data.Total - sexual orientation,data.Total - gender,22.29
+2018,data.Alberta,data.Total - sexual orientation,data.Male gender,9.41
+2018,data.Alberta,data.Total - sexual orientation,data.Female gender,35.25
+2018,data.Alberta,data.Total - sexual orientation,data.Gender diverse,
+2018,data.Alberta,data.Heterosexual,data.Total - gender,21.2
+2018,data.Alberta,data.Heterosexual,data.Male gender,8.72
+2018,data.Alberta,data.Heterosexual,data.Female gender,34.24
+2018,data.Alberta,data.Heterosexual,data.Gender diverse,
+2018,data.Alberta,data.Sexual minority,data.Total - gender,56.45
+2018,data.Alberta,data.Sexual minority,data.Male gender,39.22
+2018,data.Alberta,data.Sexual minority,data.Female gender,64.46
+2018,data.Alberta,data.Sexual minority,data.Gender diverse,
+2018,data.Alberta,data.Lesbian or gay,data.Total - gender,36.25
+2018,data.Alberta,data.Lesbian or gay,data.Male gender,
+2018,data.Alberta,data.Lesbian or gay,data.Female gender,
+2018,data.Alberta,data.Lesbian or gay,data.Gender diverse,
+2018,data.Alberta,data.Bisexual or pansexual,data.Total - gender,65.25
+2018,data.Alberta,data.Bisexual or pansexual,data.Male gender,
+2018,data.Alberta,data.Bisexual or pansexual,data.Female gender,68.84
+2018,data.Alberta,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.Alberta,data.Sexual orientation not elsewhere classified,data.Total - gender,
+2018,data.Alberta,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.Alberta,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.Alberta,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.Alberta,data.Not stated - sexual orientation,data.Total - gender,9.92
+2018,data.Alberta,data.Not stated - sexual orientation,data.Male gender,
+2018,data.Alberta,data.Not stated - sexual orientation,data.Female gender,15.88
+2018,data.Alberta,data.Not stated - sexual orientation,data.Gender diverse,
+2018,data.British Columbia,data.Total - age,data.Total - gender,23.95
+2018,data.British Columbia,data.Total - age,data.Male gender,11.08
+2018,data.British Columbia,data.Total - age,data.Female gender,36.54
+2018,data.British Columbia,data.Total - age,data.Gender diverse,
+2018,data.British Columbia,data.15 to 24 years,data.Total - gender,19.59
+2018,data.British Columbia,data.15 to 24 years,data.Male gender,7.55
+2018,data.British Columbia,data.15 to 24 years,data.Female gender,32.76
+2018,data.British Columbia,data.15 to 24 years,data.Gender diverse,
+2018,data.British Columbia,data.25 to 34 years,data.Total - gender,32.01
+2018,data.British Columbia,data.25 to 34 years,data.Male gender,17.63
+2018,data.British Columbia,data.25 to 34 years,data.Female gender,46.79
+2018,data.British Columbia,data.25 to 34 years,data.Gender diverse,
+2018,data.British Columbia,data.35 to 44 years,data.Total - gender,29.13
+2018,data.British Columbia,data.35 to 44 years,data.Male gender,12.98
+2018,data.British Columbia,data.35 to 44 years,data.Female gender,44.93
+2018,data.British Columbia,data.35 to 44 years,data.Gender diverse,
+2018,data.British Columbia,data.45 to 54 years,data.Total - gender,26.31
+2018,data.British Columbia,data.45 to 54 years,data.Male gender,14.36
+2018,data.British Columbia,data.45 to 54 years,data.Female gender,37.59
+2018,data.British Columbia,data.45 to 54 years,data.Gender diverse,
+2018,data.British Columbia,data.55 years and over,data.Total - gender,19.14
+2018,data.British Columbia,data.55 years and over,data.Male gender,7.46
+2018,data.British Columbia,data.55 years and over,data.Female gender,30.01
+2018,data.British Columbia,data.55 years and over,data.Gender diverse,
+2018,data.British Columbia,data.Total - immigrant status,data.Total - gender,23.95
+2018,data.British Columbia,data.Total - immigrant status,data.Male gender,11.08
+2018,data.British Columbia,data.Total - immigrant status,data.Female gender,36.54
+2018,data.British Columbia,data.Total - immigrant status,data.Gender diverse,
+2018,data.British Columbia,data.Non-immigrants,data.Total - gender,28.25
+2018,data.British Columbia,data.Non-immigrants,data.Male gender,12.76
+2018,data.British Columbia,data.Non-immigrants,data.Female gender,42.54
+2018,data.British Columbia,data.Non-immigrants,data.Gender diverse,
+2018,data.British Columbia,data.Immigrants,data.Total - gender,14.79
+2018,data.British Columbia,data.Immigrants,data.Male gender,7.44
+2018,data.British Columbia,data.Immigrants,data.Female gender,22.85
+2018,data.British Columbia,data.Immigrants,data.Gender diverse,
+2018,data.British Columbia,data.Not stated - immigrant status,data.Total - gender,
+2018,data.British Columbia,data.Not stated - immigrant status,data.Male gender,
+2018,data.British Columbia,data.Not stated - immigrant status,data.Female gender,
+2018,data.British Columbia,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.British Columbia,data.Total - visible minority population,data.Total - gender,23.95
+2018,data.British Columbia,data.Total - visible minority population,data.Male gender,11.08
+2018,data.British Columbia,data.Total - visible minority population,data.Female gender,36.54
+2018,data.British Columbia,data.Total - visible minority population,data.Gender diverse,
+2018,data.British Columbia,data.Visible minority population,data.Total - gender,13.89
+2018,data.British Columbia,data.Visible minority population,data.Male gender,6.81
+2018,data.British Columbia,data.Visible minority population,data.Female gender,21.5
+2018,data.British Columbia,data.Visible minority population,data.Gender diverse,
+2018,data.British Columbia,data.Not a visible minority,data.Total - gender,28.44
+2018,data.British Columbia,data.Not a visible minority,data.Male gender,13.02
+2018,data.British Columbia,data.Not a visible minority,data.Female gender,42.87
+2018,data.British Columbia,data.Not a visible minority,data.Gender diverse,
+2018,data.British Columbia,data.Not stated - visible minority population,data.Total - gender,
+2018,data.British Columbia,data.Not stated - visible minority population,data.Male gender,
+2018,data.British Columbia,data.Not stated - visible minority population,data.Female gender,
+2018,data.British Columbia,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.British Columbia,data.Total - population by indigenous identity,data.Total - gender,23.95
+2018,data.British Columbia,data.Total - population by indigenous identity,data.Male gender,11.08
+2018,data.British Columbia,data.Total - population by indigenous identity,data.Female gender,36.54
+2018,data.British Columbia,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.British Columbia,data.Indigenous identity,data.Total - gender,36.77
+2018,data.British Columbia,data.Indigenous identity,data.Male gender,21.13
+2018,data.British Columbia,data.Indigenous identity,data.Female gender,50.75
+2018,data.British Columbia,data.Indigenous identity,data.Gender diverse,
+2018,data.British Columbia,data.First Nations (North American Indian),data.Total - gender,33.19
+2018,data.British Columbia,data.First Nations (North American Indian),data.Male gender,
+2018,data.British Columbia,data.First Nations (North American Indian),data.Female gender,
+2018,data.British Columbia,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.British Columbia,data.Métis,data.Total - gender,43.27
+2018,data.British Columbia,data.Métis,data.Male gender,
+2018,data.British Columbia,data.Métis,data.Female gender,
+2018,data.British Columbia,data.Métis,data.Gender diverse,
+2018,data.British Columbia,data.Inuk (Inuit),data.Total - gender,
+2018,data.British Columbia,data.Inuk (Inuit),data.Male gender,
+2018,data.British Columbia,data.Inuk (Inuit),data.Female gender,
+2018,data.British Columbia,data.Inuk (Inuit),data.Gender diverse,
+2018,data.British Columbia,data.Other indigenous identity,data.Total - gender,
+2018,data.British Columbia,data.Other indigenous identity,data.Male gender,
+2018,data.British Columbia,data.Other indigenous identity,data.Female gender,
+2018,data.British Columbia,data.Other indigenous identity,data.Gender diverse,
+2018,data.British Columbia,data.Non-indigenous identity,data.Total - gender,23.53
+2018,data.British Columbia,data.Non-indigenous identity,data.Male gender,10.75
+2018,data.British Columbia,data.Non-indigenous identity,data.Female gender,36.11
+2018,data.British Columbia,data.Non-indigenous identity,data.Gender diverse,
+2018,data.British Columbia,data.Not stated - population by indigenous identity,data.Total - gender,15.92
+2018,data.British Columbia,data.Not stated - population by indigenous identity,data.Male gender,
+2018,data.British Columbia,data.Not stated - population by indigenous identity,data.Female gender,
+2018,data.British Columbia,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.British Columbia,data.Total - disability status,data.Total - gender,23.95
+2018,data.British Columbia,data.Total - disability status,data.Male gender,11.08
+2018,data.British Columbia,data.Total - disability status,data.Female gender,36.54
+2018,data.British Columbia,data.Total - disability status,data.Gender diverse,
+2018,data.British Columbia,data.Has a disability,data.Total - gender,31.54
+2018,data.British Columbia,data.Has a disability,data.Male gender,13.74
+2018,data.British Columbia,data.Has a disability,data.Female gender,45.72
+2018,data.British Columbia,data.Has a disability,data.Gender diverse,
+2018,data.British Columbia,data.Does not have a disability,data.Total - gender,19.28
+2018,data.British Columbia,data.Does not have a disability,data.Male gender,9.69
+2018,data.British Columbia,data.Does not have a disability,data.Female gender,29.92
+2018,data.British Columbia,data.Does not have a disability,data.Gender diverse,
+2018,data.British Columbia,data.Total - sexual orientation,data.Total - gender,23.95
+2018,data.British Columbia,data.Total - sexual orientation,data.Male gender,11.08
+2018,data.British Columbia,data.Total - sexual orientation,data.Female gender,36.54
+2018,data.British Columbia,data.Total - sexual orientation,data.Gender diverse,
+2018,data.British Columbia,data.Heterosexual,data.Total - gender,23.42
+2018,data.British Columbia,data.Heterosexual,data.Male gender,10.71
+2018,data.British Columbia,data.Heterosexual,data.Female gender,35.95
+2018,data.British Columbia,data.Heterosexual,data.Gender diverse,
+2018,data.British Columbia,data.Sexual minority,data.Total - gender,42.65
+2018,data.British Columbia,data.Sexual minority,data.Male gender,27.17
+2018,data.British Columbia,data.Sexual minority,data.Female gender,55.72
+2018,data.British Columbia,data.Sexual minority,data.Gender diverse,
+2018,data.British Columbia,data.Lesbian or gay,data.Total - gender,34.37
+2018,data.British Columbia,data.Lesbian or gay,data.Male gender,33.75
+2018,data.British Columbia,data.Lesbian or gay,data.Female gender,
+2018,data.British Columbia,data.Lesbian or gay,data.Gender diverse,
+2018,data.British Columbia,data.Bisexual or pansexual,data.Total - gender,54.78
+2018,data.British Columbia,data.Bisexual or pansexual,data.Male gender,
+2018,data.British Columbia,data.Bisexual or pansexual,data.Female gender,68.65
+2018,data.British Columbia,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.British Columbia,data.Sexual orientation not elsewhere classified,data.Total - gender,
+2018,data.British Columbia,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.British Columbia,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.British Columbia,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.British Columbia,data.Not stated - sexual orientation,data.Total - gender,13.86
+2018,data.British Columbia,data.Not stated - sexual orientation,data.Male gender,
+2018,data.British Columbia,data.Not stated - sexual orientation,data.Female gender,24.28
+2018,data.British Columbia,data.Not stated - sexual orientation,data.Gender diverse,
+2018,data.Yukon,data.Total - age,data.Total - gender,32.67
+2018,data.Yukon,data.Total - age,data.Male gender,16.47
+2018,data.Yukon,data.Total - age,data.Female gender,49.55
+2018,data.Yukon,data.Total - age,data.Gender diverse,
+2018,data.Yukon,data.15 to 24 years,data.Total - gender,19.82
+2018,data.Yukon,data.15 to 24 years,data.Male gender,
+2018,data.Yukon,data.15 to 24 years,data.Female gender,
+2018,data.Yukon,data.15 to 24 years,data.Gender diverse,
+2018,data.Yukon,data.25 to 34 years,data.Total - gender,38.85
+2018,data.Yukon,data.25 to 34 years,data.Male gender,20.29
+2018,data.Yukon,data.25 to 34 years,data.Female gender,58.39
+2018,data.Yukon,data.25 to 34 years,data.Gender diverse,
+2018,data.Yukon,data.35 to 44 years,data.Total - gender,36.23
+2018,data.Yukon,data.35 to 44 years,data.Male gender,12.43
+2018,data.Yukon,data.35 to 44 years,data.Female gender,59.49
+2018,data.Yukon,data.35 to 44 years,data.Gender diverse,
+2018,data.Yukon,data.45 to 54 years,data.Total - gender,40.99
+2018,data.Yukon,data.45 to 54 years,data.Male gender,26.73
+2018,data.Yukon,data.45 to 54 years,data.Female gender,54.99
+2018,data.Yukon,data.45 to 54 years,data.Gender diverse,
+2018,data.Yukon,data.55 years and over,data.Total - gender,29.12
+2018,data.Yukon,data.55 years and over,data.Male gender,17.49
+2018,data.Yukon,data.55 years and over,data.Female gender,41.54
+2018,data.Yukon,data.55 years and over,data.Gender diverse,
+2018,data.Yukon,data.Total - immigrant status,data.Total - gender,32.67
+2018,data.Yukon,data.Total - immigrant status,data.Male gender,16.47
+2018,data.Yukon,data.Total - immigrant status,data.Female gender,49.55
+2018,data.Yukon,data.Total - immigrant status,data.Gender diverse,
+2018,data.Yukon,data.Non-immigrants,data.Total - gender,35.17
+2018,data.Yukon,data.Non-immigrants,data.Male gender,17.15
+2018,data.Yukon,data.Non-immigrants,data.Female gender,54.69
+2018,data.Yukon,data.Non-immigrants,data.Gender diverse,
+2018,data.Yukon,data.Immigrants,data.Total - gender,21.58
+2018,data.Yukon,data.Immigrants,data.Male gender,13.21
+2018,data.Yukon,data.Immigrants,data.Female gender,29.08
+2018,data.Yukon,data.Immigrants,data.Gender diverse,
+2018,data.Yukon,data.Not stated - immigrant status,data.Total - gender,
+2018,data.Yukon,data.Not stated - immigrant status,data.Male gender,
+2018,data.Yukon,data.Not stated - immigrant status,data.Female gender,
+2018,data.Yukon,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.Yukon,data.Total - visible minority population,data.Total - gender,32.67
+2018,data.Yukon,data.Total - visible minority population,data.Male gender,16.47
+2018,data.Yukon,data.Total - visible minority population,data.Female gender,49.55
+2018,data.Yukon,data.Total - visible minority population,data.Gender diverse,
+2018,data.Yukon,data.Visible minority population,data.Total - gender,16.56
+2018,data.Yukon,data.Visible minority population,data.Male gender,
+2018,data.Yukon,data.Visible minority population,data.Female gender,
+2018,data.Yukon,data.Visible minority population,data.Gender diverse,
+2018,data.Yukon,data.Not a visible minority,data.Total - gender,34.52
+2018,data.Yukon,data.Not a visible minority,data.Male gender,16.75
+2018,data.Yukon,data.Not a visible minority,data.Female gender,53.43
+2018,data.Yukon,data.Not a visible minority,data.Gender diverse,
+2018,data.Yukon,data.Not stated - visible minority population,data.Total - gender,
+2018,data.Yukon,data.Not stated - visible minority population,data.Male gender,
+2018,data.Yukon,data.Not stated - visible minority population,data.Female gender,
+2018,data.Yukon,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.Yukon,data.Total - population by indigenous identity,data.Total - gender,32.67
+2018,data.Yukon,data.Total - population by indigenous identity,data.Male gender,16.47
+2018,data.Yukon,data.Total - population by indigenous identity,data.Female gender,49.55
+2018,data.Yukon,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.Yukon,data.Indigenous identity,data.Total - gender,32.93
+2018,data.Yukon,data.Indigenous identity,data.Male gender,10.94
+2018,data.Yukon,data.Indigenous identity,data.Female gender,57.98
+2018,data.Yukon,data.Indigenous identity,data.Gender diverse,
+2018,data.Yukon,data.First Nations (North American Indian),data.Total - gender,33.18
+2018,data.Yukon,data.First Nations (North American Indian),data.Male gender,11.65
+2018,data.Yukon,data.First Nations (North American Indian),data.Female gender,60.55
+2018,data.Yukon,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.Yukon,data.Métis,data.Total - gender,
+2018,data.Yukon,data.Métis,data.Male gender,
+2018,data.Yukon,data.Métis,data.Female gender,
+2018,data.Yukon,data.Métis,data.Gender diverse,
+2018,data.Yukon,data.Inuk (Inuit),data.Total - gender,
+2018,data.Yukon,data.Inuk (Inuit),data.Male gender,
+2018,data.Yukon,data.Inuk (Inuit),data.Female gender,
+2018,data.Yukon,data.Inuk (Inuit),data.Gender diverse,
+2018,data.Yukon,data.Other indigenous identity,data.Total - gender,
+2018,data.Yukon,data.Other indigenous identity,data.Male gender,
+2018,data.Yukon,data.Other indigenous identity,data.Female gender,
+2018,data.Yukon,data.Other indigenous identity,data.Gender diverse,
+2018,data.Yukon,data.Non-indigenous identity,data.Total - gender,32.47
+2018,data.Yukon,data.Non-indigenous identity,data.Male gender,18.29
+2018,data.Yukon,data.Non-indigenous identity,data.Female gender,46.79
+2018,data.Yukon,data.Non-indigenous identity,data.Gender diverse,
+2018,data.Yukon,data.Not stated - population by indigenous identity,data.Total - gender,
+2018,data.Yukon,data.Not stated - population by indigenous identity,data.Male gender,
+2018,data.Yukon,data.Not stated - population by indigenous identity,data.Female gender,
+2018,data.Yukon,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.Yukon,data.Total - disability status,data.Total - gender,32.67
+2018,data.Yukon,data.Total - disability status,data.Male gender,16.47
+2018,data.Yukon,data.Total - disability status,data.Female gender,49.55
+2018,data.Yukon,data.Total - disability status,data.Gender diverse,
+2018,data.Yukon,data.Has a disability,data.Total - gender,42.86
+2018,data.Yukon,data.Has a disability,data.Male gender,20.52
+2018,data.Yukon,data.Has a disability,data.Female gender,61.44
+2018,data.Yukon,data.Has a disability,data.Gender diverse,
+2018,data.Yukon,data.Does not have a disability,data.Total - gender,25.59
+2018,data.Yukon,data.Does not have a disability,data.Male gender,14.15
+2018,data.Yukon,data.Does not have a disability,data.Female gender,39.54
+2018,data.Yukon,data.Does not have a disability,data.Gender diverse,
+2018,data.Yukon,data.Total - sexual orientation,data.Total - gender,32.67
+2018,data.Yukon,data.Total - sexual orientation,data.Male gender,16.47
+2018,data.Yukon,data.Total - sexual orientation,data.Female gender,49.55
+2018,data.Yukon,data.Total - sexual orientation,data.Gender diverse,
+2018,data.Yukon,data.Heterosexual,data.Total - gender,31.56
+2018,data.Yukon,data.Heterosexual,data.Male gender,16.19
+2018,data.Yukon,data.Heterosexual,data.Female gender,48.28
+2018,data.Yukon,data.Heterosexual,data.Gender diverse,
+2018,data.Yukon,data.Sexual minority,data.Total - gender,
+2018,data.Yukon,data.Sexual minority,data.Male gender,
+2018,data.Yukon,data.Sexual minority,data.Female gender,
+2018,data.Yukon,data.Sexual minority,data.Gender diverse,
+2018,data.Yukon,data.Lesbian or gay,data.Total - gender,
+2018,data.Yukon,data.Lesbian or gay,data.Male gender,
+2018,data.Yukon,data.Lesbian or gay,data.Female gender,
+2018,data.Yukon,data.Lesbian or gay,data.Gender diverse,
+2018,data.Yukon,data.Bisexual or pansexual,data.Total - gender,
+2018,data.Yukon,data.Bisexual or pansexual,data.Male gender,
+2018,data.Yukon,data.Bisexual or pansexual,data.Female gender,
+2018,data.Yukon,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.Yukon,data.Sexual orientation not elsewhere classified,data.Total - gender,
+2018,data.Yukon,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.Yukon,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.Yukon,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.Yukon,data.Not stated - sexual orientation,data.Total - gender,
+2018,data.Yukon,data.Not stated - sexual orientation,data.Male gender,
+2018,data.Yukon,data.Not stated - sexual orientation,data.Female gender,
+2018,data.Yukon,data.Not stated - sexual orientation,data.Gender diverse,
+2018,data.Northwest Territories,data.Total - age,data.Total - gender,24.3
+2018,data.Northwest Territories,data.Total - age,data.Male gender,11.85
+2018,data.Northwest Territories,data.Total - age,data.Female gender,37.04
+2018,data.Northwest Territories,data.Total - age,data.Gender diverse,
+2018,data.Northwest Territories,data.15 to 24 years,data.Total - gender,21.22
+2018,data.Northwest Territories,data.15 to 24 years,data.Male gender,
+2018,data.Northwest Territories,data.15 to 24 years,data.Female gender,
+2018,data.Northwest Territories,data.15 to 24 years,data.Gender diverse,
+2018,data.Northwest Territories,data.25 to 34 years,data.Total - gender,22.62
+2018,data.Northwest Territories,data.25 to 34 years,data.Male gender,
+2018,data.Northwest Territories,data.25 to 34 years,data.Female gender,35.99
+2018,data.Northwest Territories,data.25 to 34 years,data.Gender diverse,
+2018,data.Northwest Territories,data.35 to 44 years,data.Total - gender,28.27
+2018,data.Northwest Territories,data.35 to 44 years,data.Male gender,17.06
+2018,data.Northwest Territories,data.35 to 44 years,data.Female gender,39.53
+2018,data.Northwest Territories,data.35 to 44 years,data.Gender diverse,
+2018,data.Northwest Territories,data.45 to 54 years,data.Total - gender,30.79
+2018,data.Northwest Territories,data.45 to 54 years,data.Male gender,15.3
+2018,data.Northwest Territories,data.45 to 54 years,data.Female gender,46.94
+2018,data.Northwest Territories,data.45 to 54 years,data.Gender diverse,
+2018,data.Northwest Territories,data.55 years and over,data.Total - gender,20.54
+2018,data.Northwest Territories,data.55 years and over,data.Male gender,10.07
+2018,data.Northwest Territories,data.55 years and over,data.Female gender,32.15
+2018,data.Northwest Territories,data.55 years and over,data.Gender diverse,
+2018,data.Northwest Territories,data.Total - immigrant status,data.Total - gender,24.3
+2018,data.Northwest Territories,data.Total - immigrant status,data.Male gender,11.85
+2018,data.Northwest Territories,data.Total - immigrant status,data.Female gender,37.04
+2018,data.Northwest Territories,data.Total - immigrant status,data.Gender diverse,
+2018,data.Northwest Territories,data.Non-immigrants,data.Total - gender,24.97
+2018,data.Northwest Territories,data.Non-immigrants,data.Male gender,10.71
+2018,data.Northwest Territories,data.Non-immigrants,data.Female gender,39.55
+2018,data.Northwest Territories,data.Non-immigrants,data.Gender diverse,
+2018,data.Northwest Territories,data.Immigrants,data.Total - gender,19.68
+2018,data.Northwest Territories,data.Immigrants,data.Male gender,19.83
+2018,data.Northwest Territories,data.Immigrants,data.Female gender,19.54
+2018,data.Northwest Territories,data.Immigrants,data.Gender diverse,
+2018,data.Northwest Territories,data.Not stated - immigrant status,data.Total - gender,
+2018,data.Northwest Territories,data.Not stated - immigrant status,data.Male gender,
+2018,data.Northwest Territories,data.Not stated - immigrant status,data.Female gender,
+2018,data.Northwest Territories,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.Northwest Territories,data.Total - visible minority population,data.Total - gender,24.3
+2018,data.Northwest Territories,data.Total - visible minority population,data.Male gender,11.85
+2018,data.Northwest Territories,data.Total - visible minority population,data.Female gender,37.04
+2018,data.Northwest Territories,data.Total - visible minority population,data.Gender diverse,
+2018,data.Northwest Territories,data.Visible minority population,data.Total - gender,13.05
+2018,data.Northwest Territories,data.Visible minority population,data.Male gender,
+2018,data.Northwest Territories,data.Visible minority population,data.Female gender,
+2018,data.Northwest Territories,data.Visible minority population,data.Gender diverse,
+2018,data.Northwest Territories,data.Not a visible minority,data.Total - gender,25.26
+2018,data.Northwest Territories,data.Not a visible minority,data.Male gender,11.61
+2018,data.Northwest Territories,data.Not a visible minority,data.Female gender,39.51
+2018,data.Northwest Territories,data.Not a visible minority,data.Gender diverse,
+2018,data.Northwest Territories,data.Not stated - visible minority population,data.Total - gender,
+2018,data.Northwest Territories,data.Not stated - visible minority population,data.Male gender,
+2018,data.Northwest Territories,data.Not stated - visible minority population,data.Female gender,
+2018,data.Northwest Territories,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.Northwest Territories,data.Total - population by indigenous identity,data.Total - gender,24.3
+2018,data.Northwest Territories,data.Total - population by indigenous identity,data.Male gender,11.85
+2018,data.Northwest Territories,data.Total - population by indigenous identity,data.Female gender,37.04
+2018,data.Northwest Territories,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.Northwest Territories,data.Indigenous identity,data.Total - gender,21.45
+2018,data.Northwest Territories,data.Indigenous identity,data.Male gender,9.51
+2018,data.Northwest Territories,data.Indigenous identity,data.Female gender,34.29
+2018,data.Northwest Territories,data.Indigenous identity,data.Gender diverse,
+2018,data.Northwest Territories,data.First Nations (North American Indian),data.Total - gender,21.18
+2018,data.Northwest Territories,data.First Nations (North American Indian),data.Male gender,
+2018,data.Northwest Territories,data.First Nations (North American Indian),data.Female gender,38.04
+2018,data.Northwest Territories,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.Northwest Territories,data.Métis,data.Total - gender,18.65
+2018,data.Northwest Territories,data.Métis,data.Male gender,
+2018,data.Northwest Territories,data.Métis,data.Female gender,
+2018,data.Northwest Territories,data.Métis,data.Gender diverse,
+2018,data.Northwest Territories,data.Inuk (Inuit),data.Total - gender,25.04
+2018,data.Northwest Territories,data.Inuk (Inuit),data.Male gender,
+2018,data.Northwest Territories,data.Inuk (Inuit),data.Female gender,
+2018,data.Northwest Territories,data.Inuk (Inuit),data.Gender diverse,
+2018,data.Northwest Territories,data.Other indigenous identity,data.Total - gender,
+2018,data.Northwest Territories,data.Other indigenous identity,data.Male gender,
+2018,data.Northwest Territories,data.Other indigenous identity,data.Female gender,
+2018,data.Northwest Territories,data.Other indigenous identity,data.Gender diverse,
+2018,data.Northwest Territories,data.Non-indigenous identity,data.Total - gender,26.66
+2018,data.Northwest Territories,data.Non-indigenous identity,data.Male gender,13.83
+2018,data.Northwest Territories,data.Non-indigenous identity,data.Female gender,39.19
+2018,data.Northwest Territories,data.Non-indigenous identity,data.Gender diverse,
+2018,data.Northwest Territories,data.Not stated - population by indigenous identity,data.Total - gender,
+2018,data.Northwest Territories,data.Not stated - population by indigenous identity,data.Male gender,
+2018,data.Northwest Territories,data.Not stated - population by indigenous identity,data.Female gender,
+2018,data.Northwest Territories,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.Northwest Territories,data.Total - disability status,data.Total - gender,24.3
+2018,data.Northwest Territories,data.Total - disability status,data.Male gender,11.85
+2018,data.Northwest Territories,data.Total - disability status,data.Female gender,37.04
+2018,data.Northwest Territories,data.Total - disability status,data.Gender diverse,
+2018,data.Northwest Territories,data.Has a disability,data.Total - gender,37.08
+2018,data.Northwest Territories,data.Has a disability,data.Male gender,23.72
+2018,data.Northwest Territories,data.Has a disability,data.Female gender,47.92
+2018,data.Northwest Territories,data.Has a disability,data.Gender diverse,
+2018,data.Northwest Territories,data.Does not have a disability,data.Total - gender,17.59
+2018,data.Northwest Territories,data.Does not have a disability,data.Male gender,6.68
+2018,data.Northwest Territories,data.Does not have a disability,data.Female gender,30.18
+2018,data.Northwest Territories,data.Does not have a disability,data.Gender diverse,
+2018,data.Northwest Territories,data.Total - sexual orientation,data.Total - gender,24.3
+2018,data.Northwest Territories,data.Total - sexual orientation,data.Male gender,11.85
+2018,data.Northwest Territories,data.Total - sexual orientation,data.Female gender,37.04
+2018,data.Northwest Territories,data.Total - sexual orientation,data.Gender diverse,
+2018,data.Northwest Territories,data.Heterosexual,data.Total - gender,23.31
+2018,data.Northwest Territories,data.Heterosexual,data.Male gender,10.75
+2018,data.Northwest Territories,data.Heterosexual,data.Female gender,36.78
+2018,data.Northwest Territories,data.Heterosexual,data.Gender diverse,
+2018,data.Northwest Territories,data.Sexual minority,data.Total - gender,
+2018,data.Northwest Territories,data.Sexual minority,data.Male gender,
+2018,data.Northwest Territories,data.Sexual minority,data.Female gender,
+2018,data.Northwest Territories,data.Sexual minority,data.Gender diverse,
+2018,data.Northwest Territories,data.Lesbian or gay,data.Total - gender,
+2018,data.Northwest Territories,data.Lesbian or gay,data.Male gender,
+2018,data.Northwest Territories,data.Lesbian or gay,data.Female gender,
+2018,data.Northwest Territories,data.Lesbian or gay,data.Gender diverse,
+2018,data.Northwest Territories,data.Bisexual or pansexual,data.Total - gender,
+2018,data.Northwest Territories,data.Bisexual or pansexual,data.Male gender,
+2018,data.Northwest Territories,data.Bisexual or pansexual,data.Female gender,
+2018,data.Northwest Territories,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.Northwest Territories,data.Sexual orientation not elsewhere classified,data.Total - gender,
+2018,data.Northwest Territories,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.Northwest Territories,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.Northwest Territories,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.Northwest Territories,data.Not stated - sexual orientation,data.Total - gender,
+2018,data.Northwest Territories,data.Not stated - sexual orientation,data.Male gender,
+2018,data.Northwest Territories,data.Not stated - sexual orientation,data.Female gender,
+2018,data.Northwest Territories,data.Not stated - sexual orientation,data.Gender diverse,
+2018,data.Nunavut,data.Total - age,data.Total - gender,18.68
+2018,data.Nunavut,data.Total - age,data.Male gender,7.84
+2018,data.Nunavut,data.Total - age,data.Female gender,30.53
+2018,data.Nunavut,data.Total - age,data.Gender diverse,
+2018,data.Nunavut,data.15 to 24 years,data.Total - gender,13.97
+2018,data.Nunavut,data.15 to 24 years,data.Male gender,
+2018,data.Nunavut,data.15 to 24 years,data.Female gender,26.76
+2018,data.Nunavut,data.15 to 24 years,data.Gender diverse,
+2018,data.Nunavut,data.25 to 34 years,data.Total - gender,19.97
+2018,data.Nunavut,data.25 to 34 years,data.Male gender,9.86
+2018,data.Nunavut,data.25 to 34 years,data.Female gender,30.42
+2018,data.Nunavut,data.25 to 34 years,data.Gender diverse,
+2018,data.Nunavut,data.35 to 44 years,data.Total - gender,19.39
+2018,data.Nunavut,data.35 to 44 years,data.Male gender,
+2018,data.Nunavut,data.35 to 44 years,data.Female gender,33.65
+2018,data.Nunavut,data.35 to 44 years,data.Gender diverse,
+2018,data.Nunavut,data.45 to 54 years,data.Total - gender,22.14
+2018,data.Nunavut,data.45 to 54 years,data.Male gender,10.69
+2018,data.Nunavut,data.45 to 54 years,data.Female gender,35.32
+2018,data.Nunavut,data.45 to 54 years,data.Gender diverse,
+2018,data.Nunavut,data.55 years and over,data.Total - gender,19.23
+2018,data.Nunavut,data.55 years and over,data.Male gender,
+2018,data.Nunavut,data.55 years and over,data.Female gender,28.59
+2018,data.Nunavut,data.55 years and over,data.Gender diverse,
+2018,data.Nunavut,data.Total - immigrant status,data.Total - gender,18.68
+2018,data.Nunavut,data.Total - immigrant status,data.Male gender,7.84
+2018,data.Nunavut,data.Total - immigrant status,data.Female gender,30.53
+2018,data.Nunavut,data.Total - immigrant status,data.Gender diverse,
+2018,data.Nunavut,data.Non-immigrants,data.Total - gender,18.22
+2018,data.Nunavut,data.Non-immigrants,data.Male gender,7.34
+2018,data.Nunavut,data.Non-immigrants,data.Female gender,29.94
+2018,data.Nunavut,data.Non-immigrants,data.Gender diverse,
+2018,data.Nunavut,data.Immigrants,data.Total - gender,29.05
+2018,data.Nunavut,data.Immigrants,data.Male gender,
+2018,data.Nunavut,data.Immigrants,data.Female gender,
+2018,data.Nunavut,data.Immigrants,data.Gender diverse,
+2018,data.Nunavut,data.Not stated - immigrant status,data.Total - gender,
+2018,data.Nunavut,data.Not stated - immigrant status,data.Male gender,
+2018,data.Nunavut,data.Not stated - immigrant status,data.Female gender,
+2018,data.Nunavut,data.Not stated - immigrant status,data.Gender diverse,
+2018,data.Nunavut,data.Total - visible minority population,data.Total - gender,18.68
+2018,data.Nunavut,data.Total - visible minority population,data.Male gender,7.84
+2018,data.Nunavut,data.Total - visible minority population,data.Female gender,30.53
+2018,data.Nunavut,data.Total - visible minority population,data.Gender diverse,
+2018,data.Nunavut,data.Visible minority population,data.Total - gender,
+2018,data.Nunavut,data.Visible minority population,data.Male gender,
+2018,data.Nunavut,data.Visible minority population,data.Female gender,
+2018,data.Nunavut,data.Visible minority population,data.Gender diverse,
+2018,data.Nunavut,data.Not a visible minority,data.Total - gender,18.43
+2018,data.Nunavut,data.Not a visible minority,data.Male gender,7.65
+2018,data.Nunavut,data.Not a visible minority,data.Female gender,29.98
+2018,data.Nunavut,data.Not a visible minority,data.Gender diverse,
+2018,data.Nunavut,data.Not stated - visible minority population,data.Total - gender,
+2018,data.Nunavut,data.Not stated - visible minority population,data.Male gender,
+2018,data.Nunavut,data.Not stated - visible minority population,data.Female gender,
+2018,data.Nunavut,data.Not stated - visible minority population,data.Gender diverse,
+2018,data.Nunavut,data.Total - population by indigenous identity,data.Total - gender,18.68
+2018,data.Nunavut,data.Total - population by indigenous identity,data.Male gender,7.84
+2018,data.Nunavut,data.Total - population by indigenous identity,data.Female gender,30.53
+2018,data.Nunavut,data.Total - population by indigenous identity,data.Gender diverse,
+2018,data.Nunavut,data.Indigenous identity,data.Total - gender,16.36
+2018,data.Nunavut,data.Indigenous identity,data.Male gender,5.93
+2018,data.Nunavut,data.Indigenous identity,data.Female gender,26.94
+2018,data.Nunavut,data.Indigenous identity,data.Gender diverse,
+2018,data.Nunavut,data.First Nations (North American Indian),data.Total - gender,
+2018,data.Nunavut,data.First Nations (North American Indian),data.Male gender,
+2018,data.Nunavut,data.First Nations (North American Indian),data.Female gender,
+2018,data.Nunavut,data.First Nations (North American Indian),data.Gender diverse,
+2018,data.Nunavut,data.Métis,data.Total - gender,
+2018,data.Nunavut,data.Métis,data.Male gender,
+2018,data.Nunavut,data.Métis,data.Female gender,
+2018,data.Nunavut,data.Métis,data.Gender diverse,
+2018,data.Nunavut,data.Inuk (Inuit),data.Total - gender,16.03
+2018,data.Nunavut,data.Inuk (Inuit),data.Male gender,5.72
+2018,data.Nunavut,data.Inuk (Inuit),data.Female gender,26.52
+2018,data.Nunavut,data.Inuk (Inuit),data.Gender diverse,
+2018,data.Nunavut,data.Other indigenous identity,data.Total - gender,
+2018,data.Nunavut,data.Other indigenous identity,data.Male gender,
+2018,data.Nunavut,data.Other indigenous identity,data.Female gender,
+2018,data.Nunavut,data.Other indigenous identity,data.Gender diverse,
+2018,data.Nunavut,data.Non-indigenous identity,data.Total - gender,29.63
+2018,data.Nunavut,data.Non-indigenous identity,data.Male gender,15.42
+2018,data.Nunavut,data.Non-indigenous identity,data.Female gender,51.18
+2018,data.Nunavut,data.Non-indigenous identity,data.Gender diverse,
+2018,data.Nunavut,data.Not stated - population by indigenous identity,data.Total - gender,
+2018,data.Nunavut,data.Not stated - population by indigenous identity,data.Male gender,
+2018,data.Nunavut,data.Not stated - population by indigenous identity,data.Female gender,
+2018,data.Nunavut,data.Not stated - population by indigenous identity,data.Gender diverse,
+2018,data.Nunavut,data.Total - disability status,data.Total - gender,18.68
+2018,data.Nunavut,data.Total - disability status,data.Male gender,7.84
+2018,data.Nunavut,data.Total - disability status,data.Female gender,30.53
+2018,data.Nunavut,data.Total - disability status,data.Gender diverse,
+2018,data.Nunavut,data.Has a disability,data.Total - gender,28.6
+2018,data.Nunavut,data.Has a disability,data.Male gender,14.26
+2018,data.Nunavut,data.Has a disability,data.Female gender,39.88
+2018,data.Nunavut,data.Has a disability,data.Gender diverse,
+2018,data.Nunavut,data.Does not have a disability,data.Total - gender,13.77
+2018,data.Nunavut,data.Does not have a disability,data.Male gender,5.35
+2018,data.Nunavut,data.Does not have a disability,data.Female gender,24.6
+2018,data.Nunavut,data.Does not have a disability,data.Gender diverse,
+2018,data.Nunavut,data.Total - sexual orientation,data.Total - gender,18.68
+2018,data.Nunavut,data.Total - sexual orientation,data.Male gender,7.84
+2018,data.Nunavut,data.Total - sexual orientation,data.Female gender,30.53
+2018,data.Nunavut,data.Total - sexual orientation,data.Gender diverse,
+2018,data.Nunavut,data.Heterosexual,data.Total - gender,18.14
+2018,data.Nunavut,data.Heterosexual,data.Male gender,7.62
+2018,data.Nunavut,data.Heterosexual,data.Female gender,29.92
+2018,data.Nunavut,data.Heterosexual,data.Gender diverse,
+2018,data.Nunavut,data.Sexual minority,data.Total - gender,
+2018,data.Nunavut,data.Sexual minority,data.Male gender,
+2018,data.Nunavut,data.Sexual minority,data.Female gender,
+2018,data.Nunavut,data.Sexual minority,data.Gender diverse,
+2018,data.Nunavut,data.Lesbian or gay,data.Total - gender,
+2018,data.Nunavut,data.Lesbian or gay,data.Male gender,
+2018,data.Nunavut,data.Lesbian or gay,data.Female gender,
+2018,data.Nunavut,data.Lesbian or gay,data.Gender diverse,
+2018,data.Nunavut,data.Bisexual or pansexual,data.Total - gender,
+2018,data.Nunavut,data.Bisexual or pansexual,data.Male gender,
+2018,data.Nunavut,data.Bisexual or pansexual,data.Female gender,
+2018,data.Nunavut,data.Bisexual or pansexual,data.Gender diverse,
+2018,data.Nunavut,data.Sexual orientation not elsewhere classified,data.Total - gender,
+2018,data.Nunavut,data.Sexual orientation not elsewhere classified,data.Male gender,
+2018,data.Nunavut,data.Sexual orientation not elsewhere classified,data.Female gender,
+2018,data.Nunavut,data.Sexual orientation not elsewhere classified,data.Gender diverse,
+2018,data.Nunavut,data.Not stated - sexual orientation,data.Total - gender,
+2018,data.Nunavut,data.Not stated - sexual orientation,data.Male gender,
+2018,data.Nunavut,data.Not stated - sexual orientation,data.Female gender,
+2018,data.Nunavut,data.Not stated - sexual orientation,data.Gender diverse,
