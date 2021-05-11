@@ -1,34 +1,34 @@
-Year,data.Geography,data.Fuel Type,Value
-2021,data.Alberta,data.All fuel types,235
-2021,data.Alberta,data.Electric,235
-2021,data.British Columbia,data.All fuel types,1177
-2021,data.British Columbia,data.Electric,1172
-2021,data.British Columbia,data.Hydrogen,4
-2021,data.British Columbia,data.Liquefied Natural Gas,1
-2021,data.Manitoba,data.All fuel types,65
-2021,data.Manitoba,data.Electric,65
-2021,data.New Brunswick,data.All fuel types,130
-2021,data.New Brunswick,data.Electric,130
-2021,data.Newfoundland and Labrador,data.All fuel types,39
-2021,data.Newfoundland and Labrador,data.Electric,39
-2021,data.Nova Scotia,data.All fuel types,97
-2021,data.Nova Scotia,data.Electric,97
-2021,data.Northwest Territories,data.All fuel types,1
-2021,data.Northwest Territories,data.Electric,1
-2021,data.Ontario,data.All fuel types,1758
-2021,data.Ontario,data.Electric,1757
-2021,data.Ontario,data.Liquefied Natural Gas,1
-2021,data.Prince Edward Island,data.All fuel types,41
-2021,data.Prince Edward Island,data.Electric,41
-2021,data.Quebec,data.All fuel types,2825
-2021,data.Quebec,data.Electric,2820
-2021,data.Quebec,data.Hydrogen,2
-2021,data.Quebec,data.Liquefied Natural Gas,3
-2021,data.Saskatchewan,data.All fuel types,69
-2021,data.Saskatchewan,data.Electric,69
-2021,data.Yukon,data.All fuel types,6
-2021,data.Yukon,data.Electric,6
-2021,data.Canada,data.All fuel types,6443
-2021,data.Canada,data.Electric,6432
-2021,data.Canada,data.Hydrogen,6
-2021,data.Canada,data.Liquefied Natural Gas,5
+Year,Geography,Fuel Type,Value
+2021,Alberta,All fuel types,235
+2021,Alberta,Electric,235
+2021,British Columbia,All fuel types,1177
+2021,British Columbia,Electric,1172
+2021,British Columbia,Hydrogen,4
+2021,British Columbia,Liquefied Natural Gas,1
+2021,Manitoba,All fuel types,65
+2021,Manitoba,Electric,65
+2021,New Brunswick,All fuel types,130
+2021,New Brunswick,Electric,130
+2021,Newfoundland and Labrador,All fuel types,39
+2021,Newfoundland and Labrador,Electric,39
+2021,Nova Scotia,All fuel types,97
+2021,Nova Scotia,Electric,97
+2021,Northwest Territories,All fuel types,1
+2021,Northwest Territories,Electric,1
+2021,Ontario,All fuel types,1758
+2021,Ontario,Electric,1757
+2021,Ontario,Liquefied Natural Gas,1
+2021,Prince Edward Island,All fuel types,41
+2021,Prince Edward Island,Electric,41
+2021,Quebec,All fuel types,2825
+2021,Quebec,Electric,2820
+2021,Quebec,Hydrogen,2
+2021,Quebec,Liquefied Natural Gas,3
+2021,Saskatchewan,All fuel types,69
+2021,Saskatchewan,Electric,69
+2021,Yukon,All fuel types,6
+2021,Yukon,Electric,6
+2021,Canada,All fuel types,6443
+2021,Canada,Electric,6432
+2021,Canada,Hydrogen,6
+2021,Canada,Liquefied Natural Gas,5

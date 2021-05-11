@@ -1,4 +1,4 @@
 From,To
-data.Unit,data.Region
-data.Region,data.Land use
-data.Land use,data.Water quality
+Unit,Region
+Region,Land use
+Land use,Water quality

@@ -1,85 +1,85 @@
-Year,data.Geography,data.Population centres,Value
-2018,data.British Columbia,data.Major roads and highways,68.9
-2018,data.Alberta,data.Major roads and highways,95.3
-2018,data.Saskatchewan,data.Major roads and highways,98.4
-2018,data.Manitoba,data.Major roads and highways,83.3
-2018,data.Ontario,data.Major roads and highways,92.7
-2018,data.Quebec,data.Major roads and highways,88.6
-2018,data.New Brunswick,data.Major roads and highways,99.4
-2018,data.Nova Scotia,data.Major roads and highways,98.1
-2018,data.Prince Edward Island,data.Major roads and highways,99.9
-2018,data.Newfoundland and Labrador,data.Major roads and highways,64.7
-2018,data.Yukon,data.Major roads and highways,34.7
-2018,data.Northwest Territories,data.Major roads and highways,30.4
-2018,data.Nunavut,data.Major roads and highways,
-2018,data.Canada,data.Major roads and highways,87.2
-2019,data.British Columbia,data.Major roads and highways,71.8
-2019,data.Alberta,data.Major roads and highways,96.0
-2019,data.Saskatchewan,data.Major roads and highways,98.8
-2019,data.Manitoba,data.Major roads and highways,93.2
-2019,data.Ontario,data.Major roads and highways,93.4
-2019,data.Quebec,data.Major roads and highways,89.3
-2019,data.New Brunswick,data.Major roads and highways,99.4
-2019,data.Nova Scotia,data.Major roads and highways,98.3
-2019,data.Prince Edward Island,data.Major roads and highways,99.9
-2019,data.Newfoundland and Labrador,data.Major roads and highways,66.5
-2019,data.Yukon,data.Major roads and highways,34.9
-2019,data.Northwest Territories,data.Major roads and highways,31.7
-2019,data.Nunavut,data.Major roads and highways,
-2019,data.Canada,data.Major roads and highways,88.8
-2018,data.British Columbia,data.Urban centres,99.9
-2018,data.Alberta,data.Urban centres,99.9
-2018,data.Saskatchewan,data.Urban centres,99.9
-2018,data.Manitoba,data.Urban centres,99.4
-2018,data.Ontario,data.Urban centres,99.9
-2018,data.Quebec,data.Urban centres,99.9
-2018,data.New Brunswick,data.Urban centres,99.9
-2018,data.Nova Scotia,data.Urban centres,99.9
-2018,data.Prince Edward Island,data.Urban centres,99.9
-2018,data.Newfoundland and Labrador,data.Urban centres,99.9
-2018,data.Yukon,data.Urban centres,99.9
-2018,data.Northwest Territories,data.Urban centres,99.9
-2018,data.Nunavut,data.Urban centres,93.2
-2018,data.Canada,data.Urban centres,99.9
-2019,data.British Columbia,data.Urban centres,99.9
-2019,data.Alberta,data.Urban centres,99.9
-2019,data.Saskatchewan,data.Urban centres,99.9
-2019,data.Manitoba,data.Urban centres,99.7
-2019,data.Ontario,data.Urban centres,99.9
-2019,data.Quebec,data.Urban centres,99.9
-2019,data.New Brunswick,data.Urban centres,99.9
-2019,data.Nova Scotia,data.Urban centres,99.9
-2019,data.Prince Edward Island,data.Urban centres,99.9
-2019,data.Newfoundland and Labrador,data.Urban centres,99.9
-2019,data.Yukon,data.Urban centres,99.9
-2019,data.Northwest Territories,data.Urban centres,99.9
-2019,data.Nunavut,data.Urban centres,99.9
-2019,data.Canada,data.Urban centres,99.9
-2018,data.British Columbia,data.Rural communities,93.1
-2018,data.Alberta,data.Rural communities,98.7
-2018,data.Saskatchewan,data.Rural communities,98.9
-2018,data.Manitoba,data.Rural communities,83.2
-2018,data.Ontario,data.Rural communities,98.6
-2018,data.Quebec,data.Rural communities,97.6
-2018,data.New Brunswick,data.Rural communities,98.5
-2018,data.Nova Scotia,data.Rural communities,98.8
-2018,data.Prince Edward Island,data.Rural communities,99.9
-2018,data.Newfoundland and Labrador,data.Rural communities,88.1
-2018,data.Yukon,data.Rural communities,88.5
-2018,data.Northwest Territories,data.Rural communities,84.4
-2018,data.Nunavut,data.Rural communities,40.2
-2018,data.Canada,data.Rural communities,96.5
-2019,data.British Columbia,data.Rural communities,94.4
-2019,data.Alberta,data.Rural communities,98.9
-2019,data.Saskatchewan,data.Rural communities,99.4
-2019,data.Manitoba,data.Rural communities,89.1
-2019,data.Ontario,data.Rural communities,98.8
-2019,data.Quebec,data.Rural communities,98.1
-2019,data.New Brunswick,data.Rural communities,98.9
-2019,data.Nova Scotia,data.Rural communities,99.1
-2019,data.Prince Edward Island,data.Rural communities,99.9
-2019,data.Newfoundland and Labrador,data.Rural communities,89.9
-2019,data.Yukon,data.Rural communities,86.8
-2019,data.Northwest Territories,data.Rural communities,84.4
-2019,data.Nunavut,data.Rural communities,99.6
-2019,data.Canada,data.Rural communities,97.4
+Year,Geography,Population centres,Value
+2018,British Columbia,Major roads and highways,68.9
+2018,Alberta,Major roads and highways,95.3
+2018,Saskatchewan,Major roads and highways,98.4
+2018,Manitoba,Major roads and highways,83.3
+2018,Ontario,Major roads and highways,92.7
+2018,Quebec,Major roads and highways,88.6
+2018,New Brunswick,Major roads and highways,99.4
+2018,Nova Scotia,Major roads and highways,98.1
+2018,Prince Edward Island,Major roads and highways,99.9
+2018,Newfoundland and Labrador,Major roads and highways,64.7
+2018,Yukon,Major roads and highways,34.7
+2018,Northwest Territories,Major roads and highways,30.4
+2018,Nunavut,Major roads and highways,
+2018,Canada,Major roads and highways,87.2
+2019,British Columbia,Major roads and highways,71.8
+2019,Alberta,Major roads and highways,96.0
+2019,Saskatchewan,Major roads and highways,98.8
+2019,Manitoba,Major roads and highways,93.2
+2019,Ontario,Major roads and highways,93.4
+2019,Quebec,Major roads and highways,89.3
+2019,New Brunswick,Major roads and highways,99.4
+2019,Nova Scotia,Major roads and highways,98.3
+2019,Prince Edward Island,Major roads and highways,99.9
+2019,Newfoundland and Labrador,Major roads and highways,66.5
+2019,Yukon,Major roads and highways,34.9
+2019,Northwest Territories,Major roads and highways,31.7
+2019,Nunavut,Major roads and highways,
+2019,Canada,Major roads and highways,88.8
+2018,British Columbia,Urban centres,99.9
+2018,Alberta,Urban centres,99.9
+2018,Saskatchewan,Urban centres,99.9
+2018,Manitoba,Urban centres,99.4
+2018,Ontario,Urban centres,99.9
+2018,Quebec,Urban centres,99.9
+2018,New Brunswick,Urban centres,99.9
+2018,Nova Scotia,Urban centres,99.9
+2018,Prince Edward Island,Urban centres,99.9
+2018,Newfoundland and Labrador,Urban centres,99.9
+2018,Yukon,Urban centres,99.9
+2018,Northwest Territories,Urban centres,99.9
+2018,Nunavut,Urban centres,93.2
+2018,Canada,Urban centres,99.9
+2019,British Columbia,Urban centres,99.9
+2019,Alberta,Urban centres,99.9
+2019,Saskatchewan,Urban centres,99.9
+2019,Manitoba,Urban centres,99.7
+2019,Ontario,Urban centres,99.9
+2019,Quebec,Urban centres,99.9
+2019,New Brunswick,Urban centres,99.9
+2019,Nova Scotia,Urban centres,99.9
+2019,Prince Edward Island,Urban centres,99.9
+2019,Newfoundland and Labrador,Urban centres,99.9
+2019,Yukon,Urban centres,99.9
+2019,Northwest Territories,Urban centres,99.9
+2019,Nunavut,Urban centres,99.9
+2019,Canada,Urban centres,99.9
+2018,British Columbia,Rural communities,93.1
+2018,Alberta,Rural communities,98.7
+2018,Saskatchewan,Rural communities,98.9
+2018,Manitoba,Rural communities,83.2
+2018,Ontario,Rural communities,98.6
+2018,Quebec,Rural communities,97.6
+2018,New Brunswick,Rural communities,98.5
+2018,Nova Scotia,Rural communities,98.8
+2018,Prince Edward Island,Rural communities,99.9
+2018,Newfoundland and Labrador,Rural communities,88.1
+2018,Yukon,Rural communities,88.5
+2018,Northwest Territories,Rural communities,84.4
+2018,Nunavut,Rural communities,40.2
+2018,Canada,Rural communities,96.5
+2019,British Columbia,Rural communities,94.4
+2019,Alberta,Rural communities,98.9
+2019,Saskatchewan,Rural communities,99.4
+2019,Manitoba,Rural communities,89.1
+2019,Ontario,Rural communities,98.8
+2019,Quebec,Rural communities,98.1
+2019,New Brunswick,Rural communities,98.9
+2019,Nova Scotia,Rural communities,99.1
+2019,Prince Edward Island,Rural communities,99.9
+2019,Newfoundland and Labrador,Rural communities,89.9
+2019,Yukon,Rural communities,86.8
+2019,Northwest Territories,Rural communities,84.4
+2019,Nunavut,Rural communities,99.6
+2019,Canada,Rural communities,97.4
