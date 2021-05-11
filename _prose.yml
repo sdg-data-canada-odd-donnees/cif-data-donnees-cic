@@ -41,12 +41,12 @@ prose:
             label: "Indicator number"
             translation_key: metadata_fields.indicator
             scope: global
-      - name: "target_name"
-        field:
-            element: text
-            label: "Target name"
-            translation_key: metadata_fields.target
-            scope: global
+      #- name: "target_name"
+      #  field:
+      #      element: text
+      #      label: "Target name"
+      #      translation_key: metadata_fields.target
+      #      scope: global
       - name: "target_id"
         field:
             element: text
@@ -90,6 +90,12 @@ prose:
             element: text
             label: "Indicator available"
             translation_key: metadata_fields.national_indicator_available
+            scope: national
+      - name: "target_name"
+        field:
+            element: text
+            label: "Target name"
+            translation_key: metadata_fields.target
             scope: national
       - name: "national_indicator_description"
         field:
