@@ -1,9 +1,6 @@
 Indicator,Disaggregations,Number of disaggregations
 #1-1-1,"Geography, Persons",2
 #1-2-1,"data.Geography, data.Age group and family type, data.Statistics",3
-#1-a-2,Group,1
-#1-a-3,Group,1
-#1-b-1,Group,1
 #10-1-1,Geography,1
 #10-2-1,"Province, data.Reporting entity, data.Offence",3
 #10-3-1,"data.Geography, data.Type of work, data.National Occupational Classification (NOC), data.Age",4
@@ -12,9 +9,6 @@ Indicator,Disaggregations,Number of disaggregations
 #10-6-1,Group,1
 #10-7-1,Group,1
 #10-7-2,Group,1
-#10-a-1,Group,1
-#10-b-1,Group,1
-#10-c-1,Group,1
 #11-1-1,Estimates,1
 #11-2-1,"data.Selected housing vulnerable populations, data.Living with housing problems",2
 #11-3-2,Group,1
@@ -25,8 +19,6 @@ Indicator,Disaggregations,Number of disaggregations
 #11-6-2,Group,1
 #11-7-1,Group,1
 #11-7-2,Group,1
-#11-a-1,Group,1
-#11-b-1,Group,1
 #12-1-1,Geography,1
 #12-2-1,"data.Industries, data.Environmental protection activities or management practices",2
 #12-3-1,"data.Geography, data.Type of materials diverted, data.Sources of materials prepared for recycling",3
@@ -47,6 +39,8 @@ Indicator,Disaggregations,Number of disaggregations
 #16-5-1,"data.Geography, data.Type of court, data.Offences, data.Age of accused, data.Sex of accused",5
 #16-6-1,data.Geography,1
 #16-7-1,"data.Institutions, data.Characteristics, data.Level of confidence",3
+#16-a-1,Group,1
+#16-b-1,Group,1
 #2-1-1,"Geography, Living arrangement, Household food security status",3
 #2-2-1,"Index, Indicator",2
 #3-1-1,"Geography, Age group, Sex",3
