@@ -20,7 +20,6 @@ Indicator,Disaggregations,Number of disaggregations
 #15-1-1,data.Species group,1
 #15-2-1,data.Population and distribution trends consistent with objectives,1
 #15-3-1,data.Geography,1
-#15-6-1,"data.Region, data.Unit, data.Land use, data.Water quality",4
 #16-1-1,data.Sex,1
 #16-2-1,"data.Geography, data.Index",2
 #16-3-1,"data.Geography, data.Violations",2
@@ -28,7 +27,7 @@ Indicator,Disaggregations,Number of disaggregations
 #16-5-1,"data.Geography, data.Type of court, data.Offences, data.Age of accused, data.Sex of accused",5
 #16-6-1,data.Geography,1
 #16-7-1,"data.Institutions, data.Characteristics, data.Level of confidence",3
-#17-2-1,"data.Pillar, data.Region",2
+#17-2-1,"data.Region, data.Pillar",2
 #2-1-1,"Geography, Living arrangement, Household food security status",3
 #2-2-1,"Index, Indicator",2
 #3-1-1,"Geography, Age group, Sex",3
@@ -52,6 +51,7 @@ Indicator,Disaggregations,Number of disaggregations
 #6-1-1,Region,1
 #6-2-1,data.Geography,1
 #6-3-1,Sector,1
+#6-4-1,"data.Region, data.Land use, data.Water quality",3
 #7-1-1,Energy Savings,1
 #7-2-1,"Geography, Fuel type, Demand characteristics, Unit of measure",4
 #7-3-1,"Geography, Type of electricity generation",2
