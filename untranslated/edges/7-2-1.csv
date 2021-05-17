@@ -1,1 +1,4 @@
 From,To
+data.Units,data.Geography
+data.Geography,data.Fuel type
+data.Fuel type,data.Demand characteristics
