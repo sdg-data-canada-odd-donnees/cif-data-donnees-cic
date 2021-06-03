@@ -1,14 +1,15 @@
+## Sex
 Sex: Sex
-Age: Age
-Males: Males
+Men: Men
 Male: Male
-Females: Females
+Males: Males
+Women: Women
 Female: Female
+Females: Females
 Both: Both
 Both sexes: Both sexes
-Men: Men
-Women: Women
 
+## Geo
 Geography: Geography
 Canada: Canada
 Canada (excluding territories): Canada (excluding territories)
@@ -28,41 +29,43 @@ Yukon: Yukon
 Northwest Territories: Northwest Territories
 Nunavut: Nunavut
 
+## Age
+Age: Age
 Age group: Age group
 Total, 12 years and over: Total, 12 years and over
 Total, 15 years and over: Total, 15 years and over
 15 years and over: 15 years and over
-12 to 17 years: 12 to 17 years
-15 to 24 years: 15 to 24 years
-18 to 34 years: 18 to 34 years
 25 years and over: 25 years and over
-25 to 34 years: 25 to 34 years
-25 to 44 years: 25 to 44 years
-35 to 44 years: 35 to 44 years
-35 to 49 years: 35 to 49 years
-25 to 44 years: 25 to 44 years
-25 to 54 years: 25 to 54 years
-45 to 54 years: 45 to 54 years
-50 to 64 years: 50 to 64 years
-55 to 64 years: 55 to 64 years
-45 to 64 years: 45 to 64 years
 45 years and over: 45 years and over
 55 years and over: 55 years and over
-15 to 64 years: 15 to 64 years
+65 years and over: 65 years and over
+70 years and over: 70 years and over
+12 to 17 years: 12 to 17 years
 15 to 19 years: 15 to 19 years
+15 to 24 years: 15 to 24 years
+15 to 64 years: 15 to 64 years
+18 to 34 years: 18 to 34 years
 20 to 24 years: 20 to 24 years
 25 to 29 years: 25 to 29 years
+25 to 34 years: 25 to 34 years
+25 to 44 years: 25 to 44 years
+25 to 54 years: 25 to 54 years
 30 to 34 years: 30 to 34 years
 35 to 39 years: 35 to 39 years
+35 to 44 years: 35 to 44 years
+35 to 49 years: 35 to 49 years
 40 to 44 years: 40 to 44 years
 45 to 49 years: 45 to 49 years
+45 to 54 years: 45 to 54 years
+45 to 64 years: 45 to 64 years
 50 to 54 years: 50 to 54 years
 55 to 59 years: 55 to 59 years
+50 to 64 years: 50 to 64 years
+55 to 64 years: 55 to 64 years
 60 to 64 years: 60 to 64 years
-65 years and over: 65 years and over
 65 to 69 years: 65 to 69 years
-70 years and over: 70 years and over
 
+## Random
 Activity group: Activity group
 Unpaid work activities: Unpaid work activities
 Household chores: Household chores
@@ -108,6 +111,23 @@ Non-elderly persons not in an economic family: Non-elderly persons not in an eco
 Non-elderly males not in an economic family: Non-elderly males not in an economic family
 Non-elderly females not in an economic family: Non-elderly females not in an economic family
 
+## 1-2-1
+Age group and family type: Age group and family type
+Persons all ages and family types: Persons all ages and family types
+Persons under 18 years old: Persons under 18 years old
+Persons 18 to 64 years old: Persons 18 to 64 years old
+Persons 65 years and older: Persons 65 years and older
+Persons in an economic family: Persons in an economic family
+Persons in a couple only family: Persons in a couple only family
+Persons in a couple with children family: Persons in a couple with children family
+Persons in a lone-parent family: Persons in a lone-parent family
+Persons in an other economic family type: Persons in an other economic family type
+Persons not in an economic family: Persons not in an economic family
+Statistics: Statistics
+Asset resilient for at least one month: Asset resilient for at least one month
+Asset resilient for at least three months: Asset resilient for at least three months
+Asset resilient for at least six months: Asset resilient for at least six months
+
 ## 2-2-1
 Index: Index
 Biodiversity: Biodiversity
@@ -141,6 +161,7 @@ Type of e-cigarettes: Type of e-cigarettes
 Both type: Both type
 With nicotine: With nicotine
 Without nicotine: Without nicotine
+
 ## 3-4-1
 Measures: Measures
 Overweight: Overweight
@@ -153,6 +174,44 @@ Ages 18 to 79: Ages 18 to 79
 Ages 18 to 39: Ages 18 to 39
 Ages 40 to 59: Ages 40 to 59
 Ages 60 to 79: Ages 60 to 79
+
+## 3-8-1
+Selected diseases: Selected diseases
+Diphtheria: Diphtheria
+Pertussis: Pertussis
+Tetanus: Tetanus
+Polio: Polio
+Haemophilus influenzae type B: Haemophilus influenzae type B
+Diphtheria - Pertussis and tetanus: Diphtheria - Pertussis and tetanus
+Measles: Measles
+Mumps: Mumps
+Rubella: Rubella
+Hepatitis B: Hepatitis B
+Varicella: Varicella
+Meningococcal type C: Meningococcal type C
+Pneumococcal: Pneumococcal
+Rotavirus: Rotavirus
+Human Papillomavirus: Human Papillomavirus
+Diphtheria - Tetanus - acellular Pertussis booster: Diphtheria - Tetanus - acellular Pertussis booster
+All children: All children
+by 2 years of age: by 2 years of age
+by 7 years of age: by 7 years of age
+by 14 years of age: by 14 years of age
+by 17 years of age: by 17 years of age
+
+## 3-9-1
+Disease: Disease
+Creutzfeldt-Jakob: Creutzfeldt-Jakob
+HIV and AIDS: HIV and AIDS
+Diabetes: Diabetes
+Ischemic heart disease: Ischemic heart disease
+Dementia, including Alzheimer's disease: Dementia, including Alzheimer's disease
+Hypertension: Hypertension
+Chronic obstructive pulmonary disease: Chronic obstructive pulmonary disease
+Cancer: Cancer
+Tuberculosis: Tuberculosis
+Salmonella: Salmonella
+
 ## 3-11-1
 Age at time of death: Age at time of death
 all ages: all ages
@@ -176,120 +235,12 @@ Chronic lower respiratory diseases [J40-J47]: Chronic lower respiratory diseases
 Chronic liver disease and cirrhosis [K70, K73-K74]: Chronic liver disease and cirrhosis
 Accidents (unintentional injuries) [V01-X59, Y85-Y86]: Accidents (unintentional injuries)
 Intentional self-harm (suicide) [X60-X84, Y87.0]: Intentional self-harm (suicide)
-## 8-6-1
-Industry: Industry
-Total, all industries: All industries
-Utilities [BS220]: Utilities
-Engineering construction [BS23C]: Construction
-Manufacturing [BS3A0]: Manufacturing
-Professional, scientific and technical services [BS540]: Professional, scientific and technical services
-Administrative and support, waste management and remediation services [BS560]: Administrative and support, waste management and remediation services
-Other industries: Other industries
-## 9-2-1
-Total, Organisation for Economic Co-operation and Development (OECD): Total, Organisation for Economic Co-operation and Development (OECD)
-## 9-7-1
-Fuel Type: Fuel Type
-All fuel types: All fuel types
-Electric: Electric
-Hydrogen: Hydrogen
-Liquefied Natural Gas: Liquefied Natural Gas
-## 9-3-1
-Population centres: Population centres
-First Nations reserves: First Nations reserves
-All regions: All regions
-Large population centres: Large population centres
-Medium population centres: Medium population centres
-Small population centres: Small population centres
-Rural areas: Rural areas
-Urban centres: Urban centres
-Rural communities: Rural communities
-Major roads and highways: Major roads and highways
-## 11-4-1
-St. John's, Newfoundland and Labrador: St. John's, Newfoundland and Labrador
-Halifax, Nova Scotia: Halifax, Nova Scotia
-Moncton, New Brunswick: Moncton, New Brunswick
-Saint John, New Brunswick: Saint John, New Brunswick
-Montreal, Quebec: Montreal, Quebec
-Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (Quebec part), Quebec
-Quebec, Quebec: Quebec, Quebec
-Saguenay, Quebec: Saguenay, Quebec
-Sherbrooke, Quebec: Sherbrooke, Quebec
-Trois-Rivieres, Quebec: Trois-Rivieres, Quebec
-Barrie, Ontario: Barrie, Ontario
-Belleville, Ontario: Belleville, Ontario
-Brantford, Ontario: Brantford, Ontario
-Greater Sudbury / Grand Sudbury, Ontario: Greater Sudbury / Grand Sudbury, Ontario
-Guelph, Ontario: Guelph, Ontario
-Hamilton, Ontario: Hamilton, Ontario
-Kingston, Ontario: Kingston, Ontario
-Kitchener - Cambridge - Waterloo, Ontario: Kitchener - Cambridge - Waterloo, Ontario
-London, Ontario: London, Ontario
-Oshawa, Ontario: Oshawa, Ontario
-Ottawa - Gatineau (Ontario part), Ontario: Ottawa - Gatineau (Ontario part), Ontario
-Peterborough, Ontario: Peterborough, Ontario
-St. Catharines - Niagara, Ontario: St. Catharines - Niagara, Ontario
-Thunder Bay, Ontario: Thunder Bay, Ontario
-Toronto, Ontario: Toronto, Ontario
-Windsor, Ontario: Windsor, Ontario
-Winnipeg, Manitoba: Winnipeg, Manitoba
-Regina, Saskatchewan: Regina, Saskatchewan
-Saskatoon, Saskatchewan: Saskatoon, Saskatchewan
-Calgary, Alberta: Calgary, Alberta
-Edmonton, Alberta: Edmonton, Alberta
-Lethbridge, Alberta: Lethbridge, Alberta
-Abbotsford - Mission, British Columbia: Abbotsford - Mission, British Columbia
-Kelowna, British Columbia: Kelowna, British Columbia
-Vancouver, British Columbia: Vancouver, British Columbia
-Victoria, British Columbia: Victoria, British Columbia
-## 11-5-1
-Type of commute: Type of commute
-Public transit: Public transit
-Active transport: Active transport
-## 15-1-1
-Species group: Species group
-All species: All species
-Amphibians: Amphibians
-Ants: Ants
-Bee flies: Bee flies
-Bees: Bees
-Beetles: Beetles
-Birds: Birds
-Black flies: Black flies
-Bryophytes: Bryophytes
-Caddisflies: Caddisflies
-Corals: Corals
-Decapods: Decapods
-Dragonflies and damselflies: Dragonflies and damselflies
-Fishes: Fishes
-Flower flies: Flower flies
-Freshwater bivalves: Freshwater bivalves
-Grasshoppers and relatives: Grasshoppers and relatives
-Horse flies: Horse flies
-Lacewings: Lacewings
-Macrolichens: Macrolichens
-Mammals: Mammals
-Mayflies: Mayflies
-Mosquitoes: Mosquitoes
-Moths and butterflies: Moths and butterflies
-Non-marine snails and slugs: Non-marine snails and slugs
-Reptiles: Reptiles
-Scorpionflies: Scorpionflies
-Sea cucumbers: Sea cucumbers
-Sea urchins: Sea urchins
-Selected macrofungi: Selected macrofungi
-Spiders: Spiders
-Sponges: Sponges
-Stoneflies: Stoneflies
-Vascular plants: Vascular plants
-Yellowjacket wasps: Yellowjacket wasps
-##15-2-1
-Population and distribution trends consistent with objectives: Population and distribution trends consistent with objectives
-On track: On track
-Mixed evidence: Mixed evidence
-Not on track: Not on track
-## 15-3-1
-National terrestrial: National terrestrial
-National marine: National marine
+
+## 3-12-1
+Deaths or hospitalizations: Deaths or hospitalizations
+Hospitalizations: Hospitalizations
+Deaths: Deaths
+
 ##5-1-1
 Type of perpetrator: Type of perpetrator
 Intimate partner: Intimate partner
@@ -332,6 +283,24 @@ Total - gender: Total - gender
 Male gender: Male gender
 Female gender: Female gender
 Gender diverse: Gender diverse
+
+## 5-1-2
+Type of intimate partner violence: Type of intimate partner violence
+Emotional, financial, or psychological abuse: Emotional, financial, or psychological abuse
+Physical abuse: Physical abuse
+Sexual abuse: Sexual abuse
+Total intimate partner violence: Total intimate partner violence
+Selected characteristic: Selected characteristic
+Total, all women: Total, all women
+15 to 24 year old women: 15 to 24 year old women
+Separated or divorced women: Separated or divorced women
+LGBTQ2 women: LGBTQ2 women
+Single women: Single women
+First Nations, Métis, or Inuit women: First Nations, Métis, or Inuit women
+Women with disability: Women with disability
+Immigrant women: Immigrant women
+Women designated as visible minorities: Women designated as visible minorities
+
 ## 5-2-1
 Leadership position: Leadership position
 Members of national Parliament: Members of national Parliament
@@ -343,6 +312,195 @@ Middle management occupations in retail and wholesale trade and customer service
 Middle management occupations in trades - transportation - production and utilities: Middle management occupations in trades - transportation - production and utilities
 Judges - Federal government public administration: Judges - Federal government public administration
 Judges - Provincial and territorial public administration: Judges - Provincial and territorial public administration
+
+## 7-2-1
+Demand characteristics: Demand characteristics
+Energy use - final demand: Energy use - final demand
+Total industrial: Total industrial
+Total transportation: Total transportation
+Agriculture: Agriculture
+Residential: Residential
+Public administration: Public administration
+Commercial and other institutional: Commercial and other institutional
+Fuel type: Fuel type
+Total primary and secondary energy: Total primary and secondary energy
+Total coal: Total coal
+Natural gas: Natural gas
+Gas plant natural gas liquids (NGL's): Gas plant natural gas liquids (NGL's)
+Hydroelectricity: Hydroelectricity
+Nuclear: Nuclear
+Steam: Steam
+Coke: Coke
+Coke oven gas: Coke oven gas
+Total refined petroleum products: Total refined petroleum products
+Units: Units
+Terajoules: Terajoules
+Per capita: Per capita
+
+## 7-3-1
+Type of electricity generation: Type of electricity generation
+Hydraulic turbine: Hydraulic turbine
+Tidal power turbine: Tidal power turbine
+Wind power turbine: Wind power turbine
+Solar: Solar
+Other types of electricity generation: Other types of electricity generation
+Total hydro, tidal, wind, solar and other generation: Total hydro, tidal, wind, solar and other generation
+
+## 8-6-1
+Industry: Industry
+Total, all industries: All industries
+Utilities [BS220]: Utilities
+Engineering construction [BS23C]: Construction
+Manufacturing [BS3A0]: Manufacturing
+Professional, scientific and technical services [BS540]: Professional, scientific and technical services
+Administrative and support, waste management and remediation services [BS560]: Administrative and support, waste management and remediation services
+Other industries: Other industries
+
+## 9-2-1
+Total, Organisation for Economic Co-operation and Development (OECD): Total, Organisation for Economic Co-operation and Development (OECD)
+
+## 9-3-1
+Population centres: Population centres
+First Nations reserves: First Nations reserves
+All regions: All regions
+Large population centres: Large population centres
+Medium population centres: Medium population centres
+Small population centres: Small population centres
+Rural areas: Rural areas
+Urban centres: Urban centres
+Rural communities: Rural communities
+Major roads and highways: Major roads and highways
+
+## 9-5-1
+Producing industry: Producing industry
+All producing industries: All producing industries
+Care services: Care services
+Construction: Construction
+Distributive trade and transportation services: Distributive trade and transportation services
+Information, finance and professional industries: Information, finance and professional industries
+Manufacturing: Manufacturing
+Non-Profit and Government services: Non-Profit and Government services
+Other services (except public administration): Other services (except public administration)
+Primary industries: Primary industries
+Utilities industries: Utilities industries
+
+## 9-7-1
+Fuel Type: Fuel Type
+All fuel types: All fuel types
+Electric: Electric
+Hydrogen: Hydrogen
+Liquefied Natural Gas: Liquefied Natural Gas
+
+## 10-2-1
+Reporting entity: Reporting entity
+Police-reported: Police-reported
+Offence: Offence
+Hate crime: Hate crime
+
+## 10-3-1
+Type of work: Type of work
+Both full- and part-time employees: Both full- and part-time employees
+Full-time employees: Full-time employees
+Part-time employees: Part-time employees
+National Occupational Classification (NOC): National Occupational Classification (NOC)
+Total employees - all occupations: Total employees - all occupations
+Management occupations [0]: Management occupations [0]
+Business - finance and administration occupations [1]: Business - finance and administration occupations [1]
+Natural and applied sciences and related occupations [2]: Natural and applied sciences and related occupations [2]
+Health occupations [3]: Health occupations [3]
+Occupations in education - law and social - community and government services [4]: Occupations in education - law and social - community and government services [4]
+Occupations in art - culture - recreation and sport [5]: Occupations in art - culture - recreation and sport [5]
+Sales and service occupations [6]: Sales and service occupations [6]
+Trades - transport and equipment operators and related occupations [7]: Trades - transport and equipment operators and related occupations [7]
+Natural resources - agriculture and related production occupations [8]: Natural resources - agriculture and related production occupations [8]
+Occupations in manufacturing and utilities [9]: Occupations in manufacturing and utilities [9]
+15 years and over: 15 years and over
+15 to 24 years: 15 to 24 years
+25 to 54 years: 25 to 54 years
+55 years and over: 55 years and over
+
+## 10-4-1
+Economic family type: Economic family type
+Economic families and persons not in an economic family: Economic families and persons not in an economic family
+Economic families: Economic families
+Elderly families: Elderly families
+Elderly couples: Elderly couples
+Other elderly families: Other elderly families
+Non-elderly families: Non-elderly families
+Couples: Couples
+Couples with children: Couples with children
+Couples with other relatives: Couples with other relatives
+Lone-parent families: Lone-parent families
+Male lone-parent families: Male lone-parent families
+Female lone-parent families: Female lone-parent families
+Other non-elderly families: Other non-elderly families
+Persons not in an economic family: Persons not in an economic family
+Elderly persons not in an economic family: Elderly persons not in an economic family
+Elderly males not in an economic family: Elderly males not in an economic family
+Elderly females not in an economic family: Elderly females not in an economic family
+Non-elderly persons not in an economic family: Non-elderly persons not in an economic family
+Non-elderly males not in an economic family: Non-elderly males not in an economic family
+Non-elderly females not in an economic family: Non-elderly females not in an economic family
+
+## 11-2-1
+Selected housing vulnerable populations: Selected housing vulnerable populations
+All households: All households
+Total, lone-parent family households: Total, lone-parent family households
+Lone-parent family households whose reference person is male: Lone-parent family households whose reference person is male
+Lone-parent family households whose reference person is female: Lone-parent family households whose reference person is female
+Total, one person households: Total, one person households
+Men living alone: Men living alone
+Women living alone: Women living alone
+Reference person who experienced homelessness: Reference person who experienced homelessness
+Living with housing problems: Living with housing problems
+Living in unaffordable housing: Living in unaffordable housing
+Living in unsuitable housing: Living in unsuitable housing
+Living in inadequate housing: Living in inadequate housing
+Living in core housing need: Living in core housing need
+
+## 11-4-1
+St. John's, Newfoundland and Labrador: St. John's, Newfoundland and Labrador
+Halifax, Nova Scotia: Halifax, Nova Scotia
+Moncton, New Brunswick: Moncton, New Brunswick
+Saint John, New Brunswick: Saint John, New Brunswick
+Montreal, Quebec: Montreal, Quebec
+Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (Quebec part), Quebec
+Quebec, Quebec: Quebec, Quebec
+Saguenay, Quebec: Saguenay, Quebec
+Sherbrooke, Quebec: Sherbrooke, Quebec
+Trois-Rivieres, Quebec: Trois-Rivieres, Quebec
+Barrie, Ontario: Barrie, Ontario
+Belleville, Ontario: Belleville, Ontario
+Brantford, Ontario: Brantford, Ontario
+Greater Sudbury / Grand Sudbury, Ontario: Greater Sudbury / Grand Sudbury, Ontario
+Guelph, Ontario: Guelph, Ontario
+Hamilton, Ontario: Hamilton, Ontario
+Kingston, Ontario: Kingston, Ontario
+Kitchener - Cambridge - Waterloo, Ontario: Kitchener - Cambridge - Waterloo, Ontario
+London, Ontario: London, Ontario
+Oshawa, Ontario: Oshawa, Ontario
+Ottawa - Gatineau (Ontario part), Ontario: Ottawa - Gatineau (Ontario part), Ontario
+Peterborough, Ontario: Peterborough, Ontario
+St. Catharines - Niagara, Ontario: St. Catharines - Niagara, Ontario
+Thunder Bay, Ontario: Thunder Bay, Ontario
+Toronto, Ontario: Toronto, Ontario
+Windsor, Ontario: Windsor, Ontario
+Winnipeg, Manitoba: Winnipeg, Manitoba
+Regina, Saskatchewan: Regina, Saskatchewan
+Saskatoon, Saskatchewan: Saskatoon, Saskatchewan
+Calgary, Alberta: Calgary, Alberta
+Edmonton, Alberta: Edmonton, Alberta
+Lethbridge, Alberta: Lethbridge, Alberta
+Abbotsford - Mission, British Columbia: Abbotsford - Mission, British Columbia
+Kelowna, British Columbia: Kelowna, British Columbia
+Vancouver, British Columbia: Vancouver, British Columbia
+Victoria, British Columbia: Victoria, British Columbia
+
+## 11-5-1
+Type of commute: Type of commute
+Public transit: Public transit
+Active transport: Active transport
+
 ## 12-2-1
 Industries: Industries
 Environmental protection activities or management practices: Environmental protection activities or management practices
@@ -374,50 +532,185 @@ Primary metal manufacturing: Primary metal manufacturing
 Total, industries: Total, industries
 Transportation equipment manufacturing: Transportation equipment manufacturing
 Wood product manufacturing: Wood product manufacturing
-## 3-8-1
-Selected diseases: Selected diseases
-Diphtheria: Diphtheria
-Pertussis: Pertussis
-Tetanus: Tetanus
-Polio: Polio
-Haemophilus influenzae type B: Haemophilus influenzae type B
-Diphtheria - Pertussis and tetanus: Diphtheria - Pertussis and tetanus
-Measles: Measles
-Mumps: Mumps
-Rubella: Rubella
-Hepatitis B: Hepatitis B
-Varicella: Varicella
-Meningococcal type C: Meningococcal type C
-Pneumococcal: Pneumococcal
-Rotavirus: Rotavirus
-Human Papillomavirus: Human Papillomavirus
-Diphtheria - Tetanus - acellular Pertussis booster: Diphtheria - Tetanus - acellular Pertussis booster
-All children: All children
-by 2 years of age: by 2 years of age
-by 7 years of age: by 7 years of age
-by 14 years of age: by 14 years of age
-by 17 years of age: by 17 years of age
-## 10-3-1
-Type of work: Type of work
-Both full- and part-time employees: Both full- and part-time employees
-Full-time employees: Full-time employees
-Part-time employees: Part-time employees
-National Occupational Classification (NOC): National Occupational Classification (NOC)
-Total employees - all occupations: Total employees - all occupations
-Management occupations [0]: Management occupations [0]
-Business - finance and administration occupations [1]: Business - finance and administration occupations [1]
-Natural and applied sciences and related occupations [2]: Natural and applied sciences and related occupations [2]
-Health occupations [3]: Health occupations [3]
-Occupations in education - law and social - community and government services [4]: Occupations in education - law and social - community and government services [4]
-Occupations in art - culture - recreation and sport [5]: Occupations in art - culture - recreation and sport [5]
-Sales and service occupations [6]: Sales and service occupations [6]
-Trades - transport and equipment operators and related occupations [7]: Trades - transport and equipment operators and related occupations [7]
-Natural resources - agriculture and related production occupations [8]: Natural resources - agriculture and related production occupations [8]
-Occupations in manufacturing and utilities [9]: Occupations in manufacturing and utilities [9]
-15 years and over: 15 years and over
-15 to 24 years: 15 to 24 years
-25 to 54 years: 25 to 54 years
-55 years and over: 55 years and over
+
+## 12-3-1
+Territories: Territories
+Type of materials diverted: Type of materials diverted
+All materials diverted: All materials diverted
+All paper fibres: All paper fibres
+Glass: Glass
+Ferrous metals: Ferrous metals
+Copper and aluminum: Copper and aluminum
+Mixed metals: Mixed metals
+White goods: White goods
+Electronics: Electronics
+Plastics: Plastics
+Gable top and aseptic containers: Gable top and aseptic containers
+Textiles: Textiles
+Tires: Tires
+Construction + renovation and demolition: Construction + renovation and demolition
+Organics: Organics
+Other materials: Other materials
+Sources of materials prepared for recycling: Sources of materials prepared for recycling
+All sources of diverted materials: All sources of diverted materials
+Residential sources of diverted materials: Residential sources of diverted materials
+Non-residential sources of diverted materials: Non-residential sources of diverted materials
+
+## 13-2-1
+Event type: Event type
+Earthquake: Earthquake
+Flood: Flood
+Hurricane / Typhoon / Tropical Storm: Hurricane / Typhoon / Tropical Storm
+Storm - Unspecified / Other: Storm - Unspecified / Other
+Storm Surge: Storm Surge
+Storms and Severe Thunderstorms: Storms and Severe Thunderstorms
+Tornado: Tornado
+Wildfire: Wildfire
+Winter Storm: Winter Storm
+Landslide: Landslide
+Biological: Biological
+Geological: Geological
+Meteorological - Hydrological: Meteorological - Hydrological
+Epidemic: Epidemic
+Heat Event: Heat Event
+Event sub-type: Event sub-type
+
+# 13-3-1
+Number: Number
+Percentage: Percentage
+Core public infrastructure assets: Core public infrastructure assets
+Bridges and tunnels: Bridges and tunnels
+Culture, recreation and sports facilities: Culture, recreation and sports facilities
+Potable water: Potable water
+Public transit: Public transit
+Roads: Roads
+Solid waste: Solid waste
+Stormwater: Stormwater
+Wastewater: Wastewater
+Type of municipality by population size: Type of municipality by population size
+All municipalities: All municipalities
+All urban municipalities: All urban municipalities
+Urban municipalities, population 1 to 4,999: Urban municipalities, population 1 to 4,999
+Urban municipalities, population 5,000 to 29,999: Urban municipalities, population 5,000 to 29,999
+Urban municipalities, population 30,000 or more: Urban municipalities, population 30,000 or more
+All rural municipalities: All rural municipalities
+Rural municipalities, population 1 to 4,999: Rural municipalities, population 1 to 4,999
+Rural municipalities, population 5,000 or more: Rural municipalities, population 5,000 or more
+
+## 15-1-1
+Species group: Species group
+All species: All species
+Amphibians: Amphibians
+Ants: Ants
+Bee flies: Bee flies
+Bees: Bees
+Beetles: Beetles
+Birds: Birds
+Black flies: Black flies
+Bryophytes: Bryophytes
+Caddisflies: Caddisflies
+Corals: Corals
+Decapods: Decapods
+Dragonflies and damselflies: Dragonflies and damselflies
+Fishes: Fishes
+Flower flies: Flower flies
+Freshwater bivalves: Freshwater bivalves
+Grasshoppers and relatives: Grasshoppers and relatives
+Horse flies: Horse flies
+Lacewings: Lacewings
+Macrolichens: Macrolichens
+Mammals: Mammals
+Mayflies: Mayflies
+Mosquitoes: Mosquitoes
+Moths and butterflies: Moths and butterflies
+Non-marine snails and slugs: Non-marine snails and slugs
+Reptiles: Reptiles
+Scorpionflies: Scorpionflies
+Sea cucumbers: Sea cucumbers
+Sea urchins: Sea urchins
+Selected macrofungi: Selected macrofungi
+Spiders: Spiders
+Sponges: Sponges
+Stoneflies: Stoneflies
+Vascular plants: Vascular plants
+Yellowjacket wasps: Yellowjacket wasps
+
+##15-2-1
+Population and distribution trends consistent with objectives: Population and distribution trends consistent with objectives
+On track: On track
+Mixed evidence: Mixed evidence
+Not on track: Not on track
+
+## 15-3-1
+National terrestrial: National terrestrial
+National marine: National marine
+
+## 15-6-1
+Unit: Unit
+Region: Region
+Land use: Land use
+Water quality: Water quality
+Percentage: Percentage
+Number: Number
+National: National
+Atlantic Ocean: Atlantic Ocean
+Great Lakes and St. Lawrence River: Great Lakes and St. Lawrence River
+Hudson Bay: Hudson Bay
+Mackenzie River: Mackenzie River
+Pacific Ocean: Pacific Ocean
+Total: Total
+Agriculture: Agriculture
+Forestry: Forestry
+Mining: Mining
+Populated: Populated
+Mixed pressures: Mixed pressures
+Undeveloped: Undeveloped
+Excellent: Excellent
+Good: Good
+Fair: Fair
+Marginal: Marginal
+Poor: Poor
+
+## 16-2-1
+Index: Index
+Crime severity index: Crime severity index
+Violent crime severity index: Violent crime severity index
+Youth crime severity index: Youth crime severity index
+Youth violent crime severity index: Youth violent crime severity index
+
+## 16-3-1
+Violations: Violations
+Homicide: Homicide
+Total other violations causing death: Total other violations causing death
+Attempted murder: Attempted murder
+Sexual assault level 3 aggravated: Sexual assault level 3 aggravated
+Sexual assault level 2 weapon or bodily harm: Sexual assault level 2 weapon or bodily harm
+Sexual assault level 1: Sexual assault level 1
+Total sexual violations against children: Total sexual violations against children
+Assault level 3 aggravated: Assault level 3 aggravated
+Assault level 2 weapon or bodily harm: Assault level 2 weapon or bodily harm
+Assault level 1: Assault level 1
+Total robbery: Total robbery
+Uttering threats: Uttering threats
+Total other violent violations: Total other violent violations
+
+## 16-4-1
+Type of cyber-related violation: Type of cyber-related violation
+Against a person: Against a person
+Cyber-related violation: Cyber-related violation
+Total - all violations: Total - all violations
+Luring a child via a computer: Luring a child via a computer
+Non-consensual distribution of intimate images: Non-consensual distribution of intimate images
+Extortion: Extortion
+Criminal harassment: Criminal harassment
+Indecent/Harassing communications: Indecent/Harassing communications
+Uttering threats: Uttering threats
+Fraud: Fraud
+Identity theft: Identity theft
+Identity fraud: Identity fraud
+Child pornography: Child pornography
+Making or distribution of child pornography: Making or distribution of child pornography
+
 ## 16-5-1
 Offences: Offences
 Total offences: Total offences
@@ -444,141 +737,8 @@ Sex unknown: Sex unknown
 Type of court: Type of court
 Adult criminal courts: Adult criminal courts
 Youth courts: Youth courts
-## 16-2-1
-Index: Index
-Crime severity index: Crime severity index
-Violent crime severity index: Violent crime severity index
-Youth crime severity index: Youth crime severity index
-Youth violent crime severity index: Youth violent crime severity index
-## 12-3-1
-Territories: Territories
-Type of materials diverted: Type of materials diverted
-All materials diverted: All materials diverted
-All paper fibres: All paper fibres
-Glass: Glass
-Ferrous metals: Ferrous metals
-Copper and aluminum: Copper and aluminum
-Mixed metals: Mixed metals
-White goods: White goods
-Electronics: Electronics
-Plastics: Plastics
-Gable top and aseptic containers: Gable top and aseptic containers
-Textiles: Textiles
-Tires: Tires
-Construction + renovation and demolition: Construction + renovation and demolition
-Organics: Organics
-Other materials: Other materials
-Sources of materials prepared for recycling: Sources of materials prepared for recycling
-All sources of diverted materials: All sources of diverted materials
-Residential sources of diverted materials: Residential sources of diverted materials
-Non-residential sources of diverted materials: Non-residential sources of diverted materials
-## 16-4-1
-Type of cyber-related violation: Type of cyber-related violation
-Against a person: Against a person
-Cyber-related violation: Cyber-related violation
-Total - all violations: Total - all violations
-Luring a child via a computer: Luring a child via a computer
-Non-consensual distribution of intimate images: Non-consensual distribution of intimate images
-Extortion: Extortion
-Criminal harassment: Criminal harassment
-Indecent/Harassing communications: Indecent/Harassing communications
-Uttering threats: Uttering threats
-Fraud: Fraud
-Identity theft: Identity theft
-Identity fraud: Identity fraud
-Child pornography: Child pornography
-Making or distribution of child pornography: Making or distribution of child pornography
-## 3-9-1
-Disease: Disease
-Creutzfeldt-Jakob: Creutzfeldt-Jakob
-HIV and AIDS: HIV and AIDS
-Diabetes: Diabetes
-Ischemic heart disease: Ischemic heart disease
-Dementia, including Alzheimer's disease: Dementia, including Alzheimer's disease
-Hypertension: Hypertension
-Chronic obstructive pulmonary disease: Chronic obstructive pulmonary disease
-Cancer: Cancer
-Tuberculosis: Tuberculosis
-Salmonella: Salmonella
 
-## 3-12-1
-Deaths or hospitalizations: Deaths or hospitalizations
-Hospitalizations: Hospitalizations
-Deaths: Deaths
-## 15-6-1
-Unit: Unit
-Region: Region
-Land use: Land use
-Water quality: Water quality
-Percentage: Percentage
-Number: Number
-National: National
-Atlantic Ocean: Atlantic Ocean
-Great Lakes and St. Lawrence River: Great Lakes and St. Lawrence River
-Hudson Bay: Hudson Bay
-Mackenzie River: Mackenzie River
-Pacific Ocean: Pacific Ocean
-Total: Total
-Agriculture: Agriculture
-Forestry: Forestry
-Mining: Mining
-Populated: Populated
-Mixed pressures: Mixed pressures
-Undeveloped: Undeveloped
-Excellent: Excellent
-Good: Good
-Fair: Fair
-Marginal: Marginal
-Poor: Poor
-##11-2-1
-Selected housing vulnerable populations: Selected housing vulnerable populations
-All households: All households
-Total, lone-parent family households: Total, lone-parent family households
-Lone-parent family households whose reference person is male: Lone-parent family households whose reference person is male
-Lone-parent family households whose reference person is female: Lone-parent family households whose reference person is female
-Total, one person households: Total, one person households
-Men living alone: Men living alone
-Women living alone: Women living alone
-Reference person who experienced homelessness: Reference person who experienced homelessness
-Living with housing problems: Living with housing problems
-Living in unaffordable housing: Living in unaffordable housing
-Living in unsuitable housing: Living in unsuitable housing
-Living in inadequate housing: Living in inadequate housing
-Living in core housing need: Living in core housing need
-## 16-3-1
-Violations: Violations
-Homicide: Homicide
-Total other violations causing death: Total other violations causing death
-Attempted murder: Attempted murder
-Sexual assault level 3 aggravated: Sexual assault level 3 aggravated
-Sexual assault level 2 weapon or bodily harm: Sexual assault level 2 weapon or bodily harm
-Sexual assault level 1: Sexual assault level 1
-Total sexual violations against children: Total sexual violations against children
-Assault level 3 aggravated: Assault level 3 aggravated
-Assault level 2 weapon or bodily harm: Assault level 2 weapon or bodily harm
-Assault level 1: Assault level 1
-Total robbery: Total robbery
-Uttering threats: Uttering threats
-Total other violent violations: Total other violent violations
-## 13-2-1
-Event type: Event type
-Earthquake: Earthquake
-Flood: Flood
-Hurricane / Typhoon / Tropical Storm: Hurricane / Typhoon / Tropical Storm
-Storm - Unspecified / Other: Storm - Unspecified / Other
-Storm Surge: Storm Surge
-Storms and Severe Thunderstorms: Storms and Severe Thunderstorms
-Tornado: Tornado
-Wildfire: Wildfire
-Winter Storm: Winter Storm
-Landslide: Landslide
-Biological: Biological
-Geological: Geological
-Meteorological - Hydrological: Meteorological - Hydrological
-Epidemic: Epidemic
-Heat Event: Heat Event
-Event sub-type: Event sub-type
-## 16_7-1
+## 16-7-1
 Institutions: Institutions
 Police: Police
 Characteristics: Characteristics
@@ -593,57 +753,8 @@ Level of confidence: Level of confidence
 A great deal of confidence: A great deal of confidence
 Some confidence: Some confidence
 Not very much or no confidence: Not very much or no confidence
-## 1-2-1
-Age group and family type: Age group and family type
-Persons all ages and family types: Persons all ages and family types
-Persons under 18 years old: Persons under 18 years old
-Persons 18 to 64 years old: Persons 18 to 64 years old
-Persons 65 years and older: Persons 65 years and older
-Persons in an economic family: Persons in an economic family
-Persons in a couple only family: Persons in a couple only family
-Persons in a couple with children family: Persons in a couple with children family
-Persons in a lone-parent family: Persons in a lone-parent family
-Persons in an other economic family type: Persons in an other economic family type
-Persons not in an economic family: Persons not in an economic family
-Statistics: Statistics
-Asset resilient for at least one month: Asset resilient for at least one month
-Asset resilient for at least three months: Asset resilient for at least three months
-Asset resilient for at least six months: Asset resilient for at least six months
-## 5-1-2
-Type of intimate partner violence: Type of intimate partner violence
-Emotional, financial, or psychological abuse: Emotional, financial, or psychological abuse
-Physical abuse: Physical abuse
-Sexual abuse: Sexual abuse
-Total intimate partner violence: Total intimate partner violence
-Selected characteristic: Selected characteristic
-Total, all women: Total, all women
-15 to 24 year old women: 15 to 24 year old women
-Separated or divorced women: Separated or divorced women
-LGBTQ2 women: LGBTQ2 women
-Single women: Single women
-First Nations, Métis, or Inuit women: First Nations, Métis, or Inuit women
-Women with disability: Women with disability
-Immigrant women: Immigrant women
-Women designated as visible minorities: Women designated as visible minorities
-## 10-2-1
-Reporting entity: Reporting entity
-Police-reported: Police-reported
-Offence: Offence
-Hate crime: Hate crime
-## 9-5-1
-Producing industry: Producing industry
-All producing industries: All producing industries
-Care services: Care services
-Construction: Construction
-Distributive trade and transportation services: Distributive trade and transportation services
-Information, finance and professional industries: Information, finance and professional industries
-Manufacturing: Manufacturing
-Non-Profit and Government services: Non-Profit and Government services
-Other services (except public administration): Other services (except public administration)
-Primary industries: Primary industries
-Utilities industries: Utilities industries
 
-# 17-2-1
+## 17-2-1
 Pillar: Pillar
 Region: Region
 Cross-border flows to TOSSD-eligible countries: Cross-border flows to TOSSD-eligible countries
@@ -656,80 +767,3 @@ America: America
 Europe: Europe
 Middle East: Middle East
 Oceania: Oceania
-
-# 13-3-1
-Number: Number
-Percentage: Percentage
-Core public infrastructure assets: Core public infrastructure assets
-Bridges and tunnels: Bridges and tunnels
-Culture, recreation and sports facilities: Culture, recreation and sports facilities
-Potable water: Potable water
-Public transit: Public transit
-Roads: Roads
-Solid waste: Solid waste
-Stormwater: Stormwater
-Wastewater: Wastewater
-Type of municipality by population size: Type of municipality by population size
-All municipalities: All municipalities
-All urban municipalities: All urban municipalities
-Urban municipalities, population 1 to 4,999: Urban municipalities, population 1 to 4,999
-Urban municipalities, population 5,000 to 29,999: Urban municipalities, population 5,000 to 29,999
-Urban municipalities, population 30,000 or more: Urban municipalities, population 30,000 or more
-All rural municipalities: All rural municipalities
-Rural municipalities, population 1 to 4,999: Rural municipalities, population 1 to 4,999
-Rural municipalities, population 5,000 or more: Rural municipalities, population 5,000 or more
-
-## 7-2-1
-Demand characteristics: Demand characteristics
-Energy use - final demand: Energy use - final demand
-Total industrial: Total industrial
-Total transportation: Total transportation
-Agriculture: Agriculture
-Residential: Residential
-Public administration: Public administration
-Commercial and other institutional: Commercial and other institutional
-Fuel type: Fuel type
-Total primary and secondary energy: Total primary and secondary energy
-Total coal: Total coal
-Natural gas: Natural gas
-Gas plant natural gas liquids (NGL's): Gas plant natural gas liquids (NGL's)
-Hydroelectricity: Hydroelectricity
-Nuclear: Nuclear
-Steam: Steam
-Coke: Coke
-Coke oven gas: Coke oven gas
-Total refined petroleum products: Total refined petroleum products
-Units: Units
-Terajoules: Terajoules
-Per capita: Per capita
-## 7-3-1
-Type of electricity generation: Type of electricity generation
-Hydraulic turbine: Hydraulic turbine
-Tidal power turbine: Tidal power turbine
-Wind power turbine: Wind power turbine
-Solar: Solar
-Other types of electricity generation: Other types of electricity generation
-Total hydro, tidal, wind, solar and other generation: Total hydro, tidal, wind, solar and other generation
-
-## 11-4-1
-Economic family type: Economic family type
-Economic families and persons not in an economic family: Economic families and persons not in an economic family
-Economic families: Economic families
-Elderly families: Elderly families
-Elderly couples: Elderly couples
-Other elderly families: Other elderly families
-Non-elderly families: Non-elderly families
-Couples: Couples
-Couples with children: Couples with children
-Couples with other relatives: Couples with other relatives
-Lone-parent families: Lone-parent families
-Male lone-parent families: Male lone-parent families
-Female lone-parent families: Female lone-parent families
-Other non-elderly families: Other non-elderly families
-Persons not in an economic family: Persons not in an economic family
-Elderly persons not in an economic family: Elderly persons not in an economic family
-Elderly males not in an economic family: Elderly males not in an economic family
-Elderly females not in an economic family: Elderly females not in an economic family
-Non-elderly persons not in an economic family: Non-elderly persons not in an economic family
-Non-elderly males not in an economic family: Non-elderly males not in an economic family
-Non-elderly females not in an economic family: Non-elderly females not in an economic family
