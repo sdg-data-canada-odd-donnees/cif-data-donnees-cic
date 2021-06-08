@@ -1,74 +1,74 @@
-Year,Units,data.Region,data.Land use,data.Water quality,Value
-2016-2018,data.Percentage,data.National,data.Agriculture,data.Excellent,0
-2016-2018,data.Percentage,data.National,data.Agriculture,data.Good,6
-2016-2018,data.Percentage,data.National,data.Agriculture,data.Fair,9
-2016-2018,data.Percentage,data.National,data.Agriculture,data.Marginal,2
-2016-2018,data.Percentage,data.National,data.Agriculture,data.Poor,1
-2016-2018,data.Percentage,data.National,data.Forestry,data.Excellent,1
-2016-2018,data.Percentage,data.National,data.Forestry,data.Good,6
-2016-2018,data.Percentage,data.National,data.Forestry,data.Fair,2
-2016-2018,data.Percentage,data.National,data.Forestry,data.Marginal,1
-2016-2018,data.Percentage,data.National,data.Forestry,data.Poor,0
-2016-2018,data.Percentage,data.National,data.Mining,data.Excellent,0
-2016-2018,data.Percentage,data.National,data.Mining,data.Good,2
-2016-2018,data.Percentage,data.National,data.Mining,data.Fair,2
-2016-2018,data.Percentage,data.National,data.Mining,data.Marginal,1
-2016-2018,data.Percentage,data.National,data.Mining,data.Poor,0
-2016-2018,data.Percentage,data.National,data.Populated,data.Excellent,0
-2016-2018,data.Percentage,data.National,data.Populated,data.Good,0
-2016-2018,data.Percentage,data.National,data.Populated,data.Fair,1
-2016-2018,data.Percentage,data.National,data.Populated,data.Marginal,2
-2016-2018,data.Percentage,data.National,data.Populated,data.Poor,0
-2016-2018,data.Percentage,data.National,data.Mixed pressures,data.Excellent,2
-2016-2018,data.Percentage,data.National,data.Mixed pressures,data.Good,13
-2016-2018,data.Percentage,data.National,data.Mixed pressures,data.Fair,23
-2016-2018,data.Percentage,data.National,data.Mixed pressures,data.Marginal,11
-2016-2018,data.Percentage,data.National,data.Mixed pressures,data.Poor,2
-2016-2018,data.Percentage,data.National,data.Undeveloped,data.Excellent,3
-2016-2018,data.Percentage,data.National,data.Undeveloped,data.Good,7
-2016-2018,data.Percentage,data.National,data.Undeveloped,data.Fair,3
-2016-2018,data.Percentage,data.National,data.Undeveloped,data.Marginal,0
-2016-2018,data.Percentage,data.National,data.Undeveloped,data.Poor,0
-2016-2018,data.Percentage,data.National,data.Total,data.Excellent,5
-2016-2018,data.Percentage,data.National,data.Total,data.Good,35
-2016-2018,data.Percentage,data.National,data.Total,data.Fair,40
-2016-2018,data.Percentage,data.National,data.Total,data.Marginal,17
-2016-2018,data.Percentage,data.National,data.Total,data.Poor,2
-2016-2018,data.Number,data.National,data.Agriculture,data.Excellent,0
-2016-2018,data.Number,data.National,data.Agriculture,data.Good,11
-2016-2018,data.Number,data.National,data.Agriculture,data.Fair,15
-2016-2018,data.Number,data.National,data.Agriculture,data.Marginal,4
-2016-2018,data.Number,data.National,data.Agriculture,data.Poor,1
-2016-2018,data.Number,data.National,data.Forestry,data.Excellent,1
-2016-2018,data.Number,data.National,data.Forestry,data.Good,11
-2016-2018,data.Number,data.National,data.Forestry,data.Fair,4
-2016-2018,data.Number,data.National,data.Forestry,data.Marginal,1
-2016-2018,data.Number,data.National,data.Forestry,data.Poor,0
-2016-2018,data.Number,data.National,data.Mining,data.Excellent,0
-2016-2018,data.Number,data.National,data.Mining,data.Good,4
-2016-2018,data.Number,data.National,data.Mining,data.Fair,4
-2016-2018,data.Number,data.National,data.Mining,data.Marginal,2
-2016-2018,data.Number,data.National,data.Mining,data.Poor,0
-2016-2018,data.Number,data.National,data.Populated,data.Excellent,0
-2016-2018,data.Number,data.National,data.Populated,data.Good,0
-2016-2018,data.Number,data.National,data.Populated,data.Fair,1
-2016-2018,data.Number,data.National,data.Populated,data.Marginal,3
-2016-2018,data.Number,data.National,data.Populated,data.Poor,0
-2016-2018,data.Number,data.National,data.Mixed pressures,data.Excellent,3
-2016-2018,data.Number,data.National,data.Mixed pressures,data.Good,22
-2016-2018,data.Number,data.National,data.Mixed pressures,data.Fair,40
-2016-2018,data.Number,data.National,data.Mixed pressures,data.Marginal,20
-2016-2018,data.Number,data.National,data.Mixed pressures,data.Poor,3
-2016-2018,data.Number,data.National,data.Undeveloped,data.Excellent,5
-2016-2018,data.Number,data.National,data.Undeveloped,data.Good,13
-2016-2018,data.Number,data.National,data.Undeveloped,data.Fair,6
-2016-2018,data.Number,data.National,data.Undeveloped,data.Marginal,0
-2016-2018,data.Number,data.National,data.Undeveloped,data.Poor,0
-2016-2018,data.Number,data.National,data.Total,data.Excellent,9
-2016-2018,data.Number,data.National,data.Total,data.Good,61
-2016-2018,data.Number,data.National,data.Total,data.Fair,70
-2016-2018,data.Number,data.National,data.Total,data.Marginal,30
-2016-2018,data.Number,data.National,data.Total,data.Poor,4
+Year,Units,data.Geography,data.Land use,data.Water quality,Value
+2016-2018,data.Percentage,data.Canada,data.Agriculture,data.Excellent,0
+2016-2018,data.Percentage,data.Canada,data.Agriculture,data.Good,6
+2016-2018,data.Percentage,data.Canada,data.Agriculture,data.Fair,9
+2016-2018,data.Percentage,data.Canada,data.Agriculture,data.Marginal,2
+2016-2018,data.Percentage,data.Canada,data.Agriculture,data.Poor,1
+2016-2018,data.Percentage,data.Canada,data.Forestry,data.Excellent,1
+2016-2018,data.Percentage,data.Canada,data.Forestry,data.Good,6
+2016-2018,data.Percentage,data.Canada,data.Forestry,data.Fair,2
+2016-2018,data.Percentage,data.Canada,data.Forestry,data.Marginal,1
+2016-2018,data.Percentage,data.Canada,data.Forestry,data.Poor,0
+2016-2018,data.Percentage,data.Canada,data.Mining,data.Excellent,0
+2016-2018,data.Percentage,data.Canada,data.Mining,data.Good,2
+2016-2018,data.Percentage,data.Canada,data.Mining,data.Fair,2
+2016-2018,data.Percentage,data.Canada,data.Mining,data.Marginal,1
+2016-2018,data.Percentage,data.Canada,data.Mining,data.Poor,0
+2016-2018,data.Percentage,data.Canada,data.Populated,data.Excellent,0
+2016-2018,data.Percentage,data.Canada,data.Populated,data.Good,0
+2016-2018,data.Percentage,data.Canada,data.Populated,data.Fair,1
+2016-2018,data.Percentage,data.Canada,data.Populated,data.Marginal,2
+2016-2018,data.Percentage,data.Canada,data.Populated,data.Poor,0
+2016-2018,data.Percentage,data.Canada,data.Mixed pressures,data.Excellent,2
+2016-2018,data.Percentage,data.Canada,data.Mixed pressures,data.Good,13
+2016-2018,data.Percentage,data.Canada,data.Mixed pressures,data.Fair,23
+2016-2018,data.Percentage,data.Canada,data.Mixed pressures,data.Marginal,11
+2016-2018,data.Percentage,data.Canada,data.Mixed pressures,data.Poor,2
+2016-2018,data.Percentage,data.Canada,data.Undeveloped,data.Excellent,3
+2016-2018,data.Percentage,data.Canada,data.Undeveloped,data.Good,7
+2016-2018,data.Percentage,data.Canada,data.Undeveloped,data.Fair,3
+2016-2018,data.Percentage,data.Canada,data.Undeveloped,data.Marginal,0
+2016-2018,data.Percentage,data.Canada,data.Undeveloped,data.Poor,0
+2016-2018,data.Percentage,data.Canada,data.Total,data.Excellent,5
+2016-2018,data.Percentage,data.Canada,data.Total,data.Good,35
+2016-2018,data.Percentage,data.Canada,data.Total,data.Fair,40
+2016-2018,data.Percentage,data.Canada,data.Total,data.Marginal,17
+2016-2018,data.Percentage,data.Canada,data.Total,data.Poor,2
+2016-2018,data.Number,data.Canada,data.Agriculture,data.Excellent,0
+2016-2018,data.Number,data.Canada,data.Agriculture,data.Good,11
+2016-2018,data.Number,data.Canada,data.Agriculture,data.Fair,15
+2016-2018,data.Number,data.Canada,data.Agriculture,data.Marginal,4
+2016-2018,data.Number,data.Canada,data.Agriculture,data.Poor,1
+2016-2018,data.Number,data.Canada,data.Forestry,data.Excellent,1
+2016-2018,data.Number,data.Canada,data.Forestry,data.Good,11
+2016-2018,data.Number,data.Canada,data.Forestry,data.Fair,4
+2016-2018,data.Number,data.Canada,data.Forestry,data.Marginal,1
+2016-2018,data.Number,data.Canada,data.Forestry,data.Poor,0
+2016-2018,data.Number,data.Canada,data.Mining,data.Excellent,0
+2016-2018,data.Number,data.Canada,data.Mining,data.Good,4
+2016-2018,data.Number,data.Canada,data.Mining,data.Fair,4
+2016-2018,data.Number,data.Canada,data.Mining,data.Marginal,2
+2016-2018,data.Number,data.Canada,data.Mining,data.Poor,0
+2016-2018,data.Number,data.Canada,data.Populated,data.Excellent,0
+2016-2018,data.Number,data.Canada,data.Populated,data.Good,0
+2016-2018,data.Number,data.Canada,data.Populated,data.Fair,1
+2016-2018,data.Number,data.Canada,data.Populated,data.Marginal,3
+2016-2018,data.Number,data.Canada,data.Populated,data.Poor,0
+2016-2018,data.Number,data.Canada,data.Mixed pressures,data.Excellent,3
+2016-2018,data.Number,data.Canada,data.Mixed pressures,data.Good,22
+2016-2018,data.Number,data.Canada,data.Mixed pressures,data.Fair,40
+2016-2018,data.Number,data.Canada,data.Mixed pressures,data.Marginal,20
+2016-2018,data.Number,data.Canada,data.Mixed pressures,data.Poor,3
+2016-2018,data.Number,data.Canada,data.Undeveloped,data.Excellent,5
+2016-2018,data.Number,data.Canada,data.Undeveloped,data.Good,13
+2016-2018,data.Number,data.Canada,data.Undeveloped,data.Fair,6
+2016-2018,data.Number,data.Canada,data.Undeveloped,data.Marginal,0
+2016-2018,data.Number,data.Canada,data.Undeveloped,data.Poor,0
+2016-2018,data.Number,data.Canada,data.Total,data.Excellent,9
+2016-2018,data.Number,data.Canada,data.Total,data.Good,61
+2016-2018,data.Number,data.Canada,data.Total,data.Fair,70
+2016-2018,data.Number,data.Canada,data.Total,data.Marginal,30
+2016-2018,data.Number,data.Canada,data.Total,data.Poor,4
 2016-2018,data.Percentage,data.Atlantic Ocean,data.Total,data.Excellent,4
 2016-2018,data.Percentage,data.Atlantic Ocean,data.Total,data.Good,53
 2016-2018,data.Percentage,data.Atlantic Ocean,data.Total,data.Fair,29
