@@ -1,100 +1,100 @@
-Year,Secteur,Value
-2013,Hébergement et services de restauration,21.9
-2015,Hébergement et services de restauration,-4.2
-2017,Hébergement et services de restauration,-6.8
-2013,Services administratifs et services de soutien et services de gestion des déchets et d'assainissement,36.5
-2015,Services administratifs et services de soutien et services de gestion des déchets et d'assainissement,64.3
-2017,Services administratifs et services de soutien et services de gestion des déchets et d'assainissement,2.2
-2013,"Agriculture, foresterie, pêche et chasse",20.6
-2015,"Agriculture, foresterie, pêche et chasse",52.7
-2017,"Agriculture, foresterie, pêche et chasse",14.6
-2013,"Arts, spectacles et loisirs",27.6
-2015,"Arts, spectacles et loisirs",-11.9
-2017,"Arts, spectacles et loisirs",-11.0
-2013,Construction,21.5
-2015,Construction,-10.3
-2017,Construction,-12.5
-2013,Services d'enseignement,5.0
-2015,Services d'enseignement,-13.4
-2017,Services d'enseignement,0.2
-2013,Service financier et assurance,19.4
-2015,Service financier et assurance,-20.4
-2017,Service financier et assurance,-8.4
-2013,Services d'éducation gouvernementaux,45.2
-2015,Services d'éducation gouvernementaux,-13.2
-2017,Services d'éducation gouvernementaux,-12.3
-2013,Services de soins de santé du gouvernement,48.8
-2015,Services de soins de santé du gouvernement,-16.1
-2017,Services de soins de santé du gouvernement,-13.1
-2013,Soins de santé et assistance sociale,24.8
-2015,Soins de santé et assistance sociale,-17.6
-2017,Soins de santé et assistance sociale,-15.1
-2013,Ménages,-10.8
-2015,Ménages,1.0
-2017,Ménages,-6.1
-2013,Industries d'information et de culture,37.1
-2015,Industries d'information et de culture,-27.1
-2017,Industries d'information et de culture,96.4
-2013,Manufacturing,4.6
-2015,Manufacturing,-7.7
-2017,Manufacturing,1.9
-2013,Extraction minière et de pétrole et de gaz,18.3
-2015,Extraction minière et de pétrole et de gaz,0.3
-2017,Extraction minière et de pétrole et de gaz,10.5
-2013,Diverses institutions sans but lucratif au service des ménages,15.5
-2015,Diverses institutions sans but lucratif au service des ménages,-18.5
-2017,Diverses institutions sans but lucratif au service des ménages,-7.0
-2013,"Arts, spectacles et loisirs sans but lucratif",32.0
-2015,"Arts, spectacles et loisirs sans but lucratif",-23.1
-2017,"Arts, spectacles et loisirs sans but lucratif",-26.2
-2013,Services d'enseignement sans but lucratif,10.3
-2015,Services d'enseignement sans but lucratif,-15.9
-2017,Services d'enseignement sans but lucratif,-2.4
-2013,Services de bien-être sans but lucratif,54.7
-2015,Services de bien-être sans but lucratif,-21.8
-2017,Services de bien-être sans but lucratif,-12.1
-2013,Autres services des administrations publiques autochtones,-0.3
-2015,Autres services des administrations publiques autochtones,-7.6
-2017,Autres services des administrations publiques autochtones,-15.5
-2013,Autres services de l'administration publique fédérale,-12.9
-2015,Autres services de l'administration publique fédérale,-22.5
-2017,Autres services de l'administration publique fédérale,-19.5
-2013,"Autres services de finances, d'assurances et immobiliers, et gestion de sociétés et d'entreprises",29.9
-2015,"Autres services de finances, d'assurances et immobiliers, et gestion de sociétés et d'entreprises",-10.1
-2017,"Autres services de finances, d'assurances et immobiliers, et gestion de sociétés et d'entreprises",-12.4
-2013,Autres services des administrations publiques municipales,16.7
-2015,Autres services des administrations publiques municipales,-19.1
-2017,Autres services des administrations publiques municipales,-12.8
-2013,Autres services des administrations publiques provinciales et territoriales,-31.4
-2015,Autres services des administrations publiques provinciales et territoriales,-44.8
-2017,Autres services des administrations publiques provinciales et territoriales,-10.3
-2013,Other services (except public administration),19.5
-2015,Other services (except public administration),-15.6
-2017,Other services (except public administration),-10.8
-2013,"Services professionnels, scientifiques et techniques",7.1
-2015,"Services professionnels, scientifiques et techniques",-20.2
-2017,"Services professionnels, scientifiques et techniques",-15.3
-2013,Immobilier et service de location,20.2
-2015,Immobilier et service de location,-14.7
-2017,Immobilier et service de location,-12.9
-2013,Organismes religieux,27.5
-2015,Organismes religieux,-29.6
-2017,Organismes religieux,-6.6
-2013,Commerce de détail,32.1
-2015,Commerce de détail,-13.1
-2017,Commerce de détail,-14.5
-2013,"Total, industries",7.2
-2015,"Total, industries",-3.0
-2017,"Total, industries",1.7
+Year,data.Sector,Value
+2013,data.Accommodation and food services,21.9
+2015,data.Accommodation and food services,-4.2
+2017,data.Accommodation and food services,-6.8
+2013,"data.Administrative and support, waste management and remediation services",36.5
+2015,"data.Administrative and support, waste management and remediation services",64.3
+2017,"data.Administrative and support, waste management and remediation services",2.2
+2013,"data.Agriculture, forestry, fishing and hunting",20.6
+2015,"data.Agriculture, forestry, fishing and hunting",52.7
+2017,"data.Agriculture, forestry, fishing and hunting",14.6
+2013,"data.Arts, entertainment and recreation",27.6
+2015,"data.Arts, entertainment and recreation",-11.9
+2017,"data.Arts, entertainment and recreation",-11.0
+2013,data.Construction,21.5
+2015,data.Construction,-10.3
+2017,data.Construction,-12.5
+2013,data.Educational services,5.0
+2015,data.Educational services,-13.4
+2017,data.Educational services,0.2
+2013,data.Finance and insurance,19.4
+2015,data.Finance and insurance,-20.4
+2017,data.Finance and insurance,-8.4
+2013,data.Government Education Services,45.2
+2015,data.Government Education Services,-13.2
+2017,data.Government Education Services,-12.3
+2013,data.Government Health Services,48.8
+2015,data.Government Health Services,-16.1
+2017,data.Government Health Services,-13.1
+2013,data.Health care and social assistance,24.8
+2015,data.Health care and social assistance,-17.6
+2017,data.Health care and social assistance,-15.1
+2013,data.Households,-10.8
+2015,data.Households,1.0
+2017,data.Households,-6.1
+2013,data.Information and cultural industries,37.1
+2015,data.Information and cultural industries,-27.1
+2017,data.Information and cultural industries,96.4
+2013,data.Manufacturing,4.6
+2015,data.Manufacturing,-7.7
+2017,data.Manufacturing,1.9
+2013,"data.Mining, quarrying, and oil and gas extraction",18.3
+2015,"data.Mining, quarrying, and oil and gas extraction",0.3
+2017,"data.Mining, quarrying, and oil and gas extraction",10.5
+2013,data.Miscellaneous non-profit institutions serving households,15.5
+2015,data.Miscellaneous non-profit institutions serving households,-18.5
+2017,data.Miscellaneous non-profit institutions serving households,-7.0
+2013,"data.Non-profit arts, entertainment and recreation",32.0
+2015,"data.Non-profit arts, entertainment and recreation",-23.1
+2017,"data.Non-profit arts, entertainment and recreation",-26.2
+2013,data.Non-Profit Education Services,10.3
+2015,data.Non-Profit Education Services,-15.9
+2017,data.Non-Profit Education Services,-2.4
+2013,data.Non-Profit Social Assistance,54.7
+2015,data.Non-Profit Social Assistance,-21.8
+2017,data.Non-Profit Social Assistance,-12.1
+2013,data.Other Aboriginal Government Services,-0.3
+2015,data.Other Aboriginal Government Services,-7.6
+2017,data.Other Aboriginal Government Services,-15.5
+2013,data.Other federal government services,-12.9
+2015,data.Other federal government services,-22.5
+2017,data.Other federal government services,-19.5
+2013,"data.Other finance, insurance and real estate services and management of companies and enterprises",29.9
+2015,"data.Other finance, insurance and real estate services and management of companies and enterprises",-10.1
+2017,"data.Other finance, insurance and real estate services and management of companies and enterprises",-12.4
+2013,data.Other Municipal Government Services,16.7
+2015,data.Other Municipal Government Services,-19.1
+2017,data.Other Municipal Government Services,-12.8
+2013,data.Other provincial and territorial government services,-31.4
+2015,data.Other provincial and territorial government services,-44.8
+2017,data.Other provincial and territorial government services,-10.3
+2013,data.Other services (except public administration),19.5
+2015,data.Other services (except public administration),-15.6
+2017,data.Other services (except public administration),-10.8
+2013,"data.Professional, scientific and technical services",7.1
+2015,"data.Professional, scientific and technical services",-20.2
+2017,"data.Professional, scientific and technical services",-15.3
+2013,data.Real estate and rental and leasing,20.2
+2015,data.Real estate and rental and leasing,-14.7
+2017,data.Real estate and rental and leasing,-12.9
+2013,data.Religious organizations,27.5
+2015,data.Religious organizations,-29.6
+2017,data.Religious organizations,-6.6
+2013,data.Retail trade,32.1
+2015,data.Retail trade,-13.1
+2017,data.Retail trade,-14.5
+2013,"data.Total, industries",7.2
+2015,"data.Total, industries",-3.0
+2017,"data.Total, industries",1.7
 2013,,5.4
 2015,,-2.7
 2017,,1.0
-2013,Transport et entreposage,23.2
-2015,Transport et entreposage,-1.5
-2017,Transport et entreposage,-8.4
-2013,Services utilitaires,5.7
-2015,Services utilitaires,-6.6
-2017,Services utilitaires,0.0
-2013,Commerce de gros,31.8
-2015,Commerce de gros,-17.4
-2017,Commerce de gros,-14.5
+2013,data.Transportation and warehousing,23.2
+2015,data.Transportation and warehousing,-1.5
+2017,data.Transportation and warehousing,-8.4
+2013,data.Utilities,5.7
+2015,data.Utilities,-6.6
+2017,data.Utilities,0.0
+2013,data.Wholesale trade,31.8
+2015,data.Wholesale trade,-17.4
+2017,data.Wholesale trade,-14.5
