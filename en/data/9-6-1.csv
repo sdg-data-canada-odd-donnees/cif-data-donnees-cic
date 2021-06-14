@@ -1,34 +1,10 @@
-Year,Geography,data.Fuel Type,Value
-2021,Alberta,data.All fuel types,235
-2021,Alberta,Electric,235
-2021,British Columbia,data.All fuel types,1177
-2021,British Columbia,Electric,1172
-2021,British Columbia,Hydrogen,4
-2021,British Columbia,data.Liquefied Natural Gas,1
-2021,Manitoba,data.All fuel types,65
-2021,Manitoba,Electric,65
-2021,New Brunswick,data.All fuel types,130
-2021,New Brunswick,Electric,130
-2021,Newfoundland and Labrador,data.All fuel types,39
-2021,Newfoundland and Labrador,Electric,39
-2021,Nova Scotia,data.All fuel types,97
-2021,Nova Scotia,Electric,97
-2021,Northwest Territories,data.All fuel types,1
-2021,Northwest Territories,Electric,1
-2021,Ontario,data.All fuel types,1758
-2021,Ontario,Electric,1757
-2021,Ontario,data.Liquefied Natural Gas,1
-2021,Prince Edward Island,data.All fuel types,41
-2021,Prince Edward Island,Electric,41
-2021,Quebec,data.All fuel types,2825
-2021,Quebec,Electric,2820
-2021,Quebec,Hydrogen,2
-2021,Quebec,data.Liquefied Natural Gas,3
-2021,Saskatchewan,data.All fuel types,69
-2021,Saskatchewan,Electric,69
-2021,Yukon,data.All fuel types,6
-2021,Yukon,Electric,6
-2021,Canada,data.All fuel types,6443
-2021,Canada,Electric,6432
-2021,Canada,Hydrogen,6
-2021,Canada,data.Liquefied Natural Gas,5
+Year,Type of charging stations,Value
+2017-18,Electric,102
+2017-18,Natural gas,7
+2017-18,Hydrogen,3
+2018-19,Electric,526
+2018-19,Natural gas,12
+2018-19,Hydrogen,6
+2019-20,Electric,837
+2019-20,Natural gas,21
+2019-20,Hydrogen,8
