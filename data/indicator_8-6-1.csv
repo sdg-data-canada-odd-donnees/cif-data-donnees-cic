@@ -12,45 +12,45 @@ Year,data.Geography,data.Industry,Value
 2017,,,206711
 2018,,,206377
 2019,,,216676
-2007,data.Canada,data.Engineering construction ,45040
-2008,data.Canada,data.Engineering construction ,48963
-2009,data.Canada,data.Engineering construction ,55579
-2010,data.Canada,data.Engineering construction ,60586
-2011,data.Canada,data.Engineering construction ,62349
-2012,data.Canada,data.Engineering construction ,65080
-2013,data.Canada,data.Engineering construction ,69227
-2014,data.Canada,data.Engineering construction ,71736
-2015,data.Canada,data.Engineering construction ,80228
-2016,data.Canada,data.Engineering construction ,72333
-2017,data.Canada,data.Engineering construction ,71717
-2018,data.Canada,data.Engineering construction ,62796
-2019,data.Canada,data.Engineering construction ,64437
-2007,data.Canada,data.Manufacturing ,38120
-2008,data.Canada,data.Manufacturing ,35552
-2009,data.Canada,data.Manufacturing ,30706
-2010,data.Canada,data.Manufacturing ,26993
-2011,data.Canada,data.Manufacturing ,26355
-2012,data.Canada,data.Manufacturing ,26747
-2013,data.Canada,data.Manufacturing ,27930
-2014,data.Canada,data.Manufacturing ,26949
-2015,data.Canada,data.Manufacturing ,34311
-2016,data.Canada,data.Manufacturing ,29807
-2017,data.Canada,data.Manufacturing ,35535
-2018,data.Canada,data.Manufacturing ,38772
-2019,data.Canada,data.Manufacturing ,40252
-2007,data.Canada,"data.Professional, scientific and technical services ",25963
-2008,data.Canada,"data.Professional, scientific and technical services ",27739
-2009,data.Canada,"data.Professional, scientific and technical services ",25706
-2010,data.Canada,"data.Professional, scientific and technical services ",24194
-2011,data.Canada,"data.Professional, scientific and technical services ",26853
-2012,data.Canada,"data.Professional, scientific and technical services ",27423
-2013,data.Canada,"data.Professional, scientific and technical services ",26265
-2014,data.Canada,"data.Professional, scientific and technical services ",30096
-2015,data.Canada,"data.Professional, scientific and technical services ",35526
-2016,data.Canada,"data.Professional, scientific and technical services ",38943
-2017,data.Canada,"data.Professional, scientific and technical services ",42593
-2018,data.Canada,"data.Professional, scientific and technical services ",46319
-2019,data.Canada,"data.Professional, scientific and technical services ",52128
+2007,data.Canada,data.,Engineering construction,45040
+2008,data.Canada,data.,Engineering construction,48963
+2009,data.Canada,data.,Engineering construction,55579
+2010,data.Canada,data.,Engineering construction,60586
+2011,data.Canada,data.,Engineering construction,62349
+2012,data.Canada,data.,Engineering construction,65080
+2013,data.Canada,data.,Engineering construction,69227
+2014,data.Canada,data.,Engineering construction,71736
+2015,data.Canada,data.,Engineering construction,80228
+2016,data.Canada,data.,Engineering construction,72333
+2017,data.Canada,data.,Engineering construction,71717
+2018,data.Canada,data.,Engineering construction,62796
+2019,data.Canada,data.,Engineering construction,64437
+2007,data.Canada,data.Manufacturing,38120
+2008,data.Canada,data.Manufacturing,35552
+2009,data.Canada,data.Manufacturing,30706
+2010,data.Canada,data.Manufacturing,26993
+2011,data.Canada,data.Manufacturing,26355
+2012,data.Canada,data.Manufacturing,26747
+2013,data.Canada,data.Manufacturing,27930
+2014,data.Canada,data.Manufacturing,26949
+2015,data.Canada,data.Manufacturing,34311
+2016,data.Canada,data.Manufacturing,29807
+2017,data.Canada,data.Manufacturing,35535
+2018,data.Canada,data.Manufacturing,38772
+2019,data.Canada,data.Manufacturing,40252
+2007,data.Canada,"data.Professional, scientific and technical services",25963
+2008,data.Canada,"data.Professional, scientific and technical services",27739
+2009,data.Canada,"data.Professional, scientific and technical services",25706
+2010,data.Canada,"data.Professional, scientific and technical services",24194
+2011,data.Canada,"data.Professional, scientific and technical services",26853
+2012,data.Canada,"data.Professional, scientific and technical services",27423
+2013,data.Canada,"data.Professional, scientific and technical services",26265
+2014,data.Canada,"data.Professional, scientific and technical services",30096
+2015,data.Canada,"data.Professional, scientific and technical services",35526
+2016,data.Canada,"data.Professional, scientific and technical services",38943
+2017,data.Canada,"data.Professional, scientific and technical services",42593
+2018,data.Canada,"data.Professional, scientific and technical services",46319
+2019,data.Canada,"data.Professional, scientific and technical services",52128
 2007,data.Canada,data.Other industries,47748
 2008,data.Canada,data.Other industries,47997
 2009,data.Canada,data.Other industries,48268
@@ -77,45 +77,45 @@ Year,data.Geography,data.Industry,Value
 2017,data.Newfoundland and Labrador,"data.Total, all clean technology industries",9699
 2018,data.Newfoundland and Labrador,"data.Total, all clean technology industries",8492
 2019,data.Newfoundland and Labrador,"data.Total, all clean technology industries",9253
-2007,data.Newfoundland and Labrador,data.Engineering construction ,
-2008,data.Newfoundland and Labrador,data.Engineering construction ,
-2009,data.Newfoundland and Labrador,data.Engineering construction ,
-2010,data.Newfoundland and Labrador,data.Engineering construction ,
-2011,data.Newfoundland and Labrador,data.Engineering construction ,
-2012,data.Newfoundland and Labrador,data.Engineering construction ,2433
-2013,data.Newfoundland and Labrador,data.Engineering construction ,4161
-2014,data.Newfoundland and Labrador,data.Engineering construction ,6606
-2015,data.Newfoundland and Labrador,data.Engineering construction ,9314
-2016,data.Newfoundland and Labrador,data.Engineering construction ,9000
-2017,data.Newfoundland and Labrador,data.Engineering construction ,8822
-2018,data.Newfoundland and Labrador,data.Engineering construction ,7493
-2019,data.Newfoundland and Labrador,data.Engineering construction ,8258
-2007,data.Newfoundland and Labrador,data.Manufacturing ,
-2008,data.Newfoundland and Labrador,data.Manufacturing ,
-2009,data.Newfoundland and Labrador,data.Manufacturing ,
-2010,data.Newfoundland and Labrador,data.Manufacturing ,
-2011,data.Newfoundland and Labrador,data.Manufacturing ,
-2012,data.Newfoundland and Labrador,data.Manufacturing ,50
-2013,data.Newfoundland and Labrador,data.Manufacturing ,45
-2014,data.Newfoundland and Labrador,data.Manufacturing ,51
-2015,data.Newfoundland and Labrador,data.Manufacturing ,47
-2016,data.Newfoundland and Labrador,data.Manufacturing ,39
-2017,data.Newfoundland and Labrador,data.Manufacturing ,62
-2018,data.Newfoundland and Labrador,data.Manufacturing ,108
-2019,data.Newfoundland and Labrador,data.Manufacturing ,100
-2007,data.Newfoundland and Labrador,"data.Professional, scientific and technical services ",
-2008,data.Newfoundland and Labrador,"data.Professional, scientific and technical services ",
-2009,data.Newfoundland and Labrador,"data.Professional, scientific and technical services ",
-2010,data.Newfoundland and Labrador,"data.Professional, scientific and technical services ",
-2011,data.Newfoundland and Labrador,"data.Professional, scientific and technical services ",
-2012,data.Newfoundland and Labrador,"data.Professional, scientific and technical services ",174
-2013,data.Newfoundland and Labrador,"data.Professional, scientific and technical services ",180
-2014,data.Newfoundland and Labrador,"data.Professional, scientific and technical services ",213
-2015,data.Newfoundland and Labrador,"data.Professional, scientific and technical services ",227
-2016,data.Newfoundland and Labrador,"data.Professional, scientific and technical services ",286
-2017,data.Newfoundland and Labrador,"data.Professional, scientific and technical services ",192
-2018,data.Newfoundland and Labrador,"data.Professional, scientific and technical services ",206
-2019,data.Newfoundland and Labrador,"data.Professional, scientific and technical services ",220
+2007,data.Newfoundland and Labrador,data.Engineering construction,
+2008,data.Newfoundland and Labrador,data.Engineering construction,
+2009,data.Newfoundland and Labrador,data.Engineering construction,
+2010,data.Newfoundland and Labrador,data.Engineering construction,
+2011,data.Newfoundland and Labrador,data.Engineering construction,
+2012,data.Newfoundland and Labrador,data.Engineering construction,2433
+2013,data.Newfoundland and Labrador,data.Engineering construction,4161
+2014,data.Newfoundland and Labrador,data.Engineering construction,6606
+2015,data.Newfoundland and Labrador,data.Engineering construction,9314
+2016,data.Newfoundland and Labrador,data.Engineering construction,9000
+2017,data.Newfoundland and Labrador,data.Engineering construction,8822
+2018,data.Newfoundland and Labrador,data.Engineering construction,7493
+2019,data.Newfoundland and Labrador,data.Engineering construction,8258
+2007,data.Newfoundland and Labrador,data.Manufacturing,
+2008,data.Newfoundland and Labrador,data.Manufacturing,
+2009,data.Newfoundland and Labrador,data.Manufacturing,
+2010,data.Newfoundland and Labrador,data.Manufacturing,
+2011,data.Newfoundland and Labrador,data.Manufacturing,
+2012,data.Newfoundland and Labrador,data.Manufacturing,50
+2013,data.Newfoundland and Labrador,data.Manufacturing,45
+2014,data.Newfoundland and Labrador,data.Manufacturing,51
+2015,data.Newfoundland and Labrador,data.Manufacturing,47
+2016,data.Newfoundland and Labrador,data.Manufacturing,39
+2017,data.Newfoundland and Labrador,data.Manufacturing,62
+2018,data.Newfoundland and Labrador,data.Manufacturing,108
+2019,data.Newfoundland and Labrador,data.Manufacturing,100
+2007,data.Newfoundland and Labrador,"data.Professional, scientific and technical services",
+2008,data.Newfoundland and Labrador,"data.Professional, scientific and technical services",
+2009,data.Newfoundland and Labrador,"data.Professional, scientific and technical services",
+2010,data.Newfoundland and Labrador,"data.Professional, scientific and technical services",
+2011,data.Newfoundland and Labrador,"data.Professional, scientific and technical services",
+2012,data.Newfoundland and Labrador,"data.Professional, scientific and technical services",174
+2013,data.Newfoundland and Labrador,"data.Professional, scientific and technical services",180
+2014,data.Newfoundland and Labrador,"data.Professional, scientific and technical services",213
+2015,data.Newfoundland and Labrador,"data.Professional, scientific and technical services",227
+2016,data.Newfoundland and Labrador,"data.Professional, scientific and technical services",286
+2017,data.Newfoundland and Labrador,"data.Professional, scientific and technical services",192
+2018,data.Newfoundland and Labrador,"data.Professional, scientific and technical services",206
+2019,data.Newfoundland and Labrador,"data.Professional, scientific and technical services",220
 2007,data.Newfoundland and Labrador,data.Other industries,
 2008,data.Newfoundland and Labrador,data.Other industries,
 2009,data.Newfoundland and Labrador,data.Other industries,
@@ -142,45 +142,45 @@ Year,data.Geography,data.Industry,Value
 2017,data.Prince Edward Island,"data.Total, all clean technology industries",792
 2018,data.Prince Edward Island,"data.Total, all clean technology industries",733
 2019,data.Prince Edward Island,"data.Total, all clean technology industries",731
-2007,data.Prince Edward Island,data.Engineering construction ,
-2008,data.Prince Edward Island,data.Engineering construction ,
-2009,data.Prince Edward Island,data.Engineering construction ,
-2010,data.Prince Edward Island,data.Engineering construction ,
-2011,data.Prince Edward Island,data.Engineering construction ,
-2012,data.Prince Edward Island,data.Engineering construction ,149
-2013,data.Prince Edward Island,data.Engineering construction ,840
-2014,data.Prince Edward Island,data.Engineering construction ,168
-2015,data.Prince Edward Island,data.Engineering construction ,196
-2016,data.Prince Edward Island,data.Engineering construction ,459
-2017,data.Prince Edward Island,data.Engineering construction ,413
-2018,data.Prince Edward Island,data.Engineering construction ,218
-2019,data.Prince Edward Island,data.Engineering construction ,193
-2007,data.Prince Edward Island,data.Manufacturing ,
-2008,data.Prince Edward Island,data.Manufacturing ,
-2009,data.Prince Edward Island,data.Manufacturing ,
-2010,data.Prince Edward Island,data.Manufacturing ,
-2011,data.Prince Edward Island,data.Manufacturing ,
-2012,data.Prince Edward Island,data.Manufacturing ,16
-2013,data.Prince Edward Island,data.Manufacturing ,16
-2014,data.Prince Edward Island,data.Manufacturing ,19
-2015,data.Prince Edward Island,data.Manufacturing ,28
-2016,data.Prince Edward Island,data.Manufacturing ,32
-2017,data.Prince Edward Island,data.Manufacturing ,39
-2018,data.Prince Edward Island,data.Manufacturing ,102
-2019,data.Prince Edward Island,data.Manufacturing ,100
-2007,data.Prince Edward Island,"data.Professional, scientific and technical services ",
-2008,data.Prince Edward Island,"data.Professional, scientific and technical services ",
-2009,data.Prince Edward Island,"data.Professional, scientific and technical services ",
-2010,data.Prince Edward Island,"data.Professional, scientific and technical services ",
-2011,data.Prince Edward Island,"data.Professional, scientific and technical services ",
-2012,data.Prince Edward Island,"data.Professional, scientific and technical services ",39
-2013,data.Prince Edward Island,"data.Professional, scientific and technical services ",29
-2014,data.Prince Edward Island,"data.Professional, scientific and technical services ",44
-2015,data.Prince Edward Island,"data.Professional, scientific and technical services ",50
-2016,data.Prince Edward Island,"data.Professional, scientific and technical services ",50
-2017,data.Prince Edward Island,"data.Professional, scientific and technical services ",45
-2018,data.Prince Edward Island,"data.Professional, scientific and technical services ",77
-2019,data.Prince Edward Island,"data.Professional, scientific and technical services ",87
+2007,data.Prince Edward Island,data.,Engineering construction,
+2008,data.Prince Edward Island,data.,Engineering construction,
+2009,data.Prince Edward Island,data.,Engineering construction,
+2010,data.Prince Edward Island,data.,Engineering construction,
+2011,data.Prince Edward Island,data.,Engineering construction,
+2012,data.Prince Edward Island,data.,Engineering construction,149
+2013,data.Prince Edward Island,data.,Engineering construction,840
+2014,data.Prince Edward Island,data.,Engineering construction,168
+2015,data.Prince Edward Island,data.,Engineering construction,196
+2016,data.Prince Edward Island,data.,Engineering construction,459
+2017,data.Prince Edward Island,data.,Engineering construction,413
+2018,data.Prince Edward Island,data.,Engineering construction,218
+2019,data.Prince Edward Island,data.,Engineering construction,193
+2007,data.Prince Edward Island,data.Manufacturing,
+2008,data.Prince Edward Island,data.Manufacturing,
+2009,data.Prince Edward Island,data.Manufacturing,
+2010,data.Prince Edward Island,data.Manufacturing,
+2011,data.Prince Edward Island,data.Manufacturing,
+2012,data.Prince Edward Island,data.Manufacturing,16
+2013,data.Prince Edward Island,data.Manufacturing,16
+2014,data.Prince Edward Island,data.Manufacturing,19
+2015,data.Prince Edward Island,data.Manufacturing,28
+2016,data.Prince Edward Island,data.Manufacturing,32
+2017,data.Prince Edward Island,data.Manufacturing,39
+2018,data.Prince Edward Island,data.Manufacturing,102
+2019,data.Prince Edward Island,data.Manufacturing,100
+2007,data.Prince Edward Island,"data.Professional, scientific and technical services",
+2008,data.Prince Edward Island,"data.Professional, scientific and technical services",
+2009,data.Prince Edward Island,"data.Professional, scientific and technical services",
+2010,data.Prince Edward Island,"data.Professional, scientific and technical services",
+2011,data.Prince Edward Island,"data.Professional, scientific and technical services",
+2012,data.Prince Edward Island,"data.Professional, scientific and technical services",39
+2013,data.Prince Edward Island,"data.Professional, scientific and technical services",29
+2014,data.Prince Edward Island,"data.Professional, scientific and technical services",44
+2015,data.Prince Edward Island,"data.Professional, scientific and technical services",50
+2016,data.Prince Edward Island,"data.Professional, scientific and technical services",50
+2017,data.Prince Edward Island,"data.Professional, scientific and technical services",45
+2018,data.Prince Edward Island,"data.Professional, scientific and technical services",77
+2019,data.Prince Edward Island,"data.Professional, scientific and technical services",87
 2007,data.Prince Edward Island,data.Other industries,
 2008,data.Prince Edward Island,data.Other industries,
 2009,data.Prince Edward Island,data.Other industries,
@@ -207,45 +207,45 @@ Year,data.Geography,data.Industry,Value
 2017,data.Nova Scotia,"data.Total, all clean technology industries",3671
 2018,data.Nova Scotia,"data.Total, all clean technology industries",3794
 2019,data.Nova Scotia,"data.Total, all clean technology industries",3790
-2007,data.Nova Scotia,data.Engineering construction ,
-2008,data.Nova Scotia,data.Engineering construction ,
-2009,data.Nova Scotia,data.Engineering construction ,
-2010,data.Nova Scotia,data.Engineering construction ,
-2011,data.Nova Scotia,data.Engineering construction ,
-2012,data.Nova Scotia,data.Engineering construction ,529
-2013,data.Nova Scotia,data.Engineering construction ,359
-2014,data.Nova Scotia,data.Engineering construction ,996
-2015,data.Nova Scotia,data.Engineering construction ,1406
-2016,data.Nova Scotia,data.Engineering construction ,907
-2017,data.Nova Scotia,data.Engineering construction ,1066
-2018,data.Nova Scotia,data.Engineering construction ,947
-2019,data.Nova Scotia,data.Engineering construction ,871
-2007,data.Nova Scotia,data.Manufacturing ,
-2008,data.Nova Scotia,data.Manufacturing ,
-2009,data.Nova Scotia,data.Manufacturing ,
-2010,data.Nova Scotia,data.Manufacturing ,
-2011,data.Nova Scotia,data.Manufacturing ,
-2012,data.Nova Scotia,data.Manufacturing ,404
-2013,data.Nova Scotia,data.Manufacturing ,531
-2014,data.Nova Scotia,data.Manufacturing ,526
-2015,data.Nova Scotia,data.Manufacturing ,458
-2016,data.Nova Scotia,data.Manufacturing ,585
-2017,data.Nova Scotia,data.Manufacturing ,582
-2018,data.Nova Scotia,data.Manufacturing ,504
-2019,data.Nova Scotia,data.Manufacturing ,400
-2007,data.Nova Scotia,"data.Professional, scientific and technical services ",
-2008,data.Nova Scotia,"data.Professional, scientific and technical services ",
-2009,data.Nova Scotia,"data.Professional, scientific and technical services ",
-2010,data.Nova Scotia,"data.Professional, scientific and technical services ",
-2011,data.Nova Scotia,"data.Professional, scientific and technical services ",
-2012,data.Nova Scotia,"data.Professional, scientific and technical services ",393
-2013,data.Nova Scotia,"data.Professional, scientific and technical services ",392
-2014,data.Nova Scotia,"data.Professional, scientific and technical services ",454
-2015,data.Nova Scotia,"data.Professional, scientific and technical services ",519
-2016,data.Nova Scotia,"data.Professional, scientific and technical services ",527
-2017,data.Nova Scotia,"data.Professional, scientific and technical services ",710
-2018,data.Nova Scotia,"data.Professional, scientific and technical services ",949
-2019,data.Nova Scotia,"data.Professional, scientific and technical services ",1120
+2007,data.Nova Scotia,data.,Engineering construction,
+2008,data.Nova Scotia,data.,Engineering construction,
+2009,data.Nova Scotia,data.,Engineering construction,
+2010,data.Nova Scotia,data.,Engineering construction,
+2011,data.Nova Scotia,data.,Engineering construction,
+2012,data.Nova Scotia,data.,Engineering construction,529
+2013,data.Nova Scotia,data.,Engineering construction,359
+2014,data.Nova Scotia,data.,Engineering construction,996
+2015,data.Nova Scotia,data.,Engineering construction,1406
+2016,data.Nova Scotia,data.,Engineering construction,907
+2017,data.Nova Scotia,data.,Engineering construction,1066
+2018,data.Nova Scotia,data.,Engineering construction,947
+2019,data.Nova Scotia,data.,Engineering construction,871
+2007,data.Nova Scotia,data.Manufacturing,
+2008,data.Nova Scotia,data.Manufacturing,
+2009,data.Nova Scotia,data.Manufacturing,
+2010,data.Nova Scotia,data.Manufacturing,
+2011,data.Nova Scotia,data.Manufacturing,
+2012,data.Nova Scotia,data.Manufacturing,404
+2013,data.Nova Scotia,data.Manufacturing,531
+2014,data.Nova Scotia,data.Manufacturing,526
+2015,data.Nova Scotia,data.Manufacturing,458
+2016,data.Nova Scotia,data.Manufacturing,585
+2017,data.Nova Scotia,data.Manufacturing,582
+2018,data.Nova Scotia,data.Manufacturing,504
+2019,data.Nova Scotia,data.Manufacturing,400
+2007,data.Nova Scotia,"data.Professional, scientific and technical services",
+2008,data.Nova Scotia,"data.Professional, scientific and technical services",
+2009,data.Nova Scotia,"data.Professional, scientific and technical services",
+2010,data.Nova Scotia,"data.Professional, scientific and technical services",
+2011,data.Nova Scotia,"data.Professional, scientific and technical services",
+2012,data.Nova Scotia,"data.Professional, scientific and technical services",393
+2013,data.Nova Scotia,"data.Professional, scientific and technical services",392
+2014,data.Nova Scotia,"data.Professional, scientific and technical services",454
+2015,data.Nova Scotia,"data.Professional, scientific and technical services",519
+2016,data.Nova Scotia,"data.Professional, scientific and technical services",527
+2017,data.Nova Scotia,"data.Professional, scientific and technical services",710
+2018,data.Nova Scotia,"data.Professional, scientific and technical services",949
+2019,data.Nova Scotia,"data.Professional, scientific and technical services",1120
 2007,data.Nova Scotia,data.Other industries,
 2008,data.Nova Scotia,data.Other industries,
 2009,data.Nova Scotia,data.Other industries,
@@ -272,45 +272,45 @@ Year,data.Geography,data.Industry,Value
 2017,data.New Brunswick,"data.Total, all clean technology industries",3300
 2018,data.New Brunswick,"data.Total, all clean technology industries",3561
 2019,data.New Brunswick,"data.Total, all clean technology industries",3497
-2007,data.New Brunswick,data.Engineering construction ,
-2008,data.New Brunswick,data.Engineering construction ,
-2009,data.New Brunswick,data.Engineering construction ,
-2010,data.New Brunswick,data.Engineering construction ,
-2011,data.New Brunswick,data.Engineering construction ,
-2012,data.New Brunswick,data.Engineering construction ,1412
-2013,data.New Brunswick,data.Engineering construction ,797
-2014,data.New Brunswick,data.Engineering construction ,929
-2015,data.New Brunswick,data.Engineering construction ,617
-2016,data.New Brunswick,data.Engineering construction ,942
-2017,data.New Brunswick,data.Engineering construction ,1175
-2018,data.New Brunswick,data.Engineering construction ,1163
-2019,data.New Brunswick,data.Engineering construction ,1004
-2007,data.New Brunswick,data.Manufacturing ,
-2008,data.New Brunswick,data.Manufacturing ,
-2009,data.New Brunswick,data.Manufacturing ,
-2010,data.New Brunswick,data.Manufacturing ,
-2011,data.New Brunswick,data.Manufacturing ,
-2012,data.New Brunswick,data.Manufacturing ,968
-2013,data.New Brunswick,data.Manufacturing ,920
-2014,data.New Brunswick,data.Manufacturing ,924
-2015,data.New Brunswick,data.Manufacturing ,1072
-2016,data.New Brunswick,data.Manufacturing ,1040
-2017,data.New Brunswick,data.Manufacturing ,904
-2018,data.New Brunswick,data.Manufacturing ,792
-2019,data.New Brunswick,data.Manufacturing ,878
-2007,data.New Brunswick,"data.Professional, scientific and technical services ",
-2008,data.New Brunswick,"data.Professional, scientific and technical services ",
-2009,data.New Brunswick,"data.Professional, scientific and technical services ",
-2010,data.New Brunswick,"data.Professional, scientific and technical services ",
-2011,data.New Brunswick,"data.Professional, scientific and technical services ",
-2012,data.New Brunswick,"data.Professional, scientific and technical services ",310
-2013,data.New Brunswick,"data.Professional, scientific and technical services ",273
-2014,data.New Brunswick,"data.Professional, scientific and technical services ",334
-2015,data.New Brunswick,"data.Professional, scientific and technical services ",313
-2016,data.New Brunswick,"data.Professional, scientific and technical services ",374
-2017,data.New Brunswick,"data.Professional, scientific and technical services ",254
-2018,data.New Brunswick,"data.Professional, scientific and technical services ",522
-2019,data.New Brunswick,"data.Professional, scientific and technical services ",515
+2007,data.New Brunswick,data.,Engineering construction,
+2008,data.New Brunswick,data.,Engineering construction,
+2009,data.New Brunswick,data.,Engineering construction,
+2010,data.New Brunswick,data.,Engineering construction,
+2011,data.New Brunswick,data.,Engineering construction,
+2012,data.New Brunswick,data.,Engineering construction,1412
+2013,data.New Brunswick,data.,Engineering construction,797
+2014,data.New Brunswick,data.,Engineering construction,929
+2015,data.New Brunswick,data.,Engineering construction,617
+2016,data.New Brunswick,data.,Engineering construction,942
+2017,data.New Brunswick,data.,Engineering construction,1175
+2018,data.New Brunswick,data.,Engineering construction,1163
+2019,data.New Brunswick,data.,Engineering construction,1004
+2007,data.New Brunswick,data.Manufacturing,
+2008,data.New Brunswick,data.Manufacturing,
+2009,data.New Brunswick,data.Manufacturing,
+2010,data.New Brunswick,data.Manufacturing,
+2011,data.New Brunswick,data.Manufacturing,
+2012,data.New Brunswick,data.Manufacturing,968
+2013,data.New Brunswick,data.Manufacturing,920
+2014,data.New Brunswick,data.Manufacturing,924
+2015,data.New Brunswick,data.Manufacturing,1072
+2016,data.New Brunswick,data.Manufacturing,1040
+2017,data.New Brunswick,data.Manufacturing,904
+2018,data.New Brunswick,data.Manufacturing,792
+2019,data.New Brunswick,data.Manufacturing,878
+2007,data.New Brunswick,"data.Professional, scientific and technical services",
+2008,data.New Brunswick,"data.Professional, scientific and technical services",
+2009,data.New Brunswick,"data.Professional, scientific and technical services",
+2010,data.New Brunswick,"data.Professional, scientific and technical services",
+2011,data.New Brunswick,"data.Professional, scientific and technical services",
+2012,data.New Brunswick,"data.Professional, scientific and technical services",310
+2013,data.New Brunswick,"data.Professional, scientific and technical services",273
+2014,data.New Brunswick,"data.Professional, scientific and technical services",334
+2015,data.New Brunswick,"data.Professional, scientific and technical services",313
+2016,data.New Brunswick,"data.Professional, scientific and technical services",374
+2017,data.New Brunswick,"data.Professional, scientific and technical services",254
+2018,data.New Brunswick,"data.Professional, scientific and technical services",522
+2019,data.New Brunswick,"data.Professional, scientific and technical services",515
 2007,data.New Brunswick,data.Other industries,
 2008,data.New Brunswick,data.Other industries,
 2009,data.New Brunswick,data.Other industries,
@@ -337,45 +337,45 @@ Year,data.Geography,data.Industry,Value
 2017,data.Quebec,"data.Total, all clean technology industries",43598
 2018,data.Quebec,"data.Total, all clean technology industries",48559
 2019,data.Quebec,"data.Total, all clean technology industries",50283
-2007,data.Quebec,data.Engineering construction ,
-2008,data.Quebec,data.Engineering construction ,
-2009,data.Quebec,data.Engineering construction ,
-2010,data.Quebec,data.Engineering construction ,
-2011,data.Quebec,data.Engineering construction ,
-2012,data.Quebec,data.Engineering construction ,24257
-2013,data.Quebec,data.Engineering construction ,23855
-2014,data.Quebec,data.Engineering construction ,19086
-2015,data.Quebec,data.Engineering construction ,21868
-2016,data.Quebec,data.Engineering construction ,17817
-2017,data.Quebec,data.Engineering construction ,15170
-2018,data.Quebec,data.Engineering construction ,13713
-2019,data.Quebec,data.Engineering construction ,13321
-2007,data.Quebec,data.Manufacturing ,
-2008,data.Quebec,data.Manufacturing ,
-2009,data.Quebec,data.Manufacturing ,
-2010,data.Quebec,data.Manufacturing ,
-2011,data.Quebec,data.Manufacturing ,
-2012,data.Quebec,data.Manufacturing ,7747
-2013,data.Quebec,data.Manufacturing ,7940
-2014,data.Quebec,data.Manufacturing ,8412
-2015,data.Quebec,data.Manufacturing ,9903
-2016,data.Quebec,data.Manufacturing ,9467
-2017,data.Quebec,data.Manufacturing ,9581
-2018,data.Quebec,data.Manufacturing ,13113
-2019,data.Quebec,data.Manufacturing ,13481
-2007,data.Quebec,"data.Professional, scientific and technical services ",
-2008,data.Quebec,"data.Professional, scientific and technical services ",
-2009,data.Quebec,"data.Professional, scientific and technical services ",
-2010,data.Quebec,"data.Professional, scientific and technical services ",
-2011,data.Quebec,"data.Professional, scientific and technical services ",
-2012,data.Quebec,"data.Professional, scientific and technical services ",6072
-2013,data.Quebec,"data.Professional, scientific and technical services ",5411
-2014,data.Quebec,"data.Professional, scientific and technical services ",5802
-2015,data.Quebec,"data.Professional, scientific and technical services ",6995
-2016,data.Quebec,"data.Professional, scientific and technical services ",7500
-2017,data.Quebec,"data.Professional, scientific and technical services ",9462
-2018,data.Quebec,"data.Professional, scientific and technical services ",11675
-2019,data.Quebec,"data.Professional, scientific and technical services ",13241
+2007,data.Quebec,data.,Engineering construction,
+2008,data.Quebec,data.,Engineering construction,
+2009,data.Quebec,data.,Engineering construction,
+2010,data.Quebec,data.,Engineering construction,
+2011,data.Quebec,data.,Engineering construction,
+2012,data.Quebec,data.,Engineering construction,24257
+2013,data.Quebec,data.,Engineering construction,23855
+2014,data.Quebec,data.,Engineering construction,19086
+2015,data.Quebec,data.,Engineering construction,21868
+2016,data.Quebec,data.,Engineering construction,17817
+2017,data.Quebec,data.,Engineering construction,15170
+2018,data.Quebec,data.,Engineering construction,13713
+2019,data.Quebec,data.,Engineering construction,13321
+2007,data.Quebec,data.Manufacturing,
+2008,data.Quebec,data.Manufacturing,
+2009,data.Quebec,data.Manufacturing,
+2010,data.Quebec,data.Manufacturing,
+2011,data.Quebec,data.Manufacturing,
+2012,data.Quebec,data.Manufacturing,7747
+2013,data.Quebec,data.Manufacturing,7940
+2014,data.Quebec,data.Manufacturing,8412
+2015,data.Quebec,data.Manufacturing,9903
+2016,data.Quebec,data.Manufacturing,9467
+2017,data.Quebec,data.Manufacturing,9581
+2018,data.Quebec,data.Manufacturing,13113
+2019,data.Quebec,data.Manufacturing,13481
+2007,data.Quebec,"data.Professional, scientific and technical services",
+2008,data.Quebec,"data.Professional, scientific and technical services",
+2009,data.Quebec,"data.Professional, scientific and technical services",
+2010,data.Quebec,"data.Professional, scientific and technical services",
+2011,data.Quebec,"data.Professional, scientific and technical services",
+2012,data.Quebec,"data.Professional, scientific and technical services",6072
+2013,data.Quebec,"data.Professional, scientific and technical services",5411
+2014,data.Quebec,"data.Professional, scientific and technical services",5802
+2015,data.Quebec,"data.Professional, scientific and technical services",6995
+2016,data.Quebec,"data.Professional, scientific and technical services",7500
+2017,data.Quebec,"data.Professional, scientific and technical services",9462
+2018,data.Quebec,"data.Professional, scientific and technical services",11675
+2019,data.Quebec,"data.Professional, scientific and technical services",13241
 2007,data.Quebec,data.Other industries,
 2008,data.Quebec,data.Other industries,
 2009,data.Quebec,data.Other industries,
@@ -402,45 +402,45 @@ Year,data.Geography,data.Industry,Value
 2017,data.Ontario,"data.Total, all clean technology industries",75902
 2018,data.Ontario,"data.Total, all clean technology industries",78141
 2019,data.Ontario,"data.Total, all clean technology industries",83469
-2007,data.Ontario,data.Engineering construction ,
-2008,data.Ontario,data.Engineering construction ,
-2009,data.Ontario,data.Engineering construction ,
-2010,data.Ontario,data.Engineering construction ,
-2011,data.Ontario,data.Engineering construction ,
-2012,data.Ontario,data.Engineering construction ,15931
-2013,data.Ontario,data.Engineering construction ,16967
-2014,data.Ontario,data.Engineering construction ,21236
-2015,data.Ontario,data.Engineering construction ,23813
-2016,data.Ontario,data.Engineering construction ,18997
-2017,data.Ontario,data.Engineering construction ,19059
-2018,data.Ontario,data.Engineering construction ,16913
-2019,data.Ontario,data.Engineering construction ,17765
-2007,data.Ontario,data.Manufacturing ,
-2008,data.Ontario,data.Manufacturing ,
-2009,data.Ontario,data.Manufacturing ,
-2010,data.Ontario,data.Manufacturing ,
-2011,data.Ontario,data.Manufacturing ,
-2012,data.Ontario,data.Manufacturing ,10322
-2013,data.Ontario,data.Manufacturing ,11539
-2014,data.Ontario,data.Manufacturing ,9896
-2015,data.Ontario,data.Manufacturing ,14862
-2016,data.Ontario,data.Manufacturing ,10887
-2017,data.Ontario,data.Manufacturing ,14783
-2018,data.Ontario,data.Manufacturing ,14684
-2019,data.Ontario,data.Manufacturing ,15816
-2007,data.Ontario,"data.Professional, scientific and technical services ",
-2008,data.Ontario,"data.Professional, scientific and technical services ",
-2009,data.Ontario,"data.Professional, scientific and technical services ",
-2010,data.Ontario,"data.Professional, scientific and technical services ",
-2011,data.Ontario,"data.Professional, scientific and technical services ",
-2012,data.Ontario,"data.Professional, scientific and technical services ",11714
-2013,data.Ontario,"data.Professional, scientific and technical services ",11072
-2014,data.Ontario,"data.Professional, scientific and technical services ",13160
-2015,data.Ontario,"data.Professional, scientific and technical services ",15907
-2016,data.Ontario,"data.Professional, scientific and technical services ",17825
-2017,data.Ontario,"data.Professional, scientific and technical services ",16581
-2018,data.Ontario,"data.Professional, scientific and technical services ",19522
-2019,data.Ontario,"data.Professional, scientific and technical services ",21666
+2007,data.Ontario,data.,Engineering construction,
+2008,data.Ontario,data.,Engineering construction,
+2009,data.Ontario,data.,Engineering construction,
+2010,data.Ontario,data.,Engineering construction,
+2011,data.Ontario,data.,Engineering construction,
+2012,data.Ontario,data.,Engineering construction,15931
+2013,data.Ontario,data.,Engineering construction,16967
+2014,data.Ontario,data.,Engineering construction,21236
+2015,data.Ontario,data.,Engineering construction,23813
+2016,data.Ontario,data.,Engineering construction,18997
+2017,data.Ontario,data.,Engineering construction,19059
+2018,data.Ontario,data.,Engineering construction,16913
+2019,data.Ontario,data.,Engineering construction,17765
+2007,data.Ontario,data.Manufacturing,
+2008,data.Ontario,data.Manufacturing,
+2009,data.Ontario,data.Manufacturing,
+2010,data.Ontario,data.Manufacturing,
+2011,data.Ontario,data.Manufacturing,
+2012,data.Ontario,data.Manufacturing,10322
+2013,data.Ontario,data.Manufacturing,11539
+2014,data.Ontario,data.Manufacturing,9896
+2015,data.Ontario,data.Manufacturing,14862
+2016,data.Ontario,data.Manufacturing,10887
+2017,data.Ontario,data.Manufacturing,14783
+2018,data.Ontario,data.Manufacturing,14684
+2019,data.Ontario,data.Manufacturing,15816
+2007,data.Ontario,"data.Professional, scientific and technical services",
+2008,data.Ontario,"data.Professional, scientific and technical services",
+2009,data.Ontario,"data.Professional, scientific and technical services",
+2010,data.Ontario,"data.Professional, scientific and technical services",
+2011,data.Ontario,"data.Professional, scientific and technical services",
+2012,data.Ontario,"data.Professional, scientific and technical services",11714
+2013,data.Ontario,"data.Professional, scientific and technical services",11072
+2014,data.Ontario,"data.Professional, scientific and technical services",13160
+2015,data.Ontario,"data.Professional, scientific and technical services",15907
+2016,data.Ontario,"data.Professional, scientific and technical services",17825
+2017,data.Ontario,"data.Professional, scientific and technical services",16581
+2018,data.Ontario,"data.Professional, scientific and technical services",19522
+2019,data.Ontario,"data.Professional, scientific and technical services",21666
 2007,data.Ontario,data.Other industries,
 2008,data.Ontario,data.Other industries,
 2009,data.Ontario,data.Other industries,
@@ -467,45 +467,45 @@ Year,data.Geography,data.Industry,Value
 2017,data.Manitoba,"data.Total, all clean technology industries",13683
 2018,data.Manitoba,"data.Total, all clean technology industries",12217
 2019,data.Manitoba,"data.Total, all clean technology industries",11656
-2007,data.Manitoba,data.Engineering construction ,
-2008,data.Manitoba,data.Engineering construction ,
-2009,data.Manitoba,data.Engineering construction ,
-2010,data.Manitoba,data.Engineering construction ,
-2011,data.Manitoba,data.Engineering construction ,
-2012,data.Manitoba,data.Engineering construction ,4268
-2013,data.Manitoba,data.Engineering construction ,5001
-2014,data.Manitoba,data.Engineering construction ,6545
-2015,data.Manitoba,data.Engineering construction ,7891
-2016,data.Manitoba,data.Engineering construction ,8419
-2017,data.Manitoba,data.Engineering construction ,9692
-2018,data.Manitoba,data.Engineering construction ,8130
-2019,data.Manitoba,data.Engineering construction ,7462
-2007,data.Manitoba,data.Manufacturing ,
-2008,data.Manitoba,data.Manufacturing ,
-2009,data.Manitoba,data.Manufacturing ,
-2010,data.Manitoba,data.Manufacturing ,
-2011,data.Manitoba,data.Manufacturing ,
-2012,data.Manitoba,data.Manufacturing ,918
-2013,data.Manitoba,data.Manufacturing ,1021
-2014,data.Manitoba,data.Manufacturing ,980
-2015,data.Manitoba,data.Manufacturing ,719
-2016,data.Manitoba,data.Manufacturing ,891
-2017,data.Manitoba,data.Manufacturing ,1166
-2018,data.Manitoba,data.Manufacturing ,1139
-2019,data.Manitoba,data.Manufacturing ,1195
-2007,data.Manitoba,"data.Professional, scientific and technical services ",
-2008,data.Manitoba,"data.Professional, scientific and technical services ",
-2009,data.Manitoba,"data.Professional, scientific and technical services ",
-2010,data.Manitoba,"data.Professional, scientific and technical services ",
-2011,data.Manitoba,"data.Professional, scientific and technical services ",
-2012,data.Manitoba,"data.Professional, scientific and technical services ",438
-2013,data.Manitoba,"data.Professional, scientific and technical services ",412
-2014,data.Manitoba,"data.Professional, scientific and technical services ",580
-2015,data.Manitoba,"data.Professional, scientific and technical services ",709
-2016,data.Manitoba,"data.Professional, scientific and technical services ",789
-2017,data.Manitoba,"data.Professional, scientific and technical services ",1011
-2018,data.Manitoba,"data.Professional, scientific and technical services ",1034
-2019,data.Manitoba,"data.Professional, scientific and technical services ",1096
+2007,data.Manitoba,data.,Engineering construction,
+2008,data.Manitoba,data.,Engineering construction,
+2009,data.Manitoba,data.,Engineering construction,
+2010,data.Manitoba,data.,Engineering construction,
+2011,data.Manitoba,data.,Engineering construction,
+2012,data.Manitoba,data.,Engineering construction,4268
+2013,data.Manitoba,data.,Engineering construction,5001
+2014,data.Manitoba,data.,Engineering construction,6545
+2015,data.Manitoba,data.,Engineering construction,7891
+2016,data.Manitoba,data.,Engineering construction,8419
+2017,data.Manitoba,data.,Engineering construction,9692
+2018,data.Manitoba,data.,Engineering construction,8130
+2019,data.Manitoba,data.,Engineering construction,7462
+2007,data.Manitoba,data.Manufacturing,
+2008,data.Manitoba,data.Manufacturing,
+2009,data.Manitoba,data.Manufacturing,
+2010,data.Manitoba,data.Manufacturing,
+2011,data.Manitoba,data.Manufacturing,
+2012,data.Manitoba,data.Manufacturing,918
+2013,data.Manitoba,data.Manufacturing,1021
+2014,data.Manitoba,data.Manufacturing,980
+2015,data.Manitoba,data.Manufacturing,719
+2016,data.Manitoba,data.Manufacturing,891
+2017,data.Manitoba,data.Manufacturing,1166
+2018,data.Manitoba,data.Manufacturing,1139
+2019,data.Manitoba,data.Manufacturing,1195
+2007,data.Manitoba,"data.Professional, scientific and technical services",
+2008,data.Manitoba,"data.Professional, scientific and technical services",
+2009,data.Manitoba,"data.Professional, scientific and technical services",
+2010,data.Manitoba,"data.Professional, scientific and technical services",
+2011,data.Manitoba,"data.Professional, scientific and technical services",
+2012,data.Manitoba,"data.Professional, scientific and technical services",438
+2013,data.Manitoba,"data.Professional, scientific and technical services",412
+2014,data.Manitoba,"data.Professional, scientific and technical services",580
+2015,data.Manitoba,"data.Professional, scientific and technical services",709
+2016,data.Manitoba,"data.Professional, scientific and technical services",789
+2017,data.Manitoba,"data.Professional, scientific and technical services",1011
+2018,data.Manitoba,"data.Professional, scientific and technical services",1034
+2019,data.Manitoba,"data.Professional, scientific and technical services",1096
 2007,data.Manitoba,data.Other industries,
 2008,data.Manitoba,data.Other industries,
 2009,data.Manitoba,data.Other industries,
@@ -532,45 +532,45 @@ Year,data.Geography,data.Industry,Value
 2017,data.Saskatchewan,"data.Total, all clean technology industries",4968
 2018,data.Saskatchewan,"data.Total, all clean technology industries",4254
 2019,data.Saskatchewan,"data.Total, all clean technology industries",4530
-2007,data.Saskatchewan,data.Engineering construction ,
-2008,data.Saskatchewan,data.Engineering construction ,
-2009,data.Saskatchewan,data.Engineering construction ,
-2010,data.Saskatchewan,data.Engineering construction ,
-2011,data.Saskatchewan,data.Engineering construction ,
-2012,data.Saskatchewan,data.Engineering construction ,1823
-2013,data.Saskatchewan,data.Engineering construction ,1938
-2014,data.Saskatchewan,data.Engineering construction ,1942
-2015,data.Saskatchewan,data.Engineering construction ,1897
-2016,data.Saskatchewan,data.Engineering construction ,1337
-2017,data.Saskatchewan,data.Engineering construction ,1182
-2018,data.Saskatchewan,data.Engineering construction ,1013
-2019,data.Saskatchewan,data.Engineering construction ,1264
-2007,data.Saskatchewan,data.Manufacturing ,
-2008,data.Saskatchewan,data.Manufacturing ,
-2009,data.Saskatchewan,data.Manufacturing ,
-2010,data.Saskatchewan,data.Manufacturing ,
-2011,data.Saskatchewan,data.Manufacturing ,
-2012,data.Saskatchewan,data.Manufacturing ,479
-2013,data.Saskatchewan,data.Manufacturing ,390
-2014,data.Saskatchewan,data.Manufacturing ,388
-2015,data.Saskatchewan,data.Manufacturing ,956
-2016,data.Saskatchewan,data.Manufacturing ,486
-2017,data.Saskatchewan,data.Manufacturing ,353
-2018,data.Saskatchewan,data.Manufacturing ,649
-2019,data.Saskatchewan,data.Manufacturing ,559
-2007,data.Saskatchewan,"data.Professional, scientific and technical services ",
-2008,data.Saskatchewan,"data.Professional, scientific and technical services ",
-2009,data.Saskatchewan,"data.Professional, scientific and technical services ",
-2010,data.Saskatchewan,"data.Professional, scientific and technical services ",
-2011,data.Saskatchewan,"data.Professional, scientific and technical services ",
-2012,data.Saskatchewan,"data.Professional, scientific and technical services ",449
-2013,data.Saskatchewan,"data.Professional, scientific and technical services ",508
-2014,data.Saskatchewan,"data.Professional, scientific and technical services ",561
-2015,data.Saskatchewan,"data.Professional, scientific and technical services ",582
-2016,data.Saskatchewan,"data.Professional, scientific and technical services ",637
-2017,data.Saskatchewan,"data.Professional, scientific and technical services ",1067
-2018,data.Saskatchewan,"data.Professional, scientific and technical services ",653
-2019,data.Saskatchewan,"data.Professional, scientific and technical services ",761
+2007,data.Saskatchewan,data.,Engineering construction,
+2008,data.Saskatchewan,data.,Engineering construction,
+2009,data.Saskatchewan,data.,Engineering construction,
+2010,data.Saskatchewan,data.,Engineering construction,
+2011,data.Saskatchewan,data.,Engineering construction,
+2012,data.Saskatchewan,data.,Engineering construction,1823
+2013,data.Saskatchewan,data.,Engineering construction,1938
+2014,data.Saskatchewan,data.,Engineering construction,1942
+2015,data.Saskatchewan,data.,Engineering construction,1897
+2016,data.Saskatchewan,data.,Engineering construction,1337
+2017,data.Saskatchewan,data.,Engineering construction,1182
+2018,data.Saskatchewan,data.,Engineering construction,1013
+2019,data.Saskatchewan,data.,Engineering construction,1264
+2007,data.Saskatchewan,data.Manufacturing,
+2008,data.Saskatchewan,data.Manufacturing,
+2009,data.Saskatchewan,data.Manufacturing,
+2010,data.Saskatchewan,data.Manufacturing,
+2011,data.Saskatchewan,data.Manufacturing,
+2012,data.Saskatchewan,data.Manufacturing,479
+2013,data.Saskatchewan,data.Manufacturing,390
+2014,data.Saskatchewan,data.Manufacturing,388
+2015,data.Saskatchewan,data.Manufacturing,956
+2016,data.Saskatchewan,data.Manufacturing,486
+2017,data.Saskatchewan,data.Manufacturing,353
+2018,data.Saskatchewan,data.Manufacturing,649
+2019,data.Saskatchewan,data.Manufacturing,559
+2007,data.Saskatchewan,"data.Professional, scientific and technical services",
+2008,data.Saskatchewan,"data.Professional, scientific and technical services",
+2009,data.Saskatchewan,"data.Professional, scientific and technical services",
+2010,data.Saskatchewan,"data.Professional, scientific and technical services",
+2011,data.Saskatchewan,"data.Professional, scientific and technical services",
+2012,data.Saskatchewan,"data.Professional, scientific and technical services",449
+2013,data.Saskatchewan,"data.Professional, scientific and technical services",508
+2014,data.Saskatchewan,"data.Professional, scientific and technical services",561
+2015,data.Saskatchewan,"data.Professional, scientific and technical services",582
+2016,data.Saskatchewan,"data.Professional, scientific and technical services",637
+2017,data.Saskatchewan,"data.Professional, scientific and technical services",1067
+2018,data.Saskatchewan,"data.Professional, scientific and technical services",653
+2019,data.Saskatchewan,"data.Professional, scientific and technical services",761
 2007,data.Saskatchewan,data.Other industries,
 2008,data.Saskatchewan,data.Other industries,
 2009,data.Saskatchewan,data.Other industries,
@@ -597,45 +597,45 @@ Year,data.Geography,data.Industry,Value
 2017,data.Alberta,"data.Total, all clean technology industries",23209
 2018,data.Alberta,"data.Total, all clean technology industries",20632
 2019,data.Alberta,"data.Total, all clean technology industries",21522
-2007,data.Alberta,data.Engineering construction ,
-2008,data.Alberta,data.Engineering construction ,
-2009,data.Alberta,data.Engineering construction ,
-2010,data.Alberta,data.Engineering construction ,
-2011,data.Alberta,data.Engineering construction ,
-2012,data.Alberta,data.Engineering construction ,5651
-2013,data.Alberta,data.Engineering construction ,7092
-2014,data.Alberta,data.Engineering construction ,6160
-2015,data.Alberta,data.Engineering construction ,5384
-2016,data.Alberta,data.Engineering construction ,6511
-2017,data.Alberta,data.Engineering construction ,6514
-2018,data.Alberta,data.Engineering construction ,6410
-2019,data.Alberta,data.Engineering construction ,6879
-2007,data.Alberta,data.Manufacturing ,
-2008,data.Alberta,data.Manufacturing ,
-2009,data.Alberta,data.Manufacturing ,
-2010,data.Alberta,data.Manufacturing ,
-2011,data.Alberta,data.Manufacturing ,
-2012,data.Alberta,data.Manufacturing ,1507
-2013,data.Alberta,data.Manufacturing ,1421
-2014,data.Alberta,data.Manufacturing ,1574
-2015,data.Alberta,data.Manufacturing ,1734
-2016,data.Alberta,data.Manufacturing ,1666
-2017,data.Alberta,data.Manufacturing ,2191
-2018,data.Alberta,data.Manufacturing ,2483
-2019,data.Alberta,data.Manufacturing ,2264
-2007,data.Alberta,"data.Professional, scientific and technical services ",
-2008,data.Alberta,"data.Professional, scientific and technical services ",
-2009,data.Alberta,"data.Professional, scientific and technical services ",
-2010,data.Alberta,"data.Professional, scientific and technical services ",
-2011,data.Alberta,"data.Professional, scientific and technical services ",
-2012,data.Alberta,"data.Professional, scientific and technical services ",4027
-2013,data.Alberta,"data.Professional, scientific and technical services ",4211
-2014,data.Alberta,"data.Professional, scientific and technical services ",4801
-2015,data.Alberta,"data.Professional, scientific and technical services ",5504
-2016,data.Alberta,"data.Professional, scientific and technical services ",5773
-2017,data.Alberta,"data.Professional, scientific and technical services ",7182
-2018,data.Alberta,"data.Professional, scientific and technical services ",5353
-2019,data.Alberta,"data.Professional, scientific and technical services ",5978
+2007,data.Alberta,data.,Engineering construction,
+2008,data.Alberta,data.,Engineering construction,
+2009,data.Alberta,data.,Engineering construction,
+2010,data.Alberta,data.,Engineering construction,
+2011,data.Alberta,data.,Engineering construction,
+2012,data.Alberta,data.,Engineering construction,5651
+2013,data.Alberta,data.,Engineering construction,7092
+2014,data.Alberta,data.,Engineering construction,6160
+2015,data.Alberta,data.,Engineering construction,5384
+2016,data.Alberta,data.,Engineering construction,6511
+2017,data.Alberta,data.,Engineering construction,6514
+2018,data.Alberta,data.,Engineering construction,6410
+2019,data.Alberta,data.,Engineering construction,6879
+2007,data.Alberta,data.Manufacturing,
+2008,data.Alberta,data.Manufacturing,
+2009,data.Alberta,data.Manufacturing,
+2010,data.Alberta,data.Manufacturing,
+2011,data.Alberta,data.Manufacturing,
+2012,data.Alberta,data.Manufacturing,1507
+2013,data.Alberta,data.Manufacturing,1421
+2014,data.Alberta,data.Manufacturing,1574
+2015,data.Alberta,data.Manufacturing,1734
+2016,data.Alberta,data.Manufacturing,1666
+2017,data.Alberta,data.Manufacturing,2191
+2018,data.Alberta,data.Manufacturing,2483
+2019,data.Alberta,data.Manufacturing,2264
+2007,data.Alberta,"data.Professional, scientific and technical services",
+2008,data.Alberta,"data.Professional, scientific and technical services",
+2009,data.Alberta,"data.Professional, scientific and technical services",
+2010,data.Alberta,"data.Professional, scientific and technical services",
+2011,data.Alberta,"data.Professional, scientific and technical services",
+2012,data.Alberta,"data.Professional, scientific and technical services",4027
+2013,data.Alberta,"data.Professional, scientific and technical services",4211
+2014,data.Alberta,"data.Professional, scientific and technical services",4801
+2015,data.Alberta,"data.Professional, scientific and technical services",5504
+2016,data.Alberta,"data.Professional, scientific and technical services",5773
+2017,data.Alberta,"data.Professional, scientific and technical services",7182
+2018,data.Alberta,"data.Professional, scientific and technical services",5353
+2019,data.Alberta,"data.Professional, scientific and technical services",5978
 2007,data.Alberta,data.Other industries,
 2008,data.Alberta,data.Other industries,
 2009,data.Alberta,data.Other industries,
@@ -662,45 +662,45 @@ Year,data.Geography,data.Industry,Value
 2017,data.British Columbia,"data.Total, all clean technology industries",27434
 2018,data.British Columbia,"data.Total, all clean technology industries",25529
 2019,data.British Columbia,"data.Total, all clean technology industries",27480
-2007,data.British Columbia,data.Engineering construction ,
-2008,data.British Columbia,data.Engineering construction ,
-2009,data.British Columbia,data.Engineering construction ,
-2010,data.British Columbia,data.Engineering construction ,
-2011,data.British Columbia,data.Engineering construction ,
-2012,data.British Columbia,data.Engineering construction ,8432
-2013,data.British Columbia,data.Engineering construction ,8065
-2014,data.British Columbia,data.Engineering construction ,7576
-2015,data.British Columbia,data.Engineering construction ,7102
-2016,data.British Columbia,data.Engineering construction ,7348
-2017,data.British Columbia,data.Engineering construction ,8439
-2018,data.British Columbia,data.Engineering construction ,6631
-2019,data.British Columbia,data.Engineering construction ,7267
-2007,data.British Columbia,data.Manufacturing ,
-2008,data.British Columbia,data.Manufacturing ,
-2009,data.British Columbia,data.Manufacturing ,
-2010,data.British Columbia,data.Manufacturing ,
-2011,data.British Columbia,data.Manufacturing ,
-2012,data.British Columbia,data.Manufacturing ,4333
-2013,data.British Columbia,data.Manufacturing ,4106
-2014,data.British Columbia,data.Manufacturing ,4177
-2015,data.British Columbia,data.Manufacturing ,4508
-2016,data.British Columbia,data.Manufacturing ,4713
-2017,data.British Columbia,data.Manufacturing ,5870
-2018,data.British Columbia,data.Manufacturing ,5195
-2019,data.British Columbia,data.Manufacturing ,5457
-2007,data.British Columbia,"data.Professional, scientific and technical services ",
-2008,data.British Columbia,"data.Professional, scientific and technical services ",
-2009,data.British Columbia,"data.Professional, scientific and technical services ",
-2010,data.British Columbia,"data.Professional, scientific and technical services ",
-2011,data.British Columbia,"data.Professional, scientific and technical services ",
-2012,data.British Columbia,"data.Professional, scientific and technical services ",3759
-2013,data.British Columbia,"data.Professional, scientific and technical services ",3731
-2014,data.British Columbia,"data.Professional, scientific and technical services ",4076
-2015,data.British Columbia,"data.Professional, scientific and technical services ",4630
-2016,data.British Columbia,"data.Professional, scientific and technical services ",5094
-2017,data.British Columbia,"data.Professional, scientific and technical services ",6005
-2018,data.British Columbia,"data.Professional, scientific and technical services ",6224
-2019,data.British Columbia,"data.Professional, scientific and technical services ",7335
+2007,data.British Columbia,data.,Engineering construction,
+2008,data.British Columbia,data.,Engineering construction,
+2009,data.British Columbia,data.,Engineering construction,
+2010,data.British Columbia,data.,Engineering construction,
+2011,data.British Columbia,data.,Engineering construction,
+2012,data.British Columbia,data.,Engineering construction,8432
+2013,data.British Columbia,data.,Engineering construction,8065
+2014,data.British Columbia,data.,Engineering construction,7576
+2015,data.British Columbia,data.,Engineering construction,7102
+2016,data.British Columbia,data.,Engineering construction,7348
+2017,data.British Columbia,data.,Engineering construction,8439
+2018,data.British Columbia,data.,Engineering construction,6631
+2019,data.British Columbia,data.,Engineering construction,7267
+2007,data.British Columbia,data.Manufacturing,
+2008,data.British Columbia,data.Manufacturing,
+2009,data.British Columbia,data.Manufacturing,
+2010,data.British Columbia,data.Manufacturing,
+2011,data.British Columbia,data.Manufacturing,
+2012,data.British Columbia,data.Manufacturing,4333
+2013,data.British Columbia,data.Manufacturing,4106
+2014,data.British Columbia,data.Manufacturing,4177
+2015,data.British Columbia,data.Manufacturing,4508
+2016,data.British Columbia,data.Manufacturing,4713
+2017,data.British Columbia,data.Manufacturing,5870
+2018,data.British Columbia,data.Manufacturing,5195
+2019,data.British Columbia,data.Manufacturing,5457
+2007,data.British Columbia,"data.Professional, scientific and technical services",
+2008,data.British Columbia,"data.Professional, scientific and technical services",
+2009,data.British Columbia,"data.Professional, scientific and technical services",
+2010,data.British Columbia,"data.Professional, scientific and technical services",
+2011,data.British Columbia,"data.Professional, scientific and technical services",
+2012,data.British Columbia,"data.Professional, scientific and technical services",3759
+2013,data.British Columbia,"data.Professional, scientific and technical services",3731
+2014,data.British Columbia,"data.Professional, scientific and technical services",4076
+2015,data.British Columbia,"data.Professional, scientific and technical services",4630
+2016,data.British Columbia,"data.Professional, scientific and technical services",5094
+2017,data.British Columbia,"data.Professional, scientific and technical services",6005
+2018,data.British Columbia,"data.Professional, scientific and technical services",6224
+2019,data.British Columbia,"data.Professional, scientific and technical services",7335
 2007,data.British Columbia,data.Other industries,
 2008,data.British Columbia,data.Other industries,
 2009,data.British Columbia,data.Other industries,
@@ -727,45 +727,45 @@ Year,data.Geography,data.Industry,Value
 2017,data.Yukon,"data.Total, all clean technology industries",131
 2018,data.Yukon,"data.Total, all clean technology industries",119
 2019,data.Yukon,"data.Total, all clean technology industries",125
-2007,data.Yukon,data.Engineering construction ,
-2008,data.Yukon,data.Engineering construction ,
-2009,data.Yukon,data.Engineering construction ,
-2010,data.Yukon,data.Engineering construction ,
-2011,data.Yukon,data.Engineering construction ,
-2012,data.Yukon,data.Engineering construction ,141
-2013,data.Yukon,data.Engineering construction ,120
-2014,data.Yukon,data.Engineering construction ,162
-2015,data.Yukon,data.Engineering construction ,118
-2016,data.Yukon,data.Engineering construction ,93
-2017,data.Yukon,data.Engineering construction ,85
-2018,data.Yukon,data.Engineering construction ,68
-2019,data.Yukon,data.Engineering construction ,74
-2007,data.Yukon,data.Manufacturing ,
-2008,data.Yukon,data.Manufacturing ,
-2009,data.Yukon,data.Manufacturing ,
-2010,data.Yukon,data.Manufacturing ,
-2011,data.Yukon,data.Manufacturing ,
-2012,data.Yukon,data.Manufacturing ,
-2013,data.Yukon,data.Manufacturing ,
-2014,data.Yukon,data.Manufacturing ,
-2015,data.Yukon,data.Manufacturing ,
-2016,data.Yukon,data.Manufacturing ,
-2017,data.Yukon,data.Manufacturing ,
-2018,data.Yukon,data.Manufacturing ,
-2019,data.Yukon,data.Manufacturing ,
-2007,data.Yukon,"data.Professional, scientific and technical services ",
-2008,data.Yukon,"data.Professional, scientific and technical services ",
-2009,data.Yukon,"data.Professional, scientific and technical services ",
-2010,data.Yukon,"data.Professional, scientific and technical services ",
-2011,data.Yukon,"data.Professional, scientific and technical services ",
-2012,data.Yukon,"data.Professional, scientific and technical services ",
-2013,data.Yukon,"data.Professional, scientific and technical services ",
-2014,data.Yukon,"data.Professional, scientific and technical services ",
-2015,data.Yukon,"data.Professional, scientific and technical services ",
-2016,data.Yukon,"data.Professional, scientific and technical services ",
-2017,data.Yukon,"data.Professional, scientific and technical services ",
-2018,data.Yukon,"data.Professional, scientific and technical services ",
-2019,data.Yukon,"data.Professional, scientific and technical services ",
+2007,data.Yukon,data.,Engineering construction,
+2008,data.Yukon,data.,Engineering construction,
+2009,data.Yukon,data.,Engineering construction,
+2010,data.Yukon,data.,Engineering construction,
+2011,data.Yukon,data.,Engineering construction,
+2012,data.Yukon,data.,Engineering construction,141
+2013,data.Yukon,data.,Engineering construction,120
+2014,data.Yukon,data.,Engineering construction,162
+2015,data.Yukon,data.,Engineering construction,118
+2016,data.Yukon,data.,Engineering construction,93
+2017,data.Yukon,data.,Engineering construction,85
+2018,data.Yukon,data.,Engineering construction,68
+2019,data.Yukon,data.,Engineering construction,74
+2007,data.Yukon,data.Manufacturing,
+2008,data.Yukon,data.Manufacturing,
+2009,data.Yukon,data.Manufacturing,
+2010,data.Yukon,data.Manufacturing,
+2011,data.Yukon,data.Manufacturing,
+2012,data.Yukon,data.Manufacturing,
+2013,data.Yukon,data.Manufacturing,
+2014,data.Yukon,data.Manufacturing,
+2015,data.Yukon,data.Manufacturing,
+2016,data.Yukon,data.Manufacturing,
+2017,data.Yukon,data.Manufacturing,
+2018,data.Yukon,data.Manufacturing,
+2019,data.Yukon,data.Manufacturing,
+2007,data.Yukon,"data.Professional, scientific and technical services",
+2008,data.Yukon,"data.Professional, scientific and technical services",
+2009,data.Yukon,"data.Professional, scientific and technical services",
+2010,data.Yukon,"data.Professional, scientific and technical services",
+2011,data.Yukon,"data.Professional, scientific and technical services",
+2012,data.Yukon,"data.Professional, scientific and technical services",
+2013,data.Yukon,"data.Professional, scientific and technical services",
+2014,data.Yukon,"data.Professional, scientific and technical services",
+2015,data.Yukon,"data.Professional, scientific and technical services",
+2016,data.Yukon,"data.Professional, scientific and technical services",
+2017,data.Yukon,"data.Professional, scientific and technical services",
+2018,data.Yukon,"data.Professional, scientific and technical services",
+2019,data.Yukon,"data.Professional, scientific and technical services",
 2007,data.Yukon,data.Other industries,
 2008,data.Yukon,data.Other industries,
 2009,data.Yukon,data.Other industries,
@@ -792,45 +792,45 @@ Year,data.Geography,data.Industry,Value
 2017,data.Northwest Territories,"data.Total, all clean technology industries",192
 2018,data.Northwest Territories,"data.Total, all clean technology industries",172
 2019,data.Northwest Territories,"data.Total, all clean technology industries",184
-2007,data.Northwest Territories,data.Engineering construction ,
-2008,data.Northwest Territories,data.Engineering construction ,
-2009,data.Northwest Territories,data.Engineering construction ,
-2010,data.Northwest Territories,data.Engineering construction ,
-2011,data.Northwest Territories,data.Engineering construction ,
-2012,data.Northwest Territories,data.Engineering construction ,22
-2013,data.Northwest Territories,data.Engineering construction ,20
-2014,data.Northwest Territories,data.Engineering construction ,204
-2015,data.Northwest Territories,data.Engineering construction ,609
-2016,data.Northwest Territories,data.Engineering construction ,447
-2017,data.Northwest Territories,data.Engineering construction ,85
-2018,data.Northwest Territories,data.Engineering construction ,52
-2019,data.Northwest Territories,data.Engineering construction ,59
-2007,data.Northwest Territories,data.Manufacturing ,
-2008,data.Northwest Territories,data.Manufacturing ,
-2009,data.Northwest Territories,data.Manufacturing ,
-2010,data.Northwest Territories,data.Manufacturing ,
-2011,data.Northwest Territories,data.Manufacturing ,
-2012,data.Northwest Territories,data.Manufacturing ,
-2013,data.Northwest Territories,data.Manufacturing ,
-2014,data.Northwest Territories,data.Manufacturing ,
-2015,data.Northwest Territories,data.Manufacturing ,
-2016,data.Northwest Territories,data.Manufacturing ,
-2017,data.Northwest Territories,data.Manufacturing ,
-2018,data.Northwest Territories,data.Manufacturing ,
-2019,data.Northwest Territories,data.Manufacturing ,
-2007,data.Northwest Territories,"data.Professional, scientific and technical services ",
-2008,data.Northwest Territories,"data.Professional, scientific and technical services ",
-2009,data.Northwest Territories,"data.Professional, scientific and technical services ",
-2010,data.Northwest Territories,"data.Professional, scientific and technical services ",
-2011,data.Northwest Territories,"data.Professional, scientific and technical services ",
-2012,data.Northwest Territories,"data.Professional, scientific and technical services ",27
-2013,data.Northwest Territories,"data.Professional, scientific and technical services ",28
-2014,data.Northwest Territories,"data.Professional, scientific and technical services ",43
-2015,data.Northwest Territories,"data.Professional, scientific and technical services ",57
-2016,data.Northwest Territories,"data.Professional, scientific and technical services ",50
-2017,data.Northwest Territories,"data.Professional, scientific and technical services ",27
-2018,data.Northwest Territories,"data.Professional, scientific and technical services ",38
-2019,data.Northwest Territories,"data.Professional, scientific and technical services ",40
+2007,data.Northwest Territories,data.,Engineering construction,
+2008,data.Northwest Territories,data.,Engineering construction,
+2009,data.Northwest Territories,data.,Engineering construction,
+2010,data.Northwest Territories,data.,Engineering construction,
+2011,data.Northwest Territories,data.,Engineering construction,
+2012,data.Northwest Territories,data.,Engineering construction,22
+2013,data.Northwest Territories,data.,Engineering construction,20
+2014,data.Northwest Territories,data.,Engineering construction,204
+2015,data.Northwest Territories,data.,Engineering construction,609
+2016,data.Northwest Territories,data.,Engineering construction,447
+2017,data.Northwest Territories,data.,Engineering construction,85
+2018,data.Northwest Territories,data.,Engineering construction,52
+2019,data.Northwest Territories,data.,Engineering construction,59
+2007,data.Northwest Territories,data.Manufacturing,
+2008,data.Northwest Territories,data.Manufacturing,
+2009,data.Northwest Territories,data.Manufacturing,
+2010,data.Northwest Territories,data.Manufacturing,
+2011,data.Northwest Territories,data.Manufacturing,
+2012,data.Northwest Territories,data.Manufacturing,
+2013,data.Northwest Territories,data.Manufacturing,
+2014,data.Northwest Territories,data.Manufacturing,
+2015,data.Northwest Territories,data.Manufacturing,
+2016,data.Northwest Territories,data.Manufacturing,
+2017,data.Northwest Territories,data.Manufacturing,
+2018,data.Northwest Territories,data.Manufacturing,
+2019,data.Northwest Territories,data.Manufacturing,
+2007,data.Northwest Territories,"data.Professional, scientific and technical services",
+2008,data.Northwest Territories,"data.Professional, scientific and technical services",
+2009,data.Northwest Territories,"data.Professional, scientific and technical services",
+2010,data.Northwest Territories,"data.Professional, scientific and technical services",
+2011,data.Northwest Territories,"data.Professional, scientific and technical services",
+2012,data.Northwest Territories,"data.Professional, scientific and technical services",27
+2013,data.Northwest Territories,"data.Professional, scientific and technical services",28
+2014,data.Northwest Territories,"data.Professional, scientific and technical services",43
+2015,data.Northwest Territories,"data.Professional, scientific and technical services",57
+2016,data.Northwest Territories,"data.Professional, scientific and technical services",50
+2017,data.Northwest Territories,"data.Professional, scientific and technical services",27
+2018,data.Northwest Territories,"data.Professional, scientific and technical services",38
+2019,data.Northwest Territories,"data.Professional, scientific and technical services",40
 2007,data.Northwest Territories,data.Other industries,
 2008,data.Northwest Territories,data.Other industries,
 2009,data.Northwest Territories,data.Other industries,
@@ -857,45 +857,45 @@ Year,data.Geography,data.Industry,Value
 2017,data.Nunavut,"data.Total, all clean technology industries",83
 2018,data.Nunavut,"data.Total, all clean technology industries",104
 2019,data.Nunavut,"data.Total, all clean technology industries",85
-2007,data.Nunavut,data.Engineering construction ,
-2008,data.Nunavut,data.Engineering construction ,
-2009,data.Nunavut,data.Engineering construction ,
-2010,data.Nunavut,data.Engineering construction ,
-2011,data.Nunavut,data.Engineering construction ,
-2012,data.Nunavut,data.Engineering construction ,32
-2013,data.Nunavut,data.Engineering construction ,14
-2014,data.Nunavut,data.Engineering construction ,126
-2015,data.Nunavut,data.Engineering construction ,13
-2016,data.Nunavut,data.Engineering construction ,57
-2017,data.Nunavut,data.Engineering construction ,15
-2018,data.Nunavut,data.Engineering construction ,45
-2019,data.Nunavut,data.Engineering construction ,22
-2007,data.Nunavut,data.Manufacturing ,
-2008,data.Nunavut,data.Manufacturing ,
-2009,data.Nunavut,data.Manufacturing ,
-2010,data.Nunavut,data.Manufacturing ,
-2011,data.Nunavut,data.Manufacturing ,
-2012,data.Nunavut,data.Manufacturing ,
-2013,data.Nunavut,data.Manufacturing ,
-2014,data.Nunavut,data.Manufacturing ,
-2015,data.Nunavut,data.Manufacturing ,
-2016,data.Nunavut,data.Manufacturing ,
-2017,data.Nunavut,data.Manufacturing ,
-2018,data.Nunavut,data.Manufacturing ,
-2019,data.Nunavut,data.Manufacturing ,
-2007,data.Nunavut,"data.Professional, scientific and technical services ",
-2008,data.Nunavut,"data.Professional, scientific and technical services ",
-2009,data.Nunavut,"data.Professional, scientific and technical services ",
-2010,data.Nunavut,"data.Professional, scientific and technical services ",
-2011,data.Nunavut,"data.Professional, scientific and technical services ",
-2012,data.Nunavut,"data.Professional, scientific and technical services ",9
-2013,data.Nunavut,"data.Professional, scientific and technical services ",8
-2014,data.Nunavut,"data.Professional, scientific and technical services ",13
-2015,data.Nunavut,"data.Professional, scientific and technical services ",14
-2016,data.Nunavut,"data.Professional, scientific and technical services ",17
-2017,data.Nunavut,"data.Professional, scientific and technical services ",11
-2018,data.Nunavut,"data.Professional, scientific and technical services ",
-2019,data.Nunavut,"data.Professional, scientific and technical services ",
+2007,data.Nunavut,data.,Engineering construction,
+2008,data.Nunavut,data.,Engineering construction,
+2009,data.Nunavut,data.,Engineering construction,
+2010,data.Nunavut,data.,Engineering construction,
+2011,data.Nunavut,data.,Engineering construction,
+2012,data.Nunavut,data.,Engineering construction,32
+2013,data.Nunavut,data.,Engineering construction,14
+2014,data.Nunavut,data.,Engineering construction,126
+2015,data.Nunavut,data.,Engineering construction,13
+2016,data.Nunavut,data.,Engineering construction,57
+2017,data.Nunavut,data.,Engineering construction,15
+2018,data.Nunavut,data.,Engineering construction,45
+2019,data.Nunavut,data.,Engineering construction,22
+2007,data.Nunavut,data.Manufacturing,
+2008,data.Nunavut,data.Manufacturing,
+2009,data.Nunavut,data.Manufacturing,
+2010,data.Nunavut,data.Manufacturing,
+2011,data.Nunavut,data.Manufacturing,
+2012,data.Nunavut,data.Manufacturing,
+2013,data.Nunavut,data.Manufacturing,
+2014,data.Nunavut,data.Manufacturing,
+2015,data.Nunavut,data.Manufacturing,
+2016,data.Nunavut,data.Manufacturing,
+2017,data.Nunavut,data.Manufacturing,
+2018,data.Nunavut,data.Manufacturing,
+2019,data.Nunavut,data.Manufacturing,
+2007,data.Nunavut,"data.Professional, scientific and technical services",
+2008,data.Nunavut,"data.Professional, scientific and technical services",
+2009,data.Nunavut,"data.Professional, scientific and technical services",
+2010,data.Nunavut,"data.Professional, scientific and technical services",
+2011,data.Nunavut,"data.Professional, scientific and technical services",
+2012,data.Nunavut,"data.Professional, scientific and technical services",9
+2013,data.Nunavut,"data.Professional, scientific and technical services",8
+2014,data.Nunavut,"data.Professional, scientific and technical services",13
+2015,data.Nunavut,"data.Professional, scientific and technical services",14
+2016,data.Nunavut,"data.Professional, scientific and technical services",17
+2017,data.Nunavut,"data.Professional, scientific and technical services",11
+2018,data.Nunavut,"data.Professional, scientific and technical services",
+2019,data.Nunavut,"data.Professional, scientific and technical services",
 2007,data.Nunavut,data.Other industries,
 2008,data.Nunavut,data.Other industries,
 2009,data.Nunavut,data.Other industries,
