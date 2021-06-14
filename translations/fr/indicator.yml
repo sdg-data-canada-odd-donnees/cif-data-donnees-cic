@@ -10,7 +10,7 @@ download_csv: Télécharger CSV
 download_csv_title: Télécharger en format CSV
 download_headline: Télécharger Headline CSV
 download_headline_title: Télécharger les données de titre au format CSV
-download_source: Télécharger Source CSV
+download_source: Télécharger toutes les données CSV
 download_source_title: Télécharger les données source au format CSV
 download_source_sdmx: Télécharger Source SDMX
 download_source_sdmx_title: Télécharger les données source au format SDMX
@@ -44,7 +44,7 @@ series_help: Choisissez des catégories dans les listes déroulantes ci-dessous 
 source: La source
 sources: Sources
 sub_categories: Sous-catégories
-table: Table
+table: Tableau
 unit_of_measurement: Unité de mesure
 units_type: Type d&#39;unités
 variable_hint: Disponible lorsque le champ '%field' est sélectionné
