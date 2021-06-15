@@ -5,12 +5,12 @@ variable_hint: Available when '%field' is selected
 no_data_hint: No options available because of filters above
 download_headline: Download Headline CSV
 download_headline_title: Download headline data as CSV
-download_source: Download Source CSV
+download_source: Download All Data (CSV)
 download_source_title: Download source data as CSV
 download_source_sdmx: Download Source SDMX
 download_source_sdmx_title: Download source data as SDMX
-download_chart: Download Chart CSV
-download_table: Download Table CSV
+download_chart: Download Chart Data (CSV)
+download_table: Download Table Data (CSV)
 download_csv: Download CSV
 download_csv_title: Download as CSV
 download_chart_image: Download Chart Image
