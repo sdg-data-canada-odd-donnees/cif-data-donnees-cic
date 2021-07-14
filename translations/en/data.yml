@@ -32,11 +32,16 @@ Saskatchewan: Saskatchewan
 Alberta: Alberta
 British Columbia: British Columbia
 British Columbia and the Territories: British Columbia and the Territories
+Territories: Territories
 Yukon: Yukon
 Northwest Territories: Northwest Territories
 Northwest Territories and Nunavut: Northwest Territories and Nunavut
 Nunavut: Nunavut
 Yukon, Northwest Territories and Nunavut: Yukon, Northwest Territories and Nunavut
+Winnipeg Manitoba: Winnipeg Manitoba
+Northern and Rural Manitoba: Northern and Rural Manitoba
+Whitehorse Yukon: Whitehorse Yukon
+Yellowknife Northwest Territories: Yellowknife Northwest Territories
 
 ## Age
 Age: Age
@@ -255,9 +260,13 @@ Accidents (unintentional injuries) [V01-X59, Y85-Y86]: Accidents (unintentional 
 Intentional self-harm (suicide) [X60-X84, Y87.0]: Intentional self-harm (suicide)
 
 ## 3-12-1
-Deaths or hospitalizations: Deaths or hospitalizations
-Hospitalizations: Hospitalizations
-Deaths: Deaths
+Rate per 100,000 population: Rate per 100,000 population
+Type of event: Type of event
+Apparent opioid toxicity deaths: Apparent opioid toxicity deaths
+Opioid-related poisoning hospitalizations: Opioid-related poisoning hospitalizations
+Stimulant-related poisoning hospitalizations: Stimulant-related poisoning hospitalizations
+EMS responses to suspected opioid-related overdoses: EMS responses to suspected opioid-related overdoses
+Apparent stimulant toxicity deaths: Apparent stimulant toxicity deaths
 
 ## 4-1-1
 Age group: Age group
