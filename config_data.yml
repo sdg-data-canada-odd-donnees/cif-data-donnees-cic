@@ -93,7 +93,7 @@ map_layers:
   - geojson_file: https://github.com/sdg-data-canada-odd-donnees/cif-cic_dev/blob/develop/assets/maps/georef-canada-province.geojson
     name_property: prov_name_en
     id_property: prov_code
-    output_subfolder: regions
+    output_subfolder: maps
     filename_prefix: indicator_
 
 # Documentation settings
