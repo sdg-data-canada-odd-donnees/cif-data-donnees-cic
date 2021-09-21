@@ -1,0 +1,59 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "iso8859-1",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Type of intimate partner violence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Emotional, financial, or psychological abuse",
+                "data.Physical abuse",
+                "data.Sexual abuse",
+                "data.Total intimate partner violence",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Selected characteristic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, all women",
+                "data.15 to 24 year old women",
+                "data.Separated or divorced women",
+                "data.LGBTQ2 women",
+                "data.Single women",
+                "data.First Nations, Métis, or Inuit women",
+                "data.Women with disability",
+                "data.Immigrant women",
+                "data.Women designated as visible minorities",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "5-1-2",
+  "title": "Proportion of women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the last 12 months"
+}

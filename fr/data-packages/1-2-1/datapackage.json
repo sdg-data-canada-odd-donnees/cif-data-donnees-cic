@@ -1,0 +1,84 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Age group and family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Personnes de tous âge et types de familles",
+                "Personnes de moins de 18 ans",
+                "Personnes de 18 à 64 ans",
+                "Personnes de 65 ans et plus",
+                "Personnes dans une famille économique",
+                "Personnes dans une famille ayant un couple seulement",
+                "Personnes dans une famille ayant un couple avec enfant",
+                "Personnes dans une famille monoparentale",
+                "Personnes dans un autre type de famille économique",
+                "Personnes hors famille économique",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge et type de famille"
+          },
+          {
+            "name": "data.Statistics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Personnes en situation de résilience des actifs pour au moins un mois",
+                "Personnes en situation de résilience des actifs pour au moins six mois",
+                "Personnes en situation de résilience des actifs pour au moins trois mois",
+                ""
+              ]
+            },
+            "title": "Statistiques"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-2-1",
+  "title": "Prevalence of asset resilience"
+}

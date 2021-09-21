@@ -1,0 +1,65 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Event sub-type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Earthquake",
+                "Epidemic",
+                "Flood",
+                "Heat Event",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Landslide",
+                "Storm - Unspecified / Other",
+                "Storm Surge",
+                "Storms and Severe Thunderstorms",
+                "Tornado",
+                "Wildfire",
+                "Winter Storm"
+              ]
+            },
+            "title": "Event sub-type"
+          },
+          {
+            "name": "data.Event type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Biological",
+                "Geological",
+                "Meteorological - Hydrological"
+              ]
+            },
+            "title": "Event type"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "13-2-1",
+  "title": "Frequency of selected natural disasters"
+}

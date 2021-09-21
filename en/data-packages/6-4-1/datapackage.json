@@ -1,0 +1,90 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number of sites",
+                "Percentage"
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Atlantic Ocean",
+                "Canada",
+                "Great Lakes and St. Lawrence River",
+                "Hudson Bay",
+                "Mackenzie River",
+                "Pacific Ocean"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Land use category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Agriculture",
+                "Forestry",
+                "Mining",
+                "Mixed pressures",
+                "Populated",
+                "Total",
+                "Undeveloped"
+              ]
+            },
+            "title": "Land use category"
+          },
+          {
+            "name": "data.Water quality",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Excellent",
+                "Fair",
+                "Good",
+                "Marginal",
+                "Poor"
+              ]
+            },
+            "title": "Water quality"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "6-4-1",
+  "title": "Water quality in Canadian rivers"
+}

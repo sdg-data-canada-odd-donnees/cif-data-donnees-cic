@@ -1,0 +1,107 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "by 14 years of age",
+                "by 17 years of age",
+                "by 2 years of age",
+                "by 7 years of age"
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Selected diseases",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Diphtheria",
+                "Diphtheria - Pertussis and tetanus",
+                "Diphtheria - Tetanus - acellular Pertussis booster",
+                "Haemophilus influenzae type B",
+                "Hepatitis B",
+                "Human Papillomavirus",
+                "Measles",
+                "Meningococcal type C",
+                "Mumps",
+                "Pertussis",
+                "Pneumococcal",
+                "Polio",
+                "Rotavirus",
+                "Rubella",
+                "Tetanus",
+                "Varicella"
+              ]
+            },
+            "title": "Selected diseases"
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All children",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Sex"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-8-1",
+  "title": "Vaccination rates for selected diseases"
+}

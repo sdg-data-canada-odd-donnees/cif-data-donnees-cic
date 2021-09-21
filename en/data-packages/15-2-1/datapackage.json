@@ -1,0 +1,43 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Population and distribution trends consistent with objectives",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Mixed evidence",
+                "Not on track",
+                "On track"
+              ]
+            },
+            "title": "Population and distribution trends consistent with objectives"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "15-2-1",
+  "title": "Proportion of species at risk showing progress towards their population and distribution objectives"
+}

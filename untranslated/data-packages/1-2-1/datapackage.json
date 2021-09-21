@@ -1,0 +1,79 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group and family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Persons all ages and family types",
+                "data.Persons under 18 years old",
+                "data.Persons 18 to 64 years old",
+                "data.Persons 65 years and older",
+                "data.Persons in an economic family",
+                "data.Persons in a couple only family",
+                "data.Persons in a couple with children family",
+                "data.Persons in a lone-parent family",
+                "data.Persons in an other economic family type",
+                "data.Persons not in an economic family",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Statistics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Asset resilient for at least one month",
+                "data.Asset resilient for at least six months",
+                "data.Asset resilient for at least three months",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-2-1",
+  "title": "Prevalence of asset resilience"
+}

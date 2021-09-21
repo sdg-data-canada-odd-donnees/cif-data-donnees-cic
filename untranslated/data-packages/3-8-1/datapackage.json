@@ -1,0 +1,101 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Selected diseases",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Diphtheria",
+                "data.Pertussis",
+                "data.Tetanus",
+                "data.Polio",
+                "data.Haemophilus influenzae type B",
+                "data.Measles",
+                "data.Mumps",
+                "data.Rubella",
+                "data.Hepatitis B",
+                "data.Varicella",
+                "data.Meningococcal type C",
+                "data.Pneumococcal",
+                "data.Rotavirus",
+                "data.Human Papillomavirus",
+                "data.Diphtheria - Tetanus - acellular Pertussis booster",
+                "data.Diphtheria - Pertussis and tetanus",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.by 2 years of age",
+                "data.by 7 years of age",
+                "data.by 14 years of age",
+                "data.by 17 years of age",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.All children",
+                "data.Male",
+                "data.Female",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-8-1",
+  "title": "Vaccination rates for selected diseases"
+}

@@ -1,0 +1,60 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Pillar",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Cross-border flows to TOSSD-eligible countries",
+                "Global and regional expenditures for international public goods"
+              ]
+            },
+            "title": "Pillar"
+          },
+          {
+            "name": "data.Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Africa",
+                "All regions",
+                "America",
+                "Asia",
+                "Europe",
+                "Global",
+                "Middle East",
+                "Oceania"
+              ]
+            },
+            "title": "Region"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "17-2-1",
+  "title": "Total official support for sustainable development"
+}

@@ -1,0 +1,86 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number",
+                "Rate per 100,000 population"
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northern and Rural Manitoba",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Territories",
+                "Whitehorse Yukon",
+                "Winnipeg Manitoba",
+                "Yellowknife Northwest Territories",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Type of event",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Apparent opioid toxicity deaths",
+                "Apparent stimulant toxicity deaths",
+                "EMS responses to suspected opioid-related overdoses",
+                "Opioid-related poisoning hospitalizations",
+                "Stimulant-related poisoning hospitalizations"
+              ]
+            },
+            "title": "Type of event"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-12-1",
+  "title": "Incidence of opioid and stimulant overdose related harms"
+}

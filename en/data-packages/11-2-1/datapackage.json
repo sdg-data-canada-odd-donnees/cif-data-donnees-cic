@@ -1,0 +1,62 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Living with housing problems",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Living in core housing need",
+                "Living in inadequate housing",
+                "Living in unaffordable housing",
+                "Living in unsuitable housing"
+              ]
+            },
+            "title": "Living with housing problems"
+          },
+          {
+            "name": "data.Selected housing vulnerable populations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All households",
+                "Lone-parent family households whose reference person is female",
+                "Lone-parent family households whose reference person is male",
+                "Men living alone",
+                "Reference person who experienced homelessness",
+                "Total, lone-parent family households",
+                "Total, one person households",
+                "Women living alone"
+              ]
+            },
+            "title": "Selected housing vulnerable populations"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "11-2-1",
+  "title": "Proportion of households in core housing need"
+}

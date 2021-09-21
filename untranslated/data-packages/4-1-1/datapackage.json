@@ -1,0 +1,97 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Both sexes",
+                "data.Males",
+                "data.Females",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, persons aged 15 years and over",
+                "data.15 to 24 years",
+                "data.25 to 64 years",
+                "data.65 to 74 years",
+                "data.75 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Selected demographic characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Non immigrants",
+                "data.Immigrants",
+                "data.Non-permanent residents",
+                "data.Total visible minority population",
+                "data.Not a visible minority",
+                "data.Total Aboriginal identity",
+                "data.First Nations (North American Indian)",
+                "data.Métis",
+                "data.Inuk (Inuit)",
+                "data.Non-Aboriginal identity",
+                "data.Total, all persons",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-1-1",
+  "title": "High school completion rate"
+}

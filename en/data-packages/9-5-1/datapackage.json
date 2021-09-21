@@ -1,0 +1,77 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Asset",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Commercial buildings",
+                "Communications networks",
+                "Electric power infrastructure",
+                "Institutional buildings",
+                "Marine engineering infrastructure",
+                "Oil and gas engineering construction",
+                "Other engineering construction",
+                "Other machinery and equipment",
+                "Sewage infrastructure",
+                "Total assets",
+                "Transportation engineering infrastructure",
+                "Transportation machinery and equipment",
+                "Waterworks infrastructure"
+              ]
+            },
+            "title": "Asset"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "9-5-1",
+  "title": "Greenhouse gas emissions per dollar of value-added from the production of infrastructure assets"
+}

@@ -1,0 +1,92 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Atlantique",
+                "Québec",
+                "Ontario",
+                "Prairies",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Activity group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Activités de travail non-rémunéré",
+                "Tâches domestiques",
+                "Soins à un enfant du ménage de moins de 18 ans",
+                "Soins à un adulte du ménage",
+                "Magasinage de biens ou de services",
+                ""
+              ]
+            },
+            "title": "Groupe d'activité"
+          },
+          {
+            "name": "data.Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 15 ans et plus",
+                "15 à 24 ans",
+                "25 à 54 ans",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                "65 ans et plus",
+                ""
+              ]
+            },
+            "title": "Âge"
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Les deux sexes",
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "5-3-1",
+  "title": "Proportion of time spent on unpaid domestic and care work"
+}

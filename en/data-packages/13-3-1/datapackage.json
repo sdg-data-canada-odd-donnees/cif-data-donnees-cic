@@ -1,0 +1,98 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number",
+                "Percentage"
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Core public infrastructure assets",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Potable water",
+                "Solid waste",
+                "Stormwater",
+                "Wastewater"
+              ]
+            },
+            "title": "Core public infrastructure assets"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Type of municipality by population size",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All municipalities",
+                "All rural municipalities",
+                "All urban municipalities",
+                "Rural municipalities, population 1 to 4,999",
+                "Rural municipalities, population 5,000 or more",
+                "Urban municipalities, population 1 to 4,999",
+                "Urban municipalities, population 30,000 or more",
+                "Urban municipalities, population 5,000 to 29,999"
+              ]
+            },
+            "title": "Type of municipality by population size"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "13-3-1",
+  "title": "Proportion of municipal organization who factored climate change adaptation into their decision-making process"
+}

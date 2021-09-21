@@ -1,0 +1,78 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Environmental protection activities or management practices",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Air pollution management",
+                "Noise and vibration abatement",
+                "Protection and remediation of soil, groundwater and surface water",
+                "Protection of biodiversity and habitat",
+                "Sold carbon offset credits only or sold more than purchased",
+                "Total, environmental protection activities",
+                "Wastewater management"
+              ]
+            },
+            "title": "Environmental protection activities or management practices"
+          },
+          {
+            "name": "data.Industries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Beverage and tobacco product manufacturing",
+                "Chemical manufacturing",
+                "Electric power generation, transmission and distribution",
+                "Fabricated metal product manufacturing",
+                "Food manufacturing",
+                "Furniture and related product manufacturing",
+                "Logging (except contract)",
+                "Machinery manufacturing",
+                "Mining and quarrying",
+                "Natural gas distribution",
+                "Non-metallic mineral product manufacturing",
+                "Oil and gas extraction",
+                "Other manufacturing industries",
+                "Paper manufacturing",
+                "Petroleum and coal product manufacturing",
+                "Pipeline transportation",
+                "Plastics and rubber products manufacturing",
+                "Primary metal manufacturing",
+                "Total, industries",
+                "Transportation equipment manufacturing",
+                "Wood product manufacturing"
+              ]
+            },
+            "title": "Industries"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "12-2-1",
+  "title": "Proportion of businesses that adopted selected environmental protection activities and management practices"
+}

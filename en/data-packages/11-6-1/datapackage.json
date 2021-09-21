@@ -1,0 +1,65 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon, Northwest Territories and Nunavut"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Sources of waste for disposal",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All sources of waste for disposal",
+                "Non-residential sources of waste for disposal",
+                "Residential sources of waste for disposal"
+              ]
+            },
+            "title": "Sources of waste for disposal"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "11-6-1",
+  "title": "Total waste disposal per capita"
+}

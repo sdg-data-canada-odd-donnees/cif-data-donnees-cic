@@ -1,0 +1,90 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Territories"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Sources of materials prepared for recycling",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All sources of diverted materials",
+                "Non-residential sources of diverted materials",
+                "Residential sources of diverted materials"
+              ]
+            },
+            "title": "Sources of materials prepared for recycling"
+          },
+          {
+            "name": "data.Type of materials diverted",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All materials diverted",
+                "All paper fibres",
+                "Construction + renovation and demolition",
+                "Copper and aluminum",
+                "Electronics",
+                "Ferrous metals",
+                "Gable top and aseptic containers",
+                "Glass",
+                "Mixed metals",
+                "Organics",
+                "Other materials",
+                "Plastics",
+                "Textiles",
+                "Tires",
+                "White goods"
+              ]
+            },
+            "title": "Type of materials diverted"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "12-3-1",
+  "title": "Total waste diversion per capita"
+}

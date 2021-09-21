@@ -1,0 +1,49 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Leadership position",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All management occupations",
+                "Judges - Federal government public administration",
+                "Judges - Provincial and territorial public administration",
+                "Members of federal Cabinet",
+                "Members of national Parliament",
+                "Middle management occupations in retail and wholesale trade and customer services",
+                "Middle management occupations in trades - transportation - production and utilities",
+                "Senior management occupations",
+                "Specialized middle management occupations"
+              ]
+            },
+            "title": "Leadership position"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "5-2-1",
+  "title": "Proportion of leadership roles held by women"
+}

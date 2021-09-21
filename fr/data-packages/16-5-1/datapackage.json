@@ -1,0 +1,117 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Année"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tribunaux pour adultes",
+                "Tribunaux de la jeunesse",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Offences",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total des infractions",
+                "Total des infractions au Code criminel",
+                "Infractions contre la personne",
+                "Infractions contre les biens",
+                "Infractions contre l'administration de la justice",
+                "Délits de la route prévus au Code criminel",
+                ""
+              ]
+            },
+            "title": "Infractions"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "18 à 24 ans",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 ans et plus",
+                "12 à 15 ans",
+                "16 et 17 ans",
+                "Autres âges",
+                "Âge n'ayant pas lieu de figurer",
+                ""
+              ]
+            },
+            "title": "Âge"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hommes",
+                "Femmes",
+                "Sociétés",
+                "Sexe inconnu",
+                "Total",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "16-5-1",
+  "title": "Criminal Court case completion time"
+}

@@ -1,0 +1,91 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Couples",
+                "Couples with children",
+                "Couples with other relatives",
+                "Economic families",
+                "Economic families and persons not in an economic family",
+                "Elderly couples",
+                "Elderly families",
+                "Elderly females not in an economic family",
+                "Elderly males not in an economic family",
+                "Elderly persons not in an economic family",
+                "Female lone-parent families",
+                "Lone-parent families",
+                "Male lone-parent families",
+                "Non-elderly families",
+                "Non-elderly females not in an economic family",
+                "Non-elderly males not in an economic family",
+                "Non-elderly persons not in an economic family",
+                "Other elderly families",
+                "Other non-elderly families",
+                "Persons not in an economic family"
+              ]
+            },
+            "title": "Economic family type"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "Atlantic provinces",
+                "British Columbia",
+                "Calgary, Alberta",
+                "Canada",
+                "Edmonton, Alberta",
+                "Manitoba",
+                "Quebec, Montréal",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "Ontario",
+                "Ontario/Quebec, Ottawa-Gatineau",
+                "Prairie provinces",
+                "Prince Edward Island",
+                "Quebec",
+                "Quebec, Québec",
+                "Saskatchewan",
+                "Toronto, Ontario",
+                "Vancouver, British Columbia",
+                "Winnipeg, Manitoba"
+              ]
+            },
+            "title": "Geography"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "10-4-1",
+  "title": "Median household after-tax income"
+}

@@ -1,0 +1,103 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Per capita",
+                "Terajoules"
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Demand characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Agriculture",
+                "Commercial and other institutional",
+                "Energy use - final demand",
+                "Public administration",
+                "Residential",
+                "Total industrial",
+                "Total transportation"
+              ]
+            },
+            "title": "Demand characteristics"
+          },
+          {
+            "name": "data.Fuel type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Coke",
+                "Coke oven gas",
+                "Gas plant natural gas liquids (NGL's)",
+                "Hydroelectricity",
+                "Natural gas",
+                "Nuclear",
+                "Steam",
+                "Total coal",
+                "Total primary and secondary energy",
+                "Total refined petroleum products"
+              ]
+            },
+            "title": "Fuel type"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "7-2-1",
+  "title": "Total energy consumption per capita"
+}

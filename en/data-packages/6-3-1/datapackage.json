@@ -1,0 +1,72 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Accommodation and food services",
+                "Administrative and support, waste management and remediation services",
+                "Agriculture, forestry, fishing and hunting",
+                "Arts, entertainment and recreation",
+                "Construction",
+                "Educational services",
+                "Finance and insurance",
+                "Government Education Services",
+                "Government Health Services",
+                "Health care and social assistance",
+                "Households",
+                "Information and cultural industries",
+                "Manufacturing",
+                "Mining, quarrying, and oil and gas extraction",
+                "Miscellaneous non-profit institutions serving households",
+                "Non-Profit Education Services",
+                "Non-Profit Social Assistance",
+                "Non-profit arts, entertainment and recreation",
+                "Other Aboriginal Government Services",
+                "Other Municipal Government Services",
+                "Other federal government services",
+                "Other finance, insurance and real estate services and management of companies and enterprises",
+                "Other provincial and territorial government services",
+                "Other services (except public administration)",
+                "Professional, scientific and technical services",
+                "Real estate and rental and leasing",
+                "Religious organizations",
+                "Retail trade",
+                "Total, industries",
+                "Transportation and warehousing",
+                "Utilities",
+                "Wholesale trade"
+              ]
+            },
+            "title": "Sector"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "6-3-1",
+  "title": "Water use growth rate"
+}

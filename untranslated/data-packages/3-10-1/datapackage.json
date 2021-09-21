@@ -1,0 +1,88 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age at time of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.all ages",
+                "data.1 to 14 years",
+                "data.15 to 24",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                "data.65 to 74 years",
+                "data.75 to 84 years",
+                "data.85 and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Both sexes",
+                "data.Males",
+                "data.Females",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Leading causes of death (ICD-10)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Malignant neoplasms [C00-C97]",
+                "data.Diabetes mellitus [E10-E14]",
+                "data.Alzheimer's disease [G30]",
+                "data.Diseases of heart [I00-I09, I11, I13, I20-I51]",
+                "data.Cerebrovascular diseases [I60-I69]",
+                "data.Influenza and pneumonia [J09-J18]",
+                "data.Chronic lower respiratory diseases [J40-J47]",
+                "data.Chronic liver disease and cirrhosis [K70, K73-K74]",
+                "data.Accidents (unintentional injuries) [V01-X59, Y85-Y86]",
+                "data.Intentional self-harm (suicide) [X60-X84, Y87.0]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-10-1",
+  "title": "Mortality rate for selected causes of death"
+}

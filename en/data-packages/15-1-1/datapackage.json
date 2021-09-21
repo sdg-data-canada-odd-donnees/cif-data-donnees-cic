@@ -1,0 +1,71 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Species group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Amphibians",
+                "Ants",
+                "Bee flies",
+                "Bees",
+                "Beetles",
+                "Birds",
+                "Black flies",
+                "Bryophytes",
+                "Corals",
+                "Decapods",
+                "Dragonflies and damselflies",
+                "Fishes",
+                "Freshwater bivalves",
+                "Grasshoppers and relatives",
+                "Horse flies",
+                "Lacewings",
+                "Macrolichens",
+                "Mammals",
+                "Mayflies",
+                "Mosquitoes",
+                "Moths and butterflies",
+                "Non-marine snails and slugs",
+                "Reptiles",
+                "Sea cucumbers",
+                "Sea urchins",
+                "Selected macrofungi",
+                "Spiders",
+                "Sponges",
+                "Stoneflies",
+                "Vascular plants",
+                "Yellowjacket wasps"
+              ]
+            },
+            "title": "Species group"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "15-1-1",
+  "title": "Proportion of native wild species ranked secure or apparently secure according to the national extinction risk level"
+}

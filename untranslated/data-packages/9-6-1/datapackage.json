@@ -1,0 +1,40 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "data.Type of charging stations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Electric",
+                "data.Natural gas",
+                "data.Hydrogen",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "9-6-1",
+  "title": "Number of low carbon recharging and refueling stations under development and completed along major highways, and in rural and urban areas across Canada"
+}

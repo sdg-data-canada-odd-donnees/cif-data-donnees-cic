@@ -1,0 +1,101 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Abbotsford - Mission, British Columbia",
+                "Alberta",
+                "Barrie, Ontario",
+                "Belleville, Ontario",
+                "Brantford, Ontario",
+                "British Columbia",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Greater Sudbury / Grand Sudbury, Ontario",
+                "Guelph, Ontario",
+                "Halifax, Nova Scotia",
+                "Hamilton, Ontario",
+                "Kelowna, British Columbia",
+                "Kingston, Ontario",
+                "Kitchener - Cambridge - Waterloo, Ontario",
+                "Lethbridge, Alberta",
+                "London, Ontario",
+                "Manitoba",
+                "Moncton, New Brunswick",
+                "Montreal, Quebec",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Oshawa, Ontario",
+                "Ottawa - Gatineau (Ontario part), Ontario",
+                "Ottawa - Gatineau (Quebec part), Quebec",
+                "Peterborough, Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Quebec, Quebec",
+                "Regina, Saskatchewan",
+                "Saguenay, Quebec",
+                "Saint John, New Brunswick",
+                "Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Sherbrooke, Quebec",
+                "St. Catharines - Niagara, Ontario",
+                "St. John's, Newfoundland and Labrador",
+                "Thunder Bay, Ontario",
+                "Toronto, Ontario",
+                "Trois-Rivieres, Quebec",
+                "Vancouver, British Columbia",
+                "Victoria, British Columbia",
+                "Windsor, Ontario",
+                "Winnipeg, Manitoba",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Type of commute",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Active transport",
+                "Public transit"
+              ]
+            },
+            "title": "Type of commute"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "11-5-1",
+  "title": "Percentage  of the population using shared or active transportation for commuting"
+}

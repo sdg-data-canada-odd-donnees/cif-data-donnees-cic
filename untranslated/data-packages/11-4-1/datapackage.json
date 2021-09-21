@@ -1,0 +1,86 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Newfoundland and Labrador",
+                "data.St. John's, Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.Halifax, Nova Scotia",
+                "data.New Brunswick",
+                "data.Moncton, New Brunswick",
+                "data.Saint John, New Brunswick",
+                "data.Quebec",
+                "data.Montréal, Quebec",
+                "data.Ottawa - Gatineau (Quebec part), Quebec",
+                "data.Québec, Quebec",
+                "data.Saguenay, Quebec",
+                "data.Sherbrooke, Quebec",
+                "data.Trois-Rivières, Quebec",
+                "data.Ontario",
+                "data.Barrie, Ontario",
+                "data.Belleville, Ontario",
+                "data.Brantford, Ontario",
+                "data.Greater Sudbury / Grand Sudbury, Ontario",
+                "data.Guelph, Ontario",
+                "data.Hamilton, Ontario",
+                "data.Kingston, Ontario",
+                "data.Kitchener - Cambridge - Waterloo, Ontario",
+                "data.London, Ontario",
+                "data.Oshawa, Ontario",
+                "data.Ottawa - Gatineau (Ontario part), Ontario",
+                "data.Peterborough, Ontario",
+                "data.St. Catharines - Niagara, Ontario",
+                "data.Thunder Bay, Ontario",
+                "data.Toronto, Ontario",
+                "data.Windsor, Ontario",
+                "data.Manitoba",
+                "data.Winnipeg, Manitoba",
+                "data.Saskatchewan",
+                "data.Regina, Saskatchewan",
+                "data.Saskatoon, Saskatchewan",
+                "data.Alberta",
+                "data.Calgary, Alberta",
+                "data.Edmonton, Alberta",
+                "data.Lethbridge, Alberta",
+                "data.British Columbia",
+                "data.Abbotsford - Mission, British Columbia",
+                "data.Kelowna, British Columbia",
+                "data.Vancouver, British Columbia",
+                "data.Victoria, British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "11-4-1",
+  "title": "Percentage of the population living within 500 meters of a public transport stop"
+}

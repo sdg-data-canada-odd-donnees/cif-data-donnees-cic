@@ -1,0 +1,67 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Index",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Air Quality",
+                "Biodiversity",
+                "Soil Quality",
+                "Water Quality"
+              ]
+            },
+            "title": "Index"
+          },
+          {
+            "name": "data.Indicator",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Agricultural Ammonia Emissions",
+                "Agricultural Greenhouse gas",
+                "Agricultural Particulate Matter Emissions",
+                "Compound Index",
+                "Residual Soil Nitrogen",
+                "Risk of Soil Erosion",
+                "Risk of Soil Salinization",
+                "Risk of Water Contamination by Coliforms",
+                "Risk of Water Contamination by Pesticides",
+                "Risk of water contamination by phosphorus",
+                "Soil Cover",
+                "Soil Organic Carbon Change",
+                "Wildlife Habitat on Farmland"
+              ]
+            },
+            "title": "Indicator"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "2-2-1",
+  "title": "Index of Agri-Environmental Sustainability"
+}

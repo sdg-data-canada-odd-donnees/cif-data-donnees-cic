@@ -1,0 +1,65 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Event type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Biologique",
+                "Géologique",
+                "Météorologique - hydrologique",
+                ""
+              ]
+            },
+            "title": "Type d'événement"
+          },
+          {
+            "name": "data.Event sub-type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Épidémie",
+                "Tremblement de terre",
+                "Inondation",
+                "Ouragan / ouragan / tempête tropicale",
+                "Tempête-non précisée/autre",
+                "Onde de tempête",
+                "Orages et orages graves",
+                "Tornade",
+                "Feu de forêt",
+                "Tempête hivernale",
+                "Éboulement",
+                "Épisode de chaleur",
+                ""
+              ]
+            },
+            "title": "Événement"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "13-2-1",
+  "title": "Frequency of selected natural disasters"
+}

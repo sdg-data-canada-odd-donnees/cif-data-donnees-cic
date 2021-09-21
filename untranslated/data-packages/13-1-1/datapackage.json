@@ -1,0 +1,72 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Northwest Territories and Nunavut",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Provincial Inventory Total",
+                "data.Oil and Gas",
+                "data.Coal Production",
+                "data.Electricity",
+                "data.Transport",
+                "data.Heavy Industry",
+                "data.Light Manufacturing, Construction and Forest Resources",
+                "data.Buildings",
+                "data.Waste",
+                "data.Agriculture",
+                "data.Territorial Inventory Total",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "13-1-1",
+  "title": "Greenhouse gas emissions"
+}

@@ -1,0 +1,92 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Québec, Quebec",
+                "data.Montréal, Quebec",
+                "data.Ottawa-Gatineau, Ontario/Quebec",
+                "data.Toronto, Ontario",
+                "data.Winnipeg, Manitoba",
+                "data.Calgary, Alberta",
+                "data.Edmonton, Alberta",
+                "data.Vancouver, British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Persons in low income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Persons under 18 years",
+                "data.Persons 18 to 64 years",
+                "data.Persons 65 years and over",
+                "data.Males",
+                "data.Males, under 18 years",
+                "data.Males, 18 to 64 years",
+                "data.Males, 65 years and over",
+                "data.Females",
+                "data.Females, under 18 years",
+                "data.Females, 18 to 64 years",
+                "data.Females, 65 years and over",
+                "data.Persons in economic families",
+                "data.Males in economic families",
+                "data.Females in economic families",
+                "data.Elderly persons in economic families",
+                "data.Persons under 18 years in economic families",
+                "data.Persons under 18 years in couple families with children",
+                "data.Persons under 18 years in female lone-parent families",
+                "data.Persons 18 to 64 years in economic families",
+                "data.Persons not in an economic family",
+                "data.Males not in an economic family",
+                "data.Females not in an economic family",
+                "data.Elderly persons not in an economic family",
+                "data.Non-elderly persons not in an economic family",
+                "data.Non-elderly males not in an economic family",
+                "data.Non-elderly females not in an economic family",
+                "data.All persons",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-1-1",
+  "title": "Poverty rate, as measured by Canada’s official poverty line"
+}
