@@ -82,11 +82,11 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Off-reserve Indigenous  population",
+                "Off-reserve Indigenous population",
                 "Total population"
               ]
             },
-            "title": "data.Population characteristics"
+            "title": "Population characteristics"
           },
           {
             "name": "data.Sex",
