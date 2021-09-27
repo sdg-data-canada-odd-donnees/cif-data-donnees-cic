@@ -2096,6 +2096,111 @@
       "title": "Percentage of Canadians who are satisfied or very satisfied with their life"
     },
     {
+      "path": "4-2-1/data.csv",
+      "name": "4-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Population characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population totale",
+                "data.Off-reserve Indigenous  population",
+                ""
+              ]
+            },
+            "title": "data.Population characteristics"
+          },
+          {
+            "name": "data.Educational attainment level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Études tertiaires",
+                "Enseignement tertiaire de cycle court",
+                "Baccalauréat",
+                "Maîtrise ou doctorat",
+                "data.College",
+                "data.University",
+                ""
+              ]
+            },
+            "title": "Niveau de scolarité"
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 25 à 64 ans",
+                "25 à 34 ans",
+                "30 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Homme",
+                "Femme",
+                "Les deux sexes",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": " Post-secondary education attainment rate"
+    },
+    {
       "path": "14-1-1/data.csv",
       "name": "14-1-1",
       "profile": "tabular-data-resource",
@@ -4566,30 +4671,6 @@
         ]
       },
       "title": "Number of low carbon recharging and refueling stations under development and completed in public places, on-street, at apartment buildings, retail outlets, and the workplace"
-    },
-    {
-      "path": "4-2-1/data.csv",
-      "name": "4-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": " Post-secondary education attainment rate"
     }
   ]
 }

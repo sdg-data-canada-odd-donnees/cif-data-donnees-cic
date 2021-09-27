@@ -12,8 +12,89 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Population characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population totale",
+                "data.Off-reserve Indigenous  population",
+                ""
+              ]
+            },
+            "title": "data.Population characteristics"
+          },
+          {
+            "name": "data.Educational attainment level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Études tertiaires",
+                "Enseignement tertiaire de cycle court",
+                "Baccalauréat",
+                "Maîtrise ou doctorat",
+                "data.College",
+                "data.University",
+                ""
+              ]
+            },
+            "title": "Niveau de scolarité"
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 25 à 64 ans",
+                "25 à 34 ans",
+                "30 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Homme",
+                "Femme",
+                "Les deux sexes",
+                ""
+              ]
+            },
+            "title": "Sexe"
           },
           {
             "name": "Value",

@@ -17,8 +17,89 @@
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "25 to 34 years",
+                "30 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                "55 to 64 years",
+                "Total, 25 to 64 years"
+              ]
+            },
+            "title": "Age group"
+          },
+          {
+            "name": "data.Educational attainment level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Bachelor's level",
+                "data.College",
+                "Master's or Doctoral level",
+                "Short-cycle tertiary",
+                "Tertiary education",
+                "data.University"
+              ]
+            },
+            "title": "Educational attainment level"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Population characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "data.Off-reserve Indigenous  population",
+                "Total population"
+              ]
+            },
+            "title": "data.Population characteristics"
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Both sexes",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Sex"
           }
         ]
       }
