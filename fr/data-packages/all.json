@@ -2140,11 +2140,11 @@
             "constraints": {
               "enum": [
                 "Population totale",
-                "data.Off-reserve Indigenous  population",
+                "Population autochtone hors réserve",
                 ""
               ]
             },
-            "title": "data.Population characteristics"
+            "title": "Caractéristiques de la population"
           },
           {
             "name": "data.Educational attainment level",
