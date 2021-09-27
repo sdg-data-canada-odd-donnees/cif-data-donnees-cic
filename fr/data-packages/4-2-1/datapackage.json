@@ -40,6 +40,18 @@
             "title": "Géographie"
           },
           {
+            "name": "data.Population characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population totale",
+                "data.Off-reserve Indigenous  population",
+                ""
+              ]
+            },
+            "title": "data.Population characteristics"
+          },
+          {
             "name": "data.Educational attainment level",
             "type": "string",
             "constraints": {
@@ -48,6 +60,8 @@
                 "Enseignement tertiaire de cycle court",
                 "Baccalauréat",
                 "Maîtrise ou doctorat",
+                "data.College",
+                "data.University",
                 ""
               ]
             },

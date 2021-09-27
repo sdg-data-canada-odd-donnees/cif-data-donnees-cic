@@ -2138,9 +2138,11 @@
               "enum": [
                 "",
                 "Bachelor's level",
+                "data.College",
                 "Master's or Doctoral level",
                 "Short-cycle tertiary",
-                "Tertiary education"
+                "Tertiary education",
+                "data.University"
               ]
             },
             "title": "Educational attainment level"
@@ -2168,6 +2170,18 @@
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "data.Population characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "data.Off-reserve Indigenous  population",
+                "Total population"
+              ]
+            },
+            "title": "data.Population characteristics"
           },
           {
             "name": "data.Sex",

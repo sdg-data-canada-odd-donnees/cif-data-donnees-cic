@@ -38,6 +38,17 @@
             }
           },
           {
+            "name": "data.Population characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total population",
+                "data.Off-reserve Indigenous  population",
+                ""
+              ]
+            }
+          },
+          {
             "name": "data.Educational attainment level",
             "type": "string",
             "constraints": {
@@ -46,6 +57,8 @@
                 "data.Short-cycle tertiary",
                 "data.Bachelor's level",
                 "data.Master's or Doctoral level",
+                "data.College",
+                "data.University",
                 ""
               ]
             }
