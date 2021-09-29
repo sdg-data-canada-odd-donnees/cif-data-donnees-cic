@@ -40,6 +40,8 @@ src_dir: ''
 # The defaults below show what is used when this is omitted.
 inputs:
   - class: InputCsvData
+    dtype:
+      GeoCode: str
     # This describes the data files, relative to the "src_dir" indicated above.
     path_pattern: data/*-*.csv
   - class: InputYamlMdMeta
@@ -88,12 +90,12 @@ reporting_status_extra_fields: []
 # below and adjust if you would like to use the Open SDG mapping functionality.
 # Note that the GeoJSON files can either be remote (as in the example below) or
 # local, relative to the src_dir specified above.
-# map_layers:
-#  - geojson_file: https://github.com/sdg-data-canada-odd-donnees/cif-cic_dev/blob/develop/assets/maps/Provinces.geojson
-#    name_property: prov_name_en
-#    id_property: prov_code
-#    output_subfolder: regions
-#    filename_prefix: indicator_
+ map_layers:
+  - geojson_file: maps/georef-canada-province.geojson
+    name_property: prov_name_en
+    id_property: prov_code
+    output_subfolder: regions
+    filename_prefix: indicator_
 
 # Documentation settings
 # ----------------------
