@@ -90,7 +90,7 @@ reporting_status_extra_fields: []
 # below and adjust if you would like to use the Open SDG mapping functionality.
 # Note that the GeoJSON files can either be remote (as in the example below) or
 # local, relative to the src_dir specified above.
- map_layers:
+map_layers:
   - geojson_file: maps/georef-canada-province.geojson
     name_property: prov_name_en
     id_property: prov_code
