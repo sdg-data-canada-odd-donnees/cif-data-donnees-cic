@@ -152,7 +152,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Croissance depuis 2016-17",
+                "data.Growth since 2016",
                 ""
               ]
             },
