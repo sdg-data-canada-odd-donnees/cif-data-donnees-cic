@@ -93,15 +93,15 @@
             "constraints": {
               "enum": [
                 "Population totale",
-                "data.Indigenous population",
-                "data.Landed immigrants",
-                "data.Immigrants, landed 5 or less years earlier",
-                "data.Immigrants, landed more than 5 to 10 years earlier",
-                "data.Immigrants, landed more than 10 years earlier",
+                "Population autochtone",
+                "Immigrants reçus",
+                "Immigrants reçus 5 ans et moins auparavant",
+                "Immigrants reçus plus de 5 à 10 ans auparavant",
+                "Immigrants reçus plus de 10 ans auparavant",
                 ""
               ]
             },
-            "title": "data.Population"
+            "title": "Population"
           },
           {
             "name": "Value",
