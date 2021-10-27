@@ -41,7 +41,7 @@ Indicator,Disaggregations,Number of disaggregations
 #3-5-1,"data.Geography, data.Sex, data.Age group",3
 #3-6-1,"data.Geography, data.Sex, data.Age group",3
 #3-7-1,"data.Geography, data.Sex, data.Age group",3
-#3-8-1,"data.Geography, data.Sex, data.Selected diseases, data.Age",4
+#3-8-1,"data.Geography, data.Sex, data.Age, data.Selected diseases",4
 #3-9-1,data.Disease,1
 #4-1-1,"data.Geography, data.Sex, data.Age group, data.Selected demographic characteristics",4
 #4-2-1,"data.Geography, data.Sex, data.Age group, data.Population characteristics, data.Educational attainment level",5
@@ -55,7 +55,6 @@ Indicator,Disaggregations,Number of disaggregations
 #6-4-1,"data.Geography, data.Land use category, data.Water quality",3
 #7-2-1,"data.Geography, data.Fuel type, data.Demand characteristics",3
 #7-3-1,"Geography, Type of electricity generation",2
-#8-1-1,"data.Geography, data.Sex, data.Age group",3
 #8-3-1,"data.Geography, data.Sex, data.Age group",3
 #8-4-1,"data.Geography, data.Sex, data.Age group",3
 #8-5-1,data.Geography,1
