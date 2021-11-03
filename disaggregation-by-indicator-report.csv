@@ -25,7 +25,6 @@ Indicator,Disaggregations,Number of disaggregations
 #16-3-1,"data.Geography, data.Violations",2
 #16-4-1,"data.Geography, data.Type of cyber-related violation, data.Cyber-related violation",3
 #16-5-1,"Geography, Offences, Age, Sex",4
-#16-6-1,data.Geography,1
 #16-7-1,"data.Institutions, data.Characteristics, data.Level of confidence",3
 #17-1-1,data.Month,1
 #17-2-1,"data.Pillar, data.Region",2
@@ -36,12 +35,12 @@ Indicator,Disaggregations,Number of disaggregations
 #3-12-1,"data.Geography, data.Type of event",2
 #3-13-1,"data.Geography, data.Sex, data.Age group",3
 #3-2-1,"data.Geography, data.Sex, data.Grade, data.Type of e-cigarettes",4
-#3-3-1,"data.Geography, data.Sex, data.Age group, data.Measures",4
+#3-3-1,"data.Geography, data.Measures, data.Sex, data.Age group",4
 #3-4-1,"data.Geography, data.Sex, data.Age",3
 #3-5-1,"data.Geography, data.Sex, data.Age group",3
 #3-6-1,"data.Geography, data.Sex, data.Age group",3
 #3-7-1,"data.Geography, data.Sex, data.Age group",3
-#3-8-1,"data.Geography, data.Sex, data.Age, data.Selected diseases",4
+#3-8-1,"data.Geography, data.Sex, data.Selected diseases, data.Age",4
 #3-9-1,data.Disease,1
 #4-1-1,"data.Geography, data.Sex, data.Age group, data.Selected demographic characteristics",4
 #4-2-1,"data.Geography, data.Sex, data.Age group, data.Population characteristics, data.Educational attainment level",5
