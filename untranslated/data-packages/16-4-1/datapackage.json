@@ -12,11 +12,51 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Type of cyber-related violation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Against a person",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Cyber-related violation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Luring a child via a computer",
+                "data.Non-consensual distribution of intimate images",
+                "data.Extortion",
+                "data.Criminal harassment",
+                "data.Indecent/Harassing communications",
+                "data.Uttering threats",
+                "data.Fraud",
+                "data.Identity theft",
+                "data.Identity fraud",
+                "data.Child pornography",
+                "data.Making or distribution of child pornography",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

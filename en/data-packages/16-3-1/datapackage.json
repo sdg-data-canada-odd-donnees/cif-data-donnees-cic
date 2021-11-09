@@ -31,20 +31,20 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Alberta [48]",
-                "data.British Columbia [59]",
+                "Alberta",
+                "British Columbia",
                 "Canada",
-                "data.Manitoba [46]",
-                "data.New Brunswick [13]",
-                "data.Newfoundland and Labrador [10]",
-                "data.Northwest Territories [61]",
-                "data.Nova Scotia [12]",
-                "data.Nunavut [62]",
-                "data.Ontario [35]",
-                "data.Prince Edward Island [11]",
-                "data.Quebec [24]",
-                "data.Saskatchewan [47]",
-                "data.Yukon [60]"
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
               ]
             },
             "title": "Geography"

@@ -365,6 +365,73 @@
       "title": "Incarceration rate"
     },
     {
+      "path": "16-4-1/data.csv",
+      "name": "16-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Cyber-related violation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Child pornography",
+                "Criminal harassment",
+                "Extortion",
+                "Fraud",
+                "Identity fraud",
+                "Identity theft",
+                "Indecent/Harassing communications",
+                "Luring a child via a computer",
+                "Making or distribution of child pornography",
+                "Non-consensual distribution of intimate images",
+                "Uttering threats"
+              ]
+            },
+            "title": "Cyber-related violation"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Canada"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Type of cyber-related violation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Against a person"
+              ]
+            },
+            "title": "Type of cyber-related violation"
+          }
+        ]
+      },
+      "title": "Incidence of cyber-crime"
+    },
+    {
       "path": "4-1-1/data.csv",
       "name": "4-1-1",
       "profile": "tabular-data-resource",
@@ -598,20 +665,20 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Alberta [48]",
-                "data.British Columbia [59]",
+                "Alberta",
+                "British Columbia",
                 "Canada",
-                "data.Manitoba [46]",
-                "data.New Brunswick [13]",
-                "data.Newfoundland and Labrador [10]",
-                "data.Northwest Territories [61]",
-                "data.Nova Scotia [12]",
-                "data.Nunavut [62]",
-                "data.Ontario [35]",
-                "data.Prince Edward Island [11]",
-                "data.Quebec [24]",
-                "data.Saskatchewan [47]",
-                "data.Yukon [60]"
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
               ]
             },
             "title": "Geography"
@@ -4635,30 +4702,6 @@
         ]
       },
       "title": "Number of low carbon recharging and refueling stations under development and completed in public places, on-street, at apartment buildings, retail outlets, and the workplace"
-    },
-    {
-      "path": "16-4-1/data.csv",
-      "name": "16-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Incidence of cyber-crime"
     }
   ]
 }
