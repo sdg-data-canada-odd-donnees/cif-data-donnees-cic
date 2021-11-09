@@ -12,52 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Violations",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Homicide",
-                "data.Total other violations causing death",
-                "data.Attempted murder",
-                "data.Sexual assault level 3 aggravated",
-                "data.Sexual assault level 2 weapon or bodily harm",
-                "data.Sexual assault level 1",
-                "data.Total sexual violations against children",
-                "data.Assault level 3 aggravated",
-                "data.Assault level 2 weapon or bodily harm",
-                "data.Assault level 1",
-                "data.Total robbery",
-                "data.Uttering threats",
-                "data.Total other violent violations",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
