@@ -635,6 +635,83 @@
       "title": "Proportion of the population with high levels of confidence in selected institutions"
     },
     {
+      "path": "16-3-1/data.csv",
+      "name": "16-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "data.Alberta [48]",
+                "data.British Columbia [59]",
+                "Canada",
+                "data.Manitoba [46]",
+                "data.New Brunswick [13]",
+                "data.Newfoundland and Labrador [10]",
+                "data.Northwest Territories [61]",
+                "data.Nova Scotia [12]",
+                "data.Nunavut [62]",
+                "data.Ontario [35]",
+                "data.Prince Edward Island [11]",
+                "data.Quebec [24]",
+                "data.Saskatchewan [47]",
+                "data.Yukon [60]"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Violations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Assault, level 1",
+                "Assault, level 2, weapon or bodily harm",
+                "Assault, level 3, aggravated",
+                "Attempted murder",
+                "Homicide",
+                "Sexual assault, level 1",
+                "Sexual assault, level 2, weapon or bodily harm",
+                "Sexual assault, level 3, aggravated",
+                "Total other violations causing death",
+                "Total other violent violations",
+                "Total robbery",
+                "Total sexual violations against children",
+                "Total, all violations",
+                "Uttering threats"
+              ]
+            },
+            "title": "Violations"
+          }
+        ]
+      },
+      "title": "Incidence of selected types of crime"
+    },
+    {
       "path": "9-4-1/data.csv",
       "name": "9-4-1",
       "profile": "tabular-data-resource",
@@ -4625,30 +4702,6 @@
         ]
       },
       "title": "Number of low carbon recharging and refueling stations under development and completed in public places, on-street, at apartment buildings, retail outlets, and the workplace"
-    },
-    {
-      "path": "16-3-1/data.csv",
-      "name": "16-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Incidence of selected types of crime"
     }
   ]
 }

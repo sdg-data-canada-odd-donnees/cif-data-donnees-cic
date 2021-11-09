@@ -591,6 +591,78 @@
       "title": "Proportion of the population with high levels of confidence in selected institutions"
     },
     {
+      "path": "16-3-1/data.csv",
+      "name": "16-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador [10]",
+                "data.Prince Edward Island [11]",
+                "data.Nova Scotia [12]",
+                "data.New Brunswick [13]",
+                "data.Quebec [24]",
+                "data.Ontario [35]",
+                "data.Manitoba [46]",
+                "data.Saskatchewan [47]",
+                "data.Alberta [48]",
+                "data.British Columbia [59]",
+                "data.Yukon [60]",
+                "data.Northwest Territories [61]",
+                "data.Nunavut [62]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Violations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Homicide [110]",
+                "data.Total other violations causing death [120]",
+                "data.Attempted murder [1210]",
+                "data.Sexual assault, level 3, aggravated [1310]",
+                "data.Sexual assault, level 2, weapon or bodily harm [1320]",
+                "data.Sexual assault, level 1 [1330]",
+                "data.Total sexual violations against children [130]",
+                "data.Assault, level 3, aggravated [1410]",
+                "data.Assault, level 2, weapon or bodily harm [1420]",
+                "data.Assault, level 1 [1430]",
+                "data.Total robbery [160]",
+                "data.Uttering threats [1627]",
+                "data.Total other violent violations [180]",
+                "data.Total, all violations [0]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Incidence of selected types of crime"
+    },
+    {
       "path": "9-4-1/data.csv",
       "name": "9-4-1",
       "profile": "tabular-data-resource",
@@ -4320,28 +4392,6 @@
         ]
       },
       "title": "Number of low carbon recharging and refueling stations under development and completed in public places, on-street, at apartment buildings, retail outlets, and the workplace"
-    },
-    {
-      "path": "16-3-1/data.csv",
-      "name": "16-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Incidence of selected types of crime"
     }
   ]
 }
