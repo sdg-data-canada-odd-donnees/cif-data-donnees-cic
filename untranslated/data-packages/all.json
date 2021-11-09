@@ -632,6 +632,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Total, all violations [0]",
                 "data.Homicide [110]",
                 "data.Total other violations causing death [120]",
                 "data.Attempted murder [1210]",
@@ -645,7 +646,6 @@
                 "data.Total robbery [160]",
                 "data.Uttering threats [1627]",
                 "data.Total other violent violations [180]",
-                "data.Total, all violations [0]",
                 ""
               ]
             }
