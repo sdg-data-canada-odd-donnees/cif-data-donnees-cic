@@ -827,19 +827,21 @@ Youth violent crime severity index: Indice des crimes avec violence chez les jeu
 
 ## 16-3-1
 Violations: Infractions
-Homicide: Homicide
-Total other violations causing death: Total des autres infractions entraînant la mort
-Attempted murder: Tentative de meurtre
-Sexual assault level 3 aggravated: Agression sexuelle grave (niveau 3)
-Sexual assault level 2 weapon or bodily harm: Agression sexuelle, niveau 2, armée ou causant des lésions corporelles
-Sexual assault level 1: Agression sexuelle de niveau 1
-Total sexual violations against children: Total des infractions sexuelles contre les enfants
-Assault level 3 aggravated: Voies de fait graves (niveau 3)
-Assault level 2 weapon or bodily harm: Voies de fait armées ou causant des lésions corporelles (niveau 2)
-Assault level 1: Voies de fait simples (niveau 1)
-Total robbery: Total des vols qualifiés
-Uttering threats: Menaces
-Total other violent violations: Total des autres infractions avec violence
+Homicide [110]: Homicide
+Total other violations causing death [120]: Total des autres infractions entraînant la mort
+Attempted murder [1210]: Tentative de meurtre
+Sexual assault, level 3, aggravated [1310]: Agression sexuelle grave (niveau 3)
+Sexual assault, level 2, weapon or bodily harm [1320]: Agression sexuelle, niveau 2, armée ou causant des lésions corporelles
+Sexual assault, level 1 [1330]: Agression sexuelle de niveau 1
+Total sexual violations against children [130]: Total des infractions sexuelles contre les enfants
+Assault, level 3, aggravated [1410]: Voies de fait graves (niveau 3)
+Assault, level 2, weapon or bodily harm [1420]: Voies de fait armées ou causant des lésions corporelles (niveau 2)
+Assault, level 1 [1430]: Voies de fait simples (niveau 1)
+Total robbery [160]: Total des vols qualifiés
+Uttering threats [1627]: Menaces
+Total other violent violations [180]: Total des autres infractions avec violence
+Total, all violations [0]: Total des infractions
+
 
 ## 16-4-1
 Type of cyber-related violation: Type d'infractions reliée à la cybercriminalité
