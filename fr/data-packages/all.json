@@ -398,7 +398,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada (sans les territoires)",
+                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -3207,7 +3207,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada (sans les territoires)",
+                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
