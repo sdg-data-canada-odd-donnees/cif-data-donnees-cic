@@ -31,24 +31,23 @@ Indicator,Disaggregations,Number of disaggregations
 #17-2-1,"data.Pillar, data.Region",2
 #2-1-1,"data.Geography, data.Living arrangement, data.Household food security status",3
 #2-2-1,"data.Index, data.Indicator",2
-#3-1-1,"data.Geography, data.Sex, data.Age group",3
 #3-10-1,"data.Geography, data.Sex, data.Age at time of death, data.Leading causes of death (ICD-10)",4
 #3-12-1,"data.Geography, data.Type of event",2
 #3-13-1,"data.Geography, data.Sex, data.Age group",3
 #3-2-1,"data.Geography, data.Sex, data.Grade, data.Type of e-cigarettes",4
-#3-3-1,"data.Geography, data.Measures, data.Sex, data.Age group",4
-#3-4-1,"data.Geography, data.Sex, data.Age",3
+#3-3-1,"data.Geography, data.Sex, data.Age group, data.Measures",4
+#3-4-1,"data.Geography, data.Age, data.Sex",3
 #3-5-1,"data.Geography, data.Sex, data.Age group",3
 #3-6-1,"data.Geography, data.Sex, data.Age group",3
 #3-7-1,"data.Geography, data.Sex, data.Age group",3
-#3-8-1,"data.Geography, data.Sex, data.Selected diseases, data.Age",4
+#3-8-1,"data.Geography, data.Age, data.Sex, data.Selected diseases",4
 #3-9-1,data.Disease,1
 #4-1-1,"data.Geography, data.Sex, data.Age group, data.Selected demographic characteristics",4
 #4-2-1,"data.Geography, data.Sex, data.Age group, data.Population characteristics, data.Educational attainment level",5
 #5-1-1,"data.Geography, data.Sex, data.Type of perpetrator",3
 #5-1-2,"data.Type of intimate partner violence, data.Selected characteristic",2
 #5-2-1,data.Leadership position,1
-#5-3-1,"data.Geography, data.Sex, data.Age, data.Activity group",4
+#5-3-1,"data.Geography, data.Age, data.Sex, data.Activity group",4
 #6-1-1,data.Geography,1
 #6-2-1,data.Geography,1
 #6-3-1,data.Sector,1
