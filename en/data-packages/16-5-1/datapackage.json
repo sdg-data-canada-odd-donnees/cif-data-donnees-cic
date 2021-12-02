@@ -11,7 +11,29 @@
       "schema": {
         "fields": [
           {
-            "name": "Age",
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Adult criminal courts",
+                "Youth courts"
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          },
+          {
+            "name": "data.Age of accused",
             "type": "string",
             "constraints": {
               "enum": [
@@ -25,13 +47,14 @@
                 "55 years and over",
                 "Age not applicable",
                 "Other ages",
-                "Total"
+                "Total - age of accused",
+                "data.Total, age of accused"
               ]
             },
-            "title": "Age"
+            "title": "Age of accused"
           },
           {
-            "name": "Geography",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -55,7 +78,7 @@
             "title": "Geography"
           },
           {
-            "name": "Offences",
+            "name": "data.Offences",
             "type": "string",
             "constraints": {
               "enum": [
@@ -71,7 +94,7 @@
             "title": "Offences"
           },
           {
-            "name": "Sex",
+            "name": "data.Sex of accused",
             "type": "string",
             "constraints": {
               "enum": [
@@ -80,32 +103,11 @@
                 "Females",
                 "Males",
                 "Sex unknown",
-                "Total"
+                "Total - sex of accused",
+                "data.Total, sex of accused"
               ]
             },
-            "title": "Sex"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Adult criminal courts",
-                "Youth courts"
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
+            "title": "Sex of accused"
           }
         ]
       }

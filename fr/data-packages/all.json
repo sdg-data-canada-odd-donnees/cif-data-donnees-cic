@@ -3074,7 +3074,7 @@
             "title": "Unités"
           },
           {
-            "name": "Geography",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -3098,7 +3098,7 @@
             "title": "Géographie"
           },
           {
-            "name": "Offences",
+            "name": "data.Offences",
             "type": "string",
             "constraints": {
               "enum": [
@@ -3114,11 +3114,11 @@
             "title": "Infractions"
           },
           {
-            "name": "Age",
+            "name": "data.Age of accused",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
+                "Total, l'âge de l'accusé",
                 "18 à 24 ans",
                 "25 à 34 ans",
                 "35 à 44 ans",
@@ -3128,13 +3128,14 @@
                 "16 et 17 ans",
                 "Autres âges",
                 "Âge n'ayant pas lieu de figurer",
+                "data.Total, age of accused",
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "Âge de l'accusé"
           },
           {
-            "name": "Sex",
+            "name": "data.Sex of accused",
             "type": "string",
             "constraints": {
               "enum": [
@@ -3142,11 +3143,12 @@
                 "Femmes",
                 "Sociétés",
                 "Sexe inconnu",
-                "Total",
+                "Total, le sexe de l'accusé",
+                "data.Total, sex of accused",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Sexe de l'accusé"
           },
           {
             "name": "Value",
