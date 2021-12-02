@@ -72,6 +72,70 @@
       "title": "Percentage of the population aged 12 and over who reported their sense of belonging to their local community as being very strong or somewhat strong"
     },
     {
+      "path": "7-3-1/data.csv",
+      "name": "7-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of electricity generation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hydraulic turbine",
+                "Tidal power turbine",
+                "Wind power turbine",
+                "Solar",
+                "Other types of electricity generation",
+                "Total hydro, tidal, wind, solar and other generation",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of electricity generated from renewable and non-greenhouse gas emitting sources"
+    },
+    {
       "path": "10-1-1/data.csv",
       "name": "10-1-1",
       "profile": "tabular-data-resource",
@@ -4310,28 +4374,6 @@
         ]
       },
       "title": "Incidence of opioid and stimulant overdose related harms"
-    },
-    {
-      "path": "7-3-1/data.csv",
-      "name": "7-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of electricity generated from renewable and non-greenhouse gas emitting sources"
     },
     {
       "path": "9-7-1/data.csv",
