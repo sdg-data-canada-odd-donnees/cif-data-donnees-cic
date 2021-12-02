@@ -12,45 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type of electricity generation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Hydraulic turbine",
-                "data.Tidal power turbine",
-                "data.Wind power turbine",
-                "data.Solar",
-                "data.Other types of electricity generation",
-                "data.Total hydro, tidal, wind, solar and other generation",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

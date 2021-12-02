@@ -12,48 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Année"
-          },
-          {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
-            "name": "Type of electricity generation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Turbine à hydraulique",
-                "Turbine marémotrice",
-                "Turbine éolienne",
-                "Solaire",
-                "Autres types de production électrique",
-                "Total, tous les genres de production d'électricité",
-                ""
-              ]
-            },
-            "title": "Type de production d'électricité"
           },
           {
             "name": "Value",
