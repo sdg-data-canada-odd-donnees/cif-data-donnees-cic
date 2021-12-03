@@ -12,8 +12,66 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, 15 to 29 years",
+                "15 à 19 ans",
+                "15 à 24 ans",
+                "18 à 24 ans",
+                "20 à 24 ans",
+                "25 à 29 ans",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hommes",
+                "Femmes",
+                "Les deux sexes",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

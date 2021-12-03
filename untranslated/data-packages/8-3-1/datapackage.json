@@ -12,7 +12,61 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, 15 to 29 years",
+                "data.15 to 19 years",
+                "data.15 to 24 years",
+                "data.18 to 24 years",
+                "data.20 to 24 years",
+                "data.25 to 29 years",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

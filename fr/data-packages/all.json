@@ -4133,6 +4133,88 @@
       "title": "Total energy consumption per capita"
     },
     {
+      "path": "8-3-1/data.csv",
+      "name": "8-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, 15 to 29 years",
+                "15 à 19 ans",
+                "15 à 24 ans",
+                "18 à 24 ans",
+                "20 à 24 ans",
+                "25 à 29 ans",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hommes",
+                "Femmes",
+                "Les deux sexes",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion of youth not in education, employment or training"
+    },
+    {
       "path": "12-3-1/data.csv",
       "name": "12-3-1",
       "profile": "tabular-data-resource",
@@ -4611,30 +4693,6 @@
         ]
       },
       "title": "Incidence of opioid and stimulant overdose related harms"
-    },
-    {
-      "path": "8-3-1/data.csv",
-      "name": "8-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion of youth not in education, employment or training"
     },
     {
       "path": "9-7-1/data.csv",
