@@ -2565,6 +2565,83 @@
       "title": "Proportion of women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the last 12 months"
     },
     {
+      "path": "13-1-1/data.csv",
+      "name": "13-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alberta",
+                "Colombie-Britannique",
+                "Canada",
+                "data.",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Territoires du Nord-Ouest",
+                "Territoires du Nord-Ouest et Nunavut",
+                "Nouvelle-Écosse",
+                "Nunavut",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Inventaire provincial",
+                "Exploitation pétrolière et gazière",
+                "Production de charbon",
+                "Électricité",
+                "Transports",
+                "Industrie lourde",
+                "Fabrication légère, construction et ressources forestières",
+                "Bâtiments",
+                "Déchets et autres",
+                "Agriculture",
+                "data.",
+                "Inventaire territorial",
+                ""
+              ]
+            },
+            "title": "Source"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Greenhouse gas emissions"
+    },
+    {
       "path": "3-3-1/data.csv",
       "name": "3-3-1",
       "profile": "tabular-data-resource",
@@ -4613,30 +4690,6 @@
         ]
       },
       "title": "Incidence of opioid and stimulant overdose related harms"
-    },
-    {
-      "path": "13-1-1/data.csv",
-      "name": "13-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Greenhouse gas emissions"
     },
     {
       "path": "9-7-1/data.csv",
