@@ -17,54 +17,8 @@
           },
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Northwest Territories and Nunavut",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "data.Source",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Agriculture",
-                "Buildings",
-                "Coal Production",
-                "Electricity",
-                "Heavy Industry",
-                "Light Manufacturing, Construction and Forest Resources",
-                "Oil and Gas",
-                "Provincial Inventory Total",
-                "Territorial Inventory Total",
-                "Transport",
-                "Waste"
-              ]
-            },
-            "title": "Source"
           }
         ]
       }
