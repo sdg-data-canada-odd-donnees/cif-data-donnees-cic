@@ -12,8 +12,45 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Colombie-Britannique",
+                "Alberta",
+                "Saskatchewan",
+                "Manitoba",
+                "Ontario",
+                "Québec",
+                "Nouveau-Brunswick",
+                "Nouvelle-Écosse",
+                "Île-du-Prince-Édouard",
+                "Terre-Neuve-et-Labrador",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Population centres",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Régions urbaines",
+                "Communautés rurales",
+                "Principales routes et autoroutes",
+                ""
+              ]
+            },
+            "title": "Centres de population"
           },
           {
             "name": "Value",

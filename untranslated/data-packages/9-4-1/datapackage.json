@@ -12,7 +12,42 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.British Columbia",
+                "data.Alberta",
+                "data.Saskatchewan",
+                "data.Manitoba",
+                "data.Ontario",
+                "data.Quebec",
+                "data.New Brunswick",
+                "data.Nova Scotia",
+                "data.Prince Edward Island",
+                "data.Newfoundland and Labrador",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Population centres",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Urban centres",
+                "data.Rural communities",
+                "data.Major roads and highways",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
