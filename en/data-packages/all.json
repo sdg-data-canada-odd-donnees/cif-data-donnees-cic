@@ -2142,96 +2142,6 @@
       "title": "Proportion of households in core housing need"
     },
     {
-      "path": "1-1-1/data.csv",
-      "name": "1-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Alberta",
-                "British Columbia",
-                "Calgary, Alberta",
-                "Canada",
-                "Edmonton, Alberta",
-                "Manitoba",
-                "Quebec, Montréal",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Ontario/Quebec, Ottawa-Gatineau",
-                "Prince Edward Island",
-                "Quebec",
-                "Quebec, Québec",
-                "Saskatchewan",
-                "Toronto, Ontario",
-                "Vancouver, British Columbia",
-                "Winnipeg, Manitoba"
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "data.Persons in low income",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "All persons",
-                "Elderly persons in economic families",
-                "Elderly persons not in an economic family",
-                "Females",
-                "Females in economic families",
-                "Females not in an economic family",
-                "Females, 18 to 64 years",
-                "Females, 65 years and over",
-                "Females, under 18 years",
-                "Males",
-                "Males in economic families",
-                "Males not in an economic family",
-                "Males, 18 to 64 years",
-                "Males, 65 years and over",
-                "Males, under 18 years",
-                "Non-elderly females not in an economic family",
-                "Non-elderly males not in an economic family",
-                "Non-elderly persons not in an economic family",
-                "Persons 18 to 64 years",
-                "Persons 18 to 64 years in economic families",
-                "Persons 65 years and over",
-                "Persons in economic families",
-                "Persons not in an economic family",
-                "Persons under 18 years",
-                "Persons under 18 years in couple families with children",
-                "Persons under 18 years in economic families",
-                "Persons under 18 years in female lone-parent families"
-              ]
-            },
-            "title": "Persons in low income"
-          }
-        ]
-      },
-      "title": "Poverty rate, as measured by Canada’s official poverty line"
-    },
-    {
       "path": "8-5-1/data.csv",
       "name": "8-5-1",
       "profile": "tabular-data-resource",
@@ -4717,6 +4627,30 @@
         ]
       },
       "title": "Number of low carbon recharging and refueling stations under development and completed in public places, on-street, at apartment buildings, retail outlets, and the workplace"
+    },
+    {
+      "path": "1-1-1/data.csv",
+      "name": "1-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Poverty rate, as measured by Canada’s official poverty line"
     }
   ]
 }
