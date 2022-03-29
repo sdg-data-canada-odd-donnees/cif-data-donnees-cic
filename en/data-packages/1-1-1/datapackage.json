@@ -11,14 +11,97 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "Atlantic provinces",
+                "British Columbia",
+                "Calgary, Alberta",
+                "Canada",
+                "Edmonton, Alberta",
+                "Manitoba",
+                "Quebec, Montréal",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Ontario/Quebec, Ottawa-Gatineau",
+                "Prairie provinces",
+                "Prince Edward Island",
+                "Quebec",
+                "Quebec, Québec",
+                "Saskatchewan",
+                "Toronto, Ontario",
+                "Vancouver, British Columbia",
+                "Winnipeg, Manitoba",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Persons in low income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All persons",
+                "data.Elderly females in economic families",
+                "Elderly females not in an economic family",
+                "data.Elderly males in economic families",
+                "Elderly males not in an economic family",
+                "Elderly persons in economic families",
+                "Elderly persons not in an economic family",
+                "Females",
+                "data.Females 18 to 64 years in economic families",
+                "Females in economic families",
+                "Females not in an economic family",
+                "Females, 18 to 64 years",
+                "Females, 65 years and over",
+                "Females, under 18 years",
+                "Males",
+                "data.Males 18 to 64 years in economic families",
+                "Males in economic families",
+                "Males not in an economic family",
+                "Males, 18 to 64 years",
+                "Males, 65 years and over",
+                "Males, under 18 years",
+                "Non-elderly females not in an economic family",
+                "Non-elderly males not in an economic family",
+                "Non-elderly persons not in an economic family",
+                "Persons 18 to 64 years",
+                "Persons 18 to 64 years in economic families",
+                "Persons 65 years and over",
+                "Persons in economic families",
+                "Persons not in an economic family",
+                "Persons under 18 years",
+                "data.Persons under 18 years in all other economic families",
+                "Persons under 18 years in couple families with children",
+                "Persons under 18 years in economic families",
+                "Persons under 18 years in female lone-parent families"
+              ]
+            },
+            "title": "Persons in low income"
           }
         ]
       }
