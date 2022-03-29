@@ -1026,17 +1026,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
+                "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Nouvelle-Écosse",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
                 ""
               ]
             },
@@ -1048,8 +1048,8 @@
             "constraints": {
               "enum": [
                 "Les deux sexes",
-                "Hommes",
                 "Femmes",
+                "Hommes",
                 ""
               ]
             },
@@ -1061,14 +1061,14 @@
             "constraints": {
               "enum": [
                 "15 à 24 ans",
-                "25 ans et plus",
-                "25 à 44 ans",
-                "45 ans et plus",
-                "25 à 54 ans",
-                "55 ans et plus",
-                "55 à 64 ans",
-                "65 ans et plus",
                 "15 ans et plus",
+                "25 à 44 ans",
+                "25 à 54 ans",
+                "25 ans et plus",
+                "45 ans et plus",
+                "55 à 64 ans",
+                "55 ans et plus",
+                "65 ans et plus",
                 ""
               ]
             },
