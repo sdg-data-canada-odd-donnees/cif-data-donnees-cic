@@ -4488,16 +4488,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total employees, all occupations",
+                "Total des employés, toutes les professions",
                 "Gestion [0]",
-                "data.Business, finance and administration occupations [1]",
+                "Affaires, finance et administration [1]",
                 "Sciences naturelles et appliquées et domaines apparentés [2]",
                 "Secteur de la santé [3]",
-                "data.Occupations in education, law and social, community and government services [4]",
-                "data.Occupations in art, culture, recreation and sport [5]",
+                "Enseignement, droit et services sociaux, communautaires et gouvernementaux [4]",
+                "Arts, culture, sports et loisirs [5]",
                 "Vente et services [6]",
-                "data.Trades, transport and equipment operators and related occupations [7]",
-                "data.Natural resources, agriculture and related production occupations [8]",
+                "Métiers, transport, machinerie et domaines apparentés [7]",
+                "Ressources naturelles, agriculture et production connexe [8]",
                 "Fabrication et services d'utilité publique [9]",
                 ""
               ]
