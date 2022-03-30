@@ -4142,93 +4142,6 @@
       "title": " Post-secondary education attainment rate"
     },
     {
-      "path": "10-3-1/data.csv",
-      "name": "10-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Type of work",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Both full- and part-time employees",
-                "data.Full-time employees",
-                "data.Part-time employees",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.National Occupational Classification (NOC)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total employees - all occupations",
-                "data.Management occupations [0]",
-                "data.Business - finance and administration occupations [1]",
-                "data.Natural and applied sciences and related occupations [2]",
-                "data.Health occupations [3]",
-                "data.Occupations in education - law and social - community and government services [4]",
-                "data.Occupations in art - culture - recreation and sport [5]",
-                "data.Sales and service occupations [6]",
-                "data.Trades - transport and equipment operators and related occupations [7]",
-                "data.Natural resources - agriculture and related production occupations [8]",
-                "data.Occupations in manufacturing and utilities [9]",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.15 to 24 years",
-                "data.25 to 54 years",
-                "data.55 years and over",
-                "data.15 years and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Median hourly wage ratio"
-    },
-    {
       "path": "5-3-1/data.csv",
       "name": "5-3-1",
       "profile": "tabular-data-resource",
@@ -4420,6 +4333,28 @@
         ]
       },
       "title": "Number of low carbon recharging and refueling stations under development and completed in public places, on-street, at apartment buildings, retail outlets, and the workplace"
+    },
+    {
+      "path": "10-3-1/data.csv",
+      "name": "10-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Median hourly wage ratio"
     }
   ]
 }

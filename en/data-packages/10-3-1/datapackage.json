@@ -17,77 +17,8 @@
           },
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "data.Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "15 to 24 years",
-                "15 years and over",
-                "25 to 54 years",
-                "55 years and over"
-              ]
-            },
-            "title": "Age"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "data.National Occupational Classification (NOC)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Business - finance and administration occupations [1]",
-                "Health occupations [3]",
-                "Management occupations [0]",
-                "Natural and applied sciences and related occupations [2]",
-                "Natural resources - agriculture and related production occupations [8]",
-                "Occupations in art - culture - recreation and sport [5]",
-                "Occupations in education - law and social - community and government services [4]",
-                "Occupations in manufacturing and utilities [9]",
-                "Sales and service occupations [6]",
-                "Total employees - all occupations",
-                "Trades - transport and equipment operators and related occupations [7]"
-              ]
-            },
-            "title": "National Occupational Classification (NOC)"
-          },
-          {
-            "name": "data.Type of work",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Both full- and part-time employees",
-                "Full-time employees",
-                "Part-time employees"
-              ]
-            },
-            "title": "Type of work"
           }
         ]
       }
