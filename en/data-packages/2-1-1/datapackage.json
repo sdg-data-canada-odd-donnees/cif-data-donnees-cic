@@ -17,63 +17,8 @@
           },
           {
             "name": "Year",
-            "type": "string",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "data.Household food security status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Food insecure marginal",
-                "Food insecure moderate and severe",
-                "Food secure"
-              ]
-            },
-            "title": "Household food security status"
-          },
-          {
-            "name": "data.Living arrangement",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Couple no children",
-                "Couple with child(ren) less than 18 years old",
-                "Female living alone",
-                "Female lone parent with child(ren) less than 18 years old",
-                "Male living alone",
-                "Male lone parent with child(ren) less than 18 years old",
-                "Other living arrangements",
-                "All living arrangements"
-              ]
-            },
-            "title": "Living arrangement"
           }
         ]
       }

@@ -4076,85 +4076,6 @@
       "title": "Prevalence of vaping among youth"
     },
     {
-      "path": "2-1-1/data.csv",
-      "name": "2-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Année"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
-            "name": "data.Living arrangement",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Toutes dispositions de vie",
-                "Femme vivant seule",
-                "Homme vivant seul",
-                "Couple sans enfant",
-                "Couple avec enfant(s) de moins de 18 ans",
-                "Mère monoparentale avec enfant(s) de moins de 18 ans",
-                "Père monoparental avec enfant(s) de moins de 18 ans",
-                "Autres dispositions de vie",
-                ""
-              ]
-            },
-            "title": "Disposition de vie"
-          },
-          {
-            "name": "data.Household food security status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Sécurité alimentaire",
-                "Insécurité alimentaire marginale",
-                "Insécurité alimentaire modérée et grave",
-                ""
-              ]
-            },
-            "title": "Niveau de sécurité alimentaire du ménage"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Prevalence of food insecurity"
-    },
-    {
       "path": "8-3-1/data.csv",
       "name": "8-3-1",
       "profile": "tabular-data-resource",
@@ -4713,6 +4634,30 @@
         ]
       },
       "title": "Proportion of terrestrial (land and freshwater) area conserved"
+    },
+    {
+      "path": "2-1-1/data.csv",
+      "name": "2-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Prevalence of food insecurity"
     },
     {
       "path": "9-7-1/data.csv",
