@@ -19,17 +19,6 @@
             "name": "Year",
             "type": "integer",
             "title": "Year"
-          },
-          {
-            "name": "data.Month",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "April"
-              ]
-            },
-            "title": "Month"
           }
         ]
       }

@@ -15,16 +15,6 @@
             "type": "integer"
           },
           {
-            "name": "data.Month",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.April",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "integer"
           }
