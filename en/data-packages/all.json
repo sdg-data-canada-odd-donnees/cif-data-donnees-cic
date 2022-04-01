@@ -4076,6 +4076,106 @@
       "title": "Prevalence of vaping among youth"
     },
     {
+      "path": "2-1-1/data.csv",
+      "name": "2-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All persons",
+                "Elderly females not in an economic family",
+                "Elderly males not in an economic family",
+                "Elderly persons not in an economic family",
+                "Non-elderly females not in an economic family",
+                "Non-elderly males not in an economic family",
+                "Non-elderly persons not in an economic family",
+                "data.Persons in couple families with children",
+                "data.Persons in couple families with other relatives",
+                "data.Persons in couples",
+                "Persons in economic families",
+                "data.Persons in elderly couples",
+                "data.Persons in elderly families",
+                "data.Persons in female lone-parent families",
+                "data.Persons in lone-parent families",
+                "data.Persons in male lone-parent families",
+                "data.Persons in non-elderly families",
+                "data.Persons in other elderly families",
+                "data.Persons in other non-elderly families",
+                "Persons not in an economic family"
+              ]
+            },
+            "title": "Economic family type"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "Atlantic provinces",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prairie provinces",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Household food security status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Food insecure, marginal",
+                "Food insecure, moderate",
+                "Food insecure, moderate or severe",
+                "Food insecure, severe",
+                "Food secure"
+              ]
+            },
+            "title": "Household food security status"
+          }
+        ]
+      },
+      "title": "Prevalence of food insecurity"
+    },
+    {
       "path": "8-3-1/data.csv",
       "name": "8-3-1",
       "profile": "tabular-data-resource",
@@ -4634,30 +4734,6 @@
         ]
       },
       "title": "Proportion of terrestrial (land and freshwater) area conserved"
-    },
-    {
-      "path": "2-1-1/data.csv",
-      "name": "2-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Prevalence of food insecurity"
     },
     {
       "path": "9-7-1/data.csv",
