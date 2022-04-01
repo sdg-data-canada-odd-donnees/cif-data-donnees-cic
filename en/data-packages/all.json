@@ -104,8 +104,8 @@
             "constraints": {
               "enum": [
                 "",
+                "data.Do not show progress",
                 "Mixed evidence",
-                "Not on track",
                 "On track"
               ]
             },
