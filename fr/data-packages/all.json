@@ -99,11 +99,11 @@
             "constraints": {
               "enum": [
                 "Preuves mitigées",
-                "data.Do not show progress",
+                "N'affichent pas de progrès",
                 ""
               ]
             },
-            "title": "data.Progress"
+            "title": "Progrès"
           },
           {
             "name": "Value",
