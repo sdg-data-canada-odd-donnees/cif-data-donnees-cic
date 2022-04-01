@@ -87,11 +87,10 @@
             "type": "integer"
           },
           {
-            "name": "data.Population and distribution trends consistent with objectives",
+            "name": "data.Progress",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.On track",
                 "data.Mixed evidence",
                 "data.Do not show progress",
                 ""

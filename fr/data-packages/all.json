@@ -94,17 +94,16 @@
             "title": "Année"
           },
           {
-            "name": "data.Population and distribution trends consistent with objectives",
+            "name": "data.Progress",
             "type": "string",
             "constraints": {
               "enum": [
-                "Oui",
                 "Preuves mitigées",
                 "data.Do not show progress",
                 ""
               ]
             },
-            "title": "Les tendances des populations d'espèces menacées et de leur répartition sont conformes aux objectifs"
+            "title": "data.Progress"
           },
           {
             "name": "Value",

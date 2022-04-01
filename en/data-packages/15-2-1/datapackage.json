@@ -21,17 +21,16 @@
             "title": "Year"
           },
           {
-            "name": "data.Population and distribution trends consistent with objectives",
+            "name": "data.Progress",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
                 "data.Do not show progress",
-                "Mixed evidence",
-                "On track"
+                "Mixed evidence"
               ]
             },
-            "title": "Population and distribution trends consistent with objectives"
+            "title": "data.Progress"
           }
         ]
       }
