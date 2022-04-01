@@ -2812,7 +2812,7 @@
               "enum": [
                 "data.Canada",
                 "data.Atlantic Ocean",
-                "data.Great Lakes and St. Lawrence River",
+                "data.Great Lakes and St. Lawrence River",
                 "data.Hudson Bay",
                 "data.Mackenzie River",
                 "data.Pacific Ocean",
@@ -2832,6 +2832,7 @@
                 "data.Mixed pressures",
                 "data.Undeveloped",
                 "data.Total",
+                "data.Mixed Pressures",
                 ""
               ]
             }
@@ -2846,6 +2847,7 @@
                 "data.Fair",
                 "data.Marginal",
                 "data.Poor",
+                "data.Total",
                 ""
               ]
             }

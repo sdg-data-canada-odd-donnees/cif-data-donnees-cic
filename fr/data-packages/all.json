@@ -3012,7 +3012,7 @@
               "enum": [
                 "Canada",
                 "Océan Atlantique",
-                "Grands Lacs et fleuve Saint-Laurent",
+                "data.Great Lakes and St. Lawrence River",
                 "Baie d'Hudson",
                 "Fleuve Mackenzie",
                 "Océan Pacifique",
@@ -3033,6 +3033,7 @@
                 "Pressions mixtes",
                 "Non aménagés",
                 "Total",
+                "data.Mixed Pressures",
                 ""
               ]
             },
@@ -3048,6 +3049,7 @@
                 "Satisfaisante",
                 "Douteuse",
                 "Mauvaise",
+                "Total",
                 ""
               ]
             },

@@ -3018,7 +3018,7 @@
                 "",
                 "Atlantic Ocean",
                 "Canada",
-                "Great Lakes and St. Lawrence River",
+                "data.Great Lakes and St. Lawrence River",
                 "Hudson Bay",
                 "Mackenzie River",
                 "Pacific Ocean"
@@ -3035,6 +3035,7 @@
                 "Agriculture",
                 "Forestry",
                 "Mining",
+                "data.Mixed Pressures",
                 "Mixed pressures",
                 "Populated",
                 "Total",
@@ -3053,7 +3054,8 @@
                 "Fair",
                 "Good",
                 "Marginal",
-                "Poor"
+                "Poor",
+                "Total"
               ]
             },
             "title": "Water quality"
