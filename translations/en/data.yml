@@ -164,8 +164,11 @@ Asset resilient for at least six months: Asset resilient for at least six months
 ## 2-1-1
 Household food security status: Household food security status
 Food secure: Food secure
-Food insecure marginal: Food insecure marginal
-Food insecure moderate and severe: Food insecure moderate and severe
+Food insecure, marginal: Food insecure, marginal
+Food insecure, moderate or severe: Food insecure, moderate or severe
+Food insecure, moderate: Food insecure, moderate
+Food insecure, severe: Food insecure, severe
+
 Living arrangement: Living arrangement
 Total all living arrangements: All living arrangements
 Female living alone: Female living alone
@@ -263,6 +266,7 @@ Salmonella: Salmonella
 ## 3-11-1
 Age at time of death: Age at time of death
 all ages: all ages
+All ages: All ages
 1 to 14 years: 1 to 14 years
 15 to 24: 15 to 24
 25 to 34 years: 25 to 34 years
@@ -814,10 +818,10 @@ Vascular plants: Vascular plants
 Yellowjacket wasps: Yellowjacket wasps
 
 ##15-2-1
-Population and distribution trends consistent with objectives: Population and distribution trends consistent with objectives
-On track: On track
+Progress: Progress
+Show progress: Show progress
 Mixed evidence: Mixed evidence
-Not on track: Not on track
+Do not show progress: Do not show progress
 
 ## 15-3-1
 National terrestrial: National terrestrial

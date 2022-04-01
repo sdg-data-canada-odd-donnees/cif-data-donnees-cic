@@ -171,8 +171,11 @@ Asset resilient for at least six months: Personnes en situation de résilience d
 ## 2-1-1
 Household food security status: Niveau de sécurité alimentaire du ménage
 Food secure: Sécurité alimentaire
-Food insecure marginal: Insécurité alimentaire marginale
-Food insecure moderate and severe: Insécurité alimentaire modérée et grave
+Food insecure, marginal: Insécurité alimentaire marginale
+Food insecure, moderate or severe: Insécurité alimentaire modérée ou grave
+Food insecure, moderate: Insécurité alimentaire modérée
+Food insecure, severe: Insécurité alimentaire grave
+
 Living arrangement: Disposition de vie
 Total all living arrangements: Toutes dispositions de vie
 Female living alone: Femme vivant seule
@@ -284,6 +287,7 @@ Salmonella: Salmonellose
 ## 3-11-1
 Age at time of death: Âge au décès
 all ages: Tous les âges
+All ages: Tous les âges
 1 to 14 years: 1 à 14 ans
 15 to 24: 15 à 24 ans
 25 to 34 years: 25 à 34 ans
@@ -833,12 +837,11 @@ Stoneflies: Plécoptères
 Vascular plants: Plantes vasculaires
 Yellowjacket wasps: Guêpes jaunes
 
-
 ##15-2-1
-Population and distribution trends consistent with objectives: Les tendances des populations d'espèces menacées et de leur répartition sont conformes aux objectifs
-On track: Oui
+Progress: Progrès
+Show progress: Affichent des progrès
 Mixed evidence: Preuves mitigées
-Not on track: Non
+Do not show progress: N'affichent pas de progrès
 
 ## 15-3-1
 National terrestrial: National terrestrial
