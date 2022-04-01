@@ -401,6 +401,121 @@
       "title": "Percentage of Canadians who perceived their overall health and social well-being as very good to excellent"
     },
     {
+      "path": "8-1-1/data.csv",
+      "name": "8-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15 to 19 years",
+                "15 to 24 years",
+                "15 to 64 years",
+                "15 years and over",
+                "20 to 24 years",
+                "25 to 29 years",
+                "25 to 44 years",
+                "25 to 54 years",
+                "25 years and over",
+                "30 to 34 years",
+                "35 to 39 years",
+                "40 to 44 years",
+                "45 to 49 years",
+                "45 to 64 years",
+                "45 years and over",
+                "50 to 54 years",
+                "55 to 59 years",
+                "55 years and over",
+                "60 to 64 years",
+                "65 to 69 years",
+                "65 years and over",
+                "70 years and over"
+              ]
+            },
+            "title": "Age group"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Alberta",
+                "Atlantic region",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Immigrants, landed 5 or less years earlier",
+                "Immigrants, landed more than 10 years earlier",
+                "Immigrants, landed more than 5 to 10 years earlier",
+                "Indigenous population",
+                "Landed immigrants",
+                "Total population"
+              ]
+            },
+            "title": "Population"
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Both sexes",
+                "Females",
+                "Males"
+              ]
+            },
+            "title": "Sex"
+          }
+        ]
+      },
+      "title": "Unemployment rate"
+    },
+    {
       "path": "16-3-1/data.csv",
       "name": "16-3-1",
       "profile": "tabular-data-resource",
@@ -4624,30 +4739,6 @@
         ]
       },
       "title": "Number of low carbon recharging and refueling stations under development and completed in public places, on-street, at apartment buildings, retail outlets, and the workplace"
-    },
-    {
-      "path": "8-1-1/data.csv",
-      "name": "8-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Unemployment rate"
     }
   ]
 }
