@@ -28,30 +28,8 @@
             }
           },
           {
-            "name": "data.Indicator",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Compound Index",
-                "data.Soil Cover",
-                "data.Wildlife Habitat on Farmland",
-                "data.Risk of Soil Erosion",
-                "data.Soil Organic Carbon Change",
-                "data.Risk of Soil Salinization",
-                "data.Residual Soil Nitrogen",
-                "data.Risk of water contamination by phosphorus",
-                "data.Risk of Water Contamination by Coliforms",
-                "data.Risk of Water Contamination by Pesticides",
-                "data.Agricultural Greenhouse gas",
-                "data.Agricultural Ammonia Emissions",
-                "data.Agricultural Particulate Matter Emissions",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

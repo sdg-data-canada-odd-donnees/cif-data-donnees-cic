@@ -30,31 +30,8 @@
             "title": "Indice"
           },
           {
-            "name": "data.Indicator",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Indice composé",
-                "Couverture des sols",
-                "Capacité d'habitat faunique des terres agricoles",
-                "Risques d'érosion des sols",
-                "Matière organique du sol",
-                "Risque de salinisation du sol",
-                "Azote",
-                "Phosphore",
-                "Coliforme",
-                "Pesticides",
-                "Gaz à effet de serre d'origine agricole",
-                "Ammoniac d'origine agricole",
-                "Particules fines",
-                ""
-              ]
-            },
-            "title": "Indicateur"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valeur"
           }
         ]

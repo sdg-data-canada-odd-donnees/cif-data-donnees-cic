@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           },
           {
@@ -33,29 +33,6 @@
               ]
             },
             "title": "Index"
-          },
-          {
-            "name": "data.Indicator",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Agricultural Ammonia Emissions",
-                "Agricultural Greenhouse gas",
-                "Agricultural Particulate Matter Emissions",
-                "Compound Index",
-                "Residual Soil Nitrogen",
-                "Risk of Soil Erosion",
-                "Risk of Soil Salinization",
-                "Risk of Water Contamination by Coliforms",
-                "Risk of Water Contamination by Pesticides",
-                "Risk of water contamination by phosphorus",
-                "Soil Cover",
-                "Soil Organic Carbon Change",
-                "Wildlife Habitat on Farmland"
-              ]
-            },
-            "title": "Indicator"
           }
         ]
       }
