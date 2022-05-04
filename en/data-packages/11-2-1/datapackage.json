@@ -26,13 +26,13 @@
             "constraints": {
               "enum": [
                 "",
-                "Living in core housing need",
-                "Living in inadequate housing",
-                "Living in unaffordable housing",
-                "Living in unsuitable housing"
+                "data.Living in core housing need",
+                "data.Living in inadequate housing",
+                "data.Living in unaffordable housing",
+                "data.Living in unsuitable housing"
               ]
             },
-            "title": "Living with housing problems"
+            "title": "data.Living with housing problems"
           },
           {
             "name": "data.Selected housing vulnerable populations",
@@ -40,17 +40,17 @@
             "constraints": {
               "enum": [
                 "",
-                "All households",
-                "Lone-parent family households whose reference person is female",
-                "Lone-parent family households whose reference person is male",
-                "Men living alone",
-                "Reference person who experienced homelessness",
-                "Total, lone-parent family households",
-                "Total, one person households",
-                "Women living alone"
+                "data.All households",
+                "data.Lone-parent family households whose reference person is female",
+                "data.Lone-parent family households whose reference person is male",
+                "data.Men living alone",
+                "data.Reference person who experienced homelessness",
+                "data.Total, lone-parent family households",
+                "data.Total, one person households",
+                "data.Women living alone"
               ]
             },
-            "title": "Selected housing vulnerable populations"
+            "title": "data.Selected housing vulnerable populations"
           }
         ]
       }

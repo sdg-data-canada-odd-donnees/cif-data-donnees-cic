@@ -13,53 +13,66 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Institutions",
             "type": "string",
             "constraints": {
               "enum": [
-                "Police",
+                "data.Police",
+                "data.Justice system and courts",
+                "data.School system",
+                "data.Federal Parliament",
+                "data.Banks",
+                "data.Major corporations",
+                "data.Local merchants and business people",
+                "data.Canadian media",
                 ""
               ]
             },
-            "title": "Institutions"
+            "title": "data.Institutions"
           },
           {
             "name": "data.Characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Population totale",
-                "Homme",
-                "Femme",
-                "Autochtone",
-                "Personne non autochtone",
-                "Minorité visible",
-                "N’appartenant pas à une minorité visible",
+                "data.Total population",
+                "data.Male",
+                "data.Female",
+                "data.Indigenous person",
+                "data.Non-Indigenous person",
+                "data.Visible minority",
+                "data.Non-visible minority",
+                "data.Black",
+                "data.First Nations, Métis, or Inuit",
+                "data.Other group designated as visible minority",
+                "data.Non-Indigenous, non-visible minority",
                 ""
               ]
             },
-            "title": "Caractéristiques"
+            "title": "data.Characteristics"
           },
           {
             "name": "data.Level of confidence",
             "type": "string",
             "constraints": {
               "enum": [
-                "Une certaine confiance",
-                "Très peu confiance ou aucune confiance",
-                "Une grande confiance",
+                "data.Some confidence",
+                "data.Not very much or no confidence",
+                "data.A great deal of confidence",
+                "data.Not confident",
+                "data.Confident",
                 ""
               ]
             },
-            "title": "Niveau de confiance"
+            "title": "data.Level of confidence"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

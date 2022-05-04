@@ -13,72 +13,72 @@
           {
             "name": "Year",
             "type": "string",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Homme",
-                "Femme",
-                "Les deux sexes",
+                "data.Male",
+                "data.Female",
+                "data.Both sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "data.Grade",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les niveaux",
-                "7e à 9e année",
-                "10e à 12e année",
+                "data.All grades",
+                "data.Grades 7-9",
+                "data.Grades 10-12",
                 ""
               ]
             },
-            "title": "Niveaux de scolarité"
+            "title": "data.Grade"
           },
           {
             "name": "data.Type of e-cigarettes",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux types",
-                "Avec nicotine",
-                "Sans nicotine",
+                "data.Both type",
+                "data.With nicotine",
+                "data.Without nicotine",
                 ""
               ]
             },
-            "title": "Type de cigarettes"
+            "title": "data.Type of e-cigarettes"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

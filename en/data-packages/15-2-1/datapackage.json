@@ -26,11 +26,11 @@
             "constraints": {
               "enum": [
                 "",
-                "Do not show progress",
-                "Mixed evidence"
+                "data.Do not show progress",
+                "data.Mixed evidence"
               ]
             },
-            "title": "Progress"
+            "title": "data.Progress"
           }
         ]
       }

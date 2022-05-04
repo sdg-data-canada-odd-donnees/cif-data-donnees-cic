@@ -1,22 +1,86 @@
-Year,Institutions,Caractéristiques,Niveau de confiance,Value
+Year,data.Institutions,data.Characteristics,data.Level of confidence,Value
 2019,,,,41
-2019,Police,Population totale,Une certaine confiance,49
-2019,Police,Population totale,Très peu confiance ou aucune confiance,9
-2019,Police,Homme,Une grande confiance,41
-2019,Police,Homme,Une certaine confiance,49
-2019,Police,Homme,Très peu confiance ou aucune confiance,10
-2019,Police,Femme,Une grande confiance,42
-2019,Police,Femme,Une certaine confiance,49
-2019,Police,Femme,Très peu confiance ou aucune confiance,9
-2019,Police,Autochtone,Une grande confiance,27
-2019,Police,Autochtone,Une certaine confiance,55
-2019,Police,Autochtone,Très peu confiance ou aucune confiance,16
-2019,Police,Personne non autochtone,Une grande confiance,42
-2019,Police,Personne non autochtone,Une certaine confiance,49
-2019,Police,Personne non autochtone,Très peu confiance ou aucune confiance,9
-2019,Police,Minorité visible,Une grande confiance,35
-2019,Police,Minorité visible,Une certaine confiance,52
-2019,Police,Minorité visible,Très peu confiance ou aucune confiance,13
-2019,Police,N’appartenant pas à une minorité visible,Une grande confiance,44
-2019,Police,N’appartenant pas à une minorité visible,Une certaine confiance,48
-2019,Police,N’appartenant pas à une minorité visible,Très peu confiance ou aucune confiance,8
+2019,data.Police,data.Total population,data.Some confidence,49
+2019,data.Police,data.Total population,data.Not very much or no confidence,9
+2019,data.Police,data.Male,data.A great deal of confidence,41
+2019,data.Police,data.Male,data.Some confidence,49
+2019,data.Police,data.Male,data.Not very much or no confidence,10
+2019,data.Police,data.Female,data.A great deal of confidence,42
+2019,data.Police,data.Female,data.Some confidence,49
+2019,data.Police,data.Female,data.Not very much or no confidence,9
+2019,data.Police,data.Indigenous person,data.A great deal of confidence,27
+2019,data.Police,data.Indigenous person,data.Some confidence,55
+2019,data.Police,data.Indigenous person,data.Not very much or no confidence,16
+2019,data.Police,data.Non-Indigenous person,data.A great deal of confidence,42
+2019,data.Police,data.Non-Indigenous person,data.Some confidence,49
+2019,data.Police,data.Non-Indigenous person,data.Not very much or no confidence,9
+2019,data.Police,data.Visible minority,data.A great deal of confidence,35
+2019,data.Police,data.Visible minority,data.Some confidence,52
+2019,data.Police,data.Visible minority,data.Not very much or no confidence,13
+2019,data.Police,data.Non-visible minority,data.A great deal of confidence,44
+2019,data.Police,data.Non-visible minority,data.Some confidence,48
+2019,data.Police,data.Non-visible minority,data.Not very much or no confidence,8
+2020,data.Police,data.Black,data.Not confident,21
+2020,data.Police,"data.First Nations, Métis, or Inuit",data.Not confident,22
+2020,data.Police,data.Other group designated as visible minority,data.Not confident,11
+2020,data.Police,"data.Non-Indigenous, non-visible minority",data.Not confident,11
+2020,data.Police,data.Black,data.Confident,54
+2020,data.Police,"data.First Nations, Métis, or Inuit",data.Confident,52
+2020,data.Police,data.Other group designated as visible minority,data.Confident,66
+2020,data.Police,"data.Non-Indigenous, non-visible minority",data.Confident,70
+2020,data.Justice system and courts,data.Black,data.Not confident,16
+2020,data.Justice system and courts,"data.First Nations, Métis, or Inuit",data.Not confident,30
+2020,data.Justice system and courts,data.Other group designated as visible minority,data.Not confident,10
+2020,data.Justice system and courts,"data.Non-Indigenous, non-visible minority",data.Not confident,16
+2020,data.Justice system and courts,data.Black,data.Confident,54
+2020,data.Justice system and courts,"data.First Nations, Métis, or Inuit",data.Confident,37
+2020,data.Justice system and courts,data.Other group designated as visible minority,data.Confident,68
+2020,data.Justice system and courts,"data.Non-Indigenous, non-visible minority",data.Confident,53
+2020,data.School system,data.Black,data.Not confident,9
+2020,data.School system,"data.First Nations, Métis, or Inuit",data.Not confident,20
+2020,data.School system,data.Other group designated as visible minority,data.Not confident,10
+2020,data.School system,"data.Non-Indigenous, non-visible minority",data.Not confident,11
+2020,data.School system,data.Black,data.Confident,61
+2020,data.School system,"data.First Nations, Métis, or Inuit",data.Confident,45
+2020,data.School system,data.Other group designated as visible minority,data.Confident,66
+2020,data.School system,"data.Non-Indigenous, non-visible minority",data.Confident,57
+2020,data.Federal Parliament,data.Black,data.Not confident,13
+2020,data.Federal Parliament,"data.First Nations, Métis, or Inuit",data.Not confident,31
+2020,data.Federal Parliament,data.Other group designated as visible minority,data.Not confident,11
+2020,data.Federal Parliament,"data.Non-Indigenous, non-visible minority",data.Not confident,21
+2020,data.Federal Parliament,data.Black,data.Confident,52
+2020,data.Federal Parliament,"data.First Nations, Métis, or Inuit",data.Confident,28
+2020,data.Federal Parliament,data.Other group designated as visible minority,data.Confident,60
+2020,data.Federal Parliament,"data.Non-Indigenous, non-visible minority",data.Confident,41
+2020,data.Banks,data.Black,data.Not confident,15
+2020,data.Banks,"data.First Nations, Métis, or Inuit",data.Not confident,22
+2020,data.Banks,data.Other group designated as visible minority,data.Not confident,10
+2020,data.Banks,"data.Non-Indigenous, non-visible minority",data.Not confident,17
+2020,data.Banks,data.Black,data.Confident,57
+2020,data.Banks,"data.First Nations, Métis, or Inuit",data.Confident,46
+2020,data.Banks,data.Other group designated as visible minority,data.Confident,63
+2020,data.Banks,"data.Non-Indigenous, non-visible minority",data.Confident,52
+2020,data.Major corporations,data.Black,data.Not confident,29
+2020,data.Major corporations,"data.First Nations, Métis, or Inuit",data.Not confident,38
+2020,data.Major corporations,data.Other group designated as visible minority,data.Not confident,21
+2020,data.Major corporations,"data.Non-Indigenous, non-visible minority",data.Not confident,32
+2020,data.Major corporations,data.Black,data.Confident,32
+2020,data.Major corporations,"data.First Nations, Métis, or Inuit",data.Confident,20
+2020,data.Major corporations,data.Other group designated as visible minority,data.Confident,42
+2020,data.Major corporations,"data.Non-Indigenous, non-visible minority",data.Confident,26
+2020,data.Local merchants and business people,data.Black,data.Not confident,14
+2020,data.Local merchants and business people,"data.First Nations, Métis, or Inuit",data.Not confident,11
+2020,data.Local merchants and business people,data.Other group designated as visible minority,data.Not confident,8
+2020,data.Local merchants and business people,"data.Non-Indigenous, non-visible minority",data.Not confident,5
+2020,data.Local merchants and business people,data.Black,data.Confident,54
+2020,data.Local merchants and business people,"data.First Nations, Métis, or Inuit",data.Confident,62
+2020,data.Local merchants and business people,data.Other group designated as visible minority,data.Confident,57
+2020,data.Local merchants and business people,"data.Non-Indigenous, non-visible minority",data.Confident,69
+2020,data.Canadian media,data.Black,data.Not confident,15
+2020,data.Canadian media,"data.First Nations, Métis, or Inuit",data.Not confident,32
+2020,data.Canadian media,data.Other group designated as visible minority,data.Not confident,14
+2020,data.Canadian media,"data.Non-Indigenous, non-visible minority",data.Not confident,22
+2020,data.Canadian media,data.Black,data.Confident,47
+2020,data.Canadian media,"data.First Nations, Métis, or Inuit",data.Confident,30
+2020,data.Canadian media,data.Other group designated as visible minority,data.Confident,47
+2020,data.Canadian media,"data.Non-Indigenous, non-visible minority",data.Confident,40

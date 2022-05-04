@@ -13,59 +13,59 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Asset",
             "type": "string",
             "constraints": {
               "enum": [
-                "Immeubles commerciaux",
-                "Bâtiments institutionnels",
-                "Infrastructures de génie maritime",
-                "Infrastructures de génie liées aux transports",
-                "Infrastructure d'adduction et de distribution d'eau",
-                "Infrastructures pour les eaux usées",
-                "Réseaux de communication",
-                "Infrastructure liées à l'énergie électrique",
-                "Construction liée aux installations de pétrole et de gaz",
-                "Autres travaux de génie",
-                "Autres machines et matériel",
-                "Machines et matériel de transport",
-                "Total des actifs",
+                "data.Commercial buildings",
+                "data.Institutional buildings",
+                "data.Marine engineering infrastructure",
+                "data.Transportation engineering infrastructure",
+                "data.Waterworks infrastructure",
+                "data.Sewage infrastructure",
+                "data.Communications networks",
+                "data.Electric power infrastructure",
+                "data.Oil and gas engineering construction",
+                "data.Other engineering construction",
+                "data.Other machinery and equipment",
+                "data.Transportation machinery and equipment",
+                "data.Total assets",
                 ""
               ]
             },
-            "title": "Actif"
+            "title": "data.Asset"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

@@ -16,8 +16,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Number of sites",
-                "Percentage"
+                "data.Number of sites",
+                "data.Percentage"
               ]
             },
             "title": "Units"
@@ -38,15 +38,15 @@
             "constraints": {
               "enum": [
                 "",
-                "Atlantic Ocean",
-                "Canada",
+                "data.Atlantic Ocean",
+                "data.Canada",
                 "data.Great Lakes and St. Lawrence River",
-                "Hudson Bay",
-                "Mackenzie River",
-                "Pacific Ocean"
+                "data.Hudson Bay",
+                "data.Mackenzie River",
+                "data.Pacific Ocean"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Land use category",
@@ -54,17 +54,17 @@
             "constraints": {
               "enum": [
                 "",
-                "Agriculture",
-                "Forestry",
-                "Mining",
+                "data.Agriculture",
+                "data.Forestry",
+                "data.Mining",
                 "data.Mixed Pressures",
-                "Mixed pressures",
-                "Populated",
-                "Total",
-                "Undeveloped"
+                "data.Mixed pressures",
+                "data.Populated",
+                "data.Total",
+                "data.Undeveloped"
               ]
             },
-            "title": "Land use category"
+            "title": "data.Land use category"
           },
           {
             "name": "data.Water quality",
@@ -72,15 +72,15 @@
             "constraints": {
               "enum": [
                 "",
-                "Excellent",
-                "Fair",
-                "Good",
-                "Marginal",
-                "Poor",
-                "Total"
+                "data.Excellent",
+                "data.Fair",
+                "data.Good",
+                "data.Marginal",
+                "data.Poor",
+                "data.Total"
               ]
             },
-            "title": "Water quality"
+            "title": "data.Water quality"
           }
         ]
       }

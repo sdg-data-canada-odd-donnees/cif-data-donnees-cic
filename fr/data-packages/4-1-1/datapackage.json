@@ -13,85 +13,85 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Hommes",
-                "Femmes",
+                "data.Both sexes",
+                "data.Males",
+                "data.Females",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, personnes âgées de 15 ans et plus",
-                "15 à 24 ans",
-                "25 à 64 ans",
-                "65 à 74 ans",
-                "75 ans et plus",
+                "data.Total, persons aged 15 years and over",
+                "data.15 to 24 years",
+                "data.25 to 64 years",
+                "data.65 to 74 years",
+                "data.75 years and over",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "data.Selected demographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Non-immigrants",
-                "Immigrants",
-                "Résidents non permanents",
-                "Total de la population des minorités visibles",
-                "Pas une minorité visible",
-                "Total identité autochtone",
-                "Première Nation (Indien de l'Amérique du Nord)",
-                "Métis",
-                "Inuk (Inuit)",
-                "Identité non autochtone",
-                "Total, toutes les personnes",
+                "data.Non immigrants",
+                "data.Immigrants",
+                "data.Non-permanent residents",
+                "data.Total visible minority population",
+                "data.Not a visible minority",
+                "data.Total Aboriginal identity",
+                "data.First Nations (North American Indian)",
+                "data.Métis",
+                "data.Inuk (Inuit)",
+                "data.Non-Aboriginal identity",
+                "data.Total, all persons",
                 ""
               ]
             },
-            "title": "Caractéristiques démographiques déterminées"
+            "title": "data.Selected demographic characteristics"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

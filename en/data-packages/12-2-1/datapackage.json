@@ -26,16 +26,16 @@
             "constraints": {
               "enum": [
                 "",
-                "Air pollution management",
-                "Noise and vibration abatement",
-                "Protection and remediation of soil, groundwater and surface water",
-                "Protection of biodiversity and habitat",
-                "Sold carbon offset credits only or sold more than purchased",
-                "Total, environmental protection activities",
-                "Wastewater management"
+                "data.Air pollution management",
+                "data.Noise and vibration abatement",
+                "data.Protection and remediation of soil, groundwater and surface water",
+                "data.Protection of biodiversity and habitat",
+                "data.Sold carbon offset credits only or sold more than purchased",
+                "data.Total, environmental protection activities",
+                "data.Wastewater management"
               ]
             },
-            "title": "Environmental protection activities or management practices"
+            "title": "data.Environmental protection activities or management practices"
           },
           {
             "name": "data.Industries",
@@ -43,30 +43,30 @@
             "constraints": {
               "enum": [
                 "",
-                "Beverage and tobacco product manufacturing",
-                "Chemical manufacturing",
-                "Electric power generation, transmission and distribution",
-                "Fabricated metal product manufacturing",
-                "Food manufacturing",
-                "Furniture and related product manufacturing",
-                "Logging (except contract)",
-                "Machinery manufacturing",
-                "Mining and quarrying",
-                "Natural gas distribution",
-                "Non-metallic mineral product manufacturing",
-                "Oil and gas extraction",
-                "Other manufacturing industries",
-                "Paper manufacturing",
-                "Petroleum and coal product manufacturing",
-                "Pipeline transportation",
-                "Plastics and rubber products manufacturing",
-                "Primary metal manufacturing",
-                "Total, industries",
-                "Transportation equipment manufacturing",
-                "Wood product manufacturing"
+                "data.Beverage and tobacco product manufacturing",
+                "data.Chemical manufacturing",
+                "data.Electric power generation, transmission and distribution",
+                "data.Fabricated metal product manufacturing",
+                "data.Food manufacturing",
+                "data.Furniture and related product manufacturing",
+                "data.Logging (except contract)",
+                "data.Machinery manufacturing",
+                "data.Mining and quarrying",
+                "data.Natural gas distribution",
+                "data.Non-metallic mineral product manufacturing",
+                "data.Oil and gas extraction",
+                "data.Other manufacturing industries",
+                "data.Paper manufacturing",
+                "data.Petroleum and coal product manufacturing",
+                "data.Pipeline transportation",
+                "data.Plastics and rubber products manufacturing",
+                "data.Primary metal manufacturing",
+                "data.Total, industries",
+                "data.Transportation equipment manufacturing",
+                "data.Wood product manufacturing"
               ]
             },
-            "title": "Industries"
+            "title": "data.Industries"
           }
         ]
       }

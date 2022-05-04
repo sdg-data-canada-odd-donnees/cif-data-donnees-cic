@@ -13,66 +13,66 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
+                "data.Canada",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Measures",
             "type": "string",
             "constraints": {
               "enum": [
-                "Embonpoint",
-                "Obèse",
+                "data.Overweight",
+                "data.Obese",
                 ""
               ]
             },
-            "title": "Mesures"
+            "title": "data.Measures"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Hommes",
-                "Femmes",
+                "data.Both sexes",
+                "data.Males",
+                "data.Females",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "5 à 79 ans",
-                "5 à 17 ans",
-                "5 à 11 ans",
-                "12 à 17 ans",
-                "18 à 79 ans",
-                "18 à 39 ans",
-                "40 à 59 ans",
-                "60 à 79 ans",
+                "data.Ages 5 to 79",
+                "data.Ages 5 to 17",
+                "data.Ages 5 to 11",
+                "data.Ages 12 to 17",
+                "data.Ages 18 to 79",
+                "data.Ages 18 to 39",
+                "data.Ages 40 to 59",
+                "data.Ages 60 to 79",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

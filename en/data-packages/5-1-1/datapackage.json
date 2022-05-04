@@ -26,10 +26,10 @@
             "constraints": {
               "enum": [
                 "",
-                "Canada"
+                "data.Canada"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -37,11 +37,11 @@
             "constraints": {
               "enum": [
                 "",
-                "Men",
-                "Women"
+                "data.Men",
+                "data.Women"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           },
           {
             "name": "data.Type of perpetrator",
@@ -49,12 +49,12 @@
             "constraints": {
               "enum": [
                 "",
-                "All types of perpetrators",
-                "Intimate partner",
-                "Non-intimate partner"
+                "data.All types of perpetrators",
+                "data.Intimate partner",
+                "data.Non-intimate partner"
               ]
             },
-            "title": "Type of perpetrator"
+            "title": "data.Type of perpetrator"
           }
         ]
       }

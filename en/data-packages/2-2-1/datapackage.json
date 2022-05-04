@@ -26,13 +26,13 @@
             "constraints": {
               "enum": [
                 "",
-                "Air Quality",
-                "Biodiversity",
-                "Soil Quality",
-                "Water Quality"
+                "data.Air Quality",
+                "data.Biodiversity",
+                "data.Soil Quality",
+                "data.Water Quality"
               ]
             },
-            "title": "Index"
+            "title": "data.Index"
           }
         ]
       }

@@ -13,27 +13,27 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Population centres",
             "type": "string",
             "constraints": {
               "enum": [
-                "Réserves des Premières Nations",
-                "Grands centres de population",
-                "Moyens centres de population",
-                "Régions rurales",
-                "Petits centres de population",
+                "data.First Nations reserves",
+                "data.Large population centres",
+                "data.Medium population centres",
+                "data.Rural areas",
+                "data.Small population centres",
                 ""
               ]
             },
-            "title": "Centres de population"
+            "title": "data.Population centres"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

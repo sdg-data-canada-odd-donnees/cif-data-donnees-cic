@@ -13,32 +13,32 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Disease",
             "type": "string",
             "constraints": {
               "enum": [
-                "Cancer",
-                "Maladie pulmonaire obstructive chronique",
-                "Creutzfeldt-Jakob",
-                "Démence, y compris la maladie d'Alzheimer",
-                "Diabète",
-                "VIH et SIDA",
-                "Hypertension",
-                "Cardiopathies ischémiques",
-                "Salmonellose",
-                "Tuberculose",
+                "data.Cancer",
+                "data.Chronic obstructive pulmonary disease",
+                "data.Creutzfeldt-Jakob",
+                "data.Dementia, including Alzheimer's disease",
+                "data.Diabetes",
+                "data.HIV and AIDS",
+                "data.Hypertension",
+                "data.Ischemic heart disease",
+                "data.Salmonella",
+                "data.Tuberculosis",
                 ""
               ]
             },
-            "title": "Maladies"
+            "title": "data.Disease"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

@@ -28,15 +28,15 @@
             "constraints": {
               "enum": [
                 "",
-                "12 to 17 years",
-                "18 to 34 years",
-                "35 to 49 years",
-                "50 to 64 years",
-                "65 years and over",
-                "Total, 12 years and over"
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                "data.Total, 12 years and over"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -44,20 +44,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -65,12 +65,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -92,8 +92,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Number of sites",
-                "Percentage"
+                "data.Number of sites",
+                "data.Percentage"
               ]
             },
             "title": "Units"
@@ -114,15 +114,15 @@
             "constraints": {
               "enum": [
                 "",
-                "Atlantic Ocean",
-                "Canada",
+                "data.Atlantic Ocean",
+                "data.Canada",
                 "data.Great Lakes and St. Lawrence River",
-                "Hudson Bay",
-                "Mackenzie River",
-                "Pacific Ocean"
+                "data.Hudson Bay",
+                "data.Mackenzie River",
+                "data.Pacific Ocean"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Land use category",
@@ -130,17 +130,17 @@
             "constraints": {
               "enum": [
                 "",
-                "Agriculture",
-                "Forestry",
-                "Mining",
+                "data.Agriculture",
+                "data.Forestry",
+                "data.Mining",
                 "data.Mixed Pressures",
-                "Mixed pressures",
-                "Populated",
-                "Total",
-                "Undeveloped"
+                "data.Mixed pressures",
+                "data.Populated",
+                "data.Total",
+                "data.Undeveloped"
               ]
             },
-            "title": "Land use category"
+            "title": "data.Land use category"
           },
           {
             "name": "data.Water quality",
@@ -148,15 +148,15 @@
             "constraints": {
               "enum": [
                 "",
-                "Excellent",
-                "Fair",
-                "Good",
-                "Marginal",
-                "Poor",
-                "Total"
+                "data.Excellent",
+                "data.Fair",
+                "data.Good",
+                "data.Marginal",
+                "data.Poor",
+                "data.Total"
               ]
             },
-            "title": "Water quality"
+            "title": "data.Water quality"
           }
         ]
       },
@@ -188,58 +188,58 @@
             "constraints": {
               "enum": [
                 "",
-                "Abbotsford - Mission, British Columbia",
-                "Alberta",
-                "Barrie, Ontario",
-                "Belleville, Ontario",
-                "Brantford, Ontario",
-                "British Columbia",
-                "Calgary, Alberta",
-                "Edmonton, Alberta",
-                "Greater Sudbury / Grand Sudbury, Ontario",
-                "Guelph, Ontario",
-                "Halifax, Nova Scotia",
-                "Hamilton, Ontario",
-                "Kelowna, British Columbia",
-                "Kingston, Ontario",
-                "Kitchener - Cambridge - Waterloo, Ontario",
-                "Lethbridge, Alberta",
-                "London, Ontario",
-                "Manitoba",
-                "Moncton, New Brunswick",
-                "Montreal, Quebec",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Oshawa, Ontario",
-                "Ottawa - Gatineau (Ontario part), Ontario",
-                "Ottawa - Gatineau (Quebec part), Quebec",
-                "Peterborough, Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Quebec, Quebec",
-                "Regina, Saskatchewan",
-                "Saguenay, Quebec",
-                "Saint John, New Brunswick",
-                "Saskatchewan",
-                "Saskatoon, Saskatchewan",
-                "Sherbrooke, Quebec",
-                "St. Catharines - Niagara, Ontario",
-                "St. John's, Newfoundland and Labrador",
-                "Thunder Bay, Ontario",
-                "Toronto, Ontario",
-                "Trois-Rivieres, Quebec",
-                "Vancouver, British Columbia",
-                "Victoria, British Columbia",
-                "Windsor, Ontario",
-                "Winnipeg, Manitoba",
-                "Yukon"
+                "data.Abbotsford - Mission, British Columbia",
+                "data.Alberta",
+                "data.Barrie, Ontario",
+                "data.Belleville, Ontario",
+                "data.Brantford, Ontario",
+                "data.British Columbia",
+                "data.Calgary, Alberta",
+                "data.Edmonton, Alberta",
+                "data.Greater Sudbury / Grand Sudbury, Ontario",
+                "data.Guelph, Ontario",
+                "data.Halifax, Nova Scotia",
+                "data.Hamilton, Ontario",
+                "data.Kelowna, British Columbia",
+                "data.Kingston, Ontario",
+                "data.Kitchener - Cambridge - Waterloo, Ontario",
+                "data.Lethbridge, Alberta",
+                "data.London, Ontario",
+                "data.Manitoba",
+                "data.Moncton, New Brunswick",
+                "data.Montreal, Quebec",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Oshawa, Ontario",
+                "data.Ottawa - Gatineau (Ontario part), Ontario",
+                "data.Ottawa - Gatineau (Quebec part), Quebec",
+                "data.Peterborough, Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Quebec, Quebec",
+                "data.Regina, Saskatchewan",
+                "data.Saguenay, Quebec",
+                "data.Saint John, New Brunswick",
+                "data.Saskatchewan",
+                "data.Saskatoon, Saskatchewan",
+                "data.Sherbrooke, Quebec",
+                "data.St. Catharines - Niagara, Ontario",
+                "data.St. John's, Newfoundland and Labrador",
+                "data.Thunder Bay, Ontario",
+                "data.Toronto, Ontario",
+                "data.Trois-Rivieres, Quebec",
+                "data.Vancouver, British Columbia",
+                "data.Victoria, British Columbia",
+                "data.Windsor, Ontario",
+                "data.Winnipeg, Manitoba",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Type of commute",
@@ -247,11 +247,11 @@
             "constraints": {
               "enum": [
                 "",
-                "Active transport",
-                "Public transit"
+                "data.Active transport",
+                "data.Public transit"
               ]
             },
-            "title": "Type of commute"
+            "title": "data.Type of commute"
           }
         ]
       },
@@ -283,15 +283,15 @@
             "constraints": {
               "enum": [
                 "",
-                "25 to 34 years",
-                "30 to 34 years",
-                "35 to 44 years",
-                "45 to 54 years",
-                "55 to 64 years",
-                "Total, 25 to 64 years"
+                "data.25 to 34 years",
+                "data.30 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                "data.Total, 25 to 64 years"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Educational attainment level",
@@ -299,14 +299,14 @@
             "constraints": {
               "enum": [
                 "",
-                "Bachelor's level",
-                "Master's or Doctoral level",
-                "Short-cycle tertiary",
-                "Tertiary education",
-                "University"
+                "data.Bachelor's level",
+                "data.Master's or Doctoral level",
+                "data.Short-cycle tertiary",
+                "data.Tertiary education",
+                "data.University"
               ]
             },
-            "title": "Educational attainment level"
+            "title": "data.Educational attainment level"
           },
           {
             "name": "data.Geography",
@@ -314,23 +314,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Population characteristics",
@@ -338,11 +338,11 @@
             "constraints": {
               "enum": [
                 "",
-                "Off-reserve Indigenous population",
-                "Total population"
+                "data.Off-reserve Indigenous  population",
+                "data.Total population"
               ]
             },
-            "title": "Population characteristics"
+            "title": "data.Population characteristics"
           },
           {
             "name": "data.Sex",
@@ -350,12 +350,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Female",
-                "Male"
+                "data.Both sexes",
+                "data.Female",
+                "data.Male"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -387,11 +387,11 @@
             "constraints": {
               "enum": [
                 "",
-                "Cross-border flows to TOSSD-eligible countries",
-                "Global and regional expenditures for international public goods"
+                "data.Cross-border flows to TOSSD-eligible countries",
+                "data.Global and regional expenditures for international public goods"
               ]
             },
-            "title": "Pillar"
+            "title": "data.Pillar"
           },
           {
             "name": "data.Region",
@@ -399,17 +399,17 @@
             "constraints": {
               "enum": [
                 "",
-                "Africa",
-                "All regions",
-                "America",
-                "Asia",
-                "Europe",
-                "Global",
-                "Middle East",
-                "Oceania"
+                "data.Africa",
+                "data.All regions",
+                "data.America",
+                "data.Asia",
+                "data.Europe",
+                "data.Global",
+                "data.Middle East",
+                "data.Oceania"
               ]
             },
-            "title": "Region"
+            "title": "data.Region"
           }
         ]
       },
@@ -441,18 +441,18 @@
             "constraints": {
               "enum": [
                 "",
-                "15 to 24 years",
-                "15 years and over",
-                "25 to 44 years",
-                "25 to 54 years",
-                "25 years and over",
-                "45 years and over",
-                "55 to 64 years",
-                "55 years and over",
-                "65 years and over"
+                "data.15 to 24 years",
+                "data.15 years and over",
+                "data.25 to 44 years",
+                "data.25 to 54 years",
+                "data.25 years and over",
+                "data.45 years and over",
+                "data.55 to 64 years",
+                "data.55 years and over",
+                "data.65 years and over"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -460,20 +460,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -481,12 +481,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -518,16 +518,16 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "Atlantic",
-                "British Columbia",
-                "Manitoba",
-                "Ontario",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.Atlantic",
+                "data.British Columbia",
+                "data.Manitoba",
+                "data.Ontario",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           }
         ]
       },
@@ -559,16 +559,16 @@
             "constraints": {
               "enum": [
                 "",
-                "British Columbia and the Territories",
-                "Manitoba",
-                "New Brunswick",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.British Columbia and the Territories",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           }
         ]
       },
@@ -605,19 +605,19 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           }
         ]
       },
@@ -673,16 +673,16 @@
             "constraints": {
               "enum": [
                 "",
-                "Air pollution management",
-                "Noise and vibration abatement",
-                "Protection and remediation of soil, groundwater and surface water",
-                "Protection of biodiversity and habitat",
-                "Sold carbon offset credits only or sold more than purchased",
-                "Total, environmental protection activities",
-                "Wastewater management"
+                "data.Air pollution management",
+                "data.Noise and vibration abatement",
+                "data.Protection and remediation of soil, groundwater and surface water",
+                "data.Protection of biodiversity and habitat",
+                "data.Sold carbon offset credits only or sold more than purchased",
+                "data.Total, environmental protection activities",
+                "data.Wastewater management"
               ]
             },
-            "title": "Environmental protection activities or management practices"
+            "title": "data.Environmental protection activities or management practices"
           },
           {
             "name": "data.Industries",
@@ -690,30 +690,30 @@
             "constraints": {
               "enum": [
                 "",
-                "Beverage and tobacco product manufacturing",
-                "Chemical manufacturing",
-                "Electric power generation, transmission and distribution",
-                "Fabricated metal product manufacturing",
-                "Food manufacturing",
-                "Furniture and related product manufacturing",
-                "Logging (except contract)",
-                "Machinery manufacturing",
-                "Mining and quarrying",
-                "Natural gas distribution",
-                "Non-metallic mineral product manufacturing",
-                "Oil and gas extraction",
-                "Other manufacturing industries",
-                "Paper manufacturing",
-                "Petroleum and coal product manufacturing",
-                "Pipeline transportation",
-                "Plastics and rubber products manufacturing",
-                "Primary metal manufacturing",
-                "Total, industries",
-                "Transportation equipment manufacturing",
-                "Wood product manufacturing"
+                "data.Beverage and tobacco product manufacturing",
+                "data.Chemical manufacturing",
+                "data.Electric power generation, transmission and distribution",
+                "data.Fabricated metal product manufacturing",
+                "data.Food manufacturing",
+                "data.Furniture and related product manufacturing",
+                "data.Logging (except contract)",
+                "data.Machinery manufacturing",
+                "data.Mining and quarrying",
+                "data.Natural gas distribution",
+                "data.Non-metallic mineral product manufacturing",
+                "data.Oil and gas extraction",
+                "data.Other manufacturing industries",
+                "data.Paper manufacturing",
+                "data.Petroleum and coal product manufacturing",
+                "data.Pipeline transportation",
+                "data.Plastics and rubber products manufacturing",
+                "data.Primary metal manufacturing",
+                "data.Total, industries",
+                "data.Transportation equipment manufacturing",
+                "data.Wood product manufacturing"
               ]
             },
-            "title": "Industries"
+            "title": "data.Industries"
           }
         ]
       },
@@ -745,21 +745,21 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Territories"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Territories"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sources of materials prepared for recycling",
@@ -767,12 +767,12 @@
             "constraints": {
               "enum": [
                 "",
-                "All sources of diverted materials",
-                "Non-residential sources of diverted materials",
-                "Residential sources of diverted materials"
+                "data.All sources of diverted materials",
+                "data.Non-residential sources of diverted materials",
+                "data.Residential sources of diverted materials"
               ]
             },
-            "title": "Sources of materials prepared for recycling"
+            "title": "data.Sources of materials prepared for recycling"
           },
           {
             "name": "data.Type of materials diverted",
@@ -780,24 +780,24 @@
             "constraints": {
               "enum": [
                 "",
-                "All materials diverted",
-                "All paper fibres",
-                "Construction + renovation and demolition",
-                "Copper and aluminum",
-                "Electronics",
-                "Ferrous metals",
-                "Gable top and aseptic containers",
-                "Glass",
-                "Mixed metals",
-                "Organics",
-                "Other materials",
-                "Plastics",
-                "Textiles",
-                "Tires",
-                "White goods"
+                "data.All materials diverted",
+                "data.All paper fibres",
+                "data.Construction + renovation and demolition",
+                "data.Copper and aluminum",
+                "data.Electronics",
+                "data.Ferrous metals",
+                "data.Gable top and aseptic containers",
+                "data.Glass",
+                "data.Mixed metals",
+                "data.Organics",
+                "data.Other materials",
+                "data.Plastics",
+                "data.Textiles",
+                "data.Tires",
+                "data.White goods"
               ]
             },
-            "title": "Type of materials diverted"
+            "title": "data.Type of materials diverted"
           }
         ]
       },
@@ -829,15 +829,15 @@
             "constraints": {
               "enum": [
                 "",
-                "12 to 17 years",
-                "18 to 34 years",
-                "35 to 49 years",
-                "50 to 64 years",
-                "65 years and over",
-                "Total, 12 years and over"
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                "data.Total, 12 years and over"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -845,20 +845,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -866,12 +866,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -903,15 +903,15 @@
             "constraints": {
               "enum": [
                 "",
-                "12 to 17 years",
-                "18 to 34 years",
-                "35 to 49 years",
-                "50 to 64 years",
-                "65 years and over",
-                "Total, 12 years and over"
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                "data.Total, 12 years and over"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -919,20 +919,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -940,12 +940,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -977,13 +977,13 @@
             "constraints": {
               "enum": [
                 "",
-                "Air Quality",
-                "Biodiversity",
-                "Soil Quality",
-                "Water Quality"
+                "data.Air Quality",
+                "data.Biodiversity",
+                "data.Soil Quality",
+                "data.Water Quality"
               ]
             },
-            "title": "Index"
+            "title": "data.Index"
           }
         ]
       },
@@ -1015,13 +1015,13 @@
             "constraints": {
               "enum": [
                 "",
-                "15 to 24 years",
-                "15 years and over",
-                "25 to 54 years",
-                "55 years and over"
+                "data.15 to 24 years",
+                "data.15 years and over",
+                "data.25 to 54 years",
+                "data.55 years and over"
               ]
             },
-            "title": "Age"
+            "title": "data.Age"
           },
           {
             "name": "data.Geography",
@@ -1029,20 +1029,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.National Occupational Classification (NOC)",
@@ -1050,20 +1050,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Business, finance and administration occupations [1]",
-                "Health occupations [3]",
-                "Management occupations [0]",
-                "Natural and applied sciences and related occupations [2]",
-                "Natural resources, agriculture and related production occupations [8]",
-                "Occupations in art, culture, recreation and sport [5]",
-                "Occupations in education, law and social, community and government services [4]",
-                "Occupations in manufacturing and utilities [9]",
-                "Sales and service occupations [6]",
-                "Total employees, all occupations",
-                "Trades, transport and equipment operators and related occupations [7]"
+                "data.Business, finance and administration occupations [1]",
+                "data.Health occupations [3]",
+                "data.Management occupations [0]",
+                "data.Natural and applied sciences and related occupations [2]",
+                "data.Natural resources, agriculture and related production occupations [8]",
+                "data.Occupations in art, culture, recreation and sport [5]",
+                "data.Occupations in education, law and social, community and government services [4]",
+                "data.Occupations in manufacturing and utilities [9]",
+                "data.Sales and service occupations [6]",
+                "data.Total employees, all occupations",
+                "data.Trades, transport and equipment operators and related occupations [7]"
               ]
             },
-            "title": "National Occupational Classification (NOC)"
+            "title": "data.National Occupational Classification (NOC)"
           },
           {
             "name": "data.Type of work",
@@ -1071,12 +1071,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both full- and part-time employees",
-                "Full-time employees",
-                "Part-time employees"
+                "data.Both full- and part-time employees",
+                "data.Full-time employees",
+                "data.Part-time employees"
               ]
             },
-            "title": "Type of work"
+            "title": "data.Type of work"
           }
         ]
       },
@@ -1132,17 +1132,17 @@
             "constraints": {
               "enum": [
                 "",
-                "Ages 12 to 17",
-                "Ages 18 to 39",
-                "Ages 18 to 79",
-                "Ages 40 to 59",
-                "Ages 5 to 11",
-                "Ages 5 to 17",
-                "Ages 5 to 79",
-                "Ages 60 to 79"
+                "data.Ages 12 to 17",
+                "data.Ages 18 to 39",
+                "data.Ages 18 to 79",
+                "data.Ages 40 to 59",
+                "data.Ages 5 to 11",
+                "data.Ages 5 to 17",
+                "data.Ages 5 to 79",
+                "data.Ages 60 to 79"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -1150,10 +1150,10 @@
             "constraints": {
               "enum": [
                 "",
-                "Canada"
+                "data.Canada"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Measures",
@@ -1161,11 +1161,11 @@
             "constraints": {
               "enum": [
                 "",
-                "Obese",
-                "Overweight"
+                "data.Obese",
+                "data.Overweight"
               ]
             },
-            "title": "Measures"
+            "title": "data.Measures"
           },
           {
             "name": "data.Sex",
@@ -1173,12 +1173,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -1215,29 +1215,29 @@
             "constraints": {
               "enum": [
                 "",
-                "Couples",
-                "Couples with children",
-                "Couples with other relatives",
-                "Economic families",
-                "Economic families and persons not in an economic family",
-                "Elderly couples",
-                "Elderly families",
-                "Elderly females not in an economic family",
-                "Elderly males not in an economic family",
-                "Elderly persons not in an economic family",
-                "Female lone-parent families",
-                "Lone-parent families",
-                "Male lone-parent families",
-                "Non-elderly families",
-                "Non-elderly females not in an economic family",
-                "Non-elderly males not in an economic family",
-                "Non-elderly persons not in an economic family",
-                "Other elderly families",
-                "Other non-elderly families",
-                "Persons not in an economic family"
+                "data.Couples",
+                "data.Couples with children",
+                "data.Couples with other relatives",
+                "data.Economic families",
+                "data.Economic families and persons not in an economic family",
+                "data.Elderly couples",
+                "data.Elderly families",
+                "data.Elderly females not in an economic family",
+                "data.Elderly males not in an economic family",
+                "data.Elderly persons not in an economic family",
+                "data.Female lone-parent families",
+                "data.Lone-parent families",
+                "data.Male lone-parent families",
+                "data.Non-elderly families",
+                "data.Non-elderly females not in an economic family",
+                "data.Non-elderly males not in an economic family",
+                "data.Non-elderly persons not in an economic family",
+                "data.Other elderly families",
+                "data.Other non-elderly families",
+                "data.Persons not in an economic family"
               ]
             },
-            "title": "Economic family type"
+            "title": "data.Economic family type"
           },
           {
             "name": "data.Geography",
@@ -1245,33 +1245,33 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "Atlantic provinces",
-                "British Columbia",
-                "Calgary, Alberta",
-                "Canada",
-                "Edmonton, Alberta",
-                "Manitoba",
-                "Montréal, Quebec",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Ottawa-Gatineau, Ontario/Quebec",
-                "Prairie provinces",
-                "Prince Edward Island",
-                "Quebec",
-                "Québec, Quebec",
-                "Saskatchewan",
-                "Toronto, Ontario",
-                "Vancouver, British Columbia",
-                "Winnipeg, Manitoba",
-                "Yukon"
+                "data.Alberta",
+                "data.Atlantic provinces",
+                "data.British Columbia",
+                "data.Calgary, Alberta",
+                "data.Canada",
+                "data.Edmonton, Alberta",
+                "data.Manitoba",
+                "data.Montréal, Quebec",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Ottawa-Gatineau, Ontario/Quebec",
+                "data.Prairie provinces",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Québec, Quebec",
+                "data.Saskatchewan",
+                "data.Toronto, Ontario",
+                "data.Vancouver, British Columbia",
+                "data.Winnipeg, Manitoba",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           }
         ]
       },
@@ -1303,11 +1303,11 @@
             "constraints": {
               "enum": [
                 "",
-                "Men",
-                "Women"
+                "data.Men",
+                "data.Women"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -1387,19 +1387,19 @@
             "constraints": {
               "enum": [
                 "",
-                "Cancer",
-                "Chronic obstructive pulmonary disease",
-                "Creutzfeldt-Jakob",
-                "Dementia, including Alzheimer's disease",
-                "Diabetes",
-                "HIV and AIDS",
-                "Hypertension",
-                "Ischemic heart disease",
-                "Salmonella",
-                "Tuberculosis"
+                "data.Cancer",
+                "data.Chronic obstructive pulmonary disease",
+                "data.Creutzfeldt-Jakob",
+                "data.Dementia, including Alzheimer's disease",
+                "data.Diabetes",
+                "data.HIV and AIDS",
+                "data.Hypertension",
+                "data.Ischemic heart disease",
+                "data.Salmonella",
+                "data.Tuberculosis"
               ]
             },
-            "title": "Disease"
+            "title": "data.Disease"
           }
         ]
       },
@@ -1431,19 +1431,19 @@
             "constraints": {
               "enum": [
                 "",
-                "Persons 18 to 64 years old",
-                "Persons 65 years and older",
-                "Persons all ages and family types",
-                "Persons in a couple only family",
-                "Persons in a couple with children family",
-                "Persons in a lone-parent family",
-                "Persons in an economic family",
-                "Persons in an other economic family type",
-                "Persons not in an economic family",
-                "Persons under 18 years old"
+                "data.Persons 18 to 64 years old",
+                "data.Persons 65 years and older",
+                "data.Persons all ages and family types",
+                "data.Persons in a couple only family",
+                "data.Persons in a couple with children family",
+                "data.Persons in a lone-parent family",
+                "data.Persons in an economic family",
+                "data.Persons in an other economic family type",
+                "data.Persons not in an economic family",
+                "data.Persons under 18 years old"
               ]
             },
-            "title": "Age group and family type"
+            "title": "data.Age group and family type"
           },
           {
             "name": "data.Geography",
@@ -1451,20 +1451,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Statistics",
@@ -1472,12 +1472,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Asset resilient for at least one month",
-                "Asset resilient for at least six months",
-                "Asset resilient for at least three months"
+                "data.Asset resilient for at least one month",
+                "data.Asset resilient for at least six months",
+                "data.Asset resilient for at least three months"
               ]
             },
-            "title": "Statistics"
+            "title": "data.Statistics"
           }
         ]
       },
@@ -1499,8 +1499,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Number",
-                "Percentage"
+                "data.Number",
+                "data.Percentage"
               ]
             },
             "title": "Units"
@@ -1521,13 +1521,13 @@
             "constraints": {
               "enum": [
                 "",
-                "Potable water",
-                "Solid waste",
-                "Stormwater",
-                "Wastewater"
+                "data.Potable water",
+                "data.Solid waste",
+                "data.Stormwater",
+                "data.Wastewater"
               ]
             },
-            "title": "Core public infrastructure assets"
+            "title": "data.Core public infrastructure assets"
           },
           {
             "name": "data.Geography",
@@ -1535,23 +1535,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Type of municipality by population size",
@@ -1559,17 +1559,17 @@
             "constraints": {
               "enum": [
                 "",
-                "All municipalities",
-                "All rural municipalities",
-                "All urban municipalities",
-                "Rural municipalities, population 1 to 4,999",
-                "Rural municipalities, population 5,000 or more",
-                "Urban municipalities, population 1 to 4,999",
-                "Urban municipalities, population 30,000 or more",
-                "Urban municipalities, population 5,000 to 29,999"
+                "data.All municipalities",
+                "data.All rural municipalities",
+                "data.All urban municipalities",
+                "data.Rural municipalities, population 1 to 4,999",
+                "data.Rural municipalities, population 5,000 or more",
+                "data.Urban municipalities, population 1 to 4,999",
+                "data.Urban municipalities, population 30,000 or more",
+                "data.Urban municipalities, population 5,000 to 29,999"
               ]
             },
-            "title": "Type of municipality by population size"
+            "title": "data.Type of municipality by population size"
           }
         ]
       },
@@ -1630,23 +1630,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta [48]",
+                "data.British Columbia [59]",
+                "data.Canada",
+                "data.Manitoba [46]",
+                "data.New Brunswick [13]",
+                "data.Newfoundland and Labrador [10]",
+                "data.Northwest Territories [61]",
+                "data.Nova Scotia [12]",
+                "data.Nunavut [62]",
+                "data.Ontario [35]",
+                "data.Prince Edward Island [11]",
+                "data.Quebec [24]",
+                "data.Saskatchewan [47]",
+                "data.Yukon [60]"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Violations",
@@ -1654,23 +1654,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Assault, level 1",
-                "Assault, level 2, weapon or bodily harm",
-                "Assault, level 3, aggravated",
-                "Attempted murder",
-                "Homicide",
-                "Sexual assault, level 1",
-                "Sexual assault, level 2, weapon or bodily harm",
-                "Sexual assault, level 3, aggravated",
-                "Total other violations causing death",
-                "Total other violent violations",
-                "Total robbery",
-                "Total sexual violations against children",
-                "Total, all violations",
-                "Uttering threats"
+                "data.Assault, level 1 [1430]",
+                "data.Assault, level 2, weapon or bodily harm [1420]",
+                "data.Assault, level 3, aggravated [1410]",
+                "data.Attempted murder [1210]",
+                "data.Homicide [110]",
+                "data.Sexual assault, level 1 [1330]",
+                "data.Sexual assault, level 2, weapon or bodily harm [1320]",
+                "data.Sexual assault, level 3, aggravated [1310]",
+                "data.Total other violations causing death [120]",
+                "data.Total other violent violations [180]",
+                "data.Total robbery [160]",
+                "data.Total sexual violations against children [130]",
+                "data.Total, all violations [0]",
+                "data.Uttering threats [1627]"
               ]
             },
-            "title": "Violations"
+            "title": "data.Violations"
           }
         ]
       },
@@ -1702,22 +1702,22 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           }
         ]
       },
@@ -1754,22 +1754,22 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           }
         ]
       },
@@ -1791,8 +1791,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Number",
-                "Rate per 100,000 population"
+                "data.Number",
+                "data.Rate per 100,000 population"
               ]
             },
             "title": "Units"
@@ -1813,28 +1813,28 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northern and Rural Manitoba",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Territories",
-                "Whitehorse Yukon",
-                "Winnipeg Manitoba",
-                "Yellowknife Northwest Territories",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northern and Rural Manitoba",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Territories",
+                "data.Whitehorse Yukon",
+                "data.Winnipeg Manitoba",
+                "data.Yellowknife Northwest Territories",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Type of event",
@@ -1842,14 +1842,14 @@
             "constraints": {
               "enum": [
                 "",
-                "Apparent opioid toxicity deaths",
-                "Apparent stimulant toxicity deaths",
-                "EMS responses to suspected opioid-related overdoses",
-                "Opioid-related poisoning hospitalizations",
-                "Stimulant-related poisoning hospitalizations"
+                "data.Apparent opioid toxicity deaths",
+                "data.Apparent stimulant toxicity deaths",
+                "data.EMS responses to suspected opioid-related overdoses",
+                "data.Opioid-related poisoning hospitalizations",
+                "data.Stimulant-related poisoning hospitalizations"
               ]
             },
-            "title": "Type of event"
+            "title": "data.Type of event"
           }
         ]
       },
@@ -1881,19 +1881,19 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           }
         ]
       },
@@ -1949,41 +1949,41 @@
             "constraints": {
               "enum": [
                 "",
-                "Accommodation and food services",
-                "Administrative and support, waste management and remediation services",
-                "Agriculture, forestry, fishing and hunting",
-                "Arts, entertainment and recreation",
-                "Construction",
-                "Educational services",
-                "Finance and insurance",
-                "Government Education Services",
-                "Government Health Services",
-                "Health care and social assistance",
-                "Households",
-                "Information and cultural industries",
-                "Manufacturing",
-                "Mining, quarrying, and oil and gas extraction",
-                "Miscellaneous non-profit institutions serving households",
-                "Non-Profit Education Services",
-                "Non-Profit Social Assistance",
-                "Non-profit arts, entertainment and recreation",
-                "Other Aboriginal Government Services",
-                "Other Municipal Government Services",
-                "Other federal government services",
-                "Other finance, insurance and real estate services and management of companies and enterprises",
-                "Other provincial and territorial government services",
-                "Other services (except public administration)",
-                "Professional, scientific and technical services",
-                "Real estate and rental and leasing",
-                "Religious organizations",
-                "Retail trade",
-                "Total, industries",
-                "Transportation and warehousing",
-                "Utilities",
-                "Wholesale trade"
+                "data.Accommodation and food services",
+                "data.Administrative and support, waste management and remediation services",
+                "data.Agriculture, forestry, fishing and hunting",
+                "data.Arts, entertainment and recreation",
+                "data.Construction",
+                "data.Educational services",
+                "data.Finance and insurance",
+                "data.Government Education Services",
+                "data.Government Health Services",
+                "data.Health care and social assistance",
+                "data.Households",
+                "data.Information and cultural industries",
+                "data.Manufacturing",
+                "data.Mining, quarrying, and oil and gas extraction",
+                "data.Miscellaneous non-profit institutions serving households",
+                "data.Non-Profit Education Services",
+                "data.Non-Profit Social Assistance",
+                "data.Non-profit arts, entertainment and recreation",
+                "data.Other Aboriginal Government Services",
+                "data.Other Municipal Government Services",
+                "data.Other federal government services",
+                "data.Other finance, insurance and real estate services and management of companies and enterprises",
+                "data.Other provincial and territorial government services",
+                "data.Other services (except public administration)",
+                "data.Professional, scientific and technical services",
+                "data.Real estate and rental and leasing",
+                "data.Religious organizations",
+                "data.Retail trade",
+                "data.Total, industries",
+                "data.Transportation and warehousing",
+                "data.Utilities",
+                "data.Wholesale trade"
               ]
             },
-            "title": "Sector"
+            "title": "data.Sector"
           }
         ]
       },
@@ -2020,15 +2020,15 @@
             "constraints": {
               "enum": [
                 "",
-                "15 to 19 years",
-                "15 to 24 years",
-                "18 to 24 years",
-                "20 to 24 years",
-                "25 to 29 years",
-                "Total, 15 to 29 years"
+                "data.15 to 19 years",
+                "data.15 to 24 years",
+                "data.18 to 24 years",
+                "data.20 to 24 years",
+                "data.25 to 29 years",
+                "data.Total, 15 to 29 years"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -2036,23 +2036,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -2060,12 +2060,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -2097,16 +2097,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Female",
-                "Indigenous person",
-                "Male",
-                "Non-Indigenous person",
-                "Non-visible minority",
-                "Total population",
-                "Visible minority"
+                "data.Black",
+                "data.Female",
+                "data.First Nations, Métis, or Inuit",
+                "data.Indigenous person",
+                "data.Male",
+                "data.Non-Indigenous person",
+                "data.Non-Indigenous, non-visible minority",
+                "data.Non-visible minority",
+                "data.Other group designated as visible minority",
+                "data.Total population",
+                "data.Visible minority"
               ]
             },
-            "title": "Characteristics"
+            "title": "data.Characteristics"
           },
           {
             "name": "data.Institutions",
@@ -2114,10 +2118,17 @@
             "constraints": {
               "enum": [
                 "",
-                "Police"
+                "data.Banks",
+                "data.Canadian media",
+                "data.Federal Parliament",
+                "data.Justice system and courts",
+                "data.Local merchants and business people",
+                "data.Major corporations",
+                "data.Police",
+                "data.School system"
               ]
             },
-            "title": "Institutions"
+            "title": "data.Institutions"
           },
           {
             "name": "data.Level of confidence",
@@ -2125,12 +2136,14 @@
             "constraints": {
               "enum": [
                 "",
-                "A great deal of confidence",
-                "Not very much or no confidence",
-                "Some confidence"
+                "data.A great deal of confidence",
+                "data.Confident",
+                "data.Not confident",
+                "data.Not very much or no confidence",
+                "data.Some confidence"
               ]
             },
-            "title": "Level of confidence"
+            "title": "data.Level of confidence"
           }
         ]
       },
@@ -2167,31 +2180,31 @@
             "constraints": {
               "enum": [
                 "",
-                "15 to 19 years",
-                "15 to 24 years",
-                "15 to 64 years",
-                "15 years and over",
-                "20 to 24 years",
-                "25 to 29 years",
-                "25 to 44 years",
-                "25 to 54 years",
-                "25 years and over",
-                "30 to 34 years",
-                "35 to 39 years",
-                "40 to 44 years",
-                "45 to 49 years",
-                "45 to 64 years",
-                "45 years and over",
-                "50 to 54 years",
-                "55 to 59 years",
-                "55 years and over",
-                "60 to 64 years",
-                "65 to 69 years",
-                "65 years and over",
-                "70 years and over"
+                "data.15 to 19 years",
+                "data.15 to 24 years",
+                "data.15 to 64 years",
+                "data.15 years and over",
+                "data.20 to 24 years",
+                "data.25 to 29 years",
+                "data.25 to 44 years",
+                "data.25 to 54 years",
+                "data.25 years and over",
+                "data.30 to 34 years",
+                "data.35 to 39 years",
+                "data.40 to 44 years",
+                "data.45 to 49 years",
+                "data.45 to 64 years",
+                "data.45 years and over",
+                "data.50 to 54 years",
+                "data.55 to 59 years",
+                "data.55 years and over",
+                "data.60 to 64 years",
+                "data.65 to 69 years",
+                "data.65 years and over",
+                "data.70 years and over"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -2199,24 +2212,24 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "Atlantic region",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.Atlantic region",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Population",
@@ -2224,15 +2237,15 @@
             "constraints": {
               "enum": [
                 "",
-                "Immigrants, landed 5 or less years earlier",
-                "Immigrants, landed more than 10 years earlier",
-                "Immigrants, landed more than 5 to 10 years earlier",
-                "Indigenous population",
-                "Landed immigrants",
-                "Total population"
+                "data.Immigrants, landed 5 or less years earlier",
+                "data.Immigrants, landed more than 10 years earlier",
+                "data.Immigrants, landed more than 5 to 10 years earlier",
+                "data.Indigenous population",
+                "data.Landed immigrants",
+                "data.Total population"
               ]
             },
-            "title": "Population"
+            "title": "data.Population"
           },
           {
             "name": "data.Sex",
@@ -2240,12 +2253,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -2277,15 +2290,15 @@
             "constraints": {
               "enum": [
                 "",
-                "12 to 17 years",
-                "18 to 34 years",
-                "35 to 49 years",
-                "50 to 64 years",
-                "65 years and over",
-                "Total, 12 years and over"
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                "data.Total, 12 years and over"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -2293,20 +2306,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -2314,12 +2327,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -2351,11 +2364,11 @@
             "constraints": {
               "enum": [
                 "",
-                "Do not show progress",
-                "Mixed evidence"
+                "data.Do not show progress",
+                "data.Mixed evidence"
               ]
             },
-            "title": "Progress"
+            "title": "data.Progress"
           }
         ]
       },
@@ -2387,20 +2400,20 @@
             "constraints": {
               "enum": [
                 "",
-                "All management occupations",
-                "Chiefs in First Nation communities",
-                "First Nations council members",
-                "Judges - Federal government public administration",
-                "Judges - Provincial and territorial public administration",
-                "Members of federal Cabinet",
-                "Members of national Parliament",
-                "Middle management occupations in retail and wholesale trade and customer services",
-                "Middle management occupations in trades - transportation - production and utilities",
-                "Senior management occupations",
-                "Specialized middle management occupations"
+                "data.All management occupations",
+                "data.Chiefs in First Nation communities",
+                "data.First Nations council members",
+                "data.Judges - Federal government public administration",
+                "data.Judges - Provincial and territorial public administration",
+                "data.Members of federal Cabinet",
+                "data.Members of national Parliament",
+                "data.Middle management occupations in retail and wholesale trade and customer services",
+                "data.Middle management occupations in trades - transportation - production and utilities",
+                "data.Senior management occupations",
+                "data.Specialized middle management occupations"
               ]
             },
-            "title": "Leadership position"
+            "title": "data.Leadership position"
           }
         ]
       },
@@ -2432,23 +2445,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Population centres",
@@ -2456,12 +2469,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Major roads and highways",
-                "Rural communities",
-                "Urban centres"
+                "data.Major roads and highways",
+                "data.Rural communities",
+                "data.Urban centres"
               ]
             },
-            "title": "Population centres"
+            "title": "data.Population centres"
           }
         ]
       },
@@ -2493,14 +2506,14 @@
             "constraints": {
               "enum": [
                 "",
-                "15 to 24 years",
-                "25 to 64 years",
-                "65 to 74 years",
-                "75 years and over",
-                "Total, persons aged 15 years and over"
+                "data.15 to 24 years",
+                "data.25 to 64 years",
+                "data.65 to 74 years",
+                "data.75 years and over",
+                "data.Total, persons aged 15 years and over"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -2508,23 +2521,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Selected demographic characteristics",
@@ -2532,20 +2545,20 @@
             "constraints": {
               "enum": [
                 "",
-                "First Nations (North American Indian)",
-                "Immigrants",
-                "Inuk (Inuit)",
-                "Métis",
-                "Non immigrants",
-                "Non-Aboriginal identity",
-                "Non-permanent residents",
-                "Not a visible minority",
-                "Total Aboriginal identity",
-                "Total visible minority population",
-                "Total, all persons"
+                "data.First Nations (North American Indian)",
+                "data.Immigrants",
+                "data.Inuk (Inuit)",
+                "data.Métis",
+                "data.Non immigrants",
+                "data.Non-Aboriginal identity",
+                "data.Non-permanent residents",
+                "data.Not a visible minority",
+                "data.Total Aboriginal identity",
+                "data.Total visible minority population",
+                "data.Total, all persons"
               ]
             },
-            "title": "Selected demographic characteristics"
+            "title": "data.Selected demographic characteristics"
           },
           {
             "name": "data.Sex",
@@ -2553,12 +2566,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -2595,22 +2608,22 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           }
         ]
       },
@@ -2642,23 +2655,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Index",
@@ -2666,13 +2679,13 @@
             "constraints": {
               "enum": [
                 "",
-                "Crime severity index",
-                "Violent crime severity index",
-                "Youth crime severity index",
-                "Youth violent crime severity index"
+                "data.Crime severity index",
+                "data.Violent crime severity index",
+                "data.Youth crime severity index",
+                "data.Youth violent crime severity index"
               ]
             },
-            "title": "Index"
+            "title": "data.Index"
           }
         ]
       },
@@ -2704,15 +2717,15 @@
             "constraints": {
               "enum": [
                 "",
-                "12 to 17 years",
-                "18 to 34 years",
-                "35 to 49 years",
-                "50 to 64 years",
-                "65 years and over",
-                "Total, 12 years and over"
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                "data.Total, 12 years and over"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -2720,20 +2733,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -2741,12 +2754,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -2778,19 +2791,19 @@
             "constraints": {
               "enum": [
                 "",
-                "1 to 14 years",
-                "15 to 24",
-                "25 to 34 years",
-                "35 to 44 years",
-                "45 to 54 years",
-                "55 to 64 years",
-                "65 to 74 years",
-                "75 to 84 years",
-                "85 and over",
-                "All ages"
+                "data.1 to 14 years",
+                "data.15 to 24",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                "data.65 to 74 years",
+                "data.75 to 84 years",
+                "data.85 and over",
+                "data.All ages"
               ]
             },
-            "title": "Age at time of death"
+            "title": "data.Age at time of death"
           },
           {
             "name": "data.Geography",
@@ -2798,10 +2811,10 @@
             "constraints": {
               "enum": [
                 "",
-                "Canada"
+                "data.Canada"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Leading causes of death (ICD-10)",
@@ -2809,19 +2822,19 @@
             "constraints": {
               "enum": [
                 "",
-                "Accidents (unintentional injuries)",
-                "Alzheimer's disease",
-                "Cerebrovascular diseases",
-                "Chronic liver disease and cirrhosis",
-                "Chronic lower respiratory diseases",
-                "Diabetes mellitus",
-                "Diseases of heart",
-                "Influenza and pneumonia",
-                "Intentional self-harm (suicide)",
-                "Malignant neoplasms"
+                "data.Accidents (unintentional injuries) [V01-X59, Y85-Y86]",
+                "data.Alzheimer's disease [G30]",
+                "data.Cerebrovascular diseases [I60-I69]",
+                "data.Chronic liver disease and cirrhosis [K70, K73-K74]",
+                "data.Chronic lower respiratory diseases [J40-J47]",
+                "data.Diabetes mellitus [E10-E14]",
+                "data.Diseases of heart [I00-I09, I11, I13, I20-I51]",
+                "data.Influenza and pneumonia [J09-J18]",
+                "data.Intentional self-harm (suicide) [X60-X84, Y87.0]",
+                "data.Malignant neoplasms [C00-C97]"
               ]
             },
-            "title": "Leading causes of death"
+            "title": "data.Leading causes of death (ICD-10)"
           },
           {
             "name": "data.Sex",
@@ -2829,12 +2842,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -2866,19 +2879,19 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           }
         ]
       },
@@ -2934,13 +2947,13 @@
             "constraints": {
               "enum": [
                 "",
-                "by 14 years of age",
-                "by 17 years of age",
-                "by 2 years of age",
-                "by 7 years of age"
+                "data.by 14 years of age",
+                "data.by 17 years of age",
+                "data.by 2 years of age",
+                "data.by 7 years of age"
               ]
             },
-            "title": "Age"
+            "title": "data.Age"
           },
           {
             "name": "data.Geography",
@@ -2948,23 +2961,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Selected diseases",
@@ -2972,25 +2985,25 @@
             "constraints": {
               "enum": [
                 "",
-                "Diphtheria",
-                "Diphtheria - Pertussis and tetanus",
-                "Diphtheria - Tetanus - acellular Pertussis booster",
-                "Haemophilus influenzae type B",
-                "Hepatitis B",
-                "Human Papillomavirus",
-                "Measles",
-                "Meningococcal type C",
-                "Mumps",
-                "Pertussis",
-                "Pneumococcal",
-                "Polio",
-                "Rotavirus",
-                "Rubella",
-                "Tetanus",
-                "Varicella"
+                "data.Diphtheria",
+                "data.Diphtheria - Pertussis and tetanus",
+                "data.Diphtheria - Tetanus - acellular Pertussis booster",
+                "data.Haemophilus influenzae type B",
+                "data.Hepatitis B",
+                "data.Human Papillomavirus",
+                "data.Measles",
+                "data.Meningococcal type C",
+                "data.Mumps",
+                "data.Pertussis",
+                "data.Pneumococcal",
+                "data.Polio",
+                "data.Rotavirus",
+                "data.Rubella",
+                "data.Tetanus",
+                "data.Varicella"
               ]
             },
-            "title": "Selected diseases"
+            "title": "data.Selected diseases"
           },
           {
             "name": "data.Sex",
@@ -2998,12 +3011,12 @@
             "constraints": {
               "enum": [
                 "",
-                "All children",
-                "Female",
-                "Male"
+                "data.All children",
+                "data.Female",
+                "data.Male"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -3040,33 +3053,33 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "Atlantic provinces",
-                "British Columbia",
-                "Calgary, Alberta",
-                "Canada",
-                "Edmonton, Alberta",
-                "Manitoba",
-                "Montréal, Quebec",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Ottawa-Gatineau, Ontario/Quebec",
-                "Prairie provinces",
-                "Prince Edward Island",
-                "Quebec",
-                "Québec, Quebec",
-                "Saskatchewan",
-                "Toronto, Ontario",
-                "Vancouver, British Columbia",
-                "Winnipeg, Manitoba",
-                "Yukon"
+                "data.Alberta",
+                "data.Atlantic provinces",
+                "data.British Columbia",
+                "data.Calgary, Alberta",
+                "data.Canada",
+                "data.Edmonton, Alberta",
+                "data.Manitoba",
+                "data.Montréal, Quebec",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Ottawa-Gatineau, Ontario/Quebec",
+                "data.Prairie provinces",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Québec, Quebec",
+                "data.Saskatchewan",
+                "data.Toronto, Ontario",
+                "data.Vancouver, British Columbia",
+                "data.Winnipeg, Manitoba",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Persons in low income",
@@ -3074,43 +3087,43 @@
             "constraints": {
               "enum": [
                 "",
-                "All persons",
-                "Elderly females in economic families",
-                "Elderly females not in an economic family",
-                "Elderly males in economic families",
-                "Elderly males not in an economic family",
-                "Elderly persons in economic families",
-                "Elderly persons not in an economic family",
-                "Females",
-                "Females 18 to 64 years in economic families",
-                "Females in economic families",
-                "Females not in an economic family",
-                "Females, 18 to 64 years",
-                "Females, 65 years and over",
-                "Females, under 18 years",
-                "Males",
-                "Males 18 to 64 years in economic families",
-                "Males in economic families",
-                "Males not in an economic family",
-                "Males, 18 to 64 years",
-                "Males, 65 years and over",
-                "Males, under 18 years",
-                "Non-elderly females not in an economic family",
-                "Non-elderly males not in an economic family",
-                "Non-elderly persons not in an economic family",
-                "Persons 18 to 64 years",
-                "Persons 18 to 64 years in economic families",
-                "Persons 65 years and over",
-                "Persons in economic families",
-                "Persons not in an economic family",
-                "Persons under 18 years",
-                "Persons under 18 years in all other economic families",
-                "Persons under 18 years in couple families with children",
-                "Persons under 18 years in economic families",
-                "Persons under 18 years in female lone-parent families"
+                "data.All persons",
+                "data.Elderly females in economic families",
+                "data.Elderly females not in an economic family",
+                "data.Elderly males in economic families",
+                "data.Elderly males not in an economic family",
+                "data.Elderly persons in economic families",
+                "data.Elderly persons not in an economic family",
+                "data.Females",
+                "data.Females 18 to 64 years in economic families",
+                "data.Females in economic families",
+                "data.Females not in an economic family",
+                "data.Females, 18 to 64 years",
+                "data.Females, 65 years and over",
+                "data.Females, under 18 years",
+                "data.Males",
+                "data.Males 18 to 64 years in economic families",
+                "data.Males in economic families",
+                "data.Males not in an economic family",
+                "data.Males, 18 to 64 years",
+                "data.Males, 65 years and over",
+                "data.Males, under 18 years",
+                "data.Non-elderly females not in an economic family",
+                "data.Non-elderly males not in an economic family",
+                "data.Non-elderly persons not in an economic family",
+                "data.Persons 18 to 64 years",
+                "data.Persons 18 to 64 years in economic families",
+                "data.Persons 65 years and over",
+                "data.Persons in economic families",
+                "data.Persons not in an economic family",
+                "data.Persons under 18 years",
+                "data.Persons under 18 years in all other economic families",
+                "data.Persons under 18 years in couple families with children",
+                "data.Persons under 18 years in economic families",
+                "data.Persons under 18 years in female lone-parent families"
               ]
             },
-            "title": "Persons in low income"
+            "title": "data.Persons in low income"
           }
         ]
       },
@@ -3142,14 +3155,14 @@
             "constraints": {
               "enum": [
                 "",
-                "First Nations reserves",
-                "Large population centres",
-                "Medium population centres",
-                "Rural areas",
-                "Small population centres"
+                "data.First Nations reserves",
+                "data.Large population centres",
+                "data.Medium population centres",
+                "data.Rural areas",
+                "data.Small population centres"
               ]
             },
-            "title": "Population centres"
+            "title": "data.Population centres"
           }
         ]
       },
@@ -3205,21 +3218,21 @@
             "constraints": {
               "enum": [
                 "",
-                "Earthquake",
-                "Epidemic",
-                "Flood",
-                "Heat Event",
-                "Hurricane / Typhoon / Tropical Storm",
-                "Landslide",
-                "Storm - Unspecified / Other",
-                "Storm Surge",
-                "Storms and Severe Thunderstorms",
-                "Tornado",
-                "Wildfire",
-                "Winter Storm"
+                "data.Earthquake",
+                "data.Epidemic",
+                "data.Flood",
+                "data.Heat Event",
+                "data.Hurricane / Typhoon / Tropical Storm",
+                "data.Landslide",
+                "data.Storm - Unspecified / Other",
+                "data.Storm Surge",
+                "data.Storms and Severe Thunderstorms",
+                "data.Tornado",
+                "data.Wildfire",
+                "data.Winter Storm"
               ]
             },
-            "title": "Event sub-type"
+            "title": "data.Event sub-type"
           },
           {
             "name": "data.Event type",
@@ -3227,12 +3240,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Biological",
-                "Geological",
-                "Meteorological - Hydrological"
+                "data.Biological",
+                "data.Geological",
+                "data.Meteorological - Hydrological"
               ]
             },
-            "title": "Event type"
+            "title": "data.Event type"
           }
         ]
       },
@@ -3269,24 +3282,24 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Northwest Territories and Nunavut",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Northwest Territories and Nunavut",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Source",
@@ -3294,20 +3307,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Agriculture",
-                "Buildings",
-                "Coal Production",
-                "Electricity",
-                "Heavy Industry",
-                "Light Manufacturing, Construction and Forest Resources",
-                "Oil and Gas",
-                "Provincial Inventory Total",
-                "Territorial Inventory Total",
-                "Transport",
-                "Waste"
+                "data.Agriculture",
+                "data.Buildings",
+                "data.Coal Production",
+                "data.Electricity",
+                "data.Heavy Industry",
+                "data.Light Manufacturing, Construction and Forest Resources",
+                "data.Oil and Gas",
+                "data.Provincial Inventory Total",
+                "data.Territorial Inventory Total",
+                "data.Transport",
+                "data.Waste"
               ]
             },
-            "title": "Source"
+            "title": "data.Source"
           }
         ]
       },
@@ -3339,10 +3352,10 @@
             "constraints": {
               "enum": [
                 "",
-                "Canada"
+                "data.Canada"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -3350,11 +3363,11 @@
             "constraints": {
               "enum": [
                 "",
-                "Men",
-                "Women"
+                "data.Men",
+                "data.Women"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           },
           {
             "name": "data.Type of perpetrator",
@@ -3362,12 +3375,12 @@
             "constraints": {
               "enum": [
                 "",
-                "All types of perpetrators",
-                "Intimate partner",
-                "Non-intimate partner"
+                "data.All types of perpetrators",
+                "data.Intimate partner",
+                "data.Non-intimate partner"
               ]
             },
-            "title": "Type of perpetrator"
+            "title": "data.Type of perpetrator"
           }
         ]
       },
@@ -3399,12 +3412,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Electric",
-                "Hydrogen",
-                "Natural gas"
+                "data.Electric",
+                "data.Hydrogen",
+                "data.Natural gas"
               ]
             },
-            "title": "Type of charging stations"
+            "title": "data.Type of charging stations"
           }
         ]
       },
@@ -3436,14 +3449,14 @@
             "constraints": {
               "enum": [
                 "",
-                "Care of household adults",
-                "Care of household children under 18 years",
-                "Household chores",
-                "Shopping for goods or services",
-                "Unpaid work activities"
+                "data.Care of household adults",
+                "data.Care of household children under 18 years",
+                "data.Household chores",
+                "data.Shopping for goods or services",
+                "data.Unpaid work activities"
               ]
             },
-            "title": "Activity group"
+            "title": "data.Activity group"
           },
           {
             "name": "data.Age",
@@ -3451,17 +3464,17 @@
             "constraints": {
               "enum": [
                 "",
-                "15 to 24 years",
-                "25 to 34 years",
-                "25 to 54 years",
-                "35 to 44 years",
-                "45 to 54 years",
-                "55 to 64 years",
-                "65 years and over",
-                "Total, 15 years and over"
+                "data.15 to 24 years",
+                "data.25 to 34 years",
+                "data.25 to 54 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                "data.65 years and over",
+                "data.Total, 15 years and over"
               ]
             },
-            "title": "Age"
+            "title": "data.Age"
           },
           {
             "name": "data.Geography",
@@ -3469,15 +3482,15 @@
             "constraints": {
               "enum": [
                 "",
-                "Atlantic",
-                "British Columbia",
-                "Canada",
-                "Ontario",
-                "Prairies",
-                "Quebec"
+                "data.Atlantic",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Ontario",
+                "data.Prairies",
+                "data.Quebec"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -3485,12 +3498,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Female",
-                "Male"
+                "data.Both sexes",
+                "data.Female",
+                "data.Male"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -3591,20 +3604,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Grade",
@@ -3612,12 +3625,12 @@
             "constraints": {
               "enum": [
                 "",
-                "All grades",
-                "Grades 10-12",
-                "Grades 7-9"
+                "data.All grades",
+                "data.Grades 10-12",
+                "data.Grades 7-9"
               ]
             },
-            "title": "Grade"
+            "title": "data.Grade"
           },
           {
             "name": "data.Sex",
@@ -3625,12 +3638,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Female",
-                "Male"
+                "data.Both sexes",
+                "data.Female",
+                "data.Male"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           },
           {
             "name": "data.Type of e-cigarettes",
@@ -3638,12 +3651,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both type",
-                "With nicotine",
-                "Without nicotine"
+                "data.Both type",
+                "data.With nicotine",
+                "data.Without nicotine"
               ]
             },
-            "title": "Type of e-cigarettes"
+            "title": "data.Type of e-cigarettes"
           }
         ]
       },
@@ -3675,21 +3688,21 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon, Northwest Territories and Nunavut"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon, Northwest Territories and Nunavut"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sources of waste for disposal",
@@ -3697,12 +3710,12 @@
             "constraints": {
               "enum": [
                 "",
-                "All sources of waste for disposal",
-                "Non-residential sources of waste for disposal",
-                "Residential sources of waste for disposal"
+                "data.All sources of waste for disposal",
+                "data.Non-residential sources of waste for disposal",
+                "data.Residential sources of waste for disposal"
               ]
             },
-            "title": "Sources of waste for disposal"
+            "title": "data.Sources of waste for disposal"
           }
         ]
       },
@@ -3782,15 +3795,15 @@
             "constraints": {
               "enum": [
                 "",
-                "12 to 17 years",
-                "18 to 34 years",
-                "35 to 49 years",
-                "50 to 64 years",
-                "65 years and over",
-                "Total, 12 years and over"
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                "data.Total, 12 years and over"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -3798,20 +3811,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -3819,12 +3832,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -3861,29 +3874,29 @@
             "constraints": {
               "enum": [
                 "",
-                "All persons",
-                "Elderly females not in an economic family",
-                "Elderly males not in an economic family",
-                "Elderly persons not in an economic family",
-                "Non-elderly females not in an economic family",
-                "Non-elderly males not in an economic family",
-                "Non-elderly persons not in an economic family",
-                "Persons in couple families with children",
-                "Persons in couple families with other relatives",
-                "Persons in couples",
-                "Persons in economic families",
-                "Persons in elderly couples",
-                "Persons in elderly families",
-                "Persons in female lone-parent families",
-                "Persons in lone-parent families",
-                "Persons in male lone-parent families",
-                "Persons in non-elderly families",
-                "Persons in other elderly families",
-                "Persons in other non-elderly families",
-                "Persons not in an economic family"
+                "data.All persons",
+                "data.Elderly females not in an economic family",
+                "data.Elderly males not in an economic family",
+                "data.Elderly persons not in an economic family",
+                "data.Non-elderly females not in an economic family",
+                "data.Non-elderly males not in an economic family",
+                "data.Non-elderly persons not in an economic family",
+                "data.Persons in couple families with children",
+                "data.Persons in couple families with other relatives",
+                "data.Persons in couples",
+                "data.Persons in economic families",
+                "data.Persons in elderly couples",
+                "data.Persons in elderly families",
+                "data.Persons in female lone-parent families",
+                "data.Persons in lone-parent families",
+                "data.Persons in male lone-parent families",
+                "data.Persons in non-elderly families",
+                "data.Persons in other elderly families",
+                "data.Persons in other non-elderly families",
+                "data.Persons not in an economic family"
               ]
             },
-            "title": "Economic family type"
+            "title": "data.Economic family type"
           },
           {
             "name": "data.Geography",
@@ -3891,25 +3904,25 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "Atlantic provinces",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prairie provinces",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.Atlantic provinces",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prairie provinces",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Household food security status",
@@ -3917,14 +3930,14 @@
             "constraints": {
               "enum": [
                 "",
-                "Food insecure, marginal",
-                "Food insecure, moderate",
-                "Food insecure, moderate or severe",
-                "Food insecure, severe",
-                "Food secure"
+                "data.Food insecure, marginal",
+                "data.Food insecure, moderate",
+                "data.Food insecure, moderate or severe",
+                "data.Food insecure, severe",
+                "data.Food secure"
               ]
             },
-            "title": "Household food security status"
+            "title": "data.Household food security status"
           }
         ]
       },
@@ -3956,10 +3969,10 @@
             "constraints": {
               "enum": [
                 "",
-                "Growth since 2016"
+                "data.Growth since 2016"
               ]
             },
-            "title": "Estimates"
+            "title": "data.Estimates"
           }
         ]
       },
@@ -3991,18 +4004,18 @@
             "constraints": {
               "enum": [
                 "",
-                "15 to 24 year old women",
-                "First Nations, Métis, or Inuit women",
-                "Immigrant women",
-                "LGBTQ2 women",
-                "Separated or divorced women",
-                "Single women",
-                "Total, all women",
-                "Women designated as visible minorities",
-                "Women with disability"
+                "data.15 to 24 year old women",
+                "data.First Nations, Métis, or Inuit women",
+                "data.Immigrant women",
+                "data.LGBTQ2 women",
+                "data.Separated or divorced women",
+                "data.Single women",
+                "data.Total, all women",
+                "data.Women designated as visible minorities",
+                "data.Women with disability"
               ]
             },
-            "title": "Selected characteristic"
+            "title": "data.Selected characteristic"
           },
           {
             "name": "data.Type of intimate partner violence",
@@ -4010,13 +4023,13 @@
             "constraints": {
               "enum": [
                 "",
-                "Emotional, financial, or psychological abuse",
-                "Physical abuse",
-                "Sexual abuse",
-                "Total intimate partner violence"
+                "data.Emotional, financial, or psychological abuse",
+                "data.Physical abuse",
+                "data.Sexual abuse",
+                "data.Total intimate partner violence"
               ]
             },
-            "title": "Type of intimate partner violence"
+            "title": "data.Type of intimate partner violence"
           }
         ]
       },
@@ -4048,40 +4061,40 @@
             "constraints": {
               "enum": [
                 "",
-                "Amphibians",
-                "Ants",
-                "Bee flies",
-                "Bees",
-                "Beetles",
-                "Birds",
-                "Black flies",
-                "Bryophytes",
-                "Corals",
-                "Decapods",
-                "Dragonflies and damselflies",
-                "Fishes",
-                "Freshwater bivalves",
-                "Grasshoppers and relatives",
-                "Horse flies",
-                "Lacewings",
-                "Macrolichens",
-                "Mammals",
-                "Mayflies",
-                "Mosquitoes",
-                "Moths and butterflies",
-                "Non-marine snails and slugs",
-                "Reptiles",
-                "Sea cucumbers",
-                "Sea urchins",
-                "Selected macrofungi",
-                "Spiders",
-                "Sponges",
-                "Stoneflies",
-                "Vascular plants",
-                "Yellowjacket wasps"
+                "data.Amphibians",
+                "data.Ants",
+                "data.Bee flies",
+                "data.Bees",
+                "data.Beetles",
+                "data.Birds",
+                "data.Black flies",
+                "data.Bryophytes",
+                "data.Corals",
+                "data.Decapods",
+                "data.Dragonflies and damselflies",
+                "data.Fishes",
+                "data.Freshwater bivalves",
+                "data.Grasshoppers and relatives",
+                "data.Horse flies",
+                "data.Lacewings",
+                "data.Macrolichens",
+                "data.Mammals",
+                "data.Mayflies",
+                "data.Mosquitoes",
+                "data.Moths and butterflies",
+                "data.Non-marine snails and slugs",
+                "data.Reptiles",
+                "data.Sea cucumbers",
+                "data.Sea urchins",
+                "data.Selected macrofungi",
+                "data.Spiders",
+                "data.Sponges",
+                "data.Stoneflies",
+                "data.Vascular plants",
+                "data.Yellowjacket wasps"
               ]
             },
-            "title": "Species group"
+            "title": "data.Species group"
           }
         ]
       },
@@ -4103,8 +4116,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Adult criminal courts",
-                "Youth courts"
+                "data.Adult criminal courts",
+                "data.Youth courts"
               ]
             },
             "title": "Units"
@@ -4125,19 +4138,19 @@
             "constraints": {
               "enum": [
                 "",
-                "12 to 15 years",
-                "16 and 17 years",
-                "18 to 24 years",
-                "25 to 34 years",
-                "35 to 44 years",
-                "45 to 54 years",
-                "55 years and over",
-                "Age not applicable",
-                "Other ages",
-                "Total, age of accused"
+                "data.12 to 15 years",
+                "data.16 and 17 years",
+                "data.18 to 24 years",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 years and over",
+                "data.Age not applicable",
+                "data.Other ages",
+                "data.Total, age of accused"
               ]
             },
-            "title": "Age of accused"
+            "title": "data.Age of accused"
           },
           {
             "name": "data.Geography",
@@ -4145,23 +4158,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Offences",
@@ -4169,15 +4182,15 @@
             "constraints": {
               "enum": [
                 "",
-                "Administration of justice",
-                "Crimes against property",
-                "Crimes against the person",
-                "Criminal Code traffic",
-                "Total Criminal Code",
-                "Total offences"
+                "data.Administration of justice",
+                "data.Crimes against property",
+                "data.Crimes against the person",
+                "data.Criminal Code traffic",
+                "data.Total Criminal Code",
+                "data.Total offences"
               ]
             },
-            "title": "Offences"
+            "title": "data.Offences"
           },
           {
             "name": "data.Sex of accused",
@@ -4185,14 +4198,14 @@
             "constraints": {
               "enum": [
                 "",
-                "Company",
-                "Females",
-                "Males",
-                "Sex unknown",
-                "Total, sex of accused"
+                "data.Company",
+                "data.Females",
+                "data.Males",
+                "data.Sex unknown",
+                "data.Total, sex of accused"
               ]
             },
-            "title": "Sex of accused"
+            "title": "data.Sex of accused"
           }
         ]
       },
@@ -4214,8 +4227,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Per capita",
-                "Terajoules"
+                "data.Per capita",
+                "data.Terajoules"
               ]
             },
             "title": "Units"
@@ -4236,16 +4249,16 @@
             "constraints": {
               "enum": [
                 "",
-                "Agriculture",
-                "Commercial and other institutional",
-                "Energy use - final demand",
-                "Public administration",
-                "Residential",
-                "Total industrial",
-                "Total transportation"
+                "data.Agriculture",
+                "data.Commercial and other institutional",
+                "data.Energy use - final demand",
+                "data.Public administration",
+                "data.Residential",
+                "data.Total industrial",
+                "data.Total transportation"
               ]
             },
-            "title": "Demand characteristics"
+            "title": "data.Demand characteristics"
           },
           {
             "name": "data.Fuel type",
@@ -4253,19 +4266,19 @@
             "constraints": {
               "enum": [
                 "",
-                "Coke",
-                "Coke oven gas",
-                "Gas plant natural gas liquids (NGL's)",
-                "Hydroelectricity",
-                "Natural gas",
-                "Nuclear",
-                "Steam",
-                "Total coal",
-                "Total primary and secondary energy",
-                "Total refined petroleum products"
+                "data.Coke",
+                "data.Coke oven gas",
+                "data.Gas plant natural gas liquids (NGL's)",
+                "data.Hydroelectricity",
+                "data.Natural gas",
+                "data.Nuclear",
+                "data.Steam",
+                "data.Total coal",
+                "data.Total primary and secondary energy",
+                "data.Total refined petroleum products"
               ]
             },
-            "title": "Fuel type"
+            "title": "data.Fuel type"
           },
           {
             "name": "data.Geography",
@@ -4273,23 +4286,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           }
         ]
       },
@@ -4321,20 +4334,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Child pornography",
-                "Criminal harassment",
-                "Extortion",
-                "Fraud",
-                "Identity fraud",
-                "Identity theft",
-                "Indecent/Harassing communications",
-                "Luring a child via a computer",
-                "Making or distribution of child pornography",
-                "Non-consensual distribution of intimate images",
-                "Uttering threats"
+                "data.Child pornography",
+                "data.Criminal harassment",
+                "data.Extortion",
+                "data.Fraud",
+                "data.Identity fraud",
+                "data.Identity theft",
+                "data.Indecent/Harassing communications",
+                "data.Luring a child via a computer",
+                "data.Making or distribution of child pornography",
+                "data.Non-consensual distribution of intimate images",
+                "data.Uttering threats"
               ]
             },
-            "title": "Cyber-related violation"
+            "title": "data.Cyber-related violation"
           },
           {
             "name": "data.Geography",
@@ -4342,10 +4355,10 @@
             "constraints": {
               "enum": [
                 "",
-                "Canada"
+                "data.Canada"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Type of cyber-related violation",
@@ -4353,10 +4366,10 @@
             "constraints": {
               "enum": [
                 "",
-                "Against a person"
+                "data.Against a person"
               ]
             },
-            "title": "Type of cyber-related violation"
+            "title": "data.Type of cyber-related violation"
           }
         ]
       },
@@ -4388,13 +4401,13 @@
             "constraints": {
               "enum": [
                 "",
-                "Living in core housing need",
-                "Living in inadequate housing",
-                "Living in unaffordable housing",
-                "Living in unsuitable housing"
+                "data.Living in core housing need",
+                "data.Living in inadequate housing",
+                "data.Living in unaffordable housing",
+                "data.Living in unsuitable housing"
               ]
             },
-            "title": "Living with housing problems"
+            "title": "data.Living with housing problems"
           },
           {
             "name": "data.Selected housing vulnerable populations",
@@ -4402,17 +4415,17 @@
             "constraints": {
               "enum": [
                 "",
-                "All households",
-                "Lone-parent family households whose reference person is female",
-                "Lone-parent family households whose reference person is male",
-                "Men living alone",
-                "Reference person who experienced homelessness",
-                "Total, lone-parent family households",
-                "Total, one person households",
-                "Women living alone"
+                "data.All households",
+                "data.Lone-parent family households whose reference person is female",
+                "data.Lone-parent family households whose reference person is male",
+                "data.Men living alone",
+                "data.Reference person who experienced homelessness",
+                "data.Total, lone-parent family households",
+                "data.Total, one person households",
+                "data.Women living alone"
               ]
             },
-            "title": "Selected housing vulnerable populations"
+            "title": "data.Selected housing vulnerable populations"
           }
         ]
       },
@@ -4444,15 +4457,15 @@
             "constraints": {
               "enum": [
                 "",
-                "12 to 17 years",
-                "18 to 34 years",
-                "35 to 49 years",
-                "50 to 64 years",
-                "65 years and over",
-                "Total, 12 years and over"
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                "data.Total, 12 years and over"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -4460,20 +4473,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -4481,12 +4494,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       },
@@ -4518,58 +4531,58 @@
             "constraints": {
               "enum": [
                 "",
-                "Abbotsford - Mission, British Columbia",
-                "Alberta",
-                "Barrie, Ontario",
-                "Belleville, Ontario",
-                "Brantford, Ontario",
-                "British Columbia",
-                "Calgary, Alberta",
-                "Edmonton, Alberta",
-                "Greater Sudbury / Grand Sudbury, Ontario",
-                "Guelph, Ontario",
-                "Halifax, Nova Scotia",
-                "Hamilton, Ontario",
-                "Kelowna, British Columbia",
-                "Kingston, Ontario",
-                "Kitchener - Cambridge - Waterloo, Ontario",
-                "Lethbridge, Alberta",
-                "London, Ontario",
-                "Manitoba",
-                "Moncton, New Brunswick",
-                "Montréal, Quebec",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Oshawa, Ontario",
-                "Ottawa - Gatineau (Ontario part), Ontario",
-                "Ottawa - Gatineau (Quebec part), Quebec",
-                "Peterborough, Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Québec, Quebec",
-                "Regina, Saskatchewan",
-                "Saguenay, Quebec",
-                "Saint John, New Brunswick",
-                "Saskatchewan",
-                "Saskatoon, Saskatchewan",
-                "Sherbrooke, Quebec",
-                "St. Catharines - Niagara, Ontario",
-                "St. John's, Newfoundland and Labrador",
-                "Thunder Bay, Ontario",
-                "Toronto, Ontario",
-                "Trois-Rivières, Quebec",
-                "Vancouver, British Columbia",
-                "Victoria, British Columbia",
-                "Windsor, Ontario",
-                "Winnipeg, Manitoba",
-                "Yukon"
+                "data.Abbotsford - Mission, British Columbia",
+                "data.Alberta",
+                "data.Barrie, Ontario",
+                "data.Belleville, Ontario",
+                "data.Brantford, Ontario",
+                "data.British Columbia",
+                "data.Calgary, Alberta",
+                "data.Edmonton, Alberta",
+                "data.Greater Sudbury / Grand Sudbury, Ontario",
+                "data.Guelph, Ontario",
+                "data.Halifax, Nova Scotia",
+                "data.Hamilton, Ontario",
+                "data.Kelowna, British Columbia",
+                "data.Kingston, Ontario",
+                "data.Kitchener - Cambridge - Waterloo, Ontario",
+                "data.Lethbridge, Alberta",
+                "data.London, Ontario",
+                "data.Manitoba",
+                "data.Moncton, New Brunswick",
+                "data.Montréal, Quebec",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Oshawa, Ontario",
+                "data.Ottawa - Gatineau (Ontario part), Ontario",
+                "data.Ottawa - Gatineau (Quebec part), Quebec",
+                "data.Peterborough, Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Québec, Quebec",
+                "data.Regina, Saskatchewan",
+                "data.Saguenay, Quebec",
+                "data.Saint John, New Brunswick",
+                "data.Saskatchewan",
+                "data.Saskatoon, Saskatchewan",
+                "data.Sherbrooke, Quebec",
+                "data.St. Catharines - Niagara, Ontario",
+                "data.St. John's, Newfoundland and Labrador",
+                "data.Thunder Bay, Ontario",
+                "data.Toronto, Ontario",
+                "data.Trois-Rivières, Quebec",
+                "data.Vancouver, British Columbia",
+                "data.Victoria, British Columbia",
+                "data.Windsor, Ontario",
+                "data.Winnipeg, Manitoba",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           }
         ]
       },
@@ -4625,17 +4638,17 @@
             "constraints": {
               "enum": [
                 "",
-                "Crustaceans",
-                "Groundfish",
-                "Large pelagics",
-                "Marine mammals",
-                "Molluscs",
-                "Others",
-                "Salmonids",
-                "Small pelagics"
+                "data.Crustaceans",
+                "data.Groundfish",
+                "data.Large pelagics",
+                "data.Marine mammals",
+                "data.Molluscs",
+                "data.Others",
+                "data.Salmonids",
+                "data.Small pelagics"
               ]
             },
-            "title": "Stock group"
+            "title": "data.Stock group"
           }
         ]
       },
@@ -4667,22 +4680,22 @@
             "constraints": {
               "enum": [
                 "",
-                "Commercial buildings",
-                "Communications networks",
-                "Electric power infrastructure",
-                "Institutional buildings",
-                "Marine engineering infrastructure",
-                "Oil and gas engineering construction",
-                "Other engineering construction",
-                "Other machinery and equipment",
-                "Sewage infrastructure",
-                "Total assets",
-                "Transportation engineering infrastructure",
-                "Transportation machinery and equipment",
-                "Waterworks infrastructure"
+                "data.Commercial buildings",
+                "data.Communications networks",
+                "data.Electric power infrastructure",
+                "data.Institutional buildings",
+                "data.Marine engineering infrastructure",
+                "data.Oil and gas engineering construction",
+                "data.Other engineering construction",
+                "data.Other machinery and equipment",
+                "data.Sewage infrastructure",
+                "data.Total assets",
+                "data.Transportation engineering infrastructure",
+                "data.Transportation machinery and equipment",
+                "data.Waterworks infrastructure"
               ]
             },
-            "title": "Asset"
+            "title": "data.Asset"
           },
           {
             "name": "data.Geography",
@@ -4690,23 +4703,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           }
         ]
       },

@@ -13,30 +13,30 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Stock group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Mammifères marins",
-                "Poissons de fond",
-                "Petits poissons pélagiques",
-                "Grands poissons pélagiques",
-                "Salmonidés",
-                "Crustacés",
-                "Mollusques",
-                "Autres",
+                "data.Marine mammals",
+                "data.Groundfish",
+                "data.Small pelagics",
+                "data.Large pelagics",
+                "data.Salmonids",
+                "data.Crustaceans",
+                "data.Molluscs",
+                "data.Others",
                 ""
               ]
             },
-            "title": "Groupe de stocks"
+            "title": "data.Stock group"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

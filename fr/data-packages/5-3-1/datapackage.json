@@ -13,74 +13,74 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Atlantique",
-                "Québec",
-                "Ontario",
-                "Prairies",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Atlantic",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Prairies",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Activités de travail non-rémunéré",
-                "Tâches domestiques",
-                "Soins à un enfant du ménage de moins de 18 ans",
-                "Soins à un adulte du ménage",
-                "Magasinage de biens ou de services",
+                "data.Unpaid work activities",
+                "data.Household chores",
+                "data.Care of household children under 18 years",
+                "data.Care of household adults",
+                "data.Shopping for goods or services",
                 ""
               ]
             },
-            "title": "Groupe d'activité"
+            "title": "data.Activity group"
           },
           {
             "name": "data.Age",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 15 ans et plus",
-                "15 à 24 ans",
-                "25 à 54 ans",
-                "25 à 34 ans",
-                "35 à 44 ans",
-                "45 à 54 ans",
-                "55 à 64 ans",
-                "65 ans et plus",
+                "data.Total, 15 years and over",
+                "data.15 to 24 years",
+                "data.25 to 54 years",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                "data.65 years and over",
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "data.Age"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Homme",
-                "Femme",
+                "data.Both sexes",
+                "data.Male",
+                "data.Female",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

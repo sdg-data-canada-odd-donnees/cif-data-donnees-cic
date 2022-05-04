@@ -26,21 +26,21 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Territories"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Territories"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sources of materials prepared for recycling",
@@ -48,12 +48,12 @@
             "constraints": {
               "enum": [
                 "",
-                "All sources of diverted materials",
-                "Non-residential sources of diverted materials",
-                "Residential sources of diverted materials"
+                "data.All sources of diverted materials",
+                "data.Non-residential sources of diverted materials",
+                "data.Residential sources of diverted materials"
               ]
             },
-            "title": "Sources of materials prepared for recycling"
+            "title": "data.Sources of materials prepared for recycling"
           },
           {
             "name": "data.Type of materials diverted",
@@ -61,24 +61,24 @@
             "constraints": {
               "enum": [
                 "",
-                "All materials diverted",
-                "All paper fibres",
-                "Construction + renovation and demolition",
-                "Copper and aluminum",
-                "Electronics",
-                "Ferrous metals",
-                "Gable top and aseptic containers",
-                "Glass",
-                "Mixed metals",
-                "Organics",
-                "Other materials",
-                "Plastics",
-                "Textiles",
-                "Tires",
-                "White goods"
+                "data.All materials diverted",
+                "data.All paper fibres",
+                "data.Construction + renovation and demolition",
+                "data.Copper and aluminum",
+                "data.Electronics",
+                "data.Ferrous metals",
+                "data.Gable top and aseptic containers",
+                "data.Glass",
+                "data.Mixed metals",
+                "data.Organics",
+                "data.Other materials",
+                "data.Plastics",
+                "data.Textiles",
+                "data.Tires",
+                "data.White goods"
               ]
             },
-            "title": "Type of materials diverted"
+            "title": "data.Type of materials diverted"
           }
         ]
       }

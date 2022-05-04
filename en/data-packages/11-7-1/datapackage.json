@@ -26,15 +26,15 @@
             "constraints": {
               "enum": [
                 "",
-                "12 to 17 years",
-                "18 to 34 years",
-                "35 to 49 years",
-                "50 to 64 years",
-                "65 years and over",
-                "Total, 12 years and over"
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                "data.Total, 12 years and over"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -42,20 +42,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -63,12 +63,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       }

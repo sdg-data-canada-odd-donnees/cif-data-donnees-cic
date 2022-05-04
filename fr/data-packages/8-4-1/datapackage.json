@@ -13,65 +13,65 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
-                "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Nouvelle-Écosse",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Femmes",
-                "Hommes",
+                "data.Both sexes",
+                "data.Females",
+                "data.Males",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "15 à 24 ans",
-                "15 ans et plus",
-                "25 à 44 ans",
-                "25 à 54 ans",
-                "25 ans et plus",
-                "45 ans et plus",
-                "55 à 64 ans",
-                "55 ans et plus",
-                "65 ans et plus",
+                "data.15 to 24 years",
+                "data.15 years and over",
+                "data.25 to 44 years",
+                "data.25 to 54 years",
+                "data.25 years and over",
+                "data.45 years and over",
+                "data.55 to 64 years",
+                "data.55 years and over",
+                "data.65 years and over",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

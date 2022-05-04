@@ -1,4 +1,4 @@
 From,To
-Geography,Sex
-Sex,Grade
-Grade,Type of e-cigarettes
+data.Geography,data.Sex
+data.Sex,data.Grade
+data.Grade,data.Type of e-cigarettes

@@ -15,62 +15,62 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 12 ans et plus",
-                "12 à 17 ans",
-                "18 à 34 ans",
-                "35 à 49 ans",
-                "50 à 64 ans",
-                "65 ans et plus",
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
-                "Les deux sexes",
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -89,74 +89,74 @@
           {
             "name": "Year",
             "type": "string",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
-                "Nombre de sites",
+                "data.Percentage",
+                "data.Number of sites",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Océan Atlantique",
+                "data.Canada",
+                "data.Atlantic Ocean",
                 "data.Great Lakes and St. Lawrence River",
-                "Baie d'Hudson",
-                "Fleuve Mackenzie",
-                "Océan Pacifique",
+                "data.Hudson Bay",
+                "data.Mackenzie River",
+                "data.Pacific Ocean",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Land use category",
             "type": "string",
             "constraints": {
               "enum": [
-                "Agriculture",
-                "Foresterie",
-                "Exploitation minière",
-                "Peuplé",
-                "Pressions mixtes",
-                "Non aménagés",
-                "Total",
+                "data.Agriculture",
+                "data.Forestry",
+                "data.Mining",
+                "data.Populated",
+                "data.Mixed pressures",
+                "data.Undeveloped",
+                "data.Total",
                 "data.Mixed Pressures",
                 ""
               ]
             },
-            "title": "Catégorie d'utilisation des sols"
+            "title": "data.Land use category"
           },
           {
             "name": "data.Water quality",
             "type": "string",
             "constraints": {
               "enum": [
-                "Excellente",
-                "Bonne",
-                "Satisfaisante",
-                "Douteuse",
-                "Mauvaise",
-                "Total",
+                "data.Excellent",
+                "data.Good",
+                "data.Fair",
+                "data.Marginal",
+                "data.Poor",
+                "data.Total",
                 ""
               ]
             },
-            "title": "Qualité de l'eau"
+            "title": "data.Water quality"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -175,83 +175,83 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terre-Neuve-et-Labrador",
-                "St. John's, Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Halifax, Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Moncton, Nouveau-Brunswick",
-                "Saint John, Nouveau-Brunswick",
-                "Québec",
-                "Montreal, Quebec",
-                "Ottawa - Gatineau (partie du Québec), Québec",
-                "Québec, Québec",
-                "Saguenay, Québec",
-                "Sherbrooke, Québec",
-                "Trois-Rivières, Québec",
-                "Ontario",
-                "Barrie, Ontario",
-                "Belleville, Ontario",
-                "Brantford, Ontario",
-                "Greater Sudbury / Grand Sudbury, Ontario",
-                "Guelph, Ontario",
-                "Hamilton, Ontario",
-                "Kingston, Ontario",
-                "Kitchener - Cambridge - Waterloo, Ontario",
-                "London, Ontario",
-                "Oshawa, Ontario",
-                "Ottawa - Gatineau (partie de l'Ontario), Ontario",
-                "Peterborough, Ontario",
-                "St. Catharines - Niagara, Ontario",
-                "Thunder Bay, Ontario",
-                "Toronto, Ontario",
-                "Windsor, Ontario",
-                "Manitoba",
-                "Winnipeg, Manitoba",
-                "Saskatchewan",
-                "Regina, Saskatchewan",
-                "Saskatoon, Saskatchewan",
-                "Alberta",
-                "Calgary, Alberta",
-                "Edmonton, Alberta",
-                "Lethbridge, Alberta",
-                "Colombie-Britannique",
-                "Abbotsford - Mission, Colombie-Britannique",
-                "Kelowna, Colombie-Britannique",
-                "Vancouver, Colombie-Britannique",
-                "Victoria, Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Newfoundland and Labrador",
+                "data.St. John's, Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.Halifax, Nova Scotia",
+                "data.New Brunswick",
+                "data.Moncton, New Brunswick",
+                "data.Saint John, New Brunswick",
+                "data.Quebec",
+                "data.Montreal, Quebec",
+                "data.Ottawa - Gatineau (Quebec part), Quebec",
+                "data.Quebec, Quebec",
+                "data.Saguenay, Quebec",
+                "data.Sherbrooke, Quebec",
+                "data.Trois-Rivieres, Quebec",
+                "data.Ontario",
+                "data.Barrie, Ontario",
+                "data.Belleville, Ontario",
+                "data.Brantford, Ontario",
+                "data.Greater Sudbury / Grand Sudbury, Ontario",
+                "data.Guelph, Ontario",
+                "data.Hamilton, Ontario",
+                "data.Kingston, Ontario",
+                "data.Kitchener - Cambridge - Waterloo, Ontario",
+                "data.London, Ontario",
+                "data.Oshawa, Ontario",
+                "data.Ottawa - Gatineau (Ontario part), Ontario",
+                "data.Peterborough, Ontario",
+                "data.St. Catharines - Niagara, Ontario",
+                "data.Thunder Bay, Ontario",
+                "data.Toronto, Ontario",
+                "data.Windsor, Ontario",
+                "data.Manitoba",
+                "data.Winnipeg, Manitoba",
+                "data.Saskatchewan",
+                "data.Regina, Saskatchewan",
+                "data.Saskatoon, Saskatchewan",
+                "data.Alberta",
+                "data.Calgary, Alberta",
+                "data.Edmonton, Alberta",
+                "data.Lethbridge, Alberta",
+                "data.British Columbia",
+                "data.Abbotsford - Mission, British Columbia",
+                "data.Kelowna, British Columbia",
+                "data.Vancouver, British Columbia",
+                "data.Victoria, British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Type of commute",
             "type": "string",
             "constraints": {
               "enum": [
-                "Transport en commun",
-                "Transport actif",
+                "data.Public transit",
+                "data.Active transport",
                 ""
               ]
             },
-            "title": "Type de navettage"
+            "title": "data.Type of commute"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -270,92 +270,92 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Population characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Population totale",
-                "Population autochtone hors réserve",
+                "data.Total population",
+                "data.Off-reserve Indigenous  population",
                 ""
               ]
             },
-            "title": "Caractéristiques de la population"
+            "title": "data.Population characteristics"
           },
           {
             "name": "data.Educational attainment level",
             "type": "string",
             "constraints": {
               "enum": [
-                "Études tertiaires",
-                "Enseignement tertiaire de cycle court",
-                "Baccalauréat",
-                "Maîtrise ou doctorat",
-                "Université",
+                "data.Tertiary education",
+                "data.Short-cycle tertiary",
+                "data.Bachelor's level",
+                "data.Master's or Doctoral level",
+                "data.University",
                 ""
               ]
             },
-            "title": "Niveau de scolarité"
+            "title": "data.Educational attainment level"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 25 à 64 ans",
-                "25 à 34 ans",
-                "30 à 34 ans",
-                "35 à 44 ans",
-                "45 à 54 ans",
-                "55 à 64 ans",
+                "data.Total, 25 to 64 years",
+                "data.25 to 34 years",
+                "data.30 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Homme",
-                "Femme",
-                "Les deux sexes",
+                "data.Male",
+                "data.Female",
+                "data.Both sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -374,42 +374,42 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Pillar",
             "type": "string",
             "constraints": {
               "enum": [
-                "Flux transfrontaliers vers les pays admissibles au TOSSD",
-                "Dépenses mondiales et régionales pour les biens publics internationaux",
+                "data.Cross-border flows to TOSSD-eligible countries",
+                "data.Global and regional expenditures for international public goods",
                 ""
               ]
             },
-            "title": "Pilier"
+            "title": "data.Pillar"
           },
           {
             "name": "data.Region",
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les régions",
-                "Mondial",
-                "Afrique",
-                "Asie",
-                "Amerique",
-                "Europe",
-                "Moyen-Orient",
-                "Océanie",
+                "data.All regions",
+                "data.Global",
+                "data.Africa",
+                "data.Asia",
+                "data.America",
+                "data.Europe",
+                "data.Middle East",
+                "data.Oceania",
                 ""
               ]
             },
-            "title": "Région"
+            "title": "data.Region"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -428,65 +428,65 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
-                "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Nouvelle-Écosse",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Femmes",
-                "Hommes",
+                "data.Both sexes",
+                "data.Females",
+                "data.Males",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "15 à 24 ans",
-                "15 ans et plus",
-                "25 à 44 ans",
-                "25 à 54 ans",
-                "25 ans et plus",
-                "45 ans et plus",
-                "55 à 64 ans",
-                "55 ans et plus",
-                "65 ans et plus",
+                "data.15 to 24 years",
+                "data.15 years and over",
+                "data.25 to 44 years",
+                "data.25 to 54 years",
+                "data.25 years and over",
+                "data.45 years and over",
+                "data.55 to 64 years",
+                "data.55 years and over",
+                "data.65 years and over",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -505,29 +505,29 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
-                "Atlantique",
-                "Colombie-Britannique",
-                "Manitoba",
-                "Ontario",
-                "Québec",
-                "Saskatchewan",
+                "data.Alberta",
+                "data.Atlantic",
+                "data.British Columbia",
+                "data.Manitoba",
+                "data.Ontario",
+                "data.Quebec",
+                "data.Saskatchewan",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -546,29 +546,29 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Colombie-Britannique et les Territoires",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
+                "data.British Columbia and the Territories",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -587,27 +587,27 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "GeoCode",
@@ -617,7 +617,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -636,12 +636,12 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -660,60 +660,60 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Industries",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, industries",
-                "Exploitation forestière (sauf à forfait)",
-                "Extraction de pétrole et de gaz",
-                "Extraction minière et exploitation en carrière",
-                "Production, transport et distribution d’électricité",
-                "Distribution de gaz naturel",
-                "Fabrication d’aliments",
-                "Fabrication de boissons et de produits du tabac",
-                "Fabrication de produits en bois",
-                "Fabrication du papier",
-                "Fabrication de produits du pétrole et du charbon",
-                "Fabrication de produits chimiques",
-                "Fabrication de produits minéraux non métalliques",
-                "Première transformation des métaux",
-                "Fabrication de produits métalliques",
-                null,
-                "Fabrication de produits en plastique et en caoutchouc",
-                "Fabrication de machines",
-                "Fabrication de meubles et de produits connexes",
-                "Autres industries de fabrication",
-                "Transport par pipeline",
+                "data.Total, industries",
+                "data.Logging (except contract)",
+                "data.Oil and gas extraction",
+                "data.Mining and quarrying",
+                "data.Electric power generation, transmission and distribution",
+                "data.Natural gas distribution",
+                "data.Food manufacturing",
+                "data.Beverage and tobacco product manufacturing",
+                "data.Wood product manufacturing",
+                "data.Paper manufacturing",
+                "data.Petroleum and coal product manufacturing",
+                "data.Chemical manufacturing",
+                "data.Non-metallic mineral product manufacturing",
+                "data.Primary metal manufacturing",
+                "data.Fabricated metal product manufacturing",
+                "data.Transportation equipment manufacturing",
+                "data.Plastics and rubber products manufacturing",
+                "data.Machinery manufacturing",
+                "data.Furniture and related product manufacturing",
+                "data.Other manufacturing industries",
+                "data.Pipeline transportation",
                 ""
               ]
             },
-            "title": "Industries"
+            "title": "data.Industries"
           },
           {
             "name": "data.Environmental protection activities or management practices",
             "type": "string",
             "constraints": {
               "enum": [
-                "Gestion des eaux usées",
-                "Gestion de la pollution atmosphérique",
-                "Protection et assainissement du sol, des eaux souterraines et des eaux de surface",
-                "Protection de la biodiversité et de l’habitat",
-                "Lutte contre le bruit et les vibrations",
-                "Total, activités de protection de l'environnement",
-                "Redevances écologiques",
+                "data.Wastewater management",
+                "data.Air pollution management",
+                "data.Protection and remediation of soil, groundwater and surface water",
+                "data.Protection of biodiversity and habitat",
+                "data.Noise and vibration abatement",
+                "data.Total, environmental protection activities",
+                "data.Sold carbon offset credits only or sold more than purchased",
                 ""
               ]
             },
-            "title": "Activités de protection de l'environnement"
+            "title": "data.Environmental protection activities or management practices"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -732,72 +732,72 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Territoires",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Territories",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Type of materials diverted",
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les matières",
-                "Toutes les fibres cellulosiques",
-                "Verre",
-                "Métaux ferreux",
-                "Cuivre et aluminium",
-                "Métaux mélangés",
-                "Électroménagers",
-                "Matériel électronique",
-                "Matières plastiques",
-                "Récipients triangulaires et aseptiques",
-                "Textiles",
-                "Pneus",
-                "Déchets provenant de la construction, de la rénovation et de la démolition",
-                "Matières organiques",
-                "Autres matières",
+                "data.All materials diverted",
+                "data.All paper fibres",
+                "data.Glass",
+                "data.Ferrous metals",
+                "data.Copper and aluminum",
+                "data.Mixed metals",
+                "data.White goods",
+                "data.Electronics",
+                "data.Plastics",
+                "data.Gable top and aseptic containers",
+                "data.Textiles",
+                "data.Tires",
+                "data.Construction + renovation and demolition",
+                "data.Organics",
+                "data.Other materials",
                 ""
               ]
             },
-            "title": "Type de matières récupérées"
+            "title": "data.Type of materials diverted"
           },
           {
             "name": "data.Sources of materials prepared for recycling",
             "type": "string",
             "constraints": {
               "enum": [
-                "Sources des matières résidentielles récupérées",
-                "Sources des matières non résidentielles récupérées",
-                "Toutes les sources des matières récupérées",
+                "data.Residential sources of diverted materials",
+                "data.Non-residential sources of diverted materials",
+                "data.All sources of diverted materials",
                 ""
               ]
             },
-            "title": "Sources des matières préparées en vue du recyclage"
+            "title": "data.Sources of materials prepared for recycling"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -816,62 +816,62 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 12 ans et plus",
-                "12 à 17 ans",
-                "18 à 34 ans",
-                "35 à 49 ans",
-                "50 à 64 ans",
-                "65 ans et plus",
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
-                "Les deux sexes",
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -890,62 +890,62 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 12 ans et plus",
-                "12 à 17 ans",
-                "18 à 34 ans",
-                "35 à 49 ans",
-                "50 à 64 ans",
-                "65 ans et plus",
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
-                "Les deux sexes",
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -964,26 +964,26 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Index",
             "type": "string",
             "constraints": {
               "enum": [
-                "Biodiversité",
-                "Qualité des sols",
-                "Qualité de l'eau",
-                "Qualité de l'air",
+                "data.Biodiversity",
+                "data.Soil Quality",
+                "data.Water Quality",
+                "data.Air Quality",
                 ""
               ]
             },
-            "title": "Indice"
+            "title": "data.Index"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1002,81 +1002,81 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Type of work",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ensemble des employés à temps plein et à temps partiel",
-                "Employés à temps plein",
-                "Employés à temps partiel",
+                "data.Both full- and part-time employees",
+                "data.Full-time employees",
+                "data.Part-time employees",
                 ""
               ]
             },
-            "title": "Genre de travail"
+            "title": "data.Type of work"
           },
           {
             "name": "data.National Occupational Classification (NOC)",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total des employés, toutes les professions",
-                "Gestion [0]",
-                "Affaires, finance et administration [1]",
-                "Sciences naturelles et appliquées et domaines apparentés [2]",
-                "Secteur de la santé [3]",
-                "Enseignement, droit et services sociaux, communautaires et gouvernementaux [4]",
-                "Arts, culture, sports et loisirs [5]",
-                "Vente et services [6]",
-                "Métiers, transport, machinerie et domaines apparentés [7]",
-                "Ressources naturelles, agriculture et production connexe [8]",
-                "Fabrication et services d'utilité publique [9]",
+                "data.Total employees, all occupations",
+                "data.Management occupations [0]",
+                "data.Business, finance and administration occupations [1]",
+                "data.Natural and applied sciences and related occupations [2]",
+                "data.Health occupations [3]",
+                "data.Occupations in education, law and social, community and government services [4]",
+                "data.Occupations in art, culture, recreation and sport [5]",
+                "data.Sales and service occupations [6]",
+                "data.Trades, transport and equipment operators and related occupations [7]",
+                "data.Natural resources, agriculture and related production occupations [8]",
+                "data.Occupations in manufacturing and utilities [9]",
                 ""
               ]
             },
-            "title": "Classification nationale des professions (CNP)"
+            "title": "data.National Occupational Classification (NOC)"
           },
           {
             "name": "data.Age",
             "type": "string",
             "constraints": {
               "enum": [
-                "15 à 24 ans",
-                "25 à 54 ans",
-                "55 ans et plus",
-                "15 ans et plus",
+                "data.15 to 24 years",
+                "data.25 to 54 years",
+                "data.55 years and over",
+                "data.15 years and over",
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "data.Age"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1095,12 +1095,12 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1119,66 +1119,66 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
+                "data.Canada",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Measures",
             "type": "string",
             "constraints": {
               "enum": [
-                "Embonpoint",
-                "Obèse",
+                "data.Overweight",
+                "data.Obese",
                 ""
               ]
             },
-            "title": "Mesures"
+            "title": "data.Measures"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Hommes",
-                "Femmes",
+                "data.Both sexes",
+                "data.Males",
+                "data.Females",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "5 à 79 ans",
-                "5 à 17 ans",
-                "5 à 11 ans",
-                "12 à 17 ans",
-                "18 à 79 ans",
-                "18 à 39 ans",
-                "40 à 59 ans",
-                "60 à 79 ans",
+                "data.Ages 5 to 79",
+                "data.Ages 5 to 17",
+                "data.Ages 5 to 11",
+                "data.Ages 12 to 17",
+                "data.Ages 18 to 79",
+                "data.Ages 18 to 39",
+                "data.Ages 40 to 59",
+                "data.Ages 60 to 79",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1197,41 +1197,41 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Provinces de l'Atlantique",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Provinces des Prairies",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Québec, Québec",
-                "Montréal, Québec",
-                "Ottawa-Gatineau, Ontario/Québec",
-                "Toronto, Ontario",
-                "Winnipeg, Manitoba",
-                "Calgary, Alberta",
-                "Edmonton, Alberta",
-                "Vancouver, Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Atlantic provinces",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Prairie provinces",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Québec, Quebec",
+                "data.Montréal, Quebec",
+                "data.Ottawa-Gatineau, Ontario/Quebec",
+                "data.Toronto, Ontario",
+                "data.Winnipeg, Manitoba",
+                "data.Calgary, Alberta",
+                "data.Edmonton, Alberta",
+                "data.Vancouver, British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "GeoCode",
@@ -1243,35 +1243,35 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Familles économiques",
-                "Familles de personnes âgées",
-                "Couples de personnes âgées",
-                "Autres familles de personnes âgées",
-                "Familles de personnes non âgées",
-                "Couples",
-                "Couples avec des enfants",
-                "Couples avec d'autres personnes apparentées",
-                "Familles monoparentales",
-                "Familles monoparentales ayant un homme à leur tête",
-                "Familles monoparentales ayant une femme à leur tête",
-                "Autres familles de personnes non âgées",
-                "Personnes hors famille économique",
-                "Personnes âgées hors famille économique",
-                "Hommes âgés hors famille économique",
-                "Femmes âgées hors famille économique",
-                "Personnes non âgées hors famille économique",
-                "Hommes non âgés hors famille économique",
-                "Femmes non âgées hors famille économique",
-                "Familles économiques et personnes hors famille économique",
+                "data.Economic families",
+                "data.Elderly families",
+                "data.Elderly couples",
+                "data.Other elderly families",
+                "data.Non-elderly families",
+                "data.Couples",
+                "data.Couples with children",
+                "data.Couples with other relatives",
+                "data.Lone-parent families",
+                "data.Male lone-parent families",
+                "data.Female lone-parent families",
+                "data.Other non-elderly families",
+                "data.Persons not in an economic family",
+                "data.Elderly persons not in an economic family",
+                "data.Elderly males not in an economic family",
+                "data.Elderly females not in an economic family",
+                "data.Non-elderly persons not in an economic family",
+                "data.Non-elderly males not in an economic family",
+                "data.Non-elderly females not in an economic family",
+                "data.Economic families and persons not in an economic family",
                 ""
               ]
             },
-            "title": "Type de famille économique"
+            "title": "data.Economic family type"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1290,24 +1290,24 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
+                "data.Men",
+                "data.Women",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1326,12 +1326,12 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1350,12 +1350,12 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1374,32 +1374,32 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Disease",
             "type": "string",
             "constraints": {
               "enum": [
-                "Cancer",
-                "Maladie pulmonaire obstructive chronique",
-                "Creutzfeldt-Jakob",
-                "Démence, y compris la maladie d'Alzheimer",
-                "Diabète",
-                "VIH et SIDA",
-                "Hypertension",
-                "Cardiopathies ischémiques",
-                "Salmonellose",
-                "Tuberculose",
+                "data.Cancer",
+                "data.Chronic obstructive pulmonary disease",
+                "data.Creutzfeldt-Jakob",
+                "data.Dementia, including Alzheimer's disease",
+                "data.Diabetes",
+                "data.HIV and AIDS",
+                "data.Hypertension",
+                "data.Ischemic heart disease",
+                "data.Salmonella",
+                "data.Tuberculosis",
                 ""
               ]
             },
-            "title": "Maladies"
+            "title": "data.Disease"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1418,66 +1418,66 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Age group and family type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Personnes de tous âge et types de familles",
-                "Personnes de moins de 18 ans",
-                "Personnes de 18 à 64 ans",
-                "Personnes de 65 ans et plus",
-                "Personnes dans une famille économique",
-                "Personnes dans une famille ayant un couple seulement",
-                "Personnes dans une famille ayant un couple avec enfant",
-                "Personnes dans une famille monoparentale",
-                "Personnes dans un autre type de famille économique",
-                "Personnes hors famille économique",
+                "data.Persons all ages and family types",
+                "data.Persons under 18 years old",
+                "data.Persons 18 to 64 years old",
+                "data.Persons 65 years and older",
+                "data.Persons in an economic family",
+                "data.Persons in a couple only family",
+                "data.Persons in a couple with children family",
+                "data.Persons in a lone-parent family",
+                "data.Persons in an other economic family type",
+                "data.Persons not in an economic family",
                 ""
               ]
             },
-            "title": "Groupe d'âge et type de famille"
+            "title": "data.Age group and family type"
           },
           {
             "name": "data.Statistics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Personnes en situation de résilience des actifs pour au moins un mois",
-                "Personnes en situation de résilience des actifs pour au moins six mois",
-                "Personnes en situation de résilience des actifs pour au moins trois mois",
+                "data.Asset resilient for at least one month",
+                "data.Asset resilient for at least six months",
+                "data.Asset resilient for at least three months",
                 ""
               ]
             },
-            "title": "Statistiques"
+            "title": "data.Statistics"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1496,80 +1496,80 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Nombre",
-                "Pourcentage",
+                "data.Number",
+                "data.Percentage",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
-                "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
-                "Nunavut",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
-                "Yukon",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Core public infrastructure assets",
             "type": "string",
             "constraints": {
               "enum": [
-                "Eau potable",
-                "Déchets solides",
-                "Eaux pluviales",
-                "Eaux usées",
+                "data.Potable water",
+                "data.Solid waste",
+                "data.Stormwater",
+                "data.Wastewater",
                 ""
               ]
             },
-            "title": "Actifs d'infrastructures publiques essentielles"
+            "title": "data.Core public infrastructure assets"
           },
           {
             "name": "data.Type of municipality by population size",
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les municipalités",
-                "Toutes les municipalités urbaines",
-                "Municipalités urbaines, population de 1 à 4 999",
-                "Municipalités urbaines, population de 5 000 à 29 999",
-                "Municipalités urbaines, population de 30 000 et plus",
-                "Toutes les municipalités rurales",
-                "Municipalités rurales, population 1 à 4 999",
-                "Municipalités rurales, population 5 000 et plus",
+                "data.All municipalities",
+                "data.All urban municipalities",
+                "data.Urban municipalities, population 1 to 4,999",
+                "data.Urban municipalities, population 5,000 to 29,999",
+                "data.Urban municipalities, population 30,000 or more",
+                "data.All rural municipalities",
+                "data.Rural municipalities, population 1 to 4,999",
+                "data.Rural municipalities, population 5,000 or more",
                 ""
               ]
             },
-            "title": "Type de municipalité par taille de population"
+            "title": "data.Type of municipality by population size"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1588,12 +1588,12 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1612,55 +1612,55 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Newfoundland and Labrador [10]",
+                "data.Prince Edward Island [11]",
+                "data.Nova Scotia [12]",
+                "data.New Brunswick [13]",
+                "data.Quebec [24]",
+                "data.Ontario [35]",
+                "data.Manitoba [46]",
+                "data.Saskatchewan [47]",
+                "data.Alberta [48]",
+                "data.British Columbia [59]",
+                "data.Yukon [60]",
+                "data.Northwest Territories [61]",
+                "data.Nunavut [62]",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Violations",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total des infractions",
-                "Homicide",
-                "Total des autres infractions entraînant la mort",
-                "Tentative de meurtre",
-                "Agression sexuelle grave (niveau 3)",
-                "Agression sexuelle, niveau 2, armée ou causant des lésions corporelles",
-                "Agression sexuelle de niveau 1",
-                "Total des infractions sexuelles contre les enfants",
-                "Voies de fait graves (niveau 3)",
-                "Voies de fait armées ou causant des lésions corporelles (niveau 2)",
-                "Voies de fait simples (niveau 1)",
-                "Total des vols qualifiés",
-                "Menaces",
-                "Total des autres infractions avec violence",
+                "data.Total, all violations [0]",
+                "data.Homicide [110]",
+                "data.Total other violations causing death [120]",
+                "data.Attempted murder [1210]",
+                "data.Sexual assault, level 3, aggravated [1310]",
+                "data.Sexual assault, level 2, weapon or bodily harm [1320]",
+                "data.Sexual assault, level 1 [1330]",
+                "data.Total sexual violations against children [130]",
+                "data.Assault, level 3, aggravated [1410]",
+                "data.Assault, level 2, weapon or bodily harm [1420]",
+                "data.Assault, level 1 [1430]",
+                "data.Total robbery [160]",
+                "data.Uttering threats [1627]",
+                "data.Total other violent violations [180]",
                 ""
               ]
             },
-            "title": "Infractions"
+            "title": "data.Violations"
           },
           {
             "name": "GeoCode",
@@ -1670,7 +1670,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1689,35 +1689,35 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1736,30 +1736,30 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "GeoCode",
@@ -1769,7 +1769,7 @@
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1788,68 +1788,68 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Nombre",
-                "Taux par 100 000 personnes",
+                "data.Number",
+                "data.Rate per 100,000 population",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Colombie-Britannique",
-                "Alberta",
-                "Saskatchewan",
-                "Manitoba",
-                "Ontario",
-                "Québec",
-                "Nouveau-Brunswick",
-                "Nouvelle-Écosse",
-                "Île-du-Prince-Édouard",
-                "Terre-Neuve-et-Labrador",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                "Territoires",
-                "Winnipeg Manitoba",
-                "Régions rurales et du nord du Manitoba",
-                "Whitehorse Yukon",
-                "Yellowknife Territoires du Nord-Ouest",
+                "data.Canada",
+                "data.British Columbia",
+                "data.Alberta",
+                "data.Saskatchewan",
+                "data.Manitoba",
+                "data.Ontario",
+                "data.Quebec",
+                "data.New Brunswick",
+                "data.Nova Scotia",
+                "data.Prince Edward Island",
+                "data.Newfoundland and Labrador",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                "data.Territories",
+                "data.Winnipeg Manitoba",
+                "data.Northern and Rural Manitoba",
+                "data.Whitehorse Yukon",
+                "data.Yellowknife Northwest Territories",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Type of event",
             "type": "string",
             "constraints": {
               "enum": [
-                "Décès totaux apparemment liés à une intoxication aux opioïdes",
-                "Hospitalisations pour intoxication aux opioïdes",
-                "Interventions des SMU pour surdoses suspectées d'être liées aux opioïdes",
-                "Décès totaux apparemment liés à une intoxication aux stimulants",
-                "Hospitalisations pour intoxication aux stimulants",
+                "data.Apparent opioid toxicity deaths",
+                "data.Opioid-related poisoning hospitalizations",
+                "data.EMS responses to suspected opioid-related overdoses",
+                "data.Apparent stimulant toxicity deaths",
+                "data.Stimulant-related poisoning hospitalizations",
                 ""
               ]
             },
-            "title": "Type d'événement"
+            "title": "data.Type of event"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1868,32 +1868,32 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1912,12 +1912,12 @@
           {
             "name": "Year",
             "type": "string",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -1936,54 +1936,54 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Sector",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hébergement et services de restauration",
-                "Services administratifs, services de soutien, services de gestion des déchets et services d'assainissement",
-                "Agriculture, foresterie, pêche et chasse",
-                "Arts, spectacles et loisirs",
-                "Construction",
-                "Services d'enseignement",
-                "Service financier et assurance",
-                "Services d'éducation gouvernementaux",
-                "Services de soins de santé du gouvernement",
-                "Soins de santé et assistance sociale",
-                "Ménages",
-                "Industries d'information et de culture",
-                "Fabrication",
-                "Extraction minière et de pétrole et de gaz",
-                "Diverses institutions sans but lucratif au service des ménages",
-                "Arts, spectacles et loisirs sans but lucratif",
-                "Services d'enseignement sans but lucratif",
-                "Services de bien-être sans but lucratif",
-                "Autres services des administrations publiques autochtones",
-                "Autres services de l'administration publique fédérale",
-                "Autres services de finances, d'assurances et immobiliers, et gestion de sociétés et d'entreprises",
-                "Autres services des administrations publiques municipales",
-                "Autres services des administrations publiques provinciales et territoriales",
-                "Autres services (sauf administration publique)",
-                "Services professionnels, scientifiques et techniques",
-                "Immobilier et service de location",
-                "Organismes religieux",
-                "Commerce de détail",
-                "Total, industries",
-                "Transport et entreposage",
-                "Services utilitaires",
-                "Commerce de gros",
+                "data.Accommodation and food services",
+                "data.Administrative and support, waste management and remediation services",
+                "data.Agriculture, forestry, fishing and hunting",
+                "data.Arts, entertainment and recreation",
+                "data.Construction",
+                "data.Educational services",
+                "data.Finance and insurance",
+                "data.Government Education Services",
+                "data.Government Health Services",
+                "data.Health care and social assistance",
+                "data.Households",
+                "data.Information and cultural industries",
+                "data.Manufacturing",
+                "data.Mining, quarrying, and oil and gas extraction",
+                "data.Miscellaneous non-profit institutions serving households",
+                "data.Non-profit arts, entertainment and recreation",
+                "data.Non-Profit Education Services",
+                "data.Non-Profit Social Assistance",
+                "data.Other Aboriginal Government Services",
+                "data.Other federal government services",
+                "data.Other finance, insurance and real estate services and management of companies and enterprises",
+                "data.Other Municipal Government Services",
+                "data.Other provincial and territorial government services",
+                "data.Other services (except public administration)",
+                "data.Professional, scientific and technical services",
+                "data.Real estate and rental and leasing",
+                "data.Religious organizations",
+                "data.Retail trade",
+                "data.Total, industries",
+                "data.Transportation and warehousing",
+                "data.Utilities",
+                "data.Wholesale trade",
                 ""
               ]
             },
-            "title": "Secteur"
+            "title": "data.Sector"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2002,60 +2002,60 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 15 à 29 ans",
-                "15 à 19 ans",
-                "15 à 24 ans",
-                "18 à 24 ans",
-                "20 à 24 ans",
-                "25 à 29 ans",
+                "data.Total, 15 to 29 years",
+                "data.15 to 19 years",
+                "data.15 to 24 years",
+                "data.18 to 24 years",
+                "data.20 to 24 years",
+                "data.25 to 29 years",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
-                "Les deux sexes",
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "GeoCode",
@@ -2065,7 +2065,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2084,53 +2084,66 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Institutions",
             "type": "string",
             "constraints": {
               "enum": [
-                "Police",
+                "data.Police",
+                "data.Justice system and courts",
+                "data.School system",
+                "data.Federal Parliament",
+                "data.Banks",
+                "data.Major corporations",
+                "data.Local merchants and business people",
+                "data.Canadian media",
                 ""
               ]
             },
-            "title": "Institutions"
+            "title": "data.Institutions"
           },
           {
             "name": "data.Characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Population totale",
-                "Homme",
-                "Femme",
-                "Autochtone",
-                "Personne non autochtone",
-                "Minorité visible",
-                "N’appartenant pas à une minorité visible",
+                "data.Total population",
+                "data.Male",
+                "data.Female",
+                "data.Indigenous person",
+                "data.Non-Indigenous person",
+                "data.Visible minority",
+                "data.Non-visible minority",
+                "data.Black",
+                "data.First Nations, Métis, or Inuit",
+                "data.Other group designated as visible minority",
+                "data.Non-Indigenous, non-visible minority",
                 ""
               ]
             },
-            "title": "Caractéristiques"
+            "title": "data.Characteristics"
           },
           {
             "name": "data.Level of confidence",
             "type": "string",
             "constraints": {
               "enum": [
-                "Une certaine confiance",
-                "Très peu confiance ou aucune confiance",
-                "Une grande confiance",
+                "data.Some confidence",
+                "data.Not very much or no confidence",
+                "data.A great deal of confidence",
+                "data.Not confident",
+                "data.Confident",
                 ""
               ]
             },
-            "title": "Niveau de confiance"
+            "title": "data.Level of confidence"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2149,32 +2162,32 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                "Région de l'Atlantique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                "data.Atlantic region",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "GeoCode",
@@ -2186,66 +2199,66 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Population totale",
-                "Population autochtone",
-                "Immigrants reçus",
-                "Immigrants reçus 5 ans et moins auparavant",
-                "Immigrants reçus plus de 5 à 10 ans auparavant",
-                "Immigrants reçus plus de 10 ans auparavant",
+                "data.Total population",
+                "data.Indigenous population",
+                "data.Landed immigrants",
+                "data.Immigrants, landed 5 or less years earlier",
+                "data.Immigrants, landed more than 5 to 10 years earlier",
+                "data.Immigrants, landed more than 10 years earlier",
                 ""
               ]
             },
-            "title": "Population"
+            "title": "data.Population"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Hommes",
-                "Femmes",
+                "data.Both sexes",
+                "data.Males",
+                "data.Females",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "15 à 24 ans",
-                "25 ans et plus",
-                "25 à 44 ans",
-                "45 à 64 ans",
-                "45 ans et plus",
-                "25 à 54 ans",
-                "55 ans et plus",
-                "15 à 64 ans",
-                "15 à 19 ans",
-                "20 à 24 ans",
-                "25 à 29 ans",
-                "30 à 34 ans",
-                "35 à 39 ans",
-                "40 à 44 ans",
-                "45 à 49 ans",
-                "50 à 54 ans",
-                "55 à 59 ans",
-                "60 à 64 ans",
-                "65 ans et plus",
-                "65 à 69 ans",
-                "70 ans et plus",
-                "15 ans et plus",
+                "data.15 to 24 years",
+                "data.25 years and over",
+                "data.25 to 44 years",
+                "data.45 to 64 years",
+                "data.45 years and over",
+                "data.25 to 54 years",
+                "data.55 years and over",
+                "data.15 to 64 years",
+                "data.15 to 19 years",
+                "data.20 to 24 years",
+                "data.25 to 29 years",
+                "data.30 to 34 years",
+                "data.35 to 39 years",
+                "data.40 to 44 years",
+                "data.45 to 49 years",
+                "data.50 to 54 years",
+                "data.55 to 59 years",
+                "data.60 to 64 years",
+                "data.65 years and over",
+                "data.65 to 69 years",
+                "data.70 years and over",
+                "data.15 years and over",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2264,62 +2277,62 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 12 ans et plus",
-                "12 à 17 ans",
-                "18 à 34 ans",
-                "35 à 49 ans",
-                "50 à 64 ans",
-                "65 ans et plus",
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
-                "Les deux sexes",
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2338,24 +2351,24 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Progress",
             "type": "string",
             "constraints": {
               "enum": [
-                "Preuves mitigées",
-                "N'affichent pas de progrès",
+                "data.Mixed evidence",
+                "data.Do not show progress",
                 ""
               ]
             },
-            "title": "Progrès"
+            "title": "data.Progress"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2374,33 +2387,33 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Leadership position",
             "type": "string",
             "constraints": {
               "enum": [
-                "Parlement national",
-                "Cabinet fédéral",
-                "Gestion",
-                "Cadres supérieures",
-                "Cadres intermédiaires spécialisées",
-                "Cadres intermédiaires dans le commerce de détail, de gros et des services à la clientèle",
-                "Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique",
-                "Juges - administration publique fédérale",
-                "Juges - administrations provinciales et territoriales",
-                "Chefs dans les communautés des Premières Nations",
-                "Membres de conseil des Premières Nations",
+                "data.Members of national Parliament",
+                "data.Members of federal Cabinet",
+                "data.All management occupations",
+                "data.Senior management occupations",
+                "data.Specialized middle management occupations",
+                "data.Middle management occupations in retail and wholesale trade and customer services",
+                "data.Middle management occupations in trades - transportation - production and utilities",
+                "data.Judges - Federal government public administration",
+                "data.Judges - Provincial and territorial public administration",
+                "data.Chiefs in First Nation communities",
+                "data.First Nations council members",
                 ""
               ]
             },
-            "title": "Rôles de leadership"
+            "title": "data.Leadership position"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2419,49 +2432,49 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Colombie-Britannique",
-                "Alberta",
-                "Saskatchewan",
-                "Manitoba",
-                "Ontario",
-                "Québec",
-                "Nouveau-Brunswick",
-                "Nouvelle-Écosse",
-                "Île-du-Prince-Édouard",
-                "Terre-Neuve-et-Labrador",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.British Columbia",
+                "data.Alberta",
+                "data.Saskatchewan",
+                "data.Manitoba",
+                "data.Ontario",
+                "data.Quebec",
+                "data.New Brunswick",
+                "data.Nova Scotia",
+                "data.Prince Edward Island",
+                "data.Newfoundland and Labrador",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Population centres",
             "type": "string",
             "constraints": {
               "enum": [
-                "Régions urbaines",
-                "Communautés rurales",
-                "Principales routes et autoroutes",
+                "data.Urban centres",
+                "data.Rural communities",
+                "data.Major roads and highways",
                 ""
               ]
             },
-            "title": "Centres de population"
+            "title": "data.Population centres"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2480,85 +2493,85 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Hommes",
-                "Femmes",
+                "data.Both sexes",
+                "data.Males",
+                "data.Females",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, personnes âgées de 15 ans et plus",
-                "15 à 24 ans",
-                "25 à 64 ans",
-                "65 à 74 ans",
-                "75 ans et plus",
+                "data.Total, persons aged 15 years and over",
+                "data.15 to 24 years",
+                "data.25 to 64 years",
+                "data.65 to 74 years",
+                "data.75 years and over",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "data.Selected demographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Non-immigrants",
-                "Immigrants",
-                "Résidents non permanents",
-                "Total de la population des minorités visibles",
-                "Pas une minorité visible",
-                "Total identité autochtone",
-                "Première Nation (Indien de l'Amérique du Nord)",
-                "Métis",
-                "Inuk (Inuit)",
-                "Identité non autochtone",
-                "Total, toutes les personnes",
+                "data.Non immigrants",
+                "data.Immigrants",
+                "data.Non-permanent residents",
+                "data.Total visible minority population",
+                "data.Not a visible minority",
+                "data.Total Aboriginal identity",
+                "data.First Nations (North American Indian)",
+                "data.Métis",
+                "data.Inuk (Inuit)",
+                "data.Non-Aboriginal identity",
+                "data.Total, all persons",
                 ""
               ]
             },
-            "title": "Caractéristiques démographiques déterminées"
+            "title": "data.Selected demographic characteristics"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2577,30 +2590,30 @@
           {
             "name": "Year",
             "type": "string",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "GeoCode",
@@ -2610,7 +2623,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2629,54 +2642,54 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Index",
             "type": "string",
             "constraints": {
               "enum": [
-                "Indice de gravité de la criminalité",
-                "Indice des crimes avec violence",
-                "Indice de gravité de la criminalité chez les jeunes",
-                "Indice des crimes avec violence chez les jeunes",
+                "data.Crime severity index",
+                "data.Violent crime severity index",
+                "data.Youth crime severity index",
+                "data.Youth violent crime severity index",
                 ""
               ]
             },
-            "title": "Indice"
+            "title": "data.Index"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
-      "title": "Indice de gravité de la criminalité"
+      "title": "Crime severity index"
     },
     {
       "path": "3-4-1/data.csv",
@@ -2691,62 +2704,62 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 12 ans et plus",
-                "12 à 17 ans",
-                "18 à 34 ans",
-                "35 à 49 ans",
-                "50 à 64 ans",
-                "65 ans et plus",
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
-                "Les deux sexes",
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2765,76 +2778,76 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
+                "data.Canada",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Age at time of death",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les âges",
-                "1 à 14 ans",
-                "15 à 24 ans",
-                "25 à 34 ans",
-                "35 à 44 ans",
-                "45 à 54 ans",
-                "55 à 64 ans",
-                "65 à 74 ans",
-                "75 à 84 ans",
-                "85 ans et plus",
+                "data.All ages",
+                "data.1 to 14 years",
+                "data.15 to 24",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                "data.65 to 74 years",
+                "data.75 to 84 years",
+                "data.85 and over",
                 ""
               ]
             },
-            "title": "Âge au décès"
+            "title": "data.Age at time of death"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Hommes",
-                "Femmes",
+                "data.Both sexes",
+                "data.Males",
+                "data.Females",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "data.Leading causes of death (ICD-10)",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tumeurs malignes",
-                "Diabète sucré",
-                "Maladie d'Alzheimer",
-                "Maladies du coeur",
-                "Maladies cérébrovasculaires",
-                "Grippe et pneumopathie",
-                "Maladies chroniques des voies respiratoires inférieures",
-                "Maladie chronique et cirrhose du foie",
-                "Accidents (blessures involontaires)",
-                "Lésions auto-infligées",
+                "data.Malignant neoplasms [C00-C97]",
+                "data.Diabetes mellitus [E10-E14]",
+                "data.Alzheimer's disease [G30]",
+                "data.Diseases of heart [I00-I09, I11, I13, I20-I51]",
+                "data.Cerebrovascular diseases [I60-I69]",
+                "data.Influenza and pneumonia [J09-J18]",
+                "data.Chronic lower respiratory diseases [J40-J47]",
+                "data.Chronic liver disease and cirrhosis [K70, K73-K74]",
+                "data.Accidents (unintentional injuries) [V01-X59, Y85-Y86]",
+                "data.Intentional self-harm (suicide) [X60-X84, Y87.0]",
                 ""
               ]
             },
-            "title": "Principales causes de décès"
+            "title": "data.Leading causes of death (ICD-10)"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2853,32 +2866,32 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2897,12 +2910,12 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -2921,89 +2934,89 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Selected diseases",
             "type": "string",
             "constraints": {
               "enum": [
-                "Diphtérie",
-                "Coqueluche",
-                "Tétanos",
-                "Polio",
-                "Haemophilus influenzae de type B",
-                "Rougeole",
-                "Rubéole",
-                "Oreillons",
-                "Hépatite B",
-                "Varicelle",
-                "Méningite de type C",
-                "Pneumocoque",
-                "Rotavirus",
-                "Virus du papillome humain",
-                "Vaccin de rappel de la diphtérie, la coqueluche et le tétanos",
-                "Diphtérie, la coqueluche et le tétanos",
+                "data.Diphtheria",
+                "data.Pertussis",
+                "data.Tetanus",
+                "data.Polio",
+                "data.Haemophilus influenzae type B",
+                "data.Measles",
+                "data.Mumps",
+                "data.Rubella",
+                "data.Hepatitis B",
+                "data.Varicella",
+                "data.Meningococcal type C",
+                "data.Pneumococcal",
+                "data.Rotavirus",
+                "data.Human Papillomavirus",
+                "data.Diphtheria - Tetanus - acellular Pertussis booster",
+                "data.Diphtheria - Pertussis and tetanus",
                 ""
               ]
             },
-            "title": "Antigène ou vaccin"
+            "title": "data.Selected diseases"
           },
           {
             "name": "data.Age",
             "type": "string",
             "constraints": {
               "enum": [
-                "2 ans",
-                "7 ans",
-                "14 ans",
-                "17 ans",
+                "data.by 2 years of age",
+                "data.by 7 years of age",
+                "data.by 14 years of age",
+                "data.by 17 years of age",
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "data.Age"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les enfants",
-                "Homme",
-                "Femme",
+                "data.All children",
+                "data.Male",
+                "data.Female",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3022,41 +3035,41 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Provinces de l'Atlantique",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Provinces des Prairies",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Québec, Québec",
-                "Montréal, Québec",
-                "Ottawa-Gatineau, Ontario/Québec",
-                "Toronto, Ontario",
-                "Winnipeg, Manitoba",
-                "Calgary, Alberta",
-                "Edmonton, Alberta",
-                "Vancouver, Colombie-Britannique",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                "Yukon",
+                "data.Canada",
+                "data.Atlantic provinces",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Prairie provinces",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Québec, Quebec",
+                "data.Montréal, Quebec",
+                "data.Ottawa-Gatineau, Ontario/Quebec",
+                "data.Toronto, Ontario",
+                "data.Winnipeg, Manitoba",
+                "data.Calgary, Alberta",
+                "data.Edmonton, Alberta",
+                "data.Vancouver, British Columbia",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                "data.Yukon",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "GeoCode",
@@ -3068,49 +3081,49 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Personnes de moins de 18 ans",
-                "Personnes de 18 à 64 ans",
-                "Personnes de 65 ans et plus",
-                "Hommes",
-                "Hommes, moins de 18 ans",
-                "Hommes, 18 à 64 ans",
-                "Hommes, 65 ans et plus",
-                "Femmes",
-                "Femmes, moins de 18 ans",
-                "Femmes, 18 à 64 ans",
-                "Femmes, 65 ans et plus",
-                "Personnes dans les familles économiques",
-                "Hommes dans les familles économiques",
-                "Femmes dans les familles économiques",
-                "Personnes âgées dans les familles économiques",
-                "Hommes âgés dans les familles économiques",
-                "Femmes âgées dans les familles économiques",
-                "Personnes de moins de 18 ans dans les familles économiques",
-                "Personnes de moins de 18 ans dans les familles comptant un couple avec des enfants",
-                "Personnes de moins de 18 ans dans les familles monoparentales ayant une femme à leur tête",
-                "Personnes de moins de 18 ans dans l'ensemble des autres familles économiques",
-                "Personnes de 18 à 64 ans dans les familles économiques",
-                "Hommes de 18 à 64 ans dans les familles économiques",
-                "Femmes de 18 à 64 ans dans les familles économiques",
-                "Personnes hors famille économique",
-                "Hommes hors famille économique",
-                "Femmes hors famille économique",
-                "Personnes âgées hors famille économique",
-                "Hommes âgés hors famille économique",
-                "Femmes âgées hors famille économique",
-                "Personnes non âgées hors famille économique",
-                "Hommes non âgés hors famille économique",
-                "Femmes non âgées hors famille économique",
-                "Toutes les personnes",
+                "data.Persons under 18 years",
+                "data.Persons 18 to 64 years",
+                "data.Persons 65 years and over",
+                "data.Males",
+                "data.Males, under 18 years",
+                "data.Males, 18 to 64 years",
+                "data.Males, 65 years and over",
+                "data.Females",
+                "data.Females, under 18 years",
+                "data.Females, 18 to 64 years",
+                "data.Females, 65 years and over",
+                "data.Persons in economic families",
+                "data.Males in economic families",
+                "data.Females in economic families",
+                "data.Elderly persons in economic families",
+                "data.Elderly males in economic families",
+                "data.Elderly females in economic families",
+                "data.Persons under 18 years in economic families",
+                "data.Persons under 18 years in couple families with children",
+                "data.Persons under 18 years in female lone-parent families",
+                "data.Persons under 18 years in all other economic families",
+                "data.Persons 18 to 64 years in economic families",
+                "data.Males 18 to 64 years in economic families",
+                "data.Females 18 to 64 years in economic families",
+                "data.Persons not in an economic family",
+                "data.Males not in an economic family",
+                "data.Females not in an economic family",
+                "data.Elderly persons not in an economic family",
+                "data.Elderly males not in an economic family",
+                "data.Elderly females not in an economic family",
+                "data.Non-elderly persons not in an economic family",
+                "data.Non-elderly males not in an economic family",
+                "data.Non-elderly females not in an economic family",
+                "data.All persons",
                 ""
               ]
             },
-            "title": "Personnes à faible revenu"
+            "title": "data.Persons in low income"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3129,27 +3142,27 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Population centres",
             "type": "string",
             "constraints": {
               "enum": [
-                "Réserves des Premières Nations",
-                "Grands centres de population",
-                "Moyens centres de population",
-                "Régions rurales",
-                "Petits centres de population",
+                "data.First Nations reserves",
+                "data.Large population centres",
+                "data.Medium population centres",
+                "data.Rural areas",
+                "data.Small population centres",
                 ""
               ]
             },
-            "title": "Centres de population"
+            "title": "data.Population centres"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3168,12 +3181,12 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3192,47 +3205,47 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Event type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Biologique",
-                "Géologique",
-                "Météorologique - hydrologique",
+                "data.Biological",
+                "data.Geological",
+                "data.Meteorological - Hydrological",
                 ""
               ]
             },
-            "title": "Type d'événement"
+            "title": "data.Event type"
           },
           {
             "name": "data.Event sub-type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Épidémie",
-                "Tremblement de terre",
-                "Inondation",
-                "Ouragan / ouragan / tempête tropicale",
-                "Tempête-non précisée/autre",
-                "Onde de tempête",
-                "Orages et orages graves",
-                "Tornade",
-                "Feu de forêt",
-                "Tempête hivernale",
-                "Éboulement",
-                "Épisode de chaleur",
+                "data.Epidemic",
+                "data.Earthquake",
+                "data.Flood",
+                "data.Hurricane / Typhoon / Tropical Storm",
+                "data.Storm - Unspecified / Other",
+                "data.Storm Surge",
+                "data.Storms and Severe Thunderstorms",
+                "data.Tornado",
+                "data.Wildfire",
+                "data.Winter Storm",
+                "data.Landslide",
+                "data.Heat Event",
                 ""
               ]
             },
-            "title": "Événement"
+            "title": "data.Event sub-type"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3251,53 +3264,53 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
-                "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Territoires du Nord-Ouest et Nunavut",
-                "Nouvelle-Écosse",
-                "Nunavut",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
-                "Yukon",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Northwest Territories and Nunavut",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Source",
             "type": "string",
             "constraints": {
               "enum": [
-                "Inventaire provincial",
-                "Exploitation pétrolière et gazière",
-                "Production de charbon",
-                "Électricité",
-                "Transports",
-                "Industrie lourde",
-                "Fabrication légère, construction et ressources forestières",
-                "Bâtiments",
-                "Déchets et autres",
-                "Agriculture",
-                "Inventaire territorial",
+                "data.Provincial Inventory Total",
+                "data.Oil and Gas",
+                "data.Coal Production",
+                "data.Electricity",
+                "data.Transport",
+                "data.Heavy Industry",
+                "data.Light Manufacturing, Construction and Forest Resources",
+                "data.Buildings",
+                "data.Waste",
+                "data.Agriculture",
+                "data.Territorial Inventory Total",
                 ""
               ]
             },
-            "title": "Source"
+            "title": "data.Source"
           },
           {
             "name": "GeoCode",
@@ -3307,7 +3320,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3326,48 +3339,48 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
+                "data.Canada",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Type of perpetrator",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les types d'auteurs présumés",
-                "Partenaires intimes",
-                "Autres personnes",
+                "data.All types of perpetrators",
+                "data.Intimate partner",
+                "data.Non-intimate partner",
                 ""
               ]
             },
-            "title": "Type d'auteur présumé"
+            "title": "data.Type of perpetrator"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Femmes",
-                "Hommes",
+                "data.Women",
+                "data.Men",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3386,25 +3399,25 @@
           {
             "name": "Year",
             "type": "string",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Type of charging stations",
             "type": "string",
             "constraints": {
               "enum": [
-                "Électrique",
-                "Gaz naturel",
-                "Hydrogène",
+                "data.Electric",
+                "data.Natural gas",
+                "data.Hydrogen",
                 ""
               ]
             },
-            "title": "Type de poste de recharge"
+            "title": "data.Type of charging stations"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3423,74 +3436,74 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Atlantique",
-                "Québec",
-                "Ontario",
-                "Prairies",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Atlantic",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Prairies",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Activités de travail non-rémunéré",
-                "Tâches domestiques",
-                "Soins à un enfant du ménage de moins de 18 ans",
-                "Soins à un adulte du ménage",
-                "Magasinage de biens ou de services",
+                "data.Unpaid work activities",
+                "data.Household chores",
+                "data.Care of household children under 18 years",
+                "data.Care of household adults",
+                "data.Shopping for goods or services",
                 ""
               ]
             },
-            "title": "Groupe d'activité"
+            "title": "data.Activity group"
           },
           {
             "name": "data.Age",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 15 ans et plus",
-                "15 à 24 ans",
-                "25 à 54 ans",
-                "25 à 34 ans",
-                "35 à 44 ans",
-                "45 à 54 ans",
-                "55 à 64 ans",
-                "65 ans et plus",
+                "data.Total, 15 years and over",
+                "data.15 to 24 years",
+                "data.25 to 54 years",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                "data.65 years and over",
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "data.Age"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Homme",
-                "Femme",
+                "data.Both sexes",
+                "data.Male",
+                "data.Female",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3509,7 +3522,7 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Geography",
@@ -3517,39 +3530,39 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "Colombie-Britannique",
+                "British Columbia",
                 "Yukon",
-                "Territoires du Nord-Ouest",
+                "Northwest Territories",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Geography"
           },
           {
             "name": "Type of electricity generation",
             "type": "string",
             "constraints": {
               "enum": [
-                "Turbine à hydraulique",
-                "Turbine marémotrice",
-                "Turbine éolienne",
-                "Solaire",
-                "Autres types de production électrique",
-                "Total, tous les genres de production d'électricité",
+                "Hydraulic turbine",
+                "Tidal power turbine",
+                "Wind power turbine",
+                "Solar",
+                "Other types of electricity generation",
+                "Total hydro, tidal, wind, solar and other generation",
                 ""
               ]
             },
-            "title": "Type de production d'électricité"
+            "title": "Type of electricity generation"
           },
           {
             "name": "GeoCode",
@@ -3559,7 +3572,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3578,72 +3591,72 @@
           {
             "name": "Year",
             "type": "string",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Homme",
-                "Femme",
-                "Les deux sexes",
+                "data.Male",
+                "data.Female",
+                "data.Both sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "data.Grade",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les niveaux",
-                "7e à 9e année",
-                "10e à 12e année",
+                "data.All grades",
+                "data.Grades 7-9",
+                "data.Grades 10-12",
                 ""
               ]
             },
-            "title": "Niveaux de scolarité"
+            "title": "data.Grade"
           },
           {
             "name": "data.Type of e-cigarettes",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux types",
-                "Avec nicotine",
-                "Sans nicotine",
+                "data.Both type",
+                "data.With nicotine",
+                "data.Without nicotine",
                 ""
               ]
             },
-            "title": "Type de cigarettes"
+            "title": "data.Type of e-cigarettes"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3662,47 +3675,47 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
-                "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Nouvelle-Écosse",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
-                "Yukon, Territoires du Nord-Ouest et Nunavut",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon, Northwest Territories and Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sources of waste for disposal",
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les sources de déchets à des fins d'élimination",
-                "Sources de déchets résidentielles à des fins d'élimination",
-                "Sources de déchets non résidentielles à des fins d'élimination",
+                "data.All sources of waste for disposal",
+                "data.Non-residential sources of waste for disposal",
+                "data.Residential sources of waste for disposal",
                 ""
               ]
             },
-            "title": "Sources des déchets à des fins d'élimination"
+            "title": "data.Sources of waste for disposal"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3721,12 +3734,12 @@
           {
             "name": "Year",
             "type": "string",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3745,12 +3758,12 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3769,62 +3782,62 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 12 ans et plus",
-                "12 à 17 ans",
-                "18 à 34 ans",
-                "35 à 49 ans",
-                "50 à 64 ans",
-                "65 ans et plus",
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
-                "Les deux sexes",
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3843,33 +3856,33 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Provinces de l'Atlantique",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Provinces des Prairies",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Atlantic provinces",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Prairie provinces",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "GeoCode",
@@ -3881,50 +3894,50 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les personnes",
-                "Personnes dans les familles économiques",
-                "Personnes dans les familles de personnes âgées",
-                "Personnes dans les couples de personnes âgées",
-                "Personnes dans les autres familles de personnes âgées",
-                "Personnes dans les familles non âgées",
-                "Personnes dans les couples",
-                "Personnes dans les familles comptant un couple avec des enfants",
-                "Personnes dans les familles comptant un couple avec d'autres personnes apparentées",
-                "Personnes dans les familles monoparentales",
-                "Personnes dans les familles monoparentales ayant un homme à leur tête",
-                "Personnes dans les familles monoparentales ayant une femme à leur tête",
-                "Personnes dans les autres familles de personnes non âgées",
-                "Personnes hors famille économique",
-                "Personnes âgées hors famille économique",
-                "Hommes âgés hors famille économique",
-                "Femmes âgées hors famille économique",
-                "Personnes non âgées hors famille économique",
-                "Hommes non âgés hors famille économique",
-                "Femmes non âgées hors famille économique",
+                "data.All persons",
+                "data.Persons in economic families",
+                "data.Persons in elderly families",
+                "data.Persons in elderly couples",
+                "data.Persons in other elderly families",
+                "data.Persons in non-elderly families",
+                "data.Persons in couples",
+                "data.Persons in couple families with children",
+                "data.Persons in couple families with other relatives",
+                "data.Persons in lone-parent families",
+                "data.Persons in male lone-parent families",
+                "data.Persons in female lone-parent families",
+                "data.Persons in other non-elderly families",
+                "data.Persons not in an economic family",
+                "data.Elderly persons not in an economic family",
+                "data.Elderly males not in an economic family",
+                "data.Elderly females not in an economic family",
+                "data.Non-elderly persons not in an economic family",
+                "data.Non-elderly males not in an economic family",
+                "data.Non-elderly females not in an economic family",
                 ""
               ]
             },
-            "title": "Type de famille économique"
+            "title": "data.Economic family type"
           },
           {
             "name": "data.Household food security status",
             "type": "string",
             "constraints": {
               "enum": [
-                "Sécurité alimentaire",
-                "Insécurité alimentaire marginale",
-                "Insécurité alimentaire modérée",
-                "Insécurité alimentaire grave",
-                "Insécurité alimentaire modérée ou grave",
+                "data.Food secure",
+                "data.Food insecure, marginal",
+                "data.Food insecure, moderate",
+                "data.Food insecure, severe",
+                "data.Food insecure, moderate or severe",
                 ""
               ]
             },
-            "title": "Niveau de sécurité alimentaire du ménage"
+            "title": "data.Household food security status"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3943,23 +3956,23 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Estimates",
             "type": "string",
             "constraints": {
               "enum": [
-                "Croissance depuis 2016",
+                "data.Growth since 2016",
                 ""
               ]
             },
-            "title": "Estimation"
+            "title": "data.Estimates"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -3972,51 +3985,51 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-1",
       "schema": {
         "fields": [
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Type of intimate partner violence",
             "type": "string",
             "constraints": {
               "enum": [
-                "Violence psychologique ou exploitation financière",
-                "Violence physique",
-                "Violence sexuelle",
-                "Total de tous les types de violence",
+                "data.Emotional, financial, or psychological abuse",
+                "data.Physical abuse",
+                "data.Sexual abuse",
+                "data.Total intimate partner violence",
                 ""
               ]
             },
-            "title": "Type de violence entre partenaires intimes"
+            "title": "data.Type of intimate partner violence"
           },
           {
             "name": "data.Selected characteristic",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, toutes les femmes",
-                "Femmes de 15 à 24 ans",
-                "Femmes séparées ou divorcées",
-                "Femmes LGBTQ2",
-                "Femmes célibataires",
-                "Femmes des Premières Nations, métisses ou inuites",
-                "Femmes ayant une incapacité",
-                "Femmes immigrantes",
-                "Femmes désignées comme minorités visibles",
+                "data.Total, all women",
+                "data.15 to 24 year old women",
+                "data.Separated or divorced women",
+                "data.LGBTQ2 women",
+                "data.Single women",
+                "data.First Nations, Métis, or Inuit women",
+                "data.Women with disability",
+                "data.Immigrant women",
+                "data.Women designated as visible minorities",
                 ""
               ]
             },
-            "title": "Caractéristiques sélectionnées"
+            "title": "data.Selected characteristic"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -4035,53 +4048,53 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Species group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Amphibiens",
-                "Fourmis",
-                "Bombyles",
-                "Abeilles",
-                "Coléoptères",
-                "Oiseaux",
-                "Mouches noires",
-                "Bryophytes",
-                "Coraux",
-                "Décapodes",
-                "Libellules et demoiselles",
-                "Poissons",
-                "Bivalves d'eau douce",
-                "Sauterelles et semblables",
-                "Taons",
-                "Chrysopes",
-                "Macrolichens",
-                "Mammifères",
-                "Éphémères",
-                "Moustiques",
-                "Papillons de nuit et papillons",
-                "Escargots et limaces terrestres et d'eau douce",
-                "Reptiles",
-                "Holothuries",
-                "Oursins",
-                "Certains macro-champignons",
-                "Araignées",
-                "Éponges",
-                "Plécoptères",
-                "Plantes vasculaires",
-                "Guêpes jaunes",
+                "data.Amphibians",
+                "data.Ants",
+                "data.Bee flies",
+                "data.Bees",
+                "data.Beetles",
+                "data.Birds",
+                "data.Black flies",
+                "data.Bryophytes",
+                "data.Corals",
+                "data.Decapods",
+                "data.Dragonflies and damselflies",
+                "data.Fishes",
+                "data.Freshwater bivalves",
+                "data.Grasshoppers and relatives",
+                "data.Horse flies",
+                "data.Lacewings",
+                "data.Macrolichens",
+                "data.Mammals",
+                "data.Mayflies",
+                "data.Mosquitoes",
+                "data.Moths and butterflies",
+                "data.Non-marine snails and slugs",
+                "data.Reptiles",
+                "data.Sea cucumbers",
+                "data.Sea urchins",
+                "data.Selected macrofungi",
+                "data.Spiders",
+                "data.Sponges",
+                "data.Stoneflies",
+                "data.Vascular plants",
+                "data.Yellowjacket wasps",
                 ""
               ]
             },
-            "title": "Groupe d'espèces"
+            "title": "data.Species group"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -4100,99 +4113,99 @@
           {
             "name": "Year",
             "type": "string",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tribunaux pour adultes",
-                "Tribunaux de la jeunesse",
+                "data.Adult criminal courts",
+                "data.Youth courts",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Offences",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total des infractions",
-                "Total des infractions au Code criminel",
-                "Infractions contre la personne",
-                "Infractions contre les biens",
-                "Infractions contre l'administration de la justice",
-                "Délits de la route prévus au Code criminel",
+                "data.Total offences",
+                "data.Total Criminal Code",
+                "data.Crimes against the person",
+                "data.Crimes against property",
+                "data.Administration of justice",
+                "data.Criminal Code traffic",
                 ""
               ]
             },
-            "title": "Infractions"
+            "title": "data.Offences"
           },
           {
             "name": "data.Age of accused",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, l'âge de l'accusé",
-                "18 à 24 ans",
-                "25 à 34 ans",
-                "35 à 44 ans",
-                "45 à 54 ans",
-                "55 ans et plus",
-                "12 à 15 ans",
-                "16 et 17 ans",
-                "Autres âges",
-                "Âge n'ayant pas lieu de figurer",
+                "data.Total, age of accused",
+                "data.18 to 24 years",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 years and over",
+                "data.12 to 15 years",
+                "data.16 and 17 years",
+                "data.Other ages",
+                "data.Age not applicable",
                 ""
               ]
             },
-            "title": "Âge de l'accusé"
+            "title": "data.Age of accused"
           },
           {
             "name": "data.Sex of accused",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
-                "Sociétés",
-                "Sexe inconnu",
-                "Total, le sexe de l'accusé",
+                "data.Males",
+                "data.Females",
+                "data.Company",
+                "data.Sex unknown",
+                "data.Total, sex of accused",
                 ""
               ]
             },
-            "title": "Sexe de l'accusé"
+            "title": "data.Sex of accused"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -4211,85 +4224,85 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Térajoules",
-                "Par habitant",
+                "data.Terajoules",
+                "data.Per capita",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Fuel type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Énergie primaire et secondaire totale",
-                "Total charbon",
-                "Gaz naturel",
-                "Liquides de gaz naturel des usines de gaz (LGN)",
-                "Hydroélectricité",
-                "Nucléaire",
-                "Vapeur",
-                "Coke",
-                "Gaz de cokerie",
-                "Total des produits pétroliers raffinés",
+                "data.Total primary and secondary energy",
+                "data.Total coal",
+                "data.Natural gas",
+                "data.Gas plant natural gas liquids (NGL's)",
+                "data.Hydroelectricity",
+                "data.Nuclear",
+                "data.Steam",
+                "data.Coke",
+                "data.Coke oven gas",
+                "data.Total refined petroleum products",
                 ""
               ]
             },
-            "title": "Type de combustible"
+            "title": "data.Fuel type"
           },
           {
             "name": "data.Demand characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total industriel",
-                "Total transport",
-                "Agriculture",
-                "Résidentiel",
-                "Administrations publiques",
-                "Commerces et autres institutions",
-                "Consommation énergétique finale",
+                "data.Total industrial",
+                "data.Total transportation",
+                "data.Agriculture",
+                "data.Residential",
+                "data.Public administration",
+                "data.Commercial and other institutional",
+                "data.Energy use - final demand",
                 ""
               ]
             },
-            "title": "Caractéristiques d’écoulement"
+            "title": "data.Demand characteristics"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -4308,55 +4321,55 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
+                "data.Canada",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Type of cyber-related violation",
             "type": "string",
             "constraints": {
               "enum": [
-                "Contre la personne",
+                "data.Against a person",
                 ""
               ]
             },
-            "title": "Type d'infractions reliée à la cybercriminalité"
+            "title": "data.Type of cyber-related violation"
           },
           {
             "name": "data.Cyber-related violation",
             "type": "string",
             "constraints": {
               "enum": [
-                "Leurre d'un enfant au moyen d'un ordinateur",
-                "Distribution nonconsensuelle d'images intimes",
-                "Extorsion",
-                "Harcèlement criminel",
-                "Communications indécentes ou harcelantes",
-                "Menaces",
-                "Fraude",
-                "Vol d'identité",
-                "Fraude à l'identité",
-                "Pornographie juvénile",
-                "Production de ou distribution de pornographie juvénile",
+                "data.Luring a child via a computer",
+                "data.Non-consensual distribution of intimate images",
+                "data.Extortion",
+                "data.Criminal harassment",
+                "data.Indecent/Harassing communications",
+                "data.Uttering threats",
+                "data.Fraud",
+                "data.Identity theft",
+                "data.Identity fraud",
+                "data.Child pornography",
+                "data.Making or distribution of child pornography",
                 ""
               ]
             },
-            "title": "Infraction reliée à la cybercriminalité"
+            "title": "data.Cyber-related violation"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -4375,44 +4388,44 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Selected housing vulnerable populations",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les ménages",
-                "Tous les ménages",
-                "Ménages comptant une famille monoparentale dont la personne de référence est un homme",
-                "Ménages comptant une famille monoparentale dont la personne de référence est une femme",
-                "Total, ménages comptant une personne seule",
-                "Hommes vivant seuls",
-                "Femmes vivant seules",
-                "Personne de référence qui a vécu une période d’itinérance",
+                "data.All households",
+                "data.Total, lone-parent family households",
+                "data.Lone-parent family households whose reference person is male",
+                "data.Lone-parent family households whose reference person is female",
+                "data.Total, one person households",
+                "data.Men living alone",
+                "data.Women living alone",
+                "data.Reference person who experienced homelessness",
                 ""
               ]
             },
-            "title": "Certaines population vulnérables en matière de logement"
+            "title": "data.Selected housing vulnerable populations"
           },
           {
             "name": "data.Living with housing problems",
             "type": "string",
             "constraints": {
               "enum": [
-                "Vivant dans un logement inabordable",
-                "Vivant dans un logement de taille non convenable",
-                "Vivant dans un logement de qualité non convenable",
-                "Ayant des besoins impérieux en matière de logement",
+                "data.Living in unaffordable housing",
+                "data.Living in unsuitable housing",
+                "data.Living in inadequate housing",
+                "data.Living in core housing need",
                 ""
               ]
             },
-            "title": "Éprouvant des problèmes de logement"
+            "title": "data.Living with housing problems"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -4431,62 +4444,62 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 12 ans et plus",
-                "12 à 17 ans",
-                "18 à 34 ans",
-                "35 à 49 ans",
-                "50 à 64 ans",
-                "65 ans et plus",
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "data.Age group"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
-                "Les deux sexes",
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -4505,71 +4518,71 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Terre-Neuve-et-Labrador",
-                "St. John's, Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Halifax, Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Moncton, Nouveau-Brunswick",
-                "Saint John, Nouveau-Brunswick",
-                "Québec",
-                "Montréal, Québec",
-                "Ottawa - Gatineau (partie du Québec), Québec",
-                "Québec, Québec",
-                "Saguenay, Québec",
-                "Sherbrooke, Québec",
-                "Trois-Rivières, Québec",
-                "Ontario",
-                "Barrie, Ontario",
-                "Belleville, Ontario",
-                "Brantford, Ontario",
-                "Greater Sudbury / Grand Sudbury, Ontario",
-                "Guelph, Ontario",
-                "Hamilton, Ontario",
-                "Kingston, Ontario",
-                "Kitchener - Cambridge - Waterloo, Ontario",
-                "London, Ontario",
-                "Oshawa, Ontario",
-                "Ottawa - Gatineau (partie de l'Ontario), Ontario",
-                "Peterborough, Ontario",
-                "St. Catharines - Niagara, Ontario",
-                "Thunder Bay, Ontario",
-                "Toronto, Ontario",
-                "Windsor, Ontario",
-                "Manitoba",
-                "Winnipeg, Manitoba",
-                "Saskatchewan",
-                "Regina, Saskatchewan",
-                "Saskatoon, Saskatchewan",
-                "Alberta",
-                "Calgary, Alberta",
-                "Edmonton, Alberta",
-                "Lethbridge, Alberta",
-                "Colombie-Britannique",
-                "Abbotsford - Mission, Colombie-Britannique",
-                "Kelowna, Colombie-Britannique",
-                "Vancouver, Colombie-Britannique",
-                "Victoria, Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Newfoundland and Labrador",
+                "data.St. John's, Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.Halifax, Nova Scotia",
+                "data.New Brunswick",
+                "data.Moncton, New Brunswick",
+                "data.Saint John, New Brunswick",
+                "data.Quebec",
+                "data.Montréal, Quebec",
+                "data.Ottawa - Gatineau (Quebec part), Quebec",
+                "data.Québec, Quebec",
+                "data.Saguenay, Quebec",
+                "data.Sherbrooke, Quebec",
+                "data.Trois-Rivières, Quebec",
+                "data.Ontario",
+                "data.Barrie, Ontario",
+                "data.Belleville, Ontario",
+                "data.Brantford, Ontario",
+                "data.Greater Sudbury / Grand Sudbury, Ontario",
+                "data.Guelph, Ontario",
+                "data.Hamilton, Ontario",
+                "data.Kingston, Ontario",
+                "data.Kitchener - Cambridge - Waterloo, Ontario",
+                "data.London, Ontario",
+                "data.Oshawa, Ontario",
+                "data.Ottawa - Gatineau (Ontario part), Ontario",
+                "data.Peterborough, Ontario",
+                "data.St. Catharines - Niagara, Ontario",
+                "data.Thunder Bay, Ontario",
+                "data.Toronto, Ontario",
+                "data.Windsor, Ontario",
+                "data.Manitoba",
+                "data.Winnipeg, Manitoba",
+                "data.Saskatchewan",
+                "data.Regina, Saskatchewan",
+                "data.Saskatoon, Saskatchewan",
+                "data.Alberta",
+                "data.Calgary, Alberta",
+                "data.Edmonton, Alberta",
+                "data.Lethbridge, Alberta",
+                "data.British Columbia",
+                "data.Abbotsford - Mission, British Columbia",
+                "data.Kelowna, British Columbia",
+                "data.Vancouver, British Columbia",
+                "data.Victoria, British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -4588,12 +4601,12 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -4612,30 +4625,30 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Stock group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Mammifères marins",
-                "Poissons de fond",
-                "Petits poissons pélagiques",
-                "Grands poissons pélagiques",
-                "Salmonidés",
-                "Crustacés",
-                "Mollusques",
-                "Autres",
+                "data.Marine mammals",
+                "data.Groundfish",
+                "data.Small pelagics",
+                "data.Large pelagics",
+                "data.Salmonids",
+                "data.Crustaceans",
+                "data.Molluscs",
+                "data.Others",
                 ""
               ]
             },
-            "title": "Groupe de stocks"
+            "title": "data.Stock group"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -4654,59 +4667,59 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Asset",
             "type": "string",
             "constraints": {
               "enum": [
-                "Immeubles commerciaux",
-                "Bâtiments institutionnels",
-                "Infrastructures de génie maritime",
-                "Infrastructures de génie liées aux transports",
-                "Infrastructure d'adduction et de distribution d'eau",
-                "Infrastructures pour les eaux usées",
-                "Réseaux de communication",
-                "Infrastructure liées à l'énergie électrique",
-                "Construction liée aux installations de pétrole et de gaz",
-                "Autres travaux de génie",
-                "Autres machines et matériel",
-                "Machines et matériel de transport",
-                "Total des actifs",
+                "data.Commercial buildings",
+                "data.Institutional buildings",
+                "data.Marine engineering infrastructure",
+                "data.Transportation engineering infrastructure",
+                "data.Waterworks infrastructure",
+                "data.Sewage infrastructure",
+                "data.Communications networks",
+                "data.Electric power infrastructure",
+                "data.Oil and gas engineering construction",
+                "data.Other engineering construction",
+                "data.Other machinery and equipment",
+                "data.Transportation machinery and equipment",
+                "data.Total assets",
                 ""
               ]
             },
-            "title": "Actif"
+            "title": "data.Asset"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },
@@ -4725,12 +4738,12 @@
           {
             "name": "Year",
             "type": "number",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       },

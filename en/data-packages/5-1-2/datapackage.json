@@ -26,18 +26,18 @@
             "constraints": {
               "enum": [
                 "",
-                "15 to 24 year old women",
-                "First Nations, Métis, or Inuit women",
-                "Immigrant women",
-                "LGBTQ2 women",
-                "Separated or divorced women",
-                "Single women",
-                "Total, all women",
-                "Women designated as visible minorities",
-                "Women with disability"
+                "data.15 to 24 year old women",
+                "data.First Nations, Métis, or Inuit women",
+                "data.Immigrant women",
+                "data.LGBTQ2 women",
+                "data.Separated or divorced women",
+                "data.Single women",
+                "data.Total, all women",
+                "data.Women designated as visible minorities",
+                "data.Women with disability"
               ]
             },
-            "title": "Selected characteristic"
+            "title": "data.Selected characteristic"
           },
           {
             "name": "data.Type of intimate partner violence",
@@ -45,13 +45,13 @@
             "constraints": {
               "enum": [
                 "",
-                "Emotional, financial, or psychological abuse",
-                "Physical abuse",
-                "Sexual abuse",
-                "Total intimate partner violence"
+                "data.Emotional, financial, or psychological abuse",
+                "data.Physical abuse",
+                "data.Sexual abuse",
+                "data.Total intimate partner violence"
               ]
             },
-            "title": "Type of intimate partner violence"
+            "title": "data.Type of intimate partner violence"
           }
         ]
       }

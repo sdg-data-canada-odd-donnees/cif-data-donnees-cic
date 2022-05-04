@@ -13,80 +13,80 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Nombre",
-                "Pourcentage",
+                "data.Number",
+                "data.Percentage",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
-                "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
-                "Nunavut",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
-                "Yukon",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Core public infrastructure assets",
             "type": "string",
             "constraints": {
               "enum": [
-                "Eau potable",
-                "Déchets solides",
-                "Eaux pluviales",
-                "Eaux usées",
+                "data.Potable water",
+                "data.Solid waste",
+                "data.Stormwater",
+                "data.Wastewater",
                 ""
               ]
             },
-            "title": "Actifs d'infrastructures publiques essentielles"
+            "title": "data.Core public infrastructure assets"
           },
           {
             "name": "data.Type of municipality by population size",
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les municipalités",
-                "Toutes les municipalités urbaines",
-                "Municipalités urbaines, population de 1 à 4 999",
-                "Municipalités urbaines, population de 5 000 à 29 999",
-                "Municipalités urbaines, population de 30 000 et plus",
-                "Toutes les municipalités rurales",
-                "Municipalités rurales, population 1 à 4 999",
-                "Municipalités rurales, population 5 000 et plus",
+                "data.All municipalities",
+                "data.All urban municipalities",
+                "data.Urban municipalities, population 1 to 4,999",
+                "data.Urban municipalities, population 5,000 to 29,999",
+                "data.Urban municipalities, population 30,000 or more",
+                "data.All rural municipalities",
+                "data.Rural municipalities, population 1 to 4,999",
+                "data.Rural municipalities, population 5,000 or more",
                 ""
               ]
             },
-            "title": "Type de municipalité par taille de population"
+            "title": "data.Type of municipality by population size"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

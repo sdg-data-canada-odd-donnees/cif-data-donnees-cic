@@ -1,4 +1,4 @@
 From,To
-Geography,Measures
-Measures,Sex
-Sex,Age group
+data.Geography,data.Measures
+data.Measures,data.Sex
+data.Sex,data.Age group

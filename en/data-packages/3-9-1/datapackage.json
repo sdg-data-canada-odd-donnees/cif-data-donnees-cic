@@ -26,19 +26,19 @@
             "constraints": {
               "enum": [
                 "",
-                "Cancer",
-                "Chronic obstructive pulmonary disease",
-                "Creutzfeldt-Jakob",
-                "Dementia, including Alzheimer's disease",
-                "Diabetes",
-                "HIV and AIDS",
-                "Hypertension",
-                "Ischemic heart disease",
-                "Salmonella",
-                "Tuberculosis"
+                "data.Cancer",
+                "data.Chronic obstructive pulmonary disease",
+                "data.Creutzfeldt-Jakob",
+                "data.Dementia, including Alzheimer's disease",
+                "data.Diabetes",
+                "data.HIV and AIDS",
+                "data.Hypertension",
+                "data.Ischemic heart disease",
+                "data.Salmonella",
+                "data.Tuberculosis"
               ]
             },
-            "title": "Disease"
+            "title": "data.Disease"
           }
         ]
       }

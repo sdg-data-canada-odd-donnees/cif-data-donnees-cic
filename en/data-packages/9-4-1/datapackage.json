@@ -26,23 +26,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Population centres",
@@ -50,12 +50,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Major roads and highways",
-                "Rural communities",
-                "Urban centres"
+                "data.Major roads and highways",
+                "data.Rural communities",
+                "data.Urban centres"
               ]
             },
-            "title": "Population centres"
+            "title": "data.Population centres"
           }
         ]
       }

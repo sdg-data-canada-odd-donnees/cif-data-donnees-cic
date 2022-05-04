@@ -16,8 +16,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Adult criminal courts",
-                "Youth courts"
+                "data.Adult criminal courts",
+                "data.Youth courts"
               ]
             },
             "title": "Units"
@@ -38,19 +38,19 @@
             "constraints": {
               "enum": [
                 "",
-                "12 to 15 years",
-                "16 and 17 years",
-                "18 to 24 years",
-                "25 to 34 years",
-                "35 to 44 years",
-                "45 to 54 years",
-                "55 years and over",
-                "Age not applicable",
-                "Other ages",
-                "Total, age of accused"
+                "data.12 to 15 years",
+                "data.16 and 17 years",
+                "data.18 to 24 years",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 years and over",
+                "data.Age not applicable",
+                "data.Other ages",
+                "data.Total, age of accused"
               ]
             },
-            "title": "Age of accused"
+            "title": "data.Age of accused"
           },
           {
             "name": "data.Geography",
@@ -58,23 +58,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Offences",
@@ -82,15 +82,15 @@
             "constraints": {
               "enum": [
                 "",
-                "Administration of justice",
-                "Crimes against property",
-                "Crimes against the person",
-                "Criminal Code traffic",
-                "Total Criminal Code",
-                "Total offences"
+                "data.Administration of justice",
+                "data.Crimes against property",
+                "data.Crimes against the person",
+                "data.Criminal Code traffic",
+                "data.Total Criminal Code",
+                "data.Total offences"
               ]
             },
-            "title": "Offences"
+            "title": "data.Offences"
           },
           {
             "name": "data.Sex of accused",
@@ -98,14 +98,14 @@
             "constraints": {
               "enum": [
                 "",
-                "Company",
-                "Females",
-                "Males",
-                "Sex unknown",
-                "Total, sex of accused"
+                "data.Company",
+                "data.Females",
+                "data.Males",
+                "data.Sex unknown",
+                "data.Total, sex of accused"
               ]
             },
-            "title": "Sex of accused"
+            "title": "data.Sex of accused"
           }
         ]
       }

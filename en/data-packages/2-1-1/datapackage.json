@@ -31,29 +31,29 @@
             "constraints": {
               "enum": [
                 "",
-                "All persons",
-                "Elderly females not in an economic family",
-                "Elderly males not in an economic family",
-                "Elderly persons not in an economic family",
-                "Non-elderly females not in an economic family",
-                "Non-elderly males not in an economic family",
-                "Non-elderly persons not in an economic family",
-                "Persons in couple families with children",
-                "Persons in couple families with other relatives",
-                "Persons in couples",
-                "Persons in economic families",
-                "Persons in elderly couples",
-                "Persons in elderly families",
-                "Persons in female lone-parent families",
-                "Persons in lone-parent families",
-                "Persons in male lone-parent families",
-                "Persons in non-elderly families",
-                "Persons in other elderly families",
-                "Persons in other non-elderly families",
-                "Persons not in an economic family"
+                "data.All persons",
+                "data.Elderly females not in an economic family",
+                "data.Elderly males not in an economic family",
+                "data.Elderly persons not in an economic family",
+                "data.Non-elderly females not in an economic family",
+                "data.Non-elderly males not in an economic family",
+                "data.Non-elderly persons not in an economic family",
+                "data.Persons in couple families with children",
+                "data.Persons in couple families with other relatives",
+                "data.Persons in couples",
+                "data.Persons in economic families",
+                "data.Persons in elderly couples",
+                "data.Persons in elderly families",
+                "data.Persons in female lone-parent families",
+                "data.Persons in lone-parent families",
+                "data.Persons in male lone-parent families",
+                "data.Persons in non-elderly families",
+                "data.Persons in other elderly families",
+                "data.Persons in other non-elderly families",
+                "data.Persons not in an economic family"
               ]
             },
-            "title": "Economic family type"
+            "title": "data.Economic family type"
           },
           {
             "name": "data.Geography",
@@ -61,25 +61,25 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "Atlantic provinces",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prairie provinces",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.Atlantic provinces",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prairie provinces",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Household food security status",
@@ -87,14 +87,14 @@
             "constraints": {
               "enum": [
                 "",
-                "Food insecure, marginal",
-                "Food insecure, moderate",
-                "Food insecure, moderate or severe",
-                "Food insecure, severe",
-                "Food secure"
+                "data.Food insecure, marginal",
+                "data.Food insecure, moderate",
+                "data.Food insecure, moderate or severe",
+                "data.Food insecure, severe",
+                "data.Food secure"
               ]
             },
-            "title": "Household food security status"
+            "title": "data.Household food security status"
           }
         ]
       }

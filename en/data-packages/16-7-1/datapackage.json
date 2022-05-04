@@ -26,16 +26,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Female",
-                "Indigenous person",
-                "Male",
-                "Non-Indigenous person",
-                "Non-visible minority",
-                "Total population",
-                "Visible minority"
+                "data.Black",
+                "data.Female",
+                "data.First Nations, Métis, or Inuit",
+                "data.Indigenous person",
+                "data.Male",
+                "data.Non-Indigenous person",
+                "data.Non-Indigenous, non-visible minority",
+                "data.Non-visible minority",
+                "data.Other group designated as visible minority",
+                "data.Total population",
+                "data.Visible minority"
               ]
             },
-            "title": "Characteristics"
+            "title": "data.Characteristics"
           },
           {
             "name": "data.Institutions",
@@ -43,10 +47,17 @@
             "constraints": {
               "enum": [
                 "",
-                "Police"
+                "data.Banks",
+                "data.Canadian media",
+                "data.Federal Parliament",
+                "data.Justice system and courts",
+                "data.Local merchants and business people",
+                "data.Major corporations",
+                "data.Police",
+                "data.School system"
               ]
             },
-            "title": "Institutions"
+            "title": "data.Institutions"
           },
           {
             "name": "data.Level of confidence",
@@ -54,12 +65,14 @@
             "constraints": {
               "enum": [
                 "",
-                "A great deal of confidence",
-                "Not very much or no confidence",
-                "Some confidence"
+                "data.A great deal of confidence",
+                "data.Confident",
+                "data.Not confident",
+                "data.Not very much or no confidence",
+                "data.Some confidence"
               ]
             },
-            "title": "Level of confidence"
+            "title": "data.Level of confidence"
           }
         ]
       }

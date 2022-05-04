@@ -13,66 +13,66 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Age group and family type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Personnes de tous âge et types de familles",
-                "Personnes de moins de 18 ans",
-                "Personnes de 18 à 64 ans",
-                "Personnes de 65 ans et plus",
-                "Personnes dans une famille économique",
-                "Personnes dans une famille ayant un couple seulement",
-                "Personnes dans une famille ayant un couple avec enfant",
-                "Personnes dans une famille monoparentale",
-                "Personnes dans un autre type de famille économique",
-                "Personnes hors famille économique",
+                "data.Persons all ages and family types",
+                "data.Persons under 18 years old",
+                "data.Persons 18 to 64 years old",
+                "data.Persons 65 years and older",
+                "data.Persons in an economic family",
+                "data.Persons in a couple only family",
+                "data.Persons in a couple with children family",
+                "data.Persons in a lone-parent family",
+                "data.Persons in an other economic family type",
+                "data.Persons not in an economic family",
                 ""
               ]
             },
-            "title": "Groupe d'âge et type de famille"
+            "title": "data.Age group and family type"
           },
           {
             "name": "data.Statistics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Personnes en situation de résilience des actifs pour au moins un mois",
-                "Personnes en situation de résilience des actifs pour au moins six mois",
-                "Personnes en situation de résilience des actifs pour au moins trois mois",
+                "data.Asset resilient for at least one month",
+                "data.Asset resilient for at least six months",
+                "data.Asset resilient for at least three months",
                 ""
               ]
             },
-            "title": "Statistiques"
+            "title": "data.Statistics"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

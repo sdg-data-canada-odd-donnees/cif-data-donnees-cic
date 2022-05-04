@@ -1,4 +1,4 @@
 From,To
-Geography,Selected diseases
-Selected diseases,Age
-Age,Sex
+data.Geography,data.Selected diseases
+data.Selected diseases,data.Age
+data.Age,data.Sex

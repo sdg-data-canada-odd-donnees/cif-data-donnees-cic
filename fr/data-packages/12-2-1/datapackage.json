@@ -13,60 +13,60 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Industries",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, industries",
-                "Exploitation forestière (sauf à forfait)",
-                "Extraction de pétrole et de gaz",
-                "Extraction minière et exploitation en carrière",
-                "Production, transport et distribution d’électricité",
-                "Distribution de gaz naturel",
-                "Fabrication d’aliments",
-                "Fabrication de boissons et de produits du tabac",
-                "Fabrication de produits en bois",
-                "Fabrication du papier",
-                "Fabrication de produits du pétrole et du charbon",
-                "Fabrication de produits chimiques",
-                "Fabrication de produits minéraux non métalliques",
-                "Première transformation des métaux",
-                "Fabrication de produits métalliques",
-                null,
-                "Fabrication de produits en plastique et en caoutchouc",
-                "Fabrication de machines",
-                "Fabrication de meubles et de produits connexes",
-                "Autres industries de fabrication",
-                "Transport par pipeline",
+                "data.Total, industries",
+                "data.Logging (except contract)",
+                "data.Oil and gas extraction",
+                "data.Mining and quarrying",
+                "data.Electric power generation, transmission and distribution",
+                "data.Natural gas distribution",
+                "data.Food manufacturing",
+                "data.Beverage and tobacco product manufacturing",
+                "data.Wood product manufacturing",
+                "data.Paper manufacturing",
+                "data.Petroleum and coal product manufacturing",
+                "data.Chemical manufacturing",
+                "data.Non-metallic mineral product manufacturing",
+                "data.Primary metal manufacturing",
+                "data.Fabricated metal product manufacturing",
+                "data.Transportation equipment manufacturing",
+                "data.Plastics and rubber products manufacturing",
+                "data.Machinery manufacturing",
+                "data.Furniture and related product manufacturing",
+                "data.Other manufacturing industries",
+                "data.Pipeline transportation",
                 ""
               ]
             },
-            "title": "Industries"
+            "title": "data.Industries"
           },
           {
             "name": "data.Environmental protection activities or management practices",
             "type": "string",
             "constraints": {
               "enum": [
-                "Gestion des eaux usées",
-                "Gestion de la pollution atmosphérique",
-                "Protection et assainissement du sol, des eaux souterraines et des eaux de surface",
-                "Protection de la biodiversité et de l’habitat",
-                "Lutte contre le bruit et les vibrations",
-                "Total, activités de protection de l'environnement",
-                "Redevances écologiques",
+                "data.Wastewater management",
+                "data.Air pollution management",
+                "data.Protection and remediation of soil, groundwater and surface water",
+                "data.Protection of biodiversity and habitat",
+                "data.Noise and vibration abatement",
+                "data.Total, environmental protection activities",
+                "data.Sold carbon offset credits only or sold more than purchased",
                 ""
               ]
             },
-            "title": "Activités de protection de l'environnement"
+            "title": "data.Environmental protection activities or management practices"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

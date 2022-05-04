@@ -26,21 +26,21 @@
             "constraints": {
               "enum": [
                 "",
-                "Earthquake",
-                "Epidemic",
-                "Flood",
-                "Heat Event",
-                "Hurricane / Typhoon / Tropical Storm",
-                "Landslide",
-                "Storm - Unspecified / Other",
-                "Storm Surge",
-                "Storms and Severe Thunderstorms",
-                "Tornado",
-                "Wildfire",
-                "Winter Storm"
+                "data.Earthquake",
+                "data.Epidemic",
+                "data.Flood",
+                "data.Heat Event",
+                "data.Hurricane / Typhoon / Tropical Storm",
+                "data.Landslide",
+                "data.Storm - Unspecified / Other",
+                "data.Storm Surge",
+                "data.Storms and Severe Thunderstorms",
+                "data.Tornado",
+                "data.Wildfire",
+                "data.Winter Storm"
               ]
             },
-            "title": "Event sub-type"
+            "title": "data.Event sub-type"
           },
           {
             "name": "data.Event type",
@@ -48,12 +48,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Biological",
-                "Geological",
-                "Meteorological - Hydrological"
+                "data.Biological",
+                "data.Geological",
+                "data.Meteorological - Hydrological"
               ]
             },
-            "title": "Event type"
+            "title": "data.Event type"
           }
         ]
       }

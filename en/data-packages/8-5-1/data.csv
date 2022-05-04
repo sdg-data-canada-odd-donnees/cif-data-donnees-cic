@@ -1,85 +1,85 @@
-Year,Geography,GeoCode,Value
+Year,data.Geography,GeoCode,Value
 2015,,,55750
 2016,,,56094
 2017,,,58575
 2018,,,60317
 2019,,,61468
 2020,,,58015
-2015,Newfoundland and Labrador,10,59003
-2016,Newfoundland and Labrador,10,59534
-2017,Newfoundland and Labrador,10,63776
-2018,Newfoundland and Labrador,10,65813
-2019,Newfoundland and Labrador,10,67598
-2020,Newfoundland and Labrador,10,60571
-2015,Prince Edward Island,11,42118
-2016,Prince Edward Island,11,43383
-2017,Prince Edward Island,11,45145
-2018,Prince Edward Island,11,45522
-2019,Prince Edward Island,11,47287
-2020,Prince Edward Island,11,46538
-2015,Nova Scotia,12,43459
-2016,Nova Scotia,12,44123
-2017,Nova Scotia,12,45588
-2018,Nova Scotia,12,46822
-2019,Nova Scotia,12,47950
-2020,Nova Scotia,12,47713
-2015,New Brunswick,13,44084
-2016,New Brunswick,13,44972
-2017,New Brunswick,13,46734
-2018,New Brunswick,13,48238
-2019,New Brunswick,13,48940
-2020,New Brunswick,13,47950
-2015,Quebec,24,47419
-2016,Quebec,24,48532
-2017,Quebec,24,50430
-2018,Quebec,24,52332
-2019,Quebec,24,54125
-2020,Quebec,24,52347
-2015,Ontario,35,55477
-2016,Ontario,35,56989
-2017,Ontario,35,58633
-2018,Ontario,35,60110
-2019,Ontario,35,61343
-2020,Ontario,35,58792
-2015,Manitoba,46,51030
-2016,Manitoba,46,51210
-2017,Manitoba,46,53405
-2018,Manitoba,46,54236
-2019,Manitoba,46,53943
-2020,Manitoba,46,52764
-2015,Saskatchewan,47,71081
-2016,Saskatchewan,47,66632
-2017,Saskatchewan,47,69768
-2018,Saskatchewan,47,72021
-2019,Saskatchewan,47,71066
-2020,Saskatchewan,47,65999
-2015,Alberta,48,78189
-2016,Alberta,48,72518
-2017,Alberta,48,78341
-2018,Alberta,48,80534
-2019,Alberta,48,80546
-2020,Alberta,48,66700
-2015,British Columbia,59,52504
-2016,British Columbia,59,54311
-2017,British Columbia,59,57265
-2018,British Columbia,59,59354
-2019,British Columbia,59,61038
-2020,British Columbia,59,59961
-2015,Yukon,60,69938
-2016,Yukon,60,72353
-2017,Yukon,60,72784
-2018,Yukon,60,73866
-2019,Yukon,60,72578
-2020,Yukon,60,75449
-2015,Northwest Territories,61,106720
-2016,Northwest Territories,61,99666
-2017,Northwest Territories,61,103071
-2018,Northwest Territories,61,104666
-2019,Northwest Territories,61,101397
-2020,Northwest Territories,61,95256
-2015,Nunavut,62,66350
-2016,Nunavut,62,69830
-2017,Nunavut,62,80727
-2018,Nunavut,62,83055
-2019,Nunavut,62,89681
-2020,Nunavut,62,106244
+2015,data.Newfoundland and Labrador,10,59003
+2016,data.Newfoundland and Labrador,10,59534
+2017,data.Newfoundland and Labrador,10,63776
+2018,data.Newfoundland and Labrador,10,65813
+2019,data.Newfoundland and Labrador,10,67598
+2020,data.Newfoundland and Labrador,10,60571
+2015,data.Prince Edward Island,11,42118
+2016,data.Prince Edward Island,11,43383
+2017,data.Prince Edward Island,11,45145
+2018,data.Prince Edward Island,11,45522
+2019,data.Prince Edward Island,11,47287
+2020,data.Prince Edward Island,11,46538
+2015,data.Nova Scotia,12,43459
+2016,data.Nova Scotia,12,44123
+2017,data.Nova Scotia,12,45588
+2018,data.Nova Scotia,12,46822
+2019,data.Nova Scotia,12,47950
+2020,data.Nova Scotia,12,47713
+2015,data.New Brunswick,13,44084
+2016,data.New Brunswick,13,44972
+2017,data.New Brunswick,13,46734
+2018,data.New Brunswick,13,48238
+2019,data.New Brunswick,13,48940
+2020,data.New Brunswick,13,47950
+2015,data.Quebec,24,47419
+2016,data.Quebec,24,48532
+2017,data.Quebec,24,50430
+2018,data.Quebec,24,52332
+2019,data.Quebec,24,54125
+2020,data.Quebec,24,52347
+2015,data.Ontario,35,55477
+2016,data.Ontario,35,56989
+2017,data.Ontario,35,58633
+2018,data.Ontario,35,60110
+2019,data.Ontario,35,61343
+2020,data.Ontario,35,58792
+2015,data.Manitoba,46,51030
+2016,data.Manitoba,46,51210
+2017,data.Manitoba,46,53405
+2018,data.Manitoba,46,54236
+2019,data.Manitoba,46,53943
+2020,data.Manitoba,46,52764
+2015,data.Saskatchewan,47,71081
+2016,data.Saskatchewan,47,66632
+2017,data.Saskatchewan,47,69768
+2018,data.Saskatchewan,47,72021
+2019,data.Saskatchewan,47,71066
+2020,data.Saskatchewan,47,65999
+2015,data.Alberta,48,78189
+2016,data.Alberta,48,72518
+2017,data.Alberta,48,78341
+2018,data.Alberta,48,80534
+2019,data.Alberta,48,80546
+2020,data.Alberta,48,66700
+2015,data.British Columbia,59,52504
+2016,data.British Columbia,59,54311
+2017,data.British Columbia,59,57265
+2018,data.British Columbia,59,59354
+2019,data.British Columbia,59,61038
+2020,data.British Columbia,59,59961
+2015,data.Yukon,60,69938
+2016,data.Yukon,60,72353
+2017,data.Yukon,60,72784
+2018,data.Yukon,60,73866
+2019,data.Yukon,60,72578
+2020,data.Yukon,60,75449
+2015,data.Northwest Territories,61,106720
+2016,data.Northwest Territories,61,99666
+2017,data.Northwest Territories,61,103071
+2018,data.Northwest Territories,61,104666
+2019,data.Northwest Territories,61,101397
+2020,data.Northwest Territories,61,95256
+2015,data.Nunavut,62,66350
+2016,data.Nunavut,62,69830
+2017,data.Nunavut,62,80727
+2018,data.Nunavut,62,83055
+2019,data.Nunavut,62,89681
+2020,data.Nunavut,62,106244

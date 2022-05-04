@@ -13,42 +13,42 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Pillar",
             "type": "string",
             "constraints": {
               "enum": [
-                "Flux transfrontaliers vers les pays admissibles au TOSSD",
-                "Dépenses mondiales et régionales pour les biens publics internationaux",
+                "data.Cross-border flows to TOSSD-eligible countries",
+                "data.Global and regional expenditures for international public goods",
                 ""
               ]
             },
-            "title": "Pilier"
+            "title": "data.Pillar"
           },
           {
             "name": "data.Region",
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les régions",
-                "Mondial",
-                "Afrique",
-                "Asie",
-                "Amerique",
-                "Europe",
-                "Moyen-Orient",
-                "Océanie",
+                "data.All regions",
+                "data.Global",
+                "data.Africa",
+                "data.Asia",
+                "data.America",
+                "data.Europe",
+                "data.Middle East",
+                "data.Oceania",
                 ""
               ]
             },
-            "title": "Région"
+            "title": "data.Region"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

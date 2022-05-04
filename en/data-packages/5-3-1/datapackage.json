@@ -26,14 +26,14 @@
             "constraints": {
               "enum": [
                 "",
-                "Care of household adults",
-                "Care of household children under 18 years",
-                "Household chores",
-                "Shopping for goods or services",
-                "Unpaid work activities"
+                "data.Care of household adults",
+                "data.Care of household children under 18 years",
+                "data.Household chores",
+                "data.Shopping for goods or services",
+                "data.Unpaid work activities"
               ]
             },
-            "title": "Activity group"
+            "title": "data.Activity group"
           },
           {
             "name": "data.Age",
@@ -41,17 +41,17 @@
             "constraints": {
               "enum": [
                 "",
-                "15 to 24 years",
-                "25 to 34 years",
-                "25 to 54 years",
-                "35 to 44 years",
-                "45 to 54 years",
-                "55 to 64 years",
-                "65 years and over",
-                "Total, 15 years and over"
+                "data.15 to 24 years",
+                "data.25 to 34 years",
+                "data.25 to 54 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                "data.65 years and over",
+                "data.Total, 15 years and over"
               ]
             },
-            "title": "Age"
+            "title": "data.Age"
           },
           {
             "name": "data.Geography",
@@ -59,15 +59,15 @@
             "constraints": {
               "enum": [
                 "",
-                "Atlantic",
-                "British Columbia",
-                "Canada",
-                "Ontario",
-                "Prairies",
-                "Quebec"
+                "data.Atlantic",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Ontario",
+                "data.Prairies",
+                "data.Quebec"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -75,12 +75,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Female",
-                "Male"
+                "data.Both sexes",
+                "data.Female",
+                "data.Male"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       }

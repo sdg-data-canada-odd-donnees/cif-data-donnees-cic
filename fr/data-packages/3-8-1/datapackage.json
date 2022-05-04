@@ -13,89 +13,89 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Selected diseases",
             "type": "string",
             "constraints": {
               "enum": [
-                "Diphtérie",
-                "Coqueluche",
-                "Tétanos",
-                "Polio",
-                "Haemophilus influenzae de type B",
-                "Rougeole",
-                "Rubéole",
-                "Oreillons",
-                "Hépatite B",
-                "Varicelle",
-                "Méningite de type C",
-                "Pneumocoque",
-                "Rotavirus",
-                "Virus du papillome humain",
-                "Vaccin de rappel de la diphtérie, la coqueluche et le tétanos",
-                "Diphtérie, la coqueluche et le tétanos",
+                "data.Diphtheria",
+                "data.Pertussis",
+                "data.Tetanus",
+                "data.Polio",
+                "data.Haemophilus influenzae type B",
+                "data.Measles",
+                "data.Mumps",
+                "data.Rubella",
+                "data.Hepatitis B",
+                "data.Varicella",
+                "data.Meningococcal type C",
+                "data.Pneumococcal",
+                "data.Rotavirus",
+                "data.Human Papillomavirus",
+                "data.Diphtheria - Tetanus - acellular Pertussis booster",
+                "data.Diphtheria - Pertussis and tetanus",
                 ""
               ]
             },
-            "title": "Antigène ou vaccin"
+            "title": "data.Selected diseases"
           },
           {
             "name": "data.Age",
             "type": "string",
             "constraints": {
               "enum": [
-                "2 ans",
-                "7 ans",
-                "14 ans",
-                "17 ans",
+                "data.by 2 years of age",
+                "data.by 7 years of age",
+                "data.by 14 years of age",
+                "data.by 17 years of age",
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "data.Age"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les enfants",
-                "Homme",
-                "Femme",
+                "data.All children",
+                "data.Male",
+                "data.Female",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

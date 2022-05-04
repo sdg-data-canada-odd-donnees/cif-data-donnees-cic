@@ -26,13 +26,13 @@
             "constraints": {
               "enum": [
                 "",
-                "by 14 years of age",
-                "by 17 years of age",
-                "by 2 years of age",
-                "by 7 years of age"
+                "data.by 14 years of age",
+                "data.by 17 years of age",
+                "data.by 2 years of age",
+                "data.by 7 years of age"
               ]
             },
-            "title": "Age"
+            "title": "data.Age"
           },
           {
             "name": "data.Geography",
@@ -40,23 +40,23 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Selected diseases",
@@ -64,25 +64,25 @@
             "constraints": {
               "enum": [
                 "",
-                "Diphtheria",
-                "Diphtheria - Pertussis and tetanus",
-                "Diphtheria - Tetanus - acellular Pertussis booster",
-                "Haemophilus influenzae type B",
-                "Hepatitis B",
-                "Human Papillomavirus",
-                "Measles",
-                "Meningococcal type C",
-                "Mumps",
-                "Pertussis",
-                "Pneumococcal",
-                "Polio",
-                "Rotavirus",
-                "Rubella",
-                "Tetanus",
-                "Varicella"
+                "data.Diphtheria",
+                "data.Diphtheria - Pertussis and tetanus",
+                "data.Diphtheria - Tetanus - acellular Pertussis booster",
+                "data.Haemophilus influenzae type B",
+                "data.Hepatitis B",
+                "data.Human Papillomavirus",
+                "data.Measles",
+                "data.Meningococcal type C",
+                "data.Mumps",
+                "data.Pertussis",
+                "data.Pneumococcal",
+                "data.Polio",
+                "data.Rotavirus",
+                "data.Rubella",
+                "data.Tetanus",
+                "data.Varicella"
               ]
             },
-            "title": "Selected diseases"
+            "title": "data.Selected diseases"
           },
           {
             "name": "data.Sex",
@@ -90,12 +90,12 @@
             "constraints": {
               "enum": [
                 "",
-                "All children",
-                "Female",
-                "Male"
+                "data.All children",
+                "data.Female",
+                "data.Male"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       }

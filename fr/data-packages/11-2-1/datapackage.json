@@ -13,44 +13,44 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Selected housing vulnerable populations",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les ménages",
-                "Tous les ménages",
-                "Ménages comptant une famille monoparentale dont la personne de référence est un homme",
-                "Ménages comptant une famille monoparentale dont la personne de référence est une femme",
-                "Total, ménages comptant une personne seule",
-                "Hommes vivant seuls",
-                "Femmes vivant seules",
-                "Personne de référence qui a vécu une période d’itinérance",
+                "data.All households",
+                "data.Total, lone-parent family households",
+                "data.Lone-parent family households whose reference person is male",
+                "data.Lone-parent family households whose reference person is female",
+                "data.Total, one person households",
+                "data.Men living alone",
+                "data.Women living alone",
+                "data.Reference person who experienced homelessness",
                 ""
               ]
             },
-            "title": "Certaines population vulnérables en matière de logement"
+            "title": "data.Selected housing vulnerable populations"
           },
           {
             "name": "data.Living with housing problems",
             "type": "string",
             "constraints": {
               "enum": [
-                "Vivant dans un logement inabordable",
-                "Vivant dans un logement de taille non convenable",
-                "Vivant dans un logement de qualité non convenable",
-                "Ayant des besoins impérieux en matière de logement",
+                "data.Living in unaffordable housing",
+                "data.Living in unsuitable housing",
+                "data.Living in inadequate housing",
+                "data.Living in core housing need",
                 ""
               ]
             },
-            "title": "Éprouvant des problèmes de logement"
+            "title": "data.Living with housing problems"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

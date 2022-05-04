@@ -26,11 +26,11 @@
             "constraints": {
               "enum": [
                 "",
-                "Cross-border flows to TOSSD-eligible countries",
-                "Global and regional expenditures for international public goods"
+                "data.Cross-border flows to TOSSD-eligible countries",
+                "data.Global and regional expenditures for international public goods"
               ]
             },
-            "title": "Pillar"
+            "title": "data.Pillar"
           },
           {
             "name": "data.Region",
@@ -38,17 +38,17 @@
             "constraints": {
               "enum": [
                 "",
-                "Africa",
-                "All regions",
-                "America",
-                "Asia",
-                "Europe",
-                "Global",
-                "Middle East",
-                "Oceania"
+                "data.Africa",
+                "data.All regions",
+                "data.America",
+                "data.Asia",
+                "data.Europe",
+                "data.Global",
+                "data.Middle East",
+                "data.Oceania"
               ]
             },
-            "title": "Region"
+            "title": "data.Region"
           }
         ]
       }

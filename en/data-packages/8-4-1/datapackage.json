@@ -26,18 +26,18 @@
             "constraints": {
               "enum": [
                 "",
-                "15 to 24 years",
-                "15 years and over",
-                "25 to 44 years",
-                "25 to 54 years",
-                "25 years and over",
-                "45 years and over",
-                "55 to 64 years",
-                "55 years and over",
-                "65 years and over"
+                "data.15 to 24 years",
+                "data.15 years and over",
+                "data.25 to 44 years",
+                "data.25 to 54 years",
+                "data.25 years and over",
+                "data.45 years and over",
+                "data.55 to 64 years",
+                "data.55 years and over",
+                "data.65 years and over"
               ]
             },
-            "title": "Age group"
+            "title": "data.Age group"
           },
           {
             "name": "data.Geography",
@@ -45,20 +45,20 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sex",
@@ -66,12 +66,12 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
-                "Females",
-                "Males"
+                "data.Both sexes",
+                "data.Females",
+                "data.Males"
               ]
             },
-            "title": "Sex"
+            "title": "data.Sex"
           }
         ]
       }

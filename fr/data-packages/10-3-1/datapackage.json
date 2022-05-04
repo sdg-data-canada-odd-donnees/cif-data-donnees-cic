@@ -13,81 +13,81 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Type of work",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ensemble des employés à temps plein et à temps partiel",
-                "Employés à temps plein",
-                "Employés à temps partiel",
+                "data.Both full- and part-time employees",
+                "data.Full-time employees",
+                "data.Part-time employees",
                 ""
               ]
             },
-            "title": "Genre de travail"
+            "title": "data.Type of work"
           },
           {
             "name": "data.National Occupational Classification (NOC)",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total des employés, toutes les professions",
-                "Gestion [0]",
-                "Affaires, finance et administration [1]",
-                "Sciences naturelles et appliquées et domaines apparentés [2]",
-                "Secteur de la santé [3]",
-                "Enseignement, droit et services sociaux, communautaires et gouvernementaux [4]",
-                "Arts, culture, sports et loisirs [5]",
-                "Vente et services [6]",
-                "Métiers, transport, machinerie et domaines apparentés [7]",
-                "Ressources naturelles, agriculture et production connexe [8]",
-                "Fabrication et services d'utilité publique [9]",
+                "data.Total employees, all occupations",
+                "data.Management occupations [0]",
+                "data.Business, finance and administration occupations [1]",
+                "data.Natural and applied sciences and related occupations [2]",
+                "data.Health occupations [3]",
+                "data.Occupations in education, law and social, community and government services [4]",
+                "data.Occupations in art, culture, recreation and sport [5]",
+                "data.Sales and service occupations [6]",
+                "data.Trades, transport and equipment operators and related occupations [7]",
+                "data.Natural resources, agriculture and related production occupations [8]",
+                "data.Occupations in manufacturing and utilities [9]",
                 ""
               ]
             },
-            "title": "Classification nationale des professions (CNP)"
+            "title": "data.National Occupational Classification (NOC)"
           },
           {
             "name": "data.Age",
             "type": "string",
             "constraints": {
               "enum": [
-                "15 à 24 ans",
-                "25 à 54 ans",
-                "55 ans et plus",
-                "15 ans et plus",
+                "data.15 to 24 years",
+                "data.25 to 54 years",
+                "data.55 years and over",
+                "data.15 years and over",
                 ""
               ]
             },
-            "title": "Âge"
+            "title": "data.Age"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

@@ -13,24 +13,24 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Progress",
             "type": "string",
             "constraints": {
               "enum": [
-                "Preuves mitigées",
-                "N'affichent pas de progrès",
+                "data.Mixed evidence",
+                "data.Do not show progress",
                 ""
               ]
             },
-            "title": "Progrès"
+            "title": "data.Progress"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

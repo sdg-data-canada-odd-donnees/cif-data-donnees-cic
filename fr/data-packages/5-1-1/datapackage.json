@@ -13,48 +13,48 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
+                "data.Canada",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Type of perpetrator",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les types d'auteurs présumés",
-                "Partenaires intimes",
-                "Autres personnes",
+                "data.All types of perpetrators",
+                "data.Intimate partner",
+                "data.Non-intimate partner",
                 ""
               ]
             },
-            "title": "Type d'auteur présumé"
+            "title": "data.Type of perpetrator"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Femmes",
-                "Hommes",
+                "data.Women",
+                "data.Men",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "data.Sex"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }

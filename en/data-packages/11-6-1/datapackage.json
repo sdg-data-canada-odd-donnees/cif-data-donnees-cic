@@ -26,21 +26,21 @@
             "constraints": {
               "enum": [
                 "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon, Northwest Territories and Nunavut"
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon, Northwest Territories and Nunavut"
               ]
             },
-            "title": "Geography"
+            "title": "data.Geography"
           },
           {
             "name": "data.Sources of waste for disposal",
@@ -48,12 +48,12 @@
             "constraints": {
               "enum": [
                 "",
-                "All sources of waste for disposal",
-                "Non-residential sources of waste for disposal",
-                "Residential sources of waste for disposal"
+                "data.All sources of waste for disposal",
+                "data.Non-residential sources of waste for disposal",
+                "data.Residential sources of waste for disposal"
               ]
             },
-            "title": "Sources of waste for disposal"
+            "title": "data.Sources of waste for disposal"
           }
         ]
       }

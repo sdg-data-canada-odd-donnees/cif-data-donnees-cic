@@ -13,74 +13,74 @@
           {
             "name": "Year",
             "type": "string",
-            "title": "Année"
+            "title": "Year"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Pourcentage",
-                "Nombre de sites",
+                "data.Percentage",
+                "data.Number of sites",
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Units"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Océan Atlantique",
+                "data.Canada",
+                "data.Atlantic Ocean",
                 "data.Great Lakes and St. Lawrence River",
-                "Baie d'Hudson",
-                "Fleuve Mackenzie",
-                "Océan Pacifique",
+                "data.Hudson Bay",
+                "data.Mackenzie River",
+                "data.Pacific Ocean",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "data.Geography"
           },
           {
             "name": "data.Land use category",
             "type": "string",
             "constraints": {
               "enum": [
-                "Agriculture",
-                "Foresterie",
-                "Exploitation minière",
-                "Peuplé",
-                "Pressions mixtes",
-                "Non aménagés",
-                "Total",
+                "data.Agriculture",
+                "data.Forestry",
+                "data.Mining",
+                "data.Populated",
+                "data.Mixed pressures",
+                "data.Undeveloped",
+                "data.Total",
                 "data.Mixed Pressures",
                 ""
               ]
             },
-            "title": "Catégorie d'utilisation des sols"
+            "title": "data.Land use category"
           },
           {
             "name": "data.Water quality",
             "type": "string",
             "constraints": {
               "enum": [
-                "Excellente",
-                "Bonne",
-                "Satisfaisante",
-                "Douteuse",
-                "Mauvaise",
-                "Total",
+                "data.Excellent",
+                "data.Good",
+                "data.Fair",
+                "data.Marginal",
+                "data.Poor",
+                "data.Total",
                 ""
               ]
             },
-            "title": "Qualité de l'eau"
+            "title": "data.Water quality"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Valeur"
+            "title": "Value"
           }
         ]
       }
