@@ -20,13 +20,6 @@
             "constraints": {
               "enum": [
                 "data.Police",
-                "data.Justice system and courts",
-                "data.School system",
-                "data.Federal Parliament",
-                "data.Banks",
-                "data.Major corporations",
-                "data.Local merchants and business people",
-                "data.Canadian media",
                 ""
               ]
             }
@@ -43,10 +36,6 @@
                 "data.Non-Indigenous person",
                 "data.Visible minority",
                 "data.Non-visible minority",
-                "data.Black",
-                "data.First Nations, Métis, or Inuit",
-                "data.Other group designated as visible minority",
-                "data.Non-Indigenous, non-visible minority",
                 ""
               ]
             }
@@ -59,8 +48,6 @@
                 "data.Some confidence",
                 "data.Not very much or no confidence",
                 "data.A great deal of confidence",
-                "data.Not confident",
-                "data.Confident",
                 ""
               ]
             }

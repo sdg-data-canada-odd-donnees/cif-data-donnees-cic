@@ -13,47 +13,47 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Event type",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Biological",
-                "data.Geological",
-                "data.Meteorological - Hydrological",
+                "Biologique",
+                "Géologique",
+                "Météorologique - hydrologique",
                 ""
               ]
             },
-            "title": "data.Event type"
+            "title": "Type d'événement"
           },
           {
             "name": "data.Event sub-type",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Epidemic",
-                "data.Earthquake",
-                "data.Flood",
-                "data.Hurricane / Typhoon / Tropical Storm",
-                "data.Storm - Unspecified / Other",
-                "data.Storm Surge",
-                "data.Storms and Severe Thunderstorms",
-                "data.Tornado",
-                "data.Wildfire",
-                "data.Winter Storm",
-                "data.Landslide",
-                "data.Heat Event",
+                "Épidémie",
+                "Tremblement de terre",
+                "Inondation",
+                "Ouragan / ouragan / tempête tropicale",
+                "Tempête-non précisée/autre",
+                "Onde de tempête",
+                "Orages et orages graves",
+                "Tornade",
+                "Feu de forêt",
+                "Tempête hivernale",
+                "Éboulement",
+                "Épisode de chaleur",
                 ""
               ]
             },
-            "title": "data.Event sub-type"
+            "title": "Événement"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

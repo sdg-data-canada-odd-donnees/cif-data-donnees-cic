@@ -26,19 +26,19 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Nova Scotia",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan"
+                "Alberta",
+                "British Columbia",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan"
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           }
         ]
       }

@@ -13,68 +13,68 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Number",
-                "data.Rate per 100,000 population",
+                "Nombre",
+                "Taux par 100 000 personnes",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unités"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.British Columbia",
-                "data.Alberta",
-                "data.Saskatchewan",
-                "data.Manitoba",
-                "data.Ontario",
-                "data.Quebec",
-                "data.New Brunswick",
-                "data.Nova Scotia",
-                "data.Prince Edward Island",
-                "data.Newfoundland and Labrador",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                "data.Territories",
-                "data.Winnipeg Manitoba",
-                "data.Northern and Rural Manitoba",
-                "data.Whitehorse Yukon",
-                "data.Yellowknife Northwest Territories",
+                "Canada",
+                "Colombie-Britannique",
+                "Alberta",
+                "Saskatchewan",
+                "Manitoba",
+                "Ontario",
+                "Québec",
+                "Nouveau-Brunswick",
+                "Nouvelle-Écosse",
+                "Île-du-Prince-Édouard",
+                "Terre-Neuve-et-Labrador",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Territoires",
+                "Winnipeg Manitoba",
+                "Régions rurales et du nord du Manitoba",
+                "Whitehorse Yukon",
+                "Yellowknife Territoires du Nord-Ouest",
                 ""
               ]
             },
-            "title": "data.Geography"
+            "title": "Géographie"
           },
           {
             "name": "data.Type of event",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Apparent opioid toxicity deaths",
-                "data.Opioid-related poisoning hospitalizations",
-                "data.EMS responses to suspected opioid-related overdoses",
-                "data.Apparent stimulant toxicity deaths",
-                "data.Stimulant-related poisoning hospitalizations",
+                "Décès totaux apparemment liés à une intoxication aux opioïdes",
+                "Hospitalisations pour intoxication aux opioïdes",
+                "Interventions des SMU pour surdoses suspectées d'être liées aux opioïdes",
+                "Décès totaux apparemment liés à une intoxication aux stimulants",
+                "Hospitalisations pour intoxication aux stimulants",
                 ""
               ]
             },
-            "title": "data.Type of event"
+            "title": "Type d'événement"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

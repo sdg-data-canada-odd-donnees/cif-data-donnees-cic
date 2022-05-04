@@ -26,14 +26,14 @@
             "constraints": {
               "enum": [
                 "",
-                "data.15 to 24 years",
-                "data.25 to 64 years",
-                "data.65 to 74 years",
-                "data.75 years and over",
-                "data.Total, persons aged 15 years and over"
+                "15 to 24 years",
+                "25 to 64 years",
+                "65 to 74 years",
+                "75 years and over",
+                "Total, persons aged 15 years and over"
               ]
             },
-            "title": "data.Age group"
+            "title": "Age group"
           },
           {
             "name": "data.Geography",
@@ -41,23 +41,23 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                "data.Yukon"
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           },
           {
             "name": "data.Selected demographic characteristics",
@@ -65,20 +65,20 @@
             "constraints": {
               "enum": [
                 "",
-                "data.First Nations (North American Indian)",
-                "data.Immigrants",
-                "data.Inuk (Inuit)",
-                "data.Métis",
-                "data.Non immigrants",
-                "data.Non-Aboriginal identity",
-                "data.Non-permanent residents",
-                "data.Not a visible minority",
-                "data.Total Aboriginal identity",
-                "data.Total visible minority population",
-                "data.Total, all persons"
+                "First Nations (North American Indian)",
+                "Immigrants",
+                "Inuk (Inuit)",
+                "Métis",
+                "Non immigrants",
+                "Non-Aboriginal identity",
+                "Non-permanent residents",
+                "Not a visible minority",
+                "Total Aboriginal identity",
+                "Total visible minority population",
+                "Total, all persons"
               ]
             },
-            "title": "data.Selected demographic characteristics"
+            "title": "Selected demographic characteristics"
           },
           {
             "name": "data.Sex",
@@ -86,12 +86,12 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Both sexes",
-                "data.Females",
-                "data.Males"
+                "Both sexes",
+                "Females",
+                "Males"
               ]
             },
-            "title": "data.Sex"
+            "title": "Sex"
           }
         ]
       }

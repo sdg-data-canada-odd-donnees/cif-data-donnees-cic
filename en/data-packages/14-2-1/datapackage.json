@@ -26,17 +26,17 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Crustaceans",
-                "data.Groundfish",
-                "data.Large pelagics",
-                "data.Marine mammals",
-                "data.Molluscs",
-                "data.Others",
-                "data.Salmonids",
-                "data.Small pelagics"
+                "Crustaceans",
+                "Groundfish",
+                "Large pelagics",
+                "Marine mammals",
+                "Molluscs",
+                "Others",
+                "Salmonids",
+                "Small pelagics"
               ]
             },
-            "title": "data.Stock group"
+            "title": "Stock group"
           }
         ]
       }

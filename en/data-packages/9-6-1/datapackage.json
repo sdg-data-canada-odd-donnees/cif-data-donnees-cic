@@ -26,12 +26,12 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Electric",
-                "data.Hydrogen",
-                "data.Natural gas"
+                "Electric",
+                "Hydrogen",
+                "Natural gas"
               ]
             },
-            "title": "data.Type of charging stations"
+            "title": "Type of charging stations"
           }
         ]
       }

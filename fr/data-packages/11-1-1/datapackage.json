@@ -13,23 +13,23 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Estimates",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Growth since 2016",
+                "Croissance depuis 2016",
                 ""
               ]
             },
-            "title": "data.Estimates"
+            "title": "Estimation"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

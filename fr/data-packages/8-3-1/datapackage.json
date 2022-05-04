@@ -13,60 +13,60 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
-            "title": "data.Geography"
+            "title": "Géographie"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total, 15 to 29 years",
-                "data.15 to 19 years",
-                "data.15 to 24 years",
-                "data.18 to 24 years",
-                "data.20 to 24 years",
-                "data.25 to 29 years",
+                "Total, 15 à 29 ans",
+                "15 à 19 ans",
+                "15 à 24 ans",
+                "18 à 24 ans",
+                "20 à 24 ans",
+                "25 à 29 ans",
                 ""
               ]
             },
-            "title": "data.Age group"
+            "title": "Groupe d'âge"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Males",
-                "data.Females",
-                "data.Both sexes",
+                "Hommes",
+                "Femmes",
+                "Les deux sexes",
                 ""
               ]
             },
-            "title": "data.Sex"
+            "title": "Sexe"
           },
           {
             "name": "GeoCode",
@@ -76,7 +76,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

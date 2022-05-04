@@ -13,49 +13,49 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.British Columbia",
-                "data.Alberta",
-                "data.Saskatchewan",
-                "data.Manitoba",
-                "data.Ontario",
-                "data.Quebec",
-                "data.New Brunswick",
-                "data.Nova Scotia",
-                "data.Prince Edward Island",
-                "data.Newfoundland and Labrador",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
+                "Canada",
+                "Colombie-Britannique",
+                "Alberta",
+                "Saskatchewan",
+                "Manitoba",
+                "Ontario",
+                "Québec",
+                "Nouveau-Brunswick",
+                "Nouvelle-Écosse",
+                "Île-du-Prince-Édouard",
+                "Terre-Neuve-et-Labrador",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
-            "title": "data.Geography"
+            "title": "Géographie"
           },
           {
             "name": "data.Population centres",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Urban centres",
-                "data.Rural communities",
-                "data.Major roads and highways",
+                "Régions urbaines",
+                "Communautés rurales",
+                "Principales routes et autoroutes",
                 ""
               ]
             },
-            "title": "data.Population centres"
+            "title": "Centres de population"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

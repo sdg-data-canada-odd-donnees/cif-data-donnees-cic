@@ -13,26 +13,26 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Index",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Biodiversity",
-                "data.Soil Quality",
-                "data.Water Quality",
-                "data.Air Quality",
+                "Biodiversité",
+                "Qualité des sols",
+                "Qualité de l'eau",
+                "Qualité de l'air",
                 ""
               ]
             },
-            "title": "data.Index"
+            "title": "Indice"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

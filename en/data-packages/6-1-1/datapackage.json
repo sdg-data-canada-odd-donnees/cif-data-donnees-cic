@@ -26,16 +26,16 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Alberta",
-                "data.Atlantic",
-                "data.British Columbia",
-                "data.Manitoba",
-                "data.Ontario",
-                "data.Quebec",
-                "data.Saskatchewan"
+                "Alberta",
+                "Atlantic",
+                "British Columbia",
+                "Manitoba",
+                "Ontario",
+                "Quebec",
+                "Saskatchewan"
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           }
         ]
       }

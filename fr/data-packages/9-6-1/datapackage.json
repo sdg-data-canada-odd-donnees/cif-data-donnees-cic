@@ -13,25 +13,25 @@
           {
             "name": "Year",
             "type": "string",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Type of charging stations",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Electric",
-                "data.Natural gas",
-                "data.Hydrogen",
+                "Électrique",
+                "Gaz naturel",
+                "Hydrogène",
                 ""
               ]
             },
-            "title": "data.Type of charging stations"
+            "title": "Type de poste de recharge"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

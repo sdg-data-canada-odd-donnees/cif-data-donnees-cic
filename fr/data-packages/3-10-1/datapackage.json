@@ -13,76 +13,76 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
+                "Canada",
                 ""
               ]
             },
-            "title": "data.Geography"
+            "title": "Géographie"
           },
           {
             "name": "data.Age at time of death",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.All ages",
-                "data.1 to 14 years",
-                "data.15 to 24",
-                "data.25 to 34 years",
-                "data.35 to 44 years",
-                "data.45 to 54 years",
-                "data.55 to 64 years",
-                "data.65 to 74 years",
-                "data.75 to 84 years",
-                "data.85 and over",
+                "Tous les âges",
+                "1 à 14 ans",
+                "15 à 24 ans",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                "65 à 74 ans",
+                "75 à 84 ans",
+                "85 ans et plus",
                 ""
               ]
             },
-            "title": "data.Age at time of death"
+            "title": "Âge au décès"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Both sexes",
-                "data.Males",
-                "data.Females",
+                "Les deux sexes",
+                "Hommes",
+                "Femmes",
                 ""
               ]
             },
-            "title": "data.Sex"
+            "title": "Sexe"
           },
           {
             "name": "data.Leading causes of death (ICD-10)",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Malignant neoplasms [C00-C97]",
-                "data.Diabetes mellitus [E10-E14]",
-                "data.Alzheimer's disease [G30]",
-                "data.Diseases of heart [I00-I09, I11, I13, I20-I51]",
-                "data.Cerebrovascular diseases [I60-I69]",
-                "data.Influenza and pneumonia [J09-J18]",
-                "data.Chronic lower respiratory diseases [J40-J47]",
-                "data.Chronic liver disease and cirrhosis [K70, K73-K74]",
-                "data.Accidents (unintentional injuries) [V01-X59, Y85-Y86]",
-                "data.Intentional self-harm (suicide) [X60-X84, Y87.0]",
+                "Tumeurs malignes",
+                "Diabète sucré",
+                "Maladie d'Alzheimer",
+                "Maladies du coeur",
+                "Maladies cérébrovasculaires",
+                "Grippe et pneumopathie",
+                "Maladies chroniques des voies respiratoires inférieures",
+                "Maladie chronique et cirrhose du foie",
+                "Accidents (blessures involontaires)",
+                "Lésions auto-infligées",
                 ""
               ]
             },
-            "title": "data.Leading causes of death (ICD-10)"
+            "title": "Principales causes de décès"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

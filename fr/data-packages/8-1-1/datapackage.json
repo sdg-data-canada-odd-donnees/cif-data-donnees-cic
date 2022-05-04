@@ -13,32 +13,32 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                "data.Atlantic region",
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Région de l'Atlantique",
                 ""
               ]
             },
-            "title": "data.Geography"
+            "title": "Géographie"
           },
           {
             "name": "GeoCode",
@@ -50,66 +50,66 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total population",
-                "data.Indigenous population",
-                "data.Landed immigrants",
-                "data.Immigrants, landed 5 or less years earlier",
-                "data.Immigrants, landed more than 5 to 10 years earlier",
-                "data.Immigrants, landed more than 10 years earlier",
+                "Population totale",
+                "Population autochtone",
+                "Immigrants reçus",
+                "Immigrants reçus 5 ans et moins auparavant",
+                "Immigrants reçus plus de 5 à 10 ans auparavant",
+                "Immigrants reçus plus de 10 ans auparavant",
                 ""
               ]
             },
-            "title": "data.Population"
+            "title": "Population"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Both sexes",
-                "data.Males",
-                "data.Females",
+                "Les deux sexes",
+                "Hommes",
+                "Femmes",
                 ""
               ]
             },
-            "title": "data.Sex"
+            "title": "Sexe"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.15 to 24 years",
-                "data.25 years and over",
-                "data.25 to 44 years",
-                "data.45 to 64 years",
-                "data.45 years and over",
-                "data.25 to 54 years",
-                "data.55 years and over",
-                "data.15 to 64 years",
-                "data.15 to 19 years",
-                "data.20 to 24 years",
-                "data.25 to 29 years",
-                "data.30 to 34 years",
-                "data.35 to 39 years",
-                "data.40 to 44 years",
-                "data.45 to 49 years",
-                "data.50 to 54 years",
-                "data.55 to 59 years",
-                "data.60 to 64 years",
-                "data.65 years and over",
-                "data.65 to 69 years",
-                "data.70 years and over",
-                "data.15 years and over",
+                "15 à 24 ans",
+                "25 ans et plus",
+                "25 à 44 ans",
+                "45 à 64 ans",
+                "45 ans et plus",
+                "25 à 54 ans",
+                "55 ans et plus",
+                "15 à 64 ans",
+                "15 à 19 ans",
+                "20 à 24 ans",
+                "25 à 29 ans",
+                "30 à 34 ans",
+                "35 à 39 ans",
+                "40 à 44 ans",
+                "45 à 49 ans",
+                "50 à 54 ans",
+                "55 à 59 ans",
+                "60 à 64 ans",
+                "65 ans et plus",
+                "65 à 69 ans",
+                "70 ans et plus",
+                "15 ans et plus",
                 ""
               ]
             },
-            "title": "data.Age group"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

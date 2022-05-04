@@ -13,24 +13,24 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Men",
-                "data.Women",
+                "Hommes",
+                "Femmes",
                 ""
               ]
             },
-            "title": "data.Sex"
+            "title": "Sexe"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

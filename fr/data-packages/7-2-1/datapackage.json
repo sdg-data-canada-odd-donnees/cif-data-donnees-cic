@@ -13,85 +13,85 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Terajoules",
-                "data.Per capita",
+                "Térajoules",
+                "Par habitant",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unités"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
-            "title": "data.Geography"
+            "title": "Géographie"
           },
           {
             "name": "data.Fuel type",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total primary and secondary energy",
-                "data.Total coal",
-                "data.Natural gas",
-                "data.Gas plant natural gas liquids (NGL's)",
-                "data.Hydroelectricity",
-                "data.Nuclear",
-                "data.Steam",
-                "data.Coke",
-                "data.Coke oven gas",
-                "data.Total refined petroleum products",
+                "Énergie primaire et secondaire totale",
+                "Total charbon",
+                "Gaz naturel",
+                "Liquides de gaz naturel des usines de gaz (LGN)",
+                "Hydroélectricité",
+                "Nucléaire",
+                "Vapeur",
+                "Coke",
+                "Gaz de cokerie",
+                "Total des produits pétroliers raffinés",
                 ""
               ]
             },
-            "title": "data.Fuel type"
+            "title": "Type de combustible"
           },
           {
             "name": "data.Demand characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total industrial",
-                "data.Total transportation",
-                "data.Agriculture",
-                "data.Residential",
-                "data.Public administration",
-                "data.Commercial and other institutional",
-                "data.Energy use - final demand",
+                "Total industriel",
+                "Total transport",
+                "Agriculture",
+                "Résidentiel",
+                "Administrations publiques",
+                "Commerces et autres institutions",
+                "Consommation énergétique finale",
                 ""
               ]
             },
-            "title": "data.Demand characteristics"
+            "title": "Caractéristiques d’écoulement"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

@@ -26,20 +26,20 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Child pornography",
-                "data.Criminal harassment",
-                "data.Extortion",
-                "data.Fraud",
-                "data.Identity fraud",
-                "data.Identity theft",
-                "data.Indecent/Harassing communications",
-                "data.Luring a child via a computer",
-                "data.Making or distribution of child pornography",
-                "data.Non-consensual distribution of intimate images",
-                "data.Uttering threats"
+                "Child pornography",
+                "Criminal harassment",
+                "Extortion",
+                "Fraud",
+                "Identity fraud",
+                "Identity theft",
+                "Indecent/Harassing communications",
+                "Luring a child via a computer",
+                "Making or distribution of child pornography",
+                "Non-consensual distribution of intimate images",
+                "Uttering threats"
               ]
             },
-            "title": "data.Cyber-related violation"
+            "title": "Cyber-related violation"
           },
           {
             "name": "data.Geography",
@@ -47,10 +47,10 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Canada"
+                "Canada"
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           },
           {
             "name": "data.Type of cyber-related violation",
@@ -58,10 +58,10 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Against a person"
+                "Against a person"
               ]
             },
-            "title": "data.Type of cyber-related violation"
+            "title": "Type of cyber-related violation"
           }
         ]
       }

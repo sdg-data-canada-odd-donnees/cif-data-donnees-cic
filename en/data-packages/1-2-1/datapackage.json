@@ -26,19 +26,19 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Persons 18 to 64 years old",
-                "data.Persons 65 years and older",
-                "data.Persons all ages and family types",
-                "data.Persons in a couple only family",
-                "data.Persons in a couple with children family",
-                "data.Persons in a lone-parent family",
-                "data.Persons in an economic family",
-                "data.Persons in an other economic family type",
-                "data.Persons not in an economic family",
-                "data.Persons under 18 years old"
+                "Persons 18 to 64 years old",
+                "Persons 65 years and older",
+                "Persons all ages and family types",
+                "Persons in a couple only family",
+                "Persons in a couple with children family",
+                "Persons in a lone-parent family",
+                "Persons in an economic family",
+                "Persons in an other economic family type",
+                "Persons not in an economic family",
+                "Persons under 18 years old"
               ]
             },
-            "title": "data.Age group and family type"
+            "title": "Age group and family type"
           },
           {
             "name": "data.Geography",
@@ -46,20 +46,20 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Nova Scotia",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan"
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan"
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           },
           {
             "name": "data.Statistics",
@@ -67,12 +67,12 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Asset resilient for at least one month",
-                "data.Asset resilient for at least six months",
-                "data.Asset resilient for at least three months"
+                "Asset resilient for at least one month",
+                "Asset resilient for at least six months",
+                "Asset resilient for at least three months"
               ]
             },
-            "title": "data.Statistics"
+            "title": "Statistics"
           }
         ]
       }

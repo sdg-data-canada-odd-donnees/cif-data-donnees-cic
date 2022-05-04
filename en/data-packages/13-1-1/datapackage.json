@@ -31,24 +31,24 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Northwest Territories and Nunavut",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                "data.Yukon"
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Northwest Territories and Nunavut",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           },
           {
             "name": "data.Source",
@@ -56,20 +56,20 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Agriculture",
-                "data.Buildings",
-                "data.Coal Production",
-                "data.Electricity",
-                "data.Heavy Industry",
-                "data.Light Manufacturing, Construction and Forest Resources",
-                "data.Oil and Gas",
-                "data.Provincial Inventory Total",
-                "data.Territorial Inventory Total",
-                "data.Transport",
-                "data.Waste"
+                "Agriculture",
+                "Buildings",
+                "Coal Production",
+                "Electricity",
+                "Heavy Industry",
+                "Light Manufacturing, Construction and Forest Resources",
+                "Oil and Gas",
+                "Provincial Inventory Total",
+                "Territorial Inventory Total",
+                "Transport",
+                "Waste"
               ]
             },
-            "title": "data.Source"
+            "title": "Source"
           }
         ]
       }

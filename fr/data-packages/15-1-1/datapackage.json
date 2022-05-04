@@ -13,53 +13,53 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Species group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Amphibians",
-                "data.Ants",
-                "data.Bee flies",
-                "data.Bees",
-                "data.Beetles",
-                "data.Birds",
-                "data.Black flies",
-                "data.Bryophytes",
-                "data.Corals",
-                "data.Decapods",
-                "data.Dragonflies and damselflies",
-                "data.Fishes",
-                "data.Freshwater bivalves",
-                "data.Grasshoppers and relatives",
-                "data.Horse flies",
-                "data.Lacewings",
-                "data.Macrolichens",
-                "data.Mammals",
-                "data.Mayflies",
-                "data.Mosquitoes",
-                "data.Moths and butterflies",
-                "data.Non-marine snails and slugs",
-                "data.Reptiles",
-                "data.Sea cucumbers",
-                "data.Sea urchins",
-                "data.Selected macrofungi",
-                "data.Spiders",
-                "data.Sponges",
-                "data.Stoneflies",
-                "data.Vascular plants",
-                "data.Yellowjacket wasps",
+                "Amphibiens",
+                "Fourmis",
+                "Bombyles",
+                "Abeilles",
+                "Coléoptères",
+                "Oiseaux",
+                "Mouches noires",
+                "Bryophytes",
+                "Coraux",
+                "Décapodes",
+                "Libellules et demoiselles",
+                "Poissons",
+                "Bivalves d'eau douce",
+                "Sauterelles et semblables",
+                "Taons",
+                "Chrysopes",
+                "Macrolichens",
+                "Mammifères",
+                "Éphémères",
+                "Moustiques",
+                "Papillons de nuit et papillons",
+                "Escargots et limaces terrestres et d'eau douce",
+                "Reptiles",
+                "Holothuries",
+                "Oursins",
+                "Certains macro-champignons",
+                "Araignées",
+                "Éponges",
+                "Plécoptères",
+                "Plantes vasculaires",
+                "Guêpes jaunes",
                 ""
               ]
             },
-            "title": "data.Species group"
+            "title": "Groupe d'espèces"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

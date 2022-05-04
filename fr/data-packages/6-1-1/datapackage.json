@@ -13,29 +13,29 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Alberta",
-                "data.Atlantic",
-                "data.British Columbia",
-                "data.Manitoba",
-                "data.Ontario",
-                "data.Quebec",
-                "data.Saskatchewan",
+                "Alberta",
+                "Atlantique",
+                "Colombie-Britannique",
+                "Manitoba",
+                "Ontario",
+                "Québec",
+                "Saskatchewan",
                 ""
               ]
             },
-            "title": "data.Geography"
+            "title": "Géographie"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

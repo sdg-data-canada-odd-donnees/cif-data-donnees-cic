@@ -13,55 +13,55 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
+                "Canada",
                 ""
               ]
             },
-            "title": "data.Geography"
+            "title": "Géographie"
           },
           {
             "name": "data.Type of cyber-related violation",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Against a person",
+                "Contre la personne",
                 ""
               ]
             },
-            "title": "data.Type of cyber-related violation"
+            "title": "Type d'infractions reliée à la cybercriminalité"
           },
           {
             "name": "data.Cyber-related violation",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Luring a child via a computer",
-                "data.Non-consensual distribution of intimate images",
-                "data.Extortion",
-                "data.Criminal harassment",
-                "data.Indecent/Harassing communications",
-                "data.Uttering threats",
-                "data.Fraud",
-                "data.Identity theft",
-                "data.Identity fraud",
-                "data.Child pornography",
-                "data.Making or distribution of child pornography",
+                "Leurre d'un enfant au moyen d'un ordinateur",
+                "Distribution nonconsensuelle d'images intimes",
+                "Extorsion",
+                "Harcèlement criminel",
+                "Communications indécentes ou harcelantes",
+                "Menaces",
+                "Fraude",
+                "Vol d'identité",
+                "Fraude à l'identité",
+                "Pornographie juvénile",
+                "Production de ou distribution de pornographie juvénile",
                 ""
               ]
             },
-            "title": "data.Cyber-related violation"
+            "title": "Infraction reliée à la cybercriminalité"
           },
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

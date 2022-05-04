@@ -13,47 +13,47 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Nova Scotia",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                "data.Yukon, Northwest Territories and Nunavut",
+                "Alberta",
+                "Colombie-Britannique",
+                "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Nouvelle-Écosse",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon, Territoires du Nord-Ouest et Nunavut",
                 ""
               ]
             },
-            "title": "data.Geography"
+            "title": "Géographie"
           },
           {
             "name": "data.Sources of waste for disposal",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.All sources of waste for disposal",
-                "data.Non-residential sources of waste for disposal",
-                "data.Residential sources of waste for disposal",
+                "Toutes les sources de déchets à des fins d'élimination",
+                "Sources de déchets résidentielles à des fins d'élimination",
+                "Sources de déchets non résidentielles à des fins d'élimination",
                 ""
               ]
             },
-            "title": "data.Sources of waste for disposal"
+            "title": "Sources des déchets à des fins d'élimination"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

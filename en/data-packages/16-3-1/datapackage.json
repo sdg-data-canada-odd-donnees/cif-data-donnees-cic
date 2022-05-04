@@ -31,23 +31,23 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Alberta [48]",
-                "data.British Columbia [59]",
-                "data.Canada",
-                "data.Manitoba [46]",
-                "data.New Brunswick [13]",
-                "data.Newfoundland and Labrador [10]",
-                "data.Northwest Territories [61]",
-                "data.Nova Scotia [12]",
-                "data.Nunavut [62]",
-                "data.Ontario [35]",
-                "data.Prince Edward Island [11]",
-                "data.Quebec [24]",
-                "data.Saskatchewan [47]",
-                "data.Yukon [60]"
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           },
           {
             "name": "data.Violations",
@@ -55,23 +55,23 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Assault, level 1 [1430]",
-                "data.Assault, level 2, weapon or bodily harm [1420]",
-                "data.Assault, level 3, aggravated [1410]",
-                "data.Attempted murder [1210]",
-                "data.Homicide [110]",
-                "data.Sexual assault, level 1 [1330]",
-                "data.Sexual assault, level 2, weapon or bodily harm [1320]",
-                "data.Sexual assault, level 3, aggravated [1310]",
-                "data.Total other violations causing death [120]",
-                "data.Total other violent violations [180]",
-                "data.Total robbery [160]",
-                "data.Total sexual violations against children [130]",
-                "data.Total, all violations [0]",
-                "data.Uttering threats [1627]"
+                "Assault, level 1",
+                "Assault, level 2, weapon or bodily harm",
+                "Assault, level 3, aggravated",
+                "Attempted murder",
+                "Homicide",
+                "Sexual assault, level 1",
+                "Sexual assault, level 2, weapon or bodily harm",
+                "Sexual assault, level 3, aggravated",
+                "Total other violations causing death",
+                "Total other violent violations",
+                "Total robbery",
+                "Total sexual violations against children",
+                "Total, all violations",
+                "Uttering threats"
               ]
             },
-            "title": "data.Violations"
+            "title": "Violations"
           }
         ]
       }

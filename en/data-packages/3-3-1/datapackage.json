@@ -26,17 +26,17 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Ages 12 to 17",
-                "data.Ages 18 to 39",
-                "data.Ages 18 to 79",
-                "data.Ages 40 to 59",
-                "data.Ages 5 to 11",
-                "data.Ages 5 to 17",
-                "data.Ages 5 to 79",
-                "data.Ages 60 to 79"
+                "Ages 12 to 17",
+                "Ages 18 to 39",
+                "Ages 18 to 79",
+                "Ages 40 to 59",
+                "Ages 5 to 11",
+                "Ages 5 to 17",
+                "Ages 5 to 79",
+                "Ages 60 to 79"
               ]
             },
-            "title": "data.Age group"
+            "title": "Age group"
           },
           {
             "name": "data.Geography",
@@ -44,10 +44,10 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Canada"
+                "Canada"
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           },
           {
             "name": "data.Measures",
@@ -55,11 +55,11 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Obese",
-                "data.Overweight"
+                "Obese",
+                "Overweight"
               ]
             },
-            "title": "data.Measures"
+            "title": "Measures"
           },
           {
             "name": "data.Sex",
@@ -67,12 +67,12 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Both sexes",
-                "data.Females",
-                "data.Males"
+                "Both sexes",
+                "Females",
+                "Males"
               ]
             },
-            "title": "data.Sex"
+            "title": "Sex"
           }
         ]
       }

@@ -13,50 +13,50 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
-            "title": "data.Geography"
+            "title": "Géographie"
           },
           {
             "name": "data.Index",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Crime severity index",
-                "data.Violent crime severity index",
-                "data.Youth crime severity index",
-                "data.Youth violent crime severity index",
+                "Indice de gravité de la criminalité",
+                "Indice des crimes avec violence",
+                "Indice de gravité de la criminalité chez les jeunes",
+                "Indice des crimes avec violence chez les jeunes",
                 ""
               ]
             },
-            "title": "data.Index"
+            "title": "Indice"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }
@@ -64,5 +64,5 @@
   ],
   "profile": "data-package",
   "name": "16-2-1",
-  "title": "Crime severity index"
+  "title": "Indice de gravité de la criminalité"
 }

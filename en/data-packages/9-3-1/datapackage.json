@@ -26,14 +26,14 @@
             "constraints": {
               "enum": [
                 "",
-                "data.First Nations reserves",
-                "data.Large population centres",
-                "data.Medium population centres",
-                "data.Rural areas",
-                "data.Small population centres"
+                "First Nations reserves",
+                "Large population centres",
+                "Medium population centres",
+                "Rural areas",
+                "Small population centres"
               ]
             },
-            "title": "data.Population centres"
+            "title": "Population centres"
           }
         ]
       }

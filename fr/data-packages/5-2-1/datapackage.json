@@ -13,33 +13,33 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Leadership position",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Members of national Parliament",
-                "data.Members of federal Cabinet",
-                "data.All management occupations",
-                "data.Senior management occupations",
-                "data.Specialized middle management occupations",
-                "data.Middle management occupations in retail and wholesale trade and customer services",
-                "data.Middle management occupations in trades - transportation - production and utilities",
-                "data.Judges - Federal government public administration",
-                "data.Judges - Provincial and territorial public administration",
-                "data.Chiefs in First Nation communities",
-                "data.First Nations council members",
+                "Parlement national",
+                "Cabinet fédéral",
+                "Gestion",
+                "Cadres supérieures",
+                "Cadres intermédiaires spécialisées",
+                "Cadres intermédiaires dans le commerce de détail, de gros et des services à la clientèle",
+                "Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique",
+                "Juges - administration publique fédérale",
+                "Juges - administrations provinciales et territoriales",
+                "Chefs dans les communautés des Premières Nations",
+                "Membres de conseil des Premières Nations",
                 ""
               ]
             },
-            "title": "data.Leadership position"
+            "title": "Rôles de leadership"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

@@ -16,8 +16,8 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Number",
-                "data.Percentage"
+                "Number",
+                "Percentage"
               ]
             },
             "title": "Units"
@@ -38,13 +38,13 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Potable water",
-                "data.Solid waste",
-                "data.Stormwater",
-                "data.Wastewater"
+                "Potable water",
+                "Solid waste",
+                "Stormwater",
+                "Wastewater"
               ]
             },
-            "title": "data.Core public infrastructure assets"
+            "title": "Core public infrastructure assets"
           },
           {
             "name": "data.Geography",
@@ -52,23 +52,23 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                "data.Yukon"
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           },
           {
             "name": "data.Type of municipality by population size",
@@ -76,17 +76,17 @@
             "constraints": {
               "enum": [
                 "",
-                "data.All municipalities",
-                "data.All rural municipalities",
-                "data.All urban municipalities",
-                "data.Rural municipalities, population 1 to 4,999",
-                "data.Rural municipalities, population 5,000 or more",
-                "data.Urban municipalities, population 1 to 4,999",
-                "data.Urban municipalities, population 30,000 or more",
-                "data.Urban municipalities, population 5,000 to 29,999"
+                "All municipalities",
+                "All rural municipalities",
+                "All urban municipalities",
+                "Rural municipalities, population 1 to 4,999",
+                "Rural municipalities, population 5,000 or more",
+                "Urban municipalities, population 1 to 4,999",
+                "Urban municipalities, population 30,000 or more",
+                "Urban municipalities, population 5,000 to 29,999"
               ]
             },
-            "title": "data.Type of municipality by population size"
+            "title": "Type of municipality by population size"
           }
         ]
       }

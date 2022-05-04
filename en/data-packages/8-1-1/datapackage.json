@@ -31,31 +31,31 @@
             "constraints": {
               "enum": [
                 "",
-                "data.15 to 19 years",
-                "data.15 to 24 years",
-                "data.15 to 64 years",
-                "data.15 years and over",
-                "data.20 to 24 years",
-                "data.25 to 29 years",
-                "data.25 to 44 years",
-                "data.25 to 54 years",
-                "data.25 years and over",
-                "data.30 to 34 years",
-                "data.35 to 39 years",
-                "data.40 to 44 years",
-                "data.45 to 49 years",
-                "data.45 to 64 years",
-                "data.45 years and over",
-                "data.50 to 54 years",
-                "data.55 to 59 years",
-                "data.55 years and over",
-                "data.60 to 64 years",
-                "data.65 to 69 years",
-                "data.65 years and over",
-                "data.70 years and over"
+                "15 to 19 years",
+                "15 to 24 years",
+                "15 to 64 years",
+                "15 years and over",
+                "20 to 24 years",
+                "25 to 29 years",
+                "25 to 44 years",
+                "25 to 54 years",
+                "25 years and over",
+                "30 to 34 years",
+                "35 to 39 years",
+                "40 to 44 years",
+                "45 to 49 years",
+                "45 to 64 years",
+                "45 years and over",
+                "50 to 54 years",
+                "55 to 59 years",
+                "55 years and over",
+                "60 to 64 years",
+                "65 to 69 years",
+                "65 years and over",
+                "70 years and over"
               ]
             },
-            "title": "data.Age group"
+            "title": "Age group"
           },
           {
             "name": "data.Geography",
@@ -63,24 +63,24 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Alberta",
-                "data.Atlantic region",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                "data.Yukon"
+                "Alberta",
+                "Atlantic region",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           },
           {
             "name": "data.Population",
@@ -88,15 +88,15 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Immigrants, landed 5 or less years earlier",
-                "data.Immigrants, landed more than 10 years earlier",
-                "data.Immigrants, landed more than 5 to 10 years earlier",
-                "data.Indigenous population",
-                "data.Landed immigrants",
-                "data.Total population"
+                "Immigrants, landed 5 or less years earlier",
+                "Immigrants, landed more than 10 years earlier",
+                "Immigrants, landed more than 5 to 10 years earlier",
+                "Indigenous population",
+                "Landed immigrants",
+                "Total population"
               ]
             },
-            "title": "data.Population"
+            "title": "Population"
           },
           {
             "name": "data.Sex",
@@ -104,12 +104,12 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Both sexes",
-                "data.Females",
-                "data.Males"
+                "Both sexes",
+                "Females",
+                "Males"
               ]
             },
-            "title": "data.Sex"
+            "title": "Sex"
           }
         ]
       }

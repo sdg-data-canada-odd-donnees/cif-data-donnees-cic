@@ -26,22 +26,22 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Commercial buildings",
-                "data.Communications networks",
-                "data.Electric power infrastructure",
-                "data.Institutional buildings",
-                "data.Marine engineering infrastructure",
-                "data.Oil and gas engineering construction",
-                "data.Other engineering construction",
-                "data.Other machinery and equipment",
-                "data.Sewage infrastructure",
-                "data.Total assets",
-                "data.Transportation engineering infrastructure",
-                "data.Transportation machinery and equipment",
-                "data.Waterworks infrastructure"
+                "Commercial buildings",
+                "Communications networks",
+                "Electric power infrastructure",
+                "Institutional buildings",
+                "Marine engineering infrastructure",
+                "Oil and gas engineering construction",
+                "Other engineering construction",
+                "Other machinery and equipment",
+                "Sewage infrastructure",
+                "Total assets",
+                "Transportation engineering infrastructure",
+                "Transportation machinery and equipment",
+                "Waterworks infrastructure"
               ]
             },
-            "title": "data.Asset"
+            "title": "Asset"
           },
           {
             "name": "data.Geography",
@@ -49,23 +49,23 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                "data.Yukon"
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           }
         ]
       }

@@ -13,53 +13,53 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Northwest Territories and Nunavut",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                "data.Yukon",
+                "Alberta",
+                "Colombie-Britannique",
+                "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Territoires du Nord-Ouest",
+                "Territoires du Nord-Ouest et Nunavut",
+                "Nouvelle-Écosse",
+                "Nunavut",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             },
-            "title": "data.Geography"
+            "title": "Géographie"
           },
           {
             "name": "data.Source",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Provincial Inventory Total",
-                "data.Oil and Gas",
-                "data.Coal Production",
-                "data.Electricity",
-                "data.Transport",
-                "data.Heavy Industry",
-                "data.Light Manufacturing, Construction and Forest Resources",
-                "data.Buildings",
-                "data.Waste",
-                "data.Agriculture",
-                "data.Territorial Inventory Total",
+                "Inventaire provincial",
+                "Exploitation pétrolière et gazière",
+                "Production de charbon",
+                "Électricité",
+                "Transports",
+                "Industrie lourde",
+                "Fabrication légère, construction et ressources forestières",
+                "Bâtiments",
+                "Déchets et autres",
+                "Agriculture",
+                "Inventaire territorial",
                 ""
               ]
             },
-            "title": "data.Source"
+            "title": "Source"
           },
           {
             "name": "GeoCode",
@@ -69,7 +69,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

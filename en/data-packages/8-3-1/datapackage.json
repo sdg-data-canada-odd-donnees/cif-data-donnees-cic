@@ -31,15 +31,15 @@
             "constraints": {
               "enum": [
                 "",
-                "data.15 to 19 years",
-                "data.15 to 24 years",
-                "data.18 to 24 years",
-                "data.20 to 24 years",
-                "data.25 to 29 years",
-                "data.Total, 15 to 29 years"
+                "15 to 19 years",
+                "15 to 24 years",
+                "18 to 24 years",
+                "20 to 24 years",
+                "25 to 29 years",
+                "Total, 15 to 29 years"
               ]
             },
-            "title": "data.Age group"
+            "title": "Age group"
           },
           {
             "name": "data.Geography",
@@ -47,23 +47,23 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                "data.Yukon"
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           },
           {
             "name": "data.Sex",
@@ -71,12 +71,12 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Both sexes",
-                "data.Females",
-                "data.Males"
+                "Both sexes",
+                "Females",
+                "Males"
               ]
             },
-            "title": "data.Sex"
+            "title": "Sex"
           }
         ]
       }

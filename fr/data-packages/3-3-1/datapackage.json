@@ -13,66 +13,66 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
+                "Canada",
                 ""
               ]
             },
-            "title": "data.Geography"
+            "title": "Géographie"
           },
           {
             "name": "data.Measures",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Overweight",
-                "data.Obese",
+                "Embonpoint",
+                "Obèse",
                 ""
               ]
             },
-            "title": "data.Measures"
+            "title": "Mesures"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Both sexes",
-                "data.Males",
-                "data.Females",
+                "Les deux sexes",
+                "Hommes",
+                "Femmes",
                 ""
               ]
             },
-            "title": "data.Sex"
+            "title": "Sexe"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Ages 5 to 79",
-                "data.Ages 5 to 17",
-                "data.Ages 5 to 11",
-                "data.Ages 12 to 17",
-                "data.Ages 18 to 79",
-                "data.Ages 18 to 39",
-                "data.Ages 40 to 59",
-                "data.Ages 60 to 79",
+                "5 à 79 ans",
+                "5 à 17 ans",
+                "5 à 11 ans",
+                "12 à 17 ans",
+                "18 à 79 ans",
+                "18 à 39 ans",
+                "40 à 59 ans",
+                "60 à 79 ans",
                 ""
               ]
             },
-            "title": "data.Age group"
+            "title": "Groupe d'âge"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }

@@ -16,8 +16,8 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Per capita",
-                "data.Terajoules"
+                "Per capita",
+                "Terajoules"
               ]
             },
             "title": "Units"
@@ -38,16 +38,16 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Agriculture",
-                "data.Commercial and other institutional",
-                "data.Energy use - final demand",
-                "data.Public administration",
-                "data.Residential",
-                "data.Total industrial",
-                "data.Total transportation"
+                "Agriculture",
+                "Commercial and other institutional",
+                "Energy use - final demand",
+                "Public administration",
+                "Residential",
+                "Total industrial",
+                "Total transportation"
               ]
             },
-            "title": "data.Demand characteristics"
+            "title": "Demand characteristics"
           },
           {
             "name": "data.Fuel type",
@@ -55,19 +55,19 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Coke",
-                "data.Coke oven gas",
-                "data.Gas plant natural gas liquids (NGL's)",
-                "data.Hydroelectricity",
-                "data.Natural gas",
-                "data.Nuclear",
-                "data.Steam",
-                "data.Total coal",
-                "data.Total primary and secondary energy",
-                "data.Total refined petroleum products"
+                "Coke",
+                "Coke oven gas",
+                "Gas plant natural gas liquids (NGL's)",
+                "Hydroelectricity",
+                "Natural gas",
+                "Nuclear",
+                "Steam",
+                "Total coal",
+                "Total primary and secondary energy",
+                "Total refined petroleum products"
               ]
             },
-            "title": "data.Fuel type"
+            "title": "Fuel type"
           },
           {
             "name": "data.Geography",
@@ -75,23 +75,23 @@
             "constraints": {
               "enum": [
                 "",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                "data.Yukon"
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon"
               ]
             },
-            "title": "data.Geography"
+            "title": "Geography"
           }
         ]
       }

@@ -13,7 +13,7 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "Geography",
@@ -21,39 +21,39 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
-                "British Columbia",
+                "Colombie-Britannique",
                 "Yukon",
-                "Northwest Territories",
+                "Territoires du Nord-Ouest",
                 "Nunavut",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
           },
           {
             "name": "Type of electricity generation",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hydraulic turbine",
-                "Tidal power turbine",
-                "Wind power turbine",
-                "Solar",
-                "Other types of electricity generation",
-                "Total hydro, tidal, wind, solar and other generation",
+                "Turbine à hydraulique",
+                "Turbine marémotrice",
+                "Turbine éolienne",
+                "Solaire",
+                "Autres types de production électrique",
+                "Total, tous les genres de production d'électricité",
                 ""
               ]
             },
-            "title": "Type of electricity generation"
+            "title": "Type de production d'électricité"
           },
           {
             "name": "GeoCode",
@@ -63,7 +63,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }
