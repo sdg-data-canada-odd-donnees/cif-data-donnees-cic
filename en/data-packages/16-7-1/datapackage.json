@@ -26,11 +26,15 @@
             "constraints": {
               "enum": [
                 "",
+                "Black",
                 "Female",
+                "First Nations, Métis, or Inuit",
                 "Indigenous person",
                 "Male",
                 "Non-Indigenous person",
+                "Non-Indigenous, non-visible minority",
                 "Non-visible minority",
+                "Other group designated as visible minority",
                 "Total population",
                 "Visible minority"
               ]
@@ -43,7 +47,14 @@
             "constraints": {
               "enum": [
                 "",
-                "Police"
+                "Banks",
+                "Canadian media",
+                "Federal Parliament",
+                "Justice system and courts",
+                "Local merchants and business people",
+                "Major corporations",
+                "Police",
+                "School system"
               ]
             },
             "title": "Institutions"
@@ -55,6 +66,8 @@
               "enum": [
                 "",
                 "A great deal of confidence",
+                "data.Confident   ",
+                "data.Not confident   ",
                 "Not very much or no confidence",
                 "Some confidence"
               ]

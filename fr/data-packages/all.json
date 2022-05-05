@@ -2092,6 +2092,13 @@
             "constraints": {
               "enum": [
                 "Police",
+                "Système de justice et tribunaux",
+                "Système scolaire",
+                "Parlement fédéral",
+                "Banques",
+                "Grandes sociétés",
+                "Marchands locaux et gens d’affaires",
+                "Médias canadiens",
                 ""
               ]
             },
@@ -2109,6 +2116,10 @@
                 "Personne non autochtone",
                 "Minorité visible",
                 "N’appartenant pas à une minorité visible",
+                "Noirs",
+                "Premières Nations, Métis ou Inuits",
+                "Autres groupes désignés comme minorités visibles",
+                "Non-Autochtones n’appartenant pas à une minorité visible",
                 ""
               ]
             },
@@ -2122,6 +2133,8 @@
                 "Une certaine confiance",
                 "Très peu confiance ou aucune confiance",
                 "Une grande confiance",
+                "data.Not confident   ",
+                "data.Confident   ",
                 ""
               ]
             },
