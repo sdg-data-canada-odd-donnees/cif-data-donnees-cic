@@ -11,49 +11,49 @@
       "schema": {
         "fields": [
           {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "integer",
             "title": "Year"
-          },
-          {
-            "name": "data.Event sub-type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Earthquake",
-                "Epidemic",
-                "Flood",
-                "Heat Event",
-                "Hurricane / Typhoon / Tropical Storm",
-                "Landslide",
-                "Storm - Unspecified / Other",
-                "Storm Surge",
-                "Storms and Severe Thunderstorms",
-                "Tornado",
-                "Wildfire",
-                "Winter Storm"
-              ]
-            },
-            "title": "Event sub-type"
           },
           {
             "name": "data.Event type",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "Biological",
                 "Geological",
-                "Meteorological - Hydrological"
+                "Meteorological - Hydrological",
+                ""
               ]
             },
             "title": "Event type"
+          },
+          {
+            "name": "data.Event sub-type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Epidemic",
+                "Earthquake",
+                "Flood",
+                "Hurricane / Typhoon / Tropical Storm",
+                "Storm - Unspecified / Other",
+                "Storm Surge",
+                "Storms and Severe Thunderstorms",
+                "Tornado",
+                "Wildfire",
+                "Winter Storm",
+                "Landslide",
+                "Heat Event",
+                ""
+              ]
+            },
+            "title": "Event sub-type"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
           }
         ]
       }

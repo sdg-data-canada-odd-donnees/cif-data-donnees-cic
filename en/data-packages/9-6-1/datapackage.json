@@ -11,11 +11,6 @@
       "schema": {
         "fields": [
           {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "string",
             "title": "Year"
@@ -25,13 +20,18 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "Electric",
+                "Natural gas",
                 "Hydrogen",
-                "Natural gas"
+                ""
               ]
             },
             "title": "Type of charging stations"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
           }
         ]
       }

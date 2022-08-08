@@ -11,68 +11,68 @@
       "schema": {
         "fields": [
           {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "integer",
             "title": "Year"
-          },
-          {
-            "name": "data.Characteristics",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Black",
-                "Female",
-                "First Nations, Métis, or Inuit",
-                "Indigenous person",
-                "Male",
-                "Non-Indigenous person",
-                "Non-Indigenous, non-visible minority",
-                "Non-visible minority",
-                "Other group designated as visible minority",
-                "Total population",
-                "Visible minority"
-              ]
-            },
-            "title": "Characteristics"
           },
           {
             "name": "data.Institutions",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Banks",
-                "Canadian media",
-                "Federal Parliament",
-                "Justice system and courts",
-                "Local merchants and business people",
-                "Major corporations",
                 "Police",
-                "School system"
+                "Justice system and courts",
+                "School system",
+                "Federal Parliament",
+                "Banks",
+                "Major corporations",
+                "Local merchants and business people",
+                "Canadian media",
+                ""
               ]
             },
             "title": "Institutions"
+          },
+          {
+            "name": "data.Characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total population",
+                "Male",
+                "Female",
+                "Indigenous person",
+                "Non-Indigenous person",
+                "Visible minority",
+                "Non-visible minority",
+                "Black",
+                "First Nations, Métis, or Inuit",
+                "Other group designated as visible minority",
+                "Non-Indigenous, non-visible minority",
+                ""
+              ]
+            },
+            "title": "Characteristics"
           },
           {
             "name": "data.Level of confidence",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "A great deal of confidence",
-                "Confident",
-                "Not confident",
+                "Some confidence",
                 "Not very much or no confidence",
-                "Some confidence"
+                "A great deal of confidence",
+                "Not confident",
+                "Confident",
+                ""
               ]
             },
             "title": "Level of confidence"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
           }
         ]
       }

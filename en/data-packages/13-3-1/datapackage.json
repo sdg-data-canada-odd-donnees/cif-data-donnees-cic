@@ -11,47 +11,27 @@
       "schema": {
         "fields": [
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Number",
-                "Percentage"
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "integer",
             "title": "Year"
           },
           {
-            "name": "data.Core public infrastructure assets",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Potable water",
-                "Solid waste",
-                "Stormwater",
-                "Wastewater"
+                "Number",
+                "Percentage",
+                ""
               ]
             },
-            "title": "Core public infrastructure assets"
+            "title": "Units"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "Alberta",
                 "British Columbia",
                 "Canada",
@@ -65,28 +45,48 @@
                 "Prince Edward Island",
                 "Quebec",
                 "Saskatchewan",
-                "Yukon"
+                "Yukon",
+                ""
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "data.Core public infrastructure assets",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Potable water",
+                "Solid waste",
+                "Stormwater",
+                "Wastewater",
+                ""
+              ]
+            },
+            "title": "Core public infrastructure assets"
           },
           {
             "name": "data.Type of municipality by population size",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "All municipalities",
-                "All rural municipalities",
                 "All urban municipalities",
+                "Urban municipalities, population 1 to 4,999",
+                "Urban municipalities, population 5,000 to 29,999",
+                "Urban municipalities, population 30,000 or more",
+                "All rural municipalities",
                 "Rural municipalities, population 1 to 4,999",
                 "Rural municipalities, population 5,000 or more",
-                "Urban municipalities, population 1 to 4,999",
-                "Urban municipalities, population 30,000 or more",
-                "Urban municipalities, population 5,000 to 29,999"
+                ""
               ]
             },
             "title": "Type of municipality by population size"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
           }
         ]
       }

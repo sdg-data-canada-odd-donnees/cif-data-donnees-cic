@@ -11,43 +11,17 @@
       "schema": {
         "fields": [
           {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "integer",
             "title": "Year"
-          },
-          {
-            "name": "data.Cyber-related violation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Child pornography",
-                "Criminal harassment",
-                "Extortion",
-                "Fraud",
-                "Identity fraud",
-                "Identity theft",
-                "Indecent/Harassing communications",
-                "Luring a child via a computer",
-                "Making or distribution of child pornography",
-                "Non-consensual distribution of intimate images",
-                "Uttering threats"
-              ]
-            },
-            "title": "Cyber-related violation"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Canada"
+                "Canada",
+                ""
               ]
             },
             "title": "Geography"
@@ -57,11 +31,37 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Against a person"
+                "Against a person",
+                ""
               ]
             },
             "title": "Type of cyber-related violation"
+          },
+          {
+            "name": "data.Cyber-related violation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Luring a child via a computer",
+                "Non-consensual distribution of intimate images",
+                "Extortion",
+                "Criminal harassment",
+                "Indecent/Harassing communications",
+                "Uttering threats",
+                "Fraud",
+                "Identity theft",
+                "Identity fraud",
+                "Child pornography",
+                "Making or distribution of child pornography",
+                ""
+              ]
+            },
+            "title": "Cyber-related violation"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
           }
         ]
       }

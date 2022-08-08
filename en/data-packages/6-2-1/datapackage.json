@@ -11,11 +11,6 @@
       "schema": {
         "fields": [
           {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "integer",
             "title": "Year"
@@ -25,23 +20,28 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
+                "Yukon",
                 "Northwest Territories",
-                "Nova Scotia",
                 "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
+                ""
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
           }
         ]
       }

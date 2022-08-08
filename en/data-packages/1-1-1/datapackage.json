@@ -11,16 +11,6 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "integer",
             "title": "Year"
@@ -30,78 +20,88 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Alberta",
-                "Atlantic provinces",
-                "British Columbia",
-                "Calgary, Alberta",
                 "Canada",
-                "Edmonton, Alberta",
-                "Manitoba",
-                "Montréal, Quebec",
-                "New Brunswick",
+                "Atlantic provinces",
                 "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Ottawa-Gatineau, Ontario/Quebec",
-                "Prairie provinces",
                 "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
                 "Quebec",
-                "Québec, Quebec",
+                "Ontario",
+                "Prairie provinces",
+                "Manitoba",
                 "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Québec, Quebec",
+                "Montréal, Quebec",
+                "Ottawa-Gatineau, Ontario/Quebec",
                 "Toronto, Ontario",
-                "Vancouver, British Columbia",
                 "Winnipeg, Manitoba",
-                "Yukon"
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Vancouver, British Columbia",
+                "Northwest Territories",
+                "Nunavut",
+                "Yukon",
+                ""
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "data.Persons in low income",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "All persons",
-                "Elderly females in economic families",
-                "Elderly females not in an economic family",
-                "Elderly males in economic families",
-                "Elderly males not in an economic family",
-                "Elderly persons in economic families",
-                "Elderly persons not in an economic family",
-                "Females",
-                "Females 18 to 64 years in economic families",
-                "Females in economic families",
-                "Females not in an economic family",
-                "Females, 18 to 64 years",
-                "Females, 65 years and over",
-                "Females, under 18 years",
+                "Persons under 18 years",
+                "Persons 18 to 64 years",
+                "Persons 65 years and over",
                 "Males",
-                "Males 18 to 64 years in economic families",
-                "Males in economic families",
-                "Males not in an economic family",
+                "Males, under 18 years",
                 "Males, 18 to 64 years",
                 "Males, 65 years and over",
-                "Males, under 18 years",
-                "Non-elderly females not in an economic family",
-                "Non-elderly males not in an economic family",
-                "Non-elderly persons not in an economic family",
-                "Persons 18 to 64 years",
-                "Persons 18 to 64 years in economic families",
-                "Persons 65 years and over",
+                "Females",
+                "Females, under 18 years",
+                "Females, 18 to 64 years",
+                "Females, 65 years and over",
                 "Persons in economic families",
-                "Persons not in an economic family",
-                "Persons under 18 years",
-                "Persons under 18 years in all other economic families",
-                "Persons under 18 years in couple families with children",
+                "Males in economic families",
+                "Females in economic families",
+                "Elderly persons in economic families",
+                "Elderly males in economic families",
+                "Elderly females in economic families",
                 "Persons under 18 years in economic families",
-                "Persons under 18 years in female lone-parent families"
+                "Persons under 18 years in couple families with children",
+                "Persons under 18 years in female lone-parent families",
+                "Persons under 18 years in all other economic families",
+                "Persons 18 to 64 years in economic families",
+                "Males 18 to 64 years in economic families",
+                "Females 18 to 64 years in economic families",
+                "Persons not in an economic family",
+                "Males not in an economic family",
+                "Females not in an economic family",
+                "Elderly persons not in an economic family",
+                "Elderly males not in an economic family",
+                "Elderly females not in an economic family",
+                "Non-elderly persons not in an economic family",
+                "Non-elderly males not in an economic family",
+                "Non-elderly females not in an economic family",
+                "All persons",
+                ""
               ]
             },
             "title": "Persons in low income"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
           }
         ]
       }

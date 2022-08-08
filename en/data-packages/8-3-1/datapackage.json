@@ -11,6 +11,64 @@
       "schema": {
         "fields": [
           {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 15 to 29 years",
+                "15 to 19 years",
+                "15 to 24 years",
+                "18 to 24 years",
+                "20 to 24 years",
+                "25 to 29 years",
+                ""
+              ]
+            },
+            "title": "Age group"
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Males",
+                "Females",
+                "Both sexes",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
@@ -19,64 +77,6 @@
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "15 to 19 years",
-                "15 to 24 years",
-                "18 to 24 years",
-                "20 to 24 years",
-                "25 to 29 years",
-                "Total, 15 to 29 years"
-              ]
-            },
-            "title": "Age group"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon"
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Both sexes",
-                "Females",
-                "Males"
-              ]
-            },
-            "title": "Sex"
           }
         ]
       }

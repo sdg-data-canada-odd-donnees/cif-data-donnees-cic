@@ -11,83 +11,83 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "integer",
             "title": "Year"
-          },
-          {
-            "name": "data.Economic family type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Couples",
-                "Couples with children",
-                "Couples with other relatives",
-                "Economic families",
-                "Economic families and persons not in an economic family",
-                "Elderly couples",
-                "Elderly families",
-                "Elderly females not in an economic family",
-                "Elderly males not in an economic family",
-                "Elderly persons not in an economic family",
-                "Female lone-parent families",
-                "Lone-parent families",
-                "Male lone-parent families",
-                "Non-elderly families",
-                "Non-elderly females not in an economic family",
-                "Non-elderly males not in an economic family",
-                "Non-elderly persons not in an economic family",
-                "Other elderly families",
-                "Other non-elderly families",
-                "Persons not in an economic family"
-              ]
-            },
-            "title": "Economic family type"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Alberta",
-                "Atlantic provinces",
-                "British Columbia",
-                "Calgary, Alberta",
                 "Canada",
-                "Edmonton, Alberta",
-                "Manitoba",
-                "Montréal, Quebec",
-                "New Brunswick",
+                "Atlantic provinces",
                 "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Ottawa-Gatineau, Ontario/Quebec",
-                "Prairie provinces",
                 "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
                 "Quebec",
-                "Québec, Quebec",
+                "Ontario",
+                "Prairie provinces",
+                "Manitoba",
                 "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Québec, Quebec",
+                "Montréal, Quebec",
+                "Ottawa-Gatineau, Ontario/Quebec",
                 "Toronto, Ontario",
-                "Vancouver, British Columbia",
                 "Winnipeg, Manitoba",
-                "Yukon"
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Vancouver, British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "data.Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic families",
+                "Elderly families",
+                "Elderly couples",
+                "Other elderly families",
+                "Non-elderly families",
+                "Couples",
+                "Couples with children",
+                "Couples with other relatives",
+                "Lone-parent families",
+                "Male lone-parent families",
+                "Female lone-parent families",
+                "Other non-elderly families",
+                "Persons not in an economic family",
+                "Elderly persons not in an economic family",
+                "Elderly males not in an economic family",
+                "Elderly females not in an economic family",
+                "Non-elderly persons not in an economic family",
+                "Non-elderly males not in an economic family",
+                "Non-elderly females not in an economic family",
+                "Economic families and persons not in an economic family",
+                ""
+              ]
+            },
+            "title": "Economic family type"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
           }
         ]
       }

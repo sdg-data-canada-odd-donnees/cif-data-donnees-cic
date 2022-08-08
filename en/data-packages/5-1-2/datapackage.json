@@ -11,47 +11,47 @@
       "schema": {
         "fields": [
           {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "integer",
             "title": "Year"
-          },
-          {
-            "name": "data.Selected characteristic",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "15 to 24 year old women",
-                "First Nations, Métis, or Inuit women",
-                "Immigrant women",
-                "LGBTQ2 women",
-                "Separated or divorced women",
-                "Single women",
-                "Total, all women",
-                "Women designated as visible minorities",
-                "Women with disability"
-              ]
-            },
-            "title": "Selected characteristic"
           },
           {
             "name": "data.Type of intimate partner violence",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "Emotional, financial, or psychological abuse",
                 "Physical abuse",
                 "Sexual abuse",
-                "Total intimate partner violence"
+                "Total intimate partner violence",
+                ""
               ]
             },
             "title": "Type of intimate partner violence"
+          },
+          {
+            "name": "data.Selected characteristic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, all women",
+                "15 to 24 year old women",
+                "Separated or divorced women",
+                "LGBTQ2 women",
+                "Single women",
+                "First Nations, Métis, or Inuit women",
+                "Women with disability",
+                "Immigrant women",
+                "Women designated as visible minorities",
+                ""
+              ]
+            },
+            "title": "Selected characteristic"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
           }
         ]
       }

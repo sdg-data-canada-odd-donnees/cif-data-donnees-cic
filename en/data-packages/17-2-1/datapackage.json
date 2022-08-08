@@ -11,11 +11,6 @@
       "schema": {
         "fields": [
           {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "integer",
             "title": "Year"
@@ -25,9 +20,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "Cross-border flows to TOSSD-eligible countries",
-                "Global and regional expenditures for international public goods"
+                "Global and regional expenditures for international public goods",
+                ""
               ]
             },
             "title": "Pillar"
@@ -37,18 +32,23 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Africa",
                 "All regions",
-                "America",
-                "Asia",
-                "Europe",
                 "Global",
+                "Africa",
+                "Asia",
+                "America",
+                "Europe",
                 "Middle East",
-                "Oceania"
+                "Oceania",
+                ""
               ]
             },
             "title": "Region"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
           }
         ]
       }

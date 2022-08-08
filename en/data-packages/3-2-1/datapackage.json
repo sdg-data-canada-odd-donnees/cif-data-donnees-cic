@@ -11,11 +11,6 @@
       "schema": {
         "fields": [
           {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "string",
             "title": "Year"
@@ -25,60 +20,65 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan"
+                ""
               ]
             },
             "title": "Geography"
-          },
-          {
-            "name": "data.Grade",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "All grades",
-                "Grades 10-12",
-                "Grades 7-9"
-              ]
-            },
-            "title": "Grade"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Both sexes",
+                "Male",
                 "Female",
-                "Male"
+                "Both sexes",
+                ""
               ]
             },
             "title": "Sex"
+          },
+          {
+            "name": "data.Grade",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All grades",
+                "Grades 7-9",
+                "Grades 10-12",
+                ""
+              ]
+            },
+            "title": "Grade"
           },
           {
             "name": "data.Type of e-cigarettes",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "Both type",
                 "With nicotine",
-                "Without nicotine"
+                "Without nicotine",
+                ""
               ]
             },
             "title": "Type of e-cigarettes"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
           }
         ]
       }

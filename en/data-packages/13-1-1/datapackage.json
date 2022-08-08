@@ -11,16 +11,6 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "integer",
             "title": "Year"
@@ -30,7 +20,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "Alberta",
                 "British Columbia",
                 "Canada",
@@ -45,7 +34,8 @@
                 "Prince Edward Island",
                 "Quebec",
                 "Saskatchewan",
-                "Yukon"
+                "Yukon",
+                ""
               ]
             },
             "title": "Geography"
@@ -55,21 +45,31 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Agriculture",
-                "Buildings",
+                "Provincial Inventory Total",
+                "Oil and Gas",
                 "Coal Production",
                 "Electricity",
+                "Transport",
                 "Heavy Industry",
                 "Light Manufacturing, Construction and Forest Resources",
-                "Oil and Gas",
-                "Provincial Inventory Total",
+                "Buildings",
+                "Waste",
+                "Agriculture",
                 "Territorial Inventory Total",
-                "Transport",
-                "Waste"
+                ""
               ]
             },
             "title": "Source"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
           }
         ]
       }

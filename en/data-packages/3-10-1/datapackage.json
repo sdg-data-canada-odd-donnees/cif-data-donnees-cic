@@ -11,21 +11,27 @@
       "schema": {
         "fields": [
           {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                ""
+              ]
+            },
+            "title": "Geography"
           },
           {
             "name": "data.Age at time of death",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
+                "All ages",
                 "1 to 14 years",
                 "15 to 24",
                 "25 to 34 years",
@@ -35,54 +41,48 @@
                 "65 to 74 years",
                 "75 to 84 years",
                 "85 and over",
-                "All ages"
+                ""
               ]
             },
             "title": "Age at time of death"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Canada"
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "data.Leading causes of death (ICD-10)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Accidents (unintentional injuries)",
-                "Alzheimer's disease",
-                "Cerebrovascular diseases",
-                "Chronic liver disease and cirrhosis",
-                "Chronic lower respiratory diseases",
-                "Diabetes mellitus",
-                "Diseases of heart",
-                "Influenza and pneumonia",
-                "Intentional self-harm (suicide)",
-                "Malignant neoplasms"
-              ]
-            },
-            "title": "Leading causes of death"
           },
           {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "Both sexes",
+                "Males",
                 "Females",
-                "Males"
+                ""
               ]
             },
             "title": "Sex"
+          },
+          {
+            "name": "data.Leading causes of death (ICD-10)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Malignant neoplasms",
+                "Diabetes mellitus",
+                "Alzheimer's disease",
+                "Diseases of heart",
+                "Cerebrovascular diseases",
+                "Influenza and pneumonia",
+                "Chronic lower respiratory diseases",
+                "Chronic liver disease and cirrhosis",
+                "Accidents (unintentional injuries)",
+                "Intentional self-harm (suicide)",
+                ""
+              ]
+            },
+            "title": "Leading causes of death"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
           }
         ]
       }

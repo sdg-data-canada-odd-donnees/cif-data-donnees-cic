@@ -11,62 +11,62 @@
       "schema": {
         "fields": [
           {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
             "name": "Year",
             "type": "integer",
             "title": "Year"
-          },
-          {
-            "name": "data.Environmental protection activities or management practices",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Air pollution management",
-                "Noise and vibration abatement",
-                "Protection and remediation of soil, groundwater and surface water",
-                "Protection of biodiversity and habitat",
-                "Sold carbon offset credits only or sold more than purchased",
-                "Total, environmental protection activities",
-                "Wastewater management"
-              ]
-            },
-            "title": "Environmental protection activities or management practices"
           },
           {
             "name": "data.Industries",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Beverage and tobacco product manufacturing",
-                "Chemical manufacturing",
-                "Electric power generation, transmission and distribution",
-                "Fabricated metal product manufacturing",
-                "Food manufacturing",
-                "Furniture and related product manufacturing",
+                "Total, industries",
                 "Logging (except contract)",
-                "Machinery manufacturing",
-                "Mining and quarrying",
-                "Natural gas distribution",
-                "Non-metallic mineral product manufacturing",
                 "Oil and gas extraction",
-                "Other manufacturing industries",
+                "Mining and quarrying",
+                "Electric power generation, transmission and distribution",
+                "Natural gas distribution",
+                "Food manufacturing",
+                "Beverage and tobacco product manufacturing",
+                "Wood product manufacturing",
                 "Paper manufacturing",
                 "Petroleum and coal product manufacturing",
-                "Pipeline transportation",
-                "Plastics and rubber products manufacturing",
+                "Chemical manufacturing",
+                "Non-metallic mineral product manufacturing",
                 "Primary metal manufacturing",
-                "Total, industries",
+                "Fabricated metal product manufacturing",
                 "Transportation equipment manufacturing",
-                "Wood product manufacturing"
+                "Plastics and rubber products manufacturing",
+                "Machinery manufacturing",
+                "Furniture and related product manufacturing",
+                "Other manufacturing industries",
+                "Pipeline transportation",
+                ""
               ]
             },
             "title": "Industries"
+          },
+          {
+            "name": "data.Environmental protection activities or management practices",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Wastewater management",
+                "Air pollution management",
+                "Protection and remediation of soil, groundwater and surface water",
+                "Protection of biodiversity and habitat",
+                "Noise and vibration abatement",
+                "Total, environmental protection activities",
+                "Sold carbon offset credits only or sold more than purchased",
+                ""
+              ]
+            },
+            "title": "Environmental protection activities or management practices"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
           }
         ]
       }
