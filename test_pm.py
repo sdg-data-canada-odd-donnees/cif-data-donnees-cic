@@ -71,31 +71,32 @@ def turn_on_progress_calc(indicator_id):
     write_meta_md(meta, indicator_id)
 
 indicator_ids = get_indicator_ids()
-# indicator_ids = indicator_ids[6:7] # TEMP
+# indicator_ids = indicator_ids[0:11] # TEMP
+# print(indicator_ids)
 
-# progress_dict = {}
-#
-# for ind_id in indicator_ids:
-#     # Check + turn on auto progress calc
-#     turn_on_progress_calc(ind_id)
-#     # Get data + metadata for calculation
-#     indicator = merge_indicator(ind_id)
-#     if indicator is not None:
-#         # Run data + metadata through calculation to get progress
-#         progress = pm.measure_indicator_progress(indicator)
-#         # TEMP: Return None str for no progress calculation (to be able to concatenate)
-#         if progress is None:
-#             progress = 'None'
-#         print(ind_id + ': ' + progress)
-#     # progress_dict[ind_id] = progress
+progress_dict = {}
 
-# print(progress_dict)
+for ind_id in indicator_ids:
+    # Uncomment to turn on ALL indicator calculation
+    # turn_on_progress_calc(ind_id)
+    # Get data + metadata for calculation
+    indicator = merge_indicator(ind_id)
+    if indicator is not None:
+        # Run data + metadata through calculation to get progress
+        progress = pm.measure_indicator_progress(indicator)
+        # TEMP: Return None str for no progress calculation (to be able to concatenate)
+        if progress is None:
+            progress = 'None'
+        print(ind_id + ': ' + progress)
+    # progress_dict[ind_id] = progress
 
+print(progress_dict)
+
+# 6.3.1 complex result ----
 # TODO: Handle complex outcomes! (Not even sure what to do to fix this)
-test_ind = merge_indicator('6-3-1')
-test_data = pm.data_progress_measure(test_ind['data'])
-print(test_data)
+# test_ind = merge_indicator('6-3-1')
+# test_data = pm.data_progress_measure(test_ind['data'])
+# print(test_data)
 # val = pm.growth_calculation(1.0, -2.7, 2017, 2015)
-# print(val < 0)
+# print(val)
 # print(type(val))
-# print(pm.measure_indicator_progress(test_ind))
