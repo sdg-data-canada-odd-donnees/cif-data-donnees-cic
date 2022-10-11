@@ -2,7 +2,7 @@ import yamlmd
 import os
 import pandas as pd
 import ProgressMeasure as pm
-
+from collections import OrderedDict
 
 def read_meta_md(indicator_id):
     meta_file = indicator_id + '.md'
@@ -28,12 +28,6 @@ def read_data(indicator_id):
         return None
     data = pd.read_csv(filepath)
     return data
-
-
-# def progress_dict(indicator_id, progress_measure):
-#     # TODO: read progress dict
-#     {indicator_id: progress_measure}
-#     # TODO: write new progress status to dict
 
 
 def get_indicator_ids():
@@ -70,30 +64,43 @@ def turn_on_progress_calc(indicator_id):
         meta[0]['auto_progress_calculation'] = True
     write_meta_md(meta, indicator_id)
 
-indicator_ids = get_indicator_ids()
-# indicator_ids = indicator_ids[0:11] # TEMP
-# print(indicator_ids)
 
-progress_dict = {}
+def update_progress_status(progress_dict, indicator_id):
+    meta_file = indicator_id + '.md'
+    filepath = os.path.join('meta', meta_file)
+    meta = yamlmd.read_yamlmd(filepath)
+    meta[0].update(progress_dict)
+    write_meta_md(meta, indicator_id)
+
+
+indicator_ids = get_indicator_ids()
+# TEMP ----
+# indicator_ids = indicator_ids[0:10]
+# print(indicator_ids)
+# ----
 
 for ind_id in indicator_ids:
     # Uncomment to turn on ALL indicator calculation
     # turn_on_progress_calc(ind_id)
+
     # Get data + metadata for calculation
     indicator = merge_indicator(ind_id)
     if indicator is not None:
         # Run data + metadata through calculation to get progress
         progress = pm.measure_indicator_progress(indicator)
-        # TEMP: Return None str for no progress calculation (to be able to concatenate)
-        if progress is None:
-            progress = 'None'
-        print(ind_id + ': ' + progress)
-    # progress_dict[ind_id] = progress
 
-print(progress_dict)
+        if progress is None:
+            progress = 'not_available'
+
+        print(ind_id + ': ' + progress)
+
+        # Update progress status field in meta
+        progress_dict = {'progress_status': progress}
+        update_progress_status(progress_dict, ind_id)
+
 
 # 6.3.1 complex result ----
-# TODO: Handle complex outcomes! (Not even sure what to do to fix this)
+# TODO: Handle complex outcomes!
 # test_ind = merge_indicator('6-3-1')
 # test_data = pm.data_progress_measure(test_ind['data'])
 # print(test_data)
