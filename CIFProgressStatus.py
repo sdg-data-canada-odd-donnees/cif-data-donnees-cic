@@ -2,7 +2,7 @@ import yamlmd
 import os
 import pandas as pd
 import ProgressMeasure as pm
-from collections import OrderedDict
+
 
 def read_meta_md(indicator_id):
     meta_file = indicator_id + '.md'
@@ -97,7 +97,6 @@ for ind_id in indicator_ids:
         # Update progress status field in meta
         progress_dict = {'progress_status': progress}
         update_progress_status(progress_dict, ind_id)
-
 
 # 6.3.1 complex result ----
 # TODO: Handle complex outcomes!
