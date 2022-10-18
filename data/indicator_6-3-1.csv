@@ -1,100 +1,376 @@
-Year,data.Sector,Value
-2013,data.Accommodation and food services,21.9
-2015,data.Accommodation and food services,-4.2
-2017,data.Accommodation and food services,-6.8
-2013,"data.Administrative and support, waste management and remediation services",36.5
-2015,"data.Administrative and support, waste management and remediation services",64.3
-2017,"data.Administrative and support, waste management and remediation services",2.2
-2013,"data.Agriculture, forestry, fishing and hunting",20.6
-2015,"data.Agriculture, forestry, fishing and hunting",52.7
-2017,"data.Agriculture, forestry, fishing and hunting",14.6
-2013,"data.Arts, entertainment and recreation",27.6
-2015,"data.Arts, entertainment and recreation",-11.9
-2017,"data.Arts, entertainment and recreation",-11
-2013,data.Construction,21.5
-2015,data.Construction,-10.3
-2017,data.Construction,-12.5
-2013,data.Educational services,5
-2015,data.Educational services,-13.4
-2017,data.Educational services,0.2
-2013,data.Finance and insurance,19.4
-2015,data.Finance and insurance,-20.4
-2017,data.Finance and insurance,-8.4
-2013,data.Government Education Services,45.2
-2015,data.Government Education Services,-13.2
-2017,data.Government Education Services,-12.3
-2013,data.Government Health Services,48.8
-2015,data.Government Health Services,-16.1
-2017,data.Government Health Services,-13.1
-2013,data.Health care and social assistance,24.8
-2015,data.Health care and social assistance,-17.6
-2017,data.Health care and social assistance,-15.1
-2013,data.Households,-10.8
-2015,data.Households,1
-2017,data.Households,-6.1
-2013,data.Information and cultural industries,37.1
-2015,data.Information and cultural industries,-27.1
-2017,data.Information and cultural industries,96.4
-2013,data.Manufacturing,4.6
-2015,data.Manufacturing,-7.7
-2017,data.Manufacturing,1.9
-2013,"data.Mining, quarrying, and oil and gas extraction",18.3
-2015,"data.Mining, quarrying, and oil and gas extraction",0.3
-2017,"data.Mining, quarrying, and oil and gas extraction",10.5
-2013,data.Miscellaneous non-profit institutions serving households,15.5
-2015,data.Miscellaneous non-profit institutions serving households,-18.5
-2017,data.Miscellaneous non-profit institutions serving households,-7
-2013,"data.Non-profit arts, entertainment and recreation",32
-2015,"data.Non-profit arts, entertainment and recreation",-23.1
-2017,"data.Non-profit arts, entertainment and recreation",-26.2
-2013,data.Non-Profit Education Services,10.3
-2015,data.Non-Profit Education Services,-15.9
-2017,data.Non-Profit Education Services,-2.4
-2013,data.Non-Profit Social Assistance,54.7
-2015,data.Non-Profit Social Assistance,-21.8
-2017,data.Non-Profit Social Assistance,-12.1
-2013,data.Other Aboriginal Government Services,-0.3
-2015,data.Other Aboriginal Government Services,-7.6
-2017,data.Other Aboriginal Government Services,-15.5
-2013,data.Other federal government services,-12.9
-2015,data.Other federal government services,-22.5
-2017,data.Other federal government services,-19.5
-2013,"data.Other finance, insurance and real estate services and management of companies and enterprises",29.9
-2015,"data.Other finance, insurance and real estate services and management of companies and enterprises",-10.1
-2017,"data.Other finance, insurance and real estate services and management of companies and enterprises",-12.4
-2013,data.Other Municipal Government Services,16.7
-2015,data.Other Municipal Government Services,-19.1
-2017,data.Other Municipal Government Services,-12.8
-2013,data.Other provincial and territorial government services,-31.4
-2015,data.Other provincial and territorial government services,-44.8
-2017,data.Other provincial and territorial government services,-10.3
-2013,data.Other services (except public administration),19.5
-2015,data.Other services (except public administration),-15.6
-2017,data.Other services (except public administration),-10.8
-2013,"data.Professional, scientific and technical services",7.1
-2015,"data.Professional, scientific and technical services",-20.2
-2017,"data.Professional, scientific and technical services",-15.3
-2013,data.Real estate and rental and leasing,20.2
-2015,data.Real estate and rental and leasing,-14.7
-2017,data.Real estate and rental and leasing,-12.9
-2013,data.Religious organizations,27.5
-2015,data.Religious organizations,-29.6
-2017,data.Religious organizations,-6.6
-2013,data.Retail trade,32.1
-2015,data.Retail trade,-13.1
-2017,data.Retail trade,-14.5
-2013,"data.Total, industries",7.2
-2015,"data.Total, industries",-3
-2017,"data.Total, industries",1.7
-2013,,5.4
-2015,,-2.7
-2017,,1
-2013,data.Transportation and warehousing,23.2
-2015,data.Transportation and warehousing,-1.5
-2017,data.Transportation and warehousing,-8.4
-2013,data.Utilities,5.7
-2015,data.Utilities,-6.6
-2017,data.Utilities,0
-2013,data.Wholesale trade,31.8
-2015,data.Wholesale trade,-17.4
-2017,data.Wholesale trade,-14.5
+Year,Units,data.Sector,Value
+2013,data.Cubic metres,,37457754
+2013,data.Cubic metres,"data.Total, industries",34328855
+2013,data.Cubic metres,data.Crop production,1197935
+2013,data.Cubic metres,data.Animal production,1007916
+2013,data.Cubic metres,data.Forestry and logging,426
+2013,data.Cubic metres,"data.Fishing, hunting and trapping",
+2013,data.Cubic metres,data.Support activities for agriculture and forestry,
+2013,data.Cubic metres,data.Oil and gas extraction,360856
+2013,data.Cubic metres,data.Coal mining,91903
+2013,data.Cubic metres,data.Metal ore mining,368179
+2013,data.Cubic metres,data.Non-metallic mineral mining and quarrying,78241
+2013,data.Cubic metres,data.Support activities for mining and oil and gas extraction,30
+2013,data.Cubic metres,"data.Electric power generation, transmission and distribution",25145462
+2013,data.Cubic metres,"data.Natural gas distribution, water, sewage and other systems",887747
+2013,data.Cubic metres,data.Residential building construction,6503
+2013,data.Cubic metres,data.Non-residential building construction,2666
+2013,data.Cubic metres,data.Transportation engineering construction,185
+2013,data.Cubic metres,data.Oil and gas engineering construction,33
+2013,data.Cubic metres,data.Electric power engineering construction,83
+2013,data.Cubic metres,data.Communication engineering construction,13
+2013,data.Cubic metres,data.Other engineering construction,84
+2013,data.Cubic metres,data.Repair construction,95
+2013,data.Cubic metres,data.Other activities of the construction industry,63
+2013,data.Cubic metres,data.Food manufacturing,367014
+2013,data.Cubic metres,data.Beverage and tobacco product manufacturing,39080
+2013,data.Cubic metres,data.Textile and textile product mills,5953
+2013,data.Cubic metres,data.Clothing and leather and allied product manufacturing,691
+2013,data.Cubic metres,data.Wood product manufacturing,21718
+2013,data.Cubic metres,data.Paper manufacturing,1537380
+2013,data.Cubic metres,data.Printing and related support activities,2098
+2013,data.Cubic metres,data.Petroleum and coal product manufacturing,263264
+2013,data.Cubic metres,data.Chemical manufacturing,445648
+2013,data.Cubic metres,data.Plastic and rubber products manufacturing,27382
+2013,data.Cubic metres,data.Non-metallic mineral product manufacturing,60348
+2013,data.Cubic metres,data.Primary metal manufacturing,1141699
+2013,data.Cubic metres,data.Fabricated metal product manufacturing,5253
+2013,data.Cubic metres,data.Machinery manufacturing,4476
+2013,data.Cubic metres,data.Computer and electronic product manufacturing,3526
+2013,data.Cubic metres,data.Electrical equipment and component manufacturing,1251
+2013,data.Cubic metres,data.Transportation equipment manufacturing,34745
+2013,data.Cubic metres,data.Furniture and related product manufacturing,1725
+2013,data.Cubic metres,data.Miscellaneous manufacturing,2788
+2013,data.Cubic metres,data.Wholesale trade,75450
+2013,data.Cubic metres,data.Retail trade,59778
+2013,data.Cubic metres,data.Air transportation,1971
+2013,data.Cubic metres,data.Rail transportation,6629
+2013,data.Cubic metres,data.Water transportation,2617
+2013,data.Cubic metres,data.Truck transportation,9891
+2013,data.Cubic metres,"data.Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation",29746
+2013,data.Cubic metres,data.Pipeline transportation,5528
+2013,data.Cubic metres,data.Postal service and couriers and messengers,451
+2013,data.Cubic metres,data.Warehousing and storage,4719
+2013,data.Cubic metres,data.Motion picture and sound recording industries,3345
+2013,data.Cubic metres,data.Radio and television broadcasting,3
+2013,data.Cubic metres,"data.Publishing, pay and specialty services, telecommunications and other information services",5753
+2013,data.Cubic metres,data.Depository credit intermediation and monetary authorities,25920
+2013,data.Cubic metres,data.Insurance carriers,391
+2013,data.Cubic metres,data.Lessors of real estate,190964
+2013,data.Cubic metres,data.Owner-occupied dwellings,0
+2013,data.Cubic metres,data.Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works),5706
+2013,data.Cubic metres,"data.Other finance, insurance and real estate services and management of companies and enterprises",93937
+2013,data.Cubic metres,"data.Legal, accounting and architectural, engineering and related services",8912
+2013,data.Cubic metres,"data.Computer systems design and other professional, scientific and technical services",5098
+2013,data.Cubic metres,"data.Advertising, public relations and related services",130
+2013,data.Cubic metres,data.Administrative and support services,3553
+2013,data.Cubic metres,data.Waste management and remediation services,14138
+2013,data.Cubic metres,data.Educational services,16138
+2013,data.Cubic metres,data.Health care and social assistance,88342
+2013,data.Cubic metres,"data.Arts, entertainment and recreation",6356
+2013,data.Cubic metres,data.Accommodation and food services,60493
+2013,data.Cubic metres,data.Repair and maintenance,14145
+2013,data.Cubic metres,data.Personal services and private households,9677
+2013,data.Cubic metres,data.Professional and similar organisations,2502
+2013,data.Cubic metres,data.Repair and maintenance,0
+2013,data.Cubic metres,data.Operating supplies,0
+2013,data.Cubic metres,data.Office supplies,0
+2013,data.Cubic metres,"data.Advertising, promotion, meals, entertainment, and travel",0
+2013,data.Cubic metres,data.Transportation margins,0
+2013,data.Cubic metres,data.Non-profit education services,15792
+2013,data.Cubic metres,data.Non-profit social assistance,26367
+2013,data.Cubic metres,"data.Non-profit arts, entertainment and recreation",11463
+2013,data.Cubic metres,data.Religious organizations,66175
+2013,data.Cubic metres,data.Miscellaneous non-profit institutions serving households,124723
+2013,data.Cubic metres,data.Educational services (except universities),13326
+2013,data.Cubic metres,data.Universities,17785
+2013,data.Cubic metres,data.Hospitals,61258
+2013,data.Cubic metres,data.Nursing and residential care facilities,2285
+2013,data.Cubic metres,data.Other federal government services,9095
+2013,data.Cubic metres,data.Other provincial and territorial government services,28060
+2013,data.Cubic metres,data.Other municipal government services,68298
+2013,data.Cubic metres,data.Other aboriginal government services,17487
+2013,data.Cubic metres,data.Households,3128899
+2015,data.Cubic metres,,36451889
+2015,data.Cubic metres,"data.Total, industries",33291291
+2015,data.Cubic metres,data.Crop production,1794775
+2015,data.Cubic metres,data.Animal production,1573015
+2015,data.Cubic metres,data.Forestry and logging,172
+2015,data.Cubic metres,"data.Fishing, hunting and trapping",
+2015,data.Cubic metres,data.Support activities for agriculture and forestry,
+2015,data.Cubic metres,data.Oil and gas extraction,371843
+2015,data.Cubic metres,data.Coal mining,62815
+2015,data.Cubic metres,data.Metal ore mining,370020
+2015,data.Cubic metres,data.Non-metallic mineral mining and quarrying,97532
+2015,data.Cubic metres,data.Support activities for mining and oil and gas extraction,29
+2015,data.Cubic metres,"data.Electric power generation, transmission and distribution",23318293
+2015,data.Cubic metres,"data.Natural gas distribution, water, sewage and other systems",1000739
+2015,data.Cubic metres,data.Residential building construction,5644
+2015,data.Cubic metres,data.Non-residential building construction,2476
+2015,data.Cubic metres,data.Transportation engineering construction,220
+2015,data.Cubic metres,data.Oil and gas engineering construction,28
+2015,data.Cubic metres,data.Electric power engineering construction,99
+2015,data.Cubic metres,data.Communication engineering construction,33
+2015,data.Cubic metres,data.Other engineering construction,91
+2015,data.Cubic metres,data.Repair construction,80
+2015,data.Cubic metres,data.Other activities of the construction industry,50
+2015,data.Cubic metres,data.Food manufacturing,306587
+2015,data.Cubic metres,data.Beverage and tobacco product manufacturing,38285
+2015,data.Cubic metres,data.Textile and textile product mills,4534
+2015,data.Cubic metres,data.Clothing and leather and allied product manufacturing,305
+2015,data.Cubic metres,data.Wood product manufacturing,30426
+2015,data.Cubic metres,data.Paper manufacturing,1512719
+2015,data.Cubic metres,data.Printing and related support activities,1156
+2015,data.Cubic metres,data.Petroleum and coal product manufacturing,220576
+2015,data.Cubic metres,data.Chemical manufacturing,525340
+2015,data.Cubic metres,data.Plastic and rubber products manufacturing,21895
+2015,data.Cubic metres,data.Non-metallic mineral product manufacturing,40929
+2015,data.Cubic metres,data.Primary metal manufacturing,905604
+2015,data.Cubic metres,data.Fabricated metal product manufacturing,9659
+2015,data.Cubic metres,data.Machinery manufacturing,3923
+2015,data.Cubic metres,data.Computer and electronic product manufacturing,3036
+2015,data.Cubic metres,data.Electrical equipment and component manufacturing,1072
+2015,data.Cubic metres,data.Transportation equipment manufacturing,30375
+2015,data.Cubic metres,data.Furniture and related product manufacturing,1215
+2015,data.Cubic metres,data.Miscellaneous manufacturing,2782
+2015,data.Cubic metres,data.Wholesale trade,62334
+2015,data.Cubic metres,data.Retail trade,51960
+2015,data.Cubic metres,data.Air transportation,2290
+2015,data.Cubic metres,data.Rail transportation,4749
+2015,data.Cubic metres,data.Water transportation,2630
+2015,data.Cubic metres,data.Truck transportation,11462
+2015,data.Cubic metres,"data.Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation",29778
+2015,data.Cubic metres,data.Pipeline transportation,5226
+2015,data.Cubic metres,data.Postal service and couriers and messengers,447
+2015,data.Cubic metres,data.Warehousing and storage,4031
+2015,data.Cubic metres,data.Motion picture and sound recording industries,2468
+2015,data.Cubic metres,data.Radio and television broadcasting,0
+2015,data.Cubic metres,"data.Publishing, pay and specialty services, telecommunications and other information services",4164
+2015,data.Cubic metres,data.Depository credit intermediation and monetary authorities,20626
+2015,data.Cubic metres,data.Insurance carriers,319
+2015,data.Cubic metres,data.Lessors of real estate,162378
+2015,data.Cubic metres,data.Owner-occupied dwellings,0
+2015,data.Cubic metres,data.Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works),5470
+2015,data.Cubic metres,"data.Other finance, insurance and real estate services and management of companies and enterprises",84408
+2015,data.Cubic metres,"data.Legal, accounting and architectural, engineering and related services",6998
+2015,data.Cubic metres,"data.Computer systems design and other professional, scientific and technical services",4185
+2015,data.Cubic metres,"data.Advertising, public relations and related services",96
+2015,data.Cubic metres,data.Administrative and support services,3131
+2015,data.Cubic metres,data.Waste management and remediation services,25935
+2015,data.Cubic metres,data.Educational services,13969
+2015,data.Cubic metres,data.Health care and social assistance,72815
+2015,data.Cubic metres,"data.Arts, entertainment and recreation",5597
+2015,data.Cubic metres,data.Accommodation and food services,57948
+2015,data.Cubic metres,data.Repair and maintenance,13432
+2015,data.Cubic metres,data.Personal services and private households,7165
+2015,data.Cubic metres,data.Professional and similar organisations,1628
+2015,data.Cubic metres,data.Repair and maintenance,0
+2015,data.Cubic metres,data.Operating supplies,0
+2015,data.Cubic metres,data.Office supplies,0
+2015,data.Cubic metres,"data.Advertising, promotion, meals, entertainment, and travel",0
+2015,data.Cubic metres,data.Transportation margins,0
+2015,data.Cubic metres,data.Non-profit education services,13282
+2015,data.Cubic metres,data.Non-profit social assistance,20625
+2015,data.Cubic metres,"data.Non-profit arts, entertainment and recreation",8811
+2015,data.Cubic metres,data.Religious organizations,46601
+2015,data.Cubic metres,data.Miscellaneous non-profit institutions serving households,101694
+2015,data.Cubic metres,data.Educational services (except universities),11672
+2015,data.Cubic metres,data.Universities,15317
+2015,data.Cubic metres,data.Hospitals,51284
+2015,data.Cubic metres,data.Nursing and residential care facilities,2036
+2015,data.Cubic metres,data.Other federal government services,7048
+2015,data.Cubic metres,data.Other provincial and territorial government services,15491
+2015,data.Cubic metres,data.Other municipal government services,55267
+2015,data.Cubic metres,data.Other aboriginal government services,16151
+2015,data.Cubic metres,data.Households,3160598
+2017,data.Cubic metres,,36812891
+2017,data.Cubic metres,"data.Total, industries",33844839
+2017,data.Cubic metres,data.Crop production,2198281
+2017,data.Cubic metres,data.Animal production,1661308
+2017,data.Cubic metres,data.Forestry and logging,332
+2017,data.Cubic metres,"data.Fishing, hunting and trapping",
+2017,data.Cubic metres,data.Support activities for agriculture and forestry,
+2017,data.Cubic metres,data.Oil and gas extraction,408859
+2017,data.Cubic metres,data.Coal mining,60729
+2017,data.Cubic metres,data.Metal ore mining,427089
+2017,data.Cubic metres,data.Non-metallic mineral mining and quarrying,100153
+2017,data.Cubic metres,data.Support activities for mining and oil and gas extraction,20
+2017,data.Cubic metres,"data.Electric power generation, transmission and distribution",23267423
+2017,data.Cubic metres,"data.Natural gas distribution, water, sewage and other systems",1058034
+2017,data.Cubic metres,data.Residential building construction,5265
+2017,data.Cubic metres,data.Non-residential building construction,1841
+2017,data.Cubic metres,data.Transportation engineering construction,195
+2017,data.Cubic metres,data.Oil and gas engineering construction,21
+2017,data.Cubic metres,data.Electric power engineering construction,92
+2017,data.Cubic metres,data.Communication engineering construction,40
+2017,data.Cubic metres,data.Other engineering construction,68
+2017,data.Cubic metres,data.Repair construction,68
+2017,data.Cubic metres,data.Other activities of the construction industry,40
+2017,data.Cubic metres,data.Food manufacturing,254807
+2017,data.Cubic metres,data.Beverage and tobacco product manufacturing,47025
+2017,data.Cubic metres,data.Textile and textile product mills,1694
+2017,data.Cubic metres,data.Clothing and leather and allied product manufacturing,554
+2017,data.Cubic metres,data.Wood product manufacturing,36967
+2017,data.Cubic metres,data.Paper manufacturing,1482778
+2017,data.Cubic metres,data.Printing and related support activities,826
+2017,data.Cubic metres,data.Petroleum and coal product manufacturing,245788
+2017,data.Cubic metres,data.Chemical manufacturing,580820
+2017,data.Cubic metres,data.Plastic and rubber products manufacturing,21468
+2017,data.Cubic metres,data.Non-metallic mineral product manufacturing,46953
+2017,data.Cubic metres,data.Primary metal manufacturing,953450
+2017,data.Cubic metres,data.Fabricated metal product manufacturing,18345
+2017,data.Cubic metres,data.Machinery manufacturing,1633
+2017,data.Cubic metres,data.Computer and electronic product manufacturing,1696
+2017,data.Cubic metres,data.Electrical equipment and component manufacturing,1955
+2017,data.Cubic metres,data.Transportation equipment manufacturing,27902
+2017,data.Cubic metres,data.Furniture and related product manufacturing,612
+2017,data.Cubic metres,data.Miscellaneous manufacturing,2951
+2017,data.Cubic metres,data.Wholesale trade,53308
+2017,data.Cubic metres,data.Retail trade,44412
+2017,data.Cubic metres,data.Air transportation,2331
+2017,data.Cubic metres,data.Rail transportation,3720
+2017,data.Cubic metres,data.Water transportation,2180
+2017,data.Cubic metres,data.Truck transportation,10410
+2017,data.Cubic metres,"data.Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation",28138
+2017,data.Cubic metres,data.Pipeline transportation,4829
+2017,data.Cubic metres,data.Postal service and couriers and messengers,391
+2017,data.Cubic metres,data.Warehousing and storage,3524
+2017,data.Cubic metres,data.Motion picture and sound recording industries,2406
+2017,data.Cubic metres,data.Radio and television broadcasting,0
+2017,data.Cubic metres,"data.Publishing, pay and specialty services, telecommunications and other information services",10616
+2017,data.Cubic metres,data.Depository credit intermediation and monetary authorities,18906
+2017,data.Cubic metres,data.Insurance carriers,290
+2017,data.Cubic metres,data.Lessors of real estate,140844
+2017,data.Cubic metres,data.Owner-occupied dwellings,0
+2017,data.Cubic metres,data.Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works),5405
+2017,data.Cubic metres,"data.Other finance, insurance and real estate services and management of companies and enterprises",73976
+2017,data.Cubic metres,"data.Legal, accounting and architectural, engineering and related services",5853
+2017,data.Cubic metres,"data.Computer systems design and other professional, scientific and technical services",3623
+2017,data.Cubic metres,"data.Advertising, public relations and related services",76
+2017,data.Cubic metres,data.Administrative and support services,2801
+2017,data.Cubic metres,data.Waste management and remediation services,26905
+2017,data.Cubic metres,data.Educational services,14001
+2017,data.Cubic metres,data.Health care and social assistance,61832
+2017,data.Cubic metres,"data.Arts, entertainment and recreation",4980
+2017,data.Cubic metres,data.Accommodation and food services,53987
+2017,data.Cubic metres,data.Repair and maintenance,12380
+2017,data.Cubic metres,data.Personal services and private households,5971
+2017,data.Cubic metres,data.Professional and similar organisations,1463
+2017,data.Cubic metres,data.Repair and maintenance,0
+2017,data.Cubic metres,data.Operating supplies,0
+2017,data.Cubic metres,data.Office supplies,0
+2017,data.Cubic metres,"data.Advertising, promotion, meals, entertainment, and travel",0
+2017,data.Cubic metres,data.Transportation margins,0
+2017,data.Cubic metres,data.Non-profit education services,12959
+2017,data.Cubic metres,data.Non-profit social assistance,18138
+2017,data.Cubic metres,"data.Non-profit arts, entertainment and recreation",6503
+2017,data.Cubic metres,data.Religious organizations,43548
+2017,data.Cubic metres,data.Miscellaneous non-profit institutions serving households,94601
+2017,data.Cubic metres,data.Educational services (except universities),10201
+2017,data.Cubic metres,data.Universities,13469
+2017,data.Cubic metres,data.Hospitals,44546
+2017,data.Cubic metres,data.Nursing and residential care facilities,1807
+2017,data.Cubic metres,data.Other federal government services,5675
+2017,data.Cubic metres,data.Other provincial and territorial government services,13891
+2017,data.Cubic metres,data.Other municipal government services,48218
+2017,data.Cubic metres,data.Other aboriginal government services,13644
+2017,data.Cubic metres,data.Households,2968052
+2013,data.Growth rate,data.Accommodation and food services,21.9
+2015,data.Growth rate,data.Accommodation and food services,-4.2
+2017,data.Growth rate,data.Accommodation and food services,-6.8
+2013,data.Growth rate,"data.Administrative and support, waste management and remediation services",36.5
+2015,data.Growth rate,"data.Administrative and support, waste management and remediation services",64.3
+2017,data.Growth rate,"data.Administrative and support, waste management and remediation services",2.2
+2013,data.Growth rate,"data.Agriculture, forestry, fishing and hunting",20.6
+2015,data.Growth rate,"data.Agriculture, forestry, fishing and hunting",52.7
+2017,data.Growth rate,"data.Agriculture, forestry, fishing and hunting",14.6
+2013,data.Growth rate,"data.Arts, entertainment and recreation",27.6
+2015,data.Growth rate,"data.Arts, entertainment and recreation",-11.9
+2017,data.Growth rate,"data.Arts, entertainment and recreation",-11
+2013,data.Growth rate,data.Construction,21.5
+2015,data.Growth rate,data.Construction,-10.3
+2017,data.Growth rate,data.Construction,-12.5
+2013,data.Growth rate,data.Educational services,5
+2015,data.Growth rate,data.Educational services,-13.4
+2017,data.Growth rate,data.Educational services,0.2
+2013,data.Growth rate,data.Finance and insurance,19.4
+2015,data.Growth rate,data.Finance and insurance,-20.4
+2017,data.Growth rate,data.Finance and insurance,-8.4
+2013,data.Growth rate,data.Government Education Services,45.2
+2015,data.Growth rate,data.Government Education Services,-13.2
+2017,data.Growth rate,data.Government Education Services,-12.3
+2013,data.Growth rate,data.Government Health Services,48.8
+2015,data.Growth rate,data.Government Health Services,-16.1
+2017,data.Growth rate,data.Government Health Services,-13.1
+2013,data.Growth rate,data.Health care and social assistance,24.8
+2015,data.Growth rate,data.Health care and social assistance,-17.6
+2017,data.Growth rate,data.Health care and social assistance,-15.1
+2013,data.Growth rate,data.Households,-10.8
+2015,data.Growth rate,data.Households,1
+2017,data.Growth rate,data.Households,-6.1
+2013,data.Growth rate,data.Information and cultural industries,37.1
+2015,data.Growth rate,data.Information and cultural industries,-27.1
+2017,data.Growth rate,data.Information and cultural industries,96.4
+2013,data.Growth rate,data.Manufacturing,4.6
+2015,data.Growth rate,data.Manufacturing,-7.7
+2017,data.Growth rate,data.Manufacturing,1.9
+2013,data.Growth rate,"data.Mining, quarrying, and oil and gas extraction",18.3
+2015,data.Growth rate,"data.Mining, quarrying, and oil and gas extraction",0.3
+2017,data.Growth rate,"data.Mining, quarrying, and oil and gas extraction",10.5
+2013,data.Growth rate,data.Miscellaneous non-profit institutions serving households,15.5
+2015,data.Growth rate,data.Miscellaneous non-profit institutions serving households,-18.5
+2017,data.Growth rate,data.Miscellaneous non-profit institutions serving households,-7
+2013,data.Growth rate,"data.Non-profit arts, entertainment and recreation",32
+2015,data.Growth rate,"data.Non-profit arts, entertainment and recreation",-23.1
+2017,data.Growth rate,"data.Non-profit arts, entertainment and recreation",-26.2
+2013,data.Growth rate,data.Non-Profit Education Services,10.3
+2015,data.Growth rate,data.Non-Profit Education Services,-15.9
+2017,data.Growth rate,data.Non-Profit Education Services,-2.4
+2013,data.Growth rate,data.Non-Profit Social Assistance,54.7
+2015,data.Growth rate,data.Non-Profit Social Assistance,-21.8
+2017,data.Growth rate,data.Non-Profit Social Assistance,-12.1
+2013,data.Growth rate,data.Other Aboriginal Government Services,-0.3
+2015,data.Growth rate,data.Other Aboriginal Government Services,-7.6
+2017,data.Growth rate,data.Other Aboriginal Government Services,-15.5
+2013,data.Growth rate,data.Other federal government services,-12.9
+2015,data.Growth rate,data.Other federal government services,-22.5
+2017,data.Growth rate,data.Other federal government services,-19.5
+2013,data.Growth rate,"data.Other finance, insurance and real estate services and management of companies and enterprises",29.9
+2015,data.Growth rate,"data.Other finance, insurance and real estate services and management of companies and enterprises",-10.1
+2017,data.Growth rate,"data.Other finance, insurance and real estate services and management of companies and enterprises",-12.4
+2013,data.Growth rate,data.Other Municipal Government Services,16.7
+2015,data.Growth rate,data.Other Municipal Government Services,-19.1
+2017,data.Growth rate,data.Other Municipal Government Services,-12.8
+2013,data.Growth rate,data.Other provincial and territorial government services,-31.4
+2015,data.Growth rate,data.Other provincial and territorial government services,-44.8
+2017,data.Growth rate,data.Other provincial and territorial government services,-10.3
+2013,data.Growth rate,data.Other services (except public administration),19.5
+2015,data.Growth rate,data.Other services (except public administration),-15.6
+2017,data.Growth rate,data.Other services (except public administration),-10.8
+2013,data.Growth rate,"data.Professional, scientific and technical services",7.1
+2015,data.Growth rate,"data.Professional, scientific and technical services",-20.2
+2017,data.Growth rate,"data.Professional, scientific and technical services",-15.3
+2013,data.Growth rate,data.Real estate and rental and leasing,20.2
+2015,data.Growth rate,data.Real estate and rental and leasing,-14.7
+2017,data.Growth rate,data.Real estate and rental and leasing,-12.9
+2013,data.Growth rate,data.Religious organizations,27.5
+2015,data.Growth rate,data.Religious organizations,-29.6
+2017,data.Growth rate,data.Religious organizations,-6.6
+2013,data.Growth rate,data.Retail trade,32.1
+2015,data.Growth rate,data.Retail trade,-13.1
+2017,data.Growth rate,data.Retail trade,-14.5
+2013,data.Growth rate,"data.Total, industries",7.2
+2015,data.Growth rate,"data.Total, industries",-3
+2017,data.Growth rate,"data.Total, industries",1.7
+2013,data.Growth rate,,5.4
+2015,data.Growth rate,,-2.7
+2017,data.Growth rate,,1
+2013,data.Growth rate,data.Transportation and warehousing,23.2
+2015,data.Growth rate,data.Transportation and warehousing,-1.5
+2017,data.Growth rate,data.Transportation and warehousing,-8.4
+2013,data.Growth rate,data.Utilities,5.7
+2015,data.Growth rate,data.Utilities,-6.6
+2017,data.Growth rate,data.Utilities,0
+2013,data.Growth rate,data.Wholesale trade,31.8
+2015,data.Growth rate,data.Wholesale trade,-17.4
+2017,data.Growth rate,data.Wholesale trade,-14.5
