@@ -44,7 +44,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, all violations",
                 "Homicide",
                 "Total other violations causing death",
                 "Attempted murder",
@@ -58,6 +57,7 @@
                 "Total robbery",
                 "Uttering threats",
                 "Total other violent violations",
+                "Total, all violations",
                 ""
               ]
             },

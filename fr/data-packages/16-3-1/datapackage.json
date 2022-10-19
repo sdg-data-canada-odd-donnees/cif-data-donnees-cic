@@ -44,7 +44,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total des infractions",
                 "Homicide",
                 "Total des autres infractions entraînant la mort",
                 "Tentative de meurtre",
@@ -58,6 +57,7 @@
                 "Total des vols qualifiés",
                 "Menaces",
                 "Total des autres infractions avec violence",
+                "Total des infractions",
                 ""
               ]
             },
