@@ -19,6 +19,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Cubic metres",
                 "data.Growth rate",
                 ""
               ]
@@ -29,38 +30,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Accommodation and food services",
-                "data.Administrative and support, waste management and remediation services",
-                "data.Agriculture, forestry, fishing and hunting",
-                "data.Arts, entertainment and recreation",
-                "data.Construction",
-                "data.Educational services",
-                "data.Finance and insurance",
-                "data.Government Education Services",
-                "data.Government Health Services",
-                "data.Health care and social assistance",
                 "data.Households",
-                "data.Information and cultural industries",
-                "data.Manufacturing",
-                "data.Mining, quarrying, and oil and gas extraction",
-                "data.Miscellaneous non-profit institutions serving households",
-                "data.Non-profit arts, entertainment and recreation",
-                "data.Non-Profit Education Services",
-                "data.Non-Profit Social Assistance",
-                "data.Other Aboriginal Government Services",
-                "data.Other federal government services",
-                "data.Other finance, insurance and real estate services and management of companies and enterprises",
-                "data.Other Municipal Government Services",
-                "data.Other provincial and territorial government services",
-                "data.Other services (except public administration)",
-                "data.Professional, scientific and technical services",
-                "data.Real estate and rental and leasing",
-                "data.Religious organizations",
-                "data.Retail trade",
-                "data.Total, industries",
-                "data.Transportation and warehousing",
-                "data.Utilities",
-                "data.Wholesale trade",
+                "data.Industries",
                 ""
               ]
             }

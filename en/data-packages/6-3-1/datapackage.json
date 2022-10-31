@@ -20,6 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Cubic metres",
                 "Growth rate",
                 ""
               ]
@@ -31,38 +32,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Accommodation and food services",
-                "Administrative and support, waste management and remediation services",
-                "Agriculture, forestry, fishing and hunting",
-                "Arts, entertainment and recreation",
-                "Construction",
-                "Educational services",
-                "Finance and insurance",
-                "Government Education Services",
-                "Government Health Services",
-                "Health care and social assistance",
                 "Households",
-                "Information and cultural industries",
-                "Manufacturing",
-                "Mining, quarrying, and oil and gas extraction",
-                "Miscellaneous non-profit institutions serving households",
-                "Non-profit arts, entertainment and recreation",
-                "Non-Profit Education Services",
-                "Non-Profit Social Assistance",
-                "Other Aboriginal Government Services",
-                "Other federal government services",
-                "Other finance, insurance and real estate services and management of companies and enterprises",
-                "Other Municipal Government Services",
-                "Other provincial and territorial government services",
-                "Other services (except public administration)",
-                "Professional, scientific and technical services",
-                "Real estate and rental and leasing",
-                "Religious organizations",
-                "Retail trade",
-                "Total, industries",
-                "Transportation and warehousing",
-                "Utilities",
-                "Wholesale trade",
+                "Industries",
                 ""
               ]
             },

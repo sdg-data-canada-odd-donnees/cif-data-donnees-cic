@@ -20,6 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Mètres cubes",
                 "Taux de croissance",
                 ""
               ]
@@ -31,38 +32,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Hébergement et services de restauration",
-                "Services administratifs, services de soutien, services de gestion des déchets et services d'assainissement",
-                "Agriculture, foresterie, pêche et chasse",
-                "Arts, spectacles et loisirs",
-                "Construction",
-                "Services d'enseignement",
-                "Service financier et assurance",
-                "Services d'éducation gouvernementaux",
-                "Services de soins de santé du gouvernement",
-                "Soins de santé et assistance sociale",
                 "Ménages",
-                "Industries d'information et de culture",
-                "Fabrication",
-                "Extraction minière et de pétrole et de gaz",
-                "Diverses institutions sans but lucratif au service des ménages",
-                "Arts, spectacles et loisirs sans but lucratif",
-                "Services d'enseignement sans but lucratif",
-                "Services de bien-être sans but lucratif",
-                "Autres services des administrations publiques autochtones",
-                "Autres services de l'administration publique fédérale",
-                "Autres services de finances, d'assurances et immobiliers, et gestion de sociétés et d'entreprises",
-                "Autres services des administrations publiques municipales",
-                "Autres services des administrations publiques provinciales et territoriales",
-                "Autres services (sauf administration publique)",
-                "Services professionnels, scientifiques et techniques",
-                "Immobilier et service de location",
-                "Organismes religieux",
-                "Commerce de détail",
-                "Total, industries",
-                "Transport et entreposage",
-                "Services utilitaires",
-                "Commerce de gros",
+                "Industries",
                 ""
               ]
             },
