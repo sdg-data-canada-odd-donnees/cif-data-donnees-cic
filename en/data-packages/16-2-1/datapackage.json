@@ -44,10 +44,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Crime severity index",
                 "Violent crime severity index",
                 "Youth crime severity index",
                 "Youth violent crime severity index",
+                "Crime severity index",
                 ""
               ]
             },

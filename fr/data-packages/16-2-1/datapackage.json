@@ -44,10 +44,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Indice de gravité de la criminalité",
                 "Indice des crimes avec violence",
                 "Indice de gravité de la criminalité chez les jeunes",
                 "Indice des crimes avec violence chez les jeunes",
+                "Indice de gravité de la criminalité",
                 ""
               ]
             },
