@@ -75,8 +75,7 @@ def update_progress_status(progress_dict, indicator_id):
 
 indicator_ids = get_indicator_ids()
 # TEMP ----
-# indicator_ids = indicator_ids[0:10]
-# print(indicator_ids)
+# indicator_ids = ['2-1-1', '3-1-1', '11-6-1']
 # ----
 
 for ind_id in indicator_ids:
@@ -96,13 +95,13 @@ for ind_id in indicator_ids:
 
         # Update progress status field in meta
         progress_dict = {'progress_status': progress}
-        update_progress_status(progress_dict, ind_id)
+        # update_progress_status(progress_dict, ind_id)
+        print(progress_dict)
 
-# 6.3.1 complex result ----
-# TODO: Handle complex outcomes!
-# test_ind = merge_indicator('6-3-1')
+# individal calculations result ----
+# test_ind = merge_indicator('14-2-1')
 # test_data = pm.data_progress_measure(test_ind['data'])
 # print(test_data)
-# val = pm.growth_calculation(1.0, -2.7, 2017, 2015)
-# print(val)
-# print(type(val))
+# val1 = pm.growth_calculation(98.33, 95.60, 2020, 2016)
+# print(val1)
+# print(pm.measure_indicator_progress(test_ind))
