@@ -75,7 +75,7 @@ def update_progress_status(progress_dict, indicator_id):
 
 indicator_ids = get_indicator_ids()
 # TEMP ----
-# indicator_ids = ['2-1-1', '3-1-1', '11-6-1']
+# indicator_ids = ['16-2-1']
 # ----
 
 for ind_id in indicator_ids:
@@ -95,7 +95,7 @@ for ind_id in indicator_ids:
 
         # Update progress status field in meta
         progress_dict = {'progress_status': progress}
-        # update_progress_status(progress_dict, ind_id)
+        update_progress_status(progress_dict, ind_id)
         print(progress_dict)
 
 # individal calculations result ----
