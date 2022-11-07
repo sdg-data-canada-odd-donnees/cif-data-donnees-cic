@@ -16,22 +16,22 @@
             "title": "Année"
           },
           {
-            "name": "data.Selected housing vulnerable populations",
+            "name": "data.Select housing-vulnerable populations",
             "type": "string",
             "constraints": {
               "enum": [
                 "Tous les ménages",
-                "Tous les ménages",
-                "Ménages comptant une famille monoparentale dont la personne de référence est un homme",
-                "Ménages comptant une famille monoparentale dont la personne de référence est une femme",
-                "Total, ménages comptant une personne seule",
-                "Hommes vivant seuls",
-                "Femmes vivant seules",
-                "Personne de référence qui a vécu une période d’itinérance",
+                "Total, ménages comptant une seule famille monoparentale",
+                "Ménages comptant une seule famille monoparentale dont la personne de référence est un homme+",
+                "Ménages comptant une seule famille monoparentale dont la personne de référence est une femme+",
+                "Total, ménages composés d'une seule personne",
+                "Hommes+ vivant seuls",
+                "Femmes+ vivant seules",
+                "Personnes de référence qui ont vécu une période d'itinérance",
                 ""
               ]
             },
-            "title": "Certaines population vulnérables en matière de logement"
+            "title": "Certaines populations vulnérables en matière de logement"
           },
           {
             "name": "data.Living with housing problems",

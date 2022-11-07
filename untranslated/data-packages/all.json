@@ -2803,18 +2803,18 @@
             "type": "integer"
           },
           {
-            "name": "data.Selected housing vulnerable populations",
+            "name": "data.Select housing-vulnerable populations",
             "type": "string",
             "constraints": {
               "enum": [
                 "data.All households",
-                "data.Total, lone-parent family households",
-                "data.Lone-parent family households whose reference person is male",
-                "data.Lone-parent family households whose reference person is female",
-                "data.Total, one person households",
-                "data.Men living alone",
-                "data.Women living alone",
-                "data.Reference person who experienced homelessness",
+                "data.Total, one-parent one-family households",
+                "data.One-parent one-family households whose reference person is a man+",
+                "data.One-parent one-family households whose reference person is a woman+",
+                "data.Total, one-person households",
+                "data.Men+ living alone",
+                "data.Women+ living alone",
+                "data.Reference persons who have experienced homelessness",
                 ""
               ]
             }

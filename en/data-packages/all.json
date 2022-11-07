@@ -3003,22 +3003,22 @@
             "title": "Year"
           },
           {
-            "name": "data.Selected housing vulnerable populations",
+            "name": "data.Select housing-vulnerable populations",
             "type": "string",
             "constraints": {
               "enum": [
                 "All households",
-                "Total, lone-parent family households",
-                "Lone-parent family households whose reference person is male",
-                "Lone-parent family households whose reference person is female",
-                "Total, one person households",
-                "Men living alone",
-                "Women living alone",
-                "Reference person who experienced homelessness",
+                "Total, one-parent one-family households",
+                "One-parent one-family households whose reference person is a man+",
+                "One-parent one-family households whose reference person is a woman+",
+                "Total, one-person households",
+                "Men+ living alone",
+                "Women+ living alone",
+                "Reference persons who have experienced homelessness",
                 ""
               ]
             },
-            "title": "Selected housing vulnerable populations"
+            "title": "Select housing-vulnerable populations"
           },
           {
             "name": "data.Living with housing problems",
