@@ -109,3 +109,9 @@ venv.bak/
 
 # PyCharm project settings
 .idea
+
+# RStudio project settings
+*.RData
+*.Rhistory
+*.Rproj.user
+*.Rproj
