@@ -106,3 +106,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# PyCharm project settings
+*.idea
+
+# R project settings
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Rproj
+.Rproj.user

@@ -14,3 +14,12 @@ disaggregation_status_notstarted: 'Non désagrégé'
 disaggregation_status_notapplicable: 'Hors champ'
 disaggregation_status_by_field: 'Désagrégation par % de champ'
 not_specified: Non spécifié
+
+substantial_progress: Progrès substantiel
+moderate_progress: Progrès modéré
+negligible_progress: Progrès négligeable
+deterioration: Détérioration
+moderate_deterioration: Détérioration modérée
+significant_deterioration: Détérioration importante
+progress_not_available: Pas disponible
+progress-header: <strong>État du progrès</strong>
