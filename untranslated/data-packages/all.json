@@ -2803,7 +2803,7 @@
             "type": "integer"
           },
           {
-            "name": "data.Select housing-vulnerable populations",
+            "name": "data.Select housing vulnerable populations",
             "type": "string",
             "constraints": {
               "enum": [
