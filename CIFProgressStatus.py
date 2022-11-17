@@ -71,12 +71,9 @@ def update_progress_status(progress_dict, indicator_id):
     meta = yamlmd.read_yamlmd(filepath)
     meta[0].update(progress_dict)
     write_meta_md(meta, indicator_id)
-
+    
 
 indicator_ids = get_indicator_ids()
-# TEMP ----
-# indicator_ids = ['16-2-1']
-# ----
 
 for ind_id in indicator_ids:
     # Uncomment to turn on ALL indicator calculation
