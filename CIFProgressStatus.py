@@ -73,27 +73,28 @@ def update_progress_status(progress_dict, indicator_id):
     write_meta_md(meta, indicator_id)
     
 
-indicator_ids = get_indicator_ids()
+# indicator_ids = get_indicator_ids()
 
-for ind_id in indicator_ids:
-    # Uncomment to turn on ALL indicator calculation
-    # turn_on_progress_calc(ind_id)
-
-    # Get data + metadata for calculation
-    indicator = merge_indicator(ind_id)
-    if indicator is not None:
-        # Run data + metadata through calculation to get progress
-        progress = pm.measure_indicator_progress(indicator)
-
-        if progress is None:
-            progress = 'not_available'
-
-        print(ind_id + ': ' + progress)
-
-        # Update progress status field in meta
-        progress_dict = {'progress_status': progress}
-        update_progress_status(progress_dict, ind_id)
-        print(progress_dict)
+# TODO: if auto prog is OFF, shouldn't calculate!!!!!!!!!
+# for ind_id in indicator_ids:
+#     # Uncomment to turn on ALL indicator calculation
+#     # turn_on_progress_calc(ind_id)
+#
+#     # Get data + metadata for calculation
+#     indicator = merge_indicator(ind_id)
+#     if indicator is not None:
+#         # Run data + metadata through calculation to get progress
+#         progress = pm.measure_indicator_progress(indicator)
+#
+#         if progress is None:
+#             progress = 'not_available'
+#
+#         print(ind_id + ': ' + progress)
+#
+#         # Update progress status field in meta
+#         progress_dict = {'progress_status': progress}
+#         # update_progress_status(progress_dict, ind_id)
+#         print(progress_dict)
 
 # individal calculations result ----
 # test_ind = merge_indicator('14-2-1')
