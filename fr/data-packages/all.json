@@ -3480,13 +3480,13 @@
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
                 "Québec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
+                "Nouveau-Brunswick",
                 ""
               ]
             },
@@ -4249,7 +4249,7 @@
                 "Total des vols qualifiés",
                 "Menaces",
                 "Total des autres infractions avec violence",
-                "Total des infractions",
+                "Total des infractions de violence prévues au Code criminel",
                 ""
               ]
             },
@@ -4257,7 +4257,7 @@
           },
           {
             "name": "GeoCode",
-            "type": "string",
+            "type": "number",
             "title": "GeoCode"
           },
           {

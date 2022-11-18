@@ -57,7 +57,7 @@
                 "Total des vols qualifiés",
                 "Menaces",
                 "Total des autres infractions avec violence",
-                "Total des infractions",
+                "Total des infractions de violence prévues au Code criminel",
                 ""
               ]
             },
@@ -65,7 +65,7 @@
           },
           {
             "name": "GeoCode",
-            "type": "string",
+            "type": "number",
             "title": "GeoCode"
           },
           {

@@ -3248,13 +3248,13 @@
                 "data.Newfoundland and Labrador",
                 "data.Prince Edward Island",
                 "data.Nova Scotia",
-                "data.New Brunswick",
                 "data.Quebec",
                 "data.Ontario",
                 "data.Manitoba",
                 "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
+                "data.New Brunswick",
                 ""
               ]
             }
@@ -3967,14 +3967,14 @@
                 "data.Total robbery [160]",
                 "data.Uttering threats [1627]",
                 "data.Total other violent violations [180]",
-                "data.Total, all violations [0]",
+                "data.Total violent Criminal Code violations [100]",
                 ""
               ]
             }
           },
           {
             "name": "GeoCode",
-            "type": "string"
+            "type": "number"
           },
           {
             "name": "Value",

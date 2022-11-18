@@ -57,7 +57,7 @@
                 "Total robbery",
                 "Uttering threats",
                 "Total other violent violations",
-                "Total, all violations",
+                "Total violent Criminal Code violations",
                 ""
               ]
             },
@@ -65,7 +65,7 @@
           },
           {
             "name": "GeoCode",
-            "type": "string",
+            "type": "number",
             "title": "GeoCode"
           },
           {

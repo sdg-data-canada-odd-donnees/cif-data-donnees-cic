@@ -55,14 +55,14 @@
                 "data.Total robbery [160]",
                 "data.Uttering threats [1627]",
                 "data.Total other violent violations [180]",
-                "data.Total, all violations [0]",
+                "data.Total violent Criminal Code violations [100]",
                 ""
               ]
             }
           },
           {
             "name": "GeoCode",
-            "type": "string"
+            "type": "number"
           },
           {
             "name": "Value",
