@@ -21,6 +21,7 @@ on:
       - develop
 
 jobs:
+# TODO: Add a "need" parameter to indicate that data update needs to be ran first
   build:
 
     runs-on: ubuntu-latest
