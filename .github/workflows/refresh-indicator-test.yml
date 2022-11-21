@@ -26,32 +26,21 @@ jobs:
     runs-on: windows-2019
     
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up R
-        uses: r-lib/actions/setup-r@v2
-        with: 
-          r-version: [4.1.3]
-      
-      # TODO: Cache R packages
-      # - name: Cache R packages
-      #   id: cache
-      #   uses: actions/cache@v2
-      #   with:
-      #     path: ${{ env.R_LIBS_USER }}
-      #     key: ${{ runner.os }}-shinydoc
-      #     restore-keys: |
-      #       ${{ runner.os }}-
-            
-      - name: Install dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          install.packages(c("dplyr", "readr", "cansim"))
-        shell: Rscript {0}
-  
-  
-      - name: Updating data and cleaning 
-        run: |
-          source('scripts/indicator_9-5-1.R')
-        shell: Rscript {0}
+    - uses: actions/checkout@develop
+    - name: Set up R
+      uses: r-lib/actions/setup-r@v2
+      with: 
+        r-version: [4.1.3]
+
+    - name: Install dependencies
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: |
+        install.packages(c("dplyr", "readr", "cansim"))
+      shell: Rscript {0}
+
+    - name: Updating data and cleaning 
+      run: |
+        source('scripts/indicator_9-5-1.R')
+      shell: Rscript {0}
 
 
