@@ -4,5 +4,3 @@ Repository is forked from CIF data repo to test the automation of indicators fed
 
 ### Author  
 Maia Pelletier (maia.pelletier@statcan.gc.ca)
-
-
