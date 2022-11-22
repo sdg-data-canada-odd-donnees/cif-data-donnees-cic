@@ -1,15 +1,15 @@
 # ****************************************************************************
 # NOTES:
 #
-# In order for this to work, you must replace STAGING_ORGANISATION below
-# with the name of your staging GitHub organisation, in line 53.
-# You must also replace STAGING_SITE_REPOSITORY below with the name of your
-# staging site repository.
+# Testing workflow for updating data in data repository.
 #
-# For example, if your staging organisation is "my-sdg-staging-org", and your
-# staging site repository is "open-sdg-site-starter", then use:
+# TODO: Have data update to a specific data-update branch, so we can review  
+# the data updates before merging to dev branch.
 #
-# curl -X POST https://api.github.com/repos/my-sdg-staging-org/open-sdg-site-starter/dispatches
+# TODO: schedule updates for every week
+#
+# TODO: check if any files changed in repo when update runs and only commit/
+# push if there were changes
 #
 # ****************************************************************************
 
@@ -51,7 +51,7 @@ jobs:
 
     - name: Updating data and cleaning 
       run: |
-        source('scripts/indicator_9-5-1.R')
+        source('scripts/R/indicator_9-5-1.R')
       shell: Rscript {0}
 
     - name: Commit files

@@ -65,6 +65,7 @@ for (file in automation_scripts) {
     required_updates <- c(required_updates, indicator)
     # TODO: after this, updates need to be ran for any indicator listed
     # in the required updates vector
+    source(paste0("scripts/R/", indicator))
     
   }
   
