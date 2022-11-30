@@ -18,7 +18,7 @@ name: Data update
 on:
   push:
     branches:
-      - develop
+      - data-update
 
 jobs:
   data-update:
