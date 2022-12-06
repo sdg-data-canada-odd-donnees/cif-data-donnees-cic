@@ -97,9 +97,7 @@ def update_progress_status(progress_dict, indicator_id):
 #         print(progress_dict)
 
 # individal calculations result ----
-# test_ind = merge_indicator('14-2-1')
+# test_ind = merge_indicator('12-2-1')
 # test_data = pm.data_progress_measure(test_ind['data'])
 # print(test_data)
-# val1 = pm.growth_calculation(98.33, 95.60, 2020, 2016)
-# print(val1)
 # print(pm.measure_indicator_progress(test_ind))
