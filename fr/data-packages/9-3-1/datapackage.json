@@ -16,19 +16,47 @@
             "title": "Année"
           },
           {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Nouveau-Brunswick",
+                "Colombie-Britannique",
+                "Québec",
+                "Nouvelle-Écosse",
+                "Saskatchewan",
+                "Ontario",
+                "Manitoba",
+                "Île-du-Prince-Édouard",
+                "Territoires du Nord-Ouest",
+                "Alberta",
+                "Terre-Neuve-et-Labrador",
+                "Yukon",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
             "name": "data.Population centres",
             "type": "string",
             "constraints": {
               "enum": [
                 "Réserves des Premières Nations",
-                "Grands centres de population",
-                "Moyens centres de population",
+                "data.First Nations reserves Urban centres",
+                "data.First Nations reserves Rural areas",
+                "Régions urbaines",
                 "Régions rurales",
-                "Petits centres de population",
                 ""
               ]
             },
             "title": "Centres de population"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

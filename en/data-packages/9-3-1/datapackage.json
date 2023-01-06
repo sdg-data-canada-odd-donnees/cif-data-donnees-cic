@@ -16,19 +16,47 @@
             "title": "Year"
           },
           {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "New Brunswick",
+                "British Columbia",
+                "Quebec",
+                "Nova Scotia",
+                "Saskatchewan",
+                "Ontario",
+                "Manitoba",
+                "Prince Edward Island",
+                "Northwest Territories",
+                "Alberta",
+                "Newfoundland and Labrador",
+                "Yukon",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
             "name": "data.Population centres",
             "type": "string",
             "constraints": {
               "enum": [
                 "First Nations reserves",
-                "Large population centres",
-                "Medium population centres",
+                "data.First Nations reserves Urban centres",
+                "data.First Nations reserves Rural areas",
+                "Urban centres",
                 "Rural areas",
-                "Small population centres",
                 ""
               ]
             },
             "title": "Population centres"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

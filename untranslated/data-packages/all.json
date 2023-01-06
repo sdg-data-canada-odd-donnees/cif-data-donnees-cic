@@ -3673,18 +3673,44 @@
             "type": "integer"
           },
           {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.New Brunswick",
+                "data.British Columbia",
+                "data.Quebec",
+                "data.Nova Scotia",
+                "data.Saskatchewan",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Prince Edward Island",
+                "data.Northwest Territories",
+                "data.Alberta",
+                "data.Newfoundland and Labrador",
+                "data.Yukon",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
             "name": "data.Population centres",
             "type": "string",
             "constraints": {
               "enum": [
                 "data.First Nations reserves",
-                "data.Large population centres",
-                "data.Medium population centres",
+                "data.First Nations reserves Urban centres",
+                "data.First Nations reserves Rural areas",
+                "data.Urban centres",
                 "data.Rural areas",
-                "data.Small population centres",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
