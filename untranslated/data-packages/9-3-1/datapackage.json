@@ -19,6 +19,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Canada",
                 "data.New Brunswick",
                 "data.British Columbia",
                 "data.Quebec",
