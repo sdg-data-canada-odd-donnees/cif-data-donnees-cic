@@ -59,6 +59,7 @@
                 "Grades 10-12",
                 "Secondary I-III",
                 "Secondary IV-V",
+                "data.Grades 6-9",
                 ""
               ]
             },
@@ -76,6 +77,11 @@
               ]
             },
             "title": "Type of e-cigarettes"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

@@ -56,6 +56,7 @@
                 "data.Grades 10-12",
                 "data.Secondary I-III",
                 "data.Secondary IV-V",
+                "data.Grades 6-9",
                 ""
               ]
             }
@@ -71,6 +72,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
