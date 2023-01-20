@@ -3,6 +3,512 @@
   "title": "All indicators",
   "resources": [
     {
+      "path": "9-5-1/data.csv",
+      "name": "9-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Asset",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Commercial buildings",
+                "data.Institutional buildings",
+                "data.Marine engineering infrastructure",
+                "data.Transportation engineering infrastructure",
+                "data.Waterworks infrastructure",
+                "data.Sewage infrastructure",
+                "data.Communications networks",
+                "data.Electric power infrastructure",
+                "data.Oil and gas engineering construction",
+                "data.Other engineering construction",
+                "data.Other machinery and equipment",
+                "data.Transportation machinery and equipment",
+                "data.Total assets",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Greenhouse gas emissions per dollar of value-added from the production of infrastructure assets"
+    },
+    {
+      "path": "13-2-1/data.csv",
+      "name": "13-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Event type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Biological",
+                "data.Geological",
+                "data.Meteorological - Hydrological",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Event sub-type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Epidemic",
+                "data.Earthquake",
+                "data.Flood",
+                "data.Hurricane / Typhoon / Tropical Storm",
+                "data.Storm - Unspecified / Other",
+                "data.Storm Surge",
+                "data.Storms and Severe Thunderstorms",
+                "data.Tornado",
+                "data.Wildfire",
+                "data.Winter Storm",
+                "data.Landslide",
+                "data.Heat Event",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Frequency of selected natural disasters"
+    },
+    {
+      "path": "11-3-1/data.csv",
+      "name": "11-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Percentage of the population living in areas where air pollutants concentrations are less or equal to the 2020 Canadian Ambient Air Quality Standards"
+    },
+    {
+      "path": "6-1-1/data.csv",
+      "name": "6-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Alberta",
+                "data.Atlantic",
+                "data.British Columbia",
+                "data.Manitoba",
+                "data.Ontario",
+                "data.Quebec",
+                "data.Saskatchewan",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Number of long-term drinking water advisories on public systems on reserves"
+    },
+    {
+      "path": "11-5-1/data.csv",
+      "name": "11-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Newfoundland and Labrador",
+                "data.St. John's, Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.Halifax, Nova Scotia",
+                "data.New Brunswick",
+                "data.Moncton, New Brunswick",
+                "data.Saint John, New Brunswick",
+                "data.Quebec",
+                "data.Montreal, Quebec",
+                "data.Ottawa - Gatineau (Quebec part), Quebec",
+                "data.Quebec, Quebec",
+                "data.Saguenay, Quebec",
+                "data.Sherbrooke, Quebec",
+                "data.Trois-Rivieres, Quebec",
+                "data.Ontario",
+                "data.Barrie, Ontario",
+                "data.Belleville, Ontario",
+                "data.Brantford, Ontario",
+                "data.Greater Sudbury / Grand Sudbury, Ontario",
+                "data.Guelph, Ontario",
+                "data.Hamilton, Ontario",
+                "data.Kingston, Ontario",
+                "data.Kitchener - Cambridge - Waterloo, Ontario",
+                "data.London, Ontario",
+                "data.Oshawa, Ontario",
+                "data.Ottawa - Gatineau (Ontario part), Ontario",
+                "data.Peterborough, Ontario",
+                "data.St. Catharines - Niagara, Ontario",
+                "data.Thunder Bay, Ontario",
+                "data.Toronto, Ontario",
+                "data.Windsor, Ontario",
+                "data.Manitoba",
+                "data.Winnipeg, Manitoba",
+                "data.Saskatchewan",
+                "data.Regina, Saskatchewan",
+                "data.Saskatoon, Saskatchewan",
+                "data.Alberta",
+                "data.Calgary, Alberta",
+                "data.Edmonton, Alberta",
+                "data.Lethbridge, Alberta",
+                "data.British Columbia",
+                "data.Abbotsford - Mission, British Columbia",
+                "data.Kelowna, British Columbia",
+                "data.Vancouver, British Columbia",
+                "data.Victoria, British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Type of commute",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Public transit",
+                "data.Active transport",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Percentage  of the population using shared or active transportation for commuting"
+    },
+    {
+      "path": "9-6-1/data.csv",
+      "name": "9-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "data.Type of charging stations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Electric",
+                "data.Natural gas",
+                "data.Hydrogen",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Number of low carbon recharging and refueling stations under development and completed along major highways, and in rural and urban areas across Canada"
+    },
+    {
+      "path": "9-3-1/data.csv",
+      "name": "9-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.New Brunswick",
+                "data.British Columbia",
+                "data.Quebec",
+                "data.Nova Scotia",
+                "data.Saskatchewan",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Prince Edward Island",
+                "data.Northwest Territories",
+                "data.Alberta",
+                "data.Newfoundland and Labrador",
+                "data.Yukon",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Population centres",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.First Nations reserves",
+                "data.First Nations reserves Urban centres",
+                "data.First Nations reserves Rural areas",
+                "data.Urban centres",
+                "data.Rural areas",
+                "data.Total population centre",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps"
+    },
+    {
+      "path": "4-1-1/data.csv",
+      "name": "4-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Both sexes",
+                "data.Males",
+                "data.Females",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, persons aged 15 years and over",
+                "data.15 to 24 years",
+                "data.25 to 64 years",
+                "data.65 to 74 years",
+                "data.75 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Selected demographic characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Non immigrants",
+                "data.Immigrants",
+                "data.Non-permanent residents",
+                "data.Total visible minority population",
+                "data.Not a visible minority",
+                "data.Total Aboriginal identity",
+                "data.First Nations (North American Indian)",
+                "data.Métis",
+                "data.Inuk (Inuit)",
+                "data.Non-Aboriginal identity",
+                "data.Total, all persons",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "High school completion rate"
+    },
+    {
+      "path": "9-7-1/data.csv",
+      "name": "9-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Number of low carbon recharging and refueling stations under development and completed in public places, on-street, at apartment buildings, retail outlets, and the workplace"
+    },
+    {
+      "path": "14-1-1/data.csv",
+      "name": "14-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of marine and coastal areas conserved"
+    },
+    {
       "path": "3-9-1/data.csv",
       "name": "3-9-1",
       "profile": "tabular-data-resource",
@@ -42,148 +548,6 @@
         ]
       },
       "title": "Incidence of selected diseases"
-    },
-    {
-      "path": "3-6-1/data.csv",
-      "name": "3-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, 12 years and over",
-                "data.12 to 17 years",
-                "data.18 to 34 years",
-                "data.35 to 49 years",
-                "data.50 to 64 years",
-                "data.65 years and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Males",
-                "data.Females",
-                "data.Both sexes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Percentage of Canadians who perceived their overall health and social well-being as very good to excellent"
-    },
-    {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age group and family type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Persons all ages and family types",
-                "data.Persons under 18 years old",
-                "data.Persons 18 to 64 years old",
-                "data.Persons 65 years and older",
-                "data.Persons in an economic family",
-                "data.Persons in a couple only family",
-                "data.Persons in a couple with children family",
-                "data.Persons in a lone-parent family",
-                "data.Persons in an other economic family type",
-                "data.Persons not in an economic family",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Statistics",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Asset resilient for at least one month",
-                "data.Asset resilient for at least six months",
-                "data.Asset resilient for at least three months",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Prevalence of asset resilience"
     },
     {
       "path": "3-8-1/data.csv",
@@ -279,891 +643,6 @@
         ]
       },
       "title": "Vaccination rates for selected diseases"
-    },
-    {
-      "path": "9-3-1/data.csv",
-      "name": "9-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.New Brunswick",
-                "data.British Columbia",
-                "data.Quebec",
-                "data.Nova Scotia",
-                "data.Saskatchewan",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Prince Edward Island",
-                "data.Northwest Territories",
-                "data.Alberta",
-                "data.Newfoundland and Labrador",
-                "data.Yukon",
-                "data.Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Population centres",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.First Nations reserves",
-                "data.First Nations reserves Urban centres",
-                "data.First Nations reserves Rural areas",
-                "data.Urban centres",
-                "data.Rural areas",
-                "data.Total population centre",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps"
-    },
-    {
-      "path": "9-4-1/data.csv",
-      "name": "9-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.British Columbia",
-                "data.Alberta",
-                "data.Saskatchewan",
-                "data.Manitoba",
-                "data.Ontario",
-                "data.Quebec",
-                "data.New Brunswick",
-                "data.Nova Scotia",
-                "data.Prince Edward Island",
-                "data.Newfoundland and Labrador",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Population centres",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Urban centres",
-                "data.Rural communities",
-                "data.Major roads and highways",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of Canadians that have access to the latest generally deployed mobile wireless technology"
-    },
-    {
-      "path": "8-3-1/data.csv",
-      "name": "8-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, 15 to 29 years",
-                "data.15 to 19 years",
-                "data.15 to 24 years",
-                "data.18 to 24 years",
-                "data.20 to 24 years",
-                "data.25 to 29 years",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Males",
-                "data.Females",
-                "data.Both sexes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of youth not in education, employment or training"
-    },
-    {
-      "path": "7-1-1/data.csv",
-      "name": "7-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Annual energy savings resulting from adoption of energy efficiency codes, standards and practices"
-    },
-    {
-      "path": "13-2-1/data.csv",
-      "name": "13-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Event type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Biological",
-                "data.Geological",
-                "data.Meteorological - Hydrological",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Event sub-type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Epidemic",
-                "data.Earthquake",
-                "data.Flood",
-                "data.Hurricane / Typhoon / Tropical Storm",
-                "data.Storm - Unspecified / Other",
-                "data.Storm Surge",
-                "data.Storms and Severe Thunderstorms",
-                "data.Tornado",
-                "data.Wildfire",
-                "data.Winter Storm",
-                "data.Landslide",
-                "data.Heat Event",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Frequency of selected natural disasters"
-    },
-    {
-      "path": "10-3-1/data.csv",
-      "name": "10-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Type of work",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Both full- and part-time employees",
-                "data.Full-time employees",
-                "data.Part-time employees",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.National Occupational Classification (NOC)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total employees, all occupations",
-                "data.Management occupations [0]",
-                "data.Business, finance and administration occupations [1]",
-                "data.Natural and applied sciences and related occupations [2]",
-                "data.Health occupations [3]",
-                "data.Occupations in education, law and social, community and government services [4]",
-                "data.Occupations in art, culture, recreation and sport [5]",
-                "data.Sales and service occupations [6]",
-                "data.Trades, transport and equipment operators and related occupations [7]",
-                "data.Natural resources, agriculture and related production occupations [8]",
-                "data.Occupations in manufacturing and utilities [9]",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.15 to 24 years",
-                "data.25 to 54 years",
-                "data.55 years and over",
-                "data.15 years and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Median hourly wage ratio"
-    },
-    {
-      "path": "11-3-1/data.csv",
-      "name": "11-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Percentage of the population living in areas where air pollutants concentrations are less or equal to the 2020 Canadian Ambient Air Quality Standards"
-    },
-    {
-      "path": "8-4-1/data.csv",
-      "name": "8-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Nova Scotia",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Both sexes",
-                "data.Females",
-                "data.Males",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.15 to 24 years",
-                "data.15 years and over",
-                "data.25 to 44 years",
-                "data.25 to 54 years",
-                "data.25 years and over",
-                "data.45 years and over",
-                "data.55 to 64 years",
-                "data.55 years and over",
-                "data.65 years and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Rate of involuntary part-time work"
-    },
-    {
-      "path": "6-2-1/data.csv",
-      "name": "6-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Percentage of municipalities across Canada with sustained drinking water advisories"
-    },
-    {
-      "path": "14-2-1/data.csv",
-      "name": "14-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Stock group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Marine mammals",
-                "data.Groundfish",
-                "data.Small pelagics",
-                "data.Large pelagics",
-                "data.Salmonids",
-                "data.Crustaceans",
-                "data.Molluscs",
-                "data.Others",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of fish stocks that are sustainably harvested"
-    },
-    {
-      "path": "4-2-1/data.csv",
-      "name": "4-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Population characteristics",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total population",
-                "data.Off-reserve Indigenous  population",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Educational attainment level",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Tertiary education",
-                "data.Short-cycle tertiary",
-                "data.Bachelor's level",
-                "data.Master's or Doctoral level",
-                "data.University",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, 25 to 64 years",
-                "data.25 to 34 years",
-                "data.30 to 34 years",
-                "data.35 to 44 years",
-                "data.45 to 54 years",
-                "data.55 to 64 years",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Male",
-                "data.Female",
-                "data.Both sexes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": " Post-secondary education attainment rate"
-    },
-    {
-      "path": "11-2-1/data.csv",
-      "name": "11-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Select housing vulnerable populations",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.All households",
-                "data.Total, one-parent one-family households",
-                "data.One-parent one-family households whose reference person is a man+",
-                "data.One-parent one-family households whose reference person is a woman+",
-                "data.Total, one-person households",
-                "data.Men+ living alone",
-                "data.Women+ living alone",
-                "data.Reference persons who have experienced homelessness",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Living with housing problems",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Living in unaffordable housing",
-                "data.Living in unsuitable housing",
-                "data.Living in inadequate housing",
-                "data.Living in core housing need",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of households in core housing need"
-    },
-    {
-      "path": "16-6-1/data.csv",
-      "name": "16-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Incarceration rate"
-    },
-    {
-      "path": "9-1-1/data.csv",
-      "name": "9-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of innovation in environment-related technology"
-    },
-    {
-      "path": "5-1-1/data.csv",
-      "name": "5-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Type of perpetrator",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.All types of perpetrators",
-                "data.Intimate partner",
-                "data.Non-intimate partner",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Women",
-                "data.Men",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of the population who self-reported being sexually assaulted in the last 12 months"
-    },
-    {
-      "path": "3-5-1/data.csv",
-      "name": "3-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, 12 years and over",
-                "data.12 to 17 years",
-                "data.18 to 34 years",
-                "data.35 to 49 years",
-                "data.50 to 64 years",
-                "data.65 years and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Males",
-                "data.Females",
-                "data.Both sexes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Percentage of Canadians who are satisfied or very satisfied with their life"
     },
     {
       "path": "1-1-1/data.csv",
@@ -1268,8 +747,8 @@
       "title": "Poverty rate, as measured by Canada’s official poverty line"
     },
     {
-      "path": "6-1-1/data.csv",
-      "name": "6-1-1",
+      "path": "3-10-1/data.csv",
+      "name": "3-10-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1286,13 +765,130 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Alberta",
-                "data.Atlantic",
-                "data.British Columbia",
-                "data.Manitoba",
-                "data.Ontario",
-                "data.Quebec",
-                "data.Saskatchewan",
+                "data.Canada",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age at time of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.All ages",
+                "data.1 to 14 years",
+                "data.15 to 24",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                "data.65 to 74 years",
+                "data.75 to 84 years",
+                "data.85 and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Both sexes",
+                "data.Males",
+                "data.Females",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Leading causes of death (ICD-10)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Malignant neoplasms [C00-C97]",
+                "data.Diabetes mellitus [E10-E14]",
+                "data.Alzheimer's disease [G30]",
+                "data.Diseases of heart [I00-I09, I11, I13, I20-I51]",
+                "data.Cerebrovascular diseases [I60-I69]",
+                "data.Influenza and pneumonia [J09-J18]",
+                "data.Chronic lower respiratory diseases [J40-J47]",
+                "data.Chronic liver disease and cirrhosis [K70, K73-K74]",
+                "data.Accidents (unintentional injuries) [V01-X59, Y85-Y86]",
+                "data.Intentional self-harm (suicide) [X60-X84, Y87.0]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Mortality rate for selected causes of death"
+    },
+    {
+      "path": "16-7-1/data.csv",
+      "name": "16-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Institutions",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Police",
+                "data.Justice system and courts",
+                "data.School system",
+                "data.Federal Parliament",
+                "data.Banks",
+                "data.Major corporations",
+                "data.Local merchants and business people",
+                "data.Canadian media",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total population",
+                "data.Male",
+                "data.Female",
+                "data.Indigenous person",
+                "data.Non-Indigenous person",
+                "data.Visible minority",
+                "data.Non-visible minority",
+                "data.Black",
+                "data.First Nations, Métis, or Inuit",
+                "data.Other group designated as visible minority",
+                "data.Non-Indigenous, non-visible minority",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Level of confidence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Some confidence",
+                "data.Not very much or no confidence",
+                "data.A great deal of confidence",
+                "data.Not confident",
+                "data.Confident",
                 ""
               ]
             }
@@ -1303,7 +899,7 @@
           }
         ]
       },
-      "title": "Number of long-term drinking water advisories on public systems on reserves"
+      "title": "Proportion of the population with high levels of confidence in selected institutions"
     },
     {
       "path": "15-2-1/data.csv",
@@ -1339,8 +935,8 @@
       "title": "Proportion of species at risk showing progress towards their population and distribution objectives"
     },
     {
-      "path": "10-2-1/data.csv",
-      "name": "10-2-1",
+      "path": "11-2-1/data.csv",
+      "name": "11-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1353,20 +949,31 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "data.Select housing vulnerable populations",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
+                "data.All households",
+                "data.Total, one-parent one-family households",
+                "data.One-parent one-family households whose reference person is a man+",
+                "data.One-parent one-family households whose reference person is a woman+",
+                "data.Total, one-person households",
+                "data.Men+ living alone",
+                "data.Women+ living alone",
+                "data.Reference persons who have experienced homelessness",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Living with housing problems",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Living in unaffordable housing",
+                "data.Living in unsuitable housing",
+                "data.Living in inadequate housing",
+                "data.Living in core housing need",
                 ""
               ]
             }
@@ -1377,206 +984,11 @@
           }
         ]
       },
-      "title": "Proportion of the population reporting discrimination or unfair treatment"
+      "title": "Proportion of households in core housing need"
     },
     {
-      "path": "5-1-2/data.csv",
-      "name": "5-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "iso8859-1",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Type of intimate partner violence",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Emotional, financial, or psychological abuse",
-                "data.Physical abuse",
-                "data.Sexual abuse",
-                "data.Total intimate partner violence",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Selected characteristic",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, all women",
-                "data.15 to 24 year old women",
-                "data.Separated or divorced women",
-                "data.LGBTQ2 women",
-                "data.Single women",
-                "data.First Nations, Métis, or Inuit women",
-                "data.Women with disability",
-                "data.Immigrant women",
-                "data.Women designated as visible minorities",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the last 12 months"
-    },
-    {
-      "path": "2-2-1/data.csv",
-      "name": "2-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Index",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Biodiversity",
-                "data.Soil Quality",
-                "data.Water Quality",
-                "data.Air Quality",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Index of Agri-Environmental Sustainability"
-    },
-    {
-      "path": "3-2-1/data.csv",
-      "name": "3-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.New Brunswick",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Male",
-                "data.Female",
-                "data.Both sexes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Grade",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.All grades",
-                "data.Grades 7-9",
-                "data.Grades 10-12",
-                "data.Secondary I-III",
-                "data.Secondary IV-V",
-                "data.Grades 6-9",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Type of e-cigarettes",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Both type",
-                "data.With nicotine",
-                "data.Without nicotine",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Prevalence of vaping among youth"
-    },
-    {
-      "path": "15-4-1/data.csv",
-      "name": "15-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of forest area under an independently verified forest management certification scheme"
-    },
-    {
-      "path": "6-4-1/data.csv",
-      "name": "6-4-1",
+      "path": "16-5-1/data.csv",
+      "name": "16-5-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1593,8 +1005,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Percentage",
-                "data.Number of sites",
+                "data.Adult criminal courts",
+                "data.Youth courts",
                 ""
               ]
             }
@@ -1605,46 +1017,179 @@
             "constraints": {
               "enum": [
                 "data.Canada",
-                "data.Atlantic Ocean",
-                "data.Great Lakes and St. Lawrence River",
-                "data.Hudson Bay",
-                "data.Mackenzie River",
-                "data.Pacific Ocean",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             }
           },
           {
-            "name": "data.Land use category",
+            "name": "data.Offences",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Agriculture",
-                "data.Forestry",
-                "data.Mining",
-                "data.Populated",
-                "data.Mixed pressures",
-                "data.Undeveloped",
-                "data.Total",
-                "data.Mixed Pressures",
+                "data.Total offences",
+                "data.Total Criminal Code",
+                "data.Crimes against the person",
+                "data.Crimes against property",
+                "data.Administration of justice",
+                "data.Criminal Code traffic",
                 ""
               ]
             }
           },
           {
-            "name": "data.Water quality",
+            "name": "data.Age of accused",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Excellent",
-                "data.Good",
-                "data.Fair",
-                "data.Marginal",
-                "data.Poor",
-                "data.Total",
+                "data.Total, age of accused",
+                "data.18 to 24 years",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 years and over",
+                "data.12 to 15 years",
+                "data.16 and 17 years",
+                "data.Other ages",
+                "data.Age not applicable",
                 ""
               ]
             }
+          },
+          {
+            "name": "data.Sex of accused",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Males",
+                "data.Females",
+                "data.Company",
+                "data.Sex unknown",
+                "data.Total, sex of accused",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Criminal Court case completion time"
+    },
+    {
+      "path": "10-3-1/data.csv",
+      "name": "10-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Type of work",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Both full- and part-time employees",
+                "data.Full-time employees",
+                "data.Part-time employees",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.National Occupational Classification (NOC)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total employees, all occupations",
+                "data.Management occupations [0]",
+                "data.Business, finance and administration occupations [1]",
+                "data.Natural and applied sciences and related occupations [2]",
+                "data.Health occupations [3]",
+                "data.Occupations in education, law and social, community and government services [4]",
+                "data.Occupations in art, culture, recreation and sport [5]",
+                "data.Sales and service occupations [6]",
+                "data.Trades, transport and equipment operators and related occupations [7]",
+                "data.Natural resources, agriculture and related production occupations [8]",
+                "data.Occupations in manufacturing and utilities [9]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.15 to 24 years",
+                "data.25 to 54 years",
+                "data.55 years and over",
+                "data.15 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Median hourly wage ratio"
+    },
+    {
+      "path": "8-6-1/data.csv",
+      "name": "8-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
           },
           {
             "name": "Value",
@@ -1652,7 +1197,157 @@
           }
         ]
       },
-      "title": "Water quality in Canadian rivers"
+      "title": "Jobs in the clean technology products sector"
+    },
+    {
+      "path": "11-1-1/data.csv",
+      "name": "11-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Estimates",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Growth since 2016",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Growth rate of people experiencing chronic homelessness"
+    },
+    {
+      "path": "11-4-1/data.csv",
+      "name": "11-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Newfoundland and Labrador",
+                "data.St. John's, Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.Halifax, Nova Scotia",
+                "data.New Brunswick",
+                "data.Moncton, New Brunswick",
+                "data.Saint John, New Brunswick",
+                "data.Quebec",
+                "data.Montréal, Quebec",
+                "data.Ottawa - Gatineau (Quebec part), Quebec",
+                "data.Québec, Quebec",
+                "data.Saguenay, Quebec",
+                "data.Sherbrooke, Quebec",
+                "data.Trois-Rivières, Quebec",
+                "data.Ontario",
+                "data.Barrie, Ontario",
+                "data.Belleville, Ontario",
+                "data.Brantford, Ontario",
+                "data.Greater Sudbury / Grand Sudbury, Ontario",
+                "data.Guelph, Ontario",
+                "data.Hamilton, Ontario",
+                "data.Kingston, Ontario",
+                "data.Kitchener - Cambridge - Waterloo, Ontario",
+                "data.London, Ontario",
+                "data.Oshawa, Ontario",
+                "data.Ottawa - Gatineau (Ontario part), Ontario",
+                "data.Peterborough, Ontario",
+                "data.St. Catharines - Niagara, Ontario",
+                "data.Thunder Bay, Ontario",
+                "data.Toronto, Ontario",
+                "data.Windsor, Ontario",
+                "data.Manitoba",
+                "data.Winnipeg, Manitoba",
+                "data.Saskatchewan",
+                "data.Regina, Saskatchewan",
+                "data.Saskatoon, Saskatchewan",
+                "data.Alberta",
+                "data.Calgary, Alberta",
+                "data.Edmonton, Alberta",
+                "data.Lethbridge, Alberta",
+                "data.British Columbia",
+                "data.Abbotsford - Mission, British Columbia",
+                "data.Kelowna, British Columbia",
+                "data.Vancouver, British Columbia",
+                "data.Victoria, British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Percentage of the population living within 500 meters of a public transport stop"
+    },
+    {
+      "path": "12-1-1/data.csv",
+      "name": "12-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.British Columbia and the Territories",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of new light duty vehicle registrations that are zero-emission vehicles"
     },
     {
       "path": "10-4-1/data.csv",
@@ -1743,6 +1438,445 @@
       "title": "Median household after-tax income"
     },
     {
+      "path": "8-3-1/data.csv",
+      "name": "8-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, 15 to 29 years",
+                "data.15 to 19 years",
+                "data.15 to 24 years",
+                "data.18 to 24 years",
+                "data.20 to 24 years",
+                "data.25 to 29 years",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of youth not in education, employment or training"
+    },
+    {
+      "path": "16-2-1/data.csv",
+      "name": "16-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Index",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Violent crime severity index",
+                "data.Youth crime severity index",
+                "data.Youth violent crime severity index",
+                "data.Crime severity index",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Crime severity index"
+    },
+    {
+      "path": "15-3-1/data.csv",
+      "name": "15-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of terrestrial (land and freshwater) area conserved"
+    },
+    {
+      "path": "17-2-1/data.csv",
+      "name": "17-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Pillar",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Cross-border flows to TOSSD-eligible countries",
+                "data.Global and regional expenditures for international public goods",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.All regions",
+                "data.Global",
+                "data.Africa",
+                "data.Asia",
+                "data.America",
+                "data.Europe",
+                "data.Middle East",
+                "data.Oceania",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Total official support for sustainable development"
+    },
+    {
+      "path": "3-7-1/data.csv",
+      "name": "3-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Percentage of Canadians who perceived their mental health as very good to excellent"
+    },
+    {
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group and family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Persons all ages and family types",
+                "data.Persons under 18 years old",
+                "data.Persons 18 to 64 years old",
+                "data.Persons 65 years and older",
+                "data.Persons in an economic family",
+                "data.Persons in a couple only family",
+                "data.Persons in a couple with children family",
+                "data.Persons in a lone-parent family",
+                "data.Persons in an other economic family type",
+                "data.Persons not in an economic family",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Statistics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Asset resilient for at least one month",
+                "data.Asset resilient for at least six months",
+                "data.Asset resilient for at least three months",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Prevalence of asset resilience"
+    },
+    {
+      "path": "15-5-1/data.csv",
+      "name": "15-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Forest area as a proportion of total land area"
+    },
+    {
+      "path": "3-4-1/data.csv",
+      "name": "3-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Prevalence of harmful alcohol use"
+    },
+    {
       "path": "3-11-1/data.csv",
       "name": "3-11-1",
       "profile": "tabular-data-resource",
@@ -1765,8 +1899,8 @@
       "title": "Tuberculosis incidence per 100,000 population in Inuit Nunangat"
     },
     {
-      "path": "11-4-1/data.csv",
-      "name": "11-4-1",
+      "path": "3-2-1/data.csv",
+      "name": "3-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1776,65 +1910,70 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Canada",
                 "data.Newfoundland and Labrador",
-                "data.St. John's, Newfoundland and Labrador",
                 "data.Prince Edward Island",
                 "data.Nova Scotia",
-                "data.Halifax, Nova Scotia",
-                "data.New Brunswick",
-                "data.Moncton, New Brunswick",
-                "data.Saint John, New Brunswick",
                 "data.Quebec",
-                "data.Montréal, Quebec",
-                "data.Ottawa - Gatineau (Quebec part), Quebec",
-                "data.Québec, Quebec",
-                "data.Saguenay, Quebec",
-                "data.Sherbrooke, Quebec",
-                "data.Trois-Rivières, Quebec",
                 "data.Ontario",
-                "data.Barrie, Ontario",
-                "data.Belleville, Ontario",
-                "data.Brantford, Ontario",
-                "data.Greater Sudbury / Grand Sudbury, Ontario",
-                "data.Guelph, Ontario",
-                "data.Hamilton, Ontario",
-                "data.Kingston, Ontario",
-                "data.Kitchener - Cambridge - Waterloo, Ontario",
-                "data.London, Ontario",
-                "data.Oshawa, Ontario",
-                "data.Ottawa - Gatineau (Ontario part), Ontario",
-                "data.Peterborough, Ontario",
-                "data.St. Catharines - Niagara, Ontario",
-                "data.Thunder Bay, Ontario",
-                "data.Toronto, Ontario",
-                "data.Windsor, Ontario",
                 "data.Manitoba",
-                "data.Winnipeg, Manitoba",
                 "data.Saskatchewan",
-                "data.Regina, Saskatchewan",
-                "data.Saskatoon, Saskatchewan",
                 "data.Alberta",
-                "data.Calgary, Alberta",
-                "data.Edmonton, Alberta",
-                "data.Lethbridge, Alberta",
                 "data.British Columbia",
-                "data.Abbotsford - Mission, British Columbia",
-                "data.Kelowna, British Columbia",
-                "data.Vancouver, British Columbia",
-                "data.Victoria, British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
+                "data.New Brunswick",
                 ""
               ]
             }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Male",
+                "data.Female",
+                "data.Both sexes",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Grade",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.All grades",
+                "data.Grades 7-9",
+                "data.Grades 10-12",
+                "data.Secondary I-III",
+                "data.Secondary IV-V",
+                "data.Grades 6-9",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Type of e-cigarettes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Both type",
+                "data.With nicotine",
+                "data.Without nicotine",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1842,11 +1981,11 @@
           }
         ]
       },
-      "title": "Percentage of the population living within 500 meters of a public transport stop"
+      "title": "Prevalence of vaping among youth"
     },
     {
-      "path": "16-3-1/data.csv",
-      "name": "16-3-1",
+      "path": "4-2-1/data.csv",
+      "name": "4-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1864,49 +2003,78 @@
             "constraints": {
               "enum": [
                 "data.Canada",
-                "data.Newfoundland and Labrador [10]",
-                "data.Prince Edward Island [11]",
-                "data.Nova Scotia [12]",
-                "data.New Brunswick [13]",
-                "data.Quebec [24]",
-                "data.Ontario [35]",
-                "data.Manitoba [46]",
-                "data.Saskatchewan [47]",
-                "data.Alberta [48]",
-                "data.British Columbia [59]",
-                "data.Yukon [60]",
-                "data.Northwest Territories [61]",
-                "data.Nunavut [62]",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             }
           },
           {
-            "name": "data.Violations",
+            "name": "data.Population characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Homicide [110]",
-                "data.Total other violations causing death [120]",
-                "data.Attempted murder [1210]",
-                "data.Sexual assault, level 3, aggravated [1310]",
-                "data.Sexual assault, level 2, weapon or bodily harm [1320]",
-                "data.Sexual assault, level 1 [1330]",
-                "data.Total sexual violations against children [130]",
-                "data.Assault, level 3, aggravated [1410]",
-                "data.Assault, level 2, weapon or bodily harm [1420]",
-                "data.Assault, level 1 [1430]",
-                "data.Total robbery [160]",
-                "data.Uttering threats [1627]",
-                "data.Total other violent violations [180]",
-                "data.Total violent Criminal Code violations [100]",
+                "data.Total population",
+                "data.Off-reserve Indigenous  population",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Educational attainment level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Tertiary education",
+                "data.Short-cycle tertiary",
+                "data.Bachelor's level",
+                "data.Master's or Doctoral level",
+                "data.University",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, 25 to 64 years",
+                "data.25 to 34 years",
+                "data.30 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Male",
+                "data.Female",
+                "data.Both sexes",
                 ""
               ]
             }
           },
           {
             "name": "GeoCode",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1914,7 +2082,60 @@
           }
         ]
       },
-      "title": "Incidence of selected types of crime"
+      "title": " Post-secondary education attainment rate"
+    },
+    {
+      "path": "5-1-2/data.csv",
+      "name": "5-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "iso8859-1",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Type of intimate partner violence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Emotional, financial, or psychological abuse",
+                "data.Physical abuse",
+                "data.Sexual abuse",
+                "data.Total intimate partner violence",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Selected characteristic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, all women",
+                "data.15 to 24 year old women",
+                "data.Separated or divorced women",
+                "data.LGBTQ2 women",
+                "data.Single women",
+                "data.First Nations, Métis, or Inuit women",
+                "data.Women with disability",
+                "data.Immigrant women",
+                "data.Women designated as visible minorities",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the last 12 months"
     },
     {
       "path": "16-4-1/data.csv",
@@ -1979,8 +2200,8 @@
       "title": "Incidence of cyber-crime"
     },
     {
-      "path": "15-5-1/data.csv",
-      "name": "15-5-1",
+      "path": "5-3-1/data.csv",
+      "name": "5-3-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1993,90 +2214,62 @@
             "type": "integer"
           },
           {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Forest area as a proportion of total land area"
-    },
-    {
-      "path": "9-7-1/data.csv",
-      "name": "9-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Number of low carbon recharging and refueling stations under development and completed in public places, on-street, at apartment buildings, retail outlets, and the workplace"
-    },
-    {
-      "path": "7-3-1/data.csv",
-      "name": "7-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Geography",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
+                "data.Canada",
+                "data.Atlantic",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Prairies",
+                "data.British Columbia",
                 ""
               ]
             }
           },
           {
-            "name": "Type of electricity generation",
+            "name": "data.Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hydraulic turbine",
-                "Tidal power turbine",
-                "Wind power turbine",
-                "Solar",
-                "Other types of electricity generation",
-                "Total hydro, tidal, wind, solar and other generation",
+                "data.Unpaid work activities",
+                "data.Household chores",
+                "data.Care of household children under 18 years",
+                "data.Care of household adults",
+                "data.Shopping for goods or services",
                 ""
               ]
             }
           },
           {
-            "name": "GeoCode",
-            "type": "string"
+            "name": "data.Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, 15 years and over",
+                "data.15 to 24 years",
+                "data.25 to 54 years",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                "data.65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Both sexes",
+                "data.Male",
+                "data.Female",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -2084,11 +2277,260 @@
           }
         ]
       },
-      "title": "Proportion of electricity generated from renewable and non-greenhouse gas emitting sources"
+      "title": "Proportion of time spent on unpaid domestic and care work"
     },
     {
-      "path": "15-3-1/data.csv",
-      "name": "15-3-1",
+      "path": "7-2-1/data.csv",
+      "name": "7-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Terajoules",
+                "data.Per capita",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Fuel type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total primary and secondary energy",
+                "data.Total coal",
+                "data.Natural gas",
+                "data.Gas plant natural gas liquids (NGL's)",
+                "data.Hydroelectricity",
+                "data.Nuclear",
+                "data.Steam",
+                "data.Coke",
+                "data.Coke oven gas",
+                "data.Total refined petroleum products",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Demand characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total industrial",
+                "data.Total transportation",
+                "data.Agriculture",
+                "data.Residential",
+                "data.Public administration",
+                "data.Commercial and other institutional",
+                "data.Energy use - final demand",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Total energy consumption per capita"
+    },
+    {
+      "path": "13-3-1/data.csv",
+      "name": "13-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Number",
+                "data.Percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Core public infrastructure assets",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Potable water",
+                "data.Solid waste",
+                "data.Stormwater",
+                "data.Wastewater",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Type of municipality by population size",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.All municipalities",
+                "data.All urban municipalities",
+                "data.Urban municipalities, population 1 to 4,999",
+                "data.Urban municipalities, population 5,000 to 29,999",
+                "data.Urban municipalities, population 30,000 or more",
+                "data.All rural municipalities",
+                "data.Rural municipalities, population 1 to 4,999",
+                "data.Rural municipalities, population 5,000 or more",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of municipal organization who factored climate change adaptation into their decision-making process"
+    },
+    {
+      "path": "8-4-1/data.csv",
+      "name": "8-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Both sexes",
+                "data.Females",
+                "data.Males",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.15 to 24 years",
+                "data.15 years and over",
+                "data.25 to 44 years",
+                "data.25 to 54 years",
+                "data.25 years and over",
+                "data.45 years and over",
+                "data.55 to 64 years",
+                "data.55 years and over",
+                "data.65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Rate of involuntary part-time work"
+    },
+    {
+      "path": "8-2-1/data.csv",
+      "name": "8-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2106,11 +2548,55 @@
           }
         ]
       },
-      "title": "Proportion of terrestrial (land and freshwater) area conserved"
+      "title": "Proportion of employees earning less than 66% of the median hourly wage for permanent full-time employees"
     },
     {
-      "path": "16-2-1/data.csv",
-      "name": "16-2-1",
+      "path": "6-2-1/data.csv",
+      "name": "6-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Percentage of municipalities across Canada with sustained drinking water advisories"
+    },
+    {
+      "path": "3-13-1/data.csv",
+      "name": "3-13-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2138,22 +2624,33 @@
                 "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
                 ""
               ]
             }
           },
           {
-            "name": "data.Index",
+            "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Violent crime severity index",
-                "data.Youth crime severity index",
-                "data.Youth violent crime severity index",
-                "data.Crime severity index",
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
                 ""
               ]
             }
@@ -2164,7 +2661,141 @@
           }
         ]
       },
-      "title": "Crime severity index"
+      "title": "Prevalence of cigarette smoking"
+    },
+    {
+      "path": "12-3-1/data.csv",
+      "name": "12-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Territories",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Type of materials diverted",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.All materials diverted",
+                "data.All paper fibres",
+                "data.Glass",
+                "data.Ferrous metals",
+                "data.Copper and aluminum",
+                "data.Mixed metals",
+                "data.White goods",
+                "data.Electronics",
+                "data.Plastics",
+                "data.Gable top and aseptic containers",
+                "data.Textiles",
+                "data.Tires",
+                "data.Construction + renovation and demolition",
+                "data.Organics",
+                "data.Other materials",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sources of materials prepared for recycling",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Residential sources of diverted materials",
+                "data.Non-residential sources of diverted materials",
+                "data.All sources of diverted materials",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Total waste diversion per capita"
+    },
+    {
+      "path": "5-1-1/data.csv",
+      "name": "5-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Type of perpetrator",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.All types of perpetrators",
+                "data.Intimate partner",
+                "data.Non-intimate partner",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Women",
+                "data.Men",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of the population who self-reported being sexually assaulted in the last 12 months"
     },
     {
       "path": "8-1-1/data.csv",
@@ -2275,8 +2906,8 @@
       "title": "Unemployment rate"
     },
     {
-      "path": "16-5-1/data.csv",
-      "name": "16-5-1",
+      "path": "8-5-1/data.csv",
+      "name": "8-5-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2286,25 +2917,13 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Adult criminal courts",
-                "data.Youth courts",
-                ""
-              ]
-            }
+            "type": "integer"
           },
           {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
                 "data.Newfoundland and Labrador",
                 "data.Prince Edward Island",
                 "data.Nova Scotia",
@@ -2323,64 +2942,20 @@
             }
           },
           {
-            "name": "data.Offences",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total offences",
-                "data.Total Criminal Code",
-                "data.Crimes against the person",
-                "data.Crimes against property",
-                "data.Administration of justice",
-                "data.Criminal Code traffic",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age of accused",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, age of accused",
-                "data.18 to 24 years",
-                "data.25 to 34 years",
-                "data.35 to 44 years",
-                "data.45 to 54 years",
-                "data.55 years and over",
-                "data.12 to 15 years",
-                "data.16 and 17 years",
-                "data.Other ages",
-                "data.Age not applicable",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex of accused",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Males",
-                "data.Females",
-                "data.Company",
-                "data.Sex unknown",
-                "data.Total, sex of accused",
-                ""
-              ]
-            }
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
-      "title": "Criminal Court case completion time"
+      "title": "Gross domestic product per capita"
     },
     {
-      "path": "14-1-1/data.csv",
-      "name": "14-1-1",
+      "path": "7-3-1/data.csv",
+      "name": "7-3-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2393,16 +2968,58 @@
             "type": "integer"
           },
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of electricity generation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hydraulic turbine",
+                "Tidal power turbine",
+                "Wind power turbine",
+                "Solar",
+                "Other types of electricity generation",
+                "Total hydro, tidal, wind, solar and other generation",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
             "name": "Value",
             "type": "number"
           }
         ]
       },
-      "title": "Proportion of marine and coastal areas conserved"
+      "title": "Proportion of electricity generated from renewable and non-greenhouse gas emitting sources"
     },
     {
-      "path": "11-1-1/data.csv",
-      "name": "11-1-1",
+      "path": "16-6-1/data.csv",
+      "name": "16-6-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2412,17 +3029,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "data.Estimates",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Growth since 2016",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -2430,7 +3063,7 @@
           }
         ]
       },
-      "title": "Growth rate of people experiencing chronic homelessness"
+      "title": "Incarceration rate"
     },
     {
       "path": "11-6-1/data.csv",
@@ -2488,8 +3121,8 @@
       "title": "Total waste disposal per capita"
     },
     {
-      "path": "12-2-1/data.csv",
-      "name": "12-2-1",
+      "path": "15-4-1/data.csv",
+      "name": "15-4-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2502,47 +3135,42 @@
             "type": "integer"
           },
           {
-            "name": "data.Industries",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, industries",
-                "data.Logging (except contract)",
-                "data.Oil and gas extraction",
-                "data.Mining and quarrying",
-                "data.Electric power generation, transmission and distribution",
-                "data.Natural gas distribution",
-                "data.Food manufacturing",
-                "data.Beverage and tobacco product manufacturing",
-                "data.Wood product manufacturing",
-                "data.Paper manufacturing",
-                "data.Petroleum and coal product manufacturing",
-                "data.Chemical manufacturing",
-                "data.Non-metallic mineral product manufacturing",
-                "data.Primary metal manufacturing",
-                "data.Fabricated metal product manufacturing",
-                "data.Transportation equipment manufacturing",
-                "data.Plastics and rubber products manufacturing",
-                "data.Machinery manufacturing",
-                "data.Furniture and related product manufacturing",
-                "data.Other manufacturing industries",
-                "data.Pipeline transportation",
-                ""
-              ]
-            }
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of forest area under an independently verified forest management certification scheme"
+    },
+    {
+      "path": "10-1-1/data.csv",
+      "name": "10-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
           },
           {
-            "name": "data.Environmental protection activities or management practices",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Wastewater management",
-                "data.Air pollution management",
-                "data.Protection and remediation of soil, groundwater and surface water",
-                "data.Protection of biodiversity and habitat",
-                "data.Noise and vibration abatement",
-                "data.Total, environmental protection activities",
-                "data.Sold carbon offset credits only or sold more than purchased",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             }
@@ -2553,11 +3181,239 @@
           }
         ]
       },
-      "title": "Proportion of businesses that adopted selected environmental protection activities and management practices"
+      "title": "Gini Coefficient"
     },
     {
-      "path": "3-1-1/data.csv",
-      "name": "3-1-1",
+      "path": "6-4-1/data.csv",
+      "name": "6-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Percentage",
+                "data.Number of sites",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Atlantic Ocean",
+                "data.Great Lakes and St. Lawrence River",
+                "data.Hudson Bay",
+                "data.Mackenzie River",
+                "data.Pacific Ocean",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Land use category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Agriculture",
+                "data.Forestry",
+                "data.Mining",
+                "data.Populated",
+                "data.Mixed pressures",
+                "data.Undeveloped",
+                "data.Total",
+                "data.Mixed Pressures",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Water quality",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Excellent",
+                "data.Good",
+                "data.Fair",
+                "data.Marginal",
+                "data.Poor",
+                "data.Total",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Water quality in Canadian rivers"
+    },
+    {
+      "path": "10-2-1/data.csv",
+      "name": "10-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of the population reporting discrimination or unfair treatment"
+    },
+    {
+      "path": "2-2-1/data.csv",
+      "name": "2-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Index",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Biodiversity",
+                "data.Soil Quality",
+                "data.Water Quality",
+                "data.Air Quality",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Index of Agri-Environmental Sustainability"
+    },
+    {
+      "path": "3-3-1/data.csv",
+      "name": "3-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Measures",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Overweight",
+                "data.Obese",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Both sexes",
+                "data.Males",
+                "data.Females",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Ages 5 to 79",
+                "data.Ages 5 to 17",
+                "data.Ages 5 to 11",
+                "data.Ages 12 to 17",
+                "data.Ages 18 to 79",
+                "data.Ages 18 to 39",
+                "data.Ages 40 to 59",
+                "data.Ages 60 to 79",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Percentage of the population that is overweight or obese"
+    },
+    {
+      "path": "3-5-1/data.csv",
+      "name": "3-5-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2622,7 +3478,103 @@
           }
         ]
       },
-      "title": "Percentage of Canadians who report eating fruits and vegetables 5 or more times per day"
+      "title": "Percentage of Canadians who are satisfied or very satisfied with their life"
+    },
+    {
+      "path": "14-2-1/data.csv",
+      "name": "14-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Stock group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Marine mammals",
+                "data.Groundfish",
+                "data.Small pelagics",
+                "data.Large pelagics",
+                "data.Salmonids",
+                "data.Crustaceans",
+                "data.Molluscs",
+                "data.Others",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of fish stocks that are sustainably harvested"
+    },
+    {
+      "path": "9-4-1/data.csv",
+      "name": "9-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.British Columbia",
+                "data.Alberta",
+                "data.Saskatchewan",
+                "data.Manitoba",
+                "data.Ontario",
+                "data.Quebec",
+                "data.New Brunswick",
+                "data.Nova Scotia",
+                "data.Prince Edward Island",
+                "data.Newfoundland and Labrador",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Population centres",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Urban centres",
+                "data.Rural communities",
+                "data.Major roads and highways",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of Canadians that have access to the latest generally deployed mobile wireless technology"
     },
     {
       "path": "2-1-1/data.csv",
@@ -2719,42 +3671,8 @@
       "title": "Prevalence of food insecurity"
     },
     {
-      "path": "9-6-1/data.csv",
-      "name": "9-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "data.Type of charging stations",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Electric",
-                "data.Natural gas",
-                "data.Hydrogen",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Number of low carbon recharging and refueling stations under development and completed along major highways, and in rural and urban areas across Canada"
-    },
-    {
-      "path": "13-3-1/data.csv",
-      "name": "13-3-1",
+      "path": "9-1-1/data.csv",
+      "name": "9-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2765,70 +3683,6 @@
           {
             "name": "Year",
             "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Number",
-                "data.Percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                "data.Yukon",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Core public infrastructure assets",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Potable water",
-                "data.Solid waste",
-                "data.Stormwater",
-                "data.Wastewater",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Type of municipality by population size",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.All municipalities",
-                "data.All urban municipalities",
-                "data.Urban municipalities, population 1 to 4,999",
-                "data.Urban municipalities, population 5,000 to 29,999",
-                "data.Urban municipalities, population 30,000 or more",
-                "data.All rural municipalities",
-                "data.Rural municipalities, population 1 to 4,999",
-                "data.Rural municipalities, population 5,000 or more",
-                ""
-              ]
-            }
           },
           {
             "name": "Value",
@@ -2836,632 +3690,7 @@
           }
         ]
       },
-      "title": "Proportion of municipal organization who factored climate change adaptation into their decision-making process"
-    },
-    {
-      "path": "3-10-1/data.csv",
-      "name": "3-10-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age at time of death",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.All ages",
-                "data.1 to 14 years",
-                "data.15 to 24",
-                "data.25 to 34 years",
-                "data.35 to 44 years",
-                "data.45 to 54 years",
-                "data.55 to 64 years",
-                "data.65 to 74 years",
-                "data.75 to 84 years",
-                "data.85 and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Both sexes",
-                "data.Males",
-                "data.Females",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Leading causes of death (ICD-10)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Malignant neoplasms [C00-C97]",
-                "data.Diabetes mellitus [E10-E14]",
-                "data.Alzheimer's disease [G30]",
-                "data.Diseases of heart [I00-I09, I11, I13, I20-I51]",
-                "data.Cerebrovascular diseases [I60-I69]",
-                "data.Influenza and pneumonia [J09-J18]",
-                "data.Chronic lower respiratory diseases [J40-J47]",
-                "data.Chronic liver disease and cirrhosis [K70, K73-K74]",
-                "data.Accidents (unintentional injuries) [V01-X59, Y85-Y86]",
-                "data.Intentional self-harm (suicide) [X60-X84, Y87.0]",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Mortality rate for selected causes of death"
-    },
-    {
-      "path": "9-5-1/data.csv",
-      "name": "9-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Asset",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Commercial buildings",
-                "data.Institutional buildings",
-                "data.Marine engineering infrastructure",
-                "data.Transportation engineering infrastructure",
-                "data.Waterworks infrastructure",
-                "data.Sewage infrastructure",
-                "data.Communications networks",
-                "data.Electric power infrastructure",
-                "data.Oil and gas engineering construction",
-                "data.Other engineering construction",
-                "data.Other machinery and equipment",
-                "data.Transportation machinery and equipment",
-                "data.Total assets",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Greenhouse gas emissions per dollar of value-added from the production of infrastructure assets"
-    },
-    {
-      "path": "4-1-1/data.csv",
-      "name": "4-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Both sexes",
-                "data.Males",
-                "data.Females",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, persons aged 15 years and over",
-                "data.15 to 24 years",
-                "data.25 to 64 years",
-                "data.65 to 74 years",
-                "data.75 years and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Selected demographic characteristics",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Non immigrants",
-                "data.Immigrants",
-                "data.Non-permanent residents",
-                "data.Total visible minority population",
-                "data.Not a visible minority",
-                "data.Total Aboriginal identity",
-                "data.First Nations (North American Indian)",
-                "data.Métis",
-                "data.Inuk (Inuit)",
-                "data.Non-Aboriginal identity",
-                "data.Total, all persons",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "High school completion rate"
-    },
-    {
-      "path": "17-2-1/data.csv",
-      "name": "17-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Pillar",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Cross-border flows to TOSSD-eligible countries",
-                "data.Global and regional expenditures for international public goods",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.All regions",
-                "data.Global",
-                "data.Africa",
-                "data.Asia",
-                "data.America",
-                "data.Europe",
-                "data.Middle East",
-                "data.Oceania",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Total official support for sustainable development"
-    },
-    {
-      "path": "12-1-1/data.csv",
-      "name": "12-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.British Columbia and the Territories",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of new light duty vehicle registrations that are zero-emission vehicles"
-    },
-    {
-      "path": "12-3-1/data.csv",
-      "name": "12-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Territories",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Type of materials diverted",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.All materials diverted",
-                "data.All paper fibres",
-                "data.Glass",
-                "data.Ferrous metals",
-                "data.Copper and aluminum",
-                "data.Mixed metals",
-                "data.White goods",
-                "data.Electronics",
-                "data.Plastics",
-                "data.Gable top and aseptic containers",
-                "data.Textiles",
-                "data.Tires",
-                "data.Construction + renovation and demolition",
-                "data.Organics",
-                "data.Other materials",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sources of materials prepared for recycling",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Residential sources of diverted materials",
-                "data.Non-residential sources of diverted materials",
-                "data.All sources of diverted materials",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Total waste diversion per capita"
-    },
-    {
-      "path": "5-3-1/data.csv",
-      "name": "5-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Atlantic",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Prairies",
-                "data.British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Activity group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Unpaid work activities",
-                "data.Household chores",
-                "data.Care of household children under 18 years",
-                "data.Care of household adults",
-                "data.Shopping for goods or services",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, 15 years and over",
-                "data.15 to 24 years",
-                "data.25 to 54 years",
-                "data.25 to 34 years",
-                "data.35 to 44 years",
-                "data.45 to 54 years",
-                "data.55 to 64 years",
-                "data.65 years and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Both sexes",
-                "data.Male",
-                "data.Female",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of time spent on unpaid domestic and care work"
-    },
-    {
-      "path": "3-4-1/data.csv",
-      "name": "3-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, 12 years and over",
-                "data.12 to 17 years",
-                "data.18 to 34 years",
-                "data.35 to 49 years",
-                "data.50 to 64 years",
-                "data.65 years and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Males",
-                "data.Females",
-                "data.Both sexes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Prevalence of harmful alcohol use"
-    },
-    {
-      "path": "3-13-1/data.csv",
-      "name": "3-13-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, 12 years and over",
-                "data.12 to 17 years",
-                "data.18 to 34 years",
-                "data.35 to 49 years",
-                "data.50 to 64 years",
-                "data.65 years and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Males",
-                "data.Females",
-                "data.Both sexes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Prevalence of cigarette smoking"
+      "title": "Proportion of innovation in environment-related technology"
     },
     {
       "path": "17-1-1/data.csv",
@@ -3484,6 +3713,143 @@
         ]
       },
       "title": "Number of open datasets published by the Government of Canada"
+    },
+    {
+      "path": "11-7-1/data.csv",
+      "name": "11-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Percentage of the population aged 12 and over who reported their sense of belonging to their local community as being very strong or somewhat strong"
+    },
+    {
+      "path": "12-2-1/data.csv",
+      "name": "12-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Industries",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, industries",
+                "data.Logging (except contract)",
+                "data.Oil and gas extraction",
+                "data.Mining and quarrying",
+                "data.Electric power generation, transmission and distribution",
+                "data.Natural gas distribution",
+                "data.Food manufacturing",
+                "data.Beverage and tobacco product manufacturing",
+                "data.Wood product manufacturing",
+                "data.Paper manufacturing",
+                "data.Petroleum and coal product manufacturing",
+                "data.Chemical manufacturing",
+                "data.Non-metallic mineral product manufacturing",
+                "data.Primary metal manufacturing",
+                "data.Fabricated metal product manufacturing",
+                "data.Transportation equipment manufacturing",
+                "data.Plastics and rubber products manufacturing",
+                "data.Machinery manufacturing",
+                "data.Furniture and related product manufacturing",
+                "data.Other manufacturing industries",
+                "data.Pipeline transportation",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Environmental protection activities or management practices",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Wastewater management",
+                "data.Air pollution management",
+                "data.Protection and remediation of soil, groundwater and surface water",
+                "data.Protection of biodiversity and habitat",
+                "data.Noise and vibration abatement",
+                "data.Total, environmental protection activities",
+                "data.Sold carbon offset credits only or sold more than purchased",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of businesses that adopted selected environmental protection activities and management practices"
     },
     {
       "path": "6-3-1/data.csv",
@@ -3528,292 +3894,6 @@
         ]
       },
       "title": "Water use growth rate"
-    },
-    {
-      "path": "16-1-1/data.csv",
-      "name": "16-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Men",
-                "data.Women",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Proportion of Canadians who reported feeling safe walking alone in their neighborhood after dark"
-    },
-    {
-      "path": "16-7-1/data.csv",
-      "name": "16-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Institutions",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Police",
-                "data.Justice system and courts",
-                "data.School system",
-                "data.Federal Parliament",
-                "data.Banks",
-                "data.Major corporations",
-                "data.Local merchants and business people",
-                "data.Canadian media",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Characteristics",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total population",
-                "data.Male",
-                "data.Female",
-                "data.Indigenous person",
-                "data.Non-Indigenous person",
-                "data.Visible minority",
-                "data.Non-visible minority",
-                "data.Black",
-                "data.First Nations, Métis, or Inuit",
-                "data.Other group designated as visible minority",
-                "data.Non-Indigenous, non-visible minority",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Level of confidence",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Some confidence",
-                "data.Not very much or no confidence",
-                "data.A great deal of confidence",
-                "data.Not confident",
-                "data.Confident",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Proportion of the population with high levels of confidence in selected institutions"
-    },
-    {
-      "path": "10-1-1/data.csv",
-      "name": "10-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Gini Coefficient"
-    },
-    {
-      "path": "8-6-1/data.csv",
-      "name": "8-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Jobs in the clean technology products sector"
-    },
-    {
-      "path": "3-7-1/data.csv",
-      "name": "3-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, 12 years and over",
-                "data.12 to 17 years",
-                "data.18 to 34 years",
-                "data.35 to 49 years",
-                "data.50 to 64 years",
-                "data.65 years and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Males",
-                "data.Females",
-                "data.Both sexes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Percentage of Canadians who perceived their mental health as very good to excellent"
-    },
-    {
-      "path": "8-5-1/data.csv",
-      "name": "8-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "Gross domestic product per capita"
     },
     {
       "path": "13-1-1/data.csv",
@@ -3886,8 +3966,8 @@
       "title": "Greenhouse gas emissions"
     },
     {
-      "path": "5-2-1/data.csv",
-      "name": "5-2-1",
+      "path": "3-1-1/data.csv",
+      "name": "3-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3900,21 +3980,48 @@
             "type": "integer"
           },
           {
-            "name": "data.Leadership position",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Members of national Parliament",
-                "data.Members of federal Cabinet",
-                "data.All management occupations",
-                "data.Senior management occupations",
-                "data.Specialized middle management occupations",
-                "data.Middle management occupations in retail and wholesale trade and customer services",
-                "data.Middle management occupations in trades - transportation - production and utilities",
-                "data.Judges - Federal government public administration",
-                "data.Judges - Provincial and territorial public administration",
-                "data.Chiefs in First Nation communities",
-                "data.First Nations council members",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
                 ""
               ]
             }
@@ -3925,11 +4032,11 @@
           }
         ]
       },
-      "title": "Proportion of leadership roles held by women"
+      "title": "Percentage of Canadians who report eating fruits and vegetables 5 or more times per day"
     },
     {
-      "path": "8-2-1/data.csv",
-      "name": "8-2-1",
+      "path": "16-1-1/data.csv",
+      "name": "16-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3942,12 +4049,23 @@
             "type": "integer"
           },
           {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Men",
+                "data.Women",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
-      "title": "Proportion of employees earning less than 66% of the median hourly wage for permanent full-time employees"
+      "title": "Proportion of Canadians who reported feeling safe walking alone in their neighborhood after dark"
     },
     {
       "path": "15-1-1/data.csv",
@@ -4010,6 +4128,147 @@
         ]
       },
       "title": "Proportion of native wild species ranked secure or apparently secure according to the national extinction risk level"
+    },
+    {
+      "path": "16-3-1/data.csv",
+      "name": "16-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador [10]",
+                "data.Prince Edward Island [11]",
+                "data.Nova Scotia [12]",
+                "data.New Brunswick [13]",
+                "data.Quebec [24]",
+                "data.Ontario [35]",
+                "data.Manitoba [46]",
+                "data.Saskatchewan [47]",
+                "data.Alberta [48]",
+                "data.British Columbia [59]",
+                "data.Yukon [60]",
+                "data.Northwest Territories [61]",
+                "data.Nunavut [62]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Violations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Homicide [110]",
+                "data.Total other violations causing death [120]",
+                "data.Attempted murder [1210]",
+                "data.Sexual assault, level 3, aggravated [1310]",
+                "data.Sexual assault, level 2, weapon or bodily harm [1320]",
+                "data.Sexual assault, level 1 [1330]",
+                "data.Total sexual violations against children [130]",
+                "data.Assault, level 3, aggravated [1410]",
+                "data.Assault, level 2, weapon or bodily harm [1420]",
+                "data.Assault, level 1 [1430]",
+                "data.Total robbery [160]",
+                "data.Uttering threats [1627]",
+                "data.Total other violent violations [180]",
+                "data.Total violent Criminal Code violations [100]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Incidence of selected types of crime"
+    },
+    {
+      "path": "3-6-1/data.csv",
+      "name": "3-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, 12 years and over",
+                "data.12 to 17 years",
+                "data.18 to 34 years",
+                "data.35 to 49 years",
+                "data.50 to 64 years",
+                "data.65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Males",
+                "data.Females",
+                "data.Both sexes",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Percentage of Canadians who perceived their overall health and social well-being as very good to excellent"
     },
     {
       "path": "3-12-1/data.csv",
@@ -4087,8 +4346,8 @@
       "title": "Incidence of opioid and stimulant overdose related harms"
     },
     {
-      "path": "11-5-1/data.csv",
-      "name": "11-5-1",
+      "path": "7-1-1/data.csv",
+      "name": "7-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4098,76 +4357,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Newfoundland and Labrador",
-                "data.St. John's, Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.Halifax, Nova Scotia",
-                "data.New Brunswick",
-                "data.Moncton, New Brunswick",
-                "data.Saint John, New Brunswick",
-                "data.Quebec",
-                "data.Montreal, Quebec",
-                "data.Ottawa - Gatineau (Quebec part), Quebec",
-                "data.Quebec, Quebec",
-                "data.Saguenay, Quebec",
-                "data.Sherbrooke, Quebec",
-                "data.Trois-Rivieres, Quebec",
-                "data.Ontario",
-                "data.Barrie, Ontario",
-                "data.Belleville, Ontario",
-                "data.Brantford, Ontario",
-                "data.Greater Sudbury / Grand Sudbury, Ontario",
-                "data.Guelph, Ontario",
-                "data.Hamilton, Ontario",
-                "data.Kingston, Ontario",
-                "data.Kitchener - Cambridge - Waterloo, Ontario",
-                "data.London, Ontario",
-                "data.Oshawa, Ontario",
-                "data.Ottawa - Gatineau (Ontario part), Ontario",
-                "data.Peterborough, Ontario",
-                "data.St. Catharines - Niagara, Ontario",
-                "data.Thunder Bay, Ontario",
-                "data.Toronto, Ontario",
-                "data.Windsor, Ontario",
-                "data.Manitoba",
-                "data.Winnipeg, Manitoba",
-                "data.Saskatchewan",
-                "data.Regina, Saskatchewan",
-                "data.Saskatoon, Saskatchewan",
-                "data.Alberta",
-                "data.Calgary, Alberta",
-                "data.Edmonton, Alberta",
-                "data.Lethbridge, Alberta",
-                "data.British Columbia",
-                "data.Abbotsford - Mission, British Columbia",
-                "data.Kelowna, British Columbia",
-                "data.Vancouver, British Columbia",
-                "data.Victoria, British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Type of commute",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Public transit",
-                "data.Active transport",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "Value",
@@ -4175,7 +4365,7 @@
           }
         ]
       },
-      "title": "Percentage  of the population using shared or active transportation for commuting"
+      "title": "Annual energy savings resulting from adoption of energy efficiency codes, standards and practices"
     },
     {
       "path": "9-2-1/data.csv",
@@ -4223,8 +4413,8 @@
       "title": "Gross domestic expenditure on research and development intensity"
     },
     {
-      "path": "7-2-1/data.csv",
-      "name": "7-2-1",
+      "path": "5-2-1/data.csv",
+      "name": "5-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4237,70 +4427,21 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "data.Leadership position",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Terajoules",
-                "data.Per capita",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Fuel type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total primary and secondary energy",
-                "data.Total coal",
-                "data.Natural gas",
-                "data.Gas plant natural gas liquids (NGL's)",
-                "data.Hydroelectricity",
-                "data.Nuclear",
-                "data.Steam",
-                "data.Coke",
-                "data.Coke oven gas",
-                "data.Total refined petroleum products",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Demand characteristics",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total industrial",
-                "data.Total transportation",
-                "data.Agriculture",
-                "data.Residential",
-                "data.Public administration",
-                "data.Commercial and other institutional",
-                "data.Energy use - final demand",
+                "data.Members of national Parliament",
+                "data.Members of federal Cabinet",
+                "data.All management occupations",
+                "data.Senior management occupations",
+                "data.Specialized middle management occupations",
+                "data.Middle management occupations in retail and wholesale trade and customer services",
+                "data.Middle management occupations in trades - transportation - production and utilities",
+                "data.Judges - Federal government public administration",
+                "data.Judges - Provincial and territorial public administration",
+                "data.Chiefs in First Nation communities",
+                "data.First Nations council members",
                 ""
               ]
             }
@@ -4311,148 +4452,7 @@
           }
         ]
       },
-      "title": "Total energy consumption per capita"
-    },
-    {
-      "path": "11-7-1/data.csv",
-      "name": "11-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, 12 years and over",
-                "data.12 to 17 years",
-                "data.18 to 34 years",
-                "data.35 to 49 years",
-                "data.50 to 64 years",
-                "data.65 years and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Males",
-                "data.Females",
-                "data.Both sexes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Percentage of the population aged 12 and over who reported their sense of belonging to their local community as being very strong or somewhat strong"
-    },
-    {
-      "path": "3-3-1/data.csv",
-      "name": "3-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Measures",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Overweight",
-                "data.Obese",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Both sexes",
-                "data.Males",
-                "data.Females",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Ages 5 to 79",
-                "data.Ages 5 to 17",
-                "data.Ages 5 to 11",
-                "data.Ages 12 to 17",
-                "data.Ages 18 to 79",
-                "data.Ages 18 to 39",
-                "data.Ages 40 to 59",
-                "data.Ages 60 to 79",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Percentage of the population that is overweight or obese"
+      "title": "Proportion of leadership roles held by women"
     }
   ]
 }
