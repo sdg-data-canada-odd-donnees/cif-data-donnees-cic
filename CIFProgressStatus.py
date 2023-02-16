@@ -71,37 +71,30 @@ def update_progress_status(progress_dict, indicator_id):
     meta = yamlmd.read_yamlmd(filepath)
     meta[0].update(progress_dict)
     write_meta_md(meta, indicator_id)
+    
 
+indicator_ids = get_indicator_ids()
 
-# indicator_ids = get_indicator_ids()
-# TEMP ----
-# indicator_ids = ['16-2-1']
-# ----
+# TODO: if auto prog is OFF, shouldn't calculate!!!!!!!!!
+for ind_id in indicator_ids:
+    # Uncomment to turn on ALL indicator calculation
+    # turn_on_progress_calc(ind_id)
 
-# for ind_id in indicator_ids:
-#     # Uncomment to turn on ALL indicator calculation
-#     # turn_on_progress_calc(ind_id)
-#
-#     # Get data + metadata for calculation
-#     indicator = merge_indicator(ind_id)
-#     if indicator is not None:
-#         # Run data + metadata through calculation to get progress
-#         progress = pm.measure_indicator_progress(indicator)
-#
-#         if progress is None:
-#             progress = 'not_available'
-#
-#         print(ind_id + ': ' + progress)
-#
-#         # Update progress status field in meta
-#         progress_dict = {'progress_status': progress}
-#         update_progress_status(progress_dict, ind_id)
-#         print(progress_dict)
+    # Get data + metadata for calculation
+    indicator = merge_indicator(ind_id)
+    if indicator is not None:
+        # Run data + metadata through calculation to get progress
+        progress = pm.measure_indicator_progress(indicator)
+        if progress is not None:
+            print(ind_id + ': ' + progress)
+            # Update progress status field in meta
+            progress_dict = {'progress_status': progress}
+            # Uncomment to update metadata files
+            update_progress_status(progress_dict, ind_id)
+
 
 # individal calculations result ----
-# test_ind = merge_indicator('14-2-1')
+# test_ind = merge_indicator('12-2-1')
 # test_data = pm.data_progress_measure(test_ind['data'])
 # print(test_data)
-# val1 = pm.growth_calculation(98.33, 95.60, 2020, 2016)
-# print(val1)
 # print(pm.measure_indicator_progress(test_ind))
