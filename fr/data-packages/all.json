@@ -4385,13 +4385,69 @@
             "title": "Année"
           },
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "15-24",
+                "25-54",
+                "55+",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
           }
         ]
       },
-      "title": "Proportion of employees earning less than 66% of the median hourly wage for permanent full-time employees"
+      "title": "Proportion of 15+ employees earning less than 66% of the median hourly wage of permanent full-time 15+ employees"
     },
     {
       "path": "3-3-1/data.csv",

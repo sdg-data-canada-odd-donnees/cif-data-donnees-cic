@@ -4092,12 +4092,64 @@
             "type": "integer"
           },
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Male",
+                "Female",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "15-24",
+                "25-54",
+                "55+",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
         ]
       },
-      "title": "Proportion of employees earning less than 66% of the median hourly wage for permanent full-time employees"
+      "title": "Proportion of 15+ employees earning less than 66% of the median hourly wage of permanent full-time 15+ employees"
     },
     {
       "path": "3-3-1/data.csv",
