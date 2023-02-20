@@ -54,7 +54,7 @@
                 "Gable top and aseptic containers",
                 "Textiles",
                 "Tires",
-                "Construction + renovation and demolition",
+                "data.Construction, renovation and demolition",
                 "Organics",
                 "Other materials",
                 ""
@@ -74,6 +74,11 @@
               ]
             },
             "title": "Sources of materials prepared for recycling"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

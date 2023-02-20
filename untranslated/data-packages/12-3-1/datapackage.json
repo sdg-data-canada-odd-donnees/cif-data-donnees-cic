@@ -52,7 +52,7 @@
                 "data.Gable top and aseptic containers",
                 "data.Textiles",
                 "data.Tires",
-                "data.Construction + renovation and demolition",
+                "data.Construction, renovation and demolition",
                 "data.Organics",
                 "data.Other materials",
                 ""
@@ -70,6 +70,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

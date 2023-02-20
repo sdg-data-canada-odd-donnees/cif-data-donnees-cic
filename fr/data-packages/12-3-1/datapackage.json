@@ -54,7 +54,7 @@
                 "Récipients triangulaires et aseptiques",
                 "Textiles",
                 "Pneus",
-                "Déchets provenant de la construction, de la rénovation et de la démolition",
+                "data.Construction, renovation and demolition",
                 "Matières organiques",
                 "Autres matières",
                 ""
@@ -74,6 +74,11 @@
               ]
             },
             "title": "Sources des matières préparées en vue du recyclage"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
