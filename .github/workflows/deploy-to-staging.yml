@@ -11,6 +11,8 @@
 #
 # curl -X POST https://api.github.com/repos/my-sdg-staging-org/open-sdg-site-starter/dispatches
 #
+# TODO: Add a "need" parameter to indicate that data update needs to be ran first
+#
 # ****************************************************************************
 
 name: Deploy to staging
