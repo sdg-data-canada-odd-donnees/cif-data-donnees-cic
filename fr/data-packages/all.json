@@ -4385,7 +4385,7 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4409,12 +4409,7 @@
             "title": "Géographie"
           },
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
-            "name": "Sex",
+            "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4427,18 +4422,23 @@
             "title": "Sexe"
           },
           {
-            "name": "Age group",
+            "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
                 "Total",
-                "15-24",
-                "25-54",
-                "55+",
+                "data.15-24",
+                "data.25-54",
+                "data.55+",
                 ""
               ]
             },
             "title": "Groupe d'âge"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

@@ -15,24 +15,49 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total",
+                "data.Male",
+                "data.Female",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total",
+                "data.15-24",
+                "data.25-54",
+                "data.55+",
                 ""
               ]
             }
@@ -40,31 +65,6 @@
           {
             "name": "GeoCode",
             "type": "string"
-          },
-          {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total",
-                "Male",
-                "Female",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total",
-                "15-24",
-                "25-54",
-                "55+",
-                ""
-              ]
-            }
           },
           {
             "name": "Value",
