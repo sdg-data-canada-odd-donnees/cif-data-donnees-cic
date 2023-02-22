@@ -3588,20 +3588,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Colombie-Britannique",
                 "Alberta",
-                "Saskatchewan",
+                "Colombie-Britannique",
                 "Manitoba",
-                "Ontario",
-                "Québec",
                 "Nouveau-Brunswick",
-                "Nouvelle-Écosse",
-                "Île-du-Prince-Édouard",
                 "Terre-Neuve-et-Labrador",
-                "Yukon",
                 "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
                 "Nunavut",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
+                "Canada",
                 ""
               ]
             },
@@ -3612,13 +3612,22 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Régions urbaines",
-                "Communautés rurales",
+                "Total centre de population",
+                "Réserves des Premières Nations Régions rurales",
+                "Réserves des Premières Nations",
+                "Réserves des Premières Nations Régions urbaines",
                 "Principales routes et autoroutes",
+                "Communautés rurales",
+                "Régions urbaines",
                 ""
               ]
             },
             "title": "Centres de population"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

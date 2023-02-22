@@ -3346,20 +3346,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.British Columbia",
                 "data.Alberta",
-                "data.Saskatchewan",
+                "data.British Columbia",
                 "data.Manitoba",
-                "data.Ontario",
-                "data.Quebec",
                 "data.New Brunswick",
-                "data.Nova Scotia",
-                "data.Prince Edward Island",
                 "data.Newfoundland and Labrador",
-                "data.Yukon",
                 "data.Northwest Territories",
+                "data.Nova Scotia",
                 "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon",
+                "data.Canada",
                 ""
               ]
             }
@@ -3369,12 +3369,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Urban centres",
-                "data.Rural communities",
+                "data.Total population centre",
+                "data.First Nations reserves Rural areas",
+                "data.First Nations reserves",
+                "data.First Nations reserves Urban centres",
                 "data.Major roads and highways",
+                "data.Rural communities",
+                "data.Urban centres",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

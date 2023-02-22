@@ -20,20 +20,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "British Columbia",
                 "Alberta",
-                "Saskatchewan",
+                "British Columbia",
                 "Manitoba",
-                "Ontario",
-                "Quebec",
                 "New Brunswick",
-                "Nova Scotia",
-                "Prince Edward Island",
                 "Newfoundland and Labrador",
-                "Yukon",
                 "Northwest Territories",
+                "Nova Scotia",
                 "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
+                "Canada",
                 ""
               ]
             },
@@ -44,13 +44,22 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban centres",
-                "Rural communities",
+                "Total population centre",
+                "First Nations reserves Rural areas",
+                "First Nations reserves",
+                "First Nations reserves Urban centres",
                 "Major roads and highways",
+                "Rural communities",
+                "Urban centres",
                 ""
               ]
             },
             "title": "Population centres"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
