@@ -1,10 +1,10 @@
-# CIF update 1.1.1 -------------------------------------------------------
+# CIF 1.1.1 -------------------------------------------------------
 
-library(tidyverse)
 library(cansim)
+library(dplyr)
 
 low_income_data <- get_cansim("11-10-0135-01", factors = FALSE)
-geocodes <- read_csv("gif-data-processing/geocodes.csv")
+geocodes <- read.csv("geocodes.csv")
 
 new_data <- 
   low_income_data %>%
@@ -32,10 +32,10 @@ final_data <-
   bind_rows(
     total_line,
     new_data %>% 
-      filter(!(Geography == "Canada" & `Persons in low income` == "All persons"))
-  ) %>% 
-  mutate_at(c(2, 3), ~ paste0("data.", .x)) %>%
+      filter(!(Geography == "Canada" & `Persons in low income` == "All persons"))%>% 
+      mutate_at(c(2, 3), ~ paste0("data.", .x))
+  ) %>%
   rename_at(c(2, 3), ~ paste0("data.", .x))
   
 
-write_csv(final_data, "gif-data-processing/CIF/data/indicator_12-1-1.csv")
+write.csv(final_data, "data/indicator_1-1-1.csv", na = "", row.names = FALSE)

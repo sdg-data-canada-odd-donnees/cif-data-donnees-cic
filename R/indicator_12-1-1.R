@@ -1,34 +1,65 @@
 # CIF update 12.1.1 -------------------------------------------------------
 
-library(tidyverse)
+library(dplyr)
 library(cansim)
 
 vehicle_data <- get_cansim("20-10-0021-01", factors = FALSE)
-geocodes <- read_csv("gif-data-processing/geocodes.csv")
+geocodes <- read.csv("geocodes.csv")
 
-new_data <-
+selected_fuel_types <- c("All fuel types",
+                         "Battery electric",
+                         "Plug-in hybrid electric")
+
+all_vehicles <-
   vehicle_data %>%
   filter(
     REF_DATE >= 2015,
     `Vehicle type` == "Total, vehicle type",
-    `Fuel type` %in% c("All fuel types", "Battery electric", "Plug-in hybrid electric")
-  ) %>% 
-  select(REF_DATE, GEO, `Fuel type`, VALUE) %>% 
-  rename(Year = REF_DATE, Geography = GEO, Value = VALUE) %>% 
-  mutate(
-    `Fuel type` = ifelse(`Fuel type` == "All fuel types", `Fuel type`, "Electric")
+    `Fuel type` %in% selected_fuel_types
   ) %>%
-  group_by(Year, Geography, `Fuel type`) %>% 
-  summarise(Value = sum(Value, na.rm = TRUE)) %>% 
-  pivot_wider(names_from = `Fuel type`, values_from = Value) %>% 
-  mutate(Value = round((Electric / `All fuel types`) * 100, 2)) %>% 
-  filter(!is.na(Value)) %>% 
-  select(Year, Geography, Value) %>% 
-  ungroup() %>% 
-  left_join(geocodes, by = "Geography") %>% 
-  relocate(GeoCode, .before = "Value") %>% 
-  mutate(Geography = paste0("data.", Geography)) %>% 
+  select(Year = REF_DATE,
+         Geography = GEO,
+         `Fuel type`,
+         Value = VALUE) %>%
+  mutate(`Fuel type` = ifelse(`Fuel type` == "All fuel types",
+                              `Fuel type`,
+                              "Electric")) %>%
+  group_by(Year, Geography, `Fuel type`) %>%
+  summarise(Value = sum(Value, na.rm = TRUE))
+
+all_fuel <-
+  all_vehicles %>%
+  filter(`Fuel type` == "All fuel types") %>%
+  rename(all_fuel = Value)
+
+electric <-
+  all_vehicles %>%
+  filter(`Fuel type` == "Electric") %>%
+  rename(electric = Value)
+
+new_data <-
+  left_join(all_fuel, electric, c("Year", "Geography")) %>%
+  mutate(Value = round((electric / all_fuel) * 100, 2)) %>%
+  select(-starts_with("Fuel")) %>%
+  select(-c(3:4)) %>%
+  left_join(geocodes, by = "Geography") %>%
+  relocate(GeoCode, .before = "Value")
+
+total_line <- 
+  new_data %>% 
+  filter(Geography == "Canada") %>% 
+  mutate(Geography = "")
+
+data_final <- 
+  bind_rows(
+    total_line,
+    new_data %>% 
+      filter(Geography != "Canada") %>% 
+      mutate(Geography = paste0("data.", Geography))
+  ) %>% 
   rename(data.Geography = Geography)
 
-
-write_csv(new_data, "gif-data-processing/CIF/tests/data/indicator_12-1-1.csv")
+write.csv(data_final,
+          "data/indicator_12-1-1.csv",
+          na = "",
+          row.names = FALSE)

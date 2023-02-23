@@ -1,13 +1,7 @@
-#13-10-0096-01
-
 # CIF 4.2.1 ---------------------------------------------------------------
 
-# load libraries
 library(dplyr)
-library(tidyr)
 library(cansim)
-library(readr)
-library(stringr)
 
 # load CODR table from stc api
 Raw_data <- get_cansim("37-10-0130-01", factors = FALSE)
@@ -15,10 +9,8 @@ Raw_data2 <- get_cansim("37-10-0117-01", factors = FALSE)
 
 
 # load geocode
-geocodes <- read_csv("geocodes.csv")
+geocodes <- read.csv("geocodes.csv")
 
-
-#load the total population data set 
 
 selected_education <- c(
   "Tertiary education",
@@ -26,134 +18,122 @@ selected_education <- c(
   "Bachelor's level",
   "Master's or Doctoral level",
   "University"
-  
 )
+
 
 Total_pop <- 
   Raw_data %>% 
-  filter(REF_DATE >= 2010,
-         `Educational attainment level` %in% selected_education ,
+  filter(
+    REF_DATE >= 2010,
+    `Educational attainment level` %in% selected_education,
+    !(GEO == "Organisation for Economic Co-operation and Development (OECD) - average")
   ) %>% 
-  filter(!(GEO == "Organisation for Economic Co-operation and Development (OECD) - average")) %>% 
-  select(Year = REF_DATE, Geography = GEO, `Educational attainment level`,
-         `Age group`, Sex, Value = VALUE)
-
-Total_pop$`Population characteristics` <- "Total population"
-Total_pop <- 
-  Total_pop %>% relocate(`Population characteristics`, .after = Geography)
-
-
-
-
-
-
-#Load the indigenous table for Tertiary education education - College + University 
+  select(
+    Year = REF_DATE,
+    Geography = GEO,
+    `Educational attainment level`,
+    `Age group`,
+    Sex,
+    Value = VALUE
+  ) %>% 
+  mutate(`Population characteristics` = "Total population") %>% 
+  relocate(`Population characteristics`, .after = Geography)
 
 
-
-indg_pop1 <- 
-  Raw_data2 %>% 
-  mutate(across(`Educational attainment level`, str_replace, "College","Short-cycle tertiary")) %>% 
-  filter(REF_DATE >= 2010, 
-         `Population characteristics` == "Off-reserve Indigenous  population", 
-         `Educational attainment level` %in% c("Short-cycle tertiary", "University")) %>% 
-  select(Year = REF_DATE, Geography = GEO, 
-         `Population characteristics`, `Educational attainment level`,
-         Value = VALUE) %>% 
-  group_by(Year, Geography, `Population characteristics`, `Educational attainment level`) %>% 
-  summarise(Value = sum(Value, na.rm = TRUE)) %>% 
-  pivot_wider(names_from = `Educational attainment level`, values_from = Value) %>% 
-  mutate(Value = `Short-cycle tertiary` + University) %>% 
-  select(Year, Geography, `Population characteristics`, Value) %>% 
-  mutate(`Educational attainment level` = "Tertiary education") %>% 
-  relocate(`Educational attainment level`, .before = Value)
-
-
-
-
-
-
-#load the indigenous table for short cycle and University stats 
-
-indg_pop2 <- 
-  Raw_data2 %>% 
-  mutate(across(`Educational attainment level`, str_replace, 
-                "College", "Short-cycle tertiary")) %>% 
-  filter(REF_DATE >= 2010, 
-         `Population characteristics` == "Off-reserve Indigenous  population",
-         `Educational attainment level`
-         %in% c("Short-cycle tertiary", "University")) %>% 
-  select(Year = REF_DATE, Geography = GEO, 
-         `Population characteristics`, 
-         `Educational attainment level`,
-         Value = VALUE)
+# Load the indigenous dataframe  
+indg_pop1 <-
+  Raw_data2 %>%
+  mutate(
+    `Educational attainment level` = ifelse(
+      `Educational attainment level` == "College",
+      "Short-cycle tertiary",
+      `Educational attainment level`
+    )
+  ) %>%
+  filter(
+    REF_DATE >= 2010,
+    `Population characteristics` == "Off-reserve Indigenous  population",
+    `Educational attainment level` %in% c("Short-cycle tertiary", "University")
+  ) %>%
+  select(
+    Year = REF_DATE,
+    Geography = GEO,
+    `Population characteristics`,
+    `Educational attainment level`,
+    Value = VALUE
+  ) %>% 
+  mutate(
+    `Population characteristics` = "Off-reserve Indigenous population"
+  )
 
 
+# Calculate total for Tertiary education education = College + University
+total_indg_pop <-
+  indg_pop1 %>%
+  group_by(
+    Year,
+    Geography,
+    `Population characteristics`
+  ) %>% 
+  summarise(Value = sum(Value, na.rm = TRUE)) %>%
+  mutate(`Educational attainment level` = "Tertiary education")
 
 
-
-#Bind the two data sets together 
-
+# Bind the total to the total population dataframe 
 final_indg <- 
-  bind_rows(indg_pop2, indg_pop1)
+  bind_rows(indg_pop1, total_indg_pop) %>% 
+  mutate(
+    `Age group` = "Total, 25 to 64 years",
+    Sex = "Both sexes"
+  )
 
 
-
-
-#Create the Age group and sex column in the indigenous table 
-
-final_indg$`Age group` <- "Total, 25 to 64 years"
-final_indg$Sex <- "Both sexes"
-
-final_indg <- 
-  final_indg %>% relocate(Sex, .before = Value) %>% 
-  relocate(`Age group`, .after = `Educational attainment level`)
-
-
-
-
-
-
-#Bind the total population with the indigenous population
-
+# Bind the total population with the indigenous population
 all_characteristics <- 
   bind_rows(Total_pop, final_indg) %>% 
   left_join(geocodes, by = "Geography") %>% 
   relocate(GeoCode, .before = Value)
 
 
-
 #Create the aggregate and non-aggregate lines for the graphs
-
 total_line <-
-  all_characteristics %>% 
-  filter(Geography == "Canada", 
-         `Population characteristics` == "Total population",
-         `Educational attainment level` == "Tertiary education",
-         `Age group` == "Total, 25 to 64 years",
-         Sex == "Both sexes") %>% 
-  mutate_at(2:(ncol(.)-2), ~ "")
+  all_characteristics %>%
+  filter(
+    Geography == "Canada",
+    `Population characteristics` == "Total population",
+    `Educational attainment level` == "Tertiary education",
+    `Age group` == "Total, 25 to 64 years",
+    Sex == "Both sexes"
+  ) %>%
+  mutate_at(2:6, ~ "")
+
 
 non_total_line <- 
-  all_characteristics %>% 
-  filter(!(Geography == "Canada" &
-             `Population characteristics` == "Total population" &
-             `Educational attainment level` == "Tertiary education" &
-             `Age group` == "Total, 25 to 64 years" &
-             Sex == "Both sexes")) %>% 
-  mutate_at(2:(ncol(.)-2), ~ paste0("data.", .x)) 
+  all_characteristics %>%
+  filter(
+    !(
+      Geography == "Canada" &
+        `Population characteristics` == "Total population" &
+        `Educational attainment level` == "Tertiary education" &
+        `Age group` == "Total, 25 to 64 years" &
+        Sex == "Both sexes"
+    )
+  ) %>%
+  mutate_at(2:6, ~ paste0("data.", .x)) 
 
 
-
-#Bind and format all the total and non-total together 
-
+# Bind and format all the total and non-total together 
 final_data <- 
-  bind_rows(total_line, non_total_line)
+  bind_rows(total_line, non_total_line) %>% 
+  rename_at(2:6, ~ paste0("data.", .x)) 
 
-names(final_data)[2:(ncol(final_data)-2)] <-
-  paste0("data.", names(final_data)[2:(ncol(final_data)-2)])
 
-write_csv(final_data, "CIF/data/indicator_4-2-1.csv", na = "")
+write.csv(
+  final_data, 
+  "data/indicator_4-2-1.csv",
+  na = "",
+  row.names = FALSE
+)
 
 
 
