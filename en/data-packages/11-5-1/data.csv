@@ -1,1 +1,610 @@
-Year,Value
+Year,Geography,Gender,Type of commute,Value
+2016,,,,19.3
+2021,,,,13.9
+2021,Canada,Total,Public transit,7.7
+2021,Canada,Total,data.Active transportation,6.2
+2021,Canada,data.Men+,data.Sustainable transportation,11.6
+2021,Canada,data.Men+,Public transit,6.0
+2021,Canada,data.Men+,data.Active transportation,5.5
+2021,Canada,data.Women+,data.Sustainable transportation,16.6
+2021,Canada,data.Women+,Public transit,9.6
+2021,Canada,data.Women+,data.Active transportation,7.0
+2016,Canada,Total,Public transit,12.4
+2016,Canada,Total,Active transport,6.9
+2016,Newfoundland and Labrador,Total,data.Sustainable transportation,7.5
+2016,Newfoundland and Labrador,Total,Public transit,2.5
+2016,Newfoundland and Labrador,Total,Active transport,5.0
+2016,"St. John's, Newfoundland and Labrador",Total,data.Sustainable transportation,7.9
+2016,"St. John's, Newfoundland and Labrador",Total,Public transit,3.1
+2016,"St. John's, Newfoundland and Labrador",Total,Active transport,4.8
+2016,Prince Edward Island,Total,data.Sustainable transportation,7.2
+2016,Prince Edward Island,Total,Public transit,1.4
+2016,Prince Edward Island,Total,Active transport,5.8
+2016,Nova Scotia,Total,data.Sustainable transportation,13.3
+2016,Nova Scotia,Total,Public transit,6.4
+2016,Nova Scotia,Total,Active transport,6.9
+2016,"Halifax, Nova Scotia",Total,data.Sustainable transportation,21.0
+2016,"Halifax, Nova Scotia",Total,Public transit,11.8
+2016,"Halifax, Nova Scotia",Total,Active transport,9.2
+2016,New Brunswick,Total,data.Sustainable transportation,7.3
+2016,New Brunswick,Total,Public transit,2.3
+2016,New Brunswick,Total,Active transport,5.0
+2016,"Moncton, New Brunswick",Total,data.Sustainable transportation,9.4
+2016,"Moncton, New Brunswick",Total,Public transit,3.4
+2016,"Moncton, New Brunswick",Total,Active transport,6.0
+2016,"Saint John, New Brunswick",Total,data.Sustainable transportation,9.5
+2016,"Saint John, New Brunswick",Total,Public transit,4.1
+2016,"Saint John, New Brunswick",Total,Active transport,5.4
+2016,Quebec,Total,data.Sustainable transportation,20.8
+2016,Quebec,Total,Public transit,13.7
+2016,Quebec,Total,Active transport,7.1
+2016,"Montreal, Quebec",Total,data.Sustainable transportation,29.5
+2016,"Montreal, Quebec",Total,Public transit,22.3
+2016,"Montreal, Quebec",Total,Active transport,7.2
+2016,"Ottawa - Gatineau (Quebec part), Quebec",Total,data.Sustainable transportation,20.5
+2016,"Ottawa - Gatineau (Quebec part), Quebec",Total,Public transit,14.5
+2016,"Ottawa - Gatineau (Quebec part), Quebec",Total,Active transport,6.0
+2016,"Quebec, Quebec",Total,data.Sustainable transportation,18.7
+2016,"Quebec, Quebec",Total,Public transit,11.1
+2016,"Quebec, Quebec",Total,Active transport,7.6
+2016,"Saguenay, Quebec",Total,data.Sustainable transportation,6.5
+2016,"Saguenay, Quebec",Total,Public transit,2.2
+2016,"Saguenay, Quebec",Total,Active transport,4.3
+2016,"Sherbrooke, Quebec",Total,data.Sustainable transportation,10.5
+2016,"Sherbrooke, Quebec",Total,Public transit,4.2
+2016,"Sherbrooke, Quebec",Total,Active transport,6.3
+2016,"Trois-Rivieres, Quebec",Total,data.Sustainable transportation,7.6
+2016,"Trois-Rivieres, Quebec",Total,Public transit,2.3
+2016,"Trois-Rivieres, Quebec",Total,Active transport,5.3
+2016,Ontario,Total,data.Sustainable transportation,21.1
+2016,Ontario,Total,Public transit,14.6
+2016,Ontario,Total,Active transport,6.5
+2016,"Barrie, Ontario",Total,data.Sustainable transportation,8.4
+2016,"Barrie, Ontario",Total,Public transit,4.3
+2016,"Barrie, Ontario",Total,Active transport,4.1
+2016,"Belleville, Ontario",Total,data.Sustainable transportation,8.5
+2016,"Belleville, Ontario",Total,Public transit,2.3
+2016,"Belleville, Ontario",Total,Active transport,6.2
+2016,"Brantford, Ontario",Total,data.Sustainable transportation,7.7
+2016,"Brantford, Ontario",Total,Public transit,3.1
+2016,"Brantford, Ontario",Total,Active transport,4.6
+2016,"Greater Sudbury / Grand Sudbury, Ontario",Total,data.Sustainable transportation,9.8
+2016,"Greater Sudbury / Grand Sudbury, Ontario",Total,Public transit,4.9
+2016,"Greater Sudbury / Grand Sudbury, Ontario",Total,Active transport,4.9
+2016,"Guelph, Ontario",Total,data.Sustainable transportation,13.3
+2016,"Guelph, Ontario",Total,Public transit,6.4
+2016,"Guelph, Ontario",Total,Active transport,6.9
+2016,"Hamilton, Ontario",Total,data.Sustainable transportation,14.9
+2016,"Hamilton, Ontario",Total,Public transit,9.8
+2016,"Hamilton, Ontario",Total,Active transport,5.1
+2016,"Kingston, Ontario",Total,data.Sustainable transportation,16.3
+2016,"Kingston, Ontario",Total,Public transit,6.8
+2016,"Kingston, Ontario",Total,Active transport,9.5
+2016,"Kitchener - Cambridge - Waterloo, Ontario",Total,data.Sustainable transportation,11.5
+2016,"Kitchener - Cambridge - Waterloo, Ontario",Total,Public transit,6.0
+2016,"Kitchener - Cambridge - Waterloo, Ontario",Total,Active transport,5.5
+2016,"London, Ontario",Total,data.Sustainable transportation,13.9
+2016,"London, Ontario",Total,Public transit,7.2
+2016,"London, Ontario",Total,Active transport,6.7
+2016,"Oshawa, Ontario",Total,data.Sustainable transportation,13.0
+2016,"Oshawa, Ontario",Total,Public transit,9.6
+2016,"Oshawa, Ontario",Total,Active transport,3.4
+2016,"Ottawa - Gatineau (Ontario part), Ontario",Total,data.Sustainable transportation,29.2
+2016,"Ottawa - Gatineau (Ontario part), Ontario",Total,Public transit,19.6
+2016,"Ottawa - Gatineau (Ontario part), Ontario",Total,Active transport,9.6
+2016,"Peterborough, Ontario",Total,data.Sustainable transportation,12.2
+2016,"Peterborough, Ontario",Total,Public transit,3.9
+2016,"Peterborough, Ontario",Total,Active transport,8.3
+2016,"St. Catharines - Niagara, Ontario",Total,data.Sustainable transportation,8.1
+2016,"St. Catharines - Niagara, Ontario",Total,Public transit,2.7
+2016,"St. Catharines - Niagara, Ontario",Total,Active transport,5.4
+2016,"Thunder Bay, Ontario",Total,data.Sustainable transportation,9.3
+2016,"Thunder Bay, Ontario",Total,Public transit,3.9
+2016,"Thunder Bay, Ontario",Total,Active transport,5.4
+2016,"Toronto, Ontario",Total,data.Sustainable transportation,31.0
+2016,"Toronto, Ontario",Total,Public transit,24.3
+2016,"Toronto, Ontario",Total,Active transport,6.7
+2016,"Windsor, Ontario",Total,data.Sustainable transportation,7.7
+2016,"Windsor, Ontario",Total,Public transit,3.4
+2016,"Windsor, Ontario",Total,Active transport,4.3
+2016,Manitoba,Total,data.Sustainable transportation,16.5
+2016,Manitoba,Total,Public transit,9.4
+2016,Manitoba,Total,Active transport,7.1
+2016,"Winnipeg, Manitoba",Total,data.Sustainable transportation,19.9
+2016,"Winnipeg, Manitoba",Total,Public transit,13.6
+2016,"Winnipeg, Manitoba",Total,Active transport,6.3
+2016,Saskatchewan,Total,data.Sustainable transportation,9.7
+2016,Saskatchewan,Total,Public transit,2.9
+2016,Saskatchewan,Total,Active transport,6.8
+2016,"Regina, Saskatchewan",Total,data.Sustainable transportation,10.2
+2016,"Regina, Saskatchewan",Total,Public transit,5.1
+2016,"Regina, Saskatchewan",Total,Active transport,5.1
+2016,"Saskatoon, Saskatchewan",Total,data.Sustainable transportation,10.4
+2016,"Saskatoon, Saskatchewan",Total,Public transit,4.3
+2016,"Saskatoon, Saskatchewan",Total,Active transport,6.1
+2016,Alberta,Total,data.Sustainable transportation,15.7
+2016,Alberta,Total,Public transit,10.1
+2016,Alberta,Total,Active transport,5.6
+2016,"Calgary, Alberta",Total,data.Sustainable transportation,20.6
+2016,"Calgary, Alberta",Total,Public transit,14.4
+2016,"Calgary, Alberta",Total,Active transport,6.2
+2016,"Edmonton, Alberta",Total,data.Sustainable transportation,16.0
+2016,"Edmonton, Alberta",Total,Public transit,11.3
+2016,"Edmonton, Alberta",Total,Active transport,4.7
+2016,"Lethbridge, Alberta",Total,data.Sustainable transportation,8.3
+2016,"Lethbridge, Alberta",Total,Public transit,2.9
+2016,"Lethbridge, Alberta",Total,Active transport,5.4
+2016,British Columbia,Total,data.Sustainable transportation,22.4
+2016,British Columbia,Total,Public transit,13.1
+2016,British Columbia,Total,Active transport,9.3
+2016,"Abbotsford - Mission, British Columbia",Total,data.Sustainable transportation,6.2
+2016,"Abbotsford - Mission, British Columbia",Total,Public transit,2.5
+2016,"Abbotsford - Mission, British Columbia",Total,Active transport,3.7
+2016,"Kelowna, British Columbia",Total,data.Sustainable transportation,11.1
+2016,"Kelowna, British Columbia",Total,Public transit,3.9
+2016,"Kelowna, British Columbia",Total,Active transport,7.2
+2016,"Vancouver, British Columbia",Total,data.Sustainable transportation,29.5
+2016,"Vancouver, British Columbia",Total,Public transit,20.4
+2016,"Vancouver, British Columbia",Total,Active transport,9.1
+2016,"Victoria, British Columbia",Total,data.Sustainable transportation,27.8
+2016,"Victoria, British Columbia",Total,Public transit,10.9
+2016,"Victoria, British Columbia",Total,Active transport,16.9
+2016,Yukon,Total,data.Sustainable transportation,15.8
+2016,Yukon,Total,Public transit,3.9
+2016,Yukon,Total,Active transport,11.9
+2016,Northwest Territories,Total,data.Sustainable transportation,26.7
+2016,Northwest Territories,Total,Public transit,1.3
+2016,Northwest Territories,Total,Active transport,25.4
+2016,Nunavut,Total,data.Sustainable transportation,45.1
+2016,Nunavut,Total,Public transit,0.8
+2016,Nunavut,Total,Active transport,44.3
+2021,Newfoundland and Labrador,Total,data.Sustainable transportation,7.0
+2021,Newfoundland and Labrador,Total,Public transit,2.0
+2021,Newfoundland and Labrador,Total,data.Active transportation,5.0
+2021,Newfoundland and Labrador,data.Men+,data.Sustainable transportation,6.7
+2021,Newfoundland and Labrador,data.Men+,Public transit,2.4
+2021,Newfoundland and Labrador,data.Men+,data.Active transportation,4.3
+2021,Newfoundland and Labrador,data.Women+,data.Sustainable transportation,7.2
+2021,Newfoundland and Labrador,data.Women+,Public transit,1.6
+2021,Newfoundland and Labrador,data.Women+,data.Active transportation,5.6
+2021,"data.St. John's (CMA), N.L.",Total,data.Sustainable transportation,7.9
+2021,"data.St. John's (CMA), N.L.",Total,Public transit,3.2
+2021,"data.St. John's (CMA), N.L.",Total,data.Active transportation,4.7
+2021,"data.St. John's (CMA), N.L.",data.Men+,data.Sustainable transportation,7.9
+2021,"data.St. John's (CMA), N.L.",data.Men+,Public transit,3.3
+2021,"data.St. John's (CMA), N.L.",data.Men+,data.Active transportation,4.6
+2021,"data.St. John's (CMA), N.L.",data.Women+,data.Sustainable transportation,7.8
+2021,"data.St. John's (CMA), N.L.",data.Women+,Public transit,3.1
+2021,"data.St. John's (CMA), N.L.",data.Women+,data.Active transportation,4.8
+2021,Prince Edward Island,Total,data.Sustainable transportation,5.9
+2021,Prince Edward Island,Total,Public transit,1.4
+2021,Prince Edward Island,Total,data.Active transportation,4.5
+2021,Prince Edward Island,data.Men+,data.Sustainable transportation,5.4
+2021,Prince Edward Island,data.Men+,Public transit,1.3
+2021,Prince Edward Island,data.Men+,data.Active transportation,4.1
+2021,Prince Edward Island,data.Women+,data.Sustainable transportation,6.4
+2021,Prince Edward Island,data.Women+,Public transit,1.5
+2021,Prince Edward Island,data.Women+,data.Active transportation,4.8
+2021,Nova Scotia,Total,data.Sustainable transportation,10.3
+2021,Nova Scotia,Total,Public transit,4.1
+2021,Nova Scotia,Total,data.Active transportation,6.1
+2021,Nova Scotia,data.Men+,data.Sustainable transportation,9.1
+2021,Nova Scotia,data.Men+,Public transit,3.5
+2021,Nova Scotia,data.Men+,data.Active transportation,5.7
+2021,Nova Scotia,data.Women+,data.Sustainable transportation,11.5
+2021,Nova Scotia,data.Women+,Public transit,4.9
+2021,Nova Scotia,data.Women+,data.Active transportation,6.6
+2021,"data.Halifax (CMA), N.S.",Total,data.Sustainable transportation,15.3
+2021,"data.Halifax (CMA), N.S.",Total,Public transit,7.7
+2021,"data.Halifax (CMA), N.S.",Total,data.Active transportation,7.6
+2021,"data.Halifax (CMA), N.S.",data.Men+,data.Sustainable transportation,13.0
+2021,"data.Halifax (CMA), N.S.",data.Men+,Public transit,6.1
+2021,"data.Halifax (CMA), N.S.",data.Men+,data.Active transportation,6.9
+2021,"data.Halifax (CMA), N.S.",data.Women+,data.Sustainable transportation,18.0
+2021,"data.Halifax (CMA), N.S.",data.Women+,Public transit,9.4
+2021,"data.Halifax (CMA), N.S.",data.Women+,data.Active transportation,8.5
+2021,New Brunswick,Total,data.Sustainable transportation,6.1
+2021,New Brunswick,Total,Public transit,1.5
+2021,New Brunswick,Total,data.Active transportation,4.6
+2021,New Brunswick,data.Men+,data.Sustainable transportation,5.7
+2021,New Brunswick,data.Men+,Public transit,1.3
+2021,New Brunswick,data.Men+,data.Active transportation,4.4
+2021,New Brunswick,data.Women+,data.Sustainable transportation,6.5
+2021,New Brunswick,data.Women+,Public transit,1.7
+2021,New Brunswick,data.Women+,data.Active transportation,4.8
+2021,"data.Moncton (CMA), N.B.",Total,data.Sustainable transportation,7.8
+2021,"data.Moncton (CMA), N.B.",Total,Public transit,2.2
+2021,"data.Moncton (CMA), N.B.",Total,data.Active transportation,5.6
+2021,"data.Moncton (CMA), N.B.",data.Men+,data.Sustainable transportation,6.8
+2021,"data.Moncton (CMA), N.B.",data.Men+,Public transit,1.7
+2021,"data.Moncton (CMA), N.B.",data.Men+,data.Active transportation,5.1
+2021,"data.Moncton (CMA), N.B.",data.Women+,data.Sustainable transportation,8.9
+2021,"data.Moncton (CMA), N.B.",data.Women+,Public transit,2.7
+2021,"data.Moncton (CMA), N.B.",data.Women+,data.Active transportation,6.2
+2021,"data.Saint John (CMA), N.B.",Total,data.Sustainable transportation,7.5
+2021,"data.Saint John (CMA), N.B.",Total,Public transit,2.7
+2021,"data.Saint John (CMA), N.B.",Total,data.Active transportation,4.7
+2021,"data.Saint John (CMA), N.B.",data.Men+,data.Sustainable transportation,6.9
+2021,"data.Saint John (CMA), N.B.",data.Men+,Public transit,2.5
+2021,"data.Saint John (CMA), N.B.",data.Men+,data.Active transportation,4.5
+2021,"data.Saint John (CMA), N.B.",data.Women+,data.Sustainable transportation,8.0
+2021,"data.Saint John (CMA), N.B.",data.Women+,Public transit,3.0
+2021,"data.Saint John (CMA), N.B.",data.Women+,data.Active transportation,5.0
+2021,Quebec,Total,data.Sustainable transportation,15.9
+2021,Quebec,Total,Public transit,9.0
+2021,Quebec,Total,data.Active transportation,6.9
+2021,Quebec,data.Men+,data.Sustainable transportation,13.4
+2021,Quebec,data.Men+,Public transit,7.1
+2021,Quebec,data.Men+,data.Active transportation,6.2
+2021,Quebec,data.Women+,data.Sustainable transportation,18.6
+2021,Quebec,data.Women+,Public transit,11.1
+2021,Quebec,data.Women+,data.Active transportation,7.5
+2021,"data.Montréal (CMA), Que.",Total,data.Sustainable transportation,22.8
+2021,"data.Montréal (CMA), Que.",Total,Public transit,15.3
+2021,"data.Montréal (CMA), Que.",Total,data.Active transportation,7.5
+2021,"data.Montréal (CMA), Que.",data.Men+,data.Sustainable transportation,18.9
+2021,"data.Montréal (CMA), Que.",data.Men+,Public transit,12.1
+2021,"data.Montréal (CMA), Que.",data.Men+,data.Active transportation,6.7
+2021,"data.Montréal (CMA), Que.",data.Women+,data.Sustainable transportation,27.1
+2021,"data.Montréal (CMA), Que.",data.Women+,Public transit,18.7
+2021,"data.Montréal (CMA), Que.",data.Women+,data.Active transportation,8.4
+2021,"data.Québec (CMA), Que.",Total,data.Sustainable transportation,14.9
+2021,"data.Québec (CMA), Que.",Total,Public transit,7.8
+2021,"data.Québec (CMA), Que.",Total,data.Active transportation,7.2
+2021,"data.Québec (CMA), Que.",data.Men+,data.Sustainable transportation,12.9
+2021,"data.Québec (CMA), Que.",data.Men+,Public transit,6.2
+2021,"data.Québec (CMA), Que.",data.Men+,data.Active transportation,6.7
+2021,"data.Québec (CMA), Que.",data.Women+,data.Sustainable transportation,17.2
+2021,"data.Québec (CMA), Que.",data.Women+,Public transit,9.5
+2021,"data.Québec (CMA), Que.",data.Women+,data.Active transportation,7.7
+2021,"data.Saguenay (CMA), Que.",Total,data.Sustainable transportation,5.8
+2021,"data.Saguenay (CMA), Que.",Total,Public transit,1.8
+2021,"data.Saguenay (CMA), Que.",Total,data.Active transportation,4.0
+2021,"data.Saguenay (CMA), Que.",data.Men+,data.Sustainable transportation,5.3
+2021,"data.Saguenay (CMA), Que.",data.Men+,Public transit,1.7
+2021,"data.Saguenay (CMA), Que.",data.Men+,data.Active transportation,3.6
+2021,"data.Saguenay (CMA), Que.",data.Women+,data.Sustainable transportation,6.4
+2021,"data.Saguenay (CMA), Que.",data.Women+,Public transit,2.0
+2021,"data.Saguenay (CMA), Que.",data.Women+,data.Active transportation,4.5
+2021,"data.Sherbrooke (CMA), Que.",Total,data.Sustainable transportation,10.0
+2021,"data.Sherbrooke (CMA), Que.",Total,Public transit,3.9
+2021,"data.Sherbrooke (CMA), Que.",Total,data.Active transportation,6.2
+2021,"data.Sherbrooke (CMA), Que.",data.Men+,data.Sustainable transportation,9.6
+2021,"data.Sherbrooke (CMA), Que.",data.Men+,Public transit,3.3
+2021,"data.Sherbrooke (CMA), Que.",data.Men+,data.Active transportation,6.3
+2021,"data.Sherbrooke (CMA), Que.",data.Women+,data.Sustainable transportation,10.5
+2021,"data.Sherbrooke (CMA), Que.",data.Women+,Public transit,4.5
+2021,"data.Sherbrooke (CMA), Que.",data.Women+,data.Active transportation,6.0
+2021,"data.Trois-Rivières (CMA), Que.",Total,data.Sustainable transportation,7.4
+2021,"data.Trois-Rivières (CMA), Que.",Total,Public transit,2.1
+2021,"data.Trois-Rivières (CMA), Que.",Total,data.Active transportation,5.4
+2021,"data.Trois-Rivières (CMA), Que.",data.Men+,data.Sustainable transportation,6.9
+2021,"data.Trois-Rivières (CMA), Que.",data.Men+,Public transit,1.5
+2021,"data.Trois-Rivières (CMA), Que.",data.Men+,data.Active transportation,5.4
+2021,"data.Trois-Rivières (CMA), Que.",data.Women+,data.Sustainable transportation,8.0
+2021,"data.Trois-Rivières (CMA), Que.",data.Women+,Public transit,2.7
+2021,"data.Trois-Rivières (CMA), Que.",data.Women+,data.Active transportation,5.3
+2021,Ontario,Total,data.Sustainable transportation,14.0
+2021,Ontario,Total,Public transit,8.6
+2021,Ontario,Total,data.Active transportation,5.4
+2021,Ontario,data.Men+,data.Sustainable transportation,11.4
+2021,Ontario,data.Men+,Public transit,6.6
+2021,Ontario,data.Men+,data.Active transportation,4.8
+2021,Ontario,data.Women+,data.Sustainable transportation,17.3
+2021,Ontario,data.Women+,Public transit,11.1
+2021,Ontario,data.Women+,data.Active transportation,6.2
+2021,"data.Barrie (CMA), Ont.",Total,data.Sustainable transportation,6.2
+2021,"data.Barrie (CMA), Ont.",Total,Public transit,2.8
+2021,"data.Barrie (CMA), Ont.",Total,data.Active transportation,3.4
+2021,"data.Barrie (CMA), Ont.",data.Men+,data.Sustainable transportation,5.3
+2021,"data.Barrie (CMA), Ont.",data.Men+,Public transit,2.3
+2021,"data.Barrie (CMA), Ont.",data.Men+,data.Active transportation,3.0
+2021,"data.Barrie (CMA), Ont.",data.Women+,data.Sustainable transportation,7.4
+2021,"data.Barrie (CMA), Ont.",data.Women+,Public transit,3.5
+2021,"data.Barrie (CMA), Ont.",data.Women+,data.Active transportation,3.9
+2021,"data.Belleville - Quinte West (CMA), Ont.",Total,data.Sustainable transportation,6.7
+2021,"data.Belleville - Quinte West (CMA), Ont.",Total,Public transit,1.8
+2021,"data.Belleville - Quinte West (CMA), Ont.",Total,data.Active transportation,4.9
+2021,"data.Belleville - Quinte West (CMA), Ont.",data.Men+,data.Sustainable transportation,6.0
+2021,"data.Belleville - Quinte West (CMA), Ont.",data.Men+,Public transit,1.2
+2021,"data.Belleville - Quinte West (CMA), Ont.",data.Men+,data.Active transportation,4.8
+2021,"data.Belleville - Quinte West (CMA), Ont.",data.Women+,data.Sustainable transportation,7.6
+2021,"data.Belleville - Quinte West (CMA), Ont.",data.Women+,Public transit,2.5
+2021,"data.Belleville - Quinte West (CMA), Ont.",data.Women+,data.Active transportation,5.0
+2021,"data.Brantford (CMA), Ont.",Total,data.Sustainable transportation,6.1
+2021,"data.Brantford (CMA), Ont.",Total,Public transit,2.3
+2021,"data.Brantford (CMA), Ont.",Total,data.Active transportation,3.8
+2021,"data.Brantford (CMA), Ont.",data.Men+,data.Sustainable transportation,5.1
+2021,"data.Brantford (CMA), Ont.",data.Men+,Public transit,1.8
+2021,"data.Brantford (CMA), Ont.",data.Men+,data.Active transportation,3.4
+2021,"data.Brantford (CMA), Ont.",data.Women+,data.Sustainable transportation,7.3
+2021,"data.Brantford (CMA), Ont.",data.Women+,Public transit,3.0
+2021,"data.Brantford (CMA), Ont.",data.Women+,data.Active transportation,4.3
+2021,"data.Greater Sudbury (CMA), Ont.",Total,data.Sustainable transportation,7.9
+2021,"data.Greater Sudbury (CMA), Ont.",Total,Public transit,4.0
+2021,"data.Greater Sudbury (CMA), Ont.",Total,data.Active transportation,3.9
+2021,"data.Greater Sudbury (CMA), Ont.",data.Men+,data.Sustainable transportation,6.7
+2021,"data.Greater Sudbury (CMA), Ont.",data.Men+,Public transit,3.2
+2021,"data.Greater Sudbury (CMA), Ont.",data.Men+,data.Active transportation,3.5
+2021,"data.Greater Sudbury (CMA), Ont.",data.Women+,data.Sustainable transportation,9.5
+2021,"data.Greater Sudbury (CMA), Ont.",data.Women+,Public transit,5.1
+2021,"data.Greater Sudbury (CMA), Ont.",data.Women+,data.Active transportation,4.3
+2021,"data.Guelph (CMA), Ont.",Total,data.Sustainable transportation,9.8
+2021,"data.Guelph (CMA), Ont.",Total,Public transit,4.0
+2021,"data.Guelph (CMA), Ont.",Total,data.Active transportation,5.8
+2021,"data.Guelph (CMA), Ont.",data.Men+,data.Sustainable transportation,9.2
+2021,"data.Guelph (CMA), Ont.",data.Men+,Public transit,3.6
+2021,"data.Guelph (CMA), Ont.",data.Men+,data.Active transportation,5.5
+2021,"data.Guelph (CMA), Ont.",data.Women+,data.Sustainable transportation,10.7
+2021,"data.Guelph (CMA), Ont.",data.Women+,Public transit,4.5
+2021,"data.Guelph (CMA), Ont.",data.Women+,data.Active transportation,6.2
+2021,"data.Hamilton (CMA), Ont.",Total,data.Sustainable transportation,11.4
+2021,"data.Hamilton (CMA), Ont.",Total,Public transit,6.5
+2021,"data.Hamilton (CMA), Ont.",Total,data.Active transportation,5.0
+2021,"data.Hamilton (CMA), Ont.",data.Men+,data.Sustainable transportation,9.2
+2021,"data.Hamilton (CMA), Ont.",data.Men+,Public transit,5.0
+2021,"data.Hamilton (CMA), Ont.",data.Men+,data.Active transportation,4.3
+2021,"data.Hamilton (CMA), Ont.",data.Women+,data.Sustainable transportation,14.1
+2021,"data.Hamilton (CMA), Ont.",data.Women+,Public transit,8.2
+2021,"data.Hamilton (CMA), Ont.",data.Women+,data.Active transportation,5.8
+2021,"data.Kingston (CMA), Ont.",Total,data.Sustainable transportation,13.2
+2021,"data.Kingston (CMA), Ont.",Total,Public transit,4.9
+2021,"data.Kingston (CMA), Ont.",Total,data.Active transportation,8.3
+2021,"data.Kingston (CMA), Ont.",data.Men+,data.Sustainable transportation,11.5
+2021,"data.Kingston (CMA), Ont.",data.Men+,Public transit,3.8
+2021,"data.Kingston (CMA), Ont.",data.Men+,data.Active transportation,7.7
+2021,"data.Kingston (CMA), Ont.",data.Women+,data.Sustainable transportation,15.1
+2021,"data.Kingston (CMA), Ont.",data.Women+,Public transit,6.1
+2021,"data.Kingston (CMA), Ont.",data.Women+,data.Active transportation,8.9
+2021,"data.Kitchener - Cambridge - Waterloo (CMA), Ont.",Total,data.Sustainable transportation,8.9
+2021,"data.Kitchener - Cambridge - Waterloo (CMA), Ont.",Total,Public transit,4.6
+2021,"data.Kitchener - Cambridge - Waterloo (CMA), Ont.",Total,data.Active transportation,4.2
+2021,"data.Kitchener - Cambridge - Waterloo (CMA), Ont.",data.Men+,data.Sustainable transportation,7.6
+2021,"data.Kitchener - Cambridge - Waterloo (CMA), Ont.",data.Men+,Public transit,3.7
+2021,"data.Kitchener - Cambridge - Waterloo (CMA), Ont.",data.Men+,data.Active transportation,3.8
+2021,"data.Kitchener - Cambridge - Waterloo (CMA), Ont.",data.Women+,data.Sustainable transportation,10.6
+2021,"data.Kitchener - Cambridge - Waterloo (CMA), Ont.",data.Women+,Public transit,5.8
+2021,"data.Kitchener - Cambridge - Waterloo (CMA), Ont.",data.Women+,data.Active transportation,4.8
+2021,"data.London (CMA), Ont.",Total,data.Sustainable transportation,10.1
+2021,"data.London (CMA), Ont.",Total,Public transit,4.9
+2021,"data.London (CMA), Ont.",Total,data.Active transportation,5.2
+2021,"data.London (CMA), Ont.",data.Men+,data.Sustainable transportation,8.8
+2021,"data.London (CMA), Ont.",data.Men+,Public transit,3.8
+2021,"data.London (CMA), Ont.",data.Men+,data.Active transportation,5.0
+2021,"data.London (CMA), Ont.",data.Women+,data.Sustainable transportation,11.6
+2021,"data.London (CMA), Ont.",data.Women+,Public transit,6.2
+2021,"data.London (CMA), Ont.",data.Women+,data.Active transportation,5.4
+2021,"data.Oshawa (CMA), Ont.",Total,data.Sustainable transportation,8.0
+2021,"data.Oshawa (CMA), Ont.",Total,Public transit,5.1
+2021,"data.Oshawa (CMA), Ont.",Total,data.Active transportation,2.9
+2021,"data.Oshawa (CMA), Ont.",data.Men+,data.Sustainable transportation,6.4
+2021,"data.Oshawa (CMA), Ont.",data.Men+,Public transit,4.2
+2021,"data.Oshawa (CMA), Ont.",data.Men+,data.Active transportation,2.3
+2021,"data.Oshawa (CMA), Ont.",data.Women+,data.Sustainable transportation,10.0
+2021,"data.Oshawa (CMA), Ont.",data.Women+,Public transit,6.2
+2021,"data.Oshawa (CMA), Ont.",data.Women+,data.Active transportation,3.7
+2021,"data.Ottawa - Gatineau (CMA), Ont./Que.",Total,data.Sustainable transportation,16.9
+2021,"data.Ottawa - Gatineau (CMA), Ont./Que.",Total,Public transit,9.7
+2021,"data.Ottawa - Gatineau (CMA), Ont./Que.",Total,data.Active transportation,7.2
+2021,"data.Ottawa - Gatineau (CMA), Ont./Que.",data.Men+,data.Sustainable transportation,14.7
+2021,"data.Ottawa - Gatineau (CMA), Ont./Que.",data.Men+,Public transit,8.0
+2021,"data.Ottawa - Gatineau (CMA), Ont./Que.",data.Men+,data.Active transportation,6.7
+2021,"data.Ottawa - Gatineau (CMA), Ont./Que.",data.Women+,data.Sustainable transportation,19.6
+2021,"data.Ottawa - Gatineau (CMA), Ont./Que.",data.Women+,Public transit,11.6
+2021,"data.Ottawa - Gatineau (CMA), Ont./Que.",data.Women+,data.Active transportation,7.9
+2021,"data.Ottawa - Gatineau (Ontario part) (CMA), Ont.",Total,data.Sustainable transportation,17.9
+2021,"data.Ottawa - Gatineau (Ontario part) (CMA), Ont.",Total,Public transit,9.9
+2021,"data.Ottawa - Gatineau (Ontario part) (CMA), Ont.",Total,data.Active transportation,8.1
+2021,"data.Ottawa - Gatineau (Ontario part) (CMA), Ont.",data.Men+,data.Sustainable transportation,15.7
+2021,"data.Ottawa - Gatineau (Ontario part) (CMA), Ont.",data.Men+,Public transit,8.3
+2021,"data.Ottawa - Gatineau (Ontario part) (CMA), Ont.",data.Men+,data.Active transportation,7.4
+2021,"data.Ottawa - Gatineau (Ontario part) (CMA), Ont.",data.Women+,data.Sustainable transportation,20.6
+2021,"data.Ottawa - Gatineau (Ontario part) (CMA), Ont.",data.Women+,Public transit,11.8
+2021,"data.Ottawa - Gatineau (Ontario part) (CMA), Ont.",data.Women+,data.Active transportation,8.8
+2021,"data.Ottawa - Gatineau (Quebec part) (CMA), Que.",Total,data.Sustainable transportation,14.1
+2021,"data.Ottawa - Gatineau (Quebec part) (CMA), Que.",Total,Public transit,9.1
+2021,"data.Ottawa - Gatineau (Quebec part) (CMA), Que.",Total,data.Active transportation,5.1
+2021,"data.Ottawa - Gatineau (Quebec part) (CMA), Que.",data.Men+,data.Sustainable transportation,12.0
+2021,"data.Ottawa - Gatineau (Quebec part) (CMA), Que.",data.Men+,Public transit,7.4
+2021,"data.Ottawa - Gatineau (Quebec part) (CMA), Que.",data.Men+,data.Active transportation,4.6
+2021,"data.Ottawa - Gatineau (Quebec part) (CMA), Que.",data.Women+,data.Sustainable transportation,16.7
+2021,"data.Ottawa - Gatineau (Quebec part) (CMA), Que.",data.Women+,Public transit,11.1
+2021,"data.Ottawa - Gatineau (Quebec part) (CMA), Que.",data.Women+,data.Active transportation,5.6
+2021,"data.Peterborough (CMA), Ont.",Total,data.Sustainable transportation,9.4
+2021,"data.Peterborough (CMA), Ont.",Total,Public transit,2.5
+2021,"data.Peterborough (CMA), Ont.",Total,data.Active transportation,6.9
+2021,"data.Peterborough (CMA), Ont.",data.Men+,data.Sustainable transportation,8.5
+2021,"data.Peterborough (CMA), Ont.",data.Men+,Public transit,1.7
+2021,"data.Peterborough (CMA), Ont.",data.Men+,data.Active transportation,6.7
+2021,"data.Peterborough (CMA), Ont.",data.Women+,data.Sustainable transportation,10.4
+2021,"data.Peterborough (CMA), Ont.",data.Women+,Public transit,3.3
+2021,"data.Peterborough (CMA), Ont.",data.Women+,data.Active transportation,7.1
+2021,"data.St. Catharines - Niagara (CMA), Ont.",Total,data.Sustainable transportation,6.0
+2021,"data.St. Catharines - Niagara (CMA), Ont.",Total,Public transit,1.9
+2021,"data.St. Catharines - Niagara (CMA), Ont.",Total,data.Active transportation,4.1
+2021,"data.St. Catharines - Niagara (CMA), Ont.",data.Men+,data.Sustainable transportation,5.2
+2021,"data.St. Catharines - Niagara (CMA), Ont.",data.Men+,Public transit,1.3
+2021,"data.St. Catharines - Niagara (CMA), Ont.",data.Men+,data.Active transportation,3.9
+2021,"data.St. Catharines - Niagara (CMA), Ont.",data.Women+,data.Sustainable transportation,6.8
+2021,"data.St. Catharines - Niagara (CMA), Ont.",data.Women+,Public transit,2.5
+2021,"data.St. Catharines - Niagara (CMA), Ont.",data.Women+,data.Active transportation,4.3
+2021,"data.Thunder Bay (CMA), Ont.",Total,data.Sustainable transportation,8.8
+2021,"data.Thunder Bay (CMA), Ont.",Total,Public transit,3.4
+2021,"data.Thunder Bay (CMA), Ont.",Total,data.Active transportation,5.4
+2021,"data.Thunder Bay (CMA), Ont.",data.Men+,data.Sustainable transportation,8.6
+2021,"data.Thunder Bay (CMA), Ont.",data.Men+,Public transit,3.4
+2021,"data.Thunder Bay (CMA), Ont.",data.Men+,data.Active transportation,5.2
+2021,"data.Thunder Bay (CMA), Ont.",data.Women+,data.Sustainable transportation,8.9
+2021,"data.Thunder Bay (CMA), Ont.",data.Women+,Public transit,3.4
+2021,"data.Thunder Bay (CMA), Ont.",data.Women+,data.Active transportation,5.6
+2021,"data.Toronto (CMA), Ont.",Total,data.Sustainable transportation,21.3
+2021,"data.Toronto (CMA), Ont.",Total,Public transit,15.6
+2021,"data.Toronto (CMA), Ont.",Total,data.Active transportation,5.7
+2021,"data.Toronto (CMA), Ont.",data.Men+,data.Sustainable transportation,16.5
+2021,"data.Toronto (CMA), Ont.",data.Men+,Public transit,11.6
+2021,"data.Toronto (CMA), Ont.",data.Men+,data.Active transportation,4.9
+2021,"data.Toronto (CMA), Ont.",data.Women+,data.Sustainable transportation,27.1
+2021,"data.Toronto (CMA), Ont.",data.Women+,Public transit,20.5
+2021,"data.Toronto (CMA), Ont.",data.Women+,data.Active transportation,6.6
+2021,"data.Windsor (CMA), Ont.",Total,data.Sustainable transportation,5.3
+2021,"data.Windsor (CMA), Ont.",Total,Public transit,2.0
+2021,"data.Windsor (CMA), Ont.",Total,data.Active transportation,3.3
+2021,"data.Windsor (CMA), Ont.",data.Men+,data.Sustainable transportation,5.4
+2021,"data.Windsor (CMA), Ont.",data.Men+,Public transit,2.0
+2021,"data.Windsor (CMA), Ont.",data.Men+,data.Active transportation,3.4
+2021,"data.Windsor (CMA), Ont.",data.Women+,data.Sustainable transportation,5.2
+2021,"data.Windsor (CMA), Ont.",data.Women+,Public transit,2.0
+2021,"data.Windsor (CMA), Ont.",data.Women+,data.Active transportation,3.2
+2021,Manitoba,Total,data.Sustainable transportation,12.0
+2021,Manitoba,Total,Public transit,5.7
+2021,Manitoba,Total,data.Active transportation,6.3
+2021,Manitoba,data.Men+,data.Sustainable transportation,10.1
+2021,Manitoba,data.Men+,Public transit,4.4
+2021,Manitoba,data.Men+,data.Active transportation,5.8
+2021,Manitoba,data.Women+,data.Sustainable transportation,14.2
+2021,Manitoba,data.Women+,Public transit,7.2
+2021,Manitoba,data.Women+,data.Active transportation,7.0
+2021,"data.Winnipeg (CMA), Man.",Total,data.Sustainable transportation,14.1
+2021,"data.Winnipeg (CMA), Man.",Total,Public transit,8.4
+2021,"data.Winnipeg (CMA), Man.",Total,data.Active transportation,5.7
+2021,"data.Winnipeg (CMA), Man.",data.Men+,data.Sustainable transportation,11.7
+2021,"data.Winnipeg (CMA), Man.",data.Men+,Public transit,6.4
+2021,"data.Winnipeg (CMA), Man.",data.Men+,data.Active transportation,5.2
+2021,"data.Winnipeg (CMA), Man.",data.Women+,data.Sustainable transportation,16.9
+2021,"data.Winnipeg (CMA), Man.",data.Women+,Public transit,10.7
+2021,"data.Winnipeg (CMA), Man.",data.Women+,data.Active transportation,6.2
+2021,Saskatchewan,Total,data.Sustainable transportation,7.7
+2021,Saskatchewan,Total,Public transit,1.8
+2021,Saskatchewan,Total,data.Active transportation,5.8
+2021,Saskatchewan,data.Men+,data.Sustainable transportation,6.3
+2021,Saskatchewan,data.Men+,Public transit,1.3
+2021,Saskatchewan,data.Men+,data.Active transportation,5.0
+2021,Saskatchewan,data.Women+,data.Sustainable transportation,9.2
+2021,Saskatchewan,data.Women+,Public transit,2.4
+2021,Saskatchewan,data.Women+,data.Active transportation,6.8
+2021,"data.Regina (CMA), Sask.",Total,data.Sustainable transportation,7.4
+2021,"data.Regina (CMA), Sask.",Total,Public transit,3.3
+2021,"data.Regina (CMA), Sask.",Total,data.Active transportation,4.1
+2021,"data.Regina (CMA), Sask.",data.Men+,data.Sustainable transportation,5.9
+2021,"data.Regina (CMA), Sask.",data.Men+,Public transit,2.4
+2021,"data.Regina (CMA), Sask.",data.Men+,data.Active transportation,3.5
+2021,"data.Regina (CMA), Sask.",data.Women+,data.Sustainable transportation,9.1
+2021,"data.Regina (CMA), Sask.",data.Women+,Public transit,4.3
+2021,"data.Regina (CMA), Sask.",data.Women+,data.Active transportation,4.8
+2021,"data.Saskatoon (CMA), Sask.",Total,data.Sustainable transportation,7.8
+2021,"data.Saskatoon (CMA), Sask.",Total,Public transit,2.9
+2021,"data.Saskatoon (CMA), Sask.",Total,data.Active transportation,5.0
+2021,"data.Saskatoon (CMA), Sask.",data.Men+,data.Sustainable transportation,6.5
+2021,"data.Saskatoon (CMA), Sask.",data.Men+,Public transit,1.9
+2021,"data.Saskatoon (CMA), Sask.",data.Men+,data.Active transportation,4.6
+2021,"data.Saskatoon (CMA), Sask.",data.Women+,data.Sustainable transportation,9.3
+2021,"data.Saskatoon (CMA), Sask.",data.Women+,Public transit,3.9
+2021,"data.Saskatoon (CMA), Sask.",data.Women+,data.Active transportation,5.4
+2021,Alberta,Total,data.Sustainable transportation,10.3
+2021,Alberta,Total,Public transit,5.6
+2021,Alberta,Total,data.Active transportation,4.7
+2021,Alberta,data.Men+,data.Sustainable transportation,8.7
+2021,Alberta,data.Men+,Public transit,4.6
+2021,Alberta,data.Men+,data.Active transportation,4.1
+2021,Alberta,data.Women+,data.Sustainable transportation,12.1
+2021,Alberta,data.Women+,Public transit,6.7
+2021,Alberta,data.Women+,data.Active transportation,5.4
+2021,"data.Calgary (CMA), Alta.",Total,data.Sustainable transportation,12.7
+2021,"data.Calgary (CMA), Alta.",Total,Public transit,7.9
+2021,"data.Calgary (CMA), Alta.",Total,data.Active transportation,4.9
+2021,"data.Calgary (CMA), Alta.",data.Men+,data.Sustainable transportation,10.9
+2021,"data.Calgary (CMA), Alta.",data.Men+,Public transit,6.3
+2021,"data.Calgary (CMA), Alta.",data.Men+,data.Active transportation,4.5
+2021,"data.Calgary (CMA), Alta.",data.Women+,data.Sustainable transportation,14.9
+2021,"data.Calgary (CMA), Alta.",data.Women+,Public transit,9.7
+2021,"data.Calgary (CMA), Alta.",data.Women+,data.Active transportation,5.2
+2021,"data.Edmonton (CMA), Alta.",Total,data.Sustainable transportation,10.2
+2021,"data.Edmonton (CMA), Alta.",Total,Public transit,6.1
+2021,"data.Edmonton (CMA), Alta.",Total,data.Active transportation,4.0
+2021,"data.Edmonton (CMA), Alta.",data.Men+,data.Sustainable transportation,7.9
+2021,"data.Edmonton (CMA), Alta.",data.Men+,Public transit,4.4
+2021,"data.Edmonton (CMA), Alta.",data.Men+,data.Active transportation,3.5
+2021,"data.Edmonton (CMA), Alta.",data.Women+,data.Sustainable transportation,12.9
+2021,"data.Edmonton (CMA), Alta.",data.Women+,Public transit,8.2
+2021,"data.Edmonton (CMA), Alta.",data.Women+,data.Active transportation,4.7
+2021,"data.Lethbridge (CMA), Alta.",Total,data.Sustainable transportation,6.3
+2021,"data.Lethbridge (CMA), Alta.",Total,Public transit,1.9
+2021,"data.Lethbridge (CMA), Alta.",Total,data.Active transportation,4.4
+2021,"data.Lethbridge (CMA), Alta.",data.Men+,data.Sustainable transportation,5.5
+2021,"data.Lethbridge (CMA), Alta.",data.Men+,Public transit,1.3
+2021,"data.Lethbridge (CMA), Alta.",data.Men+,data.Active transportation,4.2
+2021,"data.Lethbridge (CMA), Alta.",data.Women+,data.Sustainable transportation,7.2
+2021,"data.Lethbridge (CMA), Alta.",data.Women+,Public transit,2.6
+2021,"data.Lethbridge (CMA), Alta.",data.Women+,data.Active transportation,4.6
+2021,British Columbia,Total,data.Sustainable transportation,17.7
+2021,British Columbia,Total,Public transit,9.3
+2021,British Columbia,Total,data.Active transportation,8.5
+2021,British Columbia,data.Men+,data.Sustainable transportation,14.7
+2021,British Columbia,data.Men+,Public transit,7.3
+2021,British Columbia,data.Men+,data.Active transportation,7.5
+2021,British Columbia,data.Women+,data.Sustainable transportation,21.2
+2021,British Columbia,data.Women+,Public transit,11.6
+2021,British Columbia,data.Women+,data.Active transportation,9.6
+2021,"data.Abbotsford - Mission (CMA), B.C.",Total,data.Sustainable transportation,6.2
+2021,"data.Abbotsford - Mission (CMA), B.C.",Total,Public transit,2.4
+2021,"data.Abbotsford - Mission (CMA), B.C.",Total,data.Active transportation,3.8
+2021,"data.Abbotsford - Mission (CMA), B.C.",data.Men+,data.Sustainable transportation,4.9
+2021,"data.Abbotsford - Mission (CMA), B.C.",data.Men+,Public transit,1.7
+2021,"data.Abbotsford - Mission (CMA), B.C.",data.Men+,data.Active transportation,3.2
+2021,"data.Abbotsford - Mission (CMA), B.C.",data.Women+,data.Sustainable transportation,7.8
+2021,"data.Abbotsford - Mission (CMA), B.C.",data.Women+,Public transit,3.2
+2021,"data.Abbotsford - Mission (CMA), B.C.",data.Women+,data.Active transportation,4.5
+2021,"data.Kelowna (CMA), B.C.",Total,data.Sustainable transportation,10.6
+2021,"data.Kelowna (CMA), B.C.",Total,Public transit,3.2
+2021,"data.Kelowna (CMA), B.C.",Total,data.Active transportation,7.4
+2021,"data.Kelowna (CMA), B.C.",data.Men+,data.Sustainable transportation,9.0
+2021,"data.Kelowna (CMA), B.C.",data.Men+,Public transit,2.4
+2021,"data.Kelowna (CMA), B.C.",data.Men+,data.Active transportation,6.6
+2021,"data.Kelowna (CMA), B.C.",data.Women+,data.Sustainable transportation,12.3
+2021,"data.Kelowna (CMA), B.C.",data.Women+,Public transit,4.1
+2021,"data.Kelowna (CMA), B.C.",data.Women+,data.Active transportation,8.3
+2021,"data.Vancouver (CMA), B.C.",Total,data.Sustainable transportation,23.2
+2021,"data.Vancouver (CMA), B.C.",Total,Public transit,14.9
+2021,"data.Vancouver (CMA), B.C.",Total,data.Active transportation,8.2
+2021,"data.Vancouver (CMA), B.C.",data.Men+,data.Sustainable transportation,18.7
+2021,"data.Vancouver (CMA), B.C.",data.Men+,Public transit,11.5
+2021,"data.Vancouver (CMA), B.C.",data.Men+,data.Active transportation,7.1
+2021,"data.Vancouver (CMA), B.C.",data.Women+,data.Sustainable transportation,28.2
+2021,"data.Vancouver (CMA), B.C.",data.Women+,Public transit,18.7
+2021,"data.Vancouver (CMA), B.C.",data.Women+,data.Active transportation,9.5
+2021,"data.Victoria (CMA), B.C.",Total,data.Sustainable transportation,23.0
+2021,"data.Victoria (CMA), B.C.",Total,Public transit,7.7
+2021,"data.Victoria (CMA), B.C.",Total,data.Active transportation,15.3
+2021,"data.Victoria (CMA), B.C.",data.Men+,data.Sustainable transportation,21.4
+2021,"data.Victoria (CMA), B.C.",data.Men+,Public transit,6.3
+2021,"data.Victoria (CMA), B.C.",data.Men+,data.Active transportation,15.2
+2021,"data.Victoria (CMA), B.C.",data.Women+,data.Sustainable transportation,24.8
+2021,"data.Victoria (CMA), B.C.",data.Women+,Public transit,9.3
+2021,"data.Victoria (CMA), B.C.",data.Women+,data.Active transportation,15.5
+2021,Yukon,Total,data.Sustainable transportation,13.5
+2021,Yukon,Total,Public transit,2.5
+2021,Yukon,Total,data.Active transportation,11.1
+2021,Yukon,data.Men+,data.Sustainable transportation,12.1
+2021,Yukon,data.Men+,Public transit,2.1
+2021,Yukon,data.Men+,data.Active transportation,10.0
+2021,Yukon,data.Women+,data.Sustainable transportation,15.0
+2021,Yukon,data.Women+,Public transit,2.9
+2021,Yukon,data.Women+,data.Active transportation,12.2
+2021,Northwest Territories,Total,data.Sustainable transportation,21.7
+2021,Northwest Territories,Total,Public transit,0.8
+2021,Northwest Territories,Total,data.Active transportation,20.9
+2021,Northwest Territories,data.Men+,data.Sustainable transportation,19.3
+2021,Northwest Territories,data.Men+,Public transit,0.8
+2021,Northwest Territories,data.Men+,data.Active transportation,18.6
+2021,Northwest Territories,data.Women+,data.Sustainable transportation,24.2
+2021,Northwest Territories,data.Women+,Public transit,0.7
+2021,Northwest Territories,data.Women+,data.Active transportation,23.6
+2021,Nunavut,Total,data.Sustainable transportation,37.0
+2021,Nunavut,Total,Public transit,0.9
+2021,Nunavut,Total,data.Active transportation,36.1
+2021,Nunavut,data.Men+,data.Sustainable transportation,33.5
+2021,Nunavut,data.Men+,Public transit,1.0
+2021,Nunavut,data.Men+,data.Active transportation,32.5
+2021,Nunavut,data.Women+,data.Sustainable transportation,40.5
+2021,Nunavut,data.Women+,Public transit,0.8
+2021,Nunavut,data.Women+,data.Active transportation,39.7

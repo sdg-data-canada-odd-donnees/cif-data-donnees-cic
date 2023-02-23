@@ -3832,6 +3832,154 @@
       "title": "Proportion of businesses that adopted selected environmental protection activities and management practices"
     },
     {
+      "path": "11-5-1/data.csv",
+      "name": "11-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "St. John's, Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Halifax, Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Moncton, Nouveau-Brunswick",
+                "Saint John, Nouveau-Brunswick",
+                "Québec",
+                "Montreal, Quebec",
+                "Ottawa - Gatineau (partie du Québec), Québec",
+                "Québec, Québec",
+                "Saguenay, Québec",
+                "Sherbrooke, Québec",
+                "Trois-Rivières, Québec",
+                "Ontario",
+                "Barrie, Ontario",
+                "Belleville, Ontario",
+                "Brantford, Ontario",
+                "Greater Sudbury / Grand Sudbury, Ontario",
+                "Guelph, Ontario",
+                "Hamilton, Ontario",
+                "Kingston, Ontario",
+                "Kitchener - Cambridge - Waterloo, Ontario",
+                "London, Ontario",
+                "Oshawa, Ontario",
+                "Ottawa - Gatineau (partie de l'Ontario), Ontario",
+                "Peterborough, Ontario",
+                "St. Catharines - Niagara, Ontario",
+                "Thunder Bay, Ontario",
+                "Toronto, Ontario",
+                "Windsor, Ontario",
+                "Manitoba",
+                "Winnipeg, Manitoba",
+                "Saskatchewan",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Alberta",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Lethbridge, Alberta",
+                "Colombie-Britannique",
+                "Abbotsford - Mission, Colombie-Britannique",
+                "Kelowna, Colombie-Britannique",
+                "Vancouver, Colombie-Britannique",
+                "Victoria, Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "data.St. John's (CMA), N.L.",
+                "data.Halifax (CMA), N.S.",
+                "data.Moncton (CMA), N.B.",
+                "data.Saint John (CMA), N.B.",
+                "data.Montréal (CMA), Que.",
+                "data.Québec (CMA), Que.",
+                "data.Saguenay (CMA), Que.",
+                "data.Sherbrooke (CMA), Que.",
+                "data.Trois-Rivières (CMA), Que.",
+                "data.Barrie (CMA), Ont.",
+                "data.Belleville - Quinte West (CMA), Ont.",
+                "data.Brantford (CMA), Ont.",
+                "data.Greater Sudbury (CMA), Ont.",
+                "data.Guelph (CMA), Ont.",
+                "data.Hamilton (CMA), Ont.",
+                "data.Kingston (CMA), Ont.",
+                "data.Kitchener - Cambridge - Waterloo (CMA), Ont.",
+                "data.London (CMA), Ont.",
+                "data.Oshawa (CMA), Ont.",
+                "data.Ottawa - Gatineau (CMA), Ont./Que.",
+                "data.Ottawa - Gatineau (Ontario part) (CMA), Ont.",
+                "data.Ottawa - Gatineau (Quebec part) (CMA), Que.",
+                "data.Peterborough (CMA), Ont.",
+                "data.St. Catharines - Niagara (CMA), Ont.",
+                "data.Thunder Bay (CMA), Ont.",
+                "data.Toronto (CMA), Ont.",
+                "data.Windsor (CMA), Ont.",
+                "data.Winnipeg (CMA), Man.",
+                "data.Regina (CMA), Sask.",
+                "data.Saskatoon (CMA), Sask.",
+                "data.Calgary (CMA), Alta.",
+                "data.Edmonton (CMA), Alta.",
+                "data.Lethbridge (CMA), Alta.",
+                "data.Abbotsford - Mission (CMA), B.C.",
+                "data.Kelowna (CMA), B.C.",
+                "data.Vancouver (CMA), B.C.",
+                "data.Victoria (CMA), B.C.",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "data.Men+",
+                "data.Women+",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "data.Type of commute",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Transport en commun",
+                "data.Active transportation",
+                "data.Sustainable transportation",
+                "Transport actif",
+                ""
+              ]
+            },
+            "title": "Type de navettage"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Percentage  of the population using shared or active transportation for commuting"
+    },
+    {
       "path": "8-5-1/data.csv",
       "name": "8-5-1",
       "profile": "tabular-data-resource",
@@ -4758,30 +4906,6 @@
         ]
       },
       "title": "Prevalence of cigarette smoking"
-    },
-    {
-      "path": "11-5-1/data.csv",
-      "name": "11-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Percentage  of the population using shared or active transportation for commuting"
     }
   ]
 }
