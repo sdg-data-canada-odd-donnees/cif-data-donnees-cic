@@ -3832,6 +3832,117 @@
       "title": "Proportion of businesses that adopted selected environmental protection activities and management practices"
     },
     {
+      "path": "11-5-1/data.csv",
+      "name": "11-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "St. John's (RMR), T.-N.-L.",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Halifax (RMR), N.-É.",
+                "Nouveau-Brunswick",
+                "Moncton (RMR), N.-B.",
+                "Saint John (RMR), N.-B.",
+                "Québec",
+                "Montréal (RMR), Qc",
+                null,
+                "Québec (RMR), Qc",
+                "Saguenay (RMR), Qc",
+                "Sherbrooke (RMR), Qc",
+                "Trois-Rivières (RMR), Qc",
+                "Ontario",
+                "Barrie (RMR), Ont.",
+                "Belleville - Quinte West (RMR), Ont.",
+                "Brantford (RMR), Ont.",
+                "Grand Sudbury (RMR), Ont.",
+                "Guelph (RMR), Ont.",
+                "Hamilton (RMR), Ont.",
+                "Kingston (RMR), Ont.",
+                "Kitchener - Cambridge - Waterloo (RMR), Ont.",
+                "London (RMR), Ont.",
+                "Oshawa (RMR), Ont.",
+                null,
+                "Peterborough (RMR), Ont.",
+                "St. Catharines - Niagara (RMR), Ont.",
+                "Thunder Bay (RMR), Ont.",
+                "Toronto (RMR), Ont.",
+                "Windsor (RMR), Ont.",
+                "Manitoba",
+                "Winnipeg (RMR), Man.",
+                "Saskatchewan",
+                "Regina (RMR), Sask.",
+                "Saskatoon (RMR), Sask.",
+                "Alberta",
+                "Calgary (RMR), Alb.",
+                "Edmonton (RMR), Alb.",
+                "Lethbridge (RMR), Alb.",
+                "Colombie-Britannique",
+                "Abbotsford - Mission (RMR), C.-B.",
+                "Kelowna (RMR), C.-B.",
+                "Vancouver (RMR), C.-B.",
+                "Victoria (RMR), C.-B.",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Ottawa - Gatineau (RMR), Ont./Qc",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Hommes+",
+                "Femmes+",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "data.Type of commute",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Transport en commun",
+                "Transport actif",
+                "Transport durable",
+                ""
+              ]
+            },
+            "title": "Principal mode de transport pour la navette"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Percentage  of the population using shared or active transportation for commuting"
+    },
+    {
       "path": "8-5-1/data.csv",
       "name": "8-5-1",
       "profile": "tabular-data-resource",
@@ -4758,30 +4869,6 @@
         ]
       },
       "title": "Prevalence of cigarette smoking"
-    },
-    {
-      "path": "11-5-1/data.csv",
-      "name": "11-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Percentage  of the population using shared or active transportation for commuting"
     }
   ]
 }

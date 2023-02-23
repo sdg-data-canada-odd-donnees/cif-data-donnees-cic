@@ -12,7 +12,91 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.St. John's (CMA), N.L.",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.Halifax (CMA), N.S.",
+                "data.New Brunswick",
+                "data.Moncton (CMA), N.B.",
+                "data.Saint John (CMA), N.B.",
+                "data.Quebec",
+                "data.Montréal (CMA), Que.",
+                "data.Ottawa - Gatineau (Quebec part) (CMA), Que.",
+                "data.Québec (CMA), Que.",
+                "data.Saguenay (CMA), Que.",
+                "data.Sherbrooke (CMA), Que.",
+                "data.Trois-Rivières (CMA), Que.",
+                "data.Ontario",
+                "data.Barrie (CMA), Ont.",
+                "data.Belleville - Quinte West (CMA), Ont.",
+                "data.Brantford (CMA), Ont.",
+                "data.Greater Sudbury (CMA), Ont.",
+                "data.Guelph (CMA), Ont.",
+                "data.Hamilton (CMA), Ont.",
+                "data.Kingston (CMA), Ont.",
+                "data.Kitchener - Cambridge - Waterloo (CMA), Ont.",
+                "data.London (CMA), Ont.",
+                "data.Oshawa (CMA), Ont.",
+                "data.Ottawa - Gatineau (Ontario part) (CMA), Ont.",
+                "data.Peterborough (CMA), Ont.",
+                "data.St. Catharines - Niagara (CMA), Ont.",
+                "data.Thunder Bay (CMA), Ont.",
+                "data.Toronto (CMA), Ont.",
+                "data.Windsor (CMA), Ont.",
+                "data.Manitoba",
+                "data.Winnipeg (CMA), Man.",
+                "data.Saskatchewan",
+                "data.Regina (CMA), Sask.",
+                "data.Saskatoon (CMA), Sask.",
+                "data.Alberta",
+                "data.Calgary (CMA), Alta.",
+                "data.Edmonton (CMA), Alta.",
+                "data.Lethbridge (CMA), Alta.",
+                "data.British Columbia",
+                "data.Abbotsford - Mission (CMA), B.C.",
+                "data.Kelowna (CMA), B.C.",
+                "data.Vancouver (CMA), B.C.",
+                "data.Victoria (CMA), B.C.",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                "data.Ottawa - Gatineau (CMA), Ont./Que.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total",
+                "data.Men+",
+                "data.Women+",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Type of commute",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Public transit",
+                "data.Active transportation",
+                "data.Sustainable transportation",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
