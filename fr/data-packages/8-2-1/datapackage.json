@@ -58,9 +58,9 @@
             "constraints": {
               "enum": [
                 "Total",
-                "data.15-24",
-                "data.25-54",
-                "data.55+",
+                "15 à 24 ans",
+                "25 à 54 ans",
+                "55 ans et plus",
                 ""
               ]
             },
