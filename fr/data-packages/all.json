@@ -3832,6 +3832,153 @@
       "title": "Proportion of businesses that adopted selected environmental protection activities and management practices"
     },
     {
+      "path": "11-5-1/data.csv",
+      "name": "11-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "St. John's, Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Halifax, Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Moncton, Nouveau-Brunswick",
+                "Saint John, Nouveau-Brunswick",
+                "Québec",
+                "Montreal, Quebec",
+                "Ottawa - Gatineau (partie du Québec), Québec",
+                "Québec, Québec",
+                "Saguenay, Québec",
+                "Sherbrooke, Québec",
+                "data.Trois-Rivieres, Quebec",
+                "Ontario",
+                "Barrie, Ontario",
+                "Belleville, Ontario",
+                "Brantford, Ontario",
+                "Greater Sudbury / Grand Sudbury, Ontario",
+                "Guelph, Ontario",
+                "Hamilton, Ontario",
+                "Kingston, Ontario",
+                "Kitchener - Cambridge - Waterloo, Ontario",
+                "London, Ontario",
+                "Oshawa, Ontario",
+                "Ottawa - Gatineau (partie de l'Ontario), Ontario",
+                "Peterborough, Ontario",
+                "St. Catharines - Niagara, Ontario",
+                "Thunder Bay, Ontario",
+                "Toronto, Ontario",
+                "Windsor, Ontario",
+                "Manitoba",
+                "Winnipeg, Manitoba",
+                "Saskatchewan",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Alberta",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Lethbridge, Alberta",
+                "Colombie-Britannique",
+                "Abbotsford - Mission, Colombie-Britannique",
+                "Kelowna, Colombie-Britannique",
+                "Vancouver, Colombie-Britannique",
+                "Victoria, Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "St. John's (RMR), T.-N.-L.",
+                "Halifax (RMR), N.-É.",
+                "Moncton (RMR), N.-B.",
+                "Saint John (RMR), N.-B.",
+                "Montréal (RMR), Qc",
+                "Québec (RMR), Qc",
+                "Saguenay (RMR), Qc",
+                "Sherbrooke (RMR), Qc",
+                "Trois-Rivières (RMR), Qc",
+                "Barrie (RMR), Ont.",
+                "Belleville - Quinte West (RMR), Ont.",
+                "Brantford (RMR), Ont.",
+                "Grand Sudbury (RMR), Ont.",
+                "Guelph (RMR), Ont.",
+                "Hamilton (RMR), Ont.",
+                "Kingston (RMR), Ont.",
+                "Kitchener - Cambridge - Waterloo (RMR), Ont.",
+                "London (RMR), Ont.",
+                "Oshawa (RMR), Ont.",
+                "Ottawa - Gatineau (RMR), Ont./Qc",
+                null,
+                null,
+                "Peterborough (RMR), Ont.",
+                "St. Catharines - Niagara (RMR), Ont.",
+                "Thunder Bay (RMR), Ont.",
+                "Toronto (RMR), Ont.",
+                "Windsor (RMR), Ont.",
+                "Winnipeg (RMR), Man.",
+                "Regina (RMR), Sask.",
+                "Saskatoon (RMR), Sask.",
+                "Calgary (RMR), Alb.",
+                "Edmonton (RMR), Alb.",
+                "Lethbridge (RMR), Alb.",
+                "Abbotsford - Mission (RMR), C.-B.",
+                "Kelowna (RMR), C.-B.",
+                "Vancouver (RMR), C.-B.",
+                "Victoria (RMR), C.-B.",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Hommes+",
+                "Femmes+",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "data.Type of commute",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Transport en commun",
+                "Transport actif",
+                "Transport durable",
+                ""
+              ]
+            },
+            "title": "data.Type of commute"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Percentage  of the population using shared or active transportation for commuting"
+    },
+    {
       "path": "8-5-1/data.csv",
       "name": "8-5-1",
       "profile": "tabular-data-resource",
@@ -4758,30 +4905,6 @@
         ]
       },
       "title": "Prevalence of cigarette smoking"
-    },
-    {
-      "path": "11-5-1/data.csv",
-      "name": "11-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Percentage  of the population using shared or active transportation for commuting"
     }
   ]
 }
