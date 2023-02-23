@@ -41,9 +41,9 @@ Year,Géographie,Genre,Principal mode de transport pour la navette,Value
 2016,"Montréal (RMR), Qc",Total,Transport durable,29.5
 2016,"Montréal (RMR), Qc",Total,Transport en commun,22.3
 2016,"Montréal (RMR), Qc",Total,Transport actif,7.2
-2016,,Total,Transport durable,20.5
-2016,,Total,Transport en commun,14.5
-2016,,Total,Transport actif,6.0
+2016,"Ottawa - Gatineau (partie du Québec) (RMR), Qc",Total,Transport durable,20.5
+2016,"Ottawa - Gatineau (partie du Québec) (RMR), Qc",Total,Transport en commun,14.5
+2016,"Ottawa - Gatineau (partie du Québec) (RMR), Qc",Total,Transport actif,6.0
 2016,"Québec (RMR), Qc",Total,Transport durable,18.7
 2016,"Québec (RMR), Qc",Total,Transport en commun,11.1
 2016,"Québec (RMR), Qc",Total,Transport actif,7.6
@@ -89,9 +89,9 @@ Year,Géographie,Genre,Principal mode de transport pour la navette,Value
 2016,"Oshawa (RMR), Ont.",Total,Transport durable,13.0
 2016,"Oshawa (RMR), Ont.",Total,Transport en commun,9.6
 2016,"Oshawa (RMR), Ont.",Total,Transport actif,3.4
-2016,,Total,Transport durable,29.2
-2016,,Total,Transport en commun,19.6
-2016,,Total,Transport actif,9.6
+2016,"Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.",Total,Transport durable,29.2
+2016,"Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.",Total,Transport en commun,19.6
+2016,"Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.",Total,Transport actif,9.6
 2016,"Peterborough (RMR), Ont.",Total,Transport durable,12.2
 2016,"Peterborough (RMR), Ont.",Total,Transport en commun,3.9
 2016,"Peterborough (RMR), Ont.",Total,Transport actif,8.3
@@ -392,24 +392,24 @@ Year,Géographie,Genre,Principal mode de transport pour la navette,Value
 2021,"Ottawa - Gatineau (RMR), Ont./Qc",Femmes+,Transport durable,19.6
 2021,"Ottawa - Gatineau (RMR), Ont./Qc",Femmes+,Transport en commun,11.6
 2021,"Ottawa - Gatineau (RMR), Ont./Qc",Femmes+,Transport actif,7.9
-2021,,Total,Transport durable,17.9
-2021,,Total,Transport en commun,9.9
-2021,,Total,Transport actif,8.1
-2021,,Hommes+,Transport durable,15.7
-2021,,Hommes+,Transport en commun,8.3
-2021,,Hommes+,Transport actif,7.4
-2021,,Femmes+,Transport durable,20.6
-2021,,Femmes+,Transport en commun,11.8
-2021,,Femmes+,Transport actif,8.8
-2021,,Total,Transport durable,14.1
-2021,,Total,Transport en commun,9.1
-2021,,Total,Transport actif,5.1
-2021,,Hommes+,Transport durable,12.0
-2021,,Hommes+,Transport en commun,7.4
-2021,,Hommes+,Transport actif,4.6
-2021,,Femmes+,Transport durable,16.7
-2021,,Femmes+,Transport en commun,11.1
-2021,,Femmes+,Transport actif,5.6
+2021,"Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.",Total,Transport durable,17.9
+2021,"Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.",Total,Transport en commun,9.9
+2021,"Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.",Total,Transport actif,8.1
+2021,"Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.",Hommes+,Transport durable,15.7
+2021,"Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.",Hommes+,Transport en commun,8.3
+2021,"Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.",Hommes+,Transport actif,7.4
+2021,"Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.",Femmes+,Transport durable,20.6
+2021,"Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.",Femmes+,Transport en commun,11.8
+2021,"Ottawa - Gatineau (partie de l'Ontario) (RMR), Ont.",Femmes+,Transport actif,8.8
+2021,"Ottawa - Gatineau (partie du Québec) (RMR), Qc",Total,Transport durable,14.1
+2021,"Ottawa - Gatineau (partie du Québec) (RMR), Qc",Total,Transport en commun,9.1
+2021,"Ottawa - Gatineau (partie du Québec) (RMR), Qc",Total,Transport actif,5.1
+2021,"Ottawa - Gatineau (partie du Québec) (RMR), Qc",Hommes+,Transport durable,12.0
+2021,"Ottawa - Gatineau (partie du Québec) (RMR), Qc",Hommes+,Transport en commun,7.4
+2021,"Ottawa - Gatineau (partie du Québec) (RMR), Qc",Hommes+,Transport actif,4.6
+2021,"Ottawa - Gatineau (partie du Québec) (RMR), Qc",Femmes+,Transport durable,16.7
+2021,"Ottawa - Gatineau (partie du Québec) (RMR), Qc",Femmes+,Transport en commun,11.1
+2021,"Ottawa - Gatineau (partie du Québec) (RMR), Qc",Femmes+,Transport actif,5.6
 2021,"Peterborough (RMR), Ont.",Total,Transport durable,9.4
 2021,"Peterborough (RMR), Ont.",Total,Transport en commun,2.5
 2021,"Peterborough (RMR), Ont.",Total,Transport actif,6.9
