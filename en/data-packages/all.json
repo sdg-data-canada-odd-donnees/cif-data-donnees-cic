@@ -3832,153 +3832,6 @@
       "title": "Proportion of businesses that adopted selected environmental protection activities and management practices"
     },
     {
-      "path": "11-5-1/data.csv",
-      "name": "11-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "St. John's, Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "Halifax, Nova Scotia",
-                "New Brunswick",
-                "Moncton, New Brunswick",
-                "Saint John, New Brunswick",
-                "Quebec",
-                "Montreal, Quebec",
-                "Ottawa - Gatineau (Quebec part), Quebec",
-                "Quebec, Quebec",
-                "Saguenay, Quebec",
-                "Sherbrooke, Quebec",
-                "Trois-Rivières (CMA), Que.",
-                "Ontario",
-                "Barrie, Ontario",
-                "Belleville, Ontario",
-                "Brantford, Ontario",
-                "Greater Sudbury / Grand Sudbury, Ontario",
-                "Guelph, Ontario",
-                "Hamilton, Ontario",
-                "Kingston, Ontario",
-                "Kitchener - Cambridge - Waterloo, Ontario",
-                "London, Ontario",
-                "Oshawa, Ontario",
-                "Ottawa - Gatineau (Ontario part), Ontario",
-                "Peterborough, Ontario",
-                "St. Catharines - Niagara, Ontario",
-                "Thunder Bay, Ontario",
-                "Toronto, Ontario",
-                "Windsor, Ontario",
-                "Manitoba",
-                "Winnipeg, Manitoba",
-                "Saskatchewan",
-                "Regina, Saskatchewan",
-                "Saskatoon, Saskatchewan",
-                "Alberta",
-                "Calgary, Alberta",
-                "Edmonton, Alberta",
-                "Lethbridge, Alberta",
-                "British Columbia",
-                "Abbotsford - Mission, British Columbia",
-                "Kelowna, British Columbia",
-                "Vancouver, British Columbia",
-                "Victoria, British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
-                "St. John's (CMA), N.L.",
-                "Halifax (CMA), N.S.",
-                "Moncton (CMA), N.B.",
-                "Saint John (CMA), N.B.",
-                "Montréal (CMA), Que.",
-                "Québec (CMA), Que.",
-                "Saguenay (CMA), Que.",
-                "Sherbrooke (CMA), Que.",
-                "Trois-Rivières (CMA), Que.",
-                "Barrie (CMA), Ont.",
-                "Belleville - Quinte West (CMA), Ont.",
-                "Brantford (CMA), Ont.",
-                "Greater Sudbury (CMA), Ont.",
-                "Guelph (CMA), Ont.",
-                "Hamilton (CMA), Ont.",
-                "Kingston (CMA), Ont.",
-                "Kitchener - Cambridge - Waterloo (CMA), Ont.",
-                "London (CMA), Ont.",
-                "Oshawa (CMA), Ont.",
-                "Ottawa - Gatineau (CMA), Ont./Que.",
-                "Ottawa - Gatineau (Ontario part) (CMA), Ont.",
-                "Ottawa - Gatineau (Quebec part) (CMA), Que.",
-                "Peterborough (CMA), Ont.",
-                "St. Catharines - Niagara (CMA), Ont.",
-                "Thunder Bay (CMA), Ont.",
-                "Toronto (CMA), Ont.",
-                "Windsor (CMA), Ont.",
-                "Winnipeg (CMA), Man.",
-                "Regina (CMA), Sask.",
-                "Saskatoon (CMA), Sask.",
-                "Calgary (CMA), Alta.",
-                "Edmonton (CMA), Alta.",
-                "Lethbridge (CMA), Alta.",
-                "Abbotsford - Mission (CMA), B.C.",
-                "Kelowna (CMA), B.C.",
-                "Vancouver (CMA), B.C.",
-                "Victoria (CMA), B.C.",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "data.Gender",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total",
-                "Men+",
-                "Women+",
-                ""
-              ]
-            },
-            "title": "Gender"
-          },
-          {
-            "name": "data.Type of commute",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Public transit",
-                "Active transportation",
-                "Sustainable transportation",
-                ""
-              ]
-            },
-            "title": "Main mode of commuting"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Percentage  of the population using shared or active transportation for commuting"
-    },
-    {
       "path": "8-5-1/data.csv",
       "name": "8-5-1",
       "profile": "tabular-data-resource",
@@ -4905,6 +4758,30 @@
         ]
       },
       "title": "Prevalence of cigarette smoking"
+    },
+    {
+      "path": "11-5-1/data.csv",
+      "name": "11-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Percentage  of the population using shared or active transportation for commuting"
     }
   ]
 }
