@@ -1,11 +1,10 @@
-
 # Indicator 4.1.1 ---------------------------------------------------------
 
 library(cansim)
-library(tidyverse)
+library(dplyr)
 
 hs_completion <- get_cansim("37-10-0170-01", factors = FALSE)
-geocodes <- read_csv("geocodes.csv")
+geocodes <- read.csv("geocodes.csv")
 
 select_characteristics <- c(
   "Non immigrants",
@@ -21,15 +20,19 @@ select_characteristics <- c(
   "Total, all persons"
 )
 
-names(hs_completion)
-
-hs_completion_all <- 
-  hs_completion %>% 
+hs_completion_all <-
+  hs_completion %>%
   filter(
     `Secondary (high) school diploma or equivalency certificate` == "High school completion rate",
-    `Age group` %in% c("Total, persons aged 15 years and over", "15 to 24 years", "25 to 64 years", "65 to 74 years", "75 years and over"),
+    `Age group` %in% c(
+      "Total, persons aged 15 years and over",
+      "15 to 24 years",
+      "25 to 64 years",
+      "65 to 74 years",
+      "75 years and over"
+    ),
     `Selected demographic characteristics` %in% select_characteristics
-  ) %>% 
+  ) %>%
   select(
     Year = REF_DATE,
     Geography = GEO,
@@ -47,7 +50,7 @@ total_line <-
     `Age group` == "Total, persons aged 15 years and over",
     `Selected demographic characteristics` == "Total, all persons"
   ) %>% 
-  mutate_at(2:(ncol(.) - 1), ~ "")
+  mutate_at(2:5, ~ "")
 
 hs_completion_all <- 
   hs_completion_all %>% 
@@ -57,14 +60,18 @@ hs_completion_all <-
     `Age group` == "Total, persons aged 15 years and over" &
     `Selected demographic characteristics` == "Total, all persons"
   )) %>% 
-  mutate_at(2:(ncol(.) - 1), ~ paste0("data.", .x))
+  mutate_at(2:5, ~ paste0("data.", .x))
 
 data_final <- 
   bind_rows(total_line, hs_completion_all) %>% 
   left_join(geocodes, by = "Geography") %>% 
-  relocate(GeoCode, .before = "Value") 
+  relocate(GeoCode, .before = "Value") %>% 
+  rename_at(2:5, ~ paste0("data.", .x))
 
-names(data_final)[2:(ncol(data_final)-2)] <- paste0("data.", names(data_final)[2:(ncol(data_final)-2)])
-
-write_csv(data_final, "CIF/data/indicator_4-1-1.csv")
+write.csv(
+  data_final, 
+  "data/indicator_4-1-1.csv",
+  row.names = FALSE,
+  na = ""
+)
 

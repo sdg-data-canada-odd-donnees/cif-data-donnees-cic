@@ -1,24 +1,21 @@
 # ****************************************************************************
 # NOTES:
 #
-# Testing workflow for updating data in data repository.
+# Workflow for updating data in data repository.
 #
-# TODO: Have data update to a specific data-update branch, so we can review  
-# the data updates before merging to dev branch.
-#
-# TODO: schedule updates for every week
-#
-# TODO: check if any files changed in repo when update runs and only commit/
-# push if there were changes
 #
 # ****************************************************************************
 
 name: Data update
 
 on:
-  push:
-    branches:
-      - develop
+ schedule:
+   - cron: '0 10 * * 1'
+    
+# on:
+#   push:
+#     branches:
+#       - develop
 
 jobs:
   data-update:
@@ -46,26 +43,31 @@ jobs:
     - name: Install dependencies
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
-        install.packages(c("dplyr", "readr", "cansim"))
+        install.packages(c("dplyr", "cansim", "stringr", "lubridate", "tidyr"))
       shell: Rscript {0}
 
     - name: Updating data and cleaning 
       run: |
-        source('scripts/R/indicator_9-5-1.R')
+        source('automation_script.R')
       shell: Rscript {0}
+  
+    # - name: Check if there are any changes
+    #   id: verify_diff
+    #   run: |
+    #     git diff --quiet . || echo "::set-output name=new_data_exists::true"
 
     - name: Commit files
+      # if: steps.verify_diff.outputs.new_data_exists == 'true'
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
-        git commit -m "Add changes"
+        git commit -m "Add new data updates"
 
     - name: Push changes
+      # if: steps.verify_diff.outputs.new_data_exists == 'true'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
-
-
 
