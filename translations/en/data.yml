@@ -280,7 +280,7 @@ Cancer: Cancer
 Tuberculosis: Tuberculosis
 Salmonella: Salmonella
 
-## 3-11-1
+## 3-10-1
 Age at time of death: Age at time of death
 all ages: all ages
 All ages: All ages
@@ -304,6 +304,7 @@ Chronic lower respiratory diseases [J40-J47]: Chronic lower respiratory diseases
 Chronic liver disease and cirrhosis [K70, K73-K74]: Chronic liver disease and cirrhosis
 Accidents (unintentional injuries) [V01-X59, Y85-Y86]: Accidents (unintentional injuries)
 Intentional self-harm (suicide) [X60-X84, Y87.0]: Intentional self-harm (suicide)
+Indigenous: Indigenous
 
 ## 3-12-1
 Rate per 100,000 population: Rate per 100,000 population
@@ -674,10 +675,67 @@ Vancouver, British Columbia: Vancouver, British Columbia
 Victoria, British Columbia: Victoria, British Columbia
 
 ## 11-5-1
-Type of commute: Type of commute
+Type of commute: Main mode of commuting
+Sustainable transportation: Sustainable transportation
 Public transit: Public transit
-Active transport: Active transport
-Trois-Rivieres, Quebec: Trois-Rivieres, Quebec
+Active transportation: Active transportation
+Gender: Gender
+Total - Gender: Total - Gender
+Men+: Men+
+Women+: Women+
+Canada: Canada
+Newfoundland and Labrador: Newfoundland and Labrador
+St. John's (CMA), N.L.: St. John's (CMA), N.L.
+Prince Edward Island: Prince Edward Island
+Nova Scotia: Nova Scotia
+Halifax (CMA), N.S.: Halifax (CMA), N.S.
+New Brunswick: New Brunswick
+Moncton (CMA), N.B.: Moncton (CMA), N.B.
+Saint John (CMA), N.B.: Saint John (CMA), N.B.
+Quebec: Quebec
+Montréal (CMA), Que.: Montréal (CMA), Que.
+Québec (CMA), Que.: Québec (CMA), Que.
+Saguenay (CMA), Que.: Saguenay (CMA), Que.
+Sherbrooke (CMA), Que.: Sherbrooke (CMA), Que.
+Trois-Rivieres, Quebec: Trois-Rivières (CMA), Que.
+Trois-Rivières (CMA), Que.: Trois-Rivières (CMA), Que.
+Ontario: Ontario
+Barrie (CMA), Ont.: Barrie (CMA), Ont.
+Belleville - Quinte West (CMA), Ont.: Belleville - Quinte West (CMA), Ont.
+Brantford (CMA), Ont.: Brantford (CMA), Ont.
+Greater Sudbury (CMA), Ont.: Greater Sudbury (CMA), Ont.
+Guelph (CMA), Ont.: Guelph (CMA), Ont.
+Hamilton (CMA), Ont.: Hamilton (CMA), Ont.
+Kingston (CMA), Ont.: Kingston (CMA), Ont.
+Kitchener - Cambridge - Waterloo (CMA), Ont.: Kitchener - Cambridge - Waterloo (CMA), Ont.
+London (CMA), Ont.: London (CMA), Ont.
+Oshawa (CMA), Ont.: Oshawa (CMA), Ont.
+Ottawa - Gatineau (CMA), Ont./Que.: Ottawa - Gatineau (CMA), Ont./Que.
+Ottawa - Gatineau (Ontario part) (CMA), Ont.: Ottawa - Gatineau (Ontario part) (CMA), Ont.
+Ottawa - Gatineau (Quebec part) (CMA), Que.: Ottawa - Gatineau (Quebec part) (CMA), Que.
+Peterborough (CMA), Ont.: Peterborough (CMA), Ont.
+St. Catharines - Niagara (CMA), Ont.: St. Catharines - Niagara (CMA), Ont.
+Thunder Bay (CMA), Ont.: Thunder Bay (CMA), Ont.
+Toronto (CMA), Ont.: Toronto (CMA), Ont.
+Windsor (CMA), Ont.: Windsor (CMA), Ont.
+Manitoba: Manitoba
+Winnipeg (CMA), Man.: Winnipeg (CMA), Man.
+Saskatchewan: Saskatchewan
+Regina (CMA), Sask.: Regina (CMA), Sask.
+Saskatoon (CMA), Sask.: Saskatoon (CMA), Sask.
+Alberta: Alberta
+Calgary (CMA), Alta.: Calgary (CMA), Alta.
+Edmonton (CMA), Alta.: Edmonton (CMA), Alta.
+Lethbridge (CMA), Alta.: Lethbridge (CMA), Alta.
+British Columbia: British Columbia
+Abbotsford - Mission (CMA), B.C.: Abbotsford - Mission (CMA), B.C.
+Kelowna (CMA), B.C.: Kelowna (CMA), B.C.
+Vancouver (CMA), B.C.: Vancouver (CMA), B.C.
+Victoria (CMA), B.C.: Victoria (CMA), B.C.
+Yukon: Yukon
+Northwest Territories: Northwest Territories
+Nunavut: Nunavut
+
 
 ## 11-6-1
 Sources of waste for disposal: Sources of waste for disposal
@@ -736,6 +794,7 @@ Gable top and aseptic containers: Gable top and aseptic containers
 Textiles: Textiles
 Tires: Tires
 Construction + renovation and demolition: Construction + renovation and demolition
+Construction, renovation and demolition: Construction, renovation and demolition
 Organics: Organics
 Other materials: Other materials
 Sources of materials prepared for recycling: Sources of materials prepared for recycling
