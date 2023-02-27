@@ -55,16 +55,16 @@
             "constraints": {
               "enum": [
                 "Total des employés, toutes les professions",
-                "Gestion [0]",
-                "Affaires, finance et administration [1]",
-                "Sciences naturelles et appliquées et domaines apparentés [2]",
-                "Secteur de la santé [3]",
-                "Enseignement, droit et services sociaux, communautaires et gouvernementaux [4]",
-                "Arts, culture, sports et loisirs [5]",
-                "Vente et services [6]",
-                "Métiers, transport, machinerie et domaines apparentés [7]",
-                "Ressources naturelles, agriculture et production connexe [8]",
-                "Fabrication et services d'utilité publique [9]",
+                "Gestion",
+                "Affaires, finance et administration",
+                "Sciences naturelles et appliquées et domaines apparentés",
+                "Secteur de la santé",
+                "Enseignement, droit et services sociaux, communautaires et gouvernementaux",
+                "Arts, culture, sports et loisirs",
+                "Vente et services",
+                "Métiers, transport, machinerie et domaines apparentés",
+                "Ressources naturelles, agriculture et production connexe",
+                "Fabrication et services d'utilité publique",
                 ""
               ]
             },

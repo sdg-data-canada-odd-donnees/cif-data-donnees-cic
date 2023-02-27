@@ -52,16 +52,16 @@
             "constraints": {
               "enum": [
                 "data.Total employees, all occupations",
-                "data.Management occupations [0]",
-                "data.Business, finance and administration occupations [1]",
-                "data.Natural and applied sciences and related occupations [2]",
-                "data.Health occupations [3]",
-                "data.Occupations in education, law and social, community and government services [4]",
-                "data.Occupations in art, culture, recreation and sport [5]",
-                "data.Sales and service occupations [6]",
-                "data.Trades, transport and equipment operators and related occupations [7]",
-                "data.Natural resources, agriculture and related production occupations [8]",
-                "data.Occupations in manufacturing and utilities [9]",
+                "data.Management occupations",
+                "data.Business, finance and administration occupations",
+                "data.Natural and applied sciences and related occupations",
+                "data.Health occupations",
+                "data.Occupations in education, law and social, community and government services",
+                "data.Occupations in art, culture, recreation and sport",
+                "data.Sales and service occupations",
+                "data.Trades, transport and equipment operators and related occupations",
+                "data.Natural resources, agriculture and related production occupations",
+                "data.Occupations in manufacturing and utilities",
                 ""
               ]
             }
