@@ -41,11 +41,6 @@
             "title": "Geography"
           },
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
             "name": "data.Population",
             "type": "string",
             "constraints": {
@@ -105,6 +100,11 @@
               ]
             },
             "title": "Age group"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

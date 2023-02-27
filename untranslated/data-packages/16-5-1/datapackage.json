@@ -74,10 +74,10 @@
                 "data.35 to 44 years",
                 "data.45 to 54 years",
                 "data.55 years and over",
-                "data.12 to 15 years",
-                "data.16 and 17 years",
                 "data.Other ages",
                 "data.Age not applicable",
+                "data.12 to 15 years",
+                "data.16 and 17 years",
                 ""
               ]
             }
@@ -95,6 +95,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

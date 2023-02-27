@@ -39,10 +39,6 @@
             }
           },
           {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
             "name": "data.Population",
             "type": "string",
             "constraints": {
@@ -99,6 +95,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

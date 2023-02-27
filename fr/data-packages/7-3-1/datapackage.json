@@ -16,7 +16,7 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -33,14 +33,13 @@
                 "Colombie-Britannique",
                 "Yukon",
                 "Territoires du Nord-Ouest",
-                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
           },
           {
-            "name": "Type of electricity generation",
+            "name": "data.Type of electricity generation",
             "type": "string",
             "constraints": {
               "enum": [

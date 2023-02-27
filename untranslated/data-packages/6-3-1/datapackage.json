@@ -19,8 +19,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Cubic metres",
-                "data.Growth rate",
+                "Cubic metres",
+                "Growth rate",
                 ""
               ]
             }

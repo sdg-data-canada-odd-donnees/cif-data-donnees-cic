@@ -69,6 +69,11 @@
             "title": "Groupe d'âge"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"

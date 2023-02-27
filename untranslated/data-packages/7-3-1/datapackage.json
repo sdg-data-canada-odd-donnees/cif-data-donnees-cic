@@ -15,39 +15,38 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
                 ""
               ]
             }
           },
           {
-            "name": "Type of electricity generation",
+            "name": "data.Type of electricity generation",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hydraulic turbine",
-                "Tidal power turbine",
-                "Wind power turbine",
-                "Solar",
-                "Other types of electricity generation",
-                "Total hydro, tidal, wind, solar and other generation",
+                "data.Hydraulic turbine",
+                "data.Tidal power turbine",
+                "data.Wind power turbine",
+                "data.Solar",
+                "data.Other types of electricity generation",
+                "data.Total hydro, tidal, wind, solar and other generation",
                 ""
               ]
             }

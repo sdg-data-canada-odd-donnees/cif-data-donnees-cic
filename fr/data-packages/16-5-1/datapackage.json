@@ -78,10 +78,10 @@
                 "35 à 44 ans",
                 "45 à 54 ans",
                 "55 ans et plus",
-                "12 à 15 ans",
-                "16 et 17 ans",
                 "Autres âges",
                 "Âge n'ayant pas lieu de figurer",
+                "12 à 15 ans",
+                "16 et 17 ans",
                 ""
               ]
             },
@@ -101,6 +101,11 @@
               ]
             },
             "title": "Sexe de l'accusé"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

@@ -265,10 +265,10 @@
                 "35 à 44 ans",
                 "45 à 54 ans",
                 "55 ans et plus",
-                "12 à 15 ans",
-                "16 et 17 ans",
                 "Autres âges",
                 "Âge n'ayant pas lieu de figurer",
+                "12 à 15 ans",
+                "16 et 17 ans",
                 ""
               ]
             },
@@ -288,6 +288,11 @@
               ]
             },
             "title": "Sexe de l'accusé"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -1081,6 +1086,11 @@
             "title": "Sexe"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -1476,6 +1486,11 @@
             "title": "Âge"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -1633,6 +1648,11 @@
               ]
             },
             "title": "Sexe"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -1846,6 +1866,11 @@
             "title": "Groupe d'âge"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -2003,6 +2028,11 @@
             "title": "Sexe"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -2075,6 +2105,11 @@
               ]
             },
             "title": "Sexe"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -2532,16 +2567,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Tumeurs malignes",
-                "Diabète sucré",
-                "Maladie d'Alzheimer",
-                "Maladies du coeur",
-                "Maladies cérébrovasculaires",
-                "Grippe et pneumopathie",
-                "Maladies chroniques des voies respiratoires inférieures",
-                "Maladie chronique et cirrhose du foie",
-                "Accidents (blessures involontaires)",
-                "Lésions auto-infligées",
+                "data.Malignant neoplasms",
+                "data.Diabetes mellitus",
+                "data.Alzheimer's disease",
+                "data.Diseases of heart",
+                "data.Cerebrovascular diseases",
+                "data.Influenza and pneumonia",
+                "data.Chronic lower respiratory diseases",
+                "data.Chronic liver disease and cirrhosis",
+                "data.Accidents (unintentional injuries)",
+                "data.Intentional self-harm (suicide)",
                 ""
               ]
             },
@@ -2650,7 +2685,7 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2667,14 +2702,13 @@
                 "Colombie-Britannique",
                 "Yukon",
                 "Territoires du Nord-Ouest",
-                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
           },
           {
-            "name": "Type of electricity generation",
+            "name": "data.Type of electricity generation",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2798,11 +2832,6 @@
             "title": "Géographie"
           },
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
             "name": "data.Population",
             "type": "string",
             "constraints": {
@@ -2862,6 +2891,11 @@
               ]
             },
             "title": "Groupe d'âge"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -3063,6 +3097,11 @@
               ]
             },
             "title": "Sexe"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -3522,6 +3561,11 @@
               ]
             },
             "title": "Indice"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -4781,6 +4825,11 @@
               ]
             },
             "title": "Sexe"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
