@@ -52,20 +52,19 @@ causes_of_death <-
     `Leading causes of death (ICD-10)` %in% selected_diseases
   ) %>%
   select(REF_DATE,
-         GEO,
+         # GEO,
          `Age at time of death`,
          Sex,
          `Leading causes of death (ICD-10)`,
          VALUE) %>%
   rename(Year = REF_DATE,
-         Geography = GEO,
          Value = VALUE) %>%
   mutate(
-    Geography = gsub(", place of residence", "", Geography),
-    `Leading causes of death (ICD-10)` = str_remove(
-      `Leading causes of death (ICD-10)`, 
-      " \\[.*\\]"
-    ),
+    # Geography = gsub(", place of residence", "", Geography),
+    # `Leading causes of death (ICD-10)` = str_remove(
+    #   `Leading causes of death (ICD-10)`, 
+    #   " \\[.*\\]"
+    # ),
     `Age at time of death` = gsub(
       "Age at time of death, ", 
       "", 

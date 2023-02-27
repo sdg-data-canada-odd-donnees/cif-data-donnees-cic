@@ -124,7 +124,7 @@ indicator_ids = get_indicator_ids()
 diffs = update_progress_status(indicator_ids)
 update_progress_diff(diffs)
 
-# individal calculations result ----
+# individual calculations result ----
 # test_ind = merge_indicator('12-2-1')
 # test_data = pm.data_progress_measure(test_ind['data'])
 # print(test_data)
