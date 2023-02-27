@@ -16,17 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
             "name": "data.Age at time of death",
             "type": "string",
             "constraints": {
@@ -64,16 +53,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Malignant neoplasms",
-                "data.Diabetes mellitus",
-                "data.Alzheimer's disease",
-                "data.Diseases of heart",
-                "data.Cerebrovascular diseases",
-                "data.Influenza and pneumonia",
-                "data.Chronic lower respiratory diseases",
-                "data.Chronic liver disease and cirrhosis",
-                "data.Accidents (unintentional injuries)",
-                "data.Intentional self-harm (suicide)",
+                "Malignant neoplasms",
+                "Diabetes mellitus",
+                "Alzheimer's disease",
+                "Diseases of heart",
+                "Cerebrovascular diseases",
+                "Influenza and pneumonia",
+                "Chronic lower respiratory diseases",
+                "Chronic liver disease and cirrhosis",
+                "Accidents (unintentional injuries)",
+                "Intentional self-harm (suicide)",
                 ""
               ]
             },
