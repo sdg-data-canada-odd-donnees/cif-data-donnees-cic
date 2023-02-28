@@ -3356,7 +3356,7 @@
             "type": "integer"
           },
           {
-            "name": "data.Progress",
+            "name": "data.Trend",
             "type": "string",
             "constraints": {
               "enum": [
