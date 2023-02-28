@@ -599,6 +599,28 @@
                 "data.Stoneflies",
                 "data.Vascular plants",
                 "data.Yellowjacket wasps",
+                "data.Bivalves",
+                "data.Caddisflies",
+                "data.Cephalopods",
+                "data.Earthworms",
+                "data.Fleas",
+                "data.Harvestmen",
+                "data.Leeches",
+                "data.Lichens",
+                "data.Macrofungi",
+                "data.Myriapods",
+                "data.Pseudoscorpions",
+                "data.Sawflies",
+                "data.Scorpionflies",
+                "data.Sea stars",
+                "data.Selected flies",
+                "data.Slime moulds",
+                "data.Springtails",
+                "data.Terrestrial and freshwater snails and slugs",
+                "data.Ticks",
+                "data.True bugs",
+                "data.Water mites",
+                "data.Yellowjackets and relatives",
                 ""
               ]
             }
@@ -3993,21 +4015,20 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Northwest Territories and Nunavut",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
                 "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             }
@@ -4017,17 +4038,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Provincial Inventory Total",
                 "data.Oil and Gas",
-                "data.Coal Production",
                 "data.Electricity",
                 "data.Transport",
                 "data.Heavy Industry",
-                "data.Light Manufacturing, Construction and Forest Resources",
                 "data.Buildings",
-                "data.Waste",
                 "data.Agriculture",
-                "data.Territorial Inventory Total",
+                "data.Waste",
+                "data.Coal Production",
+                "data.Light Manufacturing, Construction and Forest Resources",
+                "data.Provincial Inventory Total",
                 ""
               ]
             }
