@@ -82,8 +82,11 @@ def diff_note(old, new):
 
 def update_progress_diff(diff):
     filepath = os.path.join('progress_diff.yml')
+    with open(filepath, 'r') as stream:
+        diff_file = yaml.safe_load(stream)
+    diff_file.update(diff)
     with open(filepath, 'w') as file:
-        outputs = yaml.dump(diff, file)
+        outputs = yaml.dump(diff_file, file)
 
 
 def update_progress_status(indicator_ids):
