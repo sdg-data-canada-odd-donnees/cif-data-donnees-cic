@@ -280,7 +280,7 @@ Cancer: Cancer
 Tuberculosis: Tuberculosis
 Salmonella: Salmonella
 
-## 3-11-1
+## 3-10-1
 Age at time of death: Age at time of death
 all ages: all ages
 All ages: All ages
@@ -575,16 +575,16 @@ Part-time employees: Part-time employees
 
 National Occupational Classification (NOC): National Occupational Classification (NOC)
 Total employees, all occupations: Total employees, all occupations
-Management occupations [0]: Management occupations [0]
-Business, finance and administration occupations [1]: Business, finance and administration occupations [1]
-Natural and applied sciences and related occupations [2]: Natural and applied sciences and related occupations [2]
-Health occupations [3]: Health occupations [3]
-Occupations in education, law and social, community and government services [4]: Occupations in education, law and social, community and government services [4]
-Occupations in art, culture, recreation and sport [5]: Occupations in art, culture, recreation and sport [5]
-Sales and service occupations [6]: Sales and service occupations [6]
-Trades, transport and equipment operators and related occupations [7]: Trades, transport and equipment operators and related occupations [7]
-Natural resources, agriculture and related production occupations [8]: Natural resources, agriculture and related production occupations [8]
-Occupations in manufacturing and utilities [9]: Occupations in manufacturing and utilities [9]
+Management occupations: Management occupations
+Business, finance and administration occupations: Business, finance and administration occupations
+Natural and applied sciences and related occupations: Natural and applied sciences and related occupations
+Health occupations: Health occupations
+Occupations in education, law and social, community and government services: Occupations in education, law and social, community and government services
+Occupations in art, culture, recreation and sport: Occupations in art, culture, recreation and sport
+Sales and service occupations: Sales and service occupations
+Trades, transport and equipment operators and related occupations: Trades, transport and equipment operators and related occupations
+Natural resources, agriculture and related production occupations: Natural resources, agriculture and related production occupations
+Occupations in manufacturing and utilities: Occupations in manufacturing and utilities
 
 15 years and over: 15 years and over
 15 to 24 years: 15 to 24 years
@@ -871,44 +871,64 @@ Others: Others
 
 ## 15-1-1
 Species group: Species group
-All species: All species
 Amphibians: Amphibians
 Ants: Ants
 Bee flies: Bee flies
 Bees: Bees
 Beetles: Beetles
 Birds: Birds
+Bivalves: Bivalves
 Black flies: Black flies
 Bryophytes: Bryophytes
 Caddisflies: Caddisflies
+Cephalopods: Cephalopods
 Corals: Corals
 Decapods: Decapods
 Dragonflies and damselflies: Dragonflies and damselflies
+Earthworms: Earthworms
 Fishes: Fishes
-Flower flies: Flower flies
+Fleas: Fleas
 Freshwater bivalves: Freshwater bivalves
 Grasshoppers and relatives: Grasshoppers and relatives
+Harvestmen: Harvestmen
 Horse flies: Horse flies
 Lacewings: Lacewings
+Leeches: Leeches
+Lichens: Lichens
+Macrofungi: Macrofungi
 Macrolichens: Macrolichens
 Mammals: Mammals
 Mayflies: Mayflies
 Mosquitoes: Mosquitoes
 Moths and butterflies: Moths and butterflies
+Myriapods: Myriapods
 Non-marine snails and slugs: Non-marine snails and slugs
+Pseudoscorpions: Pseudoscorpions
 Reptiles: Reptiles
+Sawflies: Sawflies
 Scorpionflies: Scorpionflies
 Sea cucumbers: Sea cucumbers
+Sea stars: Sea stars
 Sea urchins: Sea urchins
+Selected flies: Selected flies
 Selected macrofungi: Selected macrofungi
+Slime moulds: Slime moulds
 Spiders: Spiders
 Sponges: Sponges
+Springtails: Springtails
 Stoneflies: Stoneflies
+Terrestrial and freshwater snails and slugs: Terrestrial and freshwater snails and slugs
+Ticks: Ticks
+True bugs: True bugs
 Vascular plants: Vascular plants
+Water mites: Water mites
 Yellowjacket wasps: Yellowjacket wasps
+Yellowjackets and relatives: Yellowjackets and relatives
+
+
 
 ##15-2-1
-Progress: Progress
+Trend: Trend
 Show progress: Show progress
 Mixed evidence: Mixed evidence
 Do not show progress: Do not show progress
