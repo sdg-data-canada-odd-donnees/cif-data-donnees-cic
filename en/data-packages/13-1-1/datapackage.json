@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -40,20 +40,20 @@
             "title": "Geography"
           },
           {
-            "name": "data.Source",
+            "name": "Source",
             "type": "string",
             "constraints": {
               "enum": [
-                "Oil and Gas",
-                "Electricity",
-                "Transport",
-                "Heavy Industry",
-                "Buildings",
                 "Agriculture",
-                "Waste",
+                "Buildings",
                 "Coal Production",
+                "Electricity",
+                "Heavy Industry",
                 "Light Manufacturing, Construction and Forest Resources",
+                "Oil and Gas",
                 "Provincial Inventory Total",
+                "Transport",
+                "Waste",
                 ""
               ]
             },

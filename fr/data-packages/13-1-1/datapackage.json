@@ -16,7 +16,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -40,20 +40,20 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Source",
+            "name": "Source",
             "type": "string",
             "constraints": {
               "enum": [
-                "Exploitation pétrolière et gazière",
-                "Électricité",
-                "Transports",
-                "Industrie lourde",
-                "Bâtiments",
                 "Agriculture",
-                "Déchets et autres",
+                "Bâtiments",
                 "Production de charbon",
+                "Électricité",
+                "Industrie lourde",
                 "Fabrication légère, construction et ressources forestières",
+                "Exploitation pétrolière et gazière",
                 "Inventaire provincial",
+                "Transports",
+                "Déchets et autres",
                 ""
               ]
             },

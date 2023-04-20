@@ -15,7 +15,7 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -38,20 +38,20 @@
             }
           },
           {
-            "name": "data.Source",
+            "name": "Source",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Oil and Gas",
-                "data.Electricity",
-                "data.Transport",
-                "data.Heavy Industry",
-                "data.Buildings",
                 "data.Agriculture",
-                "data.Waste",
+                "data.Buildings",
                 "data.Coal Production",
+                "data.Electricity",
+                "data.Heavy Industry",
                 "data.Light Manufacturing, Construction and Forest Resources",
+                "data.Oil and Gas",
                 "data.Provincial Inventory Total",
+                "data.Transport",
+                "data.Waste",
                 ""
               ]
             }
