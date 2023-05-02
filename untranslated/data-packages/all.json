@@ -1396,17 +1396,17 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Nova Scotia",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
                 "data.Yukon, Northwest Territories and Nunavut",
                 ""
               ]
@@ -1417,12 +1417,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.All sources of waste for disposal",
-                "data.Non-residential sources of waste for disposal",
                 "data.Residential sources of waste for disposal",
+                "data.Non-residential sources of waste for disposal",
+                "data.All sources of waste for disposal",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1472,16 +1476,9 @@
                 "data.Calgary, Alberta",
                 "data.Edmonton, Alberta",
                 "data.Vancouver, British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
                 ""
               ]
             }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
           },
           {
             "name": "data.Economic family type",
@@ -1511,6 +1508,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -2910,6 +2911,10 @@
             }
           },
           {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
             "name": "Value",
             "type": "number"
           }
@@ -3726,16 +3731,9 @@
                 "data.Calgary, Alberta",
                 "data.Edmonton, Alberta",
                 "data.Vancouver, British Columbia",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                "data.Yukon",
                 ""
               ]
             }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
           },
           {
             "name": "data.Persons in low income",
@@ -3753,32 +3751,14 @@
                 "data.Females, under 18 years",
                 "data.Females, 18 to 64 years",
                 "data.Females, 65 years and over",
-                "data.Persons in economic families",
-                "data.Males in economic families",
-                "data.Females in economic families",
-                "data.Elderly persons in economic families",
-                "data.Elderly males in economic families",
-                "data.Elderly females in economic families",
-                "data.Persons under 18 years in economic families",
-                "data.Persons under 18 years in couple families with children",
-                "data.Persons under 18 years in female lone-parent families",
-                "data.Persons under 18 years in all other economic families",
-                "data.Persons 18 to 64 years in economic families",
-                "data.Males 18 to 64 years in economic families",
-                "data.Females 18 to 64 years in economic families",
-                "data.Persons not in an economic family",
-                "data.Males not in an economic family",
-                "data.Females not in an economic family",
-                "data.Elderly persons not in an economic family",
-                "data.Elderly males not in an economic family",
-                "data.Elderly females not in an economic family",
-                "data.Non-elderly persons not in an economic family",
-                "data.Non-elderly males not in an economic family",
-                "data.Non-elderly females not in an economic family",
                 "data.All persons",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -3872,16 +3852,9 @@
                 "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
                 ""
               ]
             }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
           },
           {
             "name": "data.Economic family type",
@@ -3918,13 +3891,18 @@
             "constraints": {
               "enum": [
                 "data.Food secure",
+                "data.Food insecure",
                 "data.Food insecure, marginal",
+                "data.Food insecure, moderate or severe",
                 "data.Food insecure, moderate",
                 "data.Food insecure, severe",
-                "data.Food insecure, moderate or severe",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

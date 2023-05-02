@@ -41,18 +41,10 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Vancouver, Colombie-Britannique",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                "Yukon",
                 ""
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
           },
           {
             "name": "data.Persons in low income",
@@ -70,33 +62,16 @@
                 "Femmes, moins de 18 ans",
                 "Femmes, 18 à 64 ans",
                 "Femmes, 65 ans et plus",
-                "Personnes dans les familles économiques",
-                "Hommes dans les familles économiques",
-                "Femmes dans les familles économiques",
-                "Personnes âgées dans les familles économiques",
-                "Hommes âgés dans les familles économiques",
-                "Femmes âgées dans les familles économiques",
-                "Personnes de moins de 18 ans dans les familles économiques",
-                "Personnes de moins de 18 ans dans les familles comptant un couple avec des enfants",
-                "Personnes de moins de 18 ans dans les familles monoparentales ayant une femme à leur tête",
-                "Personnes de moins de 18 ans dans l'ensemble des autres familles économiques",
-                "Personnes de 18 à 64 ans dans les familles économiques",
-                "Hommes de 18 à 64 ans dans les familles économiques",
-                "Femmes de 18 à 64 ans dans les familles économiques",
-                "Personnes hors famille économique",
-                "Hommes hors famille économique",
-                "Femmes hors famille économique",
-                "Personnes âgées hors famille économique",
-                "Hommes âgés hors famille économique",
-                "Femmes âgées hors famille économique",
-                "Personnes non âgées hors famille économique",
-                "Hommes non âgés hors famille économique",
-                "Femmes non âgées hors famille économique",
                 "Toutes les personnes",
                 ""
               ]
             },
             "title": "Personnes à faible revenu"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

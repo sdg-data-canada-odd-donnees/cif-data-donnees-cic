@@ -32,16 +32,9 @@
                 "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
                 ""
               ]
             }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
           },
           {
             "name": "data.Economic family type",
@@ -78,13 +71,18 @@
             "constraints": {
               "enum": [
                 "data.Food secure",
+                "data.Food insecure",
                 "data.Food insecure, marginal",
+                "data.Food insecure, moderate or severe",
                 "data.Food insecure, moderate",
                 "data.Food insecure, severe",
-                "data.Food insecure, moderate or severe",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

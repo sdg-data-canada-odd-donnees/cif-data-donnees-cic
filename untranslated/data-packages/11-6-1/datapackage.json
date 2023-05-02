@@ -19,17 +19,17 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Nova Scotia",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
                 "data.Yukon, Northwest Territories and Nunavut",
                 ""
               ]
@@ -40,12 +40,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.All sources of waste for disposal",
-                "data.Non-residential sources of waste for disposal",
                 "data.Residential sources of waste for disposal",
+                "data.Non-residential sources of waste for disposal",
+                "data.All sources of waste for disposal",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

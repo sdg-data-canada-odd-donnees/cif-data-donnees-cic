@@ -1501,17 +1501,17 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Nouvelle-Écosse",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
                 "Yukon, Territoires du Nord-Ouest et Nunavut",
                 ""
               ]
@@ -1523,13 +1523,18 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les sources de déchets à des fins d'élimination",
-                "Sources de déchets résidentielles à des fins d'élimination",
                 "Sources de déchets non résidentielles à des fins d'élimination",
+                "Sources de déchets résidentielles à des fins d'élimination",
+                "Toutes les sources de déchets à des fins d'élimination",
                 ""
               ]
             },
             "title": "Sources des déchets à des fins d'élimination"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -1581,18 +1586,10 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Vancouver, Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
           },
           {
             "name": "data.Economic family type",
@@ -1623,6 +1620,11 @@
               ]
             },
             "title": "Type de famille économique"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -3130,6 +3132,11 @@
             "title": "Géographie"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -3999,18 +4006,10 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Vancouver, Colombie-Britannique",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                "Yukon",
                 ""
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
           },
           {
             "name": "data.Persons in low income",
@@ -4028,33 +4027,16 @@
                 "Femmes, moins de 18 ans",
                 "Femmes, 18 à 64 ans",
                 "Femmes, 65 ans et plus",
-                "Personnes dans les familles économiques",
-                "Hommes dans les familles économiques",
-                "Femmes dans les familles économiques",
-                "Personnes âgées dans les familles économiques",
-                "Hommes âgés dans les familles économiques",
-                "Femmes âgées dans les familles économiques",
-                "Personnes de moins de 18 ans dans les familles économiques",
-                "Personnes de moins de 18 ans dans les familles comptant un couple avec des enfants",
-                "Personnes de moins de 18 ans dans les familles monoparentales ayant une femme à leur tête",
-                "Personnes de moins de 18 ans dans l'ensemble des autres familles économiques",
-                "Personnes de 18 à 64 ans dans les familles économiques",
-                "Hommes de 18 à 64 ans dans les familles économiques",
-                "Femmes de 18 à 64 ans dans les familles économiques",
-                "Personnes hors famille économique",
-                "Hommes hors famille économique",
-                "Femmes hors famille économique",
-                "Personnes âgées hors famille économique",
-                "Hommes âgés hors famille économique",
-                "Femmes âgées hors famille économique",
-                "Personnes non âgées hors famille économique",
-                "Hommes non âgés hors famille économique",
-                "Femmes non âgées hors famille économique",
                 "Toutes les personnes",
                 ""
               ]
             },
             "title": "Personnes à faible revenu"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -4154,18 +4136,10 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
           },
           {
             "name": "data.Economic family type",
@@ -4203,14 +4177,20 @@
             "constraints": {
               "enum": [
                 "Sécurité alimentaire",
+                "data.Food insecure",
                 "Insécurité alimentaire marginale",
+                "Insécurité alimentaire modérée ou grave",
                 "Insécurité alimentaire modérée",
                 "Insécurité alimentaire grave",
-                "Insécurité alimentaire modérée ou grave",
                 ""
               ]
             },
             "title": "Niveau de sécurité alimentaire du ménage"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

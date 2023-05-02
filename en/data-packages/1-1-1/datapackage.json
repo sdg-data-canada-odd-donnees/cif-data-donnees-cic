@@ -41,18 +41,10 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Vancouver, British Columbia",
-                "Northwest Territories",
-                "Nunavut",
-                "Yukon",
                 ""
               ]
             },
             "title": "Geography"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
           },
           {
             "name": "data.Persons in low income",
@@ -70,33 +62,16 @@
                 "Females, under 18 years",
                 "Females, 18 to 64 years",
                 "Females, 65 years and over",
-                "Persons in economic families",
-                "Males in economic families",
-                "Females in economic families",
-                "Elderly persons in economic families",
-                "Elderly males in economic families",
-                "Elderly females in economic families",
-                "Persons under 18 years in economic families",
-                "Persons under 18 years in couple families with children",
-                "Persons under 18 years in female lone-parent families",
-                "Persons under 18 years in all other economic families",
-                "Persons 18 to 64 years in economic families",
-                "Males 18 to 64 years in economic families",
-                "Females 18 to 64 years in economic families",
-                "Persons not in an economic family",
-                "Males not in an economic family",
-                "Females not in an economic family",
-                "Elderly persons not in an economic family",
-                "Elderly males not in an economic family",
-                "Elderly females not in an economic family",
-                "Non-elderly persons not in an economic family",
-                "Non-elderly males not in an economic family",
-                "Non-elderly females not in an economic family",
                 "All persons",
                 ""
               ]
             },
             "title": "Persons in low income"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
