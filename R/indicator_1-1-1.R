@@ -38,4 +38,5 @@ final_data <-
   rename_at(c(2, 3), ~ paste0("data.", .x))
   
 
-write.csv(final_data, "data/indicator_1-1-1.csv", na = "", row.names = FALSE)
+write.csv(final_data, "data/indicator_1-1-1.csv", na = "", row.names = FALSE,
+          fileEncoding = "UTF-8")

@@ -283,3 +283,7 @@ def methodology_2(data, config):
     else:
         return None
 
+
+def goal_progress_calculation():
+    return 'temp'
+

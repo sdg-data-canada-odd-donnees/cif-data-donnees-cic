@@ -82,4 +82,5 @@ public_transit <-
 write.csv(public_transit,
           "data/indicator_11-4-1.csv",
           na = "",
-          row.names = FALSE)
+          row.names = FALSE,
+          fileEncoding = "UTF-8")
