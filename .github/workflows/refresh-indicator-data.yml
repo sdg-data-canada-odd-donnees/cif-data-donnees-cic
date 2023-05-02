@@ -10,9 +10,8 @@ name: Data update
 
 on:
  schedule:
-#   - cron: '0 10 * * 1'
 # run at 9:05am on tuesday
-   - cron: '5 13 * * 2'
+   - cron: '30 13 * * 2'
     
 # on:
 #   push:
