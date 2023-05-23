@@ -1,6 +1,7 @@
 Year,Industries,Activités de protection de l'environnement,Value
 2018,,,90.3
 2019,,,86.6
+2020,,,86.3
 2018,"Total, industries",Gestion des eaux usées,64.5
 2018,"Total, industries",Gestion de la pollution atmosphérique,20.1
 2018,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",10.2
@@ -129,8 +130,8 @@ Year,Industries,Activités de protection de l'environnement,Value
 2019,"Total, industries",Gestion des eaux usées,60.7
 2019,"Total, industries",Gestion de la pollution atmosphérique,16.4
 2019,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",7.9
-2019,"Total, industries",Protection de la biodiversité et de l’habitat,5.8
-2019,"Total, industries",Lutte contre le bruit et les vibrations,6.4
+2019,"Total, industries",Protection de la biodiversité et de l’habitat,5.5
+2019,"Total, industries",Lutte contre le bruit et les vibrations,6.2
 2019,Exploitation forestière (sauf à forfait),"Total, activités de protection de l'environnement",68.3
 2019,Exploitation forestière (sauf à forfait),Gestion des eaux usées,54.8
 2019,Exploitation forestière (sauf à forfait),Gestion de la pollution atmosphérique,0.4
@@ -149,11 +150,11 @@ Year,Industries,Activités de protection de l'environnement,Value
 2019,Extraction minière et exploitation en carrière,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",72.4
 2019,Extraction minière et exploitation en carrière,Protection de la biodiversité et de l’habitat,58.2
 2019,Extraction minière et exploitation en carrière,Lutte contre le bruit et les vibrations,22.4
-2019,"Production, transport et distribution d’électricité","Total, activités de protection de l'environnement",84.9
+2019,"Production, transport et distribution d’électricité","Total, activités de protection de l'environnement",85.0
 2019,"Production, transport et distribution d’électricité",Gestion des eaux usées,57.5
-2019,"Production, transport et distribution d’électricité",Gestion de la pollution atmosphérique,25.7
-2019,"Production, transport et distribution d’électricité","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",32.7
-2019,"Production, transport et distribution d’électricité",Protection de la biodiversité et de l’habitat,40.4
+2019,"Production, transport et distribution d’électricité",Gestion de la pollution atmosphérique,25.8
+2019,"Production, transport et distribution d’électricité","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",32.4
+2019,"Production, transport et distribution d’électricité",Protection de la biodiversité et de l’habitat,40.1
 2019,"Production, transport et distribution d’électricité",Lutte contre le bruit et les vibrations,19.8
 2019,Distribution de gaz naturel,"Total, activités de protection de l'environnement",67.6
 2019,Distribution de gaz naturel,Gestion des eaux usées,55.9
@@ -165,8 +166,8 @@ Year,Industries,Activités de protection de l'environnement,Value
 2019,Fabrication d’aliments,Gestion des eaux usées,82.8
 2019,Fabrication d’aliments,Gestion de la pollution atmosphérique,13.0
 2019,Fabrication d’aliments,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",7.0
-2019,Fabrication d’aliments,Protection de la biodiversité et de l’habitat,10.7
-2019,Fabrication d’aliments,Lutte contre le bruit et les vibrations,13.6
+2019,Fabrication d’aliments,Protection de la biodiversité et de l’habitat,6.4
+2019,Fabrication d’aliments,Lutte contre le bruit et les vibrations,9.3
 2019,Fabrication de boissons et de produits du tabac,"Total, activités de protection de l'environnement",92.4
 2019,Fabrication de boissons et de produits du tabac,Gestion des eaux usées,78.0
 2019,Fabrication de boissons et de produits du tabac,Gestion de la pollution atmosphérique,8.9
@@ -251,6 +252,131 @@ Year,Industries,Activités de protection de l'environnement,Value
 2019,Transport par pipeline,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",62.0
 2019,Transport par pipeline,Protection de la biodiversité et de l’habitat,68.0
 2019,Transport par pipeline,Lutte contre le bruit et les vibrations,38.0
+2020,"Total, industries",Gestion des eaux usées,61.6
+2020,"Total, industries",Gestion de la pollution atmosphérique,14.4
+2020,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",8.7
+2020,"Total, industries",Protection de la biodiversité et de l’habitat,3.7
+2020,"Total, industries",Lutte contre le bruit et les vibrations,4.9
+2020,Exploitation forestière (sauf à forfait),"Total, activités de protection de l'environnement",65.8
+2020,Exploitation forestière (sauf à forfait),Gestion des eaux usées,49.0
+2020,Exploitation forestière (sauf à forfait),Gestion de la pollution atmosphérique,4.1
+2020,Exploitation forestière (sauf à forfait),"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",11.9
+2020,Exploitation forestière (sauf à forfait),Protection de la biodiversité et de l’habitat,11.5
+2020,Exploitation forestière (sauf à forfait),Lutte contre le bruit et les vibrations,
+2020,Extraction de pétrole et de gaz,"Total, activités de protection de l'environnement",83.8
+2020,Extraction de pétrole et de gaz,Gestion des eaux usées,67.1
+2020,Extraction de pétrole et de gaz,Gestion de la pollution atmosphérique,61.1
+2020,Extraction de pétrole et de gaz,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",66.4
+2020,Extraction de pétrole et de gaz,Protection de la biodiversité et de l’habitat,39.5
+2020,Extraction de pétrole et de gaz,Lutte contre le bruit et les vibrations,17.9
+2020,Extraction minière et exploitation en carrière,"Total, activités de protection de l'environnement",96.7
+2020,Extraction minière et exploitation en carrière,Gestion des eaux usées,88.0
+2020,Extraction minière et exploitation en carrière,Gestion de la pollution atmosphérique,59.8
+2020,Extraction minière et exploitation en carrière,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",58.7
+2020,Extraction minière et exploitation en carrière,Protection de la biodiversité et de l’habitat,44.6
+2020,Extraction minière et exploitation en carrière,Lutte contre le bruit et les vibrations,16.3
+2020,"Production, transport et distribution d’électricité","Total, activités de protection de l'environnement",85.0
+2020,"Production, transport et distribution d’électricité",Gestion des eaux usées,69.7
+2020,"Production, transport et distribution d’électricité",Gestion de la pollution atmosphérique,33.9
+2020,"Production, transport et distribution d’électricité","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",29.9
+2020,"Production, transport et distribution d’électricité",Protection de la biodiversité et de l’habitat,28.2
+2020,"Production, transport et distribution d’électricité",Lutte contre le bruit et les vibrations,20.7
+2020,Distribution de gaz naturel,"Total, activités de protection de l'environnement",69.7
+2020,Distribution de gaz naturel,Gestion des eaux usées,60.6
+2020,Distribution de gaz naturel,Gestion de la pollution atmosphérique,48.5
+2020,Distribution de gaz naturel,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",45.5
+2020,Distribution de gaz naturel,Protection de la biodiversité et de l’habitat,36.4
+2020,Distribution de gaz naturel,Lutte contre le bruit et les vibrations,33.3
+2020,Fabrication d’aliments,"Total, activités de protection de l'environnement",96.1
+2020,Fabrication d’aliments,Gestion des eaux usées,80.8
+2020,Fabrication d’aliments,Gestion de la pollution atmosphérique,19.9
+2020,Fabrication d’aliments,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",5.3
+2020,Fabrication d’aliments,Protection de la biodiversité et de l’habitat,0.8
+2020,Fabrication d’aliments,Lutte contre le bruit et les vibrations,4.6
+2020,Fabrication de boissons et de produits du tabac,"Total, activités de protection de l'environnement",94.7
+2020,Fabrication de boissons et de produits du tabac,Gestion des eaux usées,75.7
+2020,Fabrication de boissons et de produits du tabac,Gestion de la pollution atmosphérique,6.1
+2020,Fabrication de boissons et de produits du tabac,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",5.8
+2020,Fabrication de boissons et de produits du tabac,Protection de la biodiversité et de l’habitat,5.1
+2020,Fabrication de boissons et de produits du tabac,Lutte contre le bruit et les vibrations,6.7
+2020,Fabrication de produits en bois,"Total, activités de protection de l'environnement",90.2
+2020,Fabrication de produits en bois,Gestion des eaux usées,65.8
+2020,Fabrication de produits en bois,Gestion de la pollution atmosphérique,18.1
+2020,Fabrication de produits en bois,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",18.9
+2020,Fabrication de produits en bois,Protection de la biodiversité et de l’habitat,6.4
+2020,Fabrication de produits en bois,Lutte contre le bruit et les vibrations,6.8
+2020,Fabrication du papier,"Total, activités de protection de l'environnement",97.0
+2020,Fabrication du papier,Gestion des eaux usées,82.0
+2020,Fabrication du papier,Gestion de la pollution atmosphérique,45.8
+2020,Fabrication du papier,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",33.4
+2020,Fabrication du papier,Protection de la biodiversité et de l’habitat,12.9
+2020,Fabrication du papier,Lutte contre le bruit et les vibrations,18.4
+2020,Fabrication de produits du pétrole et du charbon,"Total, activités de protection de l'environnement",92.3
+2020,Fabrication de produits du pétrole et du charbon,Gestion des eaux usées,80.8
+2020,Fabrication de produits du pétrole et du charbon,Gestion de la pollution atmosphérique,76.9
+2020,Fabrication de produits du pétrole et du charbon,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",69.2
+2020,Fabrication de produits du pétrole et du charbon,Protection de la biodiversité et de l’habitat,38.5
+2020,Fabrication de produits du pétrole et du charbon,Lutte contre le bruit et les vibrations,38.5
+2020,Fabrication de produits chimiques,"Total, activités de protection de l'environnement",94.6
+2020,Fabrication de produits chimiques,Gestion des eaux usées,78.9
+2020,Fabrication de produits chimiques,Gestion de la pollution atmosphérique,39.9
+2020,Fabrication de produits chimiques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",23.7
+2020,Fabrication de produits chimiques,Protection de la biodiversité et de l’habitat,4.7
+2020,Fabrication de produits chimiques,Lutte contre le bruit et les vibrations,12.9
+2020,Fabrication de produits minéraux non métalliques,"Total, activités de protection de l'environnement",93.1
+2020,Fabrication de produits minéraux non métalliques,Gestion des eaux usées,72.6
+2020,Fabrication de produits minéraux non métalliques,Gestion de la pollution atmosphérique,29.2
+2020,Fabrication de produits minéraux non métalliques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",11.0
+2020,Fabrication de produits minéraux non métalliques,Protection de la biodiversité et de l’habitat,2.5
+2020,Fabrication de produits minéraux non métalliques,Lutte contre le bruit et les vibrations,6.2
+2020,Première transformation des métaux,"Total, activités de protection de l'environnement",97.9
+2020,Première transformation des métaux,Gestion des eaux usées,88.0
+2020,Première transformation des métaux,Gestion de la pollution atmosphérique,68.3
+2020,Première transformation des métaux,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",46.9
+2020,Première transformation des métaux,Protection de la biodiversité et de l’habitat,14.1
+2020,Première transformation des métaux,Lutte contre le bruit et les vibrations,19.8
+2020,Fabrication de produits métalliques,"Total, activités de protection de l'environnement",87.7
+2020,Fabrication de produits métalliques,Gestion des eaux usées,61.9
+2020,Fabrication de produits métalliques,Gestion de la pollution atmosphérique,12.4
+2020,Fabrication de produits métalliques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",5.8
+2020,Fabrication de produits métalliques,Protection de la biodiversité et de l’habitat,0.5
+2020,Fabrication de produits métalliques,Lutte contre le bruit et les vibrations,5.7
+2020,,"Total, activités de protection de l'environnement",91.1
+2020,,Gestion des eaux usées,71.9
+2020,,Gestion de la pollution atmosphérique,25.6
+2020,,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",8.4
+2020,,Protection de la biodiversité et de l’habitat,3.9
+2020,,Lutte contre le bruit et les vibrations,10.0
+2020,Fabrication de produits en plastique et en caoutchouc,"Total, activités de protection de l'environnement",91.4
+2020,Fabrication de produits en plastique et en caoutchouc,Gestion des eaux usées,64.4
+2020,Fabrication de produits en plastique et en caoutchouc,Gestion de la pollution atmosphérique,13.4
+2020,Fabrication de produits en plastique et en caoutchouc,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",6.4
+2020,Fabrication de produits en plastique et en caoutchouc,Protection de la biodiversité et de l’habitat,1.0
+2020,Fabrication de produits en plastique et en caoutchouc,Lutte contre le bruit et les vibrations,5.8
+2020,Fabrication de machines,"Total, activités de protection de l'environnement",92.2
+2020,Fabrication de machines,Gestion des eaux usées,60.6
+2020,Fabrication de machines,Gestion de la pollution atmosphérique,12.7
+2020,Fabrication de machines,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",0.8
+2020,Fabrication de machines,Protection de la biodiversité et de l’habitat,0.3
+2020,Fabrication de machines,Lutte contre le bruit et les vibrations,2.7
+2020,Fabrication de meubles et de produits connexes,"Total, activités de protection de l'environnement",89.1
+2020,Fabrication de meubles et de produits connexes,Gestion des eaux usées,58.7
+2020,Fabrication de meubles et de produits connexes,Gestion de la pollution atmosphérique,5.2
+2020,Fabrication de meubles et de produits connexes,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",3.1
+2020,Fabrication de meubles et de produits connexes,Protection de la biodiversité et de l’habitat,0.0
+2020,Fabrication de meubles et de produits connexes,Lutte contre le bruit et les vibrations,
+2020,Autres industries de fabrication,"Total, activités de protection de l'environnement",77.5
+2020,Autres industries de fabrication,Gestion des eaux usées,49.0
+2020,Autres industries de fabrication,Gestion de la pollution atmosphérique,2.7
+2020,Autres industries de fabrication,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",0.8
+2020,Autres industries de fabrication,Protection de la biodiversité et de l’habitat,0.2
+2020,Autres industries de fabrication,Lutte contre le bruit et les vibrations,1.3
+2020,Transport par pipeline,"Total, activités de protection de l'environnement",93.0
+2020,Transport par pipeline,Gestion des eaux usées,77.2
+2020,Transport par pipeline,Gestion de la pollution atmosphérique,70.2
+2020,Transport par pipeline,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",73.7
+2020,Transport par pipeline,Protection de la biodiversité et de l’habitat,45.6
+2020,Transport par pipeline,Lutte contre le bruit et les vibrations,
 2018,"Total, industries",Redevances écologiques,0.9
 2018,Exploitation forestière (sauf à forfait),Redevances écologiques,
 2018,Extraction de pétrole et de gaz,Redevances écologiques,5.1
@@ -293,3 +419,24 @@ Year,Industries,Activités de protection de l'environnement,Value
 2019,Fabrication de meubles et de produits connexes,Redevances écologiques,0.0
 2019,Autres industries de fabrication,Redevances écologiques,
 2019,Transport par pipeline,Redevances écologiques,10.0
+2020,"Total, industries",Redevances écologiques,0.7
+2020,Exploitation forestière (sauf à forfait),Redevances écologiques,0.4
+2020,Extraction de pétrole et de gaz,Redevances écologiques,7.3
+2020,Extraction minière et exploitation en carrière,Redevances écologiques,
+2020,"Production, transport et distribution d’électricité",Redevances écologiques,2.5
+2020,Distribution de gaz naturel,Redevances écologiques,
+2020,Fabrication d’aliments,Redevances écologiques,0.9
+2020,Fabrication de boissons et de produits du tabac,Redevances écologiques,1.7
+2020,Fabrication de produits en bois,Redevances écologiques,1.6
+2020,Fabrication du papier,Redevances écologiques,4.4
+2020,Fabrication de produits du pétrole et du charbon,Redevances écologiques,
+2020,Fabrication de produits chimiques,Redevances écologiques,
+2020,Fabrication de produits minéraux non métalliques,Redevances écologiques,0.9
+2020,Première transformation des métaux,Redevances écologiques,9.4
+2020,Fabrication de produits métalliques,Redevances écologiques,0.0
+2020,,Redevances écologiques,0.0
+2020,Fabrication de produits en plastique et en caoutchouc,Redevances écologiques,
+2020,Fabrication de machines,Redevances écologiques,0.0
+2020,Fabrication de meubles et de produits connexes,Redevances écologiques,0.0
+2020,Autres industries de fabrication,Redevances écologiques,0.5
+2020,Transport par pipeline,Redevances écologiques,0.0
