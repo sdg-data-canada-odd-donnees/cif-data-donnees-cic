@@ -1,295 +1,442 @@
-Year,data.Industries,data.Environmental protection activities or management practices,Value
-2018,,,90.3
-2019,,,86.6
-2018,"data.Total, industries",data.Wastewater management,64.5
-2018,"data.Total, industries",data.Air pollution management,20.1
-2018,"data.Total, industries","data.Protection and remediation of soil, groundwater and surface water",10.2
-2018,"data.Total, industries",data.Protection of biodiversity and habitat,5.2
-2018,"data.Total, industries",data.Noise and vibration abatement,7.9
-2018,data.Logging (except contract),"data.Total, environmental protection activities",72.9
-2018,data.Logging (except contract),data.Wastewater management,58.9
-2018,data.Logging (except contract),data.Air pollution management,6.6
-2018,data.Logging (except contract),"data.Protection and remediation of soil, groundwater and surface water",19.1
-2018,data.Logging (except contract),data.Protection of biodiversity and habitat,11.6
-2018,data.Logging (except contract),data.Noise and vibration abatement,7.4
-2018,data.Oil and gas extraction,"data.Total, environmental protection activities",87.3
-2018,data.Oil and gas extraction,data.Wastewater management,78.1
-2018,data.Oil and gas extraction,data.Air pollution management,59.5
-2018,data.Oil and gas extraction,"data.Protection and remediation of soil, groundwater and surface water",62
-2018,data.Oil and gas extraction,data.Protection of biodiversity and habitat,30.4
-2018,data.Oil and gas extraction,data.Noise and vibration abatement,22.5
-2018,data.Mining and quarrying,"data.Total, environmental protection activities",97.8
-2018,data.Mining and quarrying,data.Wastewater management,90
-2018,data.Mining and quarrying,data.Air pollution management,63.3
-2018,data.Mining and quarrying,"data.Protection and remediation of soil, groundwater and surface water",67.8
-2018,data.Mining and quarrying,data.Protection of biodiversity and habitat,55.6
-2018,data.Mining and quarrying,data.Noise and vibration abatement,26.7
-2018,"data.Electric power generation, transmission and distribution","data.Total, environmental protection activities",88.5
-2018,"data.Electric power generation, transmission and distribution",data.Wastewater management,68.5
-2018,"data.Electric power generation, transmission and distribution",data.Air pollution management,35.9
-2018,"data.Electric power generation, transmission and distribution","data.Protection and remediation of soil, groundwater and surface water",36.1
-2018,"data.Electric power generation, transmission and distribution",data.Protection of biodiversity and habitat,27.2
-2018,"data.Electric power generation, transmission and distribution",data.Noise and vibration abatement,17.6
-2018,data.Natural gas distribution,"data.Total, environmental protection activities",66.6
-2018,data.Natural gas distribution,data.Wastewater management,50.2
-2018,data.Natural gas distribution,data.Air pollution management,45.4
-2018,data.Natural gas distribution,"data.Protection and remediation of soil, groundwater and surface water",40.6
-2018,data.Natural gas distribution,data.Protection of biodiversity and habitat,43
-2018,data.Natural gas distribution,data.Noise and vibration abatement,38.2
-2018,data.Food manufacturing,"data.Total, environmental protection activities",94.7
-2018,data.Food manufacturing,data.Wastewater management,84.2
-2018,data.Food manufacturing,data.Air pollution management,15.2
-2018,data.Food manufacturing,"data.Protection and remediation of soil, groundwater and surface water",11.3
-2018,data.Food manufacturing,data.Protection of biodiversity and habitat,6.5
-2018,data.Food manufacturing,data.Noise and vibration abatement,15
-2018,data.Beverage and tobacco product manufacturing,"data.Total, environmental protection activities",98.3
-2018,data.Beverage and tobacco product manufacturing,data.Wastewater management,92.6
-2018,data.Beverage and tobacco product manufacturing,data.Air pollution management,14.7
-2018,data.Beverage and tobacco product manufacturing,"data.Protection and remediation of soil, groundwater and surface water",8.8
-2018,data.Beverage and tobacco product manufacturing,data.Protection of biodiversity and habitat,8.7
-2018,data.Beverage and tobacco product manufacturing,data.Noise and vibration abatement,5.7
-2018,data.Wood product manufacturing,"data.Total, environmental protection activities",89.9
-2018,data.Wood product manufacturing,data.Wastewater management,63.9
-2018,data.Wood product manufacturing,data.Air pollution management,30.4
-2018,data.Wood product manufacturing,"data.Protection and remediation of soil, groundwater and surface water",14.4
-2018,data.Wood product manufacturing,data.Protection of biodiversity and habitat,2.3
-2018,data.Wood product manufacturing,data.Noise and vibration abatement,7.4
-2018,data.Paper manufacturing,"data.Total, environmental protection activities",97.7
-2018,data.Paper manufacturing,data.Wastewater management,85.1
-2018,data.Paper manufacturing,data.Air pollution management,53
-2018,data.Paper manufacturing,"data.Protection and remediation of soil, groundwater and surface water",35.9
-2018,data.Paper manufacturing,data.Protection of biodiversity and habitat,18.4
-2018,data.Paper manufacturing,data.Noise and vibration abatement,16.3
-2018,data.Petroleum and coal product manufacturing,"data.Total, environmental protection activities",100
-2018,data.Petroleum and coal product manufacturing,data.Wastewater management,92.9
-2018,data.Petroleum and coal product manufacturing,data.Air pollution management,92.9
-2018,data.Petroleum and coal product manufacturing,"data.Protection and remediation of soil, groundwater and surface water",75
-2018,data.Petroleum and coal product manufacturing,data.Protection of biodiversity and habitat,42.9
-2018,data.Petroleum and coal product manufacturing,data.Noise and vibration abatement,57.2
-2018,data.Chemical manufacturing,"data.Total, environmental protection activities",95.6
-2018,data.Chemical manufacturing,data.Wastewater management,78.5
-2018,data.Chemical manufacturing,data.Air pollution management,42.7
-2018,data.Chemical manufacturing,"data.Protection and remediation of soil, groundwater and surface water",24.9
-2018,data.Chemical manufacturing,data.Protection of biodiversity and habitat,3.5
-2018,data.Chemical manufacturing,data.Noise and vibration abatement,6.8
-2018,data.Non-metallic mineral product manufacturing,"data.Total, environmental protection activities",86.3
-2018,data.Non-metallic mineral product manufacturing,data.Wastewater management,68.7
-2018,data.Non-metallic mineral product manufacturing,data.Air pollution management,41.5
-2018,data.Non-metallic mineral product manufacturing,"data.Protection and remediation of soil, groundwater and surface water",16
-2018,data.Non-metallic mineral product manufacturing,data.Protection of biodiversity and habitat,5.5
-2018,data.Non-metallic mineral product manufacturing,data.Noise and vibration abatement,13.4
-2018,data.Primary metal manufacturing,"data.Total, environmental protection activities",95.7
-2018,data.Primary metal manufacturing,data.Wastewater management,83.9
-2018,data.Primary metal manufacturing,data.Air pollution management,69.9
-2018,data.Primary metal manufacturing,"data.Protection and remediation of soil, groundwater and surface water",49.6
-2018,data.Primary metal manufacturing,data.Protection of biodiversity and habitat,16.6
-2018,data.Primary metal manufacturing,data.Noise and vibration abatement,26.5
-2018,data.Fabricated metal product manufacturing,"data.Total, environmental protection activities",93.7
-2018,data.Fabricated metal product manufacturing,data.Wastewater management,60.7
-2018,data.Fabricated metal product manufacturing,data.Air pollution management,13
-2018,data.Fabricated metal product manufacturing,"data.Protection and remediation of soil, groundwater and surface water",1.5
-2018,data.Fabricated metal product manufacturing,data.Protection of biodiversity and habitat,0.2
-2018,data.Fabricated metal product manufacturing,data.Noise and vibration abatement,2.2
-2018,data.Transportation equipment manufacturing,"data.Total, environmental protection activities",93.5
-2018,data.Transportation equipment manufacturing,data.Wastewater management,70.9
-2018,data.Transportation equipment manufacturing,data.Air pollution management,28.1
-2018,data.Transportation equipment manufacturing,"data.Protection and remediation of soil, groundwater and surface water",12.1
-2018,data.Transportation equipment manufacturing,data.Protection of biodiversity and habitat,5.6
-2018,data.Transportation equipment manufacturing,data.Noise and vibration abatement,11.8
-2018,data.Plastics and rubber products manufacturing,"data.Total, environmental protection activities",93.4
-2018,data.Plastics and rubber products manufacturing,data.Wastewater management,62.9
-2018,data.Plastics and rubber products manufacturing,data.Air pollution management,16.4
-2018,data.Plastics and rubber products manufacturing,"data.Protection and remediation of soil, groundwater and surface water",4
-2018,data.Plastics and rubber products manufacturing,data.Protection of biodiversity and habitat,0
-2018,data.Plastics and rubber products manufacturing,data.Noise and vibration abatement,4.7
-2018,data.Machinery manufacturing,"data.Total, environmental protection activities",93.3
-2018,data.Machinery manufacturing,data.Wastewater management,62.4
-2018,data.Machinery manufacturing,data.Air pollution management,17.6
-2018,data.Machinery manufacturing,"data.Protection and remediation of soil, groundwater and surface water",10.3
-2018,data.Machinery manufacturing,data.Protection of biodiversity and habitat,3.1
-2018,data.Machinery manufacturing,data.Noise and vibration abatement,5.9
-2018,data.Furniture and related product manufacturing,"data.Total, environmental protection activities",93.5
-2018,data.Furniture and related product manufacturing,data.Wastewater management,61.1
-2018,data.Furniture and related product manufacturing,data.Air pollution management,18.9
-2018,data.Furniture and related product manufacturing,"data.Protection and remediation of soil, groundwater and surface water",6
-2018,data.Furniture and related product manufacturing,data.Protection of biodiversity and habitat,5.6
-2018,data.Furniture and related product manufacturing,data.Noise and vibration abatement,13.2
-2018,data.Other manufacturing industries,"data.Total, environmental protection activities",87
-2018,data.Other manufacturing industries,data.Wastewater management,57.6
-2018,data.Other manufacturing industries,data.Air pollution management,10.9
-2018,data.Other manufacturing industries,"data.Protection and remediation of soil, groundwater and surface water",1.6
-2018,data.Other manufacturing industries,data.Protection of biodiversity and habitat,2.3
-2018,data.Other manufacturing industries,data.Noise and vibration abatement,4.2
-2018,data.Pipeline transportation,"data.Total, environmental protection activities",86.9
-2018,data.Pipeline transportation,data.Wastewater management,65.6
-2018,data.Pipeline transportation,data.Air pollution management,59
-2018,data.Pipeline transportation,"data.Protection and remediation of soil, groundwater and surface water",75.4
-2018,data.Pipeline transportation,data.Protection of biodiversity and habitat,67.2
-2018,data.Pipeline transportation,data.Noise and vibration abatement,50.8
-2019,"data.Total, industries",data.Wastewater management,60.7
-2019,"data.Total, industries",data.Air pollution management,16.4
-2019,"data.Total, industries","data.Protection and remediation of soil, groundwater and surface water",7.9
-2019,"data.Total, industries",data.Protection of biodiversity and habitat,5.8
-2019,"data.Total, industries",data.Noise and vibration abatement,6.4
-2019,data.Logging (except contract),"data.Total, environmental protection activities",68.3
-2019,data.Logging (except contract),data.Wastewater management,54.8
-2019,data.Logging (except contract),data.Air pollution management,0.4
-2019,data.Logging (except contract),"data.Protection and remediation of soil, groundwater and surface water",8.3
-2019,data.Logging (except contract),data.Protection of biodiversity and habitat,35.4
-2019,data.Logging (except contract),data.Noise and vibration abatement,27.8
-2019,data.Oil and gas extraction,"data.Total, environmental protection activities",79.2
-2019,data.Oil and gas extraction,data.Wastewater management,69.4
-2019,data.Oil and gas extraction,data.Air pollution management,47.7
-2019,data.Oil and gas extraction,"data.Protection and remediation of soil, groundwater and surface water",56.2
-2019,data.Oil and gas extraction,data.Protection of biodiversity and habitat,30.3
-2019,data.Oil and gas extraction,data.Noise and vibration abatement,19.1
-2019,data.Mining and quarrying,"data.Total, environmental protection activities",99
-2019,data.Mining and quarrying,data.Wastewater management,89.8
-2019,data.Mining and quarrying,data.Air pollution management,63.3
-2019,data.Mining and quarrying,"data.Protection and remediation of soil, groundwater and surface water",72.4
-2019,data.Mining and quarrying,data.Protection of biodiversity and habitat,58.2
-2019,data.Mining and quarrying,data.Noise and vibration abatement,22.4
-2019,"data.Electric power generation, transmission and distribution","data.Total, environmental protection activities",84.9
-2019,"data.Electric power generation, transmission and distribution",data.Wastewater management,57.5
-2019,"data.Electric power generation, transmission and distribution",data.Air pollution management,25.7
-2019,"data.Electric power generation, transmission and distribution","data.Protection and remediation of soil, groundwater and surface water",32.7
-2019,"data.Electric power generation, transmission and distribution",data.Protection of biodiversity and habitat,40.4
-2019,"data.Electric power generation, transmission and distribution",data.Noise and vibration abatement,19.8
-2019,data.Natural gas distribution,"data.Total, environmental protection activities",67.6
-2019,data.Natural gas distribution,data.Wastewater management,55.9
-2019,data.Natural gas distribution,data.Air pollution management,55.9
-2019,data.Natural gas distribution,"data.Protection and remediation of soil, groundwater and surface water",47.1
-2019,data.Natural gas distribution,data.Protection of biodiversity and habitat,41.2
-2019,data.Natural gas distribution,data.Noise and vibration abatement,38.2
-2019,data.Food manufacturing,"data.Total, environmental protection activities",96.4
-2019,data.Food manufacturing,data.Wastewater management,82.8
-2019,data.Food manufacturing,data.Air pollution management,13
-2019,data.Food manufacturing,"data.Protection and remediation of soil, groundwater and surface water",7
-2019,data.Food manufacturing,data.Protection of biodiversity and habitat,10.7
-2019,data.Food manufacturing,data.Noise and vibration abatement,13.6
-2019,data.Beverage and tobacco product manufacturing,"data.Total, environmental protection activities",92.4
-2019,data.Beverage and tobacco product manufacturing,data.Wastewater management,78
-2019,data.Beverage and tobacco product manufacturing,data.Air pollution management,8.9
-2019,data.Beverage and tobacco product manufacturing,"data.Protection and remediation of soil, groundwater and surface water",2.4
-2019,data.Beverage and tobacco product manufacturing,data.Protection of biodiversity and habitat,2.3
-2019,data.Beverage and tobacco product manufacturing,data.Noise and vibration abatement,2.4
-2019,data.Wood product manufacturing,"data.Total, environmental protection activities",91.6
-2019,data.Wood product manufacturing,data.Wastewater management,61.5
-2019,data.Wood product manufacturing,data.Air pollution management,22
-2019,data.Wood product manufacturing,"data.Protection and remediation of soil, groundwater and surface water",20.2
-2019,data.Wood product manufacturing,data.Protection of biodiversity and habitat,5.1
-2019,data.Wood product manufacturing,data.Noise and vibration abatement,2.2
-2019,data.Paper manufacturing,"data.Total, environmental protection activities",97.4
-2019,data.Paper manufacturing,data.Wastewater management,87.1
-2019,data.Paper manufacturing,data.Air pollution management,38.2
-2019,data.Paper manufacturing,"data.Protection and remediation of soil, groundwater and surface water",37.7
-2019,data.Paper manufacturing,data.Protection of biodiversity and habitat,13
-2019,data.Paper manufacturing,data.Noise and vibration abatement,12.2
-2019,data.Petroleum and coal product manufacturing,"data.Total, environmental protection activities",100
-2019,data.Petroleum and coal product manufacturing,data.Wastewater management,93.3
-2019,data.Petroleum and coal product manufacturing,data.Air pollution management,76.7
-2019,data.Petroleum and coal product manufacturing,"data.Protection and remediation of soil, groundwater and surface water",70
-2019,data.Petroleum and coal product manufacturing,data.Protection of biodiversity and habitat,40
-2019,data.Petroleum and coal product manufacturing,data.Noise and vibration abatement,43.3
-2019,data.Chemical manufacturing,"data.Total, environmental protection activities",96.9
-2019,data.Chemical manufacturing,data.Wastewater management,76
-2019,data.Chemical manufacturing,data.Air pollution management,46.7
-2019,data.Chemical manufacturing,"data.Protection and remediation of soil, groundwater and surface water",21.8
-2019,data.Chemical manufacturing,data.Protection of biodiversity and habitat,11.3
-2019,data.Chemical manufacturing,data.Noise and vibration abatement,9.8
-2019,data.Non-metallic mineral product manufacturing,"data.Total, environmental protection activities",86.5
-2019,data.Non-metallic mineral product manufacturing,data.Wastewater management,65.9
-2019,data.Non-metallic mineral product manufacturing,data.Air pollution management,43
-2019,data.Non-metallic mineral product manufacturing,"data.Protection and remediation of soil, groundwater and surface water",13.2
-2019,data.Non-metallic mineral product manufacturing,data.Protection of biodiversity and habitat,6
-2019,data.Non-metallic mineral product manufacturing,data.Noise and vibration abatement,9.1
-2019,data.Primary metal manufacturing,"data.Total, environmental protection activities",96.4
-2019,data.Primary metal manufacturing,data.Wastewater management,88.6
-2019,data.Primary metal manufacturing,data.Air pollution management,66.3
-2019,data.Primary metal manufacturing,"data.Protection and remediation of soil, groundwater and surface water",45.6
-2019,data.Primary metal manufacturing,data.Protection of biodiversity and habitat,14.6
-2019,data.Primary metal manufacturing,data.Noise and vibration abatement,23.8
-2019,data.Fabricated metal product manufacturing,"data.Total, environmental protection activities",84.3
-2019,data.Fabricated metal product manufacturing,data.Wastewater management,56.9
-2019,data.Fabricated metal product manufacturing,data.Air pollution management,12.8
-2019,data.Fabricated metal product manufacturing,"data.Protection and remediation of soil, groundwater and surface water",0.6
-2019,data.Fabricated metal product manufacturing,data.Protection of biodiversity and habitat,0.2
-2019,data.Fabricated metal product manufacturing,data.Noise and vibration abatement,0.9
-2019,data.Transportation equipment manufacturing,"data.Total, environmental protection activities",92.4
-2019,data.Transportation equipment manufacturing,data.Wastewater management,66.4
-2019,data.Transportation equipment manufacturing,data.Air pollution management,23.5
-2019,data.Transportation equipment manufacturing,"data.Protection and remediation of soil, groundwater and surface water",14
-2019,data.Transportation equipment manufacturing,data.Protection of biodiversity and habitat,4.4
-2019,data.Transportation equipment manufacturing,data.Noise and vibration abatement,8.8
-2019,data.Plastics and rubber products manufacturing,"data.Total, environmental protection activities",97.7
-2019,data.Plastics and rubber products manufacturing,data.Wastewater management,67.9
-2019,data.Plastics and rubber products manufacturing,data.Air pollution management,15
-2019,data.Plastics and rubber products manufacturing,"data.Protection and remediation of soil, groundwater and surface water",4.4
-2019,data.Plastics and rubber products manufacturing,data.Protection of biodiversity and habitat,
-2019,data.Plastics and rubber products manufacturing,data.Noise and vibration abatement,5.5
-2019,data.Machinery manufacturing,"data.Total, environmental protection activities",88.3
-2019,data.Machinery manufacturing,data.Wastewater management,58.9
-2019,data.Machinery manufacturing,data.Air pollution management,16.1
-2019,data.Machinery manufacturing,"data.Protection and remediation of soil, groundwater and surface water",3.5
-2019,data.Machinery manufacturing,data.Protection of biodiversity and habitat,0.9
-2019,data.Machinery manufacturing,data.Noise and vibration abatement,7.3
-2019,data.Furniture and related product manufacturing,"data.Total, environmental protection activities",90.8
-2019,data.Furniture and related product manufacturing,data.Wastewater management,55.8
-2019,data.Furniture and related product manufacturing,data.Air pollution management,10
-2019,data.Furniture and related product manufacturing,"data.Protection and remediation of soil, groundwater and surface water",
-2019,data.Furniture and related product manufacturing,data.Protection of biodiversity and habitat,0
-2019,data.Furniture and related product manufacturing,data.Noise and vibration abatement,5.7
-2019,data.Other manufacturing industries,"data.Total, environmental protection activities",81.4
-2019,data.Other manufacturing industries,data.Wastewater management,52
-2019,data.Other manufacturing industries,data.Air pollution management,7.1
-2019,data.Other manufacturing industries,"data.Protection and remediation of soil, groundwater and surface water",1.1
-2019,data.Other manufacturing industries,data.Protection of biodiversity and habitat,
-2019,data.Other manufacturing industries,data.Noise and vibration abatement,0.8
-2019,data.Pipeline transportation,"data.Total, environmental protection activities",96
-2019,data.Pipeline transportation,data.Wastewater management,72
-2019,data.Pipeline transportation,data.Air pollution management,60
-2019,data.Pipeline transportation,"data.Protection and remediation of soil, groundwater and surface water",62
-2019,data.Pipeline transportation,data.Protection of biodiversity and habitat,68
-2019,data.Pipeline transportation,data.Noise and vibration abatement,38
-2018,"data.Total, industries",data.Sold carbon offset credits only or sold more than purchased,0.9
-2018,data.Logging (except contract),data.Sold carbon offset credits only or sold more than purchased,
-2018,data.Oil and gas extraction,data.Sold carbon offset credits only or sold more than purchased,5.1
-2018,data.Mining and quarrying,data.Sold carbon offset credits only or sold more than purchased,0
-2018,"data.Electric power generation, transmission and distribution",data.Sold carbon offset credits only or sold more than purchased,7.9
-2018,data.Natural gas distribution,data.Sold carbon offset credits only or sold more than purchased,7.2
-2018,data.Food manufacturing,data.Sold carbon offset credits only or sold more than purchased,0.3
-2018,data.Beverage and tobacco product manufacturing,data.Sold carbon offset credits only or sold more than purchased,0
-2018,data.Wood product manufacturing,data.Sold carbon offset credits only or sold more than purchased,4.6
-2018,data.Paper manufacturing,data.Sold carbon offset credits only or sold more than purchased,2.6
-2018,data.Petroleum and coal product manufacturing,data.Sold carbon offset credits only or sold more than purchased,14.4
-2018,data.Chemical manufacturing,data.Sold carbon offset credits only or sold more than purchased,
-2018,data.Non-metallic mineral product manufacturing,data.Sold carbon offset credits only or sold more than purchased,
-2018,data.Primary metal manufacturing,data.Sold carbon offset credits only or sold more than purchased,7.2
-2018,data.Fabricated metal product manufacturing,data.Sold carbon offset credits only or sold more than purchased,0
-2018,data.Transportation equipment manufacturing,data.Sold carbon offset credits only or sold more than purchased,0
-2018,data.Plastics and rubber products manufacturing,data.Sold carbon offset credits only or sold more than purchased,
-2018,data.Machinery manufacturing,data.Sold carbon offset credits only or sold more than purchased,0
-2018,data.Furniture and related product manufacturing,data.Sold carbon offset credits only or sold more than purchased,
-2018,data.Other manufacturing industries,data.Sold carbon offset credits only or sold more than purchased,0.6
-2018,data.Pipeline transportation,data.Sold carbon offset credits only or sold more than purchased,
-2019,"data.Total, industries",data.Sold carbon offset credits only or sold more than purchased,0.6
-2019,data.Logging (except contract),data.Sold carbon offset credits only or sold more than purchased,0
-2019,data.Oil and gas extraction,data.Sold carbon offset credits only or sold more than purchased,10
-2019,data.Mining and quarrying,data.Sold carbon offset credits only or sold more than purchased,
-2019,"data.Electric power generation, transmission and distribution",data.Sold carbon offset credits only or sold more than purchased,4.7
-2019,data.Natural gas distribution,data.Sold carbon offset credits only or sold more than purchased,0
-2019,data.Food manufacturing,data.Sold carbon offset credits only or sold more than purchased,
-2019,data.Beverage and tobacco product manufacturing,data.Sold carbon offset credits only or sold more than purchased,0
-2019,data.Wood product manufacturing,data.Sold carbon offset credits only or sold more than purchased,1
-2019,data.Paper manufacturing,data.Sold carbon offset credits only or sold more than purchased,2.7
-2019,data.Petroleum and coal product manufacturing,data.Sold carbon offset credits only or sold more than purchased,0
-2019,data.Chemical manufacturing,data.Sold carbon offset credits only or sold more than purchased,
-2019,data.Non-metallic mineral product manufacturing,data.Sold carbon offset credits only or sold more than purchased,
-2019,data.Primary metal manufacturing,data.Sold carbon offset credits only or sold more than purchased,10
-2019,data.Fabricated metal product manufacturing,data.Sold carbon offset credits only or sold more than purchased,0
-2019,data.Transportation equipment manufacturing,data.Sold carbon offset credits only or sold more than purchased,
-2019,data.Plastics and rubber products manufacturing,data.Sold carbon offset credits only or sold more than purchased,
-2019,data.Machinery manufacturing,data.Sold carbon offset credits only or sold more than purchased,1
-2019,data.Furniture and related product manufacturing,data.Sold carbon offset credits only or sold more than purchased,0
-2019,data.Other manufacturing industries,data.Sold carbon offset credits only or sold more than purchased,
-2019,data.Pipeline transportation,data.Sold carbon offset credits only or sold more than purchased,10
+"Year","data.Industries","data.Environmental protection activities or management practices","Value"
+"2018","","",90.3
+"2019","","",86.6
+"2020","","",86.3
+"2018","data.Total, industries","data.Wastewater management",64.5
+"2018","data.Total, industries","data.Air pollution management",20.1
+"2018","data.Total, industries","data.Protection and remediation of soil, groundwater and surface water",10.2
+"2018","data.Total, industries","data.Protection of biodiversity and habitat",5.2
+"2018","data.Total, industries","data.Noise and vibration abatement",7.9
+"2018","data.Logging (except contract)","data.Total, environmental protection activities",72.9
+"2018","data.Logging (except contract)","data.Wastewater management",58.9
+"2018","data.Logging (except contract)","data.Air pollution management",6.6
+"2018","data.Logging (except contract)","data.Protection and remediation of soil, groundwater and surface water",19.1
+"2018","data.Logging (except contract)","data.Protection of biodiversity and habitat",11.6
+"2018","data.Logging (except contract)","data.Noise and vibration abatement",7.4
+"2018","data.Oil and gas extraction","data.Total, environmental protection activities",87.3
+"2018","data.Oil and gas extraction","data.Wastewater management",78.1
+"2018","data.Oil and gas extraction","data.Air pollution management",59.5
+"2018","data.Oil and gas extraction","data.Protection and remediation of soil, groundwater and surface water",62
+"2018","data.Oil and gas extraction","data.Protection of biodiversity and habitat",30.4
+"2018","data.Oil and gas extraction","data.Noise and vibration abatement",22.5
+"2018","data.Mining and quarrying","data.Total, environmental protection activities",97.8
+"2018","data.Mining and quarrying","data.Wastewater management",90
+"2018","data.Mining and quarrying","data.Air pollution management",63.3
+"2018","data.Mining and quarrying","data.Protection and remediation of soil, groundwater and surface water",67.8
+"2018","data.Mining and quarrying","data.Protection of biodiversity and habitat",55.6
+"2018","data.Mining and quarrying","data.Noise and vibration abatement",26.7
+"2018","data.Electric power generation, transmission and distribution","data.Total, environmental protection activities",88.5
+"2018","data.Electric power generation, transmission and distribution","data.Wastewater management",68.5
+"2018","data.Electric power generation, transmission and distribution","data.Air pollution management",35.9
+"2018","data.Electric power generation, transmission and distribution","data.Protection and remediation of soil, groundwater and surface water",36.1
+"2018","data.Electric power generation, transmission and distribution","data.Protection of biodiversity and habitat",27.2
+"2018","data.Electric power generation, transmission and distribution","data.Noise and vibration abatement",17.6
+"2018","data.Natural gas distribution","data.Total, environmental protection activities",66.6
+"2018","data.Natural gas distribution","data.Wastewater management",50.2
+"2018","data.Natural gas distribution","data.Air pollution management",45.4
+"2018","data.Natural gas distribution","data.Protection and remediation of soil, groundwater and surface water",40.6
+"2018","data.Natural gas distribution","data.Protection of biodiversity and habitat",43
+"2018","data.Natural gas distribution","data.Noise and vibration abatement",38.2
+"2018","data.Food manufacturing","data.Total, environmental protection activities",94.7
+"2018","data.Food manufacturing","data.Wastewater management",84.2
+"2018","data.Food manufacturing","data.Air pollution management",15.2
+"2018","data.Food manufacturing","data.Protection and remediation of soil, groundwater and surface water",11.3
+"2018","data.Food manufacturing","data.Protection of biodiversity and habitat",6.5
+"2018","data.Food manufacturing","data.Noise and vibration abatement",15
+"2018","data.Beverage and tobacco product manufacturing","data.Total, environmental protection activities",98.3
+"2018","data.Beverage and tobacco product manufacturing","data.Wastewater management",92.6
+"2018","data.Beverage and tobacco product manufacturing","data.Air pollution management",14.7
+"2018","data.Beverage and tobacco product manufacturing","data.Protection and remediation of soil, groundwater and surface water",8.8
+"2018","data.Beverage and tobacco product manufacturing","data.Protection of biodiversity and habitat",8.7
+"2018","data.Beverage and tobacco product manufacturing","data.Noise and vibration abatement",5.7
+"2018","data.Wood product manufacturing","data.Total, environmental protection activities",89.9
+"2018","data.Wood product manufacturing","data.Wastewater management",63.9
+"2018","data.Wood product manufacturing","data.Air pollution management",30.4
+"2018","data.Wood product manufacturing","data.Protection and remediation of soil, groundwater and surface water",14.4
+"2018","data.Wood product manufacturing","data.Protection of biodiversity and habitat",2.3
+"2018","data.Wood product manufacturing","data.Noise and vibration abatement",7.4
+"2018","data.Paper manufacturing","data.Total, environmental protection activities",97.7
+"2018","data.Paper manufacturing","data.Wastewater management",85.1
+"2018","data.Paper manufacturing","data.Air pollution management",53
+"2018","data.Paper manufacturing","data.Protection and remediation of soil, groundwater and surface water",35.9
+"2018","data.Paper manufacturing","data.Protection of biodiversity and habitat",18.4
+"2018","data.Paper manufacturing","data.Noise and vibration abatement",16.3
+"2018","data.Petroleum and coal product manufacturing","data.Total, environmental protection activities",100
+"2018","data.Petroleum and coal product manufacturing","data.Wastewater management",92.9
+"2018","data.Petroleum and coal product manufacturing","data.Air pollution management",92.9
+"2018","data.Petroleum and coal product manufacturing","data.Protection and remediation of soil, groundwater and surface water",75
+"2018","data.Petroleum and coal product manufacturing","data.Protection of biodiversity and habitat",42.9
+"2018","data.Petroleum and coal product manufacturing","data.Noise and vibration abatement",57.2
+"2018","data.Chemical manufacturing","data.Total, environmental protection activities",95.6
+"2018","data.Chemical manufacturing","data.Wastewater management",78.5
+"2018","data.Chemical manufacturing","data.Air pollution management",42.7
+"2018","data.Chemical manufacturing","data.Protection and remediation of soil, groundwater and surface water",24.9
+"2018","data.Chemical manufacturing","data.Protection of biodiversity and habitat",3.5
+"2018","data.Chemical manufacturing","data.Noise and vibration abatement",6.8
+"2018","data.Non-metallic mineral product manufacturing","data.Total, environmental protection activities",86.3
+"2018","data.Non-metallic mineral product manufacturing","data.Wastewater management",68.7
+"2018","data.Non-metallic mineral product manufacturing","data.Air pollution management",41.5
+"2018","data.Non-metallic mineral product manufacturing","data.Protection and remediation of soil, groundwater and surface water",16
+"2018","data.Non-metallic mineral product manufacturing","data.Protection of biodiversity and habitat",5.5
+"2018","data.Non-metallic mineral product manufacturing","data.Noise and vibration abatement",13.4
+"2018","data.Primary metal manufacturing","data.Total, environmental protection activities",95.7
+"2018","data.Primary metal manufacturing","data.Wastewater management",83.9
+"2018","data.Primary metal manufacturing","data.Air pollution management",69.9
+"2018","data.Primary metal manufacturing","data.Protection and remediation of soil, groundwater and surface water",49.6
+"2018","data.Primary metal manufacturing","data.Protection of biodiversity and habitat",16.6
+"2018","data.Primary metal manufacturing","data.Noise and vibration abatement",26.5
+"2018","data.Fabricated metal product manufacturing","data.Total, environmental protection activities",93.7
+"2018","data.Fabricated metal product manufacturing","data.Wastewater management",60.7
+"2018","data.Fabricated metal product manufacturing","data.Air pollution management",13
+"2018","data.Fabricated metal product manufacturing","data.Protection and remediation of soil, groundwater and surface water",1.5
+"2018","data.Fabricated metal product manufacturing","data.Protection of biodiversity and habitat",0.2
+"2018","data.Fabricated metal product manufacturing","data.Noise and vibration abatement",2.2
+"2018","data.Transportation equipment manufacturing","data.Total, environmental protection activities",93.5
+"2018","data.Transportation equipment manufacturing","data.Wastewater management",70.9
+"2018","data.Transportation equipment manufacturing","data.Air pollution management",28.1
+"2018","data.Transportation equipment manufacturing","data.Protection and remediation of soil, groundwater and surface water",12.1
+"2018","data.Transportation equipment manufacturing","data.Protection of biodiversity and habitat",5.6
+"2018","data.Transportation equipment manufacturing","data.Noise and vibration abatement",11.8
+"2018","data.Plastics and rubber products manufacturing","data.Total, environmental protection activities",93.4
+"2018","data.Plastics and rubber products manufacturing","data.Wastewater management",62.9
+"2018","data.Plastics and rubber products manufacturing","data.Air pollution management",16.4
+"2018","data.Plastics and rubber products manufacturing","data.Protection and remediation of soil, groundwater and surface water",4
+"2018","data.Plastics and rubber products manufacturing","data.Protection of biodiversity and habitat",0
+"2018","data.Plastics and rubber products manufacturing","data.Noise and vibration abatement",4.7
+"2018","data.Machinery manufacturing","data.Total, environmental protection activities",93.3
+"2018","data.Machinery manufacturing","data.Wastewater management",62.4
+"2018","data.Machinery manufacturing","data.Air pollution management",17.6
+"2018","data.Machinery manufacturing","data.Protection and remediation of soil, groundwater and surface water",10.3
+"2018","data.Machinery manufacturing","data.Protection of biodiversity and habitat",3.1
+"2018","data.Machinery manufacturing","data.Noise and vibration abatement",5.9
+"2018","data.Furniture and related product manufacturing","data.Total, environmental protection activities",93.5
+"2018","data.Furniture and related product manufacturing","data.Wastewater management",61.1
+"2018","data.Furniture and related product manufacturing","data.Air pollution management",18.9
+"2018","data.Furniture and related product manufacturing","data.Protection and remediation of soil, groundwater and surface water",6
+"2018","data.Furniture and related product manufacturing","data.Protection of biodiversity and habitat",5.6
+"2018","data.Furniture and related product manufacturing","data.Noise and vibration abatement",13.2
+"2018","data.Other manufacturing industries","data.Total, environmental protection activities",87
+"2018","data.Other manufacturing industries","data.Wastewater management",57.6
+"2018","data.Other manufacturing industries","data.Air pollution management",10.9
+"2018","data.Other manufacturing industries","data.Protection and remediation of soil, groundwater and surface water",1.6
+"2018","data.Other manufacturing industries","data.Protection of biodiversity and habitat",2.3
+"2018","data.Other manufacturing industries","data.Noise and vibration abatement",4.2
+"2018","data.Pipeline transportation","data.Total, environmental protection activities",86.9
+"2018","data.Pipeline transportation","data.Wastewater management",65.6
+"2018","data.Pipeline transportation","data.Air pollution management",59
+"2018","data.Pipeline transportation","data.Protection and remediation of soil, groundwater and surface water",75.4
+"2018","data.Pipeline transportation","data.Protection of biodiversity and habitat",67.2
+"2018","data.Pipeline transportation","data.Noise and vibration abatement",50.8
+"2019","data.Total, industries","data.Wastewater management",60.7
+"2019","data.Total, industries","data.Air pollution management",16.4
+"2019","data.Total, industries","data.Protection and remediation of soil, groundwater and surface water",7.9
+"2019","data.Total, industries","data.Protection of biodiversity and habitat",5.5
+"2019","data.Total, industries","data.Noise and vibration abatement",6.2
+"2019","data.Logging (except contract)","data.Total, environmental protection activities",68.3
+"2019","data.Logging (except contract)","data.Wastewater management",54.8
+"2019","data.Logging (except contract)","data.Air pollution management",0.4
+"2019","data.Logging (except contract)","data.Protection and remediation of soil, groundwater and surface water",8.3
+"2019","data.Logging (except contract)","data.Protection of biodiversity and habitat",35.4
+"2019","data.Logging (except contract)","data.Noise and vibration abatement",27.8
+"2019","data.Oil and gas extraction","data.Total, environmental protection activities",79.2
+"2019","data.Oil and gas extraction","data.Wastewater management",69.4
+"2019","data.Oil and gas extraction","data.Air pollution management",47.7
+"2019","data.Oil and gas extraction","data.Protection and remediation of soil, groundwater and surface water",56.2
+"2019","data.Oil and gas extraction","data.Protection of biodiversity and habitat",30.3
+"2019","data.Oil and gas extraction","data.Noise and vibration abatement",19.1
+"2019","data.Mining and quarrying","data.Total, environmental protection activities",99
+"2019","data.Mining and quarrying","data.Wastewater management",89.8
+"2019","data.Mining and quarrying","data.Air pollution management",63.3
+"2019","data.Mining and quarrying","data.Protection and remediation of soil, groundwater and surface water",72.4
+"2019","data.Mining and quarrying","data.Protection of biodiversity and habitat",58.2
+"2019","data.Mining and quarrying","data.Noise and vibration abatement",22.4
+"2019","data.Electric power generation, transmission and distribution","data.Total, environmental protection activities",85
+"2019","data.Electric power generation, transmission and distribution","data.Wastewater management",57.5
+"2019","data.Electric power generation, transmission and distribution","data.Air pollution management",25.8
+"2019","data.Electric power generation, transmission and distribution","data.Protection and remediation of soil, groundwater and surface water",32.4
+"2019","data.Electric power generation, transmission and distribution","data.Protection of biodiversity and habitat",40.1
+"2019","data.Electric power generation, transmission and distribution","data.Noise and vibration abatement",19.8
+"2019","data.Natural gas distribution","data.Total, environmental protection activities",67.6
+"2019","data.Natural gas distribution","data.Wastewater management",55.9
+"2019","data.Natural gas distribution","data.Air pollution management",55.9
+"2019","data.Natural gas distribution","data.Protection and remediation of soil, groundwater and surface water",47.1
+"2019","data.Natural gas distribution","data.Protection of biodiversity and habitat",41.2
+"2019","data.Natural gas distribution","data.Noise and vibration abatement",38.2
+"2019","data.Food manufacturing","data.Total, environmental protection activities",96.4
+"2019","data.Food manufacturing","data.Wastewater management",82.8
+"2019","data.Food manufacturing","data.Air pollution management",13
+"2019","data.Food manufacturing","data.Protection and remediation of soil, groundwater and surface water",7
+"2019","data.Food manufacturing","data.Protection of biodiversity and habitat",6.4
+"2019","data.Food manufacturing","data.Noise and vibration abatement",9.3
+"2019","data.Beverage and tobacco product manufacturing","data.Total, environmental protection activities",92.4
+"2019","data.Beverage and tobacco product manufacturing","data.Wastewater management",78
+"2019","data.Beverage and tobacco product manufacturing","data.Air pollution management",8.9
+"2019","data.Beverage and tobacco product manufacturing","data.Protection and remediation of soil, groundwater and surface water",2.4
+"2019","data.Beverage and tobacco product manufacturing","data.Protection of biodiversity and habitat",2.3
+"2019","data.Beverage and tobacco product manufacturing","data.Noise and vibration abatement",2.4
+"2019","data.Wood product manufacturing","data.Total, environmental protection activities",91.6
+"2019","data.Wood product manufacturing","data.Wastewater management",61.5
+"2019","data.Wood product manufacturing","data.Air pollution management",22
+"2019","data.Wood product manufacturing","data.Protection and remediation of soil, groundwater and surface water",20.2
+"2019","data.Wood product manufacturing","data.Protection of biodiversity and habitat",5.1
+"2019","data.Wood product manufacturing","data.Noise and vibration abatement",2.2
+"2019","data.Paper manufacturing","data.Total, environmental protection activities",97.4
+"2019","data.Paper manufacturing","data.Wastewater management",87.1
+"2019","data.Paper manufacturing","data.Air pollution management",38.2
+"2019","data.Paper manufacturing","data.Protection and remediation of soil, groundwater and surface water",37.7
+"2019","data.Paper manufacturing","data.Protection of biodiversity and habitat",13
+"2019","data.Paper manufacturing","data.Noise and vibration abatement",12.2
+"2019","data.Petroleum and coal product manufacturing","data.Total, environmental protection activities",100
+"2019","data.Petroleum and coal product manufacturing","data.Wastewater management",93.3
+"2019","data.Petroleum and coal product manufacturing","data.Air pollution management",76.7
+"2019","data.Petroleum and coal product manufacturing","data.Protection and remediation of soil, groundwater and surface water",70
+"2019","data.Petroleum and coal product manufacturing","data.Protection of biodiversity and habitat",40
+"2019","data.Petroleum and coal product manufacturing","data.Noise and vibration abatement",43.3
+"2019","data.Chemical manufacturing","data.Total, environmental protection activities",96.9
+"2019","data.Chemical manufacturing","data.Wastewater management",76
+"2019","data.Chemical manufacturing","data.Air pollution management",46.7
+"2019","data.Chemical manufacturing","data.Protection and remediation of soil, groundwater and surface water",21.8
+"2019","data.Chemical manufacturing","data.Protection of biodiversity and habitat",11.3
+"2019","data.Chemical manufacturing","data.Noise and vibration abatement",9.8
+"2019","data.Non-metallic mineral product manufacturing","data.Total, environmental protection activities",86.5
+"2019","data.Non-metallic mineral product manufacturing","data.Wastewater management",65.9
+"2019","data.Non-metallic mineral product manufacturing","data.Air pollution management",43
+"2019","data.Non-metallic mineral product manufacturing","data.Protection and remediation of soil, groundwater and surface water",13.2
+"2019","data.Non-metallic mineral product manufacturing","data.Protection of biodiversity and habitat",6
+"2019","data.Non-metallic mineral product manufacturing","data.Noise and vibration abatement",9.1
+"2019","data.Primary metal manufacturing","data.Total, environmental protection activities",96.4
+"2019","data.Primary metal manufacturing","data.Wastewater management",88.6
+"2019","data.Primary metal manufacturing","data.Air pollution management",66.3
+"2019","data.Primary metal manufacturing","data.Protection and remediation of soil, groundwater and surface water",45.6
+"2019","data.Primary metal manufacturing","data.Protection of biodiversity and habitat",14.6
+"2019","data.Primary metal manufacturing","data.Noise and vibration abatement",23.8
+"2019","data.Fabricated metal product manufacturing","data.Total, environmental protection activities",84.3
+"2019","data.Fabricated metal product manufacturing","data.Wastewater management",56.9
+"2019","data.Fabricated metal product manufacturing","data.Air pollution management",12.8
+"2019","data.Fabricated metal product manufacturing","data.Protection and remediation of soil, groundwater and surface water",0.6
+"2019","data.Fabricated metal product manufacturing","data.Protection of biodiversity and habitat",0.2
+"2019","data.Fabricated metal product manufacturing","data.Noise and vibration abatement",0.9
+"2019","data.Transportation equipment manufacturing","data.Total, environmental protection activities",92.4
+"2019","data.Transportation equipment manufacturing","data.Wastewater management",66.4
+"2019","data.Transportation equipment manufacturing","data.Air pollution management",23.5
+"2019","data.Transportation equipment manufacturing","data.Protection and remediation of soil, groundwater and surface water",14
+"2019","data.Transportation equipment manufacturing","data.Protection of biodiversity and habitat",4.4
+"2019","data.Transportation equipment manufacturing","data.Noise and vibration abatement",8.8
+"2019","data.Plastics and rubber products manufacturing","data.Total, environmental protection activities",97.7
+"2019","data.Plastics and rubber products manufacturing","data.Wastewater management",67.9
+"2019","data.Plastics and rubber products manufacturing","data.Air pollution management",15
+"2019","data.Plastics and rubber products manufacturing","data.Protection and remediation of soil, groundwater and surface water",4.4
+"2019","data.Plastics and rubber products manufacturing","data.Protection of biodiversity and habitat",
+"2019","data.Plastics and rubber products manufacturing","data.Noise and vibration abatement",5.5
+"2019","data.Machinery manufacturing","data.Total, environmental protection activities",88.3
+"2019","data.Machinery manufacturing","data.Wastewater management",58.9
+"2019","data.Machinery manufacturing","data.Air pollution management",16.1
+"2019","data.Machinery manufacturing","data.Protection and remediation of soil, groundwater and surface water",3.5
+"2019","data.Machinery manufacturing","data.Protection of biodiversity and habitat",0.9
+"2019","data.Machinery manufacturing","data.Noise and vibration abatement",7.3
+"2019","data.Furniture and related product manufacturing","data.Total, environmental protection activities",90.8
+"2019","data.Furniture and related product manufacturing","data.Wastewater management",55.8
+"2019","data.Furniture and related product manufacturing","data.Air pollution management",10
+"2019","data.Furniture and related product manufacturing","data.Protection and remediation of soil, groundwater and surface water",
+"2019","data.Furniture and related product manufacturing","data.Protection of biodiversity and habitat",0
+"2019","data.Furniture and related product manufacturing","data.Noise and vibration abatement",5.7
+"2019","data.Other manufacturing industries","data.Total, environmental protection activities",81.4
+"2019","data.Other manufacturing industries","data.Wastewater management",52
+"2019","data.Other manufacturing industries","data.Air pollution management",7.1
+"2019","data.Other manufacturing industries","data.Protection and remediation of soil, groundwater and surface water",1.1
+"2019","data.Other manufacturing industries","data.Protection of biodiversity and habitat",
+"2019","data.Other manufacturing industries","data.Noise and vibration abatement",0.8
+"2019","data.Pipeline transportation","data.Total, environmental protection activities",96
+"2019","data.Pipeline transportation","data.Wastewater management",72
+"2019","data.Pipeline transportation","data.Air pollution management",60
+"2019","data.Pipeline transportation","data.Protection and remediation of soil, groundwater and surface water",62
+"2019","data.Pipeline transportation","data.Protection of biodiversity and habitat",68
+"2019","data.Pipeline transportation","data.Noise and vibration abatement",38
+"2020","data.Total, industries","data.Wastewater management",61.6
+"2020","data.Total, industries","data.Air pollution management",14.4
+"2020","data.Total, industries","data.Protection and remediation of soil, groundwater and surface water",8.7
+"2020","data.Total, industries","data.Protection of biodiversity and habitat",3.7
+"2020","data.Total, industries","data.Noise and vibration abatement",4.9
+"2020","data.Logging (except contract)","data.Total, environmental protection activities",65.8
+"2020","data.Logging (except contract)","data.Wastewater management",49
+"2020","data.Logging (except contract)","data.Air pollution management",4.1
+"2020","data.Logging (except contract)","data.Protection and remediation of soil, groundwater and surface water",11.9
+"2020","data.Logging (except contract)","data.Protection of biodiversity and habitat",11.5
+"2020","data.Logging (except contract)","data.Noise and vibration abatement",
+"2020","data.Oil and gas extraction","data.Total, environmental protection activities",83.8
+"2020","data.Oil and gas extraction","data.Wastewater management",67.1
+"2020","data.Oil and gas extraction","data.Air pollution management",61.1
+"2020","data.Oil and gas extraction","data.Protection and remediation of soil, groundwater and surface water",66.4
+"2020","data.Oil and gas extraction","data.Protection of biodiversity and habitat",39.5
+"2020","data.Oil and gas extraction","data.Noise and vibration abatement",17.9
+"2020","data.Mining and quarrying","data.Total, environmental protection activities",96.7
+"2020","data.Mining and quarrying","data.Wastewater management",88
+"2020","data.Mining and quarrying","data.Air pollution management",59.8
+"2020","data.Mining and quarrying","data.Protection and remediation of soil, groundwater and surface water",58.7
+"2020","data.Mining and quarrying","data.Protection of biodiversity and habitat",44.6
+"2020","data.Mining and quarrying","data.Noise and vibration abatement",16.3
+"2020","data.Electric power generation, transmission and distribution","data.Total, environmental protection activities",85
+"2020","data.Electric power generation, transmission and distribution","data.Wastewater management",69.7
+"2020","data.Electric power generation, transmission and distribution","data.Air pollution management",33.9
+"2020","data.Electric power generation, transmission and distribution","data.Protection and remediation of soil, groundwater and surface water",29.9
+"2020","data.Electric power generation, transmission and distribution","data.Protection of biodiversity and habitat",28.2
+"2020","data.Electric power generation, transmission and distribution","data.Noise and vibration abatement",20.7
+"2020","data.Natural gas distribution","data.Total, environmental protection activities",69.7
+"2020","data.Natural gas distribution","data.Wastewater management",60.6
+"2020","data.Natural gas distribution","data.Air pollution management",48.5
+"2020","data.Natural gas distribution","data.Protection and remediation of soil, groundwater and surface water",45.5
+"2020","data.Natural gas distribution","data.Protection of biodiversity and habitat",36.4
+"2020","data.Natural gas distribution","data.Noise and vibration abatement",33.3
+"2020","data.Food manufacturing","data.Total, environmental protection activities",96.1
+"2020","data.Food manufacturing","data.Wastewater management",80.8
+"2020","data.Food manufacturing","data.Air pollution management",19.9
+"2020","data.Food manufacturing","data.Protection and remediation of soil, groundwater and surface water",5.3
+"2020","data.Food manufacturing","data.Protection of biodiversity and habitat",0.8
+"2020","data.Food manufacturing","data.Noise and vibration abatement",4.6
+"2020","data.Beverage and tobacco product manufacturing","data.Total, environmental protection activities",94.7
+"2020","data.Beverage and tobacco product manufacturing","data.Wastewater management",75.7
+"2020","data.Beverage and tobacco product manufacturing","data.Air pollution management",6.1
+"2020","data.Beverage and tobacco product manufacturing","data.Protection and remediation of soil, groundwater and surface water",5.8
+"2020","data.Beverage and tobacco product manufacturing","data.Protection of biodiversity and habitat",5.1
+"2020","data.Beverage and tobacco product manufacturing","data.Noise and vibration abatement",6.7
+"2020","data.Wood product manufacturing","data.Total, environmental protection activities",90.2
+"2020","data.Wood product manufacturing","data.Wastewater management",65.8
+"2020","data.Wood product manufacturing","data.Air pollution management",18.1
+"2020","data.Wood product manufacturing","data.Protection and remediation of soil, groundwater and surface water",18.9
+"2020","data.Wood product manufacturing","data.Protection of biodiversity and habitat",6.4
+"2020","data.Wood product manufacturing","data.Noise and vibration abatement",6.8
+"2020","data.Paper manufacturing","data.Total, environmental protection activities",97
+"2020","data.Paper manufacturing","data.Wastewater management",82
+"2020","data.Paper manufacturing","data.Air pollution management",45.8
+"2020","data.Paper manufacturing","data.Protection and remediation of soil, groundwater and surface water",33.4
+"2020","data.Paper manufacturing","data.Protection of biodiversity and habitat",12.9
+"2020","data.Paper manufacturing","data.Noise and vibration abatement",18.4
+"2020","data.Petroleum and coal product manufacturing","data.Total, environmental protection activities",92.3
+"2020","data.Petroleum and coal product manufacturing","data.Wastewater management",80.8
+"2020","data.Petroleum and coal product manufacturing","data.Air pollution management",76.9
+"2020","data.Petroleum and coal product manufacturing","data.Protection and remediation of soil, groundwater and surface water",69.2
+"2020","data.Petroleum and coal product manufacturing","data.Protection of biodiversity and habitat",38.5
+"2020","data.Petroleum and coal product manufacturing","data.Noise and vibration abatement",38.5
+"2020","data.Chemical manufacturing","data.Total, environmental protection activities",94.6
+"2020","data.Chemical manufacturing","data.Wastewater management",78.9
+"2020","data.Chemical manufacturing","data.Air pollution management",39.9
+"2020","data.Chemical manufacturing","data.Protection and remediation of soil, groundwater and surface water",23.7
+"2020","data.Chemical manufacturing","data.Protection of biodiversity and habitat",4.7
+"2020","data.Chemical manufacturing","data.Noise and vibration abatement",12.9
+"2020","data.Non-metallic mineral product manufacturing","data.Total, environmental protection activities",93.1
+"2020","data.Non-metallic mineral product manufacturing","data.Wastewater management",72.6
+"2020","data.Non-metallic mineral product manufacturing","data.Air pollution management",29.2
+"2020","data.Non-metallic mineral product manufacturing","data.Protection and remediation of soil, groundwater and surface water",11
+"2020","data.Non-metallic mineral product manufacturing","data.Protection of biodiversity and habitat",2.5
+"2020","data.Non-metallic mineral product manufacturing","data.Noise and vibration abatement",6.2
+"2020","data.Primary metal manufacturing","data.Total, environmental protection activities",97.9
+"2020","data.Primary metal manufacturing","data.Wastewater management",88
+"2020","data.Primary metal manufacturing","data.Air pollution management",68.3
+"2020","data.Primary metal manufacturing","data.Protection and remediation of soil, groundwater and surface water",46.9
+"2020","data.Primary metal manufacturing","data.Protection of biodiversity and habitat",14.1
+"2020","data.Primary metal manufacturing","data.Noise and vibration abatement",19.8
+"2020","data.Fabricated metal product manufacturing","data.Total, environmental protection activities",87.7
+"2020","data.Fabricated metal product manufacturing","data.Wastewater management",61.9
+"2020","data.Fabricated metal product manufacturing","data.Air pollution management",12.4
+"2020","data.Fabricated metal product manufacturing","data.Protection and remediation of soil, groundwater and surface water",5.8
+"2020","data.Fabricated metal product manufacturing","data.Protection of biodiversity and habitat",0.5
+"2020","data.Fabricated metal product manufacturing","data.Noise and vibration abatement",5.7
+"2020","data.Transportation equipment manufacturing","data.Total, environmental protection activities",91.1
+"2020","data.Transportation equipment manufacturing","data.Wastewater management",71.9
+"2020","data.Transportation equipment manufacturing","data.Air pollution management",25.6
+"2020","data.Transportation equipment manufacturing","data.Protection and remediation of soil, groundwater and surface water",8.4
+"2020","data.Transportation equipment manufacturing","data.Protection of biodiversity and habitat",3.9
+"2020","data.Transportation equipment manufacturing","data.Noise and vibration abatement",10
+"2020","data.Plastics and rubber products manufacturing","data.Total, environmental protection activities",91.4
+"2020","data.Plastics and rubber products manufacturing","data.Wastewater management",64.4
+"2020","data.Plastics and rubber products manufacturing","data.Air pollution management",13.4
+"2020","data.Plastics and rubber products manufacturing","data.Protection and remediation of soil, groundwater and surface water",6.4
+"2020","data.Plastics and rubber products manufacturing","data.Protection of biodiversity and habitat",1
+"2020","data.Plastics and rubber products manufacturing","data.Noise and vibration abatement",5.8
+"2020","data.Machinery manufacturing","data.Total, environmental protection activities",92.2
+"2020","data.Machinery manufacturing","data.Wastewater management",60.6
+"2020","data.Machinery manufacturing","data.Air pollution management",12.7
+"2020","data.Machinery manufacturing","data.Protection and remediation of soil, groundwater and surface water",0.8
+"2020","data.Machinery manufacturing","data.Protection of biodiversity and habitat",0.3
+"2020","data.Machinery manufacturing","data.Noise and vibration abatement",2.7
+"2020","data.Furniture and related product manufacturing","data.Total, environmental protection activities",89.1
+"2020","data.Furniture and related product manufacturing","data.Wastewater management",58.7
+"2020","data.Furniture and related product manufacturing","data.Air pollution management",5.2
+"2020","data.Furniture and related product manufacturing","data.Protection and remediation of soil, groundwater and surface water",3.1
+"2020","data.Furniture and related product manufacturing","data.Protection of biodiversity and habitat",0
+"2020","data.Furniture and related product manufacturing","data.Noise and vibration abatement",
+"2020","data.Other manufacturing industries","data.Total, environmental protection activities",77.5
+"2020","data.Other manufacturing industries","data.Wastewater management",49
+"2020","data.Other manufacturing industries","data.Air pollution management",2.7
+"2020","data.Other manufacturing industries","data.Protection and remediation of soil, groundwater and surface water",0.8
+"2020","data.Other manufacturing industries","data.Protection of biodiversity and habitat",0.2
+"2020","data.Other manufacturing industries","data.Noise and vibration abatement",1.3
+"2020","data.Pipeline transportation","data.Total, environmental protection activities",93
+"2020","data.Pipeline transportation","data.Wastewater management",77.2
+"2020","data.Pipeline transportation","data.Air pollution management",70.2
+"2020","data.Pipeline transportation","data.Protection and remediation of soil, groundwater and surface water",73.7
+"2020","data.Pipeline transportation","data.Protection of biodiversity and habitat",45.6
+"2020","data.Pipeline transportation","data.Noise and vibration abatement",
+"2018","data.Total, industries","data.Sold carbon offset credits only or sold more than purchased",0.9
+"2018","data.Logging (except contract)","data.Sold carbon offset credits only or sold more than purchased",
+"2018","data.Oil and gas extraction","data.Sold carbon offset credits only or sold more than purchased",5.1
+"2018","data.Mining and quarrying","data.Sold carbon offset credits only or sold more than purchased",0
+"2018","data.Electric power generation, transmission and distribution","data.Sold carbon offset credits only or sold more than purchased",7.9
+"2018","data.Natural gas distribution","data.Sold carbon offset credits only or sold more than purchased",7.2
+"2018","data.Food manufacturing","data.Sold carbon offset credits only or sold more than purchased",0.3
+"2018","data.Beverage and tobacco product manufacturing","data.Sold carbon offset credits only or sold more than purchased",0
+"2018","data.Wood product manufacturing","data.Sold carbon offset credits only or sold more than purchased",4.6
+"2018","data.Paper manufacturing","data.Sold carbon offset credits only or sold more than purchased",2.6
+"2018","data.Petroleum and coal product manufacturing","data.Sold carbon offset credits only or sold more than purchased",14.4
+"2018","data.Chemical manufacturing","data.Sold carbon offset credits only or sold more than purchased",
+"2018","data.Non-metallic mineral product manufacturing","data.Sold carbon offset credits only or sold more than purchased",
+"2018","data.Primary metal manufacturing","data.Sold carbon offset credits only or sold more than purchased",7.2
+"2018","data.Fabricated metal product manufacturing","data.Sold carbon offset credits only or sold more than purchased",0
+"2018","data.Transportation equipment manufacturing","data.Sold carbon offset credits only or sold more than purchased",0
+"2018","data.Plastics and rubber products manufacturing","data.Sold carbon offset credits only or sold more than purchased",
+"2018","data.Machinery manufacturing","data.Sold carbon offset credits only or sold more than purchased",0
+"2018","data.Furniture and related product manufacturing","data.Sold carbon offset credits only or sold more than purchased",
+"2018","data.Other manufacturing industries","data.Sold carbon offset credits only or sold more than purchased",0.6
+"2018","data.Pipeline transportation","data.Sold carbon offset credits only or sold more than purchased",
+"2019","data.Total, industries","data.Sold carbon offset credits only or sold more than purchased",0.6
+"2019","data.Logging (except contract)","data.Sold carbon offset credits only or sold more than purchased",0
+"2019","data.Oil and gas extraction","data.Sold carbon offset credits only or sold more than purchased",10
+"2019","data.Mining and quarrying","data.Sold carbon offset credits only or sold more than purchased",
+"2019","data.Electric power generation, transmission and distribution","data.Sold carbon offset credits only or sold more than purchased",4.7
+"2019","data.Natural gas distribution","data.Sold carbon offset credits only or sold more than purchased",0
+"2019","data.Food manufacturing","data.Sold carbon offset credits only or sold more than purchased",
+"2019","data.Beverage and tobacco product manufacturing","data.Sold carbon offset credits only or sold more than purchased",0
+"2019","data.Wood product manufacturing","data.Sold carbon offset credits only or sold more than purchased",1
+"2019","data.Paper manufacturing","data.Sold carbon offset credits only or sold more than purchased",2.7
+"2019","data.Petroleum and coal product manufacturing","data.Sold carbon offset credits only or sold more than purchased",0
+"2019","data.Chemical manufacturing","data.Sold carbon offset credits only or sold more than purchased",
+"2019","data.Non-metallic mineral product manufacturing","data.Sold carbon offset credits only or sold more than purchased",
+"2019","data.Primary metal manufacturing","data.Sold carbon offset credits only or sold more than purchased",10
+"2019","data.Fabricated metal product manufacturing","data.Sold carbon offset credits only or sold more than purchased",0
+"2019","data.Transportation equipment manufacturing","data.Sold carbon offset credits only or sold more than purchased",
+"2019","data.Plastics and rubber products manufacturing","data.Sold carbon offset credits only or sold more than purchased",
+"2019","data.Machinery manufacturing","data.Sold carbon offset credits only or sold more than purchased",1
+"2019","data.Furniture and related product manufacturing","data.Sold carbon offset credits only or sold more than purchased",0
+"2019","data.Other manufacturing industries","data.Sold carbon offset credits only or sold more than purchased",
+"2019","data.Pipeline transportation","data.Sold carbon offset credits only or sold more than purchased",10
+"2020","data.Total, industries","data.Sold carbon offset credits only or sold more than purchased",0.7
+"2020","data.Logging (except contract)","data.Sold carbon offset credits only or sold more than purchased",0.4
+"2020","data.Oil and gas extraction","data.Sold carbon offset credits only or sold more than purchased",7.3
+"2020","data.Mining and quarrying","data.Sold carbon offset credits only or sold more than purchased",
+"2020","data.Electric power generation, transmission and distribution","data.Sold carbon offset credits only or sold more than purchased",2.5
+"2020","data.Natural gas distribution","data.Sold carbon offset credits only or sold more than purchased",
+"2020","data.Food manufacturing","data.Sold carbon offset credits only or sold more than purchased",0.9
+"2020","data.Beverage and tobacco product manufacturing","data.Sold carbon offset credits only or sold more than purchased",1.7
+"2020","data.Wood product manufacturing","data.Sold carbon offset credits only or sold more than purchased",1.6
+"2020","data.Paper manufacturing","data.Sold carbon offset credits only or sold more than purchased",4.4
+"2020","data.Petroleum and coal product manufacturing","data.Sold carbon offset credits only or sold more than purchased",
+"2020","data.Chemical manufacturing","data.Sold carbon offset credits only or sold more than purchased",
+"2020","data.Non-metallic mineral product manufacturing","data.Sold carbon offset credits only or sold more than purchased",0.9
+"2020","data.Primary metal manufacturing","data.Sold carbon offset credits only or sold more than purchased",9.4
+"2020","data.Fabricated metal product manufacturing","data.Sold carbon offset credits only or sold more than purchased",0
+"2020","data.Transportation equipment manufacturing","data.Sold carbon offset credits only or sold more than purchased",0
+"2020","data.Plastics and rubber products manufacturing","data.Sold carbon offset credits only or sold more than purchased",
+"2020","data.Machinery manufacturing","data.Sold carbon offset credits only or sold more than purchased",0
+"2020","data.Furniture and related product manufacturing","data.Sold carbon offset credits only or sold more than purchased",0
+"2020","data.Other manufacturing industries","data.Sold carbon offset credits only or sold more than purchased",0.5
+"2020","data.Pipeline transportation","data.Sold carbon offset credits only or sold more than purchased",0
