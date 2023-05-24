@@ -1,5 +1,4 @@
 import statistics
-
 import yamlmd
 import os
 import pandas as pd
@@ -136,6 +135,9 @@ def get_goal_progress(indicator_ids):
         scores[ind_id] = score
         # print(ind_id + ': ' + str(score))
 
+    manual_input = {'6-1-1': 5, '5-2-1': 0.59005, '6-3-1': 0.21765, '7-2-1': 3.042379, '8-6-1': -3.27486, '9-1-1': 5, '14-2-1': 3.186908, '15-2-1': 4.453995}
+    scores.update(manual_input)
+
     filepath = os.path.join('indicator_scores.yml')
     with open(filepath, 'w') as file:
         outputs = yaml.dump(scores, file)
@@ -144,52 +146,44 @@ def get_goal_progress(indicator_ids):
 
 
 indicator_ids = get_indicator_ids()
-scores = get_goal_progress(indicator_ids)
+# scores = get_goal_progress(indicator_ids)
 # diffs = update_progress_status(indicator_ids)
 # update_progress_diff(diffs)
-print(scores)
-# print()
-
-goal_scores = {}
-for i in range(1, 18):
-    goal = str(i)
-    goal_scores[goal] = []
-print(goal_scores)
-
-for ind_id in indicator_ids:
-    goal = ind_id.split("-")[0]
-    if scores[ind_id] is not None:
-        goal_scores[goal].append(scores[ind_id])
-print(goal_scores)
-
-for i in range(1, 18):
-    goal = str(i)
-    score_list = goal_scores[goal]
-    if len(score_list) > 0:
-        score_avg = statistics.mean(score_list)
-        print('goal ' + goal + ': ' + str(score_avg))
-    else:
-        print("non")
 
 
 
-
-
-
-
+# CODE BELOW CALCULATES AVERAGE GOAL SCORE
+# goal_scores = {}
+# for i in range(1, 18):
+#     goal = str(i)
+#     goal_scores[goal] = []
+#
+# for ind_id in indicator_ids:
+#     goal = ind_id.split("-")[0]
+#     if scores[ind_id] is not None:
+#         goal_scores[goal].append(scores[ind_id])
+#
+# for i in range(1, 18):
+#     goal = str(i)
+#     score_list = goal_scores[goal]
+#     if len(score_list) > 0:
+#         score_avg = statistics.mean(score_list)
+#         print('goal ' + goal + ': ' + str(score_avg))
+#     else:
+#         print("non")
 
 
 # individual calculations result ----
-# test_ind = merge_indicator('6-2-1')
-# test_data = pm.data_progress_measure(test_ind['data'])
+test_ind = merge_indicator('14-2-1')
+test_data = pm.data_progress_measure(test_ind['data'])
 # print(test_ind['meta'])
 # print(test_data)
-# # test_cagr_o = pm.growth_calculation(30, 103, 2022, 2015)
-# # print('cagr_o = ' + str(test_cagr_o))
-# # test_cagr_r = pm.growth_calculation(0.001, 103, 2030, 2015)
-# # print('cagr_r = ' + str(test_cagr_r))
-# # test_ratio = test_cagr_o/test_cagr_r
-# # print('ratio = ' + str(test_ratio))
-# print(pm.measure_indicator_progress(test_data, test_ind['meta']))
-# print(pm.progress_measure(test_ind))
-# print(pm.get_indicator_score(test_ind))
+# test_cagr_o = pm.growth_calculation(30, 103, 2022, 2015)
+# print('cagr_o = ' + str(test_cagr_o))
+# test_cagr_r = pm.growth_calculation(0.001, 103, 2030, 2015)
+# print('cagr_r = ' + str(test_cagr_r))
+# test_ratio = test_cagr_o/test_cagr_r
+# print('ratio = ' + str(test_ratio))
+print(pm.measure_indicator_progress(test_data, test_ind['meta']))
+print(pm.progress_measure(test_ind))
+print(pm.get_indicator_score(test_ind))

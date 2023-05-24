@@ -86,14 +86,14 @@ def get_progress_status(value, config):
 
     # compare value to progress thresholds to return progress measure
     if config['target'] is None:
-        if value > x:
+        if value >= x:
             return "substantial_progress"
-        elif y < value <= x:
+        elif y <= value < x:
             return "moderate_progress"
-        elif z <= value <= y:
-            return "moderate_deterioration"
+        elif z <= value < y:
+            return "negligible_progress"
         elif value < z:
-            return "substantial_deterioration"
+            return "deterioration"
         else:
             return None
 
@@ -158,7 +158,7 @@ def update_progress_thresholds(config, method):
     if ('progress_thresholds' in config.keys()) & (bool(config['progress_thresholds'])):
         progress_thresholds = config['progress_thresholds']
     elif method == 1:
-        progress_thresholds = {'high': 0.01, 'med': 0, 'low': -0.01}
+        progress_thresholds = {'high': 0.015, 'med': 0.005, 'low': 0}
     elif method == 2:
         progress_thresholds = {'high': 0.95, 'med': 0.6, 'low': 0}
     else:
