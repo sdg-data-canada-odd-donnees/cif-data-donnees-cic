@@ -621,10 +621,52 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
+                "Total Non-Census metropolitan area",
+                "Total Census metropolitan area",
+                "data.Abbotsford–Mission, British Columbia",
+                "Barrie, Ontario",
+                "Brantford, Ontario",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "data.Gatineau, Quebec",
+                "data.Greater Sudbury, Ontario",
+                "Guelph, Ontario",
+                "Halifax, Nova Scotia",
+                "Hamilton, Ontario",
+                "Kelowna, British Columbia",
+                "Kingston, Ontario",
+                "data.Kitchener–Cambridge–Waterloo, Ontario",
+                "London, Ontario",
+                "Moncton, New Brunswick",
+                "Montréal, Quebec",
+                "data.Ottawa, Ontario",
+                "Peterborough, Ontario",
+                "Québec, Quebec",
+                "Regina, Saskatchewan",
+                "Saguenay, Quebec",
+                "Saint John, New Brunswick",
+                "Saskatoon, Saskatchewan",
+                "Sherbrooke, Quebec",
+                "data.St. Catharines–Niagara, Ontario",
+                "St. John's, Newfoundland and Labrador",
+                "Thunder Bay, Ontario",
+                "Toronto, Ontario",
+                "Trois-Rivières, Quebec",
+                "Vancouver, British Columbia",
+                "Victoria, British Columbia",
+                "Windsor, Ontario",
+                "Winnipeg, Manitoba",
+                "Belleville, Ontario",
+                "Lethbridge, Alberta",
                 ""
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -1723,7 +1765,7 @@
             "title": "Units"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1752,7 +1794,7 @@
             "title": "Geography"
           },
           {
-            "name": "data.Type of event",
+            "name": "Type of event",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1767,8 +1809,13 @@
             "title": "Type of event"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "string",
             "title": "Value"
           }
         ]

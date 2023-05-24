@@ -28,7 +28,7 @@
             "title": "Unités"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -57,7 +57,7 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Type of event",
+            "name": "Type of event",
             "type": "string",
             "constraints": {
               "enum": [
@@ -72,8 +72,13 @@
             "title": "Type d'événement"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "string",
             "title": "Valeur"
           }
         ]

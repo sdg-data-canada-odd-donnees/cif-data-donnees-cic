@@ -1,45 +1,323 @@
-Year,Géographie,Value
-2016,,3.9
-2016,Terre-Neuve-et-Labrador,0.4
-2016,Île-du-Prince-Édouard,2.0
-2016,Nouvelle-Écosse,2.2
-2016,Nouveau-Brunswick,2.4
-2016,Québec,4.0
-2016,Ontario,4.4
-2016,Manitoba,2.8
-2016,Saskatchewan,2.6
-2016,Alberta,3.3
-2016,Colombie-Britannique,4.3
-2017,,5.7
-2017,Terre-Neuve-et-Labrador,0.4
-2017,Île-du-Prince-Édouard,0.7
-2017,Nouvelle-Écosse,2.2
-2017,Nouveau-Brunswick,2.9
-2017,Québec,5.9
-2017,Ontario,7.3
-2017,Manitoba,2.7
-2017,Saskatchewan,1.8
-2017,Alberta,4.5
-2017,Colombie-Britannique,5.2
-2018,,4.9
-2018,Terre-Neuve-et-Labrador,0.4
-2018,Île-du-Prince-Édouard,1.3
-2018,Nouvelle-Écosse,3.3
-2018,Nouveau-Brunswick,1.9
-2018,Québec,4.5
-2018,Ontario,5.7
-2018,Manitoba,3.1
-2018,Saskatchewan,2.6
-2018,Alberta,5.7
-2018,Colombie-Britannique,5.2
-2019,,5.2
-2019,Terre-Neuve-et-Labrador,1.1
-2019,Île-du-Prince-Édouard,4.5
-2019,Nouvelle-Écosse,3.3
-2019,Nouveau-Brunswick,4.2
-2019,Québec,4.8
-2019,Ontario,5.9
-2019,Manitoba,4.1
-2019,Saskatchewan,2.8
-2019,Alberta,4.7
-2019,Colombie-Britannique,6.1
+Year,Géographie,GeoCode,Value
+2016,Terre-Neuve-et-Labrador,10,0.4
+2016,Île-du-Prince-Édouard,11,2.0
+2016,Nouvelle-Écosse,12,2.2
+2016,Nouveau-Brunswick,13,2.4
+2016,Québec,24,4.0
+2016,Ontario,35,4.4
+2016,Manitoba,46,2.8
+2016,Saskatchewan,47,2.6
+2016,Alberta,48,3.3
+2016,Colombie-Britannique,59,4.3
+2017,Terre-Neuve-et-Labrador,10,0.4
+2017,Île-du-Prince-Édouard,11,0.7
+2017,Nouvelle-Écosse,12,2.2
+2017,Nouveau-Brunswick,13,2.9
+2017,Québec,24,5.9
+2017,Ontario,35,7.3
+2017,Manitoba,46,2.7
+2017,Saskatchewan,47,1.8
+2017,Alberta,48,4.5
+2017,Colombie-Britannique,59,5.2
+2018,Terre-Neuve-et-Labrador,10,0.4
+2018,Île-du-Prince-Édouard,11,1.3
+2018,Nouvelle-Écosse,12,3.3
+2018,Nouveau-Brunswick,13,1.9
+2018,Québec,24,4.5
+2018,Ontario,35,5.7
+2018,Manitoba,46,3.1
+2018,Saskatchewan,47,2.6
+2018,Alberta,48,5.7
+2018,Colombie-Britannique,59,5.2
+2019,Terre-Neuve-et-Labrador,10,1.1
+2019,Île-du-Prince-Édouard,11,4.5
+2019,Nouvelle-Écosse,12,3.3
+2019,Nouveau-Brunswick,13,4.2
+2019,Québec,24,4.8
+2019,Ontario,35,5.9
+2019,Manitoba,46,4.1
+2019,Saskatchewan,47,2.8
+2019,Alberta,48,4.7
+2019,Colombie-Britannique,59,6.1
+2020,Terre-Neuve-et-Labrador,10,1.7
+2021,Terre-Neuve-et-Labrador,10,2.3
+2020,Île-du-Prince-Édouard,11,5.0
+2021,Île-du-Prince-Édouard,11,11.6
+2020,Nouvelle-Écosse,12,5.9
+2021,Nouvelle-Écosse,12,7.3
+2020,Nouveau-Brunswick,13,2.4
+2021,Nouveau-Brunswick,13,4.9
+2020,Québec,24,5.3
+2021,Québec,24,5.7
+2020,Ontario,35,7.9
+2021,Ontario,35,11.0
+2020,Manitoba,46,4.2
+2021,Manitoba,46,5.4
+2020,Saskatchewan,47,4.4
+2021,Saskatchewan,47,4.9
+2020,Alberta,48,6.6
+2021,Alberta,48,7.6
+2020,Colombie-Britannique,59,10.1
+2021,Colombie-Britannique,59,11.5
+2015,,,3.8
+2015,data.Total Non-Census metropolitan area,,2.1
+2015,data.Total Census metropolitan area,,4.5
+2015,"data.Abbotsford–Mission, British Columbia",,3.8
+2015,"Barrie, Ontario",,0.0
+2015,"Brantford, Ontario",,3.6
+2015,"Calgary, Alberta",,4.7
+2015,"Edmonton, Alberta",,6.0
+2015,"data.Gatineau, Quebec",,2.4
+2015,"data.Greater Sudbury, Ontario",,0.6
+2015,"Guelph, Ontario",,0.0
+2015,"Halifax, Nouvelle-Écosse",,1.9
+2015,"Hamilton, Ontario",,9.9
+2015,"Kelowna, Colombie-Britannique",,1.5
+2015,"Kingston, Ontario",,4.8
+2015,"data.Kitchener–Cambridge–Waterloo, Ontario",,9.4
+2015,"London, Ontario",,3.9
+2015,"Moncton, Nouveau-Brunswick",,1.3
+2015,"Montréal, Québec",,4.2
+2015,"data.Ottawa, Ontario",,7.3
+2015,"Peterborough, Ontario",,7.4
+2015,"Québec, Québec",,3.5
+2015,"Regina, Saskatchewan",,0.4
+2015,"Saguenay, Québec",,3.0
+2015,"Saint John, Nouveau-Brunswick",,2.4
+2015,"Saskatoon, Saskatchewan",,2.3
+2015,"Sherbrooke, Québec",,4.0
+2015,"data.St. Catharines–Niagara, Ontario",,2.0
+2015,"St. John's, Terre-Neuve-et-Labrador",,0.5
+2015,"Thunder Bay, Ontario",,22.3
+2015,"Toronto, Ontario",,5.4
+2015,"Trois-Rivières, Québec",,1.3
+2015,"Vancouver, Colombie-Britannique",,4.6
+2015,"Victoria, Colombie-Britannique",,1.9
+2015,"Windsor, Ontario",,1.3
+2015,"Winnipeg, Manitoba",,3.1
+2016,,,3.9
+2016,data.Total Non-Census metropolitan area,,2.3
+2016,data.Total Census metropolitan area,,4.6
+2016,"data.Abbotsford–Mission, British Columbia",,3.8
+2016,"Barrie, Ontario",,0.5
+2016,"Brantford, Ontario",,3.6
+2016,"Calgary, Alberta",,3.6
+2016,"Edmonton, Alberta",,3.6
+2016,"data.Gatineau, Quebec",,0.9
+2016,"data.Greater Sudbury, Ontario",,1.2
+2016,"Guelph, Ontario",,7.6
+2016,"Halifax, Nouvelle-Écosse",,0.7
+2016,"Hamilton, Ontario",,12.5
+2016,"Kelowna, Colombie-Britannique",,0.5
+2016,"Kingston, Ontario",,4.2
+2016,"data.Kitchener–Cambridge–Waterloo, Ontario",,3.5
+2016,"London, Ontario",,3.3
+2016,"Moncton, Nouveau-Brunswick",,5.1
+2016,"Montréal, Québec",,4.7
+2016,"data.Ottawa, Ontario",,9.5
+2016,"Peterborough, Ontario",,4.0
+2016,"Québec, Québec",,7.1
+2016,"Regina, Saskatchewan",,4.4
+2016,"Saguenay, Québec",,1.8
+2016,"Saint John, Nouveau-Brunswick",,1.6
+2016,"Saskatoon, Saskatchewan",,1.6
+2016,"Sherbrooke, Québec",,2.0
+2016,"data.St. Catharines–Niagara, Ontario",,2.4
+2016,"St. John's, Terre-Neuve-et-Labrador",,0.5
+2016,"Thunder Bay, Ontario",,8.3
+2016,"Toronto, Ontario",,5.2
+2016,"Trois-Rivières, Québec",,1.3
+2016,"Vancouver, Colombie-Britannique",,5.7
+2016,"Victoria, Colombie-Britannique",,4.6
+2016,"Windsor, Ontario",,3.3
+2016,"Winnipeg, Manitoba",,2.6
+2017,,,5.7
+2017,data.Total Non-Census metropolitan area,,2.7
+2017,data.Total Census metropolitan area,,6.9
+2017,"data.Abbotsford–Mission, British Columbia",,5.2
+2017,"Barrie, Ontario",,4.4
+2017,"Belleville, Ontario",,2.0
+2017,"Brantford, Ontario",,0.7
+2017,"Calgary, Alberta",,5.2
+2017,"Edmonton, Alberta",,4.7
+2017,"data.Gatineau, Quebec",,4.2
+2017,"data.Greater Sudbury, Ontario",,1.2
+2017,"Guelph, Ontario",,11.5
+2017,"Halifax, Nouvelle-Écosse",,2.6
+2017,"Hamilton, Ontario",,16.3
+2017,"Kelowna, Colombie-Britannique",,1.0
+2017,"Kingston, Ontario",,8.4
+2017,"data.Kitchener–Cambridge–Waterloo, Ontario",,9.4
+2017,"Lethbridge, Alberta",,1.7
+2017,"London, Ontario",,5.0
+2017,"Moncton, Nouveau-Brunswick",,4.4
+2017,"Montréal, Québec",,7.4
+2017,"data.Ottawa, Ontario",,9.2
+2017,"Peterborough, Ontario",,9.5
+2017,"Québec, Québec",,9.9
+2017,"Regina, Saskatchewan",,2.0
+2017,"Saguenay, Québec",,2.4
+2017,"Saint John, Nouveau-Brunswick",,0.8
+2017,"Saskatoon, Saskatchewan",,1.6
+2017,"Sherbrooke, Québec",,5.0
+2017,"data.St. Catharines–Niagara, Ontario",,4.5
+2017,"St. John's, Terre-Neuve-et-Labrador",,0.5
+2017,"Thunder Bay, Ontario",,17.1
+2017,"Toronto, Ontario",,9.3
+2017,"Trois-Rivières, Québec",,2.6
+2017,"Vancouver, Colombie-Britannique",,7.0
+2017,"Victoria, Colombie-Britannique",,2.6
+2017,"Windsor, Ontario",,5.5
+2017,"Winnipeg, Manitoba",,2.4
+2018,,,4.9
+2018,data.Total Non-Census metropolitan area,,2.2
+2018,data.Total Census metropolitan area,,6.0
+2018,"data.Abbotsford–Mission, British Columbia",,3.0
+2018,"Barrie, Ontario",,1.7
+2018,"Belleville, Ontario",,0.0
+2018,"Brantford, Ontario",,1.4
+2018,"Calgary, Alberta",,7.8
+2018,"Edmonton, Alberta",,4.9
+2018,"data.Gatineau, Quebec",,5.4
+2018,"data.Greater Sudbury, Ontario",,1.8
+2018,"Guelph, Ontario",,8.5
+2018,"Halifax, Nouvelle-Écosse",,4.0
+2018,"Hamilton, Ontario",,17.0
+2018,"Kelowna, Colombie-Britannique",,1.4
+2018,"Kingston, Ontario",,2.9
+2018,"data.Kitchener–Cambridge–Waterloo, Ontario",,6.7
+2018,"Lethbridge, Alberta",,2.4
+2018,"London, Ontario",,6.4
+2018,"Moncton, Nouveau-Brunswick",,5.0
+2018,"Montréal, Québec",,6.1
+2018,"data.Ottawa, Ontario",,9.9
+2018,"Peterborough, Ontario",,0.8
+2018,"Québec, Québec",,5.7
+2018,"Regina, Saskatchewan",,1.9
+2018,"Saguenay, Québec",,1.2
+2018,"Saint John, Nouveau-Brunswick",,0.8
+2018,"Saskatoon, Saskatchewan",,3.1
+2018,"Sherbrooke, Québec",,4.0
+2018,"data.St. Catharines–Niagara, Ontario",,1.7
+2018,"St. John's, Terre-Neuve-et-Labrador",,0.5
+2018,"Thunder Bay, Ontario",,4.8
+2018,"Toronto, Ontario",,7.2
+2018,"Trois-Rivières, Québec",,0.0
+2018,"Vancouver, Colombie-Britannique",,7.4
+2018,"Victoria, Colombie-Britannique",,6.3
+2018,"Windsor, Ontario",,1.6
+2018,"Winnipeg, Manitoba",,3.6
+2019,,,5.2
+2019,data.Total Non-Census metropolitan area,,3.0
+2019,data.Total Census metropolitan area,,6.1
+2019,"data.Abbotsford–Mission, British Columbia",,6.9
+2019,"Barrie, Ontario",,3.1
+2019,"Belleville, Ontario",,1.8
+2019,"Brantford, Ontario",,4.9
+2019,"Calgary, Alberta",,5.2
+2019,"Edmonton, Alberta",,5.0
+2019,"data.Gatineau, Quebec",,9.1
+2019,"data.Greater Sudbury, Ontario",,1.8
+2019,"Guelph, Ontario",,8.4
+2019,"Halifax, Nouvelle-Écosse",,1.8
+2019,"Hamilton, Ontario",,15.7
+2019,"Kelowna, Colombie-Britannique",,1.4
+2019,"Kingston, Ontario",,5.2
+2019,"data.Kitchener–Cambridge–Waterloo, Ontario",,2.5
+2019,"Lethbridge, Alberta",,1.6
+2019,"London, Ontario",,6.2
+2019,"Moncton, Nouveau-Brunswick",,4.9
+2019,"Montréal, Québec",,5.5
+2019,"data.Ottawa, Ontario",,10.8
+2019,"Peterborough, Ontario",,8.6
+2019,"Québec, Québec",,8.0
+2019,"Regina, Saskatchewan",,0.8
+2019,"Saguenay, Québec",,0.0
+2019,"Saint John, Nouveau-Brunswick",,3.1
+2019,"Saskatoon, Saskatchewan",,3.0
+2019,"Sherbrooke, Québec",,2.4
+2019,"data.St. Catharines–Niagara, Ontario",,1.9
+2019,"St. John's, Terre-Neuve-et-Labrador",,1.0
+2019,"Thunder Bay, Ontario",,3.2
+2019,"Toronto, Ontario",,7.2
+2019,"Trois-Rivières, Québec",,5.0
+2019,"Vancouver, Colombie-Britannique",,8.6
+2019,"Victoria, Colombie-Britannique",,4.2
+2019,"Windsor, Ontario",,4.4
+2019,"Winnipeg, Manitoba",,5.0
+2020,,,7.0
+2020,data.Total Non-Census metropolitan area,,4.0
+2020,data.Total Census metropolitan area,,8.1
+2020,"data.Abbotsford–Mission, British Columbia",,3.9
+2020,"Barrie, Ontario",,4.6
+2020,"Belleville, Ontario",,0.9
+2020,"Brantford, Ontario",,4.8
+2020,"Calgary, Alberta",,9.3
+2020,"Edmonton, Alberta",,5.4
+2020,"data.Gatineau, Quebec",,5.5
+2020,"data.Greater Sudbury, Ontario",,2.4
+2020,"Guelph, Ontario",,15.1
+2020,"Halifax, Nouvelle-Écosse",,3.8
+2020,"Hamilton, Ontario",,9.9
+2020,"Kelowna, Colombie-Britannique",,2.7
+2020,"Kingston, Ontario",,13.2
+2020,"data.Kitchener–Cambridge–Waterloo, Ontario",,8.9
+2020,"Lethbridge, Alberta",,6.3
+2020,"London, Ontario",,8.1
+2020,"Moncton, Nouveau-Brunswick",,4.2
+2020,"Montréal, Québec",,6.9
+2020,"data.Ottawa, Ontario",,16.7
+2020,"Peterborough, Ontario",,19.4
+2020,"Québec, Québec",,8.1
+2020,"Regina, Saskatchewan",,1.5
+2020,"Saguenay, Québec",,0.0
+2020,"Saint John, Nouveau-Brunswick",,2.3
+2020,"Saskatoon, Saskatchewan",,5.3
+2020,"Sherbrooke, Québec",,2.4
+2020,"data.St. Catharines–Niagara, Ontario",,2.1
+2020,"St. John's, Terre-Neuve-et-Labrador",,0.5
+2020,"Thunder Bay, Ontario",,11.1
+2020,"Toronto, Ontario",,9.4
+2020,"Trois-Rivières, Québec",,4.3
+2020,"Vancouver, Colombie-Britannique",,13.5
+2020,"Victoria, Colombie-Britannique",,8.5
+2020,"Windsor, Ontario",,3.1
+2020,"Winnipeg, Manitoba",,3.7
+2021,,,8.8
+2021,data.Total Non-Census metropolitan area,,5.1
+2021,data.Total Census metropolitan area,,10.2
+2021,"data.Abbotsford–Mission, British Columbia",,7.7
+2021,"Barrie, Ontario",,6.4
+2021,"Belleville, Ontario",,0.9
+2021,"Brantford, Ontario",,4.7
+2021,"Calgary, Alberta",,8.9
+2021,"Edmonton, Alberta",,7.8
+2021,"data.Gatineau, Quebec",,6.7
+2021,"data.Greater Sudbury, Ontario",,5.9
+2021,"Guelph, Ontario",,4.8
+2021,"Halifax, Nouvelle-Écosse",,3.7
+2021,"Hamilton, Ontario",,15.5
+2021,"Kelowna, Colombie-Britannique",,10.5
+2021,"Kingston, Ontario",,16.7
+2021,"data.Kitchener–Cambridge–Waterloo, Ontario",,12.6
+2021,"Lethbridge, Alberta",,7.8
+2021,"London, Ontario",,15.6
+2021,"Moncton, Nouveau-Brunswick",,3.5
+2021,"Montréal, Québec",,6.0
+2021,"data.Ottawa, Ontario",,23.2
+2021,"Peterborough, Ontario",,18.7
+2021,"Québec, Québec",,9.2
+2021,"Regina, Saskatchewan",,3.4
+2021,"Saguenay, Québec",,3.5
+2021,"Saint John, Nouveau-Brunswick",,4.5
+2021,"Saskatoon, Saskatchewan",,7.3
+2021,"Sherbrooke, Québec",,3.8
+2021,"data.St. Catharines–Niagara, Ontario",,4.7
+2021,"St. John's, Terre-Neuve-et-Labrador",,1.9
+2021,"Thunder Bay, Ontario",,8.0
+2021,"Toronto, Ontario",,13.3
+2021,"Trois-Rivières, Québec",,11.1
+2021,"Vancouver, Colombie-Britannique",,15.5
+2021,"Victoria, Colombie-Britannique",,9.6
+2021,"Windsor, Ontario",,11.0
+2021,"Winnipeg, Manitoba",,4.8
