@@ -3010,19 +3010,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Yukon",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
                 "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon",
                 ""
               ]
             }
@@ -3033,11 +3034,12 @@
             "constraints": {
               "enum": [
                 "data.Hydraulic turbine",
-                "data.Tidal power turbine",
+                "data.Total renewable and non-greenhouse gas emitting sources",
                 "data.Wind power turbine",
+                "data.Nuclear steam turbine",
                 "data.Solar",
-                "data.Other types of electricity generation",
-                "data.Total hydro, tidal, wind, solar and other generation",
+                "data.Tidal power turbine",
+                "data.Total electricity production from biomass",
                 ""
               ]
             }

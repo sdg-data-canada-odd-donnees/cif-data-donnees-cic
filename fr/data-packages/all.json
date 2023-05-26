@@ -3228,19 +3228,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon",
+                "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
                 "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
+                "Nunavut",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             },
@@ -3252,11 +3253,12 @@
             "constraints": {
               "enum": [
                 "Turbine à hydraulique",
-                "Turbine marémotrice",
+                "Total, sources renouvelables et non émettrices de gaz à effet de serre",
                 "Turbine éolienne",
+                "data.Nuclear steam turbine",
                 "Solaire",
-                "Autres types de production électrique",
-                "Total, tous les genres de production d'électricité",
+                "Turbine marémotrice",
+                "data.Total electricity production from biomass",
                 ""
               ]
             },
