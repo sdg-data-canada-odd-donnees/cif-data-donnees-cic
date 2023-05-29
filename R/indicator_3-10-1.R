@@ -79,4 +79,5 @@ causes_of_death <-
   rename_at(2:(ncol(.) - 1), ~ paste0("data.", .x))
 
 
-write.csv(causes_of_death, "data/indicator_3-10-1.csv", na = "", row.names = FALSE)
+write.csv(causes_of_death, "data/indicator_3-10-1.csv", na = "", row.names = FALSE,
+          fileEncoding = "UTF-8")

@@ -1,3 +1,5 @@
+## CIF
+
 ## Global
 Year: Année
 Value: Valeur
@@ -174,6 +176,7 @@ Asset resilient for at least six months: Personnes en situation de résilience d
 ## 2-1-1
 Household food security status: Niveau de sécurité alimentaire du ménage
 Food secure: Sécurité alimentaire
+Food insecure: Insécurité alimentaire
 Food insecure, marginal: Insécurité alimentaire marginale
 Food insecure, moderate or severe: Insécurité alimentaire modérée ou grave
 Food insecure, moderate: Insécurité alimentaire modérée
@@ -512,6 +515,7 @@ Wind power turbine: Turbine éolienne
 Solar: Solaire
 Other types of electricity generation: Autres types de production électrique
 Total hydro, tidal, wind, solar and other generation: Total, tous les genres de production d'électricité
+Total renewable and non-greenhouse gas emitting sources: Total, sources renouvelables et non émettrices de gaz à effet de serre
 
 # 8-1-1
 Population: Population
@@ -585,6 +589,9 @@ Reporting entity: Entité déclarente
 Police-reported: Déclarés par la police
 Offence: Infraction
 Hate crime: Crimes haineux
+Total police-reported hate crime: Total des crimes haineux déclarés par la police
+Total pour les régions autres que les régions métropolitaines de recensement: Total Non-Census metropolitan area
+Total pour les régions métropolitaines de recensement: Total Census metropolitan area
 
 ## 10-3-1
 Type of work: Genre de travail
