@@ -1,3 +1,4 @@
+# import packages used in this script
 import statistics
 import yamlmd
 import os
