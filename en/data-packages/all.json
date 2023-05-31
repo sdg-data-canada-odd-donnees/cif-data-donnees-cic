@@ -3822,24 +3822,26 @@
             "title": "Geography"
           },
           {
-            "name": "data.Sex",
+            "name": "data.Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
+                "Total",
                 "Males",
                 "Females",
+                "Men+",
+                "Women+",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Gender"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, persons aged 15 years and over",
+                "Total",
                 "15 to 24 years",
                 "25 to 64 years",
                 "65 to 74 years",
@@ -3859,16 +3861,21 @@
                 "Non-permanent residents",
                 "Total visible minority population",
                 "Not a visible minority",
-                "Total Aboriginal identity",
+                "Total Indigenous identity",
                 "First Nations (North American Indian)",
                 "Métis",
                 "Inuk (Inuit)",
-                "Non-Aboriginal identity",
-                "Total, all persons",
+                "Non-Indigenous identity",
+                "Total",
                 ""
               ]
             },
             "title": "Selected demographic characteristics"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

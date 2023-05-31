@@ -3822,24 +3822,26 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Sex",
+            "name": "data.Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
+                "Total",
                 "Hommes",
                 "Femmes",
+                "Hommes+",
+                "Femmes+",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Genre"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, personnes âgées de 15 ans et plus",
+                "Total",
                 "15 à 24 ans",
                 "25 à 64 ans",
                 "65 à 74 ans",
@@ -3864,11 +3866,16 @@
                 "Métis",
                 "Inuk (Inuit)",
                 "Identité non autochtone",
-                "Total, toutes les personnes",
+                "Total",
                 ""
               ]
             },
             "title": "Caractéristiques démographiques déterminées"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
