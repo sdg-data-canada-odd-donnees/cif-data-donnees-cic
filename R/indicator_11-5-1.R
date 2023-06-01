@@ -93,7 +93,8 @@ commuting <-
   relocate(GeoCode, .before = Value) %>% 
   mutate_at(2:(ncol(.)-2), ~ paste0("data.", .x))
 
-write_csv(commuting, "CIF/data/indicator_11-5-1.csv", na = '')
+write_csv(commuting, "CIF/data/indicator_11-5-1.csv", na = '',
+          fileEncoding = "UTF-8")
 
 
 

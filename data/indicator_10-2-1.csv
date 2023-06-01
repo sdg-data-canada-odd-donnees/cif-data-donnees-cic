@@ -1,45 +1,323 @@
-Year,data.Geography,Value
-2016,,3.9
-2016,data.Newfoundland and Labrador,0.4
-2016,data.Prince Edward Island,2
-2016,data.Nova Scotia,2.2
-2016,data.New Brunswick,2.4
-2016,data.Quebec,4
-2016,data.Ontario,4.4
-2016,data.Manitoba,2.8
-2016,data.Saskatchewan,2.6
-2016,data.Alberta,3.3
-2016,data.British Columbia,4.3
-2017,,5.7
-2017,data.Newfoundland and Labrador,0.4
-2017,data.Prince Edward Island,0.7
-2017,data.Nova Scotia,2.2
-2017,data.New Brunswick,2.9
-2017,data.Quebec,5.9
-2017,data.Ontario,7.3
-2017,data.Manitoba,2.7
-2017,data.Saskatchewan,1.8
-2017,data.Alberta,4.5
-2017,data.British Columbia,5.2
-2018,,4.9
-2018,data.Newfoundland and Labrador,0.4
-2018,data.Prince Edward Island,1.3
-2018,data.Nova Scotia,3.3
-2018,data.New Brunswick,1.9
-2018,data.Quebec,4.5
-2018,data.Ontario,5.7
-2018,data.Manitoba,3.1
-2018,data.Saskatchewan,2.6
-2018,data.Alberta,5.7
-2018,data.British Columbia,5.2
-2019,,5.2
-2019,data.Newfoundland and Labrador,1.1
-2019,data.Prince Edward Island,4.5
-2019,data.Nova Scotia,3.3
-2019,data.New Brunswick,4.2
-2019,data.Quebec,4.8
-2019,data.Ontario,5.9
-2019,data.Manitoba,4.1
-2019,data.Saskatchewan,2.8
-2019,data.Alberta,4.7
-2019,data.British Columbia,6.1
+Year,data.Geography,GeoCode,Value
+2016,data.Newfoundland and Labrador,10,0.4
+2016,data.Prince Edward Island,11,2
+2016,data.Nova Scotia,12,2.2
+2016,data.New Brunswick,13,2.4
+2016,data.Quebec,24,4
+2016,data.Ontario,35,4.4
+2016,data.Manitoba,46,2.8
+2016,data.Saskatchewan,47,2.6
+2016,data.Alberta,48,3.3
+2016,data.British Columbia,59,4.3
+2017,data.Newfoundland and Labrador,10,0.4
+2017,data.Prince Edward Island,11,0.7
+2017,data.Nova Scotia,12,2.2
+2017,data.New Brunswick,13,2.9
+2017,data.Quebec,24,5.9
+2017,data.Ontario,35,7.3
+2017,data.Manitoba,46,2.7
+2017,data.Saskatchewan,47,1.8
+2017,data.Alberta,48,4.5
+2017,data.British Columbia,59,5.2
+2018,data.Newfoundland and Labrador,10,0.4
+2018,data.Prince Edward Island,11,1.3
+2018,data.Nova Scotia,12,3.3
+2018,data.New Brunswick,13,1.9
+2018,data.Quebec,24,4.5
+2018,data.Ontario,35,5.7
+2018,data.Manitoba,46,3.1
+2018,data.Saskatchewan,47,2.6
+2018,data.Alberta,48,5.7
+2018,data.British Columbia,59,5.2
+2019,data.Newfoundland and Labrador,10,1.1
+2019,data.Prince Edward Island,11,4.5
+2019,data.Nova Scotia,12,3.3
+2019,data.New Brunswick,13,4.2
+2019,data.Quebec,24,4.8
+2019,data.Ontario,35,5.9
+2019,data.Manitoba,46,4.1
+2019,data.Saskatchewan,47,2.8
+2019,data.Alberta,48,4.7
+2019,data.British Columbia,59,6.1
+2020,data.Newfoundland and Labrador,10,1.7
+2021,data.Newfoundland and Labrador,10,2.3
+2020,data.Prince Edward Island,11,5
+2021,data.Prince Edward Island,11,11.6
+2020,data.Nova Scotia,12,5.9
+2021,data.Nova Scotia,12,7.3
+2020,data.New Brunswick,13,2.4
+2021,data.New Brunswick,13,4.9
+2020,data.Quebec,24,5.3
+2021,data.Quebec,24,5.7
+2020,data.Ontario,35,7.9
+2021,data.Ontario,35,11
+2020,data.Manitoba,46,4.2
+2021,data.Manitoba,46,5.4
+2020,data.Saskatchewan,47,4.4
+2021,data.Saskatchewan,47,4.9
+2020,data.Alberta,48,6.6
+2021,data.Alberta,48,7.6
+2020,data.British Columbia,59,10.1
+2021,data.British Columbia,59,11.5
+2015,,NA,3.8
+2015,data.Total Non-Census metropolitan area,NA,2.1
+2015,data.Total Census metropolitan area,NA,4.5
+2015,"data.Abbotsford–Mission, British Columbia",NA,3.8
+2015,"data.Barrie, Ontario",NA,0
+2015,"data.Brantford, Ontario",NA,3.6
+2015,"data.Calgary, Alberta",NA,4.7
+2015,"data.Edmonton, Alberta",NA,6
+2015,"data.Gatineau, Quebec",NA,2.4
+2015,"data.Greater Sudbury, Ontario",NA,0.6
+2015,"data.Guelph, Ontario",NA,0
+2015,"data.Halifax, Nova Scotia",NA,1.9
+2015,"data.Hamilton, Ontario",NA,9.9
+2015,"data.Kelowna, British Columbia",NA,1.5
+2015,"data.Kingston, Ontario",NA,4.8
+2015,"data.Kitchener–Cambridge–Waterloo, Ontario",NA,9.4
+2015,"data.London, Ontario",NA,3.9
+2015,"data.Moncton, New Brunswick",NA,1.3
+2015,"data.Montréal, Quebec",NA,4.2
+2015,"data.Ottawa, Ontario",NA,7.3
+2015,"data.Peterborough, Ontario",NA,7.4
+2015,"data.Québec, Quebec",NA,3.5
+2015,"data.Regina, Saskatchewan",NA,0.4
+2015,"data.Saguenay, Quebec",NA,3
+2015,"data.Saint John, New Brunswick",NA,2.4
+2015,"data.Saskatoon, Saskatchewan",NA,2.3
+2015,"data.Sherbrooke, Quebec",NA,4
+2015,"data.St. Catharines–Niagara, Ontario",NA,2
+2015,"data.St. John's, Newfoundland and Labrador",NA,0.5
+2015,"data.Thunder Bay, Ontario",NA,22.3
+2015,"data.Toronto, Ontario",NA,5.4
+2015,"data.Trois-Rivières, Quebec",NA,1.3
+2015,"data.Vancouver, British Columbia",NA,4.6
+2015,"data.Victoria, British Columbia",NA,1.9
+2015,"data.Windsor, Ontario",NA,1.3
+2015,"data.Winnipeg, Manitoba",NA,3.1
+2016,,NA,3.9
+2016,data.Total Non-Census metropolitan area,NA,2.3
+2016,data.Total Census metropolitan area,NA,4.6
+2016,"data.Abbotsford–Mission, British Columbia",NA,3.8
+2016,"data.Barrie, Ontario",NA,0.5
+2016,"data.Brantford, Ontario",NA,3.6
+2016,"data.Calgary, Alberta",NA,3.6
+2016,"data.Edmonton, Alberta",NA,3.6
+2016,"data.Gatineau, Quebec",NA,0.9
+2016,"data.Greater Sudbury, Ontario",NA,1.2
+2016,"data.Guelph, Ontario",NA,7.6
+2016,"data.Halifax, Nova Scotia",NA,0.7
+2016,"data.Hamilton, Ontario",NA,12.5
+2016,"data.Kelowna, British Columbia",NA,0.5
+2016,"data.Kingston, Ontario",NA,4.2
+2016,"data.Kitchener–Cambridge–Waterloo, Ontario",NA,3.5
+2016,"data.London, Ontario",NA,3.3
+2016,"data.Moncton, New Brunswick",NA,5.1
+2016,"data.Montréal, Quebec",NA,4.7
+2016,"data.Ottawa, Ontario",NA,9.5
+2016,"data.Peterborough, Ontario",NA,4
+2016,"data.Québec, Quebec",NA,7.1
+2016,"data.Regina, Saskatchewan",NA,4.4
+2016,"data.Saguenay, Quebec",NA,1.8
+2016,"data.Saint John, New Brunswick",NA,1.6
+2016,"data.Saskatoon, Saskatchewan",NA,1.6
+2016,"data.Sherbrooke, Quebec",NA,2
+2016,"data.St. Catharines–Niagara, Ontario",NA,2.4
+2016,"data.St. John's, Newfoundland and Labrador",NA,0.5
+2016,"data.Thunder Bay, Ontario",NA,8.3
+2016,"data.Toronto, Ontario",NA,5.2
+2016,"data.Trois-Rivières, Quebec",NA,1.3
+2016,"data.Vancouver, British Columbia",NA,5.7
+2016,"data.Victoria, British Columbia",NA,4.6
+2016,"data.Windsor, Ontario",NA,3.3
+2016,"data.Winnipeg, Manitoba",NA,2.6
+2017,,NA,5.7
+2017,data.Total Non-Census metropolitan area,NA,2.7
+2017,data.Total Census metropolitan area,NA,6.9
+2017,"data.Abbotsford–Mission, British Columbia",NA,5.2
+2017,"data.Barrie, Ontario",NA,4.4
+2017,"data.Belleville, Ontario",NA,2
+2017,"data.Brantford, Ontario",NA,0.7
+2017,"data.Calgary, Alberta",NA,5.2
+2017,"data.Edmonton, Alberta",NA,4.7
+2017,"data.Gatineau, Quebec",NA,4.2
+2017,"data.Greater Sudbury, Ontario",NA,1.2
+2017,"data.Guelph, Ontario",NA,11.5
+2017,"data.Halifax, Nova Scotia",NA,2.6
+2017,"data.Hamilton, Ontario",NA,16.3
+2017,"data.Kelowna, British Columbia",NA,1
+2017,"data.Kingston, Ontario",NA,8.4
+2017,"data.Kitchener–Cambridge–Waterloo, Ontario",NA,9.4
+2017,"data.Lethbridge, Alberta",NA,1.7
+2017,"data.London, Ontario",NA,5
+2017,"data.Moncton, New Brunswick",NA,4.4
+2017,"data.Montréal, Quebec",NA,7.4
+2017,"data.Ottawa, Ontario",NA,9.2
+2017,"data.Peterborough, Ontario",NA,9.5
+2017,"data.Québec, Quebec",NA,9.9
+2017,"data.Regina, Saskatchewan",NA,2
+2017,"data.Saguenay, Quebec",NA,2.4
+2017,"data.Saint John, New Brunswick",NA,0.8
+2017,"data.Saskatoon, Saskatchewan",NA,1.6
+2017,"data.Sherbrooke, Quebec",NA,5
+2017,"data.St. Catharines–Niagara, Ontario",NA,4.5
+2017,"data.St. John's, Newfoundland and Labrador",NA,0.5
+2017,"data.Thunder Bay, Ontario",NA,17.1
+2017,"data.Toronto, Ontario",NA,9.3
+2017,"data.Trois-Rivières, Quebec",NA,2.6
+2017,"data.Vancouver, British Columbia",NA,7
+2017,"data.Victoria, British Columbia",NA,2.6
+2017,"data.Windsor, Ontario",NA,5.5
+2017,"data.Winnipeg, Manitoba",NA,2.4
+2018,,NA,4.9
+2018,data.Total Non-Census metropolitan area,NA,2.2
+2018,data.Total Census metropolitan area,NA,6
+2018,"data.Abbotsford–Mission, British Columbia",NA,3
+2018,"data.Barrie, Ontario",NA,1.7
+2018,"data.Belleville, Ontario",NA,0
+2018,"data.Brantford, Ontario",NA,1.4
+2018,"data.Calgary, Alberta",NA,7.8
+2018,"data.Edmonton, Alberta",NA,4.9
+2018,"data.Gatineau, Quebec",NA,5.4
+2018,"data.Greater Sudbury, Ontario",NA,1.8
+2018,"data.Guelph, Ontario",NA,8.5
+2018,"data.Halifax, Nova Scotia",NA,4
+2018,"data.Hamilton, Ontario",NA,17
+2018,"data.Kelowna, British Columbia",NA,1.4
+2018,"data.Kingston, Ontario",NA,2.9
+2018,"data.Kitchener–Cambridge–Waterloo, Ontario",NA,6.7
+2018,"data.Lethbridge, Alberta",NA,2.4
+2018,"data.London, Ontario",NA,6.4
+2018,"data.Moncton, New Brunswick",NA,5
+2018,"data.Montréal, Quebec",NA,6.1
+2018,"data.Ottawa, Ontario",NA,9.9
+2018,"data.Peterborough, Ontario",NA,0.8
+2018,"data.Québec, Quebec",NA,5.7
+2018,"data.Regina, Saskatchewan",NA,1.9
+2018,"data.Saguenay, Quebec",NA,1.2
+2018,"data.Saint John, New Brunswick",NA,0.8
+2018,"data.Saskatoon, Saskatchewan",NA,3.1
+2018,"data.Sherbrooke, Quebec",NA,4
+2018,"data.St. Catharines–Niagara, Ontario",NA,1.7
+2018,"data.St. John's, Newfoundland and Labrador",NA,0.5
+2018,"data.Thunder Bay, Ontario",NA,4.8
+2018,"data.Toronto, Ontario",NA,7.2
+2018,"data.Trois-Rivières, Quebec",NA,0
+2018,"data.Vancouver, British Columbia",NA,7.4
+2018,"data.Victoria, British Columbia",NA,6.3
+2018,"data.Windsor, Ontario",NA,1.6
+2018,"data.Winnipeg, Manitoba",NA,3.6
+2019,,NA,5.2
+2019,data.Total Non-Census metropolitan area,NA,3
+2019,data.Total Census metropolitan area,NA,6.1
+2019,"data.Abbotsford–Mission, British Columbia",NA,6.9
+2019,"data.Barrie, Ontario",NA,3.1
+2019,"data.Belleville, Ontario",NA,1.8
+2019,"data.Brantford, Ontario",NA,4.9
+2019,"data.Calgary, Alberta",NA,5.2
+2019,"data.Edmonton, Alberta",NA,5
+2019,"data.Gatineau, Quebec",NA,9.1
+2019,"data.Greater Sudbury, Ontario",NA,1.8
+2019,"data.Guelph, Ontario",NA,8.4
+2019,"data.Halifax, Nova Scotia",NA,1.8
+2019,"data.Hamilton, Ontario",NA,15.7
+2019,"data.Kelowna, British Columbia",NA,1.4
+2019,"data.Kingston, Ontario",NA,5.2
+2019,"data.Kitchener–Cambridge–Waterloo, Ontario",NA,2.5
+2019,"data.Lethbridge, Alberta",NA,1.6
+2019,"data.London, Ontario",NA,6.2
+2019,"data.Moncton, New Brunswick",NA,4.9
+2019,"data.Montréal, Quebec",NA,5.5
+2019,"data.Ottawa, Ontario",NA,10.8
+2019,"data.Peterborough, Ontario",NA,8.6
+2019,"data.Québec, Quebec",NA,8
+2019,"data.Regina, Saskatchewan",NA,0.8
+2019,"data.Saguenay, Quebec",NA,0
+2019,"data.Saint John, New Brunswick",NA,3.1
+2019,"data.Saskatoon, Saskatchewan",NA,3
+2019,"data.Sherbrooke, Quebec",NA,2.4
+2019,"data.St. Catharines–Niagara, Ontario",NA,1.9
+2019,"data.St. John's, Newfoundland and Labrador",NA,1
+2019,"data.Thunder Bay, Ontario",NA,3.2
+2019,"data.Toronto, Ontario",NA,7.2
+2019,"data.Trois-Rivières, Quebec",NA,5
+2019,"data.Vancouver, British Columbia",NA,8.6
+2019,"data.Victoria, British Columbia",NA,4.2
+2019,"data.Windsor, Ontario",NA,4.4
+2019,"data.Winnipeg, Manitoba",NA,5
+2020,,NA,7
+2020,data.Total Non-Census metropolitan area,NA,4
+2020,data.Total Census metropolitan area,NA,8.1
+2020,"data.Abbotsford–Mission, British Columbia",NA,3.9
+2020,"data.Barrie, Ontario",NA,4.6
+2020,"data.Belleville, Ontario",NA,0.9
+2020,"data.Brantford, Ontario",NA,4.8
+2020,"data.Calgary, Alberta",NA,9.3
+2020,"data.Edmonton, Alberta",NA,5.4
+2020,"data.Gatineau, Quebec",NA,5.5
+2020,"data.Greater Sudbury, Ontario",NA,2.4
+2020,"data.Guelph, Ontario",NA,15.1
+2020,"data.Halifax, Nova Scotia",NA,3.8
+2020,"data.Hamilton, Ontario",NA,9.9
+2020,"data.Kelowna, British Columbia",NA,2.7
+2020,"data.Kingston, Ontario",NA,13.2
+2020,"data.Kitchener–Cambridge–Waterloo, Ontario",NA,8.9
+2020,"data.Lethbridge, Alberta",NA,6.3
+2020,"data.London, Ontario",NA,8.1
+2020,"data.Moncton, New Brunswick",NA,4.2
+2020,"data.Montréal, Quebec",NA,6.9
+2020,"data.Ottawa, Ontario",NA,16.7
+2020,"data.Peterborough, Ontario",NA,19.4
+2020,"data.Québec, Quebec",NA,8.1
+2020,"data.Regina, Saskatchewan",NA,1.5
+2020,"data.Saguenay, Quebec",NA,0
+2020,"data.Saint John, New Brunswick",NA,2.3
+2020,"data.Saskatoon, Saskatchewan",NA,5.3
+2020,"data.Sherbrooke, Quebec",NA,2.4
+2020,"data.St. Catharines–Niagara, Ontario",NA,2.1
+2020,"data.St. John's, Newfoundland and Labrador",NA,0.5
+2020,"data.Thunder Bay, Ontario",NA,11.1
+2020,"data.Toronto, Ontario",NA,9.4
+2020,"data.Trois-Rivières, Quebec",NA,4.3
+2020,"data.Vancouver, British Columbia",NA,13.5
+2020,"data.Victoria, British Columbia",NA,8.5
+2020,"data.Windsor, Ontario",NA,3.1
+2020,"data.Winnipeg, Manitoba",NA,3.7
+2021,,NA,8.8
+2021,data.Total Non-Census metropolitan area,NA,5.1
+2021,data.Total Census metropolitan area,NA,10.2
+2021,"data.Abbotsford–Mission, British Columbia",NA,7.7
+2021,"data.Barrie, Ontario",NA,6.4
+2021,"data.Belleville, Ontario",NA,0.9
+2021,"data.Brantford, Ontario",NA,4.7
+2021,"data.Calgary, Alberta",NA,8.9
+2021,"data.Edmonton, Alberta",NA,7.8
+2021,"data.Gatineau, Quebec",NA,6.7
+2021,"data.Greater Sudbury, Ontario",NA,5.9
+2021,"data.Guelph, Ontario",NA,4.8
+2021,"data.Halifax, Nova Scotia",NA,3.7
+2021,"data.Hamilton, Ontario",NA,15.5
+2021,"data.Kelowna, British Columbia",NA,10.5
+2021,"data.Kingston, Ontario",NA,16.7
+2021,"data.Kitchener–Cambridge–Waterloo, Ontario",NA,12.6
+2021,"data.Lethbridge, Alberta",NA,7.8
+2021,"data.London, Ontario",NA,15.6
+2021,"data.Moncton, New Brunswick",NA,3.5
+2021,"data.Montréal, Quebec",NA,6
+2021,"data.Ottawa, Ontario",NA,23.2
+2021,"data.Peterborough, Ontario",NA,18.7
+2021,"data.Québec, Quebec",NA,9.2
+2021,"data.Regina, Saskatchewan",NA,3.4
+2021,"data.Saguenay, Quebec",NA,3.5
+2021,"data.Saint John, New Brunswick",NA,4.5
+2021,"data.Saskatoon, Saskatchewan",NA,7.3
+2021,"data.Sherbrooke, Quebec",NA,3.8
+2021,"data.St. Catharines–Niagara, Ontario",NA,4.7
+2021,"data.St. John's, Newfoundland and Labrador",NA,1.9
+2021,"data.Thunder Bay, Ontario",NA,8
+2021,"data.Toronto, Ontario",NA,13.3
+2021,"data.Trois-Rivières, Quebec",NA,11.1
+2021,"data.Vancouver, British Columbia",NA,15.5
+2021,"data.Victoria, British Columbia",NA,9.6
+2021,"data.Windsor, Ontario",NA,11
+2021,"data.Winnipeg, Manitoba",NA,4.8

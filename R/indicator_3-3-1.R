@@ -21,5 +21,6 @@ body_mass <-
 write.csv(body_mass,
           "data/indicator_3-3-1.csv",
           na = "",
-          row.names = FALSE)
+          row.names = FALSE,
+          fileEncoding = "UTF-8")
 

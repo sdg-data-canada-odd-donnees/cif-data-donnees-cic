@@ -60,4 +60,5 @@ data_final <-
 write.csv(data_final,
           "data/indicator_1-2-1.csv",
           na = "",
-          row.names = FALSE)
+          row.names = FALSE,
+          fileEncoding = "UTF-8")
