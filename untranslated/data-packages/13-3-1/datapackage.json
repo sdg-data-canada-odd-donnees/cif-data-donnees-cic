@@ -15,35 +15,24 @@
             "type": "integer"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Number",
-                "data.Percentage",
-                ""
-              ]
-            }
-          },
-          {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
                 "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             }
@@ -54,9 +43,9 @@
             "constraints": {
               "enum": [
                 "data.Potable water",
-                "data.Solid waste",
                 "data.Stormwater",
                 "data.Wastewater",
+                "data.Solid waste",
                 ""
               ]
             }
@@ -77,6 +66,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

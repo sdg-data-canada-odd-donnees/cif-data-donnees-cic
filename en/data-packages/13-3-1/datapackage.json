@@ -16,36 +16,24 @@
             "title": "Year"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Number",
-                "Percentage",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
                 "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             },
@@ -57,9 +45,9 @@
             "constraints": {
               "enum": [
                 "Potable water",
-                "Solid waste",
                 "Stormwater",
                 "Wastewater",
+                "Solid waste",
                 ""
               ]
             },
@@ -82,6 +70,11 @@
               ]
             },
             "title": "Type of municipality by population size"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

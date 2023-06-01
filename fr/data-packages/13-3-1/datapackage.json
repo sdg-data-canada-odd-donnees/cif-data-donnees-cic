@@ -16,36 +16,24 @@
             "title": "Année"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Nombre",
-                "Pourcentage",
-                ""
-              ]
-            },
-            "title": "Unités"
-          },
-          {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
-                "Nunavut",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
                 "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
@@ -57,9 +45,9 @@
             "constraints": {
               "enum": [
                 "Eau potable",
-                "Déchets solides",
                 "Eaux pluviales",
                 "Eaux usées",
+                "Déchets solides",
                 ""
               ]
             },
@@ -82,6 +70,11 @@
               ]
             },
             "title": "Type de municipalité par taille de population"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
