@@ -147,9 +147,9 @@ def get_goal_progress(indicator_ids):
 
 
 indicator_ids = get_indicator_ids()
-# scores = get_goal_progress(indicator_ids)
-# diffs = update_progress_status(indicator_ids)
-# update_progress_diff(diffs)
+scores = get_goal_progress(indicator_ids)
+diffs = update_progress_status(indicator_ids)
+update_progress_diff(diffs)
 
 
 
@@ -175,16 +175,16 @@ indicator_ids = get_indicator_ids()
 
 
 # individual calculations result ----
-test_ind = merge_indicator('14-2-1')
-test_data = pm.data_progress_measure(test_ind['data'])
-# print(test_ind['meta'])
-# print(test_data)
-# test_cagr_o = pm.growth_calculation(30, 103, 2022, 2015)
-# print('cagr_o = ' + str(test_cagr_o))
-# test_cagr_r = pm.growth_calculation(0.001, 103, 2030, 2015)
-# print('cagr_r = ' + str(test_cagr_r))
-# test_ratio = test_cagr_o/test_cagr_r
-# print('ratio = ' + str(test_ratio))
-print(pm.measure_indicator_progress(test_data, test_ind['meta']))
-print(pm.progress_measure(test_ind))
-print(pm.get_indicator_score(test_ind))
+# test_ind = merge_indicator('14-2-1')
+# test_data = pm.data_progress_measure(test_ind['data'])
+# # print(test_ind['meta'])
+# # print(test_data)
+# # test_cagr_o = pm.growth_calculation(30, 103, 2022, 2015)
+# # print('cagr_o = ' + str(test_cagr_o))
+# # test_cagr_r = pm.growth_calculation(0.001, 103, 2030, 2015)
+# # print('cagr_r = ' + str(test_cagr_r))
+# # test_ratio = test_cagr_o/test_cagr_r
+# # print('ratio = ' + str(test_ratio))
+# print(pm.measure_indicator_progress(test_data, test_ind['meta']))
+# print(pm.progress_measure(test_ind))
+# print(pm.get_indicator_score(test_ind))
