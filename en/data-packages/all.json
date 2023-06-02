@@ -1886,23 +1886,10 @@
             "title": "Year"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Terajoules",
-                "Per capita",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
@@ -1922,41 +1909,9 @@
             "title": "Geography"
           },
           {
-            "name": "data.Fuel type",
+            "name": "GeoCode",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Total primary and secondary energy",
-                "Total coal",
-                "Natural gas",
-                "Gas plant natural gas liquids (NGL's)",
-                "Hydroelectricity",
-                "Nuclear",
-                "Steam",
-                "Coke",
-                "Coke oven gas",
-                "Total refined petroleum products",
-                ""
-              ]
-            },
-            "title": "Fuel type"
-          },
-          {
-            "name": "data.Demand characteristics",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total industrial",
-                "Total transportation",
-                "Agriculture",
-                "Residential",
-                "Public administration",
-                "Commercial and other institutional",
-                "Energy use - final demand",
-                ""
-              ]
-            },
-            "title": "Demand characteristics"
+            "title": "GeoCode"
           },
           {
             "name": "Value",

@@ -1886,23 +1886,10 @@
             "title": "Année"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Térajoules",
-                "Par habitant",
-                ""
-              ]
-            },
-            "title": "Unités"
-          },
-          {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -1922,41 +1909,9 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Fuel type",
+            "name": "GeoCode",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Énergie primaire et secondaire totale",
-                "Total charbon",
-                "Gaz naturel",
-                "Liquides de gaz naturel des usines de gaz (LGN)",
-                "Hydroélectricité",
-                "Nucléaire",
-                "Vapeur",
-                "Coke",
-                "Gaz de cokerie",
-                "Total des produits pétroliers raffinés",
-                ""
-              ]
-            },
-            "title": "Type de combustible"
-          },
-          {
-            "name": "data.Demand characteristics",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total industriel",
-                "Total transport",
-                "Agriculture",
-                "Résidentiel",
-                "Administrations publiques",
-                "Commerces et autres institutions",
-                "Consommation énergétique finale",
-                ""
-              ]
-            },
-            "title": "Caractéristiques d’écoulement"
+            "title": "GeoCode"
           },
           {
             "name": "Value",
