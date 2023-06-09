@@ -1,11 +1,5 @@
 name: Progress measure update
 
-# on:
- # schedule:
-# # run at 9:05am on tuesday
-# # edit cron helper: https://crontab.guru/
-   # - cron: '30 13 * * 2'
-
 on:
   push:
     branches:
@@ -34,12 +28,7 @@ jobs:
       run: |
         python CIFProgressStatus.py
         
-    # - name: Check if there are any changes
-    #   id: verify_diff
-    #   run: |
-    #     git diff --quiet . || echo "::set-output name=new_data_exists::true"
-  
-      - name: Commit files
+    - name: Commit files
       # if: steps.verify_diff.outputs.new_data_exists == 'true'
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
