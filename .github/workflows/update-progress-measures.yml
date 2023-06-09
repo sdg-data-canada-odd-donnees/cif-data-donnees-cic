@@ -1,16 +1,12 @@
 name: Progress measure update
 
-#on:
-
- # schedule:
-# # run at 10:00am on tuesday
-# # edit cron helper: https://crontab.guru/
-   # - cron: '00 14 * * 2'
-
 on:
   push:
     branches:
       - develop
+  schedule:
+  # run at 10:00am on tuesday
+      - cron: '00 14 * * 2'
 
 jobs:
   run-progress-measure:
