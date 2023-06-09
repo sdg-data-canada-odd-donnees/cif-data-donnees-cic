@@ -1,6 +1,13 @@
 name: Progress measure update
 
 on:
+
+ # schedule:
+# # run at 10:00am on tuesday
+# # edit cron helper: https://crontab.guru/
+   # - cron: '00 14 * * 2'
+
+on:
   push:
     branches:
       - develop
@@ -34,7 +41,7 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
-        git commit -m "Add new data updates"
+        git commit -m "Add new progress measure updates"
 
     - name: Push changes
       # if: steps.verify_diff.outputs.new_data_exists == 'true'
