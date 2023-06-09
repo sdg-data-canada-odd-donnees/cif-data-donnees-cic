@@ -13,11 +13,13 @@ on:
 
 jobs:
   run-progress-measure:
-
     runs-on: windows-2019
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
       with:
@@ -30,7 +32,7 @@ jobs:
         
     - name: Update progress measure
       run: |
-        python CIFProgressMeasure.py
+        python CIFProgressStatus.py
         
     # - name: Check if there are any changes
     #   id: verify_diff
