@@ -1,5 +1,4 @@
 # import packages used in this script
-import statistics
 import yamlmd
 import os
 import pandas as pd
@@ -113,7 +112,6 @@ def update_progress_status(indicator_ids):
 
 
 def get_goal_progress(indicator_ids):
-
     scores = {}
 
     for ind_id in indicator_ids:
@@ -130,8 +128,8 @@ def get_goal_progress(indicator_ids):
 
     return scores
 
-def output_calculation_components(indicator_ids):
 
+def output_calculation_components(indicator_ids):
     components_dict = {}
 
     for ind_id in indicator_ids:
@@ -191,6 +189,7 @@ def output_calculation_components(indicator_ids):
 
     return components_dict
 
+
 # get all indicator ids from listed data files
 indicator_ids = get_indicator_ids()
 
@@ -206,9 +205,3 @@ scores = get_goal_progress(indicator_ids)
 # if there have been changes to any progress measure, update the difference file
 if diffs:
     update_progress_diff(diffs)
-
-
-
-
-
-
