@@ -20,20 +20,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon",
+                "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
                 "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
                 "Nunavut",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             },
@@ -45,21 +45,20 @@
             "constraints": {
               "enum": [
                 "Diphtérie",
-                "Coqueluche",
-                "Tétanos",
-                "Polio",
-                "Haemophilus influenzae de type B",
-                "Rougeole",
-                "Rubéole",
-                "Oreillons",
+                "Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",
+                "Haemophilus influenzae de type B (Hib)",
                 "Hépatite B",
-                "Varicelle",
+                "Virus du papillome humain (VPH)",
+                "Rougeole",
                 "Méningite de type C",
+                "Rubéole",
+                "Coqueluche",
                 "Pneumocoque",
+                "Polio",
                 "Rotavirus",
-                "Virus du papillome humain",
-                "Vaccin de rappel de la diphtérie, la coqueluche et le tétanos",
-                "Diphtérie, la coqueluche et le tétanos",
+                "Oreillons",
+                "Tétanos",
+                "Varicelle",
                 ""
               ]
             },
@@ -72,25 +71,12 @@
               "enum": [
                 "2 ans",
                 "7 ans",
-                "14 ans",
                 "17 ans",
+                "14 ans",
                 ""
               ]
             },
             "title": "Âge"
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Tous les enfants",
-                "Homme",
-                "Femme",
-                ""
-              ]
-            },
-            "title": "Sexe"
           },
           {
             "name": "Value",

@@ -19,20 +19,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Yukon",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
                 "data.Northwest Territories",
+                "data.Nova Scotia",
                 "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon",
                 ""
               ]
             }
@@ -43,21 +43,20 @@
             "constraints": {
               "enum": [
                 "data.Diphtheria",
-                "data.Pertussis",
-                "data.Tetanus",
-                "data.Polio",
-                "data.Haemophilus influenzae type B",
-                "data.Measles",
-                "data.Mumps",
-                "data.Rubella",
+                "data.Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
+                "data.Haemophilus influenzae type B (Hib)",
                 "data.Hepatitis B",
-                "data.Varicella",
+                "data.Human Papillomavirus (HPV)",
+                "data.Measles",
                 "data.Meningococcal type C",
+                "data.Mumps",
+                "data.Pertussis (whooping cough)",
                 "data.Pneumococcal",
+                "data.Polio",
                 "data.Rotavirus",
-                "data.Human Papillomavirus",
-                "data.Diphtheria - Tetanus - acellular Pertussis booster",
-                "data.Diphtheria - Pertussis and tetanus",
+                "data.Rubella",
+                "data.Tetanus",
+                "data.Varicella",
                 ""
               ]
             }
@@ -69,20 +68,8 @@
               "enum": [
                 "data.by 2 years of age",
                 "data.by 7 years of age",
-                "data.by 14 years of age",
                 "data.by 17 years of age",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.All children",
-                "data.Male",
-                "data.Female",
+                "data.by 14 years of age",
                 ""
               ]
             }

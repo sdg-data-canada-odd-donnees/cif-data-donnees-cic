@@ -20,20 +20,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
                 "Northwest Territories",
+                "Nova Scotia",
                 "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             },
@@ -45,21 +45,20 @@
             "constraints": {
               "enum": [
                 "Diphtheria",
-                "Pertussis",
-                "Tetanus",
-                "Polio",
-                "Haemophilus influenzae type B",
-                "Measles",
-                "Mumps",
-                "Rubella",
+                "Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
+                "Haemophilus influenzae type B (Hib)",
                 "Hepatitis B",
-                "Varicella",
+                "Human Papillomavirus (HPV)",
+                "Measles",
                 "Meningococcal type C",
+                "Mumps",
+                "Pertussis (whooping cough)",
                 "Pneumococcal",
+                "Polio",
                 "Rotavirus",
-                "Human Papillomavirus",
-                "Diphtheria - Tetanus - acellular Pertussis booster",
-                "Diphtheria - Pertussis and tetanus",
+                "Rubella",
+                "Tetanus",
+                "Varicella",
                 ""
               ]
             },
@@ -72,25 +71,12 @@
               "enum": [
                 "by 2 years of age",
                 "by 7 years of age",
-                "by 14 years of age",
                 "by 17 years of age",
+                "by 14 years of age",
                 ""
               ]
             },
             "title": "Age"
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "All children",
-                "Male",
-                "Female",
-                ""
-              ]
-            },
-            "title": "Sex"
           },
           {
             "name": "Value",
