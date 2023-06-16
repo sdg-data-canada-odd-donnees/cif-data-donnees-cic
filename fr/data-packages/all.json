@@ -472,6 +472,9 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
+                "Territoires du Nord-Ouest",
+                "Yukon",
+                "Nunavut",
                 ""
               ]
             },
@@ -3594,10 +3597,7 @@
             "constraints": {
               "enum": [
                 "Diphtérie",
-                "Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",
                 "Haemophilus influenzae de type B (Hib)",
-                "Hépatite B",
-                "Virus du papillome humain (VPH)",
                 "Rougeole",
                 "Méningite de type C",
                 "Rubéole",
@@ -3608,6 +3608,9 @@
                 "Oreillons",
                 "Tétanos",
                 "Varicelle",
+                "Hépatite B",
+                "Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",
+                "Virus du papillome humain (VPH)",
                 ""
               ]
             },
@@ -3626,6 +3629,11 @@
               ]
             },
             "title": "Âge"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

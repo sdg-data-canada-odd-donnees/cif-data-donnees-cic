@@ -442,6 +442,9 @@
                 "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
+                "data.Northwest Territories",
+                "data.Yukon",
+                "data.Nunavut",
                 ""
               ]
             }
@@ -3346,10 +3349,7 @@
             "constraints": {
               "enum": [
                 "data.Diphtheria",
-                "data.Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
                 "data.Haemophilus influenzae type B (Hib)",
-                "data.Hepatitis B",
-                "data.Human Papillomavirus (HPV)",
                 "data.Measles",
                 "data.Meningococcal type C",
                 "data.Mumps",
@@ -3360,6 +3360,9 @@
                 "data.Rubella",
                 "data.Tetanus",
                 "data.Varicella",
+                "data.Hepatitis B",
+                "data.Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
+                "data.Human Papillomavirus (HPV)",
                 ""
               ]
             }
@@ -3376,6 +3379,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
