@@ -2334,6 +2334,74 @@
       "title": "Percentage of Canadians who report eating fruits and vegetables 5 or more times per day"
     },
     {
+      "path": "17-2-1/data.csv",
+      "name": "17-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "data.Pillar",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Cross-border flows to TOSSD-eligible countries",
+                "data.Global and regional expenditures for international public goods",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.All regions",
+                "data.Global",
+                "data.Africa",
+                "data.Asia",
+                "data.America",
+                "data.Europe",
+                "data.Middle East",
+                "data.Oceania",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unnamed: 4",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unnamed: 5",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Total official support for sustainable development"
+    },
+    {
       "path": "5-3-1/data.csv",
       "name": "5-3-1",
       "profile": "tabular-data-resource",
@@ -4513,28 +4581,6 @@
         ]
       },
       "title": "Proportion of forest area under an independently verified forest management certification scheme"
-    },
-    {
-      "path": "17-2-1/data.csv",
-      "name": "17-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Total official support for sustainable development"
     }
   ]
 }

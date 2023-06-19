@@ -12,12 +12,62 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "data.Pillar",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Cross-border flows to TOSSD-eligible countries",
+                "Global and regional expenditures for international public goods",
+                ""
+              ]
+            },
+            "title": "Pillar"
+          },
+          {
+            "name": "data.Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All regions",
+                "Global",
+                "Africa",
+                "Asia",
+                "America",
+                "Europe",
+                "Middle East",
+                "Oceania",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Unnamed: 4",
             "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Unnamed: 4"
+          },
+          {
+            "name": "Unnamed: 5",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Unnamed: 5"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]
