@@ -2509,60 +2509,6 @@
       "title": "Percentage of Canadians who report eating fruits and vegetables 5 or more times per day"
     },
     {
-      "path": "17-2-1/data.csv",
-      "name": "17-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Année"
-          },
-          {
-            "name": "data.Pillar",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Flux transfrontaliers vers les pays admissibles au TOSSD",
-                "Dépenses mondiales et régionales pour les biens publics internationaux",
-                ""
-              ]
-            },
-            "title": "Pilier"
-          },
-          {
-            "name": "data.Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Toutes les régions",
-                "Mondial",
-                "Afrique",
-                "Asie",
-                "Amerique",
-                "Europe",
-                "Moyen-Orient",
-                "Océanie",
-                ""
-              ]
-            },
-            "title": "Région"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Total official support for sustainable development"
-    },
-    {
       "path": "5-3-1/data.csv",
       "name": "5-3-1",
       "profile": "tabular-data-resource",
@@ -4904,6 +4850,30 @@
         ]
       },
       "title": "Proportion of forest area under an independently verified forest management certification scheme"
+    },
+    {
+      "path": "17-2-1/data.csv",
+      "name": "17-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Total official support for sustainable development"
     }
   ]
 }

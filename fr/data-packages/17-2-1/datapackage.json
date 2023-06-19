@@ -12,42 +12,12 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Année"
           },
           {
-            "name": "data.Pillar",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Flux transfrontaliers vers les pays admissibles au TOSSD",
-                "Dépenses mondiales et régionales pour les biens publics internationaux",
-                ""
-              ]
-            },
-            "title": "Pilier"
-          },
-          {
-            "name": "data.Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Toutes les régions",
-                "Mondial",
-                "Afrique",
-                "Asie",
-                "Amerique",
-                "Europe",
-                "Moyen-Orient",
-                "Océanie",
-                ""
-              ]
-            },
-            "title": "Région"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valeur"
           }
         ]
