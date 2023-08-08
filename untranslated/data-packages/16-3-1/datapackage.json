@@ -20,19 +20,19 @@
             "constraints": {
               "enum": [
                 "data.Canada",
-                "data.Newfoundland and Labrador [10]",
-                "data.Prince Edward Island [11]",
-                "data.Nova Scotia [12]",
-                "data.New Brunswick [13]",
-                "data.Quebec [24]",
-                "data.Ontario [35]",
-                "data.Manitoba [46]",
-                "data.Saskatchewan [47]",
-                "data.Alberta [48]",
-                "data.British Columbia [59]",
-                "data.Yukon [60]",
-                "data.Northwest Territories [61]",
-                "data.Nunavut [62]",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             }
@@ -62,7 +62,7 @@
           },
           {
             "name": "GeoCode",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "Value",

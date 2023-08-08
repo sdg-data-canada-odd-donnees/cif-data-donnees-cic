@@ -4,8 +4,9 @@ Year,Geography,Index,GeoCode,Value
 2017,,,,73.6
 2018,,,,75.61
 2019,,,,79.75
-2020,,,,73.9
-2021,,,,73.68
+2020,,,,73.96
+2021,,,,74.9
+2022,,,,78.1
 2015,Canada,Violent crime severity index,,75.34
 2015,Canada,Youth crime severity index,,60.42
 2015,Canada,Youth violent crime severity index,,66.39
@@ -281,113 +282,168 @@ Year,Geography,Index,GeoCode,Value
 2019,Nunavut,Violent crime severity index,62,640.76
 2019,Nunavut,Youth crime severity index,62,227.9
 2019,Nunavut,Youth violent crime severity index,62,244.82
-2020,Canada,Violent crime severity index,,87.97
-2020,Canada,Youth crime severity index,,42.99
-2020,Canada,Youth violent crime severity index,,66.88
+2020,Canada,Violent crime severity index,,88.04
+2020,Canada,Youth crime severity index,,43.02
+2020,Canada,Youth violent crime severity index,,66.92
 2020,Newfoundland and Labrador,Crime severity index,10,69.56
 2020,Newfoundland and Labrador,Violent crime severity index,10,81.78
-2020,Newfoundland and Labrador,Youth crime severity index,10,36.93
-2020,Newfoundland and Labrador,Youth violent crime severity index,10,50.66
-2020,Prince Edward Island,Crime severity index,11,57.24
-2020,Prince Edward Island,Violent crime severity index,11,56.39
-2020,Prince Edward Island,Youth crime severity index,11,19.1
-2020,Prince Edward Island,Youth violent crime severity index,11,22.65
-2020,Nova Scotia,Crime severity index,12,72.15
-2020,Nova Scotia,Violent crime severity index,12,100.2
-2020,Nova Scotia,Youth crime severity index,12,34.93
-2020,Nova Scotia,Youth violent crime severity index,12,48.46
-2020,New Brunswick,Crime severity index,13,83.35
-2020,New Brunswick,Violent crime severity index,13,84.37
-2020,New Brunswick,Youth crime severity index,13,38.22
-2020,New Brunswick,Youth violent crime severity index,13,47.05
-2020,Quebec,Crime severity index,24,51.59
-2020,Quebec,Violent crime severity index,24,74.34
+2020,Newfoundland and Labrador,Youth crime severity index,10,36.92
+2020,Newfoundland and Labrador,Youth violent crime severity index,10,50.65
+2020,Prince Edward Island,Crime severity index,11,57.25
+2020,Prince Edward Island,Violent crime severity index,11,56.4
+2020,Prince Edward Island,Youth crime severity index,11,19.11
+2020,Prince Edward Island,Youth violent crime severity index,11,22.66
+2020,Nova Scotia,Crime severity index,12,72.17
+2020,Nova Scotia,Violent crime severity index,12,100.22
+2020,Nova Scotia,Youth crime severity index,12,34.94
+2020,Nova Scotia,Youth violent crime severity index,12,48.48
+2020,New Brunswick,Crime severity index,13,83.37
+2020,New Brunswick,Violent crime severity index,13,84.39
+2020,New Brunswick,Youth crime severity index,13,38.23
+2020,New Brunswick,Youth violent crime severity index,13,47.07
+2020,Quebec,Crime severity index,24,51.6
+2020,Quebec,Violent crime severity index,24,74.36
 2020,Quebec,Youth crime severity index,24,48.52
-2020,Quebec,Youth violent crime severity index,24,76.55
-2020,Ontario,Crime severity index,35,55.47
-2020,Ontario,Violent crime severity index,35,69.58
-2020,Ontario,Youth crime severity index,35,37.33
-2020,Ontario,Youth violent crime severity index,35,62.53
-2020,Manitoba,Crime severity index,46,125.84
-2020,Manitoba,Violent crime severity index,46,171.0
-2020,Manitoba,Youth crime severity index,46,83.34
-2020,Manitoba,Youth violent crime severity index,46,128.72
-2020,Saskatchewan,Crime severity index,47,142.6
-2020,Saskatchewan,Violent crime severity index,47,179.28
-2020,Saskatchewan,Youth crime severity index,47,93.36
-2020,Saskatchewan,Youth violent crime severity index,47,129.34
-2020,Alberta,Crime severity index,48,108.7
-2020,Alberta,Violent crime severity index,48,109.72
-2020,Alberta,Youth crime severity index,48,38.01
-2020,Alberta,Youth violent crime severity index,48,59.26
-2020,British Columbia,Crime severity index,59,97.35
-2020,British Columbia,Violent crime severity index,59,91.22
-2020,British Columbia,Youth crime severity index,59,29.39
-2020,British Columbia,Youth violent crime severity index,59,40.3
-2020,Yukon,Crime severity index,60,214.71
-2020,Yukon,Violent crime severity index,60,255.26
+2020,Quebec,Youth violent crime severity index,24,76.56
+2020,Ontario,Crime severity index,35,55.54
+2020,Ontario,Violent crime severity index,35,69.67
+2020,Ontario,Youth crime severity index,35,37.37
+2020,Ontario,Youth violent crime severity index,35,62.59
+2020,Manitoba,Crime severity index,46,125.91
+2020,Manitoba,Violent crime severity index,46,171.1
+2020,Manitoba,Youth crime severity index,46,83.41
+2020,Manitoba,Youth violent crime severity index,46,128.82
+2020,Saskatchewan,Crime severity index,47,142.7
+2020,Saskatchewan,Violent crime severity index,47,179.41
+2020,Saskatchewan,Youth crime severity index,47,93.43
+2020,Saskatchewan,Youth violent crime severity index,47,129.44
+2020,Alberta,Crime severity index,48,108.78
+2020,Alberta,Violent crime severity index,48,109.8
+2020,Alberta,Youth crime severity index,48,38.03
+2020,Alberta,Youth violent crime severity index,48,59.3
+2020,British Columbia,Crime severity index,59,97.41
+2020,British Columbia,Violent crime severity index,59,91.28
+2020,British Columbia,Youth crime severity index,59,29.41
+2020,British Columbia,Youth violent crime severity index,59,40.33
+2020,Yukon,Crime severity index,60,214.77
+2020,Yukon,Violent crime severity index,60,255.33
 2020,Yukon,Youth crime severity index,60,115.4
 2020,Yukon,Youth violent crime severity index,60,129.95
-2020,Northwest Territories,Crime severity index,61,414.06
-2020,Northwest Territories,Violent crime severity index,61,517.3
-2020,Northwest Territories,Youth crime severity index,61,141.95
-2020,Northwest Territories,Youth violent crime severity index,61,152.09
-2020,Nunavut,Crime severity index,62,378.01
-2020,Nunavut,Violent crime severity index,62,655.97
-2020,Nunavut,Youth crime severity index,62,136.06
-2020,Nunavut,Youth violent crime severity index,62,176.87
-2021,Canada,Violent crime severity index,,92.5
-2021,Canada,Youth crime severity index,,40.96
-2021,Canada,Youth violent crime severity index,,64.2
-2021,Newfoundland and Labrador,Crime severity index,10,75.5
-2021,Newfoundland and Labrador,Violent crime severity index,10,97.31
-2021,Newfoundland and Labrador,Youth crime severity index,10,31.77
-2021,Newfoundland and Labrador,Youth violent crime severity index,10,40.92
-2021,Prince Edward Island,Crime severity index,11,56.95
-2021,Prince Edward Island,Violent crime severity index,11,60.03
-2021,Prince Edward Island,Youth crime severity index,11,22.61
-2021,Prince Edward Island,Youth violent crime severity index,11,29.67
-2021,Nova Scotia,Crime severity index,12,71.6
-2021,Nova Scotia,Violent crime severity index,12,94.66
-2021,Nova Scotia,Youth crime severity index,12,39.43
+2020,Northwest Territories,Crime severity index,61,414.29
+2020,Northwest Territories,Violent crime severity index,61,517.6
+2020,Northwest Territories,Youth crime severity index,61,141.99
+2020,Northwest Territories,Youth violent crime severity index,61,152.13
+2020,Nunavut,Crime severity index,62,377.99
+2020,Nunavut,Violent crime severity index,62,655.94
+2020,Nunavut,Youth crime severity index,62,136.0
+2020,Nunavut,Youth violent crime severity index,62,176.79
+2021,Canada,Violent crime severity index,,93.43
+2021,Canada,Youth crime severity index,,41.61
+2021,Canada,Youth violent crime severity index,,64.99
+2021,Newfoundland and Labrador,Crime severity index,10,77.84
+2021,Newfoundland and Labrador,Violent crime severity index,10,97.38
+2021,Newfoundland and Labrador,Youth crime severity index,10,31.86
+2021,Newfoundland and Labrador,Youth violent crime severity index,10,39.87
+2021,Prince Edward Island,Crime severity index,11,56.22
+2021,Prince Edward Island,Violent crime severity index,11,59.68
+2021,Prince Edward Island,Youth crime severity index,11,21.72
+2021,Prince Edward Island,Youth violent crime severity index,11,28.29
+2021,Nova Scotia,Crime severity index,12,72.23
+2021,Nova Scotia,Violent crime severity index,12,99.01
+2021,Nova Scotia,Youth crime severity index,12,39.68
 2021,Nova Scotia,Youth violent crime severity index,12,52.58
-2021,New Brunswick,Crime severity index,13,88.48
-2021,New Brunswick,Violent crime severity index,13,90.35
-2021,New Brunswick,Youth crime severity index,13,31.99
-2021,New Brunswick,Youth violent crime severity index,13,43.29
-2021,Quebec,Crime severity index,24,54.3
-2021,Quebec,Violent crime severity index,24,82.95
-2021,Quebec,Youth crime severity index,24,54.3
-2021,Quebec,Youth violent crime severity index,24,89.29
-2021,Ontario,Crime severity index,35,56.21
-2021,Ontario,Violent crime severity index,35,72.15
-2021,Ontario,Youth crime severity index,35,31.87
-2021,Ontario,Youth violent crime severity index,35,51.98
-2021,Manitoba,Crime severity index,46,126.92
-2021,Manitoba,Violent crime severity index,46,182.46
-2021,Manitoba,Youth crime severity index,46,72.42
-2021,Manitoba,Youth violent crime severity index,46,114.9
-2021,Saskatchewan,Crime severity index,47,146.76
-2021,Saskatchewan,Violent crime severity index,47,185.93
-2021,Saskatchewan,Youth crime severity index,47,88.96
-2021,Saskatchewan,Youth violent crime severity index,47,126.37
-2021,Alberta,Crime severity index,48,101.36
-2021,Alberta,Violent crime severity index,48,112.41
-2021,Alberta,Youth crime severity index,48,36.59
-2021,Alberta,Youth violent crime severity index,48,56.73
-2021,British Columbia,Crime severity index,59,92.86
-2021,British Columbia,Violent crime severity index,59,95.16
-2021,British Columbia,Youth crime severity index,59,26.92
-2021,British Columbia,Youth violent crime severity index,59,38.24
-2021,Yukon,Crime severity index,60,213.26
-2021,Yukon,Violent crime severity index,60,268.71
-2021,Yukon,Youth crime severity index,60,114.61
-2021,Yukon,Youth violent crime severity index,60,145.8
-2021,Northwest Territories,Crime severity index,61,391.27
-2021,Northwest Territories,Violent crime severity index,61,472.73
-2021,Northwest Territories,Youth crime severity index,61,109.73
-2021,Northwest Territories,Youth violent crime severity index,61,143.49
-2021,Nunavut,Crime severity index,62,384.09
-2021,Nunavut,Violent crime severity index,62,596.08
-2021,Nunavut,Youth crime severity index,62,131.34
-2021,Nunavut,Youth violent crime severity index,62,134.46
+2021,New Brunswick,Crime severity index,13,87.49
+2021,New Brunswick,Violent crime severity index,13,89.44
+2021,New Brunswick,Youth crime severity index,13,31.35
+2021,New Brunswick,Youth violent crime severity index,13,42.54
+2021,Quebec,Crime severity index,24,56.59
+2021,Quebec,Violent crime severity index,24,83.86
+2021,Quebec,Youth crime severity index,24,57.15
+2021,Quebec,Youth violent crime severity index,24,91.31
+2021,Ontario,Crime severity index,35,56.17
+2021,Ontario,Violent crime severity index,35,72.85
+2021,Ontario,Youth crime severity index,35,31.84
+2021,Ontario,Youth violent crime severity index,35,51.79
+2021,Manitoba,Crime severity index,46,128.62
+2021,Manitoba,Violent crime severity index,46,182.56
+2021,Manitoba,Youth crime severity index,46,72.59
+2021,Manitoba,Youth violent crime severity index,46,117.39
+2021,Saskatchewan,Crime severity index,47,148.24
+2021,Saskatchewan,Violent crime severity index,47,187.15
+2021,Saskatchewan,Youth crime severity index,47,87.67
+2021,Saskatchewan,Youth violent crime severity index,47,126.51
+2021,Alberta,Crime severity index,48,101.27
+2021,Alberta,Violent crime severity index,48,114.09
+2021,Alberta,Youth crime severity index,48,36.11
+2021,Alberta,Youth violent crime severity index,48,57.52
+2021,British Columbia,Crime severity index,59,96.89
+2021,British Columbia,Violent crime severity index,59,95.87
+2021,British Columbia,Youth crime severity index,59,28.12
+2021,British Columbia,Youth violent crime severity index,59,39.82
+2021,Yukon,Crime severity index,60,218.19
+2021,Yukon,Violent crime severity index,60,271.81
+2021,Yukon,Youth crime severity index,60,120.51
+2021,Yukon,Youth violent crime severity index,60,158.84
+2021,Northwest Territories,Crime severity index,61,403.24
+2021,Northwest Territories,Violent crime severity index,61,464.47
+2021,Northwest Territories,Youth crime severity index,61,112.56
+2021,Northwest Territories,Youth violent crime severity index,61,157.21
+2021,Nunavut,Crime severity index,62,394.25
+2021,Nunavut,Violent crime severity index,62,597.88
+2021,Nunavut,Youth crime severity index,62,131.8
+2021,Nunavut,Youth violent crime severity index,62,141.78
+2022,Canada,Violent crime severity index,,97.74
+2022,Canada,Youth crime severity index,,50.19
+2022,Canada,Youth violent crime severity index,,82.77
+2022,Newfoundland and Labrador,Crime severity index,10,82.16
+2022,Newfoundland and Labrador,Violent crime severity index,10,95.81
+2022,Newfoundland and Labrador,Youth crime severity index,10,28.18
+2022,Newfoundland and Labrador,Youth violent crime severity index,10,41.13
+2022,Prince Edward Island,Crime severity index,11,59.33
+2022,Prince Edward Island,Violent crime severity index,11,62.96
+2022,Prince Edward Island,Youth crime severity index,11,22.2
+2022,Prince Edward Island,Youth violent crime severity index,11,33.89
+2022,Nova Scotia,Crime severity index,12,74.67
+2022,Nova Scotia,Violent crime severity index,12,99.24
+2022,Nova Scotia,Youth crime severity index,12,43.81
+2022,Nova Scotia,Youth violent crime severity index,12,66.33
+2022,New Brunswick,Crime severity index,13,86.16
+2022,New Brunswick,Violent crime severity index,13,96.54
+2022,New Brunswick,Youth crime severity index,13,40.11
+2022,New Brunswick,Youth violent crime severity index,13,65.54
+2022,Quebec,Crime severity index,24,59.73
+2022,Quebec,Violent crime severity index,24,88.0
+2022,Quebec,Youth crime severity index,24,62.94
+2022,Quebec,Youth violent crime severity index,24,98.36
+2022,Ontario,Crime severity index,35,58.47
+2022,Ontario,Violent crime severity index,35,77.71
+2022,Ontario,Youth crime severity index,35,41.61
+2022,Ontario,Youth violent crime severity index,35,73.48
+2022,Manitoba,Crime severity index,46,146.49
+2022,Manitoba,Violent crime severity index,46,210.93
+2022,Manitoba,Youth crime severity index,46,111.05
+2022,Manitoba,Youth violent crime severity index,46,198.08
+2022,Saskatchewan,Crime severity index,47,152.46
+2022,Saskatchewan,Violent crime severity index,47,190.31
+2022,Saskatchewan,Youth crime severity index,47,100.86
+2022,Saskatchewan,Youth violent crime severity index,47,162.74
+2022,Alberta,Crime severity index,48,103.21
+2022,Alberta,Violent crime severity index,48,110.43
+2022,Alberta,Youth crime severity index,48,42.47
+2022,Alberta,Youth violent crime severity index,48,70.31
+2022,British Columbia,Crime severity index,59,100.37
+2022,British Columbia,Violent crime severity index,59,100.78
+2022,British Columbia,Youth crime severity index,59,31.15
+2022,British Columbia,Youth violent crime severity index,59,45.17
+2022,Yukon,Crime severity index,60,207.61
+2022,Yukon,Violent crime severity index,60,264.14
+2022,Yukon,Youth crime severity index,60,100.44
+2022,Yukon,Youth violent crime severity index,60,133.39
+2022,Northwest Territories,Crime severity index,61,436.79
+2022,Northwest Territories,Violent crime severity index,61,532.5
+2022,Northwest Territories,Youth crime severity index,61,149.98
+2022,Northwest Territories,Youth violent crime severity index,61,198.24
+2022,Nunavut,Crime severity index,62,379.68
+2022,Nunavut,Violent crime severity index,62,579.24
+2022,Nunavut,Youth crime severity index,62,119.4
+2022,Nunavut,Youth violent crime severity index,62,128.59
