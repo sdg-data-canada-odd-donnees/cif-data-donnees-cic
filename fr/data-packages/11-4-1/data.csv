@@ -1,50 +1,128 @@
-Year,Géographie,Value
-2016,Terre-Neuve-et-Labrador,26.7
-2016,"St. John's, Terre-Neuve-et-Labrador",59.9
-2016,Île-du-Prince-Édouard,16.9
-2016,Nouvelle-Écosse,37.6
-2016,"Halifax, Nouvelle-Écosse",70.9
-2016,Nouveau-Brunswick,28.8
-2016,"Moncton, Nouveau-Brunswick",65.4
-2016,"Saint John, Nouveau-Brunswick",49.1
-2016,Québec,66.6
-2016,"Montréal, Québec",91.6
-2016,"Ottawa - Gatineau (partie du Québec), Québec",77.2
-2016,"Québec, Québec",83.1
-2016,"Saguenay, Québec",75.4
-2016,"Sherbrooke, Québec",76.4
-2016,"Trois-Rivières, Québec",75.4
-2016,Ontario,75.2
-2016,"Barrie, Ontario",66.8
-2016,"Belleville, Ontario",57.1
-2016,"Brantford, Ontario",69.6
-2016,"Greater Sudbury / Grand Sudbury, Ontario",66.5
-2016,"Guelph, Ontario",83.5
-2016,"Hamilton, Ontario",81.1
-2016,"Kingston, Ontario",69.4
-2016,"Kitchener - Cambridge - Waterloo, Ontario",86.2
-2016,"London, Ontario",77.7
-2016,"Oshawa, Ontario",88.7
-2016,"Ottawa - Gatineau (partie de l'Ontario), Ontario",85.0
-2016,"Peterborough, Ontario",62.7
-2016,"St. Catharines - Niagara, Ontario",80.9
-2016,"Thunder Bay, Ontario",76.3
-2016,"Toronto, Ontario",93.0
-2016,"Windsor, Ontario",67.1
-2016,Manitoba,57.4
-2016,"Winnipeg, Manitoba",88.2
-2016,Saskatchewan,50.3
-2016,"Regina, Saskatchewan",90.4
-2016,"Saskatoon, Saskatchewan",82.6
-2016,Alberta,67.9
-2016,"Calgary, Alberta",88.9
-2016,"Edmonton, Alberta",82.7
-2016,"Lethbridge, Alberta",71.6
-2016,Colombie-Britannique,78.4
-2016,"Abbotsford - Mission, Colombie-Britannique",79.3
-2016,"Kelowna, Colombie-Britannique",73.7
-2016,"Vancouver, Colombie-Britannique",92.7
-2016,"Victoria, Colombie-Britannique",90.4
-2016,Yukon,56.3
-2016,Territoires du Nord-Ouest,41.4
-2016,Nunavut,0.0
+Year,data.Series,data.Demographic and geodemographic,Géographie,GeoCode,Value
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,Terre-Neuve-et-Labrador,10,26.7
+2023,Âge,data.0 to 14 years,Terre-Neuve-et-Labrador,10,6.9
+2023,Âge,15 à 64 ans,Terre-Neuve-et-Labrador,10,36.2
+2023,Âge,65 ans et plus,Terre-Neuve-et-Labrador,10,11.4
+2023,Genre,Hommes+,Terre-Neuve-et-Labrador,10,26.3
+2023,Total,data.Percentage of population within 500 metres of a public transit stop,Terre-Neuve-et-Labrador,10,54.5
+2023,Genre,Femmes+,Terre-Neuve-et-Labrador,10,28.2
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,Île-du-Prince-Édouard,11,16.9
+2023,Âge,data.0 to 14 years,Île-du-Prince-Édouard,11,5.3
+2023,Âge,15 à 64 ans,Île-du-Prince-Édouard,11,24.1
+2023,Âge,65 ans et plus,Île-du-Prince-Édouard,11,7.9
+2023,Genre,Hommes+,Île-du-Prince-Édouard,11,19.5
+2023,Total,data.Percentage of population within 500 metres of a public transit stop,Île-du-Prince-Édouard,11,40.8
+2023,Genre,Femmes+,Île-du-Prince-Édouard,11,21.2
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,Nouvelle-Écosse,12,37.6
+2023,Âge,data.0 to 14 years,Nouvelle-Écosse,12,8.0
+2023,Âge,15 à 64 ans,Nouvelle-Écosse,12,39.2
+2023,Âge,65 ans et plus,Nouvelle-Écosse,12,11.1
+2023,Genre,Hommes+,Nouvelle-Écosse,12,28.1
+2023,Total,data.Percentage of population within 500 metres of a public transit stop,Nouvelle-Écosse,12,58.3
+2023,Genre,Femmes+,Nouvelle-Écosse,12,30.2
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,Nouveau-Brunswick,13,28.8
+2023,Âge,data.0 to 14 years,Nouveau-Brunswick,13,7.5
+2023,Âge,15 à 64 ans,Nouveau-Brunswick,13,33.3
+2023,Âge,65 ans et plus,Nouveau-Brunswick,13,10.3
+2023,Genre,Hommes+,Nouveau-Brunswick,13,24.6
+2023,Total,data.Percentage of population within 500 metres of a public transit stop,Nouveau-Brunswick,13,51.1
+2023,Genre,Femmes+,Nouveau-Brunswick,13,26.5
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,Ontario,24,75.2
+2023,Âge,data.0 to 14 years,Ontario,24,11.4
+2023,Âge,15 à 64 ans,Ontario,24,49.5
+2023,Âge,65 ans et plus,Ontario,24,12.9
+2023,Genre,Hommes+,Ontario,24,35.9
+2023,Total,data.Percentage of population within 500 metres of a public transit stop,Ontario,24,73.8
+2023,Genre,Femmes+,Ontario,24,37.9
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,Québec,24,66.6
+2023,Âge,data.0 to 14 years,Québec,24,12.6
+2023,Âge,15 à 64 ans,Québec,24,50.7
+2023,Âge,65 ans et plus,Québec,24,15.9
+2023,Genre,Hommes+,Québec,24,38.7
+2023,Total,data.Percentage of population within 500 metres of a public transit stop,Québec,24,79.2
+2023,Genre,Femmes+,Québec,24,40.5
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,Manitoba,46,57.4
+2023,Âge,data.0 to 14 years,Manitoba,46,13.8
+2023,Âge,15 à 64 ans,Manitoba,46,55.0
+2023,Âge,65 ans et plus,Manitoba,46,14.0
+2023,Genre,Hommes+,Manitoba,46,40.7
+2023,Total,data.Percentage of population within 500 metres of a public transit stop,Manitoba,46,82.7
+2023,Genre,Femmes+,Manitoba,46,42.0
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,Saskatchewan,47,50.3
+2023,Âge,data.0 to 14 years,Saskatchewan,47,14.9
+2023,Âge,15 à 64 ans,Saskatchewan,47,52.1
+2023,Âge,65 ans et plus,Saskatchewan,47,12.8
+2023,Genre,Hommes+,Saskatchewan,47,78.1
+2023,Total,data.Percentage of population within 500 metres of a public transit stop,Saskatchewan,47,79.7
+2023,Genre,Femmes+,Saskatchewan,47,81.3
+2023,Âge,data.0 to 14 years,Alberta,48,13.8
+2023,Âge,15 à 64 ans,Alberta,48,51.9
+2023,Âge,65 ans et plus,Alberta,48,10.7
+2023,Genre,Hommes+,Alberta,48,38.0
+2023,Total,data.Percentage of population within 500 metres of a public transit stop,Alberta,48,76.4
+2023,Genre,Femmes+,Alberta,48,38.5
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,Alberta,48,67.9
+2023,Âge,data.0 to 14 years,Colombie-Britannique,59,10.6
+2023,Âge,15 à 64 ans,Colombie-Britannique,59,50.4
+2023,Âge,65 ans et plus,Colombie-Britannique,59,14.9
+2023,Genre,Hommes+,Colombie-Britannique,59,37.0
+2023,Total,data.Percentage of population within 500 metres of a public transit stop,Colombie-Britannique,59,75.9
+2023,Genre,Femmes+,Colombie-Britannique,59,38.9
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,Colombie-Britannique,59,78.4
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,Yukon,60,56.3
+2023,Âge,data.0 to 14 years,Yukon,60,13.2
+2023,Âge,15 à 64 ans,Yukon,60,52.1
+2023,Âge,65 ans et plus,Yukon,60,10.1
+2023,Genre,Hommes+,Yukon,60,37.0
+2023,Total,data.Percentage of population within 500 metres of a public transit stop,Yukon,60,75.5
+2023,Genre,Femmes+,Yukon,60,38.5
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,Territoires du Nord-Ouest,61,41.4
+2023,Âge,data.0 to 14 years,Territoires du Nord-Ouest,61,17.7
+2023,Âge,15 à 64 ans,Territoires du Nord-Ouest,61,63.1
+2023,Âge,65 ans et plus,Territoires du Nord-Ouest,61,7.0
+2023,Genre,Hommes+,Territoires du Nord-Ouest,61,43.7
+2023,Total,data.Percentage of population within 500 metres of a public transit stop,Territoires du Nord-Ouest,61,87.9
+2023,Genre,Femmes+,Territoires du Nord-Ouest,61,44.2
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,Nunavut,62,0.0
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Abbotsford - Mission, Colombie-Britannique",,79.3
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Barrie, Ontario",,66.8
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Belleville, Ontario",,57.1
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Brantford, Ontario",,69.6
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Calgary, Alberta",,88.9
+2023,Âge,data.0 to 14 years,Canada,,11.8
+2023,Âge,15 à 64 ans,Canada,,49.7
+2023,Âge,65 ans et plus,Canada,,13.6
+2023,Genre,Hommes+,Canada,,37.6
+2023,Total,data.Percentage of population within 500 metres of a public transit stop,Canada,,75.1
+2023,Genre,Femmes+,Canada,,39.3
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Edmonton, Alberta",,82.7
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Greater Sudbury / Grand Sudbury, Ontario",,66.5
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Guelph, Ontario",,83.5
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Halifax, Nouvelle-Écosse",,70.9
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Hamilton, Ontario",,81.1
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Kelowna, Colombie-Britannique",,73.7
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Kingston, Ontario",,69.4
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Kitchener - Cambridge - Waterloo, Ontario",,86.2
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Lethbridge, Alberta",,71.6
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"London, Ontario",,77.7
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Moncton, Nouveau-Brunswick",,65.4
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Montreal, Quebec",,91.6
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Oshawa, Ontario",,88.7
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Ottawa - Gatineau (partie de l'Ontario), Ontario",,85.0
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Ottawa - Gatineau (partie du Québec), Québec",,77.2
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Peterborough, Ontario",,62.7
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Québec, Québec",,83.1
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Regina, Saskatchewan",,90.4
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Saguenay, Québec",,75.4
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Saint John, Nouveau-Brunswick",,49.1
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Saskatoon, Saskatchewan",,82.6
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Sherbrooke, Québec",,76.4
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"St. Catharines - Niagara, Ontario",,80.9
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"St. John's, Terre-Neuve-et-Labrador",,59.9
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Thunder Bay, Ontario",,76.3
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Toronto, Ontario",,93.0
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Trois-Rivières, Québec",,75.4
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Vancouver, Colombie-Britannique",,92.7
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Victoria, Colombie-Britannique",,90.4
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Windsor, Ontario",,67.1
+2016,Total,data.Percentage of population within 500 metres of a public transit stop,"Winnipeg, Manitoba",,88.2
