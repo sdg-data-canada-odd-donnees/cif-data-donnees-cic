@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Series",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
@@ -26,15 +26,15 @@
                 ""
               ]
             },
-            "title": "data.Series"
+            "title": "Units"
           },
           {
             "name": "data.Demographic and geodemographic",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Percentage of population within 500 metres of a public transit stop",
-                "data.0 to 14 years",
+                "Percentage of population within 500 metres of a public transit stop",
+                "0 to 14 years",
                 "15 to 64 years",
                 "65 years and over",
                 "Men+",
@@ -42,7 +42,7 @@
                 ""
               ]
             },
-            "title": "data.Demographic and geodemographic"
+            "title": "Demographic and geodemographic"
           },
           {
             "name": "data.Geography",
