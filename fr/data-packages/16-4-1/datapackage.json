@@ -16,6 +16,18 @@
             "title": "Année"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Taux par 100 000 personnes",
+                "Nombre",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
@@ -60,7 +72,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valeur"
           }
         ]

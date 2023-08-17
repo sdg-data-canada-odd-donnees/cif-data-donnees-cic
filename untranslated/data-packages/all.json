@@ -445,6 +445,17 @@
             "type": "integer"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Rate per 100,000 population",
+                "data.Number",
+                ""
+              ]
+            }
+          },
+          {
             "name": "data.Geography",
             "type": "string",
             "constraints": {
@@ -486,7 +497,7 @@
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
