@@ -32,7 +32,22 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Alberta",
+                "Colombie-Britannique",
                 "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
+                "Nunavut",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "data.Total Census metropolitan area",
+                "data.Total Non-Census metropolitan area",
+                "Yukon",
                 ""
               ]
             },

@@ -30,7 +30,22 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Alberta",
+                "data.British Columbia",
                 "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Total Census metropolitan area",
+                "data.Total Non-Census metropolitan area",
+                "data.Yukon",
                 ""
               ]
             }
