@@ -608,7 +608,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-9",
       "schema": {
         "fields": [
           {
@@ -665,7 +665,6 @@
                 "data.Belleville, Ontario",
                 "data.Brantford, Ontario",
                 "data.Calgary, Alberta",
-                "data.Canada",
                 "data.Edmonton, Alberta",
                 "data.Greater Sudbury / Grand Sudbury, Ontario",
                 "data.Guelph, Ontario",
@@ -697,6 +696,7 @@
                 "data.Victoria, British Columbia",
                 "data.Windsor, Ontario",
                 "data.Winnipeg, Manitoba",
+                "data.Canada",
                 ""
               ]
             }
