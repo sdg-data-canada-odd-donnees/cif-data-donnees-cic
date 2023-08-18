@@ -3950,7 +3950,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Selected sociodemographic characteristics",
+            "name": "Selected sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
@@ -3962,7 +3962,7 @@
                 ""
               ]
             },
-            "title": "data.Selected sociodemographic characteristics"
+            "title": "Selected sociodemographic characteristics"
           },
           {
             "name": "Value",

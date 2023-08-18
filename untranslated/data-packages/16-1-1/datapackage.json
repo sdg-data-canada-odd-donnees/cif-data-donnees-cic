@@ -15,7 +15,7 @@
             "type": "integer"
           },
           {
-            "name": "data.Selected sociodemographic characteristics",
+            "name": "Selected sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
