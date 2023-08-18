@@ -15,10 +15,37 @@
             "type": "integer"
           },
           {
-            "name": "data.Sex",
+            "name": "data.Visible minority",
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Arab",
+                "data.Black",
+                "data.Chinese",
+                "data.Filipino",
+                "data.Latin American",
+                "data.Not a visible minority",
+                "data.South Asian",
+                "data.Southeast Asian",
+                "data.Total, Visible minority",
+                "data.Total visible minority population",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Selected sociodemographic characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.15 to 24 years",
+                "data.25 to 64 years",
+                "data.65 years and over",
+                "data.Immigrants",
+                "data.Men+",
+                "data.Non-immigrants",
+                "data.Total, 15 years and over",
+                "data.Women+",
                 "data.Men",
                 "data.Women",
                 ""
@@ -27,7 +54,7 @@
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }
