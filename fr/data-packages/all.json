@@ -3950,26 +3950,6 @@
             "title": "Année"
           },
           {
-            "name": "data.Visible minority",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Arab",
-                "Noirs",
-                "data.Chinese",
-                "data.Filipino",
-                "data.Latin American",
-                "Pas une minorité visible",
-                "data.South Asian",
-                "data.Southeast Asian",
-                "data.Total, Visible minority",
-                "Total de la population des minorités visibles",
-                ""
-              ]
-            },
-            "title": "Minorité visible"
-          },
-          {
             "name": "data.Selected sociodemographic characteristics",
             "type": "string",
             "constraints": {
@@ -3977,13 +3957,8 @@
                 "15 à 24 ans",
                 "25 à 64 ans",
                 "65 ans et plus",
-                "Immigrants",
                 "Hommes+",
-                "data.Non-immigrants",
-                "Total, 15 ans et plus",
                 "Femmes+",
-                "Hommes",
-                "Femmes",
                 ""
               ]
             },
