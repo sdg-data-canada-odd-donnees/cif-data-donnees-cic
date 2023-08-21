@@ -40,14 +40,14 @@ Indicator,Disaggregations,Number of disaggregations
 #3-5-1,"data.Geography, data.Age group, data.Sex",3
 #3-6-1,"data.Geography, data.Age group, data.Sex",3
 #3-7-1,"data.Geography, data.Age group, data.Sex",3
-#3-8-1,"data.Geography, data.Selected diseases, data.Age",3
+#3-8-1,"data.Geography, data.Age, data.Selected diseases",3
 #3-9-1,data.Disease,1
 #4-1-1,"data.Geography, data.Age group, data.Gender, data.Selected demographic characteristics",4
 #4-2-1,"data.Geography, data.Age group, data.Sex, data.Population characteristics, data.Educational attainment level",5
 #5-1-1,"data.Geography, data.Sex, data.Type of perpetrator",3
 #5-1-2,"data.Type of intimate partner violence, data.Selected characteristic",2
 #5-2-1,data.Leadership position,1
-#5-3-1,"data.Geography, data.Sex, data.Age, data.Activity group",4
+#5-3-1,"data.Geography, data.Sex, data.Activity group, data.Age",4
 #6-1-1,data.Geography,1
 #6-2-1,data.Geography,1
 #6-3-1,data.Sector,1
@@ -59,6 +59,7 @@ Indicator,Disaggregations,Number of disaggregations
 #8-3-1,"data.Geography, data.Age group, data.Sex",3
 #8-4-1,"data.Geography, data.Age group, data.Sex",3
 #8-5-1,data.Geography,1
+#8-6-1,Geography,1
 #9-2-1,data.Geography,1
 #9-3-1,"data.Geography, data.Population centres",2
 #9-4-1,"data.Geography, data.Population centres",2
