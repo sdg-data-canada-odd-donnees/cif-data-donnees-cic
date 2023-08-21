@@ -2548,6 +2548,17 @@
             "type": "integer"
           },
           {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
