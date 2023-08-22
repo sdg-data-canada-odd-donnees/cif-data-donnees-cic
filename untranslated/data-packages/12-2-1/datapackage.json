@@ -15,7 +15,7 @@
             "type": "integer"
           },
           {
-            "name": "data.Industries",
+            "name": "Industries",
             "type": "string",
             "constraints": {
               "enum": [
@@ -45,7 +45,7 @@
             }
           },
           {
-            "name": "data.Environmental protection activities or management practices",
+            "name": "Environmental protection activities or management practices",
             "type": "string",
             "constraints": {
               "enum": [
