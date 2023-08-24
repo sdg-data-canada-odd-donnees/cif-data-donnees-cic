@@ -16,47 +16,47 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Nouvelle-Écosse",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
                 "Territoires",
+                "Canada",
                 ""
               ]
             },
             "title": "Géographie"
           },
           {
-            "name": "data.Type of materials diverted",
+            "name": "Type of materials diverted",
             "type": "string",
             "constraints": {
               "enum": [
                 "Toutes les matières",
                 "Toutes les fibres cellulosiques",
-                "Verre",
-                "Métaux ferreux",
-                "Cuivre et aluminium",
-                "Métaux mélangés",
-                "Électroménagers",
-                "Matériel électronique",
-                "Matières plastiques",
-                "Récipients triangulaires et aseptiques",
-                "Textiles",
-                "Pneus",
                 "Déchets provenant de la construction, de la rénovation et de la démolition",
+                "Cuivre et aluminium",
+                "Matériel électronique",
+                "Métaux ferreux",
+                "Récipients triangulaires et aseptiques",
+                "Verre",
+                "Métaux mélangés",
                 "Matières organiques",
                 "Autres matières",
+                "Matières plastiques",
+                "Textiles",
+                "Pneus",
+                "Électroménagers",
                 ""
               ]
             },
@@ -67,9 +67,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Sources des matières résidentielles récupérées",
-                "Sources des matières non résidentielles récupérées",
                 "Toutes les sources des matières récupérées",
+                "Sources des matières non résidentielles récupérées",
+                "Sources des matières résidentielles récupérées",
                 ""
               ]
             },
