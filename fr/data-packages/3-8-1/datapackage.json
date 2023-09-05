@@ -44,21 +44,21 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Hépatite B",
+                "Virus du papillome humain (VPH)",
                 "Diphtérie",
+                "Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",
                 "Haemophilus influenzae de type B (Hib)",
                 "Rougeole",
                 "Méningite de type C",
                 "Rubéole",
                 "Coqueluche",
-                "Pneumocoque",
                 "Polio",
-                "Rotavirus",
                 "Oreillons",
                 "Tétanos",
+                "Pneumocoque",
+                "Rotavirus",
                 "Varicelle",
-                "Hépatite B",
-                "Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",
-                "Virus du papillome humain (VPH)",
                 ""
               ]
             },
@@ -69,10 +69,10 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "14 ans",
+                "17 ans",
                 "2 ans",
                 "7 ans",
-                "17 ans",
-                "14 ans",
                 ""
               ]
             },

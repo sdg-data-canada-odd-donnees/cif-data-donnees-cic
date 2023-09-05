@@ -42,21 +42,21 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Hepatitis B",
+                "data.Human Papillomavirus (HPV)",
                 "data.Diphtheria",
+                "data.Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
                 "data.Haemophilus influenzae type B (Hib)",
                 "data.Measles",
                 "data.Meningococcal type C",
                 "data.Mumps",
                 "data.Pertussis (whooping cough)",
-                "data.Pneumococcal",
                 "data.Polio",
-                "data.Rotavirus",
                 "data.Rubella",
                 "data.Tetanus",
+                "data.Pneumococcal",
+                "data.Rotavirus",
                 "data.Varicella",
-                "data.Hepatitis B",
-                "data.Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
-                "data.Human Papillomavirus (HPV)",
                 ""
               ]
             }
@@ -66,10 +66,10 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.by 14 years of age",
+                "data.by 17 years of age",
                 "data.by 2 years of age",
                 "data.by 7 years of age",
-                "data.by 17 years of age",
-                "data.by 14 years of age",
                 ""
               ]
             }

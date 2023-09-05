@@ -44,21 +44,21 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Hepatitis B",
+                "Human Papillomavirus (HPV)",
                 "Diphtheria",
+                "Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
                 "Haemophilus influenzae type B (Hib)",
                 "Measles",
                 "Meningococcal type C",
                 "Mumps",
                 "Pertussis (whooping cough)",
-                "Pneumococcal",
                 "Polio",
-                "Rotavirus",
                 "Rubella",
                 "Tetanus",
+                "Pneumococcal",
+                "Rotavirus",
                 "Varicella",
-                "Hepatitis B",
-                "Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
-                "Human Papillomavirus (HPV)",
                 ""
               ]
             },
@@ -69,10 +69,10 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "by 14 years of age",
+                "by 17 years of age",
                 "by 2 years of age",
                 "by 7 years of age",
-                "by 17 years of age",
-                "by 14 years of age",
                 ""
               ]
             },

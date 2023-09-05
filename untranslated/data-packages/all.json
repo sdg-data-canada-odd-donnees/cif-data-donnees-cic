@@ -1699,21 +1699,21 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Hepatitis B",
+                "data.Human Papillomavirus (HPV)",
                 "data.Diphtheria",
+                "data.Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
                 "data.Haemophilus influenzae type B (Hib)",
                 "data.Measles",
                 "data.Meningococcal type C",
                 "data.Mumps",
                 "data.Pertussis (whooping cough)",
-                "data.Pneumococcal",
                 "data.Polio",
-                "data.Rotavirus",
                 "data.Rubella",
                 "data.Tetanus",
+                "data.Pneumococcal",
+                "data.Rotavirus",
                 "data.Varicella",
-                "data.Hepatitis B",
-                "data.Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
-                "data.Human Papillomavirus (HPV)",
                 ""
               ]
             }
@@ -1723,10 +1723,10 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.by 14 years of age",
+                "data.by 17 years of age",
                 "data.by 2 years of age",
                 "data.by 7 years of age",
-                "data.by 17 years of age",
-                "data.by 14 years of age",
                 ""
               ]
             }
@@ -4375,24 +4375,13 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Total Non-Census metropolitan area",
-                "data.Total Census metropolitan area",
-                "data.Abbotsford–Mission, British Columbia",
+                "data.Abbotsford - Mission, British Columbia",
                 "data.Barrie, Ontario",
+                "data.Belleville, Ontario",
                 "data.Brantford, Ontario",
                 "data.Calgary, Alberta",
                 "data.Edmonton, Alberta",
@@ -4403,7 +4392,8 @@
                 "data.Hamilton, Ontario",
                 "data.Kelowna, British Columbia",
                 "data.Kingston, Ontario",
-                "data.Kitchener–Cambridge–Waterloo, Ontario",
+                "data.Kitchener - Cambridge - Waterloo, Ontario",
+                "data.Lethbridge, Alberta",
                 "data.London, Ontario",
                 "data.Moncton, New Brunswick",
                 "data.Montréal, Quebec",
@@ -4415,7 +4405,7 @@
                 "data.Saint John, New Brunswick",
                 "data.Saskatoon, Saskatchewan",
                 "data.Sherbrooke, Quebec",
-                "data.St. Catharines–Niagara, Ontario",
+                "data.St. Catharines - Niagara, Ontario",
                 "data.St. John's, Newfoundland and Labrador",
                 "data.Thunder Bay, Ontario",
                 "data.Toronto, Ontario",
@@ -4424,8 +4414,16 @@
                 "data.Victoria, British Columbia",
                 "data.Windsor, Ontario",
                 "data.Winnipeg, Manitoba",
-                "data.Belleville, Ontario",
-                "data.Lethbridge, Alberta",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             }
