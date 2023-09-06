@@ -1,79 +1,113 @@
-Year,data.Disease,Value
-2010,data.Cancer,538.3
-2010,data.Chronic obstructive pulmonary disease,980
-2010,data.Creutzfeldt-Jakob,0.11
-2010,"data.Dementia, including Alzheimer's disease",1569
-2010,data.Diabetes,686
-2010,data.HIV and AIDS,6.7
-2010,data.Hypertension,2525
-2010,data.Ischemic heart disease,738
-2010,data.Salmonella,20.63
-2010,data.Tuberculosis,4.7
-2011,data.Cancer,542.2
-2011,data.Chronic obstructive pulmonary disease,920
-2011,data.Creutzfeldt-Jakob,0.15
-2011,"data.Dementia, including Alzheimer's disease",1551
-2011,data.Diabetes,662
-2011,data.HIV and AIDS,6.57
-2011,data.Hypertension,2399
-2011,data.Ischemic heart disease,712
-2011,data.Salmonella,19.28
-2011,data.Tuberculosis,4.7
-2012,data.Cancer,530.4
-2012,data.Chronic obstructive pulmonary disease,883
-2012,data.Creutzfeldt-Jakob,0.18
-2012,"data.Dementia, including Alzheimer's disease",1514
-2012,data.Diabetes,619
-2012,data.HIV and AIDS,5.92
-2012,data.Hypertension,2236
-2012,data.Ischemic heart disease,681
-2012,data.Salmonella,19.67
-2012,data.Tuberculosis,4.9
-2013,data.Cancer,524.4
-2013,data.Chronic obstructive pulmonary disease,846
-2013,data.Creutzfeldt-Jakob,0.15
-2013,"data.Dementia, including Alzheimer's disease",1480
-2013,data.Diabetes,627
-2013,data.HIV and AIDS,5.83
-2013,data.Hypertension,2210
-2013,data.Ischemic heart disease,658
-2013,data.Salmonella,17.63
-2013,data.Tuberculosis,4.7
-2014,data.Cancer,519.1
-2014,data.Chronic obstructive pulmonary disease,860
-2014,data.Creutzfeldt-Jakob,0.16
-2014,"data.Dementia, including Alzheimer's disease",1489
-2014,data.Diabetes,615
-2014,data.HIV and AIDS,5.76
-2014,data.Hypertension,2115
-2014,data.Ischemic heart disease,641
-2014,data.Salmonella,21.56
-2014,data.Tuberculosis,4.5
-2015,data.Cancer,517.1
-2015,data.Chronic obstructive pulmonary disease,828
-2015,data.Creutzfeldt-Jakob,0.15
-2015,"data.Dementia, including Alzheimer's disease",1467
-2015,data.Diabetes,614
-2015,data.HIV and AIDS,5.82
-2015,data.Hypertension,2048
-2015,data.Ischemic heart disease,632
-2015,data.Salmonella,21.7
-2015,data.Tuberculosis,4.6
-2016,data.Cancer,514.4
-2016,data.Chronic obstructive pulmonary disease,819
-2016,data.Creutzfeldt-Jakob,0.18
-2016,"data.Dementia, including Alzheimer's disease",1445
-2016,data.Diabetes,616
-2016,data.HIV and AIDS,6.42
-2016,data.Hypertension,1975
-2016,data.Ischemic heart disease,629
-2016,data.Salmonella,21.37
-2016,data.Tuberculosis,4.8
-2017,data.Cancer,495.9
-2017,data.Creutzfeldt-Jakob,0.24
-2017,data.HIV and AIDS,6.48
-2017,data.Salmonella,19.5
-2017,data.Tuberculosis,4.9
-2018,data.Creutzfeldt-Jakob,0.21
-2018,data.HIV and AIDS,6.91
-2018,data.Salmonella,19.24
+Year,data.Disease,Value,
+2010,data.Cancer,538.3,
+2011,data.Cancer,542.2,
+2012,data.Cancer,530.4,
+2013,data.Cancer,524.4,
+2014,data.Cancer,519.1,
+2015,data.Cancer,517.1,
+2016,data.Cancer,514.4,
+2017,data.Cancer,495.9,
+2010,data.Chronic obstructive pulmonary disease,977,
+2011,data.Chronic obstructive pulmonary disease,917,
+2012,data.Chronic obstructive pulmonary disease,882,
+2013,data.Chronic obstructive pulmonary disease,845,
+2014,data.Chronic obstructive pulmonary disease,858,
+2015,data.Chronic obstructive pulmonary disease,825,
+2016,data.Chronic obstructive pulmonary disease,823,
+2017,data.Chronic obstructive pulmonary disease,800,
+2018,data.Chronic obstructive pulmonary disease,738,
+2019,data.Chronic obstructive pulmonary disease,710,
+2020,data.Chronic obstructive pulmonary disease,472,
+2010,data.Creutzfeldt-Jakob,0.11,
+2011,data.Creutzfeldt-Jakob,0.15,
+2012,data.Creutzfeldt-Jakob,0.18,
+2013,data.Creutzfeldt-Jakob,0.15,
+2014,data.Creutzfeldt-Jakob,0.16,
+2015,data.Creutzfeldt-Jakob,0.15,
+2016,data.Creutzfeldt-Jakob,0.18,
+2017,data.Creutzfeldt-Jakob,0.24,
+2018,data.Creutzfeldt-Jakob,0.22,
+2019,data.Creutzfeldt-Jakob,0.21,
+2020,data.Creutzfeldt-Jakob,0.18,
+2021,data.Creutzfeldt-Jakob,0.16,
+2022,data.Creutzfeldt-Jakob,0.23,
+2010,"data.Dementia, including Alzheimer's disease",1555,
+2011,"data.Dementia, including Alzheimer's disease",1545,
+2012,"data.Dementia, including Alzheimer's disease",1507,
+2013,"data.Dementia, including Alzheimer's disease",1472,
+2014,"data.Dementia, including Alzheimer's disease",1482,
+2015,"data.Dementia, including Alzheimer's disease",1463,
+2016,"data.Dementia, including Alzheimer's disease",1440,
+2017,"data.Dementia, including Alzheimer's disease",1419,
+2018,"data.Dementia, including Alzheimer's disease",1419,
+2019,"data.Dementia, including Alzheimer's disease",1407,
+2020,"data.Dementia, including Alzheimer's disease",1300,
+2010,data.Diabetes,692,
+2011,data.Diabetes,668,
+2012,data.Diabetes,623,
+2013,data.Diabetes,633,
+2014,data.Diabetes,621,
+2015,data.Diabetes,619,
+2016,data.Diabetes,623,
+2017,data.Diabetes,603,
+2018,data.Diabetes,608,
+2019,data.Diabetes,619,
+2020,data.Diabetes,574,
+2010,data.HIV and AIDS,6.31,
+2011,data.HIV and AIDS,6.17,
+2012,data.HIV and AIDS,5.5,
+2013,data.HIV and AIDS,5.49,
+2014,data.HIV and AIDS,5.36,
+2015,data.HIV and AIDS,5.42,
+2016,data.HIV and AIDS,5.95,
+2017,data.HIV and AIDS,5.85,
+2018,data.HIV and AIDS,6.16,
+2019,data.HIV and AIDS,5.52,
+2020,data.HIV and AIDS,4.3,
+2021,data.HIV and AIDS,3.85,
+2010,data.Hypertension,2526,
+2011,data.Hypertension,2400,
+2012,data.Hypertension,2236,
+2013,data.Hypertension,2211,
+2014,data.Hypertension,2116,
+2015,data.Hypertension,2049,
+2016,data.Hypertension,1988,
+2017,data.Hypertension,1944,
+2018,data.Hypertension,1979,
+2019,data.Hypertension,1947,
+2020,data.Hypertension,1660,
+2010,data.Ischemic heart disease,737,
+2011,data.Ischemic heart disease,710,
+2012,data.Ischemic heart disease,680,
+2013,data.Ischemic heart disease,657,
+2014,data.Ischemic heart disease,639,
+2015,data.Ischemic heart disease,630,
+2016,data.Ischemic heart disease,627,
+2017,data.Ischemic heart disease,611,
+2018,data.Ischemic heart disease,590,
+2019,data.Ischemic heart disease,589,
+2020,data.Ischemic heart disease,547,
+2010,data.Salmonella,20.63,
+2011,data.Salmonella,19.28,
+2012,data.Salmonella,19.67,
+2013,data.Salmonella,17.63,
+2014,data.Salmonella,21.56,
+2015,data.Salmonella,21.7,
+2016,data.Salmonella,21.38,
+2017,data.Salmonella,19.54,
+2018,data.Salmonella,19.27,
+2019,data.Salmonella,15.98,
+2020,data.Salmonella,12.04,
+2021,data.Salmonella,8.68,
+2010,data.Tuberculosis,4.66,
+2011,data.Tuberculosis,4.72,
+2012,data.Tuberculosis,4.9,
+2013,data.Tuberculosis,4.71,
+2014,data.Tuberculosis,4.56,
+2015,data.Tuberculosis,4.6,
+2016,data.Tuberculosis,4.88,
+2017,data.Tuberculosis,5.01,
+2018,data.Tuberculosis,4.85,
+2019,data.Tuberculosis,5.11,
+2020,data.Tuberculosis,4.66,
+2021,data.Tuberculosis,4.98,
