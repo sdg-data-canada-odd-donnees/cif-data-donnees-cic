@@ -7,102 +7,12 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-9",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total",
-                "data.Age",
-                "data.Gender",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Demographic and geodemographic",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Percentage of population within 500 metres of a public transit stop",
-                "data.0 to 14 years",
-                "data.15 to 64 years",
-                "data.65 years and over",
-                "data.Men+",
-                "data.Women+",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Ontario",
-                "data.Quebec",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                "data.Abbotsford - Mission, British Columbia",
-                "data.Barrie, Ontario",
-                "data.Belleville, Ontario",
-                "data.Brantford, Ontario",
-                "data.Calgary, Alberta",
-                "data.Edmonton, Alberta",
-                "data.Greater Sudbury / Grand Sudbury, Ontario",
-                "data.Guelph, Ontario",
-                "data.Halifax, Nova Scotia",
-                "data.Hamilton, Ontario",
-                "data.Kelowna, British Columbia",
-                "data.Kingston, Ontario",
-                "data.Kitchener - Cambridge - Waterloo, Ontario",
-                "data.Lethbridge, Alberta",
-                "data.London, Ontario",
-                "data.Moncton, New Brunswick",
-                "data.Montreal, Quebec",
-                "data.Oshawa, Ontario",
-                "data.Ottawa - Gatineau (Ontario part), Ontario",
-                "data.Ottawa - Gatineau (Quebec part), Quebec",
-                "data.Peterborough, Ontario",
-                "data.Quebec, Quebec",
-                "data.Regina, Saskatchewan",
-                "data.Saguenay, Quebec",
-                "data.Saint John, New Brunswick",
-                "data.Saskatoon, Saskatchewan",
-                "data.Sherbrooke, Quebec",
-                "data.St. Catharines - Niagara, Ontario",
-                "data.St. John's, Newfoundland and Labrador",
-                "data.Thunder Bay, Ontario",
-                "data.Toronto, Ontario",
-                "data.Trois-Rivières, Quebec",
-                "data.Vancouver, British Columbia",
-                "data.Victoria, British Columbia",
-                "data.Windsor, Ontario",
-                "data.Winnipeg, Manitoba",
-                "data.Canada",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
+            "type": "number"
           },
           {
             "name": "Value",

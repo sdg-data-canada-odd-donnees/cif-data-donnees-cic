@@ -7,107 +7,13 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "mac-roman",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total",
-                "Age",
-                "Gender",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "data.Demographic and geodemographic",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage of population within 500 metres of a public transit stop",
-                "0 to 14 years",
-                "15 to 64 years",
-                "65 years and over",
-                "Men+",
-                "Women+",
-                ""
-              ]
-            },
-            "title": "Demographic and geodemographic"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Ontario",
-                "Quebec",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
-                "Abbotsford - Mission, British Columbia",
-                "Barrie, Ontario",
-                "Belleville, Ontario",
-                "Brantford, Ontario",
-                "Calgary, Alberta",
-                "Edmonton, Alberta",
-                "Greater Sudbury / Grand Sudbury, Ontario",
-                "Guelph, Ontario",
-                "Halifax, Nova Scotia",
-                "Hamilton, Ontario",
-                "Kelowna, British Columbia",
-                "Kingston, Ontario",
-                "Kitchener - Cambridge - Waterloo, Ontario",
-                "Lethbridge, Alberta",
-                "London, Ontario",
-                "Moncton, New Brunswick",
-                "Montreal, Quebec",
-                "Oshawa, Ontario",
-                "Ottawa - Gatineau (Ontario part), Ontario",
-                "Ottawa - Gatineau (Quebec part), Quebec",
-                "Peterborough, Ontario",
-                "Quebec, Quebec",
-                "Regina, Saskatchewan",
-                "Saguenay, Quebec",
-                "Saint John, New Brunswick",
-                "Saskatoon, Saskatchewan",
-                "Sherbrooke, Quebec",
-                "St. Catharines - Niagara, Ontario",
-                "St. John's, Newfoundland and Labrador",
-                "Thunder Bay, Ontario",
-                "Toronto, Ontario",
-                "Trois-Rivières, Quebec",
-                "Vancouver, British Columbia",
-                "Victoria, British Columbia",
-                "Windsor, Ontario",
-                "Winnipeg, Manitoba",
-                "Canada",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
           },
           {
             "name": "Value",
