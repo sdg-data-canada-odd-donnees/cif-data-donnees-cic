@@ -46,26 +46,6 @@
             "title": "Region"
           },
           {
-            "name": "Unnamed: 4",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Unnamed: 4"
-          },
-          {
-            "name": "Unnamed: 5",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Unnamed: 5"
-          },
-          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
