@@ -3,7 +3,7 @@ Indicator,Disaggregations,Number of disaggregations
 #1-2-1,"data.Geography, data.Age group and family type, data.Statistics",3
 #10-1-1,data.Geography,1
 #10-2-1,Geography,1
-#10-3-1,"data.Geography, data.Age, data.Type of work, data.National Occupational Classification (NOC)",4
+#10-3-1,"data.Geography, data.Type of work, data.National Occupational Classification (NOC), data.Age",4
 #10-4-1,"data.Geography, data.Economic family type",2
 #11-1-1,data.Estimates,1
 #11-2-1,"data.Select housing vulnerable populations, data.Living with housing problems",2
@@ -42,19 +42,19 @@ Indicator,Disaggregations,Number of disaggregations
 #3-7-1,"data.Geography, data.Sex, data.Age group",3
 #3-8-1,"data.Geography, data.Age, data.Selected diseases",3
 #3-9-1,data.Disease,1
-#4-1-1,"data.Geography, data.Age group, data.Gender, data.Selected demographic characteristics",4
+#4-1-1,"data.Geography, data.Gender, data.Age group, data.Selected demographic characteristics",4
 #4-2-1,"data.Geography, data.Sex, data.Age group, data.Population characteristics, data.Educational attainment level",5
 #5-1-1,"data.Geography, data.Sex, data.Type of perpetrator",3
 #5-1-2,"data.Type of intimate partner violence, data.Selected characteristic",2
 #5-2-1,data.Leadership position,1
-#5-3-1,"data.Geography, data.Activity group, data.Age, data.Sex",4
+#5-3-1,"data.Geography, data.Sex, data.Age, data.Activity group",4
 #6-1-1,data.Geography,1
 #6-2-1,data.Geography,1
 #6-3-1,data.Sector,1
 #6-4-1,"data.Geography, data.Land use category, data.Water quality",3
 #7-2-1,data.Geography,1
 #7-3-1,"data.Geography, data.Type of electricity generation",2
-#8-1-1,"data.Geography, data.Sex, data.Population, data.Age group",4
+#8-1-1,"data.Geography, data.Sex, data.Age group, data.Population",4
 #8-2-1,"data.Geography, data.Sex, data.Age group",3
 #8-3-1,"data.Geography, data.Sex, data.Age group",3
 #8-4-1,"data.Geography, data.Sex, data.Age group",3

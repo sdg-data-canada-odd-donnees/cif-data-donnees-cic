@@ -12,12 +12,27 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Année"
           },
           {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "string",
             "title": "Valeur"
           }
         ]
