@@ -14,7 +14,7 @@ geocodes <- read.csv("geocodes.csv")
 population <-
   Raw_data2 %>%
   filter(REF_DATE >= 2018,
-         Sex == "Both sexes",
+         Gender == "Total - gender",
          `Age group` == "All ages") %>%
   select(Year = REF_DATE,
          Geography = GEO,

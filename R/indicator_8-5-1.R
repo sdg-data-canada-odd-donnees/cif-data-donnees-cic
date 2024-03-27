@@ -18,7 +18,7 @@ population <-
   Raw_data2 %>%
   filter(REF_DATE >= 2015,
          `Age group` == "All ages",
-         Sex == "Both sexes") %>%
+         Gender == "Total - gender") %>%
   select(Year = REF_DATE,
          Geography = GEO,
          Population = VALUE)
