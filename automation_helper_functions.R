@@ -6,6 +6,7 @@
 #########################################################################
 
 # load libraries
+install.packages(c("dplyr", "cansim", "stringr", "lubridate", "tidyr"))
 library(lubridate)
 library(cansim)
 
