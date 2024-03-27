@@ -36,16 +36,6 @@
             "title": "Disease"
           },
           {
-            "name": "Unnamed: 3",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Unnamed: 3"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"

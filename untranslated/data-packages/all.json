@@ -4245,15 +4245,6 @@
             }
           },
           {
-            "name": "Unnamed: 3",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "number"
           }
