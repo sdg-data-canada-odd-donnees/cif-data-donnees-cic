@@ -15,7 +15,7 @@ geocodes <- read.csv("geocodes.csv")
 
 
 # get the terajoule values of energy consumption
-# terajoules <- 
+terajoules <- 
   raw_data %>%
   filter(
     REF_DATE >= 2015,
