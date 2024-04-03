@@ -73,4 +73,3 @@ write.csv(
   row.names = FALSE,
   fileEncoding = "UTF-8"
 )
-  

@@ -130,7 +130,4 @@ write.csv(
   na = "",
   row.names = FALSE,
   fileEncoding = "UTF-8"
-)  
-  
-  
-  
+)

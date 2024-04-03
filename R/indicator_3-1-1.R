@@ -59,5 +59,3 @@ write.csv(final_data,
           na = "",
           row.names = FALSE,
           fileEncoding = "UTF-8")
-
-  
