@@ -125,21 +125,21 @@
 12-2-1:
   base_value: '90.3'
   base_year: '2018'
-  current_value: '86.3'
-  current_year: '2020'
+  current_value: '86.4'
+  current_year: '2021'
   direction: positive
-  progress_calculation_value: '-0.022399257612206513'
+  progress_calculation_value: '-0.01460883505551358'
   progress_status: deterioration
   target: None
   target_year: '2030'
 12-3-1:
-  base_value: '257.6880441'
+  base_value: '257.635662113981'
   base_year: '2018'
-  current_value: '260.5568381'
-  current_year: '2020'
+  current_value: '254.214740079986'
+  current_year: '2022'
   direction: positive
-  progress_calculation_value: '0.005551002002613714'
-  progress_status: moderate_progress
+  progress_calculation_value: '-0.0033361928264176166'
+  progress_status: deterioration
   target: None
   target_year: '2030'
 13-1-1:
