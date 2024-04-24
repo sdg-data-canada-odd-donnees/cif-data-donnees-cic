@@ -15,58 +15,61 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Nova Scotia",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
                 "data.Territories",
-                "data.Canada",
                 ""
               ]
             }
           },
           {
-            "name": "Type of materials diverted",
+            "name": "data.Type of materials diverted",
             "type": "string",
             "constraints": {
               "enum": [
                 "data.All materials diverted",
                 "data.All paper fibres",
-                "data.Construction, renovation and demolition",
-                "data.Copper and aluminum",
-                "data.Electronics",
-                "data.Ferrous metals",
-                "data.Gable top and aseptic containers",
                 "data.Glass",
+                "data.Ferrous metals",
+                "data.Copper and aluminum",
                 "data.Mixed metals",
-                "data.Organics",
-                "data.Other materials",
+                "data.White goods",
+                "data.Electronics",
                 "data.Plastics",
+                "data.Gable top and aseptic containers",
                 "data.Textiles",
                 "data.Tires",
-                "data.White goods",
+                "data.Construction, renovation and demolition",
+                "data.All organic materials",
+                "data.Food waste and source separated organics",
+                "data.Leaf and yard waste",
+                "data.Other organic materials",
+                "data.Other materials",
                 ""
               ]
             }
           },
           {
-            "name": "Sources of materials prepared for recycling",
+            "name": "data.Sources of materials prepared for recycling",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.All sources of diverted materials",
-                "data.Non-residential sources of diverted materials",
                 "data.Residential sources of diverted materials",
+                "data.Non-residential sources of diverted materials",
+                "data.All sources of diverted materials",
                 ""
               ]
             }

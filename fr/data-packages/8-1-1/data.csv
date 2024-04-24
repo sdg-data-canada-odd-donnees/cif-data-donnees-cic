@@ -7,6 +7,7 @@ Year,Géographie,Population,Sexe,Groupe d'âge,GeoCode,Value
 2020,,,,,,9.7
 2021,,,,,,7.5
 2022,,,,,,5.3
+2023,,,,,,5.4
 2015,Canada,Population totale,Les deux sexes,15 à 24 ans,,12.8
 2015,Canada,Population totale,Les deux sexes,25 ans et plus,,5.9
 2015,Canada,Population totale,Les deux sexes,25 à 44 ans,,6.2
@@ -5807,6 +5808,731 @@ Year,Géographie,Population,Sexe,Groupe d'âge,GeoCode,Value
 2022,Colombie-Britannique,Population totale,Femmes,65 ans et plus,59,3.9
 2022,Colombie-Britannique,Population totale,Femmes,65 à 69 ans,59,4.3
 2022,Colombie-Britannique,Population totale,Femmes,70 ans et plus,59,
+2023,Canada,Population totale,Les deux sexes,15 à 24 ans,,10.8
+2023,Canada,Population totale,Les deux sexes,25 ans et plus,,4.5
+2023,Canada,Population totale,Les deux sexes,25 à 44 ans,,4.9
+2023,Canada,Population totale,Les deux sexes,45 à 64 ans,,4.2
+2023,Canada,Population totale,Les deux sexes,45 ans et plus,,4.2
+2023,Canada,Population totale,Les deux sexes,25 à 54 ans,,4.5
+2023,Canada,Population totale,Les deux sexes,55 ans et plus,,4.5
+2023,Canada,Population totale,Les deux sexes,15 à 64 ans,,5.5
+2023,Canada,Population totale,Les deux sexes,15 à 19 ans,,14.0
+2023,Canada,Population totale,Les deux sexes,20 à 24 ans,,8.9
+2023,Canada,Population totale,Les deux sexes,25 à 29 ans,,6.3
+2023,Canada,Population totale,Les deux sexes,30 à 34 ans,,5.1
+2023,Canada,Population totale,Les deux sexes,35 à 39 ans,,4.2
+2023,Canada,Population totale,Les deux sexes,40 à 44 ans,,3.9
+2023,Canada,Population totale,Les deux sexes,45 à 49 ans,,3.5
+2023,Canada,Population totale,Les deux sexes,50 à 54 ans,,4.0
+2023,Canada,Population totale,Les deux sexes,55 à 59 ans,,4.2
+2023,Canada,Population totale,Les deux sexes,60 à 64 ans,,5.3
+2023,Canada,Population totale,Les deux sexes,65 ans et plus,,4.1
+2023,Canada,Population totale,Les deux sexes,65 à 69 ans,,4.6
+2023,Canada,Population totale,Les deux sexes,70 ans et plus,,3.4
+2023,Canada,Population totale,Hommes,15 ans et plus,,5.6
+2023,Canada,Population totale,Hommes,15 à 24 ans,,11.5
+2023,Canada,Population totale,Hommes,25 ans et plus,,4.6
+2023,Canada,Population totale,Hommes,25 à 44 ans,,4.9
+2023,Canada,Population totale,Hommes,45 à 64 ans,,4.2
+2023,Canada,Population totale,Hommes,45 ans et plus,,4.2
+2023,Canada,Population totale,Hommes,25 à 54 ans,,4.6
+2023,Canada,Population totale,Hommes,55 ans et plus,,4.6
+2023,Canada,Population totale,Hommes,15 à 64 ans,,5.6
+2023,Canada,Population totale,Hommes,15 à 19 ans,,14.4
+2023,Canada,Population totale,Hommes,20 à 24 ans,,9.9
+2023,Canada,Population totale,Hommes,25 à 29 ans,,6.8
+2023,Canada,Population totale,Hommes,30 à 34 ans,,5.1
+2023,Canada,Population totale,Hommes,35 à 39 ans,,4.1
+2023,Canada,Population totale,Hommes,40 à 44 ans,,3.8
+2023,Canada,Population totale,Hommes,45 à 49 ans,,3.5
+2023,Canada,Population totale,Hommes,50 à 54 ans,,4.0
+2023,Canada,Population totale,Hommes,55 à 59 ans,,4.1
+2023,Canada,Population totale,Hommes,60 à 64 ans,,5.5
+2023,Canada,Population totale,Hommes,65 ans et plus,,4.4
+2023,Canada,Population totale,Hommes,65 à 69 ans,,4.9
+2023,Canada,Population totale,Hommes,70 ans et plus,,3.6
+2023,Canada,Population totale,Femmes,15 ans et plus,,5.3
+2023,Canada,Population totale,Femmes,15 à 24 ans,,10.0
+2023,Canada,Population totale,Femmes,25 ans et plus,,4.5
+2023,Canada,Population totale,Femmes,25 à 44 ans,,4.8
+2023,Canada,Population totale,Femmes,45 à 64 ans,,4.1
+2023,Canada,Population totale,Femmes,45 ans et plus,,4.1
+2023,Canada,Population totale,Femmes,25 à 54 ans,,4.5
+2023,Canada,Population totale,Femmes,55 ans et plus,,4.4
+2023,Canada,Population totale,Femmes,15 à 64 ans,,5.3
+2023,Canada,Population totale,Femmes,15 à 19 ans,,13.5
+2023,Canada,Population totale,Femmes,20 à 24 ans,,7.9
+2023,Canada,Population totale,Femmes,25 à 29 ans,,5.7
+2023,Canada,Population totale,Femmes,30 à 34 ans,,5.1
+2023,Canada,Population totale,Femmes,35 à 39 ans,,4.3
+2023,Canada,Population totale,Femmes,40 à 44 ans,,4.1
+2023,Canada,Population totale,Femmes,45 à 49 ans,,3.6
+2023,Canada,Population totale,Femmes,50 à 54 ans,,3.9
+2023,Canada,Population totale,Femmes,55 à 59 ans,,4.3
+2023,Canada,Population totale,Femmes,60 à 64 ans,,5.0
+2023,Canada,Population totale,Femmes,65 ans et plus,,3.7
+2023,Canada,Population totale,Femmes,65 à 69 ans,,4.1
+2023,Canada,Population totale,Femmes,70 ans et plus,,3.1
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,15 ans et plus,10,10.0
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,15 à 24 ans,10,15.0
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,25 ans et plus,10,9.2
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,25 à 44 ans,10,8.2
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,45 à 64 ans,10,9.8
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,45 ans et plus,10,10.0
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,25 à 54 ans,10,7.8
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,55 ans et plus,10,12.7
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,15 à 64 ans,10,9.9
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,15 à 19 ans,10,19.0
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,20 à 24 ans,10,12.8
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,25 à 29 ans,10,7.8
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,30 à 34 ans,10,8.5
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,35 à 39 ans,10,8.0
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,40 à 44 ans,10,8.6
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,45 à 49 ans,10,6.1
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,50 à 54 ans,10,8.1
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,55 à 59 ans,10,11.5
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,60 à 64 ans,10,15.2
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,65 ans et plus,10,11.6
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,65 à 69 ans,10,13.4
+2023,Terre-Neuve-et-Labrador,Population totale,Les deux sexes,70 ans et plus,10,
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,15 ans et plus,10,11.8
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,15 à 24 ans,10,16.6
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,25 ans et plus,10,11.1
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,25 à 44 ans,10,9.6
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,45 à 64 ans,10,12.1
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,45 ans et plus,10,12.3
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,25 à 54 ans,10,9.1
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,55 ans et plus,10,15.6
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,15 à 64 ans,10,11.7
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,15 à 19 ans,10,19.0
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,20 à 24 ans,10,15.5
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,25 à 29 ans,10,8.9
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,30 à 34 ans,10,11.0
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,35 à 39 ans,10,8.7
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,40 à 44 ans,10,9.6
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,45 à 49 ans,10,7.1
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,50 à 54 ans,10,9.4
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,55 à 59 ans,10,14.7
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,60 à 64 ans,10,18.2
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,65 ans et plus,10,
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,65 à 69 ans,10,
+2023,Terre-Neuve-et-Labrador,Population totale,Hommes,70 ans et plus,10,
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,15 ans et plus,10,8.0
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,15 à 24 ans,10,12.7
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,25 ans et plus,10,7.2
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,25 à 44 ans,10,6.9
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,45 à 64 ans,10,7.5
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,45 ans et plus,10,7.6
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,25 à 54 ans,10,6.5
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,55 ans et plus,10,9.4
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,15 à 64 ans,10,7.9
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,15 à 19 ans,10,17.5
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,20 à 24 ans,10,9.7
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,25 à 29 ans,10,6.7
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,30 à 34 ans,10,5.7
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,35 à 39 ans,10,6.6
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,40 à 44 ans,10,7.6
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,45 à 49 ans,10,5.1
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,50 à 54 ans,10,6.7
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,55 à 59 ans,10,8.3
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,60 à 64 ans,10,11.5
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,65 ans et plus,10,
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,65 à 69 ans,10,
+2023,Terre-Neuve-et-Labrador,Population totale,Femmes,70 ans et plus,10,
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,15 ans et plus,11,7.3
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,15 à 24 ans,11,12.2
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,25 ans et plus,11,6.4
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,25 à 44 ans,11,5.6
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,45 à 64 ans,11,6.9
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,45 ans et plus,11,7.1
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,25 à 54 ans,11,5.9
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,55 ans et plus,11,7.5
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,15 à 64 ans,11,7.2
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,15 à 19 ans,11,17.0
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,20 à 24 ans,11,9.7
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,25 à 29 ans,11,8.3
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,30 à 34 ans,11,4.3
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,35 à 39 ans,11,4.4
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,40 à 44 ans,11,3.4
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,45 à 49 ans,11,5.6
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,50 à 54 ans,11,6.4
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,55 à 59 ans,11,5.6
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,60 à 64 ans,11,10.5
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,65 ans et plus,11,8.2
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,65 à 69 ans,11,8.1
+2023,Île-du-Prince-Édouard,Population totale,Les deux sexes,70 ans et plus,11,8.3
+2023,Île-du-Prince-Édouard,Population totale,Hommes,15 ans et plus,11,8.5
+2023,Île-du-Prince-Édouard,Population totale,Hommes,15 à 24 ans,11,12.9
+2023,Île-du-Prince-Édouard,Population totale,Hommes,25 ans et plus,11,7.4
+2023,Île-du-Prince-Édouard,Population totale,Hommes,25 à 44 ans,11,6.9
+2023,Île-du-Prince-Édouard,Population totale,Hommes,45 à 64 ans,11,7.9
+2023,Île-du-Prince-Édouard,Population totale,Hommes,45 ans et plus,11,7.8
+2023,Île-du-Prince-Édouard,Population totale,Hommes,25 à 54 ans,11,6.8
+2023,Île-du-Prince-Édouard,Population totale,Hommes,55 ans et plus,11,8.8
+2023,Île-du-Prince-Édouard,Population totale,Hommes,15 à 64 ans,11,8.4
+2023,Île-du-Prince-Édouard,Population totale,Hommes,15 à 19 ans,11,17.9
+2023,Île-du-Prince-Édouard,Population totale,Hommes,20 à 24 ans,11,10.5
+2023,Île-du-Prince-Édouard,Population totale,Hommes,25 à 29 ans,11,12.3
+2023,Île-du-Prince-Édouard,Population totale,Hommes,30 à 34 ans,11,
+2023,Île-du-Prince-Édouard,Population totale,Hommes,35 à 39 ans,11,
+2023,Île-du-Prince-Édouard,Population totale,Hommes,40 à 44 ans,11,
+2023,Île-du-Prince-Édouard,Population totale,Hommes,45 à 49 ans,11,6.8
+2023,Île-du-Prince-Édouard,Population totale,Hommes,50 à 54 ans,11,6.3
+2023,Île-du-Prince-Édouard,Population totale,Hommes,55 à 59 ans,11,
+2023,Île-du-Prince-Édouard,Population totale,Hommes,60 à 64 ans,11,12.5
+2023,Île-du-Prince-Édouard,Population totale,Hommes,65 ans et plus,11,
+2023,Île-du-Prince-Édouard,Population totale,Hommes,65 à 69 ans,11,
+2023,Île-du-Prince-Édouard,Population totale,Hommes,70 ans et plus,11,
+2023,Île-du-Prince-Édouard,Population totale,Femmes,15 ans et plus,11,5.9
+2023,Île-du-Prince-Édouard,Population totale,Femmes,15 à 24 ans,11,9.9
+2023,Île-du-Prince-Édouard,Population totale,Femmes,25 ans et plus,11,5.2
+2023,Île-du-Prince-Édouard,Population totale,Femmes,25 à 44 ans,11,4.2
+2023,Île-du-Prince-Édouard,Population totale,Femmes,45 à 64 ans,11,5.8
+2023,Île-du-Prince-Édouard,Population totale,Femmes,45 ans et plus,11,5.7
+2023,Île-du-Prince-Édouard,Population totale,Femmes,25 à 54 ans,11,5.0
+2023,Île-du-Prince-Édouard,Population totale,Femmes,55 ans et plus,11,5.9
+2023,Île-du-Prince-Édouard,Population totale,Femmes,15 à 64 ans,11,5.8
+2023,Île-du-Prince-Édouard,Population totale,Femmes,15 à 19 ans,11,12.0
+2023,Île-du-Prince-Édouard,Population totale,Femmes,20 à 24 ans,11,8.7
+2023,Île-du-Prince-Édouard,Population totale,Femmes,25 à 29 ans,11,5.5
+2023,Île-du-Prince-Édouard,Population totale,Femmes,30 à 34 ans,11,
+2023,Île-du-Prince-Édouard,Population totale,Femmes,35 à 39 ans,11,
+2023,Île-du-Prince-Édouard,Population totale,Femmes,40 à 44 ans,11,
+2023,Île-du-Prince-Édouard,Population totale,Femmes,45 à 49 ans,11,6.7
+2023,Île-du-Prince-Édouard,Population totale,Femmes,50 à 54 ans,11,6.5
+2023,Île-du-Prince-Édouard,Population totale,Femmes,55 à 59 ans,11,
+2023,Île-du-Prince-Édouard,Population totale,Femmes,60 à 64 ans,11,8.3
+2023,Île-du-Prince-Édouard,Population totale,Femmes,65 ans et plus,11,
+2023,Île-du-Prince-Édouard,Population totale,Femmes,65 à 69 ans,11,
+2023,Île-du-Prince-Édouard,Population totale,Femmes,70 ans et plus,11,
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,15 ans et plus,12,6.3
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,15 à 24 ans,12,12.1
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,25 ans et plus,12,5.3
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,25 à 44 ans,12,5.4
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,45 à 64 ans,12,5.2
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,45 ans et plus,12,5.3
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,25 à 54 ans,12,5.1
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,55 ans et plus,12,5.9
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,15 à 64 ans,12,6.3
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,15 à 19 ans,12,17.1
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,20 à 24 ans,12,9.3
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,25 à 29 ans,12,6.4
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,30 à 34 ans,12,5.1
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,35 à 39 ans,12,5.2
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,40 à 44 ans,12,4.7
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,45 à 49 ans,12,4.8
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,50 à 54 ans,12,4.4
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,55 à 59 ans,12,5.3
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,60 à 64 ans,12,6.4
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,65 ans et plus,12,6.3
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,65 à 69 ans,12,7.1
+2023,Nouvelle-Écosse,Population totale,Les deux sexes,70 ans et plus,12,5.0
+2023,Nouvelle-Écosse,Population totale,Hommes,15 ans et plus,12,7.0
+2023,Nouvelle-Écosse,Population totale,Hommes,15 à 24 ans,12,14.5
+2023,Nouvelle-Écosse,Population totale,Hommes,25 ans et plus,12,5.7
+2023,Nouvelle-Écosse,Population totale,Hommes,25 à 44 ans,12,5.8
+2023,Nouvelle-Écosse,Population totale,Hommes,45 à 64 ans,12,5.7
+2023,Nouvelle-Écosse,Population totale,Hommes,45 ans et plus,12,5.6
+2023,Nouvelle-Écosse,Population totale,Hommes,25 à 54 ans,12,5.5
+2023,Nouvelle-Écosse,Population totale,Hommes,55 ans et plus,12,6.4
+2023,Nouvelle-Écosse,Population totale,Hommes,15 à 64 ans,12,7.1
+2023,Nouvelle-Écosse,Population totale,Hommes,15 à 19 ans,12,19.4
+2023,Nouvelle-Écosse,Population totale,Hommes,20 à 24 ans,12,11.7
+2023,Nouvelle-Écosse,Population totale,Hommes,25 à 29 ans,12,7.2
+2023,Nouvelle-Écosse,Population totale,Hommes,30 à 34 ans,12,5.0
+2023,Nouvelle-Écosse,Population totale,Hommes,35 à 39 ans,12,5.8
+2023,Nouvelle-Écosse,Population totale,Hommes,40 à 44 ans,12,5.7
+2023,Nouvelle-Écosse,Population totale,Hommes,45 à 49 ans,12,5.2
+2023,Nouvelle-Écosse,Population totale,Hommes,50 à 54 ans,12,4.2
+2023,Nouvelle-Écosse,Population totale,Hommes,55 à 59 ans,12,6.7
+2023,Nouvelle-Écosse,Population totale,Hommes,60 à 64 ans,12,7.1
+2023,Nouvelle-Écosse,Population totale,Hommes,65 ans et plus,12,5.0
+2023,Nouvelle-Écosse,Population totale,Hommes,65 à 69 ans,12,6.6
+2023,Nouvelle-Écosse,Population totale,Hommes,70 ans et plus,12,
+2023,Nouvelle-Écosse,Population totale,Femmes,15 ans et plus,12,5.6
+2023,Nouvelle-Écosse,Population totale,Femmes,15 à 24 ans,12,9.6
+2023,Nouvelle-Écosse,Population totale,Femmes,25 ans et plus,12,4.9
+2023,Nouvelle-Écosse,Population totale,Femmes,25 à 44 ans,12,4.9
+2023,Nouvelle-Écosse,Population totale,Femmes,45 à 64 ans,12,4.7
+2023,Nouvelle-Écosse,Population totale,Femmes,45 ans et plus,12,5.0
+2023,Nouvelle-Écosse,Population totale,Femmes,25 à 54 ans,12,4.8
+2023,Nouvelle-Écosse,Population totale,Femmes,55 ans et plus,12,5.6
+2023,Nouvelle-Écosse,Population totale,Femmes,15 à 64 ans,12,5.5
+2023,Nouvelle-Écosse,Population totale,Femmes,15 à 19 ans,12,14.9
+2023,Nouvelle-Écosse,Population totale,Femmes,20 à 24 ans,12,6.4
+2023,Nouvelle-Écosse,Population totale,Femmes,25 à 29 ans,12,5.7
+2023,Nouvelle-Écosse,Population totale,Femmes,30 à 34 ans,12,5.3
+2023,Nouvelle-Écosse,Population totale,Femmes,35 à 39 ans,12,4.6
+2023,Nouvelle-Écosse,Population totale,Femmes,40 à 44 ans,12,4.1
+2023,Nouvelle-Écosse,Population totale,Femmes,45 à 49 ans,12,4.4
+2023,Nouvelle-Écosse,Population totale,Femmes,50 à 54 ans,12,4.6
+2023,Nouvelle-Écosse,Population totale,Femmes,55 à 59 ans,12,4.2
+2023,Nouvelle-Écosse,Population totale,Femmes,60 à 64 ans,12,5.7
+2023,Nouvelle-Écosse,Population totale,Femmes,65 ans et plus,12,8.2
+2023,Nouvelle-Écosse,Population totale,Femmes,65 à 69 ans,12,7.7
+2023,Nouvelle-Écosse,Population totale,Femmes,70 ans et plus,12,
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,15 ans et plus,13,6.6
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,15 à 24 ans,13,11.5
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,25 ans et plus,13,5.8
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,25 à 44 ans,13,5.2
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,45 à 64 ans,13,5.9
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,45 ans et plus,13,6.2
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,25 à 54 ans,13,5.1
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,55 ans et plus,13,7.4
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,15 à 64 ans,13,6.4
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,15 à 19 ans,13,15.5
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,20 à 24 ans,13,9.2
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,25 à 29 ans,13,5.3
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,30 à 34 ans,13,4.8
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,35 à 39 ans,13,5.4
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,40 à 44 ans,13,5.4
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,45 à 49 ans,13,5.0
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,50 à 54 ans,13,4.9
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,55 à 59 ans,13,5.3
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,60 à 64 ans,13,9.5
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,65 ans et plus,13,8.7
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,65 à 69 ans,13,9.5
+2023,Nouveau-Brunswick,Population totale,Les deux sexes,70 ans et plus,13,8.5
+2023,Nouveau-Brunswick,Population totale,Hommes,15 ans et plus,13,8.0
+2023,Nouveau-Brunswick,Population totale,Hommes,15 à 24 ans,13,14.1
+2023,Nouveau-Brunswick,Population totale,Hommes,25 ans et plus,13,7.0
+2023,Nouveau-Brunswick,Population totale,Hommes,25 à 44 ans,13,6.7
+2023,Nouveau-Brunswick,Population totale,Hommes,45 à 64 ans,13,6.8
+2023,Nouveau-Brunswick,Population totale,Hommes,45 ans et plus,13,7.2
+2023,Nouveau-Brunswick,Population totale,Hommes,25 à 54 ans,13,6.2
+2023,Nouveau-Brunswick,Population totale,Hommes,55 ans et plus,13,9.0
+2023,Nouveau-Brunswick,Population totale,Hommes,15 à 64 ans,13,7.9
+2023,Nouveau-Brunswick,Population totale,Hommes,15 à 19 ans,13,18.5
+2023,Nouveau-Brunswick,Population totale,Hommes,20 à 24 ans,13,12.2
+2023,Nouveau-Brunswick,Population totale,Hommes,25 à 29 ans,13,7.5
+2023,Nouveau-Brunswick,Population totale,Hommes,30 à 34 ans,13,6.3
+2023,Nouveau-Brunswick,Population totale,Hommes,35 à 39 ans,13,6.5
+2023,Nouveau-Brunswick,Population totale,Hommes,40 à 44 ans,13,6.9
+2023,Nouveau-Brunswick,Population totale,Hommes,45 à 49 ans,13,5.3
+2023,Nouveau-Brunswick,Population totale,Hommes,50 à 54 ans,13,5.1
+2023,Nouveau-Brunswick,Population totale,Hommes,55 à 59 ans,13,6.3
+2023,Nouveau-Brunswick,Population totale,Hommes,60 à 64 ans,13,11.6
+2023,Nouveau-Brunswick,Population totale,Hommes,65 ans et plus,13,10.3
+2023,Nouveau-Brunswick,Population totale,Hommes,65 à 69 ans,13,
+2023,Nouveau-Brunswick,Population totale,Hommes,70 ans et plus,13,
+2023,Nouveau-Brunswick,Population totale,Femmes,15 ans et plus,13,5.0
+2023,Nouveau-Brunswick,Population totale,Femmes,15 à 24 ans,13,8.6
+2023,Nouveau-Brunswick,Population totale,Femmes,25 ans et plus,13,4.4
+2023,Nouveau-Brunswick,Population totale,Femmes,25 à 44 ans,13,3.6
+2023,Nouveau-Brunswick,Population totale,Femmes,45 à 64 ans,13,4.9
+2023,Nouveau-Brunswick,Population totale,Femmes,45 ans et plus,13,5.0
+2023,Nouveau-Brunswick,Population totale,Femmes,25 à 54 ans,13,4.0
+2023,Nouveau-Brunswick,Population totale,Femmes,55 ans et plus,13,5.3
+2023,Nouveau-Brunswick,Population totale,Femmes,15 à 64 ans,13,4.9
+2023,Nouveau-Brunswick,Population totale,Femmes,15 à 19 ans,13,12.5
+2023,Nouveau-Brunswick,Population totale,Femmes,20 à 24 ans,13,6.1
+2023,Nouveau-Brunswick,Population totale,Femmes,25 à 29 ans,13,3.5
+2023,Nouveau-Brunswick,Population totale,Femmes,30 à 34 ans,13,3.0
+2023,Nouveau-Brunswick,Population totale,Femmes,35 à 39 ans,13,4.1
+2023,Nouveau-Brunswick,Population totale,Femmes,40 à 44 ans,13,3.9
+2023,Nouveau-Brunswick,Population totale,Femmes,45 à 49 ans,13,4.6
+2023,Nouveau-Brunswick,Population totale,Femmes,50 à 54 ans,13,4.6
+2023,Nouveau-Brunswick,Population totale,Femmes,55 à 59 ans,13,4.2
+2023,Nouveau-Brunswick,Population totale,Femmes,60 à 64 ans,13,6.9
+2023,Nouveau-Brunswick,Population totale,Femmes,65 ans et plus,13,6.2
+2023,Nouveau-Brunswick,Population totale,Femmes,65 à 69 ans,13,
+2023,Nouveau-Brunswick,Population totale,Femmes,70 ans et plus,13,
+2023,Québec,Population totale,Les deux sexes,15 ans et plus,24,4.5
+2023,Québec,Population totale,Les deux sexes,15 à 24 ans,24,7.5
+2023,Québec,Population totale,Les deux sexes,25 ans et plus,24,4.0
+2023,Québec,Population totale,Les deux sexes,25 à 44 ans,24,4.1
+2023,Québec,Population totale,Les deux sexes,45 à 64 ans,24,3.8
+2023,Québec,Population totale,Les deux sexes,45 ans et plus,24,3.9
+2023,Québec,Population totale,Les deux sexes,25 à 54 ans,24,3.9
+2023,Québec,Population totale,Les deux sexes,55 ans et plus,24,4.4
+2023,Québec,Population totale,Les deux sexes,15 à 64 ans,24,4.5
+2023,Québec,Population totale,Les deux sexes,15 à 19 ans,24,8.9
+2023,Québec,Population totale,Les deux sexes,20 à 24 ans,24,6.5
+2023,Québec,Population totale,Les deux sexes,25 à 29 ans,24,5.0
+2023,Québec,Population totale,Les deux sexes,30 à 34 ans,24,4.5
+2023,Québec,Population totale,Les deux sexes,35 à 39 ans,24,3.6
+2023,Québec,Population totale,Les deux sexes,40 à 44 ans,24,3.4
+2023,Québec,Population totale,Les deux sexes,45 à 49 ans,24,2.9
+2023,Québec,Population totale,Les deux sexes,50 à 54 ans,24,3.9
+2023,Québec,Population totale,Les deux sexes,55 à 59 ans,24,3.9
+2023,Québec,Population totale,Les deux sexes,60 à 64 ans,24,4.8
+2023,Québec,Population totale,Les deux sexes,65 ans et plus,24,4.9
+2023,Québec,Population totale,Les deux sexes,65 à 69 ans,24,4.9
+2023,Québec,Population totale,Les deux sexes,70 ans et plus,24,5.0
+2023,Québec,Population totale,Hommes,15 ans et plus,24,4.9
+2023,Québec,Population totale,Hommes,15 à 24 ans,24,8.6
+2023,Québec,Population totale,Hommes,25 ans et plus,24,4.4
+2023,Québec,Population totale,Hommes,25 à 44 ans,24,4.5
+2023,Québec,Population totale,Hommes,45 à 64 ans,24,4.0
+2023,Québec,Population totale,Hommes,45 ans et plus,24,4.2
+2023,Québec,Population totale,Hommes,25 à 54 ans,24,4.2
+2023,Québec,Population totale,Hommes,55 ans et plus,24,4.7
+2023,Québec,Population totale,Hommes,15 à 64 ans,24,4.9
+2023,Québec,Population totale,Hommes,15 à 19 ans,24,9.7
+2023,Québec,Population totale,Hommes,20 à 24 ans,24,7.8
+2023,Québec,Population totale,Hommes,25 à 29 ans,24,6.4
+2023,Québec,Population totale,Hommes,30 à 34 ans,24,4.5
+2023,Québec,Population totale,Hommes,35 à 39 ans,24,3.8
+2023,Québec,Population totale,Hommes,40 à 44 ans,24,3.4
+2023,Québec,Population totale,Hommes,45 à 49 ans,24,3.2
+2023,Québec,Population totale,Hommes,50 à 54 ans,24,4.1
+2023,Québec,Population totale,Hommes,55 à 59 ans,24,4.2
+2023,Québec,Population totale,Hommes,60 à 64 ans,24,4.6
+2023,Québec,Population totale,Hommes,65 ans et plus,24,5.6
+2023,Québec,Population totale,Hommes,65 à 69 ans,24,5.6
+2023,Québec,Population totale,Hommes,70 ans et plus,24,
+2023,Québec,Population totale,Femmes,15 ans et plus,24,4.0
+2023,Québec,Population totale,Femmes,15 à 24 ans,24,6.3
+2023,Québec,Population totale,Femmes,25 ans et plus,24,3.6
+2023,Québec,Population totale,Femmes,25 à 44 ans,24,3.6
+2023,Québec,Population totale,Femmes,45 à 64 ans,24,3.6
+2023,Québec,Population totale,Femmes,45 ans et plus,24,3.6
+2023,Québec,Population totale,Femmes,25 à 54 ans,24,3.5
+2023,Québec,Population totale,Femmes,55 ans et plus,24,4.1
+2023,Québec,Population totale,Femmes,15 à 64 ans,24,4.0
+2023,Québec,Population totale,Femmes,15 à 19 ans,24,8.2
+2023,Québec,Population totale,Femmes,20 à 24 ans,24,5.0
+2023,Québec,Population totale,Femmes,25 à 29 ans,24,3.5
+2023,Québec,Population totale,Femmes,30 à 34 ans,24,4.4
+2023,Québec,Population totale,Femmes,35 à 39 ans,24,3.4
+2023,Québec,Population totale,Femmes,40 à 44 ans,24,3.3
+2023,Québec,Population totale,Femmes,45 à 49 ans,24,2.6
+2023,Québec,Population totale,Femmes,50 à 54 ans,24,3.8
+2023,Québec,Population totale,Femmes,55 à 59 ans,24,3.5
+2023,Québec,Population totale,Femmes,60 à 64 ans,24,5.0
+2023,Québec,Population totale,Femmes,65 ans et plus,24,3.8
+2023,Québec,Population totale,Femmes,65 à 69 ans,24,3.7
+2023,Québec,Population totale,Femmes,70 ans et plus,24,
+2023,Ontario,Population totale,Les deux sexes,15 ans et plus,35,5.7
+2023,Ontario,Population totale,Les deux sexes,15 à 24 ans,35,12.5
+2023,Ontario,Population totale,Les deux sexes,25 ans et plus,35,4.6
+2023,Ontario,Population totale,Les deux sexes,25 à 44 ans,35,5.1
+2023,Ontario,Population totale,Les deux sexes,45 à 64 ans,35,4.0
+2023,Ontario,Population totale,Les deux sexes,45 ans et plus,35,3.9
+2023,Ontario,Population totale,Les deux sexes,25 à 54 ans,35,4.7
+2023,Ontario,Population totale,Les deux sexes,55 ans et plus,35,4.1
+2023,Ontario,Population totale,Les deux sexes,15 à 64 ans,35,5.8
+2023,Ontario,Population totale,Les deux sexes,15 à 19 ans,35,16.0
+2023,Ontario,Population totale,Les deux sexes,20 à 24 ans,35,10.7
+2023,Ontario,Population totale,Les deux sexes,25 à 29 ans,35,6.8
+2023,Ontario,Population totale,Les deux sexes,30 à 34 ans,35,5.3
+2023,Ontario,Population totale,Les deux sexes,35 à 39 ans,35,4.3
+2023,Ontario,Population totale,Les deux sexes,40 à 44 ans,35,4.0
+2023,Ontario,Population totale,Les deux sexes,45 à 49 ans,35,3.3
+2023,Ontario,Population totale,Les deux sexes,50 à 54 ans,35,4.0
+2023,Ontario,Population totale,Les deux sexes,55 à 59 ans,35,4.0
+2023,Ontario,Population totale,Les deux sexes,60 à 64 ans,35,4.6
+2023,Ontario,Population totale,Les deux sexes,65 ans et plus,35,3.5
+2023,Ontario,Population totale,Les deux sexes,65 à 69 ans,35,4.0
+2023,Ontario,Population totale,Les deux sexes,70 ans et plus,35,2.6
+2023,Ontario,Population totale,Hommes,15 ans et plus,35,5.6
+2023,Ontario,Population totale,Hommes,15 à 24 ans,35,12.8
+2023,Ontario,Population totale,Hommes,25 ans et plus,35,4.4
+2023,Ontario,Population totale,Hommes,25 à 44 ans,35,4.9
+2023,Ontario,Population totale,Hommes,45 à 64 ans,35,3.8
+2023,Ontario,Population totale,Hommes,45 ans et plus,35,3.8
+2023,Ontario,Population totale,Hommes,25 à 54 ans,35,4.5
+2023,Ontario,Population totale,Hommes,55 ans et plus,35,4.1
+2023,Ontario,Population totale,Hommes,15 à 64 ans,35,5.7
+2023,Ontario,Population totale,Hommes,15 à 19 ans,35,15.9
+2023,Ontario,Population totale,Hommes,20 à 24 ans,35,11.3
+2023,Ontario,Population totale,Hommes,25 à 29 ans,35,6.8
+2023,Ontario,Population totale,Hommes,30 à 34 ans,35,4.9
+2023,Ontario,Population totale,Hommes,35 à 39 ans,35,4.0
+2023,Ontario,Population totale,Hommes,40 à 44 ans,35,3.9
+2023,Ontario,Population totale,Hommes,45 à 49 ans,35,2.9
+2023,Ontario,Population totale,Hommes,50 à 54 ans,35,3.9
+2023,Ontario,Population totale,Hommes,55 à 59 ans,35,3.7
+2023,Ontario,Population totale,Hommes,60 à 64 ans,35,4.9
+2023,Ontario,Population totale,Hommes,65 ans et plus,35,3.9
+2023,Ontario,Population totale,Hommes,65 à 69 ans,35,4.6
+2023,Ontario,Population totale,Hommes,70 ans et plus,35,
+2023,Ontario,Population totale,Femmes,15 ans et plus,35,5.8
+2023,Ontario,Population totale,Femmes,15 à 24 ans,35,12.2
+2023,Ontario,Population totale,Femmes,25 ans et plus,35,4.7
+2023,Ontario,Population totale,Femmes,25 à 44 ans,35,5.4
+2023,Ontario,Population totale,Femmes,45 à 64 ans,35,4.2
+2023,Ontario,Population totale,Femmes,45 ans et plus,35,4.0
+2023,Ontario,Population totale,Femmes,25 à 54 ans,35,5.0
+2023,Ontario,Population totale,Femmes,55 ans et plus,35,4.0
+2023,Ontario,Population totale,Femmes,15 à 64 ans,35,6.0
+2023,Ontario,Population totale,Femmes,15 à 19 ans,35,16.1
+2023,Ontario,Population totale,Femmes,20 à 24 ans,35,10.1
+2023,Ontario,Population totale,Femmes,25 à 29 ans,35,6.8
+2023,Ontario,Population totale,Femmes,30 à 34 ans,35,5.8
+2023,Ontario,Population totale,Femmes,35 à 39 ans,35,4.7
+2023,Ontario,Population totale,Femmes,40 à 44 ans,35,4.1
+2023,Ontario,Population totale,Femmes,45 à 49 ans,35,3.8
+2023,Ontario,Population totale,Femmes,50 à 54 ans,35,4.2
+2023,Ontario,Population totale,Femmes,55 à 59 ans,35,4.4
+2023,Ontario,Population totale,Femmes,60 à 64 ans,35,4.3
+2023,Ontario,Population totale,Femmes,65 ans et plus,35,2.7
+2023,Ontario,Population totale,Femmes,65 à 69 ans,35,3.1
+2023,Ontario,Population totale,Femmes,70 ans et plus,35,
+2023,Manitoba,Population totale,Les deux sexes,15 ans et plus,46,4.8
+2023,Manitoba,Population totale,Les deux sexes,15 à 24 ans,46,9.6
+2023,Manitoba,Population totale,Les deux sexes,25 ans et plus,46,3.9
+2023,Manitoba,Population totale,Les deux sexes,25 à 44 ans,46,4.2
+2023,Manitoba,Population totale,Les deux sexes,45 à 64 ans,46,3.7
+2023,Manitoba,Population totale,Les deux sexes,45 ans et plus,46,3.6
+2023,Manitoba,Population totale,Les deux sexes,25 à 54 ans,46,4.0
+2023,Manitoba,Population totale,Les deux sexes,55 ans et plus,46,3.6
+2023,Manitoba,Population totale,Les deux sexes,15 à 64 ans,46,4.9
+2023,Manitoba,Population totale,Les deux sexes,15 à 19 ans,46,14.3
+2023,Manitoba,Population totale,Les deux sexes,20 à 24 ans,46,7.0
+2023,Manitoba,Population totale,Les deux sexes,25 à 29 ans,46,5.6
+2023,Manitoba,Population totale,Les deux sexes,30 à 34 ans,46,5.0
+2023,Manitoba,Population totale,Les deux sexes,35 à 39 ans,46,3.2
+2023,Manitoba,Population totale,Les deux sexes,40 à 44 ans,46,2.9
+2023,Manitoba,Population totale,Les deux sexes,45 à 49 ans,46,3.5
+2023,Manitoba,Population totale,Les deux sexes,50 à 54 ans,46,3.5
+2023,Manitoba,Population totale,Les deux sexes,55 à 59 ans,46,3.3
+2023,Manitoba,Population totale,Les deux sexes,60 à 64 ans,46,4.6
+2023,Manitoba,Population totale,Les deux sexes,65 ans et plus,46,2.7
+2023,Manitoba,Population totale,Les deux sexes,65 à 69 ans,46,4.0
+2023,Manitoba,Population totale,Les deux sexes,70 ans et plus,46,
+2023,Manitoba,Population totale,Hommes,15 ans et plus,46,4.9
+2023,Manitoba,Population totale,Hommes,15 à 24 ans,46,9.9
+2023,Manitoba,Population totale,Hommes,25 ans et plus,46,3.9
+2023,Manitoba,Population totale,Hommes,25 à 44 ans,46,4.3
+2023,Manitoba,Population totale,Hommes,45 à 64 ans,46,3.8
+2023,Manitoba,Population totale,Hommes,45 ans et plus,46,3.6
+2023,Manitoba,Population totale,Hommes,25 à 54 ans,46,4.2
+2023,Manitoba,Population totale,Hommes,55 ans et plus,46,3.2
+2023,Manitoba,Population totale,Hommes,15 à 64 ans,46,5.0
+2023,Manitoba,Population totale,Hommes,15 à 19 ans,46,14.2
+2023,Manitoba,Population totale,Hommes,20 à 24 ans,46,7.7
+2023,Manitoba,Population totale,Hommes,25 à 29 ans,46,6.7
+2023,Manitoba,Population totale,Hommes,30 à 34 ans,46,5.2
+2023,Manitoba,Population totale,Hommes,35 à 39 ans,46,2.6
+2023,Manitoba,Population totale,Hommes,40 à 44 ans,46,2.5
+2023,Manitoba,Population totale,Hommes,45 à 49 ans,46,4.4
+2023,Manitoba,Population totale,Hommes,50 à 54 ans,46,3.6
+2023,Manitoba,Population totale,Hommes,55 à 59 ans,46,3.3
+2023,Manitoba,Population totale,Hommes,60 à 64 ans,46,3.6
+2023,Manitoba,Population totale,Hommes,65 ans et plus,46,
+2023,Manitoba,Population totale,Hommes,65 à 69 ans,46,
+2023,Manitoba,Population totale,Hommes,70 ans et plus,46,
+2023,Manitoba,Population totale,Femmes,15 ans et plus,46,4.7
+2023,Manitoba,Population totale,Femmes,15 à 24 ans,46,9.2
+2023,Manitoba,Population totale,Femmes,25 ans et plus,46,3.9
+2023,Manitoba,Population totale,Femmes,25 à 44 ans,46,4.1
+2023,Manitoba,Population totale,Femmes,45 à 64 ans,46,3.6
+2023,Manitoba,Population totale,Femmes,45 ans et plus,46,3.6
+2023,Manitoba,Population totale,Femmes,25 à 54 ans,46,3.8
+2023,Manitoba,Population totale,Femmes,55 ans et plus,46,4.2
+2023,Manitoba,Population totale,Femmes,15 à 64 ans,46,4.8
+2023,Manitoba,Population totale,Femmes,15 à 19 ans,46,14.4
+2023,Manitoba,Population totale,Femmes,20 à 24 ans,46,6.3
+2023,Manitoba,Population totale,Femmes,25 à 29 ans,46,4.3
+2023,Manitoba,Population totale,Femmes,30 à 34 ans,46,5.1
+2023,Manitoba,Population totale,Femmes,35 à 39 ans,46,3.7
+2023,Manitoba,Population totale,Femmes,40 à 44 ans,46,3.3
+2023,Manitoba,Population totale,Femmes,45 à 49 ans,46,2.6
+2023,Manitoba,Population totale,Femmes,50 à 54 ans,46,3.6
+2023,Manitoba,Population totale,Femmes,55 à 59 ans,46,3.3
+2023,Manitoba,Population totale,Femmes,60 à 64 ans,46,5.4
+2023,Manitoba,Population totale,Femmes,65 ans et plus,46,
+2023,Manitoba,Population totale,Femmes,65 à 69 ans,46,
+2023,Manitoba,Population totale,Femmes,70 ans et plus,46,
+2023,Saskatchewan,Population totale,Les deux sexes,15 ans et plus,47,4.8
+2023,Saskatchewan,Population totale,Les deux sexes,15 à 24 ans,47,9.7
+2023,Saskatchewan,Population totale,Les deux sexes,25 ans et plus,47,3.9
+2023,Saskatchewan,Population totale,Les deux sexes,25 à 44 ans,47,4.4
+2023,Saskatchewan,Population totale,Les deux sexes,45 à 64 ans,47,3.5
+2023,Saskatchewan,Population totale,Les deux sexes,45 ans et plus,47,3.4
+2023,Saskatchewan,Population totale,Les deux sexes,25 à 54 ans,47,4.1
+2023,Saskatchewan,Population totale,Les deux sexes,55 ans et plus,47,3.3
+2023,Saskatchewan,Population totale,Les deux sexes,15 à 64 ans,47,4.9
+2023,Saskatchewan,Population totale,Les deux sexes,15 à 19 ans,47,11.4
+2023,Saskatchewan,Population totale,Les deux sexes,20 à 24 ans,47,8.7
+2023,Saskatchewan,Population totale,Les deux sexes,25 à 29 ans,47,5.4
+2023,Saskatchewan,Population totale,Les deux sexes,30 à 34 ans,47,4.8
+2023,Saskatchewan,Population totale,Les deux sexes,35 à 39 ans,47,4.2
+2023,Saskatchewan,Population totale,Les deux sexes,40 à 44 ans,47,3.3
+2023,Saskatchewan,Population totale,Les deux sexes,45 à 49 ans,47,3.4
+2023,Saskatchewan,Population totale,Les deux sexes,50 à 54 ans,47,3.7
+2023,Saskatchewan,Population totale,Les deux sexes,55 à 59 ans,47,3.5
+2023,Saskatchewan,Population totale,Les deux sexes,60 à 64 ans,47,3.6
+2023,Saskatchewan,Population totale,Les deux sexes,65 ans et plus,47,2.9
+2023,Saskatchewan,Population totale,Les deux sexes,65 à 69 ans,47,3.5
+2023,Saskatchewan,Population totale,Les deux sexes,70 ans et plus,47,
+2023,Saskatchewan,Population totale,Hommes,15 ans et plus,47,5.1
+2023,Saskatchewan,Population totale,Hommes,15 à 24 ans,47,10.2
+2023,Saskatchewan,Population totale,Hommes,25 ans et plus,47,4.3
+2023,Saskatchewan,Population totale,Hommes,25 à 44 ans,47,4.5
+2023,Saskatchewan,Population totale,Hommes,45 à 64 ans,47,4.2
+2023,Saskatchewan,Population totale,Hommes,45 ans et plus,47,3.9
+2023,Saskatchewan,Population totale,Hommes,25 à 54 ans,47,4.4
+2023,Saskatchewan,Population totale,Hommes,55 ans et plus,47,3.7
+2023,Saskatchewan,Population totale,Hommes,15 à 64 ans,47,5.3
+2023,Saskatchewan,Population totale,Hommes,15 à 19 ans,47,13.4
+2023,Saskatchewan,Population totale,Hommes,20 à 24 ans,47,8.4
+2023,Saskatchewan,Population totale,Hommes,25 à 29 ans,47,5.7
+2023,Saskatchewan,Population totale,Hommes,30 à 34 ans,47,6.0
+2023,Saskatchewan,Population totale,Hommes,35 à 39 ans,47,4.0
+2023,Saskatchewan,Population totale,Hommes,40 à 44 ans,47,3.0
+2023,Saskatchewan,Population totale,Hommes,45 à 49 ans,47,4.6
+2023,Saskatchewan,Population totale,Hommes,50 à 54 ans,47,3.8
+2023,Saskatchewan,Population totale,Hommes,55 à 59 ans,47,4.0
+2023,Saskatchewan,Population totale,Hommes,60 à 64 ans,47,3.8
+2023,Saskatchewan,Population totale,Hommes,65 ans et plus,47,
+2023,Saskatchewan,Population totale,Hommes,65 à 69 ans,47,
+2023,Saskatchewan,Population totale,Hommes,70 ans et plus,47,
+2023,Saskatchewan,Population totale,Femmes,15 ans et plus,47,4.4
+2023,Saskatchewan,Population totale,Femmes,15 à 24 ans,47,9.2
+2023,Saskatchewan,Population totale,Femmes,25 ans et plus,47,3.6
+2023,Saskatchewan,Population totale,Femmes,25 à 44 ans,47,4.2
+2023,Saskatchewan,Population totale,Femmes,45 à 64 ans,47,2.8
+2023,Saskatchewan,Population totale,Femmes,45 ans et plus,47,2.7
+2023,Saskatchewan,Population totale,Femmes,25 à 54 ans,47,3.7
+2023,Saskatchewan,Population totale,Femmes,55 ans et plus,47,2.8
+2023,Saskatchewan,Population totale,Femmes,15 à 64 ans,47,4.5
+2023,Saskatchewan,Population totale,Femmes,15 à 19 ans,47,9.6
+2023,Saskatchewan,Population totale,Femmes,20 à 24 ans,47,9.0
+2023,Saskatchewan,Population totale,Femmes,25 à 29 ans,47,5.0
+2023,Saskatchewan,Population totale,Femmes,30 à 34 ans,47,3.5
+2023,Saskatchewan,Population totale,Femmes,35 à 39 ans,47,4.4
+2023,Saskatchewan,Population totale,Femmes,40 à 44 ans,47,3.9
+2023,Saskatchewan,Population totale,Femmes,45 à 49 ans,47,2.1
+2023,Saskatchewan,Population totale,Femmes,50 à 54 ans,47,3.5
+2023,Saskatchewan,Population totale,Femmes,55 à 59 ans,47,2.9
+2023,Saskatchewan,Population totale,Femmes,60 à 64 ans,47,2.9
+2023,Saskatchewan,Population totale,Femmes,65 ans et plus,47,
+2023,Saskatchewan,Population totale,Femmes,65 à 69 ans,47,
+2023,Saskatchewan,Population totale,Femmes,70 ans et plus,47,
+2023,Alberta,Population totale,Les deux sexes,15 ans et plus,48,5.9
+2023,Alberta,Population totale,Les deux sexes,15 à 24 ans,48,12.3
+2023,Alberta,Population totale,Les deux sexes,25 ans et plus,48,4.9
+2023,Alberta,Population totale,Les deux sexes,25 à 44 ans,48,5.3
+2023,Alberta,Population totale,Les deux sexes,45 à 64 ans,48,4.4
+2023,Alberta,Population totale,Les deux sexes,45 ans et plus,48,4.4
+2023,Alberta,Population totale,Les deux sexes,25 à 54 ans,48,4.9
+2023,Alberta,Population totale,Les deux sexes,55 ans et plus,48,4.9
+2023,Alberta,Population totale,Les deux sexes,15 à 64 ans,48,5.9
+2023,Alberta,Population totale,Les deux sexes,15 à 19 ans,48,17.6
+2023,Alberta,Population totale,Les deux sexes,20 à 24 ans,48,9.0
+2023,Alberta,Population totale,Les deux sexes,25 à 29 ans,48,7.6
+2023,Alberta,Population totale,Les deux sexes,30 à 34 ans,48,5.8
+2023,Alberta,Population totale,Les deux sexes,35 à 39 ans,48,4.0
+2023,Alberta,Population totale,Les deux sexes,40 à 44 ans,48,4.1
+2023,Alberta,Population totale,Les deux sexes,45 à 49 ans,48,4.0
+2023,Alberta,Population totale,Les deux sexes,50 à 54 ans,48,4.0
+2023,Alberta,Population totale,Les deux sexes,55 à 59 ans,48,3.7
+2023,Alberta,Population totale,Les deux sexes,60 à 64 ans,48,6.3
+2023,Alberta,Population totale,Les deux sexes,65 ans et plus,48,4.8
+2023,Alberta,Population totale,Les deux sexes,65 à 69 ans,48,5.4
+2023,Alberta,Population totale,Les deux sexes,70 ans et plus,48,3.8
+2023,Alberta,Population totale,Hommes,15 ans et plus,48,6.0
+2023,Alberta,Population totale,Hommes,15 à 24 ans,48,13.9
+2023,Alberta,Population totale,Hommes,25 ans et plus,48,4.8
+2023,Alberta,Population totale,Hommes,25 à 44 ans,48,5.1
+2023,Alberta,Population totale,Hommes,45 à 64 ans,48,4.4
+2023,Alberta,Population totale,Hommes,45 ans et plus,48,4.4
+2023,Alberta,Population totale,Hommes,25 à 54 ans,48,4.8
+2023,Alberta,Population totale,Hommes,55 ans et plus,48,4.9
+2023,Alberta,Population totale,Hommes,15 à 64 ans,48,6.1
+2023,Alberta,Population totale,Hommes,15 à 19 ans,48,18.6
+2023,Alberta,Population totale,Hommes,20 à 24 ans,48,11.0
+2023,Alberta,Population totale,Hommes,25 à 29 ans,48,8.1
+2023,Alberta,Population totale,Hommes,30 à 34 ans,48,5.8
+2023,Alberta,Population totale,Hommes,35 à 39 ans,48,3.8
+2023,Alberta,Population totale,Hommes,40 à 44 ans,48,3.2
+2023,Alberta,Population totale,Hommes,45 à 49 ans,48,3.5
+2023,Alberta,Population totale,Hommes,50 à 54 ans,48,4.4
+2023,Alberta,Population totale,Hommes,55 à 59 ans,48,3.3
+2023,Alberta,Population totale,Hommes,60 à 64 ans,48,7.1
+2023,Alberta,Population totale,Hommes,65 ans et plus,48,4.3
+2023,Alberta,Population totale,Hommes,65 à 69 ans,48,5.0
+2023,Alberta,Population totale,Hommes,70 ans et plus,48,
+2023,Alberta,Population totale,Femmes,15 ans et plus,48,5.8
+2023,Alberta,Population totale,Femmes,15 à 24 ans,48,10.6
+2023,Alberta,Population totale,Femmes,25 ans et plus,48,5.0
+2023,Alberta,Population totale,Femmes,25 à 44 ans,48,5.4
+2023,Alberta,Population totale,Femmes,45 à 64 ans,48,4.3
+2023,Alberta,Population totale,Femmes,45 ans et plus,48,4.5
+2023,Alberta,Population totale,Femmes,25 à 54 ans,48,5.0
+2023,Alberta,Population totale,Femmes,55 ans et plus,48,4.9
+2023,Alberta,Population totale,Femmes,15 à 64 ans,48,5.8
+2023,Alberta,Population totale,Femmes,15 à 19 ans,48,16.5
+2023,Alberta,Population totale,Femmes,20 à 24 ans,48,7.0
+2023,Alberta,Population totale,Femmes,25 à 29 ans,48,7.0
+2023,Alberta,Population totale,Femmes,30 à 34 ans,48,5.9
+2023,Alberta,Population totale,Femmes,35 à 39 ans,48,4.2
+2023,Alberta,Population totale,Femmes,40 à 44 ans,48,4.9
+2023,Alberta,Population totale,Femmes,45 à 49 ans,48,4.5
+2023,Alberta,Population totale,Femmes,50 à 54 ans,48,3.5
+2023,Alberta,Population totale,Femmes,55 à 59 ans,48,4.1
+2023,Alberta,Population totale,Femmes,60 à 64 ans,48,5.4
+2023,Alberta,Population totale,Femmes,65 ans et plus,48,5.5
+2023,Alberta,Population totale,Femmes,65 à 69 ans,48,5.8
+2023,Alberta,Population totale,Femmes,70 ans et plus,48,
+2023,Colombie-Britannique,Population totale,Les deux sexes,15 ans et plus,59,5.2
+2023,Colombie-Britannique,Population totale,Les deux sexes,15 à 24 ans,59,9.3
+2023,Colombie-Britannique,Population totale,Les deux sexes,25 ans et plus,59,4.5
+2023,Colombie-Britannique,Population totale,Les deux sexes,25 à 44 ans,59,4.9
+2023,Colombie-Britannique,Population totale,Les deux sexes,45 à 64 ans,59,4.2
+2023,Colombie-Britannique,Population totale,Les deux sexes,45 ans et plus,59,4.1
+2023,Colombie-Britannique,Population totale,Les deux sexes,25 à 54 ans,59,4.5
+2023,Colombie-Britannique,Population totale,Les deux sexes,55 ans et plus,59,4.5
+2023,Colombie-Britannique,Population totale,Les deux sexes,15 à 64 ans,59,5.3
+2023,Colombie-Britannique,Population totale,Les deux sexes,15 à 19 ans,59,13.2
+2023,Colombie-Britannique,Population totale,Les deux sexes,20 à 24 ans,59,7.4
+2023,Colombie-Britannique,Population totale,Les deux sexes,25 à 29 ans,59,6.1
+2023,Colombie-Britannique,Population totale,Les deux sexes,30 à 34 ans,59,4.7
+2023,Colombie-Britannique,Population totale,Les deux sexes,35 à 39 ans,59,4.5
+2023,Colombie-Britannique,Population totale,Les deux sexes,40 à 44 ans,59,4.2
+2023,Colombie-Britannique,Population totale,Les deux sexes,45 à 49 ans,59,3.9
+2023,Colombie-Britannique,Population totale,Les deux sexes,50 à 54 ans,59,3.4
+2023,Colombie-Britannique,Population totale,Les deux sexes,55 à 59 ans,59,4.5
+2023,Colombie-Britannique,Population totale,Les deux sexes,60 à 64 ans,59,5.4
+2023,Colombie-Britannique,Population totale,Les deux sexes,65 ans et plus,59,3.1
+2023,Colombie-Britannique,Population totale,Les deux sexes,65 à 69 ans,59,3.6
+2023,Colombie-Britannique,Population totale,Les deux sexes,70 ans et plus,59,
+2023,Colombie-Britannique,Population totale,Hommes,15 ans et plus,59,5.2
+2023,Colombie-Britannique,Population totale,Hommes,15 à 24 ans,59,9.5
+2023,Colombie-Britannique,Population totale,Hommes,25 ans et plus,59,4.5
+2023,Colombie-Britannique,Population totale,Hommes,25 à 44 ans,59,5.0
+2023,Colombie-Britannique,Population totale,Hommes,45 à 64 ans,59,4.0
+2023,Colombie-Britannique,Population totale,Hommes,45 ans et plus,59,3.8
+2023,Colombie-Britannique,Population totale,Hommes,25 à 54 ans,59,4.6
+2023,Colombie-Britannique,Population totale,Hommes,55 ans et plus,59,4.0
+2023,Colombie-Britannique,Population totale,Hommes,15 à 64 ans,59,5.3
+2023,Colombie-Britannique,Population totale,Hommes,15 à 19 ans,59,12.8
+2023,Colombie-Britannique,Population totale,Hommes,20 à 24 ans,59,8.0
+2023,Colombie-Britannique,Population totale,Hommes,25 à 29 ans,59,6.5
+2023,Colombie-Britannique,Population totale,Hommes,30 à 34 ans,59,5.1
+2023,Colombie-Britannique,Population totale,Hommes,35 à 39 ans,59,4.4
+2023,Colombie-Britannique,Population totale,Hommes,40 à 44 ans,59,4.2
+2023,Colombie-Britannique,Population totale,Hommes,45 à 49 ans,59,3.9
+2023,Colombie-Britannique,Population totale,Hommes,50 à 54 ans,59,3.4
+2023,Colombie-Britannique,Population totale,Hommes,55 à 59 ans,59,3.7
+2023,Colombie-Britannique,Population totale,Hommes,60 à 64 ans,59,5.5
+2023,Colombie-Britannique,Population totale,Hommes,65 ans et plus,59,2.6
+2023,Colombie-Britannique,Population totale,Hommes,65 à 69 ans,59,2.8
+2023,Colombie-Britannique,Population totale,Hommes,70 ans et plus,59,
+2023,Colombie-Britannique,Population totale,Femmes,15 ans et plus,59,5.2
+2023,Colombie-Britannique,Population totale,Femmes,15 à 24 ans,59,9.2
+2023,Colombie-Britannique,Population totale,Femmes,25 ans et plus,59,4.5
+2023,Colombie-Britannique,Population totale,Femmes,25 à 44 ans,59,4.7
+2023,Colombie-Britannique,Population totale,Femmes,45 à 64 ans,59,4.4
+2023,Colombie-Britannique,Population totale,Femmes,45 ans et plus,59,4.4
+2023,Colombie-Britannique,Population totale,Femmes,25 à 54 ans,59,4.4
+2023,Colombie-Britannique,Population totale,Femmes,55 ans et plus,59,5.0
+2023,Colombie-Britannique,Population totale,Femmes,15 à 64 ans,59,5.3
+2023,Colombie-Britannique,Population totale,Femmes,15 à 19 ans,59,13.6
+2023,Colombie-Britannique,Population totale,Femmes,20 à 24 ans,59,6.9
+2023,Colombie-Britannique,Population totale,Femmes,25 à 29 ans,59,5.8
+2023,Colombie-Britannique,Population totale,Femmes,30 à 34 ans,59,4.2
+2023,Colombie-Britannique,Population totale,Femmes,35 à 39 ans,59,4.6
+2023,Colombie-Britannique,Population totale,Femmes,40 à 44 ans,59,4.4
+2023,Colombie-Britannique,Population totale,Femmes,45 à 49 ans,59,4.0
+2023,Colombie-Britannique,Population totale,Femmes,50 à 54 ans,59,3.3
+2023,Colombie-Britannique,Population totale,Femmes,55 à 59 ans,59,5.4
+2023,Colombie-Britannique,Population totale,Femmes,60 à 64 ans,59,5.4
+2023,Colombie-Britannique,Population totale,Femmes,65 ans et plus,59,3.8
+2023,Colombie-Britannique,Population totale,Femmes,65 à 69 ans,59,4.5
+2023,Colombie-Britannique,Population totale,Femmes,70 ans et plus,59,
 2015,Yukon,Population totale,Les deux sexes,15 ans et plus,60,6.0
 2015,Territoires du Nord-Ouest,Population totale,Les deux sexes,15 ans et plus,61,9.1
 2015,Nunavut,Population totale,Les deux sexes,15 ans et plus,62,16.0
@@ -5831,6 +6557,9 @@ Year,Géographie,Population,Sexe,Groupe d'âge,GeoCode,Value
 2022,Yukon,Population totale,Les deux sexes,15 ans et plus,60,4.5
 2022,Territoires du Nord-Ouest,Population totale,Les deux sexes,15 ans et plus,61,5.0
 2022,Nunavut,Population totale,Les deux sexes,15 ans et plus,62,14.0
+2023,Yukon,Population totale,Les deux sexes,15 ans et plus,60,3.6
+2023,Territoires du Nord-Ouest,Population totale,Les deux sexes,15 ans et plus,61,5.9
+2023,Nunavut,Population totale,Les deux sexes,15 ans et plus,62,13.2
 2015,Canada,Population autochtone,Les deux sexes,15 ans et plus,,12.5
 2015,Canada,Population autochtone,Les deux sexes,15 à 64 ans,,12.7
 2015,Canada,Population autochtone,Les deux sexes,15 à 24 ans,,18.3
@@ -6791,6 +7520,126 @@ Year,Géographie,Population,Sexe,Groupe d'âge,GeoCode,Value
 2022,Colombie-Britannique,Population autochtone,Femmes,15 à 24 ans,59,
 2022,Colombie-Britannique,Population autochtone,Femmes,25 ans et plus,59,4.4
 2022,Colombie-Britannique,Population autochtone,Femmes,25 à 54 ans,59,4.3
+2023,Canada,Population autochtone,Les deux sexes,15 ans et plus,,8.8
+2023,Canada,Population autochtone,Les deux sexes,15 à 64 ans,,8.9
+2023,Canada,Population autochtone,Les deux sexes,15 à 24 ans,,13.9
+2023,Canada,Population autochtone,Les deux sexes,25 ans et plus,,7.4
+2023,Canada,Population autochtone,Les deux sexes,25 à 54 ans,,7.7
+2023,Canada,Population autochtone,Hommes,15 ans et plus,,8.9
+2023,Canada,Population autochtone,Hommes,15 à 64 ans,,9.1
+2023,Canada,Population autochtone,Hommes,15 à 24 ans,,14.2
+2023,Canada,Population autochtone,Hommes,25 ans et plus,,7.6
+2023,Canada,Population autochtone,Hommes,25 à 54 ans,,7.8
+2023,Canada,Population autochtone,Femmes,15 ans et plus,,8.6
+2023,Canada,Population autochtone,Femmes,15 à 64 ans,,8.6
+2023,Canada,Population autochtone,Femmes,15 à 24 ans,,13.6
+2023,Canada,Population autochtone,Femmes,25 ans et plus,,7.1
+2023,Canada,Population autochtone,Femmes,25 à 54 ans,,7.5
+2023,Région de l'Atlantique,Population autochtone,Les deux sexes,15 ans et plus,,11.1
+2023,Région de l'Atlantique,Population autochtone,Les deux sexes,15 à 64 ans,,11.0
+2023,Région de l'Atlantique,Population autochtone,Les deux sexes,15 à 24 ans,,15.8
+2023,Région de l'Atlantique,Population autochtone,Les deux sexes,25 ans et plus,,10.1
+2023,Région de l'Atlantique,Population autochtone,Les deux sexes,25 à 54 ans,,8.9
+2023,Région de l'Atlantique,Population autochtone,Hommes,15 ans et plus,,12.4
+2023,Région de l'Atlantique,Population autochtone,Hommes,15 à 64 ans,,12.3
+2023,Région de l'Atlantique,Population autochtone,Hommes,15 à 24 ans,,
+2023,Région de l'Atlantique,Population autochtone,Hommes,25 ans et plus,,11.8
+2023,Région de l'Atlantique,Population autochtone,Hommes,25 à 54 ans,,9.8
+2023,Région de l'Atlantique,Population autochtone,Femmes,15 ans et plus,,9.7
+2023,Région de l'Atlantique,Population autochtone,Femmes,15 à 64 ans,,9.8
+2023,Région de l'Atlantique,Population autochtone,Femmes,15 à 24 ans,,
+2023,Région de l'Atlantique,Population autochtone,Femmes,25 ans et plus,,8.3
+2023,Région de l'Atlantique,Population autochtone,Femmes,25 à 54 ans,,8.1
+2023,Québec,Population autochtone,Les deux sexes,15 ans et plus,24,5.9
+2023,Québec,Population autochtone,Les deux sexes,15 à 64 ans,24,6.2
+2023,Québec,Population autochtone,Les deux sexes,15 à 24 ans,24,
+2023,Québec,Population autochtone,Les deux sexes,25 ans et plus,24,5.0
+2023,Québec,Population autochtone,Les deux sexes,25 à 54 ans,24,
+2023,Québec,Population autochtone,Hommes,15 ans et plus,24,
+2023,Québec,Population autochtone,Hommes,15 à 64 ans,24,
+2023,Québec,Population autochtone,Hommes,15 à 24 ans,24,
+2023,Québec,Population autochtone,Hommes,25 ans et plus,24,
+2023,Québec,Population autochtone,Hommes,25 à 54 ans,24,
+2023,Québec,Population autochtone,Femmes,15 ans et plus,24,
+2023,Québec,Population autochtone,Femmes,15 à 64 ans,24,
+2023,Québec,Population autochtone,Femmes,15 à 24 ans,24,
+2023,Québec,Population autochtone,Femmes,25 ans et plus,24,
+2023,Québec,Population autochtone,Femmes,25 à 54 ans,24,
+2023,Ontario,Population autochtone,Les deux sexes,15 ans et plus,35,8.3
+2023,Ontario,Population autochtone,Les deux sexes,15 à 64 ans,35,8.4
+2023,Ontario,Population autochtone,Les deux sexes,15 à 24 ans,35,13.5
+2023,Ontario,Population autochtone,Les deux sexes,25 ans et plus,35,6.6
+2023,Ontario,Population autochtone,Les deux sexes,25 à 54 ans,35,7.3
+2023,Ontario,Population autochtone,Hommes,15 ans et plus,35,8.7
+2023,Ontario,Population autochtone,Hommes,15 à 64 ans,35,8.9
+2023,Ontario,Population autochtone,Hommes,15 à 24 ans,35,13.3
+2023,Ontario,Population autochtone,Hommes,25 ans et plus,35,7.3
+2023,Ontario,Population autochtone,Hommes,25 à 54 ans,35,8.3
+2023,Ontario,Population autochtone,Femmes,15 ans et plus,35,7.8
+2023,Ontario,Population autochtone,Femmes,15 à 64 ans,35,8.0
+2023,Ontario,Population autochtone,Femmes,15 à 24 ans,35,13.7
+2023,Ontario,Population autochtone,Femmes,25 ans et plus,35,5.8
+2023,Ontario,Population autochtone,Femmes,25 à 54 ans,35,6.3
+2023,Manitoba,Population autochtone,Les deux sexes,15 ans et plus,46,8.5
+2023,Manitoba,Population autochtone,Les deux sexes,15 à 64 ans,46,8.7
+2023,Manitoba,Population autochtone,Les deux sexes,15 à 24 ans,46,12.3
+2023,Manitoba,Population autochtone,Les deux sexes,25 ans et plus,46,7.5
+2023,Manitoba,Population autochtone,Les deux sexes,25 à 54 ans,46,7.8
+2023,Manitoba,Population autochtone,Hommes,15 ans et plus,46,9.4
+2023,Manitoba,Population autochtone,Hommes,15 à 64 ans,46,9.7
+2023,Manitoba,Population autochtone,Hommes,15 à 24 ans,46,12.9
+2023,Manitoba,Population autochtone,Hommes,25 ans et plus,46,8.3
+2023,Manitoba,Population autochtone,Hommes,25 à 54 ans,46,8.7
+2023,Manitoba,Population autochtone,Femmes,15 ans et plus,46,7.6
+2023,Manitoba,Population autochtone,Femmes,15 à 64 ans,46,7.7
+2023,Manitoba,Population autochtone,Femmes,15 à 24 ans,46,11.6
+2023,Manitoba,Population autochtone,Femmes,25 ans et plus,46,6.7
+2023,Manitoba,Population autochtone,Femmes,25 à 54 ans,46,6.8
+2023,Saskatchewan,Population autochtone,Les deux sexes,15 ans et plus,47,9.4
+2023,Saskatchewan,Population autochtone,Les deux sexes,15 à 64 ans,47,9.4
+2023,Saskatchewan,Population autochtone,Les deux sexes,15 à 24 ans,47,15.9
+2023,Saskatchewan,Population autochtone,Les deux sexes,25 ans et plus,47,7.6
+2023,Saskatchewan,Population autochtone,Les deux sexes,25 à 54 ans,47,8.1
+2023,Saskatchewan,Population autochtone,Hommes,15 ans et plus,47,10.0
+2023,Saskatchewan,Population autochtone,Hommes,15 à 64 ans,47,10.1
+2023,Saskatchewan,Population autochtone,Hommes,15 à 24 ans,47,14.9
+2023,Saskatchewan,Population autochtone,Hommes,25 ans et plus,47,8.9
+2023,Saskatchewan,Population autochtone,Hommes,25 à 54 ans,47,8.9
+2023,Saskatchewan,Population autochtone,Femmes,15 ans et plus,47,8.6
+2023,Saskatchewan,Population autochtone,Femmes,15 à 64 ans,47,8.8
+2023,Saskatchewan,Population autochtone,Femmes,15 à 24 ans,47,16.8
+2023,Saskatchewan,Population autochtone,Femmes,25 ans et plus,47,6.2
+2023,Saskatchewan,Population autochtone,Femmes,25 à 54 ans,47,7.3
+2023,Alberta,Population autochtone,Les deux sexes,15 ans et plus,48,10.5
+2023,Alberta,Population autochtone,Les deux sexes,15 à 64 ans,48,10.3
+2023,Alberta,Population autochtone,Les deux sexes,15 à 24 ans,48,14.7
+2023,Alberta,Population autochtone,Les deux sexes,25 ans et plus,48,9.2
+2023,Alberta,Population autochtone,Les deux sexes,25 à 54 ans,48,9.5
+2023,Alberta,Population autochtone,Hommes,15 ans et plus,48,10.2
+2023,Alberta,Population autochtone,Hommes,15 à 64 ans,48,10.2
+2023,Alberta,Population autochtone,Hommes,15 à 24 ans,48,18.5
+2023,Alberta,Population autochtone,Hommes,25 ans et plus,48,8.3
+2023,Alberta,Population autochtone,Hommes,25 à 54 ans,48,7.9
+2023,Alberta,Population autochtone,Femmes,15 ans et plus,48,10.7
+2023,Alberta,Population autochtone,Femmes,15 à 64 ans,48,10.3
+2023,Alberta,Population autochtone,Femmes,15 à 24 ans,48,11.7
+2023,Alberta,Population autochtone,Femmes,25 ans et plus,48,10.3
+2023,Alberta,Population autochtone,Femmes,25 à 54 ans,48,11.3
+2023,Colombie-Britannique,Population autochtone,Les deux sexes,15 ans et plus,59,8.1
+2023,Colombie-Britannique,Population autochtone,Les deux sexes,15 à 64 ans,59,8.4
+2023,Colombie-Britannique,Population autochtone,Les deux sexes,15 à 24 ans,59,13.4
+2023,Colombie-Britannique,Population autochtone,Les deux sexes,25 ans et plus,59,6.6
+2023,Colombie-Britannique,Population autochtone,Les deux sexes,25 à 54 ans,59,7.0
+2023,Colombie-Britannique,Population autochtone,Hommes,15 ans et plus,59,7.8
+2023,Colombie-Britannique,Population autochtone,Hommes,15 à 64 ans,59,8.1
+2023,Colombie-Britannique,Population autochtone,Hommes,15 à 24 ans,59,10.9
+2023,Colombie-Britannique,Population autochtone,Hommes,25 ans et plus,59,7.0
+2023,Colombie-Britannique,Population autochtone,Hommes,25 à 54 ans,59,7.8
+2023,Colombie-Britannique,Population autochtone,Femmes,15 ans et plus,59,8.3
+2023,Colombie-Britannique,Population autochtone,Femmes,15 à 64 ans,59,8.6
+2023,Colombie-Britannique,Population autochtone,Femmes,15 à 24 ans,59,15.6
+2023,Colombie-Britannique,Population autochtone,Femmes,25 ans et plus,59,6.2
+2023,Colombie-Britannique,Population autochtone,Femmes,25 à 54 ans,59,6.3
 2015,Canada,Immigrants reçus,Les deux sexes,15 ans et plus,,7.4
 2015,Canada,Immigrants reçus,Les deux sexes,25 à 54 ans,,7.0
 2015,Canada,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,15 ans et plus,,12.1
@@ -7303,3 +8152,67 @@ Year,Géographie,Population,Sexe,Groupe d'âge,GeoCode,Value
 2022,Colombie-Britannique,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,25 à 54 ans,59,4.8
 2022,Colombie-Britannique,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,15 ans et plus,59,4.0
 2022,Colombie-Britannique,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,25 à 54 ans,59,3.7
+2023,Canada,Immigrants reçus,Les deux sexes,15 ans et plus,,5.8
+2023,Canada,Immigrants reçus,Les deux sexes,25 à 54 ans,,5.4
+2023,Canada,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,15 ans et plus,,8.8
+2023,Canada,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,25 à 54 ans,,8.0
+2023,Canada,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,15 ans et plus,,6.2
+2023,Canada,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,25 à 54 ans,,5.2
+2023,Canada,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,15 ans et plus,,5.0
+2023,Canada,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,25 à 54 ans,,4.7
+2023,Région de l'Atlantique,Immigrants reçus,Les deux sexes,15 ans et plus,,6.6
+2023,Région de l'Atlantique,Immigrants reçus,Les deux sexes,25 à 54 ans,,6.5
+2023,Région de l'Atlantique,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,15 ans et plus,,7.3
+2023,Région de l'Atlantique,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,25 à 54 ans,,7.0
+2023,Région de l'Atlantique,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,15 ans et plus,,5.4
+2023,Région de l'Atlantique,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,25 à 54 ans,,5.3
+2023,Région de l'Atlantique,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,15 ans et plus,,6.5
+2023,Région de l'Atlantique,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,25 à 54 ans,,6.3
+2023,Québec,Immigrants reçus,Les deux sexes,15 ans et plus,24,6.5
+2023,Québec,Immigrants reçus,Les deux sexes,25 à 54 ans,24,5.9
+2023,Québec,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,15 ans et plus,24,9.4
+2023,Québec,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,25 à 54 ans,24,8.4
+2023,Québec,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,15 ans et plus,24,7.2
+2023,Québec,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,25 à 54 ans,24,5.9
+2023,Québec,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,15 ans et plus,24,5.5
+2023,Québec,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,25 à 54 ans,24,5.0
+2023,Ontario,Immigrants reçus,Les deux sexes,15 ans et plus,35,5.9
+2023,Ontario,Immigrants reçus,Les deux sexes,25 à 54 ans,35,5.4
+2023,Ontario,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,15 ans et plus,35,8.5
+2023,Ontario,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,25 à 54 ans,35,7.6
+2023,Ontario,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,15 ans et plus,35,6.7
+2023,Ontario,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,25 à 54 ans,35,5.4
+2023,Ontario,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,15 ans et plus,35,5.1
+2023,Ontario,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,25 à 54 ans,35,4.8
+2023,Manitoba,Immigrants reçus,Les deux sexes,15 ans et plus,46,4.5
+2023,Manitoba,Immigrants reçus,Les deux sexes,25 à 54 ans,46,4.0
+2023,Manitoba,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,15 ans et plus,46,8.4
+2023,Manitoba,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,25 à 54 ans,46,7.1
+2023,Manitoba,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,15 ans et plus,46,5.0
+2023,Manitoba,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,25 à 54 ans,46,4.1
+2023,Manitoba,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,15 ans et plus,46,3.0
+2023,Manitoba,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,25 à 54 ans,46,2.4
+2023,Saskatchewan,Immigrants reçus,Les deux sexes,15 ans et plus,47,5.5
+2023,Saskatchewan,Immigrants reçus,Les deux sexes,25 à 54 ans,47,5.1
+2023,Saskatchewan,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,15 ans et plus,47,9.9
+2023,Saskatchewan,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,25 à 54 ans,47,9.8
+2023,Saskatchewan,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,15 ans et plus,47,4.6
+2023,Saskatchewan,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,25 à 54 ans,47,3.1
+2023,Saskatchewan,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,15 ans et plus,47,3.8
+2023,Saskatchewan,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,25 à 54 ans,47,3.1
+2023,Alberta,Immigrants reçus,Les deux sexes,15 ans et plus,48,5.9
+2023,Alberta,Immigrants reçus,Les deux sexes,25 à 54 ans,48,5.5
+2023,Alberta,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,15 ans et plus,48,9.7
+2023,Alberta,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,25 à 54 ans,48,9.1
+2023,Alberta,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,15 ans et plus,48,5.5
+2023,Alberta,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,25 à 54 ans,48,4.4
+2023,Alberta,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,15 ans et plus,48,5.0
+2023,Alberta,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,25 à 54 ans,48,4.8
+2023,Colombie-Britannique,Immigrants reçus,Les deux sexes,15 ans et plus,59,5.3
+2023,Colombie-Britannique,Immigrants reçus,Les deux sexes,25 à 54 ans,59,5.2
+2023,Colombie-Britannique,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,15 ans et plus,59,8.5
+2023,Colombie-Britannique,Immigrants reçus 5 ans et moins auparavant,Les deux sexes,25 à 54 ans,59,8.0
+2023,Colombie-Britannique,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,15 ans et plus,59,5.4
+2023,Colombie-Britannique,Immigrants reçus plus de 5 à 10 ans auparavant,Les deux sexes,25 à 54 ans,59,4.9
+2023,Colombie-Britannique,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,15 ans et plus,59,4.6
+2023,Colombie-Britannique,Immigrants reçus plus de 10 ans auparavant,Les deux sexes,25 à 54 ans,59,4.3

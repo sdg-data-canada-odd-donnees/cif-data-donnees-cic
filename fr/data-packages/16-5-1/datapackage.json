@@ -16,7 +16,7 @@
             "title": "Année"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -25,7 +25,7 @@
                 ""
               ]
             },
-            "title": "Unités"
+            "title": "Series"
           },
           {
             "name": "data.Geography",

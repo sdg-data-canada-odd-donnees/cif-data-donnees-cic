@@ -3,16 +3,17 @@ Indicator,Disaggregations,Number of disaggregations
 #1-2-1,"data.Geography, data.Age group and family type, data.Statistics",3
 #10-1-1,data.Geography,1
 #10-2-1,Geography,1
-#10-3-1,"data.Geography, data.Type of work, data.National Occupational Classification (NOC), data.Age",4
+#10-3-1,"data.Geography, data.Age, data.Type of work, data.National Occupational Classification (NOC)",4
 #10-4-1,"data.Geography, data.Economic family type",2
 #11-1-1,data.Estimates,1
 #11-2-1,"data.Select housing vulnerable populations, data.Living with housing problems",2
+#11-4-1,data.Geography,1
 #11-5-1,"data.Geography, data.Gender, data.Type of commute",3
 #11-6-1,"data.Geography, data.Sources of waste for disposal",2
-#11-7-1,"data.Geography, data.Sex, data.Age group",3
+#11-7-1,"data.Geography, data.Age group, data.Sex",3
 #12-1-1,data.Geography,1
-#12-2-1,"Industries, Environmental protection activities or management practices",2
-#12-3-1,"Geography, Type of materials diverted, Sources of materials prepared for recycling",3
+#12-2-1,"data.Industries, data.Environmental protection activities or management practices",2
+#12-3-1,"data.Geography, data.Type of materials diverted, data.Sources of materials prepared for recycling",3
 #13-1-1,"Geography, Source",2
 #13-2-1,"data.Event type, data.Event sub-type",2
 #13-3-1,"data.Geography, data.Core public infrastructure assets, data.Type of municipality by population size",3
@@ -29,35 +30,35 @@ Indicator,Disaggregations,Number of disaggregations
 #17-2-1,"data.Pillar, data.Region",2
 #2-1-1,"data.Geography, data.Economic family type, data.Household food security status",3
 #2-2-1,data.Index,1
-#3-1-1,"data.Geography, data.Sex, data.Age group",3
+#3-1-1,"data.Geography, data.Age group, data.Sex",3
 #3-10-1,"data.Sex, data.Age at time of death, data.Leading causes of death (ICD-10)",3
 #3-11-1,data.Sex,1
 #3-12-1,"Geography, Type of event",2
-#3-13-1,"data.Geography, data.Sex, data.Age group",3
+#3-13-1,"data.Geography, data.Age group, data.Sex",3
 #3-2-1,"data.Geography, data.Sex, data.Grade, data.Type of e-cigarettes",4
-#3-3-1,"data.Geography, data.Sex, data.Age group, data.Measures",4
-#3-4-1,"data.Geography, data.Sex, data.Age group",3
-#3-5-1,"data.Geography, data.Sex, data.Age group",3
-#3-6-1,"data.Geography, data.Sex, data.Age group",3
-#3-7-1,"data.Geography, data.Sex, data.Age group",3
+#3-3-1,"data.Geography, data.Age group, data.Sex, data.Measures",4
+#3-4-1,"data.Geography, data.Age group, data.Sex",3
+#3-5-1,"data.Geography, data.Age group, data.Sex",3
+#3-6-1,"data.Geography, data.Age group, data.Sex",3
+#3-7-1,"data.Geography, data.Age group, data.Sex",3
 #3-8-1,"data.Geography, data.Age, data.Selected diseases",3
 #3-9-1,data.Disease,1
-#4-1-1,"data.Geography, data.Gender, data.Age group, data.Selected demographic characteristics",4
-#4-2-1,"data.Geography, data.Sex, data.Age group, data.Population characteristics, data.Educational attainment level",5
+#4-1-1,"data.Geography, data.Age group, data.Gender, data.Selected demographic characteristics",4
+#4-2-1,"data.Geography, data.Age group, data.Sex, data.Population characteristics, data.Educational attainment level",5
 #5-1-1,"data.Geography, data.Sex, data.Type of perpetrator",3
 #5-1-2,"data.Type of intimate partner violence, data.Selected characteristic",2
 #5-2-1,data.Leadership position,1
-#5-3-1,"data.Geography, data.Sex, data.Age, data.Activity group",4
+#5-3-1,"data.Geography, data.Sex, data.Activity group, data.Age",4
 #6-1-1,data.Geography,1
 #6-2-1,data.Geography,1
 #6-3-1,data.Sector,1
 #6-4-1,"data.Geography, data.Land use category, data.Water quality",3
 #7-2-1,data.Geography,1
 #7-3-1,"data.Geography, data.Type of electricity generation",2
-#8-1-1,"data.Geography, data.Sex, data.Age group, data.Population",4
-#8-2-1,"data.Geography, data.Sex, data.Age group",3
-#8-3-1,"data.Geography, data.Sex, data.Age group",3
-#8-4-1,"data.Geography, data.Sex, data.Age group",3
+#8-1-1,"data.Geography, data.Age group, data.Sex, data.Population",4
+#8-2-1,"data.Geography, data.Age group, data.Sex",3
+#8-3-1,"data.Geography, data.Age group, data.Sex",3
+#8-4-1,"data.Geography, data.Age group, data.Sex",3
 #8-5-1,data.Geography,1
 #8-6-1,Geography,1
 #9-2-1,data.Geography,1

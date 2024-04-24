@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "Industries",
+            "name": "data.Industries",
             "type": "string",
             "constraints": {
               "enum": [
@@ -47,7 +47,7 @@
             "title": "Industries"
           },
           {
-            "name": "Environmental protection activities or management practices",
+            "name": "data.Environmental protection activities or management practices",
             "type": "string",
             "constraints": {
               "enum": [
