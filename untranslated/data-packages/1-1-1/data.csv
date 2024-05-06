@@ -6,6 +6,7 @@ Year,data.Geography,data.Persons in low income,GeoCode,Value
 2019,,,,10.3
 2020,,,,6.4
 2021,,,,7.4
+2022,,,,9.9
 2015,data.Canada,data.Persons under 18 years,,16.3
 2015,data.Canada,data.Persons 18 to 64 years,,15.7
 2015,data.Canada,data.Persons 65 years and over,,7.1
@@ -1763,3 +1764,254 @@ Year,data.Geography,data.Persons in low income,GeoCode,Value
 2021,"data.Vancouver, British Columbia","data.Females, under 18 years",,
 2021,"data.Vancouver, British Columbia","data.Females, 18 to 64 years",,11.1
 2021,"data.Vancouver, British Columbia","data.Females, 65 years and over",,9.8
+2022,data.Canada,data.Persons under 18 years,,9.9
+2022,data.Canada,data.Persons 18 to 64 years,,11.1
+2022,data.Canada,data.Persons 65 years and over,,6.0
+2022,data.Canada,data.Males,,9.9
+2022,data.Canada,"data.Males, under 18 years",,9.9
+2022,data.Canada,"data.Males, 18 to 64 years",,11.0
+2022,data.Canada,"data.Males, 65 years and over",,5.6
+2022,data.Canada,data.Females,,10.0
+2022,data.Canada,"data.Females, under 18 years",,9.9
+2022,data.Canada,"data.Females, 18 to 64 years",,11.2
+2022,data.Canada,"data.Females, 65 years and over",,6.3
+2022,data.Atlantic provinces,data.All persons,,11.5
+2022,data.Atlantic provinces,data.Persons under 18 years,,12.1
+2022,data.Atlantic provinces,data.Persons 18 to 64 years,,12.4
+2022,data.Atlantic provinces,data.Persons 65 years and over,,8.5
+2022,data.Atlantic provinces,data.Males,,11.1
+2022,data.Atlantic provinces,"data.Males, under 18 years",,12.4
+2022,data.Atlantic provinces,"data.Males, 18 to 64 years",,12.1
+2022,data.Atlantic provinces,"data.Males, 65 years and over",,7.2
+2022,data.Atlantic provinces,data.Females,,11.8
+2022,data.Atlantic provinces,"data.Females, under 18 years",,11.8
+2022,data.Atlantic provinces,"data.Females, 18 to 64 years",,12.7
+2022,data.Atlantic provinces,"data.Females, 65 years and over",,9.7
+2022,data.Newfoundland and Labrador,data.All persons,10,9.8
+2022,data.Newfoundland and Labrador,data.Persons under 18 years,10,11.0
+2022,data.Newfoundland and Labrador,data.Persons 18 to 64 years,10,11.2
+2022,data.Newfoundland and Labrador,data.Persons 65 years and over,10,5.5
+2022,data.Newfoundland and Labrador,data.Males,10,8.9
+2022,data.Newfoundland and Labrador,"data.Males, under 18 years",10,10.2
+2022,data.Newfoundland and Labrador,"data.Males, 18 to 64 years",10,10.2
+2022,data.Newfoundland and Labrador,"data.Males, 65 years and over",10,4.7
+2022,data.Newfoundland and Labrador,data.Females,10,10.6
+2022,data.Newfoundland and Labrador,"data.Females, under 18 years",10,11.9
+2022,data.Newfoundland and Labrador,"data.Females, 18 to 64 years",10,12.1
+2022,data.Newfoundland and Labrador,"data.Females, 65 years and over",10,6.2
+2022,data.Prince Edward Island,data.All persons,11,9.8
+2022,data.Prince Edward Island,data.Persons under 18 years,11,8.3
+2022,data.Prince Edward Island,data.Persons 18 to 64 years,11,10.6
+2022,data.Prince Edward Island,data.Persons 65 years and over,11,8.6
+2022,data.Prince Edward Island,data.Males,11,9.3
+2022,data.Prince Edward Island,"data.Males, under 18 years",11,7.2
+2022,data.Prince Edward Island,"data.Males, 18 to 64 years",11,10.3
+2022,data.Prince Edward Island,"data.Males, 65 years and over",11,7.8
+2022,data.Prince Edward Island,data.Females,11,10.2
+2022,data.Prince Edward Island,"data.Females, under 18 years",11,9.3
+2022,data.Prince Edward Island,"data.Females, 18 to 64 years",11,10.8
+2022,data.Prince Edward Island,"data.Females, 65 years and over",11,9.4
+2022,data.Nova Scotia,data.All persons,12,13.1
+2022,data.Nova Scotia,data.Persons under 18 years,12,14.0
+2022,data.Nova Scotia,data.Persons 18 to 64 years,12,13.8
+2022,data.Nova Scotia,data.Persons 65 years and over,12,10.4
+2022,data.Nova Scotia,data.Males,12,13.0
+2022,data.Nova Scotia,"data.Males, under 18 years",12,14.9
+2022,data.Nova Scotia,"data.Males, 18 to 64 years",12,13.7
+2022,data.Nova Scotia,"data.Males, 65 years and over",12,9.3
+2022,data.Nova Scotia,data.Females,12,13.2
+2022,data.Nova Scotia,"data.Females, under 18 years",12,13.1
+2022,data.Nova Scotia,"data.Females, 18 to 64 years",12,13.9
+2022,data.Nova Scotia,"data.Females, 65 years and over",12,11.3
+2022,data.New Brunswick,data.All persons,13,10.9
+2022,data.New Brunswick,data.Persons under 18 years,13,11.3
+2022,data.New Brunswick,data.Persons 18 to 64 years,13,11.7
+2022,data.New Brunswick,data.Persons 65 years and over,13,8.2
+2022,data.New Brunswick,data.Males,13,10.4
+2022,data.New Brunswick,"data.Males, under 18 years",13,11.7
+2022,data.New Brunswick,"data.Males, 18 to 64 years",13,11.5
+2022,data.New Brunswick,"data.Males, 65 years and over",13,6.2
+2022,data.New Brunswick,data.Females,13,11.3
+2022,data.New Brunswick,"data.Females, under 18 years",13,10.8
+2022,data.New Brunswick,"data.Females, 18 to 64 years",13,11.9
+2022,data.New Brunswick,"data.Females, 65 years and over",13,10.1
+2022,data.Quebec,data.All persons,24,6.6
+2022,data.Quebec,data.Persons under 18 years,24,4.8
+2022,data.Quebec,data.Persons 18 to 64 years,24,8.4
+2022,data.Quebec,data.Persons 65 years and over,24,2.9
+2022,data.Quebec,data.Males,24,7.0
+2022,data.Quebec,"data.Males, under 18 years",24,4.5
+2022,data.Quebec,"data.Males, 18 to 64 years",24,9.1
+2022,data.Quebec,"data.Males, 65 years and over",24,3.3
+2022,data.Quebec,data.Females,24,6.1
+2022,data.Quebec,"data.Females, under 18 years",24,5.1
+2022,data.Quebec,"data.Females, 18 to 64 years",24,7.8
+2022,data.Quebec,"data.Females, 65 years and over",24,2.5
+2022,data.Ontario,data.All persons,35,10.9
+2022,data.Ontario,data.Persons under 18 years,35,11.2
+2022,data.Ontario,data.Persons 18 to 64 years,35,12.0
+2022,data.Ontario,data.Persons 65 years and over,35,6.7
+2022,data.Ontario,data.Males,35,10.7
+2022,data.Ontario,"data.Males, under 18 years",35,11.6
+2022,data.Ontario,"data.Males, 18 to 64 years",35,11.7
+2022,data.Ontario,"data.Males, 65 years and over",35,6.0
+2022,data.Ontario,data.Females,35,11.0
+2022,data.Ontario,"data.Females, under 18 years",35,10.7
+2022,data.Ontario,"data.Females, 18 to 64 years",35,12.3
+2022,data.Ontario,"data.Females, 65 years and over",35,7.2
+2022,data.Prairie provinces,data.All persons,,10.3
+2022,data.Prairie provinces,data.Persons under 18 years,,12.0
+2022,data.Prairie provinces,data.Persons 18 to 64 years,,10.8
+2022,data.Prairie provinces,data.Persons 65 years and over,,5.6
+2022,data.Prairie provinces,data.Males,,9.9
+2022,data.Prairie provinces,"data.Males, under 18 years",,11.4
+2022,data.Prairie provinces,"data.Males, 18 to 64 years",,10.5
+2022,data.Prairie provinces,"data.Males, 65 years and over",,5.1
+2022,data.Prairie provinces,data.Females,,10.7
+2022,data.Prairie provinces,"data.Females, under 18 years",,12.6
+2022,data.Prairie provinces,"data.Females, 18 to 64 years",,11.1
+2022,data.Prairie provinces,"data.Females, 65 years and over",,6.1
+2022,data.Manitoba,data.All persons,46,11.5
+2022,data.Manitoba,data.Persons under 18 years,46,13.3
+2022,data.Manitoba,data.Persons 18 to 64 years,46,12.3
+2022,data.Manitoba,data.Persons 65 years and over,46,6.3
+2022,data.Manitoba,data.Males,46,11.2
+2022,data.Manitoba,"data.Males, under 18 years",46,13.3
+2022,data.Manitoba,"data.Males, 18 to 64 years",46,11.9
+2022,data.Manitoba,"data.Males, 65 years and over",46,5.4
+2022,data.Manitoba,data.Females,46,11.8
+2022,data.Manitoba,"data.Females, under 18 years",46,13.2
+2022,data.Manitoba,"data.Females, 18 to 64 years",46,12.7
+2022,data.Manitoba,"data.Females, 65 years and over",46,7.1
+2022,data.Saskatchewan,data.All persons,47,11.1
+2022,data.Saskatchewan,data.Persons under 18 years,47,13.6
+2022,data.Saskatchewan,data.Persons 18 to 64 years,47,11.9
+2022,data.Saskatchewan,data.Persons 65 years and over,47,4.9
+2022,data.Saskatchewan,data.Males,47,11.1
+2022,data.Saskatchewan,"data.Males, under 18 years",47,14.1
+2022,data.Saskatchewan,"data.Males, 18 to 64 years",47,11.8
+2022,data.Saskatchewan,"data.Males, 65 years and over",47,4.1
+2022,data.Saskatchewan,data.Females,47,11.1
+2022,data.Saskatchewan,"data.Females, under 18 years",47,13.1
+2022,data.Saskatchewan,"data.Females, 18 to 64 years",47,12.1
+2022,data.Saskatchewan,"data.Females, 65 years and over",47,5.6
+2022,data.Alberta,data.All persons,48,9.7
+2022,data.Alberta,data.Persons under 18 years,48,11.2
+2022,data.Alberta,data.Persons 18 to 64 years,48,10.2
+2022,data.Alberta,data.Persons 65 years and over,48,5.6
+2022,data.Alberta,data.Males,48,9.3
+2022,data.Alberta,"data.Males, under 18 years",48,10.1
+2022,data.Alberta,"data.Males, 18 to 64 years",48,9.8
+2022,data.Alberta,"data.Males, 65 years and over",48,5.3
+2022,data.Alberta,data.Females,48,10.2
+2022,data.Alberta,"data.Females, under 18 years",48,12.4
+2022,data.Alberta,"data.Females, 18 to 64 years",48,10.5
+2022,data.Alberta,"data.Females, 65 years and over",48,5.9
+2022,data.British Columbia,data.All persons,59,11.6
+2022,data.British Columbia,data.Persons under 18 years,59,11.0
+2022,data.British Columbia,data.Persons 18 to 64 years,59,12.6
+2022,data.British Columbia,data.Persons 65 years and over,59,8.7
+2022,data.British Columbia,data.Males,59,11.4
+2022,data.British Columbia,"data.Males, under 18 years",59,11.0
+2022,data.British Columbia,"data.Males, 18 to 64 years",59,12.3
+2022,data.British Columbia,"data.Males, 65 years and over",59,8.5
+2022,data.British Columbia,data.Females,59,11.7
+2022,data.British Columbia,"data.Females, under 18 years",59,11.0
+2022,data.British Columbia,"data.Females, 18 to 64 years",59,12.9
+2022,data.British Columbia,"data.Females, 65 years and over",59,8.8
+2022,"data.Québec, Quebec",data.All persons,,5.6
+2022,"data.Québec, Quebec",data.Persons under 18 years,,3.3
+2022,"data.Québec, Quebec",data.Persons 18 to 64 years,,7.4
+2022,"data.Québec, Quebec",data.Persons 65 years and over,,2.8
+2022,"data.Québec, Quebec",data.Males,,6.5
+2022,"data.Québec, Quebec","data.Males, under 18 years",,3.1
+2022,"data.Québec, Quebec","data.Males, 18 to 64 years",,8.6
+2022,"data.Québec, Quebec","data.Males, 65 years and over",,3.5
+2022,"data.Québec, Quebec",data.Females,,4.7
+2022,"data.Québec, Quebec","data.Females, under 18 years",,3.4
+2022,"data.Québec, Quebec","data.Females, 18 to 64 years",,6.2
+2022,"data.Québec, Quebec","data.Females, 65 years and over",,2.1
+2022,"data.Montréal, Quebec",data.All persons,,7.4
+2022,"data.Montréal, Quebec",data.Persons under 18 years,,5.3
+2022,"data.Montréal, Quebec",data.Persons 18 to 64 years,,9.1
+2022,"data.Montréal, Quebec",data.Persons 65 years and over,,3.8
+2022,"data.Montréal, Quebec",data.Males,,8.2
+2022,"data.Montréal, Quebec","data.Males, under 18 years",,5.4
+2022,"data.Montréal, Quebec","data.Males, 18 to 64 years",,10.0
+2022,"data.Montréal, Quebec","data.Males, 65 years and over",,4.5
+2022,"data.Montréal, Quebec",data.Females,,6.7
+2022,"data.Montréal, Quebec","data.Females, under 18 years",,5.3
+2022,"data.Montréal, Quebec","data.Females, 18 to 64 years",,8.2
+2022,"data.Montréal, Quebec","data.Females, 65 years and over",,3.3
+2022,"data.Ottawa-Gatineau, Ontario/Quebec",data.All persons,,9.1
+2022,"data.Ottawa-Gatineau, Ontario/Quebec",data.Persons under 18 years,,7.4
+2022,"data.Ottawa-Gatineau, Ontario/Quebec",data.Persons 18 to 64 years,,10.9
+2022,"data.Ottawa-Gatineau, Ontario/Quebec",data.Persons 65 years and over,,5.1
+2022,"data.Ottawa-Gatineau, Ontario/Quebec",data.Males,,9.2
+2022,"data.Ottawa-Gatineau, Ontario/Quebec","data.Males, under 18 years",,7.2
+2022,"data.Ottawa-Gatineau, Ontario/Quebec","data.Males, 18 to 64 years",,11.0
+2022,"data.Ottawa-Gatineau, Ontario/Quebec","data.Males, 65 years and over",,5.4
+2022,"data.Ottawa-Gatineau, Ontario/Quebec",data.Females,,9.0
+2022,"data.Ottawa-Gatineau, Ontario/Quebec","data.Females, under 18 years",,7.6
+2022,"data.Ottawa-Gatineau, Ontario/Quebec","data.Females, 18 to 64 years",,10.7
+2022,"data.Ottawa-Gatineau, Ontario/Quebec","data.Females, 65 years and over",,4.8
+2022,"data.Toronto, Ontario",data.All persons,,12.6
+2022,"data.Toronto, Ontario",data.Persons under 18 years,,13.4
+2022,"data.Toronto, Ontario",data.Persons 18 to 64 years,,13.3
+2022,"data.Toronto, Ontario",data.Persons 65 years and over,,8.9
+2022,"data.Toronto, Ontario",data.Males,,12.5
+2022,"data.Toronto, Ontario","data.Males, under 18 years",,14.4
+2022,"data.Toronto, Ontario","data.Males, 18 to 64 years",,13.0
+2022,"data.Toronto, Ontario","data.Males, 65 years and over",,7.6
+2022,"data.Toronto, Ontario",data.Females,,12.8
+2022,"data.Toronto, Ontario","data.Females, under 18 years",,12.4
+2022,"data.Toronto, Ontario","data.Females, 18 to 64 years",,13.6
+2022,"data.Toronto, Ontario","data.Females, 65 years and over",,10.0
+2022,"data.Winnipeg, Manitoba",data.All persons,,11.3
+2022,"data.Winnipeg, Manitoba",data.Persons under 18 years,,12.6
+2022,"data.Winnipeg, Manitoba",data.Persons 18 to 64 years,,12.1
+2022,"data.Winnipeg, Manitoba",data.Persons 65 years and over,,7.1
+2022,"data.Winnipeg, Manitoba",data.Males,,10.9
+2022,"data.Winnipeg, Manitoba","data.Males, under 18 years",,12.7
+2022,"data.Winnipeg, Manitoba","data.Males, 18 to 64 years",,11.6
+2022,"data.Winnipeg, Manitoba","data.Males, 65 years and over",,5.8
+2022,"data.Winnipeg, Manitoba",data.Females,,11.8
+2022,"data.Winnipeg, Manitoba","data.Females, under 18 years",,12.4
+2022,"data.Winnipeg, Manitoba","data.Females, 18 to 64 years",,12.6
+2022,"data.Winnipeg, Manitoba","data.Females, 65 years and over",,8.3
+2022,"data.Calgary, Alberta",data.All persons,,10.2
+2022,"data.Calgary, Alberta",data.Persons under 18 years,,11.6
+2022,"data.Calgary, Alberta",data.Persons 18 to 64 years,,10.6
+2022,"data.Calgary, Alberta",data.Persons 65 years and over,,5.7
+2022,"data.Calgary, Alberta",data.Males,,9.9
+2022,"data.Calgary, Alberta","data.Males, under 18 years",,9.8
+2022,"data.Calgary, Alberta","data.Males, 18 to 64 years",,10.8
+2022,"data.Calgary, Alberta","data.Males, 65 years and over",,5.1
+2022,"data.Calgary, Alberta",data.Females,,10.4
+2022,"data.Calgary, Alberta","data.Females, under 18 years",,13.5
+2022,"data.Calgary, Alberta","data.Females, 18 to 64 years",,10.3
+2022,"data.Calgary, Alberta","data.Females, 65 years and over",,6.2
+2022,"data.Edmonton, Alberta",data.All persons,,10.0
+2022,"data.Edmonton, Alberta",data.Persons under 18 years,,11.8
+2022,"data.Edmonton, Alberta",data.Persons 18 to 64 years,,10.4
+2022,"data.Edmonton, Alberta",data.Persons 65 years and over,,5.9
+2022,"data.Edmonton, Alberta",data.Males,,9.6
+2022,"data.Edmonton, Alberta","data.Males, under 18 years",,10.5
+2022,"data.Edmonton, Alberta","data.Males, 18 to 64 years",,10.1
+2022,"data.Edmonton, Alberta","data.Males, 65 years and over",,6.1
+2022,"data.Edmonton, Alberta",data.Females,,10.5
+2022,"data.Edmonton, Alberta","data.Females, under 18 years",,13.1
+2022,"data.Edmonton, Alberta","data.Females, 18 to 64 years",,10.8
+2022,"data.Edmonton, Alberta","data.Females, 65 years and over",,5.7
+2022,"data.Vancouver, British Columbia",data.All persons,,12.4
+2022,"data.Vancouver, British Columbia",data.Persons under 18 years,,11.4
+2022,"data.Vancouver, British Columbia",data.Persons 18 to 64 years,,13.2
+2022,"data.Vancouver, British Columbia",data.Persons 65 years and over,,10.4
+2022,"data.Vancouver, British Columbia",data.Males,,12.5
+2022,"data.Vancouver, British Columbia","data.Males, under 18 years",,11.6
+2022,"data.Vancouver, British Columbia","data.Males, 18 to 64 years",,13.2
+2022,"data.Vancouver, British Columbia","data.Males, 65 years and over",,10.3
+2022,"data.Vancouver, British Columbia",data.Females,,12.3
+2022,"data.Vancouver, British Columbia","data.Females, under 18 years",,11.1
+2022,"data.Vancouver, British Columbia","data.Females, 18 to 64 years",,13.1
+2022,"data.Vancouver, British Columbia","data.Females, 65 years and over",,10.4
