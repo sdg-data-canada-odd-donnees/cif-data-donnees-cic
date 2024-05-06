@@ -46,14 +46,13 @@
               "enum": [
                 "Agriculture",
                 "Buildings",
-                "Coal Production",
-                "Electricity",
                 "Heavy Industry",
                 "Light Manufacturing, Construction and Forest Resources",
                 "Oil and Gas",
-                "Provincial Inventory Total",
                 "Transport",
                 "Waste",
+                "Provincial Inventory Total",
+                "Territorial Inventory Total",
                 ""
               ]
             },

@@ -44,14 +44,13 @@
               "enum": [
                 "data.Agriculture",
                 "data.Buildings",
-                "data.Coal Production",
-                "data.Electricity",
                 "data.Heavy Industry",
                 "data.Light Manufacturing, Construction and Forest Resources",
                 "data.Oil and Gas",
-                "data.Provincial Inventory Total",
                 "data.Transport",
                 "data.Waste",
+                "data.Provincial Inventory Total",
+                "data.Territorial Inventory Total",
                 ""
               ]
             }
