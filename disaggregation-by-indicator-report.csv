@@ -3,7 +3,7 @@ Indicator,Disaggregations,Number of disaggregations
 #1-2-1,"data.Geography, data.Age group and family type, data.Statistics",3
 #10-1-1,data.Geography,1
 #10-2-1,Geography,1
-#10-3-1,"data.Geography, data.Age, data.Type of work, data.National Occupational Classification (NOC)",4
+#10-3-1,"data.Geography, data.Type of work, data.National Occupational Classification (NOC), data.Age",4
 #10-4-1,"data.Geography, data.Economic family type",2
 #11-1-1,data.Estimates,1
 #11-2-1,"data.Select housing vulnerable populations, data.Living with housing problems",2
@@ -21,7 +21,7 @@ Indicator,Disaggregations,Number of disaggregations
 #15-1-1,data.Species group,1
 #15-2-1,data.Trend,1
 #16-1-1,Selected sociodemographic characteristics,1
-#16-2-1,"data.Index, data.Geography",2
+#16-2-1,"data.Geography, data.Index",2
 #16-3-1,"data.Geography, data.Violations",2
 #16-4-1,"data.Geography, data.Type of cyber-related violation, data.Cyber-related violation",3
 #16-5-1,"data.Geography, data.Offences, data.Age of accused, data.Sex of accused",4
@@ -48,7 +48,7 @@ Indicator,Disaggregations,Number of disaggregations
 #5-1-1,"data.Geography, data.Sex, data.Type of perpetrator",3
 #5-1-2,"data.Type of intimate partner violence, data.Selected characteristic",2
 #5-2-1,data.Leadership position,1
-#5-3-1,"data.Geography, data.Sex, data.Activity group, data.Age",4
+#5-3-1,"data.Geography, data.Sex, data.Age, data.Activity group",4
 #6-1-1,data.Geography,1
 #6-2-1,data.Geography,1
 #6-3-1,data.Sector,1
