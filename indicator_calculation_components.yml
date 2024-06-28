@@ -311,7 +311,15 @@
   target: None
   target_year: '2030'
 2-2-1:
-  progress_status: not_available
+  base_value: '67'
+  base_year: '2016'
+  current_value: '65'
+  current_year: '2021'
+  direction: None
+  progress_calculation_value: None
+  progress_status: target_achieved
+  target: '71'
+  target_year: '2030'
 3-1-1:
   base_value: '31.5'
   base_year: '2015'
