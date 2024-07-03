@@ -1,9 +1,13 @@
 Value,Disaggregation combinations using this value,Number of indicators
+Alberta,354,1
+Atlantic provinces,354,1
+British Columbia,354,1
+Canada,309,1
 "data.Abbotsford - Mission, British Columbia",1,1
 "data.Abbotsford - Mission (CMA), B.C.",9,1
-data.Alberta,1391,40
+data.Alberta,1271,39
 data.Atlantic Ocean,72,1
-data.Atlantic provinces,152,3
+data.Atlantic provinces,32,2
 data.Atlantic region,23,1
 data.Atlantic,121,2
 "data.Barrie (CMA), Ont.",9,1
@@ -13,10 +17,10 @@ data.Atlantic,121,2
 "data.Brantford (CMA), Ont.",9,1
 "data.Brantford, Ontario",1,1
 data.British Columbia and the Territories,1,1
-data.British Columbia,1501,41
+data.British Columbia,1381,40
 "data.Calgary, Alberta",33,3
 "data.Calgary (CMA), Alta.",9,1
-data.Canada,1613,36
+data.Canada,1494,35
 "data.Edmonton, Alberta",33,3
 "data.Edmonton (CMA), Alta.",9,1
 data.Great Lakes and St. Lawrence River,72,1
@@ -40,17 +44,17 @@ data.Hudson Bay,72,1
 "data.London (CMA), Ont.",9,1
 "data.London, Ontario",1,1
 data.Mackenzie River,72,1
-data.Manitoba,1382,41
+data.Manitoba,1262,40
 "data.Moncton (CMA), N.B.",9,1
 "data.Moncton, New Brunswick",1,1
 "data.Montréal (CMA), Que.",9,1
 "data.Montréal, Quebec",32,2
-data.New Brunswick,1359,40
-data.Newfoundland and Labrador,1356,39
+data.New Brunswick,1239,39
+data.Newfoundland and Labrador,1236,38
 data.Northwest Territories,715,21
-data.Nova Scotia,1357,39
+data.Nova Scotia,1237,38
 data.Nunavut,711,21
-data.Ontario,1502,42
+data.Ontario,1382,41
 "data.Oshawa (CMA), Ont.",9,1
 "data.Oshawa, Ontario",1,1
 "data.Ottawa - Gatineau (CMA), Ont./Que.",9,1
@@ -62,10 +66,10 @@ data.Ontario,1502,42
 data.Pacific Ocean,82,1
 "data.Peterborough (CMA), Ont.",9,1
 "data.Peterborough, Ontario",1,1
-data.Prairie provinces,152,3
+data.Prairie provinces,32,2
 data.Prairies,120,1
-data.Prince Edward Island,1357,40
-data.Quebec,1509,42
+data.Prince Edward Island,1237,39
+data.Quebec,1389,41
 "data.Québec (CMA), Que.",9,1
 "data.Québec, Quebec",32,2
 "data.Regina (CMA), Sask.",9,1
@@ -74,7 +78,7 @@ data.Quebec,1509,42
 "data.Saguenay, Quebec",1,1
 "data.Saint John (CMA), N.B.",9,1
 "data.Saint John, New Brunswick",1,1
-data.Saskatchewan,1383,41
+data.Saskatchewan,1263,40
 "data.Saskatoon (CMA), Sask.",9,1
 "data.Saskatoon, Saskatchewan",1,1
 "data.Sherbrooke (CMA), Que.",9,1
@@ -101,3 +105,12 @@ data.Total Non-Census metropolitan area,1,1
 "data.Winnipeg, Manitoba",33,3
 "data.Yukon, Northwest Territories and Nunavut",3,1
 data.Yukon,721,21
+Manitoba,354,1
+New Brunswick,354,1
+Newfoundland and Labrador,354,1
+Nova Scotia,354,1
+Ontario,354,1
+Prairie provinces,354,1
+Prince Edward Island,354,1
+Quebec,354,1
+Saskatchewan,354,1
