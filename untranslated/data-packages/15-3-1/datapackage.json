@@ -15,6 +15,28 @@
             "type": "integer"
           },
           {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }

@@ -418,17 +418,17 @@
             "constraints": {
               "enum": [
                 "data.Canada",
-                "data.New Brunswick",
                 "data.British Columbia",
-                "data.Quebec",
-                "data.Nova Scotia",
-                "data.Saskatchewan",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Prince Edward Island",
-                "data.Northwest Territories",
                 "data.Alberta",
+                "data.Saskatchewan",
+                "data.Manitoba",
+                "data.Ontario",
+                "data.Quebec",
+                "data.New Brunswick",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
                 "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
                 "data.Yukon",
                 "data.Nunavut",
                 ""
@@ -2452,6 +2452,28 @@
           {
             "name": "Year",
             "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Alberta",
+                "data.British Columbia",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Northwest Territories",
+                "data.Nova Scotia",
+                "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
