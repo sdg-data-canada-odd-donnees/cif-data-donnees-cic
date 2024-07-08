@@ -7,7 +7,8 @@ library(stringr)
 
 # load CODR table from stc api
 repr_in_gov <- get_cansim("10-10-0137-01", factors = FALSE)
-repr_in_mgmt <- get_cansim("14-10-0335-01", factors = FALSE) 
+# repr_in_mgmt <- get_cansim("14-10-0335-01", factors = FALSE) # archived 2022
+repr_in_mgmt <- get_cansim("14-10-0416-01", factors=FALSE)
 repr_in_judges <- get_cansim("37-10-0208-01", factors = FALSE)
 repr_in_chiefs <- get_cansim("41-10-0048-01", factors = FALSE)
 
@@ -40,11 +41,11 @@ repr_in_gov <-
 # Representation in management --------------------------------------------
 
 selected_occupations <- c(
-  "Management occupations [0]",
-  "Senior management occupations [00]",
-  "Specialized middle management occupations [01-05]",
-  "Middle management occupations in retail and wholesale trade and customer services [06]",
-  "Middle management occupations in trades, transportation, production and utilities [07-09]"
+  "Management occupations [00, 10, 20, 30, 40, 50, 60, 70, 80, 90]",
+  "Legislative and senior management occupations [00]",
+  "Specialized middle management occupations [10, 20, 30, 40, 50]",
+  "Middle management occupations in retail and wholesale trade and customer services [60]",
+  "Middle management occupations in trades, transportation, production and utilities [70, 80, 90]"
 )
 
 repr_in_mgmt <- 
@@ -63,10 +64,9 @@ repr_in_mgmt <-
   ) %>% 
   mutate(
     `Leadership position` = str_remove_all(`Leadership position`, " \\[.*\\]"),
-    `Leadership position` = ifelse(
-      `Leadership position` == "Management occupations",
-      "All management occupations",
-      `Leadership position`
+    `Leadership position` = replace(`Leadership position`, 
+                                    `Leadership position` == "Management occupations", 
+                                    "All management occupations"
     )
   )
 
