@@ -8,8 +8,9 @@ library(stringr)
 # load CODR table from stc api
 repr_in_gov <- get_cansim("10-10-0137-01", factors = FALSE)
 # repr_in_mgmt <- get_cansim("14-10-0335-01", factors = FALSE) # archived 2022
-repr_in_mgmt <- get_cansim("14-10-0416-01", factors=FALSE)
-repr_in_judges <- get_cansim("37-10-0208-01", factors = FALSE)
+repr_in_mgmt <- get_cansim("14-10-0416-01", factors = FALSE)
+# repr_in_judges <- get_cansim("37-10-0208-01", factors = FALSE) # old
+repr_in_judges <- get_cansim("35-10-0198-01", factors = FALSE)
 repr_in_chiefs <- get_cansim("41-10-0048-01", factors = FALSE)
 
 
@@ -73,29 +74,19 @@ repr_in_mgmt <-
 
 # Representation in judges ------------------------------------------------
 
-selected_industries <- c(
-  "Federal government public administration [911]",
-  "Provincial and territorial public administration [912]"
-)
-
 repr_in_judges <- 
   repr_in_judges %>% 
   filter(
-    REF_DATE >= 2002,
-    GEO == "Canada",
-    `North American Industry Classification System (NAICS)` %in% selected_industries,
-    Sex == "Females",
-    `Selected demographic characteristics` == "Total, all judges",
-    Statistics == "Percentage of persons"
-  ) %>% 
+    `Gender of judges` == "Women",
+    Statistics == "Proportion",
+    Court == "Total, all courts",
+  ) %>%
   select(
     Year = REF_DATE,
-    `Leadership position` = `North American Industry Classification System (NAICS)`,
-    Value = VALUE
+    Value = VALUE,
   ) %>% 
   mutate(
-    `Leadership position` = str_remove(`Leadership position`, " \\[.*\\]"),
-    `Leadership position` = paste0("Judges - ", `Leadership position`)
+    `Leadership position` = "Federally appointed judges",
   )
 
 
