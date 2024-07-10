@@ -46,7 +46,7 @@ waste_diversion <-
       Geography,
       "Yukon, Northwest Territories and Nunavut" = "Territories")
   ) %>%
-  left_join(population, by = c("Year", "Geography")) %>%
+  inner_join(population, by = c("Year", "Geography")) %>%
   mutate(Value = kilos / Population) %>%
   select(
     Year,

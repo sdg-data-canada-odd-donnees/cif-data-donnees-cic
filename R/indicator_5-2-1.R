@@ -7,9 +7,7 @@ library(stringr)
 
 # load CODR table from stc api
 repr_in_gov <- get_cansim("10-10-0137-01", factors = FALSE)
-# repr_in_mgmt <- get_cansim("14-10-0335-01", factors = FALSE) # archived 2022
 repr_in_mgmt <- get_cansim("14-10-0416-01", factors = FALSE)
-# repr_in_judges <- get_cansim("37-10-0208-01", factors = FALSE) # old
 repr_in_judges <- get_cansim("35-10-0198-01", factors = FALSE)
 repr_in_chiefs <- get_cansim("41-10-0048-01", factors = FALSE)
 
