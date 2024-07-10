@@ -20,8 +20,13 @@ Population <-
          `Age group` == "All ages") %>%
   select(Year = REF_DATE,
          Geography = GEO,
-         Population = VALUE)
-
+         Population = VALUE) %>%
+  # combine territories' populations to match waste data grouping
+  mutate(Geography = replace(Geography, 
+                             Geography %in% c("Yukon", "Northwest Territories", "Nunavut"),
+                             "Yukon, Northwest Territories and Nunavut")
+         ) %>%
+  summarise(Population = sum(Population), .by = c("Year", "Geography"))
 
 waste <-
   Raw_data %>%
@@ -32,7 +37,7 @@ waste <-
     Value1 = VALUE
   ) %>% 
   mutate(Value1 = Value1 * 1000) %>% # convert from metric tonnes to kgs
-  left_join(Population, by = c("Year", "Geography")) %>%
+  inner_join(Population, by = c("Year", "Geography")) %>%
   mutate(Value = round((Value1 / Population), 1)) %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value) %>%

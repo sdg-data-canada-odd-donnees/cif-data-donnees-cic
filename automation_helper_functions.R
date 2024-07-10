@@ -62,7 +62,7 @@ check_data_update <- function(data, table_no) {
   }
   
   # Return TRUE if data update is needed
-  return(ifelse(all(data_max_year < tbl_max_ref_date), TRUE, FALSE))
-  
+  # return(ifelse(all(data_max_year < tbl_max_ref_date), TRUE, FALSE))
+  return(any(data_max_year < tbl_max_ref_date))
 }
 

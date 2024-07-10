@@ -45,12 +45,11 @@ population_ests <-
 # calculate terajoules per capita
 tj_per_capita <- 
   terajoules %>% 
-  left_join(population_ests) %>% 
+  inner_join(population_ests) %>% 
   mutate(
     Value = round(Terajoules / Population, 2)
   ) %>% 
   select(-c("Terajoules", "Population")) %>% 
-  na.omit() %>% 
   left_join(geocodes) %>% 
   relocate(GeoCode, .before = Value)
 
