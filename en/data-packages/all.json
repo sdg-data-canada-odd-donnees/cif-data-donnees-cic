@@ -786,27 +786,32 @@
             "title": "Year"
           },
           {
-            "name": "Geography",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
                 "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -3902,12 +3907,11 @@
                 "Members of national Parliament",
                 "Members of federal Cabinet",
                 "All management occupations",
-                "data.Senior management occupations",
+                "Legislative and senior management occupations",
                 "Specialized middle management occupations",
                 "Middle management occupations in retail and wholesale trade and customer services",
-                "data.Middle management occupations in trades - transportation - production and utilities",
-                "data.Judges - Federal government public administration",
-                "data.Judges - Provincial and territorial public administration",
+                "Middle management occupations in trades, transportation, production and utilities",
+                "Federally appointed judges",
                 "Chiefs in First Nation communities",
                 "First Nations council members",
                 ""
