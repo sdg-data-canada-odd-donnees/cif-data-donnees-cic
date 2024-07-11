@@ -37,7 +37,7 @@ GDP <-
   select(Year = REF_DATE,
          Geography = GEO,
          TotalGDP = VALUE) %>%
-  left_join(population, by = c("Year", "Geography")) %>% 
+  inner_join(population, by = c("Year", "Geography")) %>% 
   mutate(
     Value = round(((TotalGDP / Population) * 1000000), digits = 0)
   ) %>%
