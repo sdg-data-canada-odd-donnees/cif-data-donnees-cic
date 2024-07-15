@@ -10,9 +10,11 @@ Gender: Genre
 Men: Hommes
 Male: Homme
 Males: Hommes
+Men+: Hommes+
 Women: Femmes
 Female: Femme
 Females: Femmes
+Women+: Femmes+
 Both: Les deux sexes
 Both sexes: Les deux sexes
 #Non-binary: Personnes non binaires
@@ -85,6 +87,7 @@ Total, 15 to 29 years: Total, 15 à 29 ans
 25 to 34 years: 25 à 34 ans
 25 to 44 years: 25 à 44 ans
 25 to 54 years: 25 à 54 ans
+25 to 64 years: 25 à 64 ans
 30 to 34 years: 30 à 34 ans
 35 to 39 years: 35 à 39 ans
 35 to 44 years: 35 à 44 ans
@@ -734,8 +737,6 @@ Public transit: Transport en commun
 Active transportation: Transport actif
 Gender: Genre
 Total - Gender: Total - Genre
-Men+: Hommes+
-Women+: Femmes+
 Canada: Canada
 Newfoundland and Labrador: Terre-Neuve-et-Labrador
 St. John's (CMA), N.L.: St. John's (RMR), T.-N.-L.
@@ -987,7 +988,17 @@ National terrestrial: National terrestrial
 National marine: National marine
 
 ## 16-1-1
-Selected demographic characteristics: Caractéristiques démographiques déterminées
+Visible minority: Minorité visible
+Sociodemographic characteristics: Caractéristiques sociodémographiques
+South Asian: Sud-Asiatique
+Chinese: Chinois
+Black: Noir
+Filipino: Philippin
+Arab: Arabe
+Latin American: Latino-Américain
+Southeast Asian: Asiatique du Sud-Est
+Non-immigrants: Non-immigrants8
+Immigrants: Immigrants
 
 ## 16-2-1
 Index: Indice
