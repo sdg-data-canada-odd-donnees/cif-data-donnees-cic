@@ -16,19 +16,53 @@
             "title": "Année"
           },
           {
-            "name": "Selected sociodemographic characteristics",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "15 à 24 ans",
-                "25 à 64 ans",
-                "65 ans et plus",
-                "Hommes+",
-                "Femmes+",
+                "Canada",
                 ""
               ]
             },
-            "title": "Selected sociodemographic characteristics"
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population totale",
+                "Total de la population des minorités visibles",
+                "Sud-Asiatique",
+                "Chinois",
+                "Noirs",
+                "Philippin",
+                "Arabe",
+                "Latino-Américain",
+                "Asiatique du Sud-Est",
+                "Pas une minorité visible",
+                ""
+              ]
+            },
+            "title": "Minorité visible"
+          },
+          {
+            "name": "data.Sociodemographic characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 15 ans et plus",
+                "Hommes+",
+                "Femmes+",
+                "15 à 24 ans",
+                "25 à 64 ans",
+                "65 ans et plus",
+                "Non-immigrants8",
+                "Immigrants",
+                ""
+              ]
+            },
+            "title": "Caractéristiques sociodémographiques"
           },
           {
             "name": "Value",
