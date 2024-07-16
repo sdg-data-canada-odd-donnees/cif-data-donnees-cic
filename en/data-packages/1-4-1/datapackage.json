@@ -1,0 +1,96 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Atlantic provinces",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Prairie provinces",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Québec, Quebec",
+                "Montréal, Quebec",
+                "Ottawa-Gatineau, Ontario/Quebec",
+                "Toronto, Ontario",
+                "Winnipeg, Manitoba",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Vancouver, British Columbia",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic families",
+                "Elderly families",
+                "Elderly couples",
+                "Other elderly families",
+                "Non-elderly families",
+                "Couples",
+                "Couples with children",
+                "Couples with other relatives",
+                "Lone-parent families",
+                "Male lone-parent families",
+                "Female lone-parent families",
+                "Other non-elderly families",
+                "Persons not in an economic family",
+                "Elderly persons not in an economic family",
+                "Elderly males not in an economic family",
+                "Elderly females not in an economic family",
+                "Non-elderly persons not in an economic family",
+                "Non-elderly males not in an economic family",
+                "Non-elderly females not in an economic family",
+                "Economic families and persons not in an economic family",
+                ""
+              ]
+            },
+            "title": "Economic family type"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-4-1",
+  "title": "Median household after-tax income"
+}
