@@ -362,6 +362,16 @@
   progress_status: substantial_progress
   target: '5'
   target_year: '2035'
+3-15-1:
+  base_value: '5.1'
+  base_year: '2018'
+  current_value: '9.2'
+  current_year: '2022'
+  direction: negative
+  progress_calculation_value: '-0.15892254861561073'
+  progress_status: deterioration
+  target: None
+  target_year: '2030'
 3-2-1:
   base_value: '10.0'
   base_year: '2016'
