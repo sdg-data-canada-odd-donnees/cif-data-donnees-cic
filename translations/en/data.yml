@@ -61,6 +61,93 @@ Yukon [60]: Yukon
 Northwest Territories [61]: Northwest Territories
 Nunavut [62]: Nunavut
 
+# Cities and Census metropolitan areas
+Total Census metropolitan area: Total Census metropolitan area
+Total Non-Census metropolitan area: Total Non-Census metropolitan area
+St. John's, Newfoundland and Labrador: St. John's, Newfoundland and Labrador
+Halifax, Nova Scotia: Halifax, Nova Scotia
+Moncton, New Brunswick: Moncton, New Brunswick
+Saint John, New Brunswick: Saint John, New Brunswick
+Gatineau, Quebec: Gatineau, Quebec
+Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (Quebec part), Quebec
+Montreal, Quebec: Montreal, Quebec
+Montréal, Quebec: Montréal, Quebec
+Quebec, Quebec: Quebec, Quebec
+Québec, Quebec: Québec, Quebec
+Trois-Rivières, Quebec: Trois-Rivières, Quebec
+Saguenay, Quebec: Saguenay, Quebec
+Sherbrooke, Quebec: Sherbrooke, Quebec
+Barrie, Ontario: Barrie, Ontario
+Belleville, Ontario: Belleville, Ontario
+Brantford, Ontario: Brantford, Ontario
+Greater Sudbury, Ontario: Greater Sudbury, Ontario
+Greater Sudbury / Grand Sudbury, Ontario: Greater Sudbury, Ontario
+Guelph, Ontario: Guelph, Ontario
+Hamilton, Ontario: Hamilton, Ontario
+Kingston, Ontario: Kingston, Ontario
+Kitchener-Cambridge-Waterloo, Ontario: Kitchener-Cambridge-Waterloo, Ontario
+Kitchener - Cambridge - Waterloo, Ontario: Kitchener - Cambridge - Waterloo, Ontario
+London, Ontario: London, Ontario
+Oshawa, Ontario: Oshawa, Ontario
+Ottawa, Ontario: Ottawa, Ontario
+Ottawa - Gatineau (Ontario part), Ontario: Ottawa - Gatineau (Ontario part), Ontario
+Ottawa-Gatineau, Ontario/Quebec: Ottawa-Gatineau, Ontario/Quebec
+Peterborough, Ontario: Peterborough, Ontario
+St. Catharines-Niagara, Ontario: St. Catharines-Niagara, Ontario
+St. Catharines - Niagara, Ontario: St. Catharines - Niagara, Ontario
+Thunder Bay, Ontario: Thunder Bay, Ontario
+Toronto, Ontario: Toronto, Ontario
+Windsor, Ontario: Windsor, Ontario
+Winnipeg, Manitoba: Winnipeg, Manitoba
+Regina, Saskatchewan: Regina, Saskatchewan
+Saskatoon, Saskatchewan: Saskatoon, Saskatchewan
+Calgary, Alberta: Calgary, Alberta
+Edmonton, Alberta: Edmonton, Alberta
+Lethbridge, Alberta: Lethbridge, Alberta
+Abbotsford-Mission, British Columbia: Abbotsford-Mission, British Columbia
+Abbotsford - Mission, British Columbia: Abbotsford - Mission, British Columbia
+Kelowna, British Columbia: Kelowna, British Columbia
+Vancouver, British Columbia: Vancouver, British Columbia
+Victoria, British Columbia: Victoria, British Columbia
+St. John's (CMA), N.L.: St. John's (CMA), N.L.
+Halifax (CMA), N.S.: Halifax (CMA), N.S.
+Moncton (CMA), N.B.: Moncton (CMA), N.B.
+Saint John (CMA), N.B.: Saint John (CMA), N.B.
+Montréal (CMA), Que.: Montréal (CMA), Que.
+Québec (CMA), Que.: Québec (CMA), Que.
+Saguenay (CMA), Que.: Saguenay (CMA), Que.
+Sherbrooke (CMA), Que.: Sherbrooke (CMA), Que.
+Trois-Rivieres, Quebec: Trois-Rivières (CMA), Que.
+Trois-Rivières (CMA), Que.: Trois-Rivières (CMA), Que.
+Barrie (CMA), Ont.: Barrie (CMA), Ont.
+Belleville - Quinte West (CMA), Ont.: Belleville - Quinte West (CMA), Ont.
+Brantford (CMA), Ont.: Brantford (CMA), Ont.
+Greater Sudbury (CMA), Ont.: Greater Sudbury (CMA), Ont.
+Guelph (CMA), Ont.: Guelph (CMA), Ont.
+Hamilton (CMA), Ont.: Hamilton (CMA), Ont.
+Kingston (CMA), Ont.: Kingston (CMA), Ont.
+Kitchener - Cambridge - Waterloo (CMA), Ont.: Kitchener - Cambridge - Waterloo (CMA), Ont.
+London (CMA), Ont.: London (CMA), Ont.
+Oshawa (CMA), Ont.: Oshawa (CMA), Ont.
+Ottawa - Gatineau (CMA), Ont./Que.: Ottawa - Gatineau (CMA), Ont./Que.
+Ottawa - Gatineau (Ontario part) (CMA), Ont.: Ottawa - Gatineau (Ontario part) (CMA), Ont.
+Ottawa - Gatineau (Quebec part) (CMA), Que.: Ottawa - Gatineau (Quebec part) (CMA), Que.
+Peterborough (CMA), Ont.: Peterborough (CMA), Ont.
+St. Catharines - Niagara (CMA), Ont.: St. Catharines - Niagara (CMA), Ont.
+Thunder Bay (CMA), Ont.: Thunder Bay (CMA), Ont.
+Toronto (CMA), Ont.: Toronto (CMA), Ont.
+Windsor (CMA), Ont.: Windsor (CMA), Ont.
+Winnipeg (CMA), Man.: Winnipeg (CMA), Man.
+Regina (CMA), Sask.: Regina (CMA), Sask.
+Saskatoon (CMA), Sask.: Saskatoon (CMA), Sask.
+Calgary (CMA), Alta.: Calgary (CMA), Alta.
+Edmonton (CMA), Alta.: Edmonton (CMA), Alta.
+Lethbridge (CMA), Alta.: Lethbridge (CMA), Alta.
+Abbotsford - Mission (CMA), B.C.: Abbotsford - Mission (CMA), B.C.
+Kelowna (CMA), B.C.: Kelowna (CMA), B.C.
+Vancouver (CMA), B.C.: Vancouver (CMA), B.C.
+Victoria (CMA), B.C.: Victoria (CMA), B.C.
+
 ## Age
 Age: Age
 Age group: Age group
@@ -73,6 +160,7 @@ Total, 15 to 29 years: Total, 15 to 29 years
 55 years and over: 55 years and over
 65 years and over: 65 years and over
 70 years and over: 70 years and over
+0 to 14 years: 0 to 14 years
 12 to 17 years: 12 to 17 years
 15 to 19 years: 15 to 19 years
 15 to 24 years: 15 to 24 years
@@ -101,26 +189,14 @@ Total, 15 to 29 years: Total, 15 to 29 years
 65 to 69 years: 65 to 69 years
 
 ## 1-1-1
-Atlantic provinces: Atlantic provinces
-Prairie provinces: Prairie provinces
-Québec, Quebec: Québec, Quebec
-Montréal, Quebec: Montréal, Quebec
-Ottawa-Gatineau, Ontario/Quebec: Ottawa-Gatineau, Ontario/Quebec
-Toronto, Ontario: Toronto, Ontario
-Winnipeg, Manitoba: Winnipeg, Manitoba
-Calgary, Alberta: Calgary, Alberta
-Edmonton, Alberta: Edmonton, Alberta
-Vancouver, British Columbia: Vancouver, British Columbia
 Persons in low income: Persons in low income
 All persons: All persons
 Persons under 18 years: Persons under 18 years
 Persons 18 to 64 years: Persons 18 to 64 years
 Persons 65 years and over: Persons 65 years and over
-Males: Males
 Males, under 18 years: Males, under 18 years
 Males, 18 to 64 years: Males, 18 to 64 years
 Males, 65 years and over: Males, 65 years and over
-Females: Females
 Females, under 18 years: Females, under 18 years
 Females, 18 to 64 years: Females, 18 to 64 years
 Females, 65 years and over: Females, 65 years and over
@@ -658,11 +734,6 @@ Police-reported: Police-reported
 Offence: Offence
 Hate crime: Hate crime
 Total police-reported hate crime: Total police-reported hate crime
-Total Non-Census metropolitan area: Total Non-Census metropolitan area
-Total Census metropolitan area: Total Census metropolitan area
-Greater Sudbury, Ontario: Greater Sudbury, Ontario
-Gatineau, Quebec: Gatineau, Quebec
-Ottawa, Ontario: Ottawa, Ontario
 
 ## 10-3-1
 Type of work: Type of work
@@ -708,109 +779,15 @@ Reference persons who have experienced homelessness: Reference persons who have 
 Living with housing problems: Living with housing problems
 
 ## 11-4-1
-St. John's, Newfoundland and Labrador: St. John's, Newfoundland and Labrador
-Halifax, Nova Scotia: Halifax, Nova Scotia
-Moncton, New Brunswick: Moncton, New Brunswick
-Saint John, New Brunswick: Saint John, New Brunswick
-Montreal, Quebec: Montreal, Quebec
-Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (Quebec part), Quebec
-Quebec, Quebec: Quebec, Quebec
-Saguenay, Quebec: Saguenay, Quebec
-Sherbrooke, Quebec: Sherbrooke, Quebec
-Trois-Rivières, Quebec: Trois-Rivières, Quebec
-Barrie, Ontario: Barrie, Ontario
-Belleville, Ontario: Belleville, Ontario
-Brantford, Ontario: Brantford, Ontario
-Greater Sudbury / Grand Sudbury, Ontario: Greater Sudbury / Grand Sudbury, Ontario
-Guelph, Ontario: Guelph, Ontario
-Hamilton, Ontario: Hamilton, Ontario
-Kingston, Ontario: Kingston, Ontario
-Kitchener - Cambridge - Waterloo, Ontario: Kitchener - Cambridge - Waterloo, Ontario
-London, Ontario: London, Ontario
-Oshawa, Ontario: Oshawa, Ontario
-Ottawa - Gatineau (Ontario part), Ontario: Ottawa - Gatineau (Ontario part), Ontario
-Peterborough, Ontario: Peterborough, Ontario
-St. Catharines - Niagara, Ontario: St. Catharines - Niagara, Ontario
-Thunder Bay, Ontario: Thunder Bay, Ontario
-Toronto, Ontario: Toronto, Ontario
-Windsor, Ontario: Windsor, Ontario
-Winnipeg, Manitoba: Winnipeg, Manitoba
-Regina, Saskatchewan: Regina, Saskatchewan
-Saskatoon, Saskatchewan: Saskatoon, Saskatchewan
-Calgary, Alberta: Calgary, Alberta
-Edmonton, Alberta: Edmonton, Alberta
-Lethbridge, Alberta: Lethbridge, Alberta
-Abbotsford - Mission, British Columbia: Abbotsford - Mission, British Columbia
-Kelowna, British Columbia: Kelowna, British Columbia
-Vancouver, British Columbia: Vancouver, British Columbia
-Victoria, British Columbia: Victoria, British Columbia
 Demographic and geodemographic: Demographic and geodemographic
 Percentage of population within 500 metres of a public transit stop: Percentage of population within 500 metres of a public transit stop
-0 to 14 years: 0 to 14 years
-15 to 64 years: 15 to 64 years
-65 years and over: 65 years and over
 
 ## 11-5-1
 Type of commute: Main mode of commuting
 Sustainable transportation: Sustainable transportation
 Public transit: Public transit
 Active transportation: Active transportation
-Gender: Gender
 Total - Gender: Total - Gender
-Men+: Men+
-Women+: Women+
-Canada: Canada
-Newfoundland and Labrador: Newfoundland and Labrador
-St. John's (CMA), N.L.: St. John's (CMA), N.L.
-Prince Edward Island: Prince Edward Island
-Nova Scotia: Nova Scotia
-Halifax (CMA), N.S.: Halifax (CMA), N.S.
-New Brunswick: New Brunswick
-Moncton (CMA), N.B.: Moncton (CMA), N.B.
-Saint John (CMA), N.B.: Saint John (CMA), N.B.
-Quebec: Quebec
-Montréal (CMA), Que.: Montréal (CMA), Que.
-Québec (CMA), Que.: Québec (CMA), Que.
-Saguenay (CMA), Que.: Saguenay (CMA), Que.
-Sherbrooke (CMA), Que.: Sherbrooke (CMA), Que.
-Trois-Rivieres, Quebec: Trois-Rivières (CMA), Que.
-Trois-Rivières (CMA), Que.: Trois-Rivières (CMA), Que.
-Ontario: Ontario
-Barrie (CMA), Ont.: Barrie (CMA), Ont.
-Belleville - Quinte West (CMA), Ont.: Belleville - Quinte West (CMA), Ont.
-Brantford (CMA), Ont.: Brantford (CMA), Ont.
-Greater Sudbury (CMA), Ont.: Greater Sudbury (CMA), Ont.
-Guelph (CMA), Ont.: Guelph (CMA), Ont.
-Hamilton (CMA), Ont.: Hamilton (CMA), Ont.
-Kingston (CMA), Ont.: Kingston (CMA), Ont.
-Kitchener - Cambridge - Waterloo (CMA), Ont.: Kitchener - Cambridge - Waterloo (CMA), Ont.
-London (CMA), Ont.: London (CMA), Ont.
-Oshawa (CMA), Ont.: Oshawa (CMA), Ont.
-Ottawa - Gatineau (CMA), Ont./Que.: Ottawa - Gatineau (CMA), Ont./Que.
-Ottawa - Gatineau (Ontario part) (CMA), Ont.: Ottawa - Gatineau (Ontario part) (CMA), Ont.
-Ottawa - Gatineau (Quebec part) (CMA), Que.: Ottawa - Gatineau (Quebec part) (CMA), Que.
-Peterborough (CMA), Ont.: Peterborough (CMA), Ont.
-St. Catharines - Niagara (CMA), Ont.: St. Catharines - Niagara (CMA), Ont.
-Thunder Bay (CMA), Ont.: Thunder Bay (CMA), Ont.
-Toronto (CMA), Ont.: Toronto (CMA), Ont.
-Windsor (CMA), Ont.: Windsor (CMA), Ont.
-Manitoba: Manitoba
-Winnipeg (CMA), Man.: Winnipeg (CMA), Man.
-Saskatchewan: Saskatchewan
-Regina (CMA), Sask.: Regina (CMA), Sask.
-Saskatoon (CMA), Sask.: Saskatoon (CMA), Sask.
-Alberta: Alberta
-Calgary (CMA), Alta.: Calgary (CMA), Alta.
-Edmonton (CMA), Alta.: Edmonton (CMA), Alta.
-Lethbridge (CMA), Alta.: Lethbridge (CMA), Alta.
-British Columbia: British Columbia
-Abbotsford - Mission (CMA), B.C.: Abbotsford - Mission (CMA), B.C.
-Kelowna (CMA), B.C.: Kelowna (CMA), B.C.
-Vancouver (CMA), B.C.: Vancouver (CMA), B.C.
-Victoria (CMA), B.C.: Victoria (CMA), B.C.
-Yukon: Yukon
-Northwest Territories: Northwest Territories
-Nunavut: Nunavut
 
 ## 11-6-1
 Sources of waste for disposal: Sources of waste for disposal
@@ -1040,22 +1017,9 @@ Uttering threats [1627]: Uttering threats
 Total other violent violations [180]: Total other violent violations
 Total violent Criminal Code violations [100]: Total violent Criminal Code violations
 
-## 16-4-1
-Type of cyber-related violation: Type of cyber-related violation
-Against a person: Against a person
-Cyber-related violation: Cyber-related violation
-Total - all violations: Total - all violations
-Luring a child via a computer: Luring a child via a computer
-Non-consensual distribution of intimate images: Non-consensual distribution of intimate images
-Extortion: Extortion
-Criminal harassment: Criminal harassment
-Indecent/Harassing communications: Indecent/Harassing communications
-Uttering threats: Uttering threats
-Fraud: Fraud
-Identity theft: Identity theft
-Identity fraud: Identity fraud
-Child pornography: Child pornography
-Making or distribution of child pornography: Making or distribution of child pornography
+## 16-3-1
+Total police-reported cybercrime: Total police-reported cybercrime
+Canadian Forces Military Police: Canadian Forces Military Police
 
 ## 16-5-1
 Offences: Offences
