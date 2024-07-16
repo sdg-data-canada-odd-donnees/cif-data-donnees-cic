@@ -1512,6 +1512,83 @@
       "title": "Proportion of youth not in education, employment or training"
     },
     {
+      "path": "16-2-1/data.csv",
+      "name": "16-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Violations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Homicide",
+                "Total des autres infractions entraînant la mort",
+                "Tentative de meurtre",
+                "Agression sexuelle grave (niveau 3)",
+                "Agression sexuelle, niveau 2, armée ou causant des lésions corporelles",
+                "Agression sexuelle de niveau 1",
+                "Total des infractions sexuelles contre les enfants",
+                "Voies de fait graves (niveau 3)",
+                "Voies de fait armées ou causant des lésions corporelles (niveau 2)",
+                "Voies de fait simples (niveau 1)",
+                "Total des vols qualifiés",
+                "Menaces",
+                "Total des autres infractions avec violence",
+                "Total des infractions de violence prévues au Code criminel",
+                ""
+              ]
+            },
+            "title": "Infractions"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Incidence of selected types of crime"
+    },
+    {
       "path": "11-6-1/data.csv",
       "name": "11-6-1",
       "profile": "tabular-data-resource",
@@ -3510,83 +3587,6 @@
         ]
       },
       "title": "Proportion of households in core housing need"
-    },
-    {
-      "path": "16-3-1/data.csv",
-      "name": "16-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Année"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
-            "name": "data.Violations",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Homicide",
-                "Total des autres infractions entraînant la mort",
-                "Tentative de meurtre",
-                "Agression sexuelle grave (niveau 3)",
-                "Agression sexuelle, niveau 2, armée ou causant des lésions corporelles",
-                "Agression sexuelle de niveau 1",
-                "Total des infractions sexuelles contre les enfants",
-                "Voies de fait graves (niveau 3)",
-                "Voies de fait armées ou causant des lésions corporelles (niveau 2)",
-                "Voies de fait simples (niveau 1)",
-                "Total des vols qualifiés",
-                "Menaces",
-                "Total des autres infractions avec violence",
-                "Total des infractions de violence prévues au Code criminel",
-                ""
-              ]
-            },
-            "title": "Infractions"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Incidence of selected types of crime"
     },
     {
       "path": "15-1-1/data.csv",
