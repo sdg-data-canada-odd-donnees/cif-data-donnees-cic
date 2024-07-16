@@ -375,15 +375,15 @@
 3-3-1:
   progress_status: not_available
 3-4-1:
-  base_value: '19.2'
+  base_value: '8.1'
   base_year: '2015'
-  current_value: '19.7'
+  current_value: '7.8'
   current_year: '2022'
   direction: negative
-  progress_calculation_value: '-0.003679374728507989'
-  progress_status: deterioration
-  target: None
-  target_year: '2030'
+  progress_calculation_value: None
+  progress_status: target_achieved
+  target: '8'
+  target_year: '2025'
 3-5-1:
   base_value: '93.2'
   base_year: '2015'
