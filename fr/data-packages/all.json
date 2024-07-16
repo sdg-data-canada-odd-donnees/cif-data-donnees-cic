@@ -1830,7 +1830,7 @@
                 ""
               ]
             },
-            "title": "Generation"
+            "title": "Génération"
           },
           {
             "name": "Type of household",
@@ -1838,11 +1838,11 @@
             "constraints": {
               "enum": [
                 "Ménages d'une personne",
-                "Ménages de plus d'une personne",
+                "de plus d'une personne",
                 ""
               ]
             },
-            "title": "Type of household"
+            "title": "Type de ménage"
           },
           {
             "name": "Ownership status",
@@ -1856,7 +1856,7 @@
                 ""
               ]
             },
-            "title": "Ownership status"
+            "title": "Statut de propriété"
           },
           {
             "name": "Income quintile",
@@ -1896,7 +1896,7 @@
                 ""
               ]
             },
-            "title": "Income quintile"
+            "title": "Quintile de revenu"
           },
           {
             "name": "Main source of household income",
