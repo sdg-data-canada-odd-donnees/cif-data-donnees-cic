@@ -47,7 +47,6 @@ Winnipeg Manitoba: Winnipeg Manitoba
 Northern and Rural Manitoba: Northern and Rural Manitoba
 Whitehorse Yukon: Whitehorse Yukon
 Yellowknife Northwest Territories: Yellowknife Northwest Territories
-
 Newfoundland and Labrador [10]: Newfoundland and Labrador
 Prince Edward Island [11]: Prince Edward Island
 Nova Scotia [12]: Nova Scotia
@@ -112,7 +111,6 @@ Winnipeg, Manitoba: Winnipeg, Manitoba
 Calgary, Alberta: Calgary, Alberta
 Edmonton, Alberta: Edmonton, Alberta
 Vancouver, British Columbia: Vancouver, British Columbia
-
 Persons in low income: Persons in low income
 All persons: All persons
 Persons under 18 years: Persons under 18 years
@@ -219,6 +217,29 @@ Pre-1946: Pre-1946
 Baby boom: Baby boom
 Generation X: Generation X
 Millennials: Millennials
+
+## 1-4-1
+Economic family type: Economic family type
+Economic families and persons not in an economic family: Economic families and persons not in an economic family
+Economic families: Economic families
+Elderly families: Elderly families
+Elderly couples: Elderly couples
+Other elderly families: Other elderly families
+Non-elderly families: Non-elderly families
+Couples: Couples
+Couples with children: Couples with children
+Couples with other relatives: Couples with other relatives
+Lone-parent families: Lone-parent families
+Male lone-parent families: Male lone-parent families
+Female lone-parent families: Female lone-parent families
+Other non-elderly families: Other non-elderly families
+Persons not in an economic family: Persons not in an economic family
+Elderly persons not in an economic family: Elderly persons not in an economic family
+Elderly males not in an economic family: Elderly males not in an economic family
+Elderly females not in an economic family: Elderly females not in an economic family
+Non-elderly persons not in an economic family: Non-elderly persons not in an economic family
+Non-elderly males not in an economic family: Non-elderly males not in an economic family
+Non-elderly females not in an economic family: Non-elderly females not in an economic family
 
 ## 2-1-1
 Household food security status: Household food security status
@@ -397,8 +418,6 @@ First Nations (North American Indian): First Nations (North American Indian)
 Métis: Métis
 Inuk (Inuit): Inuk (Inuit)
 Non-Indigenous identity: Non-Indigenous identity
-
-
 
 ## 4-2-1
 Educational attainment level: Educational attainment level
@@ -646,7 +665,6 @@ Type of work: Type of work
 Both full- and part-time employees: Both full- and part-time employees
 Full-time employees: Full-time employees
 Part-time employees: Part-time employees
-
 National Occupational Classification (NOC): National Occupational Classification (NOC)
 Total employees, all occupations: Total employees, all occupations
 Management occupations: Management occupations
@@ -664,29 +682,6 @@ Occupations in manufacturing and utilities: Occupations in manufacturing and uti
 15 to 24 years: 15 to 24 years
 25 to 54 years: 25 to 54 years
 55 years and over: 55 years and over
-
-## 10-4-1
-Economic family type: Economic family type
-Economic families and persons not in an economic family: Economic families and persons not in an economic family
-Economic families: Economic families
-Elderly families: Elderly families
-Elderly couples: Elderly couples
-Other elderly families: Other elderly families
-Non-elderly families: Non-elderly families
-Couples: Couples
-Couples with children: Couples with children
-Couples with other relatives: Couples with other relatives
-Lone-parent families: Lone-parent families
-Male lone-parent families: Male lone-parent families
-Female lone-parent families: Female lone-parent families
-Other non-elderly families: Other non-elderly families
-Persons not in an economic family: Persons not in an economic family
-Elderly persons not in an economic family: Elderly persons not in an economic family
-Elderly males not in an economic family: Elderly males not in an economic family
-Elderly females not in an economic family: Elderly females not in an economic family
-Non-elderly persons not in an economic family: Non-elderly persons not in an economic family
-Non-elderly males not in an economic family: Non-elderly males not in an economic family
-Non-elderly females not in an economic family: Non-elderly females not in an economic family
 
 ## 11-1-1
 Estimates: Estimates
@@ -707,8 +702,6 @@ Men+ living alone: Men+ living alone
 Women+ living alone: Women+ living alone
 Reference persons who have experienced homelessness: Reference persons who have experienced homelessness
 Living with housing problems: Living with housing problems
-
-
 
 ## 11-4-1
 St. John's, Newfoundland and Labrador: St. John's, Newfoundland and Labrador
@@ -752,7 +745,6 @@ Percentage of population within 500 metres of a public transit stop: Percentage 
 0 to 14 years: 0 to 14 years
 15 to 64 years: 15 to 64 years
 65 years and over: 65 years and over
-
 
 ## 11-5-1
 Type of commute: Main mode of commuting
@@ -815,7 +807,6 @@ Victoria (CMA), B.C.: Victoria (CMA), B.C.
 Yukon: Yukon
 Northwest Territories: Northwest Territories
 Nunavut: Nunavut
-
 
 ## 11-6-1
 Sources of waste for disposal: Sources of waste for disposal
@@ -948,7 +939,6 @@ Crustaceans: Crustaceans
 Molluscs: Molluscs
 Others: Others
 
-
 ## 15-1-1
 Species group: Species group
 Amphibians: Amphibians
@@ -1004,8 +994,6 @@ Vascular plants: Vascular plants
 Water mites: Water mites
 Yellowjacket wasps: Yellowjacket wasps
 Yellowjackets and relatives: Yellowjackets and relatives
-
-
 
 ##15-2-1
 Trend: Trend

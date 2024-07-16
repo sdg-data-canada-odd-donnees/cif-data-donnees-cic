@@ -49,7 +49,6 @@ Winnipeg Manitoba: Winnipeg Manitoba
 Northern and Rural Manitoba: Régions rurales et du nord du Manitoba
 Whitehorse Yukon: Whitehorse Yukon
 Yellowknife Northwest Territories: Yellowknife Territoires du Nord-Ouest
-
 Newfoundland and Labrador [10]: Terre-Neuve-et-Labrador
 Prince Edward Island [11]: Île-du-Prince-Édouard
 Nova Scotia [12]: Nouvelle-Écosse
@@ -230,6 +229,29 @@ Baby boom: Baby-boom
 Generation X: Génération X
 Millennials: Milléniaux
 
+## 1-4-1
+Economic family type: Type de famille économique
+Economic families and persons not in an economic family: Familles économiques et personnes hors famille économique
+Economic families: Familles économiques
+Elderly families: Familles de personnes âgées
+Elderly couples: Couples de personnes âgées
+Other elderly families: Autres familles de personnes âgées
+Non-elderly families: Familles de personnes non âgées
+Couples: Couples
+Couples with children: Couples avec des enfants
+Couples with other relatives: Couples avec d'autres personnes apparentées
+Lone-parent families: Familles monoparentales
+Male lone-parent families: Familles monoparentales ayant un homme à leur tête
+Female lone-parent families: Familles monoparentales ayant une femme à leur tête
+Other non-elderly families: Autres familles de personnes non âgées
+Persons not in an economic family: Personnes hors famille économique
+Elderly persons not in an economic family: Personnes âgées hors famille économique
+Elderly males not in an economic family: Hommes âgés hors famille économique
+Elderly females not in an economic family: Femmes âgées hors famille économique
+Non-elderly persons not in an economic family: Personnes non âgées hors famille économique
+Non-elderly males not in an economic family: Hommes non âgés hors famille économique
+Non-elderly females not in an economic family: Femmes non âgées hors famille économique
+
 ## 2-1-1
 Household food security status: Niveau de sécurité alimentaire du ménage
 Food secure: Sécurité alimentaire
@@ -238,7 +260,6 @@ Food insecure, marginal: Insécurité alimentaire marginale
 Food insecure, moderate or severe: Insécurité alimentaire modérée ou grave
 Food insecure, moderate: Insécurité alimentaire modérée
 Food insecure, severe: Insécurité alimentaire grave
-
 All persons: Toutes les personnes
 Persons in economic families: Personnes dans les familles économiques
 Persons in elderly families: Personnes dans les familles de personnes âgées
@@ -679,34 +700,10 @@ Sales and service occupations: Vente et services
 Trades, transport and equipment operators and related occupations: Métiers, transport, machinerie et domaines apparentés
 Natural resources, agriculture and related production occupations: Ressources naturelles, agriculture et production connexe
 Occupations in manufacturing and utilities: Fabrication et services d'utilité publique
-
 15 years and over: 15 ans et plus
 15 to 24 years: 15 à 24 ans
 25 to 54 years: 25 à 54 ans
 55 years and over: 55 ans et plus
-
-## 10-4-1
-Economic family type: Type de famille économique
-Economic families and persons not in an economic family: Familles économiques et personnes hors famille économique
-Economic families: Familles économiques
-Elderly families: Familles de personnes âgées
-Elderly couples: Couples de personnes âgées
-Other elderly families: Autres familles de personnes âgées
-Non-elderly families: Familles de personnes non âgées
-Couples: Couples
-Couples with children: Couples avec des enfants
-Couples with other relatives: Couples avec d'autres personnes apparentées
-Lone-parent families: Familles monoparentales
-Male lone-parent families: Familles monoparentales ayant un homme à leur tête
-Female lone-parent families: Familles monoparentales ayant une femme à leur tête
-Other non-elderly families: Autres familles de personnes non âgées
-Persons not in an economic family: Personnes hors famille économique
-Elderly persons not in an economic family: Personnes âgées hors famille économique
-Elderly males not in an economic family: Hommes âgés hors famille économique
-Elderly females not in an economic family: Femmes âgées hors famille économique
-Non-elderly persons not in an economic family: Personnes non âgées hors famille économique
-Non-elderly males not in an economic family: Hommes non âgés hors famille économique
-Non-elderly females not in an economic family: Femmes non âgées hors famille économique
 
 ## 11-1-1
 Estimates: Estimation
@@ -727,8 +724,6 @@ Living in unaffordable housing: Vivant dans un logement inabordable
 Living in unsuitable housing: Vivant dans un logement de taille non convenable
 Living in inadequate housing: Vivant dans un logement de qualité non convenable
 Living in core housing need: Ayant des besoins impérieux en matière de logement
-
-
 Select housing vulnerable populations: Certaines populations vulnérables en matière de logement
 All households: Tous les ménages
 Total, one-parent one-family households: Total, ménages comptant une seule famille monoparentale
@@ -885,7 +880,6 @@ Total, industries: Total, industries
 Transportation equipment manufacturing: 
 Wood product manufacturing: Fabrication de produits en bois
 
-
 ## 12-3-1
 Territories: Territoires
 Type of materials diverted: Type de matières récupérées
@@ -943,7 +937,6 @@ Epidemic: Épidémie
 Heat Event: Épisode de chaleur
 Event sub-type: Événement
 
-
 # 13-3-1
 Number: Nombre
 Percentage: Pourcentage
@@ -976,7 +969,6 @@ Salmonids: Salmonidés
 Crustaceans: Crustacés
 Molluscs: Mollusques
 Others: Autres
-
 
 ## 15-1-1
 Species group: Groupe d'espèces
@@ -1095,7 +1087,6 @@ Identity theft: Vol d'identité
 Identity fraud: Fraude à l'identité
 Child pornography: Pornographie juvénile
 Making or distribution of child pornography: Production de ou distribution de pornographie juvénile
-
 
 ## 16-5-1
 Offences: Infractions
