@@ -1,0 +1,131 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than 35 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                "55 to 64 years",
+                "65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Generation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pre-1946",
+                "Baby boom",
+                "Generation X",
+                "Millennials",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of household",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "One-person households",
+                "Multiple-person households",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Ownership status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Owner",
+                "Owner with mortgage",
+                "Owner without mortgage",
+                "Renter",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Income quintile",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Lowest income quintile",
+                "Second income quintile",
+                "Third income quintile",
+                "Fourth income quintile",
+                "Highest income quintile",
+                "Lowest income quintile, less than 35 years",
+                "Lowest income quintile, 35 to 44 years",
+                "Lowest income quintile, 45 to 54 years",
+                "Lowest income quintile, 55 to 64 years",
+                "Lowest income quintile, 65 years and over",
+                "Second income quintile, less than 35 years",
+                "Second income quintile, 35 to 44 years",
+                "Second income quintile, 45 to 54 years",
+                "Second income quintile, 55 to 64 years",
+                "Second income quintile, 65 years and over",
+                "Third income quintile, less than 35 years",
+                "Third income quintile, 35 to 44 years",
+                "Third income quintile, 45 to 54 years",
+                "Third income quintile, 55 to 64 years",
+                "Third income quintile, 65 years and over",
+                "Fourth income quintile, less than 35 years",
+                "Fourth income quintile, 35 to 44 years",
+                "Fourth income quintile, 45 to 54 years",
+                "Fourth income quintile, 55 to 64 years",
+                "Fourth income quintile, 65 years and over",
+                "Highest income quintile, less than 35 years",
+                "Highest income quintile, 35 to 44 years",
+                "Highest income quintile, 45 to 54 years",
+                "Highest income quintile, 55 to 64 years",
+                "Highest income quintile, 65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Main source of household income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Self-employment income",
+                "Net property income",
+                "Current transfers received - pension benefits",
+                "Current transfers received - others",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-3-1",
+  "title": "Debt to disposable income ratio"
+}
