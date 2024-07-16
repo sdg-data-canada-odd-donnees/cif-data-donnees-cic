@@ -1,0 +1,91 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total Non-Census metropolitan area",
+                "data.Total Census metropolitan area",
+                "data.Newfoundland and Labrador",
+                "data.St. John's, Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.Halifax, Nova Scotia",
+                "data.New Brunswick",
+                "data.Moncton, New Brunswick",
+                "data.Quebec",
+                "data.Gatineau, Quebec",
+                "data.Montréal, Quebec",
+                "data.Saguenay, Quebec",
+                "data.Sherbrooke, Quebec",
+                "data.Trois-Rivières, Quebec",
+                "data.Ontario",
+                "data.Barrie, Ontario",
+                "data.Brantford, Ontario",
+                "data.Greater Sudbury, Ontario",
+                "data.Guelph, Ontario",
+                "data.Hamilton, Ontario",
+                "data.Kingston, Ontario",
+                "data.Kitchener-Cambridge-Waterloo, Ontario",
+                "data.London, Ontario",
+                "data.Ottawa, Ontario",
+                "data.Peterborough, Ontario",
+                "data.St. Catharines-Niagara, Ontario",
+                "data.Thunder Bay, Ontario",
+                "data.Toronto, Ontario",
+                "data.Windsor, Ontario",
+                "data.Manitoba",
+                "data.Winnipeg, Manitoba",
+                "data.Saskatchewan",
+                "data.Regina, Saskatchewan",
+                "data.Saskatoon, Saskatchewan",
+                "data.Alberta",
+                "data.Edmonton, Alberta",
+                "data.British Columbia",
+                "data.Abbotsford-Mission, British Columbia",
+                "data.Kelowna, British Columbia",
+                "data.Vancouver, British Columbia",
+                "data.Victoria, British Columbia",
+                "data.Yukon",
+                "data.Northwest Territories",
+                "data.Nunavut",
+                "data.Québec, Quebec",
+                "data.Belleville, Ontario",
+                "data.Calgary, Alberta",
+                "data.Lethbridge, Alberta",
+                "data.Saint John, New Brunswick",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "16-3-1",
+  "title": "Incidence of cyber-crime"
+}

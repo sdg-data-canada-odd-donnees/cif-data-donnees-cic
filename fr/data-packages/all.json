@@ -259,7 +259,7 @@
                 "Barrie, Ontario",
                 "Belleville, Ontario",
                 "Brantford, Ontario",
-                "Greater Sudbury / Grand Sudbury, Ontario",
+                "Grand Sudbury, Ontario",
                 "Guelph, Ontario",
                 "Hamilton, Ontario",
                 "Kingston, Ontario",
@@ -3589,6 +3589,95 @@
       "title": "Proportion of households in core housing need"
     },
     {
+      "path": "16-3-1/data.csv",
+      "name": "16-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total pour les régions autres que les régions métropolitaines de recensement",
+                "Total pour les régions métropolitaines de recensement",
+                "Terre-Neuve-et-Labrador",
+                "St. John's, Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Halifax, Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Moncton, Nouveau-Brunswick",
+                "Québec",
+                "Gatineau, Québec",
+                "Montréal, Québec",
+                "Saguenay, Québec",
+                "Sherbrooke, Québec",
+                "Trois-Rivières, Québec",
+                "Ontario",
+                "Barrie, Ontario",
+                "Brantford, Ontario",
+                "Grand Sudbury, Ontario",
+                "Guelph, Ontario",
+                "Hamilton, Ontario",
+                "Kingston, Ontario",
+                "Kitchener-Cambridge-Waterloo, Ontario",
+                "London, Ontario",
+                "Ottawa, Ontario",
+                "Peterborough, Ontario",
+                "St. Catharines-Niagara, Ontario",
+                "Thunder Bay, Ontario",
+                "Toronto, Ontario",
+                "Windsor, Ontario",
+                "Manitoba",
+                "Winnipeg, Manitoba",
+                "Saskatchewan",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Alberta",
+                "Edmonton, Alberta",
+                "Colombie-Britannique",
+                "Abbotsford-Mission, Colombie-Britannique",
+                "Kelowna, Colombie-Britannique",
+                "Vancouver, Colombie-Britannique",
+                "Victoria, Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Québec, Québec",
+                "Belleville, Ontario",
+                "Calgary, Alberta",
+                "Lethbridge, Alberta",
+                "Saint John, Nouveau-Brunswick",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Incidence of cyber-crime"
+    },
+    {
       "path": "15-1-1/data.csv",
       "name": "15-1-1",
       "profile": "tabular-data-resource",
@@ -4935,100 +5024,6 @@
         ]
       },
       "title": "Proportion of women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the last 12 months"
-    },
-    {
-      "path": "16-4-1/data.csv",
-      "name": "16-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Année"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Taux par 100 000 personnes",
-                "Nombre",
-                ""
-              ]
-            },
-            "title": "Unités"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Alberta",
-                "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
-                "Nunavut",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
-                "Total pour les régions métropolitaines de recensement",
-                "Total pour les régions autres que les régions métropolitaines de recensement",
-                "Yukon",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
-            "name": "data.Type of cyber-related violation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Contre la personne",
-                ""
-              ]
-            },
-            "title": "Type d'infractions reliée à la cybercriminalité"
-          },
-          {
-            "name": "data.Cyber-related violation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Leurre d'un enfant au moyen d'un ordinateur",
-                "Distribution nonconsensuelle d'images intimes",
-                "Extorsion",
-                "Harcèlement criminel",
-                "Communications indécentes ou harcelantes",
-                "Menaces",
-                "Fraude",
-                "Vol d'identité",
-                "Fraude à l'identité",
-                "Pornographie juvénile",
-                "Production de ou distribution de pornographie juvénile",
-                ""
-              ]
-            },
-            "title": "Infraction reliée à la cybercriminalité"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Incidence of cyber-crime"
     },
     {
       "path": "14-2-1/data.csv",
