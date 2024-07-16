@@ -5079,11 +5079,11 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5098,40 +5098,28 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
           },
           {
-            "name": "data.Age group",
+            "name": "Type of beverage",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 12 ans et plus",
-                "12 à 17 ans",
-                "18 à 34 ans",
-                "35 à 49 ans",
-                "50 à 64 ans",
-                "65 ans et plus",
-                "data.Total, 18 years and over",
+                "Spiritueux",
+                "Vins",
+                "Bière",
+                "Cidre, coolers et autres boissons rafraîchissantes",
+                "Total des boissons alcoolisées",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Hommes",
-                "Femmes",
-                "Les deux sexes",
-                ""
-              ]
-            },
-            "title": "Sexe"
+            "title": "Type de boissons"
           },
           {
             "name": "GeoCode",
@@ -5145,7 +5133,7 @@
           }
         ]
       },
-      "title": "Prevalence of harmful alcohol use"
+      "title": "Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol"
     }
   ]
 }

@@ -5079,11 +5079,11 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5098,40 +5098,28 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             },
             "title": "Geography"
           },
           {
-            "name": "data.Age group",
+            "name": "Type of beverage",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 12 years and over",
-                "12 to 17 years",
-                "18 to 34 years",
-                "35 to 49 years",
-                "50 to 64 years",
-                "65 years and over",
-                "data.Total, 18 years and over",
+                "Spirits",
+                "Wines",
+                "Beer",
+                "Ciders, Coolers, and Other Refreshment Beverages",
+                "Total alcoholic beverages",
                 ""
               ]
             },
-            "title": "Age group"
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Males",
-                "Females",
-                "Both sexes",
-                ""
-              ]
-            },
-            "title": "Sex"
+            "title": "Type of beverage"
           },
           {
             "name": "GeoCode",
@@ -5145,7 +5133,7 @@
           }
         ]
       },
-      "title": "Prevalence of harmful alcohol use"
+      "title": "Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol"
     }
   ]
 }
