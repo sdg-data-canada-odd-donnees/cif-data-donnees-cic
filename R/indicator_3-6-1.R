@@ -1,4 +1,4 @@
-# CIF 3.5.1 ---------------------------------------------------------------
+# CIF 3.6.1 ---------------------------------------------------------------
 
 # load libraries
 library(dplyr)
@@ -47,7 +47,7 @@ final_data <-
   rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
 
 write.csv(final_data,
-          "data/indicator_3-5-1.csv",
+          "data/indicator_3-6-1.csv",
           na = "",
           row.names = FALSE,
           fileEncoding = "UTF-8")
