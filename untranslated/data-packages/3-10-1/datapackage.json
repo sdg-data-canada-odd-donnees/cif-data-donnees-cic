@@ -12,7 +12,26 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "data.Disease",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Cancer",
+                "data.Chronic obstructive pulmonary disease",
+                "data.Creutzfeldt-Jakob",
+                "data.Dementia, including Alzheimer's disease",
+                "data.Diabetes",
+                "data.HIV and AIDS",
+                "data.Hypertension",
+                "data.Ischemic heart disease",
+                "data.Salmonella",
+                "data.Tuberculosis",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +43,5 @@
   ],
   "profile": "data-package",
   "name": "3-10-1",
-  "title": "Mortality rate for selected causes of death"
+  "title": "Incidence of selected diseases"
 }

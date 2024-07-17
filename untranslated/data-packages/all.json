@@ -411,7 +411,7 @@
           }
         ]
       },
-      "title": "3-11-1"
+      "title": "Mortality rate for selected causes of death"
     },
     {
       "path": "3-12-1/data.csv",
@@ -2467,47 +2467,6 @@
       "title": "Prevalence of food insecurity"
     },
     {
-      "path": "3-9-1/data.csv",
-      "name": "3-9-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Disease",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Cancer",
-                "data.Chronic obstructive pulmonary disease",
-                "data.Creutzfeldt-Jakob",
-                "data.Dementia, including Alzheimer's disease",
-                "data.Diabetes",
-                "data.HIV and AIDS",
-                "data.Hypertension",
-                "data.Ischemic heart disease",
-                "data.Salmonella",
-                "data.Tuberculosis",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Incidence of selected diseases"
-    },
-    {
       "path": "16-5-1/data.csv",
       "name": "16-5-1",
       "profile": "tabular-data-resource",
@@ -3002,6 +2961,47 @@
         ]
       },
       "title": "High school completion rate"
+    },
+    {
+      "path": "3-10-1/data.csv",
+      "name": "3-10-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Disease",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Cancer",
+                "data.Chronic obstructive pulmonary disease",
+                "data.Creutzfeldt-Jakob",
+                "data.Dementia, including Alzheimer's disease",
+                "data.Diabetes",
+                "data.HIV and AIDS",
+                "data.Hypertension",
+                "data.Ischemic heart disease",
+                "data.Salmonella",
+                "data.Tuberculosis",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Incidence of selected diseases"
     },
     {
       "path": "4-2-1/data.csv",
@@ -4852,28 +4852,6 @@
         ]
       },
       "title": "Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol"
-    },
-    {
-      "path": "3-10-1/data.csv",
-      "name": "3-10-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Mortality rate for selected causes of death"
     }
   ]
 }
