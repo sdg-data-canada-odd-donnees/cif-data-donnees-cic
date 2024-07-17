@@ -3023,6 +3023,86 @@
       "title": "Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps"
     },
     {
+      "path": "3-8-1/data.csv",
+      "name": "3-8-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "data.Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, 12 years and over",
+                "12 to 17 years",
+                "18 to 34 years",
+                "35 to 49 years",
+                "50 to 64 years",
+                "65 years and over",
+                "data.Total, 18 years and over",
+                ""
+              ]
+            },
+            "title": "Age group"
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Males",
+                "Females",
+                "Both sexes",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Percentage of Canadians who perceived their mental health as very good to excellent"
+    },
+    {
       "path": "9-4-1/data.csv",
       "name": "9-4-1",
       "profile": "tabular-data-resource",
@@ -4164,86 +4244,6 @@
         ]
       },
       "title": "Index of Agri-Environmental Sustainability"
-    },
-    {
-      "path": "3-7-1/data.csv",
-      "name": "3-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total, 12 years and over",
-                "12 to 17 years",
-                "18 to 34 years",
-                "35 to 49 years",
-                "50 to 64 years",
-                "65 years and over",
-                "data.Total, 18 years and over",
-                ""
-              ]
-            },
-            "title": "Age group"
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Males",
-                "Females",
-                "Both sexes",
-                ""
-              ]
-            },
-            "title": "Sex"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Percentage of Canadians who perceived their mental health as very good to excellent"
     },
     {
       "path": "3-14-1/data.csv",
