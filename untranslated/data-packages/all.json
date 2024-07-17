@@ -1094,6 +1094,60 @@
       "title": "Proportion of the population living with obesity"
     },
     {
+      "path": "3-5-1/data.csv",
+      "name": "3-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Both sexes",
+                "Males",
+                "Females",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ages 5 to 17",
+                "Ages 6 to 17",
+                "Ages 18 to 79",
+                "Ages 5 to 11",
+                "Ages 6 to 11",
+                "Ages 12 to 17",
+                "Ages 18 to 39",
+                "Ages 40 to 59",
+                "Ages 60 to 79",
+                "Ages 18 to 64",
+                "Ages 65 to 79",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Proportion of Canadians meeting the 2020 Canadian physical activity guidelines"
+    },
+    {
       "path": "16-7-1/data.csv",
       "name": "16-7-1",
       "profile": "tabular-data-resource",
