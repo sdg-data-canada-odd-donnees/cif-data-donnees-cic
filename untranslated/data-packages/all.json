@@ -2467,6 +2467,107 @@
       "title": "Prevalence of food insecurity"
     },
     {
+      "path": "3-9-1/data.csv",
+      "name": "3-9-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Ontario",
+                "Quebec",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Selected diseases",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Diphtheria",
+                "Pertussis (whooping cough)",
+                "Tetanus",
+                "Polio",
+                "Haemophilus influenzae type B (Hib)",
+                "Measles",
+                "Mumps",
+                "Rubella",
+                "Hepatitis B",
+                "Varicella",
+                "Meningococcal type C",
+                "Pneumococcal",
+                "Rotavirus",
+                "Human Papillomavirus (HPV)",
+                "Diphtheria, Tetanus, acellular Pertussis (Tdap) booster",
+                "Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)",
+                "Influenza (flu)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Target population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Recommended vaccines for 2-year-old children",
+                "Recommended vaccines for 7-year-old children",
+                "Recommended vaccines for 14-year-old children",
+                "Recommended vaccines for 17-year-old children",
+                "Recommended vaccines during pregnancy",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total - Gender",
+                "Women+",
+                "Men+",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Vaccination rates for selected diseases"
+    },
+    {
       "path": "16-5-1/data.csv",
       "name": "16-5-1",
       "profile": "tabular-data-resource",
@@ -2713,92 +2814,6 @@
         ]
       },
       "title": "Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps"
-    },
-    {
-      "path": "3-8-1/data.csv",
-      "name": "3-8-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                "data.Yukon",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Selected diseases",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Hepatitis B",
-                "data.Human Papillomavirus (HPV)",
-                "data.Diphtheria",
-                "data.Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
-                "data.Haemophilus influenzae type B (Hib)",
-                "data.Measles",
-                "data.Meningococcal type C",
-                "data.Mumps",
-                "data.Pertussis (whooping cough)",
-                "data.Polio",
-                "data.Rubella",
-                "data.Tetanus",
-                "data.Pneumococcal",
-                "data.Rotavirus",
-                "data.Varicella",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.by 14 years of age",
-                "data.by 17 years of age",
-                "data.by 2 years of age",
-                "data.by 7 years of age",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Vaccination rates for selected diseases"
     },
     {
       "path": "9-4-1/data.csv",

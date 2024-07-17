@@ -2648,6 +2648,114 @@
       "title": "Prevalence of food insecurity"
     },
     {
+      "path": "3-9-1/data.csv",
+      "name": "3-9-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Ontario",
+                "Québec",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Selected diseases",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Diphtérie",
+                "Coqueluche",
+                "Tétanos",
+                "Polio",
+                "Haemophilus influenzae de type B (Hib)",
+                "Rougeole",
+                "Rubéole",
+                "Oreillons",
+                "Hépatite B",
+                "Varicelle",
+                "Méningite de type C",
+                "Pneumocoque",
+                "Rotavirus",
+                "Virus du papillome humain (VPH)",
+                "Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",
+                "Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",
+                "Grippe",
+                ""
+              ]
+            },
+            "title": "Antigène ou vaccin"
+          },
+          {
+            "name": "Target population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Recommended vaccines for 2-year-old children",
+                "Recommended vaccines for 7-year-old children",
+                "Recommended vaccines for 14-year-old children",
+                "Recommended vaccines for 17-year-old children",
+                "Recommended vaccines during pregnancy",
+                ""
+              ]
+            },
+            "title": "Population cible"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total - Genre",
+                "Femmes+",
+                "Hommes+",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Vaccination rates for selected diseases"
+    },
+    {
       "path": "16-5-1/data.csv",
       "name": "16-5-1",
       "profile": "tabular-data-resource",
@@ -2913,98 +3021,6 @@
         ]
       },
       "title": "Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps"
-    },
-    {
-      "path": "3-8-1/data.csv",
-      "name": "3-8-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Année"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Alberta",
-                "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
-                "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
-                "Nunavut",
-                "Ontario",
-                "Île-du-Prince-Édouard",
-                "Québec",
-                "Saskatchewan",
-                "Yukon",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
-            "name": "data.Selected diseases",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Hépatite B",
-                "Virus du papillome humain (VPH)",
-                "Diphtérie",
-                "Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",
-                "Haemophilus influenzae de type B (Hib)",
-                "Rougeole",
-                "Méningite de type C",
-                "Rubéole",
-                "Coqueluche",
-                "Polio",
-                "Oreillons",
-                "Tétanos",
-                "Pneumocoque",
-                "Rotavirus",
-                "Varicelle",
-                ""
-              ]
-            },
-            "title": "Antigène ou vaccin"
-          },
-          {
-            "name": "data.Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "14 ans",
-                "17 ans",
-                "2 ans",
-                "7 ans",
-                ""
-              ]
-            },
-            "title": "Âge"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Vaccination rates for selected diseases"
     },
     {
       "path": "9-4-1/data.csv",

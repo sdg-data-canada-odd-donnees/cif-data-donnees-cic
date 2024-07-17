@@ -1,0 +1,114 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Ontario",
+                "Québec",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Selected diseases",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Diphtérie",
+                "Coqueluche",
+                "Tétanos",
+                "Polio",
+                "Haemophilus influenzae de type B (Hib)",
+                "Rougeole",
+                "Rubéole",
+                "Oreillons",
+                "Hépatite B",
+                "Varicelle",
+                "Méningite de type C",
+                "Pneumocoque",
+                "Rotavirus",
+                "Virus du papillome humain (VPH)",
+                "Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",
+                "Vaccin combiné anti-Tétanos, et à dose réduite contre la diphtérie et la coqueluche acellulaire (dcaT)",
+                "Grippe",
+                ""
+              ]
+            },
+            "title": "Antigène ou vaccin"
+          },
+          {
+            "name": "Target population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Recommended vaccines for 2-year-old children",
+                "Recommended vaccines for 7-year-old children",
+                "Recommended vaccines for 14-year-old children",
+                "Recommended vaccines for 17-year-old children",
+                "Recommended vaccines during pregnancy",
+                ""
+              ]
+            },
+            "title": "Population cible"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total - Genre",
+                "Femmes+",
+                "Hommes+",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-9-1",
+  "title": "Vaccination rates for selected diseases"
+}

@@ -6,7 +6,7 @@ data.Age at time of death,1,10
 data.Age group and family type,1,10
 data.Age group,13,47
 data.Age of accused,1,10
-data.Age,3,14
+data.Age,2,10
 data.Asset,1,13
 data.Characteristics,1,11
 data.Core public infrastructure assets,1,4
@@ -19,7 +19,7 @@ data.Estimates,1,1
 data.Event sub-type,1,12
 data.Event type,1,3
 data.Gender,2,5
-data.Geography,46,122
+data.Geography,45,122
 data.Grade,1,6
 data.Household food security status,1,6
 data.Index,1,4
@@ -43,7 +43,6 @@ data.Sector,1,2
 data.Select housing vulnerable populations,1,8
 data.Selected characteristic,1,9
 data.Selected demographic characteristics,1,11
-data.Selected diseases,1,15
 data.Sex of accused,1,5
 data.Sex,17,10
 data.Sociodemographic characteristics,1,8
@@ -65,13 +64,16 @@ data.Type of work,1,3
 data.Violations,1,14
 data.Visible minority,1,10
 data.Water quality,1,6
+Gender,1,3
 Generation,1,4
-Geography,5,66
+Geography,6,66
 Income quintile,1,30
 Main source of household income,1,4
 Ownership status,1,4
+Selected diseases,1,17
 Sex,2,5
 Source,1,9
+Target population,1,5
 Type of beverage,1,5
 Type of event,1,2
 Type of household,1,2

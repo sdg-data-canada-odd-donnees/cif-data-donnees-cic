@@ -2648,6 +2648,114 @@
       "title": "Prevalence of food insecurity"
     },
     {
+      "path": "3-9-1/data.csv",
+      "name": "3-9-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Ontario",
+                "Quebec",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Selected diseases",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Diphtheria",
+                "Pertussis (whooping cough)",
+                "Tetanus",
+                "Polio",
+                "Haemophilus influenzae type B (Hib)",
+                "Measles",
+                "Mumps",
+                "Rubella",
+                "Hepatitis B",
+                "Varicella",
+                "Meningococcal type C",
+                "Pneumococcal",
+                "Rotavirus",
+                "Human Papillomavirus (HPV)",
+                "Diphtheria, Tetanus, acellular Pertussis (Tdap) booster",
+                "Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)",
+                "Influenza (flu)",
+                ""
+              ]
+            },
+            "title": "Selected diseases"
+          },
+          {
+            "name": "Target population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Recommended vaccines for 2-year-old children",
+                "Recommended vaccines for 7-year-old children",
+                "Recommended vaccines for 14-year-old children",
+                "Recommended vaccines for 17-year-old children",
+                "Recommended vaccines during pregnancy",
+                ""
+              ]
+            },
+            "title": "Target population"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total - Gender",
+                "Women+",
+                "Men+",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Vaccination rates for selected diseases"
+    },
+    {
       "path": "16-5-1/data.csv",
       "name": "16-5-1",
       "profile": "tabular-data-resource",
@@ -2913,98 +3021,6 @@
         ]
       },
       "title": "Proportion of households that have access to broadband Internet service at speeds of 50/10 Mbps"
-    },
-    {
-      "path": "3-8-1/data.csv",
-      "name": "3-8-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Alberta",
-                "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
-                "Yukon",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "data.Selected diseases",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Hepatitis B",
-                "Human Papillomavirus (HPV)",
-                "Diphtheria",
-                "Diphtheria - Tetanus - acellular Pertussis (Tdap) booster",
-                "Haemophilus influenzae type B (Hib)",
-                "Measles",
-                "Meningococcal type C",
-                "Mumps",
-                "Pertussis (whooping cough)",
-                "Polio",
-                "Rubella",
-                "Tetanus",
-                "Pneumococcal",
-                "Rotavirus",
-                "Varicella",
-                ""
-              ]
-            },
-            "title": "Selected diseases"
-          },
-          {
-            "name": "data.Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "by 14 years of age",
-                "by 17 years of age",
-                "by 2 years of age",
-                "by 7 years of age",
-                ""
-              ]
-            },
-            "title": "Age"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Vaccination rates for selected diseases"
     },
     {
       "path": "9-4-1/data.csv",
