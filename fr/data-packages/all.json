@@ -481,7 +481,7 @@
           }
         ]
       },
-      "title": "Incidence of opioid and stimulant overdose related harms"
+      "title": "3-12-1"
     },
     {
       "path": "7-3-1/data.csv",
@@ -991,6 +991,83 @@
         ]
       },
       "title": "Proportion of 15+ employees earning less than 66% of the median hourly wage of permanent full-time 15+ employees"
+    },
+    {
+      "path": "3-13-1/data.csv",
+      "name": "3-13-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Colombie-Britannique",
+                "Alberta",
+                "Saskatchewan",
+                "Manitoba",
+                "Ontario",
+                "Québec",
+                "Nouveau-Brunswick",
+                "Nouvelle-Écosse",
+                "Île-du-Prince-Édouard",
+                "Terre-Neuve-et-Labrador",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Canada",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Type of event",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total apparent opioid toxicity deaths",
+                "Accidental apparent opioid toxicity deaths",
+                ""
+              ]
+            },
+            "title": "Type d'événement"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Femme",
+                "Homme",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Incidence of opioid and stimulant overdose related harms"
     },
     {
       "path": "11-1-1/data.csv",
