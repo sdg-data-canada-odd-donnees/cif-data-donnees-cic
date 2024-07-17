@@ -12,61 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Année"
-          },
-          {
-            "name": "data.Age at time of death",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Tous les âges",
-                "1 à 14 ans",
-                "15 à 24 ans",
-                "25 à 34 ans",
-                "35 à 44 ans",
-                "45 à 54 ans",
-                "55 à 64 ans",
-                "65 à 74 ans",
-                "75 à 84 ans",
-                "85 ans et plus",
-                ""
-              ]
-            },
-            "title": "Âge au décès"
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Les deux sexes",
-                "Hommes",
-                "Femmes",
-                ""
-              ]
-            },
-            "title": "Sexe"
-          },
-          {
-            "name": "data.Leading causes of death (ICD-10)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Tumeurs malignes",
-                "Diabète sucré",
-                "Maladie d'Alzheimer",
-                "Maladies du coeur",
-                "Maladies cérébrovasculaires",
-                "Grippe et pneumopathie",
-                "Maladies chroniques des voies respiratoires inférieures",
-                "Maladie chronique et cirrhose du foie",
-                "Accidents (blessures involontaires)",
-                "Lésions auto-infligées",
-                ""
-              ]
-            },
-            "title": "Principales causes de décès"
           },
           {
             "name": "Value",

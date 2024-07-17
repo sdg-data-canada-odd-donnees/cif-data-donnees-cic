@@ -16,65 +16,16 @@
             "title": "Year"
           },
           {
-            "name": "Units",
+            "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Rate per 100,000 population",
-                "Number",
+                "Female",
+                "Male",
                 ""
               ]
             },
-            "title": "Units"
-          },
-          {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "British Columbia",
-                "Alberta",
-                "Saskatchewan",
-                "Manitoba",
-                "Ontario",
-                "Quebec",
-                "New Brunswick",
-                "Nova Scotia",
-                "Prince Edward Island",
-                "Newfoundland and Labrador",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
-                "Territories",
-                "Winnipeg Manitoba",
-                "Northern and Rural Manitoba",
-                "Whitehorse Yukon",
-                "Yellowknife Northwest Territories",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "Type of event",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Apparent opioid toxicity deaths",
-                "Opioid-related poisoning hospitalizations",
-                "Stimulant-related poisoning hospitalizations",
-                "EMS responses to suspected opioid-related overdoses",
-                "Apparent stimulant toxicity deaths",
-                ""
-              ]
-            },
-            "title": "Type of event"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
+            "title": "Sex"
           },
           {
             "name": "Value",
@@ -87,5 +38,5 @@
   ],
   "profile": "data-package",
   "name": "3-12-1",
-  "title": "3-12-1"
+  "title": "Tuberculosis incidence per 100,000 population in Inuit Nunangat"
 }

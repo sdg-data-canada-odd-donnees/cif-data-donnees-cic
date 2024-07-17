@@ -356,6 +356,78 @@
             "type": "integer"
           },
           {
+            "name": "data.Age at time of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.All ages",
+                "data.1 to 14 years",
+                "data.15 to 24",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                "data.65 to 74 years",
+                "data.75 to 84 years",
+                "data.85 and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Both sexes",
+                "data.Males",
+                "data.Females",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Leading causes of death (ICD-10)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Malignant neoplasms [C00-C97]",
+                "data.Diabetes mellitus [E10-E14]",
+                "data.Alzheimer's disease [G30]",
+                "data.Diseases of heart [I00-I09, I11, I13, I20-I51]",
+                "data.Cerebrovascular diseases [I60-I69]",
+                "data.Influenza and pneumonia [J09-J18]",
+                "data.Chronic lower respiratory diseases [J40-J47]",
+                "data.Chronic liver disease and cirrhosis [K70, K73-K74]",
+                "data.Accidents (unintentional injuries) [V01-X59, Y85-Y86]",
+                "data.Intentional self-harm (suicide) [X60-X84, Y87.0]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "3-11-1"
+    },
+    {
+      "path": "3-12-1/data.csv",
+      "name": "3-12-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
             "name": "data.Sex",
             "type": "string",
             "constraints": {
@@ -373,85 +445,6 @@
         ]
       },
       "title": "Tuberculosis incidence per 100,000 population in Inuit Nunangat"
-    },
-    {
-      "path": "3-12-1/data.csv",
-      "name": "3-12-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Rate per 100,000 population",
-                "data.Number",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                "data.British Columbia",
-                "data.Alberta",
-                "data.Saskatchewan",
-                "data.Manitoba",
-                "data.Ontario",
-                "data.Quebec",
-                "data.New Brunswick",
-                "data.Nova Scotia",
-                "data.Prince Edward Island",
-                "data.Newfoundland and Labrador",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                "data.Territories",
-                "data.Winnipeg Manitoba",
-                "data.Northern and Rural Manitoba",
-                "data.Whitehorse Yukon",
-                "data.Yellowknife Northwest Territories",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type of event",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Apparent opioid toxicity deaths",
-                "data.Opioid-related poisoning hospitalizations",
-                "data.Stimulant-related poisoning hospitalizations",
-                "data.EMS responses to suspected opioid-related overdoses",
-                "data.Apparent stimulant toxicity deaths",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "3-12-1"
     },
     {
       "path": "7-3-1/data.csv",
@@ -3011,78 +3004,6 @@
       "title": "High school completion rate"
     },
     {
-      "path": "3-10-1/data.csv",
-      "name": "3-10-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Age at time of death",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.All ages",
-                "data.1 to 14 years",
-                "data.15 to 24",
-                "data.25 to 34 years",
-                "data.35 to 44 years",
-                "data.45 to 54 years",
-                "data.55 to 64 years",
-                "data.65 to 74 years",
-                "data.75 to 84 years",
-                "data.85 and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Both sexes",
-                "data.Males",
-                "data.Females",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Leading causes of death (ICD-10)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Malignant neoplasms [C00-C97]",
-                "data.Diabetes mellitus [E10-E14]",
-                "data.Alzheimer's disease [G30]",
-                "data.Diseases of heart [I00-I09, I11, I13, I20-I51]",
-                "data.Cerebrovascular diseases [I60-I69]",
-                "data.Influenza and pneumonia [J09-J18]",
-                "data.Chronic lower respiratory diseases [J40-J47]",
-                "data.Chronic liver disease and cirrhosis [K70, K73-K74]",
-                "data.Accidents (unintentional injuries) [V01-X59, Y85-Y86]",
-                "data.Intentional self-harm (suicide) [X60-X84, Y87.0]",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Mortality rate for selected causes of death"
-    },
-    {
       "path": "4-2-1/data.csv",
       "name": "4-2-1",
       "profile": "tabular-data-resource",
@@ -4931,6 +4852,28 @@
         ]
       },
       "title": "Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol"
+    },
+    {
+      "path": "3-10-1/data.csv",
+      "name": "3-10-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Mortality rate for selected causes of death"
     }
   ]
 }
