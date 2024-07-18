@@ -5227,6 +5227,85 @@
       "title": "Proportion of women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the last 12 months"
     },
     {
+      "path": "16-4-1/data.csv",
+      "name": "16-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Ontario",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Type of case",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Causes totales",
+                "Affaire civile générale",
+                "Affaire familiale",
+                ""
+              ]
+            },
+            "title": "Type de cause"
+          },
+          {
+            "name": "data.Elapsed time",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "3 mois ou moins",
+                "Plus de 3 mois à 6 mois",
+                "Plus de 6 mois à 12 mois",
+                "Plus de 12 mois à 24 mois",
+                "Plus de 24 mois",
+                "Inconnu",
+                ""
+              ]
+            },
+            "title": "Nombre de mois"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Civil Court case completion time"
+    },
+    {
       "path": "14-2-1/data.csv",
       "name": "14-2-1",
       "profile": "tabular-data-resource",
