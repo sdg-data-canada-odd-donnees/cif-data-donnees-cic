@@ -6,11 +6,24 @@ library(dplyr)
 
 # load cansim table
 water_use <- get_cansim("38-10-0250-01", factors = FALSE)
+population <- get_cansim("17-10-0005-01", factors = FALSE)
 
 # selected sectors
 sectors <- c("Total, industries and households",
              "Total, industries",
              "Households")
+
+population_filtered <-
+  population %>%
+  filter(
+    GEO == "Canada",
+    Gender == "Total - gender",
+    `Age group` == "All ages"
+  ) %>%
+  select(
+    Year = REF_DATE,
+    Population = VALUE
+  )
 
 # transform data
 cubic_metres <- 
@@ -42,9 +55,41 @@ growth_rate <-
     Units = "Growth rate"
   )
 
+# calculate water use per capita growth rate
+
+households_water_use <-
+  water_use %>%
+  filter(
+    Sector == "Households"
+  ) %>% 
+  select(
+    Year = REF_DATE,
+    Sector,
+    Household_Value = VALUE
+  )
+
+household_water_use_capita <-
+  households_water_use %>%
+  inner_join(population_filtered) %>% 
+  mutate(
+    Value = round(Household_Value / Population, 2)
+  )
+
+households_growth_rate_per_capita <-
+  household_water_use_capita  %>%
+  transmute(
+    Year, Sector,
+    Value = ((Value - lag(Value)) / lag(Value)) * 100,
+    Value = round(Value, 1),
+    Units = "Water use per capita growth rate"
+  ) %>%
+  mutate(
+    Sector = ""
+  )
+
 # bind cubic metres data to growth rate data 
 data_final <- 
-  bind_rows(cubic_metres, growth_rate) %>% 
+  bind_rows(cubic_metres, growth_rate, households_growth_rate_per_capita) %>% 
   filter(Year >= 2013) %>% 
   ungroup() %>%
   relocate(Units, .after = Year) %>%
