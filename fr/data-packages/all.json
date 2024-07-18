@@ -2903,6 +2903,104 @@
       "title": "Criminal Court case completion time"
     },
     {
+      "path": "5-4-1/data.csv",
+      "name": "5-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Type of work",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ensemble des employés à temps plein et à temps partiel",
+                "Employés à temps plein",
+                "Employés à temps partiel",
+                ""
+              ]
+            },
+            "title": "Genre de travail"
+          },
+          {
+            "name": "data.National Occupational Classification (NOC)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total des employés, toutes les professions",
+                "Gestion",
+                "Affaires, finance et administration",
+                "Sciences naturelles et appliquées et domaines apparentés",
+                "Secteur de la santé",
+                "Enseignement, droit et services sociaux, communautaires et gouvernementaux",
+                "Arts, culture, sports et loisirs",
+                "Vente et services",
+                "Métiers, transport, machinerie et domaines apparentés",
+                "Ressources naturelles, agriculture et production connexe",
+                "Fabrication et services d'utilité publique",
+                ""
+              ]
+            },
+            "title": "Classification nationale des professions (CNP)"
+          },
+          {
+            "name": "data.Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 à 24 ans",
+                "25 à 54 ans",
+                "55 ans et plus",
+                "15 ans et plus",
+                ""
+              ]
+            },
+            "title": "Âge"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Median hourly wage ratio"
+    },
+    {
       "path": "8-4-1/data.csv",
       "name": "8-4-1",
       "profile": "tabular-data-resource",
@@ -4777,104 +4875,6 @@
         ]
       },
       "title": "Unemployment rate"
-    },
-    {
-      "path": "10-3-1/data.csv",
-      "name": "10-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Année"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "Colombie-Britannique",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
-            "name": "data.Type of work",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ensemble des employés à temps plein et à temps partiel",
-                "Employés à temps plein",
-                "Employés à temps partiel",
-                ""
-              ]
-            },
-            "title": "Genre de travail"
-          },
-          {
-            "name": "data.National Occupational Classification (NOC)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total des employés, toutes les professions",
-                "Gestion",
-                "Affaires, finance et administration",
-                "Sciences naturelles et appliquées et domaines apparentés",
-                "Secteur de la santé",
-                "Enseignement, droit et services sociaux, communautaires et gouvernementaux",
-                "Arts, culture, sports et loisirs",
-                "Vente et services",
-                "Métiers, transport, machinerie et domaines apparentés",
-                "Ressources naturelles, agriculture et production connexe",
-                "Fabrication et services d'utilité publique",
-                ""
-              ]
-            },
-            "title": "Classification nationale des professions (CNP)"
-          },
-          {
-            "name": "data.Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15 à 24 ans",
-                "25 à 54 ans",
-                "55 ans et plus",
-                "15 ans et plus",
-                ""
-              ]
-            },
-            "title": "Âge"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Median hourly wage ratio"
     },
     {
       "path": "15-3-1/data.csv",
