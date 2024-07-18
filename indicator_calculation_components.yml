@@ -58,16 +58,6 @@
   progress_status: deterioration
   target: None
   target_year: '2030'
-10-3-1:
-  base_value: '0.84'
-  base_year: '2015'
-  current_value: '0.86'
-  current_year: '2023'
-  direction: positive
-  progress_calculation_value: '0.002945642079091204'
-  progress_status: negligible_progress
-  target: None
-  target_year: '2030'
 11-1-1:
   progress_status: not_available
 11-2-1:
@@ -478,6 +468,16 @@
   progress_status: not_available
 5-3-1:
   progress_status: not_available
+5-4-1:
+  base_value: '0.84'
+  base_year: '2015'
+  current_value: '0.86'
+  current_year: '2023'
+  direction: positive
+  progress_calculation_value: '0.002945642079091204'
+  progress_status: negligible_progress
+  target: None
+  target_year: '2030'
 6-1-1:
   base_value: '103'
   base_year: '2015'
