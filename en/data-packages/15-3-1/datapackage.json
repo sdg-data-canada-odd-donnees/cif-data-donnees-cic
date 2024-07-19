@@ -1,0 +1,46 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Species group or system",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Birds index",
+                "Mammals index",
+                "Fish index",
+                "Terrestrial index",
+                "Freshwater index",
+                "Marine index",
+                ""
+              ]
+            },
+            "title": "Species group or system"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "15-3-1",
+  "title": "Canadian species index"
+}

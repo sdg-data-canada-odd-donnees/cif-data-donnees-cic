@@ -1,0 +1,46 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Species group or system",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indice des oiseaux",
+                "Indice des mammifères",
+                "Indice des poissons",
+                "Indice terrestre",
+                "Indice d'eau douce",
+                "Indice marin",
+                ""
+              ]
+            },
+            "title": "Groupe d'espèces ou système"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "15-3-1",
+  "title": "Canadian species index"
+}
