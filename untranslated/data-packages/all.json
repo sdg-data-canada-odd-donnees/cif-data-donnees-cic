@@ -465,36 +465,19 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
                 "data.Yukon",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Type of electricity generation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Hydraulic turbine",
-                "data.Total renewable and non-greenhouse gas emitting sources",
-                "data.Wind power turbine",
-                "data.Nuclear steam turbine",
-                "data.Solar",
-                "data.Tidal power turbine",
-                "data.Total electricity production from biomass",
+                "data.Northwest Territories",
+                "data.Nunavut",
                 ""
               ]
             }
@@ -509,7 +492,7 @@
           }
         ]
       },
-      "title": "Proportion of electricity generated from renewable and non-greenhouse gas emitting sources"
+      "title": "Total energy consumption per capita"
     },
     {
       "path": "10-1-1/data.csv",
@@ -4387,19 +4370,36 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
                 "data.Alberta",
                 "data.British Columbia",
-                "data.Yukon",
+                "data.Canada",
+                "data.Manitoba",
+                "data.New Brunswick",
+                "data.Newfoundland and Labrador",
                 "data.Northwest Territories",
+                "data.Nova Scotia",
                 "data.Nunavut",
+                "data.Ontario",
+                "data.Prince Edward Island",
+                "data.Quebec",
+                "data.Saskatchewan",
+                "data.Yukon",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Type of electricity generation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Hydraulic turbine",
+                "data.Total renewable and non-greenhouse gas emitting sources",
+                "data.Wind power turbine",
+                "data.Nuclear steam turbine",
+                "data.Solar",
+                "data.Tidal power turbine",
+                "data.Total electricity production from biomass",
                 ""
               ]
             }
@@ -4414,7 +4414,7 @@
           }
         ]
       },
-      "title": "Total energy consumption per capita"
+      "title": "Proportion of electricity generated from renewable and non-greenhouse gas emitting sources"
     },
     {
       "path": "14-1-1/data.csv",

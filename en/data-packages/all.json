@@ -495,41 +495,23 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Canada",
-                "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
-                "Nunavut",
-                "Ontario",
-                "Prince Edward Island",
-                "Quebec",
-                "Saskatchewan",
                 "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             },
             "title": "Geography"
-          },
-          {
-            "name": "data.Type of electricity generation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Hydraulic turbine",
-                "Total renewable and non-greenhouse gas emitting sources",
-                "Wind power turbine",
-                "Nuclear steam turbine\n",
-                "Solar",
-                "Tidal power turbine",
-                "Total electricity production from biomass",
-                ""
-              ]
-            },
-            "title": "Type of electricity generation"
           },
           {
             "name": "GeoCode",
@@ -543,7 +525,7 @@
           }
         ]
       },
-      "title": "Proportion of electricity generated from renewable and non-greenhouse gas emitting sources"
+      "title": "Total energy consumption per capita"
     },
     {
       "path": "10-1-1/data.csv",
@@ -4710,23 +4692,41 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
                 "Northwest Territories",
+                "Nova Scotia",
                 "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "data.Type of electricity generation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hydraulic turbine",
+                "Total renewable and non-greenhouse gas emitting sources",
+                "Wind power turbine",
+                "Nuclear steam turbine\n",
+                "Solar",
+                "Tidal power turbine",
+                "Total electricity production from biomass",
+                ""
+              ]
+            },
+            "title": "Type of electricity generation"
           },
           {
             "name": "GeoCode",
@@ -4740,7 +4740,7 @@
           }
         ]
       },
-      "title": "Total energy consumption per capita"
+      "title": "Proportion of electricity generated from renewable and non-greenhouse gas emitting sources"
     },
     {
       "path": "14-1-1/data.csv",

@@ -20,23 +20,41 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon",
+                "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
                 "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
                 "Nunavut",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             },
             "title": "Géographie"
+          },
+          {
+            "name": "data.Type of electricity generation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Turbine à hydraulique",
+                "Total, sources renouvelables et non émettrices de gaz à effet de serre",
+                "Turbine éolienne",
+                "Turbine à vapeur-nucléaire\n",
+                "Solaire",
+                "Turbine marémotrice",
+                "Production totale d’électricité provenant de la biomasse\n",
+                ""
+              ]
+            },
+            "title": "Type de production d'électricité"
           },
           {
             "name": "GeoCode",
@@ -54,5 +72,5 @@
   ],
   "profile": "data-package",
   "name": "7-2-1",
-  "title": "Total energy consumption per capita"
+  "title": "Proportion of electricity generated from renewable and non-greenhouse gas emitting sources"
 }
