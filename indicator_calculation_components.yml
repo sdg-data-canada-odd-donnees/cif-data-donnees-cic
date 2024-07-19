@@ -204,6 +204,16 @@
   progress_status: negligible_progress
   target: '60'
   target_year: '2026'
+15-3-1:
+  base_value: '-6.61'
+  base_year: '2015'
+  current_value: '-7.43'
+  current_year: '2018'
+  direction: positive
+  progress_calculation_value: '0.03975045261832233'
+  progress_status: substantial_progress
+  target: None
+  target_year: '2030'
 15-4-1:
   base_value: '10.2'
   base_year: '2015'
