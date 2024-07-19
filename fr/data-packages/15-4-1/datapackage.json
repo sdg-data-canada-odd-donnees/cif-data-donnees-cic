@@ -13,7 +13,7 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Year"
+            "title": "Année"
           },
           {
             "name": "data.Geography",
@@ -21,33 +21,38 @@
             "constraints": {
               "enum": [
                 "Alberta",
-                "British Columbia",
+                "Colombie-Britannique",
                 "Manitoba",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Northwest Territories",
-                "Nova Scotia",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
                 "Nunavut",
                 "Ontario",
-                "Prince Edward Island",
-                "Quebec",
+                "Île-du-Prince-Édouard",
+                "Québec",
                 "Saskatchewan",
                 "Yukon",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valeur"
           }
         ]
       }
     }
   ],
   "profile": "data-package",
-  "name": "15-3-1",
+  "name": "15-4-1",
   "title": "Proportion of terrestrial (land and freshwater) area conserved"
 }
