@@ -3863,28 +3863,6 @@
       "title": "Proportion of new light duty vehicle registrations that are zero-emission vehicles"
     },
     {
-      "path": "15-5-1/data.csv",
-      "name": "15-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Forest area as a proportion of total land area"
-    },
-    {
       "path": "9-1-1/data.csv",
       "name": "9-1-1",
       "profile": "tabular-data-resource",
@@ -4644,6 +4622,28 @@
         ]
       },
       "title": "Poverty rate, as measured by Canada’s official poverty line"
+    },
+    {
+      "path": "15-6-1/data.csv",
+      "name": "15-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Forest area as a proportion of total land area"
     },
     {
       "path": "10-2-1/data.csv",
