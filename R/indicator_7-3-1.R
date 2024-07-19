@@ -1,101 +1,88 @@
+
 # CIF 7.3.1 ---------------------------------------------------------------
 
 # load libraries
-library(dplyr)
+# install.packages("cansim")
 library(cansim)
+library(dplyr)
 
-# load CODR table from stc api
-Raw_data <- 
-  get_cansim("25-10-0015-01", factors = FALSE) %>% 
-  filter(
-    REF_DATE >= 2015 & REF_DATE < substr(Sys.Date(), 1, 4),
-    `Class of electricity producer` == "Total all classes of electricity producer"
-  )
+# load CODR data
+raw_data <- get_cansim("25-10-0029-01", factors = FALSE)
+population_ests <- get_cansim("17-10-0005-01", factors = FALSE)
 
-# load geocode
+# load geocode file
 geocodes <- read.csv("geocodes.csv")
 
-generation_types <- c(
-  # "Total all types of electricity generation",
-  "Hydraulic turbine",
-  "Nuclear steam turbine",
-  "Total electricity production from biomass",
-  "Tidal power turbine",
-  "Wind power turbine",
-  "Solar"
-)
 
-total_electricty <-
-  Raw_data %>%
+# get the terajoule values of energy consumption
+terajoules <- 
+  raw_data %>%
   filter(
-    `Type of electricity generation` == "Total all types of electricity generation"
-  ) %>%
-  select(
-    Year = REF_DATE,
-    Geography = GEO,
-    # `Type of electricity generation`,
-    Total = VALUE
-  )
-
-renewable_electricity <- 
-  Raw_data %>% 
-    filter(
-      `Type of electricity generation` %in% generation_types
-    ) %>% 
-  select(
-    Year = REF_DATE,
-    Geography = GEO,
-    `Type of electricity generation`,
-    Renewable = VALUE
-  )
-
-total_renewable_electricity <-
-  renewable_electricity %>% 
-    group_by(Year, Geography) %>% 
-    summarise(Renewable = sum(Renewable), .groups = "drop") %>% 
-    mutate(`Type of electricity generation` = "Total renewable and non-greenhouse gas emitting sources")
-
-
-renewable <- 
-  renewable_electricity %>% 
-  bind_rows(total_renewable_electricity) %>% 
-  left_join(total_electricty) %>% 
-  mutate(Value = round((Renewable / Total)*100, digits = 3)) %>% 
-  mutate(
-    Year = substr(Year, 1, 4)
+    REF_DATE >= 2015,
+    `Fuel type` == "Total primary and secondary energy",
+    `Supply and demand characteristics` == "Energy use, final demand"
   ) %>% 
-  group_by(Year, Geography, `Type of electricity generation`) %>% 
-  summarise(Value = mean(Value), .groups = "drop") %>% 
-  left_join(geocodes, by = "Geography") %>% 
+  select(
+    Year = REF_DATE,
+    Geography = GEO,
+    Terajoules = VALUE
+  )
+
+# get the total population estimates
+population_ests <- 
+  population_ests %>% 
+  filter(
+    REF_DATE >= 2015,
+    Gender == "Total - gender",
+    `Age group` == "All ages"
+  ) %>% 
+  select(
+    Year = REF_DATE,
+    Geography = GEO,
+    Population = VALUE
+  )
+
+# calculate terajoules per capita
+tj_per_capita <- 
+  terajoules %>% 
+  inner_join(population_ests) %>% 
+  mutate(
+    Value = round(Terajoules / Population, 2)
+  ) %>% 
+  select(-c("Terajoules", "Population")) %>% 
+  left_join(geocodes) %>% 
   relocate(GeoCode, .before = Value)
 
-
-total_line <-
-  renewable %>%
+# create the aggregate variable
+total_line <- 
+  tj_per_capita %>% 
   filter(
-    Geography == "Canada",
-    `Type of electricity generation` == "Total renewable and non-greenhouse gas emitting sources",
-  ) %>%
-  mutate_at(2:(ncol(.) - 2), ~ "")
+    Geography == "Canada"
+  ) %>% 
+  mutate(
+    Geography = ""
+  )
 
-non_total_line <-
-  renewable %>%
+# the disaggrete values
+not_total_line <- 
+  tj_per_capita %>% 
   filter(
-    !(
-      Geography == "Canada" &
-        `Type of electricity generation` == "Total renewable and non-greenhouse gas emitting sources"
-    )
-  ) %>%
-  mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+    Geography != "Canada"
+  ) %>% 
+  mutate(
+    Geography = paste0("data.", Geography)
+  )
 
+# append the total line to the disaggregate rows
+data_final <- 
+  bind_rows(total_line, not_total_line) %>% 
+  rename(data.Geography = Geography)
 
-final_data <-
-  bind_rows(total_line, non_total_line) %>%
-  rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
-
-
-write.csv(final_data,
-          "data/indicator_7-3-1.csv",
-          na = "",
-          row.names = FALSE,
-          fileEncoding = "UTF-8")
+# write to csv
+write.csv(
+  data_final,
+  "data/indicator_7-3-1.csv",
+  row.names = FALSE,
+  na = "",
+  fileEncoding = "UTF-8"
+)
