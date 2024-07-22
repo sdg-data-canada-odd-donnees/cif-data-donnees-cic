@@ -36,6 +36,8 @@ geography <- c(
   "Nunavut"
 )
 
+## Labour data
+
 labour_filtered <-
   labour %>%
   filter(
@@ -63,6 +65,8 @@ remove_geo_labour <-
 labour_combined <-
   bind_rows(reorder_geo_labour,remove_geo_labour)
 
+## Age data
+
 age_filtered <-
   age %>%
   filter(
@@ -80,7 +84,7 @@ age_filtered <-
 
 
 rename_age <-
-  indigenous_filtered %>%
+  age_filtered %>%
   filter(
     `Age group` == "15 years and over"
   ) %>%
@@ -89,13 +93,15 @@ rename_age <-
   )
 
 remove_age <-
-  indigenous_filtered %>%
+  age_filtered %>%
   filter(
     !`Age group` == "15 years and over"
   )
 
 age_combined <-
   bind_rows(rename_age, remove_age)
+
+## Disability data
 
 disability_filtered <-
   disability %>%
@@ -149,6 +155,8 @@ remove_gender_disability <-
 disability_recombined <-
   bind_rows(rename_gender_disability,remove_gender_disability)
 
+## Indigenous data
+
 indigenous_filtered <-
   indigenous %>%
   filter(
@@ -182,6 +190,8 @@ remove_age_indigenous <-
 
 indigenous_combined <-
   bind_rows(rename_age_indigenous, remove_age_indigenous)
+
+## Visible minority data
 
 visible_minority_filtered <-
   visible_minority %>%
@@ -217,6 +227,8 @@ remove_age_vismin <-
 visible_minority_combined <-
   bind_rows(rename_age_vismin,remove_age_vismin)
 
+## Immigrant data
+
 immigrant_filtered <-
   immigrant %>%
   filter(
@@ -249,6 +261,8 @@ remove_age_immigrant <-
 
 immigrant_combined <-
   bind_rows(rename_age_immigrant,remove_age_immigrant)
+
+## Total and non total lines
 
 total_line <-
   labour_combined %>%
