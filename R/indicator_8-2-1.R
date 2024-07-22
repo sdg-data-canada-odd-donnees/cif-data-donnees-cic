@@ -19,6 +19,23 @@ labour <- get_cansim("14-10-0393-01", factors = FALSE)
 
 geocodes <- read.csv("geocodes.csv")
 
+geography <- c(
+  "Canada",
+  "Newfoundland and Labrador",
+  "Prince Edward Island",
+  "Nova Scotia",
+  "New Brunswick",
+  "Quebec",
+  "Ontario",
+  "Manitoba",
+  "Saskatchewan",
+  "Alberta",
+  "British Columbia",
+  "Yukon",
+  "Northwest Territories",
+  "Nunavut"
+)
+
 labour_filtered <-
   labour %>%
   filter(
@@ -30,6 +47,21 @@ labour_filtered <-
     Geography = GEO,
     Value = VALUE
   )
+
+reorder_geo_labour <-
+  labour_filtered %>%
+  filter(
+    Geography %in% geography
+  )
+
+remove_geo_labour <-
+  labour_filtered %>%
+  filter(
+    !Geography %in% geography
+  )
+
+labour_combined <-
+  bind_rows(reorder_geo_labour,remove_geo_labour)
 
 age_filtered <-
   age %>%
@@ -61,6 +93,24 @@ disability_filtered <-
     `Age group`,
     Value = VALUE
   )
+
+rename_age_disability <-
+  disability_filtered %>%
+  filter(
+    `Age group` == "65 years and older"
+  ) %>%
+  mutate(
+    `Age group` =  "65 years and over"
+  )
+
+remove_age_disability <-
+  disability_filtered %>%
+  filter(
+    !`Age group` == "65 years and older"
+  )
+
+disability_combined <-
+  bind_rows(rename_age_disability,remove_age_disability)
 
 indigenous_filtered <-
   indigenous %>%
@@ -109,8 +159,26 @@ immigrant_filtered <-
     Value = VALUE
   )
 
+rename_age_immigrant <-
+  immigrant_filtered %>%
+  filter(
+    `Age group` == "15 years and over"
+  ) %>%
+  mutate(
+    `Age group` = "Total, 15 years and over"
+  )
+
+remove_age_immigrant <-
+  immigrant_filtered %>%
+  filter(
+    !`Age group` == "15 years and over"
+  )
+
+immigrant_combined <-
+  bind_rows(rename_age_immigrant,remove_age_immigrant)
+
 total_line <-
-  labour_filtered %>%
+  labour_combined %>%
   filter(
     Geography == "Canada"
   ) %>%
@@ -119,13 +187,13 @@ total_line <-
   )
 
 non_total <-
-  labour_filtered %>%
+  labour_combined %>%
   filter(
     !Geography == "Canada"
   )
 
 data_final <- 
-  bind_rows(total_line, non_total, age_filtered, disability_filtered, indigenous_filtered, visible_minority_filtered, immigrant_filtered) %>%
+  bind_rows(total_line, non_total, age_filtered, disability_combined, indigenous_filtered, visible_minority_filtered, immigrant_combined) %>%
   select(
     Year,
     Geography,
