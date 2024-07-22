@@ -1057,6 +1057,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total, 15 ans et plus",
                 "15 à 24 ans",
                 "25 ans et plus",
                 "25 à 44 ans",
@@ -1078,9 +1079,7 @@
                 "65 ans et plus",
                 "65 à 69 ans",
                 "70 ans et plus",
-                "15 ans et plus",
                 "25 à 64 ans",
-                "Total, 15 ans et plus",
                 ""
               ]
             },
@@ -1091,9 +1090,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
                 "Hommes",
                 "Femmes",
+                "Les deux sexes",
                 ""
               ]
             },
@@ -1104,7 +1103,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, gender",
+                "Total - Genre",
                 "Hommes+",
                 "Femmes+",
                 ""
