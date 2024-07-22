@@ -78,6 +78,25 @@ age_filtered <-
     Value = VALUE
   )
 
+
+rename_age <-
+  indigenous_filtered %>%
+  filter(
+    `Age group` == "15 years and over"
+  ) %>%
+  mutate(
+    `Age group` = "Total, 15 years and over"
+  )
+
+remove_age <-
+  indigenous_filtered %>%
+  filter(
+    !`Age group` == "15 years and over"
+  )
+
+age_combined <-
+  bind_rows(rename_age, remove_age)
+
 disability_filtered <-
   disability %>%
   filter(
@@ -112,6 +131,24 @@ remove_age_disability <-
 disability_combined <-
   bind_rows(rename_age_disability,remove_age_disability)
 
+rename_gender_disability <-
+  disability_combined %>%
+  filter(
+    Gender == "Total, gender"
+  ) %>%
+  mutate(
+    Gender = "Total - Gender"
+  )
+
+remove_gender_disability <-
+  disability_combined %>%
+  filter(
+    !Gender == "Total, gender"
+  )
+
+disability_recombined <-
+  bind_rows(rename_gender_disability,remove_gender_disability)
+
 indigenous_filtered <-
   indigenous %>%
   filter(
@@ -128,6 +165,24 @@ indigenous_filtered <-
     Value = VALUE
   )
 
+rename_age_indigenous <-
+  indigenous_filtered %>%
+  filter(
+    `Age group` == "15 years and over"
+  ) %>%
+  mutate(
+    `Age group` = "Total, 15 years and over"
+  )
+
+remove_age_indigenous <-
+  indigenous_filtered %>%
+  filter(
+    !`Age group` == "15 years and over"
+  )
+
+indigenous_combined <-
+  bind_rows(rename_age_indigenous, remove_age_indigenous)
+
 visible_minority_filtered <-
   visible_minority %>%
   filter(
@@ -143,6 +198,24 @@ visible_minority_filtered <-
     `Age group` = Age,
     Value = VALUE
   )
+
+rename_age_vismin <-
+  visible_minority_filtered %>%
+  filter(
+    `Age group` == "15 years and over"
+  ) %>%
+  mutate(
+    `Age group` = "Total, 15 years and over"
+  )
+
+remove_age_vismin <-
+  visible_minority_filtered %>%
+  filter(
+    !`Age group` == "15 years and over"
+  )
+
+visible_minority_combined <-
+  bind_rows(rename_age_vismin,remove_age_vismin)
 
 immigrant_filtered <-
   immigrant %>%
@@ -193,7 +266,7 @@ non_total <-
   )
 
 data_final <- 
-  bind_rows(total_line, non_total, age_filtered, disability_combined, indigenous_filtered, visible_minority_filtered, immigrant_combined) %>%
+  bind_rows(total_line, non_total, age_combined, disability_recombined, indigenous_combined, visible_minority_combined, immigrant_combined) %>%
   select(
     Year,
     Geography,
