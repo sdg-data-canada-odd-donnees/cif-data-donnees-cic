@@ -16,55 +16,243 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
-                "Colombie-Britannique",
-                "Canada",
-                "Manitoba",
-                "Nouveau-Brunswick",
                 "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
-                "Nouvelle-Écosse",
-                "Nunavut",
-                "Ontario",
+                "Avalon Peninsula,  Terre-Neuve-et-Labrador",
+                "Côte-sud-Burin Peninsula et Notre Dame-Central Bonavista Bay,  Terre-Neuve-et-Labrador",
+                "Côte-ouest-Northern Peninsula-Labrador,  Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Cape Breton, Nouvelle-Écosse",
+                "Côte-nord, Nouvelle-Écosse",
+                "Annapolis Valley, Nouvelle-Écosse",
+                "Sud, Nouvelle-Écosse",
+                "Halifax, Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Campbellton-Miramichi, Nouveau-Brunswick",
+                "Moncton-Richibucto, Nouveau-Brunswick",
+                "Saint John-St. Stephen, Nouveau-Brunswick",
+                "Fredericton-Oromocto, Nouveau-Brunswick",
+                "Edmundston-Woodstock, Nouveau-Brunswick",
                 "Québec",
+                "Gaspésie-Îles-de-la-Madeleine, Québec",
+                "Bas-Saint-Laurent, Québec",
+                "Capitale-Nationale, Québec",
+                "Chaudière-Appalaches, Québec",
+                "Estrie, Quebec",
+                "Centre-du-Québec, Québec",
+                "Montérégie, Québec",
+                "Montréal, Québec",
+                "Laval, Québec",
+                "Lanaudière, Québec",
+                "Laurentides, Québec",
+                "Outaouais, Québec",
+                "Abitibi-Témiscamingue, Québec",
+                "Mauricie, Quebec",
+                "Saguenay-Lac-Saint-Jean, Québec",
+                "Côte-Nord and Nord-du-Québec, Québec",
+                "Ontario",
+                "Ottawa, Ontario",
+                "Kingston-Pembroke, Ontario",
+                "Muskoka-Kawarthas, Ontario",
+                "Toronto, Ontario",
+                "Kitchener-Waterloo-Barrie, Ontario",
+                "Hamilton-Niagara Peninsula, Ontario",
+                "London, Ontario",
+                "Windsor-Sarnia, Ontario",
+                "Stratford-Bruce Peninsula, Ontario",
+                "Nord-est, Ontario",
+                "Nord-ouest, Ontario",
+                "Manitoba",
+                "Sud-est, Manitoba",
+                "Centre sud et Centre nord, Manitoba",
+                "Sud-ouest, Manitoba",
+                "Winnipeg, Manitoba",
+                "Interlake, Manitoba",
+                "Parklands et Nord, Manitoba",
                 "Saskatchewan",
+                "Regina-Moose Mountain, Saskatchewan",
+                "Swift Current-Moose Jaw, Saskatchewan",
+                "Saskatoon-Biggar, Saskatchewan",
+                "Yorkton-Melville, Saskatchewan",
+                "Prince Albert et Nord, Saskatchewan",
+                "Alberta",
+                "Lethbridge-Medicine Hat, Alberta",
+                "Camrose-Drumheller, Alberta",
+                "Calgary, Alberta",
+                "Banff-Jasper-Rocky Mountain House et Athabasca-Grande Prairie-Peace River, Alberta",
+                "Red Deer, Alberta",
+                "Edmonton, Alberta",
+                "Wood Buffalo-Cold Lake, Alberta",
+                "Colombie-Britannique",
+                "Île de Vancouver et la côte, Colombie-Britannique",
+                "Lower Mainland-Southwest, Colombie-Britannique",
+                "Thompson-Okanagan, Colombie-Britannique",
+                "Kootenay, Colombie-Britannique",
+                "Cariboo, Colombie-Britannique",
+                "Côte-nord et Nechako, Colombie-Britannique",
+                "Nord-est, Colombie-Britannique",
                 "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Canada",
+                "Provinces de l'Atlantique",
+                "Provinces des Prairies",
+                "Territoires",
+                "Provinces de l'Est et du centre",
+                "Provinces de l'Ouest",
+                "Région des Prairies",
+                "Région de l'Atlantique",
+                "Manitoba and Saskatchewan",
+                "Vancouver, Colombie-Britannique",
                 ""
               ]
             },
             "title": "Géographie"
           },
           {
-            "name": "data.Sex",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
-                "Homme",
-                "Femme",
+                "15 à 24 ans",
+                "25 ans et plus",
+                "25 à 44 ans",
+                "45 à 64 ans",
+                "45 ans et plus",
+                "25 à 54 ans",
+                "55 ans et plus",
+                "15 à 64 ans",
+                "15 à 19 ans",
+                "20 à 24 ans",
+                "25 à 29 ans",
+                "30 à 34 ans",
+                "35 à 39 ans",
+                "40 à 44 ans",
+                "45 à 49 ans",
+                "50 à 54 ans",
+                "55 à 59 ans",
+                "60 à 64 ans",
+                "65 ans et plus",
+                "65 à 69 ans",
+                "70 ans et plus",
+                "15 ans et plus",
+                "25 à 64 ans",
+                "Total, 15 ans et plus",
+                "65 years and older",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Les deux sexes",
+                "Hommes",
+                "Femmes",
                 ""
               ]
             },
             "title": "Sexe"
           },
           {
-            "name": "data.Age group",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
-                "15 à 24 ans",
-                "25 à 54 ans",
-                "55 ans et plus",
+                "Total, gender",
+                "Hommes+",
+                "Femmes+",
                 ""
               ]
             },
-            "title": "Groupe d'âge"
+            "title": "Genre"
+          },
+          {
+            "name": "Disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Personnes ayant une incapacité",
+                "Personnes sans incapacité",
+                ""
+              ]
+            },
+            "title": "Incapacité"
+          },
+          {
+            "name": "Indigenous group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population totale",
+                "Population autochtone",
+                "Premières Nation",
+                "Métis",
+                "Population non autochtone",
+                ""
+              ]
+            },
+            "title": "Groupe autochtone"
+          },
+          {
+            "name": "Educational attainment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Études secondaires partielles ou moins",
+                "Études secondaires complétées ou postsecondaires partielles",
+                "Études postsecondaires complétées",
+                "Total, tous les niveaux de scolarité",
+                ""
+              ]
+            },
+            "title": "Niveau de scolarité atteint"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population des minorités visibles",
+                "Sud-Asiatique",
+                "Chinois",
+                "Noirs",
+                "Philippin",
+                "Arabe",
+                "Latino-Américain",
+                "Asiatique du Sud-Est",
+                "Asiatique occidental",
+                "Coréen",
+                "Japonais",
+                "Minorité visible n.i.a",
+                "Minorités visible multiples",
+                "Pas une minorité visible",
+                ""
+              ]
+            },
+            "title": "Minorité visible"
+          },
+          {
+            "name": "Immigrant status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Immigrants reçus",
+                "Immigrants reçus 5 ans et moins auparavant",
+                "Immigrants reçus plus de 5 à 10 ans auparavant",
+                "Immigrants reçus plus de 10 ans auparavant",
+                "Populations nées au Canada",
+                ""
+              ]
+            },
+            "title": "Immigrant status"
           },
           {
             "name": "GeoCode",
@@ -82,5 +270,5 @@
   ],
   "profile": "data-package",
   "name": "8-2-1",
-  "title": "Proportion of 15+ employees earning less than 66% of the median hourly wage of permanent full-time 15+ employees"
+  "title": "Taux d'emploi"
 }

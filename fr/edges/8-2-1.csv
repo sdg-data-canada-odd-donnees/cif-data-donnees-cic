@@ -1,3 +1,9 @@
 From,To
-Géographie,Sexe
-Sexe,Groupe d'âge
+Géographie,Groupe d'âge
+Groupe d'âge,Sexe
+Groupe d'âge,Genre
+Groupe d'âge,Groupe autochtone
+Groupe d'âge,Immigrant status
+Sexe,Minorité visible
+Genre,Incapacité
+Groupe autochtone,Niveau de scolarité atteint
