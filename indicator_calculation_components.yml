@@ -593,13 +593,13 @@
   target: '244715'
   target_year: '2026'
 9-1-1:
-  base_value: '15.6'
-  base_year: '2015'
-  current_value: '18.4'
-  current_year: '2018'
+  base_value: '56.9'
+  base_year: '2017'
+  current_value: '46.5'
+  current_year: '2020'
   direction: positive
-  progress_calculation_value: '0.056568701546746425'
-  progress_status: substantial_progress
+  progress_calculation_value: '-0.0650675604902875'
+  progress_status: deterioration
   target: None
   target_year: '2030'
 9-2-1:
