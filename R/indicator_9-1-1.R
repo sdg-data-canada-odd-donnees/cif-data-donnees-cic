@@ -45,8 +45,6 @@ innovations_filtered <-
   filter(
     Industry %in% industries
   ) %>%
-  left_join(geocodes, by = "Geography") %>%
-  relocate(GeoCode, .before = Value) %>%
   na.omit()
 
 total_line <-
@@ -68,7 +66,9 @@ non_total <-
   )
 
 data_final <-
-  bind_rows(total_line,non_total)
+  bind_rows(total_line,non_total) %>%
+  left_join(geocodes, by = "Geography") %>%
+  relocate(GeoCode, .before = Value)
 
 write.csv(
   data_final,
