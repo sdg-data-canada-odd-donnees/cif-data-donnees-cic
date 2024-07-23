@@ -1,9 +1,10 @@
 Value,Disaggregation combinations using this value,Number of indicators
 "Abitibi-Témiscamingue, Quebec",1,1
-Alberta,307,6
+Alberta,556,7
 "Annapolis Valley, Nova Scotia",1,1
 Atlantic provinces,39,2
 Atlantic region,178,1
+Atlantic Region,256,1
 "Avalon Peninsula, Newfoundland and Labrador",1,1
 "Banff-Jasper-Rocky Mountain House and Athabasca-Grande Prairie-Peace River, Alberta",1,1
 "Bas-Saint-Laurent, Quebec",1,1
@@ -13,7 +14,7 @@ British Columbia,308,6
 "Camrose-Drumheller, Alberta",1,1
 "Canada,  65 years and over",3,1
 "Canada, excluding the territories",1,1
-Canada,405,5
+Canada,1428,6
 "Cape Breton, Nova Scotia",1,1
 "Capitale-Nationale, Quebec",1,1
 "Cariboo, British Columbia",1,1
@@ -104,7 +105,7 @@ Newfoundland and Labrador,139,6
 Northwest Territories,62,5
 Nova Scotia,138,6
 Nunavut,59,5
-Ontario,307,6
+Ontario,563,7
 "Ottawa, Ontario",1,1
 "Outaouais, Quebec",1,1
 "Parklands and Northern, Manitoba",1,1
@@ -112,9 +113,11 @@ Prairie provinces,39,2
 Prairie region,225,1
 "Prince Albert and Northern, Saskatchewan",1,1
 Prince Edward Island,138,6
-Quebec,308,6
+Quebec,564,7
 "Red Deer, Alberta",1,1
 "Regina-Moose Mountain, Saskatchewan",1,1
+Rest of Canada excluding Alberta,227,1
+Rest of Canada,252,1
 "Saguenay-Lac-Saint-Jean, Quebec",1,1
 "Saint John-St. Stephen, New Brunswick",1,1
 Saskatchewan,139,6

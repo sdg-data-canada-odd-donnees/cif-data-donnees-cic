@@ -12,8 +12,96 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Year"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Atlantic Region",
+                "Quebec",
+                "Ontario",
+                "Rest of Canada",
+                "Alberta",
+                "Rest of Canada excluding Alberta",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Industry",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, all surveyed industries",
+                "Agriculture, forestry, fishing and hunting",
+                "Mining, quarrying, and oil and gas extraction",
+                "Utilities",
+                "Manufacturing",
+                "Wholesale trade",
+                "Retail trade",
+                "Transportation and warehousing",
+                "All transportation",
+                "Postal services, couriers and messengers, warehousing and storage",
+                "Information and cultural industries",
+                "Finance and insurance excluding monetary authorities",
+                "Real estate and rental and leasing",
+                "Professional, scientific and technical services",
+                "Management of companies and enterprises",
+                "Administrative and support, waste management and remediation services",
+                ""
+              ]
+            },
+            "title": "Industry"
+          },
+          {
+            "name": "Enterprise size",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, all enterprise sizes",
+                "Small enterprises (20 to 99 employees)",
+                "Medium-sized enterprises (100 to 249 employees)",
+                "Large enterprises (250 and more employees)",
+                ""
+              ]
+            },
+            "title": "Enterprise size"
+          },
+          {
+            "name": "Innovations with environmental benefits",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Innovations with environmental benefits from production through efficient use of resources",
+                "Improved resource efficiency through reduced material use per unit of output",
+                "Improved resource efficiency through reduced energy use per unit of output",
+                "Improved resource efficiency by replacing material with less greenhouse-gas-intensive alternatives",
+                "Reduced consumption of resources through recycling (water, waste or material)",
+                "Renewable fuels (ethanol, biodiesel, biogas, biochar, hydrogen)",
+                "Innovations with environmental benefits related to increased environmental protection activities",
+                "Reduced air, water, soil or noise pollution",
+                "Reduced greenhouse gas emissions",
+                "Innovations with environmental benefits related to the end user or consumer",
+                "Reduced energy use or increased energy efficiency for the end user or consumer",
+                "Reduced material use or increased recycling for the end user or consumer",
+                "Reduced air, water, soil or noise pollution for the end user or consumer",
+                "Reduced greenhouse gas emissions for the end user or consumer",
+                "Innovations with other environmental benefits",
+                "Innovations with any environmental benefits",
+                ""
+              ]
+            },
+            "title": "Innovations with environmental benefits"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -26,5 +114,5 @@
   ],
   "profile": "data-package",
   "name": "9-1-1",
-  "title": "Proportion of innovation in environment-related technology"
+  "title": "Proportion of enterprises that introduced innovations with environmental benefits"
 }

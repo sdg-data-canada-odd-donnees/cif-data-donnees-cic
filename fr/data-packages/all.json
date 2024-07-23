@@ -4324,8 +4324,96 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Atlantic Region",
+                "Québec",
+                "Ontario",
+                "Reste du Canada",
+                "Alberta",
+                "Reste du Canada à l'exception de l'Alberta",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Industry",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, toutes les industries sondées",
+                "Agriculture, foresterie, pêche et chasse",
+                "Extraction minière et de pétrole et de gaz",
+                "Services utilitaires",
+                "Fabrication",
+                "Commerce de gros",
+                "Commerce de détail",
+                "Transport et entreposage",
+                "Tous les transports",
+                "Services postaux, messageries et services de messagers, et entreposage",
+                "Industries d'information et de culture",
+                "Finance et assurances excluant les autorités monétaires",
+                "Immobilier et service de location",
+                "Services professionnels, scientifiques et techniques",
+                "Gestion de sociétés et d'entreprises",
+                "Services administratifs, services de soutien, services de gestion des déchets et services d'assainissement",
+                ""
+              ]
+            },
+            "title": "Industrie"
+          },
+          {
+            "name": "Enterprise size",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, toutes les entreprises",
+                "Petites entreprises (20 à 99 employés)",
+                "Entreprises moyennes (100 à 249 employés)",
+                "Grandes entreprises (250 employés et plus)",
+                ""
+              ]
+            },
+            "title": "Taille de l'entreprise"
+          },
+          {
+            "name": "Innovations with environmental benefits",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Innovations présentant des avantages environnementaux découlant de la production fondée sur une utilisation efficace des ressources",
+                "Amélioration de l'efficacité environnementale par la réduction de l'utilisation de matériaux par unité de production",
+                "Amélioration de l'efficacité environnementale par la réduction de la consommation d'énergie par unité de production",
+                "Amélioration de l'efficacité environnementale par le remplacement de matériaux par des matériaux moins polluants sur le plan des émissions de gaz à effet de serre",
+                "Réduction de la consommation de ressources (eau, déchets ou matériaux) au moyen du recyclage",
+                "Carburants renouvelables (éthanol, biodiesel, biogaz, biocharbon, hydrogène)",
+                "Innovations présentant des avantages environnementaux découlant de l'augmentation des activités de protection de l'environnement",
+                "Réduction de la pollution atmosphérique, de l'eau, du sol ou de la pollution par le bruit",
+                "Réduction des émissions de gaz à effet de serre",
+                "Innovations présentant des avantages environnementaux découlant de l'utilisateur final ou du consommateur",
+                "Réduction de la consommation d'énergie ou augmentation de l'efficacité énergétique de l'utilisateur final ou du consommateur",
+                "Réduction de l'utilisation de matériaux ou augmentation du recyclage de l'utilisateur final ou du consommateur",
+                "Réduction de la pollution atmosphérique, de l'eau, du sol ou de la pollution par le bruit de l'utilisateur final ou du consommateur",
+                "Réduction des émissions de gaz à effet de serre de l'utilisateur final ou du consommateur",
+                "Innovations soutenant d'autres avantages environnementaux",
+                "Innovations offrant des avantages quelconques pour l'environnement",
+                ""
+              ]
+            },
+            "title": "Innovations offrant des avantages pour l'environnement"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -4334,7 +4422,7 @@
           }
         ]
       },
-      "title": "Proportion of innovation in environment-related technology"
+      "title": "Proportion of enterprises that introduced innovations with environmental benefits"
     },
     {
       "path": "12-3-1/data.csv",
