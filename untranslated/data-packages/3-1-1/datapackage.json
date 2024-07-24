@@ -15,49 +15,48 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
                 ""
               ]
             }
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total, 12 years and over",
-                "data.12 to 17 years",
-                "data.18 to 34 years",
-                "data.35 to 49 years",
-                "data.50 to 64 years",
-                "data.65 years and over",
-                "data.Total, 18 years and over",
+                "Total, 12 years and over",
+                "12 to 17 years",
+                "18 to 34 years",
+                "35 to 49 years",
+                "50 to 64 years",
+                "65 years and over",
                 ""
               ]
             }
           },
           {
-            "name": "data.Sex",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Males",
-                "data.Females",
-                "data.Both sexes",
+                "Males",
+                "Females",
+                "Both sexes",
                 ""
               ]
             }
