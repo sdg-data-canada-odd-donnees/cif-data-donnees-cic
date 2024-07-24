@@ -11,9 +11,9 @@ Raw_data <- get_cansim("13-10-0373-01", factors = FALSE)
 
 body_mass <- 
   Raw_data %>%
-  filter(Characteristics == "Percent") %>%
-  select(REF_DATE, GEO, Measures, Sex, `Age group`, VALUE) %>%
-  rename(Year = REF_DATE, Geography = GEO, Value = VALUE) %>%
+  filter(Characteristics == "Percent", Measures == "Obese") %>%
+  select(REF_DATE, Sex, `Age group`, VALUE) %>%
+  rename(Year = REF_DATE, Value = VALUE) %>%
   mutate_at(2:(ncol(.)-1), ~ paste0("data.", .x)) %>%
   rename_at(2:(ncol(.)-1), ~ paste0("data.", .x))
 
