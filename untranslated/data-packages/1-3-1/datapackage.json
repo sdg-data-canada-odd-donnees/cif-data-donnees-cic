@@ -109,6 +109,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Wages and salaries",
                 "Self-employment income",
                 "Net property income",
                 "Current transfers received - pension benefits",

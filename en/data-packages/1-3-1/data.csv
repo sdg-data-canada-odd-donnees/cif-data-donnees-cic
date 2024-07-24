@@ -48,11 +48,11 @@ Year,Age,Generation,Type of household,Ownership status,Income quintile,Main sour
 2022 Q4,45 to 54 years,,,,,,226.7
 2022 Q4,55 to 64 years,,,,,,157.3
 2022 Q4,65 years and over,,,,,,71.3
-2023 Q4,Less than 35 years,,,,,,161.9
-2023 Q4,35 to 44 years,,,,,,247.9
-2023 Q4,45 to 54 years,,,,,,226.9
-2023 Q4,55 to 64 years,,,,,,160.5
-2023 Q4,65 years and over,,,,,,70.4
+2023 Q4,Less than 35 years,,,,,,162.0
+2023 Q4,35 to 44 years,,,,,,248.1
+2023 Q4,45 to 54 years,,,,,,227.2
+2023 Q4,55 to 64 years,,,,,,160.6
+2023 Q4,65 years and over,,,,,,70.3
 2015 Q4,,Pre-1946,,,,,58.8
 2015 Q4,,Baby boom,,,,,162.4
 2015 Q4,,Generation X,,,,,230.9
@@ -87,8 +87,8 @@ Year,Age,Generation,Type of household,Ownership status,Income quintile,Main sour
 2022 Q4,,Millennials,,,,,237.4
 2023 Q4,,Pre-1946,,,,,6.1
 2023 Q4,,Baby boom,,,,,82.4
-2023 Q4,,Generation X,,,,,239.8
-2023 Q4,,Millennials,,,,,224.2
+2023 Q4,,Generation X,,,,,240.1
+2023 Q4,,Millennials,,,,,224.4
 2015 Q4,,,One-person households,,,,143.4
 2015 Q4,,,Multiple-person households,,,,184.3
 2016 Q4,,,One-person households,,,,150.4
@@ -105,8 +105,8 @@ Year,Age,Generation,Type of household,Ownership status,Income quintile,Main sour
 2021 Q4,,,Multiple-person households,,,,187.6
 2022 Q4,,,One-person households,,,,135.6
 2022 Q4,,,Multiple-person households,,,,185.6
-2023 Q4,,,One-person households,,,,147.2
-2023 Q4,,,Multiple-person households,,,,179.1
+2023 Q4,,,One-person households,,,,147.1
+2023 Q4,,,Multiple-person households,,,,179.2
 2015 Q4,,,,Owner,,,208.3
 2015 Q4,,,,Owner with mortgage,,,296.1
 2015 Q4,,,,Owner without mortgage,,,82.9
@@ -139,10 +139,10 @@ Year,Age,Generation,Type of household,Ownership status,Income quintile,Main sour
 2022 Q4,,,,Owner with mortgage,,,312.3
 2022 Q4,,,,Owner without mortgage,,,66.1
 2022 Q4,,,,Renter,,,57.6
-2023 Q4,,,,Owner,,,205.0
-2023 Q4,,,,Owner with mortgage,,,305.3
+2023 Q4,,,,Owner,,,205.2
+2023 Q4,,,,Owner with mortgage,,,305.7
 2023 Q4,,,,Owner without mortgage,,,63.9
-2023 Q4,,,,Renter,,,58.3
+2023 Q4,,,,Renter,,,58.1
 2015 Q4,,,,,Lowest income quintile,,276.9
 2015 Q4,,,,,Second income quintile,,200.3
 2015 Q4,,,,,Third income quintile,,203.4
@@ -383,69 +383,78 @@ Year,Age,Generation,Type of household,Ownership status,Income quintile,Main sour
 2022 Q4,,,,,"Highest income quintile, 45 to 54 years",,188.5
 2022 Q4,,,,,"Highest income quintile, 55 to 64 years",,125.0
 2022 Q4,,,,,"Highest income quintile, 65 years and over",,71.6
-2023 Q4,,,,,Lowest income quintile,,291.3
-2023 Q4,,,,,Second income quintile,,197.8
-2023 Q4,,,,,Third income quintile,,205.9
-2023 Q4,,,,,Fourth income quintile,,176.6
-2023 Q4,,,,,Highest income quintile,,136.0
-2023 Q4,,,,,"Lowest income quintile, less than 35 years",,213.1
-2023 Q4,,,,,"Lowest income quintile, 35 to 44 years",,547.3
-2023 Q4,,,,,"Lowest income quintile, 45 to 54 years",,664.8
-2023 Q4,,,,,"Lowest income quintile, 55 to 64 years",,351.7
-2023 Q4,,,,,"Lowest income quintile, 65 years and over",,70.4
-2023 Q4,,,,,"Second income quintile, less than 35 years",,172.9
-2023 Q4,,,,,"Second income quintile, 35 to 44 years",,321.1
-2023 Q4,,,,,"Second income quintile, 45 to 54 years",,321.5
-2023 Q4,,,,,"Second income quintile, 55 to 64 years",,238.1
-2023 Q4,,,,,"Second income quintile, 65 years and over",,46.6
-2023 Q4,,,,,"Third income quintile, less than 35 years",,200.3
-2023 Q4,,,,,"Third income quintile, 35 to 44 years",,298.9
-2023 Q4,,,,,"Third income quintile, 45 to 54 years",,246.8
-2023 Q4,,,,,"Third income quintile, 55 to 64 years",,185.7
-2023 Q4,,,,,"Third income quintile, 65 years and over",,88.2
-2023 Q4,,,,,"Fourth income quintile, less than 35 years",,179.4
-2023 Q4,,,,,"Fourth income quintile, 35 to 44 years",,200.8
-2023 Q4,,,,,"Fourth income quintile, 45 to 54 years",,209.2
-2023 Q4,,,,,"Fourth income quintile, 55 to 64 years",,176.4
-2023 Q4,,,,,"Fourth income quintile, 65 years and over",,86.2
-2023 Q4,,,,,"Highest income quintile, less than 35 years",,112.6
-2023 Q4,,,,,"Highest income quintile, 35 to 44 years",,191.9
-2023 Q4,,,,,"Highest income quintile, 45 to 54 years",,175.5
-2023 Q4,,,,,"Highest income quintile, 55 to 64 years",,120.6
-2023 Q4,,,,,"Highest income quintile, 65 years and over",,65.4
+2023 Q4,,,,,Lowest income quintile,,288.1
+2023 Q4,,,,,Second income quintile,,197.2
+2023 Q4,,,,,Third income quintile,,205.3
+2023 Q4,,,,,Fourth income quintile,,176.7
+2023 Q4,,,,,Highest income quintile,,136.5
+2023 Q4,,,,,"Lowest income quintile, less than 35 years",,194.5
+2023 Q4,,,,,"Lowest income quintile, 35 to 44 years",,513.2
+2023 Q4,,,,,"Lowest income quintile, 45 to 54 years",,618.2
+2023 Q4,,,,,"Lowest income quintile, 55 to 64 years",,335.3
+2023 Q4,,,,,"Lowest income quintile, 65 years and over",,77.8
+2023 Q4,,,,,"Second income quintile, less than 35 years",,162.2
+2023 Q4,,,,,"Second income quintile, 35 to 44 years",,305.9
+2023 Q4,,,,,"Second income quintile, 45 to 54 years",,313.6
+2023 Q4,,,,,"Second income quintile, 55 to 64 years",,242.4
+2023 Q4,,,,,"Second income quintile, 65 years and over",,50.6
+2023 Q4,,,,,"Third income quintile, less than 35 years",,196.0
+2023 Q4,,,,,"Third income quintile, 35 to 44 years",,293.5
+2023 Q4,,,,,"Third income quintile, 45 to 54 years",,242.5
+2023 Q4,,,,,"Third income quintile, 55 to 64 years",,182.6
+2023 Q4,,,,,"Third income quintile, 65 years and over",,93.1
+2023 Q4,,,,,"Fourth income quintile, less than 35 years",,182.8
+2023 Q4,,,,,"Fourth income quintile, 35 to 44 years",,204.3
+2023 Q4,,,,,"Fourth income quintile, 45 to 54 years",,211.0
+2023 Q4,,,,,"Fourth income quintile, 55 to 64 years",,175.4
+2023 Q4,,,,,"Fourth income quintile, 65 years and over",,81.6
+2023 Q4,,,,,"Highest income quintile, less than 35 years",,117.6
+2023 Q4,,,,,"Highest income quintile, 35 to 44 years",,196.7
+2023 Q4,,,,,"Highest income quintile, 45 to 54 years",,178.3
+2023 Q4,,,,,"Highest income quintile, 55 to 64 years",,121.7
+2023 Q4,,,,,"Highest income quintile, 65 years and over",,60.8
+2015 Q4,,,,,,Wages and salaries,202.7
 2015 Q4,,,,,,Self-employment income,296.0
 2015 Q4,,,,,,Net property income,100.5
 2015 Q4,,,,,,Current transfers received - pension benefits,76.6
 2015 Q4,,,,,,Current transfers received - others,161.4
+2016 Q4,,,,,,Wages and salaries,215.3
 2016 Q4,,,,,,Self-employment income,305.0
 2016 Q4,,,,,,Net property income,114.5
 2016 Q4,,,,,,Current transfers received - pension benefits,74.3
 2016 Q4,,,,,,Current transfers received - others,171.0
+2017 Q4,,,,,,Wages and salaries,214.4
 2017 Q4,,,,,,Self-employment income,305.6
 2017 Q4,,,,,,Net property income,112.0
 2017 Q4,,,,,,Current transfers received - pension benefits,77.0
 2017 Q4,,,,,,Current transfers received - others,183.4
+2018 Q4,,,,,,Wages and salaries,216.9
 2018 Q4,,,,,,Self-employment income,288.6
 2018 Q4,,,,,,Net property income,116.9
 2018 Q4,,,,,,Current transfers received - pension benefits,77.5
 2018 Q4,,,,,,Current transfers received - others,178.2
+2019 Q4,,,,,,Wages and salaries,217.6
 2019 Q4,,,,,,Self-employment income,266.5
 2019 Q4,,,,,,Net property income,108.7
 2019 Q4,,,,,,Current transfers received - pension benefits,76.4
 2019 Q4,,,,,,Current transfers received - others,196.2
+2020 Q4,,,,,,Wages and salaries,202.1
 2020 Q4,,,,,,Self-employment income,193.5
 2020 Q4,,,,,,Net property income,120.7
 2020 Q4,,,,,,Current transfers received - pension benefits,74.9
 2020 Q4,,,,,,Current transfers received - others,177.1
+2021 Q4,,,,,,Wages and salaries,199.6
 2021 Q4,,,,,,Self-employment income,239.9
 2021 Q4,,,,,,Net property income,123.9
 2021 Q4,,,,,,Current transfers received - pension benefits,80.9
 2021 Q4,,,,,,Current transfers received - others,282.3
+2022 Q4,,,,,,Wages and salaries,200.0
 2022 Q4,,,,,,Self-employment income,212.1
 2022 Q4,,,,,,Net property income,107.0
 2022 Q4,,,,,,Current transfers received - pension benefits,79.0
 2022 Q4,,,,,,Current transfers received - others,273.0
-2023 Q4,,,,,,Self-employment income,202.8
-2023 Q4,,,,,,Net property income,89.8
-2023 Q4,,,,,,Current transfers received - pension benefits,79.0
-2023 Q4,,,,,,Current transfers received - others,333.8
+2023 Q4,,,,,,Wages and salaries,197.8
+2023 Q4,,,,,,Self-employment income,211.2
+2023 Q4,,,,,,Net property income,91.0
+2023 Q4,,,,,,Current transfers received - pension benefits,78.2
+2023 Q4,,,,,,Current transfers received - others,322.8

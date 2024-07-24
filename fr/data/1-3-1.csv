@@ -48,11 +48,11 @@ Year,Âge,Génération,Type de ménage,Statut de propriété,Quintile de revenu,
 2022 Q4,45 à 54 ans,,,,,,226.7
 2022 Q4,55 à 64 ans,,,,,,157.3
 2022 Q4,65 ans et plus,,,,,,71.3
-2023 Q4,Moins de 35 ans,,,,,,161.9
-2023 Q4,35 à 44 ans,,,,,,247.9
-2023 Q4,45 à 54 ans,,,,,,226.9
-2023 Q4,55 à 64 ans,,,,,,160.5
-2023 Q4,65 ans et plus,,,,,,70.4
+2023 Q4,Moins de 35 ans,,,,,,162.0
+2023 Q4,35 à 44 ans,,,,,,248.1
+2023 Q4,45 à 54 ans,,,,,,227.2
+2023 Q4,55 à 64 ans,,,,,,160.6
+2023 Q4,65 ans et plus,,,,,,70.3
 2015 Q4,,Avant 1946,,,,,58.8
 2015 Q4,,Baby-boom,,,,,162.4
 2015 Q4,,Génération X,,,,,230.9
@@ -87,8 +87,8 @@ Year,Âge,Génération,Type de ménage,Statut de propriété,Quintile de revenu,
 2022 Q4,,Milléniaux,,,,,237.4
 2023 Q4,,Avant 1946,,,,,6.1
 2023 Q4,,Baby-boom,,,,,82.4
-2023 Q4,,Génération X,,,,,239.8
-2023 Q4,,Milléniaux,,,,,224.2
+2023 Q4,,Génération X,,,,,240.1
+2023 Q4,,Milléniaux,,,,,224.4
 2015 Q4,,,Ménages d'une personne,,,,143.4
 2015 Q4,,,de plus d'une personne,,,,184.3
 2016 Q4,,,Ménages d'une personne,,,,150.4
@@ -105,8 +105,8 @@ Year,Âge,Génération,Type de ménage,Statut de propriété,Quintile de revenu,
 2021 Q4,,,de plus d'une personne,,,,187.6
 2022 Q4,,,Ménages d'une personne,,,,135.6
 2022 Q4,,,de plus d'une personne,,,,185.6
-2023 Q4,,,Ménages d'une personne,,,,147.2
-2023 Q4,,,de plus d'une personne,,,,179.1
+2023 Q4,,,Ménages d'une personne,,,,147.1
+2023 Q4,,,de plus d'une personne,,,,179.2
 2015 Q4,,,,Propriétaire,,,208.3
 2015 Q4,,,,Propriétaire avec hypothèque,,,296.1
 2015 Q4,,,,Propriétaire sans hypothèque,,,82.9
@@ -139,10 +139,10 @@ Year,Âge,Génération,Type de ménage,Statut de propriété,Quintile de revenu,
 2022 Q4,,,,Propriétaire avec hypothèque,,,312.3
 2022 Q4,,,,Propriétaire sans hypothèque,,,66.1
 2022 Q4,,,,Locataire,,,57.6
-2023 Q4,,,,Propriétaire,,,205.0
-2023 Q4,,,,Propriétaire avec hypothèque,,,305.3
+2023 Q4,,,,Propriétaire,,,205.2
+2023 Q4,,,,Propriétaire avec hypothèque,,,305.7
 2023 Q4,,,,Propriétaire sans hypothèque,,,63.9
-2023 Q4,,,,Locataire,,,58.3
+2023 Q4,,,,Locataire,,,58.1
 2015 Q4,,,,,Quintile de revenu inférieur,,276.9
 2015 Q4,,,,,Deuxième quintile de revenu,,200.3
 2015 Q4,,,,,Troisième quintile de revenu,,203.4
@@ -383,69 +383,78 @@ Year,Âge,Génération,Type de ménage,Statut de propriété,Quintile de revenu,
 2022 Q4,,,,,"Quintile de revenu supérieur, 45 à 54 ans",,188.5
 2022 Q4,,,,,"Quintile de revenu supérieur, 55 à 64 ans",,125.0
 2022 Q4,,,,,"Quintile de revenu supérieur, 65 ans et plus",,71.6
-2023 Q4,,,,,Quintile de revenu inférieur,,291.3
-2023 Q4,,,,,Deuxième quintile de revenu,,197.8
-2023 Q4,,,,,Troisième quintile de revenu,,205.9
-2023 Q4,,,,,Quatrième quintile de revenu,,176.6
-2023 Q4,,,,,Quintile de revenu supérieur,,136.0
-2023 Q4,,,,,"Quintile de revenu inférieur, moins de 35 ans",,213.1
-2023 Q4,,,,,"Quintile de revenu inférieur, 35 à 44 ans",,547.3
-2023 Q4,,,,,"Quintile de revenu inférieur, 45 à 54 ans",,664.8
-2023 Q4,,,,,"Quintile de revenu inférieur, 55 à 64 ans",,351.7
-2023 Q4,,,,,"Quintile de revenu inférieur, 65 ans et plus",,70.4
-2023 Q4,,,,,"Deuxième quintile de revenu, moins de 35 ans",,172.9
-2023 Q4,,,,,"Deuxième quintile de revenu, 35 à 44 ans",,321.1
-2023 Q4,,,,,"Deuxième quintile de revenu, 45 à 54 ans",,321.5
-2023 Q4,,,,,"Deuxième quintile de revenu, 55 à 64 ans",,238.1
-2023 Q4,,,,,"Deuxième quintile de revenu, 65 ans et plus",,46.6
-2023 Q4,,,,,"Troisième quintile de revenu, moins de 35 ans",,200.3
-2023 Q4,,,,,"Troisième quintile de revenu, 35 à 44 ans",,298.9
-2023 Q4,,,,,"Troisième quintile de revenu, 45 à 54 ans",,246.8
-2023 Q4,,,,,"Troisième quintile de revenu, 55 à 64 ans",,185.7
-2023 Q4,,,,,"Troisième quintile de revenu, 65 ans et plus",,88.2
-2023 Q4,,,,,"Quatrième quintile de revenu, moins de 35 ans",,179.4
-2023 Q4,,,,,"Quatrième quintile de revenu, 35 à 44 ans",,200.8
-2023 Q4,,,,,"Quatrième quintile de revenu, 45 à 54 ans",,209.2
-2023 Q4,,,,,"Quatrième quintile de revenu, 55 à 64 ans",,176.4
-2023 Q4,,,,,"Quatrième quintile de revenu, 65 ans et plus",,86.2
-2023 Q4,,,,,"Quintile de revenu supérieur, moins de 35 ans",,112.6
-2023 Q4,,,,,"Quintile de revenu supérieur, 35 à 44 ans",,191.9
-2023 Q4,,,,,"Quintile de revenu supérieur, 45 à 54 ans",,175.5
-2023 Q4,,,,,"Quintile de revenu supérieur, 55 à 64 ans",,120.6
-2023 Q4,,,,,"Quintile de revenu supérieur, 65 ans et plus",,65.4
+2023 Q4,,,,,Quintile de revenu inférieur,,288.1
+2023 Q4,,,,,Deuxième quintile de revenu,,197.2
+2023 Q4,,,,,Troisième quintile de revenu,,205.3
+2023 Q4,,,,,Quatrième quintile de revenu,,176.7
+2023 Q4,,,,,Quintile de revenu supérieur,,136.5
+2023 Q4,,,,,"Quintile de revenu inférieur, moins de 35 ans",,194.5
+2023 Q4,,,,,"Quintile de revenu inférieur, 35 à 44 ans",,513.2
+2023 Q4,,,,,"Quintile de revenu inférieur, 45 à 54 ans",,618.2
+2023 Q4,,,,,"Quintile de revenu inférieur, 55 à 64 ans",,335.3
+2023 Q4,,,,,"Quintile de revenu inférieur, 65 ans et plus",,77.8
+2023 Q4,,,,,"Deuxième quintile de revenu, moins de 35 ans",,162.2
+2023 Q4,,,,,"Deuxième quintile de revenu, 35 à 44 ans",,305.9
+2023 Q4,,,,,"Deuxième quintile de revenu, 45 à 54 ans",,313.6
+2023 Q4,,,,,"Deuxième quintile de revenu, 55 à 64 ans",,242.4
+2023 Q4,,,,,"Deuxième quintile de revenu, 65 ans et plus",,50.6
+2023 Q4,,,,,"Troisième quintile de revenu, moins de 35 ans",,196.0
+2023 Q4,,,,,"Troisième quintile de revenu, 35 à 44 ans",,293.5
+2023 Q4,,,,,"Troisième quintile de revenu, 45 à 54 ans",,242.5
+2023 Q4,,,,,"Troisième quintile de revenu, 55 à 64 ans",,182.6
+2023 Q4,,,,,"Troisième quintile de revenu, 65 ans et plus",,93.1
+2023 Q4,,,,,"Quatrième quintile de revenu, moins de 35 ans",,182.8
+2023 Q4,,,,,"Quatrième quintile de revenu, 35 à 44 ans",,204.3
+2023 Q4,,,,,"Quatrième quintile de revenu, 45 à 54 ans",,211.0
+2023 Q4,,,,,"Quatrième quintile de revenu, 55 à 64 ans",,175.4
+2023 Q4,,,,,"Quatrième quintile de revenu, 65 ans et plus",,81.6
+2023 Q4,,,,,"Quintile de revenu supérieur, moins de 35 ans",,117.6
+2023 Q4,,,,,"Quintile de revenu supérieur, 35 à 44 ans",,196.7
+2023 Q4,,,,,"Quintile de revenu supérieur, 45 à 54 ans",,178.3
+2023 Q4,,,,,"Quintile de revenu supérieur, 55 à 64 ans",,121.7
+2023 Q4,,,,,"Quintile de revenu supérieur, 65 ans et plus",,60.8
+2015 Q4,,,,,,Salaires et traitements,202.7
 2015 Q4,,,,,,Revenu de travail autonome,296.0
 2015 Q4,,,,,,Revenu net de la propriété,100.5
 2015 Q4,,,,,,Transferts courants reçus - prestations de retraite,76.6
 2015 Q4,,,,,,Transferts courants reçus - autres,161.4
+2016 Q4,,,,,,Salaires et traitements,215.3
 2016 Q4,,,,,,Revenu de travail autonome,305.0
 2016 Q4,,,,,,Revenu net de la propriété,114.5
 2016 Q4,,,,,,Transferts courants reçus - prestations de retraite,74.3
 2016 Q4,,,,,,Transferts courants reçus - autres,171.0
+2017 Q4,,,,,,Salaires et traitements,214.4
 2017 Q4,,,,,,Revenu de travail autonome,305.6
 2017 Q4,,,,,,Revenu net de la propriété,112.0
 2017 Q4,,,,,,Transferts courants reçus - prestations de retraite,77.0
 2017 Q4,,,,,,Transferts courants reçus - autres,183.4
+2018 Q4,,,,,,Salaires et traitements,216.9
 2018 Q4,,,,,,Revenu de travail autonome,288.6
 2018 Q4,,,,,,Revenu net de la propriété,116.9
 2018 Q4,,,,,,Transferts courants reçus - prestations de retraite,77.5
 2018 Q4,,,,,,Transferts courants reçus - autres,178.2
+2019 Q4,,,,,,Salaires et traitements,217.6
 2019 Q4,,,,,,Revenu de travail autonome,266.5
 2019 Q4,,,,,,Revenu net de la propriété,108.7
 2019 Q4,,,,,,Transferts courants reçus - prestations de retraite,76.4
 2019 Q4,,,,,,Transferts courants reçus - autres,196.2
+2020 Q4,,,,,,Salaires et traitements,202.1
 2020 Q4,,,,,,Revenu de travail autonome,193.5
 2020 Q4,,,,,,Revenu net de la propriété,120.7
 2020 Q4,,,,,,Transferts courants reçus - prestations de retraite,74.9
 2020 Q4,,,,,,Transferts courants reçus - autres,177.1
+2021 Q4,,,,,,Salaires et traitements,199.6
 2021 Q4,,,,,,Revenu de travail autonome,239.9
 2021 Q4,,,,,,Revenu net de la propriété,123.9
 2021 Q4,,,,,,Transferts courants reçus - prestations de retraite,80.9
 2021 Q4,,,,,,Transferts courants reçus - autres,282.3
+2022 Q4,,,,,,Salaires et traitements,200.0
 2022 Q4,,,,,,Revenu de travail autonome,212.1
 2022 Q4,,,,,,Revenu net de la propriété,107.0
 2022 Q4,,,,,,Transferts courants reçus - prestations de retraite,79.0
 2022 Q4,,,,,,Transferts courants reçus - autres,273.0
-2023 Q4,,,,,,Revenu de travail autonome,202.8
-2023 Q4,,,,,,Revenu net de la propriété,89.8
-2023 Q4,,,,,,Transferts courants reçus - prestations de retraite,79.0
-2023 Q4,,,,,,Transferts courants reçus - autres,333.8
+2023 Q4,,,,,,Salaires et traitements,197.8
+2023 Q4,,,,,,Revenu de travail autonome,211.2
+2023 Q4,,,,,,Revenu net de la propriété,91.0
+2023 Q4,,,,,,Transferts courants reçus - prestations de retraite,78.2
+2023 Q4,,,,,,Transferts courants reçus - autres,322.8

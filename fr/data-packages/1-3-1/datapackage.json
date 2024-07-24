@@ -115,6 +115,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Salaires et traitements",
                 "Revenu de travail autonome",
                 "Revenu net de la propriété",
                 "Transferts courants reçus - prestations de retraite",
