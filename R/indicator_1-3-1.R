@@ -61,7 +61,7 @@ quintile <- c(
 )
 
 source_of_income <- c(
-  "Main source of household income: wages and salarie",
+  "Main source of household income: wages and salaries",
   "Main source of household income: self-employment income",
   "Main source of household income: net property income",
   "Main source of household income: current transfers received - pension benefits",
