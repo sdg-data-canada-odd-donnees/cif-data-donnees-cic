@@ -15,51 +15,30 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
+                "Both sexes",
+                "Males",
+                "Females",
                 ""
               ]
             }
           },
           {
-            "name": "data.Measures",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Overweight",
-                "data.Obese",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Both sexes",
-                "data.Males",
-                "data.Females",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Ages 5 to 79",
-                "data.Ages 5 to 17",
-                "data.Ages 5 to 11",
-                "data.Ages 12 to 17",
-                "data.Ages 18 to 79",
-                "data.Ages 18 to 39",
-                "data.Ages 40 to 59",
-                "data.Ages 60 to 79",
+                "Ages 5 to 17",
+                "Ages 5 to 11",
+                "Ages 12 to 17",
+                "Ages 18 to 79",
+                "Ages 18 to 39",
+                "Ages 40 to 59",
+                "Ages 60 to 79",
+                "Ages 5 to 79",
                 ""
               ]
             }

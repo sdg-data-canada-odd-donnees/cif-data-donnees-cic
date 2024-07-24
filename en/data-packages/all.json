@@ -706,30 +706,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
-            "name": "data.Measures",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Overweight",
-                "Obese",
-                ""
-              ]
-            },
-            "title": "Measures"
-          },
-          {
-            "name": "data.Sex",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -742,11 +719,10 @@
             "title": "Sex"
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ages 5 to 79",
                 "Ages 5 to 17",
                 "Ages 5 to 11",
                 "Ages 12 to 17",
@@ -754,6 +730,7 @@
                 "Ages 18 to 39",
                 "Ages 40 to 59",
                 "Ages 60 to 79",
+                "Ages 5 to 79",
                 ""
               ]
             },
