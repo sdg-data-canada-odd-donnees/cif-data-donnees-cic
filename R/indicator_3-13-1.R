@@ -14,14 +14,14 @@ opioids_filtered <-
     Substance == "Opioids",
     Time_Period == "By year",
     Unit == "Crude rate",
-    Source == "Deaths"
+    Source == "Deaths",
+    Type_Event == "Total apparent opioid toxicity deaths"
   ) %>%
   select(
     Year = Year_Quarter,
     Geography = Region,
     Specific_Measure,
     Disaggregator,
-    `Type of event` = Type_Event,
     Value
   ) %>%
   mutate(
@@ -33,45 +33,42 @@ opioids_filtered <-
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
 
-filter_for_sex <-
-  opioids_filtered %>%
-  filter(
-    Specific_Measure == "Sex"
-  ) %>%
-  select(
-    Year,
-    Geography,
-    `Type of event`,
-    Sex = Disaggregator,
-    GeoCode,
-    Value
-  )
+#filter_for_sex <-
+#  opioids_filtered %>%
+#  filter(
+#    Specific_Measure == "Sex"
+#  ) %>%
+#  select(
+#    Year,
+#    Geography,
+#    Sex = Disaggregator,
+#    GeoCode,
+#    Value
+#  )
 
 total_line <-
   opioids_filtered %>%
   filter(
     Geography == "Canada",
-    `Type of event` == "Total apparent opioid toxicity deaths"
   ) %>% 
-  mutate(Geography = "",
-         `Type of event` = "")
+  mutate(Geography = "")
 
 non_total <-
   opioids_filtered %>%
   filter(
-    !(Geography == "Canada" & `Type of event` == "Total apparent opioid toxicity deaths")
-  ) %>%
-  filter(
-    !(Specific_Measure == "Sex")
+    !(Geography == "Canada")
   )
+#  ) %>%
+#  filter(
+#    !(Specific_Measure == "Sex")
+#  )
 
 data_final <-
-  bind_rows(total_line,non_total,filter_for_sex) %>%
+  bind_rows(total_line,non_total)%>% #,filter_for_sex) %>%
   select(
     Year,
     Geography,
-    `Type of event`,
-    Sex,
+#    Sex,
     GeoCode,
     Value
   )
