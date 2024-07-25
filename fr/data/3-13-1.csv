@@ -1,400 +1,108 @@
-Year,Géographie,Type d'événement,Sexe,GeoCode,Value
-2016,,,,,7.8
-2017,,,,,10.7
-2018,,,,,11.4
-2019,,,,,9.9
-2020,,,,,16.9
-2021,,,,,20.6
-2022,,,,,19.4
-2023,,,,,20.8
-2016,Colombie-Britannique,Total apparent opioid toxicity deaths,,59,16.6
-2017,Colombie-Britannique,Total apparent opioid toxicity deaths,,59,26.3
-2018,Colombie-Britannique,Total apparent opioid toxicity deaths,,59,27.4
-2019,Colombie-Britannique,Total apparent opioid toxicity deaths,,59,20.1
-2020,Colombie-Britannique,Total apparent opioid toxicity deaths,,59,34.7
-2021,Colombie-Britannique,Total apparent opioid toxicity deaths,,59,44.7
-2022,Colombie-Britannique,Total apparent opioid toxicity deaths,,59,45.0
-2023,Colombie-Britannique,Total apparent opioid toxicity deaths,,59,46.6
-2016,Alberta,Total apparent opioid toxicity deaths,,48,14.3
-2017,Alberta,Total apparent opioid toxicity deaths,,48,17.6
-2018,Alberta,Total apparent opioid toxicity deaths,,48,18.8
-2019,Alberta,Total apparent opioid toxicity deaths,,48,14.4
-2020,Alberta,Total apparent opioid toxicity deaths,,48,27.0
-2021,Alberta,Total apparent opioid toxicity deaths,,48,37.0
-2022,Alberta,Total apparent opioid toxicity deaths,,48,33.9
-2023,Alberta,Total apparent opioid toxicity deaths,,48,39.4
-2016,Saskatchewan,Total apparent opioid toxicity deaths,,47,7.3
-2017,Saskatchewan,Total apparent opioid toxicity deaths,,47,7.4
-2018,Saskatchewan,Total apparent opioid toxicity deaths,,47,10.0
-2019,Saskatchewan,Total apparent opioid toxicity deaths,,47,9.9
-2020,Saskatchewan,Total apparent opioid toxicity deaths,,47,21.4
-2021,Saskatchewan,Total apparent opioid toxicity deaths,,47,28.0
-2022,Saskatchewan,Total apparent opioid toxicity deaths,,47,24.8
-2023,Saskatchewan,Total apparent opioid toxicity deaths,,47,24.0
-2016,Manitoba,Total apparent opioid toxicity deaths,,46,6.7
-2017,Manitoba,Total apparent opioid toxicity deaths,,46,7.9
-2018,Manitoba,Total apparent opioid toxicity deaths,,46,6.9
-2019,Manitoba,Total apparent opioid toxicity deaths,,46,4.5
-2020,Manitoba,Total apparent opioid toxicity deaths,,46,18.8
-2021,Manitoba,Total apparent opioid toxicity deaths,,46,19.4
-2022,Manitoba,Total apparent opioid toxicity deaths,,46,3.7
-2016,Ontario,Total apparent opioid toxicity deaths,,35,6.2
-2017,Ontario,Total apparent opioid toxicity deaths,,35,9.0
-2018,Ontario,Total apparent opioid toxicity deaths,,35,10.5
-2019,Ontario,Total apparent opioid toxicity deaths,,35,10.7
-2020,Ontario,Total apparent opioid toxicity deaths,,35,16.7
-2021,Ontario,Total apparent opioid toxicity deaths,,35,19.3
-2022,Ontario,Total apparent opioid toxicity deaths,,35,16.7
-2023,Ontario,Total apparent opioid toxicity deaths,,35,16.6
-2016,Québec,Total apparent opioid toxicity deaths,,24,3.2
-2017,Québec,Total apparent opioid toxicity deaths,,24,3.4
-2018,Québec,Total apparent opioid toxicity deaths,,24,2.5
-2019,Québec,Total apparent opioid toxicity deaths,,24,2.5
-2020,Québec,Total apparent opioid toxicity deaths,,24,3.7
-2021,Québec,Total apparent opioid toxicity deaths,,24,3.4
-2022,Québec,Total apparent opioid toxicity deaths,,24,6.2
-2023,Québec,Total apparent opioid toxicity deaths,,24,6.0
-2016,Nouveau-Brunswick,Total apparent opioid toxicity deaths,,13,4.5
-2017,Nouveau-Brunswick,Total apparent opioid toxicity deaths,,13,5.0
-2018,Nouveau-Brunswick,Total apparent opioid toxicity deaths,,13,3.9
-2019,Nouveau-Brunswick,Total apparent opioid toxicity deaths,,13,4.5
-2020,Nouveau-Brunswick,Total apparent opioid toxicity deaths,,13,5.7
-2021,Nouveau-Brunswick,Total apparent opioid toxicity deaths,,13,5.9
-2022,Nouveau-Brunswick,Total apparent opioid toxicity deaths,,13,9.5
-2023,Nouveau-Brunswick,Total apparent opioid toxicity deaths,,13,8.6
-2016,Nouvelle-Écosse,Total apparent opioid toxicity deaths,,12,5.6
-2017,Nouvelle-Écosse,Total apparent opioid toxicity deaths,,12,6.7
-2018,Nouvelle-Écosse,Total apparent opioid toxicity deaths,,12,5.7
-2019,Nouvelle-Écosse,Total apparent opioid toxicity deaths,,12,5.7
-2020,Nouvelle-Écosse,Total apparent opioid toxicity deaths,,12,5.0
-2021,Nouvelle-Écosse,Total apparent opioid toxicity deaths,,12,4.0
-2022,Nouvelle-Écosse,Total apparent opioid toxicity deaths,,12,6.1
-2023,Nouvelle-Écosse,Total apparent opioid toxicity deaths,,12,7.0
-2016,Île-du-Prince-Édouard,Total apparent opioid toxicity deaths,,11,3.4
-2017,Île-du-Prince-Édouard,Total apparent opioid toxicity deaths,,11,3.3
-2018,Île-du-Prince-Édouard,Total apparent opioid toxicity deaths,,11,5.3
-2019,Île-du-Prince-Édouard,Total apparent opioid toxicity deaths,,11,3.2
-2020,Île-du-Prince-Édouard,Total apparent opioid toxicity deaths,,11,5.0
-2021,Île-du-Prince-Édouard,Total apparent opioid toxicity deaths,,11,7.4
-2022,Île-du-Prince-Édouard,Total apparent opioid toxicity deaths,,11,3.6
-2023,Île-du-Prince-Édouard,Total apparent opioid toxicity deaths,,11,4.0
-2016,Terre-Neuve-et-Labrador,Total apparent opioid toxicity deaths,,10,3.4
-2017,Terre-Neuve-et-Labrador,Total apparent opioid toxicity deaths,,10,6.2
-2018,Terre-Neuve-et-Labrador,Total apparent opioid toxicity deaths,,10,2.3
-2019,Terre-Neuve-et-Labrador,Total apparent opioid toxicity deaths,,10,3.4
-2020,Terre-Neuve-et-Labrador,Total apparent opioid toxicity deaths,,10,4.6
-2021,Terre-Neuve-et-Labrador,Total apparent opioid toxicity deaths,,10,5.1
-2022,Terre-Neuve-et-Labrador,Total apparent opioid toxicity deaths,,10,5.6
-2023,Terre-Neuve-et-Labrador,Total apparent opioid toxicity deaths,,10,6.7
-2016,Yukon,Total apparent opioid toxicity deaths,,60,18.2
-2017,Yukon,Total apparent opioid toxicity deaths,,60,17.7
-2018,Yukon,Total apparent opioid toxicity deaths,,60,12.4
-2019,Yukon,Total apparent opioid toxicity deaths,,60,9.7
-2020,Yukon,Total apparent opioid toxicity deaths,,60,23.8
-2021,Yukon,Total apparent opioid toxicity deaths,,60,53.5
-2022,Yukon,Total apparent opioid toxicity deaths,,60,43.3
-2023,Yukon,Total apparent opioid toxicity deaths,,60,37.8
-2016,Territoires du Nord-Ouest,Total apparent opioid toxicity deaths,,61,11.2
-2017,Territoires du Nord-Ouest,Total apparent opioid toxicity deaths,,61,2.2
-2018,Territoires du Nord-Ouest,Total apparent opioid toxicity deaths,,61,4.5
-2019,Territoires du Nord-Ouest,Total apparent opioid toxicity deaths,,61,2.3
-2020,Territoires du Nord-Ouest,Total apparent opioid toxicity deaths,,61,6.7
-2021,Territoires du Nord-Ouest,Total apparent opioid toxicity deaths,,61,9.0
-2022,Territoires du Nord-Ouest,Total apparent opioid toxicity deaths,,61,15.7
-2023,Territoires du Nord-Ouest,Total apparent opioid toxicity deaths,,61,4.4
-2016,Nunavut,Total apparent opioid toxicity deaths,,62,0.0
-2017,Nunavut,Total apparent opioid toxicity deaths,,62,0.0
-2018,Nunavut,Total apparent opioid toxicity deaths,,62,0.0
-2023,Nunavut,Total apparent opioid toxicity deaths,,62,0.0
-2016,Canada,Accidental apparent opioid toxicity deaths,,,6.8
-2017,Canada,Accidental apparent opioid toxicity deaths,,,9.7
-2018,Canada,Accidental apparent opioid toxicity deaths,,,10.6
-2019,Canada,Accidental apparent opioid toxicity deaths,,,9.2
-2020,Canada,Accidental apparent opioid toxicity deaths,,,16.0
-2021,Canada,Accidental apparent opioid toxicity deaths,,,19.8
-2022,Canada,Accidental apparent opioid toxicity deaths,,,18.7
-2023,Canada,Accidental apparent opioid toxicity deaths,,,20.4
-2016,Colombie-Britannique,Accidental apparent opioid toxicity deaths,,59,16.3
-2017,Colombie-Britannique,Accidental apparent opioid toxicity deaths,,59,25.9
-2018,Colombie-Britannique,Accidental apparent opioid toxicity deaths,,59,27.1
-2019,Colombie-Britannique,Accidental apparent opioid toxicity deaths,,59,19.2
-2020,Colombie-Britannique,Accidental apparent opioid toxicity deaths,,59,34.1
-2021,Colombie-Britannique,Accidental apparent opioid toxicity deaths,,59,43.9
-2022,Colombie-Britannique,Accidental apparent opioid toxicity deaths,,59,44.1
-2023,Colombie-Britannique,Accidental apparent opioid toxicity deaths,,59,46.0
-2016,Alberta,Accidental apparent opioid toxicity deaths,,48,13.0
-2017,Alberta,Accidental apparent opioid toxicity deaths,,48,16.1
-2018,Alberta,Accidental apparent opioid toxicity deaths,,48,18.6
-2019,Alberta,Accidental apparent opioid toxicity deaths,,48,14.2
-2020,Alberta,Accidental apparent opioid toxicity deaths,,48,26.6
-2021,Alberta,Accidental apparent opioid toxicity deaths,,48,36.8
-2022,Alberta,Accidental apparent opioid toxicity deaths,,48,33.6
-2023,Alberta,Accidental apparent opioid toxicity deaths,,48,39.2
-2016,Saskatchewan,Accidental apparent opioid toxicity deaths,,47,6.7
-2017,Saskatchewan,Accidental apparent opioid toxicity deaths,,47,6.4
-2018,Saskatchewan,Accidental apparent opioid toxicity deaths,,47,9.1
-2019,Saskatchewan,Accidental apparent opioid toxicity deaths,,47,9.2
-2020,Saskatchewan,Accidental apparent opioid toxicity deaths,,47,20.3
-2021,Saskatchewan,Accidental apparent opioid toxicity deaths,,47,27.1
-2022,Saskatchewan,Accidental apparent opioid toxicity deaths,,47,23.8
-2023,Saskatchewan,Accidental apparent opioid toxicity deaths,,47,23.6
-2016,Manitoba,Accidental apparent opioid toxicity deaths,,46,4.6
-2017,Manitoba,Accidental apparent opioid toxicity deaths,,46,6.5
-2018,Manitoba,Accidental apparent opioid toxicity deaths,,46,5.8
-2019,Manitoba,Accidental apparent opioid toxicity deaths,,46,3.9
-2020,Manitoba,Accidental apparent opioid toxicity deaths,,46,18.0
-2021,Manitoba,Accidental apparent opioid toxicity deaths,,46,19.0
-2022,Manitoba,Accidental apparent opioid toxicity deaths,,46,3.6
-2016,Ontario,Accidental apparent opioid toxicity deaths,,35,5.2
-2017,Ontario,Accidental apparent opioid toxicity deaths,,35,8.0
-2018,Ontario,Accidental apparent opioid toxicity deaths,,35,9.3
-2019,Ontario,Accidental apparent opioid toxicity deaths,,35,9.8
-2020,Ontario,Accidental apparent opioid toxicity deaths,,35,15.8
-2021,Ontario,Accidental apparent opioid toxicity deaths,,35,18.3
-2022,Ontario,Accidental apparent opioid toxicity deaths,,35,15.7
-2023,Ontario,Accidental apparent opioid toxicity deaths,,35,16.0
-2016,Québec,Accidental apparent opioid toxicity deaths,,24,2.1
-2017,Québec,Accidental apparent opioid toxicity deaths,,24,2.2
-2018,Québec,Accidental apparent opioid toxicity deaths,,24,1.8
-2019,Québec,Accidental apparent opioid toxicity deaths,,24,1.9
-2020,Québec,Accidental apparent opioid toxicity deaths,,24,2.7
-2021,Québec,Accidental apparent opioid toxicity deaths,,24,2.5
-2022,Québec,Accidental apparent opioid toxicity deaths,,24,6.2
-2023,Québec,Accidental apparent opioid toxicity deaths,,24,6.0
-2016,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,,13,3.5
-2017,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,,13,4.2
-2018,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,,13,3.0
-2019,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,,13,3.5
-2020,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,,13,4.9
-2021,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,,13,5.3
-2022,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,,13,8.4
-2023,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,,13,8.5
-2016,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,,12,4.2
-2017,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,,12,6.1
-2018,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,,12,5.2
-2019,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,,12,4.5
-2020,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,,12,4.1
-2021,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,,12,3.4
-2022,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,,12,4.7
-2023,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,,12,6.2
-2016,Île-du-Prince-Édouard,Accidental apparent opioid toxicity deaths,,11,3.4
-2017,Île-du-Prince-Édouard,Accidental apparent opioid toxicity deaths,,11,3.3
-2018,Île-du-Prince-Édouard,Accidental apparent opioid toxicity deaths,,11,5.3
-2019,Île-du-Prince-Édouard,Accidental apparent opioid toxicity deaths,,11,3.2
-2020,Île-du-Prince-Édouard,Accidental apparent opioid toxicity deaths,,11,5.0
-2021,Île-du-Prince-Édouard,Accidental apparent opioid toxicity deaths,,11,7.4
-2022,Île-du-Prince-Édouard,Accidental apparent opioid toxicity deaths,,11,3.6
-2023,Île-du-Prince-Édouard,Accidental apparent opioid toxicity deaths,,11,4.0
-2016,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,,10,2.5
-2017,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,,10,4.3
-2018,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,,10,1.9
-2019,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,,10,2.5
-2020,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,,10,3.6
-2021,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,,10,4.6
-2022,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,,10,4.3
-2023,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,,10,6.3
-2016,Yukon,Accidental apparent opioid toxicity deaths,,60,13.0
-2017,Yukon,Accidental apparent opioid toxicity deaths,,60,15.2
-2018,Yukon,Accidental apparent opioid toxicity deaths,,60,9.9
-2019,Yukon,Accidental apparent opioid toxicity deaths,,60,9.7
-2020,Yukon,Accidental apparent opioid toxicity deaths,,60,23.8
-2021,Yukon,Accidental apparent opioid toxicity deaths,,60,53.5
-2022,Yukon,Accidental apparent opioid toxicity deaths,,60,43.3
-2023,Yukon,Accidental apparent opioid toxicity deaths,,60,37.8
-2016,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,,61,9.0
-2017,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,,61,2.2
-2018,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,,61,4.5
-2019,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,,61,0.0
-2020,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,,61,6.7
-2021,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,,61,9.0
-2022,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,,61,15.7
-2023,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,,61,2.2
-2016,Nunavut,Accidental apparent opioid toxicity deaths,,62,0.0
-2017,Nunavut,Accidental apparent opioid toxicity deaths,,62,0.0
-2018,Nunavut,Accidental apparent opioid toxicity deaths,,62,0.0
-2019,Nunavut,Accidental apparent opioid toxicity deaths,,62,0.0
-2020,Nunavut,Accidental apparent opioid toxicity deaths,,62,0.0
-2021,Nunavut,Accidental apparent opioid toxicity deaths,,62,0.0
-2023,Nunavut,Accidental apparent opioid toxicity deaths,,62,0.0
-2016,Canada,Accidental apparent opioid toxicity deaths,Femme,,3.6
-2016,Canada,Accidental apparent opioid toxicity deaths,Homme,,10.1
-2017,Canada,Accidental apparent opioid toxicity deaths,Femme,,4.5
-2017,Canada,Accidental apparent opioid toxicity deaths,Homme,,15.0
-2018,Canada,Accidental apparent opioid toxicity deaths,Femme,,5.4
-2018,Canada,Accidental apparent opioid toxicity deaths,Homme,,15.8
-2019,Canada,Accidental apparent opioid toxicity deaths,Femme,,4.5
-2019,Canada,Accidental apparent opioid toxicity deaths,Homme,,12.0
-2020,Canada,Accidental apparent opioid toxicity deaths,Femme,,7.0
-2020,Canada,Accidental apparent opioid toxicity deaths,Homme,,22.7
-2021,Canada,Accidental apparent opioid toxicity deaths,Femme,,9.2
-2021,Canada,Accidental apparent opioid toxicity deaths,Homme,,26.1
-2022,Canada,Accidental apparent opioid toxicity deaths,Femme,,8.1
-2022,Canada,Accidental apparent opioid toxicity deaths,Homme,,24.7
-2023,Canada,Accidental apparent opioid toxicity deaths,Femme,,9.4
-2023,Canada,Accidental apparent opioid toxicity deaths,Homme,,24.5
-2016,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Femme,59,6.3
-2016,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Homme,59,26.4
-2017,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Femme,59,9.1
-2017,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Homme,59,43.0
-2018,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Femme,59,10.6
-2018,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Homme,59,44.0
-2019,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Femme,59,6.0
-2019,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Homme,59,19.6
-2020,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Femme,59,9.2
-2020,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Homme,59,42.1
-2021,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Femme,59,12.2
-2021,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Homme,59,44.4
-2022,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Femme,59,11.4
-2022,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Homme,59,43.4
-2023,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Femme,59,10.2
-2023,Colombie-Britannique,Accidental apparent opioid toxicity deaths,Homme,59,33.7
-2016,Alberta,Accidental apparent opioid toxicity deaths,Femme,48,7.1
-2016,Alberta,Accidental apparent opioid toxicity deaths,Homme,48,18.9
-2017,Alberta,Accidental apparent opioid toxicity deaths,Femme,48,7.8
-2017,Alberta,Accidental apparent opioid toxicity deaths,Homme,48,24.3
-2018,Alberta,Accidental apparent opioid toxicity deaths,Femme,48,9.8
-2018,Alberta,Accidental apparent opioid toxicity deaths,Homme,48,27.3
-2019,Alberta,Accidental apparent opioid toxicity deaths,Femme,48,7.5
-2019,Alberta,Accidental apparent opioid toxicity deaths,Homme,48,20.8
-2020,Alberta,Accidental apparent opioid toxicity deaths,Femme,48,12.5
-2020,Alberta,Accidental apparent opioid toxicity deaths,Homme,48,40.4
-2021,Alberta,Accidental apparent opioid toxicity deaths,Femme,48,19.9
-2021,Alberta,Accidental apparent opioid toxicity deaths,Homme,48,53.4
-2022,Alberta,Accidental apparent opioid toxicity deaths,Femme,48,18.5
-2022,Alberta,Accidental apparent opioid toxicity deaths,Homme,48,48.4
-2023,Alberta,Accidental apparent opioid toxicity deaths,Femme,48,24.9
-2023,Alberta,Accidental apparent opioid toxicity deaths,Homme,48,53.2
-2016,Saskatchewan,Accidental apparent opioid toxicity deaths,Femme,47,5.5
-2016,Saskatchewan,Accidental apparent opioid toxicity deaths,Homme,47,7.9
-2017,Saskatchewan,Accidental apparent opioid toxicity deaths,Femme,47,5.6
-2017,Saskatchewan,Accidental apparent opioid toxicity deaths,Homme,47,7.3
-2018,Saskatchewan,Accidental apparent opioid toxicity deaths,Femme,47,7.5
-2018,Saskatchewan,Accidental apparent opioid toxicity deaths,Homme,47,10.6
-2019,Saskatchewan,Accidental apparent opioid toxicity deaths,Femme,47,6.4
-2019,Saskatchewan,Accidental apparent opioid toxicity deaths,Homme,47,11.9
-2020,Saskatchewan,Accidental apparent opioid toxicity deaths,Femme,47,14.0
-2020,Saskatchewan,Accidental apparent opioid toxicity deaths,Homme,47,26.5
-2021,Saskatchewan,Accidental apparent opioid toxicity deaths,Femme,47,18.8
-2021,Saskatchewan,Accidental apparent opioid toxicity deaths,Homme,47,35.2
-2022,Saskatchewan,Accidental apparent opioid toxicity deaths,Femme,47,17.1
-2022,Saskatchewan,Accidental apparent opioid toxicity deaths,Homme,47,30.3
-2023,Saskatchewan,Accidental apparent opioid toxicity deaths,Femme,47,16.7
-2023,Saskatchewan,Accidental apparent opioid toxicity deaths,Homme,47,30.4
-2016,Manitoba,Accidental apparent opioid toxicity deaths,Femme,46,3.6
-2016,Manitoba,Accidental apparent opioid toxicity deaths,Homme,46,5.6
-2017,Manitoba,Accidental apparent opioid toxicity deaths,Femme,46,4.3
-2017,Manitoba,Accidental apparent opioid toxicity deaths,Homme,46,8.7
-2018,Manitoba,Accidental apparent opioid toxicity deaths,Femme,46,5.2
-2018,Manitoba,Accidental apparent opioid toxicity deaths,Homme,46,6.3
-2019,Manitoba,Accidental apparent opioid toxicity deaths,Femme,46,2.5
-2019,Manitoba,Accidental apparent opioid toxicity deaths,Homme,46,5.4
-2020,Manitoba,Accidental apparent opioid toxicity deaths,Femme,46,13.4
-2020,Manitoba,Accidental apparent opioid toxicity deaths,Homme,46,22.6
-2021,Manitoba,Accidental apparent opioid toxicity deaths,Femme,46,13.9
-2021,Manitoba,Accidental apparent opioid toxicity deaths,Homme,46,23.9
-2022,Manitoba,Accidental apparent opioid toxicity deaths,Femme,46,2.4
-2022,Manitoba,Accidental apparent opioid toxicity deaths,Homme,46,4.8
-2016,Ontario,Accidental apparent opioid toxicity deaths,Femme,35,3.0
-2016,Ontario,Accidental apparent opioid toxicity deaths,Homme,35,7.5
-2017,Ontario,Accidental apparent opioid toxicity deaths,Femme,35,4.0
-2017,Ontario,Accidental apparent opioid toxicity deaths,Homme,35,12.1
-2018,Ontario,Accidental apparent opioid toxicity deaths,Femme,35,5.1
-2018,Ontario,Accidental apparent opioid toxicity deaths,Homme,35,13.7
-2019,Ontario,Accidental apparent opioid toxicity deaths,Femme,35,5.4
-2019,Ontario,Accidental apparent opioid toxicity deaths,Homme,35,14.3
-2020,Ontario,Accidental apparent opioid toxicity deaths,Femme,35,7.3
-2020,Ontario,Accidental apparent opioid toxicity deaths,Homme,35,24.4
-2021,Ontario,Accidental apparent opioid toxicity deaths,Femme,35,9.2
-2021,Ontario,Accidental apparent opioid toxicity deaths,Homme,35,27.5
-2022,Ontario,Accidental apparent opioid toxicity deaths,Femme,35,7.4
-2022,Ontario,Accidental apparent opioid toxicity deaths,Homme,35,24.0
-2023,Ontario,Accidental apparent opioid toxicity deaths,Femme,35,8.4
-2023,Ontario,Accidental apparent opioid toxicity deaths,Homme,35,23.6
-2016,Québec,Accidental apparent opioid toxicity deaths,Femme,24,1.4
-2016,Québec,Accidental apparent opioid toxicity deaths,Homme,24,2.9
-2017,Québec,Accidental apparent opioid toxicity deaths,Femme,24,1.4
-2017,Québec,Accidental apparent opioid toxicity deaths,Homme,24,3.1
-2018,Québec,Accidental apparent opioid toxicity deaths,Femme,24,1.3
-2018,Québec,Accidental apparent opioid toxicity deaths,Homme,24,2.2
-2019,Québec,Accidental apparent opioid toxicity deaths,Femme,24,1.2
-2019,Québec,Accidental apparent opioid toxicity deaths,Homme,24,2.6
-2020,Québec,Accidental apparent opioid toxicity deaths,Femme,24,1.6
-2020,Québec,Accidental apparent opioid toxicity deaths,Homme,24,3.7
-2021,Québec,Accidental apparent opioid toxicity deaths,Femme,24,1.4
-2021,Québec,Accidental apparent opioid toxicity deaths,Homme,24,3.6
-2022,Québec,Accidental apparent opioid toxicity deaths,Femme,24,2.6
-2022,Québec,Accidental apparent opioid toxicity deaths,Homme,24,9.8
-2023,Québec,Accidental apparent opioid toxicity deaths,Femme,24,3.1
-2023,Québec,Accidental apparent opioid toxicity deaths,Homme,24,9.0
-2016,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Femme,13,2.6
-2016,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Homme,13,4.5
-2017,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Femme,13,3.4
-2017,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Homme,13,5.0
-2018,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Femme,13,3.3
-2018,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Homme,13,2.6
-2019,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Femme,13,3.6
-2019,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Homme,13,3.4
-2020,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Femme,13,4.3
-2020,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Homme,13,5.4
-2021,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Femme,13,4.2
-2021,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Homme,13,6.4
-2022,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Femme,13,6.1
-2022,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Homme,13,10.7
-2023,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Femme,13,6.2
-2023,Nouveau-Brunswick,Accidental apparent opioid toxicity deaths,Homme,13,10.9
-2016,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Femme,12,1.9
-2016,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Homme,12,6.7
-2017,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Femme,12,3.5
-2017,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Homme,12,8.8
-2018,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Femme,12,3.5
-2018,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Homme,12,7.0
-2019,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Femme,12,2.4
-2019,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Homme,12,6.7
-2020,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Femme,12,2.6
-2020,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Homme,12,5.7
-2021,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Femme,12,1.8
-2021,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Homme,12,5.1
-2022,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Femme,12,2.7
-2022,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Homme,12,6.7
-2023,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Femme,12,2.6
-2023,Nouvelle-Écosse,Accidental apparent opioid toxicity deaths,Homme,12,9.9
-2016,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Femme,10,1.9
-2016,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Homme,10,3.0
-2017,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Femme,10,2.6
-2017,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Homme,10,6.1
-2018,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Femme,10,1.9
-2018,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Homme,10,1.9
-2020,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Femme,10,2.3
-2020,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Homme,10,5.0
-2021,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Femme,10,3.0
-2021,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Homme,10,6.1
-2022,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Femme,10,3.7
-2022,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Homme,10,4.9
-2023,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Femme,10,5.1
-2023,Terre-Neuve-et-Labrador,Accidental apparent opioid toxicity deaths,Homme,10,7.5
-2021,Yukon,Accidental apparent opioid toxicity deaths,Femme,60,42.1
-2021,Yukon,Accidental apparent opioid toxicity deaths,Homme,60,64.9
-2022,Yukon,Accidental apparent opioid toxicity deaths,Femme,60,45.7
-2022,Yukon,Accidental apparent opioid toxicity deaths,Homme,60,40.8
-2023,Yukon,Accidental apparent opioid toxicity deaths,Femme,60,22.4
-2023,Yukon,Accidental apparent opioid toxicity deaths,Homme,60,53.1
-2019,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,Femme,61,0.0
-2019,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,Homme,61,0.0
-2021,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,Femme,61,4.6
-2021,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,Homme,61,13.1
-2022,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,Femme,61,13.8
-2022,Territoires du Nord-Ouest,Accidental apparent opioid toxicity deaths,Homme,61,17.5
-2016,Nunavut,Accidental apparent opioid toxicity deaths,Femme,62,0.0
-2016,Nunavut,Accidental apparent opioid toxicity deaths,Homme,62,0.0
-2017,Nunavut,Accidental apparent opioid toxicity deaths,Femme,62,0.0
-2017,Nunavut,Accidental apparent opioid toxicity deaths,Homme,62,0.0
-2018,Nunavut,Accidental apparent opioid toxicity deaths,Femme,62,0.0
-2018,Nunavut,Accidental apparent opioid toxicity deaths,Homme,62,0.0
-2019,Nunavut,Accidental apparent opioid toxicity deaths,Femme,62,0.0
-2019,Nunavut,Accidental apparent opioid toxicity deaths,Homme,62,0.0
-2020,Nunavut,Accidental apparent opioid toxicity deaths,Femme,62,0.0
-2020,Nunavut,Accidental apparent opioid toxicity deaths,Homme,62,0.0
-2021,Nunavut,Accidental apparent opioid toxicity deaths,Femme,62,0.0
-2021,Nunavut,Accidental apparent opioid toxicity deaths,Homme,62,0.0
-2023,Nunavut,Accidental apparent opioid toxicity deaths,Femme,62,0.0
-2023,Nunavut,Accidental apparent opioid toxicity deaths,Homme,62,0.0
+Year,Géographie,GeoCode,Value
+2016,,,7.8
+2017,,,10.7
+2018,,,11.4
+2019,,,9.9
+2020,,,16.9
+2021,,,20.6
+2022,,,19.4
+2023,,,20.8
+2016,Colombie-Britannique,59,16.6
+2017,Colombie-Britannique,59,26.3
+2018,Colombie-Britannique,59,27.4
+2019,Colombie-Britannique,59,20.1
+2020,Colombie-Britannique,59,34.7
+2021,Colombie-Britannique,59,44.7
+2022,Colombie-Britannique,59,45.0
+2023,Colombie-Britannique,59,46.6
+2016,Alberta,48,14.3
+2017,Alberta,48,17.6
+2018,Alberta,48,18.8
+2019,Alberta,48,14.4
+2020,Alberta,48,27.0
+2021,Alberta,48,37.0
+2022,Alberta,48,33.9
+2023,Alberta,48,39.4
+2016,Saskatchewan,47,7.3
+2017,Saskatchewan,47,7.4
+2018,Saskatchewan,47,10.0
+2019,Saskatchewan,47,9.9
+2020,Saskatchewan,47,21.4
+2021,Saskatchewan,47,28.0
+2022,Saskatchewan,47,24.8
+2023,Saskatchewan,47,24.0
+2016,Manitoba,46,6.7
+2017,Manitoba,46,7.9
+2018,Manitoba,46,6.9
+2019,Manitoba,46,4.5
+2020,Manitoba,46,18.8
+2021,Manitoba,46,19.4
+2022,Manitoba,46,3.7
+2016,Ontario,35,6.2
+2017,Ontario,35,9.0
+2018,Ontario,35,10.5
+2019,Ontario,35,10.7
+2020,Ontario,35,16.7
+2021,Ontario,35,19.3
+2022,Ontario,35,16.7
+2023,Ontario,35,16.6
+2016,Québec,24,3.2
+2017,Québec,24,3.4
+2018,Québec,24,2.5
+2019,Québec,24,2.5
+2020,Québec,24,3.7
+2021,Québec,24,3.4
+2022,Québec,24,6.2
+2023,Québec,24,6.0
+2016,Nouveau-Brunswick,13,4.5
+2017,Nouveau-Brunswick,13,5.0
+2018,Nouveau-Brunswick,13,3.9
+2019,Nouveau-Brunswick,13,4.5
+2020,Nouveau-Brunswick,13,5.7
+2021,Nouveau-Brunswick,13,5.9
+2022,Nouveau-Brunswick,13,9.5
+2023,Nouveau-Brunswick,13,8.6
+2016,Nouvelle-Écosse,12,5.6
+2017,Nouvelle-Écosse,12,6.7
+2018,Nouvelle-Écosse,12,5.7
+2019,Nouvelle-Écosse,12,5.7
+2020,Nouvelle-Écosse,12,5.0
+2021,Nouvelle-Écosse,12,4.0
+2022,Nouvelle-Écosse,12,6.1
+2023,Nouvelle-Écosse,12,7.0
+2016,Île-du-Prince-Édouard,11,3.4
+2017,Île-du-Prince-Édouard,11,3.3
+2018,Île-du-Prince-Édouard,11,5.3
+2019,Île-du-Prince-Édouard,11,3.2
+2020,Île-du-Prince-Édouard,11,5.0
+2021,Île-du-Prince-Édouard,11,7.4
+2022,Île-du-Prince-Édouard,11,3.6
+2023,Île-du-Prince-Édouard,11,4.0
+2016,Terre-Neuve-et-Labrador,10,3.4
+2017,Terre-Neuve-et-Labrador,10,6.2
+2018,Terre-Neuve-et-Labrador,10,2.3
+2019,Terre-Neuve-et-Labrador,10,3.4
+2020,Terre-Neuve-et-Labrador,10,4.6
+2021,Terre-Neuve-et-Labrador,10,5.1
+2022,Terre-Neuve-et-Labrador,10,5.6
+2023,Terre-Neuve-et-Labrador,10,6.7
+2016,Yukon,60,18.2
+2017,Yukon,60,17.7
+2018,Yukon,60,12.4
+2019,Yukon,60,9.7
+2020,Yukon,60,23.8
+2021,Yukon,60,53.5
+2022,Yukon,60,43.3
+2023,Yukon,60,37.8
+2016,Territoires du Nord-Ouest,61,11.2
+2017,Territoires du Nord-Ouest,61,2.2
+2018,Territoires du Nord-Ouest,61,4.5
+2019,Territoires du Nord-Ouest,61,2.3
+2020,Territoires du Nord-Ouest,61,6.7
+2021,Territoires du Nord-Ouest,61,9.0
+2022,Territoires du Nord-Ouest,61,15.7
+2023,Territoires du Nord-Ouest,61,4.4
+2016,Nunavut,62,0.0
+2017,Nunavut,62,0.0
+2018,Nunavut,62,0.0
+2023,Nunavut,62,0.0

@@ -1913,35 +1913,10 @@
                 "Yukon",
                 "Northwest Territories",
                 "Nunavut",
-                "Canada",
                 ""
               ]
             },
             "title": "Geography"
-          },
-          {
-            "name": "Type of event",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total apparent opioid toxicity deaths",
-                "Accidental apparent opioid toxicity deaths",
-                ""
-              ]
-            },
-            "title": "Type of event"
-          },
-          {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Female",
-                "Male",
-                ""
-              ]
-            },
-            "title": "Sex"
           },
           {
             "name": "GeoCode",
@@ -1955,7 +1930,7 @@
           }
         ]
       },
-      "title": "Incidence of opioid and stimulant overdose related harms"
+      "title": "Rate of apparent opioid toxicity deaths per 100,000 population"
     },
     {
       "path": "4-2-1/data.csv",
