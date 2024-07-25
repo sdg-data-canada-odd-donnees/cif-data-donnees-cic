@@ -40,13 +40,11 @@ non_total <-
     Geography == "Canada" &
       `Age group` == "Total, 12 years and over" &
       Sex == "Both sexes"
-  )) %>%
-  mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+  ))
 
 
 final_data <-
-  bind_rows(total, non_total) %>%
-  rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+  bind_rows(total, non_total)
 
 
 write.csv(final_data,
