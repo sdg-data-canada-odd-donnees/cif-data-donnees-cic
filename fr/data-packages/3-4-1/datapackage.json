@@ -44,11 +44,11 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total des boissons alcoolisées",
                 "Spiritueux",
                 "Vins",
                 "Bière",
                 "Cidre, coolers et autres boissons rafraîchissantes",
-                "Total des boissons alcoolisées",
                 ""
               ]
             },
