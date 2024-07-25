@@ -42,15 +42,15 @@ total <-
 
 
 #create the non-aggregate line
-non_total_line <-
-  alcohol %>%
-  filter(!(
-    Geography == "Canada" & `Type of beverage` == "Total alcoholic beverages"
-  ))
+#non_total_line <-
+#  alcohol %>%
+#  filter(!(
+#    Geography == "Canada" & `Type of beverage` == "Total alcoholic beverages"
+#  ))
 
 
 final_data <-
-  bind_rows(total, non_total_line)
+  bind_rows(total, alcohol)
 
 
 write.csv(final_data,
