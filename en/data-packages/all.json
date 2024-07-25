@@ -2082,7 +2082,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2103,7 +2103,7 @@
             "title": "Geography"
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2113,14 +2113,14 @@
                 "35 to 49 years",
                 "50 to 64 years",
                 "65 years and over",
-                "data.Total, 18 years and over",
+                "Total, 18 years and over",
                 ""
               ]
             },
             "title": "Age group"
           },
           {
-            "name": "data.Sex",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2784,7 +2784,7 @@
                 "35 to 49 years",
                 "50 to 64 years",
                 "65 years and over",
-                "data.Total, 18 years and over",
+                "Total, 18 years and over",
                 ""
               ]
             },
@@ -3106,7 +3106,7 @@
                 "35 to 49 years",
                 "50 to 64 years",
                 "65 years and over",
-                "data.Total, 18 years and over",
+                "Total, 18 years and over",
                 ""
               ]
             },
@@ -3342,7 +3342,7 @@
                 "35 to 49 years",
                 "50 to 64 years",
                 "65 years and over",
-                "data.Total, 18 years and over",
+                "Total, 18 years and over",
                 ""
               ]
             },
@@ -4782,7 +4782,7 @@
                 "35 to 49 years",
                 "50 to 64 years",
                 "65 years and over",
-                "data.Total, 18 years and over",
+                "Total, 18 years and over",
                 ""
               ]
             },
