@@ -42,11 +42,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total alcoholic beverages",
                 "Spirits",
                 "Wines",
                 "Beer",
                 "Ciders, Coolers, and Other Refreshment Beverages",
+                "Total alcoholic beverages",
                 ""
               ]
             }
