@@ -22,6 +22,9 @@ Year,Géographie,Groupe d'âge,Sexe,GeoCode,Value
 2018,Canada,55 à 64 ans,Les deux sexes,,5.7
 2018,Canada,55 à 64 ans,Hommes,,6.1
 2018,Canada,55 à 64 ans,Femmes,,5.3
+2018,Canada,65 ans et plus,Les deux sexes,,3.9
+2018,Canada,65 ans et plus,Hommes,,3.2
+2018,Canada,65 ans et plus,Femmes,,4.5
 2019,Canada,15 à 24 ans,Les deux sexes,,3.8
 2019,Canada,15 à 24 ans,Hommes,,1.8
 2019,Canada,15 à 24 ans,Femmes,,5.8
@@ -40,6 +43,9 @@ Year,Géographie,Groupe d'âge,Sexe,GeoCode,Value
 2019,Canada,55 à 64 ans,Les deux sexes,,6.1
 2019,Canada,55 à 64 ans,Hommes,,5.1
 2019,Canada,55 à 64 ans,Femmes,,7.1
+2019,Canada,65 ans et plus,Les deux sexes,,5.5
+2019,Canada,65 ans et plus,Hommes,,5.1
+2019,Canada,65 ans et plus,Femmes,,5.9
 2020,Canada,15 à 24 ans,Les deux sexes,,5.3
 2020,Canada,15 à 24 ans,Hommes,,4.7
 2020,Canada,15 à 24 ans,Femmes,,5.9
@@ -58,6 +64,9 @@ Year,Géographie,Groupe d'âge,Sexe,GeoCode,Value
 2020,Canada,55 à 64 ans,Les deux sexes,,7.5
 2020,Canada,55 à 64 ans,Hommes,,6.9
 2020,Canada,55 à 64 ans,Femmes,,8.1
+2020,Canada,65 ans et plus,Les deux sexes,,5.5
+2020,Canada,65 ans et plus,Hommes,,5.1
+2020,Canada,65 ans et plus,Femmes,,5.8
 2021,Canada,15 à 24 ans,Les deux sexes,,6.1
 2021,Canada,15 à 24 ans,Hommes,,4.0
 2021,Canada,15 à 24 ans,Femmes,,8.2
@@ -76,6 +85,9 @@ Year,Géographie,Groupe d'âge,Sexe,GeoCode,Value
 2021,Canada,55 à 64 ans,Les deux sexes,,7.3
 2021,Canada,55 à 64 ans,Hommes,,6.8
 2021,Canada,55 à 64 ans,Femmes,,7.8
+2021,Canada,65 ans et plus,Les deux sexes,,6.4
+2021,Canada,65 ans et plus,Hommes,,5.9
+2021,Canada,65 ans et plus,Femmes,,6.9
 2022,Canada,15 à 24 ans,Les deux sexes,,7.4
 2022,Canada,15 à 24 ans,Hommes,,5.1
 2022,Canada,15 à 24 ans,Femmes,,10.0
@@ -94,6 +106,9 @@ Year,Géographie,Groupe d'âge,Sexe,GeoCode,Value
 2022,Canada,55 à 64 ans,Les deux sexes,,9.3
 2022,Canada,55 à 64 ans,Hommes,,8.8
 2022,Canada,55 à 64 ans,Femmes,,9.8
+2022,Canada,65 ans et plus,Les deux sexes,,6.5
+2022,Canada,65 ans et plus,Hommes,,5.9
+2022,Canada,65 ans et plus,Femmes,,7.1
 2018,Canada,,Hommes,,4.6
 2018,Canada,,Femmes,,5.6
 2018,Provinces de l'Atlantique,,Les deux sexes,,6.7
@@ -132,9 +147,6 @@ Year,Géographie,Groupe d'âge,Sexe,GeoCode,Value
 2018,Colombie-Britannique,,Les deux sexes,59,5.8
 2018,Colombie-Britannique,,Hommes,59,4.7
 2018,Colombie-Britannique,,Femmes,59,6.7
-2018,"Canada,  65 years and over",,Les deux sexes,,3.9
-2018,"Canada,  65 years and over",,Hommes,,3.2
-2018,"Canada,  65 years and over",,Femmes,,4.5
 2019,Canada,,Hommes,,5.3
 2019,Canada,,Femmes,,6.8
 2019,Provinces de l'Atlantique,,Les deux sexes,,6.8
@@ -173,9 +185,6 @@ Year,Géographie,Groupe d'âge,Sexe,GeoCode,Value
 2019,Colombie-Britannique,,Les deux sexes,59,6.7
 2019,Colombie-Britannique,,Hommes,59,6.0
 2019,Colombie-Britannique,,Femmes,59,7.4
-2019,"Canada,  65 years and over",,Les deux sexes,,5.5
-2019,"Canada,  65 years and over",,Hommes,,5.1
-2019,"Canada,  65 years and over",,Femmes,,5.9
 2020,Canada,,Hommes,,6.3
 2020,Canada,,Femmes,,8.1
 2020,Provinces de l'Atlantique,,Les deux sexes,,8.5
@@ -214,9 +223,6 @@ Year,Géographie,Groupe d'âge,Sexe,GeoCode,Value
 2020,Colombie-Britannique,,Les deux sexes,59,7.7
 2020,Colombie-Britannique,,Hommes,59,7.4
 2020,Colombie-Britannique,,Femmes,59,7.9
-2020,"Canada,  65 years and over",,Les deux sexes,,5.5
-2020,"Canada,  65 years and over",,Hommes,,5.1
-2020,"Canada,  65 years and over",,Femmes,,5.8
 2021,Canada,,Hommes,,6.9
 2021,Canada,,Femmes,,8.9
 2021,Provinces de l'Atlantique,,Les deux sexes,,10.7
@@ -255,9 +261,6 @@ Year,Géographie,Groupe d'âge,Sexe,GeoCode,Value
 2021,Colombie-Britannique,,Les deux sexes,59,8.7
 2021,Colombie-Britannique,,Hommes,59,7.2
 2021,Colombie-Britannique,,Femmes,59,10.1
-2021,"Canada,  65 years and over",,Les deux sexes,,6.4
-2021,"Canada,  65 years and over",,Hommes,,5.9
-2021,"Canada,  65 years and over",,Femmes,,6.9
 2022,Canada,,Hommes,,8.0
 2022,Canada,,Femmes,,10.4
 2022,Provinces de l'Atlantique,,Les deux sexes,,12.6
@@ -296,6 +299,3 @@ Year,Géographie,Groupe d'âge,Sexe,GeoCode,Value
 2022,Colombie-Britannique,,Les deux sexes,59,10.9
 2022,Colombie-Britannique,,Hommes,59,9.6
 2022,Colombie-Britannique,,Femmes,59,12.1
-2022,"Canada,  65 years and over",,Les deux sexes,,6.5
-2022,"Canada,  65 years and over",,Hommes,,5.9
-2022,"Canada,  65 years and over",,Femmes,,7.1
