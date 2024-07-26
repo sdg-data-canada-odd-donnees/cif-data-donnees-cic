@@ -16,7 +16,7 @@ age_group <- c(
   "Canada, 35 to 44 years",
   "Canada, 45 to 54 years",
   "Canada, 55 to 64 years",
-  "Canada, 65 years and over"
+  "Canada,  65 years and over"
 )
 
 health_filtered <-
@@ -40,8 +40,11 @@ filter_age <-
     Geography %in% age_group
   ) %>%
   mutate(
-    `Age group` = str_remove(Geography, "Canada, "),
+    `Age group` = str_remove(Geography, "Canada,  "),
     Geography = "Canada"
+  ) %>%
+  mutate(
+    `Age group` = str_remove(`Age group`, "Canada, ")
   ) %>%
   select(
     Year,
