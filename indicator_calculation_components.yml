@@ -355,13 +355,13 @@
   target: None
   target_year: '2030'
 3-14-1:
-  base_value: '17.7'
-  base_year: '2015'
-  current_value: '11.6'
+  base_value: '12.5'
+  base_year: '2022'
+  current_value: '12.5'
   current_year: '2022'
   direction: negative
-  progress_calculation_value: '0.9564004029408251'
-  progress_status: substantial_progress
+  progress_calculation_value: null
+  progress_status: None
   target: '5'
   target_year: '2035'
 3-15-1:
