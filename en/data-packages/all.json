@@ -4687,13 +4687,25 @@
             "title": "Year"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Annual growth rate of water use",
+                "Annual growth rate of water use per capita",
+                "Total water use",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
+                "Percentage",
                 "Cubic metres",
-                "Growth rate",
-                "Water use per capita growth rate",
                 ""
               ]
             },

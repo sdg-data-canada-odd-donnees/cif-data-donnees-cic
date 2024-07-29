@@ -1,16 +1,16 @@
-Year,Value,Units
-2013,37197793.0,Mètres cubes
-2015,35913582.0,Mètres cubes
-2017,36334509.0,Mètres cubes
-2019,36047231.0,Mètres cubes
-2021,36127599.0,Mètres cubes
-2013,4.9,Taux de croissance
-2015,-3.5,Taux de croissance
-2017,1.2,Taux de croissance
-2019,-0.8,Taux de croissance
-2021,0.2,Taux de croissance
-2013,-10.0,Taux de croissance de l'utilisation de l'eau par habitant
-2015,0.0,Taux de croissance de l'utilisation de l'eau par habitant
-2017,-11.1,Taux de croissance de l'utilisation de l'eau par habitant
-2019,0.0,Taux de croissance de l'utilisation de l'eau par habitant
-2021,0.0,Taux de croissance de l'utilisation de l'eau par habitant
+Year,Value,Units,Series
+2013,4.9,Pourcentage,Annual growth rate of water use
+2015,-3.5,Pourcentage,Annual growth rate of water use
+2017,1.2,Pourcentage,Annual growth rate of water use
+2019,-0.8,Pourcentage,Annual growth rate of water use
+2021,0.2,Pourcentage,Annual growth rate of water use
+2013,-12.8,Pourcentage,Annual growth rate of water use per capita
+2015,-1.5,Pourcentage,Annual growth rate of water use per capita
+2017,-7.1,Pourcentage,Annual growth rate of water use per capita
+2019,-1.6,Pourcentage,Annual growth rate of water use per capita
+2021,4.0,Pourcentage,Annual growth rate of water use per capita
+2013,37197793.0,Mètres cubes,Total water use
+2015,35913582.0,Mètres cubes,Total water use
+2017,36334509.0,Mètres cubes,Total water use
+2019,36047231.0,Mètres cubes,Total water use
+2021,36127599.0,Mètres cubes,Total water use

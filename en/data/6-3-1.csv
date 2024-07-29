@@ -1,36 +1,36 @@
-Year,Units,Sector,Value
-2013,Cubic metres,,37197793.0
-2015,Cubic metres,,35913582.0
-2017,Cubic metres,,36334509.0
-2019,Cubic metres,,36047231.0
-2021,Cubic metres,,36127599.0
-2013,Cubic metres,Households,3122546.0
-2015,Cubic metres,Households,3130439.0
-2017,Cubic metres,Households,2975593.0
-2019,Cubic metres,Households,3014417.0
-2021,Cubic metres,Households,3185653.0
-2013,Cubic metres,Industries,34075247.0
-2015,Cubic metres,Industries,32783143.0
-2017,Cubic metres,Industries,33358916.0
-2019,Cubic metres,Industries,33032814.0
-2021,Cubic metres,Industries,32941946.0
-2013,Growth rate,,4.9
-2015,Growth rate,,-3.5
-2017,Growth rate,,1.2
-2019,Growth rate,,-0.8
-2021,Growth rate,,0.2
-2013,Growth rate,Households,-10.9
-2015,Growth rate,Households,0.3
-2017,Growth rate,Households,-4.9
-2019,Growth rate,Households,1.3
-2021,Growth rate,Households,5.7
-2013,Growth rate,Industries,6.6
-2015,Growth rate,Industries,-3.8
-2017,Growth rate,Industries,1.8
-2019,Growth rate,Industries,-1.0
-2021,Growth rate,Industries,-0.3
-2013,Water use per capita growth rate,,-10.0
-2015,Water use per capita growth rate,,0.0
-2017,Water use per capita growth rate,,-11.1
-2019,Water use per capita growth rate,,0.0
-2021,Water use per capita growth rate,,0.0
+Year,Series,Units,Sector,Value
+2013,Annual growth rate of water use,Percentage,,4.9
+2015,Annual growth rate of water use,Percentage,,-3.5
+2017,Annual growth rate of water use,Percentage,,1.2
+2019,Annual growth rate of water use,Percentage,,-0.8
+2021,Annual growth rate of water use,Percentage,,0.2
+2013,Annual growth rate of water use,Percentage,Households,-10.9
+2015,Annual growth rate of water use,Percentage,Households,0.3
+2017,Annual growth rate of water use,Percentage,Households,-4.9
+2019,Annual growth rate of water use,Percentage,Households,1.3
+2021,Annual growth rate of water use,Percentage,Households,5.7
+2013,Annual growth rate of water use,Percentage,Industries,6.6
+2015,Annual growth rate of water use,Percentage,Industries,-3.8
+2017,Annual growth rate of water use,Percentage,Industries,1.8
+2019,Annual growth rate of water use,Percentage,Industries,-1.0
+2021,Annual growth rate of water use,Percentage,Industries,-0.3
+2013,Annual growth rate of water use per capita,Percentage,,-12.8
+2015,Annual growth rate of water use per capita,Percentage,,-1.5
+2017,Annual growth rate of water use per capita,Percentage,,-7.1
+2019,Annual growth rate of water use per capita,Percentage,,-1.6
+2021,Annual growth rate of water use per capita,Percentage,,4.0
+2013,Total water use,Cubic metres,,37197793.0
+2015,Total water use,Cubic metres,,35913582.0
+2017,Total water use,Cubic metres,,36334509.0
+2019,Total water use,Cubic metres,,36047231.0
+2021,Total water use,Cubic metres,,36127599.0
+2013,Total water use,Cubic metres,Households,3122546.0
+2015,Total water use,Cubic metres,Households,3130439.0
+2017,Total water use,Cubic metres,Households,2975593.0
+2019,Total water use,Cubic metres,Households,3014417.0
+2021,Total water use,Cubic metres,Households,3185653.0
+2013,Total water use,Cubic metres,Industries,34075247.0
+2015,Total water use,Cubic metres,Industries,32783143.0
+2017,Total water use,Cubic metres,Industries,33358916.0
+2019,Total water use,Cubic metres,Industries,33032814.0
+2021,Total water use,Cubic metres,Industries,32941946.0
