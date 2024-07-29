@@ -1,721 +1,194 @@
-Year,data.Geography,data.Activity group,data.Age,data.Sex,Value
-2015,data.Canada,data.Unpaid work activities,"data.Total, 15 years and over",data.Both sexes,12.5
-2015,data.Canada,data.Unpaid work activities,"data.Total, 15 years and over",data.Male,10
-2015,data.Canada,data.Unpaid work activities,"data.Total, 15 years and over",data.Female,15
-2015,data.Canada,data.Unpaid work activities,data.15 to 24 years,data.Both sexes,5.4
-2015,data.Canada,data.Unpaid work activities,data.15 to 24 years,data.Male,4.6
-2015,data.Canada,data.Unpaid work activities,data.15 to 24 years,data.Female,6.7
-2015,data.Canada,data.Unpaid work activities,data.25 to 54 years,data.Both sexes,13.3
-2015,data.Canada,data.Unpaid work activities,data.25 to 54 years,data.Male,10.4
-2015,data.Canada,data.Unpaid work activities,data.25 to 54 years,data.Female,16.3
-2015,data.Canada,data.Unpaid work activities,data.25 to 34 years,data.Both sexes,12.1
-2015,data.Canada,data.Unpaid work activities,data.25 to 34 years,data.Male,7.9
-2015,data.Canada,data.Unpaid work activities,data.25 to 34 years,data.Female,15.8
-2015,data.Canada,data.Unpaid work activities,data.35 to 44 years,data.Both sexes,15
-2015,data.Canada,data.Unpaid work activities,data.35 to 44 years,data.Male,11.7
-2015,data.Canada,data.Unpaid work activities,data.35 to 44 years,data.Female,17.9
-2015,data.Canada,data.Unpaid work activities,data.45 to 54 years,data.Both sexes,13.3
-2015,data.Canada,data.Unpaid work activities,data.45 to 54 years,data.Male,11.3
-2015,data.Canada,data.Unpaid work activities,data.45 to 54 years,data.Female,15.4
-2015,data.Canada,data.Unpaid work activities,data.55 to 64 years,data.Both sexes,14.2
-2015,data.Canada,data.Unpaid work activities,data.55 to 64 years,data.Male,12.1
-2015,data.Canada,data.Unpaid work activities,data.55 to 64 years,data.Female,16.3
-2015,data.Canada,data.Unpaid work activities,data.65 years and over,data.Both sexes,15
-2015,data.Canada,data.Unpaid work activities,data.65 years and over,data.Male,13.3
-2015,data.Canada,data.Unpaid work activities,data.65 years and over,data.Female,16.7
-2015,data.Canada,data.Household chores,"data.Total, 15 years and over",data.Both sexes,8.8
-2015,data.Canada,data.Household chores,"data.Total, 15 years and over",data.Male,7.1
-2015,data.Canada,data.Household chores,"data.Total, 15 years and over",data.Female,10
-2015,data.Canada,data.Household chores,data.15 to 24 years,data.Both sexes,3.8
-2015,data.Canada,data.Household chores,data.15 to 24 years,data.Male,3.3
-2015,data.Canada,data.Household chores,data.15 to 24 years,data.Female,4.2
-2015,data.Canada,data.Household chores,data.25 to 54 years,data.Both sexes,8.3
-2015,data.Canada,data.Household chores,data.25 to 54 years,data.Male,6.7
-2015,data.Canada,data.Household chores,data.25 to 54 years,data.Female,10
-2015,data.Canada,data.Household chores,data.25 to 34 years,data.Both sexes,6.7
-2015,data.Canada,data.Household chores,data.25 to 34 years,data.Male,5
-2015,data.Canada,data.Household chores,data.25 to 34 years,data.Female,8.3
-2015,data.Canada,data.Household chores,data.35 to 44 years,data.Both sexes,8.3
-2015,data.Canada,data.Household chores,data.35 to 44 years,data.Male,6.7
-2015,data.Canada,data.Household chores,data.35 to 44 years,data.Female,10
-2015,data.Canada,data.Household chores,data.45 to 54 years,data.Both sexes,10
-2015,data.Canada,data.Household chores,data.45 to 54 years,data.Male,8.8
-2015,data.Canada,data.Household chores,data.45 to 54 years,data.Female,11.3
-2015,data.Canada,data.Household chores,data.55 to 64 years,data.Both sexes,10.8
-2015,data.Canada,data.Household chores,data.55 to 64 years,data.Male,9.6
-2015,data.Canada,data.Household chores,data.55 to 64 years,data.Female,12.1
-2015,data.Canada,data.Household chores,data.65 years and over,data.Both sexes,11.7
-2015,data.Canada,data.Household chores,data.65 years and over,data.Male,10
-2015,data.Canada,data.Household chores,data.65 years and over,data.Female,13.3
-2015,data.Canada,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Both sexes,1.7
-2015,data.Canada,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Male,1.3
-2015,data.Canada,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Female,2.1
-2015,data.Canada,data.Care of household children under 18 years,data.15 to 24 years,data.Both sexes,0.4
-2015,data.Canada,data.Care of household children under 18 years,data.15 to 24 years,data.Male,
-2015,data.Canada,data.Care of household children under 18 years,data.15 to 24 years,data.Female,0.4
-2015,data.Canada,data.Care of household children under 18 years,data.25 to 54 years,data.Both sexes,2.9
-2015,data.Canada,data.Care of household children under 18 years,data.25 to 54 years,data.Male,2.1
-2015,data.Canada,data.Care of household children under 18 years,data.25 to 54 years,data.Female,3.8
-2015,data.Canada,data.Care of household children under 18 years,data.25 to 34 years,data.Both sexes,3.3
-2015,data.Canada,data.Care of household children under 18 years,data.25 to 34 years,data.Male,1.7
-2015,data.Canada,data.Care of household children under 18 years,data.25 to 34 years,data.Female,5
-2015,data.Canada,data.Care of household children under 18 years,data.35 to 44 years,data.Both sexes,4.2
-2015,data.Canada,data.Care of household children under 18 years,data.35 to 44 years,data.Male,3.3
-2015,data.Canada,data.Care of household children under 18 years,data.35 to 44 years,data.Female,5.4
-2015,data.Canada,data.Care of household children under 18 years,data.45 to 54 years,data.Both sexes,1.3
-2015,data.Canada,data.Care of household children under 18 years,data.45 to 54 years,data.Male,0.8
-2015,data.Canada,data.Care of household children under 18 years,data.45 to 54 years,data.Female,1.3
-2015,data.Canada,data.Care of household children under 18 years,data.55 to 64 years,data.Both sexes,0.4
-2015,data.Canada,data.Care of household children under 18 years,data.55 to 64 years,data.Male,
-2015,data.Canada,data.Care of household children under 18 years,data.55 to 64 years,data.Female,0.4
-2015,data.Canada,data.Care of household children under 18 years,data.65 years and over,data.Both sexes,0.4
-2015,data.Canada,data.Care of household children under 18 years,data.65 years and over,data.Male,0.4
-2015,data.Canada,data.Care of household children under 18 years,data.65 years and over,data.Female,0.4
-2015,data.Canada,data.Care of household adults,"data.Total, 15 years and over",data.Both sexes,
-2015,data.Canada,data.Care of household adults,"data.Total, 15 years and over",data.Male,
-2015,data.Canada,data.Care of household adults,"data.Total, 15 years and over",data.Female,
-2015,data.Canada,data.Care of household adults,data.15 to 24 years,data.Both sexes,
-2015,data.Canada,data.Care of household adults,data.15 to 24 years,data.Male,
-2015,data.Canada,data.Care of household adults,data.15 to 24 years,data.Female,0
-2015,data.Canada,data.Care of household adults,data.25 to 54 years,data.Both sexes,
-2015,data.Canada,data.Care of household adults,data.25 to 54 years,data.Male,
-2015,data.Canada,data.Care of household adults,data.25 to 54 years,data.Female,
-2015,data.Canada,data.Care of household adults,data.25 to 34 years,data.Both sexes,
-2015,data.Canada,data.Care of household adults,data.25 to 34 years,data.Male,
-2015,data.Canada,data.Care of household adults,data.25 to 34 years,data.Female,
-2015,data.Canada,data.Care of household adults,data.35 to 44 years,data.Both sexes,
-2015,data.Canada,data.Care of household adults,data.35 to 44 years,data.Male,
-2015,data.Canada,data.Care of household adults,data.35 to 44 years,data.Female,
-2015,data.Canada,data.Care of household adults,data.45 to 54 years,data.Both sexes,
-2015,data.Canada,data.Care of household adults,data.45 to 54 years,data.Male,
-2015,data.Canada,data.Care of household adults,data.45 to 54 years,data.Female,
-2015,data.Canada,data.Care of household adults,data.55 to 64 years,data.Both sexes,
-2015,data.Canada,data.Care of household adults,data.55 to 64 years,data.Male,
-2015,data.Canada,data.Care of household adults,data.55 to 64 years,data.Female,0.4
-2015,data.Canada,data.Care of household adults,data.65 years and over,data.Both sexes,
-2015,data.Canada,data.Care of household adults,data.65 years and over,data.Male,
-2015,data.Canada,data.Care of household adults,data.65 years and over,data.Female,
-2015,data.Canada,data.Shopping for goods or services,"data.Total, 15 years and over",data.Both sexes,2.1
-2015,data.Canada,data.Shopping for goods or services,"data.Total, 15 years and over",data.Male,1.7
-2015,data.Canada,data.Shopping for goods or services,"data.Total, 15 years and over",data.Female,2.5
-2015,data.Canada,data.Shopping for goods or services,data.15 to 24 years,data.Both sexes,1.3
-2015,data.Canada,data.Shopping for goods or services,data.15 to 24 years,data.Male,0.8
-2015,data.Canada,data.Shopping for goods or services,data.15 to 24 years,data.Female,1.7
-2015,data.Canada,data.Shopping for goods or services,data.25 to 54 years,data.Both sexes,1.7
-2015,data.Canada,data.Shopping for goods or services,data.25 to 54 years,data.Male,1.3
-2015,data.Canada,data.Shopping for goods or services,data.25 to 54 years,data.Female,2.1
-2015,data.Canada,data.Shopping for goods or services,data.25 to 34 years,data.Both sexes,1.7
-2015,data.Canada,data.Shopping for goods or services,data.25 to 34 years,data.Male,1.3
-2015,data.Canada,data.Shopping for goods or services,data.25 to 34 years,data.Female,2.1
-2015,data.Canada,data.Shopping for goods or services,data.35 to 44 years,data.Both sexes,1.7
-2015,data.Canada,data.Shopping for goods or services,data.35 to 44 years,data.Male,1.7
-2015,data.Canada,data.Shopping for goods or services,data.35 to 44 years,data.Female,2.1
-2015,data.Canada,data.Shopping for goods or services,data.45 to 54 years,data.Both sexes,2.1
-2015,data.Canada,data.Shopping for goods or services,data.45 to 54 years,data.Male,1.7
-2015,data.Canada,data.Shopping for goods or services,data.45 to 54 years,data.Female,2.5
-2015,data.Canada,data.Shopping for goods or services,data.55 to 64 years,data.Both sexes,2.5
-2015,data.Canada,data.Shopping for goods or services,data.55 to 64 years,data.Male,2.1
-2015,data.Canada,data.Shopping for goods or services,data.55 to 64 years,data.Female,2.9
-2015,data.Canada,data.Shopping for goods or services,data.65 years and over,data.Both sexes,2.5
-2015,data.Canada,data.Shopping for goods or services,data.65 years and over,data.Male,2.5
-2015,data.Canada,data.Shopping for goods or services,data.65 years and over,data.Female,2.9
-2015,data.Atlantic,data.Unpaid work activities,"data.Total, 15 years and over",data.Both sexes,13.3
-2015,data.Atlantic,data.Unpaid work activities,"data.Total, 15 years and over",data.Male,11.3
-2015,data.Atlantic,data.Unpaid work activities,"data.Total, 15 years and over",data.Female,15.4
-2015,data.Atlantic,data.Unpaid work activities,data.15 to 24 years,data.Both sexes,5.8
-2015,data.Atlantic,data.Unpaid work activities,data.15 to 24 years,data.Male,5.4
-2015,data.Atlantic,data.Unpaid work activities,data.15 to 24 years,data.Female,6.3
-2015,data.Atlantic,data.Unpaid work activities,data.25 to 54 years,data.Both sexes,13.8
-2015,data.Atlantic,data.Unpaid work activities,data.25 to 54 years,data.Male,11.3
-2015,data.Atlantic,data.Unpaid work activities,data.25 to 54 years,data.Female,16.3
-2015,data.Atlantic,data.Unpaid work activities,data.25 to 34 years,data.Both sexes,12.5
-2015,data.Atlantic,data.Unpaid work activities,data.25 to 34 years,data.Male,8.8
-2015,data.Atlantic,data.Unpaid work activities,data.25 to 34 years,data.Female,15.8
-2015,data.Atlantic,data.Unpaid work activities,data.35 to 44 years,data.Both sexes,14.6
-2015,data.Atlantic,data.Unpaid work activities,data.35 to 44 years,data.Male,12.5
-2015,data.Atlantic,data.Unpaid work activities,data.35 to 44 years,data.Female,17.1
-2015,data.Atlantic,data.Unpaid work activities,data.45 to 54 years,data.Both sexes,14.2
-2015,data.Atlantic,data.Unpaid work activities,data.45 to 54 years,data.Male,11.7
-2015,data.Atlantic,data.Unpaid work activities,data.45 to 54 years,data.Female,16.3
-2015,data.Atlantic,data.Unpaid work activities,data.55 to 64 years,data.Both sexes,15.4
-2015,data.Atlantic,data.Unpaid work activities,data.55 to 64 years,data.Male,13.3
-2015,data.Atlantic,data.Unpaid work activities,data.55 to 64 years,data.Female,17.5
-2015,data.Atlantic,data.Unpaid work activities,data.65 years and over,data.Both sexes,15
-2015,data.Atlantic,data.Unpaid work activities,data.65 years and over,data.Male,13.3
-2015,data.Atlantic,data.Unpaid work activities,data.65 years and over,data.Female,16.7
-2015,data.Atlantic,data.Household chores,"data.Total, 15 years and over",data.Both sexes,9.2
-2015,data.Atlantic,data.Household chores,"data.Total, 15 years and over",data.Male,8.3
-2015,data.Atlantic,data.Household chores,"data.Total, 15 years and over",data.Female,10.4
-2015,data.Atlantic,data.Household chores,data.15 to 24 years,data.Both sexes,4.2
-2015,data.Atlantic,data.Household chores,data.15 to 24 years,data.Male,4.6
-2015,data.Atlantic,data.Household chores,data.15 to 24 years,data.Female,3.8
-2015,data.Atlantic,data.Household chores,data.25 to 54 years,data.Both sexes,8.8
-2015,data.Atlantic,data.Household chores,data.25 to 54 years,data.Male,7.5
-2015,data.Atlantic,data.Household chores,data.25 to 54 years,data.Female,10
-2015,data.Atlantic,data.Household chores,data.25 to 34 years,data.Both sexes,6.7
-2015,data.Atlantic,data.Household chores,data.25 to 34 years,data.Male,5.4
-2015,data.Atlantic,data.Household chores,data.25 to 34 years,data.Female,7.9
-2015,data.Atlantic,data.Household chores,data.35 to 44 years,data.Both sexes,8.8
-2015,data.Atlantic,data.Household chores,data.35 to 44 years,data.Male,7.1
-2015,data.Atlantic,data.Household chores,data.35 to 44 years,data.Female,10.4
-2015,data.Atlantic,data.Household chores,data.45 to 54 years,data.Both sexes,10.4
-2015,data.Atlantic,data.Household chores,data.45 to 54 years,data.Male,9.6
-2015,data.Atlantic,data.Household chores,data.45 to 54 years,data.Female,11.7
-2015,data.Atlantic,data.Household chores,data.55 to 64 years,data.Both sexes,12.1
-2015,data.Atlantic,data.Household chores,data.55 to 64 years,data.Male,10.8
-2015,data.Atlantic,data.Household chores,data.55 to 64 years,data.Female,12.9
-2015,data.Atlantic,data.Household chores,data.65 years and over,data.Both sexes,11.7
-2015,data.Atlantic,data.Household chores,data.65 years and over,data.Male,10
-2015,data.Atlantic,data.Household chores,data.65 years and over,data.Female,13.3
-2015,data.Atlantic,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Both sexes,1.3
-2015,data.Atlantic,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Male,0.8
-2015,data.Atlantic,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Female,1.7
-2015,data.Atlantic,data.Care of household children under 18 years,data.15 to 24 years,data.Both sexes,
-2015,data.Atlantic,data.Care of household children under 18 years,data.15 to 24 years,data.Male,
-2015,data.Atlantic,data.Care of household children under 18 years,data.15 to 24 years,data.Female,
-2015,data.Atlantic,data.Care of household children under 18 years,data.25 to 54 years,data.Both sexes,2.5
-2015,data.Atlantic,data.Care of household children under 18 years,data.25 to 54 years,data.Male,2.1
-2015,data.Atlantic,data.Care of household children under 18 years,data.25 to 54 years,data.Female,3.3
-2015,data.Atlantic,data.Care of household children under 18 years,data.25 to 34 years,data.Both sexes,3.8
-2015,data.Atlantic,data.Care of household children under 18 years,data.25 to 34 years,data.Male,1.7
-2015,data.Atlantic,data.Care of household children under 18 years,data.25 to 34 years,data.Female,5.8
-2015,data.Atlantic,data.Care of household children under 18 years,data.35 to 44 years,data.Both sexes,3.8
-2015,data.Atlantic,data.Care of household children under 18 years,data.35 to 44 years,data.Male,3.3
-2015,data.Atlantic,data.Care of household children under 18 years,data.35 to 44 years,data.Female,4.2
-2015,data.Atlantic,data.Care of household children under 18 years,data.45 to 54 years,data.Both sexes,0.8
-2015,data.Atlantic,data.Care of household children under 18 years,data.45 to 54 years,data.Male,0.8
-2015,data.Atlantic,data.Care of household children under 18 years,data.45 to 54 years,data.Female,0.8
-2015,data.Atlantic,data.Care of household children under 18 years,data.55 to 64 years,data.Both sexes,0.4
-2015,data.Atlantic,data.Care of household children under 18 years,data.55 to 64 years,data.Male,
-2015,data.Atlantic,data.Care of household children under 18 years,data.55 to 64 years,data.Female,0.4
-2015,data.Atlantic,data.Care of household children under 18 years,data.65 years and over,data.Both sexes,
-2015,data.Atlantic,data.Care of household children under 18 years,data.65 years and over,data.Male,
-2015,data.Atlantic,data.Care of household children under 18 years,data.65 years and over,data.Female,
-2015,data.Atlantic,data.Care of household adults,"data.Total, 15 years and over",data.Both sexes,
-2015,data.Atlantic,data.Care of household adults,"data.Total, 15 years and over",data.Male,
-2015,data.Atlantic,data.Care of household adults,"data.Total, 15 years and over",data.Female,
-2015,data.Atlantic,data.Care of household adults,data.15 to 24 years,data.Both sexes,0
-2015,data.Atlantic,data.Care of household adults,data.15 to 24 years,data.Male,0
-2015,data.Atlantic,data.Care of household adults,data.15 to 24 years,data.Female,0
-2015,data.Atlantic,data.Care of household adults,data.25 to 54 years,data.Both sexes,
-2015,data.Atlantic,data.Care of household adults,data.25 to 54 years,data.Male,
-2015,data.Atlantic,data.Care of household adults,data.25 to 54 years,data.Female,
-2015,data.Atlantic,data.Care of household adults,data.25 to 34 years,data.Both sexes,
-2015,data.Atlantic,data.Care of household adults,data.25 to 34 years,data.Male,
-2015,data.Atlantic,data.Care of household adults,data.25 to 34 years,data.Female,
-2015,data.Atlantic,data.Care of household adults,data.35 to 44 years,data.Both sexes,
-2015,data.Atlantic,data.Care of household adults,data.35 to 44 years,data.Male,0
-2015,data.Atlantic,data.Care of household adults,data.35 to 44 years,data.Female,
-2015,data.Atlantic,data.Care of household adults,data.45 to 54 years,data.Both sexes,
-2015,data.Atlantic,data.Care of household adults,data.45 to 54 years,data.Male,
-2015,data.Atlantic,data.Care of household adults,data.45 to 54 years,data.Female,
-2015,data.Atlantic,data.Care of household adults,data.55 to 64 years,data.Both sexes,
-2015,data.Atlantic,data.Care of household adults,data.55 to 64 years,data.Male,
-2015,data.Atlantic,data.Care of household adults,data.55 to 64 years,data.Female,
-2015,data.Atlantic,data.Care of household adults,data.65 years and over,data.Both sexes,0.4
-2015,data.Atlantic,data.Care of household adults,data.65 years and over,data.Male,
-2015,data.Atlantic,data.Care of household adults,data.65 years and over,data.Female,
-2015,data.Atlantic,data.Shopping for goods or services,"data.Total, 15 years and over",data.Both sexes,2.1
-2015,data.Atlantic,data.Shopping for goods or services,"data.Total, 15 years and over",data.Male,1.7
-2015,data.Atlantic,data.Shopping for goods or services,"data.Total, 15 years and over",data.Female,2.5
-2015,data.Atlantic,data.Shopping for goods or services,data.15 to 24 years,data.Both sexes,0.8
-2015,data.Atlantic,data.Shopping for goods or services,data.15 to 24 years,data.Male,
-2015,data.Atlantic,data.Shopping for goods or services,data.15 to 24 years,data.Female,1.3
-2015,data.Atlantic,data.Shopping for goods or services,data.25 to 54 years,data.Both sexes,2.1
-2015,data.Atlantic,data.Shopping for goods or services,data.25 to 54 years,data.Male,1.3
-2015,data.Atlantic,data.Shopping for goods or services,data.25 to 54 years,data.Female,2.5
-2015,data.Atlantic,data.Shopping for goods or services,data.25 to 34 years,data.Both sexes,1.7
-2015,data.Atlantic,data.Shopping for goods or services,data.25 to 34 years,data.Male,1.3
-2015,data.Atlantic,data.Shopping for goods or services,data.25 to 34 years,data.Female,2.1
-2015,data.Atlantic,data.Shopping for goods or services,data.35 to 44 years,data.Both sexes,2.1
-2015,data.Atlantic,data.Shopping for goods or services,data.35 to 44 years,data.Male,1.7
-2015,data.Atlantic,data.Shopping for goods or services,data.35 to 44 years,data.Female,2.1
-2015,data.Atlantic,data.Shopping for goods or services,data.45 to 54 years,data.Both sexes,2.1
-2015,data.Atlantic,data.Shopping for goods or services,data.45 to 54 years,data.Male,0.8
-2015,data.Atlantic,data.Shopping for goods or services,data.45 to 54 years,data.Female,3.3
-2015,data.Atlantic,data.Shopping for goods or services,data.55 to 64 years,data.Both sexes,2.5
-2015,data.Atlantic,data.Shopping for goods or services,data.55 to 64 years,data.Male,1.7
-2015,data.Atlantic,data.Shopping for goods or services,data.55 to 64 years,data.Female,2.9
-2015,data.Atlantic,data.Shopping for goods or services,data.65 years and over,data.Both sexes,2.9
-2015,data.Atlantic,data.Shopping for goods or services,data.65 years and over,data.Male,2.9
-2015,data.Atlantic,data.Shopping for goods or services,data.65 years and over,data.Female,2.5
-2015,data.Quebec,data.Unpaid work activities,"data.Total, 15 years and over",data.Both sexes,12.5
-2015,data.Quebec,data.Unpaid work activities,"data.Total, 15 years and over",data.Male,10.4
-2015,data.Quebec,data.Unpaid work activities,"data.Total, 15 years and over",data.Female,14.6
-2015,data.Quebec,data.Unpaid work activities,data.15 to 24 years,data.Both sexes,5.4
-2015,data.Quebec,data.Unpaid work activities,data.15 to 24 years,data.Male,4.6
-2015,data.Quebec,data.Unpaid work activities,data.15 to 24 years,data.Female,5.8
-2015,data.Quebec,data.Unpaid work activities,data.25 to 54 years,data.Both sexes,13.3
-2015,data.Quebec,data.Unpaid work activities,data.25 to 54 years,data.Male,10.8
-2015,data.Quebec,data.Unpaid work activities,data.25 to 54 years,data.Female,15.8
-2015,data.Quebec,data.Unpaid work activities,data.25 to 34 years,data.Both sexes,12.1
-2015,data.Quebec,data.Unpaid work activities,data.25 to 34 years,data.Male,8.8
-2015,data.Quebec,data.Unpaid work activities,data.25 to 34 years,data.Female,15.8
-2015,data.Quebec,data.Unpaid work activities,data.35 to 44 years,data.Both sexes,15
-2015,data.Quebec,data.Unpaid work activities,data.35 to 44 years,data.Male,12.9
-2015,data.Quebec,data.Unpaid work activities,data.35 to 44 years,data.Female,17.1
-2015,data.Quebec,data.Unpaid work activities,data.45 to 54 years,data.Both sexes,12.5
-2015,data.Quebec,data.Unpaid work activities,data.45 to 54 years,data.Male,10.8
-2015,data.Quebec,data.Unpaid work activities,data.45 to 54 years,data.Female,14.6
-2015,data.Quebec,data.Unpaid work activities,data.55 to 64 years,data.Both sexes,13.8
-2015,data.Quebec,data.Unpaid work activities,data.55 to 64 years,data.Male,11.7
-2015,data.Quebec,data.Unpaid work activities,data.55 to 64 years,data.Female,15.8
-2015,data.Quebec,data.Unpaid work activities,data.65 years and over,data.Both sexes,14.2
-2015,data.Quebec,data.Unpaid work activities,data.65 years and over,data.Male,11.7
-2015,data.Quebec,data.Unpaid work activities,data.65 years and over,data.Female,16.3
-2015,data.Quebec,data.Household chores,"data.Total, 15 years and over",data.Both sexes,8.8
-2015,data.Quebec,data.Household chores,"data.Total, 15 years and over",data.Male,7.5
-2015,data.Quebec,data.Household chores,"data.Total, 15 years and over",data.Female,9.6
-2015,data.Quebec,data.Household chores,data.15 to 24 years,data.Both sexes,3.3
-2015,data.Quebec,data.Household chores,data.15 to 24 years,data.Male,3.8
-2015,data.Quebec,data.Household chores,data.15 to 24 years,data.Female,3.3
-2015,data.Quebec,data.Household chores,data.25 to 54 years,data.Both sexes,8.3
-2015,data.Quebec,data.Household chores,data.25 to 54 years,data.Male,7.1
-2015,data.Quebec,data.Household chores,data.25 to 54 years,data.Female,9.2
-2015,data.Quebec,data.Household chores,data.25 to 34 years,data.Both sexes,6.3
-2015,data.Quebec,data.Household chores,data.25 to 34 years,data.Male,4.6
-2015,data.Quebec,data.Household chores,data.25 to 34 years,data.Female,7.9
-2015,data.Quebec,data.Household chores,data.35 to 44 years,data.Both sexes,8.8
-2015,data.Quebec,data.Household chores,data.35 to 44 years,data.Male,7.9
-2015,data.Quebec,data.Household chores,data.35 to 44 years,data.Female,10
-2015,data.Quebec,data.Household chores,data.45 to 54 years,data.Both sexes,9.6
-2015,data.Quebec,data.Household chores,data.45 to 54 years,data.Male,8.8
-2015,data.Quebec,data.Household chores,data.45 to 54 years,data.Female,10.4
-2015,data.Quebec,data.Household chores,data.55 to 64 years,data.Both sexes,10.4
-2015,data.Quebec,data.Household chores,data.55 to 64 years,data.Male,9.2
-2015,data.Quebec,data.Household chores,data.55 to 64 years,data.Female,12.1
-2015,data.Quebec,data.Household chores,data.65 years and over,data.Both sexes,11.3
-2015,data.Quebec,data.Household chores,data.65 years and over,data.Male,9.2
-2015,data.Quebec,data.Household chores,data.65 years and over,data.Female,12.9
-2015,data.Quebec,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Both sexes,1.7
-2015,data.Quebec,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Male,1.3
-2015,data.Quebec,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Female,2.1
-2015,data.Quebec,data.Care of household children under 18 years,data.15 to 24 years,data.Both sexes,
-2015,data.Quebec,data.Care of household children under 18 years,data.15 to 24 years,data.Male,
-2015,data.Quebec,data.Care of household children under 18 years,data.15 to 24 years,data.Female,
-2015,data.Quebec,data.Care of household children under 18 years,data.25 to 54 years,data.Both sexes,2.9
-2015,data.Quebec,data.Care of household children under 18 years,data.25 to 54 years,data.Male,2.1
-2015,data.Quebec,data.Care of household children under 18 years,data.25 to 54 years,data.Female,3.8
-2015,data.Quebec,data.Care of household children under 18 years,data.25 to 34 years,data.Both sexes,4.2
-2015,data.Quebec,data.Care of household children under 18 years,data.25 to 34 years,data.Male,2.5
-2015,data.Quebec,data.Care of household children under 18 years,data.25 to 34 years,data.Female,5.8
-2015,data.Quebec,data.Care of household children under 18 years,data.35 to 44 years,data.Both sexes,3.8
-2015,data.Quebec,data.Care of household children under 18 years,data.35 to 44 years,data.Male,2.9
-2015,data.Quebec,data.Care of household children under 18 years,data.35 to 44 years,data.Female,5
-2015,data.Quebec,data.Care of household children under 18 years,data.45 to 54 years,data.Both sexes,0.8
-2015,data.Quebec,data.Care of household children under 18 years,data.45 to 54 years,data.Male,0.8
-2015,data.Quebec,data.Care of household children under 18 years,data.45 to 54 years,data.Female,0.8
-2015,data.Quebec,data.Care of household children under 18 years,data.55 to 64 years,data.Both sexes,
-2015,data.Quebec,data.Care of household children under 18 years,data.55 to 64 years,data.Male,
-2015,data.Quebec,data.Care of household children under 18 years,data.55 to 64 years,data.Female,
-2015,data.Quebec,data.Care of household children under 18 years,data.65 years and over,data.Both sexes,0.4
-2015,data.Quebec,data.Care of household children under 18 years,data.65 years and over,data.Male,
-2015,data.Quebec,data.Care of household children under 18 years,data.65 years and over,data.Female,
-2015,data.Quebec,data.Care of household adults,"data.Total, 15 years and over",data.Both sexes,
-2015,data.Quebec,data.Care of household adults,"data.Total, 15 years and over",data.Male,
-2015,data.Quebec,data.Care of household adults,"data.Total, 15 years and over",data.Female,
-2015,data.Quebec,data.Care of household adults,data.15 to 24 years,data.Both sexes,
-2015,data.Quebec,data.Care of household adults,data.15 to 24 years,data.Male,
-2015,data.Quebec,data.Care of household adults,data.15 to 24 years,data.Female,0
-2015,data.Quebec,data.Care of household adults,data.25 to 54 years,data.Both sexes,
-2015,data.Quebec,data.Care of household adults,data.25 to 54 years,data.Male,
-2015,data.Quebec,data.Care of household adults,data.25 to 54 years,data.Female,
-2015,data.Quebec,data.Care of household adults,data.25 to 34 years,data.Both sexes,
-2015,data.Quebec,data.Care of household adults,data.25 to 34 years,data.Male,
-2015,data.Quebec,data.Care of household adults,data.25 to 34 years,data.Female,
-2015,data.Quebec,data.Care of household adults,data.35 to 44 years,data.Both sexes,
-2015,data.Quebec,data.Care of household adults,data.35 to 44 years,data.Male,
-2015,data.Quebec,data.Care of household adults,data.35 to 44 years,data.Female,
-2015,data.Quebec,data.Care of household adults,data.45 to 54 years,data.Both sexes,
-2015,data.Quebec,data.Care of household adults,data.45 to 54 years,data.Male,
-2015,data.Quebec,data.Care of household adults,data.45 to 54 years,data.Female,
-2015,data.Quebec,data.Care of household adults,data.55 to 64 years,data.Both sexes,
-2015,data.Quebec,data.Care of household adults,data.55 to 64 years,data.Male,
-2015,data.Quebec,data.Care of household adults,data.55 to 64 years,data.Female,
-2015,data.Quebec,data.Care of household adults,data.65 years and over,data.Both sexes,
-2015,data.Quebec,data.Care of household adults,data.65 years and over,data.Male,
-2015,data.Quebec,data.Care of household adults,data.65 years and over,data.Female,
-2015,data.Quebec,data.Shopping for goods or services,"data.Total, 15 years and over",data.Both sexes,2.1
-2015,data.Quebec,data.Shopping for goods or services,"data.Total, 15 years and over",data.Male,1.7
-2015,data.Quebec,data.Shopping for goods or services,"data.Total, 15 years and over",data.Female,2.5
-2015,data.Quebec,data.Shopping for goods or services,data.15 to 24 years,data.Both sexes,1.3
-2015,data.Quebec,data.Shopping for goods or services,data.15 to 24 years,data.Male,0.8
-2015,data.Quebec,data.Shopping for goods or services,data.15 to 24 years,data.Female,1.7
-2015,data.Quebec,data.Shopping for goods or services,data.25 to 54 years,data.Both sexes,1.7
-2015,data.Quebec,data.Shopping for goods or services,data.25 to 54 years,data.Male,1.3
-2015,data.Quebec,data.Shopping for goods or services,data.25 to 54 years,data.Female,2.1
-2015,data.Quebec,data.Shopping for goods or services,data.25 to 34 years,data.Both sexes,1.7
-2015,data.Quebec,data.Shopping for goods or services,data.25 to 34 years,data.Male,1.3
-2015,data.Quebec,data.Shopping for goods or services,data.25 to 34 years,data.Female,2.1
-2015,data.Quebec,data.Shopping for goods or services,data.35 to 44 years,data.Both sexes,1.7
-2015,data.Quebec,data.Shopping for goods or services,data.35 to 44 years,data.Male,1.3
-2015,data.Quebec,data.Shopping for goods or services,data.35 to 44 years,data.Female,2.1
-2015,data.Quebec,data.Shopping for goods or services,data.45 to 54 years,data.Both sexes,2.1
-2015,data.Quebec,data.Shopping for goods or services,data.45 to 54 years,data.Male,1.3
-2015,data.Quebec,data.Shopping for goods or services,data.45 to 54 years,data.Female,2.9
-2015,data.Quebec,data.Shopping for goods or services,data.55 to 64 years,data.Both sexes,2.5
-2015,data.Quebec,data.Shopping for goods or services,data.55 to 64 years,data.Male,2.1
-2015,data.Quebec,data.Shopping for goods or services,data.55 to 64 years,data.Female,2.5
-2015,data.Quebec,data.Shopping for goods or services,data.65 years and over,data.Both sexes,2.5
-2015,data.Quebec,data.Shopping for goods or services,data.65 years and over,data.Male,2.1
-2015,data.Quebec,data.Shopping for goods or services,data.65 years and over,data.Female,2.5
-2015,data.Ontario,data.Unpaid work activities,"data.Total, 15 years and over",data.Both sexes,12.5
-2015,data.Ontario,data.Unpaid work activities,"data.Total, 15 years and over",data.Male,10
-2015,data.Ontario,data.Unpaid work activities,"data.Total, 15 years and over",data.Female,15
-2015,data.Ontario,data.Unpaid work activities,data.15 to 24 years,data.Both sexes,5.4
-2015,data.Ontario,data.Unpaid work activities,data.15 to 24 years,data.Male,4.6
-2015,data.Ontario,data.Unpaid work activities,data.15 to 24 years,data.Female,6.3
-2015,data.Ontario,data.Unpaid work activities,data.25 to 54 years,data.Both sexes,13.3
-2015,data.Ontario,data.Unpaid work activities,data.25 to 54 years,data.Male,10
-2015,data.Ontario,data.Unpaid work activities,data.25 to 54 years,data.Female,16.3
-2015,data.Ontario,data.Unpaid work activities,data.25 to 34 years,data.Both sexes,11.7
-2015,data.Ontario,data.Unpaid work activities,data.25 to 34 years,data.Male,7.1
-2015,data.Ontario,data.Unpaid work activities,data.25 to 34 years,data.Female,15.8
-2015,data.Ontario,data.Unpaid work activities,data.35 to 44 years,data.Both sexes,15
-2015,data.Ontario,data.Unpaid work activities,data.35 to 44 years,data.Male,11.7
-2015,data.Ontario,data.Unpaid work activities,data.35 to 44 years,data.Female,18.3
-2015,data.Ontario,data.Unpaid work activities,data.45 to 54 years,data.Both sexes,12.9
-2015,data.Ontario,data.Unpaid work activities,data.45 to 54 years,data.Male,10.4
-2015,data.Ontario,data.Unpaid work activities,data.45 to 54 years,data.Female,15
-2015,data.Ontario,data.Unpaid work activities,data.55 to 64 years,data.Both sexes,14.6
-2015,data.Ontario,data.Unpaid work activities,data.55 to 64 years,data.Male,11.7
-2015,data.Ontario,data.Unpaid work activities,data.55 to 64 years,data.Female,17.5
-2015,data.Ontario,data.Unpaid work activities,data.65 years and over,data.Both sexes,15.4
-2015,data.Ontario,data.Unpaid work activities,data.65 years and over,data.Male,13.3
-2015,data.Ontario,data.Unpaid work activities,data.65 years and over,data.Female,17.5
-2015,data.Ontario,data.Household chores,"data.Total, 15 years and over",data.Both sexes,8.8
-2015,data.Ontario,data.Household chores,"data.Total, 15 years and over",data.Male,7.1
-2015,data.Ontario,data.Household chores,"data.Total, 15 years and over",data.Female,10
-2015,data.Ontario,data.Household chores,data.15 to 24 years,data.Both sexes,3.3
-2015,data.Ontario,data.Household chores,data.15 to 24 years,data.Male,2.9
-2015,data.Ontario,data.Household chores,data.15 to 24 years,data.Female,3.8
-2015,data.Ontario,data.Household chores,data.25 to 54 years,data.Both sexes,7.9
-2015,data.Ontario,data.Household chores,data.25 to 54 years,data.Male,6.3
-2015,data.Ontario,data.Household chores,data.25 to 54 years,data.Female,9.6
-2015,data.Ontario,data.Household chores,data.25 to 34 years,data.Both sexes,6.3
-2015,data.Ontario,data.Household chores,data.25 to 34 years,data.Male,4.2
-2015,data.Ontario,data.Household chores,data.25 to 34 years,data.Female,7.9
-2015,data.Ontario,data.Household chores,data.35 to 44 years,data.Both sexes,8.3
-2015,data.Ontario,data.Household chores,data.35 to 44 years,data.Male,6.7
-2015,data.Ontario,data.Household chores,data.35 to 44 years,data.Female,10.4
-2015,data.Ontario,data.Household chores,data.45 to 54 years,data.Both sexes,9.2
-2015,data.Ontario,data.Household chores,data.45 to 54 years,data.Male,7.5
-2015,data.Ontario,data.Household chores,data.45 to 54 years,data.Female,10.8
-2015,data.Ontario,data.Household chores,data.55 to 64 years,data.Both sexes,11.3
-2015,data.Ontario,data.Household chores,data.55 to 64 years,data.Male,9.6
-2015,data.Ontario,data.Household chores,data.55 to 64 years,data.Female,12.9
-2015,data.Ontario,data.Household chores,data.65 years and over,data.Both sexes,12.1
-2015,data.Ontario,data.Household chores,data.65 years and over,data.Male,10.4
-2015,data.Ontario,data.Household chores,data.65 years and over,data.Female,13.8
-2015,data.Ontario,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Both sexes,1.7
-2015,data.Ontario,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Male,1.3
-2015,data.Ontario,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Female,2.1
-2015,data.Ontario,data.Care of household children under 18 years,data.15 to 24 years,data.Both sexes,0.4
-2015,data.Ontario,data.Care of household children under 18 years,data.15 to 24 years,data.Male,
-2015,data.Ontario,data.Care of household children under 18 years,data.15 to 24 years,data.Female,
-2015,data.Ontario,data.Care of household children under 18 years,data.25 to 54 years,data.Both sexes,2.9
-2015,data.Ontario,data.Care of household children under 18 years,data.25 to 54 years,data.Male,2.1
-2015,data.Ontario,data.Care of household children under 18 years,data.25 to 54 years,data.Female,3.8
-2015,data.Ontario,data.Care of household children under 18 years,data.25 to 34 years,data.Both sexes,3.3
-2015,data.Ontario,data.Care of household children under 18 years,data.25 to 34 years,data.Male,1.7
-2015,data.Ontario,data.Care of household children under 18 years,data.25 to 34 years,data.Female,5
-2015,data.Ontario,data.Care of household children under 18 years,data.35 to 44 years,data.Both sexes,4.6
-2015,data.Ontario,data.Care of household children under 18 years,data.35 to 44 years,data.Male,3.3
-2015,data.Ontario,data.Care of household children under 18 years,data.35 to 44 years,data.Female,5.8
-2015,data.Ontario,data.Care of household children under 18 years,data.45 to 54 years,data.Both sexes,1.3
-2015,data.Ontario,data.Care of household children under 18 years,data.45 to 54 years,data.Male,1.3
-2015,data.Ontario,data.Care of household children under 18 years,data.45 to 54 years,data.Female,1.3
-2015,data.Ontario,data.Care of household children under 18 years,data.55 to 64 years,data.Both sexes,0.4
-2015,data.Ontario,data.Care of household children under 18 years,data.55 to 64 years,data.Male,
-2015,data.Ontario,data.Care of household children under 18 years,data.55 to 64 years,data.Female,0.4
-2015,data.Ontario,data.Care of household children under 18 years,data.65 years and over,data.Both sexes,
-2015,data.Ontario,data.Care of household children under 18 years,data.65 years and over,data.Male,
-2015,data.Ontario,data.Care of household children under 18 years,data.65 years and over,data.Female,
-2015,data.Ontario,data.Care of household adults,"data.Total, 15 years and over",data.Both sexes,
-2015,data.Ontario,data.Care of household adults,"data.Total, 15 years and over",data.Male,
-2015,data.Ontario,data.Care of household adults,"data.Total, 15 years and over",data.Female,
-2015,data.Ontario,data.Care of household adults,data.15 to 24 years,data.Both sexes,
-2015,data.Ontario,data.Care of household adults,data.15 to 24 years,data.Male,
-2015,data.Ontario,data.Care of household adults,data.15 to 24 years,data.Female,0
-2015,data.Ontario,data.Care of household adults,data.25 to 54 years,data.Both sexes,
-2015,data.Ontario,data.Care of household adults,data.25 to 54 years,data.Male,
-2015,data.Ontario,data.Care of household adults,data.25 to 54 years,data.Female,
-2015,data.Ontario,data.Care of household adults,data.25 to 34 years,data.Both sexes,
-2015,data.Ontario,data.Care of household adults,data.25 to 34 years,data.Male,
-2015,data.Ontario,data.Care of household adults,data.25 to 34 years,data.Female,
-2015,data.Ontario,data.Care of household adults,data.35 to 44 years,data.Both sexes,
-2015,data.Ontario,data.Care of household adults,data.35 to 44 years,data.Male,
-2015,data.Ontario,data.Care of household adults,data.35 to 44 years,data.Female,
-2015,data.Ontario,data.Care of household adults,data.45 to 54 years,data.Both sexes,
-2015,data.Ontario,data.Care of household adults,data.45 to 54 years,data.Male,
-2015,data.Ontario,data.Care of household adults,data.45 to 54 years,data.Female,
-2015,data.Ontario,data.Care of household adults,data.55 to 64 years,data.Both sexes,
-2015,data.Ontario,data.Care of household adults,data.55 to 64 years,data.Male,
-2015,data.Ontario,data.Care of household adults,data.55 to 64 years,data.Female,
-2015,data.Ontario,data.Care of household adults,data.65 years and over,data.Both sexes,
-2015,data.Ontario,data.Care of household adults,data.65 years and over,data.Male,
-2015,data.Ontario,data.Care of household adults,data.65 years and over,data.Female,
-2015,data.Ontario,data.Shopping for goods or services,"data.Total, 15 years and over",data.Both sexes,2.1
-2015,data.Ontario,data.Shopping for goods or services,"data.Total, 15 years and over",data.Male,1.7
-2015,data.Ontario,data.Shopping for goods or services,"data.Total, 15 years and over",data.Female,2.5
-2015,data.Ontario,data.Shopping for goods or services,data.15 to 24 years,data.Both sexes,1.3
-2015,data.Ontario,data.Shopping for goods or services,data.15 to 24 years,data.Male,0.8
-2015,data.Ontario,data.Shopping for goods or services,data.15 to 24 years,data.Female,1.7
-2015,data.Ontario,data.Shopping for goods or services,data.25 to 54 years,data.Both sexes,1.7
-2015,data.Ontario,data.Shopping for goods or services,data.25 to 54 years,data.Male,1.3
-2015,data.Ontario,data.Shopping for goods or services,data.25 to 54 years,data.Female,2.1
-2015,data.Ontario,data.Shopping for goods or services,data.25 to 34 years,data.Both sexes,1.7
-2015,data.Ontario,data.Shopping for goods or services,data.25 to 34 years,data.Male,1.3
-2015,data.Ontario,data.Shopping for goods or services,data.25 to 34 years,data.Female,2.5
-2015,data.Ontario,data.Shopping for goods or services,data.35 to 44 years,data.Both sexes,1.7
-2015,data.Ontario,data.Shopping for goods or services,data.35 to 44 years,data.Male,1.7
-2015,data.Ontario,data.Shopping for goods or services,data.35 to 44 years,data.Female,2.1
-2015,data.Ontario,data.Shopping for goods or services,data.45 to 54 years,data.Both sexes,2.1
-2015,data.Ontario,data.Shopping for goods or services,data.45 to 54 years,data.Male,1.7
-2015,data.Ontario,data.Shopping for goods or services,data.45 to 54 years,data.Female,2.5
-2015,data.Ontario,data.Shopping for goods or services,data.55 to 64 years,data.Both sexes,2.5
-2015,data.Ontario,data.Shopping for goods or services,data.55 to 64 years,data.Male,1.7
-2015,data.Ontario,data.Shopping for goods or services,data.55 to 64 years,data.Female,2.9
-2015,data.Ontario,data.Shopping for goods or services,data.65 years and over,data.Both sexes,2.9
-2015,data.Ontario,data.Shopping for goods or services,data.65 years and over,data.Male,2.5
-2015,data.Ontario,data.Shopping for goods or services,data.65 years and over,data.Female,2.9
-2015,data.Prairies,data.Unpaid work activities,"data.Total, 15 years and over",data.Both sexes,12.9
-2015,data.Prairies,data.Unpaid work activities,"data.Total, 15 years and over",data.Male,10.4
-2015,data.Prairies,data.Unpaid work activities,"data.Total, 15 years and over",data.Female,15.8
-2015,data.Prairies,data.Unpaid work activities,data.15 to 24 years,data.Both sexes,6.7
-2015,data.Prairies,data.Unpaid work activities,data.15 to 24 years,data.Male,5
-2015,data.Prairies,data.Unpaid work activities,data.15 to 24 years,data.Female,8.3
-2015,data.Prairies,data.Unpaid work activities,data.25 to 54 years,data.Both sexes,14.2
-2015,data.Prairies,data.Unpaid work activities,data.25 to 54 years,data.Male,10.4
-2015,data.Prairies,data.Unpaid work activities,data.25 to 54 years,data.Female,17.9
-2015,data.Prairies,data.Unpaid work activities,data.25 to 34 years,data.Both sexes,12.5
-2015,data.Prairies,data.Unpaid work activities,data.25 to 34 years,data.Male,7.9
-2015,data.Prairies,data.Unpaid work activities,data.25 to 34 years,data.Female,17.5
-2015,data.Prairies,data.Unpaid work activities,data.35 to 44 years,data.Both sexes,15.8
-2015,data.Prairies,data.Unpaid work activities,data.35 to 44 years,data.Male,11.3
-2015,data.Prairies,data.Unpaid work activities,data.35 to 44 years,data.Female,20
-2015,data.Prairies,data.Unpaid work activities,data.45 to 54 years,data.Both sexes,14.2
-2015,data.Prairies,data.Unpaid work activities,data.45 to 54 years,data.Male,12.1
-2015,data.Prairies,data.Unpaid work activities,data.45 to 54 years,data.Female,16.3
-2015,data.Prairies,data.Unpaid work activities,data.55 to 64 years,data.Both sexes,13.3
-2015,data.Prairies,data.Unpaid work activities,data.55 to 64 years,data.Male,11.7
-2015,data.Prairies,data.Unpaid work activities,data.55 to 64 years,data.Female,15.4
-2015,data.Prairies,data.Unpaid work activities,data.65 years and over,data.Both sexes,16.3
-2015,data.Prairies,data.Unpaid work activities,data.65 years and over,data.Male,15
-2015,data.Prairies,data.Unpaid work activities,data.65 years and over,data.Female,17.1
-2015,data.Prairies,data.Household chores,"data.Total, 15 years and over",data.Both sexes,8.8
-2015,data.Prairies,data.Household chores,"data.Total, 15 years and over",data.Male,7.5
-2015,data.Prairies,data.Household chores,"data.Total, 15 years and over",data.Female,10.4
-2015,data.Prairies,data.Household chores,data.15 to 24 years,data.Both sexes,4.6
-2015,data.Prairies,data.Household chores,data.15 to 24 years,data.Male,3.3
-2015,data.Prairies,data.Household chores,data.15 to 24 years,data.Female,6.3
-2015,data.Prairies,data.Household chores,data.25 to 54 years,data.Both sexes,8.8
-2015,data.Prairies,data.Household chores,data.25 to 54 years,data.Male,7.1
-2015,data.Prairies,data.Household chores,data.25 to 54 years,data.Female,10.4
-2015,data.Prairies,data.Household chores,data.25 to 34 years,data.Both sexes,7.1
-2015,data.Prairies,data.Household chores,data.25 to 34 years,data.Male,5.4
-2015,data.Prairies,data.Household chores,data.25 to 34 years,data.Female,9.2
-2015,data.Prairies,data.Household chores,data.35 to 44 years,data.Both sexes,8.3
-2015,data.Prairies,data.Household chores,data.35 to 44 years,data.Male,6.3
-2015,data.Prairies,data.Household chores,data.35 to 44 years,data.Female,10.8
-2015,data.Prairies,data.Household chores,data.45 to 54 years,data.Both sexes,10.4
-2015,data.Prairies,data.Household chores,data.45 to 54 years,data.Male,9.6
-2015,data.Prairies,data.Household chores,data.45 to 54 years,data.Female,11.7
-2015,data.Prairies,data.Household chores,data.55 to 64 years,data.Both sexes,10
-2015,data.Prairies,data.Household chores,data.55 to 64 years,data.Male,9.2
-2015,data.Prairies,data.Household chores,data.55 to 64 years,data.Female,11.3
-2015,data.Prairies,data.Household chores,data.65 years and over,data.Both sexes,12.5
-2015,data.Prairies,data.Household chores,data.65 years and over,data.Male,11.7
-2015,data.Prairies,data.Household chores,data.65 years and over,data.Female,13.3
-2015,data.Prairies,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Both sexes,1.7
-2015,data.Prairies,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Male,0.8
-2015,data.Prairies,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Female,2.9
-2015,data.Prairies,data.Care of household children under 18 years,data.15 to 24 years,data.Both sexes,0.4
-2015,data.Prairies,data.Care of household children under 18 years,data.15 to 24 years,data.Male,
-2015,data.Prairies,data.Care of household children under 18 years,data.15 to 24 years,data.Female,0.8
-2015,data.Prairies,data.Care of household children under 18 years,data.25 to 54 years,data.Both sexes,3.3
-2015,data.Prairies,data.Care of household children under 18 years,data.25 to 54 years,data.Male,1.7
-2015,data.Prairies,data.Care of household children under 18 years,data.25 to 54 years,data.Female,5
-2015,data.Prairies,data.Care of household children under 18 years,data.25 to 34 years,data.Both sexes,3.3
-2015,data.Prairies,data.Care of household children under 18 years,data.25 to 34 years,data.Male,1.3
-2015,data.Prairies,data.Care of household children under 18 years,data.25 to 34 years,data.Female,5.8
-2015,data.Prairies,data.Care of household children under 18 years,data.35 to 44 years,data.Both sexes,5
-2015,data.Prairies,data.Care of household children under 18 years,data.35 to 44 years,data.Male,2.9
-2015,data.Prairies,data.Care of household children under 18 years,data.35 to 44 years,data.Female,7.1
-2015,data.Prairies,data.Care of household children under 18 years,data.45 to 54 years,data.Both sexes,1.3
-2015,data.Prairies,data.Care of household children under 18 years,data.45 to 54 years,data.Male,0.8
-2015,data.Prairies,data.Care of household children under 18 years,data.45 to 54 years,data.Female,1.3
-2015,data.Prairies,data.Care of household children under 18 years,data.55 to 64 years,data.Both sexes,
-2015,data.Prairies,data.Care of household children under 18 years,data.55 to 64 years,data.Male,
-2015,data.Prairies,data.Care of household children under 18 years,data.55 to 64 years,data.Female,
-2015,data.Prairies,data.Care of household children under 18 years,data.65 years and over,data.Both sexes,
-2015,data.Prairies,data.Care of household children under 18 years,data.65 years and over,data.Male,
-2015,data.Prairies,data.Care of household children under 18 years,data.65 years and over,data.Female,
-2015,data.Prairies,data.Care of household adults,"data.Total, 15 years and over",data.Both sexes,
-2015,data.Prairies,data.Care of household adults,"data.Total, 15 years and over",data.Male,
-2015,data.Prairies,data.Care of household adults,"data.Total, 15 years and over",data.Female,
-2015,data.Prairies,data.Care of household adults,data.15 to 24 years,data.Both sexes,
-2015,data.Prairies,data.Care of household adults,data.15 to 24 years,data.Male,
-2015,data.Prairies,data.Care of household adults,data.15 to 24 years,data.Female,0
-2015,data.Prairies,data.Care of household adults,data.25 to 54 years,data.Both sexes,
-2015,data.Prairies,data.Care of household adults,data.25 to 54 years,data.Male,
-2015,data.Prairies,data.Care of household adults,data.25 to 54 years,data.Female,
-2015,data.Prairies,data.Care of household adults,data.25 to 34 years,data.Both sexes,
-2015,data.Prairies,data.Care of household adults,data.25 to 34 years,data.Male,
-2015,data.Prairies,data.Care of household adults,data.25 to 34 years,data.Female,
-2015,data.Prairies,data.Care of household adults,data.35 to 44 years,data.Both sexes,
-2015,data.Prairies,data.Care of household adults,data.35 to 44 years,data.Male,
-2015,data.Prairies,data.Care of household adults,data.35 to 44 years,data.Female,
-2015,data.Prairies,data.Care of household adults,data.45 to 54 years,data.Both sexes,
-2015,data.Prairies,data.Care of household adults,data.45 to 54 years,data.Male,
-2015,data.Prairies,data.Care of household adults,data.45 to 54 years,data.Female,
-2015,data.Prairies,data.Care of household adults,data.55 to 64 years,data.Both sexes,
-2015,data.Prairies,data.Care of household adults,data.55 to 64 years,data.Male,
-2015,data.Prairies,data.Care of household adults,data.55 to 64 years,data.Female,
-2015,data.Prairies,data.Care of household adults,data.65 years and over,data.Both sexes,
-2015,data.Prairies,data.Care of household adults,data.65 years and over,data.Male,
-2015,data.Prairies,data.Care of household adults,data.65 years and over,data.Female,
-2015,data.Prairies,data.Shopping for goods or services,"data.Total, 15 years and over",data.Both sexes,2.1
-2015,data.Prairies,data.Shopping for goods or services,"data.Total, 15 years and over",data.Male,1.7
-2015,data.Prairies,data.Shopping for goods or services,"data.Total, 15 years and over",data.Female,2.1
-2015,data.Prairies,data.Shopping for goods or services,data.15 to 24 years,data.Both sexes,1.3
-2015,data.Prairies,data.Shopping for goods or services,data.15 to 24 years,data.Male,1.7
-2015,data.Prairies,data.Shopping for goods or services,data.15 to 24 years,data.Female,0.8
-2015,data.Prairies,data.Shopping for goods or services,data.25 to 54 years,data.Both sexes,1.7
-2015,data.Prairies,data.Shopping for goods or services,data.25 to 54 years,data.Male,1.3
-2015,data.Prairies,data.Shopping for goods or services,data.25 to 54 years,data.Female,2.1
-2015,data.Prairies,data.Shopping for goods or services,data.25 to 34 years,data.Both sexes,1.7
-2015,data.Prairies,data.Shopping for goods or services,data.25 to 34 years,data.Male,0.8
-2015,data.Prairies,data.Shopping for goods or services,data.25 to 34 years,data.Female,2.1
-2015,data.Prairies,data.Shopping for goods or services,data.35 to 44 years,data.Both sexes,2.1
-2015,data.Prairies,data.Shopping for goods or services,data.35 to 44 years,data.Male,2.1
-2015,data.Prairies,data.Shopping for goods or services,data.35 to 44 years,data.Female,2.1
-2015,data.Prairies,data.Shopping for goods or services,data.45 to 54 years,data.Both sexes,2.1
-2015,data.Prairies,data.Shopping for goods or services,data.45 to 54 years,data.Male,1.3
-2015,data.Prairies,data.Shopping for goods or services,data.45 to 54 years,data.Female,2.5
-2015,data.Prairies,data.Shopping for goods or services,data.55 to 64 years,data.Both sexes,2.5
-2015,data.Prairies,data.Shopping for goods or services,data.55 to 64 years,data.Male,2.1
-2015,data.Prairies,data.Shopping for goods or services,data.55 to 64 years,data.Female,2.5
-2015,data.Prairies,data.Shopping for goods or services,data.65 years and over,data.Both sexes,2.9
-2015,data.Prairies,data.Shopping for goods or services,data.65 years and over,data.Male,2.9
-2015,data.Prairies,data.Shopping for goods or services,data.65 years and over,data.Female,2.9
-2015,data.British Columbia,data.Unpaid work activities,"data.Total, 15 years and over",data.Both sexes,12.5
-2015,data.British Columbia,data.Unpaid work activities,"data.Total, 15 years and over",data.Male,10.4
-2015,data.British Columbia,data.Unpaid work activities,"data.Total, 15 years and over",data.Female,14.2
-2015,data.British Columbia,data.Unpaid work activities,data.15 to 24 years,data.Both sexes,5.4
-2015,data.British Columbia,data.Unpaid work activities,data.15 to 24 years,data.Male,3.3
-2015,data.British Columbia,data.Unpaid work activities,data.15 to 24 years,data.Female,7.9
-2015,data.British Columbia,data.Unpaid work activities,data.25 to 54 years,data.Both sexes,13.3
-2015,data.British Columbia,data.Unpaid work activities,data.25 to 54 years,data.Male,10.8
-2015,data.British Columbia,data.Unpaid work activities,data.25 to 54 years,data.Female,15.4
-2015,data.British Columbia,data.Unpaid work activities,data.25 to 34 years,data.Both sexes,11.3
-2015,data.British Columbia,data.Unpaid work activities,data.25 to 34 years,data.Male,8.3
-2015,data.British Columbia,data.Unpaid work activities,data.25 to 34 years,data.Female,14.2
-2015,data.British Columbia,data.Unpaid work activities,data.35 to 44 years,data.Both sexes,13.3
-2015,data.British Columbia,data.Unpaid work activities,data.35 to 44 years,data.Male,10.8
-2015,data.British Columbia,data.Unpaid work activities,data.35 to 44 years,data.Female,16.3
-2015,data.British Columbia,data.Unpaid work activities,data.45 to 54 years,data.Both sexes,14.6
-2015,data.British Columbia,data.Unpaid work activities,data.45 to 54 years,data.Male,13.3
-2015,data.British Columbia,data.Unpaid work activities,data.45 to 54 years,data.Female,16.3
-2015,data.British Columbia,data.Unpaid work activities,data.55 to 64 years,data.Both sexes,13.3
-2015,data.British Columbia,data.Unpaid work activities,data.55 to 64 years,data.Male,12.5
-2015,data.British Columbia,data.Unpaid work activities,data.55 to 64 years,data.Female,14.6
-2015,data.British Columbia,data.Unpaid work activities,data.65 years and over,data.Both sexes,15
-2015,data.British Columbia,data.Unpaid work activities,data.65 years and over,data.Male,13.3
-2015,data.British Columbia,data.Unpaid work activities,data.65 years and over,data.Female,15.8
-2015,data.British Columbia,data.Household chores,"data.Total, 15 years and over",data.Both sexes,8.3
-2015,data.British Columbia,data.Household chores,"data.Total, 15 years and over",data.Male,7.5
-2015,data.British Columbia,data.Household chores,"data.Total, 15 years and over",data.Female,9.6
-2015,data.British Columbia,data.Household chores,data.15 to 24 years,data.Both sexes,2.9
-2015,data.British Columbia,data.Household chores,data.15 to 24 years,data.Male,2.1
-2015,data.British Columbia,data.Household chores,data.15 to 24 years,data.Female,3.8
-2015,data.British Columbia,data.Household chores,data.25 to 54 years,data.Both sexes,8.3
-2015,data.British Columbia,data.Household chores,data.25 to 54 years,data.Male,7.1
-2015,data.British Columbia,data.Household chores,data.25 to 54 years,data.Female,9.6
-2015,data.British Columbia,data.Household chores,data.25 to 34 years,data.Both sexes,6.7
-2015,data.British Columbia,data.Household chores,data.25 to 34 years,data.Male,5
-2015,data.British Columbia,data.Household chores,data.25 to 34 years,data.Female,8.3
-2015,data.British Columbia,data.Household chores,data.35 to 44 years,data.Both sexes,7.5
-2015,data.British Columbia,data.Household chores,data.35 to 44 years,data.Male,5.8
-2015,data.British Columbia,data.Household chores,data.35 to 44 years,data.Female,8.8
-2015,data.British Columbia,data.Household chores,data.45 to 54 years,data.Both sexes,11.3
-2015,data.British Columbia,data.Household chores,data.45 to 54 years,data.Male,10.4
-2015,data.British Columbia,data.Household chores,data.45 to 54 years,data.Female,12.1
-2015,data.British Columbia,data.Household chores,data.55 to 64 years,data.Both sexes,10.4
-2015,data.British Columbia,data.Household chores,data.55 to 64 years,data.Male,9.6
-2015,data.British Columbia,data.Household chores,data.55 to 64 years,data.Female,10.8
-2015,data.British Columbia,data.Household chores,data.65 years and over,data.Both sexes,11.3
-2015,data.British Columbia,data.Household chores,data.65 years and over,data.Male,10
-2015,data.British Columbia,data.Household chores,data.65 years and over,data.Female,12.5
-2015,data.British Columbia,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Both sexes,1.3
-2015,data.British Columbia,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Male,1.3
-2015,data.British Columbia,data.Care of household children under 18 years,"data.Total, 15 years and over",data.Female,1.7
-2015,data.British Columbia,data.Care of household children under 18 years,data.15 to 24 years,data.Both sexes,
-2015,data.British Columbia,data.Care of household children under 18 years,data.15 to 24 years,data.Male,0
-2015,data.British Columbia,data.Care of household children under 18 years,data.15 to 24 years,data.Female,
-2015,data.British Columbia,data.Care of household children under 18 years,data.25 to 54 years,data.Both sexes,2.5
-2015,data.British Columbia,data.Care of household children under 18 years,data.25 to 54 years,data.Male,2.1
-2015,data.British Columbia,data.Care of household children under 18 years,data.25 to 54 years,data.Female,2.9
-2015,data.British Columbia,data.Care of household children under 18 years,data.25 to 34 years,data.Both sexes,2.5
-2015,data.British Columbia,data.Care of household children under 18 years,data.25 to 34 years,data.Male,1.7
-2015,data.British Columbia,data.Care of household children under 18 years,data.25 to 34 years,data.Female,3.3
-2015,data.British Columbia,data.Care of household children under 18 years,data.35 to 44 years,data.Both sexes,4.2
-2015,data.British Columbia,data.Care of household children under 18 years,data.35 to 44 years,data.Male,3.8
-2015,data.British Columbia,data.Care of household children under 18 years,data.35 to 44 years,data.Female,5
-2015,data.British Columbia,data.Care of household children under 18 years,data.45 to 54 years,data.Both sexes,1.3
-2015,data.British Columbia,data.Care of household children under 18 years,data.45 to 54 years,data.Male,0.8
-2015,data.British Columbia,data.Care of household children under 18 years,data.45 to 54 years,data.Female,1.3
-2015,data.British Columbia,data.Care of household children under 18 years,data.55 to 64 years,data.Both sexes,
-2015,data.British Columbia,data.Care of household children under 18 years,data.55 to 64 years,data.Male,
-2015,data.British Columbia,data.Care of household children under 18 years,data.55 to 64 years,data.Female,
-2015,data.British Columbia,data.Care of household children under 18 years,data.65 years and over,data.Both sexes,
-2015,data.British Columbia,data.Care of household children under 18 years,data.65 years and over,data.Male,
-2015,data.British Columbia,data.Care of household children under 18 years,data.65 years and over,data.Female,
-2015,data.British Columbia,data.Care of household adults,"data.Total, 15 years and over",data.Both sexes,
-2015,data.British Columbia,data.Care of household adults,"data.Total, 15 years and over",data.Male,
-2015,data.British Columbia,data.Care of household adults,"data.Total, 15 years and over",data.Female,
-2015,data.British Columbia,data.Care of household adults,data.15 to 24 years,data.Both sexes,
-2015,data.British Columbia,data.Care of household adults,data.15 to 24 years,data.Male,
-2015,data.British Columbia,data.Care of household adults,data.15 to 24 years,data.Female,0
-2015,data.British Columbia,data.Care of household adults,data.25 to 54 years,data.Both sexes,
-2015,data.British Columbia,data.Care of household adults,data.25 to 54 years,data.Male,
-2015,data.British Columbia,data.Care of household adults,data.25 to 54 years,data.Female,
-2015,data.British Columbia,data.Care of household adults,data.25 to 34 years,data.Both sexes,
-2015,data.British Columbia,data.Care of household adults,data.25 to 34 years,data.Male,0
-2015,data.British Columbia,data.Care of household adults,data.25 to 34 years,data.Female,
-2015,data.British Columbia,data.Care of household adults,data.35 to 44 years,data.Both sexes,
-2015,data.British Columbia,data.Care of household adults,data.35 to 44 years,data.Male,
-2015,data.British Columbia,data.Care of household adults,data.35 to 44 years,data.Female,
-2015,data.British Columbia,data.Care of household adults,data.45 to 54 years,data.Both sexes,
-2015,data.British Columbia,data.Care of household adults,data.45 to 54 years,data.Male,
-2015,data.British Columbia,data.Care of household adults,data.45 to 54 years,data.Female,
-2015,data.British Columbia,data.Care of household adults,data.55 to 64 years,data.Both sexes,
-2015,data.British Columbia,data.Care of household adults,data.55 to 64 years,data.Male,
-2015,data.British Columbia,data.Care of household adults,data.55 to 64 years,data.Female,
-2015,data.British Columbia,data.Care of household adults,data.65 years and over,data.Both sexes,
-2015,data.British Columbia,data.Care of household adults,data.65 years and over,data.Male,
-2015,data.British Columbia,data.Care of household adults,data.65 years and over,data.Female,
-2015,data.British Columbia,data.Shopping for goods or services,"data.Total, 15 years and over",data.Both sexes,2.1
-2015,data.British Columbia,data.Shopping for goods or services,"data.Total, 15 years and over",data.Male,1.7
-2015,data.British Columbia,data.Shopping for goods or services,"data.Total, 15 years and over",data.Female,2.5
-2015,data.British Columbia,data.Shopping for goods or services,data.15 to 24 years,data.Both sexes,2.5
-2015,data.British Columbia,data.Shopping for goods or services,data.15 to 24 years,data.Male,
-2015,data.British Columbia,data.Shopping for goods or services,data.15 to 24 years,data.Female,3.8
-2015,data.British Columbia,data.Shopping for goods or services,data.25 to 54 years,data.Both sexes,1.7
-2015,data.British Columbia,data.Shopping for goods or services,data.25 to 54 years,data.Male,1.3
-2015,data.British Columbia,data.Shopping for goods or services,data.25 to 54 years,data.Female,2.1
-2015,data.British Columbia,data.Shopping for goods or services,data.25 to 34 years,data.Both sexes,1.7
-2015,data.British Columbia,data.Shopping for goods or services,data.25 to 34 years,data.Male,1.3
-2015,data.British Columbia,data.Shopping for goods or services,data.25 to 34 years,data.Female,1.7
-2015,data.British Columbia,data.Shopping for goods or services,data.35 to 44 years,data.Both sexes,1.7
-2015,data.British Columbia,data.Shopping for goods or services,data.35 to 44 years,data.Male,0.8
-2015,data.British Columbia,data.Shopping for goods or services,data.35 to 44 years,data.Female,2.1
-2015,data.British Columbia,data.Shopping for goods or services,data.45 to 54 years,data.Both sexes,2.1
-2015,data.British Columbia,data.Shopping for goods or services,data.45 to 54 years,data.Male,2.1
-2015,data.British Columbia,data.Shopping for goods or services,data.45 to 54 years,data.Female,2.5
-2015,data.British Columbia,data.Shopping for goods or services,data.55 to 64 years,data.Both sexes,2.5
-2015,data.British Columbia,data.Shopping for goods or services,data.55 to 64 years,data.Male,2.5
-2015,data.British Columbia,data.Shopping for goods or services,data.55 to 64 years,data.Female,2.5
-2015,data.British Columbia,data.Shopping for goods or services,data.65 years and over,data.Both sexes,2.5
-2015,data.British Columbia,data.Shopping for goods or services,data.65 years and over,data.Male,2.5
-2015,data.British Columbia,data.Shopping for goods or services,data.65 years and over,data.Female,2.5
+"Year","data.Leadership position","Value"
+"2002","data.Members of national Parliament",21.1
+"2003","data.Members of national Parliament",20.9
+"2004","data.Members of national Parliament",21.2
+"2005","data.Members of national Parliament",21.1
+"2006","data.Members of national Parliament",20.8
+"2007","data.Members of national Parliament",20.9
+"2008","data.Members of national Parliament",21.3
+"2009","data.Members of national Parliament",22.3
+"2010","data.Members of national Parliament",21.8
+"2011","data.Members of national Parliament",24.7
+"2012","data.Members of national Parliament",24.8
+"2013","data.Members of national Parliament",24.8
+"2014","data.Members of national Parliament",24.8
+"2015","data.Members of national Parliament",25.3
+"2016","data.Members of national Parliament",26.1
+"2017","data.Members of national Parliament",27.2
+"2018","data.Members of national Parliament",27
+"2019","data.Members of national Parliament",27.2
+"2020","data.Members of national Parliament",29
+"2021","data.Members of national Parliament",29.4
+"2022","data.Members of national Parliament",30.6
+"2023","data.Members of national Parliament",30.6
+"2002","data.Members of federal Cabinet",24.3
+"2003","data.Members of federal Cabinet",23.7
+"2004","data.Members of federal Cabinet",28.9
+"2005","data.Members of federal Cabinet",24.3
+"2006","data.Members of federal Cabinet",20.8
+"2007","data.Members of federal Cabinet",20
+"2008","data.Members of federal Cabinet",20
+"2009","data.Members of federal Cabinet",27
+"2010","data.Members of federal Cabinet",25
+"2011","data.Members of federal Cabinet",23.7
+"2012","data.Members of federal Cabinet",23.7
+"2013","data.Members of federal Cabinet",25
+"2014","data.Members of federal Cabinet",30.8
+"2015","data.Members of federal Cabinet",30.8
+"2016","data.Members of federal Cabinet",50
+"2017","data.Members of federal Cabinet",50
+"2018","data.Members of federal Cabinet",50
+"2019","data.Members of federal Cabinet",48.6
+"2020","data.Members of federal Cabinet",48.6
+"2021","data.Members of federal Cabinet",48.6
+"2022","data.Members of federal Cabinet",48.7
+"2023","data.Members of federal Cabinet",48.7
+"2002","data.All management occupations",33
+"2002","data.Legislative and senior management occupations",25.5
+"2002","data.Specialized middle management occupations",42.1
+"2002","data.Middle management occupations in retail and wholesale trade and customer services",40.2
+"2002","data.Middle management occupations in trades, transportation, production and utilities",16.2
+"2003","data.All management occupations",34.6
+"2003","data.Legislative and senior management occupations",24.8
+"2003","data.Specialized middle management occupations",46.3
+"2003","data.Middle management occupations in retail and wholesale trade and customer services",40.9
+"2003","data.Middle management occupations in trades, transportation, production and utilities",16.9
+"2004","data.All management occupations",35.4
+"2004","data.Legislative and senior management occupations",22.1
+"2004","data.Specialized middle management occupations",47.7
+"2004","data.Middle management occupations in retail and wholesale trade and customer services",42.1
+"2004","data.Middle management occupations in trades, transportation, production and utilities",17.7
+"2005","data.All management occupations",34.8
+"2005","data.Legislative and senior management occupations",24.1
+"2005","data.Specialized middle management occupations",47.5
+"2005","data.Middle management occupations in retail and wholesale trade and customer services",41.5
+"2005","data.Middle management occupations in trades, transportation, production and utilities",16.2
+"2006","data.All management occupations",35
+"2006","data.Legislative and senior management occupations",26.1
+"2006","data.Specialized middle management occupations",45.3
+"2006","data.Middle management occupations in retail and wholesale trade and customer services",42.6
+"2006","data.Middle management occupations in trades, transportation, production and utilities",17.2
+"2007","data.All management occupations",35.6
+"2007","data.Legislative and senior management occupations",26.1
+"2007","data.Specialized middle management occupations",47.7
+"2007","data.Middle management occupations in retail and wholesale trade and customer services",42.2
+"2007","data.Middle management occupations in trades, transportation, production and utilities",17.5
+"2008","data.All management occupations",34.7
+"2008","data.Legislative and senior management occupations",29.1
+"2008","data.Specialized middle management occupations",45.2
+"2008","data.Middle management occupations in retail and wholesale trade and customer services",42.4
+"2008","data.Middle management occupations in trades, transportation, production and utilities",16.3
+"2009","data.All management occupations",35.4
+"2009","data.Legislative and senior management occupations",31.1
+"2009","data.Specialized middle management occupations",48.4
+"2009","data.Middle management occupations in retail and wholesale trade and customer services",41.4
+"2009","data.Middle management occupations in trades, transportation, production and utilities",17
+"2010","data.All management occupations",35.4
+"2010","data.Legislative and senior management occupations",31.7
+"2010","data.Specialized middle management occupations",48.5
+"2010","data.Middle management occupations in retail and wholesale trade and customer services",41.6
+"2010","data.Middle management occupations in trades, transportation, production and utilities",16.2
+"2011","data.All management occupations",35.6
+"2011","data.Legislative and senior management occupations",27.8
+"2011","data.Specialized middle management occupations",49.7
+"2011","data.Middle management occupations in retail and wholesale trade and customer services",42.2
+"2011","data.Middle management occupations in trades, transportation, production and utilities",15.4
+"2012","data.All management occupations",35.4
+"2012","data.Legislative and senior management occupations",26.7
+"2012","data.Specialized middle management occupations",49.5
+"2012","data.Middle management occupations in retail and wholesale trade and customer services",40.9
+"2012","data.Middle management occupations in trades, transportation, production and utilities",16.2
+"2013","data.All management occupations",34.4
+"2013","data.Legislative and senior management occupations",28.1
+"2013","data.Specialized middle management occupations",47.6
+"2013","data.Middle management occupations in retail and wholesale trade and customer services",41.3
+"2013","data.Middle management occupations in trades, transportation, production and utilities",15.5
+"2014","data.All management occupations",34.6
+"2014","data.Legislative and senior management occupations",30.6
+"2014","data.Specialized middle management occupations",46
+"2014","data.Middle management occupations in retail and wholesale trade and customer services",42.3
+"2014","data.Middle management occupations in trades, transportation, production and utilities",16.2
+"2015","data.All management occupations",34.9
+"2015","data.Legislative and senior management occupations",30.5
+"2015","data.Specialized middle management occupations",46.9
+"2015","data.Middle management occupations in retail and wholesale trade and customer services",41.5
+"2015","data.Middle management occupations in trades, transportation, production and utilities",17.3
+"2016","data.All management occupations",34.7
+"2016","data.Legislative and senior management occupations",36.5
+"2016","data.Specialized middle management occupations",46.8
+"2016","data.Middle management occupations in retail and wholesale trade and customer services",40.2
+"2016","data.Middle management occupations in trades, transportation, production and utilities",16.9
+"2017","data.All management occupations",34.6
+"2017","data.Legislative and senior management occupations",29.6
+"2017","data.Specialized middle management occupations",47.7
+"2017","data.Middle management occupations in retail and wholesale trade and customer services",38.7
+"2017","data.Middle management occupations in trades, transportation, production and utilities",17.6
+"2018","data.All management occupations",34.8
+"2018","data.Legislative and senior management occupations",32.9
+"2018","data.Specialized middle management occupations",48.1
+"2018","data.Middle management occupations in retail and wholesale trade and customer services",38.1
+"2018","data.Middle management occupations in trades, transportation, production and utilities",18.3
+"2019","data.All management occupations",35.2
+"2019","data.Legislative and senior management occupations",32.2
+"2019","data.Specialized middle management occupations",51.4
+"2019","data.Middle management occupations in retail and wholesale trade and customer services",38.8
+"2019","data.Middle management occupations in trades, transportation, production and utilities",16.2
+"2020","data.All management occupations",35.9
+"2020","data.Legislative and senior management occupations",28.9
+"2020","data.Specialized middle management occupations",50
+"2020","data.Middle management occupations in retail and wholesale trade and customer services",39.3
+"2020","data.Middle management occupations in trades, transportation, production and utilities",17.5
+"2021","data.All management occupations",35.7
+"2021","data.Legislative and senior management occupations",29.9
+"2021","data.Specialized middle management occupations",49.3
+"2021","data.Middle management occupations in retail and wholesale trade and customer services",40.3
+"2021","data.Middle management occupations in trades, transportation, production and utilities",17.1
+"2022","data.All management occupations",35.3
+"2022","data.Legislative and senior management occupations",31.4
+"2022","data.Specialized middle management occupations",47.8
+"2022","data.Middle management occupations in retail and wholesale trade and customer services",39.9
+"2022","data.Middle management occupations in trades, transportation, production and utilities",16.8
+"2023","data.All management occupations",35.3
+"2023","data.Legislative and senior management occupations",30.1
+"2023","data.Specialized middle management occupations",47.9
+"2023","data.Middle management occupations in retail and wholesale trade and customer services",37.8
+"2023","data.Middle management occupations in trades, transportation, production and utilities",17.7
+"2021","data.Federally appointed judges",43.8
+"2022","data.Federally appointed judges",45.3
+"2023","data.Federally appointed judges",46.7
+"2002","data.Chiefs in First Nation communities",14.9
+"2002","data.First Nations council members",27
+"2003","data.Chiefs in First Nation communities",16.4
+"2003","data.First Nations council members",27.1
+"2004","data.Chiefs in First Nation communities",15.5
+"2004","data.First Nations council members",27.6
+"2005","data.Chiefs in First Nation communities",16
+"2005","data.First Nations council members",28.6
+"2006","data.Chiefs in First Nation communities",17.3
+"2006","data.First Nations council members",29.2
+"2007","data.Chiefs in First Nation communities",18.7
+"2007","data.First Nations council members",30.3
+"2008","data.Chiefs in First Nation communities",20.1
+"2008","data.First Nations council members",31
+"2009","data.Chiefs in First Nation communities",18.8
+"2009","data.First Nations council members",31
+"2010","data.Chiefs in First Nation communities",19
+"2010","data.First Nations council members",29
+"2011","data.Chiefs in First Nation communities",17.8
+"2011","data.First Nations council members",29.1
+"2012","data.Chiefs in First Nation communities",16.5
+"2012","data.First Nations council members",29.4
+"2013","data.Chiefs in First Nation communities",17.1
+"2013","data.First Nations council members",28.7
+"2014","data.Chiefs in First Nation communities",18.6
+"2014","data.First Nations council members",29
+"2015","data.Chiefs in First Nation communities",19.5
+"2015","data.First Nations council members",30.5
+"2016","data.Chiefs in First Nation communities",19.7
+"2016","data.First Nations council members",30.7
+"2017","data.Chiefs in First Nation communities",18.8
+"2017","data.First Nations council members",28.6
+"2018","data.Chiefs in First Nation communities",20.4
+"2018","data.First Nations council members",28.2
+"2019","data.Chiefs in First Nation communities",18.5
+"2019","data.First Nations council members",27.4
