@@ -15,59 +15,20 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "data.Leadership position",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Atlantic",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Prairies",
-                "data.British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Activity group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Unpaid work activities",
-                "data.Household chores",
-                "data.Care of household children under 18 years",
-                "data.Care of household adults",
-                "data.Shopping for goods or services",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, 15 years and over",
-                "data.15 to 24 years",
-                "data.25 to 54 years",
-                "data.25 to 34 years",
-                "data.35 to 44 years",
-                "data.45 to 54 years",
-                "data.55 to 64 years",
-                "data.65 years and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Both sexes",
-                "data.Male",
-                "data.Female",
+                "data.Members of national Parliament",
+                "data.Members of federal Cabinet",
+                "data.All management occupations",
+                "data.Legislative and senior management occupations",
+                "data.Specialized middle management occupations",
+                "data.Middle management occupations in retail and wholesale trade and customer services",
+                "data.Middle management occupations in trades, transportation, production and utilities",
+                "data.Federally appointed judges",
+                "data.Chiefs in First Nation communities",
+                "data.First Nations council members",
                 ""
               ]
             }
@@ -82,5 +43,5 @@
   ],
   "profile": "data-package",
   "name": "5-3-1",
-  "title": "Proportion of time spent on unpaid domestic and care work"
+  "title": "Proportion of leadership roles held by women"
 }

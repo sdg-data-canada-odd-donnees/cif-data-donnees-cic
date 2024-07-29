@@ -2642,66 +2642,24 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "data.Leadership position",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Atlantique",
-                "Québec",
-                "Ontario",
-                "Prairies",
-                "Colombie-Britannique",
+                "Parlement national",
+                "Cabinet fédéral",
+                "Gestion",
+                "Membres des corps législatifs et cadres supérieures",
+                "Cadres intermédiaires spécialisées",
+                "Cadres intermédiaires dans le commerce de détail, de gros et des services à la clientèle",
+                "Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique",
+                "Juges nommées par le gouvernement fédéral",
+                "Chefs dans les communautés des Premières Nations",
+                "Membres de conseil des Premières Nations",
                 ""
               ]
             },
-            "title": "Géographie"
-          },
-          {
-            "name": "data.Activity group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Activités de travail non-rémunéré",
-                "Tâches domestiques",
-                "Soins à un enfant du ménage de moins de 18 ans",
-                "Soins à un adulte du ménage",
-                "Magasinage de biens ou de services",
-                ""
-              ]
-            },
-            "title": "Groupe d'activité"
-          },
-          {
-            "name": "data.Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total, 15 ans et plus",
-                "15 à 24 ans",
-                "25 à 54 ans",
-                "25 à 34 ans",
-                "35 à 44 ans",
-                "45 à 54 ans",
-                "55 à 64 ans",
-                "65 ans et plus",
-                ""
-              ]
-            },
-            "title": "Âge"
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Les deux sexes",
-                "Homme",
-                "Femme",
-                ""
-              ]
-            },
-            "title": "Sexe"
+            "title": "Rôles de leadership"
           },
           {
             "name": "Value",
@@ -2710,7 +2668,7 @@
           }
         ]
       },
-      "title": "Proportion of time spent on unpaid domestic and care work"
+      "title": "Proportion of leadership roles held by women"
     },
     {
       "path": "3-14-1/data.csv",
@@ -3978,63 +3936,6 @@
       "title": "Proportion of children aged 0 to 5 years who use any forms of early learning and child care services"
     },
     {
-      "path": "5-1-2/data.csv",
-      "name": "5-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Année"
-          },
-          {
-            "name": "data.Type of intimate partner violence",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Violence psychologique ou exploitation financière",
-                "Violence physique",
-                "Violence sexuelle",
-                "Total de tous les types de violence",
-                ""
-              ]
-            },
-            "title": "Type de violence entre partenaires intimes"
-          },
-          {
-            "name": "data.Selected characteristic",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total, toutes les femmes",
-                "Femmes de 15 à 24 ans",
-                "Femmes séparées ou divorcées",
-                "Femmes LGBTQ2",
-                "Femmes célibataires",
-                "Femmes des Premières Nations, métisses ou inuites",
-                "Femmes ayant une incapacité",
-                "Femmes immigrantes",
-                "Femmes désignées comme minorités visibles",
-                ""
-              ]
-            },
-            "title": "Caractéristiques sélectionnées"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valeur"
-          }
-        ]
-      },
-      "title": "Proportion of women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the last 12 months"
-    },
-    {
       "path": "8-3-1/data.csv",
       "name": "8-3-1",
       "profile": "tabular-data-resource",
@@ -4350,6 +4251,104 @@
       "title": "Proportion of native wild species ranked secure or apparently secure according to the national extinction risk level"
     },
     {
+      "path": "5-5-1/data.csv",
+      "name": "5-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "data.Type of work",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ensemble des employés à temps plein et à temps partiel",
+                "Employés à temps plein",
+                "Employés à temps partiel",
+                ""
+              ]
+            },
+            "title": "Genre de travail"
+          },
+          {
+            "name": "data.National Occupational Classification (NOC)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total des employés, toutes les professions",
+                "Gestion",
+                "Affaires, finance et administration",
+                "Sciences naturelles et appliquées et domaines apparentés",
+                "Secteur de la santé",
+                "Enseignement, droit et services sociaux, communautaires et gouvernementaux",
+                "Arts, culture, sports et loisirs",
+                "Vente et services",
+                "Métiers, transport, machinerie et domaines apparentés",
+                "Ressources naturelles, agriculture et production connexe",
+                "Fabrication et services d'utilité publique",
+                ""
+              ]
+            },
+            "title": "Classification nationale des professions (CNP)"
+          },
+          {
+            "name": "data.Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 à 24 ans",
+                "25 à 54 ans",
+                "55 ans et plus",
+                "15 ans et plus",
+                ""
+              ]
+            },
+            "title": "Âge"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Median hourly wage ratio"
+    },
+    {
       "path": "3-5-1/data.csv",
       "name": "3-5-1",
       "profile": "tabular-data-resource",
@@ -4492,24 +4491,37 @@
             "title": "Année"
           },
           {
-            "name": "data.Leadership position",
+            "name": "data.Type of intimate partner violence",
             "type": "string",
             "constraints": {
               "enum": [
-                "Parlement national",
-                "Cabinet fédéral",
-                "Gestion",
-                "Membres des corps législatifs et cadres supérieures",
-                "Cadres intermédiaires spécialisées",
-                "Cadres intermédiaires dans le commerce de détail, de gros et des services à la clientèle",
-                "Cadres intermédiaires des métiers, des transports, de la production et des services d'utilité publique",
-                "Juges nommées par le gouvernement fédéral",
-                "Chefs dans les communautés des Premières Nations",
-                "Membres de conseil des Premières Nations",
+                "Violence psychologique ou exploitation financière",
+                "Violence physique",
+                "Violence sexuelle",
+                "Total de tous les types de violence",
                 ""
               ]
             },
-            "title": "Rôles de leadership"
+            "title": "Type de violence entre partenaires intimes"
+          },
+          {
+            "name": "data.Selected characteristic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, toutes les femmes",
+                "Femmes de 15 à 24 ans",
+                "Femmes séparées ou divorcées",
+                "Femmes LGBTQ2",
+                "Femmes célibataires",
+                "Femmes des Premières Nations, métisses ou inuites",
+                "Femmes ayant une incapacité",
+                "Femmes immigrantes",
+                "Femmes désignées comme minorités visibles",
+                ""
+              ]
+            },
+            "title": "Caractéristiques sélectionnées"
           },
           {
             "name": "Value",
@@ -4518,7 +4530,7 @@
           }
         ]
       },
-      "title": "Proportion of leadership roles held by women"
+      "title": "Proportion of women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the last 12 months"
     },
     {
       "path": "14-1-1/data.csv",
@@ -4809,15 +4821,10 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
+                "Atlantique",
                 "Québec",
                 "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
+                "Prairies",
                 "Colombie-Britannique",
                 ""
               ]
@@ -4825,52 +4832,50 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Type of work",
+            "name": "data.Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ensemble des employés à temps plein et à temps partiel",
-                "Employés à temps plein",
-                "Employés à temps partiel",
+                "Activités de travail non-rémunéré",
+                "Tâches domestiques",
+                "Soins à un enfant du ménage de moins de 18 ans",
+                "Soins à un adulte du ménage",
+                "Magasinage de biens ou de services",
                 ""
               ]
             },
-            "title": "Genre de travail"
-          },
-          {
-            "name": "data.National Occupational Classification (NOC)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total des employés, toutes les professions",
-                "Gestion",
-                "Affaires, finance et administration",
-                "Sciences naturelles et appliquées et domaines apparentés",
-                "Secteur de la santé",
-                "Enseignement, droit et services sociaux, communautaires et gouvernementaux",
-                "Arts, culture, sports et loisirs",
-                "Vente et services",
-                "Métiers, transport, machinerie et domaines apparentés",
-                "Ressources naturelles, agriculture et production connexe",
-                "Fabrication et services d'utilité publique",
-                ""
-              ]
-            },
-            "title": "Classification nationale des professions (CNP)"
+            "title": "Groupe d'activité"
           },
           {
             "name": "data.Age",
             "type": "string",
             "constraints": {
               "enum": [
+                "Total, 15 ans et plus",
                 "15 à 24 ans",
                 "25 à 54 ans",
-                "55 ans et plus",
-                "15 ans et plus",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                "65 ans et plus",
                 ""
               ]
             },
             "title": "Âge"
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Les deux sexes",
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Sexe"
           },
           {
             "name": "GeoCode",
@@ -4884,7 +4889,7 @@
           }
         ]
       },
-      "title": "Median hourly wage ratio"
+      "title": "Proportion of time spent on unpaid domestic and care work"
     },
     {
       "path": "13-1-1/data.csv",

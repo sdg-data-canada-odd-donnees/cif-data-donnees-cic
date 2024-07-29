@@ -20,48 +20,25 @@
             "constraints": {
               "enum": [
                 "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
+                "data.Atlantic",
                 "data.Quebec",
                 "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
+                "data.Prairies",
                 "data.British Columbia",
                 ""
               ]
             }
           },
           {
-            "name": "data.Type of work",
+            "name": "data.Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Both full- and part-time employees",
-                "data.Full-time employees",
-                "data.Part-time employees",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.National Occupational Classification (NOC)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total employees, all occupations",
-                "data.Management occupations",
-                "data.Business, finance and administration occupations",
-                "data.Natural and applied sciences and related occupations",
-                "data.Health occupations",
-                "data.Occupations in education, law and social, community and government services",
-                "data.Occupations in art, culture, recreation and sport",
-                "data.Sales and service occupations",
-                "data.Trades, transport and equipment operators and related occupations",
-                "data.Natural resources, agriculture and related production occupations",
-                "data.Occupations in manufacturing and utilities",
+                "data.Unpaid work activities",
+                "data.Household chores",
+                "data.Care of household children under 18 years",
+                "data.Care of household adults",
+                "data.Shopping for goods or services",
                 ""
               ]
             }
@@ -71,10 +48,26 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Total, 15 years and over",
                 "data.15 to 24 years",
                 "data.25 to 54 years",
-                "data.55 years and over",
-                "data.15 years and over",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                "data.65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Both sexes",
+                "data.Male",
+                "data.Female",
                 ""
               ]
             }
@@ -93,5 +86,5 @@
   ],
   "profile": "data-package",
   "name": "5-4-1",
-  "title": "Median hourly wage ratio"
+  "title": "Proportion of time spent on unpaid domestic and care work"
 }

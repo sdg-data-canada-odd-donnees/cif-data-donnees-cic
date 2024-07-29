@@ -16,66 +16,24 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "data.Leadership position",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Atlantic",
-                "Quebec",
-                "Ontario",
-                "Prairies",
-                "British Columbia",
+                "Members of national Parliament",
+                "Members of federal Cabinet",
+                "All management occupations",
+                "Legislative and senior management occupations",
+                "Specialized middle management occupations",
+                "Middle management occupations in retail and wholesale trade and customer services",
+                "Middle management occupations in trades, transportation, production and utilities",
+                "Federally appointed judges",
+                "Chiefs in First Nation communities",
+                "First Nations council members",
                 ""
               ]
             },
-            "title": "Geography"
-          },
-          {
-            "name": "data.Activity group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Unpaid work activities",
-                "Household chores",
-                "Care of household children under 18 years",
-                "Care of household adults",
-                "Shopping for goods or services",
-                ""
-              ]
-            },
-            "title": "Activity group"
-          },
-          {
-            "name": "data.Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total, 15 years and over",
-                "15 to 24 years",
-                "25 to 54 years",
-                "25 to 34 years",
-                "35 to 44 years",
-                "45 to 54 years",
-                "55 to 64 years",
-                "65 years and over",
-                ""
-              ]
-            },
-            "title": "Age"
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Both sexes",
-                "Male",
-                "Female",
-                ""
-              ]
-            },
-            "title": "Sex"
+            "title": "Leadership position"
           },
           {
             "name": "Value",
@@ -88,5 +46,5 @@
   ],
   "profile": "data-package",
   "name": "5-3-1",
-  "title": "Proportion of time spent on unpaid domestic and care work"
+  "title": "Proportion of leadership roles held by women"
 }

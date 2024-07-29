@@ -2465,59 +2465,20 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "data.Leadership position",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Atlantic",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Prairies",
-                "data.British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Activity group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Unpaid work activities",
-                "data.Household chores",
-                "data.Care of household children under 18 years",
-                "data.Care of household adults",
-                "data.Shopping for goods or services",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, 15 years and over",
-                "data.15 to 24 years",
-                "data.25 to 54 years",
-                "data.25 to 34 years",
-                "data.35 to 44 years",
-                "data.45 to 54 years",
-                "data.55 to 64 years",
-                "data.65 years and over",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Both sexes",
-                "data.Male",
-                "data.Female",
+                "data.Members of national Parliament",
+                "data.Members of federal Cabinet",
+                "data.All management occupations",
+                "data.Legislative and senior management occupations",
+                "data.Specialized middle management occupations",
+                "data.Middle management occupations in retail and wholesale trade and customer services",
+                "data.Middle management occupations in trades, transportation, production and utilities",
+                "data.Federally appointed judges",
+                "data.Chiefs in First Nation communities",
+                "data.First Nations council members",
                 ""
               ]
             }
@@ -2528,7 +2489,7 @@
           }
         ]
       },
-      "title": "Proportion of time spent on unpaid domestic and care work"
+      "title": "Proportion of leadership roles held by women"
     },
     {
       "path": "3-14-1/data.csv",
@@ -3706,59 +3667,6 @@
       "title": "Proportion of children aged 0 to 5 years who use any forms of early learning and child care services"
     },
     {
-      "path": "5-1-2/data.csv",
-      "name": "5-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "iso8859-1",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "data.Type of intimate partner violence",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Emotional, financial, or psychological abuse",
-                "data.Physical abuse",
-                "data.Sexual abuse",
-                "data.Total intimate partner violence",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Selected characteristic",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, all women",
-                "data.15 to 24 year old women",
-                "data.Separated or divorced women",
-                "data.LGBTQ2 women",
-                "data.Single women",
-                "data.First Nations, Métis, or Inuit women",
-                "data.Women with disability",
-                "data.Immigrant women",
-                "data.Women designated as visible minorities",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the last 12 months"
-    },
-    {
       "path": "8-3-1/data.csv",
       "name": "8-3-1",
       "profile": "tabular-data-resource",
@@ -4058,6 +3966,97 @@
       "title": "Proportion of native wild species ranked secure or apparently secure according to the national extinction risk level"
     },
     {
+      "path": "5-5-1/data.csv",
+      "name": "5-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Type of work",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Both full- and part-time employees",
+                "data.Full-time employees",
+                "data.Part-time employees",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.National Occupational Classification (NOC)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total employees, all occupations",
+                "data.Management occupations",
+                "data.Business, finance and administration occupations",
+                "data.Natural and applied sciences and related occupations",
+                "data.Health occupations",
+                "data.Occupations in education, law and social, community and government services",
+                "data.Occupations in art, culture, recreation and sport",
+                "data.Sales and service occupations",
+                "data.Trades, transport and equipment operators and related occupations",
+                "data.Natural resources, agriculture and related production occupations",
+                "data.Occupations in manufacturing and utilities",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.15 to 24 years",
+                "data.25 to 54 years",
+                "data.55 years and over",
+                "data.15 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Median hourly wage ratio"
+    },
+    {
       "path": "3-5-1/data.csv",
       "name": "3-5-1",
       "profile": "tabular-data-resource",
@@ -4182,7 +4181,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-1",
       "schema": {
         "fields": [
           {
@@ -4190,20 +4189,32 @@
             "type": "integer"
           },
           {
-            "name": "data.Leadership position",
+            "name": "data.Type of intimate partner violence",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Members of national Parliament",
-                "data.Members of federal Cabinet",
-                "data.All management occupations",
-                "data.Legislative and senior management occupations",
-                "data.Specialized middle management occupations",
-                "data.Middle management occupations in retail and wholesale trade and customer services",
-                "data.Middle management occupations in trades, transportation, production and utilities",
-                "data.Federally appointed judges",
-                "data.Chiefs in First Nation communities",
-                "data.First Nations council members",
+                "data.Emotional, financial, or psychological abuse",
+                "data.Physical abuse",
+                "data.Sexual abuse",
+                "data.Total intimate partner violence",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Selected characteristic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, all women",
+                "data.15 to 24 year old women",
+                "data.Separated or divorced women",
+                "data.LGBTQ2 women",
+                "data.Single women",
+                "data.First Nations, Métis, or Inuit women",
+                "data.Women with disability",
+                "data.Immigrant women",
+                "data.Women designated as visible minorities",
                 ""
               ]
             }
@@ -4214,7 +4225,7 @@
           }
         ]
       },
-      "title": "Proportion of leadership roles held by women"
+      "title": "Proportion of women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the last 12 months"
     },
     {
       "path": "14-1-1/data.csv",
@@ -4484,48 +4495,25 @@
             "constraints": {
               "enum": [
                 "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
+                "data.Atlantic",
                 "data.Quebec",
                 "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
+                "data.Prairies",
                 "data.British Columbia",
                 ""
               ]
             }
           },
           {
-            "name": "data.Type of work",
+            "name": "data.Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Both full- and part-time employees",
-                "data.Full-time employees",
-                "data.Part-time employees",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.National Occupational Classification (NOC)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total employees, all occupations",
-                "data.Management occupations",
-                "data.Business, finance and administration occupations",
-                "data.Natural and applied sciences and related occupations",
-                "data.Health occupations",
-                "data.Occupations in education, law and social, community and government services",
-                "data.Occupations in art, culture, recreation and sport",
-                "data.Sales and service occupations",
-                "data.Trades, transport and equipment operators and related occupations",
-                "data.Natural resources, agriculture and related production occupations",
-                "data.Occupations in manufacturing and utilities",
+                "data.Unpaid work activities",
+                "data.Household chores",
+                "data.Care of household children under 18 years",
+                "data.Care of household adults",
+                "data.Shopping for goods or services",
                 ""
               ]
             }
@@ -4535,10 +4523,26 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Total, 15 years and over",
                 "data.15 to 24 years",
                 "data.25 to 54 years",
-                "data.55 years and over",
-                "data.15 years and over",
+                "data.25 to 34 years",
+                "data.35 to 44 years",
+                "data.45 to 54 years",
+                "data.55 to 64 years",
+                "data.65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Both sexes",
+                "data.Male",
+                "data.Female",
                 ""
               ]
             }
@@ -4553,7 +4557,7 @@
           }
         ]
       },
-      "title": "Median hourly wage ratio"
+      "title": "Proportion of time spent on unpaid domestic and care work"
     },
     {
       "path": "13-1-1/data.csv",

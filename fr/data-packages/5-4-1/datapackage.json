@@ -21,15 +21,10 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
+                "Atlantique",
                 "Québec",
                 "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
+                "Prairies",
                 "Colombie-Britannique",
                 ""
               ]
@@ -37,52 +32,50 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Type of work",
+            "name": "data.Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ensemble des employés à temps plein et à temps partiel",
-                "Employés à temps plein",
-                "Employés à temps partiel",
+                "Activités de travail non-rémunéré",
+                "Tâches domestiques",
+                "Soins à un enfant du ménage de moins de 18 ans",
+                "Soins à un adulte du ménage",
+                "Magasinage de biens ou de services",
                 ""
               ]
             },
-            "title": "Genre de travail"
-          },
-          {
-            "name": "data.National Occupational Classification (NOC)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total des employés, toutes les professions",
-                "Gestion",
-                "Affaires, finance et administration",
-                "Sciences naturelles et appliquées et domaines apparentés",
-                "Secteur de la santé",
-                "Enseignement, droit et services sociaux, communautaires et gouvernementaux",
-                "Arts, culture, sports et loisirs",
-                "Vente et services",
-                "Métiers, transport, machinerie et domaines apparentés",
-                "Ressources naturelles, agriculture et production connexe",
-                "Fabrication et services d'utilité publique",
-                ""
-              ]
-            },
-            "title": "Classification nationale des professions (CNP)"
+            "title": "Groupe d'activité"
           },
           {
             "name": "data.Age",
             "type": "string",
             "constraints": {
               "enum": [
+                "Total, 15 ans et plus",
                 "15 à 24 ans",
                 "25 à 54 ans",
-                "55 ans et plus",
-                "15 ans et plus",
+                "25 à 34 ans",
+                "35 à 44 ans",
+                "45 à 54 ans",
+                "55 à 64 ans",
+                "65 ans et plus",
                 ""
               ]
             },
             "title": "Âge"
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Les deux sexes",
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Sexe"
           },
           {
             "name": "GeoCode",
@@ -100,5 +93,5 @@
   ],
   "profile": "data-package",
   "name": "5-4-1",
-  "title": "Median hourly wage ratio"
+  "title": "Proportion of time spent on unpaid domestic and care work"
 }

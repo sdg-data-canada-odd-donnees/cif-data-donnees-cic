@@ -21,15 +21,10 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
+                "Atlantic",
                 "Quebec",
                 "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
+                "Prairies",
                 "British Columbia",
                 ""
               ]
@@ -37,52 +32,50 @@
             "title": "Geography"
           },
           {
-            "name": "data.Type of work",
+            "name": "data.Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both full- and part-time employees",
-                "Full-time employees",
-                "Part-time employees",
+                "Unpaid work activities",
+                "Household chores",
+                "Care of household children under 18 years",
+                "Care of household adults",
+                "Shopping for goods or services",
                 ""
               ]
             },
-            "title": "Type of work"
-          },
-          {
-            "name": "data.National Occupational Classification (NOC)",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total employees, all occupations",
-                "Management occupations",
-                "Business, finance and administration occupations",
-                "Natural and applied sciences and related occupations",
-                "Health occupations",
-                "Occupations in education, law and social, community and government services",
-                "Occupations in art, culture, recreation and sport",
-                "Sales and service occupations",
-                "Trades, transport and equipment operators and related occupations",
-                "Natural resources, agriculture and related production occupations",
-                "Occupations in manufacturing and utilities",
-                ""
-              ]
-            },
-            "title": "National Occupational Classification (NOC)"
+            "title": "Activity group"
           },
           {
             "name": "data.Age",
             "type": "string",
             "constraints": {
               "enum": [
+                "Total, 15 years and over",
                 "15 to 24 years",
                 "25 to 54 years",
-                "55 years and over",
-                "15 years and over",
+                "25 to 34 years",
+                "35 to 44 years",
+                "45 to 54 years",
+                "55 to 64 years",
+                "65 years and over",
                 ""
               ]
             },
             "title": "Age"
+          },
+          {
+            "name": "data.Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Both sexes",
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "GeoCode",
@@ -100,5 +93,5 @@
   ],
   "profile": "data-package",
   "name": "5-4-1",
-  "title": "Median hourly wage ratio"
+  "title": "Proportion of time spent on unpaid domestic and care work"
 }
