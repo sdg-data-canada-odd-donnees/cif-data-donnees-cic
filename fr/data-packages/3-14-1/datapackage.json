@@ -41,8 +41,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 12 ans et plus",
-                "12 à 17 ans",
                 "18 à 34 ans",
                 "35 à 49 ans",
                 "50 à 64 ans",
@@ -58,9 +56,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Les deux sexes",
                 "Hommes",
                 "Femmes",
-                "Les deux sexes",
                 ""
               ]
             },
@@ -82,5 +80,5 @@
   ],
   "profile": "data-package",
   "name": "3-14-1",
-  "title": "Percentage of Canadians (age 18+) who currently smoke cigarettes"
+  "title": "Percentage of Canadians (aged 18+) who currently smoke cigarettes"
 }
