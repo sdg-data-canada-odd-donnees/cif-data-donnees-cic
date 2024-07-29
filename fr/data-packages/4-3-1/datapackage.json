@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada, excluding the territories",
+                "Canada, sans les territoires",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
