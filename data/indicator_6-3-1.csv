@@ -1,36 +1,36 @@
-"Year","Units","data.Sector","Value"
-"2013","Cubic metres","",37197793
-"2015","Cubic metres","",35913582
-"2017","Cubic metres","",36334509
-"2019","Cubic metres","",36047231
-"2021","Cubic metres","",36127599
-"2013","Cubic metres","data.Households",3122546
-"2015","Cubic metres","data.Households",3130439
-"2017","Cubic metres","data.Households",2975593
-"2019","Cubic metres","data.Households",3014417
-"2021","Cubic metres","data.Households",3185653
-"2013","Cubic metres","data.Industries",34075247
-"2015","Cubic metres","data.Industries",32783143
-"2017","Cubic metres","data.Industries",33358916
-"2019","Cubic metres","data.Industries",33032814
-"2021","Cubic metres","data.Industries",32941946
-"2013","Growth rate","",4.9
-"2015","Growth rate","",-3.5
-"2017","Growth rate","",1.2
-"2019","Growth rate","",-0.8
-"2021","Growth rate","",0.2
-"2013","Growth rate","data.Households",-10.9
-"2015","Growth rate","data.Households",0.3
-"2017","Growth rate","data.Households",-4.9
-"2019","Growth rate","data.Households",1.3
-"2021","Growth rate","data.Households",5.7
-"2013","Growth rate","data.Industries",6.6
-"2015","Growth rate","data.Industries",-3.8
-"2017","Growth rate","data.Industries",1.8
-"2019","Growth rate","data.Industries",-1
-"2021","Growth rate","data.Industries",-0.3
-"2013","Water use per capita growth rate","",-10
-"2015","Water use per capita growth rate","",0
-"2017","Water use per capita growth rate","",-11.1
-"2019","Water use per capita growth rate","",0
-"2021","Water use per capita growth rate","",0
+"Year","Series","Units","data.Sector","Value"
+"2013","Annual growth rate of water use","Percentage","",4.9
+"2015","Annual growth rate of water use","Percentage","",-3.5
+"2017","Annual growth rate of water use","Percentage","",1.2
+"2019","Annual growth rate of water use","Percentage","",-0.8
+"2021","Annual growth rate of water use","Percentage","",0.2
+"2013","Annual growth rate of water use","Percentage","data.Households",-10.9
+"2015","Annual growth rate of water use","Percentage","data.Households",0.3
+"2017","Annual growth rate of water use","Percentage","data.Households",-4.9
+"2019","Annual growth rate of water use","Percentage","data.Households",1.3
+"2021","Annual growth rate of water use","Percentage","data.Households",5.7
+"2013","Annual growth rate of water use","Percentage","data.Industries",6.6
+"2015","Annual growth rate of water use","Percentage","data.Industries",-3.8
+"2017","Annual growth rate of water use","Percentage","data.Industries",1.8
+"2019","Annual growth rate of water use","Percentage","data.Industries",-1
+"2021","Annual growth rate of water use","Percentage","data.Industries",-0.3
+"2013","Annual growth rate of water use per capita","Percentage","",-12.8
+"2015","Annual growth rate of water use per capita","Percentage","",-1.5
+"2017","Annual growth rate of water use per capita","Percentage","",-7.1
+"2019","Annual growth rate of water use per capita","Percentage","",-1.6
+"2021","Annual growth rate of water use per capita","Percentage","",4
+"2013","Total water use","Cubic metres","",37197793
+"2015","Total water use","Cubic metres","",35913582
+"2017","Total water use","Cubic metres","",36334509
+"2019","Total water use","Cubic metres","",36047231
+"2021","Total water use","Cubic metres","",36127599
+"2013","Total water use","Cubic metres","data.Households",3122546
+"2015","Total water use","Cubic metres","data.Households",3130439
+"2017","Total water use","Cubic metres","data.Households",2975593
+"2019","Total water use","Cubic metres","data.Households",3014417
+"2021","Total water use","Cubic metres","data.Households",3185653
+"2013","Total water use","Cubic metres","data.Industries",34075247
+"2015","Total water use","Cubic metres","data.Industries",32783143
+"2017","Total water use","Cubic metres","data.Industries",33358916
+"2019","Total water use","Cubic metres","data.Industries",33032814
+"2021","Total water use","Cubic metres","data.Industries",32941946
