@@ -41,6 +41,7 @@ cubic_metres <-
       Sector == "Total, industries" ~ "data.Industries",
       TRUE ~ paste0("data.", Sector)
     ),
+    Series = "Total water use",
     Units = "Cubic metres"
   ) %>% 
   group_by(Sector)
@@ -52,7 +53,8 @@ growth_rate <-
     Year, Sector,
     Value = ((Value - lag(Value)) / lag(Value)) * 100,
     Value = round(Value, 1),
-    Units = "Growth rate"
+    Series = "Annual growth rate of water use",
+    Units = "Percentage"
   )
 
 # calculate water use per capita growth rate
@@ -72,7 +74,7 @@ household_water_use_capita <-
   households_water_use %>%
   inner_join(population_filtered) %>% 
   mutate(
-    Value = round(Household_Value / Population, 2)
+    Value = round(Household_Value / Population, 6)
   )
 
 households_growth_rate_per_capita <-
@@ -81,7 +83,8 @@ households_growth_rate_per_capita <-
     Year, Sector,
     Value = ((Value - lag(Value)) / lag(Value)) * 100,
     Value = round(Value, 1),
-    Units = "Water use per capita growth rate"
+    Series = "Annual growth rate of water use per capita",
+    Units = "Percentage"
   ) %>%
   mutate(
     Sector = ""
@@ -92,8 +95,9 @@ data_final <-
   bind_rows(cubic_metres, growth_rate, households_growth_rate_per_capita) %>% 
   filter(Year >= 2013) %>% 
   ungroup() %>%
-  relocate(Units, .after = Year) %>%
-  arrange(Units, Sector, Year) %>%
+  relocate(Series, .after = Year) %>%
+  relocate(Units, .after = Series) %>%
+  arrange(Series, Sector, Year) %>%
   rename(data.Sector = Sector)
 
 # write data to csv
