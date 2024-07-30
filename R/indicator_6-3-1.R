@@ -41,7 +41,7 @@ cubic_metres <-
       Sector == "Total, industries" ~ "data.Industries",
       TRUE ~ paste0("data.", Sector)
     ),
-    Series = "c) Total water use",
+    Series = "Total water use",
     Units = "Cubic metres"
   ) %>% 
   group_by(Sector)
@@ -53,7 +53,7 @@ growth_rate <-
     Year, Sector,
     Value = ((Value - lag(Value)) / lag(Value)) * 100,
     Value = round(Value, 1),
-    Series = "a) Water use growth rate",
+    Series = "Water use growth rate",
     Units = "Percentage"
   )
 
@@ -83,7 +83,7 @@ households_growth_rate_per_capita <-
     Year, Sector,
     Value = ((Value - lag(Value)) / lag(Value)) * 100,
     Value = round(Value, 1),
-    Series = "b) Water use per capita growth rate",
+    Series = "Water use per capita growth rate",
     Units = "Percentage"
   ) %>%
   mutate(
