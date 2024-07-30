@@ -38,8 +38,8 @@ cubic_metres <-
   mutate(
     Sector = case_when(
       Sector == "Total, industries and households" ~ "",
-      Sector == "Total, industries" ~ "data.Industries",
-      TRUE ~ paste0("data.", Sector)
+      Sector == "Total, industries" ~ "Industries",
+      TRUE ~ Sector
     ),
     Series = "Total water use",
     Units = "Cubic metres"
@@ -95,10 +95,13 @@ data_final <-
   bind_rows(growth_rate, households_growth_rate_per_capita, cubic_metres) %>% 
   filter(Year >= 2013) %>% 
   ungroup() %>%
-  relocate(Series, .after = Year) %>%
-  relocate(Units, .after = Series) %>%
-  arrange(Series, Sector, Year) %>%
-  rename(data.Sector = Sector)
+  select(
+    Year,
+    Series,
+    Units,
+    Sector,
+    Value
+  )
 
 # write data to csv
 write.csv(data_final,
