@@ -3595,16 +3595,36 @@
             "type": "integer"
           },
           {
-            "name": "data.Species group or system",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Birds index",
-                "data.Mammals index",
-                "data.Fish index",
-                "data.Terrestrial index",
-                "data.Freshwater index",
-                "data.Marine index",
+                "By species group",
+                "By system",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Species group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Birds index",
+                "Mammals index",
+                "Fish index",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "System",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terrestrial index",
+                "Freshwater index",
+                "Marine index",
                 ""
               ]
             }

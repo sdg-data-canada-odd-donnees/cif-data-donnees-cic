@@ -3858,20 +3858,42 @@
             "title": "Année"
           },
           {
-            "name": "data.Species group or system",
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "By species group",
+                "By system",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Species group",
             "type": "string",
             "constraints": {
               "enum": [
                 "Indice des oiseaux",
                 "Indice des mammifères",
                 "Indice des poissons",
+                ""
+              ]
+            },
+            "title": "Groupe d'espèces"
+          },
+          {
+            "name": "System",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Indice terrestre",
                 "Indice d'eau douce",
                 "Indice marin",
                 ""
               ]
             },
-            "title": "Groupe d'espèces ou système"
+            "title": "System"
           },
           {
             "name": "Value",

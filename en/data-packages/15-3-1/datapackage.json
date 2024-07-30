@@ -16,20 +16,42 @@
             "title": "Year"
           },
           {
-            "name": "data.Species group or system",
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "By species group",
+                "By system",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Species group",
             "type": "string",
             "constraints": {
               "enum": [
                 "Birds index",
                 "Mammals index",
                 "Fish index",
+                ""
+              ]
+            },
+            "title": "Species group"
+          },
+          {
+            "name": "System",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Terrestrial index",
                 "Freshwater index",
                 "Marine index",
                 ""
               ]
             },
-            "title": "Species group or system"
+            "title": "System"
           },
           {
             "name": "Value",
