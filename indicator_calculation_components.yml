@@ -205,15 +205,7 @@
   target: '60'
   target_year: '2026'
 15-3-1:
-  base_value: '-6.61'
-  base_year: '2015'
-  current_value: '-7.43'
-  current_year: '2018'
-  direction: positive
-  progress_calculation_value: null
-  progress_status: None
-  target: None
-  target_year: '2030'
+  progress_status: not_available
 15-4-1:
   base_value: '10.2'
   base_year: '2015'
