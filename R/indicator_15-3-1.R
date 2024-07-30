@@ -23,14 +23,24 @@ csi_system = na.omit(csi_system[-2, ])
 
 # Separate into different data sets (national)
 
-national <-
+national_species <-
   csi_national %>%
   select(
     Year,
     Value = `National index (cumulative percentage change since 1970)`
   ) %>%
   mutate(
-    Series = ""
+    Series = "By species group"
+  )
+
+national_system <-
+  csi_national %>%
+  select(
+    Year,
+    Value = `National index (cumulative percentage change since 1970)`
+  ) %>%
+  mutate(
+    Series = "By system"
   )
 
 bird <-
@@ -67,7 +77,7 @@ fish <-
   )
 
 species <-
-  bind_rows(national, bird, mammal, fish)
+  bind_rows(national_species, bird, mammal, fish)
 
 # Separate into different data sets (system)
 
@@ -105,7 +115,7 @@ marine <-
   )
 
 system <-
-  bind_rows(terrestrial, freshwater, marine)
+  bind_rows(national_system,terrestrial, freshwater, marine)
 
 # Combine all data sets
 
