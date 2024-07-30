@@ -5096,9 +5096,6 @@
                 "Côte-nord et Nechako, Colombie-Britannique",
                 "Nord-est, Colombie-Britannique",
                 "Canada",
-                "Provinces de l'Atlantique",
-                "Provinces des Prairies",
-                "Territoires",
                 "Provinces de l'Est et du centre",
                 "Provinces de l'Ouest",
                 "Région des Prairies",
@@ -5137,7 +5134,6 @@
                 "65 ans et plus",
                 "65 à 69 ans",
                 "70 ans et plus",
-                "25 à 64 ans",
                 ""
               ]
             },
@@ -5155,31 +5151,6 @@
               ]
             },
             "title": "Sexe"
-          },
-          {
-            "name": "Gender",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total - Genre",
-                "Hommes+",
-                "Femmes+",
-                ""
-              ]
-            },
-            "title": "Genre"
-          },
-          {
-            "name": "Disability",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Personnes ayant une incapacité",
-                "Personnes sans incapacité",
-                ""
-              ]
-            },
-            "title": "Incapacité"
           },
           {
             "name": "Indigenous group",
@@ -5247,7 +5218,7 @@
                 ""
               ]
             },
-            "title": "Immigrant status"
+            "title": "Status d'immigrant"
           },
           {
             "name": "GeoCode",

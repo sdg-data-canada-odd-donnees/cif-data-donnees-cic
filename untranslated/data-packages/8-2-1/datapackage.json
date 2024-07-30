@@ -98,9 +98,6 @@
                 "North Coast and Nechako, British Columbia",
                 "Northeast, British Columbia",
                 "Canada",
-                "Atlantic provinces",
-                "Prairie provinces",
-                "Territories",
                 "Eastern and central provinces",
                 "Western provinces",
                 "Prairie region",
@@ -138,7 +135,6 @@
                 "65 years and over",
                 "65 to 69 years",
                 "70 years and over",
-                "25 to 64 years",
                 ""
               ]
             }
@@ -151,29 +147,6 @@
                 "Males",
                 "Females",
                 "Both sexes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Gender",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total - Gender",
-                "Men+",
-                "Women+",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Disability",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Persons with disabilities",
-                "Persons without disabilities",
                 ""
               ]
             }
