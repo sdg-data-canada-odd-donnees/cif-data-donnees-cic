@@ -7,7 +7,7 @@ library(tidyr)
 
 age <- get_cansim("14-10-0327-01", factors = FALSE)
 
-disability <- get_cansim("13-10-0377-01", factors = FALSE)
+# disability <- get_cansim("13-10-0377-01", factors = FALSE)
 
 indigenous <- get_cansim("14-10-0359-01", factors = FALSE)
 
@@ -103,57 +103,57 @@ age_combined <-
 
 ## Disability data
 
-disability_filtered <-
-  disability %>%
-  filter(
-    !Disability == "Total population, with and without disabilities",
-    `Labour force status` == "Employed",
-    Estimates == "Percentage of persons"
-  ) %>%
-  select(
-    Year = REF_DATE,
-    Geography = GEO,
-    Disability,
-    Gender,
-    `Age group`,
-    Value = VALUE
-  )
-
-rename_age_disability <-
-  disability_filtered %>%
-  filter(
-    `Age group` == "65 years and older"
-  ) %>%
-  mutate(
-    `Age group` =  "65 years and over"
-  )
-
-remove_age_disability <-
-  disability_filtered %>%
-  filter(
-    !`Age group` == "65 years and older"
-  )
-
-disability_combined <-
-  bind_rows(rename_age_disability,remove_age_disability)
-
-rename_gender_disability <-
-  disability_combined %>%
-  filter(
-    Gender == "Total, gender"
-  ) %>%
-  mutate(
-    Gender = "Total - Gender"
-  )
-
-remove_gender_disability <-
-  disability_combined %>%
-  filter(
-    !Gender == "Total, gender"
-  )
-
-disability_recombined <-
-  bind_rows(rename_gender_disability,remove_gender_disability)
+# disability_filtered <-
+#   disability %>%
+#   filter(
+#     !Disability == "Total population, with and without disabilities",
+#     `Labour force status` == "Employed",
+#     Estimates == "Percentage of persons"
+#   ) %>%
+#   select(
+#     Year = REF_DATE,
+#     Geography = GEO,
+#     Disability,
+#     Gender,
+#     `Age group`,
+#     Value = VALUE
+#   )
+# 
+# rename_age_disability <-
+#   disability_filtered %>%
+#   filter(
+#     `Age group` == "65 years and older"
+#   ) %>%
+#   mutate(
+#     `Age group` =  "65 years and over"
+#   )
+# 
+# remove_age_disability <-
+#   disability_filtered %>%
+#   filter(
+#     !`Age group` == "65 years and older"
+#   )
+# 
+# disability_combined <-
+#   bind_rows(rename_age_disability,remove_age_disability)
+# 
+# rename_gender_disability <-
+#   disability_combined %>%
+#   filter(
+#     Gender == "Total, gender"
+#   ) %>%
+#   mutate(
+#     Gender = "Total - Gender"
+#   )
+# 
+# remove_gender_disability <-
+#   disability_combined %>%
+#   filter(
+#     !Gender == "Total, gender"
+#   )
+# 
+# disability_recombined <-
+#   bind_rows(rename_gender_disability,remove_gender_disability)
 
 ## Indigenous data
 
@@ -280,14 +280,12 @@ non_total <-
   )
 
 data_final <- 
-  bind_rows(total_line, non_total, age_combined, disability_recombined, indigenous_combined, visible_minority_combined, immigrant_combined) %>%
+  bind_rows(total_line, non_total, age_combined, indigenous_combined, visible_minority_combined, immigrant_combined) %>%
   select(
     Year,
     Geography,
     `Age group`,
     Sex,
-    Gender,
-    Disability,
     `Indigenous group`,
     `Educational attainment`,
     `Visible minority`,
