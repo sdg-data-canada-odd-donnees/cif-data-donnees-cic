@@ -19,9 +19,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total water use",
                 "Water use growth rate",
                 "Water use per capita growth rate",
+                "Total water use",
                 ""
               ]
             }
@@ -31,19 +31,19 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Cubic metres",
                 "Percentage",
+                "Cubic metres",
                 ""
               ]
             }
           },
           {
-            "name": "data.Sector",
+            "name": "Sector",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Households",
-                "data.Industries",
+                "Households",
+                "Industries",
                 ""
               ]
             }

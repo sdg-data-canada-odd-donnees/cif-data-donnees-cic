@@ -4713,9 +4713,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total water use",
                 "Taux de croissance de l’utilisation de l’eau",
                 "Taux de croissance de l'utilisation de l'eau par habitant",
+                "Total water use",
                 ""
               ]
             },
@@ -4726,15 +4726,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Mètres cubes",
                 "Pourcentage",
+                "Mètres cubes",
                 ""
               ]
             },
             "title": "Unités"
           },
           {
-            "name": "data.Sector",
+            "name": "Sector",
             "type": "string",
             "constraints": {
               "enum": [
