@@ -53,7 +53,7 @@ growth_rate <-
     Year, Sector,
     Value = ((Value - lag(Value)) / lag(Value)) * 100,
     Value = round(Value, 1),
-    Series = "Annual growth rate of water use",
+    Series = "Water use growth rate",
     Units = "Percentage"
   )
 
@@ -83,7 +83,7 @@ households_growth_rate_per_capita <-
     Year, Sector,
     Value = ((Value - lag(Value)) / lag(Value)) * 100,
     Value = round(Value, 1),
-    Series = "Annual growth rate of water use per capita",
+    Series = "Water use per capita growth rate",
     Units = "Percentage"
   ) %>%
   mutate(
@@ -92,7 +92,7 @@ households_growth_rate_per_capita <-
 
 # bind cubic metres data to growth rate data 
 data_final <- 
-  bind_rows(cubic_metres, growth_rate, households_growth_rate_per_capita) %>% 
+  bind_rows(growth_rate, households_growth_rate_per_capita, cubic_metres) %>% 
   filter(Year >= 2013) %>% 
   ungroup() %>%
   relocate(Series, .after = Year) %>%
