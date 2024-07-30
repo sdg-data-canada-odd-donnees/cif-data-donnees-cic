@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "By species group",
-                "By system",
+                "Par groupe d'espèces",
+                "Par système",
                 ""
               ]
             },
