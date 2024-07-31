@@ -5,7 +5,7 @@ library(dplyr)
 library(cansim)
 library(stringr)
 
-Raw_data <- get_cansim("35-10-0026-01", factors = FALSE)
+Raw_data <- get_cansim("35-10-0177-01", factors = FALSE)
 
 # load geocode
 geocodes <- read.csv("geocodes.csv")
@@ -27,43 +27,56 @@ geographies <- c(
   "Nunavut [62]"
 )
 
-crime <-
+violations <- c(
+  "Total violent Criminal Code violations [100]",
+  "Homicide [110]",
+  "Total other violations causing death [120]",
+  "Attempted murder [1210]",
+  "Sexual assault, level 3, aggravated [1310]",
+  "Sexual assault, level 2, weapon or bodily harm [1320]",
+  "Sexual assault, level 1 [1330]",
+  "Total sexual violations against children [130]",
+  "Assault, level 3, aggravated [1410]",
+  "Assault, level 2, weapon or bodily harm [1420]",
+  "Assault, level 1 [1430]",
+  "Total robbery [160]",
+  "Uttering threats [1627]",
+  "Total other violent violations [180]"
+)
+
+crime_incidence <-
   Raw_data %>%
   filter(
     REF_DATE >= 2015,
     GEO %in% geographies,
-    Statistics %in% c(
-      "Crime severity index",
-      "Violent crime severity index",
-      "Youth crime severity index",
-      "Youth violent crime severity index"
-    )
+    Violations %in% violations,
+    Statistics == "Rate per 100,000 population"
   ) %>%
-  select(
-    Year = REF_DATE,
-    Geography = GEO,
-    Index = Statistics,
-    Value = VALUE
-  ) %>%
-  mutate(Geography = str_remove(Geography, " \\[.*\\]")) %>%
+  select(Year = REF_DATE,
+         Geography = GEO,
+         Violations,
+         Value = VALUE) %>%
+  mutate(Geography =
+           str_remove(Geography, " \\[.*\\]")) %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
 
-
-# Create the total line and non total line
+# Create the total and non total line
 total <-
-  crime %>%
+  crime_incidence %>%
   filter(Geography == "Canada",
-         Index == "Crime severity index") %>%
+         Violations == "Total violent Criminal Code violations [100]") %>%
   mutate_at(2:(ncol(.) - 2), ~ "")
 
 non_total <-
-  crime %>%
-  filter(!(Geography == "Canada" &
-             Index == "Crime severity index")) %>%
+  crime_incidence %>%
+  filter(!(
+    Geography == "Canada" &
+      Violations == "Total violent Criminal Code violations [100]"
+  )) %>%
   mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
 
-# Create the final table and export to csv
+# Format the final table and export to csv
 final_data <-
   bind_rows(total, non_total) %>%
   rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))

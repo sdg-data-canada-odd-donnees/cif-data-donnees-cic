@@ -1,58 +1,82 @@
-# CIF 3.13.1 ---------------------------------------------------------------
+#CIF 3.13.1
 
-# load libraries
 library(dplyr)
-library(cansim)
+library(stringr)
+library(tidyr)
+library(archive)
 
-
-# load CODR table from stc api
-Raw_data <- get_cansim("13-10-0096-01", factors = FALSE)
-
-
-# load geocode
+opioids <- read.csv(archive_read("https://health-infobase.canada.ca/src/doc/SRHD/HealthInfobase-SubstanceHarmsData.zip", file=2))
 geocodes <- read.csv("geocodes.csv")
 
-
-smoking <-
-  Raw_data %>%
-  filter(Indicators == "Current smoker, daily or occasional",
-         Characteristics == "Percent") %>%
-  select(Year = REF_DATE,
-         Geography = GEO,
-         `Age group`,
-         Sex,
-         Value = VALUE) %>%
+opioids_filtered <-
+  opioids %>%
+  filter(
+    Substance == "Opioids",
+    Time_Period == "By year",
+    Unit == "Crude rate",
+    Source == "Deaths",
+    Type_Event == "Total apparent opioid toxicity deaths"
+  ) %>%
+  select(
+    Year = Year_Quarter,
+    Geography = Region,
+    Specific_Measure,
+    Disaggregator,
+    Value
+  ) %>%
+  mutate(
+    Value = str_remove_all(Value, "Suppr."),
+    Value = str_remove_all(Value, "n/a"),
+    Value = as.numeric(Value)
+  ) %>%
+  na.omit() %>%
   left_join(geocodes, by = "Geography") %>%
-  relocate(GeoCode, .before = Value) %>%
-  mutate(Geography = recode(Geography,
-                            "Canada (excluding territories)" = "Canada"))
+  relocate(GeoCode, .before = Value)
 
+#filter_for_sex <-
+#  opioids_filtered %>%
+#  filter(
+#    Specific_Measure == "Sex"
+#  ) %>%
+#  select(
+#    Year,
+#    Geography,
+#    Sex = Disaggregator,
+#    GeoCode,
+#    Value
+#  )
 
-total <-
-  smoking %>%
-  filter(Geography == "Canada",
-         `Age group` == "Total, 12 years and over",
-         Sex == "Both sexes") %>%
-  mutate_at(2:(ncol(.) - 2), ~ "")
+total_line <-
+  opioids_filtered %>%
+  filter(
+    Geography == "Canada",
+  ) %>% 
+  mutate(Geography = "")
 
+non_total <-
+  opioids_filtered %>%
+  filter(
+    !(Geography == "Canada")
+  )
+#  ) %>%
+#  filter(
+#    !(Specific_Measure == "Sex")
+#  )
 
-non_total_line <-
-  smoking %>%
-  filter(!(
-    Geography == "Canada" &
-      `Age group` == "Total, 12 years and over" &
-      Sex == "Both sexes"
-  )) %>%
-  mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+data_final <-
+  bind_rows(total_line,non_total)%>% #,filter_for_sex) %>%
+  select(
+    Year,
+    Geography,
+#    Sex,
+    GeoCode,
+    Value
+  )
 
-
-final_data <-
-  bind_rows(total, non_total_line) %>% 
-  rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
-
-
-write.csv(final_data,
-          "data/indicator_3-13-1.csv",
-          na = "",
-          row.names = FALSE,
-          fileEncoding = "UTF-8")
+write.csv(
+  data_final,
+  "data/indicator_3-13-1.csv",
+  na = "",
+  row.names = FALSE,
+  fileEncoding = "UTF-8"
+)

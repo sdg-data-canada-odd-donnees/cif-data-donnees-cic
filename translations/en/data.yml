@@ -8,9 +8,11 @@ Gender: Gender
 Men: Men
 Male: Male
 Males: Males
+Men+: Men+
 Women: Women
 Female: Female
 Females: Females
+Women+: Women+
 Both: Both
 Both sexes: Both sexes
 #Non-binary: Non-binary
@@ -19,6 +21,7 @@ Both sexes: Both sexes
 Geography: Geography
 Canada: Canada
 Canada (excluding territories): Canada (excluding territories)
+Canada, excluding the territories: Canada, excluding the territories
 Atlantic: Atlantic
 Atlantic provinces: Atlantic provinces
 Atlantic region: Atlantic region
@@ -45,7 +48,6 @@ Winnipeg Manitoba: Winnipeg Manitoba
 Northern and Rural Manitoba: Northern and Rural Manitoba
 Whitehorse Yukon: Whitehorse Yukon
 Yellowknife Northwest Territories: Yellowknife Northwest Territories
-
 Newfoundland and Labrador [10]: Newfoundland and Labrador
 Prince Edward Island [11]: Prince Edward Island
 Nova Scotia [12]: Nova Scotia
@@ -60,18 +62,107 @@ Yukon [60]: Yukon
 Northwest Territories [61]: Northwest Territories
 Nunavut [62]: Nunavut
 
+# Cities and Census metropolitan areas
+Total Census metropolitan area: Total Census metropolitan area
+Total Non-Census metropolitan area: Total Non-Census metropolitan area
+St. John's, Newfoundland and Labrador: St. John's, Newfoundland and Labrador
+Halifax, Nova Scotia: Halifax, Nova Scotia
+Moncton, New Brunswick: Moncton, New Brunswick
+Saint John, New Brunswick: Saint John, New Brunswick
+Gatineau, Quebec: Gatineau, Quebec
+Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (Quebec part), Quebec
+Montreal, Quebec: Montreal, Quebec
+Montréal, Quebec: Montréal, Quebec
+Quebec, Quebec: Quebec, Quebec
+Québec, Quebec: Québec, Quebec
+Trois-Rivières, Quebec: Trois-Rivières, Quebec
+Saguenay, Quebec: Saguenay, Quebec
+Sherbrooke, Quebec: Sherbrooke, Quebec
+Barrie, Ontario: Barrie, Ontario
+Belleville, Ontario: Belleville, Ontario
+Brantford, Ontario: Brantford, Ontario
+Greater Sudbury, Ontario: Greater Sudbury, Ontario
+Greater Sudbury / Grand Sudbury, Ontario: Greater Sudbury, Ontario
+Guelph, Ontario: Guelph, Ontario
+Hamilton, Ontario: Hamilton, Ontario
+Kingston, Ontario: Kingston, Ontario
+Kitchener-Cambridge-Waterloo, Ontario: Kitchener-Cambridge-Waterloo, Ontario
+Kitchener - Cambridge - Waterloo, Ontario: Kitchener - Cambridge - Waterloo, Ontario
+London, Ontario: London, Ontario
+Oshawa, Ontario: Oshawa, Ontario
+Ottawa, Ontario: Ottawa, Ontario
+Ottawa - Gatineau (Ontario part), Ontario: Ottawa - Gatineau (Ontario part), Ontario
+Ottawa-Gatineau, Ontario/Quebec: Ottawa-Gatineau, Ontario/Quebec
+Peterborough, Ontario: Peterborough, Ontario
+St. Catharines-Niagara, Ontario: St. Catharines-Niagara, Ontario
+St. Catharines - Niagara, Ontario: St. Catharines - Niagara, Ontario
+Thunder Bay, Ontario: Thunder Bay, Ontario
+Toronto, Ontario: Toronto, Ontario
+Windsor, Ontario: Windsor, Ontario
+Winnipeg, Manitoba: Winnipeg, Manitoba
+Regina, Saskatchewan: Regina, Saskatchewan
+Saskatoon, Saskatchewan: Saskatoon, Saskatchewan
+Calgary, Alberta: Calgary, Alberta
+Edmonton, Alberta: Edmonton, Alberta
+Lethbridge, Alberta: Lethbridge, Alberta
+Abbotsford-Mission, British Columbia: Abbotsford-Mission, British Columbia
+Abbotsford - Mission, British Columbia: Abbotsford - Mission, British Columbia
+Kelowna, British Columbia: Kelowna, British Columbia
+Vancouver, British Columbia: Vancouver, British Columbia
+Victoria, British Columbia: Victoria, British Columbia
+St. John's (CMA), N.L.: St. John's (CMA), N.L.
+Halifax (CMA), N.S.: Halifax (CMA), N.S.
+Moncton (CMA), N.B.: Moncton (CMA), N.B.
+Saint John (CMA), N.B.: Saint John (CMA), N.B.
+Montréal (CMA), Que.: Montréal (CMA), Que.
+Québec (CMA), Que.: Québec (CMA), Que.
+Saguenay (CMA), Que.: Saguenay (CMA), Que.
+Sherbrooke (CMA), Que.: Sherbrooke (CMA), Que.
+Trois-Rivieres, Quebec: Trois-Rivières (CMA), Que.
+Trois-Rivières (CMA), Que.: Trois-Rivières (CMA), Que.
+Barrie (CMA), Ont.: Barrie (CMA), Ont.
+Belleville - Quinte West (CMA), Ont.: Belleville - Quinte West (CMA), Ont.
+Brantford (CMA), Ont.: Brantford (CMA), Ont.
+Greater Sudbury (CMA), Ont.: Greater Sudbury (CMA), Ont.
+Guelph (CMA), Ont.: Guelph (CMA), Ont.
+Hamilton (CMA), Ont.: Hamilton (CMA), Ont.
+Kingston (CMA), Ont.: Kingston (CMA), Ont.
+Kitchener - Cambridge - Waterloo (CMA), Ont.: Kitchener - Cambridge - Waterloo (CMA), Ont.
+London (CMA), Ont.: London (CMA), Ont.
+Oshawa (CMA), Ont.: Oshawa (CMA), Ont.
+Ottawa - Gatineau (CMA), Ont./Que.: Ottawa - Gatineau (CMA), Ont./Que.
+Ottawa - Gatineau (Ontario part) (CMA), Ont.: Ottawa - Gatineau (Ontario part) (CMA), Ont.
+Ottawa - Gatineau (Quebec part) (CMA), Que.: Ottawa - Gatineau (Quebec part) (CMA), Que.
+Peterborough (CMA), Ont.: Peterborough (CMA), Ont.
+St. Catharines - Niagara (CMA), Ont.: St. Catharines - Niagara (CMA), Ont.
+Thunder Bay (CMA), Ont.: Thunder Bay (CMA), Ont.
+Toronto (CMA), Ont.: Toronto (CMA), Ont.
+Windsor (CMA), Ont.: Windsor (CMA), Ont.
+Winnipeg (CMA), Man.: Winnipeg (CMA), Man.
+Regina (CMA), Sask.: Regina (CMA), Sask.
+Saskatoon (CMA), Sask.: Saskatoon (CMA), Sask.
+Calgary (CMA), Alta.: Calgary (CMA), Alta.
+Edmonton (CMA), Alta.: Edmonton (CMA), Alta.
+Lethbridge (CMA), Alta.: Lethbridge (CMA), Alta.
+Abbotsford - Mission (CMA), B.C.: Abbotsford - Mission (CMA), B.C.
+Kelowna (CMA), B.C.: Kelowna (CMA), B.C.
+Vancouver (CMA), B.C.: Vancouver (CMA), B.C.
+Victoria (CMA), B.C.: Victoria (CMA), B.C.
+
 ## Age
 Age: Age
 Age group: Age group
 Total, 12 years and over: Total, 12 years and over
 Total, 15 years and over: Total, 15 years and over
 Total, 15 to 29 years: Total, 15 to 29 years
+Total, 18 years and over: Total, 18 years and over
 15 years and over: 15 years and over
 25 years and over: 25 years and over
 45 years and over: 45 years and over
 55 years and over: 55 years and over
 65 years and over: 65 years and over
 70 years and over: 70 years and over
+0 to 14 years: 0 to 14 years
 12 to 17 years: 12 to 17 years
 15 to 19 years: 15 to 19 years
 15 to 24 years: 15 to 24 years
@@ -83,6 +174,7 @@ Total, 15 to 29 years: Total, 15 to 29 years
 25 to 34 years: 25 to 34 years
 25 to 44 years: 25 to 44 years
 25 to 54 years: 25 to 54 years
+25 to 64 years: 25 to 64 years
 30 to 34 years: 30 to 34 years
 35 to 39 years: 35 to 39 years
 35 to 44 years: 35 to 44 years
@@ -99,27 +191,14 @@ Total, 15 to 29 years: Total, 15 to 29 years
 65 to 69 years: 65 to 69 years
 
 ## 1-1-1
-Atlantic provinces: Atlantic provinces
-Prairie provinces: Prairie provinces
-Québec, Quebec: Québec, Quebec
-Montréal, Quebec: Montréal, Quebec
-Ottawa-Gatineau, Ontario/Quebec: Ottawa-Gatineau, Ontario/Quebec
-Toronto, Ontario: Toronto, Ontario
-Winnipeg, Manitoba: Winnipeg, Manitoba
-Calgary, Alberta: Calgary, Alberta
-Edmonton, Alberta: Edmonton, Alberta
-Vancouver, British Columbia: Vancouver, British Columbia
-
 Persons in low income: Persons in low income
 All persons: All persons
 Persons under 18 years: Persons under 18 years
 Persons 18 to 64 years: Persons 18 to 64 years
 Persons 65 years and over: Persons 65 years and over
-Males: Males
 Males, under 18 years: Males, under 18 years
 Males, 18 to 64 years: Males, 18 to 64 years
 Males, 65 years and over: Males, 65 years and over
-Females: Females
 Females, under 18 years: Females, under 18 years
 Females, 18 to 64 years: Females, 18 to 64 years
 Females, 65 years and over: Females, 65 years and over
@@ -162,6 +241,87 @@ Statistics: Statistics
 Asset resilient for at least one month: Asset resilient for at least one month
 Asset resilient for at least three months: Asset resilient for at least three months
 Asset resilient for at least six months: Asset resilient for at least six months
+
+## 1-3-1
+Lowest income quintile: Lowest income quintile
+Second income quintile: Second income quintile
+Third income quintile: Third income quintile
+Fourth income quintile: Fourth income quintile
+Highest income quintile: Highest income quintile
+Lowest wealth quintile: Lowest wealth quintile
+Second wealth quintile: Second wealth quintile
+Third wealth quintile: Third wealth quintile
+Fourth wealth quintile: Fourth wealth quintile
+Highest wealth quintile: Highest wealth quintile
+One-person households: One-person households
+Multiple-person households: Multiple-person households
+Less than 35 years: Less than 35 years
+Lowest income quintile, less than 35 years: Lowest income quintile, less than 35 years
+Lowest income quintile, 35 to 44 years: Lowest income quintile, 35 to 44 years
+Lowest income quintile, 45 to 54 years: Lowest income quintile, 45 to 54 years
+Lowest income quintile, 55 to 64 years: Lowest income quintile, 55 to 64 years
+Lowest income quintile, 65 years and over: Lowest income quintile, 65 years and over
+Second income quintile, less than 35 years: Second income quintile, less than 35 years
+Second income quintile, 35 to 44 years: Second income quintile, 35 to 44 years
+Second income quintile, 45 to 54 years: Second income quintile, 45 to 54 years
+Second income quintile, 55 to 64 years: Second income quintile, 55 to 64 years
+Second income quintile, 65 years and over: Second income quintile, 65 years and over
+Third income quintile, less than 35 years: Third income quintile, less than 35 years
+Third income quintile, 35 to 44 years: Third income quintile, 35 to 44 years
+Third income quintile, 45 to 54 years: Third income quintile, 45 to 54 years
+Third income quintile, 55 to 64 years: Third income quintile, 55 to 64 years
+Third income quintile, 65 years and over: Third income quintile, 65 years and over
+Fourth income quintile, less than 35 years: Fourth income quintile, less than 35 years
+Fourth income quintile, 35 to 44 years: Fourth income quintile, 35 to 44 years
+Fourth income quintile, 45 to 54 years: Fourth income quintile, 45 to 54 years
+Fourth income quintile, 55 to 64 years: Fourth income quintile, 55 to 64 years
+Fourth income quintile, 65 years and over: Fourth income quintile, 65 years and over
+Highest income quintile, less than 35 years: Highest income quintile, less than 35 years
+Highest income quintile, 35 to 44 years: Highest income quintile, 35 to 44 years
+Highest income quintile, 45 to 54 years: Highest income quintile, 45 to 54 years
+Highest income quintile, 55 to 64 years: Highest income quintile, 55 to 64 years
+Highest income quintile, 65 years and over: Highest income quintile, 65 years and over
+Main source of household income: Main source of household income
+Wages and salaries: Wages and salaries
+Self-employment income: Self-employment income
+Net property income: Net property income
+Current transfers received - pension benefits: Current transfers received - pension benefits
+Current transfers received - others: Current transfers received - others
+Owner: Owner
+Owner with mortgage: Owner with mortgage
+Owner without mortgage: Owner without mortgage
+Renter: Renter
+Pre-1946: Pre-1946
+Baby boom: Baby boom
+Generation X: Generation X
+Millennials: Millennials
+Generation: Generation
+Type of household: Type of household
+Ownership status: Ownership status
+Income quintile: Income quintile
+
+## 1-4-1
+Economic family type: Economic family type
+Economic families and persons not in an economic family: Economic families and persons not in an economic family
+Economic families: Economic families
+Elderly families: Elderly families
+Elderly couples: Elderly couples
+Other elderly families: Other elderly families
+Non-elderly families: Non-elderly families
+Couples: Couples
+Couples with children: Couples with children
+Couples with other relatives: Couples with other relatives
+Lone-parent families: Lone-parent families
+Male lone-parent families: Male lone-parent families
+Female lone-parent families: Female lone-parent families
+Other non-elderly families: Other non-elderly families
+Persons not in an economic family: Persons not in an economic family
+Elderly persons not in an economic family: Elderly persons not in an economic family
+Elderly males not in an economic family: Elderly males not in an economic family
+Elderly females not in an economic family: Elderly females not in an economic family
+Non-elderly persons not in an economic family: Non-elderly persons not in an economic family
+Non-elderly males not in an economic family: Non-elderly males not in an economic family
+Non-elderly females not in an economic family: Non-elderly females not in an economic family
 
 ## 2-1-1
 Household food security status: Household food security status
@@ -244,8 +404,14 @@ Ages 18 to 79: Ages 18 to 79
 Ages 18 to 39: Ages 18 to 39
 Ages 40 to 59: Ages 40 to 59
 Ages 60 to 79: Ages 60 to 79
+Type of beverage: Type of beverage
+Total alcoholic beverages: Total alcoholic beverages
+Spirits: Spirits
+Wines: Wines
+Beer: Beer
+Ciders, Coolers, and Other Refreshment Beverages: Ciders, Coolers, and Other Refreshment Beverages
 
-## 3-8-1
+## 3-9-1
 Selected diseases: Selected diseases
 Diphtheria: Diphtheria
 Pertussis: Pertussis
@@ -264,16 +430,21 @@ Rotavirus: Rotavirus
 Human Papillomavirus: Human Papillomavirus
 Diphtheria - Tetanus - acellular Pertussis booster: Diphtheria - Tetanus - acellular Pertussis booster
 All children: All children
-by 2 years of age: by 2 years of age
-by 7 years of age: by 7 years of age
-by 14 years of age: by 14 years of age
-by 17 years of age: by 17 years of age
+Recommended vaccines for 2-year-old children: Recommended vaccines for 2-year-old children
+Recommended vaccines for 7-year-old children: Recommended vaccines for 7-year-old children
+Recommended vaccines for 14-year-old children: Recommended vaccines for 14-year-old children
+Recommended vaccines for 17-year-old children: Recommended vaccines for 17-year-old children
+Recommended vaccines during pregnancy: Recommended vaccines during pregnancy
 Diphtheria - Tetanus - acellular Pertussis (Tdap) booster: Diphtheria - Tetanus - acellular Pertussis (Tdap) booster
 Haemophilus influenzae type B (Hib): Haemophilus influenzae type B (Hib)
 Human Papillomavirus (HPV): Human Papillomavirus (HPV)
 Pertussis (whooping cough): Pertussis (whooping cough)
+Influenza (flu): Influenza (flu)
+Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap): Tetanus toxoid, reduced diphtheria toxoid and reduced acellular pertussis (Tdap)
+Diphtheria, Tetanus, acellular Pertussis (Tdap) booster: Diphtheria, Tetanus, acellular Pertussis (Tdap) booster
+Target population: Target population
 
-## 3-9-1
+## 3-10-1
 Disease: Disease
 Creutzfeldt-Jakob: Creutzfeldt-Jakob
 HIV and AIDS: HIV and AIDS
@@ -286,7 +457,7 @@ Cancer: Cancer
 Tuberculosis: Tuberculosis
 Salmonella: Salmonella
 
-## 3-10-1
+## 3-11-1
 Age at time of death: Age at time of death
 all ages: all ages
 All ages: All ages
@@ -312,7 +483,7 @@ Accidents (unintentional injuries) [V01-X59, Y85-Y86]: Accidents (unintentional 
 Intentional self-harm (suicide) [X60-X84, Y87.0]: Intentional self-harm (suicide)
 Indigenous: Indigenous
 
-## 3-12-1
+## 3-13-1
 Rate per 100,000 population: Rate per 100,000 population
 Type of event: Type of event
 Apparent opioid toxicity deaths: Apparent opioid toxicity deaths
@@ -320,6 +491,7 @@ Opioid-related poisoning hospitalizations: Opioid-related poisoning hospitalizat
 Stimulant-related poisoning hospitalizations: Stimulant-related poisoning hospitalizations
 EMS responses to suspected opioid-related overdoses: EMS responses to suspected opioid-related overdoses
 Apparent stimulant toxicity deaths: Apparent stimulant toxicity deaths
+Accidental apparent opioid toxicity deaths: Accidental apparent opioid toxicity deaths
 
 ## 4-1-1
 Age group: Age group
@@ -340,8 +512,6 @@ First Nations (North American Indian): First Nations (North American Indian)
 Métis: Métis
 Inuk (Inuit): Inuk (Inuit)
 Non-Indigenous identity: Non-Indigenous identity
-
-
 
 ## 4-2-1
 Educational attainment level: Educational attainment level
@@ -367,7 +537,7 @@ All types of perpetrators: All types of perpetrators
 Intimate partner: Intimate partner
 Non-intimate partner: Non-intimate partner
 
-## 5-1-2
+## 5-2-1
 Type of intimate partner violence: Type of intimate partner violence
 Emotional, financial, or psychological abuse: Emotional, financial, or psychological abuse
 Physical abuse: Physical abuse
@@ -384,7 +554,7 @@ Women with disability: Women with disability
 Immigrant women: Immigrant women
 Women designated as visible minorities: Women designated as visible minorities
 
-## 5-2-1
+## 5-3-1
 Leadership position: Leadership position
 Members of national Parliament: Members of national Parliament
 Members of federal Cabinet: Members of federal Cabinet
@@ -397,7 +567,7 @@ Federally appointed judges: Federally appointed judges
 First Nations council members: First Nations council members
 Chiefs in First Nation communities: Chiefs in First Nation communities
 
-## 5-3-1
+## 5-4-1
 Activity group: Activity group
 Unpaid work activities: Unpaid work activities
 Household chores: Household chores
@@ -405,9 +575,33 @@ Care of household children under 18 years: Care of household children under 18 y
 Care of household adults: Care of household adults
 Shopping for goods or services: Shopping for goods or services
 
+## 5-5-1
+Type of work: Type of work
+Both full- and part-time employees: Both full- and part-time employees
+Full-time employees: Full-time employees
+Part-time employees: Part-time employees
+National Occupational Classification (NOC): National Occupational Classification (NOC)
+Total employees, all occupations: Total employees, all occupations
+Management occupations: Management occupations
+Business, finance and administration occupations: Business, finance and administration occupations
+Natural and applied sciences and related occupations: Natural and applied sciences and related occupations
+Health occupations: Health occupations
+Occupations in education, law and social, community and government services: Occupations in education, law and social, community and government services
+Occupations in art, culture, recreation and sport: Occupations in art, culture, recreation and sport
+Sales and service occupations: Sales and service occupations
+Trades, transport and equipment operators and related occupations: Trades, transport and equipment operators and related occupations
+Natural resources, agriculture and related production occupations: Natural resources, agriculture and related production occupations
+Occupations in manufacturing and utilities: Occupations in manufacturing and utilities
+
 ## 6-3-1
 Growth rate: Growth rate
 Cubic metres: Cubic metres
+Water use per capita growth rate: Water use per capita growth rate
+Water use growth rate: Water use growth rate
+Total water use: Total water use
+a) Water use per capita growth rate: a) Water use per capita growth rate
+b) Water use growth rate: b) Water use growth rate
+c) Total water use: c) Total water use
 Sector: Sector
 Accommodation and food services: Accommodation and food services
 Administrative and support, waste management and remediation services: Administrative and support, waste management and remediation services
@@ -466,6 +660,19 @@ Marginal: Marginal
 Poor: Poor
 
 ## 7-2-1
+Type of electricity generation: Type of electricity generation
+Hydraulic turbine: Hydraulic turbine
+Tidal power turbine: Tidal power turbine
+Wind power turbine: Wind power turbine
+Solar: Solar
+Other types of electricity generation: Other types of electricity generation
+Total hydro, tidal, wind, solar and other generation: Total hydro, tidal, wind, solar and other generation
+Total renewable and non-greenhouse gas emitting sources: Total renewable and non-greenhouse gas emitting sources
+Nuclear steam turbine: |
+    Nuclear steam turbine
+Total electricity production from biomass: Total electricity production from biomass
+
+## 7-3-1
 Demand characteristics: Demand characteristics
 Energy use - final demand: Energy use - final demand
 Total industrial: Total industrial
@@ -491,19 +698,6 @@ Per capita: Per capita
 Primary electricity, hydro and nuclear: Primary electricity, hydro and nuclear
 Agriculture, fishing, hunting and trapping: Agriculture, fishing, hunting and trapping
 
-## 7-3-1
-Type of electricity generation: Type of electricity generation
-Hydraulic turbine: Hydraulic turbine
-Tidal power turbine: Tidal power turbine
-Wind power turbine: Wind power turbine
-Solar: Solar
-Other types of electricity generation: Other types of electricity generation
-Total hydro, tidal, wind, solar and other generation: Total hydro, tidal, wind, solar and other generation
-Total renewable and non-greenhouse gas emitting sources: Total renewable and non-greenhouse gas emitting sources
-Nuclear steam turbine: |
-    Nuclear steam turbine
-Total electricity production from biomass: Total electricity production from biomass
-
 # 8-1-1
 Population: Population
 Total population: Total population
@@ -513,7 +707,95 @@ Immigrants, landed 5 or less years earlier: Immigrants, landed 5 or less years e
 Immigrants, landed more than 5 to 10 years earlier: Immigrants, landed more than 5 to 10 years earlier
 Immigrants, landed more than 10 years earlier: Immigrants, landed more than 10 years earlier
 
-# 8-2-1
+## 8-2-1
+Employment rate: Employment rate
+Avalon Peninsula, Newfoundland and Labrador: Avalon Peninsula, Newfoundland and Labrador
+South Coast-Burin Peninsula and Notre Dame-Central Bonavista Bay, Newfoundland and Labrador: South Coast-Burin Peninsula and Notre Dame-Central Bonavista Bay, Newfoundland and Labrador
+West Coast-Northern Peninsula-Labrador, Newfoundland and Labrador: West Coast-Northern Peninsula-Labrador, Newfoundland and Labrador
+Cape Breton, Nova Scotia: Cape Breton, Nova Scotia
+North Shore, Nova Scotia: North Shore, Nova Scotia
+Annapolis Valley, Nova Scotia: Annapolis Valley, Nova Scotia
+Southern, Nova Scotia: Southern, Nova Scotia
+Campbellton-Miramichi, New Brunswick: Campbellton-Miramichi, New Brunswick
+Moncton-Richibucto, New Brunswick: Moncton-Richibucto, New Brunswick
+Saint John-St. Stephen, New Brunswick: Saint John-St. Stephen, New Brunswick
+Fredericton-Oromocto, New Brunswick: Fredericton-Oromocto, New Brunswick
+Edmundston-Woodstock, New Brunswick: Edmundston-Woodstock, New Brunswick
+Gaspésie-Îles-de-la-Madeleine, Quebec: Gaspésie-Îles-de-la-Madeleine, Quebec
+Bas-Saint-Laurent, Quebec: Bas-Saint-Laurent, Quebec
+Capitale-Nationale, Quebec: Capitale-Nationale, Quebec
+Chaudière-Appalaches, Quebec: Chaudière-Appalaches, Quebec
+Estrie, Quebec: Estrie, Quebec
+Centre-du-Québec, Quebec: Centre-du-Québec, Quebec
+Montérégie, Quebec: Montérégie, Quebec
+Laval, Quebec: Laval, Quebec
+Lanaudière, Quebec: Lanaudière, Quebec
+Laurentides, Quebec: Laurentides, Quebec
+Outaouais, Quebec: Outaouais, Quebec
+Abitibi-Témiscamingue, Quebec: Abitibi-Témiscamingue, Quebec
+Mauricie, Quebec: Mauricie, Quebec
+Saguenay-Lac-Saint-Jean, Quebec: Saguenay-Lac-Saint-Jean, Quebec
+Côte-Nord and Nord-du-Québec, Quebec: Côte-Nord and Nord-du-Québec, Quebec
+Kingston-Pembroke, Ontario: Kingston-Pembroke, Ontario
+Muskoka-Kawarthas, Ontario: Muskoka-Kawarthas, Ontario
+Kitchener-Waterloo-Barrie, Ontario: Kitchener-Waterloo-Barrie, Ontario
+Hamilton-Niagara Peninsula, Ontario: Hamilton-Niagara Peninsula, Ontario
+Windsor-Sarnia, Ontario: Windsor-Sarnia, Ontario
+Stratford-Bruce Peninsula, Ontario: Stratford-Bruce Peninsula, Ontario
+Northeast, Ontario: Northeast, Ontario
+Northwest, Ontario: Northwest, Ontario
+Southeast, Manitoba: Southeast, Manitoba
+South Central and North Central, Manitoba: South Central and North Central, Manitoba
+Southwest, Manitoba: Southwest, Manitoba
+Interlake, Manitoba: Interlake, Manitoba
+Parklands and Northern, Manitoba: Parklands and Northern, Manitoba
+Regina-Moose Mountain, Saskatchewan: Regina-Moose Mountain, Saskatchewan
+Swift Current-Moose Jaw, Saskatchewan: Swift Current-Moose Jaw, Saskatchewan
+Saskatoon-Biggar, Saskatchewan: Saskatoon-Biggar, Saskatchewan
+Yorkton-Melville, Saskatchewan: Yorkton-Melville, Saskatchewan
+Prince Albert and Northern, Saskatchewan: Prince Albert and Northern, Saskatchewan
+Lethbridge-Medicine Hat, Alberta: Lethbridge-Medicine Hat, Alberta
+Camrose-Drumheller, Alberta: Camrose-Drumheller, Alberta
+Banff-Jasper-Rocky Mountain House and Athabasca-Grande Prairie-Peace River, Alberta: Banff-Jasper-Rocky Mountain House and Athabasca-Grande Prairie-Peace River, Alberta
+Red Deer, Alberta: Red Deer, Alberta
+Wood Buffalo-Cold Lake, Alberta: Wood Buffalo-Cold Lake, Alberta
+Vancouver Island and Coast, British Columbia: Vancouver Island and Coast, British Columbia
+Lower Mainland-Southwest, British Columbia: Lower Mainland-Southwest, British Columbia
+Thompson-Okanagan, British Columbia: Thompson-Okanagan, British Columbia
+Kootenay, British Columbia: Kootenay, British Columbia
+Cariboo, British Columbia: Cariboo, British Columbia
+North Coast and Nechako, British Columbia: North Coast and Nechako, British Columbia
+Northeast, British Columbia: Northeast, British Columbia
+Total population, with and without disabilities: Total population, with and without disabilities
+Persons with disabilities: Persons with disabilities
+Persons without disabilities: Persons without disabilities
+Disability: Disability
+Non-Indigenous population: Non-Indigenous population
+Total, all education levels: Total, all education levels
+Less than high school: Less than high school
+High school graduate or some post-secondary: High school graduate or some post-secondary
+Completed post-secondary education: Completed post-secondary education
+Educational attainment: Educational attainment
+Indigenous group: Indigenous group
+First Nations: First Nations
+Eastern and central provinces: Eastern and central provinces
+Western provinces: Western provinces
+Prairie region: Prairie region
+Visible minority population: Visible minority population
+South Asian: South Asian
+Chinese: Chinese
+Black: Black
+Filipino: Filipino
+Arab: Arab
+Latin American: Latin American
+Southeast Asian: Southeast Asian
+West Asian: West Asian
+Korean: Korean
+Japanese: Japanese
+Visible minority n.i.e: Visible minority n.i.e
+Multiple visible minorities: Multiple visible minorities
+Born in Canada: Born in Canada
+Immigrant status: Immigrant status
 
 ## 8-3-1
 ## nothing new
@@ -528,6 +810,37 @@ Engineering construction: Engineering construction
 Manufacturing: Manufacturing
 Professional, scientific and technical services: Professional, scientific and technical services
 Other industries: Other industries
+
+## 9-1-1
+Rest of Canada: Rest of Canada
+Rest of Canada excluding Alberta: Rest of Canada excluding Alberta
+Total, all surveyed industries: Total, all surveyed industries
+All transportation: All transportation
+Postal services, couriers and messengers, warehousing and storage: Postal services, couriers and messengers, warehousing and storage
+Finance and insurance excluding monetary authorities: Finance and insurance excluding monetary authorities
+Management of companies and enterprises: Management of companies and enterprises
+Enterprise size: Enterprise size
+Innovations with environmental benefits: Innovations with environmental benefits
+Total, all enterprise sizes: Total, all enterprise sizes
+Small enterprises (20 to 99 employees): Small enterprises (20 to 99 employees)
+Medium-sized enterprises (100 to 249 employees): Medium-sized enterprises (100 to 249 employees)
+Large enterprises (250 and more employees): Large enterprises (250 and more employees)
+Innovations with any environmental benefits: Innovations with any environmental benefits
+Innovations with environmental benefits from production through efficient use of resources: Innovations with environmental benefits from production through efficient use of resources
+Improved resource efficiency through reduced material use per unit of output: Improved resource efficiency through reduced material use per unit of output
+Improved resource efficiency through reduced energy use per unit of output: Improved resource efficiency through reduced energy use per unit of output
+Improved resource efficiency by replacing material with less greenhouse-gas-intensive alternatives: Improved resource efficiency by replacing material with less greenhouse-gas-intensive alternatives
+Reduced consumption of resources through recycling (water, waste or material): Reduced consumption of resources through recycling (water, waste or material)
+Renewable fuels (ethanol, biodiesel, biogas, biochar, hydrogen): Renewable fuels (ethanol, biodiesel, biogas, biochar, hydrogen)
+Innovations with environmental benefits related to increased environmental protection activities: Innovations with environmental benefits related to increased environmental protection activities
+Reduced air, water, soil or noise pollution: Reduced air, water, soil or noise pollution
+Reduced greenhouse gas emissions: Reduced greenhouse gas emissions
+Innovations with environmental benefits related to the end user or consumer: Innovations with environmental benefits related to the end user or consumer
+Reduced energy use or increased energy efficiency for the end user or consumer: Reduced energy use or increased energy efficiency for the end user or consumer
+Reduced material use or increased recycling for the end user or consumer: Reduced material use or increased recycling for the end user or consumer
+Reduced air, water, soil or noise pollution for the end user or consumer: Reduced air, water, soil or noise pollution for the end user or consumer
+Reduced greenhouse gas emissions for the end user or consumer: Reduced greenhouse gas emissions for the end user or consumer
+Innovations with other environmental benefits: Innovations with other environmental benefits
 
 ## 9-2-1
 Total, Organisation for Economic Co-operation and Development (OECD): Total, Organisation for Economic Co-operation and Development (OECD)
@@ -578,58 +891,11 @@ Police-reported: Police-reported
 Offence: Offence
 Hate crime: Hate crime
 Total police-reported hate crime: Total police-reported hate crime
-Total Non-Census metropolitan area: Total Non-Census metropolitan area
-Total Census metropolitan area: Total Census metropolitan area
-Greater Sudbury, Ontario: Greater Sudbury, Ontario
-Gatineau, Quebec: Gatineau, Quebec
-Ottawa, Ontario: Ottawa, Ontario
-
-## 10-3-1
-Type of work: Type of work
-Both full- and part-time employees: Both full- and part-time employees
-Full-time employees: Full-time employees
-Part-time employees: Part-time employees
-
-National Occupational Classification (NOC): National Occupational Classification (NOC)
-Total employees, all occupations: Total employees, all occupations
-Management occupations: Management occupations
-Business, finance and administration occupations: Business, finance and administration occupations
-Natural and applied sciences and related occupations: Natural and applied sciences and related occupations
-Health occupations: Health occupations
-Occupations in education, law and social, community and government services: Occupations in education, law and social, community and government services
-Occupations in art, culture, recreation and sport: Occupations in art, culture, recreation and sport
-Sales and service occupations: Sales and service occupations
-Trades, transport and equipment operators and related occupations: Trades, transport and equipment operators and related occupations
-Natural resources, agriculture and related production occupations: Natural resources, agriculture and related production occupations
-Occupations in manufacturing and utilities: Occupations in manufacturing and utilities
 
 15 years and over: 15 years and over
 15 to 24 years: 15 to 24 years
 25 to 54 years: 25 to 54 years
 55 years and over: 55 years and over
-
-## 10-4-1
-Economic family type: Economic family type
-Economic families and persons not in an economic family: Economic families and persons not in an economic family
-Economic families: Economic families
-Elderly families: Elderly families
-Elderly couples: Elderly couples
-Other elderly families: Other elderly families
-Non-elderly families: Non-elderly families
-Couples: Couples
-Couples with children: Couples with children
-Couples with other relatives: Couples with other relatives
-Lone-parent families: Lone-parent families
-Male lone-parent families: Male lone-parent families
-Female lone-parent families: Female lone-parent families
-Other non-elderly families: Other non-elderly families
-Persons not in an economic family: Persons not in an economic family
-Elderly persons not in an economic family: Elderly persons not in an economic family
-Elderly males not in an economic family: Elderly males not in an economic family
-Elderly females not in an economic family: Elderly females not in an economic family
-Non-elderly persons not in an economic family: Non-elderly persons not in an economic family
-Non-elderly males not in an economic family: Non-elderly males not in an economic family
-Non-elderly females not in an economic family: Non-elderly females not in an economic family
 
 ## 11-1-1
 Estimates: Estimates
@@ -651,114 +917,16 @@ Women+ living alone: Women+ living alone
 Reference persons who have experienced homelessness: Reference persons who have experienced homelessness
 Living with housing problems: Living with housing problems
 
-
-
 ## 11-4-1
-St. John's, Newfoundland and Labrador: St. John's, Newfoundland and Labrador
-Halifax, Nova Scotia: Halifax, Nova Scotia
-Moncton, New Brunswick: Moncton, New Brunswick
-Saint John, New Brunswick: Saint John, New Brunswick
-Montreal, Quebec: Montreal, Quebec
-Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (Quebec part), Quebec
-Quebec, Quebec: Quebec, Quebec
-Saguenay, Quebec: Saguenay, Quebec
-Sherbrooke, Quebec: Sherbrooke, Quebec
-Trois-Rivières, Quebec: Trois-Rivières, Quebec
-Barrie, Ontario: Barrie, Ontario
-Belleville, Ontario: Belleville, Ontario
-Brantford, Ontario: Brantford, Ontario
-Greater Sudbury / Grand Sudbury, Ontario: Greater Sudbury / Grand Sudbury, Ontario
-Guelph, Ontario: Guelph, Ontario
-Hamilton, Ontario: Hamilton, Ontario
-Kingston, Ontario: Kingston, Ontario
-Kitchener - Cambridge - Waterloo, Ontario: Kitchener - Cambridge - Waterloo, Ontario
-London, Ontario: London, Ontario
-Oshawa, Ontario: Oshawa, Ontario
-Ottawa - Gatineau (Ontario part), Ontario: Ottawa - Gatineau (Ontario part), Ontario
-Peterborough, Ontario: Peterborough, Ontario
-St. Catharines - Niagara, Ontario: St. Catharines - Niagara, Ontario
-Thunder Bay, Ontario: Thunder Bay, Ontario
-Toronto, Ontario: Toronto, Ontario
-Windsor, Ontario: Windsor, Ontario
-Winnipeg, Manitoba: Winnipeg, Manitoba
-Regina, Saskatchewan: Regina, Saskatchewan
-Saskatoon, Saskatchewan: Saskatoon, Saskatchewan
-Calgary, Alberta: Calgary, Alberta
-Edmonton, Alberta: Edmonton, Alberta
-Lethbridge, Alberta: Lethbridge, Alberta
-Abbotsford - Mission, British Columbia: Abbotsford - Mission, British Columbia
-Kelowna, British Columbia: Kelowna, British Columbia
-Vancouver, British Columbia: Vancouver, British Columbia
-Victoria, British Columbia: Victoria, British Columbia
 Demographic and geodemographic: Demographic and geodemographic
 Percentage of population within 500 metres of a public transit stop: Percentage of population within 500 metres of a public transit stop
-0 to 14 years: 0 to 14 years
-15 to 64 years: 15 to 64 years
-65 years and over: 65 years and over
-
 
 ## 11-5-1
 Type of commute: Main mode of commuting
 Sustainable transportation: Sustainable transportation
 Public transit: Public transit
 Active transportation: Active transportation
-Gender: Gender
 Total - Gender: Total - Gender
-Men+: Men+
-Women+: Women+
-Canada: Canada
-Newfoundland and Labrador: Newfoundland and Labrador
-St. John's (CMA), N.L.: St. John's (CMA), N.L.
-Prince Edward Island: Prince Edward Island
-Nova Scotia: Nova Scotia
-Halifax (CMA), N.S.: Halifax (CMA), N.S.
-New Brunswick: New Brunswick
-Moncton (CMA), N.B.: Moncton (CMA), N.B.
-Saint John (CMA), N.B.: Saint John (CMA), N.B.
-Quebec: Quebec
-Montréal (CMA), Que.: Montréal (CMA), Que.
-Québec (CMA), Que.: Québec (CMA), Que.
-Saguenay (CMA), Que.: Saguenay (CMA), Que.
-Sherbrooke (CMA), Que.: Sherbrooke (CMA), Que.
-Trois-Rivieres, Quebec: Trois-Rivières (CMA), Que.
-Trois-Rivières (CMA), Que.: Trois-Rivières (CMA), Que.
-Ontario: Ontario
-Barrie (CMA), Ont.: Barrie (CMA), Ont.
-Belleville - Quinte West (CMA), Ont.: Belleville - Quinte West (CMA), Ont.
-Brantford (CMA), Ont.: Brantford (CMA), Ont.
-Greater Sudbury (CMA), Ont.: Greater Sudbury (CMA), Ont.
-Guelph (CMA), Ont.: Guelph (CMA), Ont.
-Hamilton (CMA), Ont.: Hamilton (CMA), Ont.
-Kingston (CMA), Ont.: Kingston (CMA), Ont.
-Kitchener - Cambridge - Waterloo (CMA), Ont.: Kitchener - Cambridge - Waterloo (CMA), Ont.
-London (CMA), Ont.: London (CMA), Ont.
-Oshawa (CMA), Ont.: Oshawa (CMA), Ont.
-Ottawa - Gatineau (CMA), Ont./Que.: Ottawa - Gatineau (CMA), Ont./Que.
-Ottawa - Gatineau (Ontario part) (CMA), Ont.: Ottawa - Gatineau (Ontario part) (CMA), Ont.
-Ottawa - Gatineau (Quebec part) (CMA), Que.: Ottawa - Gatineau (Quebec part) (CMA), Que.
-Peterborough (CMA), Ont.: Peterborough (CMA), Ont.
-St. Catharines - Niagara (CMA), Ont.: St. Catharines - Niagara (CMA), Ont.
-Thunder Bay (CMA), Ont.: Thunder Bay (CMA), Ont.
-Toronto (CMA), Ont.: Toronto (CMA), Ont.
-Windsor (CMA), Ont.: Windsor (CMA), Ont.
-Manitoba: Manitoba
-Winnipeg (CMA), Man.: Winnipeg (CMA), Man.
-Saskatchewan: Saskatchewan
-Regina (CMA), Sask.: Regina (CMA), Sask.
-Saskatoon (CMA), Sask.: Saskatoon (CMA), Sask.
-Alberta: Alberta
-Calgary (CMA), Alta.: Calgary (CMA), Alta.
-Edmonton (CMA), Alta.: Edmonton (CMA), Alta.
-Lethbridge (CMA), Alta.: Lethbridge (CMA), Alta.
-British Columbia: British Columbia
-Abbotsford - Mission (CMA), B.C.: Abbotsford - Mission (CMA), B.C.
-Kelowna (CMA), B.C.: Kelowna (CMA), B.C.
-Vancouver (CMA), B.C.: Vancouver (CMA), B.C.
-Victoria (CMA), B.C.: Victoria (CMA), B.C.
-Yukon: Yukon
-Northwest Territories: Northwest Territories
-Nunavut: Nunavut
-
 
 ## 11-6-1
 Sources of waste for disposal: Sources of waste for disposal
@@ -891,7 +1059,6 @@ Crustaceans: Crustaceans
 Molluscs: Molluscs
 Others: Others
 
-
 ## 15-1-1
 Species group: Species group
 Amphibians: Amphibians
@@ -948,29 +1115,39 @@ Water mites: Water mites
 Yellowjacket wasps: Yellowjacket wasps
 Yellowjackets and relatives: Yellowjackets and relatives
 
-
-
 ##15-2-1
 Trend: Trend
 Show progress: Show progress
 Mixed evidence: Mixed evidence
 Do not show progress: Do not show progress
 
-## 15-3-1
-National terrestrial: National terrestrial
-National marine: National marine
+##15-3-1
+Species group or system: Species group or system
+National index: National index
+Birds index: Birds index
+Mammals index: Mammals index
+Fish index: Fish index
+Terrestrial index: Terrestrial index
+Freshwater index: Freshwater index
+Marine index: Marine index
+By species group: By species group
+By system: By system
+System: System
 
 ## 16-1-1
-Selected demographic characteristics: Selected demographic characteristics
+Visible minority: Visible minority
+Sociodemographic characteristics: Sociodemographic characteristics
+South Asian: South Asian
+Chinese: Chinese
+Black: Black
+Filipino: Filipino
+Arab: Arab
+Latin American: Latin American
+Southeast Asian: Southeast Asian
+Non-immigrants: Non-immigrants
+Immigrants: Immigrants
 
 ## 16-2-1
-Index: Index
-Crime severity index: Crime severity index
-Violent crime severity index: Violent crime severity index
-Youth crime severity index: Youth crime severity index
-Youth violent crime severity index: Youth violent crime severity index
-
-## 16-3-1
 Violations: Violations
 Total, all violations [0]: Total, all violations
 Homicide [110]: Homicide
@@ -988,22 +1165,22 @@ Uttering threats [1627]: Uttering threats
 Total other violent violations [180]: Total other violent violations
 Total violent Criminal Code violations [100]: Total violent Criminal Code violations
 
+## 16-3-1
+Total police-reported cybercrime: Total police-reported cybercrime
+Canadian Forces Military Police: Canadian Forces Military Police
+
 ## 16-4-1
-Type of cyber-related violation: Type of cyber-related violation
-Against a person: Against a person
-Cyber-related violation: Cyber-related violation
-Total - all violations: Total - all violations
-Luring a child via a computer: Luring a child via a computer
-Non-consensual distribution of intimate images: Non-consensual distribution of intimate images
-Extortion: Extortion
-Criminal harassment: Criminal harassment
-Indecent/Harassing communications: Indecent/Harassing communications
-Uttering threats: Uttering threats
-Fraud: Fraud
-Identity theft: Identity theft
-Identity fraud: Identity fraud
-Child pornography: Child pornography
-Making or distribution of child pornography: Making or distribution of child pornography
+Type of case: Type of case
+Total cases: Total cases
+General civil cases: General civil cases
+Family cases: Family cases
+Elapsed time: Number of months
+Less than or equal to 3 months: Less than or equal to 3 months
+Greater than 3 months to 6 months: Greater than 3 months to 6 months
+Greater than 6 months to 12 months: Greater than 6 months to 12 months
+Greater than 12 months to 24 months: Greater than 12 months to 24 months
+Greater than 24 months: Greater than 24 months
+Unknown: Unknown
 
 ## 16-5-1
 Offences: Offences

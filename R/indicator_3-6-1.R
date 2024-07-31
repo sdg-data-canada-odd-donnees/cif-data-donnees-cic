@@ -7,15 +7,15 @@ library(cansim)
 # load CODR table from stc api
 Raw_data <- get_cansim("13-10-0096-01", factors = FALSE)
 
-
 # load geocode
 geocodes <- read.csv("geocodes.csv")
 
-
-overall_health <-
+life_satisfied <-
   Raw_data %>%
-  filter(Indicators == "Perceived health, very good or excellent",
-         Characteristics == "Percent") %>%
+  filter(
+    Indicators == "Life satisfaction, satisfied or very satisfied",
+    Characteristics == "Percent"
+  ) %>%
   select(REF_DATE, GEO, `Age group`, Sex, VALUE) %>%
   rename(Year = REF_DATE,
          Geography = GEO,
@@ -27,15 +27,14 @@ overall_health <-
 
 
 total <-
-  overall_health %>%
+  life_satisfied %>%
   filter(Geography == "Canada",
          `Age group` == "Total, 12 years and over",
          Sex == "Both sexes") %>%
   mutate_at(2:(ncol(.) - 2), ~ "")
 
-
-non_total <-
-  overall_health %>%
+non_agg_line <-
+  life_satisfied %>%
   filter(!(
     Geography == "Canada" &
       `Age group` == "Total, 12 years and over" &
@@ -43,11 +42,9 @@ non_total <-
   )) %>%
   mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
 
-
 final_data <-
-  bind_rows(total, non_total) %>%
+  bind_rows(total, non_agg_line) %>%
   rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
-
 
 write.csv(final_data,
           "data/indicator_3-6-1.csv",

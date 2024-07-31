@@ -1,53 +1,31 @@
-# CIF 3.5.1 ---------------------------------------------------------------
+#CIF 3.5.1
 
-# load libraries
 library(dplyr)
 library(cansim)
+library(stringr)
+library(tidyr)
 
-# load CODR table from stc api
-Raw_data <- get_cansim("13-10-0096-01", factors = FALSE)
+physical_activity <- get_cansim("13-10-0821-01", factors = FALSE)
 
-# load geocode
-geocodes <- read.csv("geocodes.csv")
-
-life_satisfied <-
-  Raw_data %>%
+data_final <-
+  physical_activity %>%
   filter(
-    Indicators == "Life satisfaction, satisfied or very satisfied",
-    Characteristics == "Percent"
+    REF_DATE >= 2015,
+    Categories == "Meeting guidelines",
+    Characteristics == "Estimate"
+  ) %>% 
+  select(
+    Year = REF_DATE,
+    Sex,
+    `Age group`,
+    Value = VALUE
   ) %>%
-  select(REF_DATE, GEO, `Age group`, Sex, VALUE) %>%
-  rename(Year = REF_DATE,
-         Geography = GEO,
-         Value = VALUE) %>%
-  mutate(Geography = recode(Geography,
-                            "Canada (excluding territories)" = "Canada")) %>%
-  left_join(geocodes, by = "Geography") %>%
-  relocate(GeoCode, .before = Value)
+  na.omit()
 
-
-total <-
-  life_satisfied %>%
-  filter(Geography == "Canada",
-         `Age group` == "Total, 12 years and over",
-         Sex == "Both sexes") %>%
-  mutate_at(2:(ncol(.) - 2), ~ "")
-
-non_agg_line <-
-  life_satisfied %>%
-  filter(!(
-    Geography == "Canada" &
-      `Age group` == "Total, 12 years and over" &
-      Sex == "Both sexes"
-  )) %>%
-  mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
-
-final_data <-
-  bind_rows(total, non_agg_line) %>%
-  rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
-
-write.csv(final_data,
-          "data/indicator_3-5-1.csv",
-          na = "",
-          row.names = FALSE,
-          fileEncoding = "UTF-8")
+write.csv(
+  data_final,
+  "data/indicator_3-5-1.csv",
+  na = "",
+  row.names = FALSE,
+  fileEncoding = "UTF-8"
+)

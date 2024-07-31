@@ -1,70 +1,32 @@
-# CIF 16.4.1 --------------------------------------------------------------------
+# CIF 16.4.1 -------------------------------------------------------
 
 # load libraries
-library(dplyr)
 library(cansim)
+library(dplyr)
 
-Raw_data <- get_cansim("35-10-0001-01", factors = FALSE)
+raw_data <- get_cansim("35-10-0116-01", factors = FALSE)
 
-cyber_violation <- c(
-  "Total, all violations",
-  "Luring a child via a computer",
-  "Non-consensual distribution of intimate images",
-  "Extortion",
-  "Criminal harassment",
-  "Indecent/Harassing communications",
-  "Uttering threats",
-  "Fraud",
-  "Identity theft",
-  "Identity fraud",
-  "Child pornography",
-  "Making or distribution of child pornography"
-)
-
-cyber_crime <-
-  Raw_data %>%
-  filter(
-    REF_DATE >= 2015,
-    `Cyber-related violation` %in% cyber_violation
-  ) %>%
-  select(
-    Year = REF_DATE,
-    Geography = GEO,
-    `Cyber-related violation`,
-    Value = VALUE
-  ) %>%
-  mutate(
-    Geography = recode(
-      Geography,
-      "Canada, selected police services" = "Canada"
-    )
-  ) %>%
-  mutate(`Type of cyber-related violation` = "Against a person") %>%
-  relocate(`Type of cyber-related violation`, .after = Geography)
+court_time <- raw_data %>%
+  filter(substr(REF_DATE, 1, 4) >= 2014,
+         `Level of court` == "Total civil court cases",
+         `Elapsed time from case initiation to first disposition` != "Total active cases, elapsed time",
+         ) %>%
+  select(Year = REF_DATE,
+         data.Geography = GEO,
+         `data.Type of case` = `Type of case`,
+         `data.Elapsed time` = `Elapsed time from case initiation to first disposition`,
+         GeoCode = GeoUID,
+         Value = VALUE,
+         ) %>%
+  # Calculate percentage of cases for each "time elapsed" category
+  group_by(Year, data.Geography, `data.Type of case`) %>%
+  mutate(Value = round(Value / sum(Value) * 100, digits = 2)) %>%
+  # Textual formatting
+  mutate_at(2:(ncol(.)-2), ~ paste0("data.", .x)) %>%
+  mutate(GeoCode = replace(GeoCode, GeoCode == "11124", NA),
+         `data.Elapsed time` = substr(`data.Elapsed time`, 1, nchar(`data.Elapsed time`) - 13))
 
 
-# Create the total and non-total line
-total <-
-  cyber_crime %>%
-  filter(Geography == "Canada",
-         `Cyber-related violation` == "Total, all violations") %>%
-  mutate_at(2:(ncol(.) - 1), ~ "")
-
-non_total <-
-  cyber_crime %>%
-  filter(!(
-    Geography == "Canada" &
-      `Cyber-related violation` == "Total, all violations"
-  )) %>%
-  mutate_at(2:(ncol(.) - 1), ~ paste0("data.", .x))
-
-# Format final table and export to csv
-final_data <-
-  bind_rows(total, non_total) %>%
-  rename_at(2:(ncol(.) - 1), ~ paste0("data.", .x))
-
-write.csv(final_data,
-          "data/indicator_16-4-1.csv",
-          na = "",
-          row.names = FALSE,
-          fileEncoding = "UTF-8")
+# Write to csv
+write.csv(court_time, "data/indicator_16-4-1.csv",
+          na = "", row.names = FALSE, fileEncoding = "UTF-8")
