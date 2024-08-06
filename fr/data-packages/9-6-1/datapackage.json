@@ -12,21 +12,54 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Année"
           },
           {
-            "name": "data.Type of charging stations",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Électrique",
-                "Gaz naturel",
-                "Hydrogène",
+                "Alberta",
+                "Colombie-Britannique",
+                "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             },
-            "title": "Type de poste de recharge"
+            "title": "Géographie"
+          },
+          {
+            "name": "Type of charging or fuelling stations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Stations de recharge et de stations de ravitaillement en carburants de remplacement total",
+                "Propane",
+                "Électrique",
+                "Gaz naturel comprimé",
+                "Biodiesel",
+                "Hydrogène",
+                "Éthanol",
+                "Gaz naturel liquéfié",
+                ""
+              ]
+            },
+            "title": "Type de poste de recharge ou de ravitaillement"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -39,5 +72,5 @@
   ],
   "profile": "data-package",
   "name": "9-6-1",
-  "title": "Number of low carbon recharging and refueling stations under development and completed along major highways, and in rural and urban areas across Canada"
+  "title": "Number of publicly available electric vehicle charging and alternative fuelling stations in Canada"
 }

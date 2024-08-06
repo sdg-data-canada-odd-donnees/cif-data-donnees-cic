@@ -52,7 +52,6 @@ data.Statistics,1,3
 data.Stock group,1,8
 data.Trend,1,2
 data.Type of case,1,3
-data.Type of charging stations,1,3
 data.Type of commute,1,3
 data.Type of e-cigarettes,1,3
 data.Type of electricity generation,1,7
@@ -68,7 +67,7 @@ Educational attainment,1,4
 Enterprise size,1,4
 Gender,1,3
 Generation,1,4
-Geography,11,140
+Geography,12,140
 Immigrant status,1,5
 Income quintile,1,30
 Indigenous group,1,5
@@ -84,5 +83,6 @@ Species group,1,3
 System,1,3
 Target population,1,5
 Type of beverage,1,5
+Type of charging or fuelling stations,1,8
 Type of household,1,2
 Visible minority,1,14
