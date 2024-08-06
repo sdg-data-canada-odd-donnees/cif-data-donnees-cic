@@ -216,6 +216,16 @@
   progress_status: negligible_progress
   target: '30'
   target_year: '2030'
+15-5-1:
+  base_value: '70'
+  base_year: '2015'
+  current_value: '68'
+  current_year: '2021'
+  direction: None
+  progress_calculation_value: null
+  progress_status: None
+  target: None
+  target_year: '2030'
 15-6-1:
   base_value: '38.19'
   base_year: '2015'
