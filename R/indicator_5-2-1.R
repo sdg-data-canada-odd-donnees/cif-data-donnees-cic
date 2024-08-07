@@ -161,9 +161,9 @@ education_level <-
     `Population characteristics` %in% education
   ) %>%
   mutate(
-    `Level of education` = `Population characteristics`,
-    `Level of education` = str_remove(`Level of education`, "Highest degree earned, "),
-    `Level of education` = str_to_sentence(`Level of education`)
+    `Highest degree earned` = `Population characteristics`,
+    `Highest degree earned` = str_remove(`Highest degree earned`, "Highest degree earned, "),
+    `Highest degree earned` = str_to_sentence(`Highest degree earned`)
   )
 
 income <-
@@ -210,7 +210,7 @@ combined <-
     `Visible minority`,
     `Immigrant status`,
     `Disability`,
-    `Level of education`,
+    `Highest degree earned`,
     `Household income`,
     `Location of residence`,
     `Marital status`,
