@@ -9,9 +9,6 @@ library(jsonlite)
 library(dotenv)
 library(readr)
 
-# Load environment variables from a .env file
-dotenv::load_dot_env()
-
 # Retrieve the API key for electric charging stations from environment variables
 ELECTRIC_CHARGING_STATIONS <- Sys.getenv("ELECTRIC_CHARGING_STATIONS")
 
