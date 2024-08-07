@@ -3438,7 +3438,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-1",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -3446,35 +3446,159 @@
             "type": "integer"
           },
           {
-            "name": "data.Type of intimate partner violence",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Emotional, financial, or psychological abuse",
-                "data.Physical abuse",
-                "data.Sexual abuse",
-                "data.Total intimate partner violence",
+                "Canada",
+                "Atlantic provinces",
+                "Quebec",
+                "Ontario",
+                "Prairie provinces",
+                "British Columbia",
+                "Territories",
                 ""
               ]
             }
           },
           {
-            "name": "data.Selected characteristic",
+            "name": "Type of intimate partner violence",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total, all women",
-                "data.15 to 24 year old women",
-                "data.Separated or divorced women",
-                "data.LGBTQ2 women",
-                "data.Single women",
-                "data.First Nations, Métis, or Inuit women",
-                "data.Women with disability",
-                "data.Immigrant women",
-                "data.Women designated as visible minorities",
+                "Total, any type of intimate partner violence",
+                "Emotional, psychological violence or financial exploitation",
+                "Total, physical or sexual intimate partner violence",
+                "Physical violence",
+                "Sexual violence",
                 ""
               ]
             }
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Age 15 to 24",
+                "Age 25 to 34",
+                "Age 35 to 44",
+                "Age 45 to 54",
+                "Age 55 to 64",
+                "Age 65 to 74",
+                "Age 75 and older",
+                "Total, all persons",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Indigenous group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indigenous person",
+                "First Nations (North American Indian)",
+                "Métis",
+                "Inuk (Inuit)",
+                "Non-Indigenous person",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Visible minority population",
+                "Arab",
+                "Black",
+                "Chinese",
+                "Filipino",
+                "Latin American",
+                "South Asian",
+                "Group not indicated elsewhere",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Immigrant status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Immigrant",
+                "Non-immigrant",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Person with disability",
+                "Person without disability",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Highest degree earned",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than high school",
+                "High school diploma",
+                "College or trade school diploma",
+                "University degree",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Household income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than $20,000",
+                "$20,000 to $59,999",
+                "$60,000 to $99,999",
+                "$100,000 to $149,999",
+                "$150,000 or more",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Location of residence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Rural",
+                "Urban",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Marital status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Married or common-law",
+                "Separated or divorced",
+                "Widowed",
+                "Single, never married",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

@@ -16,37 +16,171 @@
             "title": "Année"
           },
           {
-            "name": "data.Type of intimate partner violence",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Violence psychologique ou exploitation financière",
+                "Canada",
+                "Provinces de l'Atlantique",
+                "Québec",
+                "Ontario",
+                "Provinces des Prairies",
+                "Colombie-Britannique",
+                "Territoires",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Type of intimate partner violence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, tous les types de violence entre partenaires intimes",
+                "Violence émotionnelle, psychologique ou exploitation financière",
+                "Total, violence physique ou sexuelle entre partenaires intimes",
                 "Violence physique",
                 "Violence sexuelle",
-                "Total de tous les types de violence",
                 ""
               ]
             },
             "title": "Type de violence entre partenaires intimes"
           },
           {
-            "name": "data.Selected characteristic",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, toutes les femmes",
-                "Femmes de 15 à 24 ans",
-                "Femmes séparées ou divorcées",
-                "Femmes LGBTQ2",
-                "Femmes célibataires",
-                "Femmes des Premières Nations, métisses ou inuites",
-                "Femmes ayant une incapacité",
-                "Femmes immigrantes",
-                "Femmes désignées comme minorités visibles",
+                "Âgée de 15 à 24 ans",
+                "Âgée de 25 à 34 ans",
+                "Âgée de 35 à 44 ans",
+                "Âgée de 45 à 54 ans",
+                "Âgée de 55 à 64 ans",
+                "Âgée de 65 à 74 ans",
+                "Âgée de 75 ans et plus",
+                "Total, toutes les personnes",
                 ""
               ]
             },
-            "title": "Caractéristiques sélectionnées"
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "Indigenous group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Autochtone",
+                "Première Nation (Indien de l'Amérique du Nord)",
+                "Métis",
+                "Inuk (Inuit)",
+                "Personne non autochtone",
+                ""
+              ]
+            },
+            "title": "Groupe autochtone"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Population des minorités visibles",
+                "Arabe",
+                "Noirs",
+                "Chinois",
+                "Philippin",
+                "Latino-Américain",
+                "Sud-Asiatique",
+                "Groupe non indiqué ailleurs",
+                ""
+              ]
+            },
+            "title": "Minorité visible"
+          },
+          {
+            "name": "Immigrant status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Personne immigrante",
+                "Personne non immigrante",
+                ""
+              ]
+            },
+            "title": "Status d'immigrant"
+          },
+          {
+            "name": "Disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Personne ayant une incapacité",
+                "Personne n’ayant aucune incapacité",
+                ""
+              ]
+            },
+            "title": "Incapacité"
+          },
+          {
+            "name": "Highest degree earned",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Études secondaires partielles ou moins",
+                "Diplôme d'études secondaires",
+                "Diplôme d'études collégiales ou d'une école de métiers",
+                "Diplôme universitaire",
+                ""
+              ]
+            },
+            "title": "Plus haut grade obtenu"
+          },
+          {
+            "name": "Household income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Moins de 20 000 $",
+                "20 000 $ à 59 999 $",
+                "60 000 $ à 99 999 $",
+                "100 000 $ à 149 999 $",
+                "150 000 $ ou plus",
+                ""
+              ]
+            },
+            "title": "Revenu du ménage"
+          },
+          {
+            "name": "Location of residence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Milieu rural",
+                "Milieu urbain",
+                ""
+              ]
+            },
+            "title": "Lieu de résidence"
+          },
+          {
+            "name": "Marital status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Marié(e) ou vivant en union libre",
+                "Séparé(e) ou divorcé(e)",
+                "Veuf ou veuve",
+                "Célibataire, jamais marié(e)",
+                ""
+              ]
+            },
+            "title": "État matrimonial"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

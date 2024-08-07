@@ -1,5 +1,5 @@
 Disaggregation,Number of indicators,Number of values
-Age group,6,44
+Age group,7,52
 Age,1,5
 data.Activity group,1,5
 data.Age at time of death,1,10
@@ -40,7 +40,6 @@ data.Population characteristics,1,2
 data.Population,1,6
 data.Region,1,8
 data.Select housing vulnerable populations,1,8
-data.Selected characteristic,1,9
 data.Selected demographic characteristics,1,11
 data.Sex of accused,1,5
 data.Sex,13,9
@@ -55,7 +54,6 @@ data.Type of case,1,3
 data.Type of commute,1,3
 data.Type of e-cigarettes,1,3
 data.Type of electricity generation,1,7
-data.Type of intimate partner violence,1,4
 data.Type of materials diverted,1,18
 data.Type of municipality by population size,1,8
 data.Type of perpetrator,1,3
@@ -63,17 +61,22 @@ data.Type of work,1,3
 data.Violations,1,14
 data.Visible minority,1,10
 data.Water quality,1,6
+Disability,1,2
 Educational attainment,1,4
 Enterprise size,1,4
 Gender,1,3
 Generation,1,4
-Geography,12,140
-Immigrant status,1,5
+Geography,13,141
+Highest degree earned,1,4
+Household income,1,5
+Immigrant status,2,7
 Income quintile,1,30
-Indigenous group,1,5
+Indigenous group,2,9
 Industry,1,16
 Innovations with environmental benefits,1,16
+Location of residence,1,2
 Main source of household income,1,5
+Marital status,1,4
 Ownership status,1,4
 Sector,1,2
 Selected diseases,1,17
@@ -85,4 +88,5 @@ Target population,1,5
 Type of beverage,1,5
 Type of charging or fuelling stations,1,8
 Type of household,1,2
-Visible minority,1,14
+Type of intimate partner violence,1,5
+Visible minority,2,15
