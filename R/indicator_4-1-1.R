@@ -40,7 +40,9 @@ hs_completion_all <-
     `Age group`,
     `Selected demographic characteristics`,
     Value = VALUE
-  )
+  ) %>%
+  left_join(geocodes, by = "Geography") %>%
+  relocate(GeoCode, .before = "Value")
 
 total_line <- 
   hs_completion_all %>% 
@@ -64,8 +66,6 @@ hs_completion_all <-
 
 data_final <- 
   bind_rows(total_line, hs_completion_all) %>% 
-  left_join(geocodes, by = "Geography") %>% 
-  relocate(GeoCode, .before = "Value") %>% 
   rename_at(2:5, ~ paste0("data.", .x))
 
 write.csv(
@@ -75,4 +75,3 @@ write.csv(
   na = "",
   fileEncoding = "UTF-8"
 )
-
