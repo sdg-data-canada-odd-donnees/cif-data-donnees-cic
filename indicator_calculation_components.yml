@@ -115,10 +115,10 @@
 12-1-1:
   base_value: '0.37'
   base_year: '2015'
-  current_value: '8.17'
-  current_year: '2022'
+  current_value: '5.22'
+  current_year: '2021'
   direction: positive
-  progress_calculation_value: '1.6329040847952048'
+  progress_calculation_value: '1.628436533126329'
   progress_status: substantial_progress
   target: '30'
   target_year: '2030'
@@ -241,8 +241,8 @@
 16-2-1:
   base_value: '1070.26'
   base_year: '2015'
-  current_value: '1364.61'
-  current_year: '2022'
+  current_value: '1427.94'
+  current_year: '2023'
   direction: None
   progress_calculation_value: null
   progress_status: None
@@ -251,10 +251,10 @@
 16-3-1:
   base_value: '55.6'
   base_year: '2015'
-  current_value: '191.0'
-  current_year: '2022'
+  current_value: '233.1'
+  current_year: '2023'
   direction: negative
-  progress_calculation_value: '-0.19279417838534108'
+  progress_calculation_value: '-0.19621277245759594'
   progress_status: deterioration
   target: None
   target_year: '2030'
@@ -443,11 +443,11 @@
 4-1-1:
   base_value: '79.3'
   base_year: '2016'
-  current_value: '81.955'
-  current_year: '2021'
+  current_value: '79.3'
+  current_year: '2016'
   direction: positive
-  progress_calculation_value: '0.006608175779307945'
-  progress_status: moderate_progress
+  progress_calculation_value: null
+  progress_status: None
   target: None
   target_year: '2030'
 4-2-1:
@@ -645,20 +645,20 @@
 9-5-1:
   base_value: '0.2402'
   base_year: '2015'
-  current_value: '0.189'
+  current_value: '0.1705'
   current_year: '2023'
   direction: negative
-  progress_calculation_value: '0.029521094025181993'
+  progress_calculation_value: '0.04193732137831074'
   progress_status: substantial_progress
   target: None
   target_year: '2030'
 9-6-1:
-  base_value: '12535'
+  base_value: '12532'
   base_year: '2023'
-  current_value: '13961'
+  current_value: '13963'
   current_year: '2024'
   direction: positive
-  progress_calculation_value: '0.379154480191438'
+  progress_calculation_value: '0.38018065887353886'
   progress_status: negligible_progress
   target: '16296'
   target_year: '2024'
