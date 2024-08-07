@@ -1216,13 +1216,18 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Personnes en situation de résilience des actifs pour au moins un mois",
-                "Personnes en situation de résilience des actifs pour au moins six mois",
-                "Personnes en situation de résilience des actifs pour au moins trois mois",
+                "data.Persons who are asset resilient for at least one month",
+                "data.Persons who are asset resilient for at least six months",
+                "data.Persons who are asset resilient for at least three months",
                 ""
               ]
             },
             "title": "Statistiques"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -1794,53 +1799,59 @@
                 "Total pour les régions autres que les régions métropolitaines de recensement",
                 "Total pour les régions métropolitaines de recensement",
                 "Terre-Neuve-et-Labrador",
-                "St. John's, Terre-Neuve-et-Labrador",
+                "data.St. John's, Newfoundland and Labrador [10001]",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
-                "Halifax, Nouvelle-Écosse",
+                "data.Halifax, Nova Scotia [12205]",
                 "Nouveau-Brunswick",
-                "Moncton, Nouveau-Brunswick",
+                "data.Moncton, New Brunswick [13305]",
                 "Québec",
-                "Gatineau, Québec",
-                "Montréal, Québec",
-                "Saguenay, Québec",
-                "Sherbrooke, Québec",
-                "Trois-Rivières, Québec",
+                "data.Saguenay, Quebec [24408]",
+                "data.Sherbrooke, Quebec [24433]",
+                "data.Trois-Rivières, Quebec [24442]",
+                "data.Montréal, Quebec [24462]",
+                "data.Ottawa-Gatineau, Quebec part [24505]",
                 "Ontario",
-                "Barrie, Ontario",
-                "Brantford, Ontario",
-                "Grand Sudbury, Ontario",
-                "Guelph, Ontario",
-                "Hamilton, Ontario",
-                "Kingston, Ontario",
-                "Kitchener-Cambridge-Waterloo, Ontario",
-                "London, Ontario",
-                "Ottawa, Ontario",
-                "Peterborough, Ontario",
-                "St. Catharines-Niagara, Ontario",
-                "Thunder Bay, Ontario",
-                "Toronto, Ontario",
-                "Windsor, Ontario",
+                "data.Ottawa-Gatineau, Ontario part [35505]",
+                "data.Kingston, Ontario [35521]",
+                "data.Peterborough, Ontario [35529]",
+                "data.Toronto, Ontario [35535]",
+                "data.Hamilton, Ontario [35537]",
+                "data.St. Catharines-Niagara, Ontario [35539]",
+                "data.Kitchener-Cambridge-Waterloo, Ontario [35541]",
+                "data.Brantford, Ontario [35543]",
+                "data.Guelph, Ontario [35550]",
+                "data.London, Ontario [35555]",
+                "data.Windsor, Ontario [35559]",
+                "data.Barrie, Ontario [35568]",
+                "data.Greater Sudbury, Ontario [35580]",
+                "data.Thunder Bay, Ontario [35595]",
                 "Manitoba",
-                "Winnipeg, Manitoba",
+                "data.Winnipeg, Manitoba [46602]",
                 "Saskatchewan",
-                "Regina, Saskatchewan",
-                "Saskatoon, Saskatchewan",
+                "data.Regina, Saskatchewan [47705]",
+                "data.Saskatoon, Saskatchewan [47725]",
                 "Alberta",
-                "Edmonton, Alberta",
+                "data.Edmonton, Alberta [48835]",
                 "Colombie-Britannique",
-                "Abbotsford-Mission, Colombie-Britannique",
-                "Kelowna, Colombie-Britannique",
-                "Vancouver, Colombie-Britannique",
-                "Victoria, Colombie-Britannique",
+                "data.Kelowna, British Columbia [59915]",
+                "data.Abbotsford-Mission, British Columbia [59932]",
+                "data.Vancouver, British Columbia [59933]",
+                "data.Victoria, British Columbia [59935]",
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
-                "Québec, Québec",
-                "Belleville, Ontario",
-                "Calgary, Alberta",
-                "Lethbridge, Alberta",
-                "Saint John, Nouveau-Brunswick",
+                "data.Québec, Quebec [24421]",
+                "data.Belleville-Quinte West, Ontario [35522]",
+                "data.Lethbridge, Alberta [48810]",
+                "data.Calgary, Alberta [48825]",
+                "data.Saint John, New Brunswick [13310]",
+                "data.Fredericton, New Brunswick [13320]",
+                "data.Drummondville, Quebec [24447]",
+                "data.Red Deer, Alberta [48830]",
+                "data.Kamloops, British Columbia [59925]",
+                "data.Chilliwack, British Columbia [59930]",
+                "data.Nanaimo, British Columbia [59938]",
                 ""
               ]
             },
@@ -3745,7 +3756,6 @@
               "enum": [
                 "Autochtone",
                 "Première Nation (Indien de l'Amérique du Nord)",
-                "Métis",
                 "Inuk (Inuit)",
                 "Personne non autochtone",
                 ""
@@ -3895,7 +3905,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Population totale",
+                "data.Total – Visible minority",
                 "Total de la population des minorités visibles",
                 "Sud-Asiatique",
                 "Chinois",
@@ -4833,9 +4843,12 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Alberta",
                 "Colombie-Britannique et les Territoires",
                 "Manitoba",
                 "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Nouvelle-Écosse",
                 "Ontario",
                 "Île-du-Prince-Édouard",
                 "Québec",
@@ -4844,6 +4857,11 @@
               ]
             },
             "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -5434,26 +5452,24 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Gender",
+            "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
+                "Les deux sexes",
                 "Hommes",
                 "Femmes",
-                "Hommes+",
-                "Femmes+",
                 ""
               ]
             },
-            "title": "Genre"
+            "title": "Sexe"
           },
           {
             "name": "data.Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
+                "Total, personnes âgées de 15 ans et plus",
                 "15 à 24 ans",
                 "25 à 64 ans",
                 "65 à 74 ans",
@@ -5473,12 +5489,12 @@
                 "Résidents non permanents",
                 "Total de la population des minorités visibles",
                 "Pas une minorité visible",
-                "Total identité autochtone",
+                "data.Total Aboriginal identity",
                 "Première Nation (Indien de l'Amérique du Nord)",
                 "Métis",
                 "Inuk (Inuit)",
-                "Identité non autochtone",
-                "Total",
+                "data.Non-Aboriginal identity",
+                "Total, toutes les personnes",
                 ""
               ]
             },

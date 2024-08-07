@@ -20,9 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Alberta",
                 "Colombie-Britannique et les Territoires",
                 "Manitoba",
                 "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Nouvelle-Écosse",
                 "Ontario",
                 "Île-du-Prince-Édouard",
                 "Québec",
@@ -31,6 +34,11 @@
               ]
             },
             "title": "Géographie"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

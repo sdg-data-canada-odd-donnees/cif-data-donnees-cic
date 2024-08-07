@@ -61,13 +61,18 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Personnes en situation de résilience des actifs pour au moins un mois",
-                "Personnes en situation de résilience des actifs pour au moins six mois",
-                "Personnes en situation de résilience des actifs pour au moins trois mois",
+                "data.Persons who are asset resilient for at least one month",
+                "data.Persons who are asset resilient for at least six months",
+                "data.Persons who are asset resilient for at least three months",
                 ""
               ]
             },
             "title": "Statistiques"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

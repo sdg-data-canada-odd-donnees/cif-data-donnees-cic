@@ -1137,12 +1137,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Asset resilient for at least one month",
-                "data.Asset resilient for at least six months",
-                "data.Asset resilient for at least three months",
+                "data.Persons who are asset resilient for at least one month",
+                "data.Persons who are asset resilient for at least six months",
+                "data.Persons who are asset resilient for at least three months",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1673,54 +1677,60 @@
               "enum": [
                 "data.Total Non-Census metropolitan area",
                 "data.Total Census metropolitan area",
-                "data.Newfoundland and Labrador",
-                "data.St. John's, Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.Halifax, Nova Scotia",
-                "data.New Brunswick",
-                "data.Moncton, New Brunswick",
-                "data.Quebec",
-                "data.Gatineau, Quebec",
-                "data.Montréal, Quebec",
-                "data.Saguenay, Quebec",
-                "data.Sherbrooke, Quebec",
-                "data.Trois-Rivières, Quebec",
-                "data.Ontario",
-                "data.Barrie, Ontario",
-                "data.Brantford, Ontario",
-                "data.Greater Sudbury, Ontario",
-                "data.Guelph, Ontario",
-                "data.Hamilton, Ontario",
-                "data.Kingston, Ontario",
-                "data.Kitchener-Cambridge-Waterloo, Ontario",
-                "data.London, Ontario",
-                "data.Ottawa, Ontario",
-                "data.Peterborough, Ontario",
-                "data.St. Catharines-Niagara, Ontario",
-                "data.Thunder Bay, Ontario",
-                "data.Toronto, Ontario",
-                "data.Windsor, Ontario",
-                "data.Manitoba",
-                "data.Winnipeg, Manitoba",
-                "data.Saskatchewan",
-                "data.Regina, Saskatchewan",
-                "data.Saskatoon, Saskatchewan",
-                "data.Alberta",
-                "data.Edmonton, Alberta",
-                "data.British Columbia",
-                "data.Abbotsford-Mission, British Columbia",
-                "data.Kelowna, British Columbia",
-                "data.Vancouver, British Columbia",
-                "data.Victoria, British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                "data.Québec, Quebec",
-                "data.Belleville, Ontario",
-                "data.Calgary, Alberta",
-                "data.Lethbridge, Alberta",
-                "data.Saint John, New Brunswick",
+                "data.Newfoundland and Labrador [10]",
+                "data.St. John's, Newfoundland and Labrador [10001]",
+                "data.Prince Edward Island [11]",
+                "data.Nova Scotia [12]",
+                "data.Halifax, Nova Scotia [12205]",
+                "data.New Brunswick [13]",
+                "data.Moncton, New Brunswick [13305]",
+                "data.Quebec [24]",
+                "data.Saguenay, Quebec [24408]",
+                "data.Sherbrooke, Quebec [24433]",
+                "data.Trois-Rivières, Quebec [24442]",
+                "data.Montréal, Quebec [24462]",
+                "data.Ottawa-Gatineau, Quebec part [24505]",
+                "data.Ontario [35]",
+                "data.Ottawa-Gatineau, Ontario part [35505]",
+                "data.Kingston, Ontario [35521]",
+                "data.Peterborough, Ontario [35529]",
+                "data.Toronto, Ontario [35535]",
+                "data.Hamilton, Ontario [35537]",
+                "data.St. Catharines-Niagara, Ontario [35539]",
+                "data.Kitchener-Cambridge-Waterloo, Ontario [35541]",
+                "data.Brantford, Ontario [35543]",
+                "data.Guelph, Ontario [35550]",
+                "data.London, Ontario [35555]",
+                "data.Windsor, Ontario [35559]",
+                "data.Barrie, Ontario [35568]",
+                "data.Greater Sudbury, Ontario [35580]",
+                "data.Thunder Bay, Ontario [35595]",
+                "data.Manitoba [46]",
+                "data.Winnipeg, Manitoba [46602]",
+                "data.Saskatchewan [47]",
+                "data.Regina, Saskatchewan [47705]",
+                "data.Saskatoon, Saskatchewan [47725]",
+                "data.Alberta [48]",
+                "data.Edmonton, Alberta [48835]",
+                "data.British Columbia [59]",
+                "data.Kelowna, British Columbia [59915]",
+                "data.Abbotsford-Mission, British Columbia [59932]",
+                "data.Vancouver, British Columbia [59933]",
+                "data.Victoria, British Columbia [59935]",
+                "data.Yukon [60]",
+                "data.Northwest Territories [61]",
+                "data.Nunavut [62]",
+                "data.Québec, Quebec [24421]",
+                "data.Belleville-Quinte West, Ontario [35522]",
+                "data.Lethbridge, Alberta [48810]",
+                "data.Calgary, Alberta [48825]",
+                "data.Saint John, New Brunswick [13310]",
+                "data.Fredericton, New Brunswick [13320]",
+                "data.Drummondville, Quebec [24447]",
+                "data.Red Deer, Alberta [48830]",
+                "data.Kamloops, British Columbia [59925]",
+                "data.Chilliwack, British Columbia [59930]",
+                "data.Nanaimo, British Columbia [59938]",
                 ""
               ]
             }
@@ -3499,7 +3509,6 @@
               "enum": [
                 "Indigenous person",
                 "First Nations (North American Indian)",
-                "Métis",
                 "Inuk (Inuit)",
                 "Non-Indigenous person",
                 ""
@@ -3637,7 +3646,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total population",
+                "data.Total – Visible minority",
                 "data.Total visible minority population",
                 "data.South Asian",
                 "data.Chinese",
@@ -4511,9 +4520,12 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "data.Alberta",
                 "data.British Columbia and the Territories",
                 "data.Manitoba",
                 "data.New Brunswick",
+                "data.Newfoundland and Labrador",
+                "data.Nova Scotia",
                 "data.Ontario",
                 "data.Prince Edward Island",
                 "data.Quebec",
@@ -4521,6 +4533,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -5069,15 +5085,13 @@
             }
           },
           {
-            "name": "data.Gender",
+            "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total",
+                "data.Both sexes",
                 "data.Males",
                 "data.Females",
-                "data.Men+",
-                "data.Women+",
                 ""
               ]
             }
@@ -5087,7 +5101,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total",
+                "data.Total, persons aged 15 years and over",
                 "data.15 to 24 years",
                 "data.25 to 64 years",
                 "data.65 to 74 years",
@@ -5106,12 +5120,12 @@
                 "data.Non-permanent residents",
                 "data.Total visible minority population",
                 "data.Not a visible minority",
-                "data.Total Indigenous identity",
+                "data.Total Aboriginal identity",
                 "data.First Nations (North American Indian)",
                 "data.Métis",
                 "data.Inuk (Inuit)",
-                "data.Non-Indigenous identity",
-                "data.Total",
+                "data.Non-Aboriginal identity",
+                "data.Total, all persons",
                 ""
               ]
             }

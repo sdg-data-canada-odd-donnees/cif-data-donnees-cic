@@ -38,15 +38,13 @@
             }
           },
           {
-            "name": "data.Gender",
+            "name": "data.Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total",
+                "data.Both sexes",
                 "data.Males",
                 "data.Females",
-                "data.Men+",
-                "data.Women+",
                 ""
               ]
             }
@@ -56,7 +54,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total",
+                "data.Total, persons aged 15 years and over",
                 "data.15 to 24 years",
                 "data.25 to 64 years",
                 "data.65 to 74 years",
@@ -75,12 +73,12 @@
                 "data.Non-permanent residents",
                 "data.Total visible minority population",
                 "data.Not a visible minority",
-                "data.Total Indigenous identity",
+                "data.Total Aboriginal identity",
                 "data.First Nations (North American Indian)",
                 "data.Métis",
                 "data.Inuk (Inuit)",
-                "data.Non-Indigenous identity",
-                "data.Total",
+                "data.Non-Aboriginal identity",
+                "data.Total, all persons",
                 ""
               ]
             }
