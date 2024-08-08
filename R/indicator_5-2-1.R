@@ -199,8 +199,26 @@ marital <-
     `Marital status` = str_to_sentence(`Marital status`)
   )
 
-combined <-
-  bind_rows(age, indigenous_person, visible_minority_population, immigrant_status, disability_status, education_level, income, location_of_residence, marital) %>%
+total_line <-
+  age %>%
+  filter(
+    Geography == "Canada", 
+    `Age group` == "Total, all persons",
+    `Type of intimate partner violence` == "Total, any type of intimate partner violence"
+  ) %>%
+  relocate(`Age group`, .before = GeoCode) %>% 
+  mutate_at(2:5, ~ "")
+
+non_total <-
+  age %>%
+  filter(
+    !(
+      Geography == "Canada" & `Age group` == "Total, all persons" & `Type of intimate partner violence` == "Total, any type of intimate partner violence"
+    )
+  )
+
+data_final <-
+  bind_rows(total_line, non_total, indigenous_person, visible_minority_population, immigrant_status, disability_status, education_level, income, location_of_residence, marital) %>%
   select(
     Year,
     Geography,
@@ -218,28 +236,9 @@ combined <-
     Value
   )
 
-total_line <-
-  combined %>%
-  filter(
-    Geography == "Canada", 
-    `Age group` == "Total, all persons",
-    `Type of intimate partner violence` == "Total, any type of intimate partner violence"
-  ) %>% 
-  mutate_at(3:12, ~ "")
-
-non_total <-
-  combined %>%
-  filter(
-    !(
-      Geography == "Canada" & `Age group` == "Total, all persons" & `Type of intimate partner violence` == "Total, any type of intimate partner violence"
-    )
-  )
-
-data_final <-
-  bind_rows(total_line, non_total)
-
 write.csv(data_final,
           "data/indicator_5-2-1.csv",
-          na = "",
+          na = '',
           row.names = FALSE,
           fileEncoding = "UTF-8")
+
