@@ -4957,13 +4957,112 @@
             "title": "Year"
           },
           {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Asset",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Commercial buildings",
+                "Sports facilities with spectator capacity",
+                "Indoor recreational facilities",
+                "Student residences",
+                "Airports and other passenger terminals",
+                "Communications buildings",
+                "Institutional buildings",
+                "Schools, colleges, universities and other educational buildings",
+                "Hospitals",
+                "Nursing homes, homes for the aged",
+                "Religious centres and memorial sites",
+                "Museums",
+                "Historical sites",
+                "Libraries",
+                "Public security facilities",
+                "Marine engineering infrastructure",
+                "Seaports",
+                "Marinas and harbours",
+                "Canals and waterways",
+                "Other marine infrastructure",
+                "Transportation engineering infrastructure",
+                "Highway and road structures and networks",
+                "Bridges",
+                "Tunnels",
+                "Railway lines",
+                "Runways",
+                "Waterworks infrastructure",
+                "Water filtration plants",
+                "Other water infrastructure",
+                "Sewage infrastructure",
+                "Sewage treatment plants",
+                "Other sewage infrastructure",
+                "Communications networks",
+                "Cables and lines – coaxial, copper, aluminum, etc.",
+                "Optical fibre",
+                "Transmission support structures",
+                "Other communication construction",
+                "Electric power infrastructure",
+                "Wind and solar power plants",
+                "Steam production plants",
+                "Nuclear production plants",
+                "Hydraulic production plants",
+                "Power transmission networks",
+                "Power distribution networks",
+                "Other electric power construction",
+                "Oil and gas engineering construction",
+                "Pipelines",
+                "Other engineering construction",
+                "Waste disposal facilities",
+                "Outdoor recreational facilities",
+                "Pollution abatement and control",
+                "Other machinery and equipment",
+                "Turbines, turbine generators, and turbine generator sets",
+                "Nuclear reactor steam supply systems",
+                "Water treatment equipment",
+                "Power and distribution transformers",
+                "Transportation machinery and equipment",
+                "Buses",
+                "Locomotives, railway rolling stock, and rapid transit equipment",
+                "Total assets",
+                ""
+              ]
+            },
+            "title": "Asset"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
       },
-      "title": "Number of low carbon recharging and refueling stations under development and completed in public places, on-street, at apartment buildings, retail outlets, and the workplace"
+      "title": "Remaining useful service life ratio of infrastructure assets"
     },
     {
       "path": "3-7-1/data.csv",
