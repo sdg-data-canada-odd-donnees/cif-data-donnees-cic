@@ -16,8 +16,24 @@
             "title": "Année"
           },
           {
+            "name": "data.Pillar",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Pillar 1: Data Use",
+                "data.Pillar 2: Data Services",
+                "data.Pillar 3: Data Products",
+                "data.Pillar 4: Data Sources",
+                "data.Pillar 5: Data Infrastructure",
+                "data.SPI Overall Score",
+                ""
+              ]
+            },
+            "title": "Pilier"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valeur"
           }
         ]
@@ -26,5 +42,5 @@
   ],
   "profile": "data-package",
   "name": "17-1-1",
-  "title": "Number of open datasets published by the Government of Canada"
+  "title": "Statistical Performance Indicators"
 }
