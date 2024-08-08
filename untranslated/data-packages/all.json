@@ -97,11 +97,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Pillar 1: Data Use",
-                "data.Pillar 2: Data Services",
-                "data.Pillar 3: Data Products",
-                "data.Pillar 4: Data Sources",
-                "data.Pillar 5: Data Infrastructure",
+                "data.Pillar 1 - Data Use",
+                "data.Pillar 2 - Data Services",
+                "data.Pillar 3 - Data Products",
+                "data.Pillar 4 - Data Sources",
+                "data.Pillar 5 - Data Infrastructure",
                 "data.SPI Overall Score",
                 ""
               ]
