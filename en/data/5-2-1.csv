@@ -1,5 +1,5 @@
 Year,Geography,Type of intimate partner violence,Age group,Indigenous group,Visible minority,Immigrant status,Disability,Highest degree earned,Household income,Location of residence,Marital status,GeoCode,Value
-2018,Canada,,,,,,,,,,,,12.1
+2018,,,,,,,,,,,,,12.1
 2018,Canada,"Total, any type of intimate partner violence",Age 15 to 24,,,,,,,,,,29.13
 2018,Canada,"Total, any type of intimate partner violence",Age 25 to 34,,,,,,,,,,14.07
 2018,Canada,"Total, any type of intimate partner violence",Age 35 to 44,,,,,,,,,,12.89
@@ -188,12 +188,19 @@ Year,Geography,Type of intimate partner violence,Age group,Indigenous group,Visi
 2018,Territories,Physical violence,Age 35 to 44,,,,,,,,,,9.22
 2018,Territories,Sexual violence,"Total, all persons",,,,,,,,,,2.79
 2018,Territories,Sexual violence,Age 25 to 34,,,,,,,,,,3.38
+2018,Canada,"Total, any type of intimate partner violence",,Indigenous person,,,,,,,,,16.81
+2018,Canada,"Total, any type of intimate partner violence",,First Nations (North American Indian),,,,,,,,,15.72
+2018,Canada,"Total, any type of intimate partner violence",,Métis,,,,,,,,,15.42
+2018,Canada,"Total, any type of intimate partner violence",,Inuk (Inuit),,,,,,,,,12.01
+2018,Canada,"Total, any type of intimate partner violence",,Non-Indigenous person,,,,,,,,,11.92
 2018,Canada,"Emotional, psychological violence or financial exploitation",,Indigenous person,,,,,,,,,16.77
 2018,Canada,"Emotional, psychological violence or financial exploitation",,First Nations (North American Indian),,,,,,,,,15.72
+2018,Canada,"Emotional, psychological violence or financial exploitation",,Métis,,,,,,,,,15.42
 2018,Canada,"Emotional, psychological violence or financial exploitation",,Inuk (Inuit),,,,,,,,,11.21
 2018,Canada,"Emotional, psychological violence or financial exploitation",,Non-Indigenous person,,,,,,,,,11.71
 2018,Canada,"Total, physical or sexual intimate partner violence",,Indigenous person,,,,,,,,,4.86
 2018,Canada,"Total, physical or sexual intimate partner violence",,First Nations (North American Indian),,,,,,,,,8.33
+2018,Canada,"Total, physical or sexual intimate partner violence",,Métis,,,,,,,,,1.33
 2018,Canada,"Total, physical or sexual intimate partner violence",,Inuk (Inuit),,,,,,,,,5.9
 2018,Canada,"Total, physical or sexual intimate partner violence",,Non-Indigenous person,,,,,,,,,3.04
 2018,Canada,Physical violence,,Indigenous person,,,,,,,,,3.58
@@ -225,9 +232,11 @@ Year,Geography,Type of intimate partner violence,Age group,Indigenous group,Visi
 2018,Ontario,Sexual violence,,Non-Indigenous person,,,,,,,,35,1.14
 2018,Prairie provinces,"Total, any type of intimate partner violence",,Indigenous person,,,,,,,,,17.12
 2018,Prairie provinces,"Total, any type of intimate partner violence",,First Nations (North American Indian),,,,,,,,,14.42
+2018,Prairie provinces,"Total, any type of intimate partner violence",,Métis,,,,,,,,,19.69
 2018,Prairie provinces,"Total, any type of intimate partner violence",,Non-Indigenous person,,,,,,,,,13.08
 2018,Prairie provinces,"Emotional, psychological violence or financial exploitation",,Indigenous person,,,,,,,,,17.12
 2018,Prairie provinces,"Emotional, psychological violence or financial exploitation",,First Nations (North American Indian),,,,,,,,,14.42
+2018,Prairie provinces,"Emotional, psychological violence or financial exploitation",,Métis,,,,,,,,,19.69
 2018,Prairie provinces,"Emotional, psychological violence or financial exploitation",,Non-Indigenous person,,,,,,,,,12.86
 2018,Prairie provinces,"Total, physical or sexual intimate partner violence",,Indigenous person,,,,,,,,,5.53
 2018,Prairie provinces,"Total, physical or sexual intimate partner violence",,Non-Indigenous person,,,,,,,,,3.45
@@ -260,6 +269,14 @@ Year,Geography,Type of intimate partner violence,Age group,Indigenous group,Visi
 2018,Territories,Sexual violence,,Indigenous person,,,,,,,,,3.76
 2018,Territories,Sexual violence,,Inuk (Inuit),,,,,,,,,3.16
 2018,Territories,Sexual violence,,Non-Indigenous person,,,,,,,,,1.94
+2018,Canada,"Total, any type of intimate partner violence",,,Visible minority population,,,,,,,,9.2
+2018,Canada,"Total, any type of intimate partner violence",,,Arab,,,,,,,,12.66
+2018,Canada,"Total, any type of intimate partner violence",,,Black,,,,,,,,9.02
+2018,Canada,"Total, any type of intimate partner violence",,,Chinese,,,,,,,,8.19
+2018,Canada,"Total, any type of intimate partner violence",,,Filipino,,,,,,,,3.58
+2018,Canada,"Total, any type of intimate partner violence",,,Latin American,,,,,,,,8.75
+2018,Canada,"Total, any type of intimate partner violence",,,South Asian,,,,,,,,8.86
+2018,Canada,"Total, any type of intimate partner violence",,,Group not indicated elsewhere,,,,,,,,15.5
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,Visible minority population,,,,,,,,9.06
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,Arab,,,,,,,,12.66
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,Black,,,,,,,,8.62
@@ -295,6 +312,8 @@ Year,Geography,Type of intimate partner violence,Age group,Indigenous group,Visi
 2018,British Columbia,"Total, any type of intimate partner violence",,,Chinese,,,,,,,59,9.67
 2018,British Columbia,"Emotional, psychological violence or financial exploitation",,,Visible minority population,,,,,,,59,7.86
 2018,British Columbia,"Emotional, psychological violence or financial exploitation",,,Chinese,,,,,,,59,9.46
+2018,Canada,"Total, any type of intimate partner violence",,,,Immigrant,,,,,,,9.59
+2018,Canada,"Total, any type of intimate partner violence",,,,Non-immigrant,,,,,,,12.91
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,Immigrant,,,,,,,9.47
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,Non-immigrant,,,,,,,12.69
 2018,Canada,"Total, physical or sexual intimate partner violence",,,,Immigrant,,,,,,,2.96
@@ -351,6 +370,8 @@ Year,Geography,Type of intimate partner violence,Age group,Indigenous group,Visi
 2018,Territories,"Total, physical or sexual intimate partner violence",,,,Non-immigrant,,,,,,,8.31
 2018,Territories,Physical violence,,,,Non-immigrant,,,,,,,6.89
 2018,Territories,Sexual violence,,,,Non-immigrant,,,,,,,3.18
+2018,Canada,"Total, any type of intimate partner violence",,,,,Person with disability,,,,,,16.27
+2018,Canada,"Total, any type of intimate partner violence",,,,,Person without disability,,,,,,9.55
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,,Person with disability,,,,,,15.88
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,,Person without disability,,,,,,9.47
 2018,Canada,"Total, physical or sexual intimate partner violence",,,,,Person with disability,,,,,,4.86
@@ -416,6 +437,10 @@ Year,Geography,Type of intimate partner violence,Age group,Indigenous group,Visi
 2018,Territories,Physical violence,,,,,Person with disability,,,,,,9.11
 2018,Territories,Physical violence,,,,,Person without disability,,,,,,4.58
 2018,Territories,Sexual violence,,,,,Person with disability,,,,,,5.67
+2018,Canada,"Total, any type of intimate partner violence",,,,,,Less than high school,,,,,11.83
+2018,Canada,"Total, any type of intimate partner violence",,,,,,High school diploma,,,,,13.59
+2018,Canada,"Total, any type of intimate partner violence",,,,,,College or trade school diploma,,,,,11.37
+2018,Canada,"Total, any type of intimate partner violence",,,,,,University degree,,,,,11.97
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,,,Less than high school,,,,,11.82
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,,,High school diploma,,,,,13.16
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,,,College or trade school diploma,,,,,11.15
@@ -527,6 +552,11 @@ Year,Geography,Type of intimate partner violence,Age group,Indigenous group,Visi
 2018,Territories,Physical violence,,,,,,High school diploma,,,,,8.6
 2018,Territories,Physical violence,,,,,,College or trade school diploma,,,,,2.93
 2018,Territories,Physical violence,,,,,,University degree,,,,,4.15
+2018,Canada,"Total, any type of intimate partner violence",,,,,,,"Less than $20,000",,,,14.57
+2018,Canada,"Total, any type of intimate partner violence",,,,,,,"$20,000 to $59,999",,,,12.58
+2018,Canada,"Total, any type of intimate partner violence",,,,,,,"$60,000 to $99,999",,,,10.63
+2018,Canada,"Total, any type of intimate partner violence",,,,,,,"$100,000 to $149,999",,,,12.12
+2018,Canada,"Total, any type of intimate partner violence",,,,,,,"$150,000 or more",,,,12.56
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,,,,"Less than $20,000",,,,14.14
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,,,,"$20,000 to $59,999",,,,12.43
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,,,,"$60,000 to $99,999",,,,10.61
@@ -660,6 +690,8 @@ Year,Geography,Type of intimate partner violence,Age group,Indigenous group,Visi
 2018,Territories,Physical violence,,,,,,,"Less than $20,000",,,,15.6
 2018,Territories,Physical violence,,,,,,,"$20,000 to $59,999",,,,10.45
 2018,Territories,Physical violence,,,,,,,"$60,000 to $99,999",,,,5.66
+2018,Canada,"Total, any type of intimate partner violence",,,,,,,,Rural,,,12.08
+2018,Canada,"Total, any type of intimate partner violence",,,,,,,,Urban,,,12.34
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,,,,,Rural,,,12.01
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,,,,,Urban,,,12.09
 2018,Canada,"Total, physical or sexual intimate partner violence",,,,,,,,Rural,,,2.34
@@ -708,6 +740,10 @@ Year,Geography,Type of intimate partner violence,Age group,Indigenous group,Visi
 2018,British Columbia,"Total, physical or sexual intimate partner violence",,,,,,,,Urban,,59,2.81
 2018,British Columbia,Physical violence,,,,,,,,Urban,,59,2.27
 2018,British Columbia,Sexual violence,,,,,,,,Urban,,59,0.9
+2018,Canada,"Total, any type of intimate partner violence",,,,,,,,,Married or common-law,,9.73
+2018,Canada,"Total, any type of intimate partner violence",,,,,,,,,Separated or divorced,,19.68
+2018,Canada,"Total, any type of intimate partner violence",,,,,,,,,Widowed,,7.03
+2018,Canada,"Total, any type of intimate partner violence",,,,,,,,,"Single, never married",,19.09
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,,,,,,Married or common-law,,9.67
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,,,,,,Separated or divorced,,19.47
 2018,Canada,"Emotional, psychological violence or financial exploitation",,,,,,,,,Widowed,,6.64

@@ -1,5 +1,5 @@
 Year,Géographie,Type de violence entre partenaires intimes,Groupe d'âge,Groupe autochtone,Minorité visible,Status d'immigrant,Incapacité,Plus haut grade obtenu,Revenu du ménage,Lieu de résidence,État matrimonial,GeoCode,Value
-2018,Canada,,,,,,,,,,,,12.1
+2018,,,,,,,,,,,,,12.1
 2018,Canada,"Total, tous les types de violence entre partenaires intimes",Âgée de 15 à 24 ans,,,,,,,,,,29.13
 2018,Canada,"Total, tous les types de violence entre partenaires intimes",Âgée de 25 à 34 ans,,,,,,,,,,14.07
 2018,Canada,"Total, tous les types de violence entre partenaires intimes",Âgée de 35 à 44 ans,,,,,,,,,,12.89
@@ -188,12 +188,19 @@ Year,Géographie,Type de violence entre partenaires intimes,Groupe d'âge,Groupe
 2018,Territoires,Violence physique,Âgée de 35 à 44 ans,,,,,,,,,,9.22
 2018,Territoires,Violence sexuelle,"Total, toutes les personnes",,,,,,,,,,2.79
 2018,Territoires,Violence sexuelle,Âgée de 25 à 34 ans,,,,,,,,,,3.38
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,Autochtone,,,,,,,,,16.81
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,Première Nation (Indien de l'Amérique du Nord),,,,,,,,,15.72
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,Métis,,,,,,,,,15.42
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,Inuk (Inuit),,,,,,,,,12.01
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,Personne non autochtone,,,,,,,,,11.92
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,Autochtone,,,,,,,,,16.77
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,Première Nation (Indien de l'Amérique du Nord),,,,,,,,,15.72
+2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,Métis,,,,,,,,,15.42
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,Inuk (Inuit),,,,,,,,,11.21
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,Personne non autochtone,,,,,,,,,11.71
 2018,Canada,"Total, violence physique ou sexuelle entre partenaires intimes",,Autochtone,,,,,,,,,4.86
 2018,Canada,"Total, violence physique ou sexuelle entre partenaires intimes",,Première Nation (Indien de l'Amérique du Nord),,,,,,,,,8.33
+2018,Canada,"Total, violence physique ou sexuelle entre partenaires intimes",,Métis,,,,,,,,,1.33
 2018,Canada,"Total, violence physique ou sexuelle entre partenaires intimes",,Inuk (Inuit),,,,,,,,,5.9
 2018,Canada,"Total, violence physique ou sexuelle entre partenaires intimes",,Personne non autochtone,,,,,,,,,3.04
 2018,Canada,Violence physique,,Autochtone,,,,,,,,,3.58
@@ -225,9 +232,11 @@ Year,Géographie,Type de violence entre partenaires intimes,Groupe d'âge,Groupe
 2018,Ontario,Violence sexuelle,,Personne non autochtone,,,,,,,,35,1.14
 2018,Provinces des Prairies,"Total, tous les types de violence entre partenaires intimes",,Autochtone,,,,,,,,,17.12
 2018,Provinces des Prairies,"Total, tous les types de violence entre partenaires intimes",,Première Nation (Indien de l'Amérique du Nord),,,,,,,,,14.42
+2018,Provinces des Prairies,"Total, tous les types de violence entre partenaires intimes",,Métis,,,,,,,,,19.69
 2018,Provinces des Prairies,"Total, tous les types de violence entre partenaires intimes",,Personne non autochtone,,,,,,,,,13.08
 2018,Provinces des Prairies,"Violence émotionnelle, psychologique ou exploitation financière",,Autochtone,,,,,,,,,17.12
 2018,Provinces des Prairies,"Violence émotionnelle, psychologique ou exploitation financière",,Première Nation (Indien de l'Amérique du Nord),,,,,,,,,14.42
+2018,Provinces des Prairies,"Violence émotionnelle, psychologique ou exploitation financière",,Métis,,,,,,,,,19.69
 2018,Provinces des Prairies,"Violence émotionnelle, psychologique ou exploitation financière",,Personne non autochtone,,,,,,,,,12.86
 2018,Provinces des Prairies,"Total, violence physique ou sexuelle entre partenaires intimes",,Autochtone,,,,,,,,,5.53
 2018,Provinces des Prairies,"Total, violence physique ou sexuelle entre partenaires intimes",,Personne non autochtone,,,,,,,,,3.45
@@ -260,6 +269,14 @@ Year,Géographie,Type de violence entre partenaires intimes,Groupe d'âge,Groupe
 2018,Territoires,Violence sexuelle,,Autochtone,,,,,,,,,3.76
 2018,Territoires,Violence sexuelle,,Inuk (Inuit),,,,,,,,,3.16
 2018,Territoires,Violence sexuelle,,Personne non autochtone,,,,,,,,,1.94
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,Population des minorités visibles,,,,,,,,9.2
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,Arabe,,,,,,,,12.66
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,Noirs,,,,,,,,9.02
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,Chinois,,,,,,,,8.19
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,Philippin,,,,,,,,3.58
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,Latino-Américain,,,,,,,,8.75
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,Sud-Asiatique,,,,,,,,8.86
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,Groupe non indiqué ailleurs,,,,,,,,15.5
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,Population des minorités visibles,,,,,,,,9.06
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,Arabe,,,,,,,,12.66
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,Noirs,,,,,,,,8.62
@@ -295,6 +312,8 @@ Year,Géographie,Type de violence entre partenaires intimes,Groupe d'âge,Groupe
 2018,Colombie-Britannique,"Total, tous les types de violence entre partenaires intimes",,,Chinois,,,,,,,59,9.67
 2018,Colombie-Britannique,"Violence émotionnelle, psychologique ou exploitation financière",,,Population des minorités visibles,,,,,,,59,7.86
 2018,Colombie-Britannique,"Violence émotionnelle, psychologique ou exploitation financière",,,Chinois,,,,,,,59,9.46
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,Personne immigrante,,,,,,,9.59
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,Personne non immigrante,,,,,,,12.91
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,Personne immigrante,,,,,,,9.47
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,Personne non immigrante,,,,,,,12.69
 2018,Canada,"Total, violence physique ou sexuelle entre partenaires intimes",,,,Personne immigrante,,,,,,,2.96
@@ -351,6 +370,8 @@ Year,Géographie,Type de violence entre partenaires intimes,Groupe d'âge,Groupe
 2018,Territoires,"Total, violence physique ou sexuelle entre partenaires intimes",,,,Personne non immigrante,,,,,,,8.31
 2018,Territoires,Violence physique,,,,Personne non immigrante,,,,,,,6.89
 2018,Territoires,Violence sexuelle,,,,Personne non immigrante,,,,,,,3.18
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,Personne ayant une incapacité,,,,,,16.27
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,Personne n’ayant aucune incapacité,,,,,,9.55
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,,Personne ayant une incapacité,,,,,,15.88
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,,Personne n’ayant aucune incapacité,,,,,,9.47
 2018,Canada,"Total, violence physique ou sexuelle entre partenaires intimes",,,,,Personne ayant une incapacité,,,,,,4.86
@@ -416,6 +437,10 @@ Year,Géographie,Type de violence entre partenaires intimes,Groupe d'âge,Groupe
 2018,Territoires,Violence physique,,,,,Personne ayant une incapacité,,,,,,9.11
 2018,Territoires,Violence physique,,,,,Personne n’ayant aucune incapacité,,,,,,4.58
 2018,Territoires,Violence sexuelle,,,,,Personne ayant une incapacité,,,,,,5.67
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,Études secondaires partielles ou moins,,,,,11.83
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,Diplôme d'études secondaires,,,,,13.59
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,Diplôme d'études collégiales ou d'une école de métiers,,,,,11.37
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,Diplôme universitaire,,,,,11.97
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,,,Études secondaires partielles ou moins,,,,,11.82
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,,,Diplôme d'études secondaires,,,,,13.16
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,,,Diplôme d'études collégiales ou d'une école de métiers,,,,,11.15
@@ -527,6 +552,11 @@ Year,Géographie,Type de violence entre partenaires intimes,Groupe d'âge,Groupe
 2018,Territoires,Violence physique,,,,,,Diplôme d'études secondaires,,,,,8.6
 2018,Territoires,Violence physique,,,,,,Diplôme d'études collégiales ou d'une école de métiers,,,,,2.93
 2018,Territoires,Violence physique,,,,,,Diplôme universitaire,,,,,4.15
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,,Moins de 20 000 $,,,,14.57
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,,20 000 $ à 59 999 $,,,,12.58
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,,60 000 $ à 99 999 $,,,,10.63
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,,100 000 $ à 149 999 $,,,,12.12
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,,150 000 $ ou plus,,,,12.56
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,,,,Moins de 20 000 $,,,,14.14
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,,,,20 000 $ à 59 999 $,,,,12.43
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,,,,60 000 $ à 99 999 $,,,,10.61
@@ -660,6 +690,8 @@ Year,Géographie,Type de violence entre partenaires intimes,Groupe d'âge,Groupe
 2018,Territoires,Violence physique,,,,,,,Moins de 20 000 $,,,,15.6
 2018,Territoires,Violence physique,,,,,,,20 000 $ à 59 999 $,,,,10.45
 2018,Territoires,Violence physique,,,,,,,60 000 $ à 99 999 $,,,,5.66
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,,,Milieu rural,,,12.08
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,,,Milieu urbain,,,12.34
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,,,,,Milieu rural,,,12.01
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,,,,,Milieu urbain,,,12.09
 2018,Canada,"Total, violence physique ou sexuelle entre partenaires intimes",,,,,,,,Milieu rural,,,2.34
@@ -708,6 +740,10 @@ Year,Géographie,Type de violence entre partenaires intimes,Groupe d'âge,Groupe
 2018,Colombie-Britannique,"Total, violence physique ou sexuelle entre partenaires intimes",,,,,,,,Milieu urbain,,59,2.81
 2018,Colombie-Britannique,Violence physique,,,,,,,,Milieu urbain,,59,2.27
 2018,Colombie-Britannique,Violence sexuelle,,,,,,,,Milieu urbain,,59,0.9
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,,,,Marié(e) ou vivant en union libre,,9.73
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,,,,Séparé(e) ou divorcé(e),,19.68
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,,,,Veuf ou veuve,,7.03
+2018,Canada,"Total, tous les types de violence entre partenaires intimes",,,,,,,,,"Célibataire, jamais marié(e)",,19.09
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,,,,,,Marié(e) ou vivant en union libre,,9.67
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,,,,,,Séparé(e) ou divorcé(e),,19.47
 2018,Canada,"Violence émotionnelle, psychologique ou exploitation financière",,,,,,,,,Veuf ou veuve,,6.64
