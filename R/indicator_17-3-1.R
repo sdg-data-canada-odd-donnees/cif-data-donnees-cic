@@ -36,6 +36,22 @@ if (status_code(response) == 200) {
   stop("Failed to fetch data: ", status_code(response))
 }
 
+country_name_map <- list("Bolivia (Plurinational State of)" = "Bolivia",
+                         "Congo " = "Democratic Republic of the Congo and Republic of the Congo",
+                         "Congo (Democratic Republic of the)" = "Democratic Republic of the Congo and Republic of the Congo",
+                         "Eswatini (Kingdom of)" = "Eswatini",
+                         "Hong Kong, China (SAR)" = "Hong Kong",
+                         "Iran (Islamic Republic of)" = "Iran",
+                         "Korea (Republic of)" = "South Korea",
+                         "Lao People's Democratic Republic" = "Laos",
+                         "Moldova (Republic of)" = "Republic of Moldova",
+                         "Syrian Arab Republic" = "Syria",
+                         "Tanzania (United Republic of)" = "United Republic of Tanzania",
+                         "Turkey" = "Turkiye",
+                         "Venezuela (Bolivarian Republic of)" = "Venezuela")
+# no HDI data for Kosovo, Monaco, DPR Korea (North Korea), Holy See (Vatican City), Taiwan
+# Federated States of Micronesia, San Marino, Tuvalu do not appear in CODR table so SC spelling is unknown
+
 developing_countries <- fromJSON(resptext) %>%
   filter(year >= 2015,
          value < 0.8, # HDI values < 0.8 represent developing countries
@@ -45,6 +61,10 @@ developing_countries <- fromJSON(resptext) %>%
          country,
   )
 # rename countries to match presentation in CODR table
+
+for (c in developing_countries$country) {  ### still working on this :(
+  developing_countries <- mutate(developing_countries, newname = replace(country, !is.null(country_name_map$c), country_name_map$c))
+}
 
 exports <- raw_data %>%
   filter(REF_DATE >= 2015,
