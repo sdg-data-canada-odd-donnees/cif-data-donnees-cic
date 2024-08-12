@@ -82,8 +82,13 @@ exports <- raw_data %>%
 exports_to_developing_countries <- 
   inner_join(exports, developing_countries, by = c("Year", "Trading partners" = "Country")) %>%
   summarise(Value = sum_(VALUE), .by = c(Year, `Goods and services (products)`)) %>%
+  # prepend 'data.'
   mutate(`Goods and services (products)` = paste0("data.", `Goods and services (products)`)) %>%
-  rename("data.Goods and services (products)" = `Goods and services (products)`)
+  rename("data.Goods and services (products)" = `Goods and services (products)`) %>%
+  # blank out field for total line
+  mutate(`data.Goods and services (products)` = replace(`data.Goods and services (products)`,
+                                                        `data.Goods and services (products)` == "data.Total, environmental and clean technology products",
+                                                        ""))
 
 # Write to csv
 write.csv(exports_to_developing_countries, "data/indicator_17-3-1.csv",
