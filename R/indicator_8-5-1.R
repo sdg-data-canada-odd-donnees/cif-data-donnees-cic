@@ -31,7 +31,7 @@ GDP <-
     REF_DATE >= 2015,
     GEO != "Outside Canada",
     GEO != "Northwest Territories including Nunavut",
-    Prices == "Current prices",
+    Prices == "Chained (2017) dollars",
     Estimates == "Gross domestic product at market prices",
   ) %>%
   select(Year = REF_DATE,

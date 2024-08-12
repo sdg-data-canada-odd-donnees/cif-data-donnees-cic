@@ -1,7 +1,3 @@
-
-
-#23-10-0286-01
-
 # CIF 11.5.1 --------------------------------------------------------------------
 
 #load libraries 
@@ -10,15 +6,11 @@ library(tidyr)
 library(cansim)
 library(readr)
 
-
-
 Raw_data <- get_cansim("23-10-0286-01", factors = FALSE)
 
 #load geocode 
 
 geocodes <- read_csv("geocodes.csv")
-
-
 
 geographies <- c(
   "Newfoundland and Labrador",
@@ -72,9 +64,7 @@ geographies <- c(
   "Nunavut"
 )
 
-
-
-commuting <- 
+data_final <- 
   Raw_data %>% 
   filter(GEO %in% geographies,
          `Demographic, geodemographic and commuting` %in% 
@@ -93,18 +83,8 @@ commuting <-
   relocate(GeoCode, .before = Value) %>% 
   mutate_at(2:(ncol(.)-2), ~ paste0("data.", .x))
 
-write_csv(commuting, "CIF/data/indicator_11-5-1.csv", na = '',
-          fileEncoding = "UTF-8")
-
-
-
-
-
-
-
-
-
-
-
-
-
+# write.csv(data_final,
+#           "data/indicator_15-3-1.csv",
+#           na = "",
+#           row.names = FALSE,
+#           fileEncoding = "UTF-8")
