@@ -47,12 +47,13 @@ jobs:
     - name: Install dependencies
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
-        install.packages(c("dplyr", "RSQLite", "readr", "cansim", "stringr", "lubridate", "tidyr", "httr", "jsonlite", "dotenv", "archive"))
+        install.packages(c("dplyr", "RSQLite", "readr", "cansim", "stringr", "lubridate", "tidyr", "httr", "jsonlite", "dotenv", "archive", "hablar"))
       shell: Rscript {0}
 
     - name: Updating data and cleaning 
       env: 
         ELECTRIC_CHARGING_STATIONS: ${{ secrets.ELECTRIC_CHARGING_STATIONS }}
+        UN_HUMAN_DEVELOPMENT_DATA_API_KEY: ${{ secrets.UN_HUMAN_DEVELOPMENT_DATA_API_KEY }}
       run: |
         source('automation_script.R')
       shell: Rscript {0}
