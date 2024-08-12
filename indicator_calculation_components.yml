@@ -283,7 +283,15 @@
   target: None
   target_year: '2030'
 17-1-1:
-  progress_status: not_available
+  base_value: '86.27958333'
+  base_year: '2016'
+  current_value: '92.9225'
+  current_year: '2022'
+  direction: None
+  progress_calculation_value: null
+  progress_status: None
+  target: None
+  target_year: '2030'
 17-2-1:
   base_value: '6600'
   base_year: '2018'
