@@ -6,6 +6,7 @@ library(dplyr)
 library(httr)
 library(jsonlite)
 library(dotenv)
+library(stringr)
 library(hablar) # for sum_ function
 
 raw_data <- get_cansim("36-10-0646-01", factors = FALSE)
@@ -17,7 +18,7 @@ raw_data <- get_cansim("36-10-0646-01", factors = FALSE)
 # Manual: https://hdr.undp.org/sites/default/files/2023-24_HDR/HDRO_data_api_manual.pdf
 
 # API key for UN Human Development Data API 2.0
-# load_dot_env(".env") # un-comment to run on local system with .env file
+load_dot_env(".env") # un-comment to run on local system with .env file
 API_key <- Sys.getenv("UN_HUMAN_DEVELOPMENT_DATA_API_KEY")
 
 # Prepare URL for GET request
