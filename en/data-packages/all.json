@@ -3780,7 +3780,6 @@
               "enum": [
                 "Indigenous person",
                 "First Nations (North American Indian)",
-                "Métis",
                 "Inuk (Inuit)",
                 "Non-Indigenous person",
                 ""
@@ -4020,6 +4019,63 @@
         ]
       },
       "title": "Gross domestic expenditure on research and development intensity"
+    },
+    {
+      "path": "17-3-1/data.csv",
+      "name": "17-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All regions",
+                "Europe",
+                "North America",
+                "Africa",
+                "South America",
+                "Central America",
+                "Antilles",
+                "Middle East",
+                "Oceania",
+                "Asia",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "data.Goods and services (products)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, environmental products",
+                "Total, clean technology products",
+                "Total, environmental and clean technology products",
+                ""
+              ]
+            },
+            "title": "Goods and services (products)"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Exports of environmental and clean technology goods and services to developing countries"
     },
     {
       "path": "6-2-1/data.csv",
@@ -5615,7 +5671,6 @@
                 "Not a visible minority",
                 "data.Total Aboriginal identity",
                 "First Nations (North American Indian)",
-                "Métis",
                 "Inuk (Inuit)",
                 "data.Non-Aboriginal identity",
                 "Total, all persons",

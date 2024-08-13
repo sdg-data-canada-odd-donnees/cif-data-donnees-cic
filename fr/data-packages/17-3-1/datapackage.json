@@ -1,0 +1,63 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "data.Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les régions",
+                "Europe",
+                "Amérique du Nord",
+                "Afrique",
+                "Amérique du Sud",
+                "Amérique Centrale",
+                "Antilles",
+                "Moyen-Orient",
+                "Océanie",
+                "Asie",
+                ""
+              ]
+            },
+            "title": "Région"
+          },
+          {
+            "name": "data.Goods and services (products)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, produits environnementaux",
+                "Total, produits de technologies propres",
+                "Total, produits environnementaux et de technologies propres",
+                ""
+              ]
+            },
+            "title": "Biens et services (produits)"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "17-3-1",
+  "title": "Exports of environmental and clean technology goods and services to developing countries"
+}

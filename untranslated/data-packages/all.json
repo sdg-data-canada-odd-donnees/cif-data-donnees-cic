@@ -3532,7 +3532,6 @@
               "enum": [
                 "Indigenous person",
                 "First Nations (North American Indian)",
-                "Métis",
                 "Inuk (Inuit)",
                 "Non-Indigenous person",
                 ""
@@ -3753,6 +3752,59 @@
         ]
       },
       "title": "Gross domestic expenditure on research and development intensity"
+    },
+    {
+      "path": "17-3-1/data.csv",
+      "name": "17-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "data.Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.All regions",
+                "data.Europe",
+                "data.North America",
+                "data.Africa",
+                "data.South America",
+                "data.Central America",
+                "data.Antilles",
+                "data.Middle East",
+                "data.Oceania",
+                "data.Asia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "data.Goods and services (products)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "data.Total, environmental products",
+                "data.Total, clean technology products",
+                "data.Total, environmental and clean technology products",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Exports of environmental and clean technology goods and services to developing countries"
     },
     {
       "path": "6-2-1/data.csv",
@@ -5242,7 +5294,6 @@
                 "data.Not a visible minority",
                 "data.Total Aboriginal identity",
                 "data.First Nations (North American Indian)",
-                "data.Métis",
                 "data.Inuk (Inuit)",
                 "data.Non-Aboriginal identity",
                 "data.Total, all persons",

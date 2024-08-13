@@ -22,6 +22,7 @@ data.Event sub-type,1,12
 data.Event type,1,3
 data.Gender,1,3
 data.Geography,42,169
+data.Goods and services (products),1,3
 data.Grade,1,6
 data.Household food security status,1,6
 data.Index,1,4
@@ -39,9 +40,9 @@ data.Pillar,2,7
 data.Population centres,2,8
 data.Population characteristics,1,2
 data.Population,1,6
-data.Region,1,8
+data.Region,2,12
 data.Select housing vulnerable populations,1,8
-data.Selected demographic characteristics,1,11
+data.Selected demographic characteristics,1,10
 data.Sex of accused,1,5
 data.Sex,14,9
 data.Sociodemographic characteristics,1,8
