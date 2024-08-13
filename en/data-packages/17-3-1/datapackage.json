@@ -40,9 +40,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, environmental products",
-                "Total, clean technology products",
-                "Total, environmental and clean technology products",
+                "Environmental products",
+                "Clean technology products",
+                "Environmental and clean technology products",
                 ""
               ]
             },

@@ -40,9 +40,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, produits environnementaux",
-                "Total, produits de technologies propres",
-                "Total, produits environnementaux et de technologies propres",
+                "Produits environnementaux",
+                "Produits de technologies propres",
+                "Produits environnementaux et de technologies propres",
                 ""
               ]
             },
