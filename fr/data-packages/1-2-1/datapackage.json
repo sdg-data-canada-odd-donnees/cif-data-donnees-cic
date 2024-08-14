@@ -61,9 +61,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Persons who are asset resilient for at least one month",
-                "data.Persons who are asset resilient for at least six months",
-                "data.Persons who are asset resilient for at least three months",
+                "Personnes en situation de résilience des actifs pour au moins 1 mois",
+                "Personnes en situation de résilience des actifs pour au moins 6 mois",
+                "Personnes en situation de résilience des actifs pour au moins 3 mois",
                 ""
               ]
             },

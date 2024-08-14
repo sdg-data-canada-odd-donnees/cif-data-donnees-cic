@@ -1240,9 +1240,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Persons who are asset resilient for at least one month",
-                "data.Persons who are asset resilient for at least six months",
-                "data.Persons who are asset resilient for at least three months",
+                "Personnes en situation de résilience des actifs pour au moins 1 mois",
+                "Personnes en situation de résilience des actifs pour au moins 6 mois",
+                "Personnes en situation de résilience des actifs pour au moins 3 mois",
                 ""
               ]
             },
@@ -5669,10 +5669,10 @@
                 "Résidents non permanents",
                 "Total de la population des minorités visibles",
                 "Pas une minorité visible",
-                "data.Total Aboriginal identity",
+                "Total identité autochtone",
                 "Première Nation (Indien de l'Amérique du Nord)",
                 "Inuk (Inuit)",
-                "data.Non-Aboriginal identity",
+                "Identité non autochtone",
                 "Total, toutes les personnes",
                 ""
               ]
