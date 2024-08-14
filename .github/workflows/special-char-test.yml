@@ -1,0 +1,30 @@
+# ****************************************************************************
+# NOTES:
+#
+# Testing behaviour of special characters in GH Actions.
+#
+#
+# ****************************************************************************
+
+name: Special characters test
+run-name: ${{ github.actor }} is testing GH Actions
+
+on:
+  workflow_dispatch:
+
+jobs:
+  print-chars:
+    runs-on: windows-2019
+    steps:
+      - name: Print server
+        run: echo "This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+
+      - name: Print accented characters
+        run: echo "é É à ô"
+
+      - name: Print special characters
+        run: echo "$ & @ ! ^ ? – ."
+
+      - name: Job status
+        run: echo "This job's status is ${{ job.status}}."
+
