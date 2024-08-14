@@ -16,7 +16,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Region",
+            "name": "Region",
             "type": "string",
             "constraints": {
               "enum": [
@@ -36,7 +36,7 @@
             "title": "Région"
           },
           {
-            "name": "data.Goods and services (products)",
+            "name": "Goods and services (products)",
             "type": "string",
             "constraints": {
               "enum": [

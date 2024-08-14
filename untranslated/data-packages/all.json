@@ -3768,32 +3768,32 @@
             "type": "integer"
           },
           {
-            "name": "data.Region",
+            "name": "Region",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.All regions",
-                "data.Europe",
-                "data.North America",
-                "data.Africa",
-                "data.South America",
-                "data.Central America",
-                "data.Antilles",
-                "data.Middle East",
-                "data.Oceania",
-                "data.Asia",
+                "All regions",
+                "Europe",
+                "North America",
+                "Africa",
+                "South America",
+                "Central America",
+                "Antilles",
+                "Middle East",
+                "Oceania",
+                "Asia",
                 ""
               ]
             }
           },
           {
-            "name": "data.Goods and services (products)",
+            "name": "Goods and services (products)",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total, environmental products",
-                "data.Total, clean technology products",
-                "data.Total, environmental and clean technology products",
+                "Total, environmental products",
+                "Total, clean technology products",
+                "Total, environmental and clean technology products",
                 ""
               ]
             }
