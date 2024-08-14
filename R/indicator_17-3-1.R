@@ -5,7 +5,7 @@ library(cansim)
 library(dplyr)
 library(httr)
 library(jsonlite)
-library(dotenv)
+# library(dotenv) # un-comment to run on local system with .env file (1/2)
 library(stringr)
 library(hablar) # for sum_ function
 
@@ -18,7 +18,7 @@ raw_data <- get_cansim("36-10-0646-01", factors = FALSE)
 # Manual: https://hdr.undp.org/sites/default/files/2023-24_HDR/HDRO_data_api_manual.pdf
 
 # API key for UN Human Development Data API 2.0
-load_dot_env(".env") # un-comment to run on local system with .env file
+# load_dot_env(".env") # un-comment to run on local system with .env file (2/2)
 API_key <- Sys.getenv("UN_HUMAN_DEVELOPMENT_DATA_API_KEY")
 
 # Prepare URL for GET request
@@ -103,18 +103,16 @@ exports <- raw_data %>%
          VALUE,
          )
 
-merged_data <- 
-  inner_join(exports, developing_countries, by = c("Year", "Trading partners" = "Country")) %>%
-  mutate_at(3:4, ~ paste0("data.", .x))
+merged_data <- inner_join(exports, developing_countries, by = c("Year", "Trading partners" = "Country"))
 
 # total exports to developing countries
 exports_to_developing_countries <- merged_data %>%
   summarise(Value = sum_(VALUE), .by = c(Year, `Goods and services (products)`)) %>%
-  mutate(Region = "data.All regions") %>%
+  mutate(Region = "All regions") %>%
   relocate(Region, .before = `Goods and services (products)`) %>%
   # blank out field for total line
   mutate(`Goods and services (products)` = replace(`Goods and services (products)`,
-                                                   `Goods and services (products)` == "data.Total, environmental and clean technology products",
+                                                   `Goods and services (products)` == "Total, environmental and clean technology products",
                                                    ""),
          Region = replace(Region, `Goods and services (products)` == "", "")
          )
@@ -124,10 +122,8 @@ exports_to_developing_countries_by_region <- merged_data %>%
   summarise(Value = sum_(VALUE), .by = c(Year, Region, `Goods and services (products)`))
 
 # combine rows into final data
-final_data <- 
-  bind_rows(exports_to_developing_countries, 
-            exports_to_developing_countries_by_region) %>%
-  rename_at(2:3, ~ paste0("data.", .x))
+final_data <- bind_rows(exports_to_developing_countries,
+                        exports_to_developing_countries_by_region)
 
 # Write to csv
 write.csv(final_data, "data/indicator_17-3-1.csv",
