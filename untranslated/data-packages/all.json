@@ -5441,11 +5441,23 @@
             "type": "integer"
           },
           {
-            "name": "data.Estimates",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Growth since 2016",
+                "Number of shelter users experiencing chronic homelessness",
+                "Percentage change in the number of shelter users experiencing chronic homelessness from the 2016 baseline",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number",
+                "Percentage",
                 ""
               ]
             }
@@ -5456,7 +5468,7 @@
           }
         ]
       },
-      "title": "Growth rate of people experiencing chronic homelessness"
+      "title": "(a) Number of shelter users experiencing chronic homelessness; and (b) percentage change in the number of shelter users experiencing chronic homelessness from the 2016 baseline"
     },
     {
       "path": "3-11-1/data.csv",

@@ -16,15 +16,28 @@
             "title": "Année"
           },
           {
-            "name": "data.Estimates",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Croissance depuis 2016",
+                "Nombre d'usagers des refuges en situation d'itinérance chronique",
+                "Changement en pourcentage du nombre d'usagers des refuges en situation d'itinérance chronique par rapport au niveau de référence de 2016",
                 ""
               ]
             },
-            "title": "Estimation"
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Nombre",
+                "Pourcentage",
+                ""
+              ]
+            },
+            "title": "Unités"
           },
           {
             "name": "Value",
@@ -37,5 +50,5 @@
   ],
   "profile": "data-package",
   "name": "11-1-1",
-  "title": "Growth rate of people experiencing chronic homelessness"
+  "title": "(a) Number of shelter users experiencing chronic homelessness; and (b) percentage change in the number of shelter users experiencing chronic homelessness from the 2016 baseline"
 }
