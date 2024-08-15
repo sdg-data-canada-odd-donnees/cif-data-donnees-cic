@@ -25,7 +25,7 @@ fish_stocks <- read_csv(eccc_data_url, skip = 2, show_col_types = FALSE) %>%
 fish_stocks_percentage <- fish_stocks %>%
   mutate(Units = "Percentage") %>%
   group_by(Year) %>%
-  mutate(Value = Value / sum(Value) * 100)
+  mutate(Value = round(Value / sum(Value) * 100, digits = 2))
 
 # Combine percentages and total numbers
 final_data <- bind_rows(fish_stocks_percentage,
