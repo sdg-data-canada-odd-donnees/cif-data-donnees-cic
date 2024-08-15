@@ -1,20 +1,97 @@
-Year,data.Stock group,Value
-2011,,89.68
-2012,,95.48
-2013,,97.42
-2014,,98.7
-2015,,95.6
-2016,,95.88
-2017,,95.53
-2018,,96.05
-2019,,94.32
-2020,,98.33
-2021,,95.31
-2020,data.Marine mammals,94.12
-2020,data.Groundfish,100
-2020,data.Small pelagics,100
-2020,data.Large pelagics,100
-2020,data.Salmonids,95.45
-2020,data.Crustaceans,97.67
-2020,data.Molluscs,100
-2020,data.Others,100
+"Year","Units","Status","Value"
+"2011","Percentage","Healthy zone",46.45
+"2012","Percentage","Healthy zone",48.39
+"2013","Percentage","Healthy zone",47.74
+"2014","Percentage","Healthy zone",48.7
+"2015","Percentage","Healthy zone",49.06
+"2016","Percentage","Healthy zone",44.71
+"2017","Percentage","Healthy zone",35.2
+"2018","Percentage","Healthy zone",32.77
+"2019","Percentage","Healthy zone",29.55
+"2020","Percentage","Healthy zone",31.11
+"2021","Percentage","Healthy zone",34.38
+"2022","Percentage","Healthy zone",33.85
+"2011","Percentage","Cautious zone",20
+"2012","Percentage","Cautious zone",23.87
+"2013","Percentage","Cautious zone",26.45
+"2014","Percentage","Cautious zone",25.97
+"2015","Percentage","Cautious zone",19.5
+"2016","Percentage","Cautious zone",18.24
+"2017","Percentage","Cautious zone",13.97
+"2018","Percentage","Cautious zone",15.25
+"2019","Percentage","Cautious zone",16.48
+"2020","Percentage","Cautious zone",12.78
+"2021","Percentage","Cautious zone",14.06
+"2022","Percentage","Cautious zone",12.31
+"2011","Percentage","Critical zone",10.97
+"2012","Percentage","Critical zone",9.68
+"2013","Percentage","Critical zone",10.32
+"2014","Percentage","Critical zone",9.74
+"2015","Percentage","Critical zone",11.95
+"2016","Percentage","Critical zone",12.35
+"2017","Percentage","Critical zone",10.06
+"2018","Percentage","Critical zone",10.73
+"2019","Percentage","Critical zone",14.2
+"2020","Percentage","Critical zone",12.78
+"2021","Percentage","Critical zone",11.46
+"2022","Percentage","Critical zone",11.79
+"2011","Percentage","Status uncertain",22.58
+"2012","Percentage","Status uncertain",18.06
+"2013","Percentage","Status uncertain",15.48
+"2014","Percentage","Status uncertain",15.58
+"2015","Percentage","Status uncertain",19.5
+"2016","Percentage","Status uncertain",24.71
+"2017","Percentage","Status uncertain",40.78
+"2018","Percentage","Status uncertain",41.24
+"2019","Percentage","Status uncertain",39.77
+"2020","Percentage","Status uncertain",43.33
+"2021","Percentage","Status uncertain",40.1
+"2022","Percentage","Status uncertain",42.05
+"2011","Number of stocks","Healthy zone",72
+"2012","Number of stocks","Healthy zone",75
+"2013","Number of stocks","Healthy zone",74
+"2014","Number of stocks","Healthy zone",75
+"2015","Number of stocks","Healthy zone",78
+"2016","Number of stocks","Healthy zone",76
+"2017","Number of stocks","Healthy zone",63
+"2018","Number of stocks","Healthy zone",58
+"2019","Number of stocks","Healthy zone",52
+"2020","Number of stocks","Healthy zone",56
+"2021","Number of stocks","Healthy zone",66
+"2022","Number of stocks","Healthy zone",66
+"2011","Number of stocks","Cautious zone",31
+"2012","Number of stocks","Cautious zone",37
+"2013","Number of stocks","Cautious zone",41
+"2014","Number of stocks","Cautious zone",40
+"2015","Number of stocks","Cautious zone",31
+"2016","Number of stocks","Cautious zone",31
+"2017","Number of stocks","Cautious zone",25
+"2018","Number of stocks","Cautious zone",27
+"2019","Number of stocks","Cautious zone",29
+"2020","Number of stocks","Cautious zone",23
+"2021","Number of stocks","Cautious zone",27
+"2022","Number of stocks","Cautious zone",24
+"2011","Number of stocks","Critical zone",17
+"2012","Number of stocks","Critical zone",15
+"2013","Number of stocks","Critical zone",16
+"2014","Number of stocks","Critical zone",15
+"2015","Number of stocks","Critical zone",19
+"2016","Number of stocks","Critical zone",21
+"2017","Number of stocks","Critical zone",18
+"2018","Number of stocks","Critical zone",19
+"2019","Number of stocks","Critical zone",25
+"2020","Number of stocks","Critical zone",23
+"2021","Number of stocks","Critical zone",22
+"2022","Number of stocks","Critical zone",23
+"2011","Number of stocks","Status uncertain",35
+"2012","Number of stocks","Status uncertain",28
+"2013","Number of stocks","Status uncertain",24
+"2014","Number of stocks","Status uncertain",24
+"2015","Number of stocks","Status uncertain",31
+"2016","Number of stocks","Status uncertain",42
+"2017","Number of stocks","Status uncertain",73
+"2018","Number of stocks","Status uncertain",73
+"2019","Number of stocks","Status uncertain",70
+"2020","Number of stocks","Status uncertain",78
+"2021","Number of stocks","Status uncertain",77
+"2022","Number of stocks","Status uncertain",82
