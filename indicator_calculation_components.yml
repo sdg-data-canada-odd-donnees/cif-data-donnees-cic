@@ -81,7 +81,15 @@
   target: '85'
   target_year: '2030'
 11-4-1:
-  progress_status: not_available
+  base_value: '75.1'
+  base_year: '2023'
+  current_value: '75.1'
+  current_year: '2023'
+  direction: positive
+  progress_calculation_value: null
+  progress_status: None
+  target: None
+  target_year: '2030'
 11-5-1:
   base_value: '19.3'
   base_year: '2016'
