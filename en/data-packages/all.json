@@ -2278,36 +2278,101 @@
             "title": "Year"
           },
           {
-            "name": "data.Select housing vulnerable populations",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "All households",
-                "Total, one-parent one-family households",
-                "One-parent one-family households whose reference person is a man+",
-                "One-parent one-family households whose reference person is a woman+",
-                "Total, one-person households",
-                "Men+ living alone",
-                "Women+ living alone",
-                "Reference persons who have experienced homelessness",
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                "Ontario/Quebec",
                 ""
               ]
             },
-            "title": "Select housing vulnerable populations"
+            "title": "Geography"
           },
           {
-            "name": "data.Living with housing problems",
+            "name": "Geographic location",
             "type": "string",
             "constraints": {
               "enum": [
-                "Living in unaffordable housing",
-                "Living in unsuitable housing",
-                "Living in inadequate housing",
-                "Living in core housing need",
+                "Canada",
+                "Provinces and territories",
+                "Census metropolitan areas",
+                "Census agglomerations",
+                "Outside census metropolitan areas and census agglomerations",
+                "Large urban population centres",
+                "Medium population centres",
+                "Small population centres",
+                "Rural areas",
                 ""
               ]
             },
-            "title": "Living with housing problems"
+            "title": "Geographic location"
+          },
+          {
+            "name": "Selected census metropolitan areas",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, census metropolitan areas",
+                "St. John's, Newfoundland and Labrador",
+                "Halifax, Nova Scotia",
+                "Moncton, New Brunswick",
+                "Saint John, New Brunswick",
+                "Québec, Quebec",
+                "Montréal, Quebec",
+                "Ottawa-Gatineau, Ontario/Quebec",
+                "Toronto, Ontario",
+                "Hamilton, Ontario",
+                "Kitchener-Cambridge-Waterloo, Ontario",
+                "Winnipeg, Manitoba",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Lethbridge, Alberta",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Vancouver, British Columbia",
+                "Other census metropolitan areas, Quebec",
+                "Other census metropolitan areas, Ontario",
+                "Other census metropolitan areas, British Columbia",
+                ""
+              ]
+            },
+            "title": "Selected census metropolitan areas"
+          },
+          {
+            "name": "Tenure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Owner",
+                "Owner who is a first-time homebuyer",
+                "Owner who is not a first-time homebuyer",
+                "Renter",
+                "Renter not in social and affordable housing",
+                "Renter in social and affordable housing",
+                "Total, tenure",
+                ""
+              ]
+            },
+            "title": "Tenure"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

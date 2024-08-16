@@ -2278,36 +2278,101 @@
             "title": "Année"
           },
           {
-            "name": "data.Select housing vulnerable populations",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les ménages",
-                "Total, ménages comptant une seule famille monoparentale",
-                "Ménages comptant une seule famille monoparentale dont la personne de référence est un homme+",
-                "Ménages comptant une seule famille monoparentale dont la personne de référence est une femme+",
-                "Total, ménages composés d'une seule personne",
-                "Hommes+ vivant seuls",
-                "Femmes+ vivant seules",
-                "Personnes de référence qui ont vécu une période d'itinérance",
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                "Ontario/Quebec",
                 ""
               ]
             },
-            "title": "Certaines populations vulnérables en matière de logement"
+            "title": "Géographie"
           },
           {
-            "name": "data.Living with housing problems",
+            "name": "Geographic location",
             "type": "string",
             "constraints": {
               "enum": [
-                "Vivant dans un logement inabordable",
-                "Vivant dans un logement de taille non convenable",
-                "Vivant dans un logement de qualité non convenable",
-                "Ayant des besoins impérieux en matière de logement",
+                "Canada",
+                "Provinces and territories",
+                "Census metropolitan areas",
+                "Agglomérations de recensement",
+                "À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement",
+                "Grands centres de population urbains",
+                "Moyens centres de population",
+                "Petits centres de population",
+                "Régions rurales",
                 ""
               ]
             },
-            "title": "Éprouvant des problèmes de logement"
+            "title": "Situation géographique"
+          },
+          {
+            "name": "Selected census metropolitan areas",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, régions métropolitaines de recensement",
+                "St. John's, Terre-Neuve-et-Labrador",
+                "Halifax, Nouvelle-Écosse",
+                "Moncton, Nouveau-Brunswick",
+                "Saint John, Nouveau-Brunswick",
+                "Québec, Québec",
+                "Montréal, Québec",
+                "Ottawa-Gatineau, Ontario/Québec",
+                "Toronto, Ontario",
+                "Hamilton, Ontario",
+                "Kitchener-Cambridge-Waterloo, Ontario",
+                "Winnipeg, Manitoba",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Lethbridge, Alberta",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Vancouver, Colombie-Britannique",
+                "Autres régions métropolitaines de recensement, Québec",
+                "Autres régions métropolitaines de recensement, Ontario",
+                "Autres régions métropolitaines de recensement, Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Régions métropolitaines de recensement sélectionnées"
+          },
+          {
+            "name": "Tenure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Propriétaire",
+                "Owner who is a first-time homebuyer",
+                "Owner who is not a first-time homebuyer",
+                "Locataire",
+                "Renter not in social and affordable housing",
+                "Renter in social and affordable housing",
+                "Total, tenure",
+                ""
+              ]
+            },
+            "title": "Mode d'occupation"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

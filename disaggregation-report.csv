@@ -30,7 +30,6 @@ data.Land use category,1,8
 data.Leadership position,1,10
 data.Leading causes of death (ICD-10),1,10
 data.Level of confidence,1,5
-data.Living with housing problems,1,4
 data.National Occupational Classification (NOC),1,11
 data.Offences,1,6
 data.Persons in low income,1,12
@@ -39,7 +38,6 @@ data.Population centres,2,8
 data.Population characteristics,1,2
 data.Population,1,6
 data.Region,1,8
-data.Select housing vulnerable populations,1,8
 data.Selected demographic characteristics,1,10
 data.Sex of accused,1,5
 data.Sex,14,9
@@ -66,7 +64,8 @@ Educational attainment,1,4
 Enterprise size,1,4
 Gender,1,3
 Generation,1,4
-Geography,14,138
+Geographic location,1,9
+Geography,15,139
 Goods and services (products),1,3
 Highest degree earned,1,4
 Household income,1,5
@@ -81,12 +80,14 @@ Marital status,1,4
 Ownership status,1,4
 Region,1,10
 Sector,1,2
+Selected census metropolitan areas,1,21
 Selected diseases,1,17
 Sex,6,3
 Source,1,9
 Species group,1,3
 System,1,3
 Target population,1,5
+Tenure,1,7
 Type of beverage,1,5
 Type of charging or fuelling stations,1,8
 Type of household,1,2
