@@ -1,121 +1,181 @@
-"Year","Units","Status","Value"
-"2011","Number of stocks","Healthy zone",72
-"2012","Number of stocks","Healthy zone",75
-"2013","Number of stocks","Healthy zone",74
-"2014","Number of stocks","Healthy zone",75
-"2015","Number of stocks","Healthy zone",78
-"2016","Number of stocks","Healthy zone",76
-"2017","Number of stocks","Healthy zone",63
-"2018","Number of stocks","Healthy zone",58
-"2019","Number of stocks","Healthy zone",52
-"2020","Number of stocks","Healthy zone",56
-"2021","Number of stocks","Healthy zone",66
-"2022","Number of stocks","Healthy zone",66
-"2011","Number of stocks","Cautious zone",31
-"2012","Number of stocks","Cautious zone",37
-"2013","Number of stocks","Cautious zone",41
-"2014","Number of stocks","Cautious zone",40
-"2015","Number of stocks","Cautious zone",31
-"2016","Number of stocks","Cautious zone",31
-"2017","Number of stocks","Cautious zone",25
-"2018","Number of stocks","Cautious zone",27
-"2019","Number of stocks","Cautious zone",29
-"2020","Number of stocks","Cautious zone",23
-"2021","Number of stocks","Cautious zone",27
-"2022","Number of stocks","Cautious zone",24
-"2011","Number of stocks","Critical zone",17
-"2012","Number of stocks","Critical zone",15
-"2013","Number of stocks","Critical zone",16
-"2014","Number of stocks","Critical zone",15
-"2015","Number of stocks","Critical zone",19
-"2016","Number of stocks","Critical zone",21
-"2017","Number of stocks","Critical zone",18
-"2018","Number of stocks","Critical zone",19
-"2019","Number of stocks","Critical zone",25
-"2020","Number of stocks","Critical zone",23
-"2021","Number of stocks","Critical zone",22
-"2022","Number of stocks","Critical zone",23
-"2011","Number of stocks","Status uncertain",35
-"2012","Number of stocks","Status uncertain",28
-"2013","Number of stocks","Status uncertain",24
-"2014","Number of stocks","Status uncertain",24
-"2015","Number of stocks","Status uncertain",31
-"2016","Number of stocks","Status uncertain",42
-"2017","Number of stocks","Status uncertain",73
-"2018","Number of stocks","Status uncertain",73
-"2019","Number of stocks","Status uncertain",70
-"2020","Number of stocks","Status uncertain",78
-"2021","Number of stocks","Status uncertain",77
-"2022","Number of stocks","Status uncertain",82
-"2011","Number of stocks","",103
-"2012","Number of stocks","",112
-"2013","Number of stocks","",115
-"2014","Number of stocks","",115
-"2015","Number of stocks","",109
-"2016","Number of stocks","",107
-"2017","Number of stocks","",88
-"2018","Number of stocks","",85
-"2019","Number of stocks","",81
-"2020","Number of stocks","",79
-"2021","Number of stocks","",93
-"2022","Number of stocks","",90
-"2011","Percentage","Healthy zone",46.45
-"2012","Percentage","Healthy zone",48.39
-"2013","Percentage","Healthy zone",47.74
-"2014","Percentage","Healthy zone",48.7
-"2015","Percentage","Healthy zone",49.06
-"2016","Percentage","Healthy zone",44.71
-"2017","Percentage","Healthy zone",35.2
-"2018","Percentage","Healthy zone",32.77
-"2019","Percentage","Healthy zone",29.55
-"2020","Percentage","Healthy zone",31.11
-"2021","Percentage","Healthy zone",34.38
-"2022","Percentage","Healthy zone",33.85
-"2011","Percentage","Cautious zone",20
-"2012","Percentage","Cautious zone",23.87
-"2013","Percentage","Cautious zone",26.45
-"2014","Percentage","Cautious zone",25.97
-"2015","Percentage","Cautious zone",19.5
-"2016","Percentage","Cautious zone",18.24
-"2017","Percentage","Cautious zone",13.97
-"2018","Percentage","Cautious zone",15.25
-"2019","Percentage","Cautious zone",16.48
-"2020","Percentage","Cautious zone",12.78
-"2021","Percentage","Cautious zone",14.06
-"2022","Percentage","Cautious zone",12.31
-"2011","Percentage","Critical zone",10.97
-"2012","Percentage","Critical zone",9.68
-"2013","Percentage","Critical zone",10.32
-"2014","Percentage","Critical zone",9.74
-"2015","Percentage","Critical zone",11.95
-"2016","Percentage","Critical zone",12.35
-"2017","Percentage","Critical zone",10.06
-"2018","Percentage","Critical zone",10.73
-"2019","Percentage","Critical zone",14.2
-"2020","Percentage","Critical zone",12.78
-"2021","Percentage","Critical zone",11.46
-"2022","Percentage","Critical zone",11.79
-"2011","Percentage","Status uncertain",22.58
-"2012","Percentage","Status uncertain",18.06
-"2013","Percentage","Status uncertain",15.48
-"2014","Percentage","Status uncertain",15.58
-"2015","Percentage","Status uncertain",19.5
-"2016","Percentage","Status uncertain",24.71
-"2017","Percentage","Status uncertain",40.78
-"2018","Percentage","Status uncertain",41.24
-"2019","Percentage","Status uncertain",39.77
-"2020","Percentage","Status uncertain",43.33
-"2021","Percentage","Status uncertain",40.1
-"2022","Percentage","Status uncertain",42.05
-"2011","Percentage","",66.45
-"2012","Percentage","",72.26
-"2013","Percentage","",74.19
-"2014","Percentage","",74.68
-"2015","Percentage","",68.55
-"2016","Percentage","",62.94
-"2017","Percentage","",49.16
-"2018","Percentage","",48.02
-"2019","Percentage","",46.02
-"2020","Percentage","",43.89
-"2021","Percentage","",48.44
-"2022","Percentage","",46.15
+"Year","Units","Region","Status","Value"
+"2011","Number of stocks","Canada","Healthy zone",72
+"2012","Number of stocks","Canada","Healthy zone",75
+"2013","Number of stocks","Canada","Healthy zone",74
+"2014","Number of stocks","Canada","Healthy zone",75
+"2015","Number of stocks","Canada","Healthy zone",78
+"2016","Number of stocks","Canada","Healthy zone",76
+"2017","Number of stocks","Canada","Healthy zone",63
+"2018","Number of stocks","Canada","Healthy zone",58
+"2019","Number of stocks","Canada","Healthy zone",52
+"2020","Number of stocks","Canada","Healthy zone",56
+"2021","Number of stocks","Canada","Healthy zone",66
+"2022","Number of stocks","Canada","Healthy zone",66
+"2011","Number of stocks","Canada","Cautious zone",31
+"2012","Number of stocks","Canada","Cautious zone",37
+"2013","Number of stocks","Canada","Cautious zone",41
+"2014","Number of stocks","Canada","Cautious zone",40
+"2015","Number of stocks","Canada","Cautious zone",31
+"2016","Number of stocks","Canada","Cautious zone",31
+"2017","Number of stocks","Canada","Cautious zone",25
+"2018","Number of stocks","Canada","Cautious zone",27
+"2019","Number of stocks","Canada","Cautious zone",29
+"2020","Number of stocks","Canada","Cautious zone",23
+"2021","Number of stocks","Canada","Cautious zone",27
+"2022","Number of stocks","Canada","Cautious zone",24
+"2011","Number of stocks","Canada","Critical zone",17
+"2012","Number of stocks","Canada","Critical zone",15
+"2013","Number of stocks","Canada","Critical zone",16
+"2014","Number of stocks","Canada","Critical zone",15
+"2015","Number of stocks","Canada","Critical zone",19
+"2016","Number of stocks","Canada","Critical zone",21
+"2017","Number of stocks","Canada","Critical zone",18
+"2018","Number of stocks","Canada","Critical zone",19
+"2019","Number of stocks","Canada","Critical zone",25
+"2020","Number of stocks","Canada","Critical zone",23
+"2021","Number of stocks","Canada","Critical zone",22
+"2022","Number of stocks","Canada","Critical zone",23
+"2011","Number of stocks","Canada","Status uncertain",35
+"2012","Number of stocks","Canada","Status uncertain",28
+"2013","Number of stocks","Canada","Status uncertain",24
+"2014","Number of stocks","Canada","Status uncertain",24
+"2015","Number of stocks","Canada","Status uncertain",31
+"2016","Number of stocks","Canada","Status uncertain",42
+"2017","Number of stocks","Canada","Status uncertain",73
+"2018","Number of stocks","Canada","Status uncertain",73
+"2019","Number of stocks","Canada","Status uncertain",70
+"2020","Number of stocks","Canada","Status uncertain",78
+"2021","Number of stocks","Canada","Status uncertain",77
+"2022","Number of stocks","Canada","Status uncertain",82
+"2011","Percentage","Canada","Healthy zone",46.4516129032258
+"2012","Percentage","Canada","Healthy zone",48.3870967741936
+"2013","Percentage","Canada","Healthy zone",47.741935483871
+"2014","Percentage","Canada","Healthy zone",48.7012987012987
+"2015","Percentage","Canada","Healthy zone",49.0566037735849
+"2016","Percentage","Canada","Healthy zone",44.7058823529412
+"2017","Percentage","Canada","Healthy zone",35.195530726257
+"2018","Percentage","Canada","Healthy zone",32.7683615819209
+"2019","Percentage","Canada","Healthy zone",29.5454545454545
+"2020","Percentage","Canada","Healthy zone",31.1111111111111
+"2021","Percentage","Canada","Healthy zone",34.375
+"2022","Percentage","Canada","Healthy zone",33.8461538461538
+"2011","Percentage","Canada","Cautious zone",20
+"2012","Percentage","Canada","Cautious zone",23.8709677419355
+"2013","Percentage","Canada","Cautious zone",26.4516129032258
+"2014","Percentage","Canada","Cautious zone",25.974025974026
+"2015","Percentage","Canada","Cautious zone",19.4968553459119
+"2016","Percentage","Canada","Cautious zone",18.2352941176471
+"2017","Percentage","Canada","Cautious zone",13.9664804469274
+"2018","Percentage","Canada","Cautious zone",15.2542372881356
+"2019","Percentage","Canada","Cautious zone",16.4772727272727
+"2020","Percentage","Canada","Cautious zone",12.7777777777778
+"2021","Percentage","Canada","Cautious zone",14.0625
+"2022","Percentage","Canada","Cautious zone",12.3076923076923
+"2011","Percentage","Canada","Critical zone",10.9677419354839
+"2012","Percentage","Canada","Critical zone",9.67741935483871
+"2013","Percentage","Canada","Critical zone",10.3225806451613
+"2014","Percentage","Canada","Critical zone",9.74025974025974
+"2015","Percentage","Canada","Critical zone",11.9496855345912
+"2016","Percentage","Canada","Critical zone",12.3529411764706
+"2017","Percentage","Canada","Critical zone",10.0558659217877
+"2018","Percentage","Canada","Critical zone",10.7344632768362
+"2019","Percentage","Canada","Critical zone",14.2045454545455
+"2020","Percentage","Canada","Critical zone",12.7777777777778
+"2021","Percentage","Canada","Critical zone",11.4583333333333
+"2022","Percentage","Canada","Critical zone",11.7948717948718
+"2011","Percentage","Canada","Status uncertain",22.5806451612903
+"2012","Percentage","Canada","Status uncertain",18.0645161290323
+"2013","Percentage","Canada","Status uncertain",15.4838709677419
+"2014","Percentage","Canada","Status uncertain",15.5844155844156
+"2015","Percentage","Canada","Status uncertain",19.4968553459119
+"2016","Percentage","Canada","Status uncertain",24.7058823529412
+"2017","Percentage","Canada","Status uncertain",40.7821229050279
+"2018","Percentage","Canada","Status uncertain",41.2429378531073
+"2019","Percentage","Canada","Status uncertain",39.7727272727273
+"2020","Percentage","Canada","Status uncertain",43.3333333333333
+"2021","Percentage","Canada","Status uncertain",40.1041666666667
+"2022","Percentage","Canada","Status uncertain",42.0512820512821
+"2011","Number of stocks","","",103
+"2012","Number of stocks","","",112
+"2013","Number of stocks","","",115
+"2014","Number of stocks","","",115
+"2015","Number of stocks","","",109
+"2016","Number of stocks","","",107
+"2017","Number of stocks","","",88
+"2018","Number of stocks","","",85
+"2019","Number of stocks","","",81
+"2020","Number of stocks","","",79
+"2021","Number of stocks","","",93
+"2022","Number of stocks","","",90
+"2011","Percentage","","",66.4516129032258
+"2012","Percentage","","",72.258064516129
+"2013","Percentage","","",74.1935483870968
+"2014","Percentage","","",74.6753246753247
+"2015","Percentage","","",68.5534591194968
+"2016","Percentage","","",62.9411764705882
+"2017","Percentage","","",49.1620111731844
+"2018","Percentage","","",48.0225988700565
+"2019","Percentage","","",46.0227272727273
+"2020","Percentage","","",43.8888888888889
+"2021","Percentage","","",48.4375
+"2022","Percentage","","",46.1538461538462
+"2022","Number","Pacific","Healthy zone",24
+"2022","Number","Pacific","Cautious zone",13
+"2022","Number","Pacific","Critical zone",5
+"2022","Number","Pacific","Status uncertain",15
+"2021","Number","Pacific","Healthy zone",23
+"2021","Number","Pacific","Cautious zone",16
+"2021","Number","Pacific","Critical zone",4
+"2021","Number","Pacific","Status uncertain",14
+"2022","Number","Arctic","Healthy zone",2
+"2022","Number","Arctic","Cautious zone",1
+"2022","Number","Arctic","Critical zone",0
+"2022","Number","Arctic","Status uncertain",18
+"2021","Number","Arctic","Healthy zone",2
+"2021","Number","Arctic","Cautious zone",1
+"2021","Number","Arctic","Critical zone",0
+"2021","Number","Arctic","Status uncertain",18
+"2022","Number","Atlantic","Healthy zone",40
+"2022","Number","Atlantic","Cautious zone",10
+"2022","Number","Atlantic","Critical zone",18
+"2022","Number","Atlantic","Status uncertain",49
+"2021","Number","Atlantic","Healthy zone",41
+"2021","Number","Atlantic","Cautious zone",10
+"2021","Number","Atlantic","Critical zone",18
+"2021","Number","Atlantic","Status uncertain",45
+"2022","Percentage","Pacific","Healthy zone",0.421052631578947
+"2022","Percentage","Pacific","Cautious zone",0.228070175438596
+"2022","Percentage","Pacific","Critical zone",0.087719298245614
+"2022","Percentage","Pacific","Status uncertain",0.263157894736842
+"2021","Percentage","Pacific","Healthy zone",0.403508771929825
+"2021","Percentage","Pacific","Cautious zone",0.280701754385965
+"2021","Percentage","Pacific","Critical zone",0.0701754385964912
+"2021","Percentage","Pacific","Status uncertain",0.245614035087719
+"2022","Percentage","Arctic","Healthy zone",0.0952380952380952
+"2022","Percentage","Arctic","Cautious zone",0.0476190476190476
+"2022","Percentage","Arctic","Critical zone",0
+"2022","Percentage","Arctic","Status uncertain",0.857142857142857
+"2021","Percentage","Arctic","Healthy zone",0.0952380952380952
+"2021","Percentage","Arctic","Cautious zone",0.0476190476190476
+"2021","Percentage","Arctic","Critical zone",0
+"2021","Percentage","Arctic","Status uncertain",0.857142857142857
+"2022","Percentage","Atlantic","Healthy zone",0.341880341880342
+"2022","Percentage","Atlantic","Cautious zone",0.0854700854700855
+"2022","Percentage","Atlantic","Critical zone",0.153846153846154
+"2022","Percentage","Atlantic","Status uncertain",0.418803418803419
+"2021","Percentage","Atlantic","Healthy zone",0.359649122807018
+"2021","Percentage","Atlantic","Cautious zone",0.087719298245614
+"2021","Percentage","Atlantic","Critical zone",0.157894736842105
+"2021","Percentage","Atlantic","Status uncertain",0.394736842105263
+"2022","Number","Pacific","Healthy and cautious zones",37
+"2021","Number","Pacific","Healthy and cautious zones",39
+"2022","Number","Arctic","Healthy and cautious zones",3
+"2021","Number","Arctic","Healthy and cautious zones",3
+"2022","Number","Atlantic","Healthy and cautious zones",50
+"2021","Number","Atlantic","Healthy and cautious zones",51
+"2022","Percentage","Pacific","Healthy and cautious zones",0.649122807017544
+"2021","Percentage","Pacific","Healthy and cautious zones",0.684210526315789
+"2022","Percentage","Arctic","Healthy and cautious zones",0.142857142857143
+"2021","Percentage","Arctic","Healthy and cautious zones",0.142857142857143
+"2022","Percentage","Atlantic","Healthy and cautious zones",0.427350427350427
+"2021","Percentage","Atlantic","Healthy and cautious zones",0.447368421052632

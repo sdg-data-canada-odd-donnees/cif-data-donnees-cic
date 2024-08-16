@@ -8,32 +8,67 @@ library(tidyr)
 
 # Get data from source
 # To fetch older or newer versions, change the year in the URL
-eccc_data_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2024/1_Fish-stocks-year.csv"
+national_data_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2024/1_Fish-stocks-year.csv"
+regions_data_2024_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2024/2_Fish-stocks-regions.csv"
+regions_data_2023_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2023/2_Fish-stocks-regions.csv"
 
-raw_data <- read_csv(eccc_data_url, skip = 2, show_col_types = FALSE) %>%
-  na.omit(raw_data)
+national_data <- read_csv(national_data_url, skip = 2, show_col_types = FALSE) %>%
+  na.omit(national_data)
 
-fish_stocks <- raw_data %>%
-  # Calculate number of fish stocks in cautious and healthy zones
-  mutate(`Cautious and healthy zones (number of stocks)` = `Healthy zone (number of stocks)` + `Cautious zone (number of stocks)`)
+regions_data_2022 <- read_csv(regions_data_2024_url, skip = 2, show_col_types = FALSE) %>%
+  na.omit(regions_data) %>%
+  mutate(Year = "2022")
 
-# Add new columns calculating the percentages in each status category  
-for (column in colnames(fish_stocks)[-1]) {
-  newcol <- substr(column, 1, nchar(column)-19)
-  fish_stocks <- mutate(fish_stocks, "{newcol}" := round(fish_stocks[[column]] / `Total (number of stocks)` * 100, digits = 2))
-}
+regions_data_2021 <- read_csv(regions_data_2023_url, skip = 2, show_col_types = FALSE) %>%
+  na.omit(regions_data_2021) %>%
+  mutate(Year = "2021")
 
-# Tidy final data
-final_data <- fish_stocks %>%
-  select(!starts_with("Total")) %>%
-  gather(key = "Status", value = "Value", -Year) %>%
-  # Add units column
-  mutate(Units = ifelse(endsWith(Status, "(number of stocks)"), "Number of stocks", "Percentage"),
-         Status = ifelse(endsWith(Status, " (number of stocks)"), substr(Status, 1, nchar(Status)-19), Status)
-  ) %>%
+
+
+fish_stocks <- national_data %>%
+  # Tidy national data
+  select(Year,
+         `Healthy zone` = `Healthy zone (number of stocks)`,
+         `Cautious zone` = `Cautious zone (number of stocks)`,
+         `Critical zone` = `Critical zone (number of stocks)`,
+         `Status uncertain` = `Status uncertain (number of stocks)`,
+         ) %>%
+  gather(key = "Status", value = "Number of stocks", -Year) %>%
+  # Calculate percentages
+  group_by(Year) %>%
+  mutate(Percentage = `Number of stocks` / sum(`Number of stocks`) * 100) %>%
+  # Tidy units
+  gather(key = "Units", value = "Value", -Year, -Status) %>%
   relocate(Units, .after = Year) %>%
+  # Set region for national fish stocks data to Canada
+  mutate(Region = "Canada") %>%
+  relocate(Region, .after = Units)
+  
+fish_stocks_healthy_and_cautious <- fish_stocks %>%
+  filter(Status %in% c("Healthy zone", "Cautious zone")) %>%
+  ungroup() %>%
+  summarise(Value = sum(Value), .by = c(Year, Units, Region)) %>%
   # blank out headline data
-  mutate(Status = replace(Status, Status == "Cautious and healthy zones", ""))
+  mutate(Region = "",
+         Status = "")
+
+regions_stocks <- bind_rows(regions_data_2022, regions_data_2021) %>%
+  rename_at(vars(ends_with("(number of stocks)")), ~ substr(., 1, nchar(.)-19)) %>%
+  gather(key = "Region", value = "Number", -Year, -Status) %>%
+  group_by(Year, Region) %>%
+  mutate(Percentage = Number / sum(Number)) %>%
+  gather(key = "Units", value = "Value", -Year, -Region, -Status)
+
+regions_stocks_healthy_and_cautious <- regions_stocks %>%
+  filter(Status %in% c("Healthy zone", "Cautious zone")) %>%
+  ungroup() %>%
+  summarise(Value = sum(Value), .by = c(Year, Units, Region)) %>%
+  mutate(Status = "Healthy and cautious zones")
+
+final_data <- bind_rows(fish_stocks,
+                        fish_stocks_healthy_and_cautious,
+                        regions_stocks,
+                        regions_stocks_healthy_and_cautious)
 
 # Write data to csv
 write.csv(final_data, "data/indicator_14-2-1.csv",
