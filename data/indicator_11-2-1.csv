@@ -1,59 +1,1280 @@
-Year,data.Select housing vulnerable populations,data.Living with housing problems,Value
-2018,,,11.3
-2021,,,9.8
-2018,data.All households,data.Living in unaffordable housing,22
-2018,data.All households,data.Living in unsuitable housing,4.9
-2018,data.All households,data.Living in inadequate housing,7
-2018,"data.Total, one-parent one-family households",data.Living in unaffordable housing,27
-2018,"data.Total, one-parent one-family households",data.Living in unsuitable housing,9
-2018,"data.Total, one-parent one-family households",data.Living in inadequate housing,11
-2018,"data.Total, one-parent one-family households",data.Living in core housing need,21
-2018,data.One-parent one-family households whose reference person is a man+,data.Living in unaffordable housing,25
-2018,data.One-parent one-family households whose reference person is a man+,data.Living in unsuitable housing,7.9
-2018,data.One-parent one-family households whose reference person is a man+,data.Living in inadequate housing,8.5
-2018,data.One-parent one-family households whose reference person is a man+,data.Living in core housing need,16.1
-2018,data.One-parent one-family households whose reference person is a woman+,data.Living in unaffordable housing,27
-2018,data.One-parent one-family households whose reference person is a woman+,data.Living in unsuitable housing,9.4
-2018,data.One-parent one-family households whose reference person is a woman+,data.Living in inadequate housing,11.9
-2018,data.One-parent one-family households whose reference person is a woman+,data.Living in core housing need,23
-2018,"data.Total, one-person households",data.Living in unaffordable housing,37
-2018,"data.Total, one-person households",data.Living in inadequate housing,8.1
-2018,"data.Total, one-person households",data.Living in core housing need,22
-2018,data.Men+ living alone,data.Living in unaffordable housing,35
-2018,data.Men+ living alone,data.Living in inadequate housing,8.2
-2018,data.Men+ living alone,data.Living in core housing need,20
-2018,data.Women+ living alone,data.Living in unaffordable housing,40
-2018,data.Women+ living alone,data.Living in inadequate housing,8
-2018,data.Women+ living alone,data.Living in core housing need,24
-2018,data.Reference persons who have experienced homelessness,data.Living in unaffordable housing,38
-2018,data.Reference persons who have experienced homelessness,data.Living in unsuitable housing,6.8
-2018,data.Reference persons who have experienced homelessness,data.Living in inadequate housing,18.7
-2018,data.Reference persons who have experienced homelessness,data.Living in core housing need,33
-2021,data.All households,data.Living in unaffordable housing,19.5
-2021,data.All households,data.Living in unsuitable housing,4.8
-2021,data.All households,data.Living in inadequate housing,7.4
-2021,"data.Total, one-parent one-family households",data.Living in unaffordable housing,24
-2021,"data.Total, one-parent one-family households",data.Living in unsuitable housing,10.5
-2021,"data.Total, one-parent one-family households",data.Living in inadequate housing,13
-2021,"data.Total, one-parent one-family households",data.Living in core housing need,19.7
-2021,data.One-parent one-family households whose reference person is a man+,data.Living in unaffordable housing,27
-2021,data.One-parent one-family households whose reference person is a man+,data.Living in unsuitable housing,6.7
-2021,data.One-parent one-family households whose reference person is a man+,data.Living in inadequate housing,11.5
-2021,data.One-parent one-family households whose reference person is a man+,data.Living in core housing need,17.9
-2021,data.One-parent one-family households whose reference person is a woman+,data.Living in unaffordable housing,23
-2021,data.One-parent one-family households whose reference person is a woman+,data.Living in unsuitable housing,12
-2021,data.One-parent one-family households whose reference person is a woman+,data.Living in inadequate housing,13.6
-2021,data.One-parent one-family households whose reference person is a woman+,data.Living in core housing need,20
-2021,"data.Total, one-person households",data.Living in unaffordable housing,34
-2021,"data.Total, one-person households",data.Living in inadequate housing,7.9
-2021,"data.Total, one-person households",data.Living in core housing need,19.4
-2021,data.Men+ living alone,data.Living in unaffordable housing,32
-2021,data.Men+ living alone,data.Living in inadequate housing,8.5
-2021,data.Men+ living alone,data.Living in core housing need,17
-2021,data.Women+ living alone,data.Living in unaffordable housing,36
-2021,data.Women+ living alone,data.Living in inadequate housing,7.4
-2021,data.Women+ living alone,data.Living in core housing need,21
-2021,data.Reference persons who have experienced homelessness,data.Living in unaffordable housing,31
-2021,data.Reference persons who have experienced homelessness,data.Living in unsuitable housing,7.1
-2021,data.Reference persons who have experienced homelessness,data.Living in inadequate housing,24
-2021,data.Reference persons who have experienced homelessness,data.Living in core housing need,27
+"Year","Geography","Geographic location","Selected census metropolitan areas","Tenure","GeoCode","Value"
+"2018","","","","",,11.3
+"2021","","","","",,9.8
+"2018","Canada","Canada",,"Owner",,6.1
+"2018","Canada","Canada",,"Owner who is a first-time homebuyer",,6.4
+"2018","Canada","Canada",,"Owner who is not a first-time homebuyer",,6.1
+"2018","Canada","Canada",,"Renter",,22
+"2018","Canada","Canada",,"Renter not in social and affordable housing",,21
+"2018","Canada","Canada",,"Renter in social and affordable housing",,32
+"2021","Canada","Canada",,"Owner",,5.1
+"2021","Canada","Canada",,"Owner who is a first-time homebuyer",,4.1
+"2021","Canada","Canada",,"Owner who is not a first-time homebuyer",,5.3
+"2021","Canada","Canada",,"Renter",,19.7
+"2021","Canada","Canada",,"Renter not in social and affordable housing",,18.7
+"2021","Canada","Canada",,"Renter in social and affordable housing",,27
+"2018","Newfoundland and Labrador","Provinces and territories",,"Total, tenure",10,8.9
+"2018","Newfoundland and Labrador","Provinces and territories",,"Owner",10,4.4
+"2018","Newfoundland and Labrador","Provinces and territories",,"Owner who is not a first-time homebuyer",10,4.7
+"2018","Newfoundland and Labrador","Provinces and territories",,"Renter",10,26
+"2018","Newfoundland and Labrador","Provinces and territories",,"Renter not in social and affordable housing",10,23
+"2018","Newfoundland and Labrador","Provinces and territories",,"Renter in social and affordable housing",10,38
+"2018","Prince Edward Island","Provinces and territories",,"Total, tenure",11,8.9
+"2018","Prince Edward Island","Provinces and territories",,"Owner",11,6.9
+"2018","Prince Edward Island","Provinces and territories",,"Owner who is a first-time homebuyer",11,4.8
+"2018","Prince Edward Island","Provinces and territories",,"Owner who is not a first-time homebuyer",11,7.1
+"2018","Prince Edward Island","Provinces and territories",,"Renter",11,13.8
+"2018","Prince Edward Island","Provinces and territories",,"Renter not in social and affordable housing",11,12.2
+"2018","Prince Edward Island","Provinces and territories",,"Renter in social and affordable housing",11,23
+"2018","Nova Scotia","Provinces and territories",,"Total, tenure",12,11
+"2018","Nova Scotia","Provinces and territories",,"Owner",12,5.2
+"2018","Nova Scotia","Provinces and territories",,"Owner who is a first-time homebuyer",12,4.9
+"2018","Nova Scotia","Provinces and territories",,"Owner who is not a first-time homebuyer",12,5.2
+"2018","Nova Scotia","Provinces and territories",,"Renter",12,25
+"2018","Nova Scotia","Provinces and territories",,"Renter not in social and affordable housing",12,22
+"2018","Nova Scotia","Provinces and territories",,"Renter in social and affordable housing",12,43
+"2018","New Brunswick","Provinces and territories",,"Total, tenure",13,7.3
+"2018","New Brunswick","Provinces and territories",,"Owner",13,3.3
+"2018","New Brunswick","Provinces and territories",,"Owner who is a first-time homebuyer",13,0.6
+"2018","New Brunswick","Provinces and territories",,"Owner who is not a first-time homebuyer",13,3.6
+"2018","New Brunswick","Provinces and territories",,"Renter",13,19.3
+"2018","New Brunswick","Provinces and territories",,"Renter not in social and affordable housing",13,17.6
+"2018","New Brunswick","Provinces and territories",,"Renter in social and affordable housing",13,30
+"2018","Quebec","Provinces and territories",,"Total, tenure",24,7.2
+"2018","Quebec","Provinces and territories",,"Owner",24,2
+"2018","Quebec","Provinces and territories",,"Owner who is a first-time homebuyer",24,1.8
+"2018","Quebec","Provinces and territories",,"Owner who is not a first-time homebuyer",24,2
+"2018","Quebec","Provinces and territories",,"Renter",24,15.6
+"2018","Quebec","Provinces and territories",,"Renter not in social and affordable housing",24,15.6
+"2018","Quebec","Provinces and territories",,"Renter in social and affordable housing",24,15.9
+"2018","Ontario","Provinces and territories",,"Total, tenure",35,13.4
+"2018","Ontario","Provinces and territories",,"Owner",35,7.9
+"2018","Ontario","Provinces and territories",,"Owner who is a first-time homebuyer",35,8.2
+"2018","Ontario","Provinces and territories",,"Owner who is not a first-time homebuyer",35,7.9
+"2018","Ontario","Provinces and territories",,"Renter",35,26
+"2018","Ontario","Provinces and territories",,"Renter not in social and affordable housing",35,26
+"2018","Ontario","Provinces and territories",,"Renter in social and affordable housing",35,30
+"2018","Manitoba","Provinces and territories",,"Total, tenure",46,10.9
+"2018","Manitoba","Provinces and territories",,"Owner",46,5.4
+"2018","Manitoba","Provinces and territories",,"Owner who is a first-time homebuyer",46,6.1
+"2018","Manitoba","Provinces and territories",,"Owner who is not a first-time homebuyer",46,5.3
+"2018","Manitoba","Provinces and territories",,"Renter",46,24
+"2018","Manitoba","Provinces and territories",,"Renter not in social and affordable housing",46,21
+"2018","Manitoba","Provinces and territories",,"Renter in social and affordable housing",46,39
+"2018","Saskatchewan","Provinces and territories",,"Total, tenure",47,11.7
+"2018","Saskatchewan","Provinces and territories",,"Owner",47,6.5
+"2018","Saskatchewan","Provinces and territories",,"Owner who is a first-time homebuyer",47,7.1
+"2018","Saskatchewan","Provinces and territories",,"Owner who is not a first-time homebuyer",47,6.4
+"2018","Saskatchewan","Provinces and territories",,"Renter",47,27
+"2018","Saskatchewan","Provinces and territories",,"Renter not in social and affordable housing",47,19.8
+"2018","Saskatchewan","Provinces and territories",,"Renter in social and affordable housing",47,51
+"2018","Alberta","Provinces and territories",,"Total, tenure",48,10.2
+"2018","Alberta","Provinces and territories",,"Owner",48,6.6
+"2018","Alberta","Provinces and territories",,"Owner who is a first-time homebuyer",48,4.7
+"2018","Alberta","Provinces and territories",,"Owner who is not a first-time homebuyer",48,6.9
+"2018","Alberta","Provinces and territories",,"Renter",48,20
+"2018","Alberta","Provinces and territories",,"Renter not in social and affordable housing",48,17.5
+"2018","Alberta","Provinces and territories",,"Renter in social and affordable housing",48,45
+"2018","British Columbia","Provinces and territories",,"Total, tenure",59,14.8
+"2018","British Columbia","Provinces and territories",,"Owner",59,8.7
+"2018","British Columbia","Provinces and territories",,"Owner who is a first-time homebuyer",59,12.1
+"2018","British Columbia","Provinces and territories",,"Owner who is not a first-time homebuyer",59,8.2
+"2018","British Columbia","Provinces and territories",,"Renter",59,27
+"2018","British Columbia","Provinces and territories",,"Renter not in social and affordable housing",59,25
+"2018","British Columbia","Provinces and territories",,"Renter in social and affordable housing",59,46
+"2018","Yukon","Provinces and territories",,"Total, tenure",60,11
+"2018","Yukon","Provinces and territories",,"Owner",60,3.3
+"2018","Yukon","Provinces and territories",,"Owner who is not a first-time homebuyer",60,3.9
+"2018","Yukon","Provinces and territories",,"Renter",60,25
+"2018","Yukon","Provinces and territories",,"Renter not in social and affordable housing",60,22
+"2018","Yukon","Provinces and territories",,"Renter in social and affordable housing",60,34
+"2018","Northwest Territories","Provinces and territories",,"Total, tenure",61,15.9
+"2018","Northwest Territories","Provinces and territories",,"Owner",61,12.2
+"2018","Northwest Territories","Provinces and territories",,"Owner who is not a first-time homebuyer",61,13.6
+"2018","Northwest Territories","Provinces and territories",,"Renter",61,20
+"2018","Northwest Territories","Provinces and territories",,"Renter not in social and affordable housing",61,15.6
+"2018","Northwest Territories","Provinces and territories",,"Renter in social and affordable housing",61,28
+"2018","Nunavut","Provinces and territories",,"Total, tenure",62,46
+"2018","Nunavut","Provinces and territories",,"Owner",62,27
+"2018","Nunavut","Provinces and territories",,"Owner who is a first-time homebuyer",62,21
+"2018","Nunavut","Provinces and territories",,"Owner who is not a first-time homebuyer",62,28
+"2018","Nunavut","Provinces and territories",,"Renter",62,51
+"2018","Nunavut","Provinces and territories",,"Renter not in social and affordable housing",62,15.9
+"2018","Nunavut","Provinces and territories",,"Renter in social and affordable housing",62,64
+"2021","Newfoundland and Labrador","Provinces and territories",,"Total, tenure",10,7.4
+"2021","Newfoundland and Labrador","Provinces and territories",,"Owner",10,4
+"2021","Newfoundland and Labrador","Provinces and territories",,"Owner who is a first-time homebuyer",10,1.5
+"2021","Newfoundland and Labrador","Provinces and territories",,"Owner who is not a first-time homebuyer",10,4.2
+"2021","Newfoundland and Labrador","Provinces and territories",,"Renter",10,18.9
+"2021","Newfoundland and Labrador","Provinces and territories",,"Renter not in social and affordable housing",10,15.7
+"2021","Newfoundland and Labrador","Provinces and territories",,"Renter in social and affordable housing",10,33
+"2021","Prince Edward Island","Provinces and territories",,"Total, tenure",11,7.2
+"2021","Prince Edward Island","Provinces and territories",,"Owner",11,4
+"2021","Prince Edward Island","Provinces and territories",,"Owner who is a first-time homebuyer",11,4
+"2021","Prince Edward Island","Provinces and territories",,"Owner who is not a first-time homebuyer",11,4
+"2021","Prince Edward Island","Provinces and territories",,"Renter",11,14.5
+"2021","Prince Edward Island","Provinces and territories",,"Renter not in social and affordable housing",11,13.2
+"2021","Prince Edward Island","Provinces and territories",,"Renter in social and affordable housing",11,19.6
+"2021","Nova Scotia","Provinces and territories",,"Total, tenure",12,9.9
+"2021","Nova Scotia","Provinces and territories",,"Owner",12,5.9
+"2021","Nova Scotia","Provinces and territories",,"Owner who is a first-time homebuyer",12,8
+"2021","Nova Scotia","Provinces and territories",,"Owner who is not a first-time homebuyer",12,5.7
+"2021","Nova Scotia","Provinces and territories",,"Renter",12,18.7
+"2021","Nova Scotia","Provinces and territories",,"Renter not in social and affordable housing",12,16.5
+"2021","Nova Scotia","Provinces and territories",,"Renter in social and affordable housing",12,34
+"2021","New Brunswick","Provinces and territories",,"Total, tenure",13,5.9
+"2021","New Brunswick","Provinces and territories",,"Owner",13,3.8
+"2021","New Brunswick","Provinces and territories",,"Owner who is a first-time homebuyer",13,3.2
+"2021","New Brunswick","Provinces and territories",,"Owner who is not a first-time homebuyer",13,3.9
+"2021","New Brunswick","Provinces and territories",,"Renter",13,12.3
+"2021","New Brunswick","Provinces and territories",,"Renter not in social and affordable housing",13,11.1
+"2021","New Brunswick","Provinces and territories",,"Renter in social and affordable housing",13,19.9
+"2021","Quebec","Provinces and territories",,"Total, tenure",24,6
+"2021","Quebec","Provinces and territories",,"Owner",24,2.5
+"2021","Quebec","Provinces and territories",,"Owner who is a first-time homebuyer",24,1.6
+"2021","Quebec","Provinces and territories",,"Owner who is not a first-time homebuyer",24,2.6
+"2021","Quebec","Provinces and territories",,"Renter",24,11.5
+"2021","Quebec","Provinces and territories",,"Renter not in social and affordable housing",24,11.5
+"2021","Quebec","Provinces and territories",,"Renter in social and affordable housing",24,12.1
+"2021","Ontario","Provinces and territories",,"Total, tenure",35,11.9
+"2021","Ontario","Provinces and territories",,"Owner",35,5.9
+"2021","Ontario","Provinces and territories",,"Owner who is a first-time homebuyer",35,2.9
+"2021","Ontario","Provinces and territories",,"Owner who is not a first-time homebuyer",35,6.4
+"2021","Ontario","Provinces and territories",,"Renter",35,25
+"2021","Ontario","Provinces and territories",,"Renter not in social and affordable housing",35,25
+"2021","Ontario","Provinces and territories",,"Renter in social and affordable housing",35,29
+"2021","Manitoba","Provinces and territories",,"Total, tenure",46,10.3
+"2021","Manitoba","Provinces and territories",,"Owner",46,5.2
+"2021","Manitoba","Provinces and territories",,"Owner who is a first-time homebuyer",46,5.2
+"2021","Manitoba","Provinces and territories",,"Owner who is not a first-time homebuyer",46,5.1
+"2021","Manitoba","Provinces and territories",,"Renter",46,23
+"2021","Manitoba","Provinces and territories",,"Renter not in social and affordable housing",46,20
+"2021","Manitoba","Provinces and territories",,"Renter in social and affordable housing",46,33
+"2021","Saskatchewan","Provinces and territories",,"Total, tenure",47,10.3
+"2021","Saskatchewan","Provinces and territories",,"Owner",47,6.6
+"2021","Saskatchewan","Provinces and territories",,"Owner who is a first-time homebuyer",47,3.7
+"2021","Saskatchewan","Provinces and territories",,"Owner who is not a first-time homebuyer",47,7
+"2021","Saskatchewan","Provinces and territories",,"Renter",47,21
+"2021","Saskatchewan","Provinces and territories",,"Renter not in social and affordable housing",47,16.8
+"2021","Saskatchewan","Provinces and territories",,"Renter in social and affordable housing",47,36
+"2021","Alberta","Provinces and territories",,"Total, tenure",48,9
+"2021","Alberta","Provinces and territories",,"Owner",48,4.3
+"2021","Alberta","Provinces and territories",,"Owner who is a first-time homebuyer",48,6.5
+"2021","Alberta","Provinces and territories",,"Owner who is not a first-time homebuyer",48,3.9
+"2021","Alberta","Provinces and territories",,"Renter",48,21
+"2021","Alberta","Provinces and territories",,"Renter not in social and affordable housing",48,19.4
+"2021","Alberta","Provinces and territories",,"Renter in social and affordable housing",48,38
+"2021","British Columbia","Provinces and territories",,"Total, tenure",59,12.5
+"2021","British Columbia","Provinces and territories",,"Owner",59,7.7
+"2021","British Columbia","Provinces and territories",,"Owner who is a first-time homebuyer",59,8.9
+"2021","British Columbia","Provinces and territories",,"Owner who is not a first-time homebuyer",59,7.6
+"2021","British Columbia","Provinces and territories",,"Renter",59,22
+"2021","British Columbia","Provinces and territories",,"Renter not in social and affordable housing",59,21
+"2021","British Columbia","Provinces and territories",,"Renter in social and affordable housing",59,33
+"2018","Canada","Census metropolitan areas","Total, census metropolitan areas","Total, tenure",,12.3
+"2018","Canada","Census metropolitan areas","Total, census metropolitan areas","Owner",,6.7
+"2018","Canada","Census metropolitan areas","Total, census metropolitan areas","Owner who is a first-time homebuyer",,7.7
+"2018","Canada","Census metropolitan areas","Total, census metropolitan areas","Owner who is not a first-time homebuyer",,6.6
+"2018","Canada","Census metropolitan areas","Total, census metropolitan areas","Renter",,23
+"2018","Canada","Census metropolitan areas","Total, census metropolitan areas","Renter not in social and affordable housing",,22
+"2018","Canada","Census metropolitan areas","Total, census metropolitan areas","Renter in social and affordable housing",,32
+"2018","Newfoundland and Labrador","Census metropolitan areas","St. John's, Newfoundland and Labrador","Total, tenure",10,9.6
+"2018","Newfoundland and Labrador","Census metropolitan areas","St. John's, Newfoundland and Labrador","Owner",10,3.5
+"2018","Newfoundland and Labrador","Census metropolitan areas","St. John's, Newfoundland and Labrador","Owner who is not a first-time homebuyer",10,3.9
+"2018","Newfoundland and Labrador","Census metropolitan areas","St. John's, Newfoundland and Labrador","Renter",10,26
+"2018","Newfoundland and Labrador","Census metropolitan areas","St. John's, Newfoundland and Labrador","Renter not in social and affordable housing",10,23
+"2018","Newfoundland and Labrador","Census metropolitan areas","St. John's, Newfoundland and Labrador","Renter in social and affordable housing",10,38
+"2018","Nova Scotia","Census metropolitan areas","Halifax, Nova Scotia","Total, tenure",12,12.7
+"2018","Nova Scotia","Census metropolitan areas","Halifax, Nova Scotia","Owner",12,4.9
+"2018","Nova Scotia","Census metropolitan areas","Halifax, Nova Scotia","Owner who is a first-time homebuyer",12,3.3
+"2018","Nova Scotia","Census metropolitan areas","Halifax, Nova Scotia","Owner who is not a first-time homebuyer",12,5.1
+"2018","Nova Scotia","Census metropolitan areas","Halifax, Nova Scotia","Renter",12,25
+"2018","Nova Scotia","Census metropolitan areas","Halifax, Nova Scotia","Renter not in social and affordable housing",12,23
+"2018","Nova Scotia","Census metropolitan areas","Halifax, Nova Scotia","Renter in social and affordable housing",12,44
+"2018","New Brunswick","Census metropolitan areas","Moncton, New Brunswick","Total, tenure",13,8.5
+"2018","New Brunswick","Census metropolitan areas","Moncton, New Brunswick","Owner",13,3.5
+"2018","New Brunswick","Census metropolitan areas","Moncton, New Brunswick","Owner who is not a first-time homebuyer",13,4.2
+"2018","New Brunswick","Census metropolitan areas","Moncton, New Brunswick","Renter",13,20
+"2018","New Brunswick","Census metropolitan areas","Moncton, New Brunswick","Renter not in social and affordable housing",13,18.5
+"2018","New Brunswick","Census metropolitan areas","Moncton, New Brunswick","Renter in social and affordable housing",13,31
+"2018","New Brunswick","Census metropolitan areas","Saint John, New Brunswick","Total, tenure",13,6.5
+"2018","New Brunswick","Census metropolitan areas","Saint John, New Brunswick","Owner",13,3.2
+"2018","New Brunswick","Census metropolitan areas","Saint John, New Brunswick","Owner who is not a first-time homebuyer",13,3.6
+"2018","New Brunswick","Census metropolitan areas","Saint John, New Brunswick","Renter",13,14.5
+"2018","New Brunswick","Census metropolitan areas","Saint John, New Brunswick","Renter not in social and affordable housing",13,11.6
+"2018","New Brunswick","Census metropolitan areas","Saint John, New Brunswick","Renter in social and affordable housing",13,31
+"2018","Quebec","Census metropolitan areas","Québec, Quebec","Total, tenure",24,5.2
+"2018","Quebec","Census metropolitan areas","Québec, Quebec","Owner",24,1.2
+"2018","Quebec","Census metropolitan areas","Québec, Quebec","Owner who is not a first-time homebuyer",24,1.3
+"2018","Quebec","Census metropolitan areas","Québec, Quebec","Renter",24,11.6
+"2018","Quebec","Census metropolitan areas","Québec, Quebec","Renter not in social and affordable housing",24,11.2
+"2018","Quebec","Census metropolitan areas","Québec, Quebec","Renter in social and affordable housing",24,15.1
+"2018","Quebec","Census metropolitan areas","Montréal, Quebec","Total, tenure",24,9.1
+"2018","Quebec","Census metropolitan areas","Montréal, Quebec","Owner",24,2
+"2018","Quebec","Census metropolitan areas","Montréal, Quebec","Owner who is not a first-time homebuyer",24,2.1
+"2018","Quebec","Census metropolitan areas","Montréal, Quebec","Renter",24,18.3
+"2018","Quebec","Census metropolitan areas","Montréal, Quebec","Renter not in social and affordable housing",24,18.4
+"2018","Quebec","Census metropolitan areas","Montréal, Quebec","Renter in social and affordable housing",24,17.2
+"2018","Ontario/Quebec","Census metropolitan areas","Ottawa-Gatineau, Ontario/Quebec","Total, tenure",,8.5
+"2018","Ontario/Quebec","Census metropolitan areas","Ottawa-Gatineau, Ontario/Quebec","Owner",,3
+"2018","Ontario/Quebec","Census metropolitan areas","Ottawa-Gatineau, Ontario/Quebec","Owner who is a first-time homebuyer",,6
+"2018","Ontario/Quebec","Census metropolitan areas","Ottawa-Gatineau, Ontario/Quebec","Owner who is not a first-time homebuyer",,2.6
+"2018","Ontario/Quebec","Census metropolitan areas","Ottawa-Gatineau, Ontario/Quebec","Renter",,19.2
+"2018","Ontario/Quebec","Census metropolitan areas","Ottawa-Gatineau, Ontario/Quebec","Renter not in social and affordable housing",,17.8
+"2018","Ontario/Quebec","Census metropolitan areas","Ottawa-Gatineau, Ontario/Quebec","Renter in social and affordable housing",,28
+"2018","Ontario","Census metropolitan areas","Toronto, Ontario","Total, tenure",35,18.2
+"2018","Ontario","Census metropolitan areas","Toronto, Ontario","Owner",35,12.8
+"2018","Ontario","Census metropolitan areas","Toronto, Ontario","Owner who is a first-time homebuyer",35,14
+"2018","Ontario","Census metropolitan areas","Toronto, Ontario","Owner who is not a first-time homebuyer",35,12.7
+"2018","Ontario","Census metropolitan areas","Toronto, Ontario","Renter",35,30
+"2018","Ontario","Census metropolitan areas","Toronto, Ontario","Renter not in social and affordable housing",35,29
+"2018","Ontario","Census metropolitan areas","Toronto, Ontario","Renter in social and affordable housing",35,33
+"2018","Ontario","Census metropolitan areas","Hamilton, Ontario","Total, tenure",35,10.8
+"2018","Ontario","Census metropolitan areas","Hamilton, Ontario","Owner",35,3.5
+"2018","Ontario","Census metropolitan areas","Hamilton, Ontario","Owner who is a first-time homebuyer",35,3.4
+"2018","Ontario","Census metropolitan areas","Hamilton, Ontario","Owner who is not a first-time homebuyer",35,3.5
+"2018","Ontario","Census metropolitan areas","Hamilton, Ontario","Renter",35,29
+"2018","Ontario","Census metropolitan areas","Hamilton, Ontario","Renter not in social and affordable housing",35,29
+"2018","Ontario","Census metropolitan areas","Hamilton, Ontario","Renter in social and affordable housing",35,33
+"2018","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Total, tenure",35,9.3
+"2018","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Owner",35,4.8
+"2018","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Owner who is a first-time homebuyer",35,2.8
+"2018","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Owner who is not a first-time homebuyer",35,5.1
+"2018","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Renter",35,19
+"2018","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Renter not in social and affordable housing",35,18.3
+"2018","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Renter in social and affordable housing",35,23
+"2018","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Total, tenure",46,11.7
+"2018","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Owner",46,5
+"2018","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Owner who is a first-time homebuyer",46,8.9
+"2018","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Owner who is not a first-time homebuyer",46,4.5
+"2018","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Renter",46,26
+"2018","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Renter not in social and affordable housing",46,22
+"2018","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Renter in social and affordable housing",46,44
+"2018","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Total, tenure",47,11.3
+"2018","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Owner",47,4.7
+"2018","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Owner who is a first-time homebuyer",47,5.6
+"2018","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Owner who is not a first-time homebuyer",47,4.5
+"2018","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Renter",47,28
+"2018","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Renter not in social and affordable housing",47,20
+"2018","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Renter in social and affordable housing",47,57
+"2018","Saskatchewan","Census metropolitan areas","Saskatoon, Saskatchewan","Total, tenure",47,10.3
+"2018","Saskatchewan","Census metropolitan areas","Saskatoon, Saskatchewan","Owner",47,4.3
+"2018","Saskatchewan","Census metropolitan areas","Saskatoon, Saskatchewan","Owner who is a first-time homebuyer",47,6.5
+"2018","Saskatchewan","Census metropolitan areas","Saskatoon, Saskatchewan","Owner who is not a first-time homebuyer",47,3.9
+"2018","Saskatchewan","Census metropolitan areas","Saskatoon, Saskatchewan","Renter",47,25
+"2018","Saskatchewan","Census metropolitan areas","Saskatoon, Saskatchewan","Renter not in social and affordable housing",47,20
+"2018","Saskatchewan","Census metropolitan areas","Saskatoon, Saskatchewan","Renter in social and affordable housing",47,50
+"2018","Alberta","Census metropolitan areas","Lethbridge, Alberta","Total, tenure",48,8.7
+"2018","Alberta","Census metropolitan areas","Lethbridge, Alberta","Owner",48,4.3
+"2018","Alberta","Census metropolitan areas","Lethbridge, Alberta","Owner who is a first-time homebuyer",48,1.3
+"2018","Alberta","Census metropolitan areas","Lethbridge, Alberta","Owner who is not a first-time homebuyer",48,4.8
+"2018","Alberta","Census metropolitan areas","Lethbridge, Alberta","Renter",48,19.5
+"2018","Alberta","Census metropolitan areas","Lethbridge, Alberta","Renter not in social and affordable housing",48,16
+"2018","Alberta","Census metropolitan areas","Lethbridge, Alberta","Renter in social and affordable housing",48,48
+"2018","Alberta","Census metropolitan areas","Calgary, Alberta","Total, tenure",48,9.9
+"2018","Alberta","Census metropolitan areas","Calgary, Alberta","Owner",48,5.7
+"2018","Alberta","Census metropolitan areas","Calgary, Alberta","Owner who is a first-time homebuyer",48,3.1
+"2018","Alberta","Census metropolitan areas","Calgary, Alberta","Owner who is not a first-time homebuyer",48,6.2
+"2018","Alberta","Census metropolitan areas","Calgary, Alberta","Renter",48,22
+"2018","Alberta","Census metropolitan areas","Calgary, Alberta","Renter not in social and affordable housing",48,19.3
+"2018","Alberta","Census metropolitan areas","Calgary, Alberta","Renter in social and affordable housing",48,49
+"2018","Alberta","Census metropolitan areas","Edmonton, Alberta","Total, tenure",48,11.4
+"2018","Alberta","Census metropolitan areas","Edmonton, Alberta","Owner",48,7.2
+"2018","Alberta","Census metropolitan areas","Edmonton, Alberta","Owner who is a first-time homebuyer",48,7
+"2018","Alberta","Census metropolitan areas","Edmonton, Alberta","Owner who is not a first-time homebuyer",48,7.3
+"2018","Alberta","Census metropolitan areas","Edmonton, Alberta","Renter",48,22
+"2018","Alberta","Census metropolitan areas","Edmonton, Alberta","Renter not in social and affordable housing",48,18.6
+"2018","Alberta","Census metropolitan areas","Edmonton, Alberta","Renter in social and affordable housing",48,48
+"2018","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Total, tenure",59,17.8
+"2018","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Owner",59,11.8
+"2018","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Owner who is a first-time homebuyer",59,21
+"2018","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Owner who is not a first-time homebuyer",59,10.3
+"2018","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Renter",59,28
+"2018","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Renter not in social and affordable housing",59,25
+"2018","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Renter in social and affordable housing",59,46
+"2018","Quebec","Census metropolitan areas","Other census metropolitan areas, Quebec","Total, tenure",24,4.3
+"2018","Quebec","Census metropolitan areas","Other census metropolitan areas, Quebec","Owner",24,0.9
+"2018","Quebec","Census metropolitan areas","Other census metropolitan areas, Quebec","Owner who is not a first-time homebuyer",24,0.3
+"2018","Quebec","Census metropolitan areas","Other census metropolitan areas, Quebec","Renter",24,8.7
+"2018","Quebec","Census metropolitan areas","Other census metropolitan areas, Quebec","Renter not in social and affordable housing",24,8.5
+"2018","Quebec","Census metropolitan areas","Other census metropolitan areas, Quebec","Renter in social and affordable housing",24,10.5
+"2018","Ontario","Census metropolitan areas","Other census metropolitan areas, Ontario","Total, tenure",35,10.6
+"2018","Ontario","Census metropolitan areas","Other census metropolitan areas, Ontario","Owner",35,5.6
+"2018","Ontario","Census metropolitan areas","Other census metropolitan areas, Ontario","Owner who is a first-time homebuyer",35,4.7
+"2018","Ontario","Census metropolitan areas","Other census metropolitan areas, Ontario","Owner who is not a first-time homebuyer",35,5.7
+"2018","Ontario","Census metropolitan areas","Other census metropolitan areas, Ontario","Renter",35,24
+"2018","Ontario","Census metropolitan areas","Other census metropolitan areas, Ontario","Renter not in social and affordable housing",35,23
+"2018","Ontario","Census metropolitan areas","Other census metropolitan areas, Ontario","Renter in social and affordable housing",35,26
+"2018","British Columbia","Census metropolitan areas","Other census metropolitan areas, British Columbia","Total, tenure",59,12.3
+"2018","British Columbia","Census metropolitan areas","Other census metropolitan areas, British Columbia","Owner",59,5.5
+"2018","British Columbia","Census metropolitan areas","Other census metropolitan areas, British Columbia","Owner who is a first-time homebuyer",59,3.5
+"2018","British Columbia","Census metropolitan areas","Other census metropolitan areas, British Columbia","Owner who is not a first-time homebuyer",59,5.8
+"2018","British Columbia","Census metropolitan areas","Other census metropolitan areas, British Columbia","Renter",59,26
+"2018","British Columbia","Census metropolitan areas","Other census metropolitan areas, British Columbia","Renter not in social and affordable housing",59,23
+"2018","British Columbia","Census metropolitan areas","Other census metropolitan areas, British Columbia","Renter in social and affordable housing",59,47
+"2021","Canada","Census metropolitan areas","Total, census metropolitan areas","Total, tenure",,10.6
+"2021","Canada","Census metropolitan areas","Total, census metropolitan areas","Owner",,5.3
+"2021","Canada","Census metropolitan areas","Total, census metropolitan areas","Owner who is a first-time homebuyer",,4
+"2021","Canada","Census metropolitan areas","Total, census metropolitan areas","Owner who is not a first-time homebuyer",,5.5
+"2021","Canada","Census metropolitan areas","Total, census metropolitan areas","Renter",,20
+"2021","Canada","Census metropolitan areas","Total, census metropolitan areas","Renter not in social and affordable housing",,19.3
+"2021","Canada","Census metropolitan areas","Total, census metropolitan areas","Renter in social and affordable housing",,27
+"2021","Newfoundland and Labrador","Census metropolitan areas","St. John's, Newfoundland and Labrador","Total, tenure",10,7.1
+"2021","Newfoundland and Labrador","Census metropolitan areas","St. John's, Newfoundland and Labrador","Owner",10,2.5
+"2021","Newfoundland and Labrador","Census metropolitan areas","St. John's, Newfoundland and Labrador","Owner who is not a first-time homebuyer",10,2.5
+"2021","Newfoundland and Labrador","Census metropolitan areas","St. John's, Newfoundland and Labrador","Renter",10,18.4
+"2021","Newfoundland and Labrador","Census metropolitan areas","St. John's, Newfoundland and Labrador","Renter not in social and affordable housing",10,14.3
+"2021","Newfoundland and Labrador","Census metropolitan areas","St. John's, Newfoundland and Labrador","Renter in social and affordable housing",10,38
+"2021","Nova Scotia","Census metropolitan areas","Halifax, Nova Scotia","Total, tenure",12,10.6
+"2021","Nova Scotia","Census metropolitan areas","Halifax, Nova Scotia","Owner",12,4.6
+"2021","Nova Scotia","Census metropolitan areas","Halifax, Nova Scotia","Owner who is not a first-time homebuyer",12,4.8
+"2021","Nova Scotia","Census metropolitan areas","Halifax, Nova Scotia","Renter",12,19.6
+"2021","Nova Scotia","Census metropolitan areas","Halifax, Nova Scotia","Renter not in social and affordable housing",12,17.2
+"2021","Nova Scotia","Census metropolitan areas","Halifax, Nova Scotia","Renter in social and affordable housing",12,48
+"2021","New Brunswick","Census metropolitan areas","Moncton, New Brunswick","Total, tenure",13,6.3
+"2021","New Brunswick","Census metropolitan areas","Moncton, New Brunswick","Owner",13,2
+"2021","New Brunswick","Census metropolitan areas","Moncton, New Brunswick","Owner who is not a first-time homebuyer",13,2.5
+"2021","New Brunswick","Census metropolitan areas","Moncton, New Brunswick","Renter",13,15.8
+"2021","New Brunswick","Census metropolitan areas","Moncton, New Brunswick","Renter not in social and affordable housing",13,14.4
+"2021","New Brunswick","Census metropolitan areas","Moncton, New Brunswick","Renter in social and affordable housing",13,28
+"2021","New Brunswick","Census metropolitan areas","Saint John, New Brunswick","Total, tenure",13,5
+"2021","New Brunswick","Census metropolitan areas","Saint John, New Brunswick","Owner",13,2.2
+"2021","New Brunswick","Census metropolitan areas","Saint John, New Brunswick","Owner who is not a first-time homebuyer",13,2
+"2021","New Brunswick","Census metropolitan areas","Saint John, New Brunswick","Renter",13,11.6
+"2021","New Brunswick","Census metropolitan areas","Saint John, New Brunswick","Renter not in social and affordable housing",13,10.7
+"2021","New Brunswick","Census metropolitan areas","Saint John, New Brunswick","Renter in social and affordable housing",13,16.6
+"2021","Quebec","Census metropolitan areas","Québec, Quebec","Total, tenure",24,5
+"2021","Quebec","Census metropolitan areas","Québec, Quebec","Owner",24,0.7
+"2021","Quebec","Census metropolitan areas","Québec, Quebec","Owner who is not a first-time homebuyer",24,0.8
+"2021","Quebec","Census metropolitan areas","Québec, Quebec","Renter",24,11.2
+"2021","Quebec","Census metropolitan areas","Québec, Quebec","Renter not in social and affordable housing",24,11.3
+"2021","Quebec","Census metropolitan areas","Québec, Quebec","Renter in social and affordable housing",24,10.6
+"2021","Quebec","Census metropolitan areas","Montréal, Quebec","Total, tenure",24,7.3
+"2021","Quebec","Census metropolitan areas","Montréal, Quebec","Owner",24,3.4
+"2021","Quebec","Census metropolitan areas","Montréal, Quebec","Owner who is not a first-time homebuyer",24,3.4
+"2021","Quebec","Census metropolitan areas","Montréal, Quebec","Renter",24,12.3
+"2021","Quebec","Census metropolitan areas","Montréal, Quebec","Renter not in social and affordable housing",24,12.1
+"2021","Quebec","Census metropolitan areas","Montréal, Quebec","Renter in social and affordable housing",24,15.2
+"2021","Ontario/Quebec","Census metropolitan areas","Ottawa-Gatineau, Ontario/Quebec","Total, tenure",,8.9
+"2021","Ontario/Quebec","Census metropolitan areas","Ottawa-Gatineau, Ontario/Quebec","Owner",,4.2
+"2021","Ontario/Quebec","Census metropolitan areas","Ottawa-Gatineau, Ontario/Quebec","Owner who is not a first-time homebuyer",,4.4
+"2021","Ontario/Quebec","Census metropolitan areas","Ottawa-Gatineau, Ontario/Quebec","Renter",,17.6
+"2021","Ontario/Quebec","Census metropolitan areas","Ottawa-Gatineau, Ontario/Quebec","Renter not in social and affordable housing",,17
+"2021","Ontario/Quebec","Census metropolitan areas","Ottawa-Gatineau, Ontario/Quebec","Renter in social and affordable housing",,22
+"2021","Ontario","Census metropolitan areas","Toronto, Ontario","Total, tenure",35,15.3
+"2021","Ontario","Census metropolitan areas","Toronto, Ontario","Owner",35,9
+"2021","Ontario","Census metropolitan areas","Toronto, Ontario","Owner who is not a first-time homebuyer",35,9.8
+"2021","Ontario","Census metropolitan areas","Toronto, Ontario","Renter",35,28
+"2021","Ontario","Census metropolitan areas","Toronto, Ontario","Renter not in social and affordable housing",35,27
+"2021","Ontario","Census metropolitan areas","Toronto, Ontario","Renter in social and affordable housing",35,33
+"2021","Ontario","Census metropolitan areas","Hamilton, Ontario","Total, tenure",35,11.5
+"2021","Ontario","Census metropolitan areas","Hamilton, Ontario","Owner",35,5.6
+"2021","Ontario","Census metropolitan areas","Hamilton, Ontario","Owner who is not a first-time homebuyer",35,6.4
+"2021","Ontario","Census metropolitan areas","Hamilton, Ontario","Renter",35,25
+"2021","Ontario","Census metropolitan areas","Hamilton, Ontario","Renter not in social and affordable housing",35,24
+"2021","Ontario","Census metropolitan areas","Hamilton, Ontario","Renter in social and affordable housing",35,31
+"2021","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Total, tenure",35,9.7
+"2021","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Owner",35,5.3
+"2021","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Owner who is a first-time homebuyer",35,6
+"2021","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Owner who is not a first-time homebuyer",35,5.2
+"2021","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Renter",35,18.3
+"2021","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Renter not in social and affordable housing",35,17.3
+"2021","Ontario","Census metropolitan areas","Kitchener-Cambridge-Waterloo, Ontario","Renter in social and affordable housing",35,27
+"2021","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Total, tenure",46,11.6
+"2021","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Owner",46,5.6
+"2021","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Owner who is a first-time homebuyer",46,6.1
+"2021","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Owner who is not a first-time homebuyer",46,5.5
+"2021","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Renter",46,25
+"2021","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Renter not in social and affordable housing",46,23
+"2021","Manitoba","Census metropolitan areas","Winnipeg, Manitoba","Renter in social and affordable housing",46,34
+"2021","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Total, tenure",47,9.5
+"2021","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Owner",47,4.2
+"2021","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Owner who is a first-time homebuyer",47,4.4
+"2021","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Owner who is not a first-time homebuyer",47,4.2
+"2021","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Renter",47,21
+"2021","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Renter not in social and affordable housing",47,17.2
+"2021","Saskatchewan","Census metropolitan areas","Regina, Saskatchewan","Renter in social and affordable housing",47,43
+"2021","Saskatchewan","Census metropolitan areas","Saskatoon, Saskatchewan","Total, tenure",47,9.3
+"2021","Saskatchewan","Census metropolitan areas","Saskatoon, Saskatchewan","Owner",47,4.6
+"2021","Saskatchewan","Census metropolitan areas","Saskatoon, Saskatchewan","Owner who is not a first-time homebuyer",47,5.1
+"2021","Saskatchewan","Census metropolitan areas","Saskatoon, Saskatchewan","Renter",47,19.5
+"2021","Saskatchewan","Census metropolitan areas","Saskatoon, Saskatchewan","Renter not in social and affordable housing",47,17.2
+"2021","Saskatchewan","Census metropolitan areas","Saskatoon, Saskatchewan","Renter in social and affordable housing",47,36
+"2021","Alberta","Census metropolitan areas","Lethbridge, Alberta","Total, tenure",48,9
+"2021","Alberta","Census metropolitan areas","Lethbridge, Alberta","Owner",48,4.6
+"2021","Alberta","Census metropolitan areas","Lethbridge, Alberta","Owner who is a first-time homebuyer",48,8.6
+"2021","Alberta","Census metropolitan areas","Lethbridge, Alberta","Owner who is not a first-time homebuyer",48,4.1
+"2021","Alberta","Census metropolitan areas","Lethbridge, Alberta","Renter",48,19.8
+"2021","Alberta","Census metropolitan areas","Lethbridge, Alberta","Renter not in social and affordable housing",48,17.2
+"2021","Alberta","Census metropolitan areas","Lethbridge, Alberta","Renter in social and affordable housing",48,42
+"2021","Alberta","Census metropolitan areas","Calgary, Alberta","Total, tenure",48,8.2
+"2021","Alberta","Census metropolitan areas","Calgary, Alberta","Owner",48,3.4
+"2021","Alberta","Census metropolitan areas","Calgary, Alberta","Owner who is a first-time homebuyer",48,8.2
+"2021","Alberta","Census metropolitan areas","Calgary, Alberta","Owner who is not a first-time homebuyer",48,2.6
+"2021","Alberta","Census metropolitan areas","Calgary, Alberta","Renter",48,21
+"2021","Alberta","Census metropolitan areas","Calgary, Alberta","Renter not in social and affordable housing",48,18.3
+"2021","Alberta","Census metropolitan areas","Calgary, Alberta","Renter in social and affordable housing",48,45
+"2021","Alberta","Census metropolitan areas","Edmonton, Alberta","Total, tenure",48,9.5
+"2021","Alberta","Census metropolitan areas","Edmonton, Alberta","Owner",48,4.2
+"2021","Alberta","Census metropolitan areas","Edmonton, Alberta","Owner who is a first-time homebuyer",48,3.9
+"2021","Alberta","Census metropolitan areas","Edmonton, Alberta","Owner who is not a first-time homebuyer",48,4.2
+"2021","Alberta","Census metropolitan areas","Edmonton, Alberta","Renter",48,22
+"2021","Alberta","Census metropolitan areas","Edmonton, Alberta","Renter not in social and affordable housing",48,19.8
+"2021","Alberta","Census metropolitan areas","Edmonton, Alberta","Renter in social and affordable housing",48,38
+"2021","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Total, tenure",59,15
+"2021","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Owner",59,9.4
+"2021","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Owner who is a first-time homebuyer",59,11.2
+"2021","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Owner who is not a first-time homebuyer",59,9.1
+"2021","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Renter",59,24
+"2021","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Renter not in social and affordable housing",59,23
+"2021","British Columbia","Census metropolitan areas","Vancouver, British Columbia","Renter in social and affordable housing",59,32
+"2021","Quebec","Census metropolitan areas","Other census metropolitan areas, Quebec","Total, tenure",24,3.1
+"2021","Quebec","Census metropolitan areas","Other census metropolitan areas, Quebec","Renter",24,7.1
+"2021","Quebec","Census metropolitan areas","Other census metropolitan areas, Quebec","Renter not in social and affordable housing",24,7.6
+"2021","Quebec","Census metropolitan areas","Other census metropolitan areas, Quebec","Renter in social and affordable housing",24,2.6
+"2021","Ontario","Census metropolitan areas","Other census metropolitan areas, Ontario","Total, tenure",35,9.1
+"2021","Ontario","Census metropolitan areas","Other census metropolitan areas, Ontario","Owner",35,2.6
+"2021","Ontario","Census metropolitan areas","Other census metropolitan areas, Ontario","Owner who is not a first-time homebuyer",35,3.1
+"2021","Ontario","Census metropolitan areas","Other census metropolitan areas, Ontario","Renter",35,24
+"2021","Ontario","Census metropolitan areas","Other census metropolitan areas, Ontario","Renter not in social and affordable housing",35,24
+"2021","Ontario","Census metropolitan areas","Other census metropolitan areas, Ontario","Renter in social and affordable housing",35,21
+"2021","British Columbia","Census metropolitan areas","Other census metropolitan areas, British Columbia","Total, tenure",59,9.4
+"2021","British Columbia","Census metropolitan areas","Other census metropolitan areas, British Columbia","Owner",59,4.6
+"2021","British Columbia","Census metropolitan areas","Other census metropolitan areas, British Columbia","Owner who is not a first-time homebuyer",59,4.8
+"2021","British Columbia","Census metropolitan areas","Other census metropolitan areas, British Columbia","Renter",59,18.2
+"2021","British Columbia","Census metropolitan areas","Other census metropolitan areas, British Columbia","Renter not in social and affordable housing",59,16.6
+"2021","British Columbia","Census metropolitan areas","Other census metropolitan areas, British Columbia","Renter in social and affordable housing",59,34
+"2018","Canada","Census agglomerations",,"Total, tenure",,9
+"2018","Canada","Census agglomerations",,"Owner",,3.4
+"2018","Canada","Census agglomerations",,"Owner who is a first-time homebuyer",,3.6
+"2018","Canada","Census agglomerations",,"Owner who is not a first-time homebuyer",,3.4
+"2018","Canada","Census agglomerations",,"Renter",,22
+"2018","Canada","Census agglomerations",,"Renter not in social and affordable housing",,20
+"2018","Canada","Census agglomerations",,"Renter in social and affordable housing",,33
+"2018","Newfoundland and Labrador","Census agglomerations",,"Total, tenure",10,7.5
+"2018","Newfoundland and Labrador","Census agglomerations",,"Owner",10,2.3
+"2018","Newfoundland and Labrador","Census agglomerations",,"Owner who is not a first-time homebuyer",10,2.5
+"2018","Newfoundland and Labrador","Census agglomerations",,"Renter",10,23
+"2018","Newfoundland and Labrador","Census agglomerations",,"Renter not in social and affordable housing",10,20
+"2018","Newfoundland and Labrador","Census agglomerations",,"Renter in social and affordable housing",10,30
+"2018","Prince Edward Island","Census agglomerations",,"Total, tenure",11,7.9
+"2018","Prince Edward Island","Census agglomerations",,"Owner",11,4.7
+"2018","Prince Edward Island","Census agglomerations",,"Owner who is a first-time homebuyer",11,3.6
+"2018","Prince Edward Island","Census agglomerations",,"Owner who is not a first-time homebuyer",11,4.9
+"2018","Prince Edward Island","Census agglomerations",,"Renter",11,13.5
+"2018","Prince Edward Island","Census agglomerations",,"Renter not in social and affordable housing",11,11.5
+"2018","Prince Edward Island","Census agglomerations",,"Renter in social and affordable housing",11,26
+"2018","Nova Scotia","Census agglomerations",,"Total, tenure",12,11.6
+"2018","Nova Scotia","Census agglomerations",,"Owner",12,6.8
+"2018","Nova Scotia","Census agglomerations",,"Owner who is a first-time homebuyer",12,8.4
+"2018","Nova Scotia","Census agglomerations",,"Owner who is not a first-time homebuyer",12,6.6
+"2018","Nova Scotia","Census agglomerations",,"Renter",12,24
+"2018","Nova Scotia","Census agglomerations",,"Renter not in social and affordable housing",12,19.7
+"2018","Nova Scotia","Census agglomerations",,"Renter in social and affordable housing",12,43
+"2018","New Brunswick","Census agglomerations",,"Total, tenure",13,5.9
+"2018","New Brunswick","Census agglomerations",,"Owner",13,1.6
+"2018","New Brunswick","Census agglomerations",,"Owner who is not a first-time homebuyer",13,1.7
+"2018","New Brunswick","Census agglomerations",,"Renter",13,18.1
+"2018","New Brunswick","Census agglomerations",,"Renter not in social and affordable housing",13,16.1
+"2018","New Brunswick","Census agglomerations",,"Renter in social and affordable housing",13,30
+"2018","Quebec","Census agglomerations",,"Total, tenure",24,5.5
+"2018","Quebec","Census agglomerations",,"Owner",24,0.6
+"2018","Quebec","Census agglomerations",,"Owner who is not a first-time homebuyer",24,0.6
+"2018","Quebec","Census agglomerations",,"Renter",24,14
+"2018","Quebec","Census agglomerations",,"Renter not in social and affordable housing",24,14.3
+"2018","Quebec","Census agglomerations",,"Renter in social and affordable housing",24,10.4
+"2018","Ontario","Census agglomerations",,"Total, tenure",35,10.3
+"2018","Ontario","Census agglomerations",,"Owner",35,3.5
+"2018","Ontario","Census agglomerations",,"Owner who is a first-time homebuyer",35,7.4
+"2018","Ontario","Census agglomerations",,"Owner who is not a first-time homebuyer",35,3
+"2018","Ontario","Census agglomerations",,"Renter",35,28
+"2018","Ontario","Census agglomerations",,"Renter not in social and affordable housing",35,26
+"2018","Ontario","Census agglomerations",,"Renter in social and affordable housing",35,33
+"2018","Manitoba","Census agglomerations",,"Total, tenure",46,7.5
+"2018","Manitoba","Census agglomerations",,"Owner",46,2.4
+"2018","Manitoba","Census agglomerations",,"Owner who is a first-time homebuyer",46,2.4
+"2018","Manitoba","Census agglomerations",,"Owner who is not a first-time homebuyer",46,2.3
+"2018","Manitoba","Census agglomerations",,"Renter",46,18
+"2018","Manitoba","Census agglomerations",,"Renter not in social and affordable housing",46,13.2
+"2018","Manitoba","Census agglomerations",,"Renter in social and affordable housing",46,36
+"2018","Saskatchewan","Census agglomerations",,"Total, tenure",47,12
+"2018","Saskatchewan","Census agglomerations",,"Owner",47,5.4
+"2018","Saskatchewan","Census agglomerations",,"Owner who is a first-time homebuyer",47,5.3
+"2018","Saskatchewan","Census agglomerations",,"Owner who is not a first-time homebuyer",47,5.4
+"2018","Saskatchewan","Census agglomerations",,"Renter",47,28
+"2018","Saskatchewan","Census agglomerations",,"Renter not in social and affordable housing",47,19.7
+"2018","Saskatchewan","Census agglomerations",,"Renter in social and affordable housing",47,52
+"2018","Alberta","Census agglomerations",,"Total, tenure",48,9.7
+"2018","Alberta","Census agglomerations",,"Owner",48,5.9
+"2018","Alberta","Census agglomerations",,"Owner who is a first-time homebuyer",48,5
+"2018","Alberta","Census agglomerations",,"Owner who is not a first-time homebuyer",48,6.1
+"2018","Alberta","Census agglomerations",,"Renter",48,18.9
+"2018","Alberta","Census agglomerations",,"Renter not in social and affordable housing",48,16.8
+"2018","Alberta","Census agglomerations",,"Renter in social and affordable housing",48,39
+"2018","British Columbia","Census agglomerations",,"Total, tenure",59,10.6
+"2018","British Columbia","Census agglomerations",,"Owner",59,3.9
+"2018","British Columbia","Census agglomerations",,"Owner who is not a first-time homebuyer",59,4.4
+"2018","British Columbia","Census agglomerations",,"Renter",59,28
+"2018","British Columbia","Census agglomerations",,"Renter not in social and affordable housing",59,26
+"2018","British Columbia","Census agglomerations",,"Renter in social and affordable housing",59,45
+"2018","Yukon","Census agglomerations",,"Total, tenure",60,9.6
+"2018","Yukon","Census agglomerations",,"Owner",60,3.7
+"2018","Yukon","Census agglomerations",,"Owner who is not a first-time homebuyer",60,4.2
+"2018","Yukon","Census agglomerations",,"Renter",60,21
+"2018","Yukon","Census agglomerations",,"Renter not in social and affordable housing",60,18.6
+"2018","Yukon","Census agglomerations",,"Renter in social and affordable housing",60,30
+"2018","Northwest Territories","Census agglomerations",,"Total, tenure",61,10.4
+"2018","Northwest Territories","Census agglomerations",,"Owner",61,5.8
+"2018","Northwest Territories","Census agglomerations",,"Owner who is not a first-time homebuyer",61,7.2
+"2018","Northwest Territories","Census agglomerations",,"Renter",61,17
+"2018","Northwest Territories","Census agglomerations",,"Renter not in social and affordable housing",61,15.8
+"2018","Northwest Territories","Census agglomerations",,"Renter in social and affordable housing",61,23
+"2021","Canada","Census agglomerations",,"Total, tenure",,7.5
+"2021","Canada","Census agglomerations",,"Owner",,3
+"2021","Canada","Census agglomerations",,"Owner who is a first-time homebuyer",,3.1
+"2021","Canada","Census agglomerations",,"Owner who is not a first-time homebuyer",,3
+"2021","Canada","Census agglomerations",,"Renter",,17.8
+"2021","Canada","Census agglomerations",,"Renter not in social and affordable housing",,16.5
+"2021","Canada","Census agglomerations",,"Renter in social and affordable housing",,26
+"2021","Newfoundland and Labrador","Census agglomerations",,"Total, tenure",10,5.5
+"2021","Newfoundland and Labrador","Census agglomerations",,"Owner",10,1.7
+"2021","Newfoundland and Labrador","Census agglomerations",,"Owner who is not a first-time homebuyer",10,1.6
+"2021","Newfoundland and Labrador","Census agglomerations",,"Renter",10,15
+"2021","Newfoundland and Labrador","Census agglomerations",,"Renter not in social and affordable housing",10,12.6
+"2021","Newfoundland and Labrador","Census agglomerations",,"Renter in social and affordable housing",10,23
+"2021","Prince Edward Island","Census agglomerations",,"Total, tenure",11,7.1
+"2021","Prince Edward Island","Census agglomerations",,"Owner",11,3
+"2021","Prince Edward Island","Census agglomerations",,"Owner who is a first-time homebuyer",11,4.5
+"2021","Prince Edward Island","Census agglomerations",,"Owner who is not a first-time homebuyer",11,2.6
+"2021","Prince Edward Island","Census agglomerations",,"Renter",11,14
+"2021","Prince Edward Island","Census agglomerations",,"Renter not in social and affordable housing",11,11.8
+"2021","Prince Edward Island","Census agglomerations",,"Renter in social and affordable housing",11,26
+"2021","Nova Scotia","Census agglomerations",,"Total, tenure",12,9.7
+"2021","Nova Scotia","Census agglomerations",,"Owner",12,6.5
+"2021","Nova Scotia","Census agglomerations",,"Owner who is a first-time homebuyer",12,17.9
+"2021","Nova Scotia","Census agglomerations",,"Owner who is not a first-time homebuyer",12,5.7
+"2021","Nova Scotia","Census agglomerations",,"Renter",12,17.8
+"2021","Nova Scotia","Census agglomerations",,"Renter not in social and affordable housing",12,14.6
+"2021","Nova Scotia","Census agglomerations",,"Renter in social and affordable housing",12,30
+"2021","New Brunswick","Census agglomerations",,"Total, tenure",13,4.2
+"2021","New Brunswick","Census agglomerations",,"Owner",13,1.7
+"2021","New Brunswick","Census agglomerations",,"Owner who is not a first-time homebuyer",13,1.9
+"2021","New Brunswick","Census agglomerations",,"Renter",13,10.7
+"2021","New Brunswick","Census agglomerations",,"Renter not in social and affordable housing",13,9.2
+"2021","New Brunswick","Census agglomerations",,"Renter in social and affordable housing",13,22
+"2021","Quebec","Census agglomerations",,"Total, tenure",24,4.4
+"2021","Quebec","Census agglomerations",,"Renter",24,11.1
+"2021","Quebec","Census agglomerations",,"Renter not in social and affordable housing",24,11.5
+"2021","Quebec","Census agglomerations",,"Renter in social and affordable housing",24,6.8
+"2021","Ontario","Census agglomerations",,"Total, tenure",35,9.2
+"2021","Ontario","Census agglomerations",,"Owner",35,3.5
+"2021","Ontario","Census agglomerations",,"Owner who is not a first-time homebuyer",35,3.6
+"2021","Ontario","Census agglomerations",,"Renter",35,24
+"2021","Ontario","Census agglomerations",,"Renter not in social and affordable housing",35,23
+"2021","Ontario","Census agglomerations",,"Renter in social and affordable housing",35,29
+"2021","Manitoba","Census agglomerations",,"Total, tenure",46,6.8
+"2021","Manitoba","Census agglomerations",,"Owner",46,2.6
+"2021","Manitoba","Census agglomerations",,"Owner who is not a first-time homebuyer",46,2.8
+"2021","Manitoba","Census agglomerations",,"Renter",46,15
+"2021","Manitoba","Census agglomerations",,"Renter not in social and affordable housing",46,10.5
+"2021","Manitoba","Census agglomerations",,"Renter in social and affordable housing",46,33
+"2021","Saskatchewan","Census agglomerations",,"Total, tenure",47,5.4
+"2021","Saskatchewan","Census agglomerations",,"Owner",47,2
+"2021","Saskatchewan","Census agglomerations",,"Owner who is not a first-time homebuyer",47,2
+"2021","Saskatchewan","Census agglomerations",,"Renter",47,13.9
+"2021","Saskatchewan","Census agglomerations",,"Renter not in social and affordable housing",47,10
+"2021","Saskatchewan","Census agglomerations",,"Renter in social and affordable housing",47,25
+"2021","Alberta","Census agglomerations",,"Total, tenure",48,7.3
+"2021","Alberta","Census agglomerations",,"Owner",48,2.1
+"2021","Alberta","Census agglomerations",,"Owner who is not a first-time homebuyer",48,1.9
+"2021","Alberta","Census agglomerations",,"Renter",48,20
+"2021","Alberta","Census agglomerations",,"Renter not in social and affordable housing",48,18.2
+"2021","Alberta","Census agglomerations",,"Renter in social and affordable housing",48,35
+"2021","British Columbia","Census agglomerations",,"Total, tenure",59,9.2
+"2021","British Columbia","Census agglomerations",,"Owner",59,4.8
+"2021","British Columbia","Census agglomerations",,"Owner who is a first-time homebuyer",59,3.2
+"2021","British Columbia","Census agglomerations",,"Owner who is not a first-time homebuyer",59,4.9
+"2021","British Columbia","Census agglomerations",,"Renter",59,21
+"2021","British Columbia","Census agglomerations",,"Renter not in social and affordable housing",59,19.7
+"2021","British Columbia","Census agglomerations",,"Renter in social and affordable housing",59,36
+"2018","Canada","Outside census metropolitan areas and census agglomerations",,"Total, tenure",,8.8
+"2018","Canada","Outside census metropolitan areas and census agglomerations",,"Owner",,6
+"2018","Canada","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",,3
+"2018","Canada","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",,6.3
+"2018","Canada","Outside census metropolitan areas and census agglomerations",,"Renter",,19.5
+"2018","Canada","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",,16.8
+"2018","Canada","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",,31
+"2018","Newfoundland and Labrador","Outside census metropolitan areas and census agglomerations",,"Total, tenure",10,8.8
+"2018","Newfoundland and Labrador","Outside census metropolitan areas and census agglomerations",,"Owner",10,5.5
+"2018","Newfoundland and Labrador","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",10,5.6
+"2018","Newfoundland and Labrador","Outside census metropolitan areas and census agglomerations",,"Renter",10,28
+"2018","Newfoundland and Labrador","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",10,24
+"2018","Newfoundland and Labrador","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",10,42
+"2018","Prince Edward Island","Outside census metropolitan areas and census agglomerations",,"Total, tenure",11,10.6
+"2018","Prince Edward Island","Outside census metropolitan areas and census agglomerations",,"Owner",11,9.7
+"2018","Prince Edward Island","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",11,9.9
+"2018","Prince Edward Island","Outside census metropolitan areas and census agglomerations",,"Renter",11,15.1
+"2018","Prince Edward Island","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",11,15.4
+"2018","Prince Edward Island","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",11,13.9
+"2018","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Total, tenure",12,8.4
+"2018","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Owner",12,4.5
+"2018","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",12,4.8
+"2018","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",12,4.4
+"2018","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Renter",12,24
+"2018","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",12,18.5
+"2018","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",12,43
+"2018","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Total, tenure",13,7.9
+"2018","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Owner",13,4.3
+"2018","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",13,1.7
+"2018","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",13,4.5
+"2018","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Renter",13,23
+"2018","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",13,23
+"2018","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",13,28
+"2018","Quebec","Outside census metropolitan areas and census agglomerations",,"Total, tenure",24,5.8
+"2018","Quebec","Outside census metropolitan areas and census agglomerations",,"Owner",24,3.7
+"2018","Quebec","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",24,3.8
+"2018","Quebec","Outside census metropolitan areas and census agglomerations",,"Renter",24,12.6
+"2018","Quebec","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",24,12.1
+"2018","Quebec","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",24,15.8
+"2018","Ontario","Outside census metropolitan areas and census agglomerations",,"Total, tenure",35,8.7
+"2018","Ontario","Outside census metropolitan areas and census agglomerations",,"Owner",35,5.5
+"2018","Ontario","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",35,0.9
+"2018","Ontario","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",35,6.2
+"2018","Ontario","Outside census metropolitan areas and census agglomerations",,"Renter",35,22
+"2018","Ontario","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",35,22
+"2018","Ontario","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",35,21
+"2018","Manitoba","Outside census metropolitan areas and census agglomerations",,"Total, tenure",46,10.3
+"2018","Manitoba","Outside census metropolitan areas and census agglomerations",,"Owner",46,7.4
+"2018","Manitoba","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",46,8.2
+"2018","Manitoba","Outside census metropolitan areas and census agglomerations",,"Renter",46,22
+"2018","Manitoba","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",46,21
+"2018","Manitoba","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",46,27
+"2018","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Total, tenure",47,12.9
+"2018","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Owner",47,9.8
+"2018","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",47,10.6
+"2018","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",47,9.7
+"2018","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Renter",47,29
+"2018","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",47,18.4
+"2018","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",47,47
+"2018","Alberta","Outside census metropolitan areas and census agglomerations",,"Total, tenure",48,9
+"2018","Alberta","Outside census metropolitan areas and census agglomerations",,"Owner",48,7.9
+"2018","Alberta","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",48,3
+"2018","Alberta","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",48,8.6
+"2018","Alberta","Outside census metropolitan areas and census agglomerations",,"Renter",48,13.4
+"2018","Alberta","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",48,10
+"2018","Alberta","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",48,35
+"2018","British Columbia","Outside census metropolitan areas and census agglomerations",,"Total, tenure",59,12.6
+"2018","British Columbia","Outside census metropolitan areas and census agglomerations",,"Owner",59,9.7
+"2018","British Columbia","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",59,5.7
+"2018","British Columbia","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",59,10.2
+"2018","British Columbia","Outside census metropolitan areas and census agglomerations",,"Renter",59,23
+"2018","British Columbia","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",59,18.7
+"2018","British Columbia","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",59,49
+"2021","Canada","Outside census metropolitan areas and census agglomerations",,"Total, tenure",,8.3
+"2021","Canada","Outside census metropolitan areas and census agglomerations",,"Owner",,5.8
+"2021","Canada","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",,5.4
+"2021","Canada","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",,5.9
+"2021","Canada","Outside census metropolitan areas and census agglomerations",,"Renter",,17.8
+"2021","Canada","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",,16.9
+"2021","Canada","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",,23
+"2021","Newfoundland and Labrador","Outside census metropolitan areas and census agglomerations",,"Total, tenure",10,8.2
+"2021","Newfoundland and Labrador","Outside census metropolitan areas and census agglomerations",,"Owner",10,5.6
+"2021","Newfoundland and Labrador","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",10,6
+"2021","Newfoundland and Labrador","Outside census metropolitan areas and census agglomerations",,"Renter",10,22
+"2021","Newfoundland and Labrador","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",10,19.5
+"2021","Newfoundland and Labrador","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",10,32
+"2021","Prince Edward Island","Outside census metropolitan areas and census agglomerations",,"Total, tenure",11,7.3
+"2021","Prince Edward Island","Outside census metropolitan areas and census agglomerations",,"Owner",11,5.4
+"2021","Prince Edward Island","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",11,5.7
+"2021","Prince Edward Island","Outside census metropolitan areas and census agglomerations",,"Renter",11,15.9
+"2021","Prince Edward Island","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",11,19
+"2021","Prince Edward Island","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",11,8.8
+"2021","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Total, tenure",12,9.1
+"2021","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Owner",12,6.9
+"2021","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",12,10.6
+"2021","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",12,6.5
+"2021","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Renter",12,17.2
+"2021","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",12,16.3
+"2021","Nova Scotia","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",12,21
+"2021","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Total, tenure",13,7.5
+"2021","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Owner",13,6.6
+"2021","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",13,11.3
+"2021","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",13,6.3
+"2021","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Renter",13,11.3
+"2021","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",13,10.4
+"2021","New Brunswick","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",13,15.9
+"2021","Quebec","Outside census metropolitan areas and census agglomerations",,"Total, tenure",24,5.2
+"2021","Quebec","Outside census metropolitan areas and census agglomerations",,"Owner",24,3.5
+"2021","Quebec","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",24,4
+"2021","Quebec","Outside census metropolitan areas and census agglomerations",,"Renter",24,10.5
+"2021","Quebec","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",24,10.6
+"2021","Quebec","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",24,9.2
+"2021","Ontario","Outside census metropolitan areas and census agglomerations",,"Total, tenure",35,8.2
+"2021","Ontario","Outside census metropolitan areas and census agglomerations",,"Owner",35,4.1
+"2021","Ontario","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",35,5.3
+"2021","Ontario","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",35,4
+"2021","Ontario","Outside census metropolitan areas and census agglomerations",,"Renter",35,26
+"2021","Ontario","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",35,26
+"2021","Ontario","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",35,26
+"2021","Manitoba","Outside census metropolitan areas and census agglomerations",,"Total, tenure",46,7.9
+"2021","Manitoba","Outside census metropolitan areas and census agglomerations",,"Owner",46,5.1
+"2021","Manitoba","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",46,4.2
+"2021","Manitoba","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",46,5.3
+"2021","Manitoba","Outside census metropolitan areas and census agglomerations",,"Renter",46,19.2
+"2021","Manitoba","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",46,15.4
+"2021","Manitoba","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",46,30
+"2021","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Total, tenure",47,14.3
+"2021","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Owner",47,11.6
+"2021","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",47,7
+"2021","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",47,11.9
+"2021","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Renter",47,28
+"2021","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",47,23
+"2021","Saskatchewan","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",47,37
+"2021","Alberta","Outside census metropolitan areas and census agglomerations",,"Total, tenure",48,11.5
+"2021","Alberta","Outside census metropolitan areas and census agglomerations",,"Owner",48,8.1
+"2021","Alberta","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",48,13.4
+"2021","Alberta","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",48,7.6
+"2021","Alberta","Outside census metropolitan areas and census agglomerations",,"Renter",48,23
+"2021","Alberta","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",48,24
+"2021","Alberta","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",48,20
+"2021","British Columbia","Outside census metropolitan areas and census agglomerations",,"Total, tenure",59,11.9
+"2021","British Columbia","Outside census metropolitan areas and census agglomerations",,"Owner",59,10.6
+"2021","British Columbia","Outside census metropolitan areas and census agglomerations",,"Owner who is a first-time homebuyer",59,14.4
+"2021","British Columbia","Outside census metropolitan areas and census agglomerations",,"Owner who is not a first-time homebuyer",59,10.2
+"2021","British Columbia","Outside census metropolitan areas and census agglomerations",,"Renter",59,16.6
+"2021","British Columbia","Outside census metropolitan areas and census agglomerations",,"Renter not in social and affordable housing",59,14.3
+"2021","British Columbia","Outside census metropolitan areas and census agglomerations",,"Renter in social and affordable housing",59,38
+"2018","Newfoundland and Labrador","Large urban population centres",,"Total, tenure",10,10.3
+"2018","Newfoundland and Labrador","Large urban population centres",,"Owner",10,3.6
+"2018","Newfoundland and Labrador","Large urban population centres",,"Owner who is not a first-time homebuyer",10,4.1
+"2018","Newfoundland and Labrador","Large urban population centres",,"Renter",10,26
+"2018","Newfoundland and Labrador","Large urban population centres",,"Renter not in social and affordable housing",10,23
+"2018","Newfoundland and Labrador","Large urban population centres",,"Renter in social and affordable housing",10,38
+"2018","Nova Scotia","Large urban population centres",,"Total, tenure",12,14.7
+"2018","Nova Scotia","Large urban population centres",,"Owner",12,5.1
+"2018","Nova Scotia","Large urban population centres",,"Owner who is a first-time homebuyer",12,3
+"2018","Nova Scotia","Large urban population centres",,"Owner who is not a first-time homebuyer",12,5.5
+"2018","Nova Scotia","Large urban population centres",,"Renter",12,26
+"2018","Nova Scotia","Large urban population centres",,"Renter not in social and affordable housing",12,24
+"2018","Nova Scotia","Large urban population centres",,"Renter in social and affordable housing",12,45
+"2018","New Brunswick","Large urban population centres",,"Total, tenure",13,9.2
+"2018","New Brunswick","Large urban population centres",,"Owner",13,3
+"2018","New Brunswick","Large urban population centres",,"Owner who is not a first-time homebuyer",13,3.6
+"2018","New Brunswick","Large urban population centres",,"Renter",13,20
+"2018","New Brunswick","Large urban population centres",,"Renter not in social and affordable housing",13,18.4
+"2018","New Brunswick","Large urban population centres",,"Renter in social and affordable housing",13,32
+"2018","Quebec","Large urban population centres",,"Total, tenure",24,8.2
+"2018","Quebec","Large urban population centres",,"Owner",24,1.7
+"2018","Quebec","Large urban population centres",,"Owner who is a first-time homebuyer",24,1.9
+"2018","Quebec","Large urban population centres",,"Owner who is not a first-time homebuyer",24,1.7
+"2018","Quebec","Large urban population centres",,"Renter",24,16
+"2018","Quebec","Large urban population centres",,"Renter not in social and affordable housing",24,15.9
+"2018","Quebec","Large urban population centres",,"Renter in social and affordable housing",24,16.5
+"2018","Ontario","Large urban population centres",,"Total, tenure",35,15.3
+"2018","Ontario","Large urban population centres",,"Owner",35,9.6
+"2018","Ontario","Large urban population centres",,"Owner who is a first-time homebuyer",35,10.3
+"2018","Ontario","Large urban population centres",,"Owner who is not a first-time homebuyer",35,9.5
+"2018","Ontario","Large urban population centres",,"Renter",35,27
+"2018","Ontario","Large urban population centres",,"Renter not in social and affordable housing",35,26
+"2018","Ontario","Large urban population centres",,"Renter in social and affordable housing",35,31
+"2018","Manitoba","Large urban population centres",,"Total, tenure",46,12.2
+"2018","Manitoba","Large urban population centres",,"Owner",46,5.3
+"2018","Manitoba","Large urban population centres",,"Owner who is a first-time homebuyer",46,9.5
+"2018","Manitoba","Large urban population centres",,"Owner who is not a first-time homebuyer",46,4.6
+"2018","Manitoba","Large urban population centres",,"Renter",46,26
+"2018","Manitoba","Large urban population centres",,"Renter not in social and affordable housing",46,22
+"2018","Manitoba","Large urban population centres",,"Renter in social and affordable housing",46,44
+"2018","Saskatchewan","Large urban population centres",,"Total, tenure",47,11.1
+"2018","Saskatchewan","Large urban population centres",,"Owner",47,4.5
+"2018","Saskatchewan","Large urban population centres",,"Owner who is a first-time homebuyer",47,6.4
+"2018","Saskatchewan","Large urban population centres",,"Owner who is not a first-time homebuyer",47,4
+"2018","Saskatchewan","Large urban population centres",,"Renter",47,26
+"2018","Saskatchewan","Large urban population centres",,"Renter not in social and affordable housing",47,20
+"2018","Saskatchewan","Large urban population centres",,"Renter in social and affordable housing",47,53
+"2018","Alberta","Large urban population centres",,"Total, tenure",48,11.1
+"2018","Alberta","Large urban population centres",,"Owner",48,6.6
+"2018","Alberta","Large urban population centres",,"Owner who is a first-time homebuyer",48,5.4
+"2018","Alberta","Large urban population centres",,"Owner who is not a first-time homebuyer",48,6.8
+"2018","Alberta","Large urban population centres",,"Renter",48,22
+"2018","Alberta","Large urban population centres",,"Renter not in social and affordable housing",48,18.6
+"2018","Alberta","Large urban population centres",,"Renter in social and affordable housing",48,49
+"2018","British Columbia","Large urban population centres",,"Total, tenure",59,16.8
+"2018","British Columbia","Large urban population centres",,"Owner",59,10.8
+"2018","British Columbia","Large urban population centres",,"Owner who is a first-time homebuyer",59,17.4
+"2018","British Columbia","Large urban population centres",,"Owner who is not a first-time homebuyer",59,9.7
+"2018","British Columbia","Large urban population centres",,"Renter",59,27
+"2018","British Columbia","Large urban population centres",,"Renter not in social and affordable housing",59,24
+"2018","British Columbia","Large urban population centres",,"Renter in social and affordable housing",59,46
+"2018","Canada","Large urban population centres",,"Total, tenure",,13
+"2018","Canada","Large urban population centres",,"Owner",,7.3
+"2018","Canada","Large urban population centres",,"Owner who is a first-time homebuyer",,8.4
+"2018","Canada","Large urban population centres",,"Owner who is not a first-time homebuyer",,7.1
+"2018","Canada","Large urban population centres",,"Renter",,23
+"2018","Canada","Large urban population centres",,"Renter not in social and affordable housing",,22
+"2018","Canada","Large urban population centres",,"Renter in social and affordable housing",,33
+"2021","Newfoundland and Labrador","Large urban population centres",,"Total, tenure",10,7.7
+"2021","Newfoundland and Labrador","Large urban population centres",,"Owner",10,2.5
+"2021","Newfoundland and Labrador","Large urban population centres",,"Owner who is not a first-time homebuyer",10,2.5
+"2021","Newfoundland and Labrador","Large urban population centres",,"Renter",10,19.3
+"2021","Newfoundland and Labrador","Large urban population centres",,"Renter not in social and affordable housing",10,15
+"2021","Newfoundland and Labrador","Large urban population centres",,"Renter in social and affordable housing",10,38
+"2021","Nova Scotia","Large urban population centres",,"Total, tenure",12,10.5
+"2021","Nova Scotia","Large urban population centres",,"Owner",12,3.4
+"2021","Nova Scotia","Large urban population centres",,"Owner who is not a first-time homebuyer",12,3.3
+"2021","Nova Scotia","Large urban population centres",,"Renter",12,18.5
+"2021","Nova Scotia","Large urban population centres",,"Renter not in social and affordable housing",12,16.1
+"2021","Nova Scotia","Large urban population centres",,"Renter in social and affordable housing",12,47
+"2021","New Brunswick","Large urban population centres",,"Total, tenure",13,7.3
+"2021","New Brunswick","Large urban population centres",,"Owner",13,2
+"2021","New Brunswick","Large urban population centres",,"Owner who is not a first-time homebuyer",13,2.5
+"2021","New Brunswick","Large urban population centres",,"Renter",13,16.2
+"2021","New Brunswick","Large urban population centres",,"Renter not in social and affordable housing",13,14.7
+"2021","New Brunswick","Large urban population centres",,"Renter in social and affordable housing",13,28
+"2021","Quebec","Large urban population centres",,"Total, tenure",24,6.8
+"2021","Quebec","Large urban population centres",,"Owner",24,2.5
+"2021","Quebec","Large urban population centres",,"Owner who is not a first-time homebuyer",24,2.5
+"2021","Quebec","Large urban population centres",,"Renter",24,11.7
+"2021","Quebec","Large urban population centres",,"Renter not in social and affordable housing",24,11.4
+"2021","Quebec","Large urban population centres",,"Renter in social and affordable housing",24,14.2
+"2021","Ontario","Large urban population centres",,"Total, tenure",35,13.8
+"2021","Ontario","Large urban population centres",,"Owner",35,7.3
+"2021","Ontario","Large urban population centres",,"Owner who is a first-time homebuyer",35,3.3
+"2021","Ontario","Large urban population centres",,"Owner who is not a first-time homebuyer",35,8
+"2021","Ontario","Large urban population centres",,"Renter",35,26
+"2021","Ontario","Large urban population centres",,"Renter not in social and affordable housing",35,25
+"2021","Ontario","Large urban population centres",,"Renter in social and affordable housing",35,29
+"2021","Manitoba","Large urban population centres",,"Total, tenure",46,12.4
+"2021","Manitoba","Large urban population centres",,"Owner",46,6.2
+"2021","Manitoba","Large urban population centres",,"Owner who is a first-time homebuyer",46,7.4
+"2021","Manitoba","Large urban population centres",,"Owner who is not a first-time homebuyer",46,6
+"2021","Manitoba","Large urban population centres",,"Renter",46,25
+"2021","Manitoba","Large urban population centres",,"Renter not in social and affordable housing",46,23
+"2021","Manitoba","Large urban population centres",,"Renter in social and affordable housing",46,34
+"2021","Saskatchewan","Large urban population centres",,"Total, tenure",47,9.9
+"2021","Saskatchewan","Large urban population centres",,"Owner",47,4.6
+"2021","Saskatchewan","Large urban population centres",,"Owner who is a first-time homebuyer",47,3.6
+"2021","Saskatchewan","Large urban population centres",,"Owner who is not a first-time homebuyer",47,4.8
+"2021","Saskatchewan","Large urban population centres",,"Renter",47,21
+"2021","Saskatchewan","Large urban population centres",,"Renter not in social and affordable housing",47,17.7
+"2021","Saskatchewan","Large urban population centres",,"Renter in social and affordable housing",47,41
+"2021","Alberta","Large urban population centres",,"Total, tenure",48,8.8
+"2021","Alberta","Large urban population centres",,"Owner",48,3.4
+"2021","Alberta","Large urban population centres",,"Owner who is a first-time homebuyer",48,6.1
+"2021","Alberta","Large urban population centres",,"Owner who is not a first-time homebuyer",48,2.9
+"2021","Alberta","Large urban population centres",,"Renter",48,21
+"2021","Alberta","Large urban population centres",,"Renter not in social and affordable housing",48,18.4
+"2021","Alberta","Large urban population centres",,"Renter in social and affordable housing",48,42
+"2021","British Columbia","Large urban population centres",,"Total, tenure",59,13.6
+"2021","British Columbia","Large urban population centres",,"Owner",59,7.9
+"2021","British Columbia","Large urban population centres",,"Owner who is a first-time homebuyer",59,8.3
+"2021","British Columbia","Large urban population centres",,"Owner who is not a first-time homebuyer",59,7.9
+"2021","British Columbia","Large urban population centres",,"Renter",59,23
+"2021","British Columbia","Large urban population centres",,"Renter not in social and affordable housing",59,22
+"2021","British Columbia","Large urban population centres",,"Renter in social and affordable housing",59,32
+"2021","Canada","Large urban population centres",,"Total, tenure",,11.2
+"2021","Canada","Large urban population centres",,"Owner",,5.6
+"2021","Canada","Large urban population centres",,"Owner who is a first-time homebuyer",,4.3
+"2021","Canada","Large urban population centres",,"Owner who is not a first-time homebuyer",,5.9
+"2021","Canada","Large urban population centres",,"Renter",,20
+"2021","Canada","Large urban population centres",,"Renter not in social and affordable housing",,19.3
+"2021","Canada","Large urban population centres",,"Renter in social and affordable housing",,28
+"2018","Prince Edward Island","Medium population centres",,"Total, tenure",11,9.2
+"2018","Prince Edward Island","Medium population centres",,"Owner",11,4.6
+"2018","Prince Edward Island","Medium population centres",,"Owner who is a first-time homebuyer",11,6.6
+"2018","Prince Edward Island","Medium population centres",,"Owner who is not a first-time homebuyer",11,4.2
+"2018","Prince Edward Island","Medium population centres",,"Renter",11,14.6
+"2018","Prince Edward Island","Medium population centres",,"Renter not in social and affordable housing",11,11.9
+"2018","Prince Edward Island","Medium population centres",,"Renter in social and affordable housing",11,31
+"2018","New Brunswick","Medium population centres",,"Total, tenure",13,10.1
+"2018","New Brunswick","Medium population centres",,"Owner",13,3.6
+"2018","New Brunswick","Medium population centres",,"Owner who is not a first-time homebuyer",13,3.9
+"2018","New Brunswick","Medium population centres",,"Renter",13,18.4
+"2018","New Brunswick","Medium population centres",,"Renter not in social and affordable housing",13,17
+"2018","New Brunswick","Medium population centres",,"Renter in social and affordable housing",13,27
+"2018","Quebec","Medium population centres",,"Total, tenure",24,8.5
+"2018","Quebec","Medium population centres",,"Owner",24,1.4
+"2018","Quebec","Medium population centres",,"Owner who is not a first-time homebuyer",24,1.5
+"2018","Quebec","Medium population centres",,"Renter",24,19.4
+"2018","Quebec","Medium population centres",,"Renter not in social and affordable housing",24,19.7
+"2018","Quebec","Medium population centres",,"Renter in social and affordable housing",24,15.9
+"2018","Ontario","Medium population centres",,"Total, tenure",35,9.4
+"2018","Ontario","Medium population centres",,"Owner",35,4.3
+"2018","Ontario","Medium population centres",,"Owner who is not a first-time homebuyer",35,4.8
+"2018","Ontario","Medium population centres",,"Renter",35,20
+"2018","Ontario","Medium population centres",,"Renter not in social and affordable housing",35,19.2
+"2018","Ontario","Medium population centres",,"Renter in social and affordable housing",35,25
+"2018","Manitoba","Medium population centres",,"Total, tenure",46,8.1
+"2018","Manitoba","Medium population centres",,"Owner",46,2.6
+"2018","Manitoba","Medium population centres",,"Owner who is a first-time homebuyer",46,3.7
+"2018","Manitoba","Medium population centres",,"Owner who is not a first-time homebuyer",46,2.3
+"2018","Manitoba","Medium population centres",,"Renter",46,18.9
+"2018","Manitoba","Medium population centres",,"Renter not in social and affordable housing",46,13
+"2018","Manitoba","Medium population centres",,"Renter in social and affordable housing",46,38
+"2018","Saskatchewan","Medium population centres",,"Total, tenure",47,12.3
+"2018","Saskatchewan","Medium population centres",,"Owner",47,4.7
+"2018","Saskatchewan","Medium population centres",,"Owner who is a first-time homebuyer",47,4.7
+"2018","Saskatchewan","Medium population centres",,"Owner who is not a first-time homebuyer",47,4.7
+"2018","Saskatchewan","Medium population centres",,"Renter",47,29
+"2018","Saskatchewan","Medium population centres",,"Renter not in social and affordable housing",47,24
+"2018","Saskatchewan","Medium population centres",,"Renter in social and affordable housing",47,43
+"2018","Alberta","Medium population centres",,"Total, tenure",48,9.5
+"2018","Alberta","Medium population centres",,"Owner",48,5.7
+"2018","Alberta","Medium population centres",,"Owner who is a first-time homebuyer",48,4.3
+"2018","Alberta","Medium population centres",,"Owner who is not a first-time homebuyer",48,6
+"2018","Alberta","Medium population centres",,"Renter",48,18.8
+"2018","Alberta","Medium population centres",,"Renter not in social and affordable housing",48,17
+"2018","Alberta","Medium population centres",,"Renter in social and affordable housing",48,39
+"2018","British Columbia","Medium population centres",,"Total, tenure",59,14.2
+"2018","British Columbia","Medium population centres",,"Owner",59,5.6
+"2018","British Columbia","Medium population centres",,"Owner who is not a first-time homebuyer",59,5.9
+"2018","British Columbia","Medium population centres",,"Renter",59,34
+"2018","British Columbia","Medium population centres",,"Renter not in social and affordable housing",59,32
+"2018","British Columbia","Medium population centres",,"Renter in social and affordable housing",59,51
+"2018","Canada","Medium population centres",,"Total, tenure",,10.2
+"2018","Canada","Medium population centres",,"Owner",,4.1
+"2018","Canada","Medium population centres",,"Owner who is a first-time homebuyer",,2.4
+"2018","Canada","Medium population centres",,"Owner who is not a first-time homebuyer",,4.4
+"2018","Canada","Medium population centres",,"Renter",,22
+"2018","Canada","Medium population centres",,"Renter not in social and affordable housing",,21
+"2018","Canada","Medium population centres",,"Renter in social and affordable housing",,30
+"2021","Prince Edward Island","Medium population centres",,"Total, tenure",11,8.3
+"2021","Prince Edward Island","Medium population centres",,"Owner",11,3.6
+"2021","Prince Edward Island","Medium population centres",,"Owner who is not a first-time homebuyer",11,2.7
+"2021","Prince Edward Island","Medium population centres",,"Renter",11,13
+"2021","Prince Edward Island","Medium population centres",,"Renter not in social and affordable housing",11,11.1
+"2021","Prince Edward Island","Medium population centres",,"Renter in social and affordable housing",11,22
+"2021","New Brunswick","Medium population centres",,"Total, tenure",13,6.1
+"2021","New Brunswick","Medium population centres",,"Owner",13,1.2
+"2021","New Brunswick","Medium population centres",,"Owner who is not a first-time homebuyer",13,1.4
+"2021","New Brunswick","Medium population centres",,"Renter",13,11.9
+"2021","New Brunswick","Medium population centres",,"Renter not in social and affordable housing",13,10.6
+"2021","New Brunswick","Medium population centres",,"Renter in social and affordable housing",13,21
+"2021","Quebec","Medium population centres",,"Total, tenure",24,6.1
+"2021","Quebec","Medium population centres",,"Renter",24,12.9
+"2021","Quebec","Medium population centres",,"Renter not in social and affordable housing",24,13.3
+"2021","Quebec","Medium population centres",,"Renter in social and affordable housing",24,9
+"2021","Ontario","Medium population centres",,"Total, tenure",35,8.4
+"2021","Ontario","Medium population centres",,"Owner",35,1.9
+"2021","Ontario","Medium population centres",,"Owner who is not a first-time homebuyer",35,2.2
+"2021","Ontario","Medium population centres",,"Renter",35,22
+"2021","Ontario","Medium population centres",,"Renter not in social and affordable housing",35,21
+"2021","Ontario","Medium population centres",,"Renter in social and affordable housing",35,24
+"2021","Manitoba","Medium population centres",,"Total, tenure",46,5.7
+"2021","Manitoba","Medium population centres",,"Owner",46,1.8
+"2021","Manitoba","Medium population centres",,"Renter",46,12.3
+"2021","Manitoba","Medium population centres",,"Renter not in social and affordable housing",46,7.8
+"2021","Manitoba","Medium population centres",,"Renter in social and affordable housing",46,34
+"2021","Saskatchewan","Medium population centres",,"Total, tenure",47,6
+"2021","Saskatchewan","Medium population centres",,"Owner",47,1.9
+"2021","Saskatchewan","Medium population centres",,"Owner who is not a first-time homebuyer",47,2.1
+"2021","Saskatchewan","Medium population centres",,"Renter",47,15.4
+"2021","Saskatchewan","Medium population centres",,"Renter not in social and affordable housing",47,10.1
+"2021","Saskatchewan","Medium population centres",,"Renter in social and affordable housing",47,27
+"2021","Alberta","Medium population centres",,"Total, tenure",48,8.2
+"2021","Alberta","Medium population centres",,"Owner",48,3.3
+"2021","Alberta","Medium population centres",,"Owner who is a first-time homebuyer",48,1.9
+"2021","Alberta","Medium population centres",,"Owner who is not a first-time homebuyer",48,3.6
+"2021","Alberta","Medium population centres",,"Renter",48,20
+"2021","Alberta","Medium population centres",,"Renter not in social and affordable housing",48,17.8
+"2021","Alberta","Medium population centres",,"Renter in social and affordable housing",48,39
+"2021","British Columbia","Medium population centres",,"Total, tenure",59,12.5
+"2021","British Columbia","Medium population centres",,"Owner",59,7.4
+"2021","British Columbia","Medium population centres",,"Owner who is a first-time homebuyer",59,11.9
+"2021","British Columbia","Medium population centres",,"Owner who is not a first-time homebuyer",59,6.8
+"2021","British Columbia","Medium population centres",,"Renter",59,26
+"2021","British Columbia","Medium population centres",,"Renter not in social and affordable housing",59,24
+"2021","British Columbia","Medium population centres",,"Renter in social and affordable housing",59,41
+"2021","Canada","Medium population centres",,"Total, tenure",,8.6
+"2021","Canada","Medium population centres",,"Owner",,3.3
+"2021","Canada","Medium population centres",,"Owner who is a first-time homebuyer",,3.4
+"2021","Canada","Medium population centres",,"Owner who is not a first-time homebuyer",,3.3
+"2021","Canada","Medium population centres",,"Renter",,18.9
+"2021","Canada","Medium population centres",,"Renter not in social and affordable housing",,17.9
+"2021","Canada","Medium population centres",,"Renter in social and affordable housing",,25
+"2018","Newfoundland and Labrador","Small population centres",,"Total, tenure",10,8.8
+"2018","Newfoundland and Labrador","Small population centres",,"Owner",10,2.2
+"2018","Newfoundland and Labrador","Small population centres",,"Owner who is not a first-time homebuyer",10,2.4
+"2018","Newfoundland and Labrador","Small population centres",,"Renter",10,27
+"2018","Newfoundland and Labrador","Small population centres",,"Renter not in social and affordable housing",10,24
+"2018","Newfoundland and Labrador","Small population centres",,"Renter in social and affordable housing",10,35
+"2018","Prince Edward Island","Small population centres",,"Total, tenure",11,7.4
+"2018","Prince Edward Island","Small population centres",,"Owner",11,6.7
+"2018","Prince Edward Island","Small population centres",,"Owner who is not a first-time homebuyer",11,7.7
+"2018","Prince Edward Island","Small population centres",,"Renter",11,8.6
+"2018","Prince Edward Island","Small population centres",,"Renter not in social and affordable housing",11,7.1
+"2018","Prince Edward Island","Small population centres",,"Renter in social and affordable housing",11,15.1
+"2018","Nova Scotia","Small population centres",,"Total, tenure",12,12.8
+"2018","Nova Scotia","Small population centres",,"Owner",12,4.6
+"2018","Nova Scotia","Small population centres",,"Owner who is a first-time homebuyer",12,10
+"2018","Nova Scotia","Small population centres",,"Owner who is not a first-time homebuyer",12,3.9
+"2018","Nova Scotia","Small population centres",,"Renter",12,26
+"2018","Nova Scotia","Small population centres",,"Renter not in social and affordable housing",12,22
+"2018","Nova Scotia","Small population centres",,"Renter in social and affordable housing",12,42
+"2018","New Brunswick","Small population centres",,"Total, tenure",13,6.1
+"2018","New Brunswick","Small population centres",,"Owner",13,1.2
+"2018","New Brunswick","Small population centres",,"Owner who is not a first-time homebuyer",13,1.3
+"2018","New Brunswick","Small population centres",,"Renter",13,15.6
+"2018","New Brunswick","Small population centres",,"Renter not in social and affordable housing",13,12.9
+"2018","New Brunswick","Small population centres",,"Renter in social and affordable housing",13,30
+"2018","Quebec","Small population centres",,"Total, tenure",24,4.4
+"2018","Quebec","Small population centres",,"Owner",24,0.7
+"2018","Quebec","Small population centres",,"Owner who is not a first-time homebuyer",24,0.7
+"2018","Quebec","Small population centres",,"Renter",24,11.2
+"2018","Quebec","Small population centres",,"Renter not in social and affordable housing",24,10.6
+"2018","Quebec","Small population centres",,"Renter in social and affordable housing",24,15
+"2018","Ontario","Small population centres",,"Total, tenure",35,12.2
+"2018","Ontario","Small population centres",,"Owner",35,4.9
+"2018","Ontario","Small population centres",,"Owner who is a first-time homebuyer",35,6.2
+"2018","Ontario","Small population centres",,"Owner who is not a first-time homebuyer",35,4.8
+"2018","Ontario","Small population centres",,"Renter",35,32
+"2018","Ontario","Small population centres",,"Renter not in social and affordable housing",35,33
+"2018","Ontario","Small population centres",,"Renter in social and affordable housing",35,29
+"2018","Manitoba","Small population centres",,"Total, tenure",46,8.7
+"2018","Manitoba","Small population centres",,"Owner",46,4.4
+"2018","Manitoba","Small population centres",,"Owner who is not a first-time homebuyer",46,5
+"2018","Manitoba","Small population centres",,"Renter",46,18.9
+"2018","Manitoba","Small population centres",,"Renter not in social and affordable housing",46,15.7
+"2018","Manitoba","Small population centres",,"Renter in social and affordable housing",46,31
+"2018","Saskatchewan","Small population centres",,"Total, tenure",47,10.7
+"2018","Saskatchewan","Small population centres",,"Owner",47,5.8
+"2018","Saskatchewan","Small population centres",,"Owner who is a first-time homebuyer",47,11.3
+"2018","Saskatchewan","Small population centres",,"Owner who is not a first-time homebuyer",47,5
+"2018","Saskatchewan","Small population centres",,"Renter",47,28
+"2018","Saskatchewan","Small population centres",,"Renter not in social and affordable housing",47,19.2
+"2018","Saskatchewan","Small population centres",,"Renter in social and affordable housing",47,48
+"2018","Alberta","Small population centres",,"Total, tenure",48,7.3
+"2018","Alberta","Small population centres",,"Owner",48,4.3
+"2018","Alberta","Small population centres",,"Owner who is a first-time homebuyer",48,3.7
+"2018","Alberta","Small population centres",,"Owner who is not a first-time homebuyer",48,4.4
+"2018","Alberta","Small population centres",,"Renter",48,17.2
+"2018","Alberta","Small population centres",,"Renter not in social and affordable housing",48,14
+"2018","Alberta","Small population centres",,"Renter in social and affordable housing",48,37
+"2018","British Columbia","Small population centres",,"Total, tenure",59,10.4
+"2018","British Columbia","Small population centres",,"Owner",59,3.9
+"2018","British Columbia","Small population centres",,"Owner who is not a first-time homebuyer",59,4.4
+"2018","British Columbia","Small population centres",,"Renter",59,26
+"2018","British Columbia","Small population centres",,"Renter not in social and affordable housing",59,24
+"2018","British Columbia","Small population centres",,"Renter in social and affordable housing",59,43
+"2018","Canada","Small population centres",,"Total, tenure",,9.2
+"2018","Canada","Small population centres",,"Owner",,3.7
+"2018","Canada","Small population centres",,"Owner who is a first-time homebuyer",,3.6
+"2018","Canada","Small population centres",,"Owner who is not a first-time homebuyer",,3.7
+"2018","Canada","Small population centres",,"Renter",,22
+"2018","Canada","Small population centres",,"Renter not in social and affordable housing",,20
+"2018","Canada","Small population centres",,"Renter in social and affordable housing",,32
+"2021","Newfoundland and Labrador","Small population centres",,"Total, tenure",10,7.7
+"2021","Newfoundland and Labrador","Small population centres",,"Owner",10,2.4
+"2021","Newfoundland and Labrador","Small population centres",,"Owner who is not a first-time homebuyer",10,2.7
+"2021","Newfoundland and Labrador","Small population centres",,"Renter",10,18.8
+"2021","Newfoundland and Labrador","Small population centres",,"Renter not in social and affordable housing",10,17
+"2021","Newfoundland and Labrador","Small population centres",,"Renter in social and affordable housing",10,26
+"2021","Prince Edward Island","Small population centres",,"Total, tenure",11,8.7
+"2021","Prince Edward Island","Small population centres",,"Owner",11,3.4
+"2021","Prince Edward Island","Small population centres",,"Owner who is not a first-time homebuyer",11,3.8
+"2021","Prince Edward Island","Small population centres",,"Renter",11,14.3
+"2021","Prince Edward Island","Small population centres",,"Renter not in social and affordable housing",11,11.9
+"2021","Prince Edward Island","Small population centres",,"Renter in social and affordable housing",11,22
+"2021","Nova Scotia","Small population centres",,"Total, tenure",12,9.9
+"2021","Nova Scotia","Small population centres",,"Owner",12,4.2
+"2021","Nova Scotia","Small population centres",,"Owner who is a first-time homebuyer",12,11
+"2021","Nova Scotia","Small population centres",,"Owner who is not a first-time homebuyer",12,3.5
+"2021","Nova Scotia","Small population centres",,"Renter",12,18.6
+"2021","Nova Scotia","Small population centres",,"Renter not in social and affordable housing",12,16.4
+"2021","Nova Scotia","Small population centres",,"Renter in social and affordable housing",12,27
+"2021","New Brunswick","Small population centres",,"Total, tenure",13,4.5
+"2021","New Brunswick","Small population centres",,"Owner",13,2.5
+"2021","New Brunswick","Small population centres",,"Owner who is not a first-time homebuyer",13,2.6
+"2021","New Brunswick","Small population centres",,"Renter",13,8.4
+"2021","New Brunswick","Small population centres",,"Renter not in social and affordable housing",13,7.6
+"2021","New Brunswick","Small population centres",,"Renter in social and affordable housing",13,11.4
+"2021","Quebec","Small population centres",,"Total, tenure",24,6
+"2021","Quebec","Small population centres",,"Owner",24,3.1
+"2021","Quebec","Small population centres",,"Owner who is not a first-time homebuyer",24,3.6
+"2021","Quebec","Small population centres",,"Renter",24,10.3
+"2021","Quebec","Small population centres",,"Renter not in social and affordable housing",24,11
+"2021","Quebec","Small population centres",,"Renter in social and affordable housing",24,3.6
+"2021","Ontario","Small population centres",,"Total, tenure",35,9.5
+"2021","Ontario","Small population centres",,"Owner",35,3.5
+"2021","Ontario","Small population centres",,"Owner who is a first-time homebuyer",35,3
+"2021","Ontario","Small population centres",,"Owner who is not a first-time homebuyer",35,3.5
+"2021","Ontario","Small population centres",,"Renter",35,27
+"2021","Ontario","Small population centres",,"Renter not in social and affordable housing",35,26
+"2021","Ontario","Small population centres",,"Renter in social and affordable housing",35,30
+"2021","Manitoba","Small population centres",,"Total, tenure",46,7
+"2021","Manitoba","Small population centres",,"Owner",46,3.1
+"2021","Manitoba","Small population centres",,"Owner who is not a first-time homebuyer",46,3.6
+"2021","Manitoba","Small population centres",,"Renter",46,16.3
+"2021","Manitoba","Small population centres",,"Renter not in social and affordable housing",46,11.3
+"2021","Manitoba","Small population centres",,"Renter in social and affordable housing",46,34
+"2021","Saskatchewan","Small population centres",,"Total, tenure",47,8.2
+"2021","Saskatchewan","Small population centres",,"Owner",47,5.4
+"2021","Saskatchewan","Small population centres",,"Owner who is not a first-time homebuyer",47,5.9
+"2021","Saskatchewan","Small population centres",,"Renter",47,16.6
+"2021","Saskatchewan","Small population centres",,"Renter not in social and affordable housing",47,14.6
+"2021","Saskatchewan","Small population centres",,"Renter in social and affordable housing",47,23
+"2021","Alberta","Small population centres",,"Total, tenure",48,8.9
+"2021","Alberta","Small population centres",,"Owner",48,5.5
+"2021","Alberta","Small population centres",,"Owner who is a first-time homebuyer",48,9.2
+"2021","Alberta","Small population centres",,"Owner who is not a first-time homebuyer",48,4.9
+"2021","Alberta","Small population centres",,"Renter",48,18.9
+"2021","Alberta","Small population centres",,"Renter not in social and affordable housing",48,18.6
+"2021","Alberta","Small population centres",,"Renter in social and affordable housing",48,21
+"2021","British Columbia","Small population centres",,"Total, tenure",59,10
+"2021","British Columbia","Small population centres",,"Owner",59,4.4
+"2021","British Columbia","Small population centres",,"Owner who is a first-time homebuyer",59,9
+"2021","British Columbia","Small population centres",,"Owner who is not a first-time homebuyer",59,4
+"2021","British Columbia","Small population centres",,"Renter",59,24
+"2021","British Columbia","Small population centres",,"Renter not in social and affordable housing",59,23
+"2021","British Columbia","Small population centres",,"Renter in social and affordable housing",59,29
+"2021","Canada","Small population centres",,"Total, tenure",,8.3
+"2021","Canada","Small population centres",,"Owner",,3.8
+"2021","Canada","Small population centres",,"Owner who is a first-time homebuyer",,3.6
+"2021","Canada","Small population centres",,"Owner who is not a first-time homebuyer",,3.9
+"2021","Canada","Small population centres",,"Renter",,18.3
+"2021","Canada","Small population centres",,"Renter not in social and affordable housing",,17.5
+"2021","Canada","Small population centres",,"Renter in social and affordable housing",,23
+"2018","Newfoundland and Labrador","Rural areas",,"Total, tenure",10,7.8
+"2018","Newfoundland and Labrador","Rural areas",,"Owner",10,6.3
+"2018","Newfoundland and Labrador","Rural areas",,"Owner who is not a first-time homebuyer",10,6.4
+"2018","Newfoundland and Labrador","Rural areas",,"Renter",10,24
+"2018","Newfoundland and Labrador","Rural areas",,"Renter not in social and affordable housing",10,20
+"2018","Newfoundland and Labrador","Rural areas",,"Renter in social and affordable housing",10,54
+"2018","Prince Edward Island","Rural areas",,"Total, tenure",11,9.1
+"2018","Prince Edward Island","Rural areas",,"Owner",11,7.9
+"2018","Prince Edward Island","Rural areas",,"Owner who is not a first-time homebuyer",11,8.2
+"2018","Prince Edward Island","Rural areas",,"Renter",11,15.9
+"2018","Prince Edward Island","Rural areas",,"Renter not in social and affordable housing",11,16.5
+"2018","Prince Edward Island","Rural areas",,"Renter in social and affordable housing",11,12.4
+"2018","Nova Scotia","Rural areas",,"Total, tenure",12,6.9
+"2018","Nova Scotia","Rural areas",,"Owner",12,5.4
+"2018","Nova Scotia","Rural areas",,"Owner who is a first-time homebuyer",12,3.9
+"2018","Nova Scotia","Rural areas",,"Owner who is not a first-time homebuyer",12,5.6
+"2018","Nova Scotia","Rural areas",,"Renter",12,18.5
+"2018","Nova Scotia","Rural areas",,"Renter not in social and affordable housing",12,13.5
+"2018","Nova Scotia","Rural areas",,"Renter in social and affordable housing",12,43
+"2018","New Brunswick","Rural areas",,"Total, tenure",13,6
+"2018","New Brunswick","Rural areas",,"Owner",13,3.9
+"2018","New Brunswick","Rural areas",,"Owner who is not a first-time homebuyer",13,4.1
+"2018","New Brunswick","Rural areas",,"Renter",13,25
+"2018","New Brunswick","Rural areas",,"Renter not in social and affordable housing",13,24
+"2018","New Brunswick","Rural areas",,"Renter in social and affordable housing",13,29
+"2018","Quebec","Rural areas",,"Total, tenure",24,5
+"2018","Quebec","Rural areas",,"Owner",24,3.6
+"2018","Quebec","Rural areas",,"Owner who is a first-time homebuyer",24,3.4
+"2018","Quebec","Rural areas",,"Owner who is not a first-time homebuyer",24,3.6
+"2018","Quebec","Rural areas",,"Renter",24,14.5
+"2018","Quebec","Rural areas",,"Renter not in social and affordable housing",24,14.8
+"2018","Quebec","Rural areas",,"Renter in social and affordable housing",24,12.4
+"2018","Ontario","Rural areas",,"Total, tenure",35,6.8
+"2018","Ontario","Rural areas",,"Owner",35,5.3
+"2018","Ontario","Rural areas",,"Owner who is a first-time homebuyer",35,2.5
+"2018","Ontario","Rural areas",,"Owner who is not a first-time homebuyer",35,5.5
+"2018","Ontario","Rural areas",,"Renter",35,18.6
+"2018","Ontario","Rural areas",,"Renter not in social and affordable housing",35,18
+"2018","Ontario","Rural areas",,"Renter in social and affordable housing",35,26
+"2018","Manitoba","Rural areas",,"Total, tenure",46,9.5
+"2018","Manitoba","Rural areas",,"Owner",46,7.1
+"2018","Manitoba","Rural areas",,"Owner who is not a first-time homebuyer",46,7.7
+"2018","Manitoba","Rural areas",,"Renter",46,27
+"2018","Manitoba","Rural areas",,"Renter not in social and affordable housing",46,29
+"2018","Manitoba","Rural areas",,"Renter in social and affordable housing",46,22
+"2018","Saskatchewan","Rural areas",,"Total, tenure",47,13.6
+"2018","Saskatchewan","Rural areas",,"Owner",47,11.3
+"2018","Saskatchewan","Rural areas",,"Owner who is a first-time homebuyer",47,5.6
+"2018","Saskatchewan","Rural areas",,"Owner who is not a first-time homebuyer",47,11.9
+"2018","Saskatchewan","Rural areas",,"Renter",47,29
+"2018","Saskatchewan","Rural areas",,"Renter not in social and affordable housing",47,14.6
+"2018","Saskatchewan","Rural areas",,"Renter in social and affordable housing",47,54
+"2018","Alberta","Rural areas",,"Total, tenure",48,10.8
+"2018","Alberta","Rural areas",,"Owner",48,10.3
+"2018","Alberta","Rural areas",,"Owner who is a first-time homebuyer",48,3.3
+"2018","Alberta","Rural areas",,"Owner who is not a first-time homebuyer",48,11.2
+"2018","Alberta","Rural areas",,"Renter",48,15.4
+"2018","Alberta","Rural areas",,"Renter not in social and affordable housing",48,14
+"2018","Alberta","Rural areas",,"Renter in social and affordable housing",48,26
+"2018","British Columbia","Rural areas",,"Total, tenure",59,9.8
+"2018","British Columbia","Rural areas",,"Owner",59,8
+"2018","British Columbia","Rural areas",,"Owner who is a first-time homebuyer",59,6.3
+"2018","British Columbia","Rural areas",,"Owner who is not a first-time homebuyer",59,8.2
+"2018","British Columbia","Rural areas",,"Renter",59,19
+"2018","British Columbia","Rural areas",,"Renter not in social and affordable housing",59,17.3
+"2018","British Columbia","Rural areas",,"Renter in social and affordable housing",59,42
+"2018","Canada","Rural areas",,"Total, tenure",,7.4
+"2018","Canada","Rural areas",,"Owner",,5.7
+"2018","Canada","Rural areas",,"Owner who is a first-time homebuyer",,3.3
+"2018","Canada","Rural areas",,"Owner who is not a first-time homebuyer",,6
+"2018","Canada","Rural areas",,"Renter",,19.1
+"2018","Canada","Rural areas",,"Renter not in social and affordable housing",,17
+"2018","Canada","Rural areas",,"Renter in social and affordable housing",,33
+"2021","Newfoundland and Labrador","Rural areas",,"Total, tenure",10,7
+"2021","Newfoundland and Labrador","Rural areas",,"Owner",10,5.8
+"2021","Newfoundland and Labrador","Rural areas",,"Owner who is not a first-time homebuyer",10,6.1
+"2021","Newfoundland and Labrador","Rural areas",,"Renter",10,18.3
+"2021","Newfoundland and Labrador","Rural areas",,"Renter not in social and affordable housing",10,14.9
+"2021","Newfoundland and Labrador","Rural areas",,"Renter in social and affordable housing",10,32
+"2021","Prince Edward Island","Rural areas",,"Total, tenure",11,6.2
+"2021","Prince Edward Island","Rural areas",,"Owner",11,4.3
+"2021","Prince Edward Island","Rural areas",,"Owner who is not a first-time homebuyer",11,4.4
+"2021","Prince Edward Island","Rural areas",,"Renter",11,17.3
+"2021","Prince Edward Island","Rural areas",,"Renter not in social and affordable housing",11,18.1
+"2021","Prince Edward Island","Rural areas",,"Renter in social and affordable housing",11,14
+"2021","Nova Scotia","Rural areas",,"Total, tenure",12,9.4
+"2021","Nova Scotia","Rural areas",,"Owner",12,8
+"2021","Nova Scotia","Rural areas",,"Owner who is a first-time homebuyer",12,10.8
+"2021","Nova Scotia","Rural areas",,"Owner who is not a first-time homebuyer",12,7.7
+"2021","Nova Scotia","Rural areas",,"Renter",12,19.6
+"2021","Nova Scotia","Rural areas",,"Renter not in social and affordable housing",12,18.3
+"2021","Nova Scotia","Rural areas",,"Renter in social and affordable housing",12,28
+"2021","New Brunswick","Rural areas",,"Total, tenure",13,6
+"2021","New Brunswick","Rural areas",,"Owner",13,5.1
+"2021","New Brunswick","Rural areas",,"Owner who is a first-time homebuyer",13,6.1
+"2021","New Brunswick","Rural areas",,"Owner who is not a first-time homebuyer",13,5
+"2021","New Brunswick","Rural areas",,"Renter",13,12.7
+"2021","New Brunswick","Rural areas",,"Renter not in social and affordable housing",13,11.2
+"2021","New Brunswick","Rural areas",,"Renter in social and affordable housing",13,25
+"2021","Quebec","Rural areas",,"Total, tenure",24,3.3
+"2021","Quebec","Rural areas",,"Owner",24,2.4
+"2021","Quebec","Rural areas",,"Owner who is not a first-time homebuyer",24,2.7
+"2021","Quebec","Rural areas",,"Renter",24,10.4
+"2021","Quebec","Rural areas",,"Renter not in social and affordable housing",24,10.1
+"2021","Quebec","Rural areas",,"Renter in social and affordable housing",24,12.7
+"2021","Ontario","Rural areas",,"Total, tenure",35,6.5
+"2021","Ontario","Rural areas",,"Owner",35,4.7
+"2021","Ontario","Rural areas",,"Owner who is a first-time homebuyer",35,3.5
+"2021","Ontario","Rural areas",,"Owner who is not a first-time homebuyer",35,4.8
+"2021","Ontario","Rural areas",,"Renter",35,22
+"2021","Ontario","Rural areas",,"Renter not in social and affordable housing",35,21
+"2021","Ontario","Rural areas",,"Renter in social and affordable housing",35,29
+"2021","Manitoba","Rural areas",,"Total, tenure",46,6.6
+"2021","Manitoba","Rural areas",,"Owner",46,4.6
+"2021","Manitoba","Rural areas",,"Owner who is not a first-time homebuyer",46,4.8
+"2021","Manitoba","Rural areas",,"Renter",46,26
+"2021","Manitoba","Rural areas",,"Renter not in social and affordable housing",46,26
+"2021","Manitoba","Rural areas",,"Renter in social and affordable housing",46,25
+"2021","Saskatchewan","Rural areas",,"Total, tenure",47,14.1
+"2021","Saskatchewan","Rural areas",,"Owner",47,11.6
+"2021","Saskatchewan","Rural areas",,"Owner who is a first-time homebuyer",47,8.3
+"2021","Saskatchewan","Rural areas",,"Owner who is not a first-time homebuyer",47,11.9
+"2021","Saskatchewan","Rural areas",,"Renter",47,30
+"2021","Saskatchewan","Rural areas",,"Renter not in social and affordable housing",47,21
+"2021","Saskatchewan","Rural areas",,"Renter in social and affordable housing",47,43
+"2021","Alberta","Rural areas",,"Total, tenure",48,11.5
+"2021","Alberta","Rural areas",,"Owner",48,7.4
+"2021","Alberta","Rural areas",,"Owner who is a first-time homebuyer",48,10.6
+"2021","Alberta","Rural areas",,"Owner who is not a first-time homebuyer",48,7
+"2021","Alberta","Rural areas",,"Renter",48,36
+"2021","Alberta","Rural areas",,"Renter not in social and affordable housing",48,35
+"2021","Alberta","Rural areas",,"Renter in social and affordable housing",48,49
+"2021","British Columbia","Rural areas",,"Total, tenure",59,9.8
+"2021","British Columbia","Rural areas",,"Owner",59,10.2
+"2021","British Columbia","Rural areas",,"Owner who is not a first-time homebuyer",59,10.5
+"2021","British Columbia","Rural areas",,"Renter",59,8.3
+"2021","British Columbia","Rural areas",,"Renter not in social and affordable housing",59,6.3
+"2021","British Columbia","Rural areas",,"Renter in social and affordable housing",59,57
+"2021","Canada","Rural areas",,"Total, tenure",,6.8
+"2021","Canada","Rural areas",,"Owner",,5.3
+"2021","Canada","Rural areas",,"Owner who is a first-time homebuyer",,4.3
+"2021","Canada","Rural areas",,"Owner who is not a first-time homebuyer",,5.4
+"2021","Canada","Rural areas",,"Renter",,17.5
+"2021","Canada","Rural areas",,"Renter not in social and affordable housing",,16.2
+"2021","Canada","Rural areas",,"Renter in social and affordable housing",,28
