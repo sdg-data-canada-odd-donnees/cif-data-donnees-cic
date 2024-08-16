@@ -171,7 +171,7 @@ census_metropolitan_areas <-
   ) %>%
   mutate(
     `Geographic location` = "Census metropolitan areas",
-    `Select census metropolitan areas` = Geography,
+    `Selected census metropolitan areas` = Geography,
     Geography = trimws(gsub(".*,",'', Geography)),
     Geography = case_when(
       Geography == "census metropolitan areas" ~ "Canada",
@@ -269,7 +269,7 @@ combined <-
     Year,
     Geography,
     `Geographic location`,
-    `Select census metropolitan areas`,
+    `Selected census metropolitan areas`,
     Tenure,
     Value
   )
