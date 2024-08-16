@@ -3002,7 +3002,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -3015,9 +3015,12 @@
                 "Moncton, New Brunswick",
                 "Saint John, New Brunswick",
                 "Quebec",
+                "Montréal, Quebec",
                 "Ottawa - Gatineau (Quebec part), Quebec",
+                "Québec, Quebec",
                 "Saguenay, Quebec",
                 "Sherbrooke, Quebec",
+                "Trois-Rivières, Quebec",
                 "Ontario",
                 "Barrie, Ontario",
                 "Belleville, Ontario",
