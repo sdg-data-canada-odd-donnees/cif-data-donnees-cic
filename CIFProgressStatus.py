@@ -142,55 +142,59 @@ def output_calculation_components(indicator_ids):
         print(ind_id)
 
         indicator = merge_indicator(ind_id)
-        data = pm.data_progress_measure(indicator['data'])
         meta = indicator['meta']
+        
+        config = pm.get_progress_calculation_options(meta)
+        if config is None:
+            # Set as not_available and go to next indicator
+            components_dict[ind_id] = {'progress_status': 'not_available'}
+            continue
 
-        if data is None or meta is None:
-            components_dict[ind_id] = {
-                'progress_status': 'not_available'
-            }
+        data = pm.data_progress_measure(indicator['data'], config)
+        if data is None:
+            # Set as not_available and go to next indicator
+            components_dict[ind_id] = {'progress_status': 'not_available'}
+            continue
 
+        if indicator['meta'].get('progress_calculation_options'):
+            opts = dict(indicator['meta'].get('progress_calculation_options')[0])
         else:
+            opts = {}
 
-            if indicator['meta'].get('progress_calculation_options'):
-                opts = dict(indicator['meta'].get('progress_calculation_options')[0])
-            else:
-                opts = {}
+        years = data["Year"]
+        current_year = years.max()
 
-            years = data["Year"]
-            current_year = years.max()
+        if not opts.get('base_year'):
+            opts['base_year'] = 2015
+        if not opts.get('target_year'):
+            opts['target_year'] = 2030
 
-            if not opts.get('base_year'):
-                opts['base_year'] = 2015
-            if not opts.get('target_year'):
-                opts['target_year'] = 2030
+        if opts['base_year'] not in years.values:
+            opts['base_year'] = years[years > opts['base_year']].min()
 
-            if opts['base_year'] not in years.values:
-                opts['base_year'] = years[years > opts['base_year']].min()
+        current_value = data.Value[data.Year == float(current_year)].values[0]
+        base_value = data.Value[data.Year == float(opts['base_year'])].values[0]
 
-            current_value = data.Value[data.Year == float(current_year)].values[0]
-            base_value = data.Value[data.Year == float(opts['base_year'])].values[0]
+        if pm.measure_indicator_progress(data, meta) is None:
+            progress_calculation_value = None
+        else:
+            progress_calculation_value = str(pm.measure_indicator_progress(data, meta).get('value'))
 
-            if pm.measure_indicator_progress(data, meta) is None:
-                progress_calculation_value = None
-            else:
-                progress_calculation_value = str(pm.measure_indicator_progress(data, meta).get('value'))
+        components_dict[ind_id] = {
+            'base_year': str(opts.get('base_year')),
+            'current_year': str(current_year),
+            'base_value': str(base_value),
+            'current_value': str(current_value),
+            'direction': str(opts.get('direction')),
+            'target_year': str(opts.get('target_year')),
+            'target': str(opts.get('target')),
+            'progress_calculation_value': progress_calculation_value,
+            'progress_status': str(pm.progress_measure(indicator))
+        }
 
-            components_dict[ind_id] = {
-                'base_year': str(opts.get('base_year')),
-                'current_year': str(current_year),
-                'base_value': str(base_value),
-                'current_value': str(current_value),
-                'direction': str(opts.get('direction')),
-                'target_year': str(opts.get('target_year')),
-                'target': str(opts.get('target')),
-                'progress_calculation_value': progress_calculation_value,
-                'progress_status': str(pm.progress_measure(indicator))
-            }
-
-        filepath = os.path.join('indicator_calculation_components.yml')
-        with open(filepath, 'w') as file:
-            outputs = yaml.dump(components_dict, file)
+    filepath = os.path.join('indicator_calculation_components.yml')
+    with open(filepath, 'w') as file:
+        outputs = yaml.dump(components_dict, file)
 
     return components_dict
 

@@ -12,29 +12,13 @@ def measure_indicator_progress(data, config):
     # data = indicator['data']    # get indicator data
     # config = indicator['meta']  # get configurations
 
-    # checks if progress calculation is turned on
-    if 'auto_progress_calculation' in config.keys():
-
-        # checks if any inputs have been configured
-        if config['auto_progress_calculation']:
-
-            if 'progress_calculation_options' in config.keys():
-                # take manual user inputs
-                config = config['progress_calculation_options'][0]
-
-        else:
-            return None
-
-    # return None if auto progress calculation is not turned on
-    else:
+    config = get_progress_calculation_options(config)
+    if config is None:
+        # return None because progress calculations not turned on
         return None
 
-    # get calculation defaults and update with user inputs (if any)
-    config = config_defaults(config)
-
     # get relevant data to calculate progress (aggregate/total line only)
-    data = data_progress_measure(data)
-
+    data = data_progress_measure(data, config)
     if data is None:
         return None
 
@@ -142,6 +126,26 @@ def default_progress_calc_options():
         }
     )
 
+def get_progress_calculation_options(metadata):
+    """
+    Get the progress_calculation_options from metadata.
+    """
+    if metadata is None:
+        return None
+    
+    # Check if progress calculation is turned on
+    if 'auto_progress_calculation' in metadata.keys():
+        if metadata['auto_progress_calculation']:
+            # Get the user inputs for progress_calculation_options
+            if 'progress_calculation_options' in metadata.keys():
+                return config_defaults(metadata['progress_calculation_options'][0])
+            else:
+                return default_progress_calc_options()
+        else:
+            return None
+    # Return None if auto progress calculation is not turned on
+    else:
+        return None
 
 def update_progress_thresholds(config, method):
     """Checks for configured progress thresholds or updates thresholds based on methodology.
