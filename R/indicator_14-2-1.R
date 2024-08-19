@@ -71,10 +71,10 @@ fish_stocks <- national_data %>%
 fish_stocks_healthy_and_cautious <- fish_stocks %>%
   filter(Status %in% c("Healthy zone", "Cautious zone")) %>%
   ungroup() %>%
-  summarise(Value = sum(Value), .by = c(Year, Units, Region, `Stock group`)) %>%
+  summarise(Value = sum(Value), .by = c(Year, Units, Region)) %>%
   # blank out headline data
-  mutate(Status = "",
-         Region = "")
+  mutate(Status = NA,
+         Region = NA)
 
 regions_stocks <- bind_rows(regions_data_2022, regions_data_2021) %>%
   rename_at(vars(ends_with("(number of stocks)")), ~ substr(., 1, nchar(.)-19)) %>%
@@ -109,7 +109,8 @@ final_data <- bind_rows(fish_stocks,
                         regions_stocks_healthy_and_cautious,
                         stock_groups,
                         stock_groups_healthy_and_cautious) %>%
-  relocate(`Stock group`, .before = Value)
+  relocate(`Stock group`, .before = Value) %>%
+  arrange(desc(Units))
 
 # Write data to csv
 write.csv(final_data, "data/indicator_14-2-1.csv",

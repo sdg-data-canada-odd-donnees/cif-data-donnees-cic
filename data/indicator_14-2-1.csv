@@ -1,52 +1,4 @@
 "Year","Units","Status","Region","Stock group","Value"
-"2011","Number of stocks","Healthy zone","Canada",,72
-"2012","Number of stocks","Healthy zone","Canada",,75
-"2013","Number of stocks","Healthy zone","Canada",,74
-"2014","Number of stocks","Healthy zone","Canada",,75
-"2015","Number of stocks","Healthy zone","Canada",,78
-"2016","Number of stocks","Healthy zone","Canada",,76
-"2017","Number of stocks","Healthy zone","Canada",,63
-"2018","Number of stocks","Healthy zone","Canada",,58
-"2019","Number of stocks","Healthy zone","Canada",,52
-"2020","Number of stocks","Healthy zone","Canada",,56
-"2021","Number of stocks","Healthy zone","Canada",,66
-"2022","Number of stocks","Healthy zone","Canada",,66
-"2011","Number of stocks","Cautious zone","Canada",,31
-"2012","Number of stocks","Cautious zone","Canada",,37
-"2013","Number of stocks","Cautious zone","Canada",,41
-"2014","Number of stocks","Cautious zone","Canada",,40
-"2015","Number of stocks","Cautious zone","Canada",,31
-"2016","Number of stocks","Cautious zone","Canada",,31
-"2017","Number of stocks","Cautious zone","Canada",,25
-"2018","Number of stocks","Cautious zone","Canada",,27
-"2019","Number of stocks","Cautious zone","Canada",,29
-"2020","Number of stocks","Cautious zone","Canada",,23
-"2021","Number of stocks","Cautious zone","Canada",,27
-"2022","Number of stocks","Cautious zone","Canada",,24
-"2011","Number of stocks","Critical zone","Canada",,17
-"2012","Number of stocks","Critical zone","Canada",,15
-"2013","Number of stocks","Critical zone","Canada",,16
-"2014","Number of stocks","Critical zone","Canada",,15
-"2015","Number of stocks","Critical zone","Canada",,19
-"2016","Number of stocks","Critical zone","Canada",,21
-"2017","Number of stocks","Critical zone","Canada",,18
-"2018","Number of stocks","Critical zone","Canada",,19
-"2019","Number of stocks","Critical zone","Canada",,25
-"2020","Number of stocks","Critical zone","Canada",,23
-"2021","Number of stocks","Critical zone","Canada",,22
-"2022","Number of stocks","Critical zone","Canada",,23
-"2011","Number of stocks","Status uncertain","Canada",,35
-"2012","Number of stocks","Status uncertain","Canada",,28
-"2013","Number of stocks","Status uncertain","Canada",,24
-"2014","Number of stocks","Status uncertain","Canada",,24
-"2015","Number of stocks","Status uncertain","Canada",,31
-"2016","Number of stocks","Status uncertain","Canada",,42
-"2017","Number of stocks","Status uncertain","Canada",,73
-"2018","Number of stocks","Status uncertain","Canada",,73
-"2019","Number of stocks","Status uncertain","Canada",,70
-"2020","Number of stocks","Status uncertain","Canada",,78
-"2021","Number of stocks","Status uncertain","Canada",,77
-"2022","Number of stocks","Status uncertain","Canada",,82
 "2011","Percentage","Healthy zone","Canada",,46.4516129032258
 "2012","Percentage","Healthy zone","Canada",,48.3870967741936
 "2013","Percentage","Healthy zone","Canada",,47.741935483871
@@ -95,54 +47,18 @@
 "2020","Percentage","Status uncertain","Canada",,43.3333333333333
 "2021","Percentage","Status uncertain","Canada",,40.1041666666667
 "2022","Percentage","Status uncertain","Canada",,42.0512820512821
-"2011","Number of stocks","","","",103
-"2012","Number of stocks","","","",112
-"2013","Number of stocks","","","",115
-"2014","Number of stocks","","","",115
-"2015","Number of stocks","","","",109
-"2016","Number of stocks","","","",107
-"2017","Number of stocks","","","",88
-"2018","Number of stocks","","","",85
-"2019","Number of stocks","","","",81
-"2020","Number of stocks","","","",79
-"2021","Number of stocks","","","",93
-"2022","Number of stocks","","","",90
-"2011","Percentage","","","",66.4516129032258
-"2012","Percentage","","","",72.258064516129
-"2013","Percentage","","","",74.1935483870968
-"2014","Percentage","","","",74.6753246753247
-"2015","Percentage","","","",68.5534591194968
-"2016","Percentage","","","",62.9411764705882
-"2017","Percentage","","","",49.1620111731844
-"2018","Percentage","","","",48.0225988700565
-"2019","Percentage","","","",46.0227272727273
-"2020","Percentage","","","",43.8888888888889
-"2021","Percentage","","","",48.4375
-"2022","Percentage","","","",46.1538461538462
-"2022","Number of stocks","Healthy zone","Pacific",,24
-"2022","Number of stocks","Cautious zone","Pacific",,13
-"2022","Number of stocks","Critical zone","Pacific",,5
-"2022","Number of stocks","Status uncertain","Pacific",,15
-"2021","Number of stocks","Healthy zone","Pacific",,23
-"2021","Number of stocks","Cautious zone","Pacific",,16
-"2021","Number of stocks","Critical zone","Pacific",,4
-"2021","Number of stocks","Status uncertain","Pacific",,14
-"2022","Number of stocks","Healthy zone","Arctic",,2
-"2022","Number of stocks","Cautious zone","Arctic",,1
-"2022","Number of stocks","Critical zone","Arctic",,0
-"2022","Number of stocks","Status uncertain","Arctic",,18
-"2021","Number of stocks","Healthy zone","Arctic",,2
-"2021","Number of stocks","Cautious zone","Arctic",,1
-"2021","Number of stocks","Critical zone","Arctic",,0
-"2021","Number of stocks","Status uncertain","Arctic",,18
-"2022","Number of stocks","Healthy zone","Atlantic",,40
-"2022","Number of stocks","Cautious zone","Atlantic",,10
-"2022","Number of stocks","Critical zone","Atlantic",,18
-"2022","Number of stocks","Status uncertain","Atlantic",,49
-"2021","Number of stocks","Healthy zone","Atlantic",,41
-"2021","Number of stocks","Cautious zone","Atlantic",,10
-"2021","Number of stocks","Critical zone","Atlantic",,18
-"2021","Number of stocks","Status uncertain","Atlantic",,45
+"2011","Percentage",,,,66.4516129032258
+"2012","Percentage",,,,72.258064516129
+"2013","Percentage",,,,74.1935483870968
+"2014","Percentage",,,,74.6753246753247
+"2015","Percentage",,,,68.5534591194968
+"2016","Percentage",,,,62.9411764705882
+"2017","Percentage",,,,49.1620111731844
+"2018","Percentage",,,,48.0225988700565
+"2019","Percentage",,,,46.0227272727273
+"2020","Percentage",,,,43.8888888888889
+"2021","Percentage",,,,48.4375
+"2022","Percentage",,,,46.1538461538462
 "2022","Percentage","Healthy zone","Pacific",,0.421052631578947
 "2022","Percentage","Cautious zone","Pacific",,0.228070175438596
 "2022","Percentage","Critical zone","Pacific",,0.087719298245614
@@ -167,82 +83,12 @@
 "2021","Percentage","Cautious zone","Atlantic",,0.087719298245614
 "2021","Percentage","Critical zone","Atlantic",,0.157894736842105
 "2021","Percentage","Status uncertain","Atlantic",,0.394736842105263
-"2022","Number of stocks","Healthy and cautious zones","Pacific",,37
-"2021","Number of stocks","Healthy and cautious zones","Pacific",,39
-"2022","Number of stocks","Healthy and cautious zones","Arctic",,3
-"2021","Number of stocks","Healthy and cautious zones","Arctic",,3
-"2022","Number of stocks","Healthy and cautious zones","Atlantic",,50
-"2021","Number of stocks","Healthy and cautious zones","Atlantic",,51
 "2022","Percentage","Healthy and cautious zones","Pacific",,0.649122807017544
 "2021","Percentage","Healthy and cautious zones","Pacific",,0.684210526315789
 "2022","Percentage","Healthy and cautious zones","Arctic",,0.142857142857143
 "2021","Percentage","Healthy and cautious zones","Arctic",,0.142857142857143
 "2022","Percentage","Healthy and cautious zones","Atlantic",,0.427350427350427
 "2021","Percentage","Healthy and cautious zones","Atlantic",,0.447368421052632
-"2022","Number of stocks","Healthy zone",,"Marine Mammals",2
-"2022","Number of stocks","Healthy zone",,"Groundfish",17
-"2022","Number of stocks","Healthy zone",,"Small pelagics",2
-"2022","Number of stocks","Healthy zone",,"Large pelagics",1
-"2022","Number of stocks","Healthy zone",,"Salmonids",5
-"2022","Number of stocks","Healthy zone",,"Crustaceans",30
-"2022","Number of stocks","Healthy zone",,"Molluscs",6
-"2022","Number of stocks","Healthy zone",,"Others",3
-"2021","Number of stocks","Healthy zone",,"Marine Mammals",2
-"2021","Number of stocks","Healthy zone",,"Groundfish",18
-"2021","Number of stocks","Healthy zone",,"Small pelagics",1
-"2021","Number of stocks","Healthy zone",,"Large pelagics",2
-"2021","Number of stocks","Healthy zone",,"Salmonids",5
-"2021","Number of stocks","Healthy zone",,"Crustaceans",29
-"2021","Number of stocks","Healthy zone",,"Molluscs",6
-"2021","Number of stocks","Healthy zone",,"Others",6
-"2022","Number of stocks","Cautious zone",,"Marine Mammals",0
-"2022","Number of stocks","Cautious zone",,"Groundfish",8
-"2022","Number of stocks","Cautious zone",,"Small pelagics",5
-"2022","Number of stocks","Cautious zone",,"Large pelagics",0
-"2022","Number of stocks","Cautious zone",,"Salmonids",8
-"2022","Number of stocks","Cautious zone",,"Crustaceans",2
-"2022","Number of stocks","Cautious zone",,"Molluscs",1
-"2022","Number of stocks","Cautious zone",,"Others",0
-"2021","Number of stocks","Cautious zone",,"Marine Mammals",0
-"2021","Number of stocks","Cautious zone",,"Groundfish",9
-"2021","Number of stocks","Cautious zone",,"Small pelagics",5
-"2021","Number of stocks","Cautious zone",,"Large pelagics",0
-"2021","Number of stocks","Cautious zone",,"Salmonids",9
-"2021","Number of stocks","Cautious zone",,"Crustaceans",3
-"2021","Number of stocks","Cautious zone",,"Molluscs",1
-"2021","Number of stocks","Cautious zone",,"Others",0
-"2022","Number of stocks","Critical zone",,"Marine Mammals",0
-"2022","Number of stocks","Critical zone",,"Groundfish",11
-"2022","Number of stocks","Critical zone",,"Small pelagics",4
-"2022","Number of stocks","Critical zone",,"Large pelagics",0
-"2022","Number of stocks","Critical zone",,"Salmonids",5
-"2022","Number of stocks","Critical zone",,"Crustaceans",2
-"2022","Number of stocks","Critical zone",,"Molluscs",1
-"2022","Number of stocks","Critical zone",,"Others",0
-"2021","Number of stocks","Critical zone",,"Marine Mammals",0
-"2021","Number of stocks","Critical zone",,"Groundfish",11
-"2021","Number of stocks","Critical zone",,"Small pelagics",4
-"2021","Number of stocks","Critical zone",,"Large pelagics",0
-"2021","Number of stocks","Critical zone",,"Salmonids",4
-"2021","Number of stocks","Critical zone",,"Crustaceans",2
-"2021","Number of stocks","Critical zone",,"Molluscs",1
-"2021","Number of stocks","Critical zone",,"Others",0
-"2022","Number of stocks","Status uncertain",,"Marine Mammals",15
-"2022","Number of stocks","Status uncertain",,"Groundfish",15
-"2022","Number of stocks","Status uncertain",,"Small pelagics",13
-"2022","Number of stocks","Status uncertain",,"Large pelagics",1
-"2022","Number of stocks","Status uncertain",,"Salmonids",7
-"2022","Number of stocks","Status uncertain",,"Crustaceans",18
-"2022","Number of stocks","Status uncertain",,"Molluscs",10
-"2022","Number of stocks","Status uncertain",,"Others",3
-"2021","Number of stocks","Status uncertain",,"Marine Mammals",15
-"2021","Number of stocks","Status uncertain",,"Groundfish",14
-"2021","Number of stocks","Status uncertain",,"Small pelagics",10
-"2021","Number of stocks","Status uncertain",,"Large pelagics",1
-"2021","Number of stocks","Status uncertain",,"Salmonids",6
-"2021","Number of stocks","Status uncertain",,"Crustaceans",18
-"2021","Number of stocks","Status uncertain",,"Molluscs",10
-"2021","Number of stocks","Status uncertain",,"Others",3
 "2022","Percentage","Healthy zone",,"Marine Mammals",0.117647058823529
 "2022","Percentage","Healthy zone",,"Groundfish",0.333333333333333
 "2022","Percentage","Healthy zone",,"Small pelagics",0.0833333333333333
@@ -307,22 +153,6 @@
 "2021","Percentage","Status uncertain",,"Crustaceans",0.346153846153846
 "2021","Percentage","Status uncertain",,"Molluscs",0.555555555555556
 "2021","Percentage","Status uncertain",,"Others",0.333333333333333
-"2022","Number of stocks","Healthy and cautious zones",,"Marine Mammals",2
-"2022","Number of stocks","Healthy and cautious zones",,"Groundfish",25
-"2022","Number of stocks","Healthy and cautious zones",,"Small pelagics",7
-"2022","Number of stocks","Healthy and cautious zones",,"Large pelagics",1
-"2022","Number of stocks","Healthy and cautious zones",,"Salmonids",13
-"2022","Number of stocks","Healthy and cautious zones",,"Crustaceans",32
-"2022","Number of stocks","Healthy and cautious zones",,"Molluscs",7
-"2022","Number of stocks","Healthy and cautious zones",,"Others",3
-"2021","Number of stocks","Healthy and cautious zones",,"Marine Mammals",2
-"2021","Number of stocks","Healthy and cautious zones",,"Groundfish",27
-"2021","Number of stocks","Healthy and cautious zones",,"Small pelagics",6
-"2021","Number of stocks","Healthy and cautious zones",,"Large pelagics",2
-"2021","Number of stocks","Healthy and cautious zones",,"Salmonids",14
-"2021","Number of stocks","Healthy and cautious zones",,"Crustaceans",32
-"2021","Number of stocks","Healthy and cautious zones",,"Molluscs",7
-"2021","Number of stocks","Healthy and cautious zones",,"Others",6
 "2022","Percentage","Healthy and cautious zones",,"Marine Mammals",0.117647058823529
 "2022","Percentage","Healthy and cautious zones",,"Groundfish",0.490196078431373
 "2022","Percentage","Healthy and cautious zones",,"Small pelagics",0.291666666666667
@@ -339,3 +169,173 @@
 "2021","Percentage","Healthy and cautious zones",,"Crustaceans",0.615384615384615
 "2021","Percentage","Healthy and cautious zones",,"Molluscs",0.388888888888889
 "2021","Percentage","Healthy and cautious zones",,"Others",0.666666666666667
+"2011","Number of stocks","Healthy zone","Canada",,72
+"2012","Number of stocks","Healthy zone","Canada",,75
+"2013","Number of stocks","Healthy zone","Canada",,74
+"2014","Number of stocks","Healthy zone","Canada",,75
+"2015","Number of stocks","Healthy zone","Canada",,78
+"2016","Number of stocks","Healthy zone","Canada",,76
+"2017","Number of stocks","Healthy zone","Canada",,63
+"2018","Number of stocks","Healthy zone","Canada",,58
+"2019","Number of stocks","Healthy zone","Canada",,52
+"2020","Number of stocks","Healthy zone","Canada",,56
+"2021","Number of stocks","Healthy zone","Canada",,66
+"2022","Number of stocks","Healthy zone","Canada",,66
+"2011","Number of stocks","Cautious zone","Canada",,31
+"2012","Number of stocks","Cautious zone","Canada",,37
+"2013","Number of stocks","Cautious zone","Canada",,41
+"2014","Number of stocks","Cautious zone","Canada",,40
+"2015","Number of stocks","Cautious zone","Canada",,31
+"2016","Number of stocks","Cautious zone","Canada",,31
+"2017","Number of stocks","Cautious zone","Canada",,25
+"2018","Number of stocks","Cautious zone","Canada",,27
+"2019","Number of stocks","Cautious zone","Canada",,29
+"2020","Number of stocks","Cautious zone","Canada",,23
+"2021","Number of stocks","Cautious zone","Canada",,27
+"2022","Number of stocks","Cautious zone","Canada",,24
+"2011","Number of stocks","Critical zone","Canada",,17
+"2012","Number of stocks","Critical zone","Canada",,15
+"2013","Number of stocks","Critical zone","Canada",,16
+"2014","Number of stocks","Critical zone","Canada",,15
+"2015","Number of stocks","Critical zone","Canada",,19
+"2016","Number of stocks","Critical zone","Canada",,21
+"2017","Number of stocks","Critical zone","Canada",,18
+"2018","Number of stocks","Critical zone","Canada",,19
+"2019","Number of stocks","Critical zone","Canada",,25
+"2020","Number of stocks","Critical zone","Canada",,23
+"2021","Number of stocks","Critical zone","Canada",,22
+"2022","Number of stocks","Critical zone","Canada",,23
+"2011","Number of stocks","Status uncertain","Canada",,35
+"2012","Number of stocks","Status uncertain","Canada",,28
+"2013","Number of stocks","Status uncertain","Canada",,24
+"2014","Number of stocks","Status uncertain","Canada",,24
+"2015","Number of stocks","Status uncertain","Canada",,31
+"2016","Number of stocks","Status uncertain","Canada",,42
+"2017","Number of stocks","Status uncertain","Canada",,73
+"2018","Number of stocks","Status uncertain","Canada",,73
+"2019","Number of stocks","Status uncertain","Canada",,70
+"2020","Number of stocks","Status uncertain","Canada",,78
+"2021","Number of stocks","Status uncertain","Canada",,77
+"2022","Number of stocks","Status uncertain","Canada",,82
+"2011","Number of stocks",,,,103
+"2012","Number of stocks",,,,112
+"2013","Number of stocks",,,,115
+"2014","Number of stocks",,,,115
+"2015","Number of stocks",,,,109
+"2016","Number of stocks",,,,107
+"2017","Number of stocks",,,,88
+"2018","Number of stocks",,,,85
+"2019","Number of stocks",,,,81
+"2020","Number of stocks",,,,79
+"2021","Number of stocks",,,,93
+"2022","Number of stocks",,,,90
+"2022","Number of stocks","Healthy zone","Pacific",,24
+"2022","Number of stocks","Cautious zone","Pacific",,13
+"2022","Number of stocks","Critical zone","Pacific",,5
+"2022","Number of stocks","Status uncertain","Pacific",,15
+"2021","Number of stocks","Healthy zone","Pacific",,23
+"2021","Number of stocks","Cautious zone","Pacific",,16
+"2021","Number of stocks","Critical zone","Pacific",,4
+"2021","Number of stocks","Status uncertain","Pacific",,14
+"2022","Number of stocks","Healthy zone","Arctic",,2
+"2022","Number of stocks","Cautious zone","Arctic",,1
+"2022","Number of stocks","Critical zone","Arctic",,0
+"2022","Number of stocks","Status uncertain","Arctic",,18
+"2021","Number of stocks","Healthy zone","Arctic",,2
+"2021","Number of stocks","Cautious zone","Arctic",,1
+"2021","Number of stocks","Critical zone","Arctic",,0
+"2021","Number of stocks","Status uncertain","Arctic",,18
+"2022","Number of stocks","Healthy zone","Atlantic",,40
+"2022","Number of stocks","Cautious zone","Atlantic",,10
+"2022","Number of stocks","Critical zone","Atlantic",,18
+"2022","Number of stocks","Status uncertain","Atlantic",,49
+"2021","Number of stocks","Healthy zone","Atlantic",,41
+"2021","Number of stocks","Cautious zone","Atlantic",,10
+"2021","Number of stocks","Critical zone","Atlantic",,18
+"2021","Number of stocks","Status uncertain","Atlantic",,45
+"2022","Number of stocks","Healthy and cautious zones","Pacific",,37
+"2021","Number of stocks","Healthy and cautious zones","Pacific",,39
+"2022","Number of stocks","Healthy and cautious zones","Arctic",,3
+"2021","Number of stocks","Healthy and cautious zones","Arctic",,3
+"2022","Number of stocks","Healthy and cautious zones","Atlantic",,50
+"2021","Number of stocks","Healthy and cautious zones","Atlantic",,51
+"2022","Number of stocks","Healthy zone",,"Marine Mammals",2
+"2022","Number of stocks","Healthy zone",,"Groundfish",17
+"2022","Number of stocks","Healthy zone",,"Small pelagics",2
+"2022","Number of stocks","Healthy zone",,"Large pelagics",1
+"2022","Number of stocks","Healthy zone",,"Salmonids",5
+"2022","Number of stocks","Healthy zone",,"Crustaceans",30
+"2022","Number of stocks","Healthy zone",,"Molluscs",6
+"2022","Number of stocks","Healthy zone",,"Others",3
+"2021","Number of stocks","Healthy zone",,"Marine Mammals",2
+"2021","Number of stocks","Healthy zone",,"Groundfish",18
+"2021","Number of stocks","Healthy zone",,"Small pelagics",1
+"2021","Number of stocks","Healthy zone",,"Large pelagics",2
+"2021","Number of stocks","Healthy zone",,"Salmonids",5
+"2021","Number of stocks","Healthy zone",,"Crustaceans",29
+"2021","Number of stocks","Healthy zone",,"Molluscs",6
+"2021","Number of stocks","Healthy zone",,"Others",6
+"2022","Number of stocks","Cautious zone",,"Marine Mammals",0
+"2022","Number of stocks","Cautious zone",,"Groundfish",8
+"2022","Number of stocks","Cautious zone",,"Small pelagics",5
+"2022","Number of stocks","Cautious zone",,"Large pelagics",0
+"2022","Number of stocks","Cautious zone",,"Salmonids",8
+"2022","Number of stocks","Cautious zone",,"Crustaceans",2
+"2022","Number of stocks","Cautious zone",,"Molluscs",1
+"2022","Number of stocks","Cautious zone",,"Others",0
+"2021","Number of stocks","Cautious zone",,"Marine Mammals",0
+"2021","Number of stocks","Cautious zone",,"Groundfish",9
+"2021","Number of stocks","Cautious zone",,"Small pelagics",5
+"2021","Number of stocks","Cautious zone",,"Large pelagics",0
+"2021","Number of stocks","Cautious zone",,"Salmonids",9
+"2021","Number of stocks","Cautious zone",,"Crustaceans",3
+"2021","Number of stocks","Cautious zone",,"Molluscs",1
+"2021","Number of stocks","Cautious zone",,"Others",0
+"2022","Number of stocks","Critical zone",,"Marine Mammals",0
+"2022","Number of stocks","Critical zone",,"Groundfish",11
+"2022","Number of stocks","Critical zone",,"Small pelagics",4
+"2022","Number of stocks","Critical zone",,"Large pelagics",0
+"2022","Number of stocks","Critical zone",,"Salmonids",5
+"2022","Number of stocks","Critical zone",,"Crustaceans",2
+"2022","Number of stocks","Critical zone",,"Molluscs",1
+"2022","Number of stocks","Critical zone",,"Others",0
+"2021","Number of stocks","Critical zone",,"Marine Mammals",0
+"2021","Number of stocks","Critical zone",,"Groundfish",11
+"2021","Number of stocks","Critical zone",,"Small pelagics",4
+"2021","Number of stocks","Critical zone",,"Large pelagics",0
+"2021","Number of stocks","Critical zone",,"Salmonids",4
+"2021","Number of stocks","Critical zone",,"Crustaceans",2
+"2021","Number of stocks","Critical zone",,"Molluscs",1
+"2021","Number of stocks","Critical zone",,"Others",0
+"2022","Number of stocks","Status uncertain",,"Marine Mammals",15
+"2022","Number of stocks","Status uncertain",,"Groundfish",15
+"2022","Number of stocks","Status uncertain",,"Small pelagics",13
+"2022","Number of stocks","Status uncertain",,"Large pelagics",1
+"2022","Number of stocks","Status uncertain",,"Salmonids",7
+"2022","Number of stocks","Status uncertain",,"Crustaceans",18
+"2022","Number of stocks","Status uncertain",,"Molluscs",10
+"2022","Number of stocks","Status uncertain",,"Others",3
+"2021","Number of stocks","Status uncertain",,"Marine Mammals",15
+"2021","Number of stocks","Status uncertain",,"Groundfish",14
+"2021","Number of stocks","Status uncertain",,"Small pelagics",10
+"2021","Number of stocks","Status uncertain",,"Large pelagics",1
+"2021","Number of stocks","Status uncertain",,"Salmonids",6
+"2021","Number of stocks","Status uncertain",,"Crustaceans",18
+"2021","Number of stocks","Status uncertain",,"Molluscs",10
+"2021","Number of stocks","Status uncertain",,"Others",3
+"2022","Number of stocks","Healthy and cautious zones",,"Marine Mammals",2
+"2022","Number of stocks","Healthy and cautious zones",,"Groundfish",25
+"2022","Number of stocks","Healthy and cautious zones",,"Small pelagics",7
+"2022","Number of stocks","Healthy and cautious zones",,"Large pelagics",1
+"2022","Number of stocks","Healthy and cautious zones",,"Salmonids",13
+"2022","Number of stocks","Healthy and cautious zones",,"Crustaceans",32
+"2022","Number of stocks","Healthy and cautious zones",,"Molluscs",7
+"2022","Number of stocks","Healthy and cautious zones",,"Others",3
+"2021","Number of stocks","Healthy and cautious zones",,"Marine Mammals",2
+"2021","Number of stocks","Healthy and cautious zones",,"Groundfish",27
+"2021","Number of stocks","Healthy and cautious zones",,"Small pelagics",6
+"2021","Number of stocks","Healthy and cautious zones",,"Large pelagics",2
+"2021","Number of stocks","Healthy and cautious zones",,"Salmonids",14
+"2021","Number of stocks","Healthy and cautious zones",,"Crustaceans",32
+"2021","Number of stocks","Healthy and cautious zones",,"Molluscs",7
+"2021","Number of stocks","Healthy and cautious zones",,"Others",6
