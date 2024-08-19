@@ -170,7 +170,7 @@ def update_progress_thresholds(config, method):
     return config
 
 
-def data_progress_measure(data):
+def data_progress_measure(data, config):
     """Checks and filters data for indicator for which progress is being calculated.
 
     If the Year column in data contains more than 4 characters (standard year format), takes the first 4 characters.
@@ -190,10 +190,16 @@ def data_progress_measure(data):
         data['Year'] = data['Year'].astype(str).str.slice(0, 4).astype(int)
 
     # get just the total line values from data
-    cols = data.columns.values
+    cols = data.columns
     if len(cols) > 2:
-        cols = cols[1:-1]
-        data = data[data[cols].isna().all('columns')]
+        # Data has disaggregations, find headline data
+        # If units are series are given, select desired unit/series to use for progress measure calculation
+        if ("Units" in cols) and ("unit" in config.keys()):
+            data = data.loc[data["Units"] == config["unit"]]
+        if ("Series" in cols) and ("series" in config.keys()):
+            data = data.loc[data["Series"] == config["series"]]
+        # Find rows with all empty values (excluding Year, Units, Series, and Value columns)
+        data = data[data.loc[:, ~cols.isin(["Year", "Units", "Series", "Value"])].isna().all("columns")]
         data = data.iloc[:, [0, -1]]
 
     # remove any NA values from data
