@@ -19,9 +19,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Number of stocks",
                 "Percentage",
-                "Number",
+                "Number of stocks",
                 ""
               ]
             }
@@ -58,7 +57,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "All stock groups",
                 "Marine Mammals",
                 "Groundfish",
                 "Small pelagics",

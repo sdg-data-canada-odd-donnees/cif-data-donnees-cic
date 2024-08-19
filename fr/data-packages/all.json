@@ -4572,9 +4572,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Nombre de stocks",
                 "Pourcentage",
-                "Nombre",
+                "Nombre de stocks",
                 ""
               ]
             },
@@ -4614,7 +4613,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les groupes de stocks",
                 "Mammifères marins",
                 "Poissons de fond",
                 "Petits poissons pélagiques",
