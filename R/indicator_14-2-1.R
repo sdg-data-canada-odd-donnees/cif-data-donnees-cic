@@ -80,7 +80,7 @@ regions_stocks <- bind_rows(regions_data_2022, regions_data_2021) %>%
   rename_at(vars(ends_with("(number of stocks)")), ~ substr(., 1, nchar(.)-19)) %>%
   gather(key = "Region", value = "Number of stocks", -Year, -Status) %>%
   group_by(Year, Region) %>%
-  mutate(Percentage = `Number of stocks` / sum(`Number of stocks`)) %>%
+  mutate(Percentage = `Number of stocks` / sum(`Number of stocks`) * 100) %>%
   gather(key = "Units", value = "Value", -Year, -Status, -Region)
 
 regions_stocks_healthy_and_cautious <- regions_stocks %>%
@@ -94,7 +94,7 @@ stock_groups <- bind_rows(stocks_data_2022, stocks_data_2021) %>%
   filter(`Stock group` != "Total") %>%
   gather(key = "Status", value = "Number of stocks", -Year, -`Stock group`) %>%
   group_by(Year, `Stock group`) %>%
-  mutate(Percentage = `Number of stocks` / sum(`Number of stocks`)) %>%
+  mutate(Percentage = `Number of stocks` / sum(`Number of stocks`) * 100) %>%
   gather(key = "Units", value = "Value", -Year, -Status, -`Stock group`)
 
 stock_groups_healthy_and_cautious <- stock_groups %>%
