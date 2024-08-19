@@ -66,46 +66,41 @@ fish_stocks <- national_data %>%
   relocate(Units, .after = Year) %>%
   # Set region for national fish stocks data to Canada
   mutate(Region = "Canada") %>%
-  relocate(Region, .before = Value) %>%
-  mutate("Stock group" = "All stock groups") %>%
-  relocate(`Stock group`, .before = Value)
+  relocate(Region, .before = Value)
   
 fish_stocks_healthy_and_cautious <- fish_stocks %>%
   filter(Status %in% c("Healthy zone", "Cautious zone")) %>%
   ungroup() %>%
-  summarise(Value = sum(Value), .by = c(Year, Units, Region, `Stock group`)) %>%
+  summarise(Value = sum(Value), .by = c(Year, Units, Region)) %>%
   # blank out headline data
-  mutate(Status = "",
-         Region = "",
-         `Stock group` = "")
+  mutate(Status = NA,
+         Region = NA)
 
 regions_stocks <- bind_rows(regions_data_2022, regions_data_2021) %>%
   rename_at(vars(ends_with("(number of stocks)")), ~ substr(., 1, nchar(.)-19)) %>%
-  gather(key = "Region", value = "Number", -Year, -Status) %>%
+  gather(key = "Region", value = "Number of stocks", -Year, -Status) %>%
   group_by(Year, Region) %>%
-  mutate(Percentage = Number / sum(Number)) %>%
-  gather(key = "Units", value = "Value", -Year, -Status, -Region) %>%
-  mutate("Stock group" = "All stock groups")
+  mutate(Percentage = `Number of stocks` / sum(`Number of stocks`)) %>%
+  gather(key = "Units", value = "Value", -Year, -Status, -Region)
 
 regions_stocks_healthy_and_cautious <- regions_stocks %>%
   filter(Status %in% c("Healthy zone", "Cautious zone")) %>%
   ungroup() %>%
-  summarise(Value = sum(Value), .by = c(Year, Units, Region, `Stock group`)) %>%
+  summarise(Value = sum(Value), .by = c(Year, Units, Region)) %>%
   mutate(Status = "Healthy and cautious zones")
 
 stock_groups <- bind_rows(stocks_data_2022, stocks_data_2021) %>%
   rename_at(vars(ends_with("(number of stocks)")), ~ substr(., 1, nchar(.)-19)) %>%
   filter(`Stock group` != "Total") %>%
-  gather(key = "Status", value = "Number", -Year, -`Stock group`) %>%
+  gather(key = "Status", value = "Number of stocks", -Year, -`Stock group`) %>%
   group_by(Year, `Stock group`) %>%
-  mutate(Percentage = Number / sum(Number)) %>%
-  gather(key = "Units", value = "Value", -Year, -Status, -`Stock group`) %>%
-  mutate(Region = "Canada")
+  mutate(Percentage = `Number of stocks` / sum(`Number of stocks`)) %>%
+  gather(key = "Units", value = "Value", -Year, -Status, -`Stock group`)
 
 stock_groups_healthy_and_cautious <- stock_groups %>%
   filter(Status %in% c("Healthy zone", "Cautious zone")) %>%
   ungroup() %>%
-  summarise(Value = sum(Value), .by = c(Year, Units, "Stock group", Region)) %>%
+  summarise(Value = sum(Value), .by = c(Year, Units, "Stock group")) %>%
   mutate(Status = "Healthy and cautious zones")
 
 final_data <- bind_rows(fish_stocks,
@@ -113,7 +108,9 @@ final_data <- bind_rows(fish_stocks,
                         regions_stocks,
                         regions_stocks_healthy_and_cautious,
                         stock_groups,
-                        stock_groups_healthy_and_cautious)
+                        stock_groups_healthy_and_cautious) %>%
+  relocate(`Stock group`, .before = Value) %>%
+  arrange(desc(Units))
 
 # Write data to csv
 write.csv(final_data, "data/indicator_14-2-1.csv",
