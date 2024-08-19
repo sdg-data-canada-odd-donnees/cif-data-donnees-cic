@@ -194,19 +194,19 @@ def output_calculation_components(indicator_ids):
 
     return components_dict
 
+if __name__ == "__main__":
+    # get all indicator ids from listed data files
+    indicator_ids = get_indicator_ids()
 
-# get all indicator ids from listed data files
-indicator_ids = get_indicator_ids()
+    # calculate & update progress measures
+    diffs = update_progress_status(indicator_ids)
 
-# calculate & update progress measures
-diffs = update_progress_status(indicator_ids)
+    # output all components of progress calculation
+    output_calculation_components(indicator_ids)
 
-# output all components of progress calculation
-output_calculation_components(indicator_ids)
+    # calculate indicator scores & output
+    scores = get_goal_progress(indicator_ids)
 
-# calculate indicator scores & output
-scores = get_goal_progress(indicator_ids)
-
-# if there have been changes to any progress measure, update the difference file
-if diffs:
-    update_progress_diff(diffs)
+    # if there have been changes to any progress measure, update the difference file
+    if diffs:
+        update_progress_diff(diffs)

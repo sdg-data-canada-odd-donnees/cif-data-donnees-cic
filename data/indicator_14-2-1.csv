@@ -1,20 +1,341 @@
-Year,data.Stock group,Value
-2011,,89.68
-2012,,95.48
-2013,,97.42
-2014,,98.7
-2015,,95.6
-2016,,95.88
-2017,,95.53
-2018,,96.05
-2019,,94.32
-2020,,98.33
-2021,,95.31
-2020,data.Marine mammals,94.12
-2020,data.Groundfish,100
-2020,data.Small pelagics,100
-2020,data.Large pelagics,100
-2020,data.Salmonids,95.45
-2020,data.Crustaceans,97.67
-2020,data.Molluscs,100
-2020,data.Others,100
+"Year","Units","Status","Region","Stock group","Value"
+"2011","Number of stocks","Healthy zone","Canada","All stock groups",72
+"2012","Number of stocks","Healthy zone","Canada","All stock groups",75
+"2013","Number of stocks","Healthy zone","Canada","All stock groups",74
+"2014","Number of stocks","Healthy zone","Canada","All stock groups",75
+"2015","Number of stocks","Healthy zone","Canada","All stock groups",78
+"2016","Number of stocks","Healthy zone","Canada","All stock groups",76
+"2017","Number of stocks","Healthy zone","Canada","All stock groups",63
+"2018","Number of stocks","Healthy zone","Canada","All stock groups",58
+"2019","Number of stocks","Healthy zone","Canada","All stock groups",52
+"2020","Number of stocks","Healthy zone","Canada","All stock groups",56
+"2021","Number of stocks","Healthy zone","Canada","All stock groups",66
+"2022","Number of stocks","Healthy zone","Canada","All stock groups",66
+"2011","Number of stocks","Cautious zone","Canada","All stock groups",31
+"2012","Number of stocks","Cautious zone","Canada","All stock groups",37
+"2013","Number of stocks","Cautious zone","Canada","All stock groups",41
+"2014","Number of stocks","Cautious zone","Canada","All stock groups",40
+"2015","Number of stocks","Cautious zone","Canada","All stock groups",31
+"2016","Number of stocks","Cautious zone","Canada","All stock groups",31
+"2017","Number of stocks","Cautious zone","Canada","All stock groups",25
+"2018","Number of stocks","Cautious zone","Canada","All stock groups",27
+"2019","Number of stocks","Cautious zone","Canada","All stock groups",29
+"2020","Number of stocks","Cautious zone","Canada","All stock groups",23
+"2021","Number of stocks","Cautious zone","Canada","All stock groups",27
+"2022","Number of stocks","Cautious zone","Canada","All stock groups",24
+"2011","Number of stocks","Critical zone","Canada","All stock groups",17
+"2012","Number of stocks","Critical zone","Canada","All stock groups",15
+"2013","Number of stocks","Critical zone","Canada","All stock groups",16
+"2014","Number of stocks","Critical zone","Canada","All stock groups",15
+"2015","Number of stocks","Critical zone","Canada","All stock groups",19
+"2016","Number of stocks","Critical zone","Canada","All stock groups",21
+"2017","Number of stocks","Critical zone","Canada","All stock groups",18
+"2018","Number of stocks","Critical zone","Canada","All stock groups",19
+"2019","Number of stocks","Critical zone","Canada","All stock groups",25
+"2020","Number of stocks","Critical zone","Canada","All stock groups",23
+"2021","Number of stocks","Critical zone","Canada","All stock groups",22
+"2022","Number of stocks","Critical zone","Canada","All stock groups",23
+"2011","Number of stocks","Status uncertain","Canada","All stock groups",35
+"2012","Number of stocks","Status uncertain","Canada","All stock groups",28
+"2013","Number of stocks","Status uncertain","Canada","All stock groups",24
+"2014","Number of stocks","Status uncertain","Canada","All stock groups",24
+"2015","Number of stocks","Status uncertain","Canada","All stock groups",31
+"2016","Number of stocks","Status uncertain","Canada","All stock groups",42
+"2017","Number of stocks","Status uncertain","Canada","All stock groups",73
+"2018","Number of stocks","Status uncertain","Canada","All stock groups",73
+"2019","Number of stocks","Status uncertain","Canada","All stock groups",70
+"2020","Number of stocks","Status uncertain","Canada","All stock groups",78
+"2021","Number of stocks","Status uncertain","Canada","All stock groups",77
+"2022","Number of stocks","Status uncertain","Canada","All stock groups",82
+"2011","Percentage","Healthy zone","Canada","All stock groups",46.4516129032258
+"2012","Percentage","Healthy zone","Canada","All stock groups",48.3870967741936
+"2013","Percentage","Healthy zone","Canada","All stock groups",47.741935483871
+"2014","Percentage","Healthy zone","Canada","All stock groups",48.7012987012987
+"2015","Percentage","Healthy zone","Canada","All stock groups",49.0566037735849
+"2016","Percentage","Healthy zone","Canada","All stock groups",44.7058823529412
+"2017","Percentage","Healthy zone","Canada","All stock groups",35.195530726257
+"2018","Percentage","Healthy zone","Canada","All stock groups",32.7683615819209
+"2019","Percentage","Healthy zone","Canada","All stock groups",29.5454545454545
+"2020","Percentage","Healthy zone","Canada","All stock groups",31.1111111111111
+"2021","Percentage","Healthy zone","Canada","All stock groups",34.375
+"2022","Percentage","Healthy zone","Canada","All stock groups",33.8461538461538
+"2011","Percentage","Cautious zone","Canada","All stock groups",20
+"2012","Percentage","Cautious zone","Canada","All stock groups",23.8709677419355
+"2013","Percentage","Cautious zone","Canada","All stock groups",26.4516129032258
+"2014","Percentage","Cautious zone","Canada","All stock groups",25.974025974026
+"2015","Percentage","Cautious zone","Canada","All stock groups",19.4968553459119
+"2016","Percentage","Cautious zone","Canada","All stock groups",18.2352941176471
+"2017","Percentage","Cautious zone","Canada","All stock groups",13.9664804469274
+"2018","Percentage","Cautious zone","Canada","All stock groups",15.2542372881356
+"2019","Percentage","Cautious zone","Canada","All stock groups",16.4772727272727
+"2020","Percentage","Cautious zone","Canada","All stock groups",12.7777777777778
+"2021","Percentage","Cautious zone","Canada","All stock groups",14.0625
+"2022","Percentage","Cautious zone","Canada","All stock groups",12.3076923076923
+"2011","Percentage","Critical zone","Canada","All stock groups",10.9677419354839
+"2012","Percentage","Critical zone","Canada","All stock groups",9.67741935483871
+"2013","Percentage","Critical zone","Canada","All stock groups",10.3225806451613
+"2014","Percentage","Critical zone","Canada","All stock groups",9.74025974025974
+"2015","Percentage","Critical zone","Canada","All stock groups",11.9496855345912
+"2016","Percentage","Critical zone","Canada","All stock groups",12.3529411764706
+"2017","Percentage","Critical zone","Canada","All stock groups",10.0558659217877
+"2018","Percentage","Critical zone","Canada","All stock groups",10.7344632768362
+"2019","Percentage","Critical zone","Canada","All stock groups",14.2045454545455
+"2020","Percentage","Critical zone","Canada","All stock groups",12.7777777777778
+"2021","Percentage","Critical zone","Canada","All stock groups",11.4583333333333
+"2022","Percentage","Critical zone","Canada","All stock groups",11.7948717948718
+"2011","Percentage","Status uncertain","Canada","All stock groups",22.5806451612903
+"2012","Percentage","Status uncertain","Canada","All stock groups",18.0645161290323
+"2013","Percentage","Status uncertain","Canada","All stock groups",15.4838709677419
+"2014","Percentage","Status uncertain","Canada","All stock groups",15.5844155844156
+"2015","Percentage","Status uncertain","Canada","All stock groups",19.4968553459119
+"2016","Percentage","Status uncertain","Canada","All stock groups",24.7058823529412
+"2017","Percentage","Status uncertain","Canada","All stock groups",40.7821229050279
+"2018","Percentage","Status uncertain","Canada","All stock groups",41.2429378531073
+"2019","Percentage","Status uncertain","Canada","All stock groups",39.7727272727273
+"2020","Percentage","Status uncertain","Canada","All stock groups",43.3333333333333
+"2021","Percentage","Status uncertain","Canada","All stock groups",40.1041666666667
+"2022","Percentage","Status uncertain","Canada","All stock groups",42.0512820512821
+"2011","Number of stocks","","","",103
+"2012","Number of stocks","","","",112
+"2013","Number of stocks","","","",115
+"2014","Number of stocks","","","",115
+"2015","Number of stocks","","","",109
+"2016","Number of stocks","","","",107
+"2017","Number of stocks","","","",88
+"2018","Number of stocks","","","",85
+"2019","Number of stocks","","","",81
+"2020","Number of stocks","","","",79
+"2021","Number of stocks","","","",93
+"2022","Number of stocks","","","",90
+"2011","Percentage","","","",66.4516129032258
+"2012","Percentage","","","",72.258064516129
+"2013","Percentage","","","",74.1935483870968
+"2014","Percentage","","","",74.6753246753247
+"2015","Percentage","","","",68.5534591194968
+"2016","Percentage","","","",62.9411764705882
+"2017","Percentage","","","",49.1620111731844
+"2018","Percentage","","","",48.0225988700565
+"2019","Percentage","","","",46.0227272727273
+"2020","Percentage","","","",43.8888888888889
+"2021","Percentage","","","",48.4375
+"2022","Percentage","","","",46.1538461538462
+"2022","Number","Healthy zone","Pacific","All stock groups",24
+"2022","Number","Cautious zone","Pacific","All stock groups",13
+"2022","Number","Critical zone","Pacific","All stock groups",5
+"2022","Number","Status uncertain","Pacific","All stock groups",15
+"2021","Number","Healthy zone","Pacific","All stock groups",23
+"2021","Number","Cautious zone","Pacific","All stock groups",16
+"2021","Number","Critical zone","Pacific","All stock groups",4
+"2021","Number","Status uncertain","Pacific","All stock groups",14
+"2022","Number","Healthy zone","Arctic","All stock groups",2
+"2022","Number","Cautious zone","Arctic","All stock groups",1
+"2022","Number","Critical zone","Arctic","All stock groups",0
+"2022","Number","Status uncertain","Arctic","All stock groups",18
+"2021","Number","Healthy zone","Arctic","All stock groups",2
+"2021","Number","Cautious zone","Arctic","All stock groups",1
+"2021","Number","Critical zone","Arctic","All stock groups",0
+"2021","Number","Status uncertain","Arctic","All stock groups",18
+"2022","Number","Healthy zone","Atlantic","All stock groups",40
+"2022","Number","Cautious zone","Atlantic","All stock groups",10
+"2022","Number","Critical zone","Atlantic","All stock groups",18
+"2022","Number","Status uncertain","Atlantic","All stock groups",49
+"2021","Number","Healthy zone","Atlantic","All stock groups",41
+"2021","Number","Cautious zone","Atlantic","All stock groups",10
+"2021","Number","Critical zone","Atlantic","All stock groups",18
+"2021","Number","Status uncertain","Atlantic","All stock groups",45
+"2022","Percentage","Healthy zone","Pacific","All stock groups",0.421052631578947
+"2022","Percentage","Cautious zone","Pacific","All stock groups",0.228070175438596
+"2022","Percentage","Critical zone","Pacific","All stock groups",0.087719298245614
+"2022","Percentage","Status uncertain","Pacific","All stock groups",0.263157894736842
+"2021","Percentage","Healthy zone","Pacific","All stock groups",0.403508771929825
+"2021","Percentage","Cautious zone","Pacific","All stock groups",0.280701754385965
+"2021","Percentage","Critical zone","Pacific","All stock groups",0.0701754385964912
+"2021","Percentage","Status uncertain","Pacific","All stock groups",0.245614035087719
+"2022","Percentage","Healthy zone","Arctic","All stock groups",0.0952380952380952
+"2022","Percentage","Cautious zone","Arctic","All stock groups",0.0476190476190476
+"2022","Percentage","Critical zone","Arctic","All stock groups",0
+"2022","Percentage","Status uncertain","Arctic","All stock groups",0.857142857142857
+"2021","Percentage","Healthy zone","Arctic","All stock groups",0.0952380952380952
+"2021","Percentage","Cautious zone","Arctic","All stock groups",0.0476190476190476
+"2021","Percentage","Critical zone","Arctic","All stock groups",0
+"2021","Percentage","Status uncertain","Arctic","All stock groups",0.857142857142857
+"2022","Percentage","Healthy zone","Atlantic","All stock groups",0.341880341880342
+"2022","Percentage","Cautious zone","Atlantic","All stock groups",0.0854700854700855
+"2022","Percentage","Critical zone","Atlantic","All stock groups",0.153846153846154
+"2022","Percentage","Status uncertain","Atlantic","All stock groups",0.418803418803419
+"2021","Percentage","Healthy zone","Atlantic","All stock groups",0.359649122807018
+"2021","Percentage","Cautious zone","Atlantic","All stock groups",0.087719298245614
+"2021","Percentage","Critical zone","Atlantic","All stock groups",0.157894736842105
+"2021","Percentage","Status uncertain","Atlantic","All stock groups",0.394736842105263
+"2022","Number","Healthy and cautious zones","Pacific","All stock groups",37
+"2021","Number","Healthy and cautious zones","Pacific","All stock groups",39
+"2022","Number","Healthy and cautious zones","Arctic","All stock groups",3
+"2021","Number","Healthy and cautious zones","Arctic","All stock groups",3
+"2022","Number","Healthy and cautious zones","Atlantic","All stock groups",50
+"2021","Number","Healthy and cautious zones","Atlantic","All stock groups",51
+"2022","Percentage","Healthy and cautious zones","Pacific","All stock groups",0.649122807017544
+"2021","Percentage","Healthy and cautious zones","Pacific","All stock groups",0.684210526315789
+"2022","Percentage","Healthy and cautious zones","Arctic","All stock groups",0.142857142857143
+"2021","Percentage","Healthy and cautious zones","Arctic","All stock groups",0.142857142857143
+"2022","Percentage","Healthy and cautious zones","Atlantic","All stock groups",0.427350427350427
+"2021","Percentage","Healthy and cautious zones","Atlantic","All stock groups",0.447368421052632
+"2022","Number","Healthy zone","Canada","Marine Mammals",2
+"2022","Number","Healthy zone","Canada","Groundfish",17
+"2022","Number","Healthy zone","Canada","Small pelagics",2
+"2022","Number","Healthy zone","Canada","Large pelagics",1
+"2022","Number","Healthy zone","Canada","Salmonids",5
+"2022","Number","Healthy zone","Canada","Crustaceans",30
+"2022","Number","Healthy zone","Canada","Molluscs",6
+"2022","Number","Healthy zone","Canada","Others",3
+"2021","Number","Healthy zone","Canada","Marine Mammals",2
+"2021","Number","Healthy zone","Canada","Groundfish",18
+"2021","Number","Healthy zone","Canada","Small pelagics",1
+"2021","Number","Healthy zone","Canada","Large pelagics",2
+"2021","Number","Healthy zone","Canada","Salmonids",5
+"2021","Number","Healthy zone","Canada","Crustaceans",29
+"2021","Number","Healthy zone","Canada","Molluscs",6
+"2021","Number","Healthy zone","Canada","Others",6
+"2022","Number","Cautious zone","Canada","Marine Mammals",0
+"2022","Number","Cautious zone","Canada","Groundfish",8
+"2022","Number","Cautious zone","Canada","Small pelagics",5
+"2022","Number","Cautious zone","Canada","Large pelagics",0
+"2022","Number","Cautious zone","Canada","Salmonids",8
+"2022","Number","Cautious zone","Canada","Crustaceans",2
+"2022","Number","Cautious zone","Canada","Molluscs",1
+"2022","Number","Cautious zone","Canada","Others",0
+"2021","Number","Cautious zone","Canada","Marine Mammals",0
+"2021","Number","Cautious zone","Canada","Groundfish",9
+"2021","Number","Cautious zone","Canada","Small pelagics",5
+"2021","Number","Cautious zone","Canada","Large pelagics",0
+"2021","Number","Cautious zone","Canada","Salmonids",9
+"2021","Number","Cautious zone","Canada","Crustaceans",3
+"2021","Number","Cautious zone","Canada","Molluscs",1
+"2021","Number","Cautious zone","Canada","Others",0
+"2022","Number","Critical zone","Canada","Marine Mammals",0
+"2022","Number","Critical zone","Canada","Groundfish",11
+"2022","Number","Critical zone","Canada","Small pelagics",4
+"2022","Number","Critical zone","Canada","Large pelagics",0
+"2022","Number","Critical zone","Canada","Salmonids",5
+"2022","Number","Critical zone","Canada","Crustaceans",2
+"2022","Number","Critical zone","Canada","Molluscs",1
+"2022","Number","Critical zone","Canada","Others",0
+"2021","Number","Critical zone","Canada","Marine Mammals",0
+"2021","Number","Critical zone","Canada","Groundfish",11
+"2021","Number","Critical zone","Canada","Small pelagics",4
+"2021","Number","Critical zone","Canada","Large pelagics",0
+"2021","Number","Critical zone","Canada","Salmonids",4
+"2021","Number","Critical zone","Canada","Crustaceans",2
+"2021","Number","Critical zone","Canada","Molluscs",1
+"2021","Number","Critical zone","Canada","Others",0
+"2022","Number","Status uncertain","Canada","Marine Mammals",15
+"2022","Number","Status uncertain","Canada","Groundfish",15
+"2022","Number","Status uncertain","Canada","Small pelagics",13
+"2022","Number","Status uncertain","Canada","Large pelagics",1
+"2022","Number","Status uncertain","Canada","Salmonids",7
+"2022","Number","Status uncertain","Canada","Crustaceans",18
+"2022","Number","Status uncertain","Canada","Molluscs",10
+"2022","Number","Status uncertain","Canada","Others",3
+"2021","Number","Status uncertain","Canada","Marine Mammals",15
+"2021","Number","Status uncertain","Canada","Groundfish",14
+"2021","Number","Status uncertain","Canada","Small pelagics",10
+"2021","Number","Status uncertain","Canada","Large pelagics",1
+"2021","Number","Status uncertain","Canada","Salmonids",6
+"2021","Number","Status uncertain","Canada","Crustaceans",18
+"2021","Number","Status uncertain","Canada","Molluscs",10
+"2021","Number","Status uncertain","Canada","Others",3
+"2022","Percentage","Healthy zone","Canada","Marine Mammals",0.117647058823529
+"2022","Percentage","Healthy zone","Canada","Groundfish",0.333333333333333
+"2022","Percentage","Healthy zone","Canada","Small pelagics",0.0833333333333333
+"2022","Percentage","Healthy zone","Canada","Large pelagics",0.5
+"2022","Percentage","Healthy zone","Canada","Salmonids",0.2
+"2022","Percentage","Healthy zone","Canada","Crustaceans",0.576923076923077
+"2022","Percentage","Healthy zone","Canada","Molluscs",0.333333333333333
+"2022","Percentage","Healthy zone","Canada","Others",0.5
+"2021","Percentage","Healthy zone","Canada","Marine Mammals",0.117647058823529
+"2021","Percentage","Healthy zone","Canada","Groundfish",0.346153846153846
+"2021","Percentage","Healthy zone","Canada","Small pelagics",0.05
+"2021","Percentage","Healthy zone","Canada","Large pelagics",0.666666666666667
+"2021","Percentage","Healthy zone","Canada","Salmonids",0.208333333333333
+"2021","Percentage","Healthy zone","Canada","Crustaceans",0.557692307692308
+"2021","Percentage","Healthy zone","Canada","Molluscs",0.333333333333333
+"2021","Percentage","Healthy zone","Canada","Others",0.666666666666667
+"2022","Percentage","Cautious zone","Canada","Marine Mammals",0
+"2022","Percentage","Cautious zone","Canada","Groundfish",0.156862745098039
+"2022","Percentage","Cautious zone","Canada","Small pelagics",0.208333333333333
+"2022","Percentage","Cautious zone","Canada","Large pelagics",0
+"2022","Percentage","Cautious zone","Canada","Salmonids",0.32
+"2022","Percentage","Cautious zone","Canada","Crustaceans",0.0384615384615385
+"2022","Percentage","Cautious zone","Canada","Molluscs",0.0555555555555556
+"2022","Percentage","Cautious zone","Canada","Others",0
+"2021","Percentage","Cautious zone","Canada","Marine Mammals",0
+"2021","Percentage","Cautious zone","Canada","Groundfish",0.173076923076923
+"2021","Percentage","Cautious zone","Canada","Small pelagics",0.25
+"2021","Percentage","Cautious zone","Canada","Large pelagics",0
+"2021","Percentage","Cautious zone","Canada","Salmonids",0.375
+"2021","Percentage","Cautious zone","Canada","Crustaceans",0.0576923076923077
+"2021","Percentage","Cautious zone","Canada","Molluscs",0.0555555555555556
+"2021","Percentage","Cautious zone","Canada","Others",0
+"2022","Percentage","Critical zone","Canada","Marine Mammals",0
+"2022","Percentage","Critical zone","Canada","Groundfish",0.215686274509804
+"2022","Percentage","Critical zone","Canada","Small pelagics",0.166666666666667
+"2022","Percentage","Critical zone","Canada","Large pelagics",0
+"2022","Percentage","Critical zone","Canada","Salmonids",0.2
+"2022","Percentage","Critical zone","Canada","Crustaceans",0.0384615384615385
+"2022","Percentage","Critical zone","Canada","Molluscs",0.0555555555555556
+"2022","Percentage","Critical zone","Canada","Others",0
+"2021","Percentage","Critical zone","Canada","Marine Mammals",0
+"2021","Percentage","Critical zone","Canada","Groundfish",0.211538461538462
+"2021","Percentage","Critical zone","Canada","Small pelagics",0.2
+"2021","Percentage","Critical zone","Canada","Large pelagics",0
+"2021","Percentage","Critical zone","Canada","Salmonids",0.166666666666667
+"2021","Percentage","Critical zone","Canada","Crustaceans",0.0384615384615385
+"2021","Percentage","Critical zone","Canada","Molluscs",0.0555555555555556
+"2021","Percentage","Critical zone","Canada","Others",0
+"2022","Percentage","Status uncertain","Canada","Marine Mammals",0.882352941176471
+"2022","Percentage","Status uncertain","Canada","Groundfish",0.294117647058824
+"2022","Percentage","Status uncertain","Canada","Small pelagics",0.541666666666667
+"2022","Percentage","Status uncertain","Canada","Large pelagics",0.5
+"2022","Percentage","Status uncertain","Canada","Salmonids",0.28
+"2022","Percentage","Status uncertain","Canada","Crustaceans",0.346153846153846
+"2022","Percentage","Status uncertain","Canada","Molluscs",0.555555555555556
+"2022","Percentage","Status uncertain","Canada","Others",0.5
+"2021","Percentage","Status uncertain","Canada","Marine Mammals",0.882352941176471
+"2021","Percentage","Status uncertain","Canada","Groundfish",0.269230769230769
+"2021","Percentage","Status uncertain","Canada","Small pelagics",0.5
+"2021","Percentage","Status uncertain","Canada","Large pelagics",0.333333333333333
+"2021","Percentage","Status uncertain","Canada","Salmonids",0.25
+"2021","Percentage","Status uncertain","Canada","Crustaceans",0.346153846153846
+"2021","Percentage","Status uncertain","Canada","Molluscs",0.555555555555556
+"2021","Percentage","Status uncertain","Canada","Others",0.333333333333333
+"2022","Number","Healthy and cautious zones","Canada","Marine Mammals",2
+"2022","Number","Healthy and cautious zones","Canada","Groundfish",25
+"2022","Number","Healthy and cautious zones","Canada","Small pelagics",7
+"2022","Number","Healthy and cautious zones","Canada","Large pelagics",1
+"2022","Number","Healthy and cautious zones","Canada","Salmonids",13
+"2022","Number","Healthy and cautious zones","Canada","Crustaceans",32
+"2022","Number","Healthy and cautious zones","Canada","Molluscs",7
+"2022","Number","Healthy and cautious zones","Canada","Others",3
+"2021","Number","Healthy and cautious zones","Canada","Marine Mammals",2
+"2021","Number","Healthy and cautious zones","Canada","Groundfish",27
+"2021","Number","Healthy and cautious zones","Canada","Small pelagics",6
+"2021","Number","Healthy and cautious zones","Canada","Large pelagics",2
+"2021","Number","Healthy and cautious zones","Canada","Salmonids",14
+"2021","Number","Healthy and cautious zones","Canada","Crustaceans",32
+"2021","Number","Healthy and cautious zones","Canada","Molluscs",7
+"2021","Number","Healthy and cautious zones","Canada","Others",6
+"2022","Percentage","Healthy and cautious zones","Canada","Marine Mammals",0.117647058823529
+"2022","Percentage","Healthy and cautious zones","Canada","Groundfish",0.490196078431373
+"2022","Percentage","Healthy and cautious zones","Canada","Small pelagics",0.291666666666667
+"2022","Percentage","Healthy and cautious zones","Canada","Large pelagics",0.5
+"2022","Percentage","Healthy and cautious zones","Canada","Salmonids",0.52
+"2022","Percentage","Healthy and cautious zones","Canada","Crustaceans",0.615384615384615
+"2022","Percentage","Healthy and cautious zones","Canada","Molluscs",0.388888888888889
+"2022","Percentage","Healthy and cautious zones","Canada","Others",0.5
+"2021","Percentage","Healthy and cautious zones","Canada","Marine Mammals",0.117647058823529
+"2021","Percentage","Healthy and cautious zones","Canada","Groundfish",0.519230769230769
+"2021","Percentage","Healthy and cautious zones","Canada","Small pelagics",0.3
+"2021","Percentage","Healthy and cautious zones","Canada","Large pelagics",0.666666666666667
+"2021","Percentage","Healthy and cautious zones","Canada","Salmonids",0.583333333333333
+"2021","Percentage","Healthy and cautious zones","Canada","Crustaceans",0.615384615384615
+"2021","Percentage","Healthy and cautious zones","Canada","Molluscs",0.388888888888889
+"2021","Percentage","Healthy and cautious zones","Canada","Others",0.666666666666667
