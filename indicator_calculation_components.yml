@@ -183,15 +183,7 @@
   target: '30'
   target_year: '2030'
 14-2-1:
-  base_value: '95.6'
-  base_year: '2015'
-  current_value: '95.31'
-  current_year: '2021'
-  direction: positive
-  progress_calculation_value: null
-  progress_status: None
-  target: None
-  target_year: '2023'
+  progress_status: not_available
 15-1-1:
   base_value: '79.82'
   base_year: '2015'
