@@ -4264,18 +4264,58 @@
             "type": "integer"
           },
           {
-            "name": "data.Stock group",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Marine mammals",
-                "data.Groundfish",
-                "data.Small pelagics",
-                "data.Large pelagics",
-                "data.Salmonids",
-                "data.Crustaceans",
-                "data.Molluscs",
-                "data.Others",
+                "Number of stocks",
+                "Percentage",
+                "Number",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Healthy zone",
+                "Cautious zone",
+                "Critical zone",
+                "Status uncertain",
+                "Healthy and cautious zones",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Pacific",
+                "Arctic",
+                "Atlantic",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Stock group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All stock groups",
+                "Marine Mammals",
+                "Groundfish",
+                "Small pelagics",
+                "Large pelagics",
+                "Salmonids",
+                "Crustaceans",
+                "Molluscs",
+                "Others",
                 ""
               ]
             }
@@ -4286,7 +4326,7 @@
           }
         ]
       },
-      "title": "Proportion of fish stocks that are sustainably harvested"
+      "title": "Proportion of key fish stocks in the Cautious and Healthy zones"
     },
     {
       "path": "2-1-1/data.csv",
