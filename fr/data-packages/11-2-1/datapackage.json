@@ -46,8 +46,8 @@
             "constraints": {
               "enum": [
                 "Canada",
-                "Provinces and territories",
-                "Census metropolitan areas",
+                "Provinces et territoires",
+                "Régions métropolitaines de recensement",
                 "Agglomérations de recensement",
                 "À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement",
                 "Grands centres de population urbains",
@@ -96,12 +96,12 @@
             "constraints": {
               "enum": [
                 "Propriétaire",
-                "Owner who is a first-time homebuyer",
-                "Owner who is not a first-time homebuyer",
+                "Propriétaire qui est un accédant à la propriété",
+                "Propriétaire qui n'est pas un accédant à la propriété",
                 "Locataire",
-                "Renter not in social and affordable housing",
-                "Renter in social and affordable housing",
-                "Total, tenure",
+                "Locataire n'habitant pas dans un logement social et abordable",
+                "Locataire habitant dans un logement social et abordable",
+                "Total, mode d'occupation",
                 ""
               ]
             },
