@@ -12,54 +12,58 @@ def measure_indicator_progress(data, config):
     # data = indicator['data']    # get indicator data
     # config = indicator['meta']  # get configurations
 
-    config = get_progress_calculation_options(config)
-    if config is None:
-        # return None because progress calculations not turned on
-        return None
+    # if auto_progress_calculation is False --> return {value: None, progress_status: None, config = config}
 
-    # get relevant data to calculate progress (aggregate/total line only)
-    data = data_progress_measure(data, config)
-    if data is None:
-        return None
-
-    # get years that exist in the data & set current year
-    # to be the most recent year that exists in data
-    years = data["Year"]
-    current_year = {'current_year': years.max()}
-
-    # update the calculation inputs with the current year
-    config.update(current_year)
-
-    # check if the base year input exists in the data
-    if config['base_year'] not in years.values:
-        # return None if the base year input is in the future of the most recently available data
-        if config['base_year'] > years.max():
-            return None
-
-        # if base year is not in available data and not in the future,
-        # assign it to be the minimum existing year past the base year given
-        config['base_year'] = years[years > config['base_year']].min()
-
-    # return None if there is not enough data to calculate progress (must be at least 2 data points)
-    if config['current_year'] - config['base_year'] < 1:
-        return None
-
-    # determine which methodology to run
-    # if no target exists, run methodology for qualitative target.
-    # else run methodology for quantitative target.
-    if config['target'] is None:
-        # update progress thresholds for qualitative target
-        config = update_progress_thresholds(config, method=1)
-        # do progress calculation according to methodology for qualitative target
-        value = methodology_1(data=data, config=config)
+    if not config.get('auto_progress_calculation'):
+        # If auto_progress_calculation is turned off, take progress_status from metadata if it exists or not_available otherwise.
+        return {'progress_status': config.get('progress_status', 'not_available')}
 
     else:
-        # update progress thresholds for quantitative target
-        config = update_progress_thresholds(config, method=2)
-        # do progress calculation according to methodology for quantitative target
-        value = methodology_2(data=data, config=config)
+        config = get_progress_calculation_options(config)
+        
+        # get relevant data to calculate progress (aggregate/total line only)
+        data = data_progress_measure(data, config)
+        if data is None:
+            return None
 
-    return {'value': value, 'config': config}
+        # get years that exist in the data & set current year
+        # to be the most recent year that exists in data
+        years = data["Year"]
+        config['current_year'] = years.max()
+        config['current_value'] = data.Value[data.Year == config['current_year']].values[0]
+
+        # check if the base year input exists in the data
+        if config['base_year'] not in years.values:
+            # return None if the base year input is in the future of the most recently available data
+            if config['base_year'] > years.max():
+                return None
+
+            # if base year is not in available data and not in the future,
+            # assign it to be the minimum existing year past the base year given
+            config['base_year'] = years[years > config['base_year']].min()
+
+        config['base_value'] = data.Value[data.Year == config['base_year']].values[0]
+
+        # return None if there is not enough data to calculate progress (must be at least 2 data points)
+        if config['current_year'] - config['base_year'] < 1:
+            return None
+
+        # determine which methodology to run
+        # if no target exists, run methodology for qualitative target.
+        # else run methodology for quantitative target.
+        if config['target'] is None:
+            # update progress thresholds for qualitative target
+            config = update_progress_thresholds(config, method=1)
+            # do progress calculation according to methodology for qualitative target
+            value = methodology_1(data=data, config=config)
+
+        else:
+            # update progress thresholds for quantitative target
+            config = update_progress_thresholds(config, method=2)
+            # do progress calculation according to methodology for quantitative target
+            value = methodology_2(data=data, config=config)
+
+        return {'value': value, 'progress_status': get_progress_status(value, config), 'config': config}
 
 
 def get_progress_status(value, config):
@@ -82,7 +86,9 @@ def get_progress_status(value, config):
             return None
 
     else:
-        if value >= x:
+        if value == None:
+            return "target_achieved"
+        elif value >= x:
             return "substantial_progress"
         elif y <= value < x:
             return "moderate_progress"
@@ -130,22 +136,10 @@ def get_progress_calculation_options(metadata):
     """
     Get the progress_calculation_options from metadata.
     """
-    if metadata is None:
-        return None
-    
-    # Check if progress calculation is turned on
-    if 'auto_progress_calculation' in metadata.keys():
-        if metadata['auto_progress_calculation']:
-            # Get the user inputs for progress_calculation_options
-            if 'progress_calculation_options' in metadata.keys():
-                return config_defaults(metadata['progress_calculation_options'][0])
-            else:
-                return default_progress_calc_options()
-        else:
-            return None
-    # Return None if auto progress calculation is not turned on
+    if 'progress_calculation_options' in metadata.keys():
+        return config_defaults(metadata['progress_calculation_options'][0])
     else:
-        return None
+        return default_progress_calc_options()
 
 def update_progress_thresholds(config, method):
     """Checks for configured progress thresholds or updates thresholds based on methodology.

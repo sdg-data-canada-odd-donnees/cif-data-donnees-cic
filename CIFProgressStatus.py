@@ -116,101 +116,91 @@ def update_progress_status(indicator_ids):
     return progress_diff
 
 
-def get_goal_progress(indicator_ids):
+def get_goal_progress(progress_results, filename='indicator_scores.yml'):
     scores = {}
-
-    for ind_id in indicator_ids:
-        indicator = merge_indicator(ind_id)
-        score = pm.get_indicator_score(indicator)
+    for ind_id in progress_results:
+        print(ind_id)
+        value = progress_results[ind_id].get('progress_calculation_value')
+        if value is None:
+            score = None
+        elif value == 'None':
+            score = 5
+        else:
+            value = float(value)
+            target = progress_results[ind_id].get('target')
+            if target == 'None':
+                target = None
+            elif target is not None:
+                target = float(target)
+            score = pm.score_calculation(value, target)
         scores[ind_id] = score
 
     # manual_input = {'6-1-1': 5, '5-2-1': 0.59005, '6-3-1': 0.21765, '7-2-1': 3.042379, '8-6-1': -3.27486, '9-1-1': 5, '14-2-1': 3.186908, '15-2-1': 4.453995}
     # scores.update(manual_input)
 
-    filepath = os.path.join('indicator_scores.yml')
+    filepath = os.path.join(filename)
     with open(filepath, 'w') as file:
-        outputs = yaml.dump(scores, file)
+        yaml.dump(scores, file)
 
     return scores
 
 
-def output_calculation_components(indicator_ids):
-    components_dict = {}
+def output_calculation_components(progress_results, filename='indicator_calculation_components.yml'):
+    """
+    Write progress_results dictionary to yaml file.
+    """
+    filepath = os.path.join(filename)
+    with open(filepath, 'w') as file:
+        yaml.dump(progress_results, file)
+
+
+def get_progress_measure_results(indicator_ids):
+    """
+    Given a list of indicators, return a dictionary with the progress measure results and calculation components.
+    """
+    progress_results = {}
 
     for ind_id in indicator_ids:
-
         print(ind_id)
-
         indicator = merge_indicator(ind_id)
+
         meta = indicator['meta']
-        
-        config = pm.get_progress_calculation_options(meta)
-        if config is None:
-            # Set as not_available and go to next indicator
-            components_dict[ind_id] = {'progress_status': 'not_available'}
-            continue
+        data = indicator['data']
 
-        data = pm.data_progress_measure(indicator['data'], config)
-        if data is None:
-            # Set as not_available and go to next indicator
-            components_dict[ind_id] = {'progress_status': 'not_available'}
-            continue
+        progress_result = pm.measure_indicator_progress(data, meta)
 
-        if indicator['meta'].get('progress_calculation_options'):
-            opts = dict(indicator['meta'].get('progress_calculation_options')[0])
+        if progress_result is None:
+            progress_results[ind_id] = {'progress_status': 'not_available'}
+        elif "config" in progress_result.keys():
+            progress_results[ind_id] = {'base_year': str(progress_result['config']['base_year']),
+                                        'current_year': str(progress_result['config']['current_year']),
+                                        'base_value': str(progress_result['config']['base_value']),
+                                        'current_value': str(progress_result['config']['current_value']),
+                                        'direction': progress_result['config']['direction'],
+                                        'target_year': str(progress_result['config']['target_year']),
+                                        'target': str(progress_result['config']['target']),
+                                        'progress_calculation_value': str(progress_result['value']),
+                                        'progress_status': progress_result['progress_status'],
+                                        }
         else:
-            opts = {}
+            progress_results[ind_id] = progress_result
+            
+    return progress_results
 
-        years = data["Year"]
-        current_year = years.max()
-
-        if not opts.get('base_year'):
-            opts['base_year'] = 2015
-        if not opts.get('target_year'):
-            opts['target_year'] = 2030
-
-        if opts['base_year'] not in years.values:
-            opts['base_year'] = years[years > opts['base_year']].min()
-
-        current_value = data.Value[data.Year == float(current_year)].values[0]
-        base_value = data.Value[data.Year == float(opts['base_year'])].values[0]
-
-        if pm.measure_indicator_progress(data, meta) is None:
-            progress_calculation_value = None
-        else:
-            progress_calculation_value = str(pm.measure_indicator_progress(data, meta).get('value'))
-
-        components_dict[ind_id] = {
-            'base_year': str(opts.get('base_year')),
-            'current_year': str(current_year),
-            'base_value': str(base_value),
-            'current_value': str(current_value),
-            'direction': str(opts.get('direction')),
-            'target_year': str(opts.get('target_year')),
-            'target': str(opts.get('target')),
-            'progress_calculation_value': progress_calculation_value,
-            'progress_status': str(pm.progress_measure(indicator))
-        }
-
-    filepath = os.path.join('indicator_calculation_components.yml')
-    with open(filepath, 'w') as file:
-        outputs = yaml.dump(components_dict, file)
-
-    return components_dict
 
 if __name__ == "__main__":
     # get all indicator ids from listed data files
     indicator_ids = get_indicator_ids()
 
-    # calculate & update progress measures
-    diffs = update_progress_status(indicator_ids)
+    # calculate progress measure values for all indicators
+    progress_results = get_progress_measure_results(indicator_ids)
 
-    # output all components of progress calculation
-    output_calculation_components(indicator_ids)
+    # output progress measure calculation components to yaml
+    output_calculation_components(progress_results)
 
     # calculate indicator scores & output
-    scores = get_goal_progress(indicator_ids)
+    scores = get_goal_progress(progress_results)
 
     # if there have been changes to any progress measure, update the difference file
-    if diffs:
-        update_progress_diff(diffs)
+    # if diffs:
+    #     update_progress_diff(diffs)
