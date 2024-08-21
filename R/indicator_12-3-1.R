@@ -76,12 +76,10 @@ non_total <-
         `Type of materials diverted` == "All materials diverted" &
         `Sources of materials prepared for recycling` == "All sources of diverted materials"
     )
-  ) %>%
-  mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+  )
 
 final_data <-
-  bind_rows(total, non_total) %>%
-  rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+  bind_rows(total, non_total)
 
 write.csv(final_data,
           "data/indicator_12-3-1.csv",
