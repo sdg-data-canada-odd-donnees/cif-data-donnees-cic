@@ -5029,16 +5029,13 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Alberta",
                 "British Columbia and the Territories",
                 "Manitoba",
                 "New Brunswick",
-                "Newfoundland and Labrador",
-                "Nova Scotia",
                 "Ontario",
                 "Prince Edward Island",
                 "Quebec",
