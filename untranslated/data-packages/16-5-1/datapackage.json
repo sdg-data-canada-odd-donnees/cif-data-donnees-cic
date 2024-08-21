@@ -19,8 +19,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Adult criminal courts",
-                "data.Youth courts",
+                "Adult criminal courts",
+                "Youth courts",
                 ""
               ]
             }
