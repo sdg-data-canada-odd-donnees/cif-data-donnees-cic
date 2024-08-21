@@ -1,12 +1,14 @@
 def measure_indicator_progress(data, config):
     """Sets up all needed parameters and data for progress calculation, determines methodology for calculation,
-    and returns progress measure as an output.
+    and returns progress measure calculation result as an output.
 
     Args:
         data:
         config:
     Returns:
-        output: str. A string indicating the progress measurement for the indicator.
+        output: dict. format:   {value, progress_status, config} if progress measure calculation succeeds
+                                {progress_status} if auto_progress_calculation is turned off
+                                None if progress measure calculation fails
     """
 
     # data = indicator['data']    # get indicator data
@@ -168,16 +170,18 @@ def update_progress_thresholds(config, method):
     return config
 
 
-def data_progress_measure(data, config):
+def data_progress_measure(data, config={}):
     """Checks and filters data for indicator for which progress is being calculated.
 
     If the Year column in data contains more than 4 characters (standard year format), takes the first 4 characters.
     If data contains disaggregation columns, take only the total line data.
+    If data contains total lines for different series/units, take only the total line for the units/series chosen in config.
     Removes any NA values.
     Checks that there is enough data to calculate progress.
 
     Args:
         data: DataFrame. Indicator data for which progress is being calculated.
+        config: dict. Configuration settings used when the data contains potential headlines for different units/series.
     Returns:
         DataFrame: Data in valid format for calculating progress.
     """
@@ -300,7 +304,9 @@ def methodology_2(data, config):
 
 
 def progress_measure(indicator):
-
+    """
+    Calculate and return the progress status for an indicator.
+    """
     if indicator is None:
         return None
 
@@ -312,15 +318,7 @@ def progress_measure(indicator):
     if progress_calc is None:
         return None
 
-    value = progress_calc['value']
-    config = progress_calc['config']
-
-    if value is None:
-        output = "target_achieved"
-    else:
-        output = get_progress_status(value, config)
-
-    return output
+    return progress_calc.get('progress_status')
 
 
 def score_calculation(value, target):
