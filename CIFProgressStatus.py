@@ -65,6 +65,12 @@ def diff_note(old, new):
     return 'progress status has changed from ' + old + ' to ' + new + ' (' + now + ')'
 
 
+def write_yaml(output, filename):
+    filepath = os.path.join(filename)
+    with open(filepath, 'w') as file:
+        yaml.dump(output, file)
+
+
 def update_progress_diff(diff):
     #try: 
         filepath = os.path.join('progress_diff.yml')
@@ -116,42 +122,22 @@ def update_progress_status(indicator_ids):
     return progress_diff
 
 
-def get_goal_progress(progress_results, filename='indicator_scores.yml'):
+def get_goal_progress(indicator_ids):
     scores = {}
-    for ind_id in progress_results:
-        print(ind_id)
-        value = progress_results[ind_id].get('progress_calculation_value')
-        if value is None:
-            score = None
-        elif value == 'None':
-            score = 5
-        else:
-            value = float(value)
-            target = progress_results[ind_id].get('target')
-            if target == 'None':
-                target = None
-            elif target is not None:
-                target = float(target)
-            score = pm.score_calculation(value, target)
+
+    for ind_id in indicator_ids:
+        indicator = merge_indicator(ind_id)
+        score = pm.get_indicator_score(indicator)
         scores[ind_id] = score
 
     # manual_input = {'6-1-1': 5, '5-2-1': 0.59005, '6-3-1': 0.21765, '7-2-1': 3.042379, '8-6-1': -3.27486, '9-1-1': 5, '14-2-1': 3.186908, '15-2-1': 4.453995}
     # scores.update(manual_input)
 
-    filepath = os.path.join(filename)
+    filepath = os.path.join('indicator_scores.yml')
     with open(filepath, 'w') as file:
-        yaml.dump(scores, file)
+        outputs = yaml.dump(scores, file)
 
     return scores
-
-
-def output_calculation_components(progress_results, filename='indicator_calculation_components.yml'):
-    """
-    Write progress_results dictionary to yaml file.
-    """
-    filepath = os.path.join(filename)
-    with open(filepath, 'w') as file:
-        yaml.dump(progress_results, file)
 
 
 def get_progress_measure_results(indicator_ids):
@@ -188,19 +174,63 @@ def get_progress_measure_results(indicator_ids):
     return progress_results
 
 
+def get_scores(progress_results):
+    """
+    Given dictionary of progress measure results (see get_progress_measure_results),
+    return another dictionary with the score for each indicator. 
+    """
+    scores = {}
+    for ind_id in progress_results:
+        print(ind_id)
+        value = progress_results[ind_id].get('progress_calculation_value')
+        if value is None:
+            score = None
+        elif value == 'None':
+            score = 5
+        else:
+            value = float(value)
+            target = progress_results[ind_id].get('target')
+            if target == 'None':
+                target = None
+            elif target is not None:
+                target = float(target)
+            score = pm.score_calculation(value, target)
+        scores[ind_id] = score
+
+    # manual_input = {'6-1-1': 5, '5-2-1': 0.59005, '6-3-1': 0.21765, '7-2-1': 3.042379, '8-6-1': -3.27486, '9-1-1': 5, '14-2-1': 3.186908, '15-2-1': 4.453995}
+    # scores.update(manual_input)
+
+    return scores
+
+
+def update_progress_status2(progress_results):
+    diffs = {}
+    for ind_id in progress_results:
+        meta = read_meta_md(ind_id)
+        old_status = meta.get('progress_status')
+        new_status = progress_results[ind_id]['progress_status']
+        # Check if the newly calculate progress measure is different than the old one
+        if old_status != new_status:
+            diffs[ind_id] = diff_note(old_status, new_status)
+            # Update progress status field in metadata
+            update_progress_status_meta({'progress_status': new_status}, ind_id)
+    return diffs
+
+
 if __name__ == "__main__":
     # get all indicator ids from listed data files
     indicator_ids = get_indicator_ids()
 
     # calculate progress measure values for all indicators
     progress_results = get_progress_measure_results(indicator_ids)
+    write_yaml(progress_results, 'indicator_calculation_components.yml')
 
-    # output progress measure calculation components to yaml
-    output_calculation_components(progress_results)
+    # calculate indicator scores
+    scores = get_scores(progress_results)
+    write_yaml(scores, 'indicator_scores.yml')
 
-    # calculate indicator scores & output
-    scores = get_goal_progress(progress_results)
-
+    # Update metadata with new progress statuses
+    diffs = update_progress_status2(progress_results)
     # if there have been changes to any progress measure, update the difference file
-    # if diffs:
-    #     update_progress_diff(diffs)
+    if diffs:
+        update_progress_diff(diffs)
