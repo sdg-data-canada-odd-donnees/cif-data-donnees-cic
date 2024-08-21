@@ -12,8 +12,6 @@ def measure_indicator_progress(data, config):
     # data = indicator['data']    # get indicator data
     # config = indicator['meta']  # get configurations
 
-    # if auto_progress_calculation is False --> return {value: None, progress_status: None, config = config}
-
     if not config.get('auto_progress_calculation'):
         # If auto_progress_calculation is turned off, take progress_status from metadata if it exists or not_available otherwise.
         return {'progress_status': config.get('progress_status', 'not_available')}
@@ -132,6 +130,7 @@ def default_progress_calc_options():
         }
     )
 
+
 def get_progress_calculation_options(metadata):
     """
     Get the progress_calculation_options from metadata.
@@ -140,6 +139,7 @@ def get_progress_calculation_options(metadata):
         return config_defaults(metadata['progress_calculation_options'][0])
     else:
         return default_progress_calc_options()
+
 
 def update_progress_thresholds(config, method):
     """Checks for configured progress thresholds or updates thresholds based on methodology.
@@ -191,7 +191,7 @@ def data_progress_measure(data, config):
     cols = data.columns
     if len(cols) > 2:
         # Data has disaggregations, find headline data
-        # If units are series are given, select desired unit/series to use for progress measure calculation
+        # If units or series are given, select desired unit/series to use for progress measure calculation
         if ("Units" in cols) and ("unit" in config.keys()):
             data = data.loc[data["Units"] == config["unit"]]
         if ("Series" in cols) and ("series" in config.keys()):
