@@ -91,7 +91,7 @@ def update_progress_status(indicator_ids):
 
     for ind_id in indicator_ids:
 
-        print(ind_id)
+        # print(ind_id)
 
         # Get data + metadata for calculation
         indicator = merge_indicator(ind_id)
@@ -142,12 +142,13 @@ def get_goal_progress(indicator_ids):
 
 def get_progress_measure_results(indicator_ids):
     """
-    Given a list of indicators, return a dictionary with the progress measure results and calculation components.
+    Return a dictionary containing the progress measure results and calculation components
+    for each indicator in the input list (indicator_ids).
     """
     progress_results = {}
 
     for ind_id in indicator_ids:
-        print(ind_id)
+        # print(ind_id)
         indicator = merge_indicator(ind_id)
 
         meta = indicator['meta']
@@ -176,12 +177,12 @@ def get_progress_measure_results(indicator_ids):
 
 def get_scores(progress_results):
     """
-    Given dictionary of progress measure results (see get_progress_measure_results),
-    return another dictionary with the score for each indicator. 
+    Given a dictionary of progress measure results (see get_progress_measure_results),
+    return another dictionary containing the score for each indicator. 
     """
     scores = {}
     for ind_id in progress_results:
-        print(ind_id)
+        # print(ind_id)
         value = progress_results[ind_id].get('progress_calculation_value')
         if value is None:
             score = None
@@ -204,12 +205,20 @@ def get_scores(progress_results):
 
 
 def update_progress_status2(progress_results):
+    """
+    Compare progress statuses in the input dictionary (progress_results) and in metadata files. 
+    If the progress_status field in the metadata is different from the progress_status in the
+    input dictionary, update the metadata with the progress_status value from the input.
+    Return a dictionary containing a string descriptions of progress status changes.
+    """
     diffs = {}
     for ind_id in progress_results:
+        # Get old progress status from metadata file
         meta = read_meta_md(ind_id)
         old_status = meta.get('progress_status')
+        # Get calculated progress status from input dictionary
         new_status = progress_results[ind_id]['progress_status']
-        # Check if the newly calculate progress measure is different than the old one
+        # Check if the newly calculated progress measure is different from the old one
         if old_status != new_status:
             diffs[ind_id] = diff_note(old_status, new_status)
             # Update progress status field in metadata
