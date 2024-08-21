@@ -16,7 +16,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -38,7 +38,7 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Type of materials diverted",
+            "name": "Type of materials diverted",
             "type": "string",
             "constraints": {
               "enum": [
@@ -55,10 +55,10 @@
                 "Textiles",
                 "Pneus",
                 "Déchets provenant de la construction, de la rénovation et de la démolition",
-                "data.All organic materials",
-                "data.Food waste and source separated organics",
-                "data.Leaf and yard waste",
-                "data.Other organic materials",
+                "Toutes les matières organiques",
+                "Déchets de nourriture et matières organiques séparées à la source",
+                "Feuilles et résidus de jardin",
+                "Autres matières organiques",
                 "Autres matières",
                 ""
               ]
@@ -66,7 +66,7 @@
             "title": "Type de matières récupérées"
           },
           {
-            "name": "data.Sources of materials prepared for recycling",
+            "name": "Sources of materials prepared for recycling",
             "type": "string",
             "constraints": {
               "enum": [

@@ -2910,7 +2910,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2932,7 +2932,7 @@
             "title": "Geography"
           },
           {
-            "name": "data.Type of materials diverted",
+            "name": "Type of materials diverted",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2949,10 +2949,10 @@
                 "Textiles",
                 "Tires",
                 "Construction, renovation and demolition",
-                "data.All organic materials",
-                "data.Food waste and source separated organics",
-                "data.Leaf and yard waste",
-                "data.Other organic materials",
+                "All organic materials",
+                "Food waste and source separated organics",
+                "Leaf and yard waste",
+                "Other organic materials",
                 "Other materials",
                 ""
               ]
@@ -2960,7 +2960,7 @@
             "title": "Type of materials diverted"
           },
           {
-            "name": "data.Sources of materials prepared for recycling",
+            "name": "Sources of materials prepared for recycling",
             "type": "string",
             "constraints": {
               "enum": [
