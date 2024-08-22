@@ -1,60 +1,1519 @@
-Year,data.Event type,data.Event sub-type,Value
-2010,data.Biological,data.Epidemic,1
-2010,data.Geological,data.Earthquake,1
-2010,data.Meteorological - Hydrological,data.Flood,7
-2010,data.Meteorological - Hydrological,data.Hurricane / Typhoon / Tropical Storm,2
-2010,data.Meteorological - Hydrological,data.Storm - Unspecified / Other,1
-2010,data.Meteorological - Hydrological,data.Storm Surge,1
-2010,data.Meteorological - Hydrological,data.Storms and Severe Thunderstorms,2
-2010,data.Meteorological - Hydrological,data.Tornado,3
-2010,data.Meteorological - Hydrological,data.Wildfire,5
-2010,data.Meteorological - Hydrological,data.Winter Storm,1
-2011,data.Meteorological - Hydrological,data.Flood,7
-2011,data.Meteorological - Hydrological,data.Hurricane / Typhoon / Tropical Storm,1
-2011,data.Meteorological - Hydrological,data.Tornado,1
-2011,data.Meteorological - Hydrological,data.Wildfire,5
-2012,data.Biological,data.Epidemic,1
-2012,data.Meteorological - Hydrological,data.Flood,6
-2012,data.Meteorological - Hydrological,data.Wildfire,10
-2013,data.Meteorological - Hydrological,data.Flood,4
-2013,data.Meteorological - Hydrological,data.Storms and Severe Thunderstorms,1
-2013,data.Meteorological - Hydrological,data.Winter Storm,3
-2014,data.Meteorological - Hydrological,data.Flood,5
-2014,data.Meteorological - Hydrological,data.Hurricane / Typhoon / Tropical Storm,1
-2014,data.Meteorological - Hydrological,data.Wildfire,2
-2015,data.Meteorological - Hydrological,data.Flood,3
-2015,data.Meteorological - Hydrological,data.Storm - Unspecified / Other,1
-2015,data.Meteorological - Hydrological,data.Storms and Severe Thunderstorms,6
-2015,data.Meteorological - Hydrological,data.Tornado,1
-2015,data.Meteorological - Hydrological,data.Wildfire,2
-2015,data.Meteorological - Hydrological,data.Winter Storm,1
-2016,data.Biological,data.Epidemic,1
-2016,data.Geological,data.Landslide,1
-2016,data.Meteorological - Hydrological,data.Flood,7
-2016,data.Meteorological - Hydrological,data.Storm - Unspecified / Other,4
-2016,data.Meteorological - Hydrological,data.Storms and Severe Thunderstorms,7
-2016,data.Meteorological - Hydrological,data.Tornado,1
-2016,data.Meteorological - Hydrological,data.Wildfire,5
-2016,data.Meteorological - Hydrological,data.Winter Storm,3
-2017,data.Meteorological - Hydrological,data.Flood,3
-2017,data.Meteorological - Hydrological,data.Storms and Severe Thunderstorms,1
-2017,data.Meteorological - Hydrological,data.Wildfire,1
-2017,data.Meteorological - Hydrological,data.Winter Storm,3
-2018,data.Meteorological - Hydrological,data.Flood,3
-2018,data.Meteorological - Hydrological,data.Heat Event,1
-2018,data.Meteorological - Hydrological,data.Storm - Unspecified / Other,1
-2018,data.Meteorological - Hydrological,data.Storms and Severe Thunderstorms,3
-2018,data.Meteorological - Hydrological,data.Tornado,1
-2018,data.Meteorological - Hydrological,data.Wildfire,2
-2018,data.Meteorological - Hydrological,data.Winter Storm,1
-2019,data.Meteorological - Hydrological,data.Flood,2
-2019,data.Meteorological - Hydrological,data.Hurricane / Typhoon / Tropical Storm,1
-2019,data.Meteorological - Hydrological,data.Storm - Unspecified / Other,1
-2019,data.Meteorological - Hydrological,data.Storms and Severe Thunderstorms,1
-2019,data.Meteorological - Hydrological,data.Wildfire,2
-2019,data.Meteorological - Hydrological,data.Winter Storm,3
-2020,data.Meteorological - Hydrological,data.Flood,2
-2020,data.Meteorological - Hydrological,data.Storm - Unspecified / Other,2
-2020,data.Meteorological - Hydrological,data.Storms and Severe Thunderstorms,2
-2020,data.Meteorological - Hydrological,data.Wildfire,1
-2020,data.Meteorological - Hydrological,data.Winter Storm,2
+"Year","Sex","Age group","Value"
+"2000",,,3
+"2000","Males","Total, all ages",3
+"2000","Females","Total, all ages",0
+"2000","Both sexes","Under 1 year",0
+"2000","Males","Under 1 year",0
+"2000","Females","Under 1 year",0
+"2000","Both sexes","1 to 4 years",0
+"2000","Males","1 to 4 years",0
+"2000","Females","1 to 4 years",0
+"2000","Both sexes","5 to 9 years",0
+"2000","Males","5 to 9 years",0
+"2000","Females","5 to 9 years",0
+"2000","Both sexes","10 to 14 years",0
+"2000","Males","10 to 14 years",0
+"2000","Females","10 to 14 years",0
+"2000","Both sexes","15 to 19 years",0
+"2000","Males","15 to 19 years",0
+"2000","Females","15 to 19 years",0
+"2000","Both sexes","20 to 24 years",0
+"2000","Males","20 to 24 years",0
+"2000","Females","20 to 24 years",0
+"2000","Both sexes","25 to 29 years",0
+"2000","Males","25 to 29 years",0
+"2000","Females","25 to 29 years",0
+"2000","Both sexes","30 to 34 years",0
+"2000","Males","30 to 34 years",0
+"2000","Females","30 to 34 years",0
+"2000","Both sexes","35 to 39 years",0
+"2000","Males","35 to 39 years",0
+"2000","Females","35 to 39 years",0
+"2000","Both sexes","40 to 44 years",1
+"2000","Males","40 to 44 years",1
+"2000","Females","40 to 44 years",0
+"2000","Both sexes","45 to 49 years",0
+"2000","Males","45 to 49 years",0
+"2000","Females","45 to 49 years",0
+"2000","Both sexes","50 to 54 years",0
+"2000","Males","50 to 54 years",0
+"2000","Females","50 to 54 years",0
+"2000","Both sexes","55 to 59 years",0
+"2000","Males","55 to 59 years",0
+"2000","Females","55 to 59 years",0
+"2000","Both sexes","60 to 64 years",1
+"2000","Males","60 to 64 years",1
+"2000","Females","60 to 64 years",0
+"2000","Both sexes","65 to 69 years",0
+"2000","Males","65 to 69 years",0
+"2000","Females","65 to 69 years",0
+"2000","Both sexes","70 to 74 years",0
+"2000","Males","70 to 74 years",0
+"2000","Females","70 to 74 years",0
+"2000","Both sexes","75 to 79 years",0
+"2000","Males","75 to 79 years",0
+"2000","Females","75 to 79 years",0
+"2000","Both sexes","80 to 84 years",1
+"2000","Males","80 to 84 years",1
+"2000","Females","80 to 84 years",0
+"2000","Both sexes","85 to 89 years",0
+"2000","Males","85 to 89 years",0
+"2000","Females","85 to 89 years",0
+"2000","Both sexes","90 years and over",0
+"2000","Males","90 years and over",0
+"2000","Females","90 years and over",0
+"2000","Both sexes","Age, not stated",0
+"2000","Males","Age, not stated",0
+"2000","Females","Age, not stated",0
+"2001",,,17
+"2001","Males","Total, all ages",8
+"2001","Females","Total, all ages",9
+"2001","Both sexes","Under 1 year",0
+"2001","Males","Under 1 year",0
+"2001","Females","Under 1 year",0
+"2001","Both sexes","1 to 4 years",0
+"2001","Males","1 to 4 years",0
+"2001","Females","1 to 4 years",0
+"2001","Both sexes","5 to 9 years",0
+"2001","Males","5 to 9 years",0
+"2001","Females","5 to 9 years",0
+"2001","Both sexes","10 to 14 years",0
+"2001","Males","10 to 14 years",0
+"2001","Females","10 to 14 years",0
+"2001","Both sexes","15 to 19 years",0
+"2001","Males","15 to 19 years",0
+"2001","Females","15 to 19 years",0
+"2001","Both sexes","20 to 24 years",0
+"2001","Males","20 to 24 years",0
+"2001","Females","20 to 24 years",0
+"2001","Both sexes","25 to 29 years",2
+"2001","Males","25 to 29 years",2
+"2001","Females","25 to 29 years",0
+"2001","Both sexes","30 to 34 years",0
+"2001","Males","30 to 34 years",0
+"2001","Females","30 to 34 years",0
+"2001","Both sexes","35 to 39 years",2
+"2001","Males","35 to 39 years",2
+"2001","Females","35 to 39 years",0
+"2001","Both sexes","40 to 44 years",0
+"2001","Males","40 to 44 years",0
+"2001","Females","40 to 44 years",0
+"2001","Both sexes","45 to 49 years",1
+"2001","Males","45 to 49 years",0
+"2001","Females","45 to 49 years",1
+"2001","Both sexes","50 to 54 years",1
+"2001","Males","50 to 54 years",1
+"2001","Females","50 to 54 years",0
+"2001","Both sexes","55 to 59 years",0
+"2001","Males","55 to 59 years",0
+"2001","Females","55 to 59 years",0
+"2001","Both sexes","60 to 64 years",2
+"2001","Males","60 to 64 years",1
+"2001","Females","60 to 64 years",1
+"2001","Both sexes","65 to 69 years",0
+"2001","Males","65 to 69 years",0
+"2001","Females","65 to 69 years",0
+"2001","Both sexes","70 to 74 years",1
+"2001","Males","70 to 74 years",0
+"2001","Females","70 to 74 years",1
+"2001","Both sexes","75 to 79 years",2
+"2001","Males","75 to 79 years",0
+"2001","Females","75 to 79 years",2
+"2001","Both sexes","80 to 84 years",1
+"2001","Males","80 to 84 years",1
+"2001","Females","80 to 84 years",0
+"2001","Both sexes","85 to 89 years",2
+"2001","Males","85 to 89 years",0
+"2001","Females","85 to 89 years",2
+"2001","Both sexes","90 years and over",3
+"2001","Males","90 years and over",1
+"2001","Females","90 years and over",2
+"2001","Both sexes","Age, not stated",0
+"2001","Males","Age, not stated",0
+"2001","Females","Age, not stated",0
+"2002",,,32
+"2002","Males","Total, all ages",18
+"2002","Females","Total, all ages",14
+"2002","Both sexes","Under 1 year",0
+"2002","Males","Under 1 year",0
+"2002","Females","Under 1 year",0
+"2002","Both sexes","1 to 4 years",0
+"2002","Males","1 to 4 years",0
+"2002","Females","1 to 4 years",0
+"2002","Both sexes","5 to 9 years",0
+"2002","Males","5 to 9 years",0
+"2002","Females","5 to 9 years",0
+"2002","Both sexes","10 to 14 years",0
+"2002","Males","10 to 14 years",0
+"2002","Females","10 to 14 years",0
+"2002","Both sexes","15 to 19 years",0
+"2002","Males","15 to 19 years",0
+"2002","Females","15 to 19 years",0
+"2002","Both sexes","20 to 24 years",1
+"2002","Males","20 to 24 years",0
+"2002","Females","20 to 24 years",1
+"2002","Both sexes","25 to 29 years",0
+"2002","Males","25 to 29 years",0
+"2002","Females","25 to 29 years",0
+"2002","Both sexes","30 to 34 years",0
+"2002","Males","30 to 34 years",0
+"2002","Females","30 to 34 years",0
+"2002","Both sexes","35 to 39 years",2
+"2002","Males","35 to 39 years",2
+"2002","Females","35 to 39 years",0
+"2002","Both sexes","40 to 44 years",2
+"2002","Males","40 to 44 years",2
+"2002","Females","40 to 44 years",0
+"2002","Both sexes","45 to 49 years",5
+"2002","Males","45 to 49 years",4
+"2002","Females","45 to 49 years",1
+"2002","Both sexes","50 to 54 years",0
+"2002","Males","50 to 54 years",0
+"2002","Females","50 to 54 years",0
+"2002","Both sexes","55 to 59 years",3
+"2002","Males","55 to 59 years",2
+"2002","Females","55 to 59 years",1
+"2002","Both sexes","60 to 64 years",2
+"2002","Males","60 to 64 years",1
+"2002","Females","60 to 64 years",1
+"2002","Both sexes","65 to 69 years",0
+"2002","Males","65 to 69 years",0
+"2002","Females","65 to 69 years",0
+"2002","Both sexes","70 to 74 years",4
+"2002","Males","70 to 74 years",0
+"2002","Females","70 to 74 years",4
+"2002","Both sexes","75 to 79 years",4
+"2002","Males","75 to 79 years",2
+"2002","Females","75 to 79 years",2
+"2002","Both sexes","80 to 84 years",4
+"2002","Males","80 to 84 years",2
+"2002","Females","80 to 84 years",2
+"2002","Both sexes","85 to 89 years",3
+"2002","Males","85 to 89 years",1
+"2002","Females","85 to 89 years",2
+"2002","Both sexes","90 years and over",2
+"2002","Males","90 years and over",2
+"2002","Females","90 years and over",0
+"2002","Both sexes","Age, not stated",0
+"2002","Males","Age, not stated",0
+"2002","Females","Age, not stated",0
+"2003",,,11
+"2003","Males","Total, all ages",9
+"2003","Females","Total, all ages",2
+"2003","Both sexes","Under 1 year",0
+"2003","Males","Under 1 year",0
+"2003","Females","Under 1 year",0
+"2003","Both sexes","1 to 4 years",1
+"2003","Males","1 to 4 years",0
+"2003","Females","1 to 4 years",1
+"2003","Both sexes","5 to 9 years",0
+"2003","Males","5 to 9 years",0
+"2003","Females","5 to 9 years",0
+"2003","Both sexes","10 to 14 years",0
+"2003","Males","10 to 14 years",0
+"2003","Females","10 to 14 years",0
+"2003","Both sexes","15 to 19 years",0
+"2003","Males","15 to 19 years",0
+"2003","Females","15 to 19 years",0
+"2003","Both sexes","20 to 24 years",2
+"2003","Males","20 to 24 years",2
+"2003","Females","20 to 24 years",0
+"2003","Both sexes","25 to 29 years",0
+"2003","Males","25 to 29 years",0
+"2003","Females","25 to 29 years",0
+"2003","Both sexes","30 to 34 years",0
+"2003","Males","30 to 34 years",0
+"2003","Females","30 to 34 years",0
+"2003","Both sexes","35 to 39 years",1
+"2003","Males","35 to 39 years",1
+"2003","Females","35 to 39 years",0
+"2003","Both sexes","40 to 44 years",1
+"2003","Males","40 to 44 years",0
+"2003","Females","40 to 44 years",1
+"2003","Both sexes","45 to 49 years",1
+"2003","Males","45 to 49 years",1
+"2003","Females","45 to 49 years",0
+"2003","Both sexes","50 to 54 years",0
+"2003","Males","50 to 54 years",0
+"2003","Females","50 to 54 years",0
+"2003","Both sexes","55 to 59 years",0
+"2003","Males","55 to 59 years",0
+"2003","Females","55 to 59 years",0
+"2003","Both sexes","60 to 64 years",0
+"2003","Males","60 to 64 years",0
+"2003","Females","60 to 64 years",0
+"2003","Both sexes","65 to 69 years",1
+"2003","Males","65 to 69 years",1
+"2003","Females","65 to 69 years",0
+"2003","Both sexes","70 to 74 years",1
+"2003","Males","70 to 74 years",1
+"2003","Females","70 to 74 years",0
+"2003","Both sexes","75 to 79 years",1
+"2003","Males","75 to 79 years",1
+"2003","Females","75 to 79 years",0
+"2003","Both sexes","80 to 84 years",1
+"2003","Males","80 to 84 years",1
+"2003","Females","80 to 84 years",0
+"2003","Both sexes","85 to 89 years",0
+"2003","Males","85 to 89 years",0
+"2003","Females","85 to 89 years",0
+"2003","Both sexes","90 years and over",1
+"2003","Males","90 years and over",1
+"2003","Females","90 years and over",0
+"2003","Both sexes","Age, not stated",0
+"2003","Males","Age, not stated",0
+"2003","Females","Age, not stated",0
+"2004",,,4
+"2004","Males","Total, all ages",3
+"2004","Females","Total, all ages",1
+"2004","Both sexes","Under 1 year",0
+"2004","Males","Under 1 year",0
+"2004","Females","Under 1 year",0
+"2004","Both sexes","1 to 4 years",1
+"2004","Males","1 to 4 years",1
+"2004","Females","1 to 4 years",0
+"2004","Both sexes","5 to 9 years",0
+"2004","Males","5 to 9 years",0
+"2004","Females","5 to 9 years",0
+"2004","Both sexes","10 to 14 years",0
+"2004","Males","10 to 14 years",0
+"2004","Females","10 to 14 years",0
+"2004","Both sexes","15 to 19 years",0
+"2004","Males","15 to 19 years",0
+"2004","Females","15 to 19 years",0
+"2004","Both sexes","20 to 24 years",0
+"2004","Males","20 to 24 years",0
+"2004","Females","20 to 24 years",0
+"2004","Both sexes","25 to 29 years",0
+"2004","Males","25 to 29 years",0
+"2004","Females","25 to 29 years",0
+"2004","Both sexes","30 to 34 years",0
+"2004","Males","30 to 34 years",0
+"2004","Females","30 to 34 years",0
+"2004","Both sexes","35 to 39 years",0
+"2004","Males","35 to 39 years",0
+"2004","Females","35 to 39 years",0
+"2004","Both sexes","40 to 44 years",0
+"2004","Males","40 to 44 years",0
+"2004","Females","40 to 44 years",0
+"2004","Both sexes","45 to 49 years",1
+"2004","Males","45 to 49 years",1
+"2004","Females","45 to 49 years",0
+"2004","Both sexes","50 to 54 years",0
+"2004","Males","50 to 54 years",0
+"2004","Females","50 to 54 years",0
+"2004","Both sexes","55 to 59 years",0
+"2004","Males","55 to 59 years",0
+"2004","Females","55 to 59 years",0
+"2004","Both sexes","60 to 64 years",1
+"2004","Males","60 to 64 years",0
+"2004","Females","60 to 64 years",1
+"2004","Both sexes","65 to 69 years",1
+"2004","Males","65 to 69 years",1
+"2004","Females","65 to 69 years",0
+"2004","Both sexes","70 to 74 years",0
+"2004","Males","70 to 74 years",0
+"2004","Females","70 to 74 years",0
+"2004","Both sexes","75 to 79 years",0
+"2004","Males","75 to 79 years",0
+"2004","Females","75 to 79 years",0
+"2004","Both sexes","80 to 84 years",0
+"2004","Males","80 to 84 years",0
+"2004","Females","80 to 84 years",0
+"2004","Both sexes","85 to 89 years",0
+"2004","Males","85 to 89 years",0
+"2004","Females","85 to 89 years",0
+"2004","Both sexes","90 years and over",0
+"2004","Males","90 years and over",0
+"2004","Females","90 years and over",0
+"2004","Both sexes","Age, not stated",0
+"2004","Males","Age, not stated",0
+"2004","Females","Age, not stated",0
+"2005",,,13
+"2005","Males","Total, all ages",8
+"2005","Females","Total, all ages",5
+"2005","Both sexes","Under 1 year",0
+"2005","Males","Under 1 year",0
+"2005","Females","Under 1 year",0
+"2005","Both sexes","1 to 4 years",0
+"2005","Males","1 to 4 years",0
+"2005","Females","1 to 4 years",0
+"2005","Both sexes","5 to 9 years",0
+"2005","Males","5 to 9 years",0
+"2005","Females","5 to 9 years",0
+"2005","Both sexes","10 to 14 years",0
+"2005","Males","10 to 14 years",0
+"2005","Females","10 to 14 years",0
+"2005","Both sexes","15 to 19 years",0
+"2005","Males","15 to 19 years",0
+"2005","Females","15 to 19 years",0
+"2005","Both sexes","20 to 24 years",0
+"2005","Males","20 to 24 years",0
+"2005","Females","20 to 24 years",0
+"2005","Both sexes","25 to 29 years",0
+"2005","Males","25 to 29 years",0
+"2005","Females","25 to 29 years",0
+"2005","Both sexes","30 to 34 years",0
+"2005","Males","30 to 34 years",0
+"2005","Females","30 to 34 years",0
+"2005","Both sexes","35 to 39 years",1
+"2005","Males","35 to 39 years",1
+"2005","Females","35 to 39 years",0
+"2005","Both sexes","40 to 44 years",3
+"2005","Males","40 to 44 years",3
+"2005","Females","40 to 44 years",0
+"2005","Both sexes","45 to 49 years",0
+"2005","Males","45 to 49 years",0
+"2005","Females","45 to 49 years",0
+"2005","Both sexes","50 to 54 years",1
+"2005","Males","50 to 54 years",1
+"2005","Females","50 to 54 years",0
+"2005","Both sexes","55 to 59 years",1
+"2005","Males","55 to 59 years",1
+"2005","Females","55 to 59 years",0
+"2005","Both sexes","60 to 64 years",1
+"2005","Males","60 to 64 years",1
+"2005","Females","60 to 64 years",0
+"2005","Both sexes","65 to 69 years",1
+"2005","Males","65 to 69 years",0
+"2005","Females","65 to 69 years",1
+"2005","Both sexes","70 to 74 years",2
+"2005","Males","70 to 74 years",0
+"2005","Females","70 to 74 years",2
+"2005","Both sexes","75 to 79 years",1
+"2005","Males","75 to 79 years",0
+"2005","Females","75 to 79 years",1
+"2005","Both sexes","80 to 84 years",0
+"2005","Males","80 to 84 years",0
+"2005","Females","80 to 84 years",0
+"2005","Both sexes","85 to 89 years",1
+"2005","Males","85 to 89 years",1
+"2005","Females","85 to 89 years",0
+"2005","Both sexes","90 years and over",1
+"2005","Males","90 years and over",0
+"2005","Females","90 years and over",1
+"2005","Both sexes","Age, not stated",0
+"2005","Males","Age, not stated",0
+"2005","Females","Age, not stated",0
+"2006",,,14
+"2006","Males","Total, all ages",10
+"2006","Females","Total, all ages",4
+"2006","Both sexes","Under 1 year",0
+"2006","Males","Under 1 year",0
+"2006","Females","Under 1 year",0
+"2006","Both sexes","1 to 4 years",0
+"2006","Males","1 to 4 years",0
+"2006","Females","1 to 4 years",0
+"2006","Both sexes","5 to 9 years",0
+"2006","Males","5 to 9 years",0
+"2006","Females","5 to 9 years",0
+"2006","Both sexes","10 to 14 years",0
+"2006","Males","10 to 14 years",0
+"2006","Females","10 to 14 years",0
+"2006","Both sexes","15 to 19 years",0
+"2006","Males","15 to 19 years",0
+"2006","Females","15 to 19 years",0
+"2006","Both sexes","20 to 24 years",0
+"2006","Males","20 to 24 years",0
+"2006","Females","20 to 24 years",0
+"2006","Both sexes","25 to 29 years",1
+"2006","Males","25 to 29 years",1
+"2006","Females","25 to 29 years",0
+"2006","Both sexes","30 to 34 years",0
+"2006","Males","30 to 34 years",0
+"2006","Females","30 to 34 years",0
+"2006","Both sexes","35 to 39 years",1
+"2006","Males","35 to 39 years",1
+"2006","Females","35 to 39 years",0
+"2006","Both sexes","40 to 44 years",0
+"2006","Males","40 to 44 years",0
+"2006","Females","40 to 44 years",0
+"2006","Both sexes","45 to 49 years",0
+"2006","Males","45 to 49 years",0
+"2006","Females","45 to 49 years",0
+"2006","Both sexes","50 to 54 years",1
+"2006","Males","50 to 54 years",1
+"2006","Females","50 to 54 years",0
+"2006","Both sexes","55 to 59 years",3
+"2006","Males","55 to 59 years",3
+"2006","Females","55 to 59 years",0
+"2006","Both sexes","60 to 64 years",1
+"2006","Males","60 to 64 years",1
+"2006","Females","60 to 64 years",0
+"2006","Both sexes","65 to 69 years",2
+"2006","Males","65 to 69 years",2
+"2006","Females","65 to 69 years",0
+"2006","Both sexes","70 to 74 years",0
+"2006","Males","70 to 74 years",0
+"2006","Females","70 to 74 years",0
+"2006","Both sexes","75 to 79 years",2
+"2006","Males","75 to 79 years",0
+"2006","Females","75 to 79 years",2
+"2006","Both sexes","80 to 84 years",2
+"2006","Males","80 to 84 years",1
+"2006","Females","80 to 84 years",1
+"2006","Both sexes","85 to 89 years",0
+"2006","Males","85 to 89 years",0
+"2006","Females","85 to 89 years",0
+"2006","Both sexes","90 years and over",1
+"2006","Males","90 years and over",0
+"2006","Females","90 years and over",1
+"2006","Both sexes","Age, not stated",0
+"2006","Males","Age, not stated",0
+"2006","Females","Age, not stated",0
+"2007",,,4
+"2007","Males","Total, all ages",3
+"2007","Females","Total, all ages",1
+"2007","Both sexes","Under 1 year",0
+"2007","Males","Under 1 year",0
+"2007","Females","Under 1 year",0
+"2007","Both sexes","1 to 4 years",1
+"2007","Males","1 to 4 years",1
+"2007","Females","1 to 4 years",0
+"2007","Both sexes","5 to 9 years",0
+"2007","Males","5 to 9 years",0
+"2007","Females","5 to 9 years",0
+"2007","Both sexes","10 to 14 years",0
+"2007","Males","10 to 14 years",0
+"2007","Females","10 to 14 years",0
+"2007","Both sexes","15 to 19 years",0
+"2007","Males","15 to 19 years",0
+"2007","Females","15 to 19 years",0
+"2007","Both sexes","20 to 24 years",0
+"2007","Males","20 to 24 years",0
+"2007","Females","20 to 24 years",0
+"2007","Both sexes","25 to 29 years",0
+"2007","Males","25 to 29 years",0
+"2007","Females","25 to 29 years",0
+"2007","Both sexes","30 to 34 years",0
+"2007","Males","30 to 34 years",0
+"2007","Females","30 to 34 years",0
+"2007","Both sexes","35 to 39 years",0
+"2007","Males","35 to 39 years",0
+"2007","Females","35 to 39 years",0
+"2007","Both sexes","40 to 44 years",1
+"2007","Males","40 to 44 years",1
+"2007","Females","40 to 44 years",0
+"2007","Both sexes","45 to 49 years",0
+"2007","Males","45 to 49 years",0
+"2007","Females","45 to 49 years",0
+"2007","Both sexes","50 to 54 years",2
+"2007","Males","50 to 54 years",1
+"2007","Females","50 to 54 years",1
+"2007","Both sexes","55 to 59 years",0
+"2007","Males","55 to 59 years",0
+"2007","Females","55 to 59 years",0
+"2007","Both sexes","60 to 64 years",0
+"2007","Males","60 to 64 years",0
+"2007","Females","60 to 64 years",0
+"2007","Both sexes","65 to 69 years",0
+"2007","Males","65 to 69 years",0
+"2007","Females","65 to 69 years",0
+"2007","Both sexes","70 to 74 years",0
+"2007","Males","70 to 74 years",0
+"2007","Females","70 to 74 years",0
+"2007","Both sexes","75 to 79 years",0
+"2007","Males","75 to 79 years",0
+"2007","Females","75 to 79 years",0
+"2007","Both sexes","80 to 84 years",0
+"2007","Males","80 to 84 years",0
+"2007","Females","80 to 84 years",0
+"2007","Both sexes","85 to 89 years",0
+"2007","Males","85 to 89 years",0
+"2007","Females","85 to 89 years",0
+"2007","Both sexes","90 years and over",0
+"2007","Males","90 years and over",0
+"2007","Females","90 years and over",0
+"2007","Both sexes","Age, not stated",0
+"2007","Males","Age, not stated",0
+"2007","Females","Age, not stated",0
+"2008",,,2
+"2008","Males","Total, all ages",2
+"2008","Females","Total, all ages",0
+"2008","Both sexes","Under 1 year",0
+"2008","Males","Under 1 year",0
+"2008","Females","Under 1 year",0
+"2008","Both sexes","1 to 4 years",1
+"2008","Males","1 to 4 years",1
+"2008","Females","1 to 4 years",0
+"2008","Both sexes","5 to 9 years",0
+"2008","Males","5 to 9 years",0
+"2008","Females","5 to 9 years",0
+"2008","Both sexes","10 to 14 years",0
+"2008","Males","10 to 14 years",0
+"2008","Females","10 to 14 years",0
+"2008","Both sexes","15 to 19 years",0
+"2008","Males","15 to 19 years",0
+"2008","Females","15 to 19 years",0
+"2008","Both sexes","20 to 24 years",0
+"2008","Males","20 to 24 years",0
+"2008","Females","20 to 24 years",0
+"2008","Both sexes","25 to 29 years",0
+"2008","Males","25 to 29 years",0
+"2008","Females","25 to 29 years",0
+"2008","Both sexes","30 to 34 years",0
+"2008","Males","30 to 34 years",0
+"2008","Females","30 to 34 years",0
+"2008","Both sexes","35 to 39 years",0
+"2008","Males","35 to 39 years",0
+"2008","Females","35 to 39 years",0
+"2008","Both sexes","40 to 44 years",0
+"2008","Males","40 to 44 years",0
+"2008","Females","40 to 44 years",0
+"2008","Both sexes","45 to 49 years",0
+"2008","Males","45 to 49 years",0
+"2008","Females","45 to 49 years",0
+"2008","Both sexes","50 to 54 years",1
+"2008","Males","50 to 54 years",1
+"2008","Females","50 to 54 years",0
+"2008","Both sexes","55 to 59 years",0
+"2008","Males","55 to 59 years",0
+"2008","Females","55 to 59 years",0
+"2008","Both sexes","60 to 64 years",0
+"2008","Males","60 to 64 years",0
+"2008","Females","60 to 64 years",0
+"2008","Both sexes","65 to 69 years",0
+"2008","Males","65 to 69 years",0
+"2008","Females","65 to 69 years",0
+"2008","Both sexes","70 to 74 years",0
+"2008","Males","70 to 74 years",0
+"2008","Females","70 to 74 years",0
+"2008","Both sexes","75 to 79 years",0
+"2008","Males","75 to 79 years",0
+"2008","Females","75 to 79 years",0
+"2008","Both sexes","80 to 84 years",0
+"2008","Males","80 to 84 years",0
+"2008","Females","80 to 84 years",0
+"2008","Both sexes","85 to 89 years",0
+"2008","Males","85 to 89 years",0
+"2008","Females","85 to 89 years",0
+"2008","Both sexes","90 years and over",0
+"2008","Males","90 years and over",0
+"2008","Females","90 years and over",0
+"2008","Both sexes","Age, not stated",0
+"2008","Males","Age, not stated",0
+"2008","Females","Age, not stated",0
+"2009",,,4
+"2009","Males","Total, all ages",3
+"2009","Females","Total, all ages",1
+"2009","Both sexes","Under 1 year",0
+"2009","Males","Under 1 year",0
+"2009","Females","Under 1 year",0
+"2009","Both sexes","1 to 4 years",0
+"2009","Males","1 to 4 years",0
+"2009","Females","1 to 4 years",0
+"2009","Both sexes","5 to 9 years",0
+"2009","Males","5 to 9 years",0
+"2009","Females","5 to 9 years",0
+"2009","Both sexes","10 to 14 years",0
+"2009","Males","10 to 14 years",0
+"2009","Females","10 to 14 years",0
+"2009","Both sexes","15 to 19 years",0
+"2009","Males","15 to 19 years",0
+"2009","Females","15 to 19 years",0
+"2009","Both sexes","20 to 24 years",0
+"2009","Males","20 to 24 years",0
+"2009","Females","20 to 24 years",0
+"2009","Both sexes","25 to 29 years",0
+"2009","Males","25 to 29 years",0
+"2009","Females","25 to 29 years",0
+"2009","Both sexes","30 to 34 years",0
+"2009","Males","30 to 34 years",0
+"2009","Females","30 to 34 years",0
+"2009","Both sexes","35 to 39 years",0
+"2009","Males","35 to 39 years",0
+"2009","Females","35 to 39 years",0
+"2009","Both sexes","40 to 44 years",1
+"2009","Males","40 to 44 years",1
+"2009","Females","40 to 44 years",0
+"2009","Both sexes","45 to 49 years",1
+"2009","Males","45 to 49 years",1
+"2009","Females","45 to 49 years",0
+"2009","Both sexes","50 to 54 years",0
+"2009","Males","50 to 54 years",0
+"2009","Females","50 to 54 years",0
+"2009","Both sexes","55 to 59 years",1
+"2009","Males","55 to 59 years",0
+"2009","Females","55 to 59 years",1
+"2009","Both sexes","60 to 64 years",0
+"2009","Males","60 to 64 years",0
+"2009","Females","60 to 64 years",0
+"2009","Both sexes","65 to 69 years",0
+"2009","Males","65 to 69 years",0
+"2009","Females","65 to 69 years",0
+"2009","Both sexes","70 to 74 years",0
+"2009","Males","70 to 74 years",0
+"2009","Females","70 to 74 years",0
+"2009","Both sexes","75 to 79 years",1
+"2009","Males","75 to 79 years",1
+"2009","Females","75 to 79 years",0
+"2009","Both sexes","80 to 84 years",0
+"2009","Males","80 to 84 years",0
+"2009","Females","80 to 84 years",0
+"2009","Both sexes","85 to 89 years",0
+"2009","Males","85 to 89 years",0
+"2009","Females","85 to 89 years",0
+"2009","Both sexes","90 years and over",0
+"2009","Males","90 years and over",0
+"2009","Females","90 years and over",0
+"2009","Both sexes","Age, not stated",0
+"2009","Males","Age, not stated",0
+"2009","Females","Age, not stated",0
+"2010",,,48
+"2010","Males","Total, all ages",30
+"2010","Females","Total, all ages",18
+"2010","Both sexes","Under 1 year",0
+"2010","Males","Under 1 year",0
+"2010","Females","Under 1 year",0
+"2010","Both sexes","1 to 4 years",0
+"2010","Males","1 to 4 years",0
+"2010","Females","1 to 4 years",0
+"2010","Both sexes","5 to 9 years",0
+"2010","Males","5 to 9 years",0
+"2010","Females","5 to 9 years",0
+"2010","Both sexes","10 to 14 years",0
+"2010","Males","10 to 14 years",0
+"2010","Females","10 to 14 years",0
+"2010","Both sexes","15 to 19 years",0
+"2010","Males","15 to 19 years",0
+"2010","Females","15 to 19 years",0
+"2010","Both sexes","20 to 24 years",1
+"2010","Males","20 to 24 years",1
+"2010","Females","20 to 24 years",0
+"2010","Both sexes","25 to 29 years",0
+"2010","Males","25 to 29 years",0
+"2010","Females","25 to 29 years",0
+"2010","Both sexes","30 to 34 years",0
+"2010","Males","30 to 34 years",0
+"2010","Females","30 to 34 years",0
+"2010","Both sexes","35 to 39 years",2
+"2010","Males","35 to 39 years",2
+"2010","Females","35 to 39 years",0
+"2010","Both sexes","40 to 44 years",1
+"2010","Males","40 to 44 years",1
+"2010","Females","40 to 44 years",0
+"2010","Both sexes","45 to 49 years",4
+"2010","Males","45 to 49 years",4
+"2010","Females","45 to 49 years",0
+"2010","Both sexes","50 to 54 years",4
+"2010","Males","50 to 54 years",2
+"2010","Females","50 to 54 years",2
+"2010","Both sexes","55 to 59 years",8
+"2010","Males","55 to 59 years",6
+"2010","Females","55 to 59 years",2
+"2010","Both sexes","60 to 64 years",0
+"2010","Males","60 to 64 years",0
+"2010","Females","60 to 64 years",0
+"2010","Both sexes","65 to 69 years",5
+"2010","Males","65 to 69 years",2
+"2010","Females","65 to 69 years",3
+"2010","Both sexes","70 to 74 years",7
+"2010","Males","70 to 74 years",5
+"2010","Females","70 to 74 years",2
+"2010","Both sexes","75 to 79 years",4
+"2010","Males","75 to 79 years",2
+"2010","Females","75 to 79 years",2
+"2010","Both sexes","80 to 84 years",5
+"2010","Males","80 to 84 years",2
+"2010","Females","80 to 84 years",3
+"2010","Both sexes","85 to 89 years",5
+"2010","Males","85 to 89 years",3
+"2010","Females","85 to 89 years",2
+"2010","Both sexes","90 years and over",2
+"2010","Males","90 years and over",0
+"2010","Females","90 years and over",2
+"2010","Both sexes","Age, not stated",0
+"2010","Males","Age, not stated",0
+"2010","Females","Age, not stated",0
+"2011",,,16
+"2011","Males","Total, all ages",11
+"2011","Females","Total, all ages",5
+"2011","Both sexes","Under 1 year",0
+"2011","Males","Under 1 year",0
+"2011","Females","Under 1 year",0
+"2011","Both sexes","1 to 4 years",0
+"2011","Males","1 to 4 years",0
+"2011","Females","1 to 4 years",0
+"2011","Both sexes","5 to 9 years",0
+"2011","Males","5 to 9 years",0
+"2011","Females","5 to 9 years",0
+"2011","Both sexes","10 to 14 years",0
+"2011","Males","10 to 14 years",0
+"2011","Females","10 to 14 years",0
+"2011","Both sexes","15 to 19 years",0
+"2011","Males","15 to 19 years",0
+"2011","Females","15 to 19 years",0
+"2011","Both sexes","20 to 24 years",0
+"2011","Males","20 to 24 years",0
+"2011","Females","20 to 24 years",0
+"2011","Both sexes","25 to 29 years",0
+"2011","Males","25 to 29 years",0
+"2011","Females","25 to 29 years",0
+"2011","Both sexes","30 to 34 years",1
+"2011","Males","30 to 34 years",1
+"2011","Females","30 to 34 years",0
+"2011","Both sexes","35 to 39 years",0
+"2011","Males","35 to 39 years",0
+"2011","Females","35 to 39 years",0
+"2011","Both sexes","40 to 44 years",2
+"2011","Males","40 to 44 years",2
+"2011","Females","40 to 44 years",0
+"2011","Both sexes","45 to 49 years",0
+"2011","Males","45 to 49 years",0
+"2011","Females","45 to 49 years",0
+"2011","Both sexes","50 to 54 years",0
+"2011","Males","50 to 54 years",0
+"2011","Females","50 to 54 years",0
+"2011","Both sexes","55 to 59 years",2
+"2011","Males","55 to 59 years",2
+"2011","Females","55 to 59 years",0
+"2011","Both sexes","60 to 64 years",0
+"2011","Males","60 to 64 years",0
+"2011","Females","60 to 64 years",0
+"2011","Both sexes","65 to 69 years",1
+"2011","Males","65 to 69 years",1
+"2011","Females","65 to 69 years",0
+"2011","Both sexes","70 to 74 years",1
+"2011","Males","70 to 74 years",0
+"2011","Females","70 to 74 years",1
+"2011","Both sexes","75 to 79 years",1
+"2011","Males","75 to 79 years",0
+"2011","Females","75 to 79 years",1
+"2011","Both sexes","80 to 84 years",4
+"2011","Males","80 to 84 years",2
+"2011","Females","80 to 84 years",2
+"2011","Both sexes","85 to 89 years",1
+"2011","Males","85 to 89 years",1
+"2011","Females","85 to 89 years",0
+"2011","Both sexes","90 years and over",3
+"2011","Males","90 years and over",2
+"2011","Females","90 years and over",1
+"2011","Both sexes","Age, not stated",0
+"2011","Males","Age, not stated",0
+"2011","Females","Age, not stated",0
+"2012",,,9
+"2012","Males","Total, all ages",9
+"2012","Females","Total, all ages",0
+"2012","Both sexes","Under 1 year",0
+"2012","Males","Under 1 year",0
+"2012","Females","Under 1 year",0
+"2012","Both sexes","1 to 4 years",0
+"2012","Males","1 to 4 years",0
+"2012","Females","1 to 4 years",0
+"2012","Both sexes","5 to 9 years",0
+"2012","Males","5 to 9 years",0
+"2012","Females","5 to 9 years",0
+"2012","Both sexes","10 to 14 years",0
+"2012","Males","10 to 14 years",0
+"2012","Females","10 to 14 years",0
+"2012","Both sexes","15 to 19 years",0
+"2012","Males","15 to 19 years",0
+"2012","Females","15 to 19 years",0
+"2012","Both sexes","20 to 24 years",0
+"2012","Males","20 to 24 years",0
+"2012","Females","20 to 24 years",0
+"2012","Both sexes","25 to 29 years",1
+"2012","Males","25 to 29 years",1
+"2012","Females","25 to 29 years",0
+"2012","Both sexes","30 to 34 years",0
+"2012","Males","30 to 34 years",0
+"2012","Females","30 to 34 years",0
+"2012","Both sexes","35 to 39 years",0
+"2012","Males","35 to 39 years",0
+"2012","Females","35 to 39 years",0
+"2012","Both sexes","40 to 44 years",2
+"2012","Males","40 to 44 years",2
+"2012","Females","40 to 44 years",0
+"2012","Both sexes","45 to 49 years",0
+"2012","Males","45 to 49 years",0
+"2012","Females","45 to 49 years",0
+"2012","Both sexes","50 to 54 years",1
+"2012","Males","50 to 54 years",1
+"2012","Females","50 to 54 years",0
+"2012","Both sexes","55 to 59 years",2
+"2012","Males","55 to 59 years",2
+"2012","Females","55 to 59 years",0
+"2012","Both sexes","60 to 64 years",0
+"2012","Males","60 to 64 years",0
+"2012","Females","60 to 64 years",0
+"2012","Both sexes","65 to 69 years",0
+"2012","Males","65 to 69 years",0
+"2012","Females","65 to 69 years",0
+"2012","Both sexes","70 to 74 years",0
+"2012","Males","70 to 74 years",0
+"2012","Females","70 to 74 years",0
+"2012","Both sexes","75 to 79 years",0
+"2012","Males","75 to 79 years",0
+"2012","Females","75 to 79 years",0
+"2012","Both sexes","80 to 84 years",2
+"2012","Males","80 to 84 years",2
+"2012","Females","80 to 84 years",0
+"2012","Both sexes","85 to 89 years",0
+"2012","Males","85 to 89 years",0
+"2012","Females","85 to 89 years",0
+"2012","Both sexes","90 years and over",1
+"2012","Males","90 years and over",1
+"2012","Females","90 years and over",0
+"2012","Both sexes","Age, not stated",0
+"2012","Males","Age, not stated",0
+"2012","Females","Age, not stated",0
+"2013",,,14
+"2013","Males","Total, all ages",11
+"2013","Females","Total, all ages",3
+"2013","Both sexes","Under 1 year",0
+"2013","Males","Under 1 year",0
+"2013","Females","Under 1 year",0
+"2013","Both sexes","1 to 4 years",2
+"2013","Males","1 to 4 years",1
+"2013","Females","1 to 4 years",1
+"2013","Both sexes","5 to 9 years",0
+"2013","Males","5 to 9 years",0
+"2013","Females","5 to 9 years",0
+"2013","Both sexes","10 to 14 years",0
+"2013","Males","10 to 14 years",0
+"2013","Females","10 to 14 years",0
+"2013","Both sexes","15 to 19 years",0
+"2013","Males","15 to 19 years",0
+"2013","Females","15 to 19 years",0
+"2013","Both sexes","20 to 24 years",0
+"2013","Males","20 to 24 years",0
+"2013","Females","20 to 24 years",0
+"2013","Both sexes","25 to 29 years",0
+"2013","Males","25 to 29 years",0
+"2013","Females","25 to 29 years",0
+"2013","Both sexes","30 to 34 years",1
+"2013","Males","30 to 34 years",1
+"2013","Females","30 to 34 years",0
+"2013","Both sexes","35 to 39 years",2
+"2013","Males","35 to 39 years",1
+"2013","Females","35 to 39 years",1
+"2013","Both sexes","40 to 44 years",0
+"2013","Males","40 to 44 years",0
+"2013","Females","40 to 44 years",0
+"2013","Both sexes","45 to 49 years",1
+"2013","Males","45 to 49 years",1
+"2013","Females","45 to 49 years",0
+"2013","Both sexes","50 to 54 years",1
+"2013","Males","50 to 54 years",1
+"2013","Females","50 to 54 years",0
+"2013","Both sexes","55 to 59 years",2
+"2013","Males","55 to 59 years",2
+"2013","Females","55 to 59 years",0
+"2013","Both sexes","60 to 64 years",0
+"2013","Males","60 to 64 years",0
+"2013","Females","60 to 64 years",0
+"2013","Both sexes","65 to 69 years",1
+"2013","Males","65 to 69 years",0
+"2013","Females","65 to 69 years",1
+"2013","Both sexes","70 to 74 years",2
+"2013","Males","70 to 74 years",2
+"2013","Females","70 to 74 years",0
+"2013","Both sexes","75 to 79 years",0
+"2013","Males","75 to 79 years",0
+"2013","Females","75 to 79 years",0
+"2013","Both sexes","80 to 84 years",1
+"2013","Males","80 to 84 years",1
+"2013","Females","80 to 84 years",0
+"2013","Both sexes","85 to 89 years",0
+"2013","Males","85 to 89 years",0
+"2013","Females","85 to 89 years",0
+"2013","Both sexes","90 years and over",1
+"2013","Males","90 years and over",1
+"2013","Females","90 years and over",0
+"2013","Both sexes","Age, not stated",0
+"2013","Males","Age, not stated",0
+"2013","Females","Age, not stated",0
+"2014",,,7
+"2014","Males","Total, all ages",4
+"2014","Females","Total, all ages",3
+"2014","Both sexes","Under 1 year",0
+"2014","Males","Under 1 year",0
+"2014","Females","Under 1 year",0
+"2014","Both sexes","1 to 4 years",1
+"2014","Males","1 to 4 years",0
+"2014","Females","1 to 4 years",1
+"2014","Both sexes","5 to 9 years",0
+"2014","Males","5 to 9 years",0
+"2014","Females","5 to 9 years",0
+"2014","Both sexes","10 to 14 years",0
+"2014","Males","10 to 14 years",0
+"2014","Females","10 to 14 years",0
+"2014","Both sexes","15 to 19 years",1
+"2014","Males","15 to 19 years",1
+"2014","Females","15 to 19 years",0
+"2014","Both sexes","20 to 24 years",0
+"2014","Males","20 to 24 years",0
+"2014","Females","20 to 24 years",0
+"2014","Both sexes","25 to 29 years",0
+"2014","Males","25 to 29 years",0
+"2014","Females","25 to 29 years",0
+"2014","Both sexes","30 to 34 years",0
+"2014","Males","30 to 34 years",0
+"2014","Females","30 to 34 years",0
+"2014","Both sexes","35 to 39 years",1
+"2014","Males","35 to 39 years",1
+"2014","Females","35 to 39 years",0
+"2014","Both sexes","40 to 44 years",0
+"2014","Males","40 to 44 years",0
+"2014","Females","40 to 44 years",0
+"2014","Both sexes","45 to 49 years",1
+"2014","Males","45 to 49 years",0
+"2014","Females","45 to 49 years",1
+"2014","Both sexes","50 to 54 years",1
+"2014","Males","50 to 54 years",1
+"2014","Females","50 to 54 years",0
+"2014","Both sexes","55 to 59 years",0
+"2014","Males","55 to 59 years",0
+"2014","Females","55 to 59 years",0
+"2014","Both sexes","60 to 64 years",1
+"2014","Males","60 to 64 years",1
+"2014","Females","60 to 64 years",0
+"2014","Both sexes","65 to 69 years",0
+"2014","Males","65 to 69 years",0
+"2014","Females","65 to 69 years",0
+"2014","Both sexes","70 to 74 years",1
+"2014","Males","70 to 74 years",0
+"2014","Females","70 to 74 years",1
+"2014","Both sexes","75 to 79 years",0
+"2014","Males","75 to 79 years",0
+"2014","Females","75 to 79 years",0
+"2014","Both sexes","80 to 84 years",0
+"2014","Males","80 to 84 years",0
+"2014","Females","80 to 84 years",0
+"2014","Both sexes","85 to 89 years",0
+"2014","Males","85 to 89 years",0
+"2014","Females","85 to 89 years",0
+"2014","Both sexes","90 years and over",0
+"2014","Males","90 years and over",0
+"2014","Females","90 years and over",0
+"2014","Both sexes","Age, not stated",0
+"2014","Males","Age, not stated",0
+"2014","Females","Age, not stated",0
+"2015",,,8
+"2015","Males","Total, all ages",6
+"2015","Females","Total, all ages",2
+"2015","Both sexes","Under 1 year",0
+"2015","Males","Under 1 year",0
+"2015","Females","Under 1 year",0
+"2015","Both sexes","1 to 4 years",1
+"2015","Males","1 to 4 years",0
+"2015","Females","1 to 4 years",1
+"2015","Both sexes","5 to 9 years",0
+"2015","Males","5 to 9 years",0
+"2015","Females","5 to 9 years",0
+"2015","Both sexes","10 to 14 years",0
+"2015","Males","10 to 14 years",0
+"2015","Females","10 to 14 years",0
+"2015","Both sexes","15 to 19 years",0
+"2015","Males","15 to 19 years",0
+"2015","Females","15 to 19 years",0
+"2015","Both sexes","20 to 24 years",0
+"2015","Males","20 to 24 years",0
+"2015","Females","20 to 24 years",0
+"2015","Both sexes","25 to 29 years",1
+"2015","Males","25 to 29 years",1
+"2015","Females","25 to 29 years",0
+"2015","Both sexes","30 to 34 years",0
+"2015","Males","30 to 34 years",0
+"2015","Females","30 to 34 years",0
+"2015","Both sexes","35 to 39 years",0
+"2015","Males","35 to 39 years",0
+"2015","Females","35 to 39 years",0
+"2015","Both sexes","40 to 44 years",2
+"2015","Males","40 to 44 years",2
+"2015","Females","40 to 44 years",0
+"2015","Both sexes","45 to 49 years",2
+"2015","Males","45 to 49 years",2
+"2015","Females","45 to 49 years",0
+"2015","Both sexes","50 to 54 years",0
+"2015","Males","50 to 54 years",0
+"2015","Females","50 to 54 years",0
+"2015","Both sexes","55 to 59 years",1
+"2015","Males","55 to 59 years",1
+"2015","Females","55 to 59 years",0
+"2015","Both sexes","60 to 64 years",1
+"2015","Males","60 to 64 years",0
+"2015","Females","60 to 64 years",1
+"2015","Both sexes","65 to 69 years",0
+"2015","Males","65 to 69 years",0
+"2015","Females","65 to 69 years",0
+"2015","Both sexes","70 to 74 years",0
+"2015","Males","70 to 74 years",0
+"2015","Females","70 to 74 years",0
+"2015","Both sexes","75 to 79 years",0
+"2015","Males","75 to 79 years",0
+"2015","Females","75 to 79 years",0
+"2015","Both sexes","80 to 84 years",0
+"2015","Males","80 to 84 years",0
+"2015","Females","80 to 84 years",0
+"2015","Both sexes","85 to 89 years",0
+"2015","Males","85 to 89 years",0
+"2015","Females","85 to 89 years",0
+"2015","Both sexes","90 years and over",0
+"2015","Males","90 years and over",0
+"2015","Females","90 years and over",0
+"2015","Both sexes","Age, not stated",0
+"2015","Males","Age, not stated",0
+"2015","Females","Age, not stated",0
+"2016",,,4
+"2016","Males","Total, all ages",2
+"2016","Females","Total, all ages",2
+"2016","Both sexes","Under 1 year",1
+"2016","Males","Under 1 year",0
+"2016","Females","Under 1 year",1
+"2016","Both sexes","1 to 4 years",0
+"2016","Males","1 to 4 years",0
+"2016","Females","1 to 4 years",0
+"2016","Both sexes","5 to 9 years",0
+"2016","Males","5 to 9 years",0
+"2016","Females","5 to 9 years",0
+"2016","Both sexes","10 to 14 years",0
+"2016","Males","10 to 14 years",0
+"2016","Females","10 to 14 years",0
+"2016","Both sexes","15 to 19 years",0
+"2016","Males","15 to 19 years",0
+"2016","Females","15 to 19 years",0
+"2016","Both sexes","20 to 24 years",0
+"2016","Males","20 to 24 years",0
+"2016","Females","20 to 24 years",0
+"2016","Both sexes","25 to 29 years",0
+"2016","Males","25 to 29 years",0
+"2016","Females","25 to 29 years",0
+"2016","Both sexes","30 to 34 years",0
+"2016","Males","30 to 34 years",0
+"2016","Females","30 to 34 years",0
+"2016","Both sexes","35 to 39 years",1
+"2016","Males","35 to 39 years",1
+"2016","Females","35 to 39 years",0
+"2016","Both sexes","40 to 44 years",1
+"2016","Males","40 to 44 years",0
+"2016","Females","40 to 44 years",1
+"2016","Both sexes","45 to 49 years",0
+"2016","Males","45 to 49 years",0
+"2016","Females","45 to 49 years",0
+"2016","Both sexes","50 to 54 years",0
+"2016","Males","50 to 54 years",0
+"2016","Females","50 to 54 years",0
+"2016","Both sexes","55 to 59 years",0
+"2016","Males","55 to 59 years",0
+"2016","Females","55 to 59 years",0
+"2016","Both sexes","60 to 64 years",0
+"2016","Males","60 to 64 years",0
+"2016","Females","60 to 64 years",0
+"2016","Both sexes","65 to 69 years",1
+"2016","Males","65 to 69 years",1
+"2016","Females","65 to 69 years",0
+"2016","Both sexes","70 to 74 years",0
+"2016","Males","70 to 74 years",0
+"2016","Females","70 to 74 years",0
+"2016","Both sexes","75 to 79 years",0
+"2016","Males","75 to 79 years",0
+"2016","Females","75 to 79 years",0
+"2016","Both sexes","80 to 84 years",0
+"2016","Males","80 to 84 years",0
+"2016","Females","80 to 84 years",0
+"2016","Both sexes","85 to 89 years",0
+"2016","Males","85 to 89 years",0
+"2016","Females","85 to 89 years",0
+"2016","Both sexes","90 years and over",0
+"2016","Males","90 years and over",0
+"2016","Females","90 years and over",0
+"2016","Both sexes","Age, not stated",0
+"2016","Males","Age, not stated",0
+"2016","Females","Age, not stated",0
+"2017",,,3
+"2017","Males","Total, all ages",3
+"2017","Females","Total, all ages",0
+"2017","Both sexes","Under 1 year",0
+"2017","Males","Under 1 year",0
+"2017","Females","Under 1 year",0
+"2017","Both sexes","1 to 4 years",1
+"2017","Males","1 to 4 years",1
+"2017","Females","1 to 4 years",0
+"2017","Both sexes","5 to 9 years",0
+"2017","Males","5 to 9 years",0
+"2017","Females","5 to 9 years",0
+"2017","Both sexes","10 to 14 years",0
+"2017","Males","10 to 14 years",0
+"2017","Females","10 to 14 years",0
+"2017","Both sexes","15 to 19 years",0
+"2017","Males","15 to 19 years",0
+"2017","Females","15 to 19 years",0
+"2017","Both sexes","20 to 24 years",0
+"2017","Males","20 to 24 years",0
+"2017","Females","20 to 24 years",0
+"2017","Both sexes","25 to 29 years",0
+"2017","Males","25 to 29 years",0
+"2017","Females","25 to 29 years",0
+"2017","Both sexes","30 to 34 years",1
+"2017","Males","30 to 34 years",1
+"2017","Females","30 to 34 years",0
+"2017","Both sexes","35 to 39 years",0
+"2017","Males","35 to 39 years",0
+"2017","Females","35 to 39 years",0
+"2017","Both sexes","40 to 44 years",1
+"2017","Males","40 to 44 years",1
+"2017","Females","40 to 44 years",0
+"2017","Both sexes","45 to 49 years",0
+"2017","Males","45 to 49 years",0
+"2017","Females","45 to 49 years",0
+"2017","Both sexes","50 to 54 years",0
+"2017","Males","50 to 54 years",0
+"2017","Females","50 to 54 years",0
+"2017","Both sexes","55 to 59 years",0
+"2017","Males","55 to 59 years",0
+"2017","Females","55 to 59 years",0
+"2017","Both sexes","60 to 64 years",0
+"2017","Males","60 to 64 years",0
+"2017","Females","60 to 64 years",0
+"2017","Both sexes","65 to 69 years",0
+"2017","Males","65 to 69 years",0
+"2017","Females","65 to 69 years",0
+"2017","Both sexes","70 to 74 years",0
+"2017","Males","70 to 74 years",0
+"2017","Females","70 to 74 years",0
+"2017","Both sexes","75 to 79 years",0
+"2017","Males","75 to 79 years",0
+"2017","Females","75 to 79 years",0
+"2017","Both sexes","80 to 84 years",0
+"2017","Males","80 to 84 years",0
+"2017","Females","80 to 84 years",0
+"2017","Both sexes","85 to 89 years",0
+"2017","Males","85 to 89 years",0
+"2017","Females","85 to 89 years",0
+"2017","Both sexes","90 years and over",0
+"2017","Males","90 years and over",0
+"2017","Females","90 years and over",0
+"2017","Both sexes","Age, not stated",0
+"2017","Males","Age, not stated",0
+"2017","Females","Age, not stated",0
+"2018",,,160
+"2018","Males","Total, all ages",95
+"2018","Females","Total, all ages",65
+"2018","Both sexes","Under 1 year",1
+"2018","Males","Under 1 year",1
+"2018","Females","Under 1 year",0
+"2018","Both sexes","1 to 4 years",2
+"2018","Males","1 to 4 years",1
+"2018","Females","1 to 4 years",1
+"2018","Both sexes","5 to 9 years",0
+"2018","Males","5 to 9 years",0
+"2018","Females","5 to 9 years",0
+"2018","Both sexes","10 to 14 years",0
+"2018","Males","10 to 14 years",0
+"2018","Females","10 to 14 years",0
+"2018","Both sexes","15 to 19 years",0
+"2018","Males","15 to 19 years",0
+"2018","Females","15 to 19 years",0
+"2018","Both sexes","20 to 24 years",0
+"2018","Males","20 to 24 years",0
+"2018","Females","20 to 24 years",0
+"2018","Both sexes","25 to 29 years",1
+"2018","Males","25 to 29 years",1
+"2018","Females","25 to 29 years",0
+"2018","Both sexes","30 to 34 years",1
+"2018","Males","30 to 34 years",1
+"2018","Females","30 to 34 years",0
+"2018","Both sexes","35 to 39 years",2
+"2018","Males","35 to 39 years",2
+"2018","Females","35 to 39 years",0
+"2018","Both sexes","40 to 44 years",6
+"2018","Males","40 to 44 years",6
+"2018","Females","40 to 44 years",0
+"2018","Both sexes","45 to 49 years",4
+"2018","Males","45 to 49 years",3
+"2018","Females","45 to 49 years",1
+"2018","Both sexes","50 to 54 years",8
+"2018","Males","50 to 54 years",5
+"2018","Females","50 to 54 years",3
+"2018","Both sexes","55 to 59 years",20
+"2018","Males","55 to 59 years",12
+"2018","Females","55 to 59 years",8
+"2018","Both sexes","60 to 64 years",29
+"2018","Males","60 to 64 years",22
+"2018","Females","60 to 64 years",7
+"2018","Both sexes","65 to 69 years",16
+"2018","Males","65 to 69 years",10
+"2018","Females","65 to 69 years",6
+"2018","Both sexes","70 to 74 years",25
+"2018","Males","70 to 74 years",14
+"2018","Females","70 to 74 years",11
+"2018","Both sexes","75 to 79 years",11
+"2018","Males","75 to 79 years",7
+"2018","Females","75 to 79 years",4
+"2018","Both sexes","80 to 84 years",11
+"2018","Males","80 to 84 years",2
+"2018","Females","80 to 84 years",9
+"2018","Both sexes","85 to 89 years",11
+"2018","Males","85 to 89 years",4
+"2018","Females","85 to 89 years",7
+"2018","Both sexes","90 years and over",12
+"2018","Males","90 years and over",4
+"2018","Females","90 years and over",8
+"2018","Both sexes","Age, not stated",0
+"2018","Males","Age, not stated",0
+"2018","Females","Age, not stated",0
+"2019",,,28
+"2019","Males","Total, all ages",22
+"2019","Females","Total, all ages",6
+"2019","Both sexes","Under 1 year",0
+"2019","Males","Under 1 year",0
+"2019","Females","Under 1 year",0
+"2019","Both sexes","1 to 4 years",0
+"2019","Males","1 to 4 years",0
+"2019","Females","1 to 4 years",0
+"2019","Both sexes","5 to 9 years",0
+"2019","Males","5 to 9 years",0
+"2019","Females","5 to 9 years",0
+"2019","Both sexes","10 to 14 years",0
+"2019","Males","10 to 14 years",0
+"2019","Females","10 to 14 years",0
+"2019","Both sexes","15 to 19 years",0
+"2019","Males","15 to 19 years",0
+"2019","Females","15 to 19 years",0
+"2019","Both sexes","20 to 24 years",1
+"2019","Males","20 to 24 years",1
+"2019","Females","20 to 24 years",0
+"2019","Both sexes","25 to 29 years",0
+"2019","Males","25 to 29 years",0
+"2019","Females","25 to 29 years",0
+"2019","Both sexes","30 to 34 years",1
+"2019","Males","30 to 34 years",1
+"2019","Females","30 to 34 years",0
+"2019","Both sexes","35 to 39 years",1
+"2019","Males","35 to 39 years",0
+"2019","Females","35 to 39 years",1
+"2019","Both sexes","40 to 44 years",0
+"2019","Males","40 to 44 years",0
+"2019","Females","40 to 44 years",0
+"2019","Both sexes","45 to 49 years",1
+"2019","Males","45 to 49 years",0
+"2019","Females","45 to 49 years",1
+"2019","Both sexes","50 to 54 years",1
+"2019","Males","50 to 54 years",1
+"2019","Females","50 to 54 years",0
+"2019","Both sexes","55 to 59 years",3
+"2019","Males","55 to 59 years",3
+"2019","Females","55 to 59 years",0
+"2019","Both sexes","60 to 64 years",6
+"2019","Males","60 to 64 years",5
+"2019","Females","60 to 64 years",1
+"2019","Both sexes","65 to 69 years",2
+"2019","Males","65 to 69 years",2
+"2019","Females","65 to 69 years",0
+"2019","Both sexes","70 to 74 years",2
+"2019","Males","70 to 74 years",2
+"2019","Females","70 to 74 years",0
+"2019","Both sexes","75 to 79 years",1
+"2019","Males","75 to 79 years",1
+"2019","Females","75 to 79 years",0
+"2019","Both sexes","80 to 84 years",5
+"2019","Males","80 to 84 years",3
+"2019","Females","80 to 84 years",2
+"2019","Both sexes","85 to 89 years",2
+"2019","Males","85 to 89 years",2
+"2019","Females","85 to 89 years",0
+"2019","Both sexes","90 years and over",2
+"2019","Males","90 years and over",1
+"2019","Females","90 years and over",1
+"2019","Both sexes","Age, not stated",0
+"2019","Males","Age, not stated",0
+"2019","Females","Age, not stated",0
+"2020",,,54
+"2020","Males","Total, all ages",37
+"2020","Females","Total, all ages",17
+"2020","Both sexes","Under 1 year",0
+"2020","Males","Under 1 year",0
+"2020","Females","Under 1 year",0
+"2020","Both sexes","1 to 4 years",0
+"2020","Males","1 to 4 years",0
+"2020","Females","1 to 4 years",0
+"2020","Both sexes","5 to 9 years",0
+"2020","Males","5 to 9 years",0
+"2020","Females","5 to 9 years",0
+"2020","Both sexes","10 to 14 years",0
+"2020","Males","10 to 14 years",0
+"2020","Females","10 to 14 years",0
+"2020","Both sexes","15 to 19 years",0
+"2020","Males","15 to 19 years",0
+"2020","Females","15 to 19 years",0
+"2020","Both sexes","20 to 24 years",0
+"2020","Males","20 to 24 years",0
+"2020","Females","20 to 24 years",0
+"2020","Both sexes","25 to 29 years",0
+"2020","Males","25 to 29 years",0
+"2020","Females","25 to 29 years",0
+"2020","Both sexes","30 to 34 years",1
+"2020","Males","30 to 34 years",0
+"2020","Females","30 to 34 years",1
+"2020","Both sexes","35 to 39 years",0
+"2020","Males","35 to 39 years",0
+"2020","Females","35 to 39 years",0
+"2020","Both sexes","40 to 44 years",2
+"2020","Males","40 to 44 years",2
+"2020","Females","40 to 44 years",0
+"2020","Both sexes","45 to 49 years",2
+"2020","Males","45 to 49 years",2
+"2020","Females","45 to 49 years",0
+"2020","Both sexes","50 to 54 years",6
+"2020","Males","50 to 54 years",5
+"2020","Females","50 to 54 years",1
+"2020","Both sexes","55 to 59 years",6
+"2020","Males","55 to 59 years",4
+"2020","Females","55 to 59 years",2
+"2020","Both sexes","60 to 64 years",9
+"2020","Males","60 to 64 years",6
+"2020","Females","60 to 64 years",3
+"2020","Both sexes","65 to 69 years",6
+"2020","Males","65 to 69 years",4
+"2020","Females","65 to 69 years",2
+"2020","Both sexes","70 to 74 years",7
+"2020","Males","70 to 74 years",5
+"2020","Females","70 to 74 years",2
+"2020","Both sexes","75 to 79 years",4
+"2020","Males","75 to 79 years",4
+"2020","Females","75 to 79 years",0
+"2020","Both sexes","80 to 84 years",4
+"2020","Males","80 to 84 years",1
+"2020","Females","80 to 84 years",3
+"2020","Both sexes","85 to 89 years",2
+"2020","Males","85 to 89 years",2
+"2020","Females","85 to 89 years",0
+"2020","Both sexes","90 years and over",5
+"2020","Males","90 years and over",2
+"2020","Females","90 years and over",3
+"2020","Both sexes","Age, not stated",0
+"2020","Males","Age, not stated",0
+"2020","Females","Age, not stated",0
+"2021",,,328
+"2021","Males","Total, all ages",175
+"2021","Females","Total, all ages",153
+"2021","Both sexes","Under 1 year",0
+"2021","Males","Under 1 year",0
+"2021","Females","Under 1 year",0
+"2021","Both sexes","1 to 4 years",0
+"2021","Males","1 to 4 years",0
+"2021","Females","1 to 4 years",0
+"2021","Both sexes","5 to 9 years",0
+"2021","Males","5 to 9 years",0
+"2021","Females","5 to 9 years",0
+"2021","Both sexes","10 to 14 years",0
+"2021","Males","10 to 14 years",0
+"2021","Females","10 to 14 years",0
+"2021","Both sexes","15 to 19 years",2
+"2021","Males","15 to 19 years",2
+"2021","Females","15 to 19 years",0
+"2021","Both sexes","20 to 24 years",0
+"2021","Males","20 to 24 years",0
+"2021","Females","20 to 24 years",0
+"2021","Both sexes","25 to 29 years",0
+"2021","Males","25 to 29 years",0
+"2021","Females","25 to 29 years",0
+"2021","Both sexes","30 to 34 years",3
+"2021","Males","30 to 34 years",1
+"2021","Females","30 to 34 years",2
+"2021","Both sexes","35 to 39 years",3
+"2021","Males","35 to 39 years",2
+"2021","Females","35 to 39 years",1
+"2021","Both sexes","40 to 44 years",6
+"2021","Males","40 to 44 years",5
+"2021","Females","40 to 44 years",1
+"2021","Both sexes","45 to 49 years",6
+"2021","Males","45 to 49 years",5
+"2021","Females","45 to 49 years",1
+"2021","Both sexes","50 to 54 years",8
+"2021","Males","50 to 54 years",7
+"2021","Females","50 to 54 years",1
+"2021","Both sexes","55 to 59 years",15
+"2021","Males","55 to 59 years",6
+"2021","Females","55 to 59 years",9
+"2021","Both sexes","60 to 64 years",32
+"2021","Males","60 to 64 years",20
+"2021","Females","60 to 64 years",12
+"2021","Both sexes","65 to 69 years",37
+"2021","Males","65 to 69 years",27
+"2021","Females","65 to 69 years",10
+"2021","Both sexes","70 to 74 years",42
+"2021","Males","70 to 74 years",22
+"2021","Females","70 to 74 years",20
+"2021","Both sexes","75 to 79 years",45
+"2021","Males","75 to 79 years",23
+"2021","Females","75 to 79 years",22
+"2021","Both sexes","80 to 84 years",43
+"2021","Males","80 to 84 years",21
+"2021","Females","80 to 84 years",22
+"2021","Both sexes","85 to 89 years",36
+"2021","Males","85 to 89 years",15
+"2021","Females","85 to 89 years",21
+"2021","Both sexes","90 years and over",50
+"2021","Males","90 years and over",19
+"2021","Females","90 years and over",31
+"2021","Both sexes","Age, not stated",0
+"2021","Males","Age, not stated",0
+"2021","Females","Age, not stated",0
+"2022",,,30
+"2022","Males","Total, all ages",16
+"2022","Females","Total, all ages",14
+"2022","Both sexes","Under 1 year",0
+"2022","Males","Under 1 year",0
+"2022","Females","Under 1 year",0
+"2022","Both sexes","1 to 4 years",2
+"2022","Males","1 to 4 years",2
+"2022","Females","1 to 4 years",0
+"2022","Both sexes","5 to 9 years",0
+"2022","Males","5 to 9 years",0
+"2022","Females","5 to 9 years",0
+"2022","Both sexes","10 to 14 years",0
+"2022","Males","10 to 14 years",0
+"2022","Females","10 to 14 years",0
+"2022","Both sexes","15 to 19 years",0
+"2022","Males","15 to 19 years",0
+"2022","Females","15 to 19 years",0
+"2022","Both sexes","20 to 24 years",0
+"2022","Males","20 to 24 years",0
+"2022","Females","20 to 24 years",0
+"2022","Both sexes","25 to 29 years",0
+"2022","Males","25 to 29 years",0
+"2022","Females","25 to 29 years",0
+"2022","Both sexes","30 to 34 years",0
+"2022","Males","30 to 34 years",0
+"2022","Females","30 to 34 years",0
+"2022","Both sexes","35 to 39 years",0
+"2022","Males","35 to 39 years",0
+"2022","Females","35 to 39 years",0
+"2022","Both sexes","40 to 44 years",0
+"2022","Males","40 to 44 years",0
+"2022","Females","40 to 44 years",0
+"2022","Both sexes","45 to 49 years",1
+"2022","Males","45 to 49 years",1
+"2022","Females","45 to 49 years",0
+"2022","Both sexes","50 to 54 years",2
+"2022","Males","50 to 54 years",0
+"2022","Females","50 to 54 years",2
+"2022","Both sexes","55 to 59 years",4
+"2022","Males","55 to 59 years",3
+"2022","Females","55 to 59 years",1
+"2022","Both sexes","60 to 64 years",5
+"2022","Males","60 to 64 years",2
+"2022","Females","60 to 64 years",3
+"2022","Both sexes","65 to 69 years",2
+"2022","Males","65 to 69 years",1
+"2022","Females","65 to 69 years",1
+"2022","Both sexes","70 to 74 years",2
+"2022","Males","70 to 74 years",1
+"2022","Females","70 to 74 years",1
+"2022","Both sexes","75 to 79 years",5
+"2022","Males","75 to 79 years",3
+"2022","Females","75 to 79 years",2
+"2022","Both sexes","80 to 84 years",3
+"2022","Males","80 to 84 years",0
+"2022","Females","80 to 84 years",3
+"2022","Both sexes","85 to 89 years",3
+"2022","Males","85 to 89 years",2
+"2022","Females","85 to 89 years",1
+"2022","Both sexes","90 years and over",1
+"2022","Males","90 years and over",1
+"2022","Females","90 years and over",0
+"2022","Both sexes","Age, not stated",0
+"2022","Males","Age, not stated",0
+"2022","Females","Age, not stated",0
