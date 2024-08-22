@@ -16,39 +16,49 @@
             "title": "Year"
           },
           {
-            "name": "data.Event type",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Biological",
-                "Geological",
-                "Meteorological - Hydrological",
+                "Males",
+                "Females",
+                "Both sexes",
                 ""
               ]
             },
-            "title": "Event type"
+            "title": "Sex"
           },
           {
-            "name": "data.Event sub-type",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Epidemic",
-                "Earthquake",
-                "Flood",
-                "Hurricane / Typhoon / Tropical Storm",
-                "Storm - Unspecified / Other",
-                "Storm Surge",
-                "Storms and Severe Thunderstorms",
-                "Tornado",
-                "Wildfire",
-                "Winter Storm",
-                "Landslide",
-                "Heat Event",
+                "Total, all ages",
+                "Under 1 years",
+                "1 to 4 years",
+                "5 to 9 years",
+                "10 to 14 years",
+                "15 to 19 years",
+                "20 to 24 years",
+                "25 to 29 years",
+                "30 to 34 years",
+                "35 to 39 years",
+                "40 to 44 years",
+                "45 to 49 years",
+                "50 to 54 years",
+                "55 to 59 years",
+                "60 to 64 years",
+                "65 to 69 years",
+                "70 to 74 years",
+                "75 to 79 years",
+                "80 to 84 years",
+                "85 to 89 years",
+                "90 years and over",
+                "Age, not stated",
                 ""
               ]
             },
-            "title": "Event sub-type"
+            "title": "Age group"
           },
           {
             "name": "Value",
@@ -61,5 +71,5 @@
   ],
   "profile": "data-package",
   "name": "13-2-1",
-  "title": "Frequency of selected natural disasters"
+  "title": "Deaths due to exposure to excessive natural heat"
 }

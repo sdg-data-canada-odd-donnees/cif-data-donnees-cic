@@ -1,60 +1,1519 @@
-Year,Type d'événement,Événement,Value
-2010,Biologique,Épidémie,1
-2010,Géologique,Tremblement de terre,1
-2010,Météorologique - hydrologique,Inondation,7
-2010,Météorologique - hydrologique,Ouragan / ouragan / tempête tropicale,2
-2010,Météorologique - hydrologique,Tempête-non précisée/autre,1
-2010,Météorologique - hydrologique,Onde de tempête,1
-2010,Météorologique - hydrologique,Orages et orages graves,2
-2010,Météorologique - hydrologique,Tornade,3
-2010,Météorologique - hydrologique,Feu de forêt,5
-2010,Météorologique - hydrologique,Tempête hivernale,1
-2011,Météorologique - hydrologique,Inondation,7
-2011,Météorologique - hydrologique,Ouragan / ouragan / tempête tropicale,1
-2011,Météorologique - hydrologique,Tornade,1
-2011,Météorologique - hydrologique,Feu de forêt,5
-2012,Biologique,Épidémie,1
-2012,Météorologique - hydrologique,Inondation,6
-2012,Météorologique - hydrologique,Feu de forêt,10
-2013,Météorologique - hydrologique,Inondation,4
-2013,Météorologique - hydrologique,Orages et orages graves,1
-2013,Météorologique - hydrologique,Tempête hivernale,3
-2014,Météorologique - hydrologique,Inondation,5
-2014,Météorologique - hydrologique,Ouragan / ouragan / tempête tropicale,1
-2014,Météorologique - hydrologique,Feu de forêt,2
-2015,Météorologique - hydrologique,Inondation,3
-2015,Météorologique - hydrologique,Tempête-non précisée/autre,1
-2015,Météorologique - hydrologique,Orages et orages graves,6
-2015,Météorologique - hydrologique,Tornade,1
-2015,Météorologique - hydrologique,Feu de forêt,2
-2015,Météorologique - hydrologique,Tempête hivernale,1
-2016,Biologique,Épidémie,1
-2016,Géologique,Éboulement,1
-2016,Météorologique - hydrologique,Inondation,7
-2016,Météorologique - hydrologique,Tempête-non précisée/autre,4
-2016,Météorologique - hydrologique,Orages et orages graves,7
-2016,Météorologique - hydrologique,Tornade,1
-2016,Météorologique - hydrologique,Feu de forêt,5
-2016,Météorologique - hydrologique,Tempête hivernale,3
-2017,Météorologique - hydrologique,Inondation,3
-2017,Météorologique - hydrologique,Orages et orages graves,1
-2017,Météorologique - hydrologique,Feu de forêt,1
-2017,Météorologique - hydrologique,Tempête hivernale,3
-2018,Météorologique - hydrologique,Inondation,3
-2018,Météorologique - hydrologique,Épisode de chaleur,1
-2018,Météorologique - hydrologique,Tempête-non précisée/autre,1
-2018,Météorologique - hydrologique,Orages et orages graves,3
-2018,Météorologique - hydrologique,Tornade,1
-2018,Météorologique - hydrologique,Feu de forêt,2
-2018,Météorologique - hydrologique,Tempête hivernale,1
-2019,Météorologique - hydrologique,Inondation,2
-2019,Météorologique - hydrologique,Ouragan / ouragan / tempête tropicale,1
-2019,Météorologique - hydrologique,Tempête-non précisée/autre,1
-2019,Météorologique - hydrologique,Orages et orages graves,1
-2019,Météorologique - hydrologique,Feu de forêt,2
-2019,Météorologique - hydrologique,Tempête hivernale,3
-2020,Météorologique - hydrologique,Inondation,2
-2020,Météorologique - hydrologique,Tempête-non précisée/autre,2
-2020,Météorologique - hydrologique,Orages et orages graves,2
-2020,Météorologique - hydrologique,Feu de forêt,1
-2020,Météorologique - hydrologique,Tempête hivernale,2
+Year,Sexe,Groupe d'âge,Value
+2000,,,3
+2000,Hommes,"Total, tous les âges",3
+2000,Femmes,"Total, tous les âges",0
+2000,Les deux sexes,Moins d'un an,0
+2000,Hommes,Moins d'un an,0
+2000,Femmes,Moins d'un an,0
+2000,Les deux sexes,1 à 4 ans,0
+2000,Hommes,1 à 4 ans,0
+2000,Femmes,1 à 4 ans,0
+2000,Les deux sexes,5 à 9 ans,0
+2000,Hommes,5 à 9 ans,0
+2000,Femmes,5 à 9 ans,0
+2000,Les deux sexes,10 à 14 ans,0
+2000,Hommes,10 à 14 ans,0
+2000,Femmes,10 à 14 ans,0
+2000,Les deux sexes,15 à 19 ans,0
+2000,Hommes,15 à 19 ans,0
+2000,Femmes,15 à 19 ans,0
+2000,Les deux sexes,20 à 24 ans,0
+2000,Hommes,20 à 24 ans,0
+2000,Femmes,20 à 24 ans,0
+2000,Les deux sexes,25 à 29 ans,0
+2000,Hommes,25 à 29 ans,0
+2000,Femmes,25 à 29 ans,0
+2000,Les deux sexes,30 à 34 ans,0
+2000,Hommes,30 à 34 ans,0
+2000,Femmes,30 à 34 ans,0
+2000,Les deux sexes,35 à 39 ans,0
+2000,Hommes,35 à 39 ans,0
+2000,Femmes,35 à 39 ans,0
+2000,Les deux sexes,40 à 44 ans,1
+2000,Hommes,40 à 44 ans,1
+2000,Femmes,40 à 44 ans,0
+2000,Les deux sexes,45 à 49 ans,0
+2000,Hommes,45 à 49 ans,0
+2000,Femmes,45 à 49 ans,0
+2000,Les deux sexes,50 à 54 ans,0
+2000,Hommes,50 à 54 ans,0
+2000,Femmes,50 à 54 ans,0
+2000,Les deux sexes,55 à 59 ans,0
+2000,Hommes,55 à 59 ans,0
+2000,Femmes,55 à 59 ans,0
+2000,Les deux sexes,60 à 64 ans,1
+2000,Hommes,60 à 64 ans,1
+2000,Femmes,60 à 64 ans,0
+2000,Les deux sexes,65 à 69 ans,0
+2000,Hommes,65 à 69 ans,0
+2000,Femmes,65 à 69 ans,0
+2000,Les deux sexes,70 à 74 ans,0
+2000,Hommes,70 à 74 ans,0
+2000,Femmes,70 à 74 ans,0
+2000,Les deux sexes,75 à 79 ans,0
+2000,Hommes,75 à 79 ans,0
+2000,Femmes,75 à 79 ans,0
+2000,Les deux sexes,80 à 84 ans,1
+2000,Hommes,80 à 84 ans,1
+2000,Femmes,80 à 84 ans,0
+2000,Les deux sexes,85 à 89 ans,0
+2000,Hommes,85 à 89 ans,0
+2000,Femmes,85 à 89 ans,0
+2000,Les deux sexes,90 ans et plus,0
+2000,Hommes,90 ans et plus,0
+2000,Femmes,90 ans et plus,0
+2000,Les deux sexes,"Âge, non déclaré",0
+2000,Hommes,"Âge, non déclaré",0
+2000,Femmes,"Âge, non déclaré",0
+2001,,,17
+2001,Hommes,"Total, tous les âges",8
+2001,Femmes,"Total, tous les âges",9
+2001,Les deux sexes,Moins d'un an,0
+2001,Hommes,Moins d'un an,0
+2001,Femmes,Moins d'un an,0
+2001,Les deux sexes,1 à 4 ans,0
+2001,Hommes,1 à 4 ans,0
+2001,Femmes,1 à 4 ans,0
+2001,Les deux sexes,5 à 9 ans,0
+2001,Hommes,5 à 9 ans,0
+2001,Femmes,5 à 9 ans,0
+2001,Les deux sexes,10 à 14 ans,0
+2001,Hommes,10 à 14 ans,0
+2001,Femmes,10 à 14 ans,0
+2001,Les deux sexes,15 à 19 ans,0
+2001,Hommes,15 à 19 ans,0
+2001,Femmes,15 à 19 ans,0
+2001,Les deux sexes,20 à 24 ans,0
+2001,Hommes,20 à 24 ans,0
+2001,Femmes,20 à 24 ans,0
+2001,Les deux sexes,25 à 29 ans,2
+2001,Hommes,25 à 29 ans,2
+2001,Femmes,25 à 29 ans,0
+2001,Les deux sexes,30 à 34 ans,0
+2001,Hommes,30 à 34 ans,0
+2001,Femmes,30 à 34 ans,0
+2001,Les deux sexes,35 à 39 ans,2
+2001,Hommes,35 à 39 ans,2
+2001,Femmes,35 à 39 ans,0
+2001,Les deux sexes,40 à 44 ans,0
+2001,Hommes,40 à 44 ans,0
+2001,Femmes,40 à 44 ans,0
+2001,Les deux sexes,45 à 49 ans,1
+2001,Hommes,45 à 49 ans,0
+2001,Femmes,45 à 49 ans,1
+2001,Les deux sexes,50 à 54 ans,1
+2001,Hommes,50 à 54 ans,1
+2001,Femmes,50 à 54 ans,0
+2001,Les deux sexes,55 à 59 ans,0
+2001,Hommes,55 à 59 ans,0
+2001,Femmes,55 à 59 ans,0
+2001,Les deux sexes,60 à 64 ans,2
+2001,Hommes,60 à 64 ans,1
+2001,Femmes,60 à 64 ans,1
+2001,Les deux sexes,65 à 69 ans,0
+2001,Hommes,65 à 69 ans,0
+2001,Femmes,65 à 69 ans,0
+2001,Les deux sexes,70 à 74 ans,1
+2001,Hommes,70 à 74 ans,0
+2001,Femmes,70 à 74 ans,1
+2001,Les deux sexes,75 à 79 ans,2
+2001,Hommes,75 à 79 ans,0
+2001,Femmes,75 à 79 ans,2
+2001,Les deux sexes,80 à 84 ans,1
+2001,Hommes,80 à 84 ans,1
+2001,Femmes,80 à 84 ans,0
+2001,Les deux sexes,85 à 89 ans,2
+2001,Hommes,85 à 89 ans,0
+2001,Femmes,85 à 89 ans,2
+2001,Les deux sexes,90 ans et plus,3
+2001,Hommes,90 ans et plus,1
+2001,Femmes,90 ans et plus,2
+2001,Les deux sexes,"Âge, non déclaré",0
+2001,Hommes,"Âge, non déclaré",0
+2001,Femmes,"Âge, non déclaré",0
+2002,,,32
+2002,Hommes,"Total, tous les âges",18
+2002,Femmes,"Total, tous les âges",14
+2002,Les deux sexes,Moins d'un an,0
+2002,Hommes,Moins d'un an,0
+2002,Femmes,Moins d'un an,0
+2002,Les deux sexes,1 à 4 ans,0
+2002,Hommes,1 à 4 ans,0
+2002,Femmes,1 à 4 ans,0
+2002,Les deux sexes,5 à 9 ans,0
+2002,Hommes,5 à 9 ans,0
+2002,Femmes,5 à 9 ans,0
+2002,Les deux sexes,10 à 14 ans,0
+2002,Hommes,10 à 14 ans,0
+2002,Femmes,10 à 14 ans,0
+2002,Les deux sexes,15 à 19 ans,0
+2002,Hommes,15 à 19 ans,0
+2002,Femmes,15 à 19 ans,0
+2002,Les deux sexes,20 à 24 ans,1
+2002,Hommes,20 à 24 ans,0
+2002,Femmes,20 à 24 ans,1
+2002,Les deux sexes,25 à 29 ans,0
+2002,Hommes,25 à 29 ans,0
+2002,Femmes,25 à 29 ans,0
+2002,Les deux sexes,30 à 34 ans,0
+2002,Hommes,30 à 34 ans,0
+2002,Femmes,30 à 34 ans,0
+2002,Les deux sexes,35 à 39 ans,2
+2002,Hommes,35 à 39 ans,2
+2002,Femmes,35 à 39 ans,0
+2002,Les deux sexes,40 à 44 ans,2
+2002,Hommes,40 à 44 ans,2
+2002,Femmes,40 à 44 ans,0
+2002,Les deux sexes,45 à 49 ans,5
+2002,Hommes,45 à 49 ans,4
+2002,Femmes,45 à 49 ans,1
+2002,Les deux sexes,50 à 54 ans,0
+2002,Hommes,50 à 54 ans,0
+2002,Femmes,50 à 54 ans,0
+2002,Les deux sexes,55 à 59 ans,3
+2002,Hommes,55 à 59 ans,2
+2002,Femmes,55 à 59 ans,1
+2002,Les deux sexes,60 à 64 ans,2
+2002,Hommes,60 à 64 ans,1
+2002,Femmes,60 à 64 ans,1
+2002,Les deux sexes,65 à 69 ans,0
+2002,Hommes,65 à 69 ans,0
+2002,Femmes,65 à 69 ans,0
+2002,Les deux sexes,70 à 74 ans,4
+2002,Hommes,70 à 74 ans,0
+2002,Femmes,70 à 74 ans,4
+2002,Les deux sexes,75 à 79 ans,4
+2002,Hommes,75 à 79 ans,2
+2002,Femmes,75 à 79 ans,2
+2002,Les deux sexes,80 à 84 ans,4
+2002,Hommes,80 à 84 ans,2
+2002,Femmes,80 à 84 ans,2
+2002,Les deux sexes,85 à 89 ans,3
+2002,Hommes,85 à 89 ans,1
+2002,Femmes,85 à 89 ans,2
+2002,Les deux sexes,90 ans et plus,2
+2002,Hommes,90 ans et plus,2
+2002,Femmes,90 ans et plus,0
+2002,Les deux sexes,"Âge, non déclaré",0
+2002,Hommes,"Âge, non déclaré",0
+2002,Femmes,"Âge, non déclaré",0
+2003,,,11
+2003,Hommes,"Total, tous les âges",9
+2003,Femmes,"Total, tous les âges",2
+2003,Les deux sexes,Moins d'un an,0
+2003,Hommes,Moins d'un an,0
+2003,Femmes,Moins d'un an,0
+2003,Les deux sexes,1 à 4 ans,1
+2003,Hommes,1 à 4 ans,0
+2003,Femmes,1 à 4 ans,1
+2003,Les deux sexes,5 à 9 ans,0
+2003,Hommes,5 à 9 ans,0
+2003,Femmes,5 à 9 ans,0
+2003,Les deux sexes,10 à 14 ans,0
+2003,Hommes,10 à 14 ans,0
+2003,Femmes,10 à 14 ans,0
+2003,Les deux sexes,15 à 19 ans,0
+2003,Hommes,15 à 19 ans,0
+2003,Femmes,15 à 19 ans,0
+2003,Les deux sexes,20 à 24 ans,2
+2003,Hommes,20 à 24 ans,2
+2003,Femmes,20 à 24 ans,0
+2003,Les deux sexes,25 à 29 ans,0
+2003,Hommes,25 à 29 ans,0
+2003,Femmes,25 à 29 ans,0
+2003,Les deux sexes,30 à 34 ans,0
+2003,Hommes,30 à 34 ans,0
+2003,Femmes,30 à 34 ans,0
+2003,Les deux sexes,35 à 39 ans,1
+2003,Hommes,35 à 39 ans,1
+2003,Femmes,35 à 39 ans,0
+2003,Les deux sexes,40 à 44 ans,1
+2003,Hommes,40 à 44 ans,0
+2003,Femmes,40 à 44 ans,1
+2003,Les deux sexes,45 à 49 ans,1
+2003,Hommes,45 à 49 ans,1
+2003,Femmes,45 à 49 ans,0
+2003,Les deux sexes,50 à 54 ans,0
+2003,Hommes,50 à 54 ans,0
+2003,Femmes,50 à 54 ans,0
+2003,Les deux sexes,55 à 59 ans,0
+2003,Hommes,55 à 59 ans,0
+2003,Femmes,55 à 59 ans,0
+2003,Les deux sexes,60 à 64 ans,0
+2003,Hommes,60 à 64 ans,0
+2003,Femmes,60 à 64 ans,0
+2003,Les deux sexes,65 à 69 ans,1
+2003,Hommes,65 à 69 ans,1
+2003,Femmes,65 à 69 ans,0
+2003,Les deux sexes,70 à 74 ans,1
+2003,Hommes,70 à 74 ans,1
+2003,Femmes,70 à 74 ans,0
+2003,Les deux sexes,75 à 79 ans,1
+2003,Hommes,75 à 79 ans,1
+2003,Femmes,75 à 79 ans,0
+2003,Les deux sexes,80 à 84 ans,1
+2003,Hommes,80 à 84 ans,1
+2003,Femmes,80 à 84 ans,0
+2003,Les deux sexes,85 à 89 ans,0
+2003,Hommes,85 à 89 ans,0
+2003,Femmes,85 à 89 ans,0
+2003,Les deux sexes,90 ans et plus,1
+2003,Hommes,90 ans et plus,1
+2003,Femmes,90 ans et plus,0
+2003,Les deux sexes,"Âge, non déclaré",0
+2003,Hommes,"Âge, non déclaré",0
+2003,Femmes,"Âge, non déclaré",0
+2004,,,4
+2004,Hommes,"Total, tous les âges",3
+2004,Femmes,"Total, tous les âges",1
+2004,Les deux sexes,Moins d'un an,0
+2004,Hommes,Moins d'un an,0
+2004,Femmes,Moins d'un an,0
+2004,Les deux sexes,1 à 4 ans,1
+2004,Hommes,1 à 4 ans,1
+2004,Femmes,1 à 4 ans,0
+2004,Les deux sexes,5 à 9 ans,0
+2004,Hommes,5 à 9 ans,0
+2004,Femmes,5 à 9 ans,0
+2004,Les deux sexes,10 à 14 ans,0
+2004,Hommes,10 à 14 ans,0
+2004,Femmes,10 à 14 ans,0
+2004,Les deux sexes,15 à 19 ans,0
+2004,Hommes,15 à 19 ans,0
+2004,Femmes,15 à 19 ans,0
+2004,Les deux sexes,20 à 24 ans,0
+2004,Hommes,20 à 24 ans,0
+2004,Femmes,20 à 24 ans,0
+2004,Les deux sexes,25 à 29 ans,0
+2004,Hommes,25 à 29 ans,0
+2004,Femmes,25 à 29 ans,0
+2004,Les deux sexes,30 à 34 ans,0
+2004,Hommes,30 à 34 ans,0
+2004,Femmes,30 à 34 ans,0
+2004,Les deux sexes,35 à 39 ans,0
+2004,Hommes,35 à 39 ans,0
+2004,Femmes,35 à 39 ans,0
+2004,Les deux sexes,40 à 44 ans,0
+2004,Hommes,40 à 44 ans,0
+2004,Femmes,40 à 44 ans,0
+2004,Les deux sexes,45 à 49 ans,1
+2004,Hommes,45 à 49 ans,1
+2004,Femmes,45 à 49 ans,0
+2004,Les deux sexes,50 à 54 ans,0
+2004,Hommes,50 à 54 ans,0
+2004,Femmes,50 à 54 ans,0
+2004,Les deux sexes,55 à 59 ans,0
+2004,Hommes,55 à 59 ans,0
+2004,Femmes,55 à 59 ans,0
+2004,Les deux sexes,60 à 64 ans,1
+2004,Hommes,60 à 64 ans,0
+2004,Femmes,60 à 64 ans,1
+2004,Les deux sexes,65 à 69 ans,1
+2004,Hommes,65 à 69 ans,1
+2004,Femmes,65 à 69 ans,0
+2004,Les deux sexes,70 à 74 ans,0
+2004,Hommes,70 à 74 ans,0
+2004,Femmes,70 à 74 ans,0
+2004,Les deux sexes,75 à 79 ans,0
+2004,Hommes,75 à 79 ans,0
+2004,Femmes,75 à 79 ans,0
+2004,Les deux sexes,80 à 84 ans,0
+2004,Hommes,80 à 84 ans,0
+2004,Femmes,80 à 84 ans,0
+2004,Les deux sexes,85 à 89 ans,0
+2004,Hommes,85 à 89 ans,0
+2004,Femmes,85 à 89 ans,0
+2004,Les deux sexes,90 ans et plus,0
+2004,Hommes,90 ans et plus,0
+2004,Femmes,90 ans et plus,0
+2004,Les deux sexes,"Âge, non déclaré",0
+2004,Hommes,"Âge, non déclaré",0
+2004,Femmes,"Âge, non déclaré",0
+2005,,,13
+2005,Hommes,"Total, tous les âges",8
+2005,Femmes,"Total, tous les âges",5
+2005,Les deux sexes,Moins d'un an,0
+2005,Hommes,Moins d'un an,0
+2005,Femmes,Moins d'un an,0
+2005,Les deux sexes,1 à 4 ans,0
+2005,Hommes,1 à 4 ans,0
+2005,Femmes,1 à 4 ans,0
+2005,Les deux sexes,5 à 9 ans,0
+2005,Hommes,5 à 9 ans,0
+2005,Femmes,5 à 9 ans,0
+2005,Les deux sexes,10 à 14 ans,0
+2005,Hommes,10 à 14 ans,0
+2005,Femmes,10 à 14 ans,0
+2005,Les deux sexes,15 à 19 ans,0
+2005,Hommes,15 à 19 ans,0
+2005,Femmes,15 à 19 ans,0
+2005,Les deux sexes,20 à 24 ans,0
+2005,Hommes,20 à 24 ans,0
+2005,Femmes,20 à 24 ans,0
+2005,Les deux sexes,25 à 29 ans,0
+2005,Hommes,25 à 29 ans,0
+2005,Femmes,25 à 29 ans,0
+2005,Les deux sexes,30 à 34 ans,0
+2005,Hommes,30 à 34 ans,0
+2005,Femmes,30 à 34 ans,0
+2005,Les deux sexes,35 à 39 ans,1
+2005,Hommes,35 à 39 ans,1
+2005,Femmes,35 à 39 ans,0
+2005,Les deux sexes,40 à 44 ans,3
+2005,Hommes,40 à 44 ans,3
+2005,Femmes,40 à 44 ans,0
+2005,Les deux sexes,45 à 49 ans,0
+2005,Hommes,45 à 49 ans,0
+2005,Femmes,45 à 49 ans,0
+2005,Les deux sexes,50 à 54 ans,1
+2005,Hommes,50 à 54 ans,1
+2005,Femmes,50 à 54 ans,0
+2005,Les deux sexes,55 à 59 ans,1
+2005,Hommes,55 à 59 ans,1
+2005,Femmes,55 à 59 ans,0
+2005,Les deux sexes,60 à 64 ans,1
+2005,Hommes,60 à 64 ans,1
+2005,Femmes,60 à 64 ans,0
+2005,Les deux sexes,65 à 69 ans,1
+2005,Hommes,65 à 69 ans,0
+2005,Femmes,65 à 69 ans,1
+2005,Les deux sexes,70 à 74 ans,2
+2005,Hommes,70 à 74 ans,0
+2005,Femmes,70 à 74 ans,2
+2005,Les deux sexes,75 à 79 ans,1
+2005,Hommes,75 à 79 ans,0
+2005,Femmes,75 à 79 ans,1
+2005,Les deux sexes,80 à 84 ans,0
+2005,Hommes,80 à 84 ans,0
+2005,Femmes,80 à 84 ans,0
+2005,Les deux sexes,85 à 89 ans,1
+2005,Hommes,85 à 89 ans,1
+2005,Femmes,85 à 89 ans,0
+2005,Les deux sexes,90 ans et plus,1
+2005,Hommes,90 ans et plus,0
+2005,Femmes,90 ans et plus,1
+2005,Les deux sexes,"Âge, non déclaré",0
+2005,Hommes,"Âge, non déclaré",0
+2005,Femmes,"Âge, non déclaré",0
+2006,,,14
+2006,Hommes,"Total, tous les âges",10
+2006,Femmes,"Total, tous les âges",4
+2006,Les deux sexes,Moins d'un an,0
+2006,Hommes,Moins d'un an,0
+2006,Femmes,Moins d'un an,0
+2006,Les deux sexes,1 à 4 ans,0
+2006,Hommes,1 à 4 ans,0
+2006,Femmes,1 à 4 ans,0
+2006,Les deux sexes,5 à 9 ans,0
+2006,Hommes,5 à 9 ans,0
+2006,Femmes,5 à 9 ans,0
+2006,Les deux sexes,10 à 14 ans,0
+2006,Hommes,10 à 14 ans,0
+2006,Femmes,10 à 14 ans,0
+2006,Les deux sexes,15 à 19 ans,0
+2006,Hommes,15 à 19 ans,0
+2006,Femmes,15 à 19 ans,0
+2006,Les deux sexes,20 à 24 ans,0
+2006,Hommes,20 à 24 ans,0
+2006,Femmes,20 à 24 ans,0
+2006,Les deux sexes,25 à 29 ans,1
+2006,Hommes,25 à 29 ans,1
+2006,Femmes,25 à 29 ans,0
+2006,Les deux sexes,30 à 34 ans,0
+2006,Hommes,30 à 34 ans,0
+2006,Femmes,30 à 34 ans,0
+2006,Les deux sexes,35 à 39 ans,1
+2006,Hommes,35 à 39 ans,1
+2006,Femmes,35 à 39 ans,0
+2006,Les deux sexes,40 à 44 ans,0
+2006,Hommes,40 à 44 ans,0
+2006,Femmes,40 à 44 ans,0
+2006,Les deux sexes,45 à 49 ans,0
+2006,Hommes,45 à 49 ans,0
+2006,Femmes,45 à 49 ans,0
+2006,Les deux sexes,50 à 54 ans,1
+2006,Hommes,50 à 54 ans,1
+2006,Femmes,50 à 54 ans,0
+2006,Les deux sexes,55 à 59 ans,3
+2006,Hommes,55 à 59 ans,3
+2006,Femmes,55 à 59 ans,0
+2006,Les deux sexes,60 à 64 ans,1
+2006,Hommes,60 à 64 ans,1
+2006,Femmes,60 à 64 ans,0
+2006,Les deux sexes,65 à 69 ans,2
+2006,Hommes,65 à 69 ans,2
+2006,Femmes,65 à 69 ans,0
+2006,Les deux sexes,70 à 74 ans,0
+2006,Hommes,70 à 74 ans,0
+2006,Femmes,70 à 74 ans,0
+2006,Les deux sexes,75 à 79 ans,2
+2006,Hommes,75 à 79 ans,0
+2006,Femmes,75 à 79 ans,2
+2006,Les deux sexes,80 à 84 ans,2
+2006,Hommes,80 à 84 ans,1
+2006,Femmes,80 à 84 ans,1
+2006,Les deux sexes,85 à 89 ans,0
+2006,Hommes,85 à 89 ans,0
+2006,Femmes,85 à 89 ans,0
+2006,Les deux sexes,90 ans et plus,1
+2006,Hommes,90 ans et plus,0
+2006,Femmes,90 ans et plus,1
+2006,Les deux sexes,"Âge, non déclaré",0
+2006,Hommes,"Âge, non déclaré",0
+2006,Femmes,"Âge, non déclaré",0
+2007,,,4
+2007,Hommes,"Total, tous les âges",3
+2007,Femmes,"Total, tous les âges",1
+2007,Les deux sexes,Moins d'un an,0
+2007,Hommes,Moins d'un an,0
+2007,Femmes,Moins d'un an,0
+2007,Les deux sexes,1 à 4 ans,1
+2007,Hommes,1 à 4 ans,1
+2007,Femmes,1 à 4 ans,0
+2007,Les deux sexes,5 à 9 ans,0
+2007,Hommes,5 à 9 ans,0
+2007,Femmes,5 à 9 ans,0
+2007,Les deux sexes,10 à 14 ans,0
+2007,Hommes,10 à 14 ans,0
+2007,Femmes,10 à 14 ans,0
+2007,Les deux sexes,15 à 19 ans,0
+2007,Hommes,15 à 19 ans,0
+2007,Femmes,15 à 19 ans,0
+2007,Les deux sexes,20 à 24 ans,0
+2007,Hommes,20 à 24 ans,0
+2007,Femmes,20 à 24 ans,0
+2007,Les deux sexes,25 à 29 ans,0
+2007,Hommes,25 à 29 ans,0
+2007,Femmes,25 à 29 ans,0
+2007,Les deux sexes,30 à 34 ans,0
+2007,Hommes,30 à 34 ans,0
+2007,Femmes,30 à 34 ans,0
+2007,Les deux sexes,35 à 39 ans,0
+2007,Hommes,35 à 39 ans,0
+2007,Femmes,35 à 39 ans,0
+2007,Les deux sexes,40 à 44 ans,1
+2007,Hommes,40 à 44 ans,1
+2007,Femmes,40 à 44 ans,0
+2007,Les deux sexes,45 à 49 ans,0
+2007,Hommes,45 à 49 ans,0
+2007,Femmes,45 à 49 ans,0
+2007,Les deux sexes,50 à 54 ans,2
+2007,Hommes,50 à 54 ans,1
+2007,Femmes,50 à 54 ans,1
+2007,Les deux sexes,55 à 59 ans,0
+2007,Hommes,55 à 59 ans,0
+2007,Femmes,55 à 59 ans,0
+2007,Les deux sexes,60 à 64 ans,0
+2007,Hommes,60 à 64 ans,0
+2007,Femmes,60 à 64 ans,0
+2007,Les deux sexes,65 à 69 ans,0
+2007,Hommes,65 à 69 ans,0
+2007,Femmes,65 à 69 ans,0
+2007,Les deux sexes,70 à 74 ans,0
+2007,Hommes,70 à 74 ans,0
+2007,Femmes,70 à 74 ans,0
+2007,Les deux sexes,75 à 79 ans,0
+2007,Hommes,75 à 79 ans,0
+2007,Femmes,75 à 79 ans,0
+2007,Les deux sexes,80 à 84 ans,0
+2007,Hommes,80 à 84 ans,0
+2007,Femmes,80 à 84 ans,0
+2007,Les deux sexes,85 à 89 ans,0
+2007,Hommes,85 à 89 ans,0
+2007,Femmes,85 à 89 ans,0
+2007,Les deux sexes,90 ans et plus,0
+2007,Hommes,90 ans et plus,0
+2007,Femmes,90 ans et plus,0
+2007,Les deux sexes,"Âge, non déclaré",0
+2007,Hommes,"Âge, non déclaré",0
+2007,Femmes,"Âge, non déclaré",0
+2008,,,2
+2008,Hommes,"Total, tous les âges",2
+2008,Femmes,"Total, tous les âges",0
+2008,Les deux sexes,Moins d'un an,0
+2008,Hommes,Moins d'un an,0
+2008,Femmes,Moins d'un an,0
+2008,Les deux sexes,1 à 4 ans,1
+2008,Hommes,1 à 4 ans,1
+2008,Femmes,1 à 4 ans,0
+2008,Les deux sexes,5 à 9 ans,0
+2008,Hommes,5 à 9 ans,0
+2008,Femmes,5 à 9 ans,0
+2008,Les deux sexes,10 à 14 ans,0
+2008,Hommes,10 à 14 ans,0
+2008,Femmes,10 à 14 ans,0
+2008,Les deux sexes,15 à 19 ans,0
+2008,Hommes,15 à 19 ans,0
+2008,Femmes,15 à 19 ans,0
+2008,Les deux sexes,20 à 24 ans,0
+2008,Hommes,20 à 24 ans,0
+2008,Femmes,20 à 24 ans,0
+2008,Les deux sexes,25 à 29 ans,0
+2008,Hommes,25 à 29 ans,0
+2008,Femmes,25 à 29 ans,0
+2008,Les deux sexes,30 à 34 ans,0
+2008,Hommes,30 à 34 ans,0
+2008,Femmes,30 à 34 ans,0
+2008,Les deux sexes,35 à 39 ans,0
+2008,Hommes,35 à 39 ans,0
+2008,Femmes,35 à 39 ans,0
+2008,Les deux sexes,40 à 44 ans,0
+2008,Hommes,40 à 44 ans,0
+2008,Femmes,40 à 44 ans,0
+2008,Les deux sexes,45 à 49 ans,0
+2008,Hommes,45 à 49 ans,0
+2008,Femmes,45 à 49 ans,0
+2008,Les deux sexes,50 à 54 ans,1
+2008,Hommes,50 à 54 ans,1
+2008,Femmes,50 à 54 ans,0
+2008,Les deux sexes,55 à 59 ans,0
+2008,Hommes,55 à 59 ans,0
+2008,Femmes,55 à 59 ans,0
+2008,Les deux sexes,60 à 64 ans,0
+2008,Hommes,60 à 64 ans,0
+2008,Femmes,60 à 64 ans,0
+2008,Les deux sexes,65 à 69 ans,0
+2008,Hommes,65 à 69 ans,0
+2008,Femmes,65 à 69 ans,0
+2008,Les deux sexes,70 à 74 ans,0
+2008,Hommes,70 à 74 ans,0
+2008,Femmes,70 à 74 ans,0
+2008,Les deux sexes,75 à 79 ans,0
+2008,Hommes,75 à 79 ans,0
+2008,Femmes,75 à 79 ans,0
+2008,Les deux sexes,80 à 84 ans,0
+2008,Hommes,80 à 84 ans,0
+2008,Femmes,80 à 84 ans,0
+2008,Les deux sexes,85 à 89 ans,0
+2008,Hommes,85 à 89 ans,0
+2008,Femmes,85 à 89 ans,0
+2008,Les deux sexes,90 ans et plus,0
+2008,Hommes,90 ans et plus,0
+2008,Femmes,90 ans et plus,0
+2008,Les deux sexes,"Âge, non déclaré",0
+2008,Hommes,"Âge, non déclaré",0
+2008,Femmes,"Âge, non déclaré",0
+2009,,,4
+2009,Hommes,"Total, tous les âges",3
+2009,Femmes,"Total, tous les âges",1
+2009,Les deux sexes,Moins d'un an,0
+2009,Hommes,Moins d'un an,0
+2009,Femmes,Moins d'un an,0
+2009,Les deux sexes,1 à 4 ans,0
+2009,Hommes,1 à 4 ans,0
+2009,Femmes,1 à 4 ans,0
+2009,Les deux sexes,5 à 9 ans,0
+2009,Hommes,5 à 9 ans,0
+2009,Femmes,5 à 9 ans,0
+2009,Les deux sexes,10 à 14 ans,0
+2009,Hommes,10 à 14 ans,0
+2009,Femmes,10 à 14 ans,0
+2009,Les deux sexes,15 à 19 ans,0
+2009,Hommes,15 à 19 ans,0
+2009,Femmes,15 à 19 ans,0
+2009,Les deux sexes,20 à 24 ans,0
+2009,Hommes,20 à 24 ans,0
+2009,Femmes,20 à 24 ans,0
+2009,Les deux sexes,25 à 29 ans,0
+2009,Hommes,25 à 29 ans,0
+2009,Femmes,25 à 29 ans,0
+2009,Les deux sexes,30 à 34 ans,0
+2009,Hommes,30 à 34 ans,0
+2009,Femmes,30 à 34 ans,0
+2009,Les deux sexes,35 à 39 ans,0
+2009,Hommes,35 à 39 ans,0
+2009,Femmes,35 à 39 ans,0
+2009,Les deux sexes,40 à 44 ans,1
+2009,Hommes,40 à 44 ans,1
+2009,Femmes,40 à 44 ans,0
+2009,Les deux sexes,45 à 49 ans,1
+2009,Hommes,45 à 49 ans,1
+2009,Femmes,45 à 49 ans,0
+2009,Les deux sexes,50 à 54 ans,0
+2009,Hommes,50 à 54 ans,0
+2009,Femmes,50 à 54 ans,0
+2009,Les deux sexes,55 à 59 ans,1
+2009,Hommes,55 à 59 ans,0
+2009,Femmes,55 à 59 ans,1
+2009,Les deux sexes,60 à 64 ans,0
+2009,Hommes,60 à 64 ans,0
+2009,Femmes,60 à 64 ans,0
+2009,Les deux sexes,65 à 69 ans,0
+2009,Hommes,65 à 69 ans,0
+2009,Femmes,65 à 69 ans,0
+2009,Les deux sexes,70 à 74 ans,0
+2009,Hommes,70 à 74 ans,0
+2009,Femmes,70 à 74 ans,0
+2009,Les deux sexes,75 à 79 ans,1
+2009,Hommes,75 à 79 ans,1
+2009,Femmes,75 à 79 ans,0
+2009,Les deux sexes,80 à 84 ans,0
+2009,Hommes,80 à 84 ans,0
+2009,Femmes,80 à 84 ans,0
+2009,Les deux sexes,85 à 89 ans,0
+2009,Hommes,85 à 89 ans,0
+2009,Femmes,85 à 89 ans,0
+2009,Les deux sexes,90 ans et plus,0
+2009,Hommes,90 ans et plus,0
+2009,Femmes,90 ans et plus,0
+2009,Les deux sexes,"Âge, non déclaré",0
+2009,Hommes,"Âge, non déclaré",0
+2009,Femmes,"Âge, non déclaré",0
+2010,,,48
+2010,Hommes,"Total, tous les âges",30
+2010,Femmes,"Total, tous les âges",18
+2010,Les deux sexes,Moins d'un an,0
+2010,Hommes,Moins d'un an,0
+2010,Femmes,Moins d'un an,0
+2010,Les deux sexes,1 à 4 ans,0
+2010,Hommes,1 à 4 ans,0
+2010,Femmes,1 à 4 ans,0
+2010,Les deux sexes,5 à 9 ans,0
+2010,Hommes,5 à 9 ans,0
+2010,Femmes,5 à 9 ans,0
+2010,Les deux sexes,10 à 14 ans,0
+2010,Hommes,10 à 14 ans,0
+2010,Femmes,10 à 14 ans,0
+2010,Les deux sexes,15 à 19 ans,0
+2010,Hommes,15 à 19 ans,0
+2010,Femmes,15 à 19 ans,0
+2010,Les deux sexes,20 à 24 ans,1
+2010,Hommes,20 à 24 ans,1
+2010,Femmes,20 à 24 ans,0
+2010,Les deux sexes,25 à 29 ans,0
+2010,Hommes,25 à 29 ans,0
+2010,Femmes,25 à 29 ans,0
+2010,Les deux sexes,30 à 34 ans,0
+2010,Hommes,30 à 34 ans,0
+2010,Femmes,30 à 34 ans,0
+2010,Les deux sexes,35 à 39 ans,2
+2010,Hommes,35 à 39 ans,2
+2010,Femmes,35 à 39 ans,0
+2010,Les deux sexes,40 à 44 ans,1
+2010,Hommes,40 à 44 ans,1
+2010,Femmes,40 à 44 ans,0
+2010,Les deux sexes,45 à 49 ans,4
+2010,Hommes,45 à 49 ans,4
+2010,Femmes,45 à 49 ans,0
+2010,Les deux sexes,50 à 54 ans,4
+2010,Hommes,50 à 54 ans,2
+2010,Femmes,50 à 54 ans,2
+2010,Les deux sexes,55 à 59 ans,8
+2010,Hommes,55 à 59 ans,6
+2010,Femmes,55 à 59 ans,2
+2010,Les deux sexes,60 à 64 ans,0
+2010,Hommes,60 à 64 ans,0
+2010,Femmes,60 à 64 ans,0
+2010,Les deux sexes,65 à 69 ans,5
+2010,Hommes,65 à 69 ans,2
+2010,Femmes,65 à 69 ans,3
+2010,Les deux sexes,70 à 74 ans,7
+2010,Hommes,70 à 74 ans,5
+2010,Femmes,70 à 74 ans,2
+2010,Les deux sexes,75 à 79 ans,4
+2010,Hommes,75 à 79 ans,2
+2010,Femmes,75 à 79 ans,2
+2010,Les deux sexes,80 à 84 ans,5
+2010,Hommes,80 à 84 ans,2
+2010,Femmes,80 à 84 ans,3
+2010,Les deux sexes,85 à 89 ans,5
+2010,Hommes,85 à 89 ans,3
+2010,Femmes,85 à 89 ans,2
+2010,Les deux sexes,90 ans et plus,2
+2010,Hommes,90 ans et plus,0
+2010,Femmes,90 ans et plus,2
+2010,Les deux sexes,"Âge, non déclaré",0
+2010,Hommes,"Âge, non déclaré",0
+2010,Femmes,"Âge, non déclaré",0
+2011,,,16
+2011,Hommes,"Total, tous les âges",11
+2011,Femmes,"Total, tous les âges",5
+2011,Les deux sexes,Moins d'un an,0
+2011,Hommes,Moins d'un an,0
+2011,Femmes,Moins d'un an,0
+2011,Les deux sexes,1 à 4 ans,0
+2011,Hommes,1 à 4 ans,0
+2011,Femmes,1 à 4 ans,0
+2011,Les deux sexes,5 à 9 ans,0
+2011,Hommes,5 à 9 ans,0
+2011,Femmes,5 à 9 ans,0
+2011,Les deux sexes,10 à 14 ans,0
+2011,Hommes,10 à 14 ans,0
+2011,Femmes,10 à 14 ans,0
+2011,Les deux sexes,15 à 19 ans,0
+2011,Hommes,15 à 19 ans,0
+2011,Femmes,15 à 19 ans,0
+2011,Les deux sexes,20 à 24 ans,0
+2011,Hommes,20 à 24 ans,0
+2011,Femmes,20 à 24 ans,0
+2011,Les deux sexes,25 à 29 ans,0
+2011,Hommes,25 à 29 ans,0
+2011,Femmes,25 à 29 ans,0
+2011,Les deux sexes,30 à 34 ans,1
+2011,Hommes,30 à 34 ans,1
+2011,Femmes,30 à 34 ans,0
+2011,Les deux sexes,35 à 39 ans,0
+2011,Hommes,35 à 39 ans,0
+2011,Femmes,35 à 39 ans,0
+2011,Les deux sexes,40 à 44 ans,2
+2011,Hommes,40 à 44 ans,2
+2011,Femmes,40 à 44 ans,0
+2011,Les deux sexes,45 à 49 ans,0
+2011,Hommes,45 à 49 ans,0
+2011,Femmes,45 à 49 ans,0
+2011,Les deux sexes,50 à 54 ans,0
+2011,Hommes,50 à 54 ans,0
+2011,Femmes,50 à 54 ans,0
+2011,Les deux sexes,55 à 59 ans,2
+2011,Hommes,55 à 59 ans,2
+2011,Femmes,55 à 59 ans,0
+2011,Les deux sexes,60 à 64 ans,0
+2011,Hommes,60 à 64 ans,0
+2011,Femmes,60 à 64 ans,0
+2011,Les deux sexes,65 à 69 ans,1
+2011,Hommes,65 à 69 ans,1
+2011,Femmes,65 à 69 ans,0
+2011,Les deux sexes,70 à 74 ans,1
+2011,Hommes,70 à 74 ans,0
+2011,Femmes,70 à 74 ans,1
+2011,Les deux sexes,75 à 79 ans,1
+2011,Hommes,75 à 79 ans,0
+2011,Femmes,75 à 79 ans,1
+2011,Les deux sexes,80 à 84 ans,4
+2011,Hommes,80 à 84 ans,2
+2011,Femmes,80 à 84 ans,2
+2011,Les deux sexes,85 à 89 ans,1
+2011,Hommes,85 à 89 ans,1
+2011,Femmes,85 à 89 ans,0
+2011,Les deux sexes,90 ans et plus,3
+2011,Hommes,90 ans et plus,2
+2011,Femmes,90 ans et plus,1
+2011,Les deux sexes,"Âge, non déclaré",0
+2011,Hommes,"Âge, non déclaré",0
+2011,Femmes,"Âge, non déclaré",0
+2012,,,9
+2012,Hommes,"Total, tous les âges",9
+2012,Femmes,"Total, tous les âges",0
+2012,Les deux sexes,Moins d'un an,0
+2012,Hommes,Moins d'un an,0
+2012,Femmes,Moins d'un an,0
+2012,Les deux sexes,1 à 4 ans,0
+2012,Hommes,1 à 4 ans,0
+2012,Femmes,1 à 4 ans,0
+2012,Les deux sexes,5 à 9 ans,0
+2012,Hommes,5 à 9 ans,0
+2012,Femmes,5 à 9 ans,0
+2012,Les deux sexes,10 à 14 ans,0
+2012,Hommes,10 à 14 ans,0
+2012,Femmes,10 à 14 ans,0
+2012,Les deux sexes,15 à 19 ans,0
+2012,Hommes,15 à 19 ans,0
+2012,Femmes,15 à 19 ans,0
+2012,Les deux sexes,20 à 24 ans,0
+2012,Hommes,20 à 24 ans,0
+2012,Femmes,20 à 24 ans,0
+2012,Les deux sexes,25 à 29 ans,1
+2012,Hommes,25 à 29 ans,1
+2012,Femmes,25 à 29 ans,0
+2012,Les deux sexes,30 à 34 ans,0
+2012,Hommes,30 à 34 ans,0
+2012,Femmes,30 à 34 ans,0
+2012,Les deux sexes,35 à 39 ans,0
+2012,Hommes,35 à 39 ans,0
+2012,Femmes,35 à 39 ans,0
+2012,Les deux sexes,40 à 44 ans,2
+2012,Hommes,40 à 44 ans,2
+2012,Femmes,40 à 44 ans,0
+2012,Les deux sexes,45 à 49 ans,0
+2012,Hommes,45 à 49 ans,0
+2012,Femmes,45 à 49 ans,0
+2012,Les deux sexes,50 à 54 ans,1
+2012,Hommes,50 à 54 ans,1
+2012,Femmes,50 à 54 ans,0
+2012,Les deux sexes,55 à 59 ans,2
+2012,Hommes,55 à 59 ans,2
+2012,Femmes,55 à 59 ans,0
+2012,Les deux sexes,60 à 64 ans,0
+2012,Hommes,60 à 64 ans,0
+2012,Femmes,60 à 64 ans,0
+2012,Les deux sexes,65 à 69 ans,0
+2012,Hommes,65 à 69 ans,0
+2012,Femmes,65 à 69 ans,0
+2012,Les deux sexes,70 à 74 ans,0
+2012,Hommes,70 à 74 ans,0
+2012,Femmes,70 à 74 ans,0
+2012,Les deux sexes,75 à 79 ans,0
+2012,Hommes,75 à 79 ans,0
+2012,Femmes,75 à 79 ans,0
+2012,Les deux sexes,80 à 84 ans,2
+2012,Hommes,80 à 84 ans,2
+2012,Femmes,80 à 84 ans,0
+2012,Les deux sexes,85 à 89 ans,0
+2012,Hommes,85 à 89 ans,0
+2012,Femmes,85 à 89 ans,0
+2012,Les deux sexes,90 ans et plus,1
+2012,Hommes,90 ans et plus,1
+2012,Femmes,90 ans et plus,0
+2012,Les deux sexes,"Âge, non déclaré",0
+2012,Hommes,"Âge, non déclaré",0
+2012,Femmes,"Âge, non déclaré",0
+2013,,,14
+2013,Hommes,"Total, tous les âges",11
+2013,Femmes,"Total, tous les âges",3
+2013,Les deux sexes,Moins d'un an,0
+2013,Hommes,Moins d'un an,0
+2013,Femmes,Moins d'un an,0
+2013,Les deux sexes,1 à 4 ans,2
+2013,Hommes,1 à 4 ans,1
+2013,Femmes,1 à 4 ans,1
+2013,Les deux sexes,5 à 9 ans,0
+2013,Hommes,5 à 9 ans,0
+2013,Femmes,5 à 9 ans,0
+2013,Les deux sexes,10 à 14 ans,0
+2013,Hommes,10 à 14 ans,0
+2013,Femmes,10 à 14 ans,0
+2013,Les deux sexes,15 à 19 ans,0
+2013,Hommes,15 à 19 ans,0
+2013,Femmes,15 à 19 ans,0
+2013,Les deux sexes,20 à 24 ans,0
+2013,Hommes,20 à 24 ans,0
+2013,Femmes,20 à 24 ans,0
+2013,Les deux sexes,25 à 29 ans,0
+2013,Hommes,25 à 29 ans,0
+2013,Femmes,25 à 29 ans,0
+2013,Les deux sexes,30 à 34 ans,1
+2013,Hommes,30 à 34 ans,1
+2013,Femmes,30 à 34 ans,0
+2013,Les deux sexes,35 à 39 ans,2
+2013,Hommes,35 à 39 ans,1
+2013,Femmes,35 à 39 ans,1
+2013,Les deux sexes,40 à 44 ans,0
+2013,Hommes,40 à 44 ans,0
+2013,Femmes,40 à 44 ans,0
+2013,Les deux sexes,45 à 49 ans,1
+2013,Hommes,45 à 49 ans,1
+2013,Femmes,45 à 49 ans,0
+2013,Les deux sexes,50 à 54 ans,1
+2013,Hommes,50 à 54 ans,1
+2013,Femmes,50 à 54 ans,0
+2013,Les deux sexes,55 à 59 ans,2
+2013,Hommes,55 à 59 ans,2
+2013,Femmes,55 à 59 ans,0
+2013,Les deux sexes,60 à 64 ans,0
+2013,Hommes,60 à 64 ans,0
+2013,Femmes,60 à 64 ans,0
+2013,Les deux sexes,65 à 69 ans,1
+2013,Hommes,65 à 69 ans,0
+2013,Femmes,65 à 69 ans,1
+2013,Les deux sexes,70 à 74 ans,2
+2013,Hommes,70 à 74 ans,2
+2013,Femmes,70 à 74 ans,0
+2013,Les deux sexes,75 à 79 ans,0
+2013,Hommes,75 à 79 ans,0
+2013,Femmes,75 à 79 ans,0
+2013,Les deux sexes,80 à 84 ans,1
+2013,Hommes,80 à 84 ans,1
+2013,Femmes,80 à 84 ans,0
+2013,Les deux sexes,85 à 89 ans,0
+2013,Hommes,85 à 89 ans,0
+2013,Femmes,85 à 89 ans,0
+2013,Les deux sexes,90 ans et plus,1
+2013,Hommes,90 ans et plus,1
+2013,Femmes,90 ans et plus,0
+2013,Les deux sexes,"Âge, non déclaré",0
+2013,Hommes,"Âge, non déclaré",0
+2013,Femmes,"Âge, non déclaré",0
+2014,,,7
+2014,Hommes,"Total, tous les âges",4
+2014,Femmes,"Total, tous les âges",3
+2014,Les deux sexes,Moins d'un an,0
+2014,Hommes,Moins d'un an,0
+2014,Femmes,Moins d'un an,0
+2014,Les deux sexes,1 à 4 ans,1
+2014,Hommes,1 à 4 ans,0
+2014,Femmes,1 à 4 ans,1
+2014,Les deux sexes,5 à 9 ans,0
+2014,Hommes,5 à 9 ans,0
+2014,Femmes,5 à 9 ans,0
+2014,Les deux sexes,10 à 14 ans,0
+2014,Hommes,10 à 14 ans,0
+2014,Femmes,10 à 14 ans,0
+2014,Les deux sexes,15 à 19 ans,1
+2014,Hommes,15 à 19 ans,1
+2014,Femmes,15 à 19 ans,0
+2014,Les deux sexes,20 à 24 ans,0
+2014,Hommes,20 à 24 ans,0
+2014,Femmes,20 à 24 ans,0
+2014,Les deux sexes,25 à 29 ans,0
+2014,Hommes,25 à 29 ans,0
+2014,Femmes,25 à 29 ans,0
+2014,Les deux sexes,30 à 34 ans,0
+2014,Hommes,30 à 34 ans,0
+2014,Femmes,30 à 34 ans,0
+2014,Les deux sexes,35 à 39 ans,1
+2014,Hommes,35 à 39 ans,1
+2014,Femmes,35 à 39 ans,0
+2014,Les deux sexes,40 à 44 ans,0
+2014,Hommes,40 à 44 ans,0
+2014,Femmes,40 à 44 ans,0
+2014,Les deux sexes,45 à 49 ans,1
+2014,Hommes,45 à 49 ans,0
+2014,Femmes,45 à 49 ans,1
+2014,Les deux sexes,50 à 54 ans,1
+2014,Hommes,50 à 54 ans,1
+2014,Femmes,50 à 54 ans,0
+2014,Les deux sexes,55 à 59 ans,0
+2014,Hommes,55 à 59 ans,0
+2014,Femmes,55 à 59 ans,0
+2014,Les deux sexes,60 à 64 ans,1
+2014,Hommes,60 à 64 ans,1
+2014,Femmes,60 à 64 ans,0
+2014,Les deux sexes,65 à 69 ans,0
+2014,Hommes,65 à 69 ans,0
+2014,Femmes,65 à 69 ans,0
+2014,Les deux sexes,70 à 74 ans,1
+2014,Hommes,70 à 74 ans,0
+2014,Femmes,70 à 74 ans,1
+2014,Les deux sexes,75 à 79 ans,0
+2014,Hommes,75 à 79 ans,0
+2014,Femmes,75 à 79 ans,0
+2014,Les deux sexes,80 à 84 ans,0
+2014,Hommes,80 à 84 ans,0
+2014,Femmes,80 à 84 ans,0
+2014,Les deux sexes,85 à 89 ans,0
+2014,Hommes,85 à 89 ans,0
+2014,Femmes,85 à 89 ans,0
+2014,Les deux sexes,90 ans et plus,0
+2014,Hommes,90 ans et plus,0
+2014,Femmes,90 ans et plus,0
+2014,Les deux sexes,"Âge, non déclaré",0
+2014,Hommes,"Âge, non déclaré",0
+2014,Femmes,"Âge, non déclaré",0
+2015,,,8
+2015,Hommes,"Total, tous les âges",6
+2015,Femmes,"Total, tous les âges",2
+2015,Les deux sexes,Moins d'un an,0
+2015,Hommes,Moins d'un an,0
+2015,Femmes,Moins d'un an,0
+2015,Les deux sexes,1 à 4 ans,1
+2015,Hommes,1 à 4 ans,0
+2015,Femmes,1 à 4 ans,1
+2015,Les deux sexes,5 à 9 ans,0
+2015,Hommes,5 à 9 ans,0
+2015,Femmes,5 à 9 ans,0
+2015,Les deux sexes,10 à 14 ans,0
+2015,Hommes,10 à 14 ans,0
+2015,Femmes,10 à 14 ans,0
+2015,Les deux sexes,15 à 19 ans,0
+2015,Hommes,15 à 19 ans,0
+2015,Femmes,15 à 19 ans,0
+2015,Les deux sexes,20 à 24 ans,0
+2015,Hommes,20 à 24 ans,0
+2015,Femmes,20 à 24 ans,0
+2015,Les deux sexes,25 à 29 ans,1
+2015,Hommes,25 à 29 ans,1
+2015,Femmes,25 à 29 ans,0
+2015,Les deux sexes,30 à 34 ans,0
+2015,Hommes,30 à 34 ans,0
+2015,Femmes,30 à 34 ans,0
+2015,Les deux sexes,35 à 39 ans,0
+2015,Hommes,35 à 39 ans,0
+2015,Femmes,35 à 39 ans,0
+2015,Les deux sexes,40 à 44 ans,2
+2015,Hommes,40 à 44 ans,2
+2015,Femmes,40 à 44 ans,0
+2015,Les deux sexes,45 à 49 ans,2
+2015,Hommes,45 à 49 ans,2
+2015,Femmes,45 à 49 ans,0
+2015,Les deux sexes,50 à 54 ans,0
+2015,Hommes,50 à 54 ans,0
+2015,Femmes,50 à 54 ans,0
+2015,Les deux sexes,55 à 59 ans,1
+2015,Hommes,55 à 59 ans,1
+2015,Femmes,55 à 59 ans,0
+2015,Les deux sexes,60 à 64 ans,1
+2015,Hommes,60 à 64 ans,0
+2015,Femmes,60 à 64 ans,1
+2015,Les deux sexes,65 à 69 ans,0
+2015,Hommes,65 à 69 ans,0
+2015,Femmes,65 à 69 ans,0
+2015,Les deux sexes,70 à 74 ans,0
+2015,Hommes,70 à 74 ans,0
+2015,Femmes,70 à 74 ans,0
+2015,Les deux sexes,75 à 79 ans,0
+2015,Hommes,75 à 79 ans,0
+2015,Femmes,75 à 79 ans,0
+2015,Les deux sexes,80 à 84 ans,0
+2015,Hommes,80 à 84 ans,0
+2015,Femmes,80 à 84 ans,0
+2015,Les deux sexes,85 à 89 ans,0
+2015,Hommes,85 à 89 ans,0
+2015,Femmes,85 à 89 ans,0
+2015,Les deux sexes,90 ans et plus,0
+2015,Hommes,90 ans et plus,0
+2015,Femmes,90 ans et plus,0
+2015,Les deux sexes,"Âge, non déclaré",0
+2015,Hommes,"Âge, non déclaré",0
+2015,Femmes,"Âge, non déclaré",0
+2016,,,4
+2016,Hommes,"Total, tous les âges",2
+2016,Femmes,"Total, tous les âges",2
+2016,Les deux sexes,Moins d'un an,1
+2016,Hommes,Moins d'un an,0
+2016,Femmes,Moins d'un an,1
+2016,Les deux sexes,1 à 4 ans,0
+2016,Hommes,1 à 4 ans,0
+2016,Femmes,1 à 4 ans,0
+2016,Les deux sexes,5 à 9 ans,0
+2016,Hommes,5 à 9 ans,0
+2016,Femmes,5 à 9 ans,0
+2016,Les deux sexes,10 à 14 ans,0
+2016,Hommes,10 à 14 ans,0
+2016,Femmes,10 à 14 ans,0
+2016,Les deux sexes,15 à 19 ans,0
+2016,Hommes,15 à 19 ans,0
+2016,Femmes,15 à 19 ans,0
+2016,Les deux sexes,20 à 24 ans,0
+2016,Hommes,20 à 24 ans,0
+2016,Femmes,20 à 24 ans,0
+2016,Les deux sexes,25 à 29 ans,0
+2016,Hommes,25 à 29 ans,0
+2016,Femmes,25 à 29 ans,0
+2016,Les deux sexes,30 à 34 ans,0
+2016,Hommes,30 à 34 ans,0
+2016,Femmes,30 à 34 ans,0
+2016,Les deux sexes,35 à 39 ans,1
+2016,Hommes,35 à 39 ans,1
+2016,Femmes,35 à 39 ans,0
+2016,Les deux sexes,40 à 44 ans,1
+2016,Hommes,40 à 44 ans,0
+2016,Femmes,40 à 44 ans,1
+2016,Les deux sexes,45 à 49 ans,0
+2016,Hommes,45 à 49 ans,0
+2016,Femmes,45 à 49 ans,0
+2016,Les deux sexes,50 à 54 ans,0
+2016,Hommes,50 à 54 ans,0
+2016,Femmes,50 à 54 ans,0
+2016,Les deux sexes,55 à 59 ans,0
+2016,Hommes,55 à 59 ans,0
+2016,Femmes,55 à 59 ans,0
+2016,Les deux sexes,60 à 64 ans,0
+2016,Hommes,60 à 64 ans,0
+2016,Femmes,60 à 64 ans,0
+2016,Les deux sexes,65 à 69 ans,1
+2016,Hommes,65 à 69 ans,1
+2016,Femmes,65 à 69 ans,0
+2016,Les deux sexes,70 à 74 ans,0
+2016,Hommes,70 à 74 ans,0
+2016,Femmes,70 à 74 ans,0
+2016,Les deux sexes,75 à 79 ans,0
+2016,Hommes,75 à 79 ans,0
+2016,Femmes,75 à 79 ans,0
+2016,Les deux sexes,80 à 84 ans,0
+2016,Hommes,80 à 84 ans,0
+2016,Femmes,80 à 84 ans,0
+2016,Les deux sexes,85 à 89 ans,0
+2016,Hommes,85 à 89 ans,0
+2016,Femmes,85 à 89 ans,0
+2016,Les deux sexes,90 ans et plus,0
+2016,Hommes,90 ans et plus,0
+2016,Femmes,90 ans et plus,0
+2016,Les deux sexes,"Âge, non déclaré",0
+2016,Hommes,"Âge, non déclaré",0
+2016,Femmes,"Âge, non déclaré",0
+2017,,,3
+2017,Hommes,"Total, tous les âges",3
+2017,Femmes,"Total, tous les âges",0
+2017,Les deux sexes,Moins d'un an,0
+2017,Hommes,Moins d'un an,0
+2017,Femmes,Moins d'un an,0
+2017,Les deux sexes,1 à 4 ans,1
+2017,Hommes,1 à 4 ans,1
+2017,Femmes,1 à 4 ans,0
+2017,Les deux sexes,5 à 9 ans,0
+2017,Hommes,5 à 9 ans,0
+2017,Femmes,5 à 9 ans,0
+2017,Les deux sexes,10 à 14 ans,0
+2017,Hommes,10 à 14 ans,0
+2017,Femmes,10 à 14 ans,0
+2017,Les deux sexes,15 à 19 ans,0
+2017,Hommes,15 à 19 ans,0
+2017,Femmes,15 à 19 ans,0
+2017,Les deux sexes,20 à 24 ans,0
+2017,Hommes,20 à 24 ans,0
+2017,Femmes,20 à 24 ans,0
+2017,Les deux sexes,25 à 29 ans,0
+2017,Hommes,25 à 29 ans,0
+2017,Femmes,25 à 29 ans,0
+2017,Les deux sexes,30 à 34 ans,1
+2017,Hommes,30 à 34 ans,1
+2017,Femmes,30 à 34 ans,0
+2017,Les deux sexes,35 à 39 ans,0
+2017,Hommes,35 à 39 ans,0
+2017,Femmes,35 à 39 ans,0
+2017,Les deux sexes,40 à 44 ans,1
+2017,Hommes,40 à 44 ans,1
+2017,Femmes,40 à 44 ans,0
+2017,Les deux sexes,45 à 49 ans,0
+2017,Hommes,45 à 49 ans,0
+2017,Femmes,45 à 49 ans,0
+2017,Les deux sexes,50 à 54 ans,0
+2017,Hommes,50 à 54 ans,0
+2017,Femmes,50 à 54 ans,0
+2017,Les deux sexes,55 à 59 ans,0
+2017,Hommes,55 à 59 ans,0
+2017,Femmes,55 à 59 ans,0
+2017,Les deux sexes,60 à 64 ans,0
+2017,Hommes,60 à 64 ans,0
+2017,Femmes,60 à 64 ans,0
+2017,Les deux sexes,65 à 69 ans,0
+2017,Hommes,65 à 69 ans,0
+2017,Femmes,65 à 69 ans,0
+2017,Les deux sexes,70 à 74 ans,0
+2017,Hommes,70 à 74 ans,0
+2017,Femmes,70 à 74 ans,0
+2017,Les deux sexes,75 à 79 ans,0
+2017,Hommes,75 à 79 ans,0
+2017,Femmes,75 à 79 ans,0
+2017,Les deux sexes,80 à 84 ans,0
+2017,Hommes,80 à 84 ans,0
+2017,Femmes,80 à 84 ans,0
+2017,Les deux sexes,85 à 89 ans,0
+2017,Hommes,85 à 89 ans,0
+2017,Femmes,85 à 89 ans,0
+2017,Les deux sexes,90 ans et plus,0
+2017,Hommes,90 ans et plus,0
+2017,Femmes,90 ans et plus,0
+2017,Les deux sexes,"Âge, non déclaré",0
+2017,Hommes,"Âge, non déclaré",0
+2017,Femmes,"Âge, non déclaré",0
+2018,,,160
+2018,Hommes,"Total, tous les âges",95
+2018,Femmes,"Total, tous les âges",65
+2018,Les deux sexes,Moins d'un an,1
+2018,Hommes,Moins d'un an,1
+2018,Femmes,Moins d'un an,0
+2018,Les deux sexes,1 à 4 ans,2
+2018,Hommes,1 à 4 ans,1
+2018,Femmes,1 à 4 ans,1
+2018,Les deux sexes,5 à 9 ans,0
+2018,Hommes,5 à 9 ans,0
+2018,Femmes,5 à 9 ans,0
+2018,Les deux sexes,10 à 14 ans,0
+2018,Hommes,10 à 14 ans,0
+2018,Femmes,10 à 14 ans,0
+2018,Les deux sexes,15 à 19 ans,0
+2018,Hommes,15 à 19 ans,0
+2018,Femmes,15 à 19 ans,0
+2018,Les deux sexes,20 à 24 ans,0
+2018,Hommes,20 à 24 ans,0
+2018,Femmes,20 à 24 ans,0
+2018,Les deux sexes,25 à 29 ans,1
+2018,Hommes,25 à 29 ans,1
+2018,Femmes,25 à 29 ans,0
+2018,Les deux sexes,30 à 34 ans,1
+2018,Hommes,30 à 34 ans,1
+2018,Femmes,30 à 34 ans,0
+2018,Les deux sexes,35 à 39 ans,2
+2018,Hommes,35 à 39 ans,2
+2018,Femmes,35 à 39 ans,0
+2018,Les deux sexes,40 à 44 ans,6
+2018,Hommes,40 à 44 ans,6
+2018,Femmes,40 à 44 ans,0
+2018,Les deux sexes,45 à 49 ans,4
+2018,Hommes,45 à 49 ans,3
+2018,Femmes,45 à 49 ans,1
+2018,Les deux sexes,50 à 54 ans,8
+2018,Hommes,50 à 54 ans,5
+2018,Femmes,50 à 54 ans,3
+2018,Les deux sexes,55 à 59 ans,20
+2018,Hommes,55 à 59 ans,12
+2018,Femmes,55 à 59 ans,8
+2018,Les deux sexes,60 à 64 ans,29
+2018,Hommes,60 à 64 ans,22
+2018,Femmes,60 à 64 ans,7
+2018,Les deux sexes,65 à 69 ans,16
+2018,Hommes,65 à 69 ans,10
+2018,Femmes,65 à 69 ans,6
+2018,Les deux sexes,70 à 74 ans,25
+2018,Hommes,70 à 74 ans,14
+2018,Femmes,70 à 74 ans,11
+2018,Les deux sexes,75 à 79 ans,11
+2018,Hommes,75 à 79 ans,7
+2018,Femmes,75 à 79 ans,4
+2018,Les deux sexes,80 à 84 ans,11
+2018,Hommes,80 à 84 ans,2
+2018,Femmes,80 à 84 ans,9
+2018,Les deux sexes,85 à 89 ans,11
+2018,Hommes,85 à 89 ans,4
+2018,Femmes,85 à 89 ans,7
+2018,Les deux sexes,90 ans et plus,12
+2018,Hommes,90 ans et plus,4
+2018,Femmes,90 ans et plus,8
+2018,Les deux sexes,"Âge, non déclaré",0
+2018,Hommes,"Âge, non déclaré",0
+2018,Femmes,"Âge, non déclaré",0
+2019,,,28
+2019,Hommes,"Total, tous les âges",22
+2019,Femmes,"Total, tous les âges",6
+2019,Les deux sexes,Moins d'un an,0
+2019,Hommes,Moins d'un an,0
+2019,Femmes,Moins d'un an,0
+2019,Les deux sexes,1 à 4 ans,0
+2019,Hommes,1 à 4 ans,0
+2019,Femmes,1 à 4 ans,0
+2019,Les deux sexes,5 à 9 ans,0
+2019,Hommes,5 à 9 ans,0
+2019,Femmes,5 à 9 ans,0
+2019,Les deux sexes,10 à 14 ans,0
+2019,Hommes,10 à 14 ans,0
+2019,Femmes,10 à 14 ans,0
+2019,Les deux sexes,15 à 19 ans,0
+2019,Hommes,15 à 19 ans,0
+2019,Femmes,15 à 19 ans,0
+2019,Les deux sexes,20 à 24 ans,1
+2019,Hommes,20 à 24 ans,1
+2019,Femmes,20 à 24 ans,0
+2019,Les deux sexes,25 à 29 ans,0
+2019,Hommes,25 à 29 ans,0
+2019,Femmes,25 à 29 ans,0
+2019,Les deux sexes,30 à 34 ans,1
+2019,Hommes,30 à 34 ans,1
+2019,Femmes,30 à 34 ans,0
+2019,Les deux sexes,35 à 39 ans,1
+2019,Hommes,35 à 39 ans,0
+2019,Femmes,35 à 39 ans,1
+2019,Les deux sexes,40 à 44 ans,0
+2019,Hommes,40 à 44 ans,0
+2019,Femmes,40 à 44 ans,0
+2019,Les deux sexes,45 à 49 ans,1
+2019,Hommes,45 à 49 ans,0
+2019,Femmes,45 à 49 ans,1
+2019,Les deux sexes,50 à 54 ans,1
+2019,Hommes,50 à 54 ans,1
+2019,Femmes,50 à 54 ans,0
+2019,Les deux sexes,55 à 59 ans,3
+2019,Hommes,55 à 59 ans,3
+2019,Femmes,55 à 59 ans,0
+2019,Les deux sexes,60 à 64 ans,6
+2019,Hommes,60 à 64 ans,5
+2019,Femmes,60 à 64 ans,1
+2019,Les deux sexes,65 à 69 ans,2
+2019,Hommes,65 à 69 ans,2
+2019,Femmes,65 à 69 ans,0
+2019,Les deux sexes,70 à 74 ans,2
+2019,Hommes,70 à 74 ans,2
+2019,Femmes,70 à 74 ans,0
+2019,Les deux sexes,75 à 79 ans,1
+2019,Hommes,75 à 79 ans,1
+2019,Femmes,75 à 79 ans,0
+2019,Les deux sexes,80 à 84 ans,5
+2019,Hommes,80 à 84 ans,3
+2019,Femmes,80 à 84 ans,2
+2019,Les deux sexes,85 à 89 ans,2
+2019,Hommes,85 à 89 ans,2
+2019,Femmes,85 à 89 ans,0
+2019,Les deux sexes,90 ans et plus,2
+2019,Hommes,90 ans et plus,1
+2019,Femmes,90 ans et plus,1
+2019,Les deux sexes,"Âge, non déclaré",0
+2019,Hommes,"Âge, non déclaré",0
+2019,Femmes,"Âge, non déclaré",0
+2020,,,54
+2020,Hommes,"Total, tous les âges",37
+2020,Femmes,"Total, tous les âges",17
+2020,Les deux sexes,Moins d'un an,0
+2020,Hommes,Moins d'un an,0
+2020,Femmes,Moins d'un an,0
+2020,Les deux sexes,1 à 4 ans,0
+2020,Hommes,1 à 4 ans,0
+2020,Femmes,1 à 4 ans,0
+2020,Les deux sexes,5 à 9 ans,0
+2020,Hommes,5 à 9 ans,0
+2020,Femmes,5 à 9 ans,0
+2020,Les deux sexes,10 à 14 ans,0
+2020,Hommes,10 à 14 ans,0
+2020,Femmes,10 à 14 ans,0
+2020,Les deux sexes,15 à 19 ans,0
+2020,Hommes,15 à 19 ans,0
+2020,Femmes,15 à 19 ans,0
+2020,Les deux sexes,20 à 24 ans,0
+2020,Hommes,20 à 24 ans,0
+2020,Femmes,20 à 24 ans,0
+2020,Les deux sexes,25 à 29 ans,0
+2020,Hommes,25 à 29 ans,0
+2020,Femmes,25 à 29 ans,0
+2020,Les deux sexes,30 à 34 ans,1
+2020,Hommes,30 à 34 ans,0
+2020,Femmes,30 à 34 ans,1
+2020,Les deux sexes,35 à 39 ans,0
+2020,Hommes,35 à 39 ans,0
+2020,Femmes,35 à 39 ans,0
+2020,Les deux sexes,40 à 44 ans,2
+2020,Hommes,40 à 44 ans,2
+2020,Femmes,40 à 44 ans,0
+2020,Les deux sexes,45 à 49 ans,2
+2020,Hommes,45 à 49 ans,2
+2020,Femmes,45 à 49 ans,0
+2020,Les deux sexes,50 à 54 ans,6
+2020,Hommes,50 à 54 ans,5
+2020,Femmes,50 à 54 ans,1
+2020,Les deux sexes,55 à 59 ans,6
+2020,Hommes,55 à 59 ans,4
+2020,Femmes,55 à 59 ans,2
+2020,Les deux sexes,60 à 64 ans,9
+2020,Hommes,60 à 64 ans,6
+2020,Femmes,60 à 64 ans,3
+2020,Les deux sexes,65 à 69 ans,6
+2020,Hommes,65 à 69 ans,4
+2020,Femmes,65 à 69 ans,2
+2020,Les deux sexes,70 à 74 ans,7
+2020,Hommes,70 à 74 ans,5
+2020,Femmes,70 à 74 ans,2
+2020,Les deux sexes,75 à 79 ans,4
+2020,Hommes,75 à 79 ans,4
+2020,Femmes,75 à 79 ans,0
+2020,Les deux sexes,80 à 84 ans,4
+2020,Hommes,80 à 84 ans,1
+2020,Femmes,80 à 84 ans,3
+2020,Les deux sexes,85 à 89 ans,2
+2020,Hommes,85 à 89 ans,2
+2020,Femmes,85 à 89 ans,0
+2020,Les deux sexes,90 ans et plus,5
+2020,Hommes,90 ans et plus,2
+2020,Femmes,90 ans et plus,3
+2020,Les deux sexes,"Âge, non déclaré",0
+2020,Hommes,"Âge, non déclaré",0
+2020,Femmes,"Âge, non déclaré",0
+2021,,,328
+2021,Hommes,"Total, tous les âges",175
+2021,Femmes,"Total, tous les âges",153
+2021,Les deux sexes,Moins d'un an,0
+2021,Hommes,Moins d'un an,0
+2021,Femmes,Moins d'un an,0
+2021,Les deux sexes,1 à 4 ans,0
+2021,Hommes,1 à 4 ans,0
+2021,Femmes,1 à 4 ans,0
+2021,Les deux sexes,5 à 9 ans,0
+2021,Hommes,5 à 9 ans,0
+2021,Femmes,5 à 9 ans,0
+2021,Les deux sexes,10 à 14 ans,0
+2021,Hommes,10 à 14 ans,0
+2021,Femmes,10 à 14 ans,0
+2021,Les deux sexes,15 à 19 ans,2
+2021,Hommes,15 à 19 ans,2
+2021,Femmes,15 à 19 ans,0
+2021,Les deux sexes,20 à 24 ans,0
+2021,Hommes,20 à 24 ans,0
+2021,Femmes,20 à 24 ans,0
+2021,Les deux sexes,25 à 29 ans,0
+2021,Hommes,25 à 29 ans,0
+2021,Femmes,25 à 29 ans,0
+2021,Les deux sexes,30 à 34 ans,3
+2021,Hommes,30 à 34 ans,1
+2021,Femmes,30 à 34 ans,2
+2021,Les deux sexes,35 à 39 ans,3
+2021,Hommes,35 à 39 ans,2
+2021,Femmes,35 à 39 ans,1
+2021,Les deux sexes,40 à 44 ans,6
+2021,Hommes,40 à 44 ans,5
+2021,Femmes,40 à 44 ans,1
+2021,Les deux sexes,45 à 49 ans,6
+2021,Hommes,45 à 49 ans,5
+2021,Femmes,45 à 49 ans,1
+2021,Les deux sexes,50 à 54 ans,8
+2021,Hommes,50 à 54 ans,7
+2021,Femmes,50 à 54 ans,1
+2021,Les deux sexes,55 à 59 ans,15
+2021,Hommes,55 à 59 ans,6
+2021,Femmes,55 à 59 ans,9
+2021,Les deux sexes,60 à 64 ans,32
+2021,Hommes,60 à 64 ans,20
+2021,Femmes,60 à 64 ans,12
+2021,Les deux sexes,65 à 69 ans,37
+2021,Hommes,65 à 69 ans,27
+2021,Femmes,65 à 69 ans,10
+2021,Les deux sexes,70 à 74 ans,42
+2021,Hommes,70 à 74 ans,22
+2021,Femmes,70 à 74 ans,20
+2021,Les deux sexes,75 à 79 ans,45
+2021,Hommes,75 à 79 ans,23
+2021,Femmes,75 à 79 ans,22
+2021,Les deux sexes,80 à 84 ans,43
+2021,Hommes,80 à 84 ans,21
+2021,Femmes,80 à 84 ans,22
+2021,Les deux sexes,85 à 89 ans,36
+2021,Hommes,85 à 89 ans,15
+2021,Femmes,85 à 89 ans,21
+2021,Les deux sexes,90 ans et plus,50
+2021,Hommes,90 ans et plus,19
+2021,Femmes,90 ans et plus,31
+2021,Les deux sexes,"Âge, non déclaré",0
+2021,Hommes,"Âge, non déclaré",0
+2021,Femmes,"Âge, non déclaré",0
+2022,,,30
+2022,Hommes,"Total, tous les âges",16
+2022,Femmes,"Total, tous les âges",14
+2022,Les deux sexes,Moins d'un an,0
+2022,Hommes,Moins d'un an,0
+2022,Femmes,Moins d'un an,0
+2022,Les deux sexes,1 à 4 ans,2
+2022,Hommes,1 à 4 ans,2
+2022,Femmes,1 à 4 ans,0
+2022,Les deux sexes,5 à 9 ans,0
+2022,Hommes,5 à 9 ans,0
+2022,Femmes,5 à 9 ans,0
+2022,Les deux sexes,10 à 14 ans,0
+2022,Hommes,10 à 14 ans,0
+2022,Femmes,10 à 14 ans,0
+2022,Les deux sexes,15 à 19 ans,0
+2022,Hommes,15 à 19 ans,0
+2022,Femmes,15 à 19 ans,0
+2022,Les deux sexes,20 à 24 ans,0
+2022,Hommes,20 à 24 ans,0
+2022,Femmes,20 à 24 ans,0
+2022,Les deux sexes,25 à 29 ans,0
+2022,Hommes,25 à 29 ans,0
+2022,Femmes,25 à 29 ans,0
+2022,Les deux sexes,30 à 34 ans,0
+2022,Hommes,30 à 34 ans,0
+2022,Femmes,30 à 34 ans,0
+2022,Les deux sexes,35 à 39 ans,0
+2022,Hommes,35 à 39 ans,0
+2022,Femmes,35 à 39 ans,0
+2022,Les deux sexes,40 à 44 ans,0
+2022,Hommes,40 à 44 ans,0
+2022,Femmes,40 à 44 ans,0
+2022,Les deux sexes,45 à 49 ans,1
+2022,Hommes,45 à 49 ans,1
+2022,Femmes,45 à 49 ans,0
+2022,Les deux sexes,50 à 54 ans,2
+2022,Hommes,50 à 54 ans,0
+2022,Femmes,50 à 54 ans,2
+2022,Les deux sexes,55 à 59 ans,4
+2022,Hommes,55 à 59 ans,3
+2022,Femmes,55 à 59 ans,1
+2022,Les deux sexes,60 à 64 ans,5
+2022,Hommes,60 à 64 ans,2
+2022,Femmes,60 à 64 ans,3
+2022,Les deux sexes,65 à 69 ans,2
+2022,Hommes,65 à 69 ans,1
+2022,Femmes,65 à 69 ans,1
+2022,Les deux sexes,70 à 74 ans,2
+2022,Hommes,70 à 74 ans,1
+2022,Femmes,70 à 74 ans,1
+2022,Les deux sexes,75 à 79 ans,5
+2022,Hommes,75 à 79 ans,3
+2022,Femmes,75 à 79 ans,2
+2022,Les deux sexes,80 à 84 ans,3
+2022,Hommes,80 à 84 ans,0
+2022,Femmes,80 à 84 ans,3
+2022,Les deux sexes,85 à 89 ans,3
+2022,Hommes,85 à 89 ans,2
+2022,Femmes,85 à 89 ans,1
+2022,Les deux sexes,90 ans et plus,1
+2022,Hommes,90 ans et plus,1
+2022,Femmes,90 ans et plus,0
+2022,Les deux sexes,"Âge, non déclaré",0
+2022,Hommes,"Âge, non déclaré",0
+2022,Femmes,"Âge, non déclaré",0
