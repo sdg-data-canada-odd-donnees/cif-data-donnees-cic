@@ -66,9 +66,7 @@ new_data <-
   left_join(all_fuel, electric, c("Year", "Geography")) %>%
   mutate(Value = round((electric / all_fuel) * 100, 2)) %>%
   select(-starts_with("Fuel")) %>%
-  select(-c(3:4)) %>%
-  left_join(geocodes, by = "Geography") %>%
-  relocate(GeoCode, .before = "Value")
+  select(-c(3:4))
 
 total_line <- 
   new_data %>% 
@@ -80,7 +78,9 @@ data_final <-
     total_line,
     new_data %>% 
       filter(Geography != "Canada")
-  )
+  ) %>%
+  left_join(geocodes, by = "Geography") %>%
+  relocate(GeoCode, .before = "Value")
 
 write.csv(data_final,
           "data/indicator_12-1-1.csv",
