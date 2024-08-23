@@ -62,6 +62,22 @@ Yukon [60]: Yukon
 Northwest Territories [61]: Northwest Territories
 Nunavut [62]: Nunavut
 
+Region: Region
+Regions: Regions
+All regions: All regions
+Global: Global
+Africa: Africa
+Asia: Asia
+America: America
+Americas: Americas
+North America: North America
+South America: South America
+Central America: Central America
+Antilles: Antilles
+Europe: Europe
+Middle East: Middle East
+Oceania: Oceania
+
 # Cities and Census metropolitan areas
 Total Census metropolitan area: Total Census metropolitan area
 Total Non-Census metropolitan area: Total Non-Census metropolitan area
@@ -156,13 +172,19 @@ Total, 12 years and over: Total, 12 years and over
 Total, 15 years and over: Total, 15 years and over
 Total, 15 to 29 years: Total, 15 to 29 years
 Total, 18 years and over: Total, 18 years and over
+Total, all ages: Total, all ages
 15 years and over: 15 years and over
 25 years and over: 25 years and over
 45 years and over: 45 years and over
 55 years and over: 55 years and over
 65 years and over: 65 years and over
 70 years and over: 70 years and over
+90 years and over: 90 years and over
+Under 1 year: Under 1 years
 0 to 14 years: 0 to 14 years
+1 to 4 years: 1 to 4 years
+5 to 9 years: 5 to 9 years
+10 to 14 years: 10 to 14 years
 12 to 17 years: 12 to 17 years
 15 to 19 years: 15 to 19 years
 15 to 24 years: 15 to 24 years
@@ -189,6 +211,11 @@ Total, 18 years and over: Total, 18 years and over
 55 to 64 years: 55 to 64 years
 60 to 64 years: 60 to 64 years
 65 to 69 years: 65 to 69 years
+70 to 74 years: 70 to 74 years
+75 to 79 years: 75 to 79 years
+80 to 84 years: 80 to 84 years
+85 to 89 years: 85 to 89 years
+Age, not stated: Age, not stated
 
 ## 1-1-1
 Persons in low income: Persons in low income
@@ -238,9 +265,12 @@ Persons in a lone-parent family: Persons in a lone-parent family
 Persons in an other economic family type: Persons in an other economic family type
 Persons not in an economic family: Persons not in an economic family
 Statistics: Statistics
-Asset resilient for at least one month: Asset resilient for at least one month
-Asset resilient for at least three months: Asset resilient for at least three months
-Asset resilient for at least six months: Asset resilient for at least six months
+Asset resilient for at least one month: Asset resilient for at least 1 month
+Asset resilient for at least three months: Asset resilient for at least 3 months
+Asset resilient for at least six months: Asset resilient for at least 6 months
+Persons who are asset resilient for at least one month: Persons who are asset resilient for at least 1 month
+Persons who are asset resilient for at least three months: Persons who are asset resilient for at least 3 months
+Persons who are asset resilient for at least six months: Persons who are asset resilient for at least 6 months
 
 ## 1-3-1
 Lowest income quintile: Lowest income quintile
@@ -390,7 +420,25 @@ With nicotine: With nicotine
 Without nicotine: Without nicotine
 Secondary I-III: Secondary I-III
 Secondary IV-V: Secondary IV-V
-
+Indigenous status: Indigenous status
+Indigenous identity: Indigenous identity
+Non-Indigenous identity: Non-Indigenous identity
+Sex at birth: Sex at birth
+Immigration status: Immigration status
+Less than high school diploma or its equivalent: Less than high school diploma or its equivalent
+High school diploma or a high school equivalency certificate: High school diploma or a high school equivalency certificate
+Trades certificate or diploma: Trades certificate or diploma
+College/CEGEP/other non-university: College/CEGEP/other non-university
+University certificate or diploma below the bachelor: University certificate or diploma below the bachelor
+Bachelor's degree (e.g. B.A., B.Sc., LL.B.): Bachelor's degree (e.g. B.A., B.Sc., LL.B.)
+University certificate, diploma, degree above the BA: University certificate, diploma, degree above the BA
+Worked at a job or business: Worked at a job or business
+Had a job but did not work (absent): Had a job but did not work (absent)
+Did not have a job: Did not have a job
+Education level of parent or legal guardian: Education level of parent or legal guardian
+Education level of parent's or legal guardian's spouse: Education level of parent's or legal guardian's spouse
+Labour market status of parent or legal guardian: Labour market status of parent or legal guardian
+Labour market status of parent's or legal guardian's spouse: Labour market status of parent's or legal guardian's spouse
 
 ## 3-4-1
 Measures: Measures
@@ -508,10 +556,12 @@ Non-permanent residents: Non-permanent residents
 Total visible minority population: Total visible minority population
 Not a visible minority: Not a visible minority
 Total Indigenous identity: Total Indigenous identity
+Total Aboriginal identity: Total Aboriginal identity
 First Nations (North American Indian): First Nations (North American Indian)
 Métis: Métis
 Inuk (Inuit): Inuk (Inuit)
 Non-Indigenous identity: Non-Indigenous identity
+Non-Aboriginal identity: Non-Aboriginal identity
 
 ## 4-2-1
 Educational attainment level: Educational attainment level
@@ -1027,6 +1077,8 @@ Total police-reported hate crime: Total police-reported hate crime
 ## 11-1-1
 Estimates: Estimates
 Growth since 2016: Growth since 2016
+Number of shelter users experiencing chronic homelessness: Number of shelter users experiencing chronic homelessness
+Percentage change in the number of shelter users experiencing chronic homelessness from the 2016 baseline: Percentage change in the number of shelter users experiencing chronic homelessness from the 2016 baseline
 
 ## 11-2-1
 Living in unaffordable housing: Living in unaffordable housing
@@ -1043,6 +1095,29 @@ Men+ living alone: Men+ living alone
 Women+ living alone: Women+ living alone
 Reference persons who have experienced homelessness: Reference persons who have experienced homelessness
 Living with housing problems: Living with housing problems
+Large urban population centres: Large urban population centres
+Other census metropolitan areas, Quebec: Other census metropolitan areas, Quebec
+Other census metropolitan areas, Ontario: Other census metropolitan areas, Ontario
+Other census metropolitan areas, British Columbia: Other census metropolitan areas, British Columbia
+Total, census metropolitan areas: Total, census metropolitan areas
+Census agglomerations: Census agglomerations
+Total, census agglomerations: Total, census agglomerations
+Outside census metropolitan areas and census agglomerations: Outside census metropolitan areas and census agglomerations
+Total, outside census metropolitan areas and census agglomerations: Total, outside census metropolitan areas and census agglomerations
+Total, large urban population centres: Total, large urban population centres
+Total, medium population centres: Total, medium population centres
+Total, small population centres: Total, small population centres
+Total, rural areas: Total, rural areas
+Geographic location: Geographic location
+Tenure: Tenure
+Selected census metropolitan areas: Selected census metropolitan areas
+Provinces and territories: Provinces and territories
+Census metropolitan areas: Census metropolitan areas
+Total, tenure: Total, tenure
+Owner who is a first-time homebuyer: Owner who is a first-time homebuyer
+Owner who is not a first-time homebuyer: Owner who is not a first-time homebuyer
+Renter not in social and affordable housing: Renter not in social and affordable housing
+Renter in social and affordable housing: Renter in social and affordable housing
 
 ## 11-4-1
 Demographic and geodemographic: Demographic and geodemographic
@@ -1119,6 +1194,26 @@ Sources of materials prepared for recycling: Sources of materials prepared for r
 All sources of diverted materials: All sources of diverted materials
 Residential sources of diverted materials: Residential sources of diverted materials
 Non-residential sources of diverted materials: Non-residential sources of diverted materials
+All organic materials: All organic materials
+Food waste and source separated organics: Food waste and source separated organics
+Leaf and yard waste: Leaf and yard waste
+Other organic materials: Other organic materials
+
+## 12-4-1
+Total, all product categories: Total, all product categories
+Construction materials: Construction materials
+Electrical and electronic equipment: Electrical and electronic equipment
+Major appliances: Major appliances
+Other electrical and electronic equipment: Other electrical and electronic equipment
+Packaging: Packaging
+Bottles: Bottles
+Film: Film
+Non-bottle rigid: Non-bottle rigid
+Other packaging products: Other packaging products
+Agriculture film: Agriculture film
+Vehicles: Vehicles
+Other products: Other products
+Product category: Product category
 
 ## 13-1-1
 Source: Source
@@ -1133,25 +1228,6 @@ Light Manufacturing, Construction and Forest Resources: Light Manufacturing, Con
 Buildings: Buildings
 Waste: Waste
 Agriculture: Agriculture
-
-## 13-2-1
-Event type: Event type
-Earthquake: Earthquake
-Flood: Flood
-Hurricane / Typhoon / Tropical Storm: Hurricane / Typhoon / Tropical Storm
-Storm - Unspecified / Other: Storm - Unspecified / Other
-Storm Surge: Storm Surge
-Storms and Severe Thunderstorms: Storms and Severe Thunderstorms
-Tornado: Tornado
-Wildfire: Wildfire
-Winter Storm: Winter Storm
-Landslide: Landslide
-Biological: Biological
-Geological: Geological
-Meteorological - Hydrological: Meteorological - Hydrological
-Epidemic: Epidemic
-Heat Event: Heat Event
-Event sub-type: Event sub-type
 
 # 13-3-1
 Number: Number
@@ -1176,8 +1252,18 @@ Rural municipalities, population 1 to 4,999: Rural municipalities, population 1 
 Rural municipalities, population 5,000 or more: Rural municipalities, population 5,000 or more
 
 ## 14-2-1
+Number of stocks: Number of stocks
+Status: Stock status
+Healthy zone: Healthy zone
+Cautious zone: Cautious zone
+Critical zone: Critical zone
+Status uncertain: Status uncertain
+Healthy and cautious zones: Healthy and cautious zones
+Arctic: Arctic
+Atlantic: Atlantic
+Pacific: Pacific
 Stock group: Stock group
-Marine mammals: Marine mammals
+Marine Mammals: Marine mammals
 Groundfish: Groundfish
 Small pelagics: Small pelagics
 Large pelagics: Large pelagics
@@ -1185,6 +1271,7 @@ Salmonids: Salmonids
 Crustaceans: Crustaceans
 Molluscs: Molluscs
 Others: Others
+All stock groups: All stock groups
 
 ## 15-1-1
 Species group: Species group
@@ -1376,14 +1463,11 @@ SPI Overall Score: SPI Overall Score
 
 ## 17-2-1
 Pillar: Pillar
-Region: Region
 Cross-border flows to TOSSD-eligible countries: Cross-border flows to TOSSD-eligible countries
 Global and regional expenditures for international public goods: Global and regional expenditures for international public goods
-All regions: All regions
-Global: Global
-Africa: Africa
-Asia: Asia
-America: America
-Europe: Europe
-Middle East: Middle East
-Oceania: Oceania
+
+## 17-3-1
+Goods and services (products): Goods and services (products)
+Total, environmental and clean technology products: Environmental and clean technology products
+Total, environmental products: Environmental products
+Total, clean technology products: Clean technology products

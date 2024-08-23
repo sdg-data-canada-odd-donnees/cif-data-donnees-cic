@@ -64,6 +64,22 @@ Yukon [60]: Yukon
 Northwest Territories [61]: Territoires du Nord-Ouest
 Nunavut [62]: Nunavut
 
+Region: Région
+Regions: Régions
+All regions: Toutes les régions
+Global: Mondial
+Africa: Afrique
+Asia: Asie
+America: Amérique
+Americas: Amériques
+North America: Amérique du Nord
+South America: Amérique du Sud
+Central America: Amérique Centrale
+Antilles: Antilles
+Europe: Europe
+Middle East: Moyen-Orient
+Oceania: Océanie
+
 # Cities and census metropolitan areas
 Total Census metropolitan area: Total pour les régions métropolitaines de recensement
 Total Non-Census metropolitan area: Total pour les régions autres que les régions métropolitaines de recensement
@@ -158,13 +174,19 @@ Total, 12 years and over: Total, 12 ans et plus
 Total, 15 years and over: Total, 15 ans et plus
 Total, 15 to 29 years: Total, 15 à 29 ans
 Total, 18 years and over: Total, 18 ans et plus
+Total, all ages: Total, tous les âges
 15 years and over: 15 ans et plus
 25 years and over: 25 ans et plus
 45 years and over: 45 ans et plus
 55 years and over: 55 ans et plus
 65 years and over: 65 ans et plus
 70 years and over: 70 ans et plus
+90 years and over: 90 ans et plus
+Under 1 year: Moins d'un an 
 0 to 14 years: 0 à 14 ans
+1 to 4 years: 1 à 4 ans
+5 to 9 years: 5 à 9 ans
+10 to 14 years: 10 à 14 ans
 12 to 17 years: 12 à 17 ans
 15 to 19 years: 15 à 19 ans
 15 to 24 years: 15 à 24 ans
@@ -191,6 +213,11 @@ Total, 18 years and over: Total, 18 ans et plus
 55 to 64 years: 55 à 64 ans
 60 to 64 years: 60 à 64 ans
 65 to 69 years: 65 à 69 ans
+70 to 74 years: 70 à 74 ans
+75 to 79 years: 75 à 79 ans
+80 to 84 years: 80 à 84 ans
+85 to 89 years: 85 à 89 ans
+Age, not stated: Âge, non déclaré
 
 ## Random
 Activity group: Groupe d'activité
@@ -248,9 +275,12 @@ Persons in a lone-parent family: "Personnes dans une famille monoparentale"
 Persons in an other economic family type: "Personnes dans un autre type de famille économique"
 Persons not in an economic family: "Personnes hors famille économique"
 Statistics: Statistiques
-Asset resilient for at least one month: Personnes en situation de résilience des actifs pour au moins un mois
-Asset resilient for at least three months: Personnes en situation de résilience des actifs pour au moins trois mois
-Asset resilient for at least six months: Personnes en situation de résilience des actifs pour au moins six mois
+Asset resilient for at least one month: Personnes en situation de résilience des actifs pour au moins 1 mois
+Asset resilient for at least three months: Personnes en situation de résilience des actifs pour au moins 3 mois
+Asset resilient for at least six months: Personnes en situation de résilience des actifs pour au moins 6 mois
+Persons who are asset resilient for at least one month: Personnes en situation de résilience des actifs pour au moins 1 mois
+Persons who are asset resilient for at least three months: Personnes en situation de résilience des actifs pour au moins 3 mois
+Persons who are asset resilient for at least six months: Personnes en situation de résilience des actifs pour au moins 6 mois
 
 ## 1-3-1
 Lowest income quintile: Quintile de revenu inférieur
@@ -409,6 +439,25 @@ With nicotine: Avec nicotine
 Without nicotine: Sans nicotine
 Secondary I-III: De la 1re à la 3e année du secondaire
 Secondary IV-V: De la 4re à la 5e année du secondaire
+Indigenous status: Statut d'autochtone
+Indigenous identity: Identité autochtone
+Non-Indigenous identity: Identité non autochtone
+Sex at birth: Sexe à la naissance
+Immigration status: Statut d'immigration
+Less than high school diploma or its equivalent: Moins d'un diplôme d'études secondaires ou son équivalent
+High school diploma or a high school equivalency certificate: Diplôme de fin d'études secondaires ou certificat d'équivalence de fin d'études secondaires
+Trades certificate or diploma: Certificat ou diplôme professionnel
+College/CEGEP/other non-university: Collège/CÉGEP/autre établissement non universitaire
+University certificate or diploma below the bachelor: Certificat ou diplôme universitaire inférieur au baccalauréat
+Bachelor's degree (e.g. B.A., B.Sc., LL.B.): Baccalauréat (ex. B.A., B.Sc., LL.B.)
+University certificate, diploma, degree above the BA: Certificat universitaire, diplôme, grade supérieur au baccalauréat (BA)
+Worked at a job or business: A travaillé dans un emploi ou une entreprise
+Had a job but did not work (absent): A eu un emploi mais n'a pas travaillé (absent)
+Did not have a job: N'a pas eu d'emploi
+Education level of parent or legal guardian: Niveau d'éducation du parent ou du tuteur légal
+Education level of parent's or legal guardian's spouse: Niveau d'éducation du conjoint du parent ou du tuteur légal
+Labour market status of parent or legal guardian: Statut du parent ou du tuteur légal sur le marché du travail
+Labour market status of parent's or legal guardian's spouse: Statut du conjoint du parent ou du tuteur légal sur le marché du travail
 
 ## 3-3-1
 Measures: Mesures
@@ -529,10 +578,12 @@ Non-permanent residents: Résidents non permanents
 Total visible minority population: Total de la population des minorités visibles
 Not a visible minority: Pas une minorité visible
 Total Indigenous identity: Total identité autochtone
+Total Aboriginal identity: Total identité autochtone
 First Nations (North American Indian): Première Nation (Indien de l'Amérique du Nord)
 Métis: Métis
 Inuk (Inuit): Inuk (Inuit)
 Non-Indigenous identity: Identité non autochtone
+Non-Aboriginal identity: Identité non autochtone
 
 ## 4-2-1
 Educational attainment level: Niveau de scolarité
@@ -1049,6 +1100,8 @@ Total police-reported hate crime: Total des crimes haineux déclarés par la pol
 ## 11-1-1
 Estimates: Estimation
 Growth since 2016: Croissance depuis 2016
+Number of shelter users experiencing chronic homelessness: Nombre d'usagers des refuges en situation d'itinérance chronique
+Percentage change in the number of shelter users experiencing chronic homelessness from the 2016 baseline: Changement en pourcentage du nombre d'usagers des refuges en situation d'itinérance chronique par rapport au niveau de référence de 2016
 
 ## 11-2-1
 Selected housing vulnerable populations: Certaines population vulnérables en matière de logement
@@ -1075,7 +1128,29 @@ Men+ living alone: Hommes+ vivant seuls
 Women+ living alone: Femmes+ vivant seules
 Reference persons who have experienced homelessness: Personnes de référence qui ont vécu une période d'itinérance
 Living with housing problems: Éprouvant des problèmes de logement
-
+Large urban population centres: Grands centres de population urbains
+Other census metropolitan areas, Quebec: Autres régions métropolitaines de recensement, Québec
+Other census metropolitan areas, Ontario: Autres régions métropolitaines de recensement, Ontario
+Other census metropolitan areas, British Columbia: Autres régions métropolitaines de recensement, Colombie-Britannique
+Total, census metropolitan areas: Total, régions métropolitaines de recensement
+Census agglomerations: Agglomérations de recensement
+Total, census agglomerations: Total, agglomérations de recensement
+Outside census metropolitan areas and census agglomerations: À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement
+Total, outside census metropolitan areas and census agglomerations: Total, à l'extérieur des régions métropolitaines de recensement et agglomérations de recensement
+Total, large urban population centres: Total, grands centres de population urbains
+Total, medium population centres: Total, moyens centres de population
+Total, small population centres: Total, petits centres de population
+Total, rural areas: Total, régions rurales
+Geographic location: Situation géographique
+Tenure: Mode d'occupation
+Selected census metropolitan areas: Régions métropolitaines de recensement sélectionnées
+Provinces and territories: Provinces et territoires
+Census metropolitan areas: Régions métropolitaines de recensement
+Total, tenure: Total, mode d'occupation
+Owner who is a first-time homebuyer: Propriétaire qui est un accédant à la propriété
+Owner who is not a first-time homebuyer: Propriétaire qui n'est pas un accédant à la propriété
+Renter not in social and affordable housing: Locataire n'habitant pas dans un logement social et abordable
+Renter in social and affordable housing: Locataire habitant dans un logement social et abordable
 
 ## 11-4-1
 Demographic and geodemographic: Démographie et géodémographie
@@ -1152,6 +1227,26 @@ Sources of materials prepared for recycling: Sources des matières préparées e
 All sources of diverted materials: Toutes les sources des matières récupérées
 Residential sources of diverted materials: Sources des matières résidentielles récupérées
 Non-residential sources of diverted materials: Sources des matières non résidentielles récupérées
+All organic materials: Toutes les matières organiques
+Food waste and source separated organics: Déchets de nourriture et matières organiques séparées à la source
+Leaf and yard waste: Feuilles et résidus de jardin
+Other organic materials: Autres matières organiques
+
+## 12-4-1
+Total, all product categories: Total, toutes les catégories de produits
+Construction materials: Matériaux de construction
+Electrical and electronic equipment: Équipements électriques et électroniques
+Major appliances: Gros appareils électroménagers
+Other electrical and electronic equipment: Autres équipements électriques et électroniques
+Packaging: Emballages
+Bottles: Bouteilles
+Film: Films
+Non-bottle rigid: Rigides non-bouteilles
+Other packaging products: Autres produits d'emballage
+Agriculture film: Films agricoles
+Vehicles: Véhicules
+Other products: Autres produits
+Product category: Catégorie de produits
 
 ## 13-1-1
 Source: Source
@@ -1166,25 +1261,6 @@ Light Manufacturing, Construction and Forest Resources: Fabrication légère, co
 Buildings: Bâtiments
 Waste: Déchets et autres
 Agriculture: Agriculture
-
-## 13-2-1
-Event type: Type d'événement
-Earthquake: Tremblement de terre
-Flood: Inondation
-Hurricane / Typhoon / Tropical Storm: Ouragan / ouragan / tempête tropicale
-Storm - Unspecified / Other: Tempête-non précisée/autre
-Storm Surge: Onde de tempête
-Storms and Severe Thunderstorms: Orages et orages graves
-Tornado: Tornade
-Wildfire: Feu de forêt
-Winter Storm: Tempête hivernale
-Landslide: Éboulement
-Biological: Biologique
-Geological: Géologique
-Meteorological - Hydrological: Météorologique - hydrologique
-Epidemic: Épidémie
-Heat Event: Épisode de chaleur
-Event sub-type: Événement
 
 # 13-3-1
 Number: Nombre
@@ -1209,8 +1285,18 @@ Culture, recreation and sports facilities: Culture, sports et loisirs
 Core public infrastructure assets: Actifs d'infrastructures publiques essentielles
 
 ## 14-2-1
+Number of stocks: Nombre de stocks
+Status: État des stocks
+Healthy zone: Zone saine
+Cautious zone: Zone de prudence
+Critical zone: Zone critique
+Status uncertain: État incertain
+Healthy and cautious zones: Zone de prudence et la zone saine 
+Arctic: Arctique
+Atlantic: Atlantique
+Pacific: Pacifique
 Stock group: Groupe de stocks
-Marine mammals: Mammifères marins
+Marine Mammals: Mammifères marins
 Groundfish: Poissons de fond
 Small pelagics: Petits poissons pélagiques
 Large pelagics: Grands poissons pélagiques
@@ -1218,6 +1304,7 @@ Salmonids: Salmonidés
 Crustaceans: Crustacés
 Molluscs: Mollusques
 Others: Autres
+All stock groups: Tous les groupes de stocks
 
 ## 15-1-1
 Species group: Groupe d'espèces
@@ -1404,14 +1491,11 @@ SPI Overall Score: Score global
 
 ## 17-2-1
 Pillar: Pilier
-Region: Région
 Cross-border flows to TOSSD-eligible countries: Flux transfrontaliers vers les pays admissibles au TOSSD
 Global and regional expenditures for international public goods: Dépenses mondiales et régionales pour les biens publics internationaux
-All regions: Toutes les régions
-Global: Mondial
-Africa: Afrique
-Asia: Asie
-America: Amerique
-Europe: Europe
-Middle East: Moyen-Orient
-Oceania: Océanie
+
+## 17-3-1
+Goods and services (products): Biens et services (produits)
+Total, environmental and clean technology products: Produits environnementaux et de technologies propres
+Total, environmental products: Produits environnementaux
+Total, clean technology products: Produits de technologies propres

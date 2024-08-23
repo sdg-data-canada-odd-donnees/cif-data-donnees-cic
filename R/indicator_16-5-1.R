@@ -39,7 +39,7 @@ court_time <- function(data, type) {
       `Sex of accused`,
       Value = VALUE
     ) %>% 
-    mutate(Series = paste0("data.", type)) %>% 
+    mutate(Series = type) %>% 
     relocate(Series, .after = Year)
   
 }

@@ -1,81 +1,69 @@
 def measure_indicator_progress(data, config):
     """Sets up all needed parameters and data for progress calculation, determines methodology for calculation,
-    and returns progress measure as an output.
+    and returns progress measure calculation result as an output.
 
     Args:
         data:
         config:
     Returns:
-        output: str. A string indicating the progress measurement for the indicator.
+        output: dict. format:   {value, progress_status, config} if progress measure calculation succeeds
+                                {progress_status} if auto_progress_calculation is turned off
+                                None if progress measure calculation fails
     """
 
     # data = indicator['data']    # get indicator data
     # config = indicator['meta']  # get configurations
 
-    # checks if progress calculation is turned on
-    if 'auto_progress_calculation' in config.keys():
+    if not config.get('auto_progress_calculation'):
+        # If auto_progress_calculation is turned off, take progress_status from metadata if it exists or not_available otherwise.
+        return {'progress_status': config.get('progress_status', 'not_available')}
 
-        # checks if any inputs have been configured
-        if config['auto_progress_calculation']:
+    else:
+        config = get_progress_calculation_options(config)
+        
+        # get relevant data to calculate progress (aggregate/total line only)
+        data = data_progress_measure(data, config)
+        if data is None:
+            return None
 
-            if 'progress_calculation_options' in config.keys():
-                # take manual user inputs
-                config = config['progress_calculation_options'][0]
+        # get years that exist in the data & set current year
+        # to be the most recent year that exists in data
+        years = data["Year"]
+        config['current_year'] = years.max()
+        config['current_value'] = data.Value[data.Year == config['current_year']].values[0]
+
+        # check if the base year input exists in the data
+        if config['base_year'] not in years.values:
+            # return None if the base year input is in the future of the most recently available data
+            if config['base_year'] > years.max():
+                return None
+
+            # if base year is not in available data and not in the future,
+            # assign it to be the minimum existing year past the base year given
+            config['base_year'] = years[years > config['base_year']].min()
+
+        config['base_value'] = data.Value[data.Year == config['base_year']].values[0]
+
+        # return None if there is not enough data to calculate progress (must be at least 2 data points)
+        if config['current_year'] - config['base_year'] < 1:
+            return None
+
+        # determine which methodology to run
+        # if no target exists, run methodology for qualitative target.
+        # else run methodology for quantitative target.
+        if config['target'] is None:
+            # update progress thresholds for qualitative target
+            config = update_progress_thresholds(config, method=1)
+            # do progress calculation according to methodology for qualitative target
+            value = methodology_1(data=data, config=config)
 
         else:
-            return None
+            # update progress thresholds for quantitative target
+            config = update_progress_thresholds(config, method=2)
+            # do progress calculation according to methodology for quantitative target
+            value = methodology_2(data=data, config=config)
 
-    # return None if auto progress calculation is not turned on
-    else:
-        return None
-
-    # get calculation defaults and update with user inputs (if any)
-    config = config_defaults(config)
-
-    # get relevant data to calculate progress (aggregate/total line only)
-    data = data_progress_measure(data)
-
-    if data is None:
-        return None
-
-    # get years that exist in the data & set current year
-    # to be the most recent year that exists in data
-    years = data["Year"]
-    current_year = {'current_year': years.max()}
-
-    # update the calculation inputs with the current year
-    config.update(current_year)
-
-    # check if the base year input exists in the data
-    if config['base_year'] not in years.values:
-        # return None if the base year input is in the future of the most recently available data
-        if config['base_year'] > years.max():
-            return None
-
-        # if base year is not in available data and not in the future,
-        # assign it to be the minimum existing year past the base year given
-        config['base_year'] = years[years > config['base_year']].min()
-
-    # return None if there is not enough data to calculate progress (must be at least 2 data points)
-    if config['current_year'] - config['base_year'] < 1:
-        return None
-
-    # determine which methodology to run
-    # if no target exists, run methodology for qualitative target.
-    # else run methodology for quantitative target.
-    if config['target'] is None:
-        # update progress thresholds for qualitative target
-        config = update_progress_thresholds(config, method=1)
-        # do progress calculation according to methodology for qualitative target
-        value = methodology_1(data=data, config=config)
-
-    else:
-        # update progress thresholds for quantitative target
-        config = update_progress_thresholds(config, method=2)
-        # do progress calculation according to methodology for quantitative target
-        value = methodology_2(data=data, config=config)
-
-    return {'value': value, 'config': config}
+        return {'value': value, 'progress_status': get_progress_status(value, config), 'config': config}
 
 
 def get_progress_status(value, config):
@@ -98,7 +86,9 @@ def get_progress_status(value, config):
             return None
 
     else:
-        if value >= x:
+        if value == None:
+            return "target_achieved"
+        elif value >= x:
             return "substantial_progress"
         elif y <= value < x:
             return "moderate_progress"
@@ -143,6 +133,16 @@ def default_progress_calc_options():
     )
 
 
+def get_progress_calculation_options(metadata):
+    """
+    Get the progress_calculation_options from metadata.
+    """
+    if 'progress_calculation_options' in metadata.keys():
+        return config_defaults(metadata['progress_calculation_options'][0])
+    else:
+        return default_progress_calc_options()
+
+
 def update_progress_thresholds(config, method):
     """Checks for configured progress thresholds or updates thresholds based on methodology.
     Args:
@@ -170,16 +170,18 @@ def update_progress_thresholds(config, method):
     return config
 
 
-def data_progress_measure(data):
+def data_progress_measure(data, config={}):
     """Checks and filters data for indicator for which progress is being calculated.
 
     If the Year column in data contains more than 4 characters (standard year format), takes the first 4 characters.
     If data contains disaggregation columns, take only the total line data.
+    If data contains total lines for different series/units, take only the total line for the units/series chosen in config.
     Removes any NA values.
     Checks that there is enough data to calculate progress.
 
     Args:
         data: DataFrame. Indicator data for which progress is being calculated.
+        config: dict. Configuration settings used when the data contains potential headlines for different units/series.
     Returns:
         DataFrame: Data in valid format for calculating progress.
     """
@@ -190,10 +192,16 @@ def data_progress_measure(data):
         data['Year'] = data['Year'].astype(str).str.slice(0, 4).astype(int)
 
     # get just the total line values from data
-    cols = data.columns.values
+    cols = data.columns
     if len(cols) > 2:
-        cols = cols[1:-1]
-        data = data[data[cols].isna().all('columns')]
+        # Data has disaggregations, find headline data
+        # If units or series are given, select desired unit/series to use for progress measure calculation
+        if ("Units" in cols) and ("unit" in config.keys()):
+            data = data.loc[data["Units"] == config["unit"]]
+        if ("Series" in cols) and ("series" in config.keys()):
+            data = data.loc[data["Series"] == config["series"]]
+        # Find rows with all empty values (excluding Year, Units, Series, and Value columns)
+        data = data[data.loc[:, ~cols.isin(["Year", "Units", "Series", "Value"])].isna().all("columns")]
         data = data.iloc[:, [0, -1]]
 
     # remove any NA values from data
@@ -296,7 +304,9 @@ def methodology_2(data, config):
 
 
 def progress_measure(indicator):
-
+    """
+    Calculate and return the progress status for an indicator.
+    """
     if indicator is None:
         return None
 
@@ -308,15 +318,7 @@ def progress_measure(indicator):
     if progress_calc is None:
         return None
 
-    value = progress_calc['value']
-    config = progress_calc['config']
-
-    if value is None:
-        output = "target_achieved"
-    else:
-        output = get_progress_status(value, config)
-
-    return output
+    return progress_calc.get('progress_status')
 
 
 def score_calculation(value, target):
