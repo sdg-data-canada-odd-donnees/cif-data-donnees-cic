@@ -23,8 +23,7 @@ all_plastic <-
   plastic %>%
   filter(
     REF_DATE >= 2015,
-    Variable == "Total disposed plastic waste and scrap",
-    `Product category` == "Total, all product categories"
+    Variable == "Total disposed plastic waste and scrap"
   ) %>%
   select(
     Year = REF_DATE,
@@ -35,12 +34,12 @@ all_plastic <-
   rename(all_product = Value)
 
 proportion <-
-  left_join(all_plastic, product_types, c("Year", "Geography")) %>%
+  left_join(all_plastic, product_types, c("Year", "Geography","Product category")) %>%
   mutate(Value = round((product_types / all_product) * 100, 2)) %>%
   select(
     Year,
     Geography,
-    `Product category` = `Product category.y`,
+    `Product category`,
     Value
   ) %>%
   na.omit()
