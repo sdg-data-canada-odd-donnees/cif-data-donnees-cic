@@ -39,7 +39,7 @@ proportion <-
   select(
     Year,
     Geography,
-    `Product category` = `Product category.y`,
+    `Product category`,
     Value
   ) %>%
   na.omit()
