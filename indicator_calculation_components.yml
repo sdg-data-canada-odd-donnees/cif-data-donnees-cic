@@ -153,7 +153,15 @@
 13-1-1:
   progress_status: not_available
 13-2-1:
-  progress_status: not_available
+  base_value: '8'
+  base_year: '2015'
+  current_value: '30'
+  current_year: '2022'
+  direction: negative
+  progress_calculation_value: '-0.20782625781267594'
+  progress_status: deterioration
+  target: None
+  target_year: '2030'
 13-3-1:
   base_value: '51.4'
   base_year: '2018'
