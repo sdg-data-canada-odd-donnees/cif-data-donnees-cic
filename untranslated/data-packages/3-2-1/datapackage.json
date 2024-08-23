@@ -12,63 +12,142 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.New Brunswick",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             }
           },
           {
-            "name": "data.Sex",
+            "name": "Sex at birth",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Male",
-                "data.Female",
-                "data.Both sexes",
+                "Male",
+                "Female",
                 ""
               ]
             }
           },
           {
-            "name": "data.Grade",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.All grades",
-                "data.Grades 7-9",
-                "data.Grades 10-12",
-                "data.Secondary I-III",
-                "data.Secondary IV-V",
-                "data.Grades 6-9",
+                "Male",
+                "Female",
                 ""
               ]
             }
           },
           {
-            "name": "data.Type of e-cigarettes",
+            "name": "Indigenous status",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Both type",
-                "data.With nicotine",
-                "data.Without nicotine",
+                "Indigenous identity",
+                "Non-indigenous identity",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "South Asian",
+                "Chinese",
+                "Black",
+                "Filipino",
+                "Arab",
+                "Latin American",
+                "Not a visible minority",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Immigration status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Non-immigrant",
+                "Immigrant",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Parent or legal guardian's education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than high school diploma or its equivalent",
+                "High school diploma or a high school equivalency certificate",
+                "Trades certificate or diploma",
+                "College/CEGEP/other non-university",
+                "University certificate or diploma below the bachelor",
+                "Bachelor's degree (e.g. B.A., B.Sc., LL.B.)",
+                "University certificate, diploma, degree above the BA",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Parent's or legal guardian's spouse's education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than high school diploma or its equivalent",
+                "High school diploma or a high school equivalency certificate",
+                "Trades certificate or diploma",
+                "College/CEGEP/other non-university",
+                "University certificate or diploma below the bachelor",
+                "Bachelor's degree (e.g. B.A., B.Sc., LL.B.)",
+                "University certificate, diploma, degree above the BA",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Parent or legal guardian's labour market status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Worked at a job or business",
+                "Had a job but did not work (absent)",
+                "Did not have a job",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Parent's or legal guardian's spouse's labour market status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Worked at a job or business",
+                "Had a job but did not work (absent)",
+                "Did not have a job",
                 ""
               ]
             }
@@ -87,5 +166,5 @@
   ],
   "profile": "data-package",
   "name": "3-2-1",
-  "title": "Prevalence of vaping among youth"
+  "title": "Percentage of youth (aged 12 to 17) who have used an e-cigarette in the past 30 days"
 }

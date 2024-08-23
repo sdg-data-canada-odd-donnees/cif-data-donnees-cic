@@ -1798,71 +1798,156 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
                 "Québec",
                 "Ontario",
                 "Manitoba",
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Nouveau-Brunswick",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 ""
               ]
             },
             "title": "Géographie"
           },
           {
-            "name": "data.Sex",
+            "name": "Sex at birth",
             "type": "string",
             "constraints": {
               "enum": [
                 "Homme",
                 "Femme",
-                "Les deux sexes",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Sexe à la naissance"
           },
           {
-            "name": "data.Grade",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Tous les niveaux",
-                "7e à 9e année",
-                "10e à 12e année",
-                "De la 1re à la 3e année du secondaire",
-                "De la 4re à la 5e année du secondaire",
-                "6e à 9e année",
+                "Homme",
+                "Femme",
                 ""
               ]
             },
-            "title": "Niveaux de scolarité"
+            "title": "Genre"
           },
           {
-            "name": "data.Type of e-cigarettes",
+            "name": "Indigenous status",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux types",
-                "Avec nicotine",
-                "Sans nicotine",
+                "Identité autochtone",
+                "Non-indigenous identity",
                 ""
               ]
             },
-            "title": "Type de cigarettes"
+            "title": "Statut d'autochtone"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sud-Asiatique",
+                "Chinois",
+                "Noirs",
+                "Philippin",
+                "Arabe",
+                "Latino-Américain",
+                "Pas une minorité visible",
+                ""
+              ]
+            },
+            "title": "Minorité visible"
+          },
+          {
+            "name": "Immigration status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Personne non immigrante",
+                "Personne immigrante",
+                ""
+              ]
+            },
+            "title": "Statut d'immigration"
+          },
+          {
+            "name": "Parent or legal guardian's education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Moins d'un diplôme d'études secondaires ou son équivalent",
+                "Diplôme de fin d'études secondaires ou certificat d'équivalence de fin d'études secondaires",
+                "Certificat ou diplôme professionnel",
+                "Collège/CÉGEP/autre établissement non universitaire",
+                "Certificat ou diplôme universitaire inférieur au baccalauréat",
+                "Baccalauréat (ex. B.A., B.Sc., LL.B.)",
+                "Certificat universitaire, diplôme, grade supérieur au baccalauréat (BA)",
+                ""
+              ]
+            },
+            "title": "Parent or legal guardian's education level"
+          },
+          {
+            "name": "Parent's or legal guardian's spouse's education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Moins d'un diplôme d'études secondaires ou son équivalent",
+                "Diplôme de fin d'études secondaires ou certificat d'équivalence de fin d'études secondaires",
+                "Certificat ou diplôme professionnel",
+                "Collège/CÉGEP/autre établissement non universitaire",
+                "Certificat ou diplôme universitaire inférieur au baccalauréat",
+                "Baccalauréat (ex. B.A., B.Sc., LL.B.)",
+                "Certificat universitaire, diplôme, grade supérieur au baccalauréat (BA)",
+                ""
+              ]
+            },
+            "title": "Parent's or legal guardian's spouse's education level"
+          },
+          {
+            "name": "Parent or legal guardian's labour market status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A travaillé dans un emploi ou une entreprise",
+                "A eu un emploi mais n'a pas travaillé (absent)",
+                "N'a pas eu d'emploi",
+                ""
+              ]
+            },
+            "title": "Parent or legal guardian's labour market status"
+          },
+          {
+            "name": "Parent's or legal guardian's spouse's labour market status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A travaillé dans un emploi ou une entreprise",
+                "A eu un emploi mais n'a pas travaillé (absent)",
+                "N'a pas eu d'emploi",
+                ""
+              ]
+            },
+            "title": "Parent's or legal guardian's spouse's labour market status"
           },
           {
             "name": "GeoCode",
@@ -1876,7 +1961,7 @@
           }
         ]
       },
-      "title": "Prevalence of vaping among youth"
+      "title": "Percentage of youth (aged 12 to 17) who have used an e-cigarette in the past 30 days"
     },
     {
       "path": "16-3-1/data.csv",
