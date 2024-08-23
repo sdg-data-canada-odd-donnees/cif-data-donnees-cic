@@ -1,4 +1,4 @@
-Year,Geography,Sex at birth,Gender,Indigenous status,Visible minority,Immigration status,Parent or legal guardian's education level,Parent's or legal guardian's spouse's education level,Parent or legal guardian's labour market status,Parent's or legal guardian's spouse's labour market status,GeoCode,Value
+Year,Geography,Sex at birth,Gender,Indigenous status,Visible minority,Immigration status,Education level of parent or legal guardian,Education level of parent's or legal guardian's spouse,Labour market status of parent or legal guardian,Labour market status of parent's or legal guardian's spouse,GeoCode,Value
 2019,,,,,,,,,,,,13.2
 2019,Newfoundland and Labrador,,,,,,,,,,10,15.6
 2019,Prince Edward Island,,,,,,,,,,11,16.3
@@ -18,7 +18,7 @@ Year,Geography,Sex at birth,Gender,Indigenous status,Visible minority,Immigratio
 2019,,,Male,,,,,,,,,14.2
 2019,,,Female,,,,,,,,,11.9
 2019,,,,Indigenous identity,,,,,,,,18.7
-2019,,,,Non-indigenous identity,,,,,,,,12.9
+2019,,,,Non-Indigenous identity,,,,,,,,12.9
 2019,,,,,South Asian,,,,,,,3.0
 2019,,,,,Chinese,,,,,,,3.4
 2019,,,,,Black,,,,,,,4.5

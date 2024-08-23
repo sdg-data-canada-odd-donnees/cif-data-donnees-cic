@@ -64,7 +64,7 @@
             "constraints": {
               "enum": [
                 "Indigenous identity",
-                "Non-indigenous identity",
+                "Non-Indigenous identity",
                 ""
               ]
             }
@@ -97,7 +97,7 @@
             }
           },
           {
-            "name": "Parent or legal guardian's education level",
+            "name": "Education level of parent or legal guardian",
             "type": "string",
             "constraints": {
               "enum": [
@@ -113,7 +113,7 @@
             }
           },
           {
-            "name": "Parent's or legal guardian's spouse's education level",
+            "name": "Education level of parent's or legal guardian's spouse",
             "type": "string",
             "constraints": {
               "enum": [
@@ -129,7 +129,7 @@
             }
           },
           {
-            "name": "Parent or legal guardian's labour market status",
+            "name": "Labour market status of parent or legal guardian",
             "type": "string",
             "constraints": {
               "enum": [
@@ -141,7 +141,7 @@
             }
           },
           {
-            "name": "Parent's or legal guardian's spouse's labour market status",
+            "name": "Labour market status of parent's or legal guardian's spouse",
             "type": "string",
             "constraints": {
               "enum": [

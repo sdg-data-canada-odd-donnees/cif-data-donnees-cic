@@ -1854,7 +1854,7 @@
             "constraints": {
               "enum": [
                 "Identité autochtone",
-                "Non-indigenous identity",
+                "Identité non autochtone",
                 ""
               ]
             },
@@ -1890,7 +1890,7 @@
             "title": "Statut d'immigration"
           },
           {
-            "name": "Parent or legal guardian's education level",
+            "name": "Education level of parent or legal guardian",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1904,10 +1904,10 @@
                 ""
               ]
             },
-            "title": "Parent or legal guardian's education level"
+            "title": "Niveau d'éducation du parent ou du tuteur légal"
           },
           {
-            "name": "Parent's or legal guardian's spouse's education level",
+            "name": "Education level of parent's or legal guardian's spouse",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1921,10 +1921,10 @@
                 ""
               ]
             },
-            "title": "Parent's or legal guardian's spouse's education level"
+            "title": "Niveau d'éducation du conjoint du parent ou du tuteur légal"
           },
           {
-            "name": "Parent or legal guardian's labour market status",
+            "name": "Labour market status of parent or legal guardian",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1934,10 +1934,10 @@
                 ""
               ]
             },
-            "title": "Parent or legal guardian's labour market status"
+            "title": "Statut du parent ou du tuteur légal sur le marché du travail"
           },
           {
-            "name": "Parent's or legal guardian's spouse's labour market status",
+            "name": "Labour market status of parent's or legal guardian's spouse",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1947,7 +1947,7 @@
                 ""
               ]
             },
-            "title": "Parent's or legal guardian's spouse's labour market status"
+            "title": "Statut du conjoint du parent ou du tuteur légal sur le marché du travail"
           },
           {
             "name": "GeoCode",

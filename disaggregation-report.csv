@@ -53,6 +53,8 @@ data.Violations,1,14
 data.Visible minority,1,10
 data.Water quality,1,6
 Disability,1,2
+Education level of parent or legal guardian,1,7
+Education level of parent's or legal guardian's spouse,1,7
 Educational attainment,1,4
 Enterprise size,1,4
 Gender,2,5
@@ -69,14 +71,12 @@ Indigenous group,2,9
 Indigenous status,1,2
 Industry,1,16
 Innovations with environmental benefits,1,16
+Labour market status of parent or legal guardian,1,3
+Labour market status of parent's or legal guardian's spouse,1,3
 Location of residence,1,2
 Main source of household income,1,5
 Marital status,1,4
 Ownership status,1,4
-Parent or legal guardian's education level,1,7
-Parent or legal guardian's labour market status,1,3
-Parent's or legal guardian's spouse's education level,1,7
-Parent's or legal guardian's spouse's labour market status,1,3
 Product category,1,15
 Region,2,14
 Sector,1,2
