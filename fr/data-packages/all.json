@@ -279,6 +279,84 @@
       "title": "Proportion of the population reporting discrimination or unfair treatment"
     },
     {
+      "path": "12-4-1/data.csv",
+      "name": "12-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Product category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Matériaux de construction",
+                "Équipements électriques et électroniques",
+                "Matériel électronique",
+                "Gros appareils électroménagers",
+                "Autres équipements électriques et électroniques",
+                "Emballages",
+                "Bouteilles",
+                "Films",
+                "Rigides non-bouteilles",
+                "Autres produits d'emballage",
+                "Films agricoles",
+                "Textiles",
+                "Véhicules",
+                "Autres produits",
+                "Total, toutes les catégories de produits",
+                ""
+              ]
+            },
+            "title": "Catégorie de produits"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Proportion of discarded plastic leaked permanently into the environment"
+    },
+    {
       "path": "15-2-1/data.csv",
       "name": "15-2-1",
       "profile": "tabular-data-resource",
@@ -2341,8 +2419,6 @@
                 "Halifax, Nouvelle-Écosse",
                 "Moncton, Nouveau-Brunswick",
                 "Saint John, Nouveau-Brunswick",
-                "Québec, Québec",
-                "Montréal, Québec",
                 "Ottawa-Gatineau, Ontario/Québec",
                 "Toronto, Ontario",
                 "Hamilton, Ontario",
@@ -3025,12 +3101,9 @@
                 "Moncton, Nouveau-Brunswick",
                 "Saint John, Nouveau-Brunswick",
                 "Québec",
-                "Montréal, Québec",
                 "Ottawa - Gatineau (partie du Québec), Québec",
-                "Québec, Québec",
                 "Saguenay, Québec",
                 "Sherbrooke, Québec",
-                "Trois-Rivières, Québec",
                 "Ontario",
                 "Barrie, Ontario",
                 "Belleville, Ontario",
