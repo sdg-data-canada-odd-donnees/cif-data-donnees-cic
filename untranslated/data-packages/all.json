@@ -5539,69 +5539,72 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             }
           },
           {
-            "name": "data.Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Both sexes",
-                "data.Males",
-                "data.Females",
+                "Total",
+                "Males",
+                "Females",
+                "Men+",
+                "Women+",
                 ""
               ]
             }
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total, persons aged 15 years and over",
-                "data.15 to 24 years",
-                "data.25 to 64 years",
-                "data.65 to 74 years",
-                "data.75 years and over",
+                "Total",
+                "15 to 24 years",
+                "25 to 64 years",
+                "65 to 74 years",
+                "75 years and over",
                 ""
               ]
             }
           },
           {
-            "name": "data.Selected demographic characteristics",
+            "name": "Selected demographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Non immigrants",
-                "data.Immigrants",
-                "data.Non-permanent residents",
-                "data.Total visible minority population",
-                "data.Not a visible minority",
-                "data.Total Aboriginal identity",
-                "data.First Nations (North American Indian)",
-                "data.Inuk (Inuit)",
-                "data.Non-Aboriginal identity",
-                "data.Total, all persons",
+                "Non immigrants",
+                "Immigrants",
+                "Non-permanent residents",
+                "Total visible minority population",
+                "Not a visible minority",
+                "Indigenous identity",
+                "First Nations (North American Indian)",
+                "Métis",
+                "Inuk (Inuit)",
+                "Non-Indigenous identity",
+                "Total",
                 ""
               ]
             }

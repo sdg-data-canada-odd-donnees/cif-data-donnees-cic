@@ -446,7 +446,7 @@
                 "Oreillons",
                 "Hépatite B",
                 "Varicelle",
-                "Méningite de type C",
+                "Méningite de type C",
                 "Pneumocoque",
                 "Rotavirus",
                 "Virus du papillome humain (VPH)",
@@ -5934,7 +5934,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5958,24 +5958,26 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
+                "Total",
                 "Hommes",
                 "Femmes",
+                "Hommes+",
+                "Femmes+",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Genre"
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, personnes âgées de 15 ans et plus",
+                "Total",
                 "15 à 24 ans",
                 "25 à 64 ans",
                 "65 à 74 ans",
@@ -5986,7 +5988,7 @@
             "title": "Groupe d'âge"
           },
           {
-            "name": "data.Selected demographic characteristics",
+            "name": "Selected demographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5995,11 +5997,12 @@
                 "Résidents non permanents",
                 "Total de la population des minorités visibles",
                 "Pas une minorité visible",
-                "Total identité autochtone",
+                "Identité autochtone",
                 "Première Nation (Indien de l'Amérique du Nord)",
+                "Métis",
                 "Inuk (Inuit)",
                 "Identité non autochtone",
-                "Total, toutes les personnes",
+                "Total",
                 ""
               ]
             },

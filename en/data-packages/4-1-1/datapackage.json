@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -40,24 +40,26 @@
             "title": "Geography"
           },
           {
-            "name": "data.Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
+                "Total",
                 "Males",
                 "Females",
+                "Men+",
+                "Women+",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Gender"
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, persons aged 15 years and over",
+                "Total",
                 "15 to 24 years",
                 "25 to 64 years",
                 "65 to 74 years",
@@ -68,7 +70,7 @@
             "title": "Age group"
           },
           {
-            "name": "data.Selected demographic characteristics",
+            "name": "Selected demographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
@@ -77,11 +79,12 @@
                 "Non-permanent residents",
                 "Total visible minority population",
                 "Not a visible minority",
-                "Total Aboriginal identity",
+                "Indigenous identity",
                 "First Nations (North American Indian)",
+                "Métis",
                 "Inuk (Inuit)",
-                "Non-Aboriginal identity",
-                "Total, all persons",
+                "Non-Indigenous identity",
+                "Total",
                 ""
               ]
             },
