@@ -83,10 +83,13 @@ Total Census metropolitan area: Total Census metropolitan area
 Total Non-Census metropolitan area: Total Non-Census metropolitan area
 St. John's, Newfoundland and Labrador: St. John's, Newfoundland and Labrador
 Halifax, Nova Scotia: Halifax, Nova Scotia
+Fredericton, New Brunswick: Fredericton, New Brunswick
 Moncton, New Brunswick: Moncton, New Brunswick
 Saint John, New Brunswick: Saint John, New Brunswick
+Drummondville, Quebec: Drummondville, Quebec
 Gatineau, Quebec: Gatineau, Quebec
 Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (Quebec part), Quebec
+Ottawa-Gatineau, Quebec part: Ottawa-Gatineau, Quebec part
 Montreal, Quebec: Montreal, Quebec
 Montréal, Quebec: Montréal, Quebec
 Quebec, Quebec: Quebec, Quebec
@@ -96,6 +99,7 @@ Saguenay, Quebec: Saguenay, Quebec
 Sherbrooke, Quebec: Sherbrooke, Quebec
 Barrie, Ontario: Barrie, Ontario
 Belleville, Ontario: Belleville, Ontario
+Belleville-Quinte West, Ontario: Belleville-Quinte West, Ontario
 Brantford, Ontario: Brantford, Ontario
 Greater Sudbury, Ontario: Greater Sudbury, Ontario
 Greater Sudbury / Grand Sudbury, Ontario: Greater Sudbury, Ontario
@@ -108,6 +112,7 @@ London, Ontario: London, Ontario
 Oshawa, Ontario: Oshawa, Ontario
 Ottawa, Ontario: Ottawa, Ontario
 Ottawa - Gatineau (Ontario part), Ontario: Ottawa - Gatineau (Ontario part), Ontario
+Ottawa-Gatineau, Ontario part: Ottawa-Gatineau, Ontario part
 Ottawa-Gatineau, Ontario/Quebec: Ottawa-Gatineau, Ontario/Quebec
 Peterborough, Ontario: Peterborough, Ontario
 St. Catharines-Niagara, Ontario: St. Catharines-Niagara, Ontario
@@ -121,9 +126,13 @@ Saskatoon, Saskatchewan: Saskatoon, Saskatchewan
 Calgary, Alberta: Calgary, Alberta
 Edmonton, Alberta: Edmonton, Alberta
 Lethbridge, Alberta: Lethbridge, Alberta
+Red Deer, Alberta: Red Deer, Alberta
 Abbotsford-Mission, British Columbia: Abbotsford-Mission, British Columbia
 Abbotsford - Mission, British Columbia: Abbotsford - Mission, British Columbia
+Chilliwack, British Columbia: Chilliwack, British Columbia
+Kamloops, British Columbia: Kamloops, British Columbia
 Kelowna, British Columbia: Kelowna, British Columbia
+Nanaimo, British Columbia: Nanaimo, British Columbia
 Vancouver, British Columbia: Vancouver, British Columbia
 Victoria, British Columbia: Victoria, British Columbia
 St. John's (CMA), N.L.: St. John's (CMA), N.L.
@@ -173,21 +182,26 @@ Total, 15 years and over: Total, 15 years and over
 Total, 15 to 29 years: Total, 15 to 29 years
 Total, 18 years and over: Total, 18 years and over
 Total, all ages: Total, all ages
+All ages: All ages
 15 years and over: 15 years and over
 25 years and over: 25 years and over
 45 years and over: 45 years and over
 55 years and over: 55 years and over
 65 years and over: 65 years and over
 70 years and over: 70 years and over
+75 years and over: 75 years and over
+85 and over: 85 and over
 90 years and over: 90 years and over
 Under 1 year: Under 1 years
 0 to 14 years: 0 to 14 years
 1 to 4 years: 1 to 4 years
+1 to 14 years: 1 to 14 years
 5 to 9 years: 5 to 9 years
 10 to 14 years: 10 to 14 years
 12 to 17 years: 12 to 17 years
 15 to 19 years: 15 to 19 years
 15 to 24 years: 15 to 24 years
+15 to 24: 15 to 24
 15 to 64 years: 15 to 64 years
 18 to 24 years: 18 to 24 years
 18 to 34 years: 18 to 34 years
@@ -211,8 +225,10 @@ Under 1 year: Under 1 years
 55 to 64 years: 55 to 64 years
 60 to 64 years: 60 to 64 years
 65 to 69 years: 65 to 69 years
+65 to 74 years: 65 to 74 years
 70 to 74 years: 70 to 74 years
 75 to 79 years: 75 to 79 years
+75 to 84 years: 75 to 84 years
 80 to 84 years: 80 to 84 years
 85 to 89 years: 85 to 89 years
 Age, not stated: Age, not stated
@@ -361,7 +377,6 @@ Food insecure, marginal: Food insecure, marginal
 Food insecure, moderate or severe: Food insecure, moderate or severe
 Food insecure, moderate: Food insecure, moderate
 Food insecure, severe: Food insecure, severe
-
 All persons: All persons
 Persons in economic families: Persons in economic families
 Persons in elderly families: Persons in elderly families
@@ -394,16 +409,13 @@ Indicator: Indicator
 Compound Index: Compound Index
 Soil Cover: Soil Cover
 Wildlife Habitat on Farmland: Wildlife Habitat on Farmland
-Compound Index: Compound Index
 Risk of Soil Erosion: Risk of Soil Erosion
 Soil Organic Carbon Change: Soil Organic Carbon Change
 Risk of Soil Salinization: Risk of Soil Salinization
-Compound Index: Compound Index
 Residual Soil Nitrogen: Residual Soil Nitrogen
 Risk of water contamination by phosphorus: Risk of water contamination by phosphorus
 Risk of Water Contamination by Coliforms: Risk of Water Contamination by Coliforms
 Risk of Water Contamination by Pesticides: Risk of Water Contamination by Pesticides
-Compound Index: Compound Index
 Agricultural Greenhouse gas: Agricultural Greenhouse gas
 Agricultural Ammonia Emissions: Agricultural Ammonia Emissions
 Agricultural Particulate Matter Emissions: Agricultural Particulate Matter Emissions
@@ -507,17 +519,6 @@ Salmonella: Salmonella
 
 ## 3-11-1
 Age at time of death: Age at time of death
-all ages: all ages
-All ages: All ages
-1 to 14 years: 1 to 14 years
-15 to 24: 15 to 24
-25 to 34 years: 25 to 34 years
-35 to 44 years: 35 to 44 years
-45 to 54 years: 45 to 54 years
-55 to 64 years: 55 to 64 years
-65 to 74 years: 65 to 74 years
-75 to 84 years: 75 to 84 years
-85 and over: 85 and over
 Leading causes of death (ICD-10): Leading causes of death
 Malignant neoplasms [C00-C97]: Malignant neoplasms
 Diabetes mellitus [E10-E14]: Diabetes mellitus
@@ -542,12 +543,8 @@ Apparent stimulant toxicity deaths: Apparent stimulant toxicity deaths
 Accidental apparent opioid toxicity deaths: Accidental apparent opioid toxicity deaths
 
 ## 4-1-1
-Age group: Age group
+Total: Total
 Total, persons aged 15 years and over: Total, persons aged 15 years and over
-15 to 24 years: 15 to 24 years
-25 to 64 years: 25 to 64 years
-65 to 74 years: 65 to 74 years
-75 years and over: 75 years and over
 Selected demographic characteristics: Selected demographic characteristics
 Total, all persons: Total, all persons
 Non immigrants: Non immigrants
@@ -555,13 +552,11 @@ Immigrants: Immigrants
 Non-permanent residents: Non-permanent residents
 Total visible minority population: Total visible minority population
 Not a visible minority: Not a visible minority
-Total Indigenous identity: Total Indigenous identity
-Total Aboriginal identity: Total Aboriginal identity
+Indigenous identity: Indigenous identity
 First Nations (North American Indian): First Nations (North American Indian)
 Métis: Métis
 Inuk (Inuit): Inuk (Inuit)
 Non-Indigenous identity: Non-Indigenous identity
-Non-Aboriginal identity: Non-Aboriginal identity
 
 ## 4-2-1
 Educational attainment level: Educational attainment level
@@ -569,12 +564,6 @@ Tertiary education: Tertiary education
 Short-cycle tertiary: Short-cycle tertiary
 Bachelor's level: Bachelor's level
 Master's or Doctoral level: Master's or Doctoral level
-Age group: Age group
-25 to 34 years: 25 to 34 years
-30 to 34 years: 30 to 34 years
-35 to 44 years: 35 to 44 years
-45 to 54 years: 45 to 54 years
-55 to 64 years: 55 to 64 years
 Total, 25 to 64 years: Total, 25 to 64 years
 Off-reserve Indigenous population: Off-reserve Indigenous population
 Population characteristics: Population characteristics

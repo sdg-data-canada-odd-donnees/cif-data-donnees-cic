@@ -407,7 +407,15 @@
 3-9-1:
   progress_status: not_available
 4-1-1:
-  progress_status: not_available
+  base_value: '79.3'
+  base_year: '2016'
+  current_value: '81.954805055328'
+  current_year: '2021'
+  direction: positive
+  progress_calculation_value: '0.006607696899221471'
+  progress_status: moderate_progress
+  target: None
+  target_year: '2030'
 4-2-1:
   base_value: '55.0'
   base_year: '2015'
