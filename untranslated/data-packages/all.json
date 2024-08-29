@@ -5294,20 +5294,20 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
+                "Nunavut",
                 ""
               ]
             }
@@ -5317,15 +5317,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Agriculture",
-                "data.Buildings",
-                "data.Heavy Industry",
-                "data.Light Manufacturing, Construction and Forest Resources",
-                "data.Oil and Gas",
-                "data.Transport",
-                "data.Waste",
-                "data.Provincial Inventory Total",
-                "data.Territorial Inventory Total",
+                "Provincial Inventory Total",
+                "Oil and Gas",
+                "Transport",
+                "Heavy Industry",
+                "Light Manufacturing, Construction and Forest Resources",
+                "Buildings",
+                "Waste",
+                "Agriculture",
+                "Territorial Inventory Total",
                 ""
               ]
             }

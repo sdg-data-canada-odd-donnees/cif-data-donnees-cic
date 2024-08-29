@@ -5669,19 +5669,19 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
-                "Nouvelle-Écosse",
-                "Nouveau-Brunswick",
-                "Québec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon",
+                "Canada",
+                "Manitoba",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
                 "Territoires du Nord-Ouest",
+                "Nouvelle-Écosse",
+                "Ontario",
+                "Île-du-Prince-Édouard",
+                "Québec",
+                "Saskatchewan",
+                "Yukon",
                 "Nunavut",
                 ""
               ]
@@ -5693,14 +5693,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Agriculture",
-                "Bâtiments",
-                "Industrie lourde",
-                "Fabrication légère, construction et ressources forestières",
+                "Inventaire provincial",
                 "Exploitation pétrolière et gazière",
                 "Transports",
+                "Industrie lourde",
+                "Fabrication légère, construction et ressources forestières",
+                "Bâtiments",
                 "Déchets et autres",
-                "Inventaire provincial",
+                "Agriculture",
                 "Inventaire territorial",
                 ""
               ]
