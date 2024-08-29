@@ -6,6 +6,8 @@ library(cansim)
 library(dplyr)
 library(stringr)
 
+geocodes <- read.csv("geocodes.csv")
+
 # load cansim tables
 env_protection <- get_cansim("38-10-0132-01", factors = FALSE)
 env_management <- get_cansim("38-10-0137-01", factors = FALSE)
@@ -21,31 +23,41 @@ activities <- c(
   "Sold carbon offset credits only or sold more than purchased"
 )
 
-# function to apply to both data tables to format
-env_data <- function(data) {
-  
-  data %>%
-    select(
-      Year = REF_DATE,
-      Industries,
-      `Environmental protection activities or management practices` = starts_with("Env"),
-      Value = VALUE
-    ) %>%
-    filter(`Environmental protection activities or management practices` %in% activities) %>%
-    mutate(Industries = str_trim(str_remove(Industries, "\\[\\w*\\]")))
-  
-}
+env_protection_filtered <-
+  env_protection %>%
+  filter(`Environmental protection activities` %in% activities) %>%
+  mutate(Industries = str_trim(str_remove(Industries, "\\[\\w*\\]"))) %>%
+  select(
+    Year = REF_DATE,
+    Geography = GEO,
+    Industries,
+    `Environmental protection activities or management practices` = `Environmental protection activities`,
+    Value = VALUE
+  )
 
-# bind data together 
-data_final <- bind_rows(
-  env_data(env_protection),
-  env_data(env_management)
-)
+env_management_filtered <-
+  env_management %>%
+  filter(
+    `Environmental management practices` %in% activities
+  ) %>%
+  mutate(Industries = str_trim(str_remove(Industries, "\\[\\w*\\]"))) %>%
+  select(
+    Year = REF_DATE,
+    Geography = GEO,
+    Industries,
+    `Environmental protection activities or management practices` = `Environmental management practices`,
+    Value = VALUE
+  )
+
+combined <-
+  bind_rows(env_management_filtered,env_protection_filtered) %>%
+  na.omit()
 
 # create total line
 total_line <- 
-  data_final %>% 
+  combined %>% 
   filter(
+    Geography == "Canada",
     Industries == "Total, industries",
     `Environmental protection activities or management practices` == "Total, environmental protection activities"
   ) %>% 
@@ -55,15 +67,17 @@ total_line <-
 data_final <- 
   bind_rows(
     total_line,
-    data_final %>% 
-    filter(
-     !( Industries == "Total, industries" &
-      `Environmental protection activities or management practices` == "Total, environmental protection activities"
-      )
-    ) %>% 
-    mutate_at(2:3, ~ paste0("data.", .x))
-  ) %>% 
-  rename_at(2:3, ~ paste0("data.", .x))
+    combined %>% 
+      filter(
+        !( Geography == "Canada" &
+           Industries == "Total, industries" &
+           `Environmental protection activities or management practices` == "Total, environmental protection activities"
+        )
+      ) %>%
+      filter(!Geography == "British Columbia and the territories")
+  ) %>%
+  left_join(geocodes, by = "Geography") %>%
+  relocate(GeoCode, .before = "Value")
 
 # write to csv
 write.csv(
