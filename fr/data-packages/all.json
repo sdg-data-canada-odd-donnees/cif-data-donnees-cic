@@ -463,11 +463,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Recommended vaccines for 2-year-old children",
-                "Recommended vaccines for 7-year-old children",
-                "Recommended vaccines for 14-year-old children",
-                "Recommended vaccines for 17-year-old children",
-                "Recommended vaccines during pregnancy",
+                "Vaccins recommandés aux enfants de 2 ans",
+                "Vaccins recommandés aux enfants de 7 ans",
+                "Vaccins recommandés aux enfants de 14 ans",
+                "Vaccins recommandés aux enfants de 17 ans",
+                "Vaccins recommandés pendant la grossesse",
                 ""
               ]
             },
