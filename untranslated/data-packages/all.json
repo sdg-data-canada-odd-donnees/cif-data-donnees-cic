@@ -5681,50 +5681,77 @@
             "type": "integer"
           },
           {
-            "name": "data.Industries",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total, industries",
-                "data.Logging (except contract)",
-                "data.Oil and gas extraction",
-                "data.Mining and quarrying",
-                "data.Electric power generation, transmission and distribution",
-                "data.Natural gas distribution",
-                "data.Food manufacturing",
-                "data.Beverage and tobacco product manufacturing",
-                "data.Wood product manufacturing",
-                "data.Paper manufacturing",
-                "data.Petroleum and coal product manufacturing",
-                "data.Chemical manufacturing",
-                "data.Non-metallic mineral product manufacturing",
-                "data.Primary metal manufacturing",
-                "data.Fabricated metal product manufacturing",
-                "data.Transportation equipment manufacturing",
-                "data.Plastics and rubber products manufacturing",
-                "data.Machinery manufacturing",
-                "data.Furniture and related product manufacturing",
-                "data.Other manufacturing industries",
-                "data.Pipeline transportation",
+                "Canada",
+                "Atlantic provinces",
+                "Nova Scotia",
+                "Quebec",
+                "Ontario",
+                "Prairie provinces",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Territories",
+                "New Brunswick",
                 ""
               ]
             }
           },
           {
-            "name": "data.Environmental protection activities or management practices",
+            "name": "Industries",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Wastewater management",
-                "data.Air pollution management",
-                "data.Protection and remediation of soil, groundwater and surface water",
-                "data.Protection of biodiversity and habitat",
-                "data.Noise and vibration abatement",
-                "data.Total, environmental protection activities",
-                "data.Sold carbon offset credits only or sold more than purchased",
+                "Total, industries",
+                "Oil and gas extraction",
+                "Mining and quarrying",
+                "Electric power generation, transmission and distribution",
+                "Natural gas distribution",
+                "Food manufacturing",
+                "Beverage and tobacco product manufacturing",
+                "Wood product manufacturing",
+                "Paper manufacturing",
+                "Petroleum and coal product manufacturing",
+                "Primary metal manufacturing",
+                "Fabricated metal product manufacturing",
+                "Transportation equipment manufacturing",
+                "Machinery manufacturing",
+                "Other manufacturing industries",
+                "Logging (except contract)",
+                "Furniture and related product manufacturing",
+                "Pipeline transportation",
+                "Non-metallic mineral product manufacturing",
+                "Plastics and rubber products manufacturing",
+                "Chemical manufacturing",
                 ""
               ]
             }
+          },
+          {
+            "name": "Environmental protection activities or management practices",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, environmental protection activities",
+                "Sold carbon offset credits only or sold more than purchased",
+                "Wastewater management",
+                "Air pollution management",
+                "Protection and remediation of soil, groundwater and surface water",
+                "Protection of biodiversity and habitat",
+                "Noise and vibration abatement",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

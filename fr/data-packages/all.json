@@ -6087,12 +6087,35 @@
             "title": "Année"
           },
           {
-            "name": "data.Industries",
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Provinces de l'Atlantique",
+                "Nouvelle-Écosse",
+                "Québec",
+                "Ontario",
+                "Provinces des Prairies",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Territoires",
+                "Nouveau-Brunswick",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Industries",
             "type": "string",
             "constraints": {
               "enum": [
                 "Total, industries",
-                "Exploitation forestière (sauf à forfait)",
                 "Extraction de pétrole et de gaz",
                 "Extraction minière et exploitation en carrière",
                 "Production, transport et distribution d’électricité",
@@ -6102,37 +6125,43 @@
                 "Fabrication de produits en bois",
                 "Fabrication du papier",
                 "Fabrication de produits du pétrole et du charbon",
-                "Fabrication de produits chimiques",
-                "Fabrication de produits minéraux non métalliques",
                 "Première transformation des métaux",
                 "Fabrication de produits métalliques",
                 null,
-                "Fabrication de produits en plastique et en caoutchouc",
                 "Fabrication de machines",
-                "Fabrication de meubles et de produits connexes",
                 "Autres industries de fabrication",
+                "Exploitation forestière (sauf à forfait)",
+                "Fabrication de meubles et de produits connexes",
                 "Transport par pipeline",
+                "Fabrication de produits minéraux non métalliques",
+                "Fabrication de produits en plastique et en caoutchouc",
+                "Fabrication de produits chimiques",
                 ""
               ]
             },
             "title": "Industries"
           },
           {
-            "name": "data.Environmental protection activities or management practices",
+            "name": "Environmental protection activities or management practices",
             "type": "string",
             "constraints": {
               "enum": [
+                "Total, activités de protection de l'environnement",
+                "Redevances écologiques",
                 "Gestion des eaux usées",
                 "Gestion de la pollution atmosphérique",
                 "Protection et assainissement du sol, des eaux souterraines et des eaux de surface",
                 "Protection de la biodiversité et de l’habitat",
                 "Lutte contre le bruit et les vibrations",
-                "Total, activités de protection de l'environnement",
-                "Redevances écologiques",
                 ""
               ]
             },
             "title": "Activités de protection de l'environnement"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

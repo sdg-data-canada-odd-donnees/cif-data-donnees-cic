@@ -6087,12 +6087,35 @@
             "title": "Year"
           },
           {
-            "name": "data.Industries",
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Atlantic provinces",
+                "Nova Scotia",
+                "Quebec",
+                "Ontario",
+                "Prairie provinces",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Territories",
+                "New Brunswick",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Industries",
             "type": "string",
             "constraints": {
               "enum": [
                 "Total, industries",
-                "Logging (except contract)",
                 "Oil and gas extraction",
                 "Mining and quarrying",
                 "Electric power generation, transmission and distribution",
@@ -6102,37 +6125,43 @@
                 "Wood product manufacturing",
                 "Paper manufacturing",
                 "Petroleum and coal product manufacturing",
-                "Chemical manufacturing",
-                "Non-metallic mineral product manufacturing",
                 "Primary metal manufacturing",
                 "Fabricated metal product manufacturing",
                 "Transportation equipment manufacturing",
-                "Plastics and rubber products manufacturing",
                 "Machinery manufacturing",
-                "Furniture and related product manufacturing",
                 "Other manufacturing industries",
+                "Logging (except contract)",
+                "Furniture and related product manufacturing",
                 "Pipeline transportation",
+                "Non-metallic mineral product manufacturing",
+                "Plastics and rubber products manufacturing",
+                "Chemical manufacturing",
                 ""
               ]
             },
             "title": "Industries"
           },
           {
-            "name": "data.Environmental protection activities or management practices",
+            "name": "Environmental protection activities or management practices",
             "type": "string",
             "constraints": {
               "enum": [
+                "Total, environmental protection activities",
+                "Sold carbon offset credits only or sold more than purchased",
                 "Wastewater management",
                 "Air pollution management",
                 "Protection and remediation of soil, groundwater and surface water",
                 "Protection of biodiversity and habitat",
                 "Noise and vibration abatement",
-                "Total, environmental protection activities",
-                "Sold carbon offset credits only or sold more than purchased",
                 ""
               ]
             },
             "title": "Environmental protection activities or management practices"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
