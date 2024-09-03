@@ -16,10 +16,13 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
                 "Canada",
                 "Provinces de l'Atlantique",
                 "Terre-Neuve-et-Labrador",
@@ -39,7 +42,7 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Economic family type",
+            "name": "Economic family type",
             "type": "string",
             "constraints": {
               "enum": [
@@ -69,7 +72,7 @@
             "title": "Type de famille économique"
           },
           {
-            "name": "data.Demographic characteristics",
+            "name": "Demographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
@@ -118,12 +121,12 @@
             "title": "Caractéristiques démographiques"
           },
           {
-            "name": "data.Household food security status",
+            "name": "Household food security status",
             "type": "string",
             "constraints": {
               "enum": [
-                "Sécurité alimentaire",
                 "Insécurité alimentaire",
+                "Sécurité alimentaire",
                 "Insécurité alimentaire marginale",
                 "Insécurité alimentaire modérée",
                 "Insécurité alimentaire grave",

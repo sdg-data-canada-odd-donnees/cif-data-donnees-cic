@@ -3,9 +3,9 @@ Value,Disaggregation combinations using this value,Number of indicators
 "Abbotsford - Mission, British Columbia",1,1
 "Abbotsford–Mission, British Columbia",1,1
 "Abitibi-Témiscamingue, Quebec",1,1
-Alberta,995,22
+Alberta,1349,23
 "Annapolis Valley, Nova Scotia",1,1
-Atlantic provinces,123,3
+Atlantic provinces,477,4
 Atlantic region,178,1
 Atlantic Region,256,1
 "Avalon Peninsula, Newfoundland and Labrador",1,1
@@ -16,12 +16,12 @@ Atlantic Region,256,1
 "Belleville-Quinte West, Ontario",2,2
 "Brantford, Ontario",3,3
 British Columbia and the Territories,1,1
-British Columbia,847,22
+British Columbia,1201,23
 "Calgary, Alberta",4,4
 "Campbellton-Miramichi, New Brunswick",1,1
 "Camrose-Drumheller, Alberta",1,1
 "Canada, excluding the territories",1,1
-Canada,2163,16
+Canada,2472,17
 "Cape Breton, Nova Scotia",1,1
 "Capitale-Nationale, Quebec",1,1
 "Cariboo, British Columbia",1,1
@@ -61,7 +61,7 @@ Eastern and central provinces,57,1
 "London, Ontario",4,4
 "Lower Mainland-Southwest, British Columbia",1,1
 Manitoba and Saskatchewan,10,1
-Manitoba,563,22
+Manitoba,917,23
 "Mauricie, Quebec",1,1
 "Moncton, New Brunswick",3,3
 "Moncton-Richibucto, New Brunswick",1,1
@@ -69,17 +69,17 @@ Manitoba,563,22
 "Montérégie, Quebec",1,1
 "Muskoka-Kawarthas, Ontario",1,1
 "Nanaimo, British Columbia",2,2
-New Brunswick,566,22
-Newfoundland and Labrador,550,21
+New Brunswick,920,23
+Newfoundland and Labrador,904,22
 "North Coast and Nechako, British Columbia",1,1
 "North Shore, Nova Scotia",1,1
 "Northeast, British Columbia",1,1
 "Northeast, Ontario",1,1
 "Northwest, Ontario",1,1
-Northwest Territories,341,16
-Nova Scotia,555,21
-Nunavut,325,15
-Ontario,1127,24
+Northwest Territories,343,17
+Nova Scotia,909,22
+Nunavut,327,16
+Ontario,1481,25
 Ontario/Quebec,7,1
 "Oshawa, Ontario",1,1
 "Ottawa - Gatineau (Ontario part), Ontario",1,1
@@ -90,11 +90,11 @@ Ontario/Quebec,7,1
 "Outaouais, Quebec",1,1
 "Parklands and Northern, Manitoba",1,1
 "Peterborough, Ontario",3,3
-Prairie provinces,144,3
+Prairie provinces,498,4
 Prairie region,225,1
 "Prince Albert and Northern, Saskatchewan",1,1
-Prince Edward Island,547,22
-Quebec,1084,24
+Prince Edward Island,901,23
+Quebec,1438,25
 "Québec, Quebec",2,2
 "Red Deer, Alberta",3,3
 "Regina-Moose Mountain, Saskatchewan",1,1
@@ -105,7 +105,7 @@ Rest of Canada,252,1
 "Saguenay, Quebec",3,3
 "Saint John, New Brunswick",3,3
 "Saint John-St. Stephen, New Brunswick",1,1
-Saskatchewan,572,22
+Saskatchewan,926,23
 "Saskatoon-Biggar, Saskatchewan",1,1
 "Saskatoon, Saskatchewan",3,3
 "Sherbrooke, Quebec",3,3
@@ -137,4 +137,4 @@ Western provinces,57,1
 "Winnipeg, Manitoba",4,4
 "Wood Buffalo-Cold Lake, Alberta",1,1
 "Yorkton-Melville, Saskatchewan",1,1
-Yukon,340,16
+Yukon,342,17
