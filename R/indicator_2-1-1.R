@@ -16,30 +16,39 @@ geocodes <- read.csv("geocodes.csv")
 # Sources
 # 2020: https://www150.statcan.gc.ca/n1/en/daily-quotidien/221103/dq221103d-eng.pdf
 # 2021: https://www150.statcan.gc.ca/n1/daily-quotidien/230621/dq230621c-eng.htm
+# 2022: https://www150.statcan.gc.ca/n1/daily-quotidien/240619/dq240619d-eng.htm
 territories <- c("Yukon", "Northwest Territories", "Nunavut")
 nterritories <- length(territories)
-
-years <- c("2020", "2021")
+years <- c("2020", "2021", "2022")
 nyears <- length(years)
-
-food_insecurity_status <- c("Food insecure", "Food secure")
-nstatus <- length(food_insecurity_status)
+# food_insecurity_status <- c("food insecure", "food secure")
+# nstatus <- length(food_insecurity_status)
 
 # Sources give % of food insecure households (marginal, moderate or severe)
+values_insecure <- c(21.2, # 2020 YT
+                     20.4, #      NT
+                     49.5, #      NU
+                     12.8, # 2021 YT
+                     22.2, #      NT
+                     46.1, #      NU
+                     21.4, # 2022 YT
+                     27.6, #      NT
+                     62.6) #      NU
 # % of food secure = 100 - % of food insecure
-values <- c(21.2, 78.8, # 2020 YT insecure, 2020 YT secure
-            20.4, 79.6, # 2020 NT insecure, 2020 NT secure
-            49.5, 50.5, # 2020 NU insecure, 2020 NU secure
-            12.8, 87.2, # 2021 YT insecure, 2021 YT secure
-            22.2, 77.8, # 2021 NT insecure, 2021 NT secure
-            46.1, 53.9  # 2022 NU insecure, 2021 NU secure
-            )
+values_secure <- 100 - values_insecure
+
 # Build data frame for manually input data for territories
 df_territories <- tibble(
-  Year = rep(years, each = nterritories*nstatus),
-  Geography = rep(rep(territories, each = nstatus), nyears),
-  `Household food security status` = rep(food_insecurity_status, nterritories*nyears),
-  Value = values
+    Year = rep(years, each = nterritories),
+    Geography = rep(territories, nyears),
+    `Household food security status` = "Food insecure",
+    Value = values_insecure,
+  ) %>%
+  add_row(
+    Year = rep(years, each = nterritories),
+    Geography = rep(territories, nyears),
+    `Household food security status` = "Food secure",
+    Value = values_secure,
   ) %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
