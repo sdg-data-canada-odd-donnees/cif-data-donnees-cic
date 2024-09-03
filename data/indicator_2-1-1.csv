@@ -1,9 +1,21 @@
-"Year","data.Geography","data.Economic family type","data.Demographic characteristics","data.Household food security status","GeoCode","Value"
-"2018","","","","",,11.6
-"2019","","","","",,10.8
-"2020","","","","",,11.2
-"2021","","","","",,12.9
-"2022","","","","",,16.9
+"Year","Geography","Economic family type","Demographic characteristics","Household food security status","GeoCode","Value"
+"2018",,,,,,11.6
+"2019",,,,,,10.8
+"2020",,,,,,11.2
+"2021",,,,,,12.9
+"2022",,,,,,16.9
+"2020","Yukon",,,"Food insecure",60,21.2
+"2020","Yukon",,,"Food secure",60,78.8
+"2020","Northwest Territories",,,"Food insecure",61,20.4
+"2020","Northwest Territories",,,"Food secure",61,79.6
+"2020","Nunavut",,,"Food insecure",62,49.5
+"2020","Nunavut",,,"Food secure",62,50.5
+"2021","Yukon",,,"Food insecure",60,12.8
+"2021","Yukon",,,"Food secure",60,87.2
+"2021","Northwest Territories",,,"Food insecure",61,22.2
+"2021","Northwest Territories",,,"Food secure",61,77.8
+"2021","Nunavut",,,"Food insecure",62,46.1
+"2021","Nunavut",,,"Food secure",62,53.9
 "2018","Canada","All persons",,"Food secure",,83.2
 "2018","Canada","All persons",,"Food insecure",,16.8
 "2018","Canada","All persons",,"Food insecure, marginal",,5.2
