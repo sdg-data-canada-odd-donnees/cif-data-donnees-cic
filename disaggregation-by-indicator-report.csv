@@ -35,29 +35,29 @@ Indicator,Disaggregations,Number of disaggregations
 #17-3-1,"Region, Goods and services (products)",2
 #2-1-1,"Geography, Economic family type, Demographic characteristics, Household food security status",4
 #2-2-1,data.Index,1
-#3-1-1,"Geography, Sex, Age group",3
+#3-1-1,"Sex, Age group, Geography",3
 #3-10-1,data.Disease,1
 #3-11-1,"data.Sex, data.Age at time of death, data.Leading causes of death (ICD-10)",3
 #3-12-1,data.Sex,1
 #3-13-1,Geography,1
 #3-14-1,"data.Geography, data.Age group, data.Sex",3
-#3-15-1,"Geography, Sex, Age group",3
-#3-2-1,"Geography, Gender, Sex at birth, Indigenous status, Visible minority, Immigration status, Education level of parent or legal guardian, Education level of parent's or legal guardian's spouse, Labour market status of parent or legal guardian, Labour market status of parent's or legal guardian's spouse",10
+#3-15-1,"Sex, Age group, Geography",3
+#3-2-1,"Geography, Visible minority, Gender, Sex at birth, Indigenous status, Immigration status, Education level of parent or legal guardian, Education level of parent's or legal guardian's spouse, Labour market status of parent or legal guardian, Labour market status of parent's or legal guardian's spouse",10
 #3-3-1,"Sex, Age group",2
 #3-4-1,"Geography, Type of beverage",2
 #3-5-1,"Sex, Age group",2
 #3-6-1,"data.Geography, data.Age group, data.Sex",3
-#3-7-1,"Geography, Sex, Age group",3
+#3-7-1,"Sex, Age group, Geography",3
 #3-8-1,"data.Geography, data.Age group, data.Sex",3
 #3-9-1,"Geography, Selected diseases, Target population, Gender",4
-#4-1-1,"Geography, Gender, Age group, Selected demographic characteristics",4
+#4-1-1,"Age group, Geography, Gender, Selected demographic characteristics",4
 #4-2-1,"data.Geography, data.Age group, data.Sex, data.Population characteristics, data.Educational attainment level",5
 #4-3-1,Geography,1
 #5-1-1,"data.Geography, data.Sex, data.Type of perpetrator",3
-#5-2-1,"Geography, Age group, Visible minority, Indigenous group, Immigrant status, Type of intimate partner violence, Disability, Highest degree earned, Household income, Location of residence, Marital status",11
+#5-2-1,"Age group, Geography, Indigenous group, Visible minority, Immigrant status, Type of intimate partner violence, Disability, Highest degree earned, Household income, Location of residence, Marital status",11
 #5-3-1,data.Leadership position,1
-#5-4-1,"data.Geography, data.Sex, data.Age, data.Activity group",4
-#5-5-1,"data.Geography, data.Type of work, data.National Occupational Classification (NOC), data.Age",4
+#5-4-1,"data.Geography, data.Sex, data.Activity group, data.Age",4
+#5-5-1,"data.Geography, data.Age, data.Type of work, data.National Occupational Classification (NOC)",4
 #6-1-1,data.Geography,1
 #6-2-1,data.Geography,1
 #6-3-1,Sector,1
@@ -65,7 +65,7 @@ Indicator,Disaggregations,Number of disaggregations
 #7-2-1,"data.Geography, data.Type of electricity generation",2
 #7-3-1,data.Geography,1
 #8-1-1,"data.Geography, data.Age group, data.Sex, data.Population",4
-#8-2-1,"Geography, Sex, Age group, Visible minority, Indigenous group, Educational attainment, Immigrant status",7
+#8-2-1,"Sex, Age group, Geography, Indigenous group, Educational attainment, Visible minority, Immigrant status",7
 #8-3-1,"data.Geography, data.Age group, data.Sex",3
 #8-4-1,"data.Geography, data.Age group, data.Sex",3
 #8-5-1,data.Geography,1
