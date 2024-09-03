@@ -13,6 +13,9 @@ geocodes <- read.csv("geocodes.csv")
 
 
 # Manual input data for territories
+# Sources
+# 2020: https://www150.statcan.gc.ca/n1/en/daily-quotidien/221103/dq221103d-eng.pdf
+# 2021: https://www150.statcan.gc.ca/n1/daily-quotidien/230621/dq230621c-eng.htm
 territories <- c("Yukon", "Northwest Territories", "Nunavut")
 nterritories <- length(territories)
 
@@ -22,8 +25,8 @@ nyears <- length(years)
 food_insecurity_status <- c("Food insecure", "Food secure")
 nstatus <- length(food_insecurity_status)
 
-# Data source provides percentage of people living in households that experienced food insecurity, marginal, moderate or severe.
-# Percentage of people living in food secure households is calculated as 100 - %people experiencing food insecurity 
+# Sources give % of food insecure households (marginal, moderate or severe)
+# % of food secure = 100 - % of food insecure
 values <- c(21.2, 78.8, # 2020 YT insecure, 2020 YT secure
             20.4, 79.6, # 2020 NT insecure, 2020 NT secure
             49.5, 50.5, # 2020 NU insecure, 2020 NU secure
