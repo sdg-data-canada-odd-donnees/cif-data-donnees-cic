@@ -1,5 +1,3 @@
-## CIF
-
 ## Global
 Year: Année
 Value: Valeur
@@ -18,7 +16,6 @@ Women+: Femmes+
 Both: Les deux sexes
 Both sexes: Les deux sexes
 #Non-binary: Personnes non binaires
-
 
 ## Geo
 Geography: Géographie
@@ -41,6 +38,7 @@ Saskatchewan: Saskatchewan
 Alberta: Alberta
 British Columbia: Colombie-Britannique
 British Columbia and the Territories: Colombie-Britannique et les Territoires
+Territories: Territoires
 Yukon: Yukon
 Northwest Territories: Territoires du Nord-Ouest
 Northwest Territories and Nunavut: Territoires du Nord-Ouest et Nunavut
@@ -85,10 +83,13 @@ Total Census metropolitan area: Total pour les régions métropolitaines de rece
 Total Non-Census metropolitan area: Total pour les régions autres que les régions métropolitaines de recensement
 St. John's, Newfoundland and Labrador: St. John's, Terre-Neuve-et-Labrador
 Halifax, Nova Scotia: Halifax, Nouvelle-Écosse
+Fredericton, New Brunswick: Fredericton, Nouveau-Brunswick
 Moncton, New Brunswick: Moncton, Nouveau-Brunswick
 Saint John, New Brunswick: Saint John, Nouveau-Brunswick
+Drummondville, Quebec: Drummondville, Québec
 Gatineau, Quebec: Gatineau, Québec
 Ottawa - Gatineau (Quebec part), Quebec: Ottawa - Gatineau (partie du Québec), Québec
+Ottawa-Gatineau, Quebec part: Ottawa-Gatineau, partie québécoise
 Montreal, Quebec: Montréal, Québec
 Montréal, Quebec: Montréal, Québec
 Quebec, Quebec: Québec, Québec
@@ -98,6 +99,7 @@ Saguenay, Quebec: Saguenay, Québec
 Sherbrooke, Quebec: Sherbrooke, Québec
 Barrie, Ontario: Barrie, Ontario
 Belleville, Ontario: Belleville, Ontario
+Belleville-Quinte West, Ontario: Belleville-Quinte West, Ontario
 Brantford, Ontario: Brantford, Ontario
 Greater Sudbury, Ontario: Grand Sudbury, Ontario
 Greater Sudbury / Grand Sudbury, Ontario: Grand Sudbury, Ontario
@@ -110,6 +112,7 @@ London, Ontario: London, Ontario
 Oshawa, Ontario: Oshawa, Ontario
 Ottawa, Ontario: Ottawa, Ontario
 Ottawa - Gatineau (Ontario part), Ontario: Ottawa - Gatineau (partie de l'Ontario), Ontario
+Ottawa-Gatineau, Ontario part: Ottawa-Gatineau, partie ontarienne
 Ottawa-Gatineau, Ontario/Quebec: "Ottawa-Gatineau, Ontario/Québec"
 Peterborough, Ontario: Peterborough, Ontario
 St. Catharines-Niagara, Ontario: St. Catharines-Niagara, Ontario
@@ -123,9 +126,13 @@ Saskatoon, Saskatchewan: Saskatoon, Saskatchewan
 Calgary, Alberta: Calgary, Alberta
 Edmonton, Alberta: Edmonton, Alberta
 Lethbridge, Alberta: Lethbridge, Alberta
+Red Deer, Alberta: Red Deer, Alberta
 Abbotsford-Mission, British Columbia: Abbotsford-Mission, Colombie-Britannique
 Abbotsford - Mission, British Columbia: Abbotsford - Mission, Colombie-Britannique
+Chilliwack, British Columbia: Chilliwack, Colombie-Britannique
+Kamloops, British Columbia: Kamloops, Colombie-Britannique
 Kelowna, British Columbia: Kelowna, Colombie-Britannique
+Nanaimo, British Columbia: Nanaimo, Colombie-Britannique
 Vancouver, British Columbia: Vancouver, Colombie-Britannique
 Victoria, British Columbia: Victoria, Colombie-Britannique
 St. John's (CMA), N.L.: St. John's (RMR), T.-N.-L.
@@ -175,21 +182,26 @@ Total, 15 years and over: Total, 15 ans et plus
 Total, 15 to 29 years: Total, 15 à 29 ans
 Total, 18 years and over: Total, 18 ans et plus
 Total, all ages: Total, tous les âges
+All ages: Tous les âges
 15 years and over: 15 ans et plus
 25 years and over: 25 ans et plus
 45 years and over: 45 ans et plus
 55 years and over: 55 ans et plus
 65 years and over: 65 ans et plus
 70 years and over: 70 ans et plus
+75 years and over: 75 ans et plus
+85 and over: 85 ans et plus
 90 years and over: 90 ans et plus
 Under 1 year: Moins d'un an 
 0 to 14 years: 0 à 14 ans
 1 to 4 years: 1 à 4 ans
+1 to 14 years: 1 à 14 ans
 5 to 9 years: 5 à 9 ans
 10 to 14 years: 10 à 14 ans
 12 to 17 years: 12 à 17 ans
 15 to 19 years: 15 à 19 ans
 15 to 24 years: 15 à 24 ans
+15 to 24: 15 à 24 ans
 15 to 64 years: 15 à 64 ans
 18 to 24 years: 18 à 24 ans
 18 to 34 years: 18 à 34 ans
@@ -213,8 +225,10 @@ Under 1 year: Moins d'un an
 55 to 64 years: 55 à 64 ans
 60 to 64 years: 60 à 64 ans
 65 to 69 years: 65 à 69 ans
+65 to 74 years: 65 à 74 ans
 70 to 74 years: 70 à 74 ans
 75 to 79 years: 75 à 79 ans
+75 to 84 years: 75 à 84 ans
 80 to 84 years: 80 à 84 ans
 85 to 89 years: 85 à 89 ans
 Age, not stated: Âge, non déclaré
@@ -414,19 +428,6 @@ Agricultural Greenhouse gas: Gaz à effet de serre d'origine agricole
 Agricultural Ammonia Emissions: Ammoniac d'origine agricole
 Agricultural Particulate Matter Emissions: Particules fines
 
-## 3-1-1
-Sex: Sexe
-Both sexes: Les deux sexes
-Males: Hommes
-Females: Femmes
-Age group: Groupe d'âge
-Total, 12 years and over: Total, 12 ans et plus
-12 to 17 years: 12 à 17 ans
-18 to 34 years: 18 à 34 ans
-35 to 49 years: 35 à 49 ans
-50 to 64 years: 50 à 64 ans
-65 years and over: 65 ans et plus
-
 ## 3-2-1
 Grade: Niveaux de scolarité
 All grades: Tous les niveaux
@@ -486,25 +487,24 @@ Diphtheria: Diphtérie
 Pertussis: Coqueluche
 Tetanus: Tétanos
 Polio: Polio
-Haemophilus influenzae type B: Haemophilus influenzae de type B
+Haemophilus influenzae type B: Haemophilus influenzae de type B
 Diphtheria - Pertussis and tetanus: Diphtérie, la coqueluche et le tétanos
 Measles: Rougeole
 Mumps: Rubéole
 Rubella: Oreillons
 Hepatitis B: Hépatite B
 Varicella: Varicelle
-Meningococcal type C: Méningite de type C
+Meningococcal type C: Méningite de type C
 Pneumococcal: Pneumocoque
 Rotavirus: Rotavirus
 Human Papillomavirus: Virus du papillome humain
 Diphtheria - Tetanus - acellular Pertussis booster: Vaccin de rappel de la diphtérie, la coqueluche et le tétanos
 All children: Tous les enfants
-Recommended vaccines for 2-year-old children: Recommended vaccines for 2-year-old children
-Recommended vaccines for 7-year-old children: Recommended vaccines for 7-year-old children
-Recommended vaccines for 14-year-old children: Recommended vaccines for 14-year-old children
-Recommended vaccines for 17-year-old children: Recommended vaccines for 17-year-old children
-Recommended vaccines during pregnancy: Recommended vaccines during pregnancy
-Age: Âge
+Recommended vaccines for 2-year-old children: Vaccins recommandés aux enfants de 2 ans
+Recommended vaccines for 7-year-old children: Vaccins recommandés aux enfants de 7 ans
+Recommended vaccines for 14-year-old children: Vaccins recommandés aux enfants de 14 ans
+Recommended vaccines for 17-year-old children: Vaccins recommandés aux enfants de 17 ans
+Recommended vaccines during pregnancy: Vaccins recommandés pendant la grossesse
 Diphtheria - Tetanus - acellular Pertussis (Tdap) booster: Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)
 Haemophilus influenzae type B (Hib): Haemophilus influenzae de type B (Hib)
 Human Papillomavirus (HPV): Virus du papillome humain (VPH)
@@ -529,17 +529,6 @@ Salmonella: Salmonellose
 
 ## 3-11-1
 Age at time of death: Âge au décès
-all ages: Tous les âges
-All ages: Tous les âges
-1 to 14 years: 1 à 14 ans
-15 to 24: 15 à 24 ans
-25 to 34 years: 25 à 34 ans
-35 to 44 years: 35 à 44 ans
-45 to 54 years: 45 à 54 ans
-55 to 64 years: 55 à 64 ans
-65 to 74 years: 65 à 74 ans
-75 to 84 years: 75 à 84 ans
-85 and over: 85 ans et plus
 Leading causes of death (ICD-10): Principales causes de décès
 Malignant neoplasms [C00-C97]: Tumeurs malignes
 Diabetes mellitus [E10-E14]: Diabète sucré
@@ -564,12 +553,8 @@ Apparent stimulant toxicity deaths: Décès totaux apparemment liés à une into
 Accidental apparent opioid toxicity deaths: Décès accidentels apparemment liés à une intoxication aux opioïdes
 
 ## 4-1-1
-Age group: Groupe d'âge
+Total: Total
 Total, persons aged 15 years and over: Total, personnes âgées de 15 ans et plus
-15 to 24 years: 15 à 24 ans
-25 to 64 years: 25 à 64 ans
-65 to 74 years: 65 à 74 ans
-75 years and over: 75 ans et plus
 Selected demographic characteristics: Caractéristiques démographiques déterminées
 Total, all persons: Total, toutes les personnes
 Non immigrants: Non-immigrants
@@ -577,13 +562,11 @@ Immigrants: Immigrants
 Non-permanent residents: Résidents non permanents
 Total visible minority population: Total de la population des minorités visibles
 Not a visible minority: Pas une minorité visible
-Total Indigenous identity: Total identité autochtone
-Total Aboriginal identity: Total identité autochtone
+Indigenous identity: Identité autochtone
 First Nations (North American Indian): Première Nation (Indien de l'Amérique du Nord)
 Métis: Métis
 Inuk (Inuit): Inuk (Inuit)
 Non-Indigenous identity: Identité non autochtone
-Non-Aboriginal identity: Identité non autochtone
 
 ## 4-2-1
 Educational attainment level: Niveau de scolarité
@@ -591,11 +574,6 @@ Tertiary education: Études tertiaires
 Short-cycle tertiary: Enseignement tertiaire de cycle court
 Bachelor's level: Baccalauréat
 Master's or Doctoral level: Maîtrise ou doctorat
-25 to 34 years: 25 à 34 ans
-30 to 34 years: 30 à 34 ans
-35 to 44 years: 35 à 44 ans
-45 to 54 years: 45 à 54 ans
-55 to 64 years: 55 à 64 ans
 Total, 25 to 64 years: Total, 25 à 64 ans
 Off-reserve Indigenous population: "Population autochtone hors réserve"
 Population characteristics: Caractéristiques de la population
