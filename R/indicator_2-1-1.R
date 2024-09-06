@@ -21,9 +21,6 @@ territories <- c("Yukon", "Northwest Territories", "Nunavut")
 nterritories <- length(territories)
 years <- c("2020", "2021", "2022")
 nyears <- length(years)
-# food_insecurity_status <- c("food insecure", "food secure")
-# nstatus <- length(food_insecurity_status)
-
 # Sources give % of food insecure households (marginal, moderate or severe)
 values_insecure <- c(21.2, # 2020 YT
                      20.4, #      NT
@@ -67,7 +64,7 @@ filter_economic_families <-
 filter_demographic_characteristics <-
   demographic_characteristics %>%
   filter(Statistics == "Percentage of persons") %>%
-  filter(!(GEO == "Canada" & `Demographic characteristics` == "All persons")) %>%
+  filter(`Demographic characteristics` != "All persons") %>%
   select(Year = REF_DATE, 
          Geography = GEO, 
          `Demographic characteristics`, 
