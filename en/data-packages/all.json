@@ -3459,13 +3459,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, environmental protection activities",
                 "Sold carbon offset credits only or sold more than purchased",
                 "Wastewater management",
                 "Air pollution management",
                 "Protection and remediation of soil, groundwater and surface water",
                 "Protection of biodiversity and habitat",
                 "Noise and vibration abatement",
+                "Total, environmental protection activities",
                 ""
               ]
             },

@@ -1,21 +1,21 @@
-Year,Géographie,Industries,Activités de protection de l'environnement,GeoCode,Value
-2018,,,"Total, activités de protection de l'environnement",,90.3
-2019,,,"Total, activités de protection de l'environnement",,86.6
-2020,,,"Total, activités de protection de l'environnement",,86.3
-2021,,,"Total, activités de protection de l'environnement",,86.4
+Year,Géographie,Industries,Activités de protection ou pratiques de gestion de l'environnement,GeoCode,Value
+2018,,,,,90.3
+2019,,,,,86.6
+2020,,,,,86.3
+2021,,,,,86.4
 2018,Canada,"Total, industries",Redevances écologiques,,0.9
 2018,Canada,Extraction de pétrole et de gaz,Redevances écologiques,,5.1
 2018,Canada,Extraction minière et exploitation en carrière,Redevances écologiques,,0.0
-2018,Canada,"Production, transport et distribution d’électricité",Redevances écologiques,,7.9
+2018,Canada,"Production, transport et distribution d'électricité",Redevances écologiques,,7.9
 2018,Canada,Distribution de gaz naturel,Redevances écologiques,,7.2
-2018,Canada,Fabrication d’aliments,Redevances écologiques,,0.3
+2018,Canada,Fabrication d'aliments,Redevances écologiques,,0.3
 2018,Canada,Fabrication de boissons et de produits du tabac,Redevances écologiques,,0.0
 2018,Canada,Fabrication de produits en bois,Redevances écologiques,,4.6
 2018,Canada,Fabrication du papier,Redevances écologiques,,2.6
 2018,Canada,Fabrication de produits du pétrole et du charbon,Redevances écologiques,,14.4
 2018,Canada,Première transformation des métaux,Redevances écologiques,,7.2
 2018,Canada,Fabrication de produits métalliques,Redevances écologiques,,0.0
-2018,Canada,,Redevances écologiques,,0.0
+2018,Canada,Fabrication de matériel de transport,Redevances écologiques,,0.0
 2018,Canada,Fabrication de machines,Redevances écologiques,,0.0
 2018,Canada,Autres industries de fabrication,Redevances écologiques,,0.6
 2018,Provinces de l'Atlantique,"Total, industries",Redevances écologiques,,0.3
@@ -30,7 +30,7 @@ Year,Géographie,Industries,Activités de protection de l'environnement,GeoCode,
 2019,Canada,"Total, industries",Redevances écologiques,,0.6
 2019,Canada,Exploitation forestière (sauf à forfait),Redevances écologiques,,0.0
 2019,Canada,Extraction de pétrole et de gaz,Redevances écologiques,,10.0
-2019,Canada,"Production, transport et distribution d’électricité",Redevances écologiques,,4.7
+2019,Canada,"Production, transport et distribution d'électricité",Redevances écologiques,,4.7
 2019,Canada,Distribution de gaz naturel,Redevances écologiques,,0.0
 2019,Canada,Fabrication de boissons et de produits du tabac,Redevances écologiques,,0.0
 2019,Canada,Fabrication de produits en bois,Redevances écologiques,,1.0
@@ -51,15 +51,15 @@ Year,Géographie,Industries,Activités de protection de l'environnement,GeoCode,
 2020,Canada,"Total, industries",Redevances écologiques,,0.7
 2020,Canada,Exploitation forestière (sauf à forfait),Redevances écologiques,,0.4
 2020,Canada,Extraction de pétrole et de gaz,Redevances écologiques,,7.3
-2020,Canada,"Production, transport et distribution d’électricité",Redevances écologiques,,2.5
-2020,Canada,Fabrication d’aliments,Redevances écologiques,,0.9
+2020,Canada,"Production, transport et distribution d'électricité",Redevances écologiques,,2.5
+2020,Canada,Fabrication d'aliments,Redevances écologiques,,0.9
 2020,Canada,Fabrication de boissons et de produits du tabac,Redevances écologiques,,1.7
 2020,Canada,Fabrication de produits en bois,Redevances écologiques,,1.6
 2020,Canada,Fabrication du papier,Redevances écologiques,,4.4
 2020,Canada,Fabrication de produits minéraux non métalliques,Redevances écologiques,,0.9
 2020,Canada,Première transformation des métaux,Redevances écologiques,,9.4
 2020,Canada,Fabrication de produits métalliques,Redevances écologiques,,0.0
-2020,Canada,,Redevances écologiques,,0.0
+2020,Canada,Fabrication de matériel de transport,Redevances écologiques,,0.0
 2020,Canada,Fabrication de machines,Redevances écologiques,,0.0
 2020,Canada,Fabrication de meubles et de produits connexes,Redevances écologiques,,0.0
 2020,Canada,Autres industries de fabrication,Redevances écologiques,,0.5
@@ -77,16 +77,16 @@ Year,Géographie,Industries,Activités de protection de l'environnement,GeoCode,
 2021,Canada,"Total, industries",Redevances écologiques,,1.0
 2021,Canada,Extraction de pétrole et de gaz,Redevances écologiques,,4.9
 2021,Canada,Extraction minière et exploitation en carrière,Redevances écologiques,,9.9
-2021,Canada,"Production, transport et distribution d’électricité",Redevances écologiques,,2.9
+2021,Canada,"Production, transport et distribution d'électricité",Redevances écologiques,,2.9
 2021,Canada,Distribution de gaz naturel,Redevances écologiques,,0.0
-2021,Canada,Fabrication d’aliments,Redevances écologiques,,0.3
+2021,Canada,Fabrication d'aliments,Redevances écologiques,,0.3
 2021,Canada,Fabrication de boissons et de produits du tabac,Redevances écologiques,,11.0
 2021,Canada,Fabrication de produits en bois,Redevances écologiques,,2.2
 2021,Canada,Fabrication du papier,Redevances écologiques,,6.9
 2021,Canada,Fabrication de produits du pétrole et du charbon,Redevances écologiques,,10.0
 2021,Canada,Première transformation des métaux,Redevances écologiques,,10.9
 2021,Canada,Fabrication de produits métalliques,Redevances écologiques,,0.2
-2021,Canada,,Redevances écologiques,,0.0
+2021,Canada,Fabrication de matériel de transport,Redevances écologiques,,0.0
 2021,Canada,Fabrication de produits en plastique et en caoutchouc,Redevances écologiques,,2.4
 2021,Canada,Fabrication de machines,Redevances écologiques,,0.0
 2021,Canada,Fabrication de meubles et de produits connexes,Redevances écologiques,,0.0
@@ -105,300 +105,300 @@ Year,Géographie,Industries,Activités de protection de l'environnement,GeoCode,
 2018,Canada,"Total, industries",Gestion des eaux usées,,64.5
 2018,Canada,"Total, industries",Gestion de la pollution atmosphérique,,20.1
 2018,Canada,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,10.2
-2018,Canada,"Total, industries",Protection de la biodiversité et de l’habitat,,5.2
+2018,Canada,"Total, industries",Protection de la biodiversité et de l'habitat,,5.2
 2018,Canada,"Total, industries",Lutte contre le bruit et les vibrations,,7.9
 2018,Canada,Exploitation forestière (sauf à forfait),"Total, activités de protection de l'environnement",,72.9
 2018,Canada,Exploitation forestière (sauf à forfait),Gestion des eaux usées,,58.9
 2018,Canada,Exploitation forestière (sauf à forfait),Gestion de la pollution atmosphérique,,6.6
 2018,Canada,Exploitation forestière (sauf à forfait),"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,19.1
-2018,Canada,Exploitation forestière (sauf à forfait),Protection de la biodiversité et de l’habitat,,11.6
+2018,Canada,Exploitation forestière (sauf à forfait),Protection de la biodiversité et de l'habitat,,11.6
 2018,Canada,Exploitation forestière (sauf à forfait),Lutte contre le bruit et les vibrations,,7.4
 2018,Canada,Extraction de pétrole et de gaz,"Total, activités de protection de l'environnement",,87.3
 2018,Canada,Extraction de pétrole et de gaz,Gestion des eaux usées,,78.1
 2018,Canada,Extraction de pétrole et de gaz,Gestion de la pollution atmosphérique,,59.5
 2018,Canada,Extraction de pétrole et de gaz,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,62.0
-2018,Canada,Extraction de pétrole et de gaz,Protection de la biodiversité et de l’habitat,,30.4
+2018,Canada,Extraction de pétrole et de gaz,Protection de la biodiversité et de l'habitat,,30.4
 2018,Canada,Extraction de pétrole et de gaz,Lutte contre le bruit et les vibrations,,22.5
 2018,Canada,Extraction minière et exploitation en carrière,"Total, activités de protection de l'environnement",,97.8
 2018,Canada,Extraction minière et exploitation en carrière,Gestion des eaux usées,,90.0
 2018,Canada,Extraction minière et exploitation en carrière,Gestion de la pollution atmosphérique,,63.3
 2018,Canada,Extraction minière et exploitation en carrière,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,67.8
-2018,Canada,Extraction minière et exploitation en carrière,Protection de la biodiversité et de l’habitat,,55.6
+2018,Canada,Extraction minière et exploitation en carrière,Protection de la biodiversité et de l'habitat,,55.6
 2018,Canada,Extraction minière et exploitation en carrière,Lutte contre le bruit et les vibrations,,26.7
-2018,Canada,"Production, transport et distribution d’électricité","Total, activités de protection de l'environnement",,88.5
-2018,Canada,"Production, transport et distribution d’électricité",Gestion des eaux usées,,68.5
-2018,Canada,"Production, transport et distribution d’électricité",Gestion de la pollution atmosphérique,,35.9
-2018,Canada,"Production, transport et distribution d’électricité","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,36.1
-2018,Canada,"Production, transport et distribution d’électricité",Protection de la biodiversité et de l’habitat,,27.2
-2018,Canada,"Production, transport et distribution d’électricité",Lutte contre le bruit et les vibrations,,17.6
+2018,Canada,"Production, transport et distribution d'électricité","Total, activités de protection de l'environnement",,88.5
+2018,Canada,"Production, transport et distribution d'électricité",Gestion des eaux usées,,68.5
+2018,Canada,"Production, transport et distribution d'électricité",Gestion de la pollution atmosphérique,,35.9
+2018,Canada,"Production, transport et distribution d'électricité","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,36.1
+2018,Canada,"Production, transport et distribution d'électricité",Protection de la biodiversité et de l'habitat,,27.2
+2018,Canada,"Production, transport et distribution d'électricité",Lutte contre le bruit et les vibrations,,17.6
 2018,Canada,Distribution de gaz naturel,"Total, activités de protection de l'environnement",,66.6
 2018,Canada,Distribution de gaz naturel,Gestion des eaux usées,,50.2
 2018,Canada,Distribution de gaz naturel,Gestion de la pollution atmosphérique,,45.4
 2018,Canada,Distribution de gaz naturel,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,40.6
-2018,Canada,Distribution de gaz naturel,Protection de la biodiversité et de l’habitat,,43.0
+2018,Canada,Distribution de gaz naturel,Protection de la biodiversité et de l'habitat,,43.0
 2018,Canada,Distribution de gaz naturel,Lutte contre le bruit et les vibrations,,38.2
-2018,Canada,Fabrication d’aliments,"Total, activités de protection de l'environnement",,94.7
-2018,Canada,Fabrication d’aliments,Gestion des eaux usées,,84.2
-2018,Canada,Fabrication d’aliments,Gestion de la pollution atmosphérique,,15.2
-2018,Canada,Fabrication d’aliments,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,11.3
-2018,Canada,Fabrication d’aliments,Protection de la biodiversité et de l’habitat,,6.5
-2018,Canada,Fabrication d’aliments,Lutte contre le bruit et les vibrations,,15.0
+2018,Canada,Fabrication d'aliments,"Total, activités de protection de l'environnement",,94.7
+2018,Canada,Fabrication d'aliments,Gestion des eaux usées,,84.2
+2018,Canada,Fabrication d'aliments,Gestion de la pollution atmosphérique,,15.2
+2018,Canada,Fabrication d'aliments,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,11.3
+2018,Canada,Fabrication d'aliments,Protection de la biodiversité et de l'habitat,,6.5
+2018,Canada,Fabrication d'aliments,Lutte contre le bruit et les vibrations,,15.0
 2018,Canada,Fabrication de boissons et de produits du tabac,"Total, activités de protection de l'environnement",,98.3
 2018,Canada,Fabrication de boissons et de produits du tabac,Gestion des eaux usées,,92.6
 2018,Canada,Fabrication de boissons et de produits du tabac,Gestion de la pollution atmosphérique,,14.7
 2018,Canada,Fabrication de boissons et de produits du tabac,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,8.8
-2018,Canada,Fabrication de boissons et de produits du tabac,Protection de la biodiversité et de l’habitat,,8.7
+2018,Canada,Fabrication de boissons et de produits du tabac,Protection de la biodiversité et de l'habitat,,8.7
 2018,Canada,Fabrication de boissons et de produits du tabac,Lutte contre le bruit et les vibrations,,5.7
 2018,Canada,Fabrication de produits en bois,"Total, activités de protection de l'environnement",,89.9
 2018,Canada,Fabrication de produits en bois,Gestion des eaux usées,,63.9
 2018,Canada,Fabrication de produits en bois,Gestion de la pollution atmosphérique,,30.4
 2018,Canada,Fabrication de produits en bois,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,14.4
-2018,Canada,Fabrication de produits en bois,Protection de la biodiversité et de l’habitat,,2.3
+2018,Canada,Fabrication de produits en bois,Protection de la biodiversité et de l'habitat,,2.3
 2018,Canada,Fabrication de produits en bois,Lutte contre le bruit et les vibrations,,7.4
 2018,Canada,Fabrication du papier,"Total, activités de protection de l'environnement",,97.7
 2018,Canada,Fabrication du papier,Gestion des eaux usées,,85.1
 2018,Canada,Fabrication du papier,Gestion de la pollution atmosphérique,,53.0
 2018,Canada,Fabrication du papier,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,35.9
-2018,Canada,Fabrication du papier,Protection de la biodiversité et de l’habitat,,18.4
+2018,Canada,Fabrication du papier,Protection de la biodiversité et de l'habitat,,18.4
 2018,Canada,Fabrication du papier,Lutte contre le bruit et les vibrations,,16.3
 2018,Canada,Fabrication de produits du pétrole et du charbon,"Total, activités de protection de l'environnement",,100.0
 2018,Canada,Fabrication de produits du pétrole et du charbon,Gestion des eaux usées,,92.9
 2018,Canada,Fabrication de produits du pétrole et du charbon,Gestion de la pollution atmosphérique,,92.9
 2018,Canada,Fabrication de produits du pétrole et du charbon,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,75.0
-2018,Canada,Fabrication de produits du pétrole et du charbon,Protection de la biodiversité et de l’habitat,,42.9
+2018,Canada,Fabrication de produits du pétrole et du charbon,Protection de la biodiversité et de l'habitat,,42.9
 2018,Canada,Fabrication de produits du pétrole et du charbon,Lutte contre le bruit et les vibrations,,57.2
 2018,Canada,Fabrication de produits chimiques,"Total, activités de protection de l'environnement",,95.6
 2018,Canada,Fabrication de produits chimiques,Gestion des eaux usées,,78.5
 2018,Canada,Fabrication de produits chimiques,Gestion de la pollution atmosphérique,,42.7
 2018,Canada,Fabrication de produits chimiques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,24.9
-2018,Canada,Fabrication de produits chimiques,Protection de la biodiversité et de l’habitat,,3.5
+2018,Canada,Fabrication de produits chimiques,Protection de la biodiversité et de l'habitat,,3.5
 2018,Canada,Fabrication de produits chimiques,Lutte contre le bruit et les vibrations,,6.8
 2018,Canada,Fabrication de produits minéraux non métalliques,"Total, activités de protection de l'environnement",,86.3
 2018,Canada,Fabrication de produits minéraux non métalliques,Gestion des eaux usées,,68.7
 2018,Canada,Fabrication de produits minéraux non métalliques,Gestion de la pollution atmosphérique,,41.5
 2018,Canada,Fabrication de produits minéraux non métalliques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,16.0
-2018,Canada,Fabrication de produits minéraux non métalliques,Protection de la biodiversité et de l’habitat,,5.5
+2018,Canada,Fabrication de produits minéraux non métalliques,Protection de la biodiversité et de l'habitat,,5.5
 2018,Canada,Fabrication de produits minéraux non métalliques,Lutte contre le bruit et les vibrations,,13.4
 2018,Canada,Première transformation des métaux,"Total, activités de protection de l'environnement",,95.7
 2018,Canada,Première transformation des métaux,Gestion des eaux usées,,83.9
 2018,Canada,Première transformation des métaux,Gestion de la pollution atmosphérique,,69.9
 2018,Canada,Première transformation des métaux,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,49.6
-2018,Canada,Première transformation des métaux,Protection de la biodiversité et de l’habitat,,16.6
+2018,Canada,Première transformation des métaux,Protection de la biodiversité et de l'habitat,,16.6
 2018,Canada,Première transformation des métaux,Lutte contre le bruit et les vibrations,,26.5
 2018,Canada,Fabrication de produits métalliques,"Total, activités de protection de l'environnement",,93.7
 2018,Canada,Fabrication de produits métalliques,Gestion des eaux usées,,60.7
 2018,Canada,Fabrication de produits métalliques,Gestion de la pollution atmosphérique,,13.0
 2018,Canada,Fabrication de produits métalliques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,1.5
-2018,Canada,Fabrication de produits métalliques,Protection de la biodiversité et de l’habitat,,0.2
+2018,Canada,Fabrication de produits métalliques,Protection de la biodiversité et de l'habitat,,0.2
 2018,Canada,Fabrication de produits métalliques,Lutte contre le bruit et les vibrations,,2.2
-2018,Canada,,"Total, activités de protection de l'environnement",,93.5
-2018,Canada,,Gestion des eaux usées,,70.9
-2018,Canada,,Gestion de la pollution atmosphérique,,28.1
-2018,Canada,,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,12.1
-2018,Canada,,Protection de la biodiversité et de l’habitat,,5.6
-2018,Canada,,Lutte contre le bruit et les vibrations,,11.8
+2018,Canada,Fabrication de matériel de transport,"Total, activités de protection de l'environnement",,93.5
+2018,Canada,Fabrication de matériel de transport,Gestion des eaux usées,,70.9
+2018,Canada,Fabrication de matériel de transport,Gestion de la pollution atmosphérique,,28.1
+2018,Canada,Fabrication de matériel de transport,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,12.1
+2018,Canada,Fabrication de matériel de transport,Protection de la biodiversité et de l'habitat,,5.6
+2018,Canada,Fabrication de matériel de transport,Lutte contre le bruit et les vibrations,,11.8
 2018,Canada,Fabrication de produits en plastique et en caoutchouc,"Total, activités de protection de l'environnement",,93.4
 2018,Canada,Fabrication de produits en plastique et en caoutchouc,Gestion des eaux usées,,62.9
 2018,Canada,Fabrication de produits en plastique et en caoutchouc,Gestion de la pollution atmosphérique,,16.4
 2018,Canada,Fabrication de produits en plastique et en caoutchouc,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,4.0
-2018,Canada,Fabrication de produits en plastique et en caoutchouc,Protection de la biodiversité et de l’habitat,,0.0
+2018,Canada,Fabrication de produits en plastique et en caoutchouc,Protection de la biodiversité et de l'habitat,,0.0
 2018,Canada,Fabrication de produits en plastique et en caoutchouc,Lutte contre le bruit et les vibrations,,4.7
 2018,Canada,Fabrication de machines,"Total, activités de protection de l'environnement",,93.3
 2018,Canada,Fabrication de machines,Gestion des eaux usées,,62.4
 2018,Canada,Fabrication de machines,Gestion de la pollution atmosphérique,,17.6
 2018,Canada,Fabrication de machines,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,10.3
-2018,Canada,Fabrication de machines,Protection de la biodiversité et de l’habitat,,3.1
+2018,Canada,Fabrication de machines,Protection de la biodiversité et de l'habitat,,3.1
 2018,Canada,Fabrication de machines,Lutte contre le bruit et les vibrations,,5.9
 2018,Canada,Fabrication de meubles et de produits connexes,"Total, activités de protection de l'environnement",,93.5
 2018,Canada,Fabrication de meubles et de produits connexes,Gestion des eaux usées,,61.1
 2018,Canada,Fabrication de meubles et de produits connexes,Gestion de la pollution atmosphérique,,18.9
 2018,Canada,Fabrication de meubles et de produits connexes,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,6.0
-2018,Canada,Fabrication de meubles et de produits connexes,Protection de la biodiversité et de l’habitat,,5.6
+2018,Canada,Fabrication de meubles et de produits connexes,Protection de la biodiversité et de l'habitat,,5.6
 2018,Canada,Fabrication de meubles et de produits connexes,Lutte contre le bruit et les vibrations,,13.2
 2018,Canada,Autres industries de fabrication,"Total, activités de protection de l'environnement",,87.0
 2018,Canada,Autres industries de fabrication,Gestion des eaux usées,,57.6
 2018,Canada,Autres industries de fabrication,Gestion de la pollution atmosphérique,,10.9
 2018,Canada,Autres industries de fabrication,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,1.6
-2018,Canada,Autres industries de fabrication,Protection de la biodiversité et de l’habitat,,2.3
+2018,Canada,Autres industries de fabrication,Protection de la biodiversité et de l'habitat,,2.3
 2018,Canada,Autres industries de fabrication,Lutte contre le bruit et les vibrations,,4.2
 2018,Canada,Transport par pipeline,"Total, activités de protection de l'environnement",,86.9
 2018,Canada,Transport par pipeline,Gestion des eaux usées,,65.6
 2018,Canada,Transport par pipeline,Gestion de la pollution atmosphérique,,59.0
 2018,Canada,Transport par pipeline,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,75.4
-2018,Canada,Transport par pipeline,Protection de la biodiversité et de l’habitat,,67.2
+2018,Canada,Transport par pipeline,Protection de la biodiversité et de l'habitat,,67.2
 2018,Canada,Transport par pipeline,Lutte contre le bruit et les vibrations,,50.8
 2018,Provinces de l'Atlantique,"Total, industries","Total, activités de protection de l'environnement",,87.5
 2018,Provinces de l'Atlantique,"Total, industries",Gestion des eaux usées,,65.4
 2018,Provinces de l'Atlantique,"Total, industries",Gestion de la pollution atmosphérique,,15.1
 2018,Provinces de l'Atlantique,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,12.8
-2018,Provinces de l'Atlantique,"Total, industries",Protection de la biodiversité et de l’habitat,,7.8
+2018,Provinces de l'Atlantique,"Total, industries",Protection de la biodiversité et de l'habitat,,7.8
 2018,Provinces de l'Atlantique,"Total, industries",Lutte contre le bruit et les vibrations,,9.2
 2018,Terre-Neuve-et-Labrador,"Total, industries","Total, activités de protection de l'environnement",10,89.4
 2018,Terre-Neuve-et-Labrador,"Total, industries",Gestion des eaux usées,10,67.0
 2018,Terre-Neuve-et-Labrador,"Total, industries",Gestion de la pollution atmosphérique,10,14.0
 2018,Terre-Neuve-et-Labrador,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",10,10.2
-2018,Terre-Neuve-et-Labrador,"Total, industries",Protection de la biodiversité et de l’habitat,10,5.9
+2018,Terre-Neuve-et-Labrador,"Total, industries",Protection de la biodiversité et de l'habitat,10,5.9
 2018,Terre-Neuve-et-Labrador,"Total, industries",Lutte contre le bruit et les vibrations,10,12.0
 2018,Île-du-Prince-Édouard,"Total, industries","Total, activités de protection de l'environnement",11,93.8
 2018,Île-du-Prince-Édouard,"Total, industries",Gestion des eaux usées,11,69.6
 2018,Île-du-Prince-Édouard,"Total, industries",Gestion de la pollution atmosphérique,11,16.7
 2018,Île-du-Prince-Édouard,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",11,9.7
-2018,Île-du-Prince-Édouard,"Total, industries",Protection de la biodiversité et de l’habitat,11,8.6
+2018,Île-du-Prince-Édouard,"Total, industries",Protection de la biodiversité et de l'habitat,11,8.6
 2018,Île-du-Prince-Édouard,"Total, industries",Lutte contre le bruit et les vibrations,11,8.6
 2018,Nouvelle-Écosse,"Total, industries","Total, activités de protection de l'environnement",12,84.8
 2018,Nouvelle-Écosse,"Total, industries",Gestion des eaux usées,12,60.8
 2018,Nouvelle-Écosse,"Total, industries",Gestion de la pollution atmosphérique,12,17.9
 2018,Nouvelle-Écosse,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",12,16.3
-2018,Nouvelle-Écosse,"Total, industries",Protection de la biodiversité et de l’habitat,12,10.0
+2018,Nouvelle-Écosse,"Total, industries",Protection de la biodiversité et de l'habitat,12,10.0
 2018,Nouvelle-Écosse,"Total, industries",Lutte contre le bruit et les vibrations,12,9.0
 2018,Nouveau-Brunswick,"Total, industries","Total, activités de protection de l'environnement",13,88.0
 2018,Nouveau-Brunswick,"Total, industries",Gestion des eaux usées,13,69.5
 2018,Nouveau-Brunswick,"Total, industries",Gestion de la pollution atmosphérique,13,11.6
 2018,Nouveau-Brunswick,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",13,10.5
-2018,Nouveau-Brunswick,"Total, industries",Protection de la biodiversité et de l’habitat,13,5.7
+2018,Nouveau-Brunswick,"Total, industries",Protection de la biodiversité et de l'habitat,13,5.7
 2018,Nouveau-Brunswick,"Total, industries",Lutte contre le bruit et les vibrations,13,8.1
 2018,Québec,"Total, industries","Total, activités de protection de l'environnement",24,89.5
 2018,Québec,"Total, industries",Gestion des eaux usées,24,57.0
 2018,Québec,"Total, industries",Gestion de la pollution atmosphérique,24,21.4
 2018,Québec,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",24,9.2
-2018,Québec,"Total, industries",Protection de la biodiversité et de l’habitat,24,4.7
+2018,Québec,"Total, industries",Protection de la biodiversité et de l'habitat,24,4.7
 2018,Québec,"Total, industries",Lutte contre le bruit et les vibrations,24,8.4
 2018,Ontario,"Total, industries","Total, activités de protection de l'environnement",35,90.9
 2018,Ontario,"Total, industries",Gestion des eaux usées,35,65.3
 2018,Ontario,"Total, industries",Gestion de la pollution atmosphérique,35,22.9
 2018,Ontario,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",35,8.4
-2018,Ontario,"Total, industries",Protection de la biodiversité et de l’habitat,35,4.1
+2018,Ontario,"Total, industries",Protection de la biodiversité et de l'habitat,35,4.1
 2018,Ontario,"Total, industries",Lutte contre le bruit et les vibrations,35,8.9
 2018,Provinces des Prairies,"Total, industries","Total, activités de protection de l'environnement",,90.5
 2018,Provinces des Prairies,"Total, industries",Gestion des eaux usées,,74.4
 2018,Provinces des Prairies,"Total, industries",Gestion de la pollution atmosphérique,,21.3
 2018,Provinces des Prairies,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,15.0
-2018,Provinces des Prairies,"Total, industries",Protection de la biodiversité et de l’habitat,,8.2
+2018,Provinces des Prairies,"Total, industries",Protection de la biodiversité et de l'habitat,,8.2
 2018,Provinces des Prairies,"Total, industries",Lutte contre le bruit et les vibrations,,7.7
 2018,Manitoba,"Total, industries","Total, activités de protection de l'environnement",46,85.1
 2018,Manitoba,"Total, industries",Gestion des eaux usées,46,70.3
 2018,Manitoba,"Total, industries",Gestion de la pollution atmosphérique,46,15.7
 2018,Manitoba,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",46,8.7
-2018,Manitoba,"Total, industries",Protection de la biodiversité et de l’habitat,46,5.4
+2018,Manitoba,"Total, industries",Protection de la biodiversité et de l'habitat,46,5.4
 2018,Manitoba,"Total, industries",Lutte contre le bruit et les vibrations,46,7.2
 2018,Saskatchewan,"Total, industries","Total, activités de protection de l'environnement",47,86.4
 2018,Saskatchewan,"Total, industries",Gestion des eaux usées,47,71.3
 2018,Saskatchewan,"Total, industries",Gestion de la pollution atmosphérique,47,18.8
 2018,Saskatchewan,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",47,15.8
-2018,Saskatchewan,"Total, industries",Protection de la biodiversité et de l’habitat,47,6.5
+2018,Saskatchewan,"Total, industries",Protection de la biodiversité et de l'habitat,47,6.5
 2018,Saskatchewan,"Total, industries",Lutte contre le bruit et les vibrations,47,5.6
 2018,Alberta,"Total, industries","Total, activités de protection de l'environnement",48,92.8
 2018,Alberta,"Total, industries",Gestion des eaux usées,48,76.2
 2018,Alberta,"Total, industries",Gestion de la pollution atmosphérique,48,23.2
 2018,Alberta,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",48,16.3
-2018,Alberta,"Total, industries",Protection de la biodiversité et de l’habitat,48,9.2
+2018,Alberta,"Total, industries",Protection de la biodiversité et de l'habitat,48,9.2
 2018,Alberta,"Total, industries",Lutte contre le bruit et les vibrations,48,8.4
 2018,Colombie-Britannique,"Total, industries","Total, activités de protection de l'environnement",59,91.3
 2018,Colombie-Britannique,"Total, industries",Gestion des eaux usées,59,63.6
 2018,Colombie-Britannique,"Total, industries",Gestion de la pollution atmosphérique,59,12.8
 2018,Colombie-Britannique,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",59,9.6
-2018,Colombie-Britannique,"Total, industries",Protection de la biodiversité et de l’habitat,59,4.3
+2018,Colombie-Britannique,"Total, industries",Protection de la biodiversité et de l'habitat,59,4.3
 2018,Colombie-Britannique,"Total, industries",Lutte contre le bruit et les vibrations,59,4.9
 2018,Territoires,"Total, industries","Total, activités de protection de l'environnement",,83.3
 2018,Territoires,"Total, industries",Gestion des eaux usées,,63.3
 2018,Territoires,"Total, industries",Gestion de la pollution atmosphérique,,5.0
 2018,Territoires,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,10.0
-2018,Territoires,"Total, industries",Protection de la biodiversité et de l’habitat,,13.3
+2018,Territoires,"Total, industries",Protection de la biodiversité et de l'habitat,,13.3
 2019,Canada,"Total, industries",Gestion des eaux usées,,60.7
 2019,Canada,"Total, industries",Gestion de la pollution atmosphérique,,16.4
 2019,Canada,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,7.9
-2019,Canada,"Total, industries",Protection de la biodiversité et de l’habitat,,5.5
+2019,Canada,"Total, industries",Protection de la biodiversité et de l'habitat,,5.5
 2019,Canada,"Total, industries",Lutte contre le bruit et les vibrations,,6.2
 2019,Canada,Exploitation forestière (sauf à forfait),"Total, activités de protection de l'environnement",,68.3
 2019,Canada,Exploitation forestière (sauf à forfait),Gestion des eaux usées,,54.8
 2019,Canada,Exploitation forestière (sauf à forfait),Gestion de la pollution atmosphérique,,0.4
 2019,Canada,Exploitation forestière (sauf à forfait),"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,8.3
-2019,Canada,Exploitation forestière (sauf à forfait),Protection de la biodiversité et de l’habitat,,35.4
+2019,Canada,Exploitation forestière (sauf à forfait),Protection de la biodiversité et de l'habitat,,35.4
 2019,Canada,Exploitation forestière (sauf à forfait),Lutte contre le bruit et les vibrations,,27.8
 2019,Canada,Extraction de pétrole et de gaz,"Total, activités de protection de l'environnement",,79.2
 2019,Canada,Extraction de pétrole et de gaz,Gestion des eaux usées,,69.4
 2019,Canada,Extraction de pétrole et de gaz,Gestion de la pollution atmosphérique,,47.7
 2019,Canada,Extraction de pétrole et de gaz,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,56.2
-2019,Canada,Extraction de pétrole et de gaz,Protection de la biodiversité et de l’habitat,,30.3
+2019,Canada,Extraction de pétrole et de gaz,Protection de la biodiversité et de l'habitat,,30.3
 2019,Canada,Extraction de pétrole et de gaz,Lutte contre le bruit et les vibrations,,19.1
 2019,Canada,Extraction minière et exploitation en carrière,"Total, activités de protection de l'environnement",,99.0
 2019,Canada,Extraction minière et exploitation en carrière,Gestion des eaux usées,,89.8
 2019,Canada,Extraction minière et exploitation en carrière,Gestion de la pollution atmosphérique,,63.3
 2019,Canada,Extraction minière et exploitation en carrière,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,72.4
-2019,Canada,Extraction minière et exploitation en carrière,Protection de la biodiversité et de l’habitat,,58.2
+2019,Canada,Extraction minière et exploitation en carrière,Protection de la biodiversité et de l'habitat,,58.2
 2019,Canada,Extraction minière et exploitation en carrière,Lutte contre le bruit et les vibrations,,22.4
-2019,Canada,"Production, transport et distribution d’électricité","Total, activités de protection de l'environnement",,85.0
-2019,Canada,"Production, transport et distribution d’électricité",Gestion des eaux usées,,57.5
-2019,Canada,"Production, transport et distribution d’électricité",Gestion de la pollution atmosphérique,,25.8
-2019,Canada,"Production, transport et distribution d’électricité","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,32.4
-2019,Canada,"Production, transport et distribution d’électricité",Protection de la biodiversité et de l’habitat,,40.1
-2019,Canada,"Production, transport et distribution d’électricité",Lutte contre le bruit et les vibrations,,19.8
+2019,Canada,"Production, transport et distribution d'électricité","Total, activités de protection de l'environnement",,85.0
+2019,Canada,"Production, transport et distribution d'électricité",Gestion des eaux usées,,57.5
+2019,Canada,"Production, transport et distribution d'électricité",Gestion de la pollution atmosphérique,,25.8
+2019,Canada,"Production, transport et distribution d'électricité","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,32.4
+2019,Canada,"Production, transport et distribution d'électricité",Protection de la biodiversité et de l'habitat,,40.1
+2019,Canada,"Production, transport et distribution d'électricité",Lutte contre le bruit et les vibrations,,19.8
 2019,Canada,Distribution de gaz naturel,"Total, activités de protection de l'environnement",,67.6
 2019,Canada,Distribution de gaz naturel,Gestion des eaux usées,,55.9
 2019,Canada,Distribution de gaz naturel,Gestion de la pollution atmosphérique,,55.9
 2019,Canada,Distribution de gaz naturel,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,47.1
-2019,Canada,Distribution de gaz naturel,Protection de la biodiversité et de l’habitat,,41.2
+2019,Canada,Distribution de gaz naturel,Protection de la biodiversité et de l'habitat,,41.2
 2019,Canada,Distribution de gaz naturel,Lutte contre le bruit et les vibrations,,38.2
-2019,Canada,Fabrication d’aliments,"Total, activités de protection de l'environnement",,96.4
-2019,Canada,Fabrication d’aliments,Gestion des eaux usées,,82.8
-2019,Canada,Fabrication d’aliments,Gestion de la pollution atmosphérique,,13.0
-2019,Canada,Fabrication d’aliments,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,7.0
-2019,Canada,Fabrication d’aliments,Protection de la biodiversité et de l’habitat,,6.4
-2019,Canada,Fabrication d’aliments,Lutte contre le bruit et les vibrations,,9.3
+2019,Canada,Fabrication d'aliments,"Total, activités de protection de l'environnement",,96.4
+2019,Canada,Fabrication d'aliments,Gestion des eaux usées,,82.8
+2019,Canada,Fabrication d'aliments,Gestion de la pollution atmosphérique,,13.0
+2019,Canada,Fabrication d'aliments,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,7.0
+2019,Canada,Fabrication d'aliments,Protection de la biodiversité et de l'habitat,,6.4
+2019,Canada,Fabrication d'aliments,Lutte contre le bruit et les vibrations,,9.3
 2019,Canada,Fabrication de boissons et de produits du tabac,"Total, activités de protection de l'environnement",,92.4
 2019,Canada,Fabrication de boissons et de produits du tabac,Gestion des eaux usées,,78.0
 2019,Canada,Fabrication de boissons et de produits du tabac,Gestion de la pollution atmosphérique,,8.9
 2019,Canada,Fabrication de boissons et de produits du tabac,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,2.4
-2019,Canada,Fabrication de boissons et de produits du tabac,Protection de la biodiversité et de l’habitat,,2.3
+2019,Canada,Fabrication de boissons et de produits du tabac,Protection de la biodiversité et de l'habitat,,2.3
 2019,Canada,Fabrication de boissons et de produits du tabac,Lutte contre le bruit et les vibrations,,2.4
 2019,Canada,Fabrication de produits en bois,"Total, activités de protection de l'environnement",,91.6
 2019,Canada,Fabrication de produits en bois,Gestion des eaux usées,,61.5
 2019,Canada,Fabrication de produits en bois,Gestion de la pollution atmosphérique,,22.0
 2019,Canada,Fabrication de produits en bois,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,20.2
-2019,Canada,Fabrication de produits en bois,Protection de la biodiversité et de l’habitat,,5.1
+2019,Canada,Fabrication de produits en bois,Protection de la biodiversité et de l'habitat,,5.1
 2019,Canada,Fabrication de produits en bois,Lutte contre le bruit et les vibrations,,2.2
 2019,Canada,Fabrication du papier,"Total, activités de protection de l'environnement",,97.4
 2019,Canada,Fabrication du papier,Gestion des eaux usées,,87.1
 2019,Canada,Fabrication du papier,Gestion de la pollution atmosphérique,,38.2
 2019,Canada,Fabrication du papier,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,37.7
-2019,Canada,Fabrication du papier,Protection de la biodiversité et de l’habitat,,13.0
+2019,Canada,Fabrication du papier,Protection de la biodiversité et de l'habitat,,13.0
 2019,Canada,Fabrication du papier,Lutte contre le bruit et les vibrations,,12.2
 2019,Canada,Fabrication de produits du pétrole et du charbon,"Total, activités de protection de l'environnement",,100.0
 2019,Canada,Fabrication de produits du pétrole et du charbon,Gestion des eaux usées,,93.3
 2019,Canada,Fabrication de produits du pétrole et du charbon,Gestion de la pollution atmosphérique,,76.7
 2019,Canada,Fabrication de produits du pétrole et du charbon,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,70.0
-2019,Canada,Fabrication de produits du pétrole et du charbon,Protection de la biodiversité et de l’habitat,,40.0
+2019,Canada,Fabrication de produits du pétrole et du charbon,Protection de la biodiversité et de l'habitat,,40.0
 2019,Canada,Fabrication de produits du pétrole et du charbon,Lutte contre le bruit et les vibrations,,43.3
 2019,Canada,Fabrication de produits chimiques,"Total, activités de protection de l'environnement",,96.9
 2019,Canada,Fabrication de produits chimiques,Gestion des eaux usées,,76.0
 2019,Canada,Fabrication de produits chimiques,Gestion de la pollution atmosphérique,,46.7
 2019,Canada,Fabrication de produits chimiques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,21.8
-2019,Canada,Fabrication de produits chimiques,Protection de la biodiversité et de l’habitat,,11.3
+2019,Canada,Fabrication de produits chimiques,Protection de la biodiversité et de l'habitat,,11.3
 2019,Canada,Fabrication de produits chimiques,Lutte contre le bruit et les vibrations,,9.8
 2019,Canada,Fabrication de produits minéraux non métalliques,"Total, activités de protection de l'environnement",,86.5
 2019,Canada,Fabrication de produits minéraux non métalliques,Gestion des eaux usées,,65.9
 2019,Canada,Fabrication de produits minéraux non métalliques,Gestion de la pollution atmosphérique,,43.0
 2019,Canada,Fabrication de produits minéraux non métalliques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,13.2
-2019,Canada,Fabrication de produits minéraux non métalliques,Protection de la biodiversité et de l’habitat,,6.0
+2019,Canada,Fabrication de produits minéraux non métalliques,Protection de la biodiversité et de l'habitat,,6.0
 2019,Canada,Fabrication de produits minéraux non métalliques,Lutte contre le bruit et les vibrations,,9.1
 2019,Canada,Première transformation des métaux,"Total, activités de protection de l'environnement",,96.4
 2019,Canada,Première transformation des métaux,Gestion des eaux usées,,88.6
 2019,Canada,Première transformation des métaux,Gestion de la pollution atmosphérique,,66.3
 2019,Canada,Première transformation des métaux,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,45.6
-2019,Canada,Première transformation des métaux,Protection de la biodiversité et de l’habitat,,14.6
+2019,Canada,Première transformation des métaux,Protection de la biodiversité et de l'habitat,,14.6
 2019,Canada,Première transformation des métaux,Lutte contre le bruit et les vibrations,,23.8
 2019,Canada,Fabrication de produits métalliques,"Total, activités de protection de l'environnement",,84.3
 2019,Canada,Fabrication de produits métalliques,Gestion des eaux usées,,56.9
 2019,Canada,Fabrication de produits métalliques,Gestion de la pollution atmosphérique,,12.8
 2019,Canada,Fabrication de produits métalliques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,0.6
-2019,Canada,Fabrication de produits métalliques,Protection de la biodiversité et de l’habitat,,0.2
+2019,Canada,Fabrication de produits métalliques,Protection de la biodiversité et de l'habitat,,0.2
 2019,Canada,Fabrication de produits métalliques,Lutte contre le bruit et les vibrations,,0.9
-2019,Canada,,"Total, activités de protection de l'environnement",,92.4
-2019,Canada,,Gestion des eaux usées,,66.4
-2019,Canada,,Gestion de la pollution atmosphérique,,23.5
-2019,Canada,,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,14.0
-2019,Canada,,Protection de la biodiversité et de l’habitat,,4.4
-2019,Canada,,Lutte contre le bruit et les vibrations,,8.8
+2019,Canada,Fabrication de matériel de transport,"Total, activités de protection de l'environnement",,92.4
+2019,Canada,Fabrication de matériel de transport,Gestion des eaux usées,,66.4
+2019,Canada,Fabrication de matériel de transport,Gestion de la pollution atmosphérique,,23.5
+2019,Canada,Fabrication de matériel de transport,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,14.0
+2019,Canada,Fabrication de matériel de transport,Protection de la biodiversité et de l'habitat,,4.4
+2019,Canada,Fabrication de matériel de transport,Lutte contre le bruit et les vibrations,,8.8
 2019,Canada,Fabrication de produits en plastique et en caoutchouc,"Total, activités de protection de l'environnement",,97.7
 2019,Canada,Fabrication de produits en plastique et en caoutchouc,Gestion des eaux usées,,67.9
 2019,Canada,Fabrication de produits en plastique et en caoutchouc,Gestion de la pollution atmosphérique,,15.0
@@ -408,12 +408,12 @@ Year,Géographie,Industries,Activités de protection de l'environnement,GeoCode,
 2019,Canada,Fabrication de machines,Gestion des eaux usées,,58.9
 2019,Canada,Fabrication de machines,Gestion de la pollution atmosphérique,,16.1
 2019,Canada,Fabrication de machines,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,3.5
-2019,Canada,Fabrication de machines,Protection de la biodiversité et de l’habitat,,0.9
+2019,Canada,Fabrication de machines,Protection de la biodiversité et de l'habitat,,0.9
 2019,Canada,Fabrication de machines,Lutte contre le bruit et les vibrations,,7.3
 2019,Canada,Fabrication de meubles et de produits connexes,"Total, activités de protection de l'environnement",,90.8
 2019,Canada,Fabrication de meubles et de produits connexes,Gestion des eaux usées,,55.8
 2019,Canada,Fabrication de meubles et de produits connexes,Gestion de la pollution atmosphérique,,10.0
-2019,Canada,Fabrication de meubles et de produits connexes,Protection de la biodiversité et de l’habitat,,0.0
+2019,Canada,Fabrication de meubles et de produits connexes,Protection de la biodiversité et de l'habitat,,0.0
 2019,Canada,Fabrication de meubles et de produits connexes,Lutte contre le bruit et les vibrations,,5.7
 2019,Canada,Autres industries de fabrication,"Total, activités de protection de l'environnement",,81.4
 2019,Canada,Autres industries de fabrication,Gestion des eaux usées,,52.0
@@ -424,19 +424,19 @@ Year,Géographie,Industries,Activités de protection de l'environnement,GeoCode,
 2019,Canada,Transport par pipeline,Gestion des eaux usées,,72.0
 2019,Canada,Transport par pipeline,Gestion de la pollution atmosphérique,,60.0
 2019,Canada,Transport par pipeline,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,62.0
-2019,Canada,Transport par pipeline,Protection de la biodiversité et de l’habitat,,68.0
+2019,Canada,Transport par pipeline,Protection de la biodiversité et de l'habitat,,68.0
 2019,Canada,Transport par pipeline,Lutte contre le bruit et les vibrations,,38.0
 2019,Provinces de l'Atlantique,"Total, industries","Total, activités de protection de l'environnement",,88.0
 2019,Provinces de l'Atlantique,"Total, industries",Gestion des eaux usées,,62.5
 2019,Provinces de l'Atlantique,"Total, industries",Gestion de la pollution atmosphérique,,18.7
 2019,Provinces de l'Atlantique,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,7.9
-2019,Provinces de l'Atlantique,"Total, industries",Protection de la biodiversité et de l’habitat,,4.3
+2019,Provinces de l'Atlantique,"Total, industries",Protection de la biodiversité et de l'habitat,,4.3
 2019,Provinces de l'Atlantique,"Total, industries",Lutte contre le bruit et les vibrations,,2.0
 2019,Terre-Neuve-et-Labrador,"Total, industries","Total, activités de protection de l'environnement",10,86.2
 2019,Terre-Neuve-et-Labrador,"Total, industries",Gestion des eaux usées,10,57.3
 2019,Terre-Neuve-et-Labrador,"Total, industries",Gestion de la pollution atmosphérique,10,21.3
 2019,Terre-Neuve-et-Labrador,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",10,11.0
-2019,Terre-Neuve-et-Labrador,"Total, industries",Protection de la biodiversité et de l’habitat,10,8.2
+2019,Terre-Neuve-et-Labrador,"Total, industries",Protection de la biodiversité et de l'habitat,10,8.2
 2019,Terre-Neuve-et-Labrador,"Total, industries",Lutte contre le bruit et les vibrations,10,2.6
 2019,Île-du-Prince-Édouard,"Total, industries","Total, activités de protection de l'environnement",11,87.4
 2019,Île-du-Prince-Édouard,"Total, industries",Gestion des eaux usées,11,63.1
@@ -447,396 +447,396 @@ Year,Géographie,Industries,Activités de protection de l'environnement,GeoCode,
 2019,Nouvelle-Écosse,"Total, industries",Gestion des eaux usées,12,59.4
 2019,Nouvelle-Écosse,"Total, industries",Gestion de la pollution atmosphérique,12,17.1
 2019,Nouvelle-Écosse,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",12,6.6
-2019,Nouvelle-Écosse,"Total, industries",Protection de la biodiversité et de l’habitat,12,3.0
+2019,Nouvelle-Écosse,"Total, industries",Protection de la biodiversité et de l'habitat,12,3.0
 2019,Nouvelle-Écosse,"Total, industries",Lutte contre le bruit et les vibrations,12,1.8
 2019,Nouveau-Brunswick,"Total, industries","Total, activités de protection de l'environnement",13,90.2
 2019,Nouveau-Brunswick,"Total, industries",Gestion des eaux usées,13,69.2
 2019,Nouveau-Brunswick,"Total, industries",Gestion de la pollution atmosphérique,13,20.1
 2019,Nouveau-Brunswick,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",13,8.9
-2019,Nouveau-Brunswick,"Total, industries",Protection de la biodiversité et de l’habitat,13,4.6
+2019,Nouveau-Brunswick,"Total, industries",Protection de la biodiversité et de l'habitat,13,4.6
 2019,Nouveau-Brunswick,"Total, industries",Lutte contre le bruit et les vibrations,13,2.6
 2019,Québec,"Total, industries","Total, activités de protection de l'environnement",24,84.8
 2019,Québec,"Total, industries",Gestion des eaux usées,24,60.2
 2019,Québec,"Total, industries",Gestion de la pollution atmosphérique,24,12.3
 2019,Québec,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",24,6.9
-2019,Québec,"Total, industries",Protection de la biodiversité et de l’habitat,24,7.3
+2019,Québec,"Total, industries",Protection de la biodiversité et de l'habitat,24,7.3
 2019,Québec,"Total, industries",Lutte contre le bruit et les vibrations,24,8.3
 2019,Ontario,"Total, industries","Total, activités de protection de l'environnement",35,89.1
 2019,Ontario,"Total, industries",Gestion des eaux usées,35,61.8
 2019,Ontario,"Total, industries",Gestion de la pollution atmosphérique,35,18.9
 2019,Ontario,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",35,6.5
-2019,Ontario,"Total, industries",Protection de la biodiversité et de l’habitat,35,4.7
+2019,Ontario,"Total, industries",Protection de la biodiversité et de l'habitat,35,4.7
 2019,Ontario,"Total, industries",Lutte contre le bruit et les vibrations,35,8.1
 2019,Provinces des Prairies,"Total, industries","Total, activités de protection de l'environnement",,87.3
 2019,Provinces des Prairies,"Total, industries",Gestion des eaux usées,,65.9
 2019,Provinces des Prairies,"Total, industries",Gestion de la pollution atmosphérique,,18.4
 2019,Provinces des Prairies,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,13.4
-2019,Provinces des Prairies,"Total, industries",Protection de la biodiversité et de l’habitat,,7.3
+2019,Provinces des Prairies,"Total, industries",Protection de la biodiversité et de l'habitat,,7.3
 2019,Provinces des Prairies,"Total, industries",Lutte contre le bruit et les vibrations,,4.7
 2019,Manitoba,"Total, industries","Total, activités de protection de l'environnement",46,91.3
 2019,Manitoba,"Total, industries",Gestion des eaux usées,46,70.9
 2019,Manitoba,"Total, industries",Gestion de la pollution atmosphérique,46,13.1
 2019,Manitoba,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",46,6.5
-2019,Manitoba,"Total, industries",Protection de la biodiversité et de l’habitat,46,2.9
+2019,Manitoba,"Total, industries",Protection de la biodiversité et de l'habitat,46,2.9
 2019,Manitoba,"Total, industries",Lutte contre le bruit et les vibrations,46,3.2
 2019,Saskatchewan,"Total, industries","Total, activités de protection de l'environnement",47,89.1
 2019,Saskatchewan,"Total, industries",Gestion des eaux usées,47,73.2
 2019,Saskatchewan,"Total, industries",Gestion de la pollution atmosphérique,47,17.1
 2019,Saskatchewan,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",47,15.2
-2019,Saskatchewan,"Total, industries",Protection de la biodiversité et de l’habitat,47,8.6
+2019,Saskatchewan,"Total, industries",Protection de la biodiversité et de l'habitat,47,8.6
 2019,Saskatchewan,"Total, industries",Lutte contre le bruit et les vibrations,47,6.1
 2019,Alberta,"Total, industries","Total, activités de protection de l'environnement",48,85.9
 2019,Alberta,"Total, industries",Gestion des eaux usées,48,62.9
 2019,Alberta,"Total, industries",Gestion de la pollution atmosphérique,48,20.0
 2019,Alberta,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",48,14.5
-2019,Alberta,"Total, industries",Protection de la biodiversité et de l’habitat,48,8.1
+2019,Alberta,"Total, industries",Protection de la biodiversité et de l'habitat,48,8.1
 2019,Alberta,"Total, industries",Lutte contre le bruit et les vibrations,48,4.8
 2019,Colombie-Britannique,"Total, industries","Total, activités de protection de l'environnement",59,82.7
 2019,Colombie-Britannique,"Total, industries",Gestion des eaux usées,59,52.3
 2019,Colombie-Britannique,"Total, industries",Gestion de la pollution atmosphérique,59,14.9
 2019,Colombie-Britannique,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",59,6.1
-2019,Colombie-Britannique,"Total, industries",Protection de la biodiversité et de l’habitat,59,2.2
+2019,Colombie-Britannique,"Total, industries",Protection de la biodiversité et de l'habitat,59,2.2
 2019,Colombie-Britannique,"Total, industries",Lutte contre le bruit et les vibrations,59,1.1
 2019,Territoires,"Total, industries","Total, activités de protection de l'environnement",,79.0
 2019,Territoires,"Total, industries",Gestion des eaux usées,,64.5
 2019,Territoires,"Total, industries",Gestion de la pollution atmosphérique,,16.1
 2019,Territoires,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,19.4
-2019,Territoires,"Total, industries",Protection de la biodiversité et de l’habitat,,17.7
+2019,Territoires,"Total, industries",Protection de la biodiversité et de l'habitat,,17.7
 2019,Territoires,"Total, industries",Lutte contre le bruit et les vibrations,,8.1
 2020,Canada,"Total, industries",Gestion des eaux usées,,61.6
 2020,Canada,"Total, industries",Gestion de la pollution atmosphérique,,14.2
 2020,Canada,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,8.6
-2020,Canada,"Total, industries",Protection de la biodiversité et de l’habitat,,3.5
+2020,Canada,"Total, industries",Protection de la biodiversité et de l'habitat,,3.5
 2020,Canada,"Total, industries",Lutte contre le bruit et les vibrations,,5.0
 2020,Canada,Exploitation forestière (sauf à forfait),"Total, activités de protection de l'environnement",,65.8
 2020,Canada,Exploitation forestière (sauf à forfait),Gestion des eaux usées,,49.0
 2020,Canada,Exploitation forestière (sauf à forfait),Gestion de la pollution atmosphérique,,4.1
 2020,Canada,Exploitation forestière (sauf à forfait),"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,11.9
-2020,Canada,Exploitation forestière (sauf à forfait),Protection de la biodiversité et de l’habitat,,11.5
+2020,Canada,Exploitation forestière (sauf à forfait),Protection de la biodiversité et de l'habitat,,11.5
 2020,Canada,Extraction de pétrole et de gaz,"Total, activités de protection de l'environnement",,83.8
 2020,Canada,Extraction de pétrole et de gaz,Gestion des eaux usées,,67.1
 2020,Canada,Extraction de pétrole et de gaz,Gestion de la pollution atmosphérique,,52.0
 2020,Canada,Extraction de pétrole et de gaz,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,62.1
-2020,Canada,Extraction de pétrole et de gaz,Protection de la biodiversité et de l’habitat,,31.4
+2020,Canada,Extraction de pétrole et de gaz,Protection de la biodiversité et de l'habitat,,31.4
 2020,Canada,Extraction de pétrole et de gaz,Lutte contre le bruit et les vibrations,,23.0
 2020,Canada,Extraction minière et exploitation en carrière,"Total, activités de protection de l'environnement",,96.7
 2020,Canada,Extraction minière et exploitation en carrière,Gestion des eaux usées,,88.0
 2020,Canada,Extraction minière et exploitation en carrière,Gestion de la pollution atmosphérique,,59.8
 2020,Canada,Extraction minière et exploitation en carrière,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,58.7
-2020,Canada,Extraction minière et exploitation en carrière,Protection de la biodiversité et de l’habitat,,44.6
+2020,Canada,Extraction minière et exploitation en carrière,Protection de la biodiversité et de l'habitat,,44.6
 2020,Canada,Extraction minière et exploitation en carrière,Lutte contre le bruit et les vibrations,,15.2
-2020,Canada,"Production, transport et distribution d’électricité","Total, activités de protection de l'environnement",,85.0
-2020,Canada,"Production, transport et distribution d’électricité",Gestion des eaux usées,,69.7
-2020,Canada,"Production, transport et distribution d’électricité",Gestion de la pollution atmosphérique,,33.9
-2020,Canada,"Production, transport et distribution d’électricité","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,29.9
-2020,Canada,"Production, transport et distribution d’électricité",Protection de la biodiversité et de l’habitat,,28.2
-2020,Canada,"Production, transport et distribution d’électricité",Lutte contre le bruit et les vibrations,,20.7
+2020,Canada,"Production, transport et distribution d'électricité","Total, activités de protection de l'environnement",,85.0
+2020,Canada,"Production, transport et distribution d'électricité",Gestion des eaux usées,,69.7
+2020,Canada,"Production, transport et distribution d'électricité",Gestion de la pollution atmosphérique,,33.9
+2020,Canada,"Production, transport et distribution d'électricité","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,29.9
+2020,Canada,"Production, transport et distribution d'électricité",Protection de la biodiversité et de l'habitat,,28.2
+2020,Canada,"Production, transport et distribution d'électricité",Lutte contre le bruit et les vibrations,,20.7
 2020,Canada,Distribution de gaz naturel,"Total, activités de protection de l'environnement",,69.7
 2020,Canada,Distribution de gaz naturel,Gestion des eaux usées,,60.6
 2020,Canada,Distribution de gaz naturel,Gestion de la pollution atmosphérique,,48.5
 2020,Canada,Distribution de gaz naturel,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,45.5
-2020,Canada,Distribution de gaz naturel,Protection de la biodiversité et de l’habitat,,36.4
+2020,Canada,Distribution de gaz naturel,Protection de la biodiversité et de l'habitat,,36.4
 2020,Canada,Distribution de gaz naturel,Lutte contre le bruit et les vibrations,,33.3
-2020,Canada,Fabrication d’aliments,"Total, activités de protection de l'environnement",,96.1
-2020,Canada,Fabrication d’aliments,Gestion des eaux usées,,80.8
-2020,Canada,Fabrication d’aliments,Gestion de la pollution atmosphérique,,19.9
-2020,Canada,Fabrication d’aliments,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,5.3
-2020,Canada,Fabrication d’aliments,Protection de la biodiversité et de l’habitat,,0.8
-2020,Canada,Fabrication d’aliments,Lutte contre le bruit et les vibrations,,4.6
+2020,Canada,Fabrication d'aliments,"Total, activités de protection de l'environnement",,96.1
+2020,Canada,Fabrication d'aliments,Gestion des eaux usées,,80.8
+2020,Canada,Fabrication d'aliments,Gestion de la pollution atmosphérique,,19.9
+2020,Canada,Fabrication d'aliments,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,5.3
+2020,Canada,Fabrication d'aliments,Protection de la biodiversité et de l'habitat,,0.8
+2020,Canada,Fabrication d'aliments,Lutte contre le bruit et les vibrations,,4.6
 2020,Canada,Fabrication de boissons et de produits du tabac,"Total, activités de protection de l'environnement",,94.7
 2020,Canada,Fabrication de boissons et de produits du tabac,Gestion des eaux usées,,75.7
 2020,Canada,Fabrication de boissons et de produits du tabac,Gestion de la pollution atmosphérique,,6.1
 2020,Canada,Fabrication de boissons et de produits du tabac,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,5.8
-2020,Canada,Fabrication de boissons et de produits du tabac,Protection de la biodiversité et de l’habitat,,5.1
+2020,Canada,Fabrication de boissons et de produits du tabac,Protection de la biodiversité et de l'habitat,,5.1
 2020,Canada,Fabrication de boissons et de produits du tabac,Lutte contre le bruit et les vibrations,,6.7
 2020,Canada,Fabrication de produits en bois,"Total, activités de protection de l'environnement",,90.2
 2020,Canada,Fabrication de produits en bois,Gestion des eaux usées,,65.8
 2020,Canada,Fabrication de produits en bois,Gestion de la pollution atmosphérique,,18.1
 2020,Canada,Fabrication de produits en bois,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,18.9
-2020,Canada,Fabrication de produits en bois,Protection de la biodiversité et de l’habitat,,6.4
+2020,Canada,Fabrication de produits en bois,Protection de la biodiversité et de l'habitat,,6.4
 2020,Canada,Fabrication de produits en bois,Lutte contre le bruit et les vibrations,,6.8
 2020,Canada,Fabrication du papier,"Total, activités de protection de l'environnement",,97.0
 2020,Canada,Fabrication du papier,Gestion des eaux usées,,82.0
 2020,Canada,Fabrication du papier,Gestion de la pollution atmosphérique,,45.8
 2020,Canada,Fabrication du papier,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,33.4
-2020,Canada,Fabrication du papier,Protection de la biodiversité et de l’habitat,,12.9
+2020,Canada,Fabrication du papier,Protection de la biodiversité et de l'habitat,,12.9
 2020,Canada,Fabrication du papier,Lutte contre le bruit et les vibrations,,18.4
 2020,Canada,Fabrication de produits du pétrole et du charbon,"Total, activités de protection de l'environnement",,92.3
 2020,Canada,Fabrication de produits du pétrole et du charbon,Gestion des eaux usées,,80.8
 2020,Canada,Fabrication de produits du pétrole et du charbon,Gestion de la pollution atmosphérique,,76.9
 2020,Canada,Fabrication de produits du pétrole et du charbon,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,69.2
-2020,Canada,Fabrication de produits du pétrole et du charbon,Protection de la biodiversité et de l’habitat,,38.5
+2020,Canada,Fabrication de produits du pétrole et du charbon,Protection de la biodiversité et de l'habitat,,38.5
 2020,Canada,Fabrication de produits du pétrole et du charbon,Lutte contre le bruit et les vibrations,,38.5
 2020,Canada,Fabrication de produits chimiques,"Total, activités de protection de l'environnement",,94.6
 2020,Canada,Fabrication de produits chimiques,Gestion des eaux usées,,78.9
 2020,Canada,Fabrication de produits chimiques,Gestion de la pollution atmosphérique,,39.9
 2020,Canada,Fabrication de produits chimiques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,23.7
-2020,Canada,Fabrication de produits chimiques,Protection de la biodiversité et de l’habitat,,4.7
+2020,Canada,Fabrication de produits chimiques,Protection de la biodiversité et de l'habitat,,4.7
 2020,Canada,Fabrication de produits chimiques,Lutte contre le bruit et les vibrations,,12.9
 2020,Canada,Fabrication de produits minéraux non métalliques,"Total, activités de protection de l'environnement",,93.1
 2020,Canada,Fabrication de produits minéraux non métalliques,Gestion des eaux usées,,72.6
 2020,Canada,Fabrication de produits minéraux non métalliques,Gestion de la pollution atmosphérique,,29.2
 2020,Canada,Fabrication de produits minéraux non métalliques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,11.0
-2020,Canada,Fabrication de produits minéraux non métalliques,Protection de la biodiversité et de l’habitat,,2.5
+2020,Canada,Fabrication de produits minéraux non métalliques,Protection de la biodiversité et de l'habitat,,2.5
 2020,Canada,Fabrication de produits minéraux non métalliques,Lutte contre le bruit et les vibrations,,6.2
 2020,Canada,Première transformation des métaux,"Total, activités de protection de l'environnement",,97.9
 2020,Canada,Première transformation des métaux,Gestion des eaux usées,,88.0
 2020,Canada,Première transformation des métaux,Gestion de la pollution atmosphérique,,68.3
 2020,Canada,Première transformation des métaux,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,46.9
-2020,Canada,Première transformation des métaux,Protection de la biodiversité et de l’habitat,,14.1
+2020,Canada,Première transformation des métaux,Protection de la biodiversité et de l'habitat,,14.1
 2020,Canada,Première transformation des métaux,Lutte contre le bruit et les vibrations,,19.8
 2020,Canada,Fabrication de produits métalliques,"Total, activités de protection de l'environnement",,87.7
 2020,Canada,Fabrication de produits métalliques,Gestion des eaux usées,,61.9
 2020,Canada,Fabrication de produits métalliques,Gestion de la pollution atmosphérique,,12.4
 2020,Canada,Fabrication de produits métalliques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,5.8
-2020,Canada,Fabrication de produits métalliques,Protection de la biodiversité et de l’habitat,,0.5
+2020,Canada,Fabrication de produits métalliques,Protection de la biodiversité et de l'habitat,,0.5
 2020,Canada,Fabrication de produits métalliques,Lutte contre le bruit et les vibrations,,5.7
-2020,Canada,,"Total, activités de protection de l'environnement",,91.1
-2020,Canada,,Gestion des eaux usées,,71.9
-2020,Canada,,Gestion de la pollution atmosphérique,,25.6
-2020,Canada,,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,8.4
-2020,Canada,,Protection de la biodiversité et de l’habitat,,3.9
-2020,Canada,,Lutte contre le bruit et les vibrations,,10.0
+2020,Canada,Fabrication de matériel de transport,"Total, activités de protection de l'environnement",,91.1
+2020,Canada,Fabrication de matériel de transport,Gestion des eaux usées,,71.9
+2020,Canada,Fabrication de matériel de transport,Gestion de la pollution atmosphérique,,25.6
+2020,Canada,Fabrication de matériel de transport,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,8.4
+2020,Canada,Fabrication de matériel de transport,Protection de la biodiversité et de l'habitat,,3.9
+2020,Canada,Fabrication de matériel de transport,Lutte contre le bruit et les vibrations,,10.0
 2020,Canada,Fabrication de produits en plastique et en caoutchouc,"Total, activités de protection de l'environnement",,91.4
 2020,Canada,Fabrication de produits en plastique et en caoutchouc,Gestion des eaux usées,,64.4
 2020,Canada,Fabrication de produits en plastique et en caoutchouc,Gestion de la pollution atmosphérique,,13.4
 2020,Canada,Fabrication de produits en plastique et en caoutchouc,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,6.4
-2020,Canada,Fabrication de produits en plastique et en caoutchouc,Protection de la biodiversité et de l’habitat,,1.0
+2020,Canada,Fabrication de produits en plastique et en caoutchouc,Protection de la biodiversité et de l'habitat,,1.0
 2020,Canada,Fabrication de produits en plastique et en caoutchouc,Lutte contre le bruit et les vibrations,,5.8
 2020,Canada,Fabrication de machines,"Total, activités de protection de l'environnement",,92.2
 2020,Canada,Fabrication de machines,Gestion des eaux usées,,60.6
 2020,Canada,Fabrication de machines,Gestion de la pollution atmosphérique,,12.7
 2020,Canada,Fabrication de machines,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,0.8
-2020,Canada,Fabrication de machines,Protection de la biodiversité et de l’habitat,,0.3
+2020,Canada,Fabrication de machines,Protection de la biodiversité et de l'habitat,,0.3
 2020,Canada,Fabrication de machines,Lutte contre le bruit et les vibrations,,2.7
 2020,Canada,Fabrication de meubles et de produits connexes,"Total, activités de protection de l'environnement",,89.1
 2020,Canada,Fabrication de meubles et de produits connexes,Gestion des eaux usées,,58.7
 2020,Canada,Fabrication de meubles et de produits connexes,Gestion de la pollution atmosphérique,,5.2
 2020,Canada,Fabrication de meubles et de produits connexes,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,3.1
-2020,Canada,Fabrication de meubles et de produits connexes,Protection de la biodiversité et de l’habitat,,0.0
+2020,Canada,Fabrication de meubles et de produits connexes,Protection de la biodiversité et de l'habitat,,0.0
 2020,Canada,Autres industries de fabrication,"Total, activités de protection de l'environnement",,77.5
 2020,Canada,Autres industries de fabrication,Gestion des eaux usées,,49.0
 2020,Canada,Autres industries de fabrication,Gestion de la pollution atmosphérique,,2.7
 2020,Canada,Autres industries de fabrication,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,0.8
-2020,Canada,Autres industries de fabrication,Protection de la biodiversité et de l’habitat,,0.2
+2020,Canada,Autres industries de fabrication,Protection de la biodiversité et de l'habitat,,0.2
 2020,Canada,Autres industries de fabrication,Lutte contre le bruit et les vibrations,,1.3
 2020,Canada,Transport par pipeline,"Total, activités de protection de l'environnement",,93.0
 2020,Canada,Transport par pipeline,Gestion des eaux usées,,77.2
 2020,Canada,Transport par pipeline,Gestion de la pollution atmosphérique,,70.2
 2020,Canada,Transport par pipeline,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,73.7
-2020,Canada,Transport par pipeline,Protection de la biodiversité et de l’habitat,,45.6
+2020,Canada,Transport par pipeline,Protection de la biodiversité et de l'habitat,,45.6
 2020,Provinces de l'Atlantique,"Total, industries","Total, activités de protection de l'environnement",,82.8
 2020,Provinces de l'Atlantique,"Total, industries",Gestion des eaux usées,,58.2
 2020,Provinces de l'Atlantique,"Total, industries",Gestion de la pollution atmosphérique,,7.9
 2020,Provinces de l'Atlantique,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,10.8
-2020,Provinces de l'Atlantique,"Total, industries",Protection de la biodiversité et de l’habitat,,7.6
+2020,Provinces de l'Atlantique,"Total, industries",Protection de la biodiversité et de l'habitat,,7.6
 2020,Provinces de l'Atlantique,"Total, industries",Lutte contre le bruit et les vibrations,,2.2
 2020,Terre-Neuve-et-Labrador,"Total, industries","Total, activités de protection de l'environnement",10,83.0
 2020,Terre-Neuve-et-Labrador,"Total, industries",Gestion des eaux usées,10,54.6
 2020,Terre-Neuve-et-Labrador,"Total, industries",Gestion de la pollution atmosphérique,10,9.4
 2020,Terre-Neuve-et-Labrador,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",10,7.4
-2020,Terre-Neuve-et-Labrador,"Total, industries",Protection de la biodiversité et de l’habitat,10,8.0
+2020,Terre-Neuve-et-Labrador,"Total, industries",Protection de la biodiversité et de l'habitat,10,8.0
 2020,Terre-Neuve-et-Labrador,"Total, industries",Lutte contre le bruit et les vibrations,10,2.2
 2020,Île-du-Prince-Édouard,"Total, industries","Total, activités de protection de l'environnement",11,84.1
 2020,Île-du-Prince-Édouard,"Total, industries",Gestion des eaux usées,11,54.2
 2020,Île-du-Prince-Édouard,"Total, industries",Gestion de la pollution atmosphérique,11,8.4
 2020,Île-du-Prince-Édouard,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",11,5.6
-2020,Île-du-Prince-Édouard,"Total, industries",Protection de la biodiversité et de l’habitat,11,3.7
+2020,Île-du-Prince-Édouard,"Total, industries",Protection de la biodiversité et de l'habitat,11,3.7
 2020,Île-du-Prince-Édouard,"Total, industries",Lutte contre le bruit et les vibrations,11,2.8
 2020,Nouvelle-Écosse,"Total, industries","Total, activités de protection de l'environnement",12,80.4
 2020,Nouvelle-Écosse,"Total, industries",Gestion des eaux usées,12,54.8
 2020,Nouvelle-Écosse,"Total, industries",Gestion de la pollution atmosphérique,12,6.1
 2020,Nouvelle-Écosse,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",12,12.4
-2020,Nouvelle-Écosse,"Total, industries",Protection de la biodiversité et de l’habitat,12,8.0
+2020,Nouvelle-Écosse,"Total, industries",Protection de la biodiversité et de l'habitat,12,8.0
 2020,Nouvelle-Écosse,"Total, industries",Lutte contre le bruit et les vibrations,12,3.4
 2020,Nouveau-Brunswick,"Total, industries","Total, activités de protection de l'environnement",13,85.1
 2020,Nouveau-Brunswick,"Total, industries",Gestion des eaux usées,13,65.1
 2020,Nouveau-Brunswick,"Total, industries",Gestion de la pollution atmosphérique,13,9.1
 2020,Nouveau-Brunswick,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",13,12.1
-2020,Nouveau-Brunswick,"Total, industries",Protection de la biodiversité et de l’habitat,13,8.1
+2020,Nouveau-Brunswick,"Total, industries",Protection de la biodiversité et de l'habitat,13,8.1
 2020,Québec,"Total, industries","Total, activités de protection de l'environnement",24,87.7
 2020,Québec,"Total, industries",Gestion des eaux usées,24,65.9
 2020,Québec,"Total, industries",Gestion de la pollution atmosphérique,24,14.5
 2020,Québec,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",24,6.4
-2020,Québec,"Total, industries",Protection de la biodiversité et de l’habitat,24,1.8
+2020,Québec,"Total, industries",Protection de la biodiversité et de l'habitat,24,1.8
 2020,Québec,"Total, industries",Lutte contre le bruit et les vibrations,24,4.1
 2020,Ontario,"Total, industries","Total, activités de protection de l'environnement",35,87.4
 2020,Ontario,"Total, industries",Gestion des eaux usées,35,60.0
 2020,Ontario,"Total, industries",Gestion de la pollution atmosphérique,35,14.5
 2020,Ontario,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",35,7.0
-2020,Ontario,"Total, industries",Protection de la biodiversité et de l’habitat,35,1.6
+2020,Ontario,"Total, industries",Protection de la biodiversité et de l'habitat,35,1.6
 2020,Ontario,"Total, industries",Lutte contre le bruit et les vibrations,35,6.9
 2020,Provinces des Prairies,"Total, industries","Total, activités de protection de l'environnement",,87.6
 2020,Provinces des Prairies,"Total, industries",Gestion des eaux usées,,66.9
 2020,Provinces des Prairies,"Total, industries",Gestion de la pollution atmosphérique,,17.1
 2020,Provinces des Prairies,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,13.6
-2020,Provinces des Prairies,"Total, industries",Protection de la biodiversité et de l’habitat,,7.0
+2020,Provinces des Prairies,"Total, industries",Protection de la biodiversité et de l'habitat,,7.0
 2020,Provinces des Prairies,"Total, industries",Lutte contre le bruit et les vibrations,,4.6
 2020,Manitoba,"Total, industries","Total, activités de protection de l'environnement",46,88.5
 2020,Manitoba,"Total, industries",Gestion des eaux usées,46,73.7
 2020,Manitoba,"Total, industries",Gestion de la pollution atmosphérique,46,13.7
 2020,Manitoba,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",46,6.8
-2020,Manitoba,"Total, industries",Protection de la biodiversité et de l’habitat,46,1.5
+2020,Manitoba,"Total, industries",Protection de la biodiversité et de l'habitat,46,1.5
 2020,Manitoba,"Total, industries",Lutte contre le bruit et les vibrations,46,1.7
 2020,Saskatchewan,"Total, industries","Total, activités de protection de l'environnement",47,92.1
 2020,Saskatchewan,"Total, industries",Gestion des eaux usées,47,71.4
 2020,Saskatchewan,"Total, industries",Gestion de la pollution atmosphérique,47,15.3
 2020,Saskatchewan,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",47,15.7
-2020,Saskatchewan,"Total, industries",Protection de la biodiversité et de l’habitat,47,10.0
+2020,Saskatchewan,"Total, industries",Protection de la biodiversité et de l'habitat,47,10.0
 2020,Saskatchewan,"Total, industries",Lutte contre le bruit et les vibrations,47,6.0
 2020,Alberta,"Total, industries","Total, activités de protection de l'environnement",48,86.3
 2020,Alberta,"Total, industries",Gestion des eaux usées,48,64.0
 2020,Alberta,"Total, industries",Gestion de la pollution atmosphérique,48,18.4
 2020,Alberta,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",48,14.8
-2020,Alberta,"Total, industries",Protection de la biodiversité et de l’habitat,48,7.7
+2020,Alberta,"Total, industries",Protection de la biodiversité et de l'habitat,48,7.7
 2020,Alberta,"Total, industries",Lutte contre le bruit et les vibrations,48,5.0
 2020,Colombie-Britannique,"Total, industries","Total, activités de protection de l'environnement",59,81.7
 2020,Colombie-Britannique,"Total, industries",Gestion des eaux usées,59,53.4
 2020,Colombie-Britannique,"Total, industries",Gestion de la pollution atmosphérique,59,12.8
 2020,Colombie-Britannique,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",59,8.9
-2020,Colombie-Britannique,"Total, industries",Protection de la biodiversité et de l’habitat,59,4.6
+2020,Colombie-Britannique,"Total, industries",Protection de la biodiversité et de l'habitat,59,4.6
 2020,Colombie-Britannique,"Total, industries",Lutte contre le bruit et les vibrations,59,3.6
 2020,Territoires,"Total, industries","Total, activités de protection de l'environnement",,77.2
 2020,Territoires,"Total, industries",Gestion des eaux usées,,58.5
 2020,Territoires,"Total, industries",Gestion de la pollution atmosphérique,,15.5
 2020,Territoires,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,29.0
-2020,Territoires,"Total, industries",Protection de la biodiversité et de l’habitat,,24.4
+2020,Territoires,"Total, industries",Protection de la biodiversité et de l'habitat,,24.4
 2020,Territoires,"Total, industries",Lutte contre le bruit et les vibrations,,10.9
 2021,Canada,"Total, industries",Gestion des eaux usées,,60.8
 2021,Canada,"Total, industries",Gestion de la pollution atmosphérique,,16.4
 2021,Canada,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,11.1
-2021,Canada,"Total, industries",Protection de la biodiversité et de l’habitat,,4.9
+2021,Canada,"Total, industries",Protection de la biodiversité et de l'habitat,,4.9
 2021,Canada,"Total, industries",Lutte contre le bruit et les vibrations,,7.8
 2021,Canada,Exploitation forestière (sauf à forfait),"Total, activités de protection de l'environnement",,70.4
 2021,Canada,Exploitation forestière (sauf à forfait),Gestion des eaux usées,,57.6
 2021,Canada,Exploitation forestière (sauf à forfait),Gestion de la pollution atmosphérique,,0.0
 2021,Canada,Exploitation forestière (sauf à forfait),"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,5.1
-2021,Canada,Exploitation forestière (sauf à forfait),Protection de la biodiversité et de l’habitat,,3.5
+2021,Canada,Exploitation forestière (sauf à forfait),Protection de la biodiversité et de l'habitat,,3.5
 2021,Canada,Exploitation forestière (sauf à forfait),Lutte contre le bruit et les vibrations,,2.4
 2021,Canada,Extraction de pétrole et de gaz,"Total, activités de protection de l'environnement",,91.9
 2021,Canada,Extraction de pétrole et de gaz,Gestion des eaux usées,,79.8
 2021,Canada,Extraction de pétrole et de gaz,Gestion de la pollution atmosphérique,,73.2
 2021,Canada,Extraction de pétrole et de gaz,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,84.1
-2021,Canada,Extraction de pétrole et de gaz,Protection de la biodiversité et de l’habitat,,33.8
+2021,Canada,Extraction de pétrole et de gaz,Protection de la biodiversité et de l'habitat,,33.8
 2021,Canada,Extraction de pétrole et de gaz,Lutte contre le bruit et les vibrations,,29.8
 2021,Canada,Extraction minière et exploitation en carrière,"Total, activités de protection de l'environnement",,100.0
 2021,Canada,Extraction minière et exploitation en carrière,Gestion des eaux usées,,92.6
 2021,Canada,Extraction minière et exploitation en carrière,Gestion de la pollution atmosphérique,,72.8
 2021,Canada,Extraction minière et exploitation en carrière,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,77.8
-2021,Canada,Extraction minière et exploitation en carrière,Protection de la biodiversité et de l’habitat,,58.0
+2021,Canada,Extraction minière et exploitation en carrière,Protection de la biodiversité et de l'habitat,,58.0
 2021,Canada,Extraction minière et exploitation en carrière,Lutte contre le bruit et les vibrations,,30.9
-2021,Canada,"Production, transport et distribution d’électricité","Total, activités de protection de l'environnement",,85.8
-2021,Canada,"Production, transport et distribution d’électricité",Gestion des eaux usées,,77.9
-2021,Canada,"Production, transport et distribution d’électricité",Gestion de la pollution atmosphérique,,36.2
-2021,Canada,"Production, transport et distribution d’électricité","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,30.5
-2021,Canada,"Production, transport et distribution d’électricité",Protection de la biodiversité et de l’habitat,,27.5
-2021,Canada,"Production, transport et distribution d’électricité",Lutte contre le bruit et les vibrations,,12.7
+2021,Canada,"Production, transport et distribution d'électricité","Total, activités de protection de l'environnement",,85.8
+2021,Canada,"Production, transport et distribution d'électricité",Gestion des eaux usées,,77.9
+2021,Canada,"Production, transport et distribution d'électricité",Gestion de la pollution atmosphérique,,36.2
+2021,Canada,"Production, transport et distribution d'électricité","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,30.5
+2021,Canada,"Production, transport et distribution d'électricité",Protection de la biodiversité et de l'habitat,,27.5
+2021,Canada,"Production, transport et distribution d'électricité",Lutte contre le bruit et les vibrations,,12.7
 2021,Canada,Distribution de gaz naturel,"Total, activités de protection de l'environnement",,50.0
 2021,Canada,Distribution de gaz naturel,Gestion des eaux usées,,39.3
 2021,Canada,Distribution de gaz naturel,Gestion de la pollution atmosphérique,,28.6
 2021,Canada,Distribution de gaz naturel,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,21.4
-2021,Canada,Distribution de gaz naturel,Protection de la biodiversité et de l’habitat,,14.3
+2021,Canada,Distribution de gaz naturel,Protection de la biodiversité et de l'habitat,,14.3
 2021,Canada,Distribution de gaz naturel,Lutte contre le bruit et les vibrations,,17.9
-2021,Canada,Fabrication d’aliments,"Total, activités de protection de l'environnement",,94.0
-2021,Canada,Fabrication d’aliments,Gestion des eaux usées,,82.1
-2021,Canada,Fabrication d’aliments,Gestion de la pollution atmosphérique,,12.8
-2021,Canada,Fabrication d’aliments,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,5.4
-2021,Canada,Fabrication d’aliments,Protection de la biodiversité et de l’habitat,,0.9
-2021,Canada,Fabrication d’aliments,Lutte contre le bruit et les vibrations,,4.4
+2021,Canada,Fabrication d'aliments,"Total, activités de protection de l'environnement",,94.0
+2021,Canada,Fabrication d'aliments,Gestion des eaux usées,,82.1
+2021,Canada,Fabrication d'aliments,Gestion de la pollution atmosphérique,,12.8
+2021,Canada,Fabrication d'aliments,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,5.4
+2021,Canada,Fabrication d'aliments,Protection de la biodiversité et de l'habitat,,0.9
+2021,Canada,Fabrication d'aliments,Lutte contre le bruit et les vibrations,,4.4
 2021,Canada,Fabrication de boissons et de produits du tabac,"Total, activités de protection de l'environnement",,95.0
 2021,Canada,Fabrication de boissons et de produits du tabac,Gestion des eaux usées,,75.3
 2021,Canada,Fabrication de boissons et de produits du tabac,Gestion de la pollution atmosphérique,,13.4
 2021,Canada,Fabrication de boissons et de produits du tabac,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,3.3
-2021,Canada,Fabrication de boissons et de produits du tabac,Protection de la biodiversité et de l’habitat,,4.0
+2021,Canada,Fabrication de boissons et de produits du tabac,Protection de la biodiversité et de l'habitat,,4.0
 2021,Canada,Fabrication de boissons et de produits du tabac,Lutte contre le bruit et les vibrations,,6.1
 2021,Canada,Fabrication de produits en bois,"Total, activités de protection de l'environnement",,91.2
 2021,Canada,Fabrication de produits en bois,Gestion des eaux usées,,63.9
 2021,Canada,Fabrication de produits en bois,Gestion de la pollution atmosphérique,,21.2
 2021,Canada,Fabrication de produits en bois,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,19.3
-2021,Canada,Fabrication de produits en bois,Protection de la biodiversité et de l’habitat,,6.3
+2021,Canada,Fabrication de produits en bois,Protection de la biodiversité et de l'habitat,,6.3
 2021,Canada,Fabrication de produits en bois,Lutte contre le bruit et les vibrations,,3.3
 2021,Canada,Fabrication du papier,"Total, activités de protection de l'environnement",,99.4
 2021,Canada,Fabrication du papier,Gestion des eaux usées,,87.0
 2021,Canada,Fabrication du papier,Gestion de la pollution atmosphérique,,46.0
 2021,Canada,Fabrication du papier,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,33.6
-2021,Canada,Fabrication du papier,Protection de la biodiversité et de l’habitat,,9.3
+2021,Canada,Fabrication du papier,Protection de la biodiversité et de l'habitat,,9.3
 2021,Canada,Fabrication du papier,Lutte contre le bruit et les vibrations,,17.9
 2021,Canada,Fabrication de produits du pétrole et du charbon,"Total, activités de protection de l'environnement",,86.7
 2021,Canada,Fabrication de produits du pétrole et du charbon,Gestion des eaux usées,,80.0
 2021,Canada,Fabrication de produits du pétrole et du charbon,Gestion de la pollution atmosphérique,,63.3
 2021,Canada,Fabrication de produits du pétrole et du charbon,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,60.0
-2021,Canada,Fabrication de produits du pétrole et du charbon,Protection de la biodiversité et de l’habitat,,26.7
+2021,Canada,Fabrication de produits du pétrole et du charbon,Protection de la biodiversité et de l'habitat,,26.7
 2021,Canada,Fabrication de produits du pétrole et du charbon,Lutte contre le bruit et les vibrations,,23.3
 2021,Canada,Fabrication de produits chimiques,"Total, activités de protection de l'environnement",,96.3
 2021,Canada,Fabrication de produits chimiques,Gestion des eaux usées,,79.5
 2021,Canada,Fabrication de produits chimiques,Gestion de la pollution atmosphérique,,41.7
 2021,Canada,Fabrication de produits chimiques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,36.0
-2021,Canada,Fabrication de produits chimiques,Protection de la biodiversité et de l’habitat,,7.4
+2021,Canada,Fabrication de produits chimiques,Protection de la biodiversité et de l'habitat,,7.4
 2021,Canada,Fabrication de produits chimiques,Lutte contre le bruit et les vibrations,,13.2
 2021,Canada,Fabrication de produits minéraux non métalliques,"Total, activités de protection de l'environnement",,94.3
 2021,Canada,Fabrication de produits minéraux non métalliques,Gestion des eaux usées,,72.9
 2021,Canada,Fabrication de produits minéraux non métalliques,Gestion de la pollution atmosphérique,,43.1
 2021,Canada,Fabrication de produits minéraux non métalliques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,20.0
-2021,Canada,Fabrication de produits minéraux non métalliques,Protection de la biodiversité et de l’habitat,,0.4
+2021,Canada,Fabrication de produits minéraux non métalliques,Protection de la biodiversité et de l'habitat,,0.4
 2021,Canada,Fabrication de produits minéraux non métalliques,Lutte contre le bruit et les vibrations,,15.5
 2021,Canada,Première transformation des métaux,"Total, activités de protection de l'environnement",,95.4
 2021,Canada,Première transformation des métaux,Gestion des eaux usées,,78.4
 2021,Canada,Première transformation des métaux,Gestion de la pollution atmosphérique,,58.4
 2021,Canada,Première transformation des métaux,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,41.0
-2021,Canada,Première transformation des métaux,Protection de la biodiversité et de l’habitat,,12.9
+2021,Canada,Première transformation des métaux,Protection de la biodiversité et de l'habitat,,12.9
 2021,Canada,Première transformation des métaux,Lutte contre le bruit et les vibrations,,19.2
 2021,Canada,Fabrication de produits métalliques,"Total, activités de protection de l'environnement",,86.3
 2021,Canada,Fabrication de produits métalliques,Gestion des eaux usées,,57.5
 2021,Canada,Fabrication de produits métalliques,Gestion de la pollution atmosphérique,,11.8
 2021,Canada,Fabrication de produits métalliques,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,1.5
-2021,Canada,Fabrication de produits métalliques,Protection de la biodiversité et de l’habitat,,0.2
+2021,Canada,Fabrication de produits métalliques,Protection de la biodiversité et de l'habitat,,0.2
 2021,Canada,Fabrication de produits métalliques,Lutte contre le bruit et les vibrations,,1.4
-2021,Canada,,"Total, activités de protection de l'environnement",,92.8
-2021,Canada,,Gestion des eaux usées,,69.5
-2021,Canada,,Gestion de la pollution atmosphérique,,20.6
-2021,Canada,,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,8.3
-2021,Canada,,Protection de la biodiversité et de l’habitat,,3.1
-2021,Canada,,Lutte contre le bruit et les vibrations,,13.0
+2021,Canada,Fabrication de matériel de transport,"Total, activités de protection de l'environnement",,92.8
+2021,Canada,Fabrication de matériel de transport,Gestion des eaux usées,,69.5
+2021,Canada,Fabrication de matériel de transport,Gestion de la pollution atmosphérique,,20.6
+2021,Canada,Fabrication de matériel de transport,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,8.3
+2021,Canada,Fabrication de matériel de transport,Protection de la biodiversité et de l'habitat,,3.1
+2021,Canada,Fabrication de matériel de transport,Lutte contre le bruit et les vibrations,,13.0
 2021,Canada,Fabrication de produits en plastique et en caoutchouc,"Total, activités de protection de l'environnement",,93.1
 2021,Canada,Fabrication de produits en plastique et en caoutchouc,Gestion des eaux usées,,71.0
 2021,Canada,Fabrication de produits en plastique et en caoutchouc,Gestion de la pollution atmosphérique,,11.0
 2021,Canada,Fabrication de produits en plastique et en caoutchouc,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,5.5
-2021,Canada,Fabrication de produits en plastique et en caoutchouc,Protection de la biodiversité et de l’habitat,,2.9
+2021,Canada,Fabrication de produits en plastique et en caoutchouc,Protection de la biodiversité et de l'habitat,,2.9
 2021,Canada,Fabrication de produits en plastique et en caoutchouc,Lutte contre le bruit et les vibrations,,2.7
 2021,Canada,Fabrication de machines,"Total, activités de protection de l'environnement",,85.8
 2021,Canada,Fabrication de machines,Gestion des eaux usées,,57.5
 2021,Canada,Fabrication de machines,Gestion de la pollution atmosphérique,,5.4
 2021,Canada,Fabrication de machines,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,1.7
-2021,Canada,Fabrication de machines,Protection de la biodiversité et de l’habitat,,0.3
+2021,Canada,Fabrication de machines,Protection de la biodiversité et de l'habitat,,0.3
 2021,Canada,Fabrication de machines,Lutte contre le bruit et les vibrations,,9.6
 2021,Canada,Fabrication de meubles et de produits connexes,"Total, activités de protection de l'environnement",,88.1
 2021,Canada,Fabrication de meubles et de produits connexes,Gestion des eaux usées,,51.7
 2021,Canada,Fabrication de meubles et de produits connexes,Gestion de la pollution atmosphérique,,9.2
 2021,Canada,Fabrication de meubles et de produits connexes,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,0.8
-2021,Canada,Fabrication de meubles et de produits connexes,Protection de la biodiversité et de l’habitat,,0.0
+2021,Canada,Fabrication de meubles et de produits connexes,Protection de la biodiversité et de l'habitat,,0.0
 2021,Canada,Fabrication de meubles et de produits connexes,Lutte contre le bruit et les vibrations,,4.0
 2021,Canada,Autres industries de fabrication,"Total, activités de protection de l'environnement",,78.8
 2021,Canada,Autres industries de fabrication,Gestion des eaux usées,,47.8
 2021,Canada,Autres industries de fabrication,Gestion de la pollution atmosphérique,,11.3
 2021,Canada,Autres industries de fabrication,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,12.2
-2021,Canada,Autres industries de fabrication,Protection de la biodiversité et de l’habitat,,8.3
+2021,Canada,Autres industries de fabrication,Protection de la biodiversité et de l'habitat,,8.3
 2021,Canada,Autres industries de fabrication,Lutte contre le bruit et les vibrations,,11.3
 2021,Canada,Transport par pipeline,"Total, activités de protection de l'environnement",,88.0
 2021,Canada,Transport par pipeline,Gestion des eaux usées,,68.0
 2021,Canada,Transport par pipeline,Gestion de la pollution atmosphérique,,66.0
 2021,Canada,Transport par pipeline,"Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,76.0
-2021,Canada,Transport par pipeline,Protection de la biodiversité et de l’habitat,,54.0
+2021,Canada,Transport par pipeline,Protection de la biodiversité et de l'habitat,,54.0
 2021,Provinces de l'Atlantique,"Total, industries","Total, activités de protection de l'environnement",,84.0
 2021,Provinces de l'Atlantique,"Total, industries",Gestion des eaux usées,,54.8
 2021,Provinces de l'Atlantique,"Total, industries",Gestion de la pollution atmosphérique,,9.5
 2021,Provinces de l'Atlantique,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,8.6
-2021,Provinces de l'Atlantique,"Total, industries",Protection de la biodiversité et de l’habitat,,4.2
+2021,Provinces de l'Atlantique,"Total, industries",Protection de la biodiversité et de l'habitat,,4.2
 2021,Provinces de l'Atlantique,"Total, industries",Lutte contre le bruit et les vibrations,,2.0
 2021,Terre-Neuve-et-Labrador,"Total, industries","Total, activités de protection de l'environnement",10,85.8
 2021,Terre-Neuve-et-Labrador,"Total, industries",Gestion des eaux usées,10,55.6
 2021,Terre-Neuve-et-Labrador,"Total, industries",Gestion de la pollution atmosphérique,10,8.7
 2021,Terre-Neuve-et-Labrador,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",10,11.1
-2021,Terre-Neuve-et-Labrador,"Total, industries",Protection de la biodiversité et de l’habitat,10,7.2
+2021,Terre-Neuve-et-Labrador,"Total, industries",Protection de la biodiversité et de l'habitat,10,7.2
 2021,Terre-Neuve-et-Labrador,"Total, industries",Lutte contre le bruit et les vibrations,10,1.7
 2021,Île-du-Prince-Édouard,"Total, industries","Total, activités de protection de l'environnement",11,81.4
 2021,Île-du-Prince-Édouard,"Total, industries",Gestion des eaux usées,11,49.6
@@ -846,59 +846,59 @@ Year,Géographie,Industries,Activités de protection de l'environnement,GeoCode,
 2021,Nouvelle-Écosse,"Total, industries",Gestion des eaux usées,12,48.8
 2021,Nouvelle-Écosse,"Total, industries",Gestion de la pollution atmosphérique,12,9.9
 2021,Nouvelle-Écosse,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",12,6.6
-2021,Nouvelle-Écosse,"Total, industries",Protection de la biodiversité et de l’habitat,12,2.8
+2021,Nouvelle-Écosse,"Total, industries",Protection de la biodiversité et de l'habitat,12,2.8
 2021,Nouvelle-Écosse,"Total, industries",Lutte contre le bruit et les vibrations,12,1.7
 2021,Nouveau-Brunswick,"Total, industries","Total, activités de protection de l'environnement",13,89.7
 2021,Nouveau-Brunswick,"Total, industries",Gestion des eaux usées,13,64.8
 2021,Nouveau-Brunswick,"Total, industries",Gestion de la pollution atmosphérique,13,11.1
 2021,Nouveau-Brunswick,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",13,11.6
-2021,Nouveau-Brunswick,"Total, industries",Protection de la biodiversité et de l’habitat,13,5.3
+2021,Nouveau-Brunswick,"Total, industries",Protection de la biodiversité et de l'habitat,13,5.3
 2021,Nouveau-Brunswick,"Total, industries",Lutte contre le bruit et les vibrations,13,3.2
 2021,Québec,"Total, industries","Total, activités de protection de l'environnement",24,86.2
 2021,Québec,"Total, industries",Gestion des eaux usées,24,67.8
 2021,Québec,"Total, industries",Gestion de la pollution atmosphérique,24,23.2
 2021,Québec,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",24,14.7
-2021,Québec,"Total, industries",Protection de la biodiversité et de l’habitat,24,8.7
+2021,Québec,"Total, industries",Protection de la biodiversité et de l'habitat,24,8.7
 2021,Québec,"Total, industries",Lutte contre le bruit et les vibrations,24,11.4
 2021,Ontario,"Total, industries","Total, activités de protection de l'environnement",35,87.2
 2021,Ontario,"Total, industries",Gestion des eaux usées,35,57.5
 2021,Ontario,"Total, industries",Gestion de la pollution atmosphérique,35,14.5
 2021,Ontario,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",35,8.3
-2021,Ontario,"Total, industries",Protection de la biodiversité et de l’habitat,35,1.8
+2021,Ontario,"Total, industries",Protection de la biodiversité et de l'habitat,35,1.8
 2021,Ontario,"Total, industries",Lutte contre le bruit et les vibrations,35,9.7
 2021,Provinces des Prairies,"Total, industries","Total, activités de protection de l'environnement",,85.0
 2021,Provinces des Prairies,"Total, industries",Gestion des eaux usées,,64.8
 2021,Provinces des Prairies,"Total, industries",Gestion de la pollution atmosphérique,,16.1
 2021,Provinces des Prairies,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,14.3
-2021,Provinces des Prairies,"Total, industries",Protection de la biodiversité et de l’habitat,,5.9
+2021,Provinces des Prairies,"Total, industries",Protection de la biodiversité et de l'habitat,,5.9
 2021,Provinces des Prairies,"Total, industries",Lutte contre le bruit et les vibrations,,4.7
 2021,Manitoba,"Total, industries","Total, activités de protection de l'environnement",46,84.9
 2021,Manitoba,"Total, industries",Gestion des eaux usées,46,66.4
 2021,Manitoba,"Total, industries",Gestion de la pollution atmosphérique,46,11.8
 2021,Manitoba,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",46,5.6
-2021,Manitoba,"Total, industries",Protection de la biodiversité et de l’habitat,46,1.3
+2021,Manitoba,"Total, industries",Protection de la biodiversité et de l'habitat,46,1.3
 2021,Manitoba,"Total, industries",Lutte contre le bruit et les vibrations,46,1.9
 2021,Saskatchewan,"Total, industries","Total, activités de protection de l'environnement",47,89.7
 2021,Saskatchewan,"Total, industries",Gestion des eaux usées,47,76.4
 2021,Saskatchewan,"Total, industries",Gestion de la pollution atmosphérique,47,18.4
 2021,Saskatchewan,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",47,15.8
-2021,Saskatchewan,"Total, industries",Protection de la biodiversité et de l’habitat,47,7.2
+2021,Saskatchewan,"Total, industries",Protection de la biodiversité et de l'habitat,47,7.2
 2021,Saskatchewan,"Total, industries",Lutte contre le bruit et les vibrations,47,2.3
 2021,Alberta,"Total, industries","Total, activités de protection de l'environnement",48,84.0
 2021,Alberta,"Total, industries",Gestion des eaux usées,48,61.8
 2021,Alberta,"Total, industries",Gestion de la pollution atmosphérique,48,16.7
 2021,Alberta,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",48,16.1
-2021,Alberta,"Total, industries",Protection de la biodiversité et de l’habitat,48,6.7
+2021,Alberta,"Total, industries",Protection de la biodiversité et de l'habitat,48,6.7
 2021,Alberta,"Total, industries",Lutte contre le bruit et les vibrations,48,5.9
 2021,Colombie-Britannique,"Total, industries","Total, activités de protection de l'environnement",59,87.3
 2021,Colombie-Britannique,"Total, industries",Gestion des eaux usées,59,53.7
 2021,Colombie-Britannique,"Total, industries",Gestion de la pollution atmosphérique,59,12.1
 2021,Colombie-Britannique,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",59,8.1
-2021,Colombie-Britannique,"Total, industries",Protection de la biodiversité et de l’habitat,59,3.8
+2021,Colombie-Britannique,"Total, industries",Protection de la biodiversité et de l'habitat,59,3.8
 2021,Colombie-Britannique,"Total, industries",Lutte contre le bruit et les vibrations,59,2.9
 2021,Territoires,"Total, industries","Total, activités de protection de l'environnement",,87.1
 2021,Territoires,"Total, industries",Gestion des eaux usées,,75.7
 2021,Territoires,"Total, industries",Gestion de la pollution atmosphérique,,20.0
 2021,Territoires,"Total, industries","Protection et assainissement du sol, des eaux souterraines et des eaux de surface",,21.4
-2021,Territoires,"Total, industries",Protection de la biodiversité et de l’habitat,,17.1
+2021,Territoires,"Total, industries",Protection de la biodiversité et de l'habitat,,17.1
 2021,Territoires,"Total, industries",Lutte contre le bruit et les vibrations,,12.9

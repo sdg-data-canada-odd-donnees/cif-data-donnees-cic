@@ -47,16 +47,16 @@
                 "Total, industries",
                 "Extraction de pétrole et de gaz",
                 "Extraction minière et exploitation en carrière",
-                "Production, transport et distribution d’électricité",
+                "Production, transport et distribution d'électricité",
                 "Distribution de gaz naturel",
-                "Fabrication d’aliments",
+                "Fabrication d'aliments",
                 "Fabrication de boissons et de produits du tabac",
                 "Fabrication de produits en bois",
                 "Fabrication du papier",
                 "Fabrication de produits du pétrole et du charbon",
                 "Première transformation des métaux",
                 "Fabrication de produits métalliques",
-                null,
+                "Fabrication de matériel de transport",
                 "Fabrication de machines",
                 "Autres industries de fabrication",
                 "Exploitation forestière (sauf à forfait)",
@@ -75,17 +75,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, activités de protection de l'environnement",
                 "Redevances écologiques",
                 "Gestion des eaux usées",
                 "Gestion de la pollution atmosphérique",
                 "Protection et assainissement du sol, des eaux souterraines et des eaux de surface",
-                "Protection de la biodiversité et de l’habitat",
+                "Protection de la biodiversité et de l'habitat",
                 "Lutte contre le bruit et les vibrations",
+                "Total, activités de protection de l'environnement",
                 ""
               ]
             },
-            "title": "Activités de protection de l'environnement"
+            "title": "Activités de protection ou pratiques de gestion de l'environnement"
           },
           {
             "name": "GeoCode",
