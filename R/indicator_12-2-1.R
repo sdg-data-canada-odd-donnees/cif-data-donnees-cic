@@ -61,7 +61,7 @@ total_line <-
     Industries == "Total, industries",
     `Environmental protection activities or management practices` == "Total, environmental protection activities"
   ) %>% 
-  mutate_at(2:3, ~ "")
+  mutate_at(2:4, ~ NA)
 
 # bind total line to rest of data
 data_final <- 
