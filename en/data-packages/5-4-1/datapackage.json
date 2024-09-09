@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -32,22 +32,7 @@
             "title": "Geography"
           },
           {
-            "name": "data.Activity group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Unpaid work activities",
-                "Household chores",
-                "Care of household children under 18 years",
-                "Care of household adults",
-                "Shopping for goods or services",
-                ""
-              ]
-            },
-            "title": "Activity group"
-          },
-          {
-            "name": "data.Age",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -62,20 +47,22 @@
                 ""
               ]
             },
-            "title": "Age"
+            "title": "Age group"
           },
           {
-            "name": "data.Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
                 "Male",
                 "Female",
+                "Total, all persons",
+                "Men+",
+                "Women+",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Gender"
           },
           {
             "name": "GeoCode",
