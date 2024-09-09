@@ -2,7 +2,7 @@
 
 library(cansim)
 library(dplyr)
-library(tidyverse)
+library(readr)
 library(rvest)
 
 nunavut_url <- "https://www150.statcan.gc.ca/n1/pub/75f0002m/75f0002m2022003-eng.htm"
@@ -81,7 +81,7 @@ nvt_over_65 <-
 nunavut_data_combined <-
   bind_rows(nvt_value,nvt_under_18,nvt_18_to_64,nvt_over_65) %>%
   mutate(
-    Value = parse_number(Value),
+    Value = parse_number(Value, na = c("", "NA", "Note F: too unreliable to be published")),
     Year = parse_number(Year)
   )
 
