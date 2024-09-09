@@ -25,12 +25,16 @@ domestic_care <-
     Value = VALUE
   ) %>%
   # Combine Sex and Gender into a single column called Gender
-  unite(Gender, Sex, Gender, sep = "", remove = TRUE, na.rm = TRUE) %>%
+  mutate(Gender = if_else(is.na(Gender), Sex, Gender)) %>%
+  select(!Sex) %>%
   mutate(
     # Remove Canada geocode
     GeoCode = replace(GeoCode, GeoCode == 11124, NA),
     # Replace "Both sexes" (from archived table) with "Total, all persons" to match new table
-    Gender = replace(Gender, Gender == "Both sexes", "Total, all persons"),
+    Gender = case_when(Gender == "Both sexes" ~ "Total, all persons",
+                       Gender == "Male" | Gender == "Men+" ~ "Male/Men+",
+                       Gender == "Female" | Gender == "Women+" ~ "Female/Women+",
+                       .default = Gender),
     # Set headline data
     # across(
     #   c("Geography", "Age group", "Gender"), 
