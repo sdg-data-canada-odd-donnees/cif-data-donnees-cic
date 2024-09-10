@@ -1502,9 +1502,12 @@
                 "Moncton, New Brunswick",
                 "Saint John, New Brunswick",
                 "Quebec",
+                "Montréal, Quebec",
                 "Ottawa - Gatineau (Quebec part), Quebec",
+                "Québec, Quebec",
                 "Saguenay, Quebec",
                 "Sherbrooke, Quebec",
+                "Trois-Rivières, Quebec",
                 "Ontario",
                 "Barrie, Ontario",
                 "Belleville, Ontario",
@@ -1887,9 +1890,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total, all persons",
                 "Male",
                 "Female",
-                "Total, all persons",
                 "Men+",
                 "Women+",
                 ""
@@ -2274,7 +2277,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total – Visible minority",
+                "Total population",
                 "Total visible minority population",
                 "South Asian",
                 "Chinese",
@@ -5798,6 +5801,8 @@
                 "Halifax, Nova Scotia",
                 "Moncton, New Brunswick",
                 "Saint John, New Brunswick",
+                "Québec, Quebec",
+                "Montréal, Quebec",
                 "Ottawa-Gatineau, Ontario/Quebec",
                 "Toronto, Ontario",
                 "Hamilton, Ontario",
@@ -6279,6 +6284,7 @@
               "enum": [
                 "Indigenous person",
                 "First Nations (North American Indian)",
+                "Métis",
                 "Inuk (Inuit)",
                 "Non-Indigenous person",
                 ""
