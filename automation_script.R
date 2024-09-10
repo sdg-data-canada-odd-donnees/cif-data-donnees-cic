@@ -105,6 +105,13 @@ read_hub_data <- function(indicator) {
 update_sdg_data <- function() {
   
   automation_scripts <- list.files(path = "R/", pattern = ".R")
+  # temporary manual override: don't update these indicators due to bugs when run with GitHub Actions
+  bad_indicators <- c("indicator_4-1-1.R",
+                      "indicator_5-2-1.R",
+                      "indicator_11-2-1.R",
+                      "indicator_11-4-1.R",
+                      "indicator_16-1-1.R")
+  automation_scripts <- automation_scripts[! automation_scripts %in% bad_indicators]
   required_updates <- c()
   
   for (file in automation_scripts) {

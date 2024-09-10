@@ -3,6 +3,8 @@
 library(cansim)
 library(dplyr)
 
+print(sessionInfo())
+
 age_groups <- c(
   "Total - Age",
   "Total, persons aged 15 years and over",
