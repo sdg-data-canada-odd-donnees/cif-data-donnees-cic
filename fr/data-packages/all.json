@@ -1692,6 +1692,41 @@
       "title": "Proportion of the population with high levels of confidence in selected institutions"
     },
     {
+      "path": "6-5-1/data.csv",
+      "name": "6-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "iso8859-9",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      },
+      "title": "Percentage of wastewater systems on reserves where effluent quality standards are achieved"
+    },
+    {
       "path": "15-4-1/data.csv",
       "name": "15-4-1",
       "profile": "tabular-data-resource",
