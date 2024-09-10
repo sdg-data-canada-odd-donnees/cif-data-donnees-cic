@@ -2,7 +2,6 @@
 
 # load libraries
 library(dplyr)
-library(tidyr)
 library(cansim)
 
 # load CODR table from stc api
@@ -30,11 +29,14 @@ domestic_care <-
   mutate(
     # Remove Canada geocode
     GeoCode = replace(GeoCode, GeoCode == 11124, NA),
-    # Replace "Both sexes" (from archived table) with "Total, all persons" to match new table
-    Gender = case_when(Gender == "Both sexes" ~ "Total, all persons",
-                       Gender == "Male" | Gender == "Men+" ~ "Male/Men+",
-                       Gender == "Female" | Gender == "Women+" ~ "Female/Women+",
-                       .default = Gender),
+    # Align sex categories in archived table with gender categories in new table
+    Gender = case_match(
+      Gender,
+      "Both sexes" ~ "Total, all persons",
+      "Male" ~ "Men+",
+      "Female" ~ "Women+",
+      .default = Gender
+      ),
     # Set headline data
     # across(
     #   c("Geography", "Age group", "Gender"), 
