@@ -470,6 +470,16 @@
   progress_status: not_available
 6-4-1:
   progress_status: not_available
+6-5-1:
+  base_value: '78.2'
+  base_year: '2016'
+  current_value: '66.7'
+  current_year: '2022'
+  direction: positive
+  progress_calculation_value: '-4.3796797086188'
+  progress_status: deterioration
+  target: '85'
+  target_year: '2030'
 7-1-1:
   base_value: '27.4'
   base_year: '2017'
