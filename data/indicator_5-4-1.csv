@@ -1,721 +1,289 @@
-"Year","data.Geography","data.Activity group","data.Age","data.Sex","GeoCode","Value"
-"2015","data.Canada","data.Unpaid work activities","data.Total, 15 years and over","data.Both sexes",,12.5
-"2015","data.Canada","data.Unpaid work activities","data.Total, 15 years and over","data.Male",,10
-"2015","data.Canada","data.Unpaid work activities","data.Total, 15 years and over","data.Female",,15
-"2015","data.Canada","data.Unpaid work activities","data.15 to 24 years","data.Both sexes",,5.4
-"2015","data.Canada","data.Unpaid work activities","data.15 to 24 years","data.Male",,4.6
-"2015","data.Canada","data.Unpaid work activities","data.15 to 24 years","data.Female",,6.7
-"2015","data.Canada","data.Unpaid work activities","data.25 to 54 years","data.Both sexes",,13.3
-"2015","data.Canada","data.Unpaid work activities","data.25 to 54 years","data.Male",,10.4
-"2015","data.Canada","data.Unpaid work activities","data.25 to 54 years","data.Female",,16.3
-"2015","data.Canada","data.Unpaid work activities","data.25 to 34 years","data.Both sexes",,12.1
-"2015","data.Canada","data.Unpaid work activities","data.25 to 34 years","data.Male",,7.9
-"2015","data.Canada","data.Unpaid work activities","data.25 to 34 years","data.Female",,15.8
-"2015","data.Canada","data.Unpaid work activities","data.35 to 44 years","data.Both sexes",,15
-"2015","data.Canada","data.Unpaid work activities","data.35 to 44 years","data.Male",,11.7
-"2015","data.Canada","data.Unpaid work activities","data.35 to 44 years","data.Female",,17.9
-"2015","data.Canada","data.Unpaid work activities","data.45 to 54 years","data.Both sexes",,13.3
-"2015","data.Canada","data.Unpaid work activities","data.45 to 54 years","data.Male",,11.3
-"2015","data.Canada","data.Unpaid work activities","data.45 to 54 years","data.Female",,15.4
-"2015","data.Canada","data.Unpaid work activities","data.55 to 64 years","data.Both sexes",,14.2
-"2015","data.Canada","data.Unpaid work activities","data.55 to 64 years","data.Male",,12.1
-"2015","data.Canada","data.Unpaid work activities","data.55 to 64 years","data.Female",,16.3
-"2015","data.Canada","data.Unpaid work activities","data.65 years and over","data.Both sexes",,15
-"2015","data.Canada","data.Unpaid work activities","data.65 years and over","data.Male",,13.3
-"2015","data.Canada","data.Unpaid work activities","data.65 years and over","data.Female",,16.7
-"2015","data.Canada","data.Household chores","data.Total, 15 years and over","data.Both sexes",,8.8
-"2015","data.Canada","data.Household chores","data.Total, 15 years and over","data.Male",,7.1
-"2015","data.Canada","data.Household chores","data.Total, 15 years and over","data.Female",,10
-"2015","data.Canada","data.Household chores","data.15 to 24 years","data.Both sexes",,3.8
-"2015","data.Canada","data.Household chores","data.15 to 24 years","data.Male",,3.3
-"2015","data.Canada","data.Household chores","data.15 to 24 years","data.Female",,4.2
-"2015","data.Canada","data.Household chores","data.25 to 54 years","data.Both sexes",,8.3
-"2015","data.Canada","data.Household chores","data.25 to 54 years","data.Male",,6.7
-"2015","data.Canada","data.Household chores","data.25 to 54 years","data.Female",,10
-"2015","data.Canada","data.Household chores","data.25 to 34 years","data.Both sexes",,6.7
-"2015","data.Canada","data.Household chores","data.25 to 34 years","data.Male",,5
-"2015","data.Canada","data.Household chores","data.25 to 34 years","data.Female",,8.3
-"2015","data.Canada","data.Household chores","data.35 to 44 years","data.Both sexes",,8.3
-"2015","data.Canada","data.Household chores","data.35 to 44 years","data.Male",,6.7
-"2015","data.Canada","data.Household chores","data.35 to 44 years","data.Female",,10
-"2015","data.Canada","data.Household chores","data.45 to 54 years","data.Both sexes",,10
-"2015","data.Canada","data.Household chores","data.45 to 54 years","data.Male",,8.8
-"2015","data.Canada","data.Household chores","data.45 to 54 years","data.Female",,11.3
-"2015","data.Canada","data.Household chores","data.55 to 64 years","data.Both sexes",,10.8
-"2015","data.Canada","data.Household chores","data.55 to 64 years","data.Male",,9.6
-"2015","data.Canada","data.Household chores","data.55 to 64 years","data.Female",,12.1
-"2015","data.Canada","data.Household chores","data.65 years and over","data.Both sexes",,11.7
-"2015","data.Canada","data.Household chores","data.65 years and over","data.Male",,10
-"2015","data.Canada","data.Household chores","data.65 years and over","data.Female",,13.3
-"2015","data.Canada","data.Care of household children under 18 years","data.Total, 15 years and over","data.Both sexes",,1.7
-"2015","data.Canada","data.Care of household children under 18 years","data.Total, 15 years and over","data.Male",,1.3
-"2015","data.Canada","data.Care of household children under 18 years","data.Total, 15 years and over","data.Female",,2.1
-"2015","data.Canada","data.Care of household children under 18 years","data.15 to 24 years","data.Both sexes",,0.4
-"2015","data.Canada","data.Care of household children under 18 years","data.15 to 24 years","data.Male",,
-"2015","data.Canada","data.Care of household children under 18 years","data.15 to 24 years","data.Female",,0.4
-"2015","data.Canada","data.Care of household children under 18 years","data.25 to 54 years","data.Both sexes",,2.9
-"2015","data.Canada","data.Care of household children under 18 years","data.25 to 54 years","data.Male",,2.1
-"2015","data.Canada","data.Care of household children under 18 years","data.25 to 54 years","data.Female",,3.8
-"2015","data.Canada","data.Care of household children under 18 years","data.25 to 34 years","data.Both sexes",,3.3
-"2015","data.Canada","data.Care of household children under 18 years","data.25 to 34 years","data.Male",,1.7
-"2015","data.Canada","data.Care of household children under 18 years","data.25 to 34 years","data.Female",,5
-"2015","data.Canada","data.Care of household children under 18 years","data.35 to 44 years","data.Both sexes",,4.2
-"2015","data.Canada","data.Care of household children under 18 years","data.35 to 44 years","data.Male",,3.3
-"2015","data.Canada","data.Care of household children under 18 years","data.35 to 44 years","data.Female",,5.4
-"2015","data.Canada","data.Care of household children under 18 years","data.45 to 54 years","data.Both sexes",,1.3
-"2015","data.Canada","data.Care of household children under 18 years","data.45 to 54 years","data.Male",,0.8
-"2015","data.Canada","data.Care of household children under 18 years","data.45 to 54 years","data.Female",,1.3
-"2015","data.Canada","data.Care of household children under 18 years","data.55 to 64 years","data.Both sexes",,0.4
-"2015","data.Canada","data.Care of household children under 18 years","data.55 to 64 years","data.Male",,
-"2015","data.Canada","data.Care of household children under 18 years","data.55 to 64 years","data.Female",,0.4
-"2015","data.Canada","data.Care of household children under 18 years","data.65 years and over","data.Both sexes",,0.4
-"2015","data.Canada","data.Care of household children under 18 years","data.65 years and over","data.Male",,0.4
-"2015","data.Canada","data.Care of household children under 18 years","data.65 years and over","data.Female",,0.4
-"2015","data.Canada","data.Care of household adults","data.Total, 15 years and over","data.Both sexes",,
-"2015","data.Canada","data.Care of household adults","data.Total, 15 years and over","data.Male",,
-"2015","data.Canada","data.Care of household adults","data.Total, 15 years and over","data.Female",,
-"2015","data.Canada","data.Care of household adults","data.15 to 24 years","data.Both sexes",,
-"2015","data.Canada","data.Care of household adults","data.15 to 24 years","data.Male",,
-"2015","data.Canada","data.Care of household adults","data.15 to 24 years","data.Female",,0
-"2015","data.Canada","data.Care of household adults","data.25 to 54 years","data.Both sexes",,
-"2015","data.Canada","data.Care of household adults","data.25 to 54 years","data.Male",,
-"2015","data.Canada","data.Care of household adults","data.25 to 54 years","data.Female",,
-"2015","data.Canada","data.Care of household adults","data.25 to 34 years","data.Both sexes",,
-"2015","data.Canada","data.Care of household adults","data.25 to 34 years","data.Male",,
-"2015","data.Canada","data.Care of household adults","data.25 to 34 years","data.Female",,
-"2015","data.Canada","data.Care of household adults","data.35 to 44 years","data.Both sexes",,
-"2015","data.Canada","data.Care of household adults","data.35 to 44 years","data.Male",,
-"2015","data.Canada","data.Care of household adults","data.35 to 44 years","data.Female",,
-"2015","data.Canada","data.Care of household adults","data.45 to 54 years","data.Both sexes",,
-"2015","data.Canada","data.Care of household adults","data.45 to 54 years","data.Male",,
-"2015","data.Canada","data.Care of household adults","data.45 to 54 years","data.Female",,
-"2015","data.Canada","data.Care of household adults","data.55 to 64 years","data.Both sexes",,
-"2015","data.Canada","data.Care of household adults","data.55 to 64 years","data.Male",,
-"2015","data.Canada","data.Care of household adults","data.55 to 64 years","data.Female",,0.4
-"2015","data.Canada","data.Care of household adults","data.65 years and over","data.Both sexes",,
-"2015","data.Canada","data.Care of household adults","data.65 years and over","data.Male",,
-"2015","data.Canada","data.Care of household adults","data.65 years and over","data.Female",,
-"2015","data.Canada","data.Shopping for goods or services","data.Total, 15 years and over","data.Both sexes",,2.1
-"2015","data.Canada","data.Shopping for goods or services","data.Total, 15 years and over","data.Male",,1.7
-"2015","data.Canada","data.Shopping for goods or services","data.Total, 15 years and over","data.Female",,2.5
-"2015","data.Canada","data.Shopping for goods or services","data.15 to 24 years","data.Both sexes",,1.3
-"2015","data.Canada","data.Shopping for goods or services","data.15 to 24 years","data.Male",,0.8
-"2015","data.Canada","data.Shopping for goods or services","data.15 to 24 years","data.Female",,1.7
-"2015","data.Canada","data.Shopping for goods or services","data.25 to 54 years","data.Both sexes",,1.7
-"2015","data.Canada","data.Shopping for goods or services","data.25 to 54 years","data.Male",,1.3
-"2015","data.Canada","data.Shopping for goods or services","data.25 to 54 years","data.Female",,2.1
-"2015","data.Canada","data.Shopping for goods or services","data.25 to 34 years","data.Both sexes",,1.7
-"2015","data.Canada","data.Shopping for goods or services","data.25 to 34 years","data.Male",,1.3
-"2015","data.Canada","data.Shopping for goods or services","data.25 to 34 years","data.Female",,2.1
-"2015","data.Canada","data.Shopping for goods or services","data.35 to 44 years","data.Both sexes",,1.7
-"2015","data.Canada","data.Shopping for goods or services","data.35 to 44 years","data.Male",,1.7
-"2015","data.Canada","data.Shopping for goods or services","data.35 to 44 years","data.Female",,2.1
-"2015","data.Canada","data.Shopping for goods or services","data.45 to 54 years","data.Both sexes",,2.1
-"2015","data.Canada","data.Shopping for goods or services","data.45 to 54 years","data.Male",,1.7
-"2015","data.Canada","data.Shopping for goods or services","data.45 to 54 years","data.Female",,2.5
-"2015","data.Canada","data.Shopping for goods or services","data.55 to 64 years","data.Both sexes",,2.5
-"2015","data.Canada","data.Shopping for goods or services","data.55 to 64 years","data.Male",,2.1
-"2015","data.Canada","data.Shopping for goods or services","data.55 to 64 years","data.Female",,2.9
-"2015","data.Canada","data.Shopping for goods or services","data.65 years and over","data.Both sexes",,2.5
-"2015","data.Canada","data.Shopping for goods or services","data.65 years and over","data.Male",,2.5
-"2015","data.Canada","data.Shopping for goods or services","data.65 years and over","data.Female",,2.9
-"2015","data.Atlantic","data.Unpaid work activities","data.Total, 15 years and over","data.Both sexes",,13.3
-"2015","data.Atlantic","data.Unpaid work activities","data.Total, 15 years and over","data.Male",,11.3
-"2015","data.Atlantic","data.Unpaid work activities","data.Total, 15 years and over","data.Female",,15.4
-"2015","data.Atlantic","data.Unpaid work activities","data.15 to 24 years","data.Both sexes",,5.8
-"2015","data.Atlantic","data.Unpaid work activities","data.15 to 24 years","data.Male",,5.4
-"2015","data.Atlantic","data.Unpaid work activities","data.15 to 24 years","data.Female",,6.3
-"2015","data.Atlantic","data.Unpaid work activities","data.25 to 54 years","data.Both sexes",,13.8
-"2015","data.Atlantic","data.Unpaid work activities","data.25 to 54 years","data.Male",,11.3
-"2015","data.Atlantic","data.Unpaid work activities","data.25 to 54 years","data.Female",,16.3
-"2015","data.Atlantic","data.Unpaid work activities","data.25 to 34 years","data.Both sexes",,12.5
-"2015","data.Atlantic","data.Unpaid work activities","data.25 to 34 years","data.Male",,8.8
-"2015","data.Atlantic","data.Unpaid work activities","data.25 to 34 years","data.Female",,15.8
-"2015","data.Atlantic","data.Unpaid work activities","data.35 to 44 years","data.Both sexes",,14.6
-"2015","data.Atlantic","data.Unpaid work activities","data.35 to 44 years","data.Male",,12.5
-"2015","data.Atlantic","data.Unpaid work activities","data.35 to 44 years","data.Female",,17.1
-"2015","data.Atlantic","data.Unpaid work activities","data.45 to 54 years","data.Both sexes",,14.2
-"2015","data.Atlantic","data.Unpaid work activities","data.45 to 54 years","data.Male",,11.7
-"2015","data.Atlantic","data.Unpaid work activities","data.45 to 54 years","data.Female",,16.3
-"2015","data.Atlantic","data.Unpaid work activities","data.55 to 64 years","data.Both sexes",,15.4
-"2015","data.Atlantic","data.Unpaid work activities","data.55 to 64 years","data.Male",,13.3
-"2015","data.Atlantic","data.Unpaid work activities","data.55 to 64 years","data.Female",,17.5
-"2015","data.Atlantic","data.Unpaid work activities","data.65 years and over","data.Both sexes",,15
-"2015","data.Atlantic","data.Unpaid work activities","data.65 years and over","data.Male",,13.3
-"2015","data.Atlantic","data.Unpaid work activities","data.65 years and over","data.Female",,16.7
-"2015","data.Atlantic","data.Household chores","data.Total, 15 years and over","data.Both sexes",,9.2
-"2015","data.Atlantic","data.Household chores","data.Total, 15 years and over","data.Male",,8.3
-"2015","data.Atlantic","data.Household chores","data.Total, 15 years and over","data.Female",,10.4
-"2015","data.Atlantic","data.Household chores","data.15 to 24 years","data.Both sexes",,4.2
-"2015","data.Atlantic","data.Household chores","data.15 to 24 years","data.Male",,4.6
-"2015","data.Atlantic","data.Household chores","data.15 to 24 years","data.Female",,3.8
-"2015","data.Atlantic","data.Household chores","data.25 to 54 years","data.Both sexes",,8.8
-"2015","data.Atlantic","data.Household chores","data.25 to 54 years","data.Male",,7.5
-"2015","data.Atlantic","data.Household chores","data.25 to 54 years","data.Female",,10
-"2015","data.Atlantic","data.Household chores","data.25 to 34 years","data.Both sexes",,6.7
-"2015","data.Atlantic","data.Household chores","data.25 to 34 years","data.Male",,5.4
-"2015","data.Atlantic","data.Household chores","data.25 to 34 years","data.Female",,7.9
-"2015","data.Atlantic","data.Household chores","data.35 to 44 years","data.Both sexes",,8.8
-"2015","data.Atlantic","data.Household chores","data.35 to 44 years","data.Male",,7.1
-"2015","data.Atlantic","data.Household chores","data.35 to 44 years","data.Female",,10.4
-"2015","data.Atlantic","data.Household chores","data.45 to 54 years","data.Both sexes",,10.4
-"2015","data.Atlantic","data.Household chores","data.45 to 54 years","data.Male",,9.6
-"2015","data.Atlantic","data.Household chores","data.45 to 54 years","data.Female",,11.7
-"2015","data.Atlantic","data.Household chores","data.55 to 64 years","data.Both sexes",,12.1
-"2015","data.Atlantic","data.Household chores","data.55 to 64 years","data.Male",,10.8
-"2015","data.Atlantic","data.Household chores","data.55 to 64 years","data.Female",,12.9
-"2015","data.Atlantic","data.Household chores","data.65 years and over","data.Both sexes",,11.7
-"2015","data.Atlantic","data.Household chores","data.65 years and over","data.Male",,10
-"2015","data.Atlantic","data.Household chores","data.65 years and over","data.Female",,13.3
-"2015","data.Atlantic","data.Care of household children under 18 years","data.Total, 15 years and over","data.Both sexes",,1.3
-"2015","data.Atlantic","data.Care of household children under 18 years","data.Total, 15 years and over","data.Male",,0.8
-"2015","data.Atlantic","data.Care of household children under 18 years","data.Total, 15 years and over","data.Female",,1.7
-"2015","data.Atlantic","data.Care of household children under 18 years","data.15 to 24 years","data.Both sexes",,
-"2015","data.Atlantic","data.Care of household children under 18 years","data.15 to 24 years","data.Male",,
-"2015","data.Atlantic","data.Care of household children under 18 years","data.15 to 24 years","data.Female",,
-"2015","data.Atlantic","data.Care of household children under 18 years","data.25 to 54 years","data.Both sexes",,2.5
-"2015","data.Atlantic","data.Care of household children under 18 years","data.25 to 54 years","data.Male",,2.1
-"2015","data.Atlantic","data.Care of household children under 18 years","data.25 to 54 years","data.Female",,3.3
-"2015","data.Atlantic","data.Care of household children under 18 years","data.25 to 34 years","data.Both sexes",,3.8
-"2015","data.Atlantic","data.Care of household children under 18 years","data.25 to 34 years","data.Male",,1.7
-"2015","data.Atlantic","data.Care of household children under 18 years","data.25 to 34 years","data.Female",,5.8
-"2015","data.Atlantic","data.Care of household children under 18 years","data.35 to 44 years","data.Both sexes",,3.8
-"2015","data.Atlantic","data.Care of household children under 18 years","data.35 to 44 years","data.Male",,3.3
-"2015","data.Atlantic","data.Care of household children under 18 years","data.35 to 44 years","data.Female",,4.2
-"2015","data.Atlantic","data.Care of household children under 18 years","data.45 to 54 years","data.Both sexes",,0.8
-"2015","data.Atlantic","data.Care of household children under 18 years","data.45 to 54 years","data.Male",,0.8
-"2015","data.Atlantic","data.Care of household children under 18 years","data.45 to 54 years","data.Female",,0.8
-"2015","data.Atlantic","data.Care of household children under 18 years","data.55 to 64 years","data.Both sexes",,0.4
-"2015","data.Atlantic","data.Care of household children under 18 years","data.55 to 64 years","data.Male",,
-"2015","data.Atlantic","data.Care of household children under 18 years","data.55 to 64 years","data.Female",,0.4
-"2015","data.Atlantic","data.Care of household children under 18 years","data.65 years and over","data.Both sexes",,
-"2015","data.Atlantic","data.Care of household children under 18 years","data.65 years and over","data.Male",,
-"2015","data.Atlantic","data.Care of household children under 18 years","data.65 years and over","data.Female",,
-"2015","data.Atlantic","data.Care of household adults","data.Total, 15 years and over","data.Both sexes",,
-"2015","data.Atlantic","data.Care of household adults","data.Total, 15 years and over","data.Male",,
-"2015","data.Atlantic","data.Care of household adults","data.Total, 15 years and over","data.Female",,
-"2015","data.Atlantic","data.Care of household adults","data.15 to 24 years","data.Both sexes",,0
-"2015","data.Atlantic","data.Care of household adults","data.15 to 24 years","data.Male",,0
-"2015","data.Atlantic","data.Care of household adults","data.15 to 24 years","data.Female",,0
-"2015","data.Atlantic","data.Care of household adults","data.25 to 54 years","data.Both sexes",,
-"2015","data.Atlantic","data.Care of household adults","data.25 to 54 years","data.Male",,
-"2015","data.Atlantic","data.Care of household adults","data.25 to 54 years","data.Female",,
-"2015","data.Atlantic","data.Care of household adults","data.25 to 34 years","data.Both sexes",,
-"2015","data.Atlantic","data.Care of household adults","data.25 to 34 years","data.Male",,
-"2015","data.Atlantic","data.Care of household adults","data.25 to 34 years","data.Female",,
-"2015","data.Atlantic","data.Care of household adults","data.35 to 44 years","data.Both sexes",,
-"2015","data.Atlantic","data.Care of household adults","data.35 to 44 years","data.Male",,0
-"2015","data.Atlantic","data.Care of household adults","data.35 to 44 years","data.Female",,
-"2015","data.Atlantic","data.Care of household adults","data.45 to 54 years","data.Both sexes",,
-"2015","data.Atlantic","data.Care of household adults","data.45 to 54 years","data.Male",,
-"2015","data.Atlantic","data.Care of household adults","data.45 to 54 years","data.Female",,
-"2015","data.Atlantic","data.Care of household adults","data.55 to 64 years","data.Both sexes",,
-"2015","data.Atlantic","data.Care of household adults","data.55 to 64 years","data.Male",,
-"2015","data.Atlantic","data.Care of household adults","data.55 to 64 years","data.Female",,
-"2015","data.Atlantic","data.Care of household adults","data.65 years and over","data.Both sexes",,0.4
-"2015","data.Atlantic","data.Care of household adults","data.65 years and over","data.Male",,
-"2015","data.Atlantic","data.Care of household adults","data.65 years and over","data.Female",,
-"2015","data.Atlantic","data.Shopping for goods or services","data.Total, 15 years and over","data.Both sexes",,2.1
-"2015","data.Atlantic","data.Shopping for goods or services","data.Total, 15 years and over","data.Male",,1.7
-"2015","data.Atlantic","data.Shopping for goods or services","data.Total, 15 years and over","data.Female",,2.5
-"2015","data.Atlantic","data.Shopping for goods or services","data.15 to 24 years","data.Both sexes",,0.8
-"2015","data.Atlantic","data.Shopping for goods or services","data.15 to 24 years","data.Male",,
-"2015","data.Atlantic","data.Shopping for goods or services","data.15 to 24 years","data.Female",,1.3
-"2015","data.Atlantic","data.Shopping for goods or services","data.25 to 54 years","data.Both sexes",,2.1
-"2015","data.Atlantic","data.Shopping for goods or services","data.25 to 54 years","data.Male",,1.3
-"2015","data.Atlantic","data.Shopping for goods or services","data.25 to 54 years","data.Female",,2.5
-"2015","data.Atlantic","data.Shopping for goods or services","data.25 to 34 years","data.Both sexes",,1.7
-"2015","data.Atlantic","data.Shopping for goods or services","data.25 to 34 years","data.Male",,1.3
-"2015","data.Atlantic","data.Shopping for goods or services","data.25 to 34 years","data.Female",,2.1
-"2015","data.Atlantic","data.Shopping for goods or services","data.35 to 44 years","data.Both sexes",,2.1
-"2015","data.Atlantic","data.Shopping for goods or services","data.35 to 44 years","data.Male",,1.7
-"2015","data.Atlantic","data.Shopping for goods or services","data.35 to 44 years","data.Female",,2.1
-"2015","data.Atlantic","data.Shopping for goods or services","data.45 to 54 years","data.Both sexes",,2.1
-"2015","data.Atlantic","data.Shopping for goods or services","data.45 to 54 years","data.Male",,0.8
-"2015","data.Atlantic","data.Shopping for goods or services","data.45 to 54 years","data.Female",,3.3
-"2015","data.Atlantic","data.Shopping for goods or services","data.55 to 64 years","data.Both sexes",,2.5
-"2015","data.Atlantic","data.Shopping for goods or services","data.55 to 64 years","data.Male",,1.7
-"2015","data.Atlantic","data.Shopping for goods or services","data.55 to 64 years","data.Female",,2.9
-"2015","data.Atlantic","data.Shopping for goods or services","data.65 years and over","data.Both sexes",,2.9
-"2015","data.Atlantic","data.Shopping for goods or services","data.65 years and over","data.Male",,2.9
-"2015","data.Atlantic","data.Shopping for goods or services","data.65 years and over","data.Female",,2.5
-"2015","data.Quebec","data.Unpaid work activities","data.Total, 15 years and over","data.Both sexes",24,12.5
-"2015","data.Quebec","data.Unpaid work activities","data.Total, 15 years and over","data.Male",24,10.4
-"2015","data.Quebec","data.Unpaid work activities","data.Total, 15 years and over","data.Female",24,14.6
-"2015","data.Quebec","data.Unpaid work activities","data.15 to 24 years","data.Both sexes",24,5.4
-"2015","data.Quebec","data.Unpaid work activities","data.15 to 24 years","data.Male",24,4.6
-"2015","data.Quebec","data.Unpaid work activities","data.15 to 24 years","data.Female",24,5.8
-"2015","data.Quebec","data.Unpaid work activities","data.25 to 54 years","data.Both sexes",24,13.3
-"2015","data.Quebec","data.Unpaid work activities","data.25 to 54 years","data.Male",24,10.8
-"2015","data.Quebec","data.Unpaid work activities","data.25 to 54 years","data.Female",24,15.8
-"2015","data.Quebec","data.Unpaid work activities","data.25 to 34 years","data.Both sexes",24,12.1
-"2015","data.Quebec","data.Unpaid work activities","data.25 to 34 years","data.Male",24,8.8
-"2015","data.Quebec","data.Unpaid work activities","data.25 to 34 years","data.Female",24,15.8
-"2015","data.Quebec","data.Unpaid work activities","data.35 to 44 years","data.Both sexes",24,15
-"2015","data.Quebec","data.Unpaid work activities","data.35 to 44 years","data.Male",24,12.9
-"2015","data.Quebec","data.Unpaid work activities","data.35 to 44 years","data.Female",24,17.1
-"2015","data.Quebec","data.Unpaid work activities","data.45 to 54 years","data.Both sexes",24,12.5
-"2015","data.Quebec","data.Unpaid work activities","data.45 to 54 years","data.Male",24,10.8
-"2015","data.Quebec","data.Unpaid work activities","data.45 to 54 years","data.Female",24,14.6
-"2015","data.Quebec","data.Unpaid work activities","data.55 to 64 years","data.Both sexes",24,13.8
-"2015","data.Quebec","data.Unpaid work activities","data.55 to 64 years","data.Male",24,11.7
-"2015","data.Quebec","data.Unpaid work activities","data.55 to 64 years","data.Female",24,15.8
-"2015","data.Quebec","data.Unpaid work activities","data.65 years and over","data.Both sexes",24,14.2
-"2015","data.Quebec","data.Unpaid work activities","data.65 years and over","data.Male",24,11.7
-"2015","data.Quebec","data.Unpaid work activities","data.65 years and over","data.Female",24,16.3
-"2015","data.Quebec","data.Household chores","data.Total, 15 years and over","data.Both sexes",24,8.8
-"2015","data.Quebec","data.Household chores","data.Total, 15 years and over","data.Male",24,7.5
-"2015","data.Quebec","data.Household chores","data.Total, 15 years and over","data.Female",24,9.6
-"2015","data.Quebec","data.Household chores","data.15 to 24 years","data.Both sexes",24,3.3
-"2015","data.Quebec","data.Household chores","data.15 to 24 years","data.Male",24,3.8
-"2015","data.Quebec","data.Household chores","data.15 to 24 years","data.Female",24,3.3
-"2015","data.Quebec","data.Household chores","data.25 to 54 years","data.Both sexes",24,8.3
-"2015","data.Quebec","data.Household chores","data.25 to 54 years","data.Male",24,7.1
-"2015","data.Quebec","data.Household chores","data.25 to 54 years","data.Female",24,9.2
-"2015","data.Quebec","data.Household chores","data.25 to 34 years","data.Both sexes",24,6.3
-"2015","data.Quebec","data.Household chores","data.25 to 34 years","data.Male",24,4.6
-"2015","data.Quebec","data.Household chores","data.25 to 34 years","data.Female",24,7.9
-"2015","data.Quebec","data.Household chores","data.35 to 44 years","data.Both sexes",24,8.8
-"2015","data.Quebec","data.Household chores","data.35 to 44 years","data.Male",24,7.9
-"2015","data.Quebec","data.Household chores","data.35 to 44 years","data.Female",24,10
-"2015","data.Quebec","data.Household chores","data.45 to 54 years","data.Both sexes",24,9.6
-"2015","data.Quebec","data.Household chores","data.45 to 54 years","data.Male",24,8.8
-"2015","data.Quebec","data.Household chores","data.45 to 54 years","data.Female",24,10.4
-"2015","data.Quebec","data.Household chores","data.55 to 64 years","data.Both sexes",24,10.4
-"2015","data.Quebec","data.Household chores","data.55 to 64 years","data.Male",24,9.2
-"2015","data.Quebec","data.Household chores","data.55 to 64 years","data.Female",24,12.1
-"2015","data.Quebec","data.Household chores","data.65 years and over","data.Both sexes",24,11.3
-"2015","data.Quebec","data.Household chores","data.65 years and over","data.Male",24,9.2
-"2015","data.Quebec","data.Household chores","data.65 years and over","data.Female",24,12.9
-"2015","data.Quebec","data.Care of household children under 18 years","data.Total, 15 years and over","data.Both sexes",24,1.7
-"2015","data.Quebec","data.Care of household children under 18 years","data.Total, 15 years and over","data.Male",24,1.3
-"2015","data.Quebec","data.Care of household children under 18 years","data.Total, 15 years and over","data.Female",24,2.1
-"2015","data.Quebec","data.Care of household children under 18 years","data.15 to 24 years","data.Both sexes",24,
-"2015","data.Quebec","data.Care of household children under 18 years","data.15 to 24 years","data.Male",24,
-"2015","data.Quebec","data.Care of household children under 18 years","data.15 to 24 years","data.Female",24,
-"2015","data.Quebec","data.Care of household children under 18 years","data.25 to 54 years","data.Both sexes",24,2.9
-"2015","data.Quebec","data.Care of household children under 18 years","data.25 to 54 years","data.Male",24,2.1
-"2015","data.Quebec","data.Care of household children under 18 years","data.25 to 54 years","data.Female",24,3.8
-"2015","data.Quebec","data.Care of household children under 18 years","data.25 to 34 years","data.Both sexes",24,4.2
-"2015","data.Quebec","data.Care of household children under 18 years","data.25 to 34 years","data.Male",24,2.5
-"2015","data.Quebec","data.Care of household children under 18 years","data.25 to 34 years","data.Female",24,5.8
-"2015","data.Quebec","data.Care of household children under 18 years","data.35 to 44 years","data.Both sexes",24,3.8
-"2015","data.Quebec","data.Care of household children under 18 years","data.35 to 44 years","data.Male",24,2.9
-"2015","data.Quebec","data.Care of household children under 18 years","data.35 to 44 years","data.Female",24,5
-"2015","data.Quebec","data.Care of household children under 18 years","data.45 to 54 years","data.Both sexes",24,0.8
-"2015","data.Quebec","data.Care of household children under 18 years","data.45 to 54 years","data.Male",24,0.8
-"2015","data.Quebec","data.Care of household children under 18 years","data.45 to 54 years","data.Female",24,0.8
-"2015","data.Quebec","data.Care of household children under 18 years","data.55 to 64 years","data.Both sexes",24,
-"2015","data.Quebec","data.Care of household children under 18 years","data.55 to 64 years","data.Male",24,
-"2015","data.Quebec","data.Care of household children under 18 years","data.55 to 64 years","data.Female",24,
-"2015","data.Quebec","data.Care of household children under 18 years","data.65 years and over","data.Both sexes",24,0.4
-"2015","data.Quebec","data.Care of household children under 18 years","data.65 years and over","data.Male",24,
-"2015","data.Quebec","data.Care of household children under 18 years","data.65 years and over","data.Female",24,
-"2015","data.Quebec","data.Care of household adults","data.Total, 15 years and over","data.Both sexes",24,
-"2015","data.Quebec","data.Care of household adults","data.Total, 15 years and over","data.Male",24,
-"2015","data.Quebec","data.Care of household adults","data.Total, 15 years and over","data.Female",24,
-"2015","data.Quebec","data.Care of household adults","data.15 to 24 years","data.Both sexes",24,
-"2015","data.Quebec","data.Care of household adults","data.15 to 24 years","data.Male",24,
-"2015","data.Quebec","data.Care of household adults","data.15 to 24 years","data.Female",24,0
-"2015","data.Quebec","data.Care of household adults","data.25 to 54 years","data.Both sexes",24,
-"2015","data.Quebec","data.Care of household adults","data.25 to 54 years","data.Male",24,
-"2015","data.Quebec","data.Care of household adults","data.25 to 54 years","data.Female",24,
-"2015","data.Quebec","data.Care of household adults","data.25 to 34 years","data.Both sexes",24,
-"2015","data.Quebec","data.Care of household adults","data.25 to 34 years","data.Male",24,
-"2015","data.Quebec","data.Care of household adults","data.25 to 34 years","data.Female",24,
-"2015","data.Quebec","data.Care of household adults","data.35 to 44 years","data.Both sexes",24,
-"2015","data.Quebec","data.Care of household adults","data.35 to 44 years","data.Male",24,
-"2015","data.Quebec","data.Care of household adults","data.35 to 44 years","data.Female",24,
-"2015","data.Quebec","data.Care of household adults","data.45 to 54 years","data.Both sexes",24,
-"2015","data.Quebec","data.Care of household adults","data.45 to 54 years","data.Male",24,
-"2015","data.Quebec","data.Care of household adults","data.45 to 54 years","data.Female",24,
-"2015","data.Quebec","data.Care of household adults","data.55 to 64 years","data.Both sexes",24,
-"2015","data.Quebec","data.Care of household adults","data.55 to 64 years","data.Male",24,
-"2015","data.Quebec","data.Care of household adults","data.55 to 64 years","data.Female",24,
-"2015","data.Quebec","data.Care of household adults","data.65 years and over","data.Both sexes",24,
-"2015","data.Quebec","data.Care of household adults","data.65 years and over","data.Male",24,
-"2015","data.Quebec","data.Care of household adults","data.65 years and over","data.Female",24,
-"2015","data.Quebec","data.Shopping for goods or services","data.Total, 15 years and over","data.Both sexes",24,2.1
-"2015","data.Quebec","data.Shopping for goods or services","data.Total, 15 years and over","data.Male",24,1.7
-"2015","data.Quebec","data.Shopping for goods or services","data.Total, 15 years and over","data.Female",24,2.5
-"2015","data.Quebec","data.Shopping for goods or services","data.15 to 24 years","data.Both sexes",24,1.3
-"2015","data.Quebec","data.Shopping for goods or services","data.15 to 24 years","data.Male",24,0.8
-"2015","data.Quebec","data.Shopping for goods or services","data.15 to 24 years","data.Female",24,1.7
-"2015","data.Quebec","data.Shopping for goods or services","data.25 to 54 years","data.Both sexes",24,1.7
-"2015","data.Quebec","data.Shopping for goods or services","data.25 to 54 years","data.Male",24,1.3
-"2015","data.Quebec","data.Shopping for goods or services","data.25 to 54 years","data.Female",24,2.1
-"2015","data.Quebec","data.Shopping for goods or services","data.25 to 34 years","data.Both sexes",24,1.7
-"2015","data.Quebec","data.Shopping for goods or services","data.25 to 34 years","data.Male",24,1.3
-"2015","data.Quebec","data.Shopping for goods or services","data.25 to 34 years","data.Female",24,2.1
-"2015","data.Quebec","data.Shopping for goods or services","data.35 to 44 years","data.Both sexes",24,1.7
-"2015","data.Quebec","data.Shopping for goods or services","data.35 to 44 years","data.Male",24,1.3
-"2015","data.Quebec","data.Shopping for goods or services","data.35 to 44 years","data.Female",24,2.1
-"2015","data.Quebec","data.Shopping for goods or services","data.45 to 54 years","data.Both sexes",24,2.1
-"2015","data.Quebec","data.Shopping for goods or services","data.45 to 54 years","data.Male",24,1.3
-"2015","data.Quebec","data.Shopping for goods or services","data.45 to 54 years","data.Female",24,2.9
-"2015","data.Quebec","data.Shopping for goods or services","data.55 to 64 years","data.Both sexes",24,2.5
-"2015","data.Quebec","data.Shopping for goods or services","data.55 to 64 years","data.Male",24,2.1
-"2015","data.Quebec","data.Shopping for goods or services","data.55 to 64 years","data.Female",24,2.5
-"2015","data.Quebec","data.Shopping for goods or services","data.65 years and over","data.Both sexes",24,2.5
-"2015","data.Quebec","data.Shopping for goods or services","data.65 years and over","data.Male",24,2.1
-"2015","data.Quebec","data.Shopping for goods or services","data.65 years and over","data.Female",24,2.5
-"2015","data.Ontario","data.Unpaid work activities","data.Total, 15 years and over","data.Both sexes",35,12.5
-"2015","data.Ontario","data.Unpaid work activities","data.Total, 15 years and over","data.Male",35,10
-"2015","data.Ontario","data.Unpaid work activities","data.Total, 15 years and over","data.Female",35,15
-"2015","data.Ontario","data.Unpaid work activities","data.15 to 24 years","data.Both sexes",35,5.4
-"2015","data.Ontario","data.Unpaid work activities","data.15 to 24 years","data.Male",35,4.6
-"2015","data.Ontario","data.Unpaid work activities","data.15 to 24 years","data.Female",35,6.3
-"2015","data.Ontario","data.Unpaid work activities","data.25 to 54 years","data.Both sexes",35,13.3
-"2015","data.Ontario","data.Unpaid work activities","data.25 to 54 years","data.Male",35,10
-"2015","data.Ontario","data.Unpaid work activities","data.25 to 54 years","data.Female",35,16.3
-"2015","data.Ontario","data.Unpaid work activities","data.25 to 34 years","data.Both sexes",35,11.7
-"2015","data.Ontario","data.Unpaid work activities","data.25 to 34 years","data.Male",35,7.1
-"2015","data.Ontario","data.Unpaid work activities","data.25 to 34 years","data.Female",35,15.8
-"2015","data.Ontario","data.Unpaid work activities","data.35 to 44 years","data.Both sexes",35,15
-"2015","data.Ontario","data.Unpaid work activities","data.35 to 44 years","data.Male",35,11.7
-"2015","data.Ontario","data.Unpaid work activities","data.35 to 44 years","data.Female",35,18.3
-"2015","data.Ontario","data.Unpaid work activities","data.45 to 54 years","data.Both sexes",35,12.9
-"2015","data.Ontario","data.Unpaid work activities","data.45 to 54 years","data.Male",35,10.4
-"2015","data.Ontario","data.Unpaid work activities","data.45 to 54 years","data.Female",35,15
-"2015","data.Ontario","data.Unpaid work activities","data.55 to 64 years","data.Both sexes",35,14.6
-"2015","data.Ontario","data.Unpaid work activities","data.55 to 64 years","data.Male",35,11.7
-"2015","data.Ontario","data.Unpaid work activities","data.55 to 64 years","data.Female",35,17.5
-"2015","data.Ontario","data.Unpaid work activities","data.65 years and over","data.Both sexes",35,15.4
-"2015","data.Ontario","data.Unpaid work activities","data.65 years and over","data.Male",35,13.3
-"2015","data.Ontario","data.Unpaid work activities","data.65 years and over","data.Female",35,17.5
-"2015","data.Ontario","data.Household chores","data.Total, 15 years and over","data.Both sexes",35,8.8
-"2015","data.Ontario","data.Household chores","data.Total, 15 years and over","data.Male",35,7.1
-"2015","data.Ontario","data.Household chores","data.Total, 15 years and over","data.Female",35,10
-"2015","data.Ontario","data.Household chores","data.15 to 24 years","data.Both sexes",35,3.3
-"2015","data.Ontario","data.Household chores","data.15 to 24 years","data.Male",35,2.9
-"2015","data.Ontario","data.Household chores","data.15 to 24 years","data.Female",35,3.8
-"2015","data.Ontario","data.Household chores","data.25 to 54 years","data.Both sexes",35,7.9
-"2015","data.Ontario","data.Household chores","data.25 to 54 years","data.Male",35,6.3
-"2015","data.Ontario","data.Household chores","data.25 to 54 years","data.Female",35,9.6
-"2015","data.Ontario","data.Household chores","data.25 to 34 years","data.Both sexes",35,6.3
-"2015","data.Ontario","data.Household chores","data.25 to 34 years","data.Male",35,4.2
-"2015","data.Ontario","data.Household chores","data.25 to 34 years","data.Female",35,7.9
-"2015","data.Ontario","data.Household chores","data.35 to 44 years","data.Both sexes",35,8.3
-"2015","data.Ontario","data.Household chores","data.35 to 44 years","data.Male",35,6.7
-"2015","data.Ontario","data.Household chores","data.35 to 44 years","data.Female",35,10.4
-"2015","data.Ontario","data.Household chores","data.45 to 54 years","data.Both sexes",35,9.2
-"2015","data.Ontario","data.Household chores","data.45 to 54 years","data.Male",35,7.5
-"2015","data.Ontario","data.Household chores","data.45 to 54 years","data.Female",35,10.8
-"2015","data.Ontario","data.Household chores","data.55 to 64 years","data.Both sexes",35,11.3
-"2015","data.Ontario","data.Household chores","data.55 to 64 years","data.Male",35,9.6
-"2015","data.Ontario","data.Household chores","data.55 to 64 years","data.Female",35,12.9
-"2015","data.Ontario","data.Household chores","data.65 years and over","data.Both sexes",35,12.1
-"2015","data.Ontario","data.Household chores","data.65 years and over","data.Male",35,10.4
-"2015","data.Ontario","data.Household chores","data.65 years and over","data.Female",35,13.8
-"2015","data.Ontario","data.Care of household children under 18 years","data.Total, 15 years and over","data.Both sexes",35,1.7
-"2015","data.Ontario","data.Care of household children under 18 years","data.Total, 15 years and over","data.Male",35,1.3
-"2015","data.Ontario","data.Care of household children under 18 years","data.Total, 15 years and over","data.Female",35,2.1
-"2015","data.Ontario","data.Care of household children under 18 years","data.15 to 24 years","data.Both sexes",35,0.4
-"2015","data.Ontario","data.Care of household children under 18 years","data.15 to 24 years","data.Male",35,
-"2015","data.Ontario","data.Care of household children under 18 years","data.15 to 24 years","data.Female",35,
-"2015","data.Ontario","data.Care of household children under 18 years","data.25 to 54 years","data.Both sexes",35,2.9
-"2015","data.Ontario","data.Care of household children under 18 years","data.25 to 54 years","data.Male",35,2.1
-"2015","data.Ontario","data.Care of household children under 18 years","data.25 to 54 years","data.Female",35,3.8
-"2015","data.Ontario","data.Care of household children under 18 years","data.25 to 34 years","data.Both sexes",35,3.3
-"2015","data.Ontario","data.Care of household children under 18 years","data.25 to 34 years","data.Male",35,1.7
-"2015","data.Ontario","data.Care of household children under 18 years","data.25 to 34 years","data.Female",35,5
-"2015","data.Ontario","data.Care of household children under 18 years","data.35 to 44 years","data.Both sexes",35,4.6
-"2015","data.Ontario","data.Care of household children under 18 years","data.35 to 44 years","data.Male",35,3.3
-"2015","data.Ontario","data.Care of household children under 18 years","data.35 to 44 years","data.Female",35,5.8
-"2015","data.Ontario","data.Care of household children under 18 years","data.45 to 54 years","data.Both sexes",35,1.3
-"2015","data.Ontario","data.Care of household children under 18 years","data.45 to 54 years","data.Male",35,1.3
-"2015","data.Ontario","data.Care of household children under 18 years","data.45 to 54 years","data.Female",35,1.3
-"2015","data.Ontario","data.Care of household children under 18 years","data.55 to 64 years","data.Both sexes",35,0.4
-"2015","data.Ontario","data.Care of household children under 18 years","data.55 to 64 years","data.Male",35,
-"2015","data.Ontario","data.Care of household children under 18 years","data.55 to 64 years","data.Female",35,0.4
-"2015","data.Ontario","data.Care of household children under 18 years","data.65 years and over","data.Both sexes",35,
-"2015","data.Ontario","data.Care of household children under 18 years","data.65 years and over","data.Male",35,
-"2015","data.Ontario","data.Care of household children under 18 years","data.65 years and over","data.Female",35,
-"2015","data.Ontario","data.Care of household adults","data.Total, 15 years and over","data.Both sexes",35,
-"2015","data.Ontario","data.Care of household adults","data.Total, 15 years and over","data.Male",35,
-"2015","data.Ontario","data.Care of household adults","data.Total, 15 years and over","data.Female",35,
-"2015","data.Ontario","data.Care of household adults","data.15 to 24 years","data.Both sexes",35,
-"2015","data.Ontario","data.Care of household adults","data.15 to 24 years","data.Male",35,
-"2015","data.Ontario","data.Care of household adults","data.15 to 24 years","data.Female",35,0
-"2015","data.Ontario","data.Care of household adults","data.25 to 54 years","data.Both sexes",35,
-"2015","data.Ontario","data.Care of household adults","data.25 to 54 years","data.Male",35,
-"2015","data.Ontario","data.Care of household adults","data.25 to 54 years","data.Female",35,
-"2015","data.Ontario","data.Care of household adults","data.25 to 34 years","data.Both sexes",35,
-"2015","data.Ontario","data.Care of household adults","data.25 to 34 years","data.Male",35,
-"2015","data.Ontario","data.Care of household adults","data.25 to 34 years","data.Female",35,
-"2015","data.Ontario","data.Care of household adults","data.35 to 44 years","data.Both sexes",35,
-"2015","data.Ontario","data.Care of household adults","data.35 to 44 years","data.Male",35,
-"2015","data.Ontario","data.Care of household adults","data.35 to 44 years","data.Female",35,
-"2015","data.Ontario","data.Care of household adults","data.45 to 54 years","data.Both sexes",35,
-"2015","data.Ontario","data.Care of household adults","data.45 to 54 years","data.Male",35,
-"2015","data.Ontario","data.Care of household adults","data.45 to 54 years","data.Female",35,
-"2015","data.Ontario","data.Care of household adults","data.55 to 64 years","data.Both sexes",35,
-"2015","data.Ontario","data.Care of household adults","data.55 to 64 years","data.Male",35,
-"2015","data.Ontario","data.Care of household adults","data.55 to 64 years","data.Female",35,
-"2015","data.Ontario","data.Care of household adults","data.65 years and over","data.Both sexes",35,
-"2015","data.Ontario","data.Care of household adults","data.65 years and over","data.Male",35,
-"2015","data.Ontario","data.Care of household adults","data.65 years and over","data.Female",35,
-"2015","data.Ontario","data.Shopping for goods or services","data.Total, 15 years and over","data.Both sexes",35,2.1
-"2015","data.Ontario","data.Shopping for goods or services","data.Total, 15 years and over","data.Male",35,1.7
-"2015","data.Ontario","data.Shopping for goods or services","data.Total, 15 years and over","data.Female",35,2.5
-"2015","data.Ontario","data.Shopping for goods or services","data.15 to 24 years","data.Both sexes",35,1.3
-"2015","data.Ontario","data.Shopping for goods or services","data.15 to 24 years","data.Male",35,0.8
-"2015","data.Ontario","data.Shopping for goods or services","data.15 to 24 years","data.Female",35,1.7
-"2015","data.Ontario","data.Shopping for goods or services","data.25 to 54 years","data.Both sexes",35,1.7
-"2015","data.Ontario","data.Shopping for goods or services","data.25 to 54 years","data.Male",35,1.3
-"2015","data.Ontario","data.Shopping for goods or services","data.25 to 54 years","data.Female",35,2.1
-"2015","data.Ontario","data.Shopping for goods or services","data.25 to 34 years","data.Both sexes",35,1.7
-"2015","data.Ontario","data.Shopping for goods or services","data.25 to 34 years","data.Male",35,1.3
-"2015","data.Ontario","data.Shopping for goods or services","data.25 to 34 years","data.Female",35,2.5
-"2015","data.Ontario","data.Shopping for goods or services","data.35 to 44 years","data.Both sexes",35,1.7
-"2015","data.Ontario","data.Shopping for goods or services","data.35 to 44 years","data.Male",35,1.7
-"2015","data.Ontario","data.Shopping for goods or services","data.35 to 44 years","data.Female",35,2.1
-"2015","data.Ontario","data.Shopping for goods or services","data.45 to 54 years","data.Both sexes",35,2.1
-"2015","data.Ontario","data.Shopping for goods or services","data.45 to 54 years","data.Male",35,1.7
-"2015","data.Ontario","data.Shopping for goods or services","data.45 to 54 years","data.Female",35,2.5
-"2015","data.Ontario","data.Shopping for goods or services","data.55 to 64 years","data.Both sexes",35,2.5
-"2015","data.Ontario","data.Shopping for goods or services","data.55 to 64 years","data.Male",35,1.7
-"2015","data.Ontario","data.Shopping for goods or services","data.55 to 64 years","data.Female",35,2.9
-"2015","data.Ontario","data.Shopping for goods or services","data.65 years and over","data.Both sexes",35,2.9
-"2015","data.Ontario","data.Shopping for goods or services","data.65 years and over","data.Male",35,2.5
-"2015","data.Ontario","data.Shopping for goods or services","data.65 years and over","data.Female",35,2.9
-"2015","data.Prairies","data.Unpaid work activities","data.Total, 15 years and over","data.Both sexes",,12.9
-"2015","data.Prairies","data.Unpaid work activities","data.Total, 15 years and over","data.Male",,10.4
-"2015","data.Prairies","data.Unpaid work activities","data.Total, 15 years and over","data.Female",,15.8
-"2015","data.Prairies","data.Unpaid work activities","data.15 to 24 years","data.Both sexes",,6.7
-"2015","data.Prairies","data.Unpaid work activities","data.15 to 24 years","data.Male",,5
-"2015","data.Prairies","data.Unpaid work activities","data.15 to 24 years","data.Female",,8.3
-"2015","data.Prairies","data.Unpaid work activities","data.25 to 54 years","data.Both sexes",,14.2
-"2015","data.Prairies","data.Unpaid work activities","data.25 to 54 years","data.Male",,10.4
-"2015","data.Prairies","data.Unpaid work activities","data.25 to 54 years","data.Female",,17.9
-"2015","data.Prairies","data.Unpaid work activities","data.25 to 34 years","data.Both sexes",,12.5
-"2015","data.Prairies","data.Unpaid work activities","data.25 to 34 years","data.Male",,7.9
-"2015","data.Prairies","data.Unpaid work activities","data.25 to 34 years","data.Female",,17.5
-"2015","data.Prairies","data.Unpaid work activities","data.35 to 44 years","data.Both sexes",,15.8
-"2015","data.Prairies","data.Unpaid work activities","data.35 to 44 years","data.Male",,11.3
-"2015","data.Prairies","data.Unpaid work activities","data.35 to 44 years","data.Female",,20
-"2015","data.Prairies","data.Unpaid work activities","data.45 to 54 years","data.Both sexes",,14.2
-"2015","data.Prairies","data.Unpaid work activities","data.45 to 54 years","data.Male",,12.1
-"2015","data.Prairies","data.Unpaid work activities","data.45 to 54 years","data.Female",,16.3
-"2015","data.Prairies","data.Unpaid work activities","data.55 to 64 years","data.Both sexes",,13.3
-"2015","data.Prairies","data.Unpaid work activities","data.55 to 64 years","data.Male",,11.7
-"2015","data.Prairies","data.Unpaid work activities","data.55 to 64 years","data.Female",,15.4
-"2015","data.Prairies","data.Unpaid work activities","data.65 years and over","data.Both sexes",,16.3
-"2015","data.Prairies","data.Unpaid work activities","data.65 years and over","data.Male",,15
-"2015","data.Prairies","data.Unpaid work activities","data.65 years and over","data.Female",,17.1
-"2015","data.Prairies","data.Household chores","data.Total, 15 years and over","data.Both sexes",,8.8
-"2015","data.Prairies","data.Household chores","data.Total, 15 years and over","data.Male",,7.5
-"2015","data.Prairies","data.Household chores","data.Total, 15 years and over","data.Female",,10.4
-"2015","data.Prairies","data.Household chores","data.15 to 24 years","data.Both sexes",,4.6
-"2015","data.Prairies","data.Household chores","data.15 to 24 years","data.Male",,3.3
-"2015","data.Prairies","data.Household chores","data.15 to 24 years","data.Female",,6.3
-"2015","data.Prairies","data.Household chores","data.25 to 54 years","data.Both sexes",,8.8
-"2015","data.Prairies","data.Household chores","data.25 to 54 years","data.Male",,7.1
-"2015","data.Prairies","data.Household chores","data.25 to 54 years","data.Female",,10.4
-"2015","data.Prairies","data.Household chores","data.25 to 34 years","data.Both sexes",,7.1
-"2015","data.Prairies","data.Household chores","data.25 to 34 years","data.Male",,5.4
-"2015","data.Prairies","data.Household chores","data.25 to 34 years","data.Female",,9.2
-"2015","data.Prairies","data.Household chores","data.35 to 44 years","data.Both sexes",,8.3
-"2015","data.Prairies","data.Household chores","data.35 to 44 years","data.Male",,6.3
-"2015","data.Prairies","data.Household chores","data.35 to 44 years","data.Female",,10.8
-"2015","data.Prairies","data.Household chores","data.45 to 54 years","data.Both sexes",,10.4
-"2015","data.Prairies","data.Household chores","data.45 to 54 years","data.Male",,9.6
-"2015","data.Prairies","data.Household chores","data.45 to 54 years","data.Female",,11.7
-"2015","data.Prairies","data.Household chores","data.55 to 64 years","data.Both sexes",,10
-"2015","data.Prairies","data.Household chores","data.55 to 64 years","data.Male",,9.2
-"2015","data.Prairies","data.Household chores","data.55 to 64 years","data.Female",,11.3
-"2015","data.Prairies","data.Household chores","data.65 years and over","data.Both sexes",,12.5
-"2015","data.Prairies","data.Household chores","data.65 years and over","data.Male",,11.7
-"2015","data.Prairies","data.Household chores","data.65 years and over","data.Female",,13.3
-"2015","data.Prairies","data.Care of household children under 18 years","data.Total, 15 years and over","data.Both sexes",,1.7
-"2015","data.Prairies","data.Care of household children under 18 years","data.Total, 15 years and over","data.Male",,0.8
-"2015","data.Prairies","data.Care of household children under 18 years","data.Total, 15 years and over","data.Female",,2.9
-"2015","data.Prairies","data.Care of household children under 18 years","data.15 to 24 years","data.Both sexes",,0.4
-"2015","data.Prairies","data.Care of household children under 18 years","data.15 to 24 years","data.Male",,
-"2015","data.Prairies","data.Care of household children under 18 years","data.15 to 24 years","data.Female",,0.8
-"2015","data.Prairies","data.Care of household children under 18 years","data.25 to 54 years","data.Both sexes",,3.3
-"2015","data.Prairies","data.Care of household children under 18 years","data.25 to 54 years","data.Male",,1.7
-"2015","data.Prairies","data.Care of household children under 18 years","data.25 to 54 years","data.Female",,5
-"2015","data.Prairies","data.Care of household children under 18 years","data.25 to 34 years","data.Both sexes",,3.3
-"2015","data.Prairies","data.Care of household children under 18 years","data.25 to 34 years","data.Male",,1.3
-"2015","data.Prairies","data.Care of household children under 18 years","data.25 to 34 years","data.Female",,5.8
-"2015","data.Prairies","data.Care of household children under 18 years","data.35 to 44 years","data.Both sexes",,5
-"2015","data.Prairies","data.Care of household children under 18 years","data.35 to 44 years","data.Male",,2.9
-"2015","data.Prairies","data.Care of household children under 18 years","data.35 to 44 years","data.Female",,7.1
-"2015","data.Prairies","data.Care of household children under 18 years","data.45 to 54 years","data.Both sexes",,1.3
-"2015","data.Prairies","data.Care of household children under 18 years","data.45 to 54 years","data.Male",,0.8
-"2015","data.Prairies","data.Care of household children under 18 years","data.45 to 54 years","data.Female",,1.3
-"2015","data.Prairies","data.Care of household children under 18 years","data.55 to 64 years","data.Both sexes",,
-"2015","data.Prairies","data.Care of household children under 18 years","data.55 to 64 years","data.Male",,
-"2015","data.Prairies","data.Care of household children under 18 years","data.55 to 64 years","data.Female",,
-"2015","data.Prairies","data.Care of household children under 18 years","data.65 years and over","data.Both sexes",,
-"2015","data.Prairies","data.Care of household children under 18 years","data.65 years and over","data.Male",,
-"2015","data.Prairies","data.Care of household children under 18 years","data.65 years and over","data.Female",,
-"2015","data.Prairies","data.Care of household adults","data.Total, 15 years and over","data.Both sexes",,
-"2015","data.Prairies","data.Care of household adults","data.Total, 15 years and over","data.Male",,
-"2015","data.Prairies","data.Care of household adults","data.Total, 15 years and over","data.Female",,
-"2015","data.Prairies","data.Care of household adults","data.15 to 24 years","data.Both sexes",,
-"2015","data.Prairies","data.Care of household adults","data.15 to 24 years","data.Male",,
-"2015","data.Prairies","data.Care of household adults","data.15 to 24 years","data.Female",,0
-"2015","data.Prairies","data.Care of household adults","data.25 to 54 years","data.Both sexes",,
-"2015","data.Prairies","data.Care of household adults","data.25 to 54 years","data.Male",,
-"2015","data.Prairies","data.Care of household adults","data.25 to 54 years","data.Female",,
-"2015","data.Prairies","data.Care of household adults","data.25 to 34 years","data.Both sexes",,
-"2015","data.Prairies","data.Care of household adults","data.25 to 34 years","data.Male",,
-"2015","data.Prairies","data.Care of household adults","data.25 to 34 years","data.Female",,
-"2015","data.Prairies","data.Care of household adults","data.35 to 44 years","data.Both sexes",,
-"2015","data.Prairies","data.Care of household adults","data.35 to 44 years","data.Male",,
-"2015","data.Prairies","data.Care of household adults","data.35 to 44 years","data.Female",,
-"2015","data.Prairies","data.Care of household adults","data.45 to 54 years","data.Both sexes",,
-"2015","data.Prairies","data.Care of household adults","data.45 to 54 years","data.Male",,
-"2015","data.Prairies","data.Care of household adults","data.45 to 54 years","data.Female",,
-"2015","data.Prairies","data.Care of household adults","data.55 to 64 years","data.Both sexes",,
-"2015","data.Prairies","data.Care of household adults","data.55 to 64 years","data.Male",,
-"2015","data.Prairies","data.Care of household adults","data.55 to 64 years","data.Female",,
-"2015","data.Prairies","data.Care of household adults","data.65 years and over","data.Both sexes",,
-"2015","data.Prairies","data.Care of household adults","data.65 years and over","data.Male",,
-"2015","data.Prairies","data.Care of household adults","data.65 years and over","data.Female",,
-"2015","data.Prairies","data.Shopping for goods or services","data.Total, 15 years and over","data.Both sexes",,2.1
-"2015","data.Prairies","data.Shopping for goods or services","data.Total, 15 years and over","data.Male",,1.7
-"2015","data.Prairies","data.Shopping for goods or services","data.Total, 15 years and over","data.Female",,2.1
-"2015","data.Prairies","data.Shopping for goods or services","data.15 to 24 years","data.Both sexes",,1.3
-"2015","data.Prairies","data.Shopping for goods or services","data.15 to 24 years","data.Male",,1.7
-"2015","data.Prairies","data.Shopping for goods or services","data.15 to 24 years","data.Female",,0.8
-"2015","data.Prairies","data.Shopping for goods or services","data.25 to 54 years","data.Both sexes",,1.7
-"2015","data.Prairies","data.Shopping for goods or services","data.25 to 54 years","data.Male",,1.3
-"2015","data.Prairies","data.Shopping for goods or services","data.25 to 54 years","data.Female",,2.1
-"2015","data.Prairies","data.Shopping for goods or services","data.25 to 34 years","data.Both sexes",,1.7
-"2015","data.Prairies","data.Shopping for goods or services","data.25 to 34 years","data.Male",,0.8
-"2015","data.Prairies","data.Shopping for goods or services","data.25 to 34 years","data.Female",,2.1
-"2015","data.Prairies","data.Shopping for goods or services","data.35 to 44 years","data.Both sexes",,2.1
-"2015","data.Prairies","data.Shopping for goods or services","data.35 to 44 years","data.Male",,2.1
-"2015","data.Prairies","data.Shopping for goods or services","data.35 to 44 years","data.Female",,2.1
-"2015","data.Prairies","data.Shopping for goods or services","data.45 to 54 years","data.Both sexes",,2.1
-"2015","data.Prairies","data.Shopping for goods or services","data.45 to 54 years","data.Male",,1.3
-"2015","data.Prairies","data.Shopping for goods or services","data.45 to 54 years","data.Female",,2.5
-"2015","data.Prairies","data.Shopping for goods or services","data.55 to 64 years","data.Both sexes",,2.5
-"2015","data.Prairies","data.Shopping for goods or services","data.55 to 64 years","data.Male",,2.1
-"2015","data.Prairies","data.Shopping for goods or services","data.55 to 64 years","data.Female",,2.5
-"2015","data.Prairies","data.Shopping for goods or services","data.65 years and over","data.Both sexes",,2.9
-"2015","data.Prairies","data.Shopping for goods or services","data.65 years and over","data.Male",,2.9
-"2015","data.Prairies","data.Shopping for goods or services","data.65 years and over","data.Female",,2.9
-"2015","data.British Columbia","data.Unpaid work activities","data.Total, 15 years and over","data.Both sexes",59,12.5
-"2015","data.British Columbia","data.Unpaid work activities","data.Total, 15 years and over","data.Male",59,10.4
-"2015","data.British Columbia","data.Unpaid work activities","data.Total, 15 years and over","data.Female",59,14.2
-"2015","data.British Columbia","data.Unpaid work activities","data.15 to 24 years","data.Both sexes",59,5.4
-"2015","data.British Columbia","data.Unpaid work activities","data.15 to 24 years","data.Male",59,3.3
-"2015","data.British Columbia","data.Unpaid work activities","data.15 to 24 years","data.Female",59,7.9
-"2015","data.British Columbia","data.Unpaid work activities","data.25 to 54 years","data.Both sexes",59,13.3
-"2015","data.British Columbia","data.Unpaid work activities","data.25 to 54 years","data.Male",59,10.8
-"2015","data.British Columbia","data.Unpaid work activities","data.25 to 54 years","data.Female",59,15.4
-"2015","data.British Columbia","data.Unpaid work activities","data.25 to 34 years","data.Both sexes",59,11.3
-"2015","data.British Columbia","data.Unpaid work activities","data.25 to 34 years","data.Male",59,8.3
-"2015","data.British Columbia","data.Unpaid work activities","data.25 to 34 years","data.Female",59,14.2
-"2015","data.British Columbia","data.Unpaid work activities","data.35 to 44 years","data.Both sexes",59,13.3
-"2015","data.British Columbia","data.Unpaid work activities","data.35 to 44 years","data.Male",59,10.8
-"2015","data.British Columbia","data.Unpaid work activities","data.35 to 44 years","data.Female",59,16.3
-"2015","data.British Columbia","data.Unpaid work activities","data.45 to 54 years","data.Both sexes",59,14.6
-"2015","data.British Columbia","data.Unpaid work activities","data.45 to 54 years","data.Male",59,13.3
-"2015","data.British Columbia","data.Unpaid work activities","data.45 to 54 years","data.Female",59,16.3
-"2015","data.British Columbia","data.Unpaid work activities","data.55 to 64 years","data.Both sexes",59,13.3
-"2015","data.British Columbia","data.Unpaid work activities","data.55 to 64 years","data.Male",59,12.5
-"2015","data.British Columbia","data.Unpaid work activities","data.55 to 64 years","data.Female",59,14.6
-"2015","data.British Columbia","data.Unpaid work activities","data.65 years and over","data.Both sexes",59,15
-"2015","data.British Columbia","data.Unpaid work activities","data.65 years and over","data.Male",59,13.3
-"2015","data.British Columbia","data.Unpaid work activities","data.65 years and over","data.Female",59,15.8
-"2015","data.British Columbia","data.Household chores","data.Total, 15 years and over","data.Both sexes",59,8.3
-"2015","data.British Columbia","data.Household chores","data.Total, 15 years and over","data.Male",59,7.5
-"2015","data.British Columbia","data.Household chores","data.Total, 15 years and over","data.Female",59,9.6
-"2015","data.British Columbia","data.Household chores","data.15 to 24 years","data.Both sexes",59,2.9
-"2015","data.British Columbia","data.Household chores","data.15 to 24 years","data.Male",59,2.1
-"2015","data.British Columbia","data.Household chores","data.15 to 24 years","data.Female",59,3.8
-"2015","data.British Columbia","data.Household chores","data.25 to 54 years","data.Both sexes",59,8.3
-"2015","data.British Columbia","data.Household chores","data.25 to 54 years","data.Male",59,7.1
-"2015","data.British Columbia","data.Household chores","data.25 to 54 years","data.Female",59,9.6
-"2015","data.British Columbia","data.Household chores","data.25 to 34 years","data.Both sexes",59,6.7
-"2015","data.British Columbia","data.Household chores","data.25 to 34 years","data.Male",59,5
-"2015","data.British Columbia","data.Household chores","data.25 to 34 years","data.Female",59,8.3
-"2015","data.British Columbia","data.Household chores","data.35 to 44 years","data.Both sexes",59,7.5
-"2015","data.British Columbia","data.Household chores","data.35 to 44 years","data.Male",59,5.8
-"2015","data.British Columbia","data.Household chores","data.35 to 44 years","data.Female",59,8.8
-"2015","data.British Columbia","data.Household chores","data.45 to 54 years","data.Both sexes",59,11.3
-"2015","data.British Columbia","data.Household chores","data.45 to 54 years","data.Male",59,10.4
-"2015","data.British Columbia","data.Household chores","data.45 to 54 years","data.Female",59,12.1
-"2015","data.British Columbia","data.Household chores","data.55 to 64 years","data.Both sexes",59,10.4
-"2015","data.British Columbia","data.Household chores","data.55 to 64 years","data.Male",59,9.6
-"2015","data.British Columbia","data.Household chores","data.55 to 64 years","data.Female",59,10.8
-"2015","data.British Columbia","data.Household chores","data.65 years and over","data.Both sexes",59,11.3
-"2015","data.British Columbia","data.Household chores","data.65 years and over","data.Male",59,10
-"2015","data.British Columbia","data.Household chores","data.65 years and over","data.Female",59,12.5
-"2015","data.British Columbia","data.Care of household children under 18 years","data.Total, 15 years and over","data.Both sexes",59,1.3
-"2015","data.British Columbia","data.Care of household children under 18 years","data.Total, 15 years and over","data.Male",59,1.3
-"2015","data.British Columbia","data.Care of household children under 18 years","data.Total, 15 years and over","data.Female",59,1.7
-"2015","data.British Columbia","data.Care of household children under 18 years","data.15 to 24 years","data.Both sexes",59,
-"2015","data.British Columbia","data.Care of household children under 18 years","data.15 to 24 years","data.Male",59,0
-"2015","data.British Columbia","data.Care of household children under 18 years","data.15 to 24 years","data.Female",59,
-"2015","data.British Columbia","data.Care of household children under 18 years","data.25 to 54 years","data.Both sexes",59,2.5
-"2015","data.British Columbia","data.Care of household children under 18 years","data.25 to 54 years","data.Male",59,2.1
-"2015","data.British Columbia","data.Care of household children under 18 years","data.25 to 54 years","data.Female",59,2.9
-"2015","data.British Columbia","data.Care of household children under 18 years","data.25 to 34 years","data.Both sexes",59,2.5
-"2015","data.British Columbia","data.Care of household children under 18 years","data.25 to 34 years","data.Male",59,1.7
-"2015","data.British Columbia","data.Care of household children under 18 years","data.25 to 34 years","data.Female",59,3.3
-"2015","data.British Columbia","data.Care of household children under 18 years","data.35 to 44 years","data.Both sexes",59,4.2
-"2015","data.British Columbia","data.Care of household children under 18 years","data.35 to 44 years","data.Male",59,3.8
-"2015","data.British Columbia","data.Care of household children under 18 years","data.35 to 44 years","data.Female",59,5
-"2015","data.British Columbia","data.Care of household children under 18 years","data.45 to 54 years","data.Both sexes",59,1.3
-"2015","data.British Columbia","data.Care of household children under 18 years","data.45 to 54 years","data.Male",59,0.8
-"2015","data.British Columbia","data.Care of household children under 18 years","data.45 to 54 years","data.Female",59,1.3
-"2015","data.British Columbia","data.Care of household children under 18 years","data.55 to 64 years","data.Both sexes",59,
-"2015","data.British Columbia","data.Care of household children under 18 years","data.55 to 64 years","data.Male",59,
-"2015","data.British Columbia","data.Care of household children under 18 years","data.55 to 64 years","data.Female",59,
-"2015","data.British Columbia","data.Care of household children under 18 years","data.65 years and over","data.Both sexes",59,
-"2015","data.British Columbia","data.Care of household children under 18 years","data.65 years and over","data.Male",59,
-"2015","data.British Columbia","data.Care of household children under 18 years","data.65 years and over","data.Female",59,
-"2015","data.British Columbia","data.Care of household adults","data.Total, 15 years and over","data.Both sexes",59,
-"2015","data.British Columbia","data.Care of household adults","data.Total, 15 years and over","data.Male",59,
-"2015","data.British Columbia","data.Care of household adults","data.Total, 15 years and over","data.Female",59,
-"2015","data.British Columbia","data.Care of household adults","data.15 to 24 years","data.Both sexes",59,
-"2015","data.British Columbia","data.Care of household adults","data.15 to 24 years","data.Male",59,
-"2015","data.British Columbia","data.Care of household adults","data.15 to 24 years","data.Female",59,0
-"2015","data.British Columbia","data.Care of household adults","data.25 to 54 years","data.Both sexes",59,
-"2015","data.British Columbia","data.Care of household adults","data.25 to 54 years","data.Male",59,
-"2015","data.British Columbia","data.Care of household adults","data.25 to 54 years","data.Female",59,
-"2015","data.British Columbia","data.Care of household adults","data.25 to 34 years","data.Both sexes",59,
-"2015","data.British Columbia","data.Care of household adults","data.25 to 34 years","data.Male",59,0
-"2015","data.British Columbia","data.Care of household adults","data.25 to 34 years","data.Female",59,
-"2015","data.British Columbia","data.Care of household adults","data.35 to 44 years","data.Both sexes",59,
-"2015","data.British Columbia","data.Care of household adults","data.35 to 44 years","data.Male",59,
-"2015","data.British Columbia","data.Care of household adults","data.35 to 44 years","data.Female",59,
-"2015","data.British Columbia","data.Care of household adults","data.45 to 54 years","data.Both sexes",59,
-"2015","data.British Columbia","data.Care of household adults","data.45 to 54 years","data.Male",59,
-"2015","data.British Columbia","data.Care of household adults","data.45 to 54 years","data.Female",59,
-"2015","data.British Columbia","data.Care of household adults","data.55 to 64 years","data.Both sexes",59,
-"2015","data.British Columbia","data.Care of household adults","data.55 to 64 years","data.Male",59,
-"2015","data.British Columbia","data.Care of household adults","data.55 to 64 years","data.Female",59,
-"2015","data.British Columbia","data.Care of household adults","data.65 years and over","data.Both sexes",59,
-"2015","data.British Columbia","data.Care of household adults","data.65 years and over","data.Male",59,
-"2015","data.British Columbia","data.Care of household adults","data.65 years and over","data.Female",59,
-"2015","data.British Columbia","data.Shopping for goods or services","data.Total, 15 years and over","data.Both sexes",59,2.1
-"2015","data.British Columbia","data.Shopping for goods or services","data.Total, 15 years and over","data.Male",59,1.7
-"2015","data.British Columbia","data.Shopping for goods or services","data.Total, 15 years and over","data.Female",59,2.5
-"2015","data.British Columbia","data.Shopping for goods or services","data.15 to 24 years","data.Both sexes",59,2.5
-"2015","data.British Columbia","data.Shopping for goods or services","data.15 to 24 years","data.Male",59,
-"2015","data.British Columbia","data.Shopping for goods or services","data.15 to 24 years","data.Female",59,3.8
-"2015","data.British Columbia","data.Shopping for goods or services","data.25 to 54 years","data.Both sexes",59,1.7
-"2015","data.British Columbia","data.Shopping for goods or services","data.25 to 54 years","data.Male",59,1.3
-"2015","data.British Columbia","data.Shopping for goods or services","data.25 to 54 years","data.Female",59,2.1
-"2015","data.British Columbia","data.Shopping for goods or services","data.25 to 34 years","data.Both sexes",59,1.7
-"2015","data.British Columbia","data.Shopping for goods or services","data.25 to 34 years","data.Male",59,1.3
-"2015","data.British Columbia","data.Shopping for goods or services","data.25 to 34 years","data.Female",59,1.7
-"2015","data.British Columbia","data.Shopping for goods or services","data.35 to 44 years","data.Both sexes",59,1.7
-"2015","data.British Columbia","data.Shopping for goods or services","data.35 to 44 years","data.Male",59,0.8
-"2015","data.British Columbia","data.Shopping for goods or services","data.35 to 44 years","data.Female",59,2.1
-"2015","data.British Columbia","data.Shopping for goods or services","data.45 to 54 years","data.Both sexes",59,2.1
-"2015","data.British Columbia","data.Shopping for goods or services","data.45 to 54 years","data.Male",59,2.1
-"2015","data.British Columbia","data.Shopping for goods or services","data.45 to 54 years","data.Female",59,2.5
-"2015","data.British Columbia","data.Shopping for goods or services","data.55 to 64 years","data.Both sexes",59,2.5
-"2015","data.British Columbia","data.Shopping for goods or services","data.55 to 64 years","data.Male",59,2.5
-"2015","data.British Columbia","data.Shopping for goods or services","data.55 to 64 years","data.Female",59,2.5
-"2015","data.British Columbia","data.Shopping for goods or services","data.65 years and over","data.Both sexes",59,2.5
-"2015","data.British Columbia","data.Shopping for goods or services","data.65 years and over","data.Male",59,2.5
-"2015","data.British Columbia","data.Shopping for goods or services","data.65 years and over","data.Female",59,2.5
+"Year","Geography","Age group","Gender","GeoCode","Value"
+"2015","Canada","Total, 15 years and over","Total, all persons",,12.5
+"2015","Canada","Total, 15 years and over","Men+",,10
+"2015","Canada","Total, 15 years and over","Women+",,15
+"2015","Canada","15 to 24 years","Total, all persons",,5.4
+"2015","Canada","15 to 24 years","Men+",,4.6
+"2015","Canada","15 to 24 years","Women+",,6.7
+"2015","Canada","25 to 54 years","Total, all persons",,13.3
+"2015","Canada","25 to 54 years","Men+",,10.4
+"2015","Canada","25 to 54 years","Women+",,16.3
+"2015","Canada","25 to 34 years","Total, all persons",,12.1
+"2015","Canada","25 to 34 years","Men+",,7.9
+"2015","Canada","25 to 34 years","Women+",,15.8
+"2015","Canada","35 to 44 years","Total, all persons",,15
+"2015","Canada","35 to 44 years","Men+",,11.7
+"2015","Canada","35 to 44 years","Women+",,17.9
+"2015","Canada","45 to 54 years","Total, all persons",,13.3
+"2015","Canada","45 to 54 years","Men+",,11.3
+"2015","Canada","45 to 54 years","Women+",,15.4
+"2015","Canada","55 to 64 years","Total, all persons",,14.2
+"2015","Canada","55 to 64 years","Men+",,12.1
+"2015","Canada","55 to 64 years","Women+",,16.3
+"2015","Canada","65 years and over","Total, all persons",,15
+"2015","Canada","65 years and over","Men+",,13.3
+"2015","Canada","65 years and over","Women+",,16.7
+"2015","Atlantic","Total, 15 years and over","Total, all persons",1,13.3
+"2015","Atlantic","Total, 15 years and over","Men+",1,11.3
+"2015","Atlantic","Total, 15 years and over","Women+",1,15.4
+"2015","Atlantic","15 to 24 years","Total, all persons",1,5.8
+"2015","Atlantic","15 to 24 years","Men+",1,5.4
+"2015","Atlantic","15 to 24 years","Women+",1,6.3
+"2015","Atlantic","25 to 54 years","Total, all persons",1,13.8
+"2015","Atlantic","25 to 54 years","Men+",1,11.3
+"2015","Atlantic","25 to 54 years","Women+",1,16.3
+"2015","Atlantic","25 to 34 years","Total, all persons",1,12.5
+"2015","Atlantic","25 to 34 years","Men+",1,8.8
+"2015","Atlantic","25 to 34 years","Women+",1,15.8
+"2015","Atlantic","35 to 44 years","Total, all persons",1,14.6
+"2015","Atlantic","35 to 44 years","Men+",1,12.5
+"2015","Atlantic","35 to 44 years","Women+",1,17.1
+"2015","Atlantic","45 to 54 years","Total, all persons",1,14.2
+"2015","Atlantic","45 to 54 years","Men+",1,11.7
+"2015","Atlantic","45 to 54 years","Women+",1,16.3
+"2015","Atlantic","55 to 64 years","Total, all persons",1,15.4
+"2015","Atlantic","55 to 64 years","Men+",1,13.3
+"2015","Atlantic","55 to 64 years","Women+",1,17.5
+"2015","Atlantic","65 years and over","Total, all persons",1,15
+"2015","Atlantic","65 years and over","Men+",1,13.3
+"2015","Atlantic","65 years and over","Women+",1,16.7
+"2015","Quebec","Total, 15 years and over","Total, all persons",24,12.5
+"2015","Quebec","Total, 15 years and over","Men+",24,10.4
+"2015","Quebec","Total, 15 years and over","Women+",24,14.6
+"2015","Quebec","15 to 24 years","Total, all persons",24,5.4
+"2015","Quebec","15 to 24 years","Men+",24,4.6
+"2015","Quebec","15 to 24 years","Women+",24,5.8
+"2015","Quebec","25 to 54 years","Total, all persons",24,13.3
+"2015","Quebec","25 to 54 years","Men+",24,10.8
+"2015","Quebec","25 to 54 years","Women+",24,15.8
+"2015","Quebec","25 to 34 years","Total, all persons",24,12.1
+"2015","Quebec","25 to 34 years","Men+",24,8.8
+"2015","Quebec","25 to 34 years","Women+",24,15.8
+"2015","Quebec","35 to 44 years","Total, all persons",24,15
+"2015","Quebec","35 to 44 years","Men+",24,12.9
+"2015","Quebec","35 to 44 years","Women+",24,17.1
+"2015","Quebec","45 to 54 years","Total, all persons",24,12.5
+"2015","Quebec","45 to 54 years","Men+",24,10.8
+"2015","Quebec","45 to 54 years","Women+",24,14.6
+"2015","Quebec","55 to 64 years","Total, all persons",24,13.8
+"2015","Quebec","55 to 64 years","Men+",24,11.7
+"2015","Quebec","55 to 64 years","Women+",24,15.8
+"2015","Quebec","65 years and over","Total, all persons",24,14.2
+"2015","Quebec","65 years and over","Men+",24,11.7
+"2015","Quebec","65 years and over","Women+",24,16.3
+"2015","Ontario","Total, 15 years and over","Total, all persons",35,12.5
+"2015","Ontario","Total, 15 years and over","Men+",35,10
+"2015","Ontario","Total, 15 years and over","Women+",35,15
+"2015","Ontario","15 to 24 years","Total, all persons",35,5.4
+"2015","Ontario","15 to 24 years","Men+",35,4.6
+"2015","Ontario","15 to 24 years","Women+",35,6.3
+"2015","Ontario","25 to 54 years","Total, all persons",35,13.3
+"2015","Ontario","25 to 54 years","Men+",35,10
+"2015","Ontario","25 to 54 years","Women+",35,16.3
+"2015","Ontario","25 to 34 years","Total, all persons",35,11.7
+"2015","Ontario","25 to 34 years","Men+",35,7.1
+"2015","Ontario","25 to 34 years","Women+",35,15.8
+"2015","Ontario","35 to 44 years","Total, all persons",35,15
+"2015","Ontario","35 to 44 years","Men+",35,11.7
+"2015","Ontario","35 to 44 years","Women+",35,18.3
+"2015","Ontario","45 to 54 years","Total, all persons",35,12.9
+"2015","Ontario","45 to 54 years","Men+",35,10.4
+"2015","Ontario","45 to 54 years","Women+",35,15
+"2015","Ontario","55 to 64 years","Total, all persons",35,14.6
+"2015","Ontario","55 to 64 years","Men+",35,11.7
+"2015","Ontario","55 to 64 years","Women+",35,17.5
+"2015","Ontario","65 years and over","Total, all persons",35,15.4
+"2015","Ontario","65 years and over","Men+",35,13.3
+"2015","Ontario","65 years and over","Women+",35,17.5
+"2015","Prairies","Total, 15 years and over","Total, all persons",4,12.9
+"2015","Prairies","Total, 15 years and over","Men+",4,10.4
+"2015","Prairies","Total, 15 years and over","Women+",4,15.8
+"2015","Prairies","15 to 24 years","Total, all persons",4,6.7
+"2015","Prairies","15 to 24 years","Men+",4,5
+"2015","Prairies","15 to 24 years","Women+",4,8.3
+"2015","Prairies","25 to 54 years","Total, all persons",4,14.2
+"2015","Prairies","25 to 54 years","Men+",4,10.4
+"2015","Prairies","25 to 54 years","Women+",4,17.9
+"2015","Prairies","25 to 34 years","Total, all persons",4,12.5
+"2015","Prairies","25 to 34 years","Men+",4,7.9
+"2015","Prairies","25 to 34 years","Women+",4,17.5
+"2015","Prairies","35 to 44 years","Total, all persons",4,15.8
+"2015","Prairies","35 to 44 years","Men+",4,11.3
+"2015","Prairies","35 to 44 years","Women+",4,20
+"2015","Prairies","45 to 54 years","Total, all persons",4,14.2
+"2015","Prairies","45 to 54 years","Men+",4,12.1
+"2015","Prairies","45 to 54 years","Women+",4,16.3
+"2015","Prairies","55 to 64 years","Total, all persons",4,13.3
+"2015","Prairies","55 to 64 years","Men+",4,11.7
+"2015","Prairies","55 to 64 years","Women+",4,15.4
+"2015","Prairies","65 years and over","Total, all persons",4,16.3
+"2015","Prairies","65 years and over","Men+",4,15
+"2015","Prairies","65 years and over","Women+",4,17.1
+"2015","British Columbia","Total, 15 years and over","Total, all persons",59,12.5
+"2015","British Columbia","Total, 15 years and over","Men+",59,10.4
+"2015","British Columbia","Total, 15 years and over","Women+",59,14.2
+"2015","British Columbia","15 to 24 years","Total, all persons",59,5.4
+"2015","British Columbia","15 to 24 years","Men+",59,3.3
+"2015","British Columbia","15 to 24 years","Women+",59,7.9
+"2015","British Columbia","25 to 54 years","Total, all persons",59,13.3
+"2015","British Columbia","25 to 54 years","Men+",59,10.8
+"2015","British Columbia","25 to 54 years","Women+",59,15.4
+"2015","British Columbia","25 to 34 years","Total, all persons",59,11.3
+"2015","British Columbia","25 to 34 years","Men+",59,8.3
+"2015","British Columbia","25 to 34 years","Women+",59,14.2
+"2015","British Columbia","35 to 44 years","Total, all persons",59,13.3
+"2015","British Columbia","35 to 44 years","Men+",59,10.8
+"2015","British Columbia","35 to 44 years","Women+",59,16.3
+"2015","British Columbia","45 to 54 years","Total, all persons",59,14.6
+"2015","British Columbia","45 to 54 years","Men+",59,13.3
+"2015","British Columbia","45 to 54 years","Women+",59,16.3
+"2015","British Columbia","55 to 64 years","Total, all persons",59,13.3
+"2015","British Columbia","55 to 64 years","Men+",59,12.5
+"2015","British Columbia","55 to 64 years","Women+",59,14.6
+"2015","British Columbia","65 years and over","Total, all persons",59,15
+"2015","British Columbia","65 years and over","Men+",59,13.3
+"2015","British Columbia","65 years and over","Women+",59,15.8
+"2022","Canada","Total, 15 years and over","Total, all persons",,13.3
+"2022","Canada","Total, 15 years and over","Men+",,10.8
+"2022","Canada","Total, 15 years and over","Women+",,15.4
+"2022","Canada","15 to 24 years","Total, all persons",,5
+"2022","Canada","15 to 24 years","Men+",,4.2
+"2022","Canada","15 to 24 years","Women+",,6.3
+"2022","Canada","25 to 54 years","Total, all persons",,14.6
+"2022","Canada","25 to 54 years","Men+",,10.8
+"2022","Canada","25 to 54 years","Women+",,17.9
+"2022","Canada","25 to 34 years","Total, all persons",,12.5
+"2022","Canada","25 to 34 years","Men+",,8.8
+"2022","Canada","25 to 34 years","Women+",,16.3
+"2022","Canada","35 to 44 years","Total, all persons",,16.3
+"2022","Canada","35 to 44 years","Men+",,12.5
+"2022","Canada","35 to 44 years","Women+",,20.4
+"2022","Canada","45 to 54 years","Total, all persons",,14.2
+"2022","Canada","45 to 54 years","Men+",,12.1
+"2022","Canada","45 to 54 years","Women+",,16.7
+"2022","Canada","55 to 64 years","Total, all persons",,14.6
+"2022","Canada","55 to 64 years","Men+",,12.9
+"2022","Canada","55 to 64 years","Women+",,16.7
+"2022","Canada","65 years and over","Total, all persons",,14.6
+"2022","Canada","65 years and over","Men+",,13.3
+"2022","Canada","65 years and over","Women+",,15.8
+"2022","Atlantic","Total, 15 years and over","Total, all persons",1,14.2
+"2022","Atlantic","Total, 15 years and over","Men+",1,11.7
+"2022","Atlantic","Total, 15 years and over","Women+",1,16.7
+"2022","Atlantic","15 to 24 years","Total, all persons",1,
+"2022","Atlantic","15 to 24 years","Men+",1,
+"2022","Atlantic","15 to 24 years","Women+",1,
+"2022","Atlantic","25 to 54 years","Total, all persons",1,14.6
+"2022","Atlantic","25 to 54 years","Men+",1,11.7
+"2022","Atlantic","25 to 54 years","Women+",1,17.5
+"2022","Atlantic","25 to 34 years","Total, all persons",1,13.8
+"2022","Atlantic","25 to 34 years","Men+",1,
+"2022","Atlantic","25 to 34 years","Women+",1,16.3
+"2022","Atlantic","35 to 44 years","Total, all persons",1,17.5
+"2022","Atlantic","35 to 44 years","Men+",1,
+"2022","Atlantic","35 to 44 years","Women+",1,20
+"2022","Atlantic","45 to 54 years","Total, all persons",1,13.3
+"2022","Atlantic","45 to 54 years","Men+",1,9.2
+"2022","Atlantic","45 to 54 years","Women+",1,17.1
+"2022","Atlantic","55 to 64 years","Total, all persons",1,14.6
+"2022","Atlantic","55 to 64 years","Men+",1,13.3
+"2022","Atlantic","55 to 64 years","Women+",1,15.8
+"2022","Atlantic","65 years and over","Total, all persons",1,16.3
+"2022","Atlantic","65 years and over","Men+",1,15
+"2022","Atlantic","65 years and over","Women+",1,17.1
+"2022","Quebec","Total, 15 years and over","Total, all persons",24,12.1
+"2022","Quebec","Total, 15 years and over","Men+",24,10
+"2022","Quebec","Total, 15 years and over","Women+",24,14.2
+"2022","Quebec","15 to 24 years","Total, all persons",24,
+"2022","Quebec","15 to 24 years","Men+",24,
+"2022","Quebec","15 to 24 years","Women+",24,
+"2022","Quebec","25 to 54 years","Total, all persons",24,12.9
+"2022","Quebec","25 to 54 years","Men+",24,9.6
+"2022","Quebec","25 to 54 years","Women+",24,16.3
+"2022","Quebec","25 to 34 years","Total, all persons",24,11.7
+"2022","Quebec","25 to 34 years","Men+",24,7.5
+"2022","Quebec","25 to 34 years","Women+",24,16.7
+"2022","Quebec","35 to 44 years","Total, all persons",24,14.2
+"2022","Quebec","35 to 44 years","Men+",24,10.4
+"2022","Quebec","35 to 44 years","Women+",24,18.3
+"2022","Quebec","45 to 54 years","Total, all persons",24,12.9
+"2022","Quebec","45 to 54 years","Men+",24,11.3
+"2022","Quebec","45 to 54 years","Women+",24,14.6
+"2022","Quebec","55 to 64 years","Total, all persons",24,14.2
+"2022","Quebec","55 to 64 years","Men+",24,12.5
+"2022","Quebec","55 to 64 years","Women+",24,15.4
+"2022","Quebec","65 years and over","Total, all persons",24,13.3
+"2022","Quebec","65 years and over","Men+",24,12.5
+"2022","Quebec","65 years and over","Women+",24,14.2
+"2022","Ontario","Total, 15 years and over","Total, all persons",35,13.8
+"2022","Ontario","Total, 15 years and over","Men+",35,10.8
+"2022","Ontario","Total, 15 years and over","Women+",35,16.3
+"2022","Ontario","15 to 24 years","Total, all persons",35,5
+"2022","Ontario","15 to 24 years","Men+",35,
+"2022","Ontario","15 to 24 years","Women+",35,
+"2022","Ontario","25 to 54 years","Total, all persons",35,15
+"2022","Ontario","25 to 54 years","Men+",35,12.1
+"2022","Ontario","25 to 54 years","Women+",35,18.3
+"2022","Ontario","25 to 34 years","Total, all persons",35,12.5
+"2022","Ontario","25 to 34 years","Men+",35,9.6
+"2022","Ontario","25 to 34 years","Women+",35,15.4
+"2022","Ontario","35 to 44 years","Total, all persons",35,17.5
+"2022","Ontario","35 to 44 years","Men+",35,13.3
+"2022","Ontario","35 to 44 years","Women+",35,21.7
+"2022","Ontario","45 to 54 years","Total, all persons",35,16.3
+"2022","Ontario","45 to 54 years","Men+",35,13.8
+"2022","Ontario","45 to 54 years","Women+",35,18.3
+"2022","Ontario","55 to 64 years","Total, all persons",35,15.4
+"2022","Ontario","55 to 64 years","Men+",35,13.8
+"2022","Ontario","55 to 64 years","Women+",35,17.1
+"2022","Ontario","65 years and over","Total, all persons",35,14.6
+"2022","Ontario","65 years and over","Men+",35,12.9
+"2022","Ontario","65 years and over","Women+",35,16.3
+"2022","Prairies","Total, 15 years and over","Total, all persons",4,14.2
+"2022","Prairies","Total, 15 years and over","Men+",4,11.3
+"2022","Prairies","Total, 15 years and over","Women+",4,16.7
+"2022","Prairies","15 to 24 years","Total, all persons",4,
+"2022","Prairies","15 to 24 years","Men+",4,
+"2022","Prairies","15 to 24 years","Women+",4,
+"2022","Prairies","25 to 54 years","Total, all persons",4,15.4
+"2022","Prairies","25 to 54 years","Men+",4,11.3
+"2022","Prairies","25 to 54 years","Women+",4,19.6
+"2022","Prairies","25 to 34 years","Total, all persons",4,13.8
+"2022","Prairies","25 to 34 years","Men+",4,8.3
+"2022","Prairies","25 to 34 years","Women+",4,19.2
+"2022","Prairies","35 to 44 years","Total, all persons",4,17.9
+"2022","Prairies","35 to 44 years","Men+",4,13.3
+"2022","Prairies","35 to 44 years","Women+",4,23.3
+"2022","Prairies","45 to 54 years","Total, all persons",4,13.8
+"2022","Prairies","45 to 54 years","Men+",4,11.7
+"2022","Prairies","45 to 54 years","Women+",4,15.8
+"2022","Prairies","55 to 64 years","Total, all persons",4,14.2
+"2022","Prairies","55 to 64 years","Men+",4,12.1
+"2022","Prairies","55 to 64 years","Women+",4,15.8
+"2022","Prairies","65 years and over","Total, all persons",4,15.4
+"2022","Prairies","65 years and over","Men+",4,14.2
+"2022","Prairies","65 years and over","Women+",4,16.3
+"2022","British Columbia","Total, 15 years and over","Total, all persons",59,12.5
+"2022","British Columbia","Total, 15 years and over","Men+",59,10.4
+"2022","British Columbia","Total, 15 years and over","Women+",59,14.2
+"2022","British Columbia","15 to 24 years","Total, all persons",59,
+"2022","British Columbia","15 to 24 years","Men+",59,
+"2022","British Columbia","15 to 24 years","Women+",59,
+"2022","British Columbia","25 to 54 years","Total, all persons",59,12.9
+"2022","British Columbia","25 to 54 years","Men+",59,9.6
+"2022","British Columbia","25 to 54 years","Women+",59,15.8
+"2022","British Columbia","25 to 34 years","Total, all persons",59,10.8
+"2022","British Columbia","25 to 34 years","Men+",59,7.1
+"2022","British Columbia","25 to 34 years","Women+",59,14.6
+"2022","British Columbia","35 to 44 years","Total, all persons",59,14.2
+"2022","British Columbia","35 to 44 years","Men+",59,10.8
+"2022","British Columbia","35 to 44 years","Women+",59,17.5
+"2022","British Columbia","45 to 54 years","Total, all persons",59,13.8
+"2022","British Columbia","45 to 54 years","Men+",59,12.1
+"2022","British Columbia","45 to 54 years","Women+",59,15.4
+"2022","British Columbia","55 to 64 years","Total, all persons",59,15
+"2022","British Columbia","55 to 64 years","Men+",59,12.5
+"2022","British Columbia","55 to 64 years","Women+",59,17.1
+"2022","British Columbia","65 years and over","Total, all persons",59,15.4
+"2022","British Columbia","65 years and over","Men+",59,14.2
+"2022","British Columbia","65 years and over","Women+",59,16.7
