@@ -480,6 +480,16 @@
   progress_status: deterioration
   target: '85'
   target_year: '2030'
+6-6-1:
+  base_value: '77.0'
+  base_year: '2016'
+  current_value: '76.8'
+  current_year: '2022'
+  direction: positive
+  progress_calculation_value: '-0.03957817910533357'
+  progress_status: deterioration
+  target: '100'
+  target_year: '2040'
 7-1-1:
   base_value: '27.4'
   base_year: '2017'
