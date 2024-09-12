@@ -22,6 +22,7 @@ Total, all persons: Total, toutes les personnes
 Geography: Géographie
 Canada: Canada
 Canada (excluding territories): Canada (sans les territoires)
+Canada (provinces only): Canada (provinces seulement)
 Canada, excluding the territories: Canada, sans les territoires
 Atlantic: Atlantique
 Atlantic provinces: Provinces de l'Atlantique
@@ -63,6 +64,10 @@ Yukon [60]: Yukon
 Northwest Territories [61]: Territoires du Nord-Ouest
 Nunavut [62]: Nunavut
 
+Province: Province
+Provinces: Provinces
+Province or territory: Province ou territoire
+Provinces and territories: Provinces et territoires
 Region: Région
 Regions: Régions
 All regions: Toutes les régions
@@ -1085,9 +1090,23 @@ Number of shelter users experiencing chronic homelessness: Nombre d'usagers des 
 Percentage change in the number of shelter users experiencing chronic homelessness from the 2016 baseline: Changement en pourcentage du nombre d'usagers des refuges en situation d'itinérance chronique par rapport au niveau de référence de 2016
 
 ## 11-2-1
+Type of region: Type de région
+Large urban population centres: Grands centres de population urbains
+Medium population centres: Moyens centres de population
+Small population centres: Petits centres de population
+Rural areas: Régions rurales
+Census metropolitan area: Région métropolitaine de recensement
+Census agglomerations: Agglomérations de recensement
+Outside census metropolitan areas and census agglomerations: À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement
+Other census metropolitan areas, New Brunswick: Autres régions métropolitaines de recensement, Nouveau-Brunswick
+Other census metropolitan areas, Quebec: Autres régions métropolitaines de recensement, Québec
+Other census metropolitan areas, Ontario: Autres régions métropolitaines de recensement, Ontario
+Other census metropolitan areas, Alberta: Autres régions métropolitaines de recensement, Alberta
+Other census metropolitan areas, British Columbia: Autres régions métropolitaines de recensement, Colombie-Britannique
+
 Selected housing vulnerable populations: Certaines population vulnérables en matière de logement
+Selected housing-vulnerable populations: Certaines population vulnérables en matière de logement
 All households: Tous les ménages
-Total, lone-parent family households: Tous les ménages
 Lone-parent family households whose reference person is male: Ménages comptant une famille monoparentale dont la personne de référence est un homme
 Lone-parent family households whose reference person is female: Ménages comptant une famille monoparentale dont la personne de référence est une femme
 Total, one person households: Total, ménages comptant une personne seule
@@ -1100,7 +1119,6 @@ Living in unsuitable housing: Vivant dans un logement de taille non convenable
 Living in inadequate housing: Vivant dans un logement de qualité non convenable
 Living in core housing need: Ayant des besoins impérieux en matière de logement
 Select housing vulnerable populations: Certaines populations vulnérables en matière de logement
-All households: Tous les ménages
 Total, one-parent one-family households: Total, ménages comptant une seule famille monoparentale
 One-parent one-family households whose reference person is a man+: Ménages comptant une seule famille monoparentale dont la personne de référence est un homme+
 One-parent one-family households whose reference person is a woman+: Ménages comptant une seule famille monoparentale dont la personne de référence est une femme+
@@ -1108,15 +1126,8 @@ Total, one-person households: Total, ménages composés d'une seule personne
 Men+ living alone: Hommes+ vivant seuls
 Women+ living alone: Femmes+ vivant seules
 Reference persons who have experienced homelessness: Personnes de référence qui ont vécu une période d'itinérance
-Living with housing problems: Éprouvant des problèmes de logement
-Large urban population centres: Grands centres de population urbains
-Other census metropolitan areas, Quebec: Autres régions métropolitaines de recensement, Québec
-Other census metropolitan areas, Ontario: Autres régions métropolitaines de recensement, Ontario
-Other census metropolitan areas, British Columbia: Autres régions métropolitaines de recensement, Colombie-Britannique
 Total, census metropolitan areas: Total, régions métropolitaines de recensement
-Census agglomerations: Agglomérations de recensement
 Total, census agglomerations: Total, agglomérations de recensement
-Outside census metropolitan areas and census agglomerations: À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement
 Total, outside census metropolitan areas and census agglomerations: Total, à l'extérieur des régions métropolitaines de recensement et agglomérations de recensement
 Total, large urban population centres: Total, grands centres de population urbains
 Total, medium population centres: Total, moyens centres de population
@@ -1128,8 +1139,10 @@ Selected census metropolitan areas: Régions métropolitaines de recensement sé
 Provinces and territories: Provinces et territoires
 Census metropolitan areas: Régions métropolitaines de recensement
 Total, tenure: Total, mode d'occupation
+Owner: Propriétaire
 Owner who is a first-time homebuyer: Propriétaire qui est un accédant à la propriété
 Owner who is not a first-time homebuyer: Propriétaire qui n'est pas un accédant à la propriété
+Renter: Locataire
 Renter not in social and affordable housing: Locataire n'habitant pas dans un logement social et abordable
 Renter in social and affordable housing: Locataire habitant dans un logement social et abordable
 
