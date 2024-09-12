@@ -5,8 +5,30 @@ library(dplyr)
 library(tidyr)
 library(cansim)
 
-raw_data1 <- get_cansim("46-10-0085-01", factors = FALSE)
-raw_data2 <- get_cansim("46-10-0067-01", factors = FALSE)
+raw_data1 <- get_cansim("46-10-0067-01", factors = FALSE)
+raw_data2 <- get_cansim("46-10-0085-01", factors = FALSE)
+
+
+core_housing_by_vulnerable_population <- raw_data1 %>%
+  filter(
+    Statistics == "Percentage of households",
+    `Living with housing problems` == "Living in core housing need",
+  ) %>%
+  select(
+    Year = REF_DATE,
+    Geography = GEO,
+    `Select housing-vulnerable populations`,
+    GeoCode = GeoUID,
+    Value = VALUE,
+  ) %>%
+  # Blank headline data
+  mutate(
+    across(
+      c("Geography", "Select housing-vulnerable populations"),
+      ~ replace(., `Select housing-vulnerable populations` == "All households", NA)
+    )
+  )
+
 
 provinces <- c(
   "Newfoundland and Labrador",
@@ -53,7 +75,7 @@ outside <- paste("Outside census metropolitan areas and census agglomerations", 
 large_pop <- paste("Large urban population centres", provinces, sep = ", ") %>%
   append("Total, large urban population centres")
 
-med_pop <- paste("Medium urban population centres", provinces, sep = ", ") %>%
+med_pop <- paste("Medium population centres", provinces, sep = ", ") %>%
   append("Total, medium population centres")
 
 small_pop <- paste("Small population centres", provinces, sep = ", ") %>%
@@ -63,7 +85,7 @@ rural <- paste("Rural areas", provinces, sep = ", ") %>%
   append("Total, rural areas")
 
 
-core_housing_by_tenure <- raw_data1 %>%
+core_housing_by_tenure <- raw_data2 %>%
   filter(
     `Core housing need statistics` == "Percentage of households in core housing need"
   ) %>%
@@ -73,6 +95,10 @@ core_housing_by_tenure <- raw_data1 %>%
     Tenure = `Tenure including first-time homebuyer and social and affordable housing status`,
     GeoCode = GeoUID,
     Value = VALUE
+  ) %>%
+  # filter out data that duplicates headline data from first table
+  filter(
+    !(Geography == "Canada (provinces only)" & Tenure == "Total, tenure") 
   ) %>%
   # Add column: Type of region
   mutate(
@@ -103,22 +129,6 @@ core_housing_by_tenure <- raw_data1 %>%
       .default = Geography
       )
   )
-
-
-core_housing_by_vulnerable_population <- raw_data2 %>%
-  filter(
-    Statistics == "Percentage of households",
-    `Living with housing problems` == "Living in core housing need",
-  ) %>%
-  select(
-    Year = REF_DATE,
-    Geography = GEO,
-    `Select housing-vulnerable populations`,
-    GeoCode = GeoUID,
-    Value = VALUE
-  )
-  # Add column: Type of region
-  # mutate(`Type of region` == "Canada (provinces only)")
   
 
 data_final <- 
@@ -127,19 +137,8 @@ data_final <-
     core_housing_by_vulnerable_population
   ) %>%
   relocate(`Select housing-vulnerable populations`, .before = GeoCode) %>%
-  # Remove duplicate headline data from the second CODR table
-  filter(
-    `Select housing-vulnerable populations` != "All households" | is.na(`Select housing-vulnerable populations`)
-  ) %>%
-  mutate(
-    # Remove geocode for Canada
-    GeoCode = replace(GeoCode, GeoCode == 11124, NA),
-    # Blank headline data
-    across(
-      c("Geography", "Type of region", "Tenure"),
-      ~ replace(., Geography == "Canada (provinces only)" & Tenure == "Total, tenure", NA)
-    )
-  )
+  # Remove geocode for Canada
+  mutate(GeoCode = replace(GeoCode, GeoCode == 11124, NA))
 
 data_final$GeoCode <- as.numeric(data_final$GeoCode)
 
