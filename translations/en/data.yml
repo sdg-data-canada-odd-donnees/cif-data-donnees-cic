@@ -22,6 +22,7 @@ Total, all persons: Total, all persons
 Geography: Geography
 Canada: Canada
 Canada (excluding territories): Canada (excluding territories)
+Canada (provinces only): Canada (provinces only)
 Canada, excluding the territories: Canada, excluding the territories
 Atlantic: Atlantic
 Atlantic provinces: Atlantic provinces
@@ -63,6 +64,11 @@ Yukon [60]: Yukon
 Northwest Territories [61]: Northwest Territories
 Nunavut [62]: Nunavut
 
+Province: Province
+Provinces: Provinces
+Province or territory: Province or territory
+Provinces and territories: Provinces and territories
+Territory: Territory
 Region: Region
 Regions: Regions
 All regions: All regions
@@ -1081,11 +1087,26 @@ Number of shelter users experiencing chronic homelessness: Number of shelter use
 Percentage change in the number of shelter users experiencing chronic homelessness from the 2016 baseline: Percentage change in the number of shelter users experiencing chronic homelessness from the 2016 baseline
 
 ## 11-2-1
+Type of region: Type of region
+Large urban population centres: Large urban population centres
+Medium population centres: Medium population centres
+Small population centres: Small population centres
+Rural areas: Rural areas
+Census metropolitan area: Census metropolitan area
+Census agglomerations: Census agglomerations
+Outside census metropolitan areas and census agglomerations: Outside census metropolitan areas and census agglomerations
+Other census metropolitan areas, New Brunswick: Other census metropolitan areas, New Brunswick
+Other census metropolitan areas, Quebec: Other census metropolitan areas, Quebec
+Other census metropolitan areas, Ontario: Other census metropolitan areas, Ontario
+Other census metropolitan areas, Alberta: Other census metropolitan areas, Alberta
+Other census metropolitan areas, British Columbia: Other census metropolitan areas, British Columbia
+
 Living in unaffordable housing: Living in unaffordable housing
 Living in unsuitable housing: Living in unsuitable housing
 Living in inadequate housing: Living in inadequate housing
 Living in core housing need: Living in core housing need
 Select housing vulnerable populations: Select housing vulnerable populations
+Select housing-vulnerable populations: Select housing-vulnerable populations
 All households: All households
 Total, one-parent one-family households: Total, one-parent one-family households
 One-parent one-family households whose reference person is a man+: One-parent one-family households whose reference person is a man+
@@ -1095,27 +1116,24 @@ Men+ living alone: Men+ living alone
 Women+ living alone: Women+ living alone
 Reference persons who have experienced homelessness: Reference persons who have experienced homelessness
 Living with housing problems: Living with housing problems
-Large urban population centres: Large urban population centres
-Other census metropolitan areas, Quebec: Other census metropolitan areas, Quebec
-Other census metropolitan areas, Ontario: Other census metropolitan areas, Ontario
-Other census metropolitan areas, British Columbia: Other census metropolitan areas, British Columbia
 Total, census metropolitan areas: Total, census metropolitan areas
-Census agglomerations: Census agglomerations
 Total, census agglomerations: Total, census agglomerations
-Outside census metropolitan areas and census agglomerations: Outside census metropolitan areas and census agglomerations
 Total, outside census metropolitan areas and census agglomerations: Total, outside census metropolitan areas and census agglomerations
 Total, large urban population centres: Total, large urban population centres
 Total, medium population centres: Total, medium population centres
 Total, small population centres: Total, small population centres
 Total, rural areas: Total, rural areas
 Geographic location: Geographic location
+
 Tenure: Tenure
 Selected census metropolitan areas: Selected census metropolitan areas
 Provinces and territories: Provinces and territories
 Census metropolitan areas: Census metropolitan areas
 Total, tenure: Total, tenure
+Owner: Owner
 Owner who is a first-time homebuyer: Owner who is a first-time homebuyer
 Owner who is not a first-time homebuyer: Owner who is not a first-time homebuyer
+Renter: Renter
 Renter not in social and affordable housing: Renter not in social and affordable housing
 Renter in social and affordable housing: Renter in social and affordable housing
 
