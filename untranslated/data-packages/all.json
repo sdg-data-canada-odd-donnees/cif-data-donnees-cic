@@ -5409,7 +5409,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
+                "Canada (provinces only)",
                 "Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
@@ -5420,58 +5420,45 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
-                "Ontario/Quebec",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Geographic location",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Provinces and territories",
-                "Census metropolitan areas",
-                "Census agglomerations",
-                "Outside census metropolitan areas and census agglomerations",
-                "Large urban population centres",
-                "Medium population centres",
-                "Small population centres",
-                "Rural areas",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Selected census metropolitan areas",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total, census metropolitan areas",
                 "St. John's, Newfoundland and Labrador",
                 "Halifax, Nova Scotia",
                 "Moncton, New Brunswick",
-                "Saint John, New Brunswick",
                 "Québec, Quebec",
                 "Montréal, Quebec",
                 "Ottawa-Gatineau, Ontario/Quebec",
                 "Toronto, Ontario",
                 "Hamilton, Ontario",
                 "Kitchener-Cambridge-Waterloo, Ontario",
+                "London, Ontario",
                 "Winnipeg, Manitoba",
                 "Regina, Saskatchewan",
                 "Saskatoon, Saskatchewan",
-                "Lethbridge, Alberta",
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Vancouver, British Columbia",
+                "Other census metropolitan areas, New Brunswick",
                 "Other census metropolitan areas, Quebec",
                 "Other census metropolitan areas, Ontario",
+                "Other census metropolitan areas, Alberta",
                 "Other census metropolitan areas, British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada (provinces only)",
+                "Province",
+                "Large urban population centres",
+                "Small population centres",
+                "Rural areas",
+                "Census metropolitan area",
+                "Census agglomerations",
+                "Outside census metropolitan areas and census agglomerations",
+                "Medium population centres",
                 ""
               ]
             }
@@ -5488,6 +5475,22 @@
                 "Renter not in social and affordable housing",
                 "Renter in social and affordable housing",
                 "Total, tenure",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Select housing-vulnerable populations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, one-parent one-family households",
+                "One-parent one-family households whose reference person is a man+",
+                "One-parent one-family households whose reference person is a woman+",
+                "Total, one-person households",
+                "Men+ living alone",
+                "Women+ living alone",
+                "Reference persons who have experienced homelessness",
                 ""
               ]
             }

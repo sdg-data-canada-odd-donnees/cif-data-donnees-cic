@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
+                "Canada (provinces seulement)",
                 "Terre-Neuve-et-Labrador",
                 "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
@@ -31,64 +31,50 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Yukon",
-                "Territoires du Nord-Ouest",
-                "Nunavut",
-                "Ontario/Quebec",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
-            "name": "Geographic location",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Provinces et territoires",
-                "Régions métropolitaines de recensement",
-                "Agglomérations de recensement",
-                "À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement",
-                "Grands centres de population urbains",
-                "Moyens centres de population",
-                "Petits centres de population",
-                "Régions rurales",
-                ""
-              ]
-            },
-            "title": "Situation géographique"
-          },
-          {
-            "name": "Selected census metropolitan areas",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total, régions métropolitaines de recensement",
                 "St. John's, Terre-Neuve-et-Labrador",
                 "Halifax, Nouvelle-Écosse",
                 "Moncton, Nouveau-Brunswick",
-                "Saint John, Nouveau-Brunswick",
                 "Québec, Québec",
                 "Montréal, Québec",
                 "Ottawa-Gatineau, Ontario/Québec",
                 "Toronto, Ontario",
                 "Hamilton, Ontario",
                 "Kitchener-Cambridge-Waterloo, Ontario",
+                "London, Ontario",
                 "Winnipeg, Manitoba",
                 "Regina, Saskatchewan",
                 "Saskatoon, Saskatchewan",
-                "Lethbridge, Alberta",
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Vancouver, Colombie-Britannique",
+                "Autres régions métropolitaines de recensement, Nouveau-Brunswick",
                 "Autres régions métropolitaines de recensement, Québec",
                 "Autres régions métropolitaines de recensement, Ontario",
+                "Autres régions métropolitaines de recensement, Alberta",
                 "Autres régions métropolitaines de recensement, Colombie-Britannique",
                 ""
               ]
             },
-            "title": "Régions métropolitaines de recensement sélectionnées"
+            "title": "Géographie"
+          },
+          {
+            "name": "Type of region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada (provinces seulement)",
+                "Province",
+                "Grands centres de population urbains",
+                "Petits centres de population",
+                "Régions rurales",
+                "Région métropolitaine de recensement",
+                "Agglomérations de recensement",
+                "À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement",
+                "Moyens centres de population",
+                ""
+              ]
+            },
+            "title": "Type de région"
           },
           {
             "name": "Tenure",
@@ -106,6 +92,23 @@
               ]
             },
             "title": "Mode d'occupation"
+          },
+          {
+            "name": "Select housing-vulnerable populations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, ménages comptant une seule famille monoparentale",
+                "Ménages comptant une seule famille monoparentale dont la personne de référence est un homme+",
+                "Ménages comptant une seule famille monoparentale dont la personne de référence est une femme+",
+                "Total, ménages composés d'une seule personne",
+                "Hommes+ vivant seuls",
+                "Femmes+ vivant seules",
+                "Personnes de référence qui ont vécu une période d'itinérance",
+                ""
+              ]
+            },
+            "title": "Select housing-vulnerable populations"
           },
           {
             "name": "GeoCode",
