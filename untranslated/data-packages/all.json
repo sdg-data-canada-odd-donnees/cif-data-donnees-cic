@@ -5420,6 +5420,33 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
+                "Census metropolitan areas",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Geographic location",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Large urban population centres",
+                "Small population centres",
+                "Rural areas",
+                "Medium population centres",
+                "Census agglomerations",
+                "Outside census metropolitan areas and census agglomerations",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Selected census metropolitan areas",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, census metropolitan areas",
                 "St. John's, Newfoundland and Labrador",
                 "Halifax, Nova Scotia",
                 "Moncton, New Brunswick",
@@ -5441,24 +5468,6 @@
                 "Other census metropolitan areas, Ontario",
                 "Other census metropolitan areas, Alberta",
                 "Other census metropolitan areas, British Columbia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type of region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada (provinces only)",
-                "Province",
-                "Large urban population centres",
-                "Small population centres",
-                "Rural areas",
-                "Medium population centres",
-                "Census metropolitan area",
-                "Census agglomerations",
-                "Outside census metropolitan areas and census agglomerations",
                 ""
               ]
             }

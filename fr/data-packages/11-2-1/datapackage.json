@@ -31,6 +31,35 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
+                "Régions métropolitaines de recensement",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Geographic location",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Grands centres de population urbains",
+                "Petits centres de population",
+                "Régions rurales",
+                "Moyens centres de population",
+                "Agglomérations de recensement",
+                "À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement",
+                ""
+              ]
+            },
+            "title": "Situation géographique"
+          },
+          {
+            "name": "Selected census metropolitan areas",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, régions métropolitaines de recensement",
                 "St. John's, Terre-Neuve-et-Labrador",
                 "Halifax, Nouvelle-Écosse",
                 "Moncton, Nouveau-Brunswick",
@@ -55,26 +84,7 @@
                 ""
               ]
             },
-            "title": "Géographie"
-          },
-          {
-            "name": "Type of region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada (provinces seulement)",
-                "Province",
-                "Grands centres de population urbains",
-                "Petits centres de population",
-                "Régions rurales",
-                "Moyens centres de population",
-                "Région métropolitaine de recensement",
-                "Agglomérations de recensement",
-                "À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement",
-                ""
-              ]
-            },
-            "title": "Type de région"
+            "title": "Régions métropolitaines de recensement sélectionnées"
           },
           {
             "name": "Tenure",
@@ -108,7 +118,7 @@
                 ""
               ]
             },
-            "title": "Certaines population vulnérables en matière de logement"
+            "title": "Certaines populations vulnérables en matière de logement"
           },
           {
             "name": "GeoCode",
