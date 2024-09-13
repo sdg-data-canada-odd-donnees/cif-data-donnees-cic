@@ -98,27 +98,27 @@ core_housing_by_tenure <- raw_data2 %>%
   ) %>%
   # filter out data that duplicates headline data from first table
   filter(
-    !(Geography == "Canada (provinces only)" & Tenure == "Total, tenure") 
+    !(Geography == "Canada (provinces only)" & Tenure == "Total, tenure")
   ) %>%
-  # Add column: Type of region
+  # Add column: Geographic location
   mutate(
-    `Type of region` = case_match(
+    `Geographic location` = case_match(
       Geography,
-      "Canada (provinces only)" ~ "Canada (provinces only)",
-      provinces ~ "Province",
-      cma ~ "Census metropolitan area",
+      "Canada (provinces only)" ~ "Total",
+      provinces ~ "Total",
+      # cma ~ "Census metropolitan area",
       agglomerations ~ "Census agglomerations",
       outside ~ "Outside census metropolitan areas and census agglomerations",
       large_pop ~ "Large urban population centres",
       med_pop ~ "Medium population centres",
       small_pop ~ "Small population centres",
       rural ~ "Rural areas"
-      )
-  ) %>%
-  relocate(`Type of region`, .after = Geography) %>%
-  # Remove region type from Geography
-  mutate(
+      ),
+    `Selected census metropolitan areas` = case_when(
+      Geography %in% cma ~ Geography
+      ),
     Geography = case_when(
+      Geography %in% cma ~ "Census metropolitan areas",
       startsWith(Geography, "Large urban population centres") ~ trimws(gsub(".*,", "", Geography)),
       startsWith(Geography, "Medium population centres") ~ trimws(gsub(".*,", "", Geography)),
       startsWith(Geography, "Small population centres") ~ trimws(gsub(".*,", "", Geography)),
@@ -128,8 +128,10 @@ core_housing_by_tenure <- raw_data2 %>%
       startsWith(Geography, "Total") ~ "Canada (provinces only)",
       .default = Geography
       )
-  )
-  
+  ) %>%
+  relocate(`Geographic location`, .after = Geography) %>%
+  relocate(`Selected census metropolitan areas`, .after = `Geographic location`)
+
 
 data_final <- 
   bind_rows(
