@@ -79,8 +79,8 @@
   target: None
   target_year: '2030'
 11-3-1:
-  base_value: '78'
-  base_year: '2015'
+  base_value: '63'
+  base_year: '2005'
   current_value: '85'
   current_year: '2019'
   direction: positive
@@ -126,9 +126,9 @@
   current_value: '11.01'
   current_year: '2023'
   direction: positive
-  progress_calculation_value: '1.5515118087172977'
+  progress_calculation_value: '1.307971260462159'
   progress_status: substantial_progress
-  target: '30'
+  target: '60'
   target_year: '2030'
 12-2-1:
   base_value: '90.3'
@@ -237,13 +237,29 @@
   target: '30'
   target_year: '2030'
 15-5-1:
-  progress_status: not_available
+  base_value: '70'
+  base_year: '2015'
+  current_value: '68'
+  current_year: '2021'
+  direction: negative
+  progress_calculation_value: None
+  progress_status: target_achieved
+  target: '100'
+  target_year: '2030'
 15-6-1:
   progress_status: not_available
 16-1-1:
   progress_status: not_available
 16-2-1:
-  progress_status: not_available
+  base_value: '1070.26'
+  base_year: '2015'
+  current_value: '1427.94'
+  current_year: '2023'
+  direction: negative
+  progress_calculation_value: '-0.0366987696765213'
+  progress_status: deterioration
+  target: None
+  target_year: '2030'
 16-3-1:
   base_value: '55.6'
   base_year: '2015'
@@ -279,7 +295,15 @@
 16-7-1:
   progress_status: not_available
 17-1-1:
-  progress_status: not_available
+  base_value: '86.27958333'
+  base_year: '2016'
+  current_value: '92.9225'
+  current_year: '2022'
+  direction: positive
+  progress_calculation_value: '0.012438863751335294'
+  progress_status: moderate_progress
+  target: None
+  target_year: '2030'
 17-2-1:
   base_value: '6600'
   base_year: '2018'
@@ -321,7 +345,15 @@
   target: '71'
   target_year: '2030'
 3-1-1:
+  base_value: '31.5'
+  base_year: '2015'
+  current_value: '21.8'
+  current_year: '2021'
+  direction: positive
+  progress_calculation_value: '-0.059502475798760224'
   progress_status: deterioration
+  target: None
+  target_year: '2030'
 3-10-1:
   progress_status: not_available
 3-11-1:
@@ -361,7 +393,7 @@
 3-2-1:
   progress_status: not_available
 3-3-1:
-  progress_status: substantial_progress
+  progress_status: not_available
 3-4-1:
   base_value: '8.1'
   base_year: '2015'
