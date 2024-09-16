@@ -118,7 +118,7 @@ core_housing_by_tenure <- raw_data2 %>%
       Geography %in% cma ~ Geography
       ),
     Geography = case_when(
-      Geography %in% cma ~ "Census metropolitan areas",
+      Geography %in% cma ~ NA,
       startsWith(Geography, "Large urban population centres") ~ trimws(gsub(".*,", "", Geography)),
       startsWith(Geography, "Medium population centres") ~ trimws(gsub(".*,", "", Geography)),
       startsWith(Geography, "Small population centres") ~ trimws(gsub(".*,", "", Geography)),
