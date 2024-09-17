@@ -15,7 +15,9 @@ opioids_filtered <-
     Time_Period == "By year",
     Unit == "Crude rate",
     Source == "Deaths",
-    Type_Event == "Total apparent opioid toxicity deaths"
+    Type_Event == "Total apparent opioid toxicity deaths",
+    # filter out incomplete years, i.e. "2024 (Jan to Mar)"
+    str_detect(Year_Quarter, "^\\d{4}$")
   ) %>%
   select(
     Year = Year_Quarter,
