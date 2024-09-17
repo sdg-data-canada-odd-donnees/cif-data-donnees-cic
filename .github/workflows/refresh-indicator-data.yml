@@ -23,7 +23,7 @@ on:
 
 jobs:
   data-update:
-    runs-on: windows-2019
+    runs-on: macos-latest
     
     steps:
     - uses: actions/checkout@v3
