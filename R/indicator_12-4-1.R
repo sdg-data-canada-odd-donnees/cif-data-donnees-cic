@@ -23,7 +23,7 @@ all_plastic <-
   plastic %>%
   filter(
     REF_DATE >= 2015,
-    Variable == "Total disposed plastic waste and scrap"
+    Variable == "Total discarded plastic in products"
   ) %>%
   select(
     Year = REF_DATE,

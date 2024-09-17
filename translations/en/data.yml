@@ -15,12 +15,14 @@ Females: Females
 Women+: Women+
 Both: Both
 Both sexes: Both sexes
+Total, all persons: Total, all persons
 #Non-binary: Non-binary
 
 ## Geo
 Geography: Geography
 Canada: Canada
 Canada (excluding territories): Canada (excluding territories)
+Canada (provinces only): Canada (provinces only)
 Canada, excluding the territories: Canada, excluding the territories
 Atlantic: Atlantic
 Atlantic provinces: Atlantic provinces
@@ -62,6 +64,11 @@ Yukon [60]: Yukon
 Northwest Territories [61]: Northwest Territories
 Nunavut [62]: Nunavut
 
+Province: Province
+Provinces: Provinces
+Province or territory: Province or territory
+Provinces and territories: Provinces and territories
+Territory: Territory
 Region: Region
 Regions: Regions
 All regions: All regions
@@ -398,6 +405,22 @@ Non-elderly persons not in an economic family: Non-elderly persons not in an eco
 Non-elderly males not in an economic family: Non-elderly males not in an economic family
 Non-elderly females not in an economic family: Non-elderly females not in an economic family
 Demographic characteristics: Demographic characteristics
+Persons 18 to 24 years: Persons 18 to 24 years
+Persons 25 to 34 years: Persons 25 to 34 years
+Persons 35 to 44 years: Persons 35 to 44 years
+Persons 45 to 54 years: Persons 45 to 54 years
+Persons 55 to 64 years: Persons 55 to 64 years
+Other visible minority: Other visible minority
+Not a visible minority nor Indigenous: Not a visible minority nor Indigenous
+All persons aged 15 years and over: All persons aged 15 years and over
+Indigenous population aged 15 years and over: Indigenous population aged 15 years and over
+First Nations aged 15 years and over: First Nations aged 15 years and over
+Métis aged 15 years and over: Métis aged 15 years and over
+Non-Indigenous population aged 15 years and over: Non-Indigenous population aged 15 years and over
+Immigrants aged 15 years and over: Immigrants aged 15 years and over
+Recent immigrants (10 years or less) aged 15 years and over: Recent immigrants (10 years or less) aged 15 years and over
+Very recent immigrants (5 years or less) aged 15 years and over: Very recent immigrants (5 years or less) aged 15 years and over
+Persons aged 15 years and over born in Canada: Persons aged 15 years and over born in Canada
 
 ## 2-2-1
 Index: Index
@@ -546,7 +569,6 @@ Accidental apparent opioid toxicity deaths: Accidental apparent opioid toxicity 
 Total: Total
 Total, persons aged 15 years and over: Total, persons aged 15 years and over
 Selected demographic characteristics: Selected demographic characteristics
-Total, all persons: Total, all persons
 Non immigrants: Non immigrants
 Immigrants: Immigrants
 Non-permanent residents: Non-permanent residents
@@ -675,12 +697,7 @@ First Nations council members: First Nations council members
 Chiefs in First Nation communities: Chiefs in First Nation communities
 
 ## 5-4-1
-Activity group: Activity group
-Unpaid work activities: Unpaid work activities
-Household chores: Household chores
-Care of household children under 18 years: Care of household children under 18 years
-Care of household adults: Care of household adults
-Shopping for goods or services: Shopping for goods or services
+# nothing new
 
 ## 5-5-1
 Type of work: Type of work
@@ -1068,13 +1085,29 @@ Estimates: Estimates
 Growth since 2016: Growth since 2016
 Number of shelter users experiencing chronic homelessness: Number of shelter users experiencing chronic homelessness
 Percentage change in the number of shelter users experiencing chronic homelessness from the 2016 baseline: Percentage change in the number of shelter users experiencing chronic homelessness from the 2016 baseline
+Percent change since 2016: Percent change since 2016
 
 ## 11-2-1
+Type of region: Type of region
+Large urban population centres: Large urban population centres
+Medium population centres: Medium population centres
+Small population centres: Small population centres
+Rural areas: Rural areas
+Census metropolitan areas: Census metropolitan areas
+Census agglomerations: Census agglomerations
+Outside census metropolitan areas and census agglomerations: Outside census metropolitan areas and census agglomerations
+Other census metropolitan areas, New Brunswick: Other census metropolitan areas, New Brunswick
+Other census metropolitan areas, Quebec: Other census metropolitan areas, Quebec
+Other census metropolitan areas, Ontario: Other census metropolitan areas, Ontario
+Other census metropolitan areas, Alberta: Other census metropolitan areas, Alberta
+Other census metropolitan areas, British Columbia: Other census metropolitan areas, British Columbia
+
 Living in unaffordable housing: Living in unaffordable housing
 Living in unsuitable housing: Living in unsuitable housing
 Living in inadequate housing: Living in inadequate housing
 Living in core housing need: Living in core housing need
 Select housing vulnerable populations: Select housing vulnerable populations
+Select housing-vulnerable populations: Select housing-vulnerable populations
 All households: All households
 Total, one-parent one-family households: Total, one-parent one-family households
 One-parent one-family households whose reference person is a man+: One-parent one-family households whose reference person is a man+
@@ -1084,27 +1117,24 @@ Men+ living alone: Men+ living alone
 Women+ living alone: Women+ living alone
 Reference persons who have experienced homelessness: Reference persons who have experienced homelessness
 Living with housing problems: Living with housing problems
-Large urban population centres: Large urban population centres
-Other census metropolitan areas, Quebec: Other census metropolitan areas, Quebec
-Other census metropolitan areas, Ontario: Other census metropolitan areas, Ontario
-Other census metropolitan areas, British Columbia: Other census metropolitan areas, British Columbia
 Total, census metropolitan areas: Total, census metropolitan areas
-Census agglomerations: Census agglomerations
 Total, census agglomerations: Total, census agglomerations
-Outside census metropolitan areas and census agglomerations: Outside census metropolitan areas and census agglomerations
 Total, outside census metropolitan areas and census agglomerations: Total, outside census metropolitan areas and census agglomerations
 Total, large urban population centres: Total, large urban population centres
 Total, medium population centres: Total, medium population centres
 Total, small population centres: Total, small population centres
 Total, rural areas: Total, rural areas
 Geographic location: Geographic location
+
 Tenure: Tenure
 Selected census metropolitan areas: Selected census metropolitan areas
 Provinces and territories: Provinces and territories
 Census metropolitan areas: Census metropolitan areas
 Total, tenure: Total, tenure
+Owner: Owner
 Owner who is a first-time homebuyer: Owner who is a first-time homebuyer
 Owner who is not a first-time homebuyer: Owner who is not a first-time homebuyer
+Renter: Renter
 Renter not in social and affordable housing: Renter not in social and affordable housing
 Renter in social and affordable housing: Renter in social and affordable housing
 
@@ -1126,7 +1156,7 @@ Non-residential sources of waste for disposal: Non-residential sources of waste 
 Residential sources of waste for disposal: Residential sources of waste for disposal
 
 ## 11-7-1
-# Nothing new
+# nothing new
 
 ## 12-2-1
 Industries: Industries

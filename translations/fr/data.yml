@@ -15,12 +15,14 @@ Females: Femmes
 Women+: Femmes+
 Both: Les deux sexes
 Both sexes: Les deux sexes
+Total, all persons: Total, toutes les personnes
 #Non-binary: Personnes non binaires
 
 ## Geo
 Geography: Géographie
 Canada: Canada
 Canada (excluding territories): Canada (sans les territoires)
+Canada (provinces only): Canada (provinces seulement)
 Canada, excluding the territories: Canada, sans les territoires
 Atlantic: Atlantique
 Atlantic provinces: Provinces de l'Atlantique
@@ -62,6 +64,10 @@ Yukon [60]: Yukon
 Northwest Territories [61]: Territoires du Nord-Ouest
 Nunavut [62]: Nunavut
 
+Province: Province
+Provinces: Provinces
+Province or territory: Province ou territoire
+Provinces and territories: Provinces et territoires
 Region: Région
 Regions: Régions
 All regions: Toutes les régions
@@ -233,14 +239,6 @@ Under 1 year: Moins d'un an
 85 to 89 years: 85 à 89 ans
 Age, not stated: Âge, non déclaré
 
-## Random
-Activity group: Groupe d'activité
-Unpaid work activities: Activités de travail non-rémunéré 
-Household chores: Tâches domestiques
-Care of household children under 18 years: Soins à un enfant du ménage de moins de 18 ans
-Care of household adults: Soins à un adulte du ménage
-Shopping for goods or services: Magasinage de biens ou de services
-
 ## 1-1-1
 Persons in low income: Personnes à faible revenu
 All persons: Toutes les personnes
@@ -406,6 +404,22 @@ Non-elderly persons not in an economic family: Personnes non âgées hors famill
 Non-elderly males not in an economic family: Hommes non âgés hors famille économique
 Non-elderly females not in an economic family: Femmes non âgées hors famille économique
 Demographic characteristics: Caractéristiques démographiques
+Persons 18 to 24 years: Personnes de 18 à 24 ans
+Persons 25 to 34 years: Personnes de 25 à 34 ans
+Persons 35 to 44 years: Personnes de 35 à 44 ans
+Persons 45 to 54 years: Personnes de 45 à 54 ans
+Persons 55 to 64 years: Personnes de 55 à 64 ans
+Other visible minority: Autre minorité visible
+Not a visible minority nor Indigenous: Pas une minorité visible ni autochtone
+All persons aged 15 years and over: Toutes les personnes de 15 ans et plus
+Indigenous population aged 15 years and over: Population autochtone âgée de 15 ans et plus
+First Nations aged 15 years and over: Premières Nations âgées de 15 ans et plus
+Métis aged 15 years and over: Métis âgés de 15 ans et plus
+Non-Indigenous population aged 15 years and over: Population non autochtone âgée de 15 ans et plus
+Immigrants aged 15 years and over: Immigrants âgés de 15 ans et plus
+Recent immigrants (10 years or less) aged 15 years and over: Immigrants récents (10 ans ou moins) âgés de 15 ans et plus
+Very recent immigrants (5 years or less) aged 15 years and over: Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus
+Persons aged 15 years and over born in Canada: Personnes de 15 ans et plus nées au Canada
 
 ## 2-2-1
 Index: Indice
@@ -556,7 +570,6 @@ Accidental apparent opioid toxicity deaths: Décès accidentels apparemment lié
 Total: Total
 Total, persons aged 15 years and over: Total, personnes âgées de 15 ans et plus
 Selected demographic characteristics: Caractéristiques démographiques déterminées
-Total, all persons: Total, toutes les personnes
 Non immigrants: Non-immigrants
 Immigrants: Immigrants
 Non-permanent residents: Résidents non permanents
@@ -685,12 +698,7 @@ Chiefs in First Nation communities: Chefs dans les communautés des Premières N
 First Nations council members: Membres de conseil des Premières Nations
 
 ## 5-4-1
-Activity group: Groupe d'activité
-Unpaid work activities: Activités de travail non-rémunéré
-Household chores: Tâches domestiques
-Care of household children under 18 years: Soins à un enfant du ménage de moins de 18 ans
-Care of household adults: Soins à un adulte du ménage
-Shopping for goods or services: Magasinage de biens ou de services
+# rien de nouveau
 
 ## 5-5-1
 Type of work: Genre de travail
@@ -1080,11 +1088,26 @@ Estimates: Estimation
 Growth since 2016: Croissance depuis 2016
 Number of shelter users experiencing chronic homelessness: Nombre d'usagers des refuges en situation d'itinérance chronique
 Percentage change in the number of shelter users experiencing chronic homelessness from the 2016 baseline: Changement en pourcentage du nombre d'usagers des refuges en situation d'itinérance chronique par rapport au niveau de référence de 2016
+Percent change since 2016: Changement en pourcentage comparé à 2016
 
 ## 11-2-1
-Selected housing vulnerable populations: Certaines population vulnérables en matière de logement
+Type of region: Type de région
+Large urban population centres: Grands centres de population urbains
+Medium population centres: Moyens centres de population
+Small population centres: Petits centres de population
+Rural areas: Régions rurales
+Census metropolitan areas: Régions métropolitaines de recensement
+Census agglomerations: Agglomérations de recensement
+Outside census metropolitan areas and census agglomerations: À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement
+Other census metropolitan areas, New Brunswick: Autres régions métropolitaines de recensement, Nouveau-Brunswick
+Other census metropolitan areas, Quebec: Autres régions métropolitaines de recensement, Québec
+Other census metropolitan areas, Ontario: Autres régions métropolitaines de recensement, Ontario
+Other census metropolitan areas, Alberta: Autres régions métropolitaines de recensement, Alberta
+Other census metropolitan areas, British Columbia: Autres régions métropolitaines de recensement, Colombie-Britannique
+
+Selected housing vulnerable populations: Certaines populations vulnérables en matière de logement
+Select housing-vulnerable populations: Certaines populations vulnérables en matière de logement
 All households: Tous les ménages
-Total, lone-parent family households: Tous les ménages
 Lone-parent family households whose reference person is male: Ménages comptant une famille monoparentale dont la personne de référence est un homme
 Lone-parent family households whose reference person is female: Ménages comptant une famille monoparentale dont la personne de référence est une femme
 Total, one person households: Total, ménages comptant une personne seule
@@ -1097,7 +1120,6 @@ Living in unsuitable housing: Vivant dans un logement de taille non convenable
 Living in inadequate housing: Vivant dans un logement de qualité non convenable
 Living in core housing need: Ayant des besoins impérieux en matière de logement
 Select housing vulnerable populations: Certaines populations vulnérables en matière de logement
-All households: Tous les ménages
 Total, one-parent one-family households: Total, ménages comptant une seule famille monoparentale
 One-parent one-family households whose reference person is a man+: Ménages comptant une seule famille monoparentale dont la personne de référence est un homme+
 One-parent one-family households whose reference person is a woman+: Ménages comptant une seule famille monoparentale dont la personne de référence est une femme+
@@ -1105,15 +1127,8 @@ Total, one-person households: Total, ménages composés d'une seule personne
 Men+ living alone: Hommes+ vivant seuls
 Women+ living alone: Femmes+ vivant seules
 Reference persons who have experienced homelessness: Personnes de référence qui ont vécu une période d'itinérance
-Living with housing problems: Éprouvant des problèmes de logement
-Large urban population centres: Grands centres de population urbains
-Other census metropolitan areas, Quebec: Autres régions métropolitaines de recensement, Québec
-Other census metropolitan areas, Ontario: Autres régions métropolitaines de recensement, Ontario
-Other census metropolitan areas, British Columbia: Autres régions métropolitaines de recensement, Colombie-Britannique
 Total, census metropolitan areas: Total, régions métropolitaines de recensement
-Census agglomerations: Agglomérations de recensement
 Total, census agglomerations: Total, agglomérations de recensement
-Outside census metropolitan areas and census agglomerations: À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement
 Total, outside census metropolitan areas and census agglomerations: Total, à l'extérieur des régions métropolitaines de recensement et agglomérations de recensement
 Total, large urban population centres: Total, grands centres de population urbains
 Total, medium population centres: Total, moyens centres de population
@@ -1125,8 +1140,10 @@ Selected census metropolitan areas: Régions métropolitaines de recensement sé
 Provinces and territories: Provinces et territoires
 Census metropolitan areas: Régions métropolitaines de recensement
 Total, tenure: Total, mode d'occupation
+Owner: Propriétaire
 Owner who is a first-time homebuyer: Propriétaire qui est un accédant à la propriété
 Owner who is not a first-time homebuyer: Propriétaire qui n'est pas un accédant à la propriété
+Renter: Locataire
 Renter not in social and affordable housing: Locataire n'habitant pas dans un logement social et abordable
 Renter in social and affordable housing: Locataire habitant dans un logement social et abordable
 
@@ -1152,19 +1169,19 @@ Residential sources of waste for disposal: Sources de déchets non résidentiell
 
 ## 12-2-1
 Industries: Industries
-Environmental protection activities or management practices: Activités de protection de l'environnement
+Environmental protection activities or management practices: Activités de protection ou pratiques de gestion de l'environnement
 Total, environmental protection activities: Total, activités de protection de l'environnement
 Wastewater management: Gestion des eaux usées
 Air pollution management: Gestion de la pollution atmosphérique
 Protection and remediation of soil, groundwater and surface water: Protection et assainissement du sol, des eaux souterraines et des eaux de surface
-Protection of biodiversity and habitat: Protection de la biodiversité et de l’habitat
+Protection of biodiversity and habitat: Protection de la biodiversité et de l'habitat
 Noise and vibration abatement: Lutte contre le bruit et les vibrations
 Sold carbon offset credits only or sold more than purchased: Redevances écologiques
 Beverage and tobacco product manufacturing: Fabrication de boissons et de produits du tabac
 Chemical manufacturing: Fabrication de produits chimiques
-Electric power generation, transmission and distribution: Production, transport et distribution d’électricité
+Electric power generation, transmission and distribution: Production, transport et distribution d'électricité
 Fabricated metal product manufacturing: Fabrication de produits métalliques
-Food manufacturing: Fabrication d’aliments
+Food manufacturing: Fabrication d'aliments
 Furniture and related product manufacturing: Fabrication de meubles et de produits connexes
 Logging (except contract): Exploitation forestière (sauf à forfait)
 Machinery manufacturing: Fabrication de machines
@@ -1179,7 +1196,7 @@ Pipeline transportation: Transport par pipeline
 Plastics and rubber products manufacturing: Fabrication de produits en plastique et en caoutchouc
 Primary metal manufacturing: Première transformation des métaux
 Total, industries: Total, industries
-Transportation equipment manufacturing: 
+Transportation equipment manufacturing: Fabrication de matériel de transport
 Wood product manufacturing: Fabrication de produits en bois
 
 ## 12-3-1
