@@ -6,10 +6,11 @@ library(stringr)
 library(tidyr)
 library(httr)
 library(jsonlite)
-library(dotenv)
+# library(dotenv) # un-comment to run on local system with .env file (1/2)
 library(readr)
 
 # Retrieve the API key for electric charging stations from environment variables
+# load_dot_env(".env") # un-comment to run on local system with .env file (2/2)
 ELECTRIC_CHARGING_STATIONS <- Sys.getenv("ELECTRIC_CHARGING_STATIONS")
 
 # Define the URL for the API endpoint
@@ -36,7 +37,19 @@ response <- GET(URL, query = query_params)
 if (status_code(response) == 200) {
   # If the response is successful, read the content and convert it to a data frame
   content <- content(response, "text")
-  data <- read_csv(content)
+  data <- read_csv(content, col_types = cols(.default = "?",
+                                             `BD Blends` = "c",
+                                             `BD Blends (French)` = "c",
+                                             `Hydrogen Pressures` = "c",
+                                             `Hydrogen Standards` = "c",
+                                             `Federal Agency ID` = "c",
+                                             `Federal Agency Name` = "c",
+                                             `Federal Agency Code` = "c",
+                                             `E85 Other Ethanol Blends` = "c",
+                                             `NG PSI` = "c",
+                                             `CNG PSI` = "c"
+                                             )
+                   )
   print(head(data))
 } else {
   # If the response is not successful, print the content and stop the execution with an error message
