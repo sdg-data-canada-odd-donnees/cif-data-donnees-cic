@@ -535,7 +535,15 @@
   target: '90'
   target_year: '2030'
 7-3-1:
-  progress_status: substantial_progress
+  base_value: '0.23'
+  base_year: '2015'
+  current_value: '0.22'
+  current_year: '2022'
+  direction: negative
+  progress_calculation_value: '0.006330131558949903'
+  progress_status: moderate_progress
+  target: None
+  target_year: '2030'
 8-1-1:
   base_value: '6.9'
   base_year: '2015'
