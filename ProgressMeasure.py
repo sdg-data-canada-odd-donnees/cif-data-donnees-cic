@@ -259,6 +259,9 @@ def methodology_1(data, config):
     # use negative growth value if desired direction of progress is negative
     if direction == "negative":
         cagr_o = -1 * cagr_o
+    # invert desired direction of progress if values are negative
+    if base_value < 0:
+        cagr_o = -1 * cagr_o
 
     return cagr_o
 
