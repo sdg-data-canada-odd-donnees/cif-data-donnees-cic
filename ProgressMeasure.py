@@ -86,7 +86,7 @@ def get_progress_status(value, config):
             return None
 
     else:
-        if value == None:
+        if value is None:
             return "target_achieved"
         elif value >= x:
             return "substantial_progress"
@@ -253,15 +253,14 @@ def methodology_1(data, config):
     current_value = data.Value[data.Year == t].values[0]
     # get value from base year from data
     base_value = data.Value[data.Year == t_0].values[0]
-    # calculate growth
-    cagr_o = growth_calculation(current_value, base_value, t, t_0)
 
     # use negative growth value if desired direction of progress is negative
-    if direction == "negative":
-        cagr_o = -1 * cagr_o
+    d = -1 if direction == "negative" else 1
     # invert desired direction of progress if values are negative
-    if base_value < 0:
-        cagr_o = -1 * cagr_o
+    sign = -1 if base_value < 0 else 1 # note: base_value = 0 is invalid, would get zero division error in growth calculation
+
+    # calculate growth
+    cagr_o = sign * d * growth_calculation(current_value, base_value, t, t_0)
 
     return cagr_o
 
@@ -294,14 +293,19 @@ def methodology_2(data, config):
     # check if the target is achieved
     if (direction == "negative" and current_value <= target) or (direction == "positive" and current_value >= target):
         # None value indicates that target has been achieved
-        return None 
+        return None
+    
+    # use negative growth value if desired direction of progress is negative
+    d = -1 if direction == "negative" else 1
+    # invert desired direction of progress if values are negative
+    sign = -1 if base_value < 0 else 1 # note: base_value = 0 is invalid, would get zero division error in growth calculation
 
     # calculate observed growth
     cagr_o = growth_calculation(current_value, base_value, t, t_0)
     # calculate theoretical growth
     cagr_r = growth_calculation(target, base_value, t_tao, t_0)
     # calculating growth ratio
-    ratio = cagr_o / cagr_r
+    ratio = sign * d * cagr_o / abs(cagr_r)
 
     return ratio
 
