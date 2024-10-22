@@ -567,11 +567,11 @@
 8-3-1:
   base_value: '13.0'
   base_year: '2015'
-  current_value: '11.0'
-  current_year: '2023'
+  current_value: '12.0'
+  current_year: '2024'
   direction: negative
-  progress_calculation_value: '0.020665246305667906'
-  progress_status: substantial_progress
+  progress_calculation_value: '0.008854202804111422'
+  progress_status: moderate_progress
   target: None
   target_year: '2030'
 8-4-1:
@@ -618,7 +618,7 @@
   base_value: '1.7'
   base_year: '2015'
   current_value: '1.7'
-  current_year: '2021'
+  current_year: '2022'
   direction: positive
   progress_calculation_value: '0.0'
   progress_status: negligible_progress
@@ -655,12 +655,12 @@
   target: None
   target_year: '2030'
 9-6-1:
-  base_value: '12371'
+  base_value: '12340'
   base_year: '2023'
-  current_value: '14218'
+  current_value: '14396'
   current_year: '2024'
   direction: positive
-  progress_calculation_value: '0.47057324840764336'
+  progress_calculation_value: '0.5197168857431749'
   progress_status: negligible_progress
   target: '16296'
   target_year: '2024'
