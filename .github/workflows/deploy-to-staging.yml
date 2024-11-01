@@ -17,6 +17,8 @@
 name: Deploy to staging
 
 on:
+  workflow_dispatch: 
+    # enable button to trigger workflow manually
   push:
     branches:
       - develop
