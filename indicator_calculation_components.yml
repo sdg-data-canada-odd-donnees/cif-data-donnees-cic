@@ -249,7 +249,15 @@
 15-6-1:
   progress_status: not_available
 16-1-1:
-  progress_status: not_available
+  base_value: '79.0'
+  base_year: '2021'
+  current_value: '79.0'
+  current_year: '2022'
+  direction: positive
+  progress_calculation_value: '0.0'
+  progress_status: negligible_progress
+  target: None
+  target_year: '2030'
 16-2-1:
   base_value: '1070.26'
   base_year: '2015'
