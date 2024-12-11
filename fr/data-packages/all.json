@@ -361,18 +361,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                ""
-              ]
-            },
-            "title": "Géographie"
-          },
-          {
-            "name": "data.Visible minority",
+            "name": "Visible minority",
             "type": "string",
             "constraints": {
               "enum": [
@@ -392,11 +381,10 @@
             "title": "Minorité visible"
           },
           {
-            "name": "data.Sociodemographic characteristics",
+            "name": "Sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 15 ans et plus",
                 "Hommes+",
                 "Femmes+",
                 "15 à 24 ans",
@@ -404,6 +392,7 @@
                 "65 ans et plus",
                 "Non-immigrants",
                 "Immigrants",
+                "Total, 15 ans et plus",
                 ""
               ]
             },

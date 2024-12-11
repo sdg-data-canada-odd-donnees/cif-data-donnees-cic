@@ -1,81 +1,161 @@
-Year,Géographie,Minorité visible,Caractéristiques sociodémographiques,Value
-2021,Canada,Population totale,"Total, 15 ans et plus",79.0
-2021,Canada,Population totale,Hommes+,81.5
-2021,Canada,Population totale,Femmes+,76.0
-2021,Canada,Population totale,15 à 24 ans,78.0
-2021,Canada,Population totale,25 à 64 ans,80.4
-2021,Canada,Population totale,65 ans et plus,75.0
-2021,Canada,Population totale,Non-immigrants,79.0
-2021,Canada,Population totale,Immigrants,78.0
-2021,Canada,Total de la population des minorités visibles,"Total, 15 ans et plus",77.0
-2021,Canada,Total de la population des minorités visibles,Hommes+,79.0
-2021,Canada,Total de la population des minorités visibles,Femmes+,75.0
-2021,Canada,Total de la population des minorités visibles,15 à 24 ans,75.0
-2021,Canada,Total de la population des minorités visibles,25 à 64 ans,78.0
-2021,Canada,Total de la population des minorités visibles,65 ans et plus,78.0
-2021,Canada,Total de la population des minorités visibles,Non-immigrants,72.0
-2021,Canada,Total de la population des minorités visibles,Immigrants,78.0
-2021,Canada,Sud-Asiatique,"Total, 15 ans et plus",81.0
-2021,Canada,Sud-Asiatique,Hommes+,83.6
-2021,Canada,Sud-Asiatique,Femmes+,78.0
-2021,Canada,Sud-Asiatique,15 à 24 ans,80.0
-2021,Canada,Sud-Asiatique,25 à 64 ans,80.5
-2021,Canada,Sud-Asiatique,65 ans et plus,85.5
-2021,Canada,Sud-Asiatique,Non-immigrants,71.0
-2021,Canada,Sud-Asiatique,Immigrants,83.2
-2021,Canada,Chinois,"Total, 15 ans et plus",76.0
-2021,Canada,Chinois,Hommes+,77.0
-2021,Canada,Chinois,Femmes+,76.0
-2021,Canada,Chinois,15 à 24 ans,76.0
-2021,Canada,Chinois,25 à 64 ans,76.0
-2021,Canada,Chinois,65 ans et plus,78.0
-2021,Canada,Chinois,Non-immigrants,72.0
-2021,Canada,Chinois,Immigrants,77.0
-2021,Canada,Noirs,"Total, 15 ans et plus",75.0
-2021,Canada,Noirs,Hommes+,77.0
-2021,Canada,Noirs,Femmes+,74.0
-2021,Canada,Noirs,15 à 24 ans,75.0
-2021,Canada,Noirs,25 à 64 ans,76.0
-2021,Canada,Noirs,65 ans et plus,76.0
-2021,Canada,Noirs,Non-immigrants,76.0
-2021,Canada,Noirs,Immigrants,74.0
-2021,Canada,Philippin,"Total, 15 ans et plus",77.0
-2021,Canada,Philippin,Hommes+,77.0
-2021,Canada,Philippin,Femmes+,76.0
-2021,Canada,Philippin,15 à 24 ans,74.0
-2021,Canada,Philippin,25 à 64 ans,78.0
-2021,Canada,Philippin,65 ans et plus,71.0
-2021,Canada,Philippin,Non-immigrants,74.0
-2021,Canada,Philippin,Immigrants,76.0
-2021,Canada,Arabe,"Total, 15 ans et plus",76.0
-2021,Canada,Arabe,Hommes+,80.0
-2021,Canada,Arabe,Femmes+,72.0
-2021,Canada,Arabe,15 à 24 ans,70.0
-2021,Canada,Arabe,25 à 64 ans,78.0
-2021,Canada,Arabe,65 ans et plus,67.0
-2021,Canada,Arabe,Non-immigrants,63.0
-2021,Canada,Arabe,Immigrants,79.0
-2021,Canada,Latino-Américain,"Total, 15 ans et plus",78.0
-2021,Canada,Latino-Américain,Hommes+,80.0
-2021,Canada,Latino-Américain,Femmes+,77.0
-2021,Canada,Latino-Américain,15 à 24 ans,74.0
-2021,Canada,Latino-Américain,25 à 64 ans,81.2
-2021,Canada,Latino-Américain,65 ans et plus,65.0
-2021,Canada,Latino-Américain,Non-immigrants,76.0
-2021,Canada,Latino-Américain,Immigrants,78.0
-2021,Canada,Asiatique du Sud-Est,"Total, 15 ans et plus",67.0
-2021,Canada,Asiatique du Sud-Est,Hommes+,75.0
-2021,Canada,Asiatique du Sud-Est,Femmes+,63.0
-2021,Canada,Asiatique du Sud-Est,15 à 24 ans,57.0
-2021,Canada,Asiatique du Sud-Est,25 à 64 ans,69.0
-2021,Canada,Asiatique du Sud-Est,65 ans et plus,78.0
-2021,Canada,Asiatique du Sud-Est,Non-immigrants,59.0
-2021,Canada,Asiatique du Sud-Est,Immigrants,66.0
-2021,Canada,Pas une minorité visible,"Total, 15 ans et plus",80.0
-2021,Canada,Pas une minorité visible,Hommes+,82.6
-2021,Canada,Pas une minorité visible,Femmes+,77.0
-2021,Canada,Pas une minorité visible,15 à 24 ans,80.8
-2021,Canada,Pas une minorité visible,25 à 64 ans,81.6
-2021,Canada,Pas une minorité visible,65 ans et plus,74.0
-2021,Canada,Pas une minorité visible,Non-immigrants,80.0
-2021,Canada,Pas une minorité visible,Immigrants,79.0
+Year,Minorité visible,Caractéristiques sociodémographiques,Value
+2021,,,79.0
+2021,Population totale,Hommes+,81.5
+2021,Population totale,Femmes+,76.0
+2021,Population totale,15 à 24 ans,78.0
+2021,Population totale,25 à 64 ans,80.4
+2021,Population totale,65 ans et plus,75.0
+2021,Population totale,Non-immigrants,79.0
+2021,Population totale,Immigrants,78.0
+2021,Total de la population des minorités visibles,"Total, 15 ans et plus",77.0
+2021,Total de la population des minorités visibles,Hommes+,79.0
+2021,Total de la population des minorités visibles,Femmes+,75.0
+2021,Total de la population des minorités visibles,15 à 24 ans,75.0
+2021,Total de la population des minorités visibles,25 à 64 ans,78.0
+2021,Total de la population des minorités visibles,65 ans et plus,78.0
+2021,Total de la population des minorités visibles,Non-immigrants,72.0
+2021,Total de la population des minorités visibles,Immigrants,78.0
+2021,Sud-Asiatique,"Total, 15 ans et plus",81.0
+2021,Sud-Asiatique,Hommes+,83.6
+2021,Sud-Asiatique,Femmes+,78.0
+2021,Sud-Asiatique,15 à 24 ans,80.0
+2021,Sud-Asiatique,25 à 64 ans,80.5
+2021,Sud-Asiatique,65 ans et plus,85.5
+2021,Sud-Asiatique,Non-immigrants,71.0
+2021,Sud-Asiatique,Immigrants,83.2
+2021,Chinois,"Total, 15 ans et plus",76.0
+2021,Chinois,Hommes+,77.0
+2021,Chinois,Femmes+,76.0
+2021,Chinois,15 à 24 ans,76.0
+2021,Chinois,25 à 64 ans,76.0
+2021,Chinois,65 ans et plus,78.0
+2021,Chinois,Non-immigrants,72.0
+2021,Chinois,Immigrants,77.0
+2021,Noirs,"Total, 15 ans et plus",75.0
+2021,Noirs,Hommes+,77.0
+2021,Noirs,Femmes+,74.0
+2021,Noirs,15 à 24 ans,75.0
+2021,Noirs,25 à 64 ans,76.0
+2021,Noirs,65 ans et plus,76.0
+2021,Noirs,Non-immigrants,76.0
+2021,Noirs,Immigrants,74.0
+2021,Philippin,"Total, 15 ans et plus",77.0
+2021,Philippin,Hommes+,77.0
+2021,Philippin,Femmes+,76.0
+2021,Philippin,15 à 24 ans,74.0
+2021,Philippin,25 à 64 ans,78.0
+2021,Philippin,65 ans et plus,71.0
+2021,Philippin,Non-immigrants,74.0
+2021,Philippin,Immigrants,76.0
+2021,Arabe,"Total, 15 ans et plus",76.0
+2021,Arabe,Hommes+,80.0
+2021,Arabe,Femmes+,72.0
+2021,Arabe,15 à 24 ans,70.0
+2021,Arabe,25 à 64 ans,78.0
+2021,Arabe,65 ans et plus,67.0
+2021,Arabe,Non-immigrants,63.0
+2021,Arabe,Immigrants,79.0
+2021,Latino-Américain,"Total, 15 ans et plus",78.0
+2021,Latino-Américain,Hommes+,80.0
+2021,Latino-Américain,Femmes+,77.0
+2021,Latino-Américain,15 à 24 ans,74.0
+2021,Latino-Américain,25 à 64 ans,81.2
+2021,Latino-Américain,65 ans et plus,65.0
+2021,Latino-Américain,Non-immigrants,76.0
+2021,Latino-Américain,Immigrants,78.0
+2021,Asiatique du Sud-Est,"Total, 15 ans et plus",67.0
+2021,Asiatique du Sud-Est,Hommes+,75.0
+2021,Asiatique du Sud-Est,Femmes+,63.0
+2021,Asiatique du Sud-Est,15 à 24 ans,57.0
+2021,Asiatique du Sud-Est,25 à 64 ans,69.0
+2021,Asiatique du Sud-Est,65 ans et plus,78.0
+2021,Asiatique du Sud-Est,Non-immigrants,59.0
+2021,Asiatique du Sud-Est,Immigrants,66.0
+2021,Pas une minorité visible,"Total, 15 ans et plus",80.0
+2021,Pas une minorité visible,Hommes+,82.6
+2021,Pas une minorité visible,Femmes+,77.0
+2021,Pas une minorité visible,15 à 24 ans,80.8
+2021,Pas une minorité visible,25 à 64 ans,81.6
+2021,Pas une minorité visible,65 ans et plus,74.0
+2021,Pas une minorité visible,Non-immigrants,80.0
+2021,Pas une minorité visible,Immigrants,79.0
+2022,,,79.0
+2022,Population totale,Hommes+,81.4
+2022,Population totale,Femmes+,76.0
+2022,Population totale,15 à 24 ans,80.5
+2022,Population totale,25 à 64 ans,79.0
+2022,Population totale,65 ans et plus,76.0
+2022,Population totale,Non-immigrants,79.0
+2022,Population totale,Immigrants,78.0
+2022,Total de la population des minorités visibles,"Total, 15 ans et plus",78.0
+2022,Total de la population des minorités visibles,Hommes+,80.0
+2022,Total de la population des minorités visibles,Femmes+,77.0
+2022,Total de la population des minorités visibles,15 à 24 ans,80.0
+2022,Total de la population des minorités visibles,25 à 64 ans,78.0
+2022,Total de la population des minorités visibles,65 ans et plus,78.0
+2022,Total de la population des minorités visibles,Non-immigrants,77.0
+2022,Total de la population des minorités visibles,Immigrants,78.0
+2022,Sud-Asiatique,"Total, 15 ans et plus",76.0
+2022,Sud-Asiatique,Hommes+,78.0
+2022,Sud-Asiatique,Femmes+,74.0
+2022,Sud-Asiatique,15 à 24 ans,81.1
+2022,Sud-Asiatique,25 à 64 ans,76.0
+2022,Sud-Asiatique,65 ans et plus,70.0
+2022,Sud-Asiatique,Non-immigrants,79.0
+2022,Sud-Asiatique,Immigrants,74.0
+2022,Chinois,"Total, 15 ans et plus",78.0
+2022,Chinois,Hommes+,80.2
+2022,Chinois,Femmes+,76.0
+2022,Chinois,15 à 24 ans,78.0
+2022,Chinois,25 à 64 ans,76.0
+2022,Chinois,65 ans et plus,84.7
+2022,Chinois,Non-immigrants,81.9
+2022,Chinois,Immigrants,77.0
+2022,Noirs,"Total, 15 ans et plus",82.3
+2022,Noirs,Hommes+,84.6
+2022,Noirs,Femmes+,80.2
+2022,Noirs,15 à 24 ans,84.7
+2022,Noirs,25 à 64 ans,81.6
+2022,Noirs,65 ans et plus,81.1
+2022,Noirs,Non-immigrants,81.9
+2022,Noirs,Immigrants,82.1
+2022,Philippin,"Total, 15 ans et plus",83.8
+2022,Philippin,Hommes+,83.5
+2022,Philippin,Femmes+,84.1
+2022,Philippin,15 à 24 ans,83.0
+2022,Philippin,25 à 64 ans,83.7
+2022,Philippin,65 ans et plus,86.1
+2022,Philippin,Non-immigrants,78.0
+2022,Philippin,Immigrants,84.0
+2022,Arabe,"Total, 15 ans et plus",77.0
+2022,Arabe,Hommes+,78.0
+2022,Arabe,Femmes+,76.0
+2022,Arabe,15 à 24 ans,84.5
+2022,Arabe,25 à 64 ans,74.0
+2022,Arabe,65 ans et plus,92.9
+2022,Arabe,Non-immigrants,59.0
+2022,Arabe,Immigrants,80.7
+2022,Latino-Américain,"Total, 15 ans et plus",77.0
+2022,Latino-Américain,Hommes+,77.0
+2022,Latino-Américain,Femmes+,77.0
+2022,Latino-Américain,15 à 24 ans,65.0
+2022,Latino-Américain,25 à 64 ans,79.0
+2022,Latino-Américain,65 ans et plus,77.0
+2022,Latino-Américain,Non-immigrants,60.0
+2022,Latino-Américain,Immigrants,76.0
+2022,Asiatique du Sud-Est,"Total, 15 ans et plus",72.0
+2022,Asiatique du Sud-Est,Hommes+,75.0
+2022,Asiatique du Sud-Est,Femmes+,69.0
+2022,Asiatique du Sud-Est,15 à 24 ans,69.0
+2022,Asiatique du Sud-Est,25 à 64 ans,74.0
+2022,Asiatique du Sud-Est,65 ans et plus,65.0
+2022,Asiatique du Sud-Est,Non-immigrants,66.0
+2022,Asiatique du Sud-Est,Immigrants,73.0
+2022,Pas une minorité visible,"Total, 15 ans et plus",79.0
+2022,Pas une minorité visible,Hommes+,82.1
+2022,Pas une minorité visible,Femmes+,76.0
+2022,Pas une minorité visible,15 à 24 ans,80.9
+2022,Pas une minorité visible,25 à 64 ans,80.3
+2022,Pas une minorité visible,65 ans et plus,75.0
+2022,Pas une minorité visible,Non-immigrants,79.0
+2022,Pas une minorité visible,Immigrants,78.0

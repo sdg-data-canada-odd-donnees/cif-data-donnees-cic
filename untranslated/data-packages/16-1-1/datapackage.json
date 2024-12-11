@@ -15,47 +15,37 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Visible minority",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
+                "Total population",
+                "Total visible minority population",
+                "South Asian",
+                "Chinese",
+                "Black",
+                "Filipino",
+                "Arab",
+                "Latin American",
+                "Southeast Asian",
+                "Not a visible minority",
                 ""
               ]
             }
           },
           {
-            "name": "data.Visible minority",
+            "name": "Sociodemographic characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total population",
-                "data.Total visible minority population",
-                "data.South Asian",
-                "data.Chinese",
-                "data.Black",
-                "data.Filipino",
-                "data.Arab",
-                "data.Latin American",
-                "data.Southeast Asian",
-                "data.Not a visible minority",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "data.Sociodemographic characteristics",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Total, 15 years and over",
-                "data.Men+",
-                "data.Women+",
-                "data.15 to 24 years",
-                "data.25 to 64 years",
-                "data.65 years and over",
-                "data.Non-immigrants",
-                "data.Immigrants",
+                "Men+",
+                "Women+",
+                "15 to 24 years",
+                "25 to 64 years",
+                "65 years and over",
+                "Non-immigrants",
+                "Immigrants",
+                "Total, 15 years and over",
                 ""
               ]
             }
