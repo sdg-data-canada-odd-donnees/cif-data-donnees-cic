@@ -160,7 +160,7 @@ data_final <-
   mutate(Value = cumsum(Value)) %>%
   ungroup() %>%
   filter(
-    Year >= 2010 # Filter for data from the year 2010 onward
+    Year >= 2010 & Year <= format(Sys.Date(), "%Y") # Filter for data from the year 2010 onward until the current year
   ) %>%
   arrange(Geography, Year) 
 
