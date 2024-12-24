@@ -5,7 +5,7 @@ library(stringr)
 library(tidyr)
 library(archive)
 
-opioids <- read.csv(archive_read("https://health-infobase.canada.ca/src/doc/SRHD/HealthInfobase-SubstanceHarmsData.zip", file=2))
+opioids <- read.csv(archive_read("https://health-infobase.canada.ca/src/doc/SRHD/HealthInfobase-SubstanceHarmsData.zip", file="SubstanceHarmsData.csv"))
 geocodes <- read.csv("geocodes.csv")
 
 opioids_filtered <-
