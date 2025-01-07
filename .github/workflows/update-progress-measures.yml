@@ -7,8 +7,8 @@ on:
     branches:
       - develop
   schedule:
-  # run at 10:00am on tuesday
-      - cron: '00 14 * * 2'
+  # run at 10:30am on tuesday
+      - cron: '30 14 * * 2'
 
 jobs:
   run-progress-measure:
