@@ -8,6 +8,7 @@ Year,Géographie,Groupe d'âge,Sexe,Groupe autochtone,Niveau de scolarité attei
 2021,,,,,,,,,60.5
 2022,,,,,,,,,62.0
 2023,,,,,,,,,62.1
+2024,,,,,,,,,61.1
 2015,Terre-Neuve-et-Labrador,,,,,,,10,53.6
 2015,Île-du-Prince-Édouard,,,,,,,11,61.0
 2015,Nouvelle-Écosse,,,,,,,12,57.2
@@ -125,6 +126,19 @@ Year,Géographie,Groupe d'âge,Sexe,Groupe autochtone,Niveau de scolarité attei
 2023,Yukon,,,,,,,60,70.6
 2023,Territoires du Nord-Ouest,,,,,,,61,69.9
 2023,Nunavut,,,,,,,62,53.9
+2024,Terre-Neuve-et-Labrador,,,,,,,10,52.5
+2024,Île-du-Prince-Édouard,,,,,,,11,61.5
+2024,Nouvelle-Écosse,,,,,,,12,57.8
+2024,Nouveau-Brunswick,,,,,,,13,56.4
+2024,Québec,,,,,,,24,61.1
+2024,Ontario,,,,,,,35,60.5
+2024,Manitoba,,,,,,,46,63.2
+2024,Saskatchewan,,,,,,,47,63.7
+2024,Alberta,,,,,,,48,64.6
+2024,Colombie-Britannique,,,,,,,59,60.9
+2024,Yukon,,,,,,,60,71.6
+2024,Territoires du Nord-Ouest,,,,,,,61,66.4
+2024,Nunavut,,,,,,,62,54.8
 2015,"Avalon Peninsula,  Terre-Neuve-et-Labrador",,,,,,,,60.1
 2015,"Côte-sud-Burin Peninsula et Notre Dame-Central Bonavista Bay,  Terre-Neuve-et-Labrador",,,,,,,,45.5
 2015,"Côte-ouest-Northern Peninsula-Labrador,  Terre-Neuve-et-Labrador",,,,,,,,48.4
@@ -710,6 +724,71 @@ Year,Géographie,Groupe d'âge,Sexe,Groupe autochtone,Niveau de scolarité attei
 2023,"Cariboo, Colombie-Britannique",,,,,,,,58.5
 2023,"Côte-nord et Nechako, Colombie-Britannique",,,,,,,,62.2
 2023,"Nord-est, Colombie-Britannique",,,,,,,,64.6
+2024,"Avalon Peninsula,  Terre-Neuve-et-Labrador",,,,,,,,56.9
+2024,"Côte-sud-Burin Peninsula et Notre Dame-Central Bonavista Bay,  Terre-Neuve-et-Labrador",,,,,,,,43.7
+2024,"Côte-ouest-Northern Peninsula-Labrador,  Terre-Neuve-et-Labrador",,,,,,,,52.5
+2024,"Cape Breton, Nouvelle-Écosse",,,,,,,,47.7
+2024,"Côte-nord, Nouvelle-Écosse",,,,,,,,51.9
+2024,"Annapolis Valley, Nouvelle-Écosse",,,,,,,,56.6
+2024,"Sud, Nouvelle-Écosse",,,,,,,,48.8
+2024,"Halifax, Nouvelle-Écosse",,,,,,,,64.8
+2024,"Campbellton-Miramichi, Nouveau-Brunswick",,,,,,,,45.1
+2024,"Moncton-Richibucto, Nouveau-Brunswick",,,,,,,,60.5
+2024,"Saint John-St. Stephen, Nouveau-Brunswick",,,,,,,,58.7
+2024,"Fredericton-Oromocto, Nouveau-Brunswick",,,,,,,,59.5
+2024,"Edmundston-Woodstock, Nouveau-Brunswick",,,,,,,,54.9
+2024,"Gaspésie-Îles-de-la-Madeleine, Québec",,,,,,,,46.7
+2024,"Bas-Saint-Laurent, Québec",,,,,,,,57.8
+2024,"Capitale-Nationale, Québec",,,,,,,,62.7
+2024,"Chaudière-Appalaches, Québec",,,,,,,,64.1
+2024,"Estrie, Quebec",,,,,,,,57.8
+2024,"Centre-du-Québec, Québec",,,,,,,,60.6
+2024,"Montérégie, Québec",,,,,,,,62.1
+2024,"Montréal, Québec",,,,,,,,60.2
+2024,"Laval, Québec",,,,,,,,62.9
+2024,"Lanaudière, Québec",,,,,,,,62.4
+2024,"Laurentides, Québec",,,,,,,,64.4
+2024,"Outaouais, Québec",,,,,,,,62.0
+2024,"Abitibi-Témiscamingue, Québec",,,,,,,,62.6
+2024,"Mauricie, Quebec",,,,,,,,55.2
+2024,"Saguenay-Lac-Saint-Jean, Québec",,,,,,,,54.7
+2024,"Côte-Nord and Nord-du-Québec, Québec",,,,,,,,58.5
+2024,"Ottawa, Ontario",,,,,,,,63.9
+2024,"Kingston-Pembroke, Ontario",,,,,,,,54.2
+2024,"Muskoka-Kawarthas, Ontario",,,,,,,,51.7
+2024,"Toronto, Ontario",,,,,,,,61.3
+2024,"Kitchener-Waterloo-Barrie, Ontario",,,,,,,,64.2
+2024,"Hamilton-Niagara Peninsula, Ontario",,,,,,,,58.7
+2024,"London, Ontario",,,,,,,,60.9
+2024,"Windsor-Sarnia, Ontario",,,,,,,,57.7
+2024,"Stratford-Bruce Peninsula, Ontario",,,,,,,,58.5
+2024,"Nord-est, Ontario",,,,,,,,54.1
+2024,"Nord-ouest, Ontario",,,,,,,,56.6
+2024,"Sud-est, Manitoba",,,,,,,,65.8
+2024,"Centre sud et Centre nord, Manitoba",,,,,,,,61.6
+2024,"Sud-ouest, Manitoba",,,,,,,,63.8
+2024,"Winnipeg, Manitoba",,,,,,,,63.9
+2024,"Interlake, Manitoba",,,,,,,,58.1
+2024,"Parklands et Nord, Manitoba",,,,,,,,57.6
+2024,"Regina-Moose Mountain, Saskatchewan",,,,,,,,63.9
+2024,"Swift Current-Moose Jaw, Saskatchewan",,,,,,,,60.3
+2024,"Saskatoon-Biggar, Saskatchewan",,,,,,,,67.1
+2024,"Yorkton-Melville, Saskatchewan",,,,,,,,56.2
+2024,"Prince Albert et Nord, Saskatchewan",,,,,,,,60.8
+2024,"Lethbridge-Medicine Hat, Alberta",,,,,,,,62.4
+2024,"Camrose-Drumheller, Alberta",,,,,,,,62.0
+2024,"Calgary, Alberta",,,,,,,,65.5
+2024,"Banff-Jasper-Rocky Mountain House et Athabasca-Grande Prairie-Peace River, Alberta",,,,,,,,69.7
+2024,"Red Deer, Alberta",,,,,,,,61.8
+2024,"Edmonton, Alberta",,,,,,,,63.2
+2024,"Wood Buffalo-Cold Lake, Alberta",,,,,,,,68.5
+2024,"Île de Vancouver et la côte, Colombie-Britannique",,,,,,,,58.3
+2024,"Lower Mainland-Southwest, Colombie-Britannique",,,,,,,,62.8
+2024,"Thompson-Okanagan, Colombie-Britannique",,,,,,,,54.9
+2024,"Kootenay, Colombie-Britannique",,,,,,,,57.6
+2024,"Cariboo, Colombie-Britannique",,,,,,,,58.6
+2024,"Côte-nord et Nechako, Colombie-Britannique",,,,,,,,64.9
+2024,"Nord-est, Colombie-Britannique",,,,,,,,65.3
 2015,Canada,"Total, 15 ans et plus",Hommes,,,,,,65.7
 2015,Canada,"Total, 15 ans et plus",Femmes,,,,,,57.6
 2015,Terre-Neuve-et-Labrador,"Total, 15 ans et plus",Hommes,,,,,10,55.7
@@ -908,6 +987,28 @@ Year,Géographie,Groupe d'âge,Sexe,Groupe autochtone,Niveau de scolarité attei
 2023,Alberta,"Total, 15 ans et plus",Femmes,,,,,48,61.2
 2023,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,,,59,65.4
 2023,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,,,59,58.4
+2024,Canada,"Total, 15 ans et plus",Hommes,,,,,,64.7
+2024,Canada,"Total, 15 ans et plus",Femmes,,,,,,57.5
+2024,Terre-Neuve-et-Labrador,"Total, 15 ans et plus",Hommes,,,,,10,53.4
+2024,Terre-Neuve-et-Labrador,"Total, 15 ans et plus",Femmes,,,,,10,51.7
+2024,Île-du-Prince-Édouard,"Total, 15 ans et plus",Hommes,,,,,11,65.7
+2024,Île-du-Prince-Édouard,"Total, 15 ans et plus",Femmes,,,,,11,57.3
+2024,Nouvelle-Écosse,"Total, 15 ans et plus",Hommes,,,,,12,60.0
+2024,Nouvelle-Écosse,"Total, 15 ans et plus",Femmes,,,,,12,55.7
+2024,Nouveau-Brunswick,"Total, 15 ans et plus",Hommes,,,,,13,58.6
+2024,Nouveau-Brunswick,"Total, 15 ans et plus",Femmes,,,,,13,54.3
+2024,Québec,"Total, 15 ans et plus",Hommes,,,,,24,63.9
+2024,Québec,"Total, 15 ans et plus",Femmes,,,,,24,58.2
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,,,35,64.4
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,,,35,56.7
+2024,Manitoba,"Total, 15 ans et plus",Hommes,,,,,46,67.0
+2024,Manitoba,"Total, 15 ans et plus",Femmes,,,,,46,59.3
+2024,Saskatchewan,"Total, 15 ans et plus",Hommes,,,,,47,67.9
+2024,Saskatchewan,"Total, 15 ans et plus",Femmes,,,,,47,59.4
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,,,48,69.2
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,,,48,60.0
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,,,59,64.9
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,,,59,57.1
 2015,Canada,15 à 24 ans,Les deux sexes,,,,,,57.1
 2015,Canada,25 ans et plus,Les deux sexes,,,,,,62.4
 2015,Canada,25 à 44 ans,Les deux sexes,,,,,,81.5
@@ -7145,6 +7246,699 @@ Year,Géographie,Groupe d'âge,Sexe,Groupe autochtone,Niveau de scolarité attei
 2023,Colombie-Britannique,65 ans et plus,Femmes,,,,,59,12.3
 2023,Colombie-Britannique,65 à 69 ans,Femmes,,,,,59,24.2
 2023,Colombie-Britannique,70 ans et plus,Femmes,,,,,59,6.9
+2024,Canada,15 à 24 ans,Les deux sexes,,,,,,54.8
+2024,Canada,25 ans et plus,Les deux sexes,,,,,,62.2
+2024,Canada,25 à 44 ans,Les deux sexes,,,,,,83.7
+2024,Canada,45 à 64 ans,Les deux sexes,,,,,,74.1
+2024,Canada,45 ans et plus,Les deux sexes,,,,,,48.3
+2024,Canada,25 à 54 ans,Les deux sexes,,,,,,83.8
+2024,Canada,55 ans et plus,Les deux sexes,,,,,,34.6
+2024,Canada,15 à 64 ans,Les deux sexes,,,,,,74.6
+2024,Canada,15 à 19 ans,Les deux sexes,,,,,,38.7
+2024,Canada,20 à 24 ans,Les deux sexes,,,,,,68.3
+2024,Canada,25 à 29 ans,Les deux sexes,,,,,,81.2
+2024,Canada,30 à 34 ans,Les deux sexes,,,,,,83.6
+2024,Canada,35 à 39 ans,Les deux sexes,,,,,,84.5
+2024,Canada,40 à 44 ans,Les deux sexes,,,,,,85.4
+2024,Canada,45 à 49 ans,Les deux sexes,,,,,,85.5
+2024,Canada,50 à 54 ans,Les deux sexes,,,,,,82.9
+2024,Canada,55 à 59 ans,Les deux sexes,,,,,,74.8
+2024,Canada,60 à 64 ans,Les deux sexes,,,,,,55.1
+2024,Canada,65 ans et plus,Les deux sexes,,,,,,14.4
+2024,Canada,65 à 69 ans,Les deux sexes,,,,,,28.1
+2024,Canada,70 ans et plus,Les deux sexes,,,,,,8.0
+2024,Canada,15 à 24 ans,Hommes,,,,,,53.9
+2024,Canada,25 ans et plus,Hommes,,,,,,66.7
+2024,Canada,25 à 44 ans,Hommes,,,,,,86.7
+2024,Canada,45 à 64 ans,Hommes,,,,,,78.3
+2024,Canada,45 ans et plus,Hommes,,,,,,53.1
+2024,Canada,25 à 54 ans,Hommes,,,,,,86.9
+2024,Canada,55 ans et plus,Hommes,,,,,,39.7
+2024,Canada,15 à 64 ans,Hommes,,,,,,77.2
+2024,Canada,15 à 19 ans,Hommes,,,,,,37.1
+2024,Canada,20 à 24 ans,Hommes,,,,,,67.7
+2024,Canada,25 à 29 ans,Hommes,,,,,,81.9
+2024,Canada,30 à 34 ans,Hommes,,,,,,87.1
+2024,Canada,35 à 39 ans,Hommes,,,,,,89.0
+2024,Canada,40 à 44 ans,Hommes,,,,,,89.1
+2024,Canada,45 à 49 ans,Hommes,,,,,,88.3
+2024,Canada,50 à 54 ans,Hommes,,,,,,86.3
+2024,Canada,55 à 59 ans,Hommes,,,,,,79.1
+2024,Canada,60 à 64 ans,Hommes,,,,,,61.3
+2024,Canada,65 ans et plus,Hommes,,,,,,18.3
+2024,Canada,65 à 69 ans,Hommes,,,,,,33.4
+2024,Canada,70 ans et plus,Hommes,,,,,,11.0
+2024,Canada,15 à 24 ans,Femmes,,,,,,55.7
+2024,Canada,25 ans et plus,Femmes,,,,,,57.8
+2024,Canada,25 à 44 ans,Femmes,,,,,,80.6
+2024,Canada,45 à 64 ans,Femmes,,,,,,69.9
+2024,Canada,45 ans et plus,Femmes,,,,,,43.7
+2024,Canada,25 à 54 ans,Femmes,,,,,,80.7
+2024,Canada,55 ans et plus,Femmes,,,,,,29.9
+2024,Canada,15 à 64 ans,Femmes,,,,,,71.8
+2024,Canada,15 à 19 ans,Femmes,,,,,,40.4
+2024,Canada,20 à 24 ans,Femmes,,,,,,69.0
+2024,Canada,25 à 29 ans,Femmes,,,,,,80.5
+2024,Canada,30 à 34 ans,Femmes,,,,,,80.1
+2024,Canada,35 à 39 ans,Femmes,,,,,,80.0
+2024,Canada,40 à 44 ans,Femmes,,,,,,81.8
+2024,Canada,45 à 49 ans,Femmes,,,,,,82.7
+2024,Canada,50 à 54 ans,Femmes,,,,,,79.6
+2024,Canada,55 à 59 ans,Femmes,,,,,,70.5
+2024,Canada,60 à 64 ans,Femmes,,,,,,49.2
+2024,Canada,65 ans et plus,Femmes,,,,,,10.9
+2024,Canada,65 à 69 ans,Femmes,,,,,,23.0
+2024,Canada,70 ans et plus,Femmes,,,,,,5.5
+2024,Terre-Neuve-et-Labrador,15 à 24 ans,Les deux sexes,,,,,10,53.0
+2024,Terre-Neuve-et-Labrador,25 ans et plus,Les deux sexes,,,,,10,52.5
+2024,Terre-Neuve-et-Labrador,25 à 44 ans,Les deux sexes,,,,,10,81.9
+2024,Terre-Neuve-et-Labrador,45 à 64 ans,Les deux sexes,,,,,10,64.7
+2024,Terre-Neuve-et-Labrador,45 ans et plus,Les deux sexes,,,,,10,39.8
+2024,Terre-Neuve-et-Labrador,25 à 54 ans,Les deux sexes,,,,,10,80.5
+2024,Terre-Neuve-et-Labrador,55 ans et plus,Les deux sexes,,,,,10,27.2
+2024,Terre-Neuve-et-Labrador,15 à 64 ans,Les deux sexes,,,,,10,68.9
+2024,Terre-Neuve-et-Labrador,15 à 19 ans,Les deux sexes,,,,,10,36.2
+2024,Terre-Neuve-et-Labrador,20 à 24 ans,Les deux sexes,,,,,10,68.4
+2024,Terre-Neuve-et-Labrador,25 à 29 ans,Les deux sexes,,,,,10,78.2
+2024,Terre-Neuve-et-Labrador,30 à 34 ans,Les deux sexes,,,,,10,83.8
+2024,Terre-Neuve-et-Labrador,35 à 39 ans,Les deux sexes,,,,,10,80.8
+2024,Terre-Neuve-et-Labrador,40 à 44 ans,Les deux sexes,,,,,10,85.0
+2024,Terre-Neuve-et-Labrador,45 à 49 ans,Les deux sexes,,,,,10,79.6
+2024,Terre-Neuve-et-Labrador,50 à 54 ans,Les deux sexes,,,,,10,76.7
+2024,Terre-Neuve-et-Labrador,55 à 59 ans,Les deux sexes,,,,,10,65.7
+2024,Terre-Neuve-et-Labrador,60 à 64 ans,Les deux sexes,,,,,10,41.8
+2024,Terre-Neuve-et-Labrador,65 ans et plus,Les deux sexes,,,,,10,10.3
+2024,Terre-Neuve-et-Labrador,65 à 69 ans,Les deux sexes,,,,,10,22.5
+2024,Terre-Neuve-et-Labrador,70 ans et plus,Les deux sexes,,,,,10,4.7
+2024,Terre-Neuve-et-Labrador,15 à 24 ans,Hommes,,,,,10,49.7
+2024,Terre-Neuve-et-Labrador,25 ans et plus,Hommes,,,,,10,53.9
+2024,Terre-Neuve-et-Labrador,25 à 44 ans,Hommes,,,,,10,81.4
+2024,Terre-Neuve-et-Labrador,45 à 64 ans,Hommes,,,,,10,65.9
+2024,Terre-Neuve-et-Labrador,45 ans et plus,Hommes,,,,,10,41.6
+2024,Terre-Neuve-et-Labrador,25 à 54 ans,Hommes,,,,,10,80.3
+2024,Terre-Neuve-et-Labrador,55 ans et plus,Hommes,,,,,10,29.6
+2024,Terre-Neuve-et-Labrador,15 à 64 ans,Hommes,,,,,10,68.6
+2024,Terre-Neuve-et-Labrador,15 à 19 ans,Hommes,,,,,10,31.9
+2024,Terre-Neuve-et-Labrador,20 à 24 ans,Hommes,,,,,10,65.6
+2024,Terre-Neuve-et-Labrador,25 à 29 ans,Hommes,,,,,10,76.0
+2024,Terre-Neuve-et-Labrador,30 à 34 ans,Hommes,,,,,10,83.4
+2024,Terre-Neuve-et-Labrador,35 à 39 ans,Hommes,,,,,10,81.6
+2024,Terre-Neuve-et-Labrador,40 à 44 ans,Hommes,,,,,10,85.5
+2024,Terre-Neuve-et-Labrador,45 à 49 ans,Hommes,,,,,10,80.8
+2024,Terre-Neuve-et-Labrador,50 à 54 ans,Hommes,,,,,10,76.0
+2024,Terre-Neuve-et-Labrador,55 à 59 ans,Hommes,,,,,10,66.7
+2024,Terre-Neuve-et-Labrador,60 à 64 ans,Hommes,,,,,10,45.7
+2024,Terre-Neuve-et-Labrador,65 ans et plus,Hommes,,,,,10,12.2
+2024,Terre-Neuve-et-Labrador,65 à 69 ans,Hommes,,,,,10,24.5
+2024,Terre-Neuve-et-Labrador,70 ans et plus,Hommes,,,,,10,6.5
+2024,Terre-Neuve-et-Labrador,15 à 24 ans,Femmes,,,,,10,56.6
+2024,Terre-Neuve-et-Labrador,25 ans et plus,Femmes,,,,,10,51.1
+2024,Terre-Neuve-et-Labrador,25 à 44 ans,Femmes,,,,,10,82.4
+2024,Terre-Neuve-et-Labrador,45 à 64 ans,Femmes,,,,,10,63.4
+2024,Terre-Neuve-et-Labrador,45 ans et plus,Femmes,,,,,10,38.0
+2024,Terre-Neuve-et-Labrador,25 à 54 ans,Femmes,,,,,10,80.8
+2024,Terre-Neuve-et-Labrador,55 ans et plus,Femmes,,,,,10,25.0
+2024,Terre-Neuve-et-Labrador,15 à 64 ans,Femmes,,,,,10,69.2
+2024,Terre-Neuve-et-Labrador,15 à 19 ans,Femmes,,,,,10,40.4
+2024,Terre-Neuve-et-Labrador,20 à 24 ans,Femmes,,,,,10,72.0
+2024,Terre-Neuve-et-Labrador,25 à 29 ans,Femmes,,,,,10,80.6
+2024,Terre-Neuve-et-Labrador,30 à 34 ans,Femmes,,,,,10,84.2
+2024,Terre-Neuve-et-Labrador,35 à 39 ans,Femmes,,,,,10,80.0
+2024,Terre-Neuve-et-Labrador,40 à 44 ans,Femmes,,,,,10,84.6
+2024,Terre-Neuve-et-Labrador,45 à 49 ans,Femmes,,,,,10,78.6
+2024,Terre-Neuve-et-Labrador,50 à 54 ans,Femmes,,,,,10,78.0
+2024,Terre-Neuve-et-Labrador,55 à 59 ans,Femmes,,,,,10,65.1
+2024,Terre-Neuve-et-Labrador,60 à 64 ans,Femmes,,,,,10,38.0
+2024,Terre-Neuve-et-Labrador,65 ans et plus,Femmes,,,,,10,8.5
+2024,Terre-Neuve-et-Labrador,65 à 69 ans,Femmes,,,,,10,20.6
+2024,Terre-Neuve-et-Labrador,70 ans et plus,Femmes,,,,,10,2.8
+2024,Île-du-Prince-Édouard,15 à 24 ans,Les deux sexes,,,,,11,59.7
+2024,Île-du-Prince-Édouard,25 ans et plus,Les deux sexes,,,,,11,61.9
+2024,Île-du-Prince-Édouard,25 à 44 ans,Les deux sexes,,,,,11,83.7
+2024,Île-du-Prince-Édouard,45 à 64 ans,Les deux sexes,,,,,11,74.5
+2024,Île-du-Prince-Édouard,45 ans et plus,Les deux sexes,,,,,11,48.9
+2024,Île-du-Prince-Édouard,25 à 54 ans,Les deux sexes,,,,,11,83.5
+2024,Île-du-Prince-Édouard,55 ans et plus,Les deux sexes,,,,,11,36.2
+2024,Île-du-Prince-Édouard,15 à 64 ans,Les deux sexes,,,,,11,75.0
+2024,Île-du-Prince-Édouard,15 à 19 ans,Les deux sexes,,,,,11,43.6
+2024,Île-du-Prince-Édouard,20 à 24 ans,Les deux sexes,,,,,11,72.0
+2024,Île-du-Prince-Édouard,25 à 29 ans,Les deux sexes,,,,,11,83.6
+2024,Île-du-Prince-Édouard,30 à 34 ans,Les deux sexes,,,,,11,82.6
+2024,Île-du-Prince-Édouard,35 à 39 ans,Les deux sexes,,,,,11,84.7
+2024,Île-du-Prince-Édouard,40 à 44 ans,Les deux sexes,,,,,11,83.3
+2024,Île-du-Prince-Édouard,45 à 49 ans,Les deux sexes,,,,,11,82.7
+2024,Île-du-Prince-Édouard,50 à 54 ans,Les deux sexes,,,,,11,83.3
+2024,Île-du-Prince-Édouard,55 à 59 ans,Les deux sexes,,,,,11,78.7
+2024,Île-du-Prince-Édouard,60 à 64 ans,Les deux sexes,,,,,11,55.5
+2024,Île-du-Prince-Édouard,65 ans et plus,Les deux sexes,,,,,11,16.4
+2024,Île-du-Prince-Édouard,65 à 69 ans,Les deux sexes,,,,,11,32.1
+2024,Île-du-Prince-Édouard,70 ans et plus,Les deux sexes,,,,,11,9.5
+2024,Île-du-Prince-Édouard,15 à 24 ans,Hommes,,,,,11,63.2
+2024,Île-du-Prince-Édouard,25 ans et plus,Hommes,,,,,11,66.4
+2024,Île-du-Prince-Édouard,25 à 44 ans,Hommes,,,,,11,84.2
+2024,Île-du-Prince-Édouard,45 à 64 ans,Hommes,,,,,11,79.3
+2024,Île-du-Prince-Édouard,45 ans et plus,Hommes,,,,,11,55.0
+2024,Île-du-Prince-Édouard,25 à 54 ans,Hommes,,,,,11,84.5
+2024,Île-du-Prince-Édouard,55 ans et plus,Hommes,,,,,11,43.2
+2024,Île-du-Prince-Édouard,15 à 64 ans,Hommes,,,,,11,77.4
+2024,Île-du-Prince-Édouard,15 à 19 ans,Hommes,,,,,11,44.6
+2024,Île-du-Prince-Édouard,20 à 24 ans,Hommes,,,,,11,76.3
+2024,Île-du-Prince-Édouard,25 à 29 ans,Hommes,,,,,11,82.7
+2024,Île-du-Prince-Édouard,30 à 34 ans,Hommes,,,,,11,82.8
+2024,Île-du-Prince-Édouard,35 à 39 ans,Hommes,,,,,11,84.0
+2024,Île-du-Prince-Édouard,40 à 44 ans,Hommes,,,,,11,86.3
+2024,Île-du-Prince-Édouard,45 à 49 ans,Hommes,,,,,11,85.7
+2024,Île-du-Prince-Édouard,50 à 54 ans,Hommes,,,,,11,86.7
+2024,Île-du-Prince-Édouard,55 à 59 ans,Hommes,,,,,11,81.1
+2024,Île-du-Prince-Édouard,60 à 64 ans,Hommes,,,,,11,66.7
+2024,Île-du-Prince-Édouard,65 ans et plus,Hommes,,,,,11,22.4
+2024,Île-du-Prince-Édouard,65 à 69 ans,Hommes,,,,,11,42.0
+2024,Île-du-Prince-Édouard,70 ans et plus,Hommes,,,,,11,13.6
+2024,Île-du-Prince-Édouard,15 à 24 ans,Femmes,,,,,11,55.6
+2024,Île-du-Prince-Édouard,25 ans et plus,Femmes,,,,,11,57.7
+2024,Île-du-Prince-Édouard,25 à 44 ans,Femmes,,,,,11,83.3
+2024,Île-du-Prince-Édouard,45 à 64 ans,Femmes,,,,,11,70.4
+2024,Île-du-Prince-Édouard,45 ans et plus,Femmes,,,,,11,43.6
+2024,Île-du-Prince-Édouard,25 à 54 ans,Femmes,,,,,11,82.5
+2024,Île-du-Prince-Édouard,55 ans et plus,Femmes,,,,,11,29.9
+2024,Île-du-Prince-Édouard,15 à 64 ans,Femmes,,,,,11,72.3
+2024,Île-du-Prince-Édouard,15 à 19 ans,Femmes,,,,,11,42.6
+2024,Île-du-Prince-Édouard,20 à 24 ans,Femmes,,,,,11,66.7
+2024,Île-du-Prince-Édouard,25 à 29 ans,Femmes,,,,,11,84.6
+2024,Île-du-Prince-Édouard,30 à 34 ans,Femmes,,,,,11,84.2
+2024,Île-du-Prince-Édouard,35 à 39 ans,Femmes,,,,,11,85.4
+2024,Île-du-Prince-Édouard,40 à 44 ans,Femmes,,,,,11,80.7
+2024,Île-du-Prince-Édouard,45 à 49 ans,Femmes,,,,,11,82.1
+2024,Île-du-Prince-Édouard,50 à 54 ans,Femmes,,,,,11,79.6
+2024,Île-du-Prince-Édouard,55 à 59 ans,Femmes,,,,,11,76.4
+2024,Île-du-Prince-Édouard,60 à 64 ans,Femmes,,,,,11,45.2
+2024,Île-du-Prince-Édouard,65 ans et plus,Femmes,,,,,11,11.2
+2024,Île-du-Prince-Édouard,65 à 69 ans,Femmes,,,,,11,23.2
+2024,Île-du-Prince-Édouard,70 ans et plus,Femmes,,,,,11,6.1
+2024,Nouvelle-Écosse,15 à 24 ans,Les deux sexes,,,,,12,57.7
+2024,Nouvelle-Écosse,25 ans et plus,Les deux sexes,,,,,12,57.8
+2024,Nouvelle-Écosse,25 à 44 ans,Les deux sexes,,,,,12,83.0
+2024,Nouvelle-Écosse,45 à 64 ans,Les deux sexes,,,,,12,70.2
+2024,Nouvelle-Écosse,45 ans et plus,Les deux sexes,,,,,12,44.2
+2024,Nouvelle-Écosse,25 à 54 ans,Les deux sexes,,,,,12,83.0
+2024,Nouvelle-Écosse,55 ans et plus,Les deux sexes,,,,,12,31.6
+2024,Nouvelle-Écosse,15 à 64 ans,Les deux sexes,,,,,12,73.1
+2024,Nouvelle-Écosse,15 à 19 ans,Les deux sexes,,,,,12,40.5
+2024,Nouvelle-Écosse,20 à 24 ans,Les deux sexes,,,,,12,71.6
+2024,Nouvelle-Écosse,25 à 29 ans,Les deux sexes,,,,,12,81.9
+2024,Nouvelle-Écosse,30 à 34 ans,Les deux sexes,,,,,12,80.5
+2024,Nouvelle-Écosse,35 à 39 ans,Les deux sexes,,,,,12,86.4
+2024,Nouvelle-Écosse,40 à 44 ans,Les deux sexes,,,,,12,83.9
+2024,Nouvelle-Écosse,45 à 49 ans,Les deux sexes,,,,,12,84.5
+2024,Nouvelle-Écosse,50 à 54 ans,Les deux sexes,,,,,12,81.3
+2024,Nouvelle-Écosse,55 à 59 ans,Les deux sexes,,,,,12,70.6
+2024,Nouvelle-Écosse,60 à 64 ans,Les deux sexes,,,,,12,50.4
+2024,Nouvelle-Écosse,65 ans et plus,Les deux sexes,,,,,12,13.7
+2024,Nouvelle-Écosse,65 à 69 ans,Les deux sexes,,,,,12,26.3
+2024,Nouvelle-Écosse,70 ans et plus,Les deux sexes,,,,,12,7.8
+2024,Nouvelle-Écosse,15 à 24 ans,Hommes,,,,,12,56.6
+2024,Nouvelle-Écosse,25 ans et plus,Hommes,,,,,12,60.6
+2024,Nouvelle-Écosse,25 à 44 ans,Hommes,,,,,12,84.5
+2024,Nouvelle-Écosse,45 à 64 ans,Hommes,,,,,12,72.7
+2024,Nouvelle-Écosse,45 ans et plus,Hommes,,,,,12,47.2
+2024,Nouvelle-Écosse,25 à 54 ans,Hommes,,,,,12,84.6
+2024,Nouvelle-Écosse,55 ans et plus,Hommes,,,,,12,35.0
+2024,Nouvelle-Écosse,15 à 64 ans,Hommes,,,,,12,74.3
+2024,Nouvelle-Écosse,15 à 19 ans,Hommes,,,,,12,40.1
+2024,Nouvelle-Écosse,20 à 24 ans,Hommes,,,,,12,69.8
+2024,Nouvelle-Écosse,25 à 29 ans,Hommes,,,,,12,82.5
+2024,Nouvelle-Écosse,30 à 34 ans,Hommes,,,,,12,84.1
+2024,Nouvelle-Écosse,35 à 39 ans,Hommes,,,,,12,87.1
+2024,Nouvelle-Écosse,40 à 44 ans,Hommes,,,,,12,84.8
+2024,Nouvelle-Écosse,45 à 49 ans,Hommes,,,,,12,86.9
+2024,Nouvelle-Écosse,50 à 54 ans,Hommes,,,,,12,83.1
+2024,Nouvelle-Écosse,55 à 59 ans,Hommes,,,,,12,71.0
+2024,Nouvelle-Écosse,60 à 64 ans,Hommes,,,,,12,55.5
+2024,Nouvelle-Écosse,65 ans et plus,Hommes,,,,,12,16.5
+2024,Nouvelle-Écosse,65 à 69 ans,Hommes,,,,,12,28.9
+2024,Nouvelle-Écosse,70 ans et plus,Hommes,,,,,12,10.5
+2024,Nouvelle-Écosse,15 à 24 ans,Femmes,,,,,12,58.9
+2024,Nouvelle-Écosse,25 ans et plus,Femmes,,,,,12,55.3
+2024,Nouvelle-Écosse,25 à 44 ans,Femmes,,,,,12,81.6
+2024,Nouvelle-Écosse,45 à 64 ans,Femmes,,,,,12,67.9
+2024,Nouvelle-Écosse,45 ans et plus,Femmes,,,,,12,41.4
+2024,Nouvelle-Écosse,25 à 54 ans,Femmes,,,,,12,81.4
+2024,Nouvelle-Écosse,55 ans et plus,Femmes,,,,,12,28.6
+2024,Nouvelle-Écosse,15 à 64 ans,Femmes,,,,,12,71.9
+2024,Nouvelle-Écosse,15 à 19 ans,Femmes,,,,,12,41.0
+2024,Nouvelle-Écosse,20 à 24 ans,Femmes,,,,,12,73.6
+2024,Nouvelle-Écosse,25 à 29 ans,Femmes,,,,,12,81.1
+2024,Nouvelle-Écosse,30 à 34 ans,Femmes,,,,,12,77.3
+2024,Nouvelle-Écosse,35 à 39 ans,Femmes,,,,,12,85.4
+2024,Nouvelle-Écosse,40 à 44 ans,Femmes,,,,,12,83.0
+2024,Nouvelle-Écosse,45 à 49 ans,Femmes,,,,,12,82.3
+2024,Nouvelle-Écosse,50 à 54 ans,Femmes,,,,,12,79.6
+2024,Nouvelle-Écosse,55 à 59 ans,Femmes,,,,,12,70.0
+2024,Nouvelle-Écosse,60 à 64 ans,Femmes,,,,,12,45.5
+2024,Nouvelle-Écosse,65 ans et plus,Femmes,,,,,12,11.1
+2024,Nouvelle-Écosse,65 à 69 ans,Femmes,,,,,12,23.9
+2024,Nouvelle-Écosse,70 ans et plus,Femmes,,,,,12,5.5
+2024,Nouveau-Brunswick,15 à 24 ans,Les deux sexes,,,,,13,56.1
+2024,Nouveau-Brunswick,25 ans et plus,Les deux sexes,,,,,13,56.5
+2024,Nouveau-Brunswick,25 à 44 ans,Les deux sexes,,,,,13,82.9
+2024,Nouveau-Brunswick,45 à 64 ans,Les deux sexes,,,,,13,70.7
+2024,Nouveau-Brunswick,45 ans et plus,Les deux sexes,,,,,13,43.4
+2024,Nouveau-Brunswick,25 à 54 ans,Les deux sexes,,,,,13,82.6
+2024,Nouveau-Brunswick,55 ans et plus,Les deux sexes,,,,,13,30.3
+2024,Nouveau-Brunswick,15 à 64 ans,Les deux sexes,,,,,13,72.8
+2024,Nouveau-Brunswick,15 à 19 ans,Les deux sexes,,,,,13,40.7
+2024,Nouveau-Brunswick,20 à 24 ans,Les deux sexes,,,,,13,70.3
+2024,Nouveau-Brunswick,25 à 29 ans,Les deux sexes,,,,,13,80.6
+2024,Nouveau-Brunswick,30 à 34 ans,Les deux sexes,,,,,13,84.4
+2024,Nouveau-Brunswick,35 à 39 ans,Les deux sexes,,,,,13,83.1
+2024,Nouveau-Brunswick,40 à 44 ans,Les deux sexes,,,,,13,83.4
+2024,Nouveau-Brunswick,45 à 49 ans,Les deux sexes,,,,,13,84.9
+2024,Nouveau-Brunswick,50 à 54 ans,Les deux sexes,,,,,13,78.9
+2024,Nouveau-Brunswick,55 à 59 ans,Les deux sexes,,,,,13,72.1
+2024,Nouveau-Brunswick,60 à 64 ans,Les deux sexes,,,,,13,50.9
+2024,Nouveau-Brunswick,65 ans et plus,Les deux sexes,,,,,13,11.0
+2024,Nouveau-Brunswick,65 à 69 ans,Les deux sexes,,,,,13,21.2
+2024,Nouveau-Brunswick,70 ans et plus,Les deux sexes,,,,,13,6.3
+2024,Nouveau-Brunswick,15 à 24 ans,Hommes,,,,,13,55.0
+2024,Nouveau-Brunswick,25 ans et plus,Hommes,,,,,13,59.2
+2024,Nouveau-Brunswick,25 à 44 ans,Hommes,,,,,13,83.5
+2024,Nouveau-Brunswick,45 à 64 ans,Hommes,,,,,13,72.8
+2024,Nouveau-Brunswick,45 ans et plus,Hommes,,,,,13,46.8
+2024,Nouveau-Brunswick,25 à 54 ans,Hommes,,,,,13,82.9
+2024,Nouveau-Brunswick,55 ans et plus,Hommes,,,,,13,34.5
+2024,Nouveau-Brunswick,15 à 64 ans,Hommes,,,,,13,73.7
+2024,Nouveau-Brunswick,15 à 19 ans,Hommes,,,,,13,39.4
+2024,Nouveau-Brunswick,20 à 24 ans,Hommes,,,,,13,69.0
+2024,Nouveau-Brunswick,25 à 29 ans,Hommes,,,,,13,80.2
+2024,Nouveau-Brunswick,30 à 34 ans,Hommes,,,,,13,85.4
+2024,Nouveau-Brunswick,35 à 39 ans,Hommes,,,,,13,83.1
+2024,Nouveau-Brunswick,40 à 44 ans,Hommes,,,,,13,85.6
+2024,Nouveau-Brunswick,45 à 49 ans,Hommes,,,,,13,83.8
+2024,Nouveau-Brunswick,50 à 54 ans,Hommes,,,,,13,79.4
+2024,Nouveau-Brunswick,55 à 59 ans,Hommes,,,,,13,74.1
+2024,Nouveau-Brunswick,60 à 64 ans,Hommes,,,,,13,57.0
+2024,Nouveau-Brunswick,65 ans et plus,Hommes,,,,,13,14.2
+2024,Nouveau-Brunswick,65 à 69 ans,Hommes,,,,,13,26.2
+2024,Nouveau-Brunswick,70 ans et plus,Hommes,,,,,13,8.6
+2024,Nouveau-Brunswick,15 à 24 ans,Femmes,,,,,13,57.2
+2024,Nouveau-Brunswick,25 ans et plus,Femmes,,,,,13,53.9
+2024,Nouveau-Brunswick,25 à 44 ans,Femmes,,,,,13,82.3
+2024,Nouveau-Brunswick,45 à 64 ans,Femmes,,,,,13,68.6
+2024,Nouveau-Brunswick,45 ans et plus,Femmes,,,,,13,40.2
+2024,Nouveau-Brunswick,25 à 54 ans,Femmes,,,,,13,82.3
+2024,Nouveau-Brunswick,55 ans et plus,Femmes,,,,,13,26.5
+2024,Nouveau-Brunswick,15 à 64 ans,Femmes,,,,,13,71.9
+2024,Nouveau-Brunswick,15 à 19 ans,Femmes,,,,,13,42.0
+2024,Nouveau-Brunswick,20 à 24 ans,Femmes,,,,,13,71.4
+2024,Nouveau-Brunswick,25 à 29 ans,Femmes,,,,,13,81.1
+2024,Nouveau-Brunswick,30 à 34 ans,Femmes,,,,,13,83.4
+2024,Nouveau-Brunswick,35 à 39 ans,Femmes,,,,,13,83.5
+2024,Nouveau-Brunswick,40 à 44 ans,Femmes,,,,,13,81.9
+2024,Nouveau-Brunswick,45 à 49 ans,Femmes,,,,,13,85.9
+2024,Nouveau-Brunswick,50 à 54 ans,Femmes,,,,,13,78.4
+2024,Nouveau-Brunswick,55 à 59 ans,Femmes,,,,,13,70.1
+2024,Nouveau-Brunswick,60 à 64 ans,Femmes,,,,,13,44.8
+2024,Nouveau-Brunswick,65 ans et plus,Femmes,,,,,13,8.1
+2024,Nouveau-Brunswick,65 à 69 ans,Femmes,,,,,13,16.7
+2024,Nouveau-Brunswick,70 ans et plus,Femmes,,,,,13,4.4
+2024,Québec,15 à 24 ans,Les deux sexes,,,,,24,61.8
+2024,Québec,25 ans et plus,Les deux sexes,,,,,24,60.9
+2024,Québec,25 à 44 ans,Les deux sexes,,,,,24,85.8
+2024,Québec,45 à 64 ans,Les deux sexes,,,,,24,74.9
+2024,Québec,45 ans et plus,Les deux sexes,,,,,24,46.9
+2024,Québec,25 à 54 ans,Les deux sexes,,,,,24,85.8
+2024,Québec,55 ans et plus,Les deux sexes,,,,,24,32.9
+2024,Québec,15 à 64 ans,Les deux sexes,,,,,24,77.1
+2024,Québec,15 à 19 ans,Les deux sexes,,,,,24,50.6
+2024,Québec,20 à 24 ans,Les deux sexes,,,,,24,72.1
+2024,Québec,25 à 29 ans,Les deux sexes,,,,,24,83.8
+2024,Québec,30 à 34 ans,Les deux sexes,,,,,24,85.8
+2024,Québec,35 à 39 ans,Les deux sexes,,,,,24,86.2
+2024,Québec,40 à 44 ans,Les deux sexes,,,,,24,87.2
+2024,Québec,45 à 49 ans,Les deux sexes,,,,,24,87.6
+2024,Québec,50 à 54 ans,Les deux sexes,,,,,24,84.1
+2024,Québec,55 à 59 ans,Les deux sexes,,,,,24,75.8
+2024,Québec,60 à 64 ans,Les deux sexes,,,,,24,54.8
+2024,Québec,65 ans et plus,Les deux sexes,,,,,24,12.8
+2024,Québec,65 à 69 ans,Les deux sexes,,,,,24,25.0
+2024,Québec,70 ans et plus,Les deux sexes,,,,,24,7.2
+2024,Québec,15 à 24 ans,Hommes,,,,,24,60.3
+2024,Québec,25 ans et plus,Hommes,,,,,24,64.5
+2024,Québec,25 à 44 ans,Hommes,,,,,24,86.8
+2024,Québec,45 à 64 ans,Hommes,,,,,24,78.5
+2024,Québec,45 ans et plus,Hommes,,,,,24,51.3
+2024,Québec,25 à 54 ans,Hommes,,,,,24,87.1
+2024,Québec,55 ans et plus,Hommes,,,,,24,37.6
+2024,Québec,15 à 64 ans,Hommes,,,,,24,78.7
+2024,Québec,15 à 19 ans,Hommes,,,,,24,48.0
+2024,Québec,20 à 24 ans,Hommes,,,,,24,71.4
+2024,Québec,25 à 29 ans,Hommes,,,,,24,82.3
+2024,Québec,30 à 34 ans,Hommes,,,,,24,87.4
+2024,Québec,35 à 39 ans,Hommes,,,,,24,88.6
+2024,Québec,40 à 44 ans,Hommes,,,,,24,88.5
+2024,Québec,45 à 49 ans,Hommes,,,,,24,89.2
+2024,Québec,50 à 54 ans,Hommes,,,,,24,86.4
+2024,Québec,55 à 59 ans,Hommes,,,,,24,78.7
+2024,Québec,60 à 64 ans,Hommes,,,,,24,61.6
+2024,Québec,65 ans et plus,Hommes,,,,,24,16.3
+2024,Québec,65 à 69 ans,Hommes,,,,,24,29.5
+2024,Québec,70 ans et plus,Hommes,,,,,24,10.0
+2024,Québec,15 à 24 ans,Femmes,,,,,24,63.3
+2024,Québec,25 ans et plus,Femmes,,,,,24,57.4
+2024,Québec,25 à 44 ans,Femmes,,,,,24,84.7
+2024,Québec,45 à 64 ans,Femmes,,,,,24,71.2
+2024,Québec,45 ans et plus,Femmes,,,,,24,42.6
+2024,Québec,25 à 54 ans,Femmes,,,,,24,84.5
+2024,Québec,55 ans et plus,Femmes,,,,,24,28.4
+2024,Québec,15 à 64 ans,Femmes,,,,,24,75.5
+2024,Québec,15 à 19 ans,Femmes,,,,,24,53.3
+2024,Québec,20 à 24 ans,Femmes,,,,,24,72.8
+2024,Québec,25 à 29 ans,Femmes,,,,,24,85.4
+2024,Québec,30 à 34 ans,Femmes,,,,,24,84.1
+2024,Québec,35 à 39 ans,Femmes,,,,,24,83.5
+2024,Québec,40 à 44 ans,Femmes,,,,,24,85.9
+2024,Québec,45 à 49 ans,Femmes,,,,,24,85.8
+2024,Québec,50 à 54 ans,Femmes,,,,,24,81.9
+2024,Québec,55 à 59 ans,Femmes,,,,,24,72.8
+2024,Québec,60 à 64 ans,Femmes,,,,,24,48.0
+2024,Québec,65 ans et plus,Femmes,,,,,24,9.5
+2024,Québec,65 à 69 ans,Femmes,,,,,24,20.6
+2024,Québec,70 ans et plus,Femmes,,,,,24,4.7
+2024,Ontario,15 à 24 ans,Les deux sexes,,,,,35,50.2
+2024,Ontario,25 ans et plus,Les deux sexes,,,,,35,62.4
+2024,Ontario,25 à 44 ans,Les deux sexes,,,,,35,82.7
+2024,Ontario,45 à 64 ans,Les deux sexes,,,,,35,73.9
+2024,Ontario,45 ans et plus,Les deux sexes,,,,,35,48.7
+2024,Ontario,25 à 54 ans,Les deux sexes,,,,,35,83.1
+2024,Ontario,55 ans et plus,Les deux sexes,,,,,35,35.4
+2024,Ontario,15 à 64 ans,Les deux sexes,,,,,35,73.0
+2024,Ontario,15 à 19 ans,Les deux sexes,,,,,35,33.7
+2024,Ontario,20 à 24 ans,Les deux sexes,,,,,35,63.3
+2024,Ontario,25 à 29 ans,Les deux sexes,,,,,35,80.1
+2024,Ontario,30 à 34 ans,Les deux sexes,,,,,35,82.8
+2024,Ontario,35 à 39 ans,Les deux sexes,,,,,35,83.8
+2024,Ontario,40 à 44 ans,Les deux sexes,,,,,35,84.6
+2024,Ontario,45 à 49 ans,Les deux sexes,,,,,35,84.9
+2024,Ontario,50 à 54 ans,Les deux sexes,,,,,35,82.9
+2024,Ontario,55 à 59 ans,Les deux sexes,,,,,35,74.1
+2024,Ontario,60 à 64 ans,Les deux sexes,,,,,35,56.0
+2024,Ontario,65 ans et plus,Les deux sexes,,,,,35,14.9
+2024,Ontario,65 à 69 ans,Les deux sexes,,,,,35,28.9
+2024,Ontario,70 ans et plus,Les deux sexes,,,,,35,8.5
+2024,Ontario,15 à 24 ans,Hommes,,,,,35,49.4
+2024,Ontario,25 ans et plus,Hommes,,,,,35,67.4
+2024,Ontario,25 à 44 ans,Hommes,,,,,35,86.1
+2024,Ontario,45 à 64 ans,Hommes,,,,,35,78.5
+2024,Ontario,45 ans et plus,Hommes,,,,,35,54.0
+2024,Ontario,25 à 54 ans,Hommes,,,,,35,86.4
+2024,Ontario,55 ans et plus,Hommes,,,,,35,41.0
+2024,Ontario,15 à 64 ans,Hommes,,,,,35,75.8
+2024,Ontario,15 à 19 ans,Hommes,,,,,35,32.2
+2024,Ontario,20 à 24 ans,Hommes,,,,,35,62.6
+2024,Ontario,25 à 29 ans,Hommes,,,,,35,80.6
+2024,Ontario,30 à 34 ans,Hommes,,,,,35,86.2
+2024,Ontario,35 à 39 ans,Hommes,,,,,35,88.9
+2024,Ontario,40 à 44 ans,Hommes,,,,,35,89.6
+2024,Ontario,45 à 49 ans,Hommes,,,,,35,88.3
+2024,Ontario,50 à 54 ans,Hommes,,,,,35,86.4
+2024,Ontario,55 à 59 ans,Hommes,,,,,35,78.6
+2024,Ontario,60 à 64 ans,Hommes,,,,,35,62.9
+2024,Ontario,65 ans et plus,Hommes,,,,,35,19.1
+2024,Ontario,65 à 69 ans,Hommes,,,,,35,34.9
+2024,Ontario,70 ans et plus,Hommes,,,,,35,11.5
+2024,Ontario,15 à 24 ans,Femmes,,,,,35,51.1
+2024,Ontario,25 ans et plus,Femmes,,,,,35,57.7
+2024,Ontario,25 à 44 ans,Femmes,,,,,35,79.3
+2024,Ontario,45 à 64 ans,Femmes,,,,,35,69.6
+2024,Ontario,45 ans et plus,Femmes,,,,,35,43.9
+2024,Ontario,25 à 54 ans,Femmes,,,,,35,79.7
+2024,Ontario,55 ans et plus,Femmes,,,,,35,30.3
+2024,Ontario,15 à 64 ans,Femmes,,,,,35,70.2
+2024,Ontario,15 à 19 ans,Femmes,,,,,35,35.3
+2024,Ontario,20 à 24 ans,Femmes,,,,,35,64.0
+2024,Ontario,25 à 29 ans,Femmes,,,,,35,79.5
+2024,Ontario,30 à 34 ans,Femmes,,,,,35,79.3
+2024,Ontario,35 à 39 ans,Femmes,,,,,35,78.6
+2024,Ontario,40 à 44 ans,Femmes,,,,,35,79.7
+2024,Ontario,45 à 49 ans,Femmes,,,,,35,81.8
+2024,Ontario,50 à 54 ans,Femmes,,,,,35,79.6
+2024,Ontario,55 à 59 ans,Femmes,,,,,35,69.7
+2024,Ontario,60 à 64 ans,Femmes,,,,,35,49.5
+2024,Ontario,65 ans et plus,Femmes,,,,,35,11.2
+2024,Ontario,65 à 69 ans,Femmes,,,,,35,23.4
+2024,Ontario,70 ans et plus,Femmes,,,,,35,5.9
+2024,Manitoba,15 à 24 ans,Les deux sexes,,,,,46,60.2
+2024,Manitoba,25 ans et plus,Les deux sexes,,,,,46,63.8
+2024,Manitoba,25 à 44 ans,Les deux sexes,,,,,46,84.6
+2024,Manitoba,45 à 64 ans,Les deux sexes,,,,,46,74.3
+2024,Manitoba,45 ans et plus,Les deux sexes,,,,,46,49.0
+2024,Manitoba,25 à 54 ans,Les deux sexes,,,,,46,85.2
+2024,Manitoba,55 ans et plus,Les deux sexes,,,,,46,33.6
+2024,Manitoba,15 à 64 ans,Les deux sexes,,,,,46,75.9
+2024,Manitoba,15 à 19 ans,Les deux sexes,,,,,46,41.7
+2024,Manitoba,20 à 24 ans,Les deux sexes,,,,,46,75.8
+2024,Manitoba,25 à 29 ans,Les deux sexes,,,,,46,82.8
+2024,Manitoba,30 à 34 ans,Les deux sexes,,,,,46,82.6
+2024,Manitoba,35 à 39 ans,Les deux sexes,,,,,46,85.6
+2024,Manitoba,40 à 44 ans,Les deux sexes,,,,,46,87.5
+2024,Manitoba,45 à 49 ans,Les deux sexes,,,,,46,87.4
+2024,Manitoba,50 à 54 ans,Les deux sexes,,,,,46,86.3
+2024,Manitoba,55 à 59 ans,Les deux sexes,,,,,46,72.2
+2024,Manitoba,60 à 64 ans,Les deux sexes,,,,,46,52.2
+2024,Manitoba,65 ans et plus,Les deux sexes,,,,,46,14.4
+2024,Manitoba,65 à 69 ans,Les deux sexes,,,,,46,27.6
+2024,Manitoba,70 ans et plus,Les deux sexes,,,,,46,8.2
+2024,Manitoba,15 à 24 ans,Hommes,,,,,46,60.4
+2024,Manitoba,25 ans et plus,Hommes,,,,,46,68.4
+2024,Manitoba,25 à 44 ans,Hommes,,,,,46,88.3
+2024,Manitoba,45 à 64 ans,Hommes,,,,,46,78.6
+2024,Manitoba,45 ans et plus,Hommes,,,,,46,53.7
+2024,Manitoba,25 à 54 ans,Hommes,,,,,46,88.8
+2024,Manitoba,55 ans et plus,Hommes,,,,,46,38.2
+2024,Manitoba,15 à 64 ans,Hommes,,,,,46,79.0
+2024,Manitoba,15 à 19 ans,Hommes,,,,,46,41.7
+2024,Manitoba,20 à 24 ans,Hommes,,,,,46,75.5
+2024,Manitoba,25 à 29 ans,Hommes,,,,,46,85.1
+2024,Manitoba,30 à 34 ans,Hommes,,,,,46,87.4
+2024,Manitoba,35 à 39 ans,Hommes,,,,,46,90.0
+2024,Manitoba,40 à 44 ans,Hommes,,,,,46,90.8
+2024,Manitoba,45 à 49 ans,Hommes,,,,,46,90.4
+2024,Manitoba,50 à 54 ans,Hommes,,,,,46,89.9
+2024,Manitoba,55 à 59 ans,Hommes,,,,,46,76.4
+2024,Manitoba,60 à 64 ans,Hommes,,,,,46,58.2
+2024,Manitoba,65 ans et plus,Hommes,,,,,46,17.8
+2024,Manitoba,65 à 69 ans,Hommes,,,,,46,32.5
+2024,Manitoba,70 ans et plus,Hommes,,,,,46,10.5
+2024,Manitoba,15 à 24 ans,Femmes,,,,,46,59.8
+2024,Manitoba,25 ans et plus,Femmes,,,,,46,59.2
+2024,Manitoba,25 à 44 ans,Femmes,,,,,46,80.9
+2024,Manitoba,45 à 64 ans,Femmes,,,,,46,70.0
+2024,Manitoba,45 ans et plus,Femmes,,,,,46,44.5
+2024,Manitoba,25 à 54 ans,Femmes,,,,,46,81.6
+2024,Manitoba,55 ans et plus,Femmes,,,,,46,29.4
+2024,Manitoba,15 à 64 ans,Femmes,,,,,46,72.7
+2024,Manitoba,15 à 19 ans,Femmes,,,,,46,41.6
+2024,Manitoba,20 à 24 ans,Femmes,,,,,46,75.9
+2024,Manitoba,25 à 29 ans,Femmes,,,,,46,80.4
+2024,Manitoba,30 à 34 ans,Femmes,,,,,46,77.8
+2024,Manitoba,35 à 39 ans,Femmes,,,,,46,81.3
+2024,Manitoba,40 à 44 ans,Femmes,,,,,46,83.8
+2024,Manitoba,45 à 49 ans,Femmes,,,,,46,84.4
+2024,Manitoba,50 à 54 ans,Femmes,,,,,46,82.7
+2024,Manitoba,55 à 59 ans,Femmes,,,,,46,68.1
+2024,Manitoba,60 à 64 ans,Femmes,,,,,46,46.4
+2024,Manitoba,65 ans et plus,Femmes,,,,,46,11.4
+2024,Manitoba,65 à 69 ans,Femmes,,,,,46,22.8
+2024,Manitoba,70 ans et plus,Femmes,,,,,46,6.2
+2024,Saskatchewan,15 à 24 ans,Les deux sexes,,,,,47,56.2
+2024,Saskatchewan,25 ans et plus,Les deux sexes,,,,,47,65.1
+2024,Saskatchewan,25 à 44 ans,Les deux sexes,,,,,47,84.9
+2024,Saskatchewan,45 à 64 ans,Les deux sexes,,,,,47,76.8
+2024,Saskatchewan,45 ans et plus,Les deux sexes,,,,,47,51.2
+2024,Saskatchewan,25 à 54 ans,Les deux sexes,,,,,47,85.2
+2024,Saskatchewan,55 ans et plus,Les deux sexes,,,,,47,37.2
+2024,Saskatchewan,15 à 64 ans,Les deux sexes,,,,,47,76.3
+2024,Saskatchewan,15 à 19 ans,Les deux sexes,,,,,47,39.4
+2024,Saskatchewan,20 à 24 ans,Les deux sexes,,,,,47,72.6
+2024,Saskatchewan,25 à 29 ans,Les deux sexes,,,,,47,79.7
+2024,Saskatchewan,30 à 34 ans,Les deux sexes,,,,,47,85.0
+2024,Saskatchewan,35 à 39 ans,Les deux sexes,,,,,47,86.9
+2024,Saskatchewan,40 à 44 ans,Les deux sexes,,,,,47,87.1
+2024,Saskatchewan,45 à 49 ans,Les deux sexes,,,,,47,86.3
+2024,Saskatchewan,50 à 54 ans,Les deux sexes,,,,,47,86.2
+2024,Saskatchewan,55 à 59 ans,Les deux sexes,,,,,47,78.2
+2024,Saskatchewan,60 à 64 ans,Les deux sexes,,,,,47,58.2
+2024,Saskatchewan,65 ans et plus,Les deux sexes,,,,,47,17.0
+2024,Saskatchewan,65 à 69 ans,Les deux sexes,,,,,47,31.9
+2024,Saskatchewan,70 ans et plus,Les deux sexes,,,,,47,9.4
+2024,Saskatchewan,15 à 24 ans,Hommes,,,,,47,55.8
+2024,Saskatchewan,25 ans et plus,Hommes,,,,,47,70.2
+2024,Saskatchewan,25 à 44 ans,Hommes,,,,,47,89.3
+2024,Saskatchewan,45 à 64 ans,Hommes,,,,,47,80.7
+2024,Saskatchewan,45 ans et plus,Hommes,,,,,47,56.5
+2024,Saskatchewan,25 à 54 ans,Hommes,,,,,47,89.1
+2024,Saskatchewan,55 ans et plus,Hommes,,,,,47,43.1
+2024,Saskatchewan,15 à 64 ans,Hommes,,,,,47,79.5
+2024,Saskatchewan,15 à 19 ans,Hommes,,,,,47,36.3
+2024,Saskatchewan,20 à 24 ans,Hommes,,,,,47,73.8
+2024,Saskatchewan,25 à 29 ans,Hommes,,,,,47,83.2
+2024,Saskatchewan,30 à 34 ans,Hommes,,,,,47,89.8
+2024,Saskatchewan,35 à 39 ans,Hommes,,,,,47,91.7
+2024,Saskatchewan,40 à 44 ans,Hommes,,,,,47,91.7
+2024,Saskatchewan,45 à 49 ans,Hommes,,,,,47,87.3
+2024,Saskatchewan,50 à 54 ans,Hommes,,,,,47,89.8
+2024,Saskatchewan,55 à 59 ans,Hommes,,,,,47,82.8
+2024,Saskatchewan,60 à 64 ans,Hommes,,,,,47,64.6
+2024,Saskatchewan,65 ans et plus,Hommes,,,,,47,21.8
+2024,Saskatchewan,65 à 69 ans,Hommes,,,,,47,37.3
+2024,Saskatchewan,70 ans et plus,Hommes,,,,,47,13.7
+2024,Saskatchewan,15 à 24 ans,Femmes,,,,,47,56.8
+2024,Saskatchewan,25 ans et plus,Femmes,,,,,47,59.9
+2024,Saskatchewan,25 à 44 ans,Femmes,,,,,47,80.3
+2024,Saskatchewan,45 à 64 ans,Femmes,,,,,47,72.8
+2024,Saskatchewan,45 ans et plus,Femmes,,,,,47,46.0
+2024,Saskatchewan,25 à 54 ans,Femmes,,,,,47,81.3
+2024,Saskatchewan,55 ans et plus,Femmes,,,,,47,31.5
+2024,Saskatchewan,15 à 64 ans,Femmes,,,,,47,73.0
+2024,Saskatchewan,15 à 19 ans,Femmes,,,,,47,42.6
+2024,Saskatchewan,20 à 24 ans,Femmes,,,,,47,71.2
+2024,Saskatchewan,25 à 29 ans,Femmes,,,,,47,76.3
+2024,Saskatchewan,30 à 34 ans,Femmes,,,,,47,79.8
+2024,Saskatchewan,35 à 39 ans,Femmes,,,,,47,81.8
+2024,Saskatchewan,40 à 44 ans,Femmes,,,,,47,82.3
+2024,Saskatchewan,45 à 49 ans,Femmes,,,,,47,84.9
+2024,Saskatchewan,50 à 54 ans,Femmes,,,,,47,82.7
+2024,Saskatchewan,55 à 59 ans,Femmes,,,,,47,73.4
+2024,Saskatchewan,60 à 64 ans,Femmes,,,,,47,51.7
+2024,Saskatchewan,65 ans et plus,Femmes,,,,,47,12.4
+2024,Saskatchewan,65 à 69 ans,Femmes,,,,,47,26.5
+2024,Saskatchewan,70 ans et plus,Femmes,,,,,47,5.7
+2024,Alberta,15 à 24 ans,Les deux sexes,,,,,48,55.0
+2024,Alberta,25 ans et plus,Les deux sexes,,,,,48,66.3
+2024,Alberta,25 à 44 ans,Les deux sexes,,,,,48,83.7
+2024,Alberta,45 à 64 ans,Les deux sexes,,,,,48,74.8
+2024,Alberta,45 ans et plus,Les deux sexes,,,,,48,52.5
+2024,Alberta,25 à 54 ans,Les deux sexes,,,,,48,83.6
+2024,Alberta,55 ans et plus,Les deux sexes,,,,,48,37.8
+2024,Alberta,15 à 64 ans,Les deux sexes,,,,,48,75.2
+2024,Alberta,15 à 19 ans,Les deux sexes,,,,,48,35.7
+2024,Alberta,20 à 24 ans,Les deux sexes,,,,,48,73.0
+2024,Alberta,25 à 29 ans,Les deux sexes,,,,,48,80.4
+2024,Alberta,30 à 34 ans,Les deux sexes,,,,,48,83.7
+2024,Alberta,35 à 39 ans,Les deux sexes,,,,,48,84.7
+2024,Alberta,40 à 44 ans,Les deux sexes,,,,,48,85.7
+2024,Alberta,45 à 49 ans,Les deux sexes,,,,,48,85.3
+2024,Alberta,50 à 54 ans,Les deux sexes,,,,,48,81.2
+2024,Alberta,55 à 59 ans,Les deux sexes,,,,,48,75.5
+2024,Alberta,60 à 64 ans,Les deux sexes,,,,,48,55.6
+2024,Alberta,65 ans et plus,Les deux sexes,,,,,48,17.2
+2024,Alberta,65 à 69 ans,Les deux sexes,,,,,48,31.6
+2024,Alberta,70 ans et plus,Les deux sexes,,,,,48,9.5
+2024,Alberta,15 à 24 ans,Hommes,,,,,48,54.1
+2024,Alberta,25 ans et plus,Hommes,,,,,48,72.0
+2024,Alberta,25 à 44 ans,Hommes,,,,,48,88.6
+2024,Alberta,45 à 64 ans,Hommes,,,,,48,79.6
+2024,Alberta,45 ans et plus,Hommes,,,,,48,58.3
+2024,Alberta,25 à 54 ans,Hommes,,,,,48,88.3
+2024,Alberta,55 ans et plus,Hommes,,,,,48,43.5
+2024,Alberta,15 à 64 ans,Hommes,,,,,48,78.9
+2024,Alberta,15 à 19 ans,Hommes,,,,,48,35.4
+2024,Alberta,20 à 24 ans,Hommes,,,,,48,71.5
+2024,Alberta,25 à 29 ans,Hommes,,,,,48,83.7
+2024,Alberta,30 à 34 ans,Hommes,,,,,48,89.8
+2024,Alberta,35 à 39 ans,Hommes,,,,,48,91.7
+2024,Alberta,40 à 44 ans,Hommes,,,,,48,88.8
+2024,Alberta,45 à 49 ans,Hommes,,,,,48,88.4
+2024,Alberta,50 à 54 ans,Hommes,,,,,48,86.9
+2024,Alberta,55 à 59 ans,Hommes,,,,,48,81.8
+2024,Alberta,60 à 64 ans,Hommes,,,,,48,59.5
+2024,Alberta,65 ans et plus,Hommes,,,,,48,22.4
+2024,Alberta,65 à 69 ans,Hommes,,,,,48,38.9
+2024,Alberta,70 ans et plus,Hommes,,,,,48,13.1
+2024,Alberta,15 à 24 ans,Femmes,,,,,48,55.8
+2024,Alberta,25 ans et plus,Femmes,,,,,48,60.7
+2024,Alberta,25 à 44 ans,Femmes,,,,,48,78.6
+2024,Alberta,45 à 64 ans,Femmes,,,,,48,69.9
+2024,Alberta,45 ans et plus,Femmes,,,,,48,46.9
+2024,Alberta,25 à 54 ans,Femmes,,,,,48,78.7
+2024,Alberta,55 ans et plus,Femmes,,,,,48,32.4
+2024,Alberta,15 à 64 ans,Femmes,,,,,48,71.3
+2024,Alberta,15 à 19 ans,Femmes,,,,,48,35.9
+2024,Alberta,20 à 24 ans,Femmes,,,,,48,74.6
+2024,Alberta,25 à 29 ans,Femmes,,,,,48,77.0
+2024,Alberta,30 à 34 ans,Femmes,,,,,48,77.5
+2024,Alberta,35 à 39 ans,Femmes,,,,,48,77.5
+2024,Alberta,40 à 44 ans,Femmes,,,,,48,82.4
+2024,Alberta,45 à 49 ans,Femmes,,,,,48,82.1
+2024,Alberta,50 à 54 ans,Femmes,,,,,48,75.2
+2024,Alberta,55 à 59 ans,Femmes,,,,,48,69.3
+2024,Alberta,60 à 64 ans,Femmes,,,,,48,51.7
+2024,Alberta,65 ans et plus,Femmes,,,,,48,12.5
+2024,Alberta,65 à 69 ans,Femmes,,,,,48,24.6
+2024,Alberta,70 ans et plus,Femmes,,,,,48,6.3
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,,,59,55.9
+2024,Colombie-Britannique,25 ans et plus,Les deux sexes,,,,,59,61.7
+2024,Colombie-Britannique,25 à 44 ans,Les deux sexes,,,,,59,83.2
+2024,Colombie-Britannique,45 à 64 ans,Les deux sexes,,,,,59,74.5
+2024,Colombie-Britannique,45 ans et plus,Les deux sexes,,,,,59,47.9
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,,,59,83.3
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,,,59,35.0
+2024,Colombie-Britannique,15 à 64 ans,Les deux sexes,,,,,59,74.8
+2024,Colombie-Britannique,15 à 19 ans,Les deux sexes,,,,,59,36.5
+2024,Colombie-Britannique,20 à 24 ans,Les deux sexes,,,,,59,70.9
+2024,Colombie-Britannique,25 à 29 ans,Les deux sexes,,,,,59,81.7
+2024,Colombie-Britannique,30 à 34 ans,Les deux sexes,,,,,59,83.3
+2024,Colombie-Britannique,35 à 39 ans,Les deux sexes,,,,,59,83.4
+2024,Colombie-Britannique,40 à 44 ans,Les deux sexes,,,,,59,84.4
+2024,Colombie-Britannique,45 à 49 ans,Les deux sexes,,,,,59,84.1
+2024,Colombie-Britannique,50 à 54 ans,Les deux sexes,,,,,59,83.0
+2024,Colombie-Britannique,55 à 59 ans,Les deux sexes,,,,,59,76.6
+2024,Colombie-Britannique,60 à 64 ans,Les deux sexes,,,,,59,56.3
+2024,Colombie-Britannique,65 ans et plus,Les deux sexes,,,,,59,14.8
+2024,Colombie-Britannique,65 à 69 ans,Les deux sexes,,,,,59,30.1
+2024,Colombie-Britannique,70 ans et plus,Les deux sexes,,,,,59,7.9
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,,,59,55.4
+2024,Colombie-Britannique,25 ans et plus,Hommes,,,,,59,66.6
+2024,Colombie-Britannique,25 à 44 ans,Hommes,,,,,59,87.0
+2024,Colombie-Britannique,45 à 64 ans,Hommes,,,,,59,79.4
+2024,Colombie-Britannique,45 ans et plus,Hommes,,,,,59,52.6
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,,,59,87.2
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,,,59,39.6
+2024,Colombie-Britannique,15 à 64 ans,Hommes,,,,,59,78.2
+2024,Colombie-Britannique,15 à 19 ans,Hommes,,,,,59,34.9
+2024,Colombie-Britannique,20 à 24 ans,Hommes,,,,,59,71.1
+2024,Colombie-Britannique,25 à 29 ans,Hommes,,,,,59,83.5
+2024,Colombie-Britannique,30 à 34 ans,Hommes,,,,,59,87.3
+2024,Colombie-Britannique,35 à 39 ans,Hommes,,,,,59,87.9
+2024,Colombie-Britannique,40 à 44 ans,Hommes,,,,,59,89.5
+2024,Colombie-Britannique,45 à 49 ans,Hommes,,,,,59,88.5
+2024,Colombie-Britannique,50 à 54 ans,Hommes,,,,,59,86.9
+2024,Colombie-Britannique,55 à 59 ans,Hommes,,,,,59,83.1
+2024,Colombie-Britannique,60 à 64 ans,Hommes,,,,,59,61.4
+2024,Colombie-Britannique,65 ans et plus,Hommes,,,,,59,18.2
+2024,Colombie-Britannique,65 à 69 ans,Hommes,,,,,59,35.2
+2024,Colombie-Britannique,70 ans et plus,Hommes,,,,,59,10.3
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,,,59,56.4
+2024,Colombie-Britannique,25 ans et plus,Femmes,,,,,59,57.2
+2024,Colombie-Britannique,25 à 44 ans,Femmes,,,,,59,79.4
+2024,Colombie-Britannique,45 à 64 ans,Femmes,,,,,59,69.8
+2024,Colombie-Britannique,45 ans et plus,Femmes,,,,,59,43.6
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,,,59,79.4
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,,,59,30.8
+2024,Colombie-Britannique,15 à 64 ans,Femmes,,,,,59,71.5
+2024,Colombie-Britannique,15 à 19 ans,Femmes,,,,,59,38.2
+2024,Colombie-Britannique,20 à 24 ans,Femmes,,,,,59,70.6
+2024,Colombie-Britannique,25 à 29 ans,Femmes,,,,,59,79.9
+2024,Colombie-Britannique,30 à 34 ans,Femmes,,,,,59,79.3
+2024,Colombie-Britannique,35 à 39 ans,Femmes,,,,,59,78.8
+2024,Colombie-Britannique,40 à 44 ans,Femmes,,,,,59,79.5
+2024,Colombie-Britannique,45 à 49 ans,Femmes,,,,,59,80.1
+2024,Colombie-Britannique,50 à 54 ans,Femmes,,,,,59,79.2
+2024,Colombie-Britannique,55 à 59 ans,Femmes,,,,,59,70.7
+2024,Colombie-Britannique,60 à 64 ans,Femmes,,,,,59,51.5
+2024,Colombie-Britannique,65 ans et plus,Femmes,,,,,59,11.9
+2024,Colombie-Britannique,65 à 69 ans,Femmes,,,,,59,25.5
+2024,Colombie-Britannique,70 ans et plus,Femmes,,,,,59,5.8
 2015,Canada,"Total, 15 ans et plus",,Population totale,Études secondaires partielles ou moins,,,,32.7
 2015,Canada,"Total, 15 ans et plus",,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,58.9
 2015,Canada,"Total, 15 ans et plus",,Population totale,Études postsecondaires complétées,,,,71.9
@@ -7829,6 +8623,82 @@ Year,Géographie,Groupe d'âge,Sexe,Groupe autochtone,Niveau de scolarité attei
 2023,Région des Prairies,"Total, 15 ans et plus",,Population non autochtone,Études secondaires partielles ou moins,,,,37.2
 2023,Région des Prairies,"Total, 15 ans et plus",,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,62.6
 2023,Région des Prairies,"Total, 15 ans et plus",,Population non autochtone,Études postsecondaires complétées,,,,72.3
+2024,Canada,"Total, 15 ans et plus",,Population totale,Études secondaires partielles ou moins,,,,31.4
+2024,Canada,"Total, 15 ans et plus",,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,54.7
+2024,Canada,"Total, 15 ans et plus",,Population totale,Études postsecondaires complétées,,,,69.8
+2024,Canada,"Total, 15 ans et plus",,Population autochtone,"Total, tous les niveaux de scolarité",,,,57.1
+2024,Canada,"Total, 15 ans et plus",,Population autochtone,Études secondaires partielles ou moins,,,,28.6
+2024,Canada,"Total, 15 ans et plus",,Population autochtone,Études secondaires complétées ou postsecondaires partielles,,,,58.9
+2024,Canada,"Total, 15 ans et plus",,Population autochtone,Études postsecondaires complétées,,,,69.9
+2024,Canada,"Total, 15 ans et plus",,Premières Nation,"Total, tous les niveaux de scolarité",,,,54.0
+2024,Canada,"Total, 15 ans et plus",,Premières Nation,Études secondaires partielles ou moins,,,,26.2
+2024,Canada,"Total, 15 ans et plus",,Premières Nation,Études secondaires complétées ou postsecondaires partielles,,,,56.0
+2024,Canada,"Total, 15 ans et plus",,Premières Nation,Études postsecondaires complétées,,,,68.8
+2024,Canada,"Total, 15 ans et plus",,Métis,"Total, tous les niveaux de scolarité",,,,60.4
+2024,Canada,"Total, 15 ans et plus",,Métis,Études secondaires partielles ou moins,,,,31.1
+2024,Canada,"Total, 15 ans et plus",,Métis,Études secondaires complétées ou postsecondaires partielles,,,,62.0
+2024,Canada,"Total, 15 ans et plus",,Métis,Études postsecondaires complétées,,,,71.0
+2024,Canada,"Total, 15 ans et plus",,Population non autochtone,"Total, tous les niveaux de scolarité",,,,61.2
+2024,Canada,"Total, 15 ans et plus",,Population non autochtone,Études secondaires partielles ou moins,,,,31.6
+2024,Canada,"Total, 15 ans et plus",,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,54.5
+2024,Canada,"Total, 15 ans et plus",,Population non autochtone,Études postsecondaires complétées,,,,69.8
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Population totale,Études secondaires partielles ou moins,,,,31.2
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,52.5
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Population totale,Études postsecondaires complétées,,,,69.5
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Population autochtone,"Total, tous les niveaux de scolarité",,,,56.1
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Population autochtone,Études secondaires partielles ou moins,,,,28.6
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Population autochtone,Études secondaires complétées ou postsecondaires partielles,,,,56.6
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Population autochtone,Études postsecondaires complétées,,,,68.6
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Premières Nation,"Total, tous les niveaux de scolarité",,,,54.3
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Premières Nation,Études secondaires partielles ou moins,,,,28.5
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Premières Nation,Études secondaires complétées ou postsecondaires partielles,,,,54.1
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Premières Nation,Études postsecondaires complétées,,,,68.3
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Métis,"Total, tous les niveaux de scolarité",,,,57.8
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Métis,Études secondaires partielles ou moins,,,,27.9
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Métis,Études secondaires complétées ou postsecondaires partielles,,,,59.0
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Métis,Études postsecondaires complétées,,,,68.7
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Population non autochtone,"Total, tous les niveaux de scolarité",,,,60.4
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Population non autochtone,Études secondaires partielles ou moins,,,,31.3
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,52.4
+2024,Provinces de l'Est et du centre,"Total, 15 ans et plus",,Population non autochtone,Études postsecondaires complétées,,,,69.5
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Population totale,Études secondaires partielles ou moins,,,,31.8
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,58.7
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Population totale,Études postsecondaires complétées,,,,70.5
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Population autochtone,"Total, tous les niveaux de scolarité",,,,58.1
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Population autochtone,Études secondaires partielles ou moins,,,,28.5
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Population autochtone,Études secondaires complétées ou postsecondaires partielles,,,,60.5
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Population autochtone,Études postsecondaires complétées,,,,71.2
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Premières Nation,"Total, tous les niveaux de scolarité",,,,53.6
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Premières Nation,Études secondaires partielles ou moins,,,,24.3
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Premières Nation,Études secondaires complétées ou postsecondaires partielles,,,,57.4
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Premières Nation,Études postsecondaires complétées,,,,69.3
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Métis,"Total, tous les niveaux de scolarité",,,,62.6
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Métis,Études secondaires partielles ou moins,,,,33.8
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Métis,Études secondaires complétées ou postsecondaires partielles,,,,64.1
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Métis,Études postsecondaires complétées,,,,73.0
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Population non autochtone,"Total, tous les niveaux de scolarité",,,,62.9
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Population non autochtone,Études secondaires partielles ou moins,,,,32.2
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,58.6
+2024,Provinces de l'Ouest,"Total, 15 ans et plus",,Population non autochtone,Études postsecondaires complétées,,,,70.5
+2024,Région des Prairies,"Total, 15 ans et plus",,Population totale,Études secondaires partielles ou moins,,,,33.3
+2024,Région des Prairies,"Total, 15 ans et plus",,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,61.0
+2024,Région des Prairies,"Total, 15 ans et plus",,Population totale,Études postsecondaires complétées,,,,72.4
+2024,Région des Prairies,"Total, 15 ans et plus",,Population autochtone,"Total, tous les niveaux de scolarité",,,,58.7
+2024,Région des Prairies,"Total, 15 ans et plus",,Population autochtone,Études secondaires partielles ou moins,,,,29.5
+2024,Région des Prairies,"Total, 15 ans et plus",,Population autochtone,Études secondaires complétées ou postsecondaires partielles,,,,61.7
+2024,Région des Prairies,"Total, 15 ans et plus",,Population autochtone,Études postsecondaires complétées,,,,72.7
+2024,Région des Prairies,"Total, 15 ans et plus",,Premières Nation,"Total, tous les niveaux de scolarité",,,,52.6
+2024,Région des Prairies,"Total, 15 ans et plus",,Premières Nation,Études secondaires partielles ou moins,,,,23.4
+2024,Région des Prairies,"Total, 15 ans et plus",,Premières Nation,Études secondaires complétées ou postsecondaires partielles,,,,57.1
+2024,Région des Prairies,"Total, 15 ans et plus",,Premières Nation,Études postsecondaires complétées,,,,69.2
+2024,Région des Prairies,"Total, 15 ans et plus",,Métis,"Total, tous les niveaux de scolarité",,,,64.4
+2024,Région des Prairies,"Total, 15 ans et plus",,Métis,Études secondaires partielles ou moins,,,,36.6
+2024,Région des Prairies,"Total, 15 ans et plus",,Métis,Études secondaires complétées ou postsecondaires partielles,,,,66.1
+2024,Région des Prairies,"Total, 15 ans et plus",,Métis,Études postsecondaires complétées,,,,75.8
+2024,Région des Prairies,"Total, 15 ans et plus",,Population non autochtone,"Total, tous les niveaux de scolarité",,,,64.4
+2024,Région des Prairies,"Total, 15 ans et plus",,Population non autochtone,Études secondaires partielles ou moins,,,,33.9
+2024,Région des Prairies,"Total, 15 ans et plus",,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,61.0
+2024,Région des Prairies,"Total, 15 ans et plus",,Population non autochtone,Études postsecondaires complétées,,,,72.3
 2015,Canada,25 ans et plus,,Population totale,Études secondaires partielles ou moins,,,,31.5
 2015,Canada,25 à 54 ans,,Population totale,Études secondaires partielles ou moins,,,,59.1
 2015,Canada,25 ans et plus,,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,58.1
@@ -9197,6 +10067,158 @@ Year,Géographie,Groupe d'âge,Sexe,Groupe autochtone,Niveau de scolarité attei
 2023,Région des Prairies,25 à 54 ans,,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,80.5
 2023,Région des Prairies,25 ans et plus,,Population non autochtone,Études postsecondaires complétées,,,,71.9
 2023,Région des Prairies,25 à 54 ans,,Population non autochtone,Études postsecondaires complétées,,,,88.3
+2024,Canada,25 ans et plus,,Population totale,Études secondaires partielles ou moins,,,,31.0
+2024,Canada,25 à 54 ans,,Population totale,Études secondaires partielles ou moins,,,,59.6
+2024,Canada,25 ans et plus,,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,53.2
+2024,Canada,25 à 54 ans,,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,76.4
+2024,Canada,25 ans et plus,,Population totale,Études postsecondaires complétées,,,,69.5
+2024,Canada,25 à 54 ans,,Population totale,Études postsecondaires complétées,,,,87.2
+2024,Canada,25 ans et plus,,Population autochtone,"Total, tous les niveaux de scolarité",,,,59.5
+2024,Canada,25 à 54 ans,,Population autochtone,"Total, tous les niveaux de scolarité",,,,74.3
+2024,Canada,25 ans et plus,,Population autochtone,Études secondaires partielles ou moins,,,,29.5
+2024,Canada,25 à 54 ans,,Population autochtone,Études secondaires partielles ou moins,,,,43.5
+2024,Canada,25 ans et plus,,Population autochtone,Études secondaires complétées ou postsecondaires partielles,,,,58.8
+2024,Canada,25 à 54 ans,,Population autochtone,Études secondaires complétées ou postsecondaires partielles,,,,69.2
+2024,Canada,25 ans et plus,,Population autochtone,Études postsecondaires complétées,,,,69.2
+2024,Canada,25 à 54 ans,,Population autochtone,Études postsecondaires complétées,,,,83.0
+2024,Canada,25 ans et plus,,Premières Nation,"Total, tous les niveaux de scolarité",,,,57.3
+2024,Canada,25 à 54 ans,,Premières Nation,"Total, tous les niveaux de scolarité",,,,69.9
+2024,Canada,25 ans et plus,,Premières Nation,Études secondaires partielles ou moins,,,,27.4
+2024,Canada,25 à 54 ans,,Premières Nation,Études secondaires partielles ou moins,,,,38.6
+2024,Canada,25 ans et plus,,Premières Nation,Études secondaires complétées ou postsecondaires partielles,,,,57.4
+2024,Canada,25 à 54 ans,,Premières Nation,Études secondaires complétées ou postsecondaires partielles,,,,65.5
+2024,Canada,25 ans et plus,,Premières Nation,Études postsecondaires complétées,,,,68.0
+2024,Canada,25 à 54 ans,,Premières Nation,Études postsecondaires complétées,,,,80.1
+2024,Canada,25 ans et plus,,Métis,"Total, tous les niveaux de scolarité",,,,61.5
+2024,Canada,25 à 54 ans,,Métis,"Total, tous les niveaux de scolarité",,,,79.1
+2024,Canada,25 ans et plus,,Métis,Études secondaires partielles ou moins,,,,31.0
+2024,Canada,25 à 54 ans,,Métis,Études secondaires partielles ou moins,,,,49.5
+2024,Canada,25 ans et plus,,Métis,Études secondaires complétées ou postsecondaires partielles,,,,60.2
+2024,Canada,25 à 54 ans,,Métis,Études secondaires complétées ou postsecondaires partielles,,,,74.0
+2024,Canada,25 ans et plus,,Métis,Études postsecondaires complétées,,,,70.4
+2024,Canada,25 à 54 ans,,Métis,Études postsecondaires complétées,,,,86.1
+2024,Canada,25 ans et plus,,Population non autochtone,"Total, tous les niveaux de scolarité",,,,62.2
+2024,Canada,25 à 54 ans,,Population non autochtone,"Total, tous les niveaux de scolarité",,,,84.2
+2024,Canada,25 ans et plus,,Population non autochtone,Études secondaires partielles ou moins,,,,31.1
+2024,Canada,25 à 54 ans,,Population non autochtone,Études secondaires partielles ou moins,,,,61.2
+2024,Canada,25 ans et plus,,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,52.9
+2024,Canada,25 à 54 ans,,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,76.8
+2024,Canada,25 ans et plus,,Population non autochtone,Études postsecondaires complétées,,,,69.5
+2024,Canada,25 à 54 ans,,Population non autochtone,Études postsecondaires complétées,,,,87.3
+2024,Provinces de l'Est et du centre,25 ans et plus,,Population totale,Études secondaires partielles ou moins,,,,29.8
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Population totale,Études secondaires partielles ou moins,,,,59.4
+2024,Provinces de l'Est et du centre,25 ans et plus,,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,51.1
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,75.2
+2024,Provinces de l'Est et du centre,25 ans et plus,,Population totale,Études postsecondaires complétées,,,,69.2
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Population totale,Études postsecondaires complétées,,,,87.4
+2024,Provinces de l'Est et du centre,25 ans et plus,,Population autochtone,"Total, tous les niveaux de scolarité",,,,57.2
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Population autochtone,"Total, tous les niveaux de scolarité",,,,75.7
+2024,Provinces de l'Est et du centre,25 ans et plus,,Population autochtone,Études secondaires partielles ou moins,,,,27.0
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Population autochtone,Études secondaires partielles ou moins,,,,44.7
+2024,Provinces de l'Est et du centre,25 ans et plus,,Population autochtone,Études secondaires complétées ou postsecondaires partielles,,,,55.8
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Population autochtone,Études secondaires complétées ou postsecondaires partielles,,,,69.6
+2024,Provinces de l'Est et du centre,25 ans et plus,,Population autochtone,Études postsecondaires complétées,,,,68.0
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Population autochtone,Études postsecondaires complétées,,,,84.2
+2024,Provinces de l'Est et du centre,25 ans et plus,,Premières Nation,"Total, tous les niveaux de scolarité",,,,56.1
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Premières Nation,"Total, tous les niveaux de scolarité",,,,73.1
+2024,Provinces de l'Est et du centre,25 ans et plus,,Premières Nation,Études secondaires partielles ou moins,,,,27.5
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Premières Nation,Études secondaires partielles ou moins,,,,43.6
+2024,Provinces de l'Est et du centre,25 ans et plus,,Premières Nation,Études secondaires complétées ou postsecondaires partielles,,,,54.1
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Premières Nation,Études secondaires complétées ou postsecondaires partielles,,,,65.2
+2024,Provinces de l'Est et du centre,25 ans et plus,,Premières Nation,Études postsecondaires complétées,,,,67.5
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Premières Nation,Études postsecondaires complétées,,,,83.0
+2024,Provinces de l'Est et du centre,25 ans et plus,,Métis,"Total, tous les niveaux de scolarité",,,,58.0
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Métis,"Total, tous les niveaux de scolarité",,,,78.4
+2024,Provinces de l'Est et du centre,25 ans et plus,,Métis,Études secondaires partielles ou moins,,,,24.9
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Métis,Études secondaires partielles ou moins,,,,43.4
+2024,Provinces de l'Est et du centre,25 ans et plus,,Métis,Études secondaires complétées ou postsecondaires partielles,,,,56.9
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Métis,Études secondaires complétées ou postsecondaires partielles,,,,74.6
+2024,Provinces de l'Est et du centre,25 ans et plus,,Métis,Études postsecondaires complétées,,,,68.4
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Métis,Études postsecondaires complétées,,,,86.2
+2024,Provinces de l'Est et du centre,25 ans et plus,,Population non autochtone,"Total, tous les niveaux de scolarité",,,,61.4
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Population non autochtone,"Total, tous les niveaux de scolarité",,,,84.1
+2024,Provinces de l'Est et du centre,25 ans et plus,,Population non autochtone,Études secondaires partielles ou moins,,,,29.9
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Population non autochtone,Études secondaires partielles ou moins,,,,60.3
+2024,Provinces de l'Est et du centre,25 ans et plus,,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,50.9
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,75.5
+2024,Provinces de l'Est et du centre,25 ans et plus,,Population non autochtone,Études postsecondaires complétées,,,,69.3
+2024,Provinces de l'Est et du centre,25 à 54 ans,,Population non autochtone,Études postsecondaires complétées,,,,87.4
+2024,Provinces de l'Ouest,25 ans et plus,,Population totale,Études secondaires partielles ou moins,,,,34.1
+2024,Provinces de l'Ouest,25 à 54 ans,,Population totale,Études secondaires partielles ou moins,,,,60.1
+2024,Provinces de l'Ouest,25 ans et plus,,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,57.0
+2024,Provinces de l'Ouest,25 à 54 ans,,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,78.1
+2024,Provinces de l'Ouest,25 ans et plus,,Population totale,Études postsecondaires complétées,,,,70.0
+2024,Provinces de l'Ouest,25 à 54 ans,,Population totale,Études postsecondaires complétées,,,,86.7
+2024,Provinces de l'Ouest,25 ans et plus,,Population autochtone,"Total, tous les niveaux de scolarité",,,,61.5
+2024,Provinces de l'Ouest,25 à 54 ans,,Population autochtone,"Total, tous les niveaux de scolarité",,,,73.3
+2024,Provinces de l'Ouest,25 ans et plus,,Population autochtone,Études secondaires partielles ou moins,,,,32.2
+2024,Provinces de l'Ouest,25 à 54 ans,,Population autochtone,Études secondaires partielles ou moins,,,,42.5
+2024,Provinces de l'Ouest,25 ans et plus,,Population autochtone,Études secondaires complétées ou postsecondaires partielles,,,,60.9
+2024,Provinces de l'Ouest,25 à 54 ans,,Population autochtone,Études secondaires complétées ou postsecondaires partielles,,,,69.0
+2024,Provinces de l'Ouest,25 ans et plus,,Population autochtone,Études postsecondaires complétées,,,,70.3
+2024,Provinces de l'Ouest,25 à 54 ans,,Population autochtone,Études postsecondaires complétées,,,,81.9
+2024,Provinces de l'Ouest,25 ans et plus,,Premières Nation,"Total, tous les niveaux de scolarité",,,,58.4
+2024,Provinces de l'Ouest,25 à 54 ans,,Premières Nation,"Total, tous les niveaux de scolarité",,,,67.4
+2024,Provinces de l'Ouest,25 ans et plus,,Premières Nation,Études secondaires partielles ou moins,,,,27.3
+2024,Provinces de l'Ouest,25 à 54 ans,,Premières Nation,Études secondaires partielles ou moins,,,,35.1
+2024,Provinces de l'Ouest,25 ans et plus,,Premières Nation,Études secondaires complétées ou postsecondaires partielles,,,,59.8
+2024,Provinces de l'Ouest,25 à 54 ans,,Premières Nation,Études secondaires complétées ou postsecondaires partielles,,,,65.6
+2024,Provinces de l'Ouest,25 ans et plus,,Premières Nation,Études postsecondaires complétées,,,,68.6
+2024,Provinces de l'Ouest,25 à 54 ans,,Premières Nation,Études postsecondaires complétées,,,,77.4
+2024,Provinces de l'Ouest,25 ans et plus,,Métis,"Total, tous les niveaux de scolarité",,,,64.4
+2024,Provinces de l'Ouest,25 à 54 ans,,Métis,"Total, tous les niveaux de scolarité",,,,79.7
+2024,Provinces de l'Ouest,25 ans et plus,,Métis,Études secondaires partielles ou moins,,,,37.3
+2024,Provinces de l'Ouest,25 à 54 ans,,Métis,Études secondaires partielles ou moins,,,,55.6
+2024,Provinces de l'Ouest,25 ans et plus,,Métis,Études secondaires complétées ou postsecondaires partielles,,,,62.4
+2024,Provinces de l'Ouest,25 à 54 ans,,Métis,Études secondaires complétées ou postsecondaires partielles,,,,73.7
+2024,Provinces de l'Ouest,25 ans et plus,,Métis,Études postsecondaires complétées,,,,72.0
+2024,Provinces de l'Ouest,25 à 54 ans,,Métis,Études postsecondaires complétées,,,,86.0
+2024,Provinces de l'Ouest,25 ans et plus,,Population non autochtone,"Total, tous les niveaux de scolarité",,,,63.9
+2024,Provinces de l'Ouest,25 à 54 ans,,Population non autochtone,"Total, tous les niveaux de scolarité",,,,84.3
+2024,Provinces de l'Ouest,25 ans et plus,,Population non autochtone,Études secondaires partielles ou moins,,,,34.3
+2024,Provinces de l'Ouest,25 à 54 ans,,Population non autochtone,Études secondaires partielles ou moins,,,,63.5
+2024,Provinces de l'Ouest,25 ans et plus,,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,56.7
+2024,Provinces de l'Ouest,25 à 54 ans,,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,79.1
+2024,Provinces de l'Ouest,25 ans et plus,,Population non autochtone,Études postsecondaires complétées,,,,70.0
+2024,Provinces de l'Ouest,25 à 54 ans,,Population non autochtone,Études postsecondaires complétées,,,,87.0
+2024,Région des Prairies,25 ans et plus,,Population totale,Études secondaires partielles ou moins,,,,36.3
+2024,Région des Prairies,25 à 54 ans,,Population totale,Études secondaires partielles ou moins,,,,60.7
+2024,Région des Prairies,25 ans et plus,,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,59.5
+2024,Région des Prairies,25 à 54 ans,,Population totale,Études secondaires complétées ou postsecondaires partielles,,,,78.7
+2024,Région des Prairies,25 ans et plus,,Population totale,Études postsecondaires complétées,,,,71.8
+2024,Région des Prairies,25 à 54 ans,,Population totale,Études postsecondaires complétées,,,,87.3
+2024,Région des Prairies,25 ans et plus,,Population autochtone,"Total, tous les niveaux de scolarité",,,,62.4
+2024,Région des Prairies,25 à 54 ans,,Population autochtone,"Total, tous les niveaux de scolarité",,,,73.5
+2024,Région des Prairies,25 ans et plus,,Population autochtone,Études secondaires partielles ou moins,,,,34.8
+2024,Région des Prairies,25 à 54 ans,,Population autochtone,Études secondaires partielles ou moins,,,,44.4
+2024,Région des Prairies,25 ans et plus,,Population autochtone,Études secondaires complétées ou postsecondaires partielles,,,,61.4
+2024,Région des Prairies,25 à 54 ans,,Population autochtone,Études secondaires complétées ou postsecondaires partielles,,,,68.5
+2024,Région des Prairies,25 ans et plus,,Population autochtone,Études postsecondaires complétées,,,,72.0
+2024,Région des Prairies,25 à 54 ans,,Population autochtone,Études postsecondaires complétées,,,,82.8
+2024,Région des Prairies,25 ans et plus,,Premières Nation,"Total, tous les niveaux de scolarité",,,,57.5
+2024,Région des Prairies,25 à 54 ans,,Premières Nation,"Total, tous les niveaux de scolarité",,,,66.7
+2024,Région des Prairies,25 ans et plus,,Premières Nation,Études secondaires partielles ou moins,,,,28.3
+2024,Région des Prairies,25 à 54 ans,,Premières Nation,Études secondaires partielles ou moins,,,,36.0
+2024,Région des Prairies,25 ans et plus,,Premières Nation,Études secondaires complétées ou postsecondaires partielles,,,,58.2
+2024,Région des Prairies,25 à 54 ans,,Premières Nation,Études secondaires complétées ou postsecondaires partielles,,,,63.6
+2024,Région des Prairies,25 ans et plus,,Premières Nation,Études postsecondaires complétées,,,,68.5
+2024,Région des Prairies,25 à 54 ans,,Premières Nation,Études postsecondaires complétées,,,,77.8
+2024,Région des Prairies,25 ans et plus,,Métis,"Total, tous les niveaux de scolarité",,,,66.7
+2024,Région des Prairies,25 à 54 ans,,Métis,"Total, tous les niveaux de scolarité",,,,80.1
+2024,Région des Prairies,25 ans et plus,,Métis,Études secondaires partielles ou moins,,,,40.8
+2024,Région des Prairies,25 à 54 ans,,Métis,Études secondaires partielles ou moins,,,,57.6
+2024,Région des Prairies,25 ans et plus,,Métis,Études secondaires complétées ou postsecondaires partielles,,,,64.5
+2024,Région des Prairies,25 à 54 ans,,Métis,Études secondaires complétées ou postsecondaires partielles,,,,73.9
+2024,Région des Prairies,25 ans et plus,,Métis,Études postsecondaires complétées,,,,75.0
+2024,Région des Prairies,25 à 54 ans,,Métis,Études postsecondaires complétées,,,,87.0
+2024,Région des Prairies,25 ans et plus,,Population non autochtone,"Total, tous les niveaux de scolarité",,,,65.7
+2024,Région des Prairies,25 à 54 ans,,Population non autochtone,"Total, tous les niveaux de scolarité",,,,84.8
+2024,Région des Prairies,25 ans et plus,,Population non autochtone,Études secondaires partielles ou moins,,,,36.6
+2024,Région des Prairies,25 à 54 ans,,Population non autochtone,Études secondaires partielles ou moins,,,,64.4
+2024,Région des Prairies,25 ans et plus,,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,59.3
+2024,Région des Prairies,25 à 54 ans,,Population non autochtone,Études secondaires complétées ou postsecondaires partielles,,,,80.0
+2024,Région des Prairies,25 ans et plus,,Population non autochtone,Études postsecondaires complétées,,,,71.8
+2024,Région des Prairies,25 à 54 ans,,Population non autochtone,Études postsecondaires complétées,,,,87.6
 2022,Canada,"Total, 15 ans et plus",Les deux sexes,,,Population des minorités visibles,,,66.0
 2022,Canada,"Total, 15 ans et plus",Les deux sexes,,,Sud-Asiatique,,,67.8
 2022,Canada,"Total, 15 ans et plus",Les deux sexes,,,Chinois,,,58.3
@@ -9785,6 +10807,300 @@ Year,Géographie,Groupe d'âge,Sexe,Groupe autochtone,Niveau de scolarité attei
 2023,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Minorité visible n.i.a,,59,59.0
 2023,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Minorités visible multiples,,59,58.5
 2023,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Pas une minorité visible,,59,56.2
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Population des minorités visibles,,,65.2
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Sud-Asiatique,,,67.7
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Chinois,,,57.3
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Noirs,,,64.2
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Philippin,,,74.6
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Arabe,,,61.1
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Latino-Américain,,,70.1
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Asiatique du Sud-Est,,,67.1
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Asiatique occidental,,,61.0
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Coréen,,,67.5
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Japonais,,,64.1
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Minorité visible n.i.a,,,63.5
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Minorités visible multiples,,,62.6
+2024,Canada,"Total, 15 ans et plus",Les deux sexes,,,Pas une minorité visible,,,59.4
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Population des minorités visibles,,,69.7
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Sud-Asiatique,,,73.4
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Chinois,,,60.9
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Noirs,,,67.3
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Philippin,,,76.1
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Arabe,,,69.0
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Latino-Américain,,,74.2
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Asiatique du Sud-Est,,,70.6
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Asiatique occidental,,,68.7
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Coréen,,,72.8
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Japonais,,,71.1
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Minorité visible n.i.a,,,69.3
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Minorités visible multiples,,,63.6
+2024,Canada,"Total, 15 ans et plus",Hommes,,,Pas une minorité visible,,,62.6
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Population des minorités visibles,,,60.8
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Sud-Asiatique,,,61.2
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Chinois,,,54.1
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Noirs,,,61.4
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Philippin,,,73.4
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Arabe,,,51.9
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Latino-Américain,,,66.2
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Asiatique du Sud-Est,,,64.0
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Asiatique occidental,,,53.0
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Coréen,,,63.1
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Japonais,,,59.7
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Minorité visible n.i.a,,,57.9
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Minorités visible multiples,,,61.7
+2024,Canada,"Total, 15 ans et plus",Femmes,,,Pas une minorité visible,,,56.1
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Population des minorités visibles,,,72.3
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Sud-Asiatique,,,79.6
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Chinois,,,64.3
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Noirs,,,68.6
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Philippin,,,77.9
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Arabe,,,60.8
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Latino-Américain,,,75.0
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Asiatique du Sud-Est,,,80.4
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Asiatique occidental,,,66.7
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Coréen,,,57.5
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Japonais,,,69.2
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Minorité visible n.i.a,,,59.4
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Minorités visible multiples,,,77.8
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Les deux sexes,,,Pas une minorité visible,,,55.2
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Population des minorités visibles,,,74.9
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Sud-Asiatique,,,83.8
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Chinois,,,62.0
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Noirs,,,68.8
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Philippin,,,80.3
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Arabe,,,70.2
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Latino-Américain,,,80.0
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Asiatique du Sud-Est,,,82.6
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Asiatique occidental,,,66.7
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Coréen,,,55.6
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Japonais,,,60.0
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Minorité visible n.i.a,,,54.5
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Minorités visible multiples,,,70.0
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Hommes,,,Pas une minorité visible,,,57.1
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Population des minorités visibles,,,69.7
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Sud-Asiatique,,,74.2
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Chinois,,,66.7
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Noirs,,,67.9
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Philippin,,,77.2
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Arabe,,,47.5
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Latino-Américain,,,70.2
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Asiatique du Sud-Est,,,76.6
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Asiatique occidental,,,62.5
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Coréen,,,57.1
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Japonais,,,75.0
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Minorité visible n.i.a,,,64.5
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Minorités visible multiples,,,87.5
+2024,Région de l'Atlantique,"Total, 15 ans et plus",Femmes,,,Pas une minorité visible,,,53.3
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Population des minorités visibles,,24,66.6
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Sud-Asiatique,,24,60.2
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Chinois,,24,59.6
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Noirs,,24,69.3
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Philippin,,24,71.3
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Arabe,,24,66.7
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Latino-Américain,,24,68.0
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Asiatique du Sud-Est,,24,68.6
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Asiatique occidental,,24,63.4
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Coréen,,24,57.7
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Japonais,,24,49.0
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Minorité visible n.i.a,,24,65.8
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Minorités visible multiples,,24,69.4
+2024,Québec,"Total, 15 ans et plus",Les deux sexes,,,Pas une minorité visible,,24,60.0
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Population des minorités visibles,,24,70.4
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Sud-Asiatique,,24,63.1
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Chinois,,24,57.6
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Noirs,,24,72.5
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Philippin,,24,68.8
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Arabe,,24,74.1
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Latino-Américain,,24,69.6
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Asiatique du Sud-Est,,24,74.8
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Asiatique occidental,,24,72.1
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Coréen,,24,
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Japonais,,24,
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Minorité visible n.i.a,,24,70.4
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Minorités visible multiples,,24,69.5
+2024,Québec,"Total, 15 ans et plus",Hommes,,,Pas une minorité visible,,24,62.6
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Population des minorités visibles,,24,62.6
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Sud-Asiatique,,24,56.9
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Chinois,,24,61.0
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Noirs,,24,66.0
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Philippin,,24,73.4
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Arabe,,24,57.3
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Latino-Américain,,24,66.3
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Asiatique du Sud-Est,,24,63.1
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Asiatique occidental,,24,53.5
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Coréen,,24,
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Japonais,,24,
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Minorité visible n.i.a,,24,60.7
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Minorités visible multiples,,24,69.3
+2024,Québec,"Total, 15 ans et plus",Femmes,,,Pas une minorité visible,,24,57.4
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Population des minorités visibles,,35,63.3
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Sud-Asiatique,,35,66.7
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Chinois,,35,56.3
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Noirs,,35,60.6
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Philippin,,35,71.9
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Arabe,,35,57.2
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Latino-Américain,,35,69.3
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Asiatique du Sud-Est,,35,66.7
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Asiatique occidental,,35,59.3
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Coréen,,35,68.2
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Japonais,,35,59.5
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Minorité visible n.i.a,,35,62.5
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Minorités visible multiples,,35,58.4
+2024,Ontario,"Total, 15 ans et plus",Les deux sexes,,,Pas une minorité visible,,35,58.8
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Population des minorités visibles,,35,67.9
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Sud-Asiatique,,35,72.4
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Chinois,,35,59.1
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Noirs,,35,62.6
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Philippin,,35,74.3
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Arabe,,35,64.4
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Latino-Américain,,35,73.7
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Asiatique du Sud-Est,,35,71.5
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Asiatique occidental,,35,67.0
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Coréen,,35,74.5
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Japonais,,35,70.2
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Minorité visible n.i.a,,35,69.1
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Minorités visible multiples,,35,61.8
+2024,Ontario,"Total, 15 ans et plus",Hommes,,,Pas une minorité visible,,35,62.3
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Population des minorités visibles,,35,58.9
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Sud-Asiatique,,35,60.2
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Chinois,,35,53.9
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Noirs,,35,58.8
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Philippin,,35,70.0
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Arabe,,35,49.9
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Latino-Américain,,35,65.3
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Asiatique du Sud-Est,,35,62.3
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Asiatique occidental,,35,51.2
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Coréen,,35,63.0
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Japonais,,35,50.5
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Minorité visible n.i.a,,35,56.2
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Minorités visible multiples,,35,55.0
+2024,Ontario,"Total, 15 ans et plus",Femmes,,,Pas une minorité visible,,35,55.4
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Population des minorités visibles,,,72.6
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Sud-Asiatique,,,75.1
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Chinois,,,60.5
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Noirs,,,68.0
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Philippin,,,77.8
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Arabe,,,60.0
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Latino-Américain,,,72.8
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Asiatique du Sud-Est,,,77.7
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Asiatique occidental,,,67.9
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Coréen,,,75.4
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Japonais,,,66.7
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Minorité visible n.i.a,,,67.0
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Minorités visible multiples,,,67.9
+2024,Région des Prairies,"Total, 15 ans et plus",Les deux sexes,,,Pas une minorité visible,,,60.4
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Population des minorités visibles,,,76.6
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Sud-Asiatique,,,81.6
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Chinois,,,65.2
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Noirs,,,72.0
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Philippin,,,79.4
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Arabe,,,67.9
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Latino-Américain,,,77.0
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Asiatique du Sud-Est,,,81.2
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Asiatique occidental,,,69.6
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Coréen,,,76.9
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Japonais,,,60.0
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Minorité visible n.i.a,,,71.4
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Minorités visible multiples,,,73.3
+2024,Région des Prairies,"Total, 15 ans et plus",Hommes,,,Pas une minorité visible,,,64.3
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Population des minorités visibles,,,68.6
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Sud-Asiatique,,,67.1
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Chinois,,,55.6
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Noirs,,,63.9
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Philippin,,,76.3
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Arabe,,,50.9
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Latino-Américain,,,69.2
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Asiatique du Sud-Est,,,74.5
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Asiatique occidental,,,64.7
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Coréen,,,77.4
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Japonais,,,80.0
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Minorité visible n.i.a,,,60.5
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Minorités visible multiples,,,61.5
+2024,Région des Prairies,"Total, 15 ans et plus",Femmes,,,Pas une minorité visible,,,56.5
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Population des minorités visibles,,48,67.5
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Sud-Asiatique,,48,68.9
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Chinois,,48,59.6
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Noirs,,48,63.6
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Philippin,,48,77.0
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Arabe,,48,54.8
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Latino-Américain,,48,72.8
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Asiatique du Sud-Est,,48,67.4
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Asiatique occidental,,48,59.8
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Coréen,,48,67.5
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Japonais,,48,72.3
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Minorité visible n.i.a,,48,61.6
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Minorités visible multiples,,48,73.3
+2024,Alberta,"Total, 15 ans et plus",Les deux sexes,,,Pas une minorité visible,,48,63.1
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Population des minorités visibles,,48,71.8
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Sud-Asiatique,,48,75.6
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Chinois,,48,63.7
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Noirs,,48,69.9
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Philippin,,48,76.1
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Arabe,,48,65.5
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Latino-Américain,,48,81.2
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Asiatique du Sud-Est,,48,67.3
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Asiatique occidental,,48,64.7
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Coréen,,48,70.5
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Japonais,,48,72.5
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Minorité visible n.i.a,,48,66.0
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Minorités visible multiples,,48,62.5
+2024,Alberta,"Total, 15 ans et plus",Hommes,,,Pas une minorité visible,,48,67.8
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Population des minorités visibles,,48,63.4
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Sud-Asiatique,,48,61.5
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Chinois,,48,56.0
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Noirs,,48,57.2
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Philippin,,48,77.8
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Arabe,,48,42.0
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Latino-Américain,,48,63.9
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Asiatique du Sud-Est,,48,67.4
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Asiatique occidental,,48,54.6
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Coréen,,48,64.5
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Japonais,,48,70.8
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Minorité visible n.i.a,,48,58.3
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Minorités visible multiples,,48,82.0
+2024,Alberta,"Total, 15 ans et plus",Femmes,,,Pas une minorité visible,,48,58.3
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Population des minorités visibles,,59,65.0
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Sud-Asiatique,,59,68.6
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Chinois,,59,57.5
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Noirs,,59,72.2
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Philippin,,59,75.7
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Arabe,,59,56.5
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Latino-Américain,,59,73.6
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Asiatique du Sud-Est,,59,63.1
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Asiatique occidental,,59,63.5
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Coréen,,59,67.4
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Japonais,,59,65.5
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Minorité visible n.i.a,,59,66.1
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Minorités visible multiples,,59,62.8
+2024,Colombie-Britannique,"Total, 15 ans et plus",Les deux sexes,,,Pas une minorité visible,,59,58.3
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Population des minorités visibles,,59,70.2
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Sud-Asiatique,,59,74.4
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Chinois,,59,63.1
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Noirs,,59,74.5
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Philippin,,59,79.0
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Arabe,,59,66.5
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Latino-Américain,,59,77.4
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Asiatique du Sud-Est,,59,64.2
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Asiatique occidental,,59,73.6
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Coréen,,59,74.9
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Japonais,,59,71.9
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Minorité visible n.i.a,,59,73.3
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Minorités visible multiples,,59,62.5
+2024,Colombie-Britannique,"Total, 15 ans et plus",Hommes,,,Pas une minorité visible,,59,61.6
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Population des minorités visibles,,59,60.1
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Sud-Asiatique,,59,62.7
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Chinois,,59,52.3
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Noirs,,59,69.8
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Philippin,,59,73.2
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Arabe,,59,43.8
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Latino-Américain,,59,69.7
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Asiatique du Sud-Est,,59,62.3
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Asiatique occidental,,59,54.4
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Coréen,,59,61.8
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Japonais,,59,61.5
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Minorité visible n.i.a,,59,59.5
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Minorités visible multiples,,59,63.6
+2024,Colombie-Britannique,"Total, 15 ans et plus",Femmes,,,Pas une minorité visible,,59,55.0
 2022,Canada,15 à 24 ans,Les deux sexes,,,Population des minorités visibles,,,50.9
 2022,Canada,15 à 24 ans,Les deux sexes,,,Sud-Asiatique,,,53.8
 2022,Canada,15 à 24 ans,Les deux sexes,,,Chinois,,,40.8
@@ -11549,6 +12865,888 @@ Year,Géographie,Groupe d'âge,Sexe,Groupe autochtone,Niveau de scolarité attei
 2023,Colombie-Britannique,55 ans et plus,Femmes,,,Minorité visible n.i.a,,59,
 2023,Colombie-Britannique,55 ans et plus,Femmes,,,Minorités visible multiples,,59,
 2023,Colombie-Britannique,55 ans et plus,Femmes,,,Pas une minorité visible,,59,30.1
+2024,Canada,15 à 24 ans,Les deux sexes,,,Population des minorités visibles,,,47.6
+2024,Canada,15 à 24 ans,Les deux sexes,,,Sud-Asiatique,,,54.1
+2024,Canada,15 à 24 ans,Les deux sexes,,,Chinois,,,35.3
+2024,Canada,15 à 24 ans,Les deux sexes,,,Noirs,,,45.6
+2024,Canada,15 à 24 ans,Les deux sexes,,,Philippin,,,54.3
+2024,Canada,15 à 24 ans,Les deux sexes,,,Arabe,,,42.2
+2024,Canada,15 à 24 ans,Les deux sexes,,,Latino-Américain,,,50.4
+2024,Canada,15 à 24 ans,Les deux sexes,,,Asiatique du Sud-Est,,,52.9
+2024,Canada,15 à 24 ans,Les deux sexes,,,Asiatique occidental,,,42.6
+2024,Canada,15 à 24 ans,Les deux sexes,,,Coréen,,,43.2
+2024,Canada,15 à 24 ans,Les deux sexes,,,Japonais,,,59.5
+2024,Canada,15 à 24 ans,Les deux sexes,,,Minorité visible n.i.a,,,45.7
+2024,Canada,15 à 24 ans,Les deux sexes,,,Minorités visible multiples,,,42.4
+2024,Canada,15 à 24 ans,Les deux sexes,,,Pas une minorité visible,,,58.7
+2024,Canada,15 à 24 ans,Hommes,,,Population des minorités visibles,,,46.9
+2024,Canada,15 à 24 ans,Hommes,,,Sud-Asiatique,,,54.0
+2024,Canada,15 à 24 ans,Hommes,,,Chinois,,,31.8
+2024,Canada,15 à 24 ans,Hommes,,,Noirs,,,45.3
+2024,Canada,15 à 24 ans,Hommes,,,Philippin,,,51.9
+2024,Canada,15 à 24 ans,Hommes,,,Arabe,,,44.1
+2024,Canada,15 à 24 ans,Hommes,,,Latino-Américain,,,51.7
+2024,Canada,15 à 24 ans,Hommes,,,Asiatique du Sud-Est,,,50.3
+2024,Canada,15 à 24 ans,Hommes,,,Asiatique occidental,,,41.8
+2024,Canada,15 à 24 ans,Hommes,,,Coréen,,,42.2
+2024,Canada,15 à 24 ans,Hommes,,,Japonais,,,56.9
+2024,Canada,15 à 24 ans,Hommes,,,Minorité visible n.i.a,,,48.7
+2024,Canada,15 à 24 ans,Hommes,,,Minorités visible multiples,,,41.4
+2024,Canada,15 à 24 ans,Hommes,,,Pas une minorité visible,,,57.8
+2024,Canada,15 à 24 ans,Femmes,,,Population des minorités visibles,,,48.4
+2024,Canada,15 à 24 ans,Femmes,,,Sud-Asiatique,,,54.1
+2024,Canada,15 à 24 ans,Femmes,,,Chinois,,,39.1
+2024,Canada,15 à 24 ans,Femmes,,,Noirs,,,46.0
+2024,Canada,15 à 24 ans,Femmes,,,Philippin,,,56.9
+2024,Canada,15 à 24 ans,Femmes,,,Arabe,,,40.2
+2024,Canada,15 à 24 ans,Femmes,,,Latino-Américain,,,49.1
+2024,Canada,15 à 24 ans,Femmes,,,Asiatique du Sud-Est,,,55.4
+2024,Canada,15 à 24 ans,Femmes,,,Asiatique occidental,,,43.9
+2024,Canada,15 à 24 ans,Femmes,,,Coréen,,,44.2
+2024,Canada,15 à 24 ans,Femmes,,,Japonais,,,60.9
+2024,Canada,15 à 24 ans,Femmes,,,Minorité visible n.i.a,,,43.1
+2024,Canada,15 à 24 ans,Femmes,,,Minorités visible multiples,,,43.6
+2024,Canada,15 à 24 ans,Femmes,,,Pas une minorité visible,,,59.7
+2024,Canada,25 à 54 ans,Les deux sexes,,,Population des minorités visibles,,,80.3
+2024,Canada,25 à 54 ans,Les deux sexes,,,Sud-Asiatique,,,81.8
+2024,Canada,25 à 54 ans,Les deux sexes,,,Chinois,,,79.7
+2024,Canada,25 à 54 ans,Les deux sexes,,,Noirs,,,76.6
+2024,Canada,25 à 54 ans,Les deux sexes,,,Philippin,,,88.3
+2024,Canada,25 à 54 ans,Les deux sexes,,,Arabe,,,72.5
+2024,Canada,25 à 54 ans,Les deux sexes,,,Latino-Américain,,,81.4
+2024,Canada,25 à 54 ans,Les deux sexes,,,Asiatique du Sud-Est,,,83.6
+2024,Canada,25 à 54 ans,Les deux sexes,,,Asiatique occidental,,,72.9
+2024,Canada,25 à 54 ans,Les deux sexes,,,Coréen,,,80.2
+2024,Canada,25 à 54 ans,Les deux sexes,,,Japonais,,,79.7
+2024,Canada,25 à 54 ans,Les deux sexes,,,Minorité visible n.i.a,,,78.5
+2024,Canada,25 à 54 ans,Les deux sexes,,,Minorités visible multiples,,,81.4
+2024,Canada,25 à 54 ans,Les deux sexes,,,Pas une minorité visible,,,85.6
+2024,Canada,25 à 54 ans,Hommes,,,Population des minorités visibles,,,85.7
+2024,Canada,25 à 54 ans,Hommes,,,Sud-Asiatique,,,88.6
+2024,Canada,25 à 54 ans,Hommes,,,Chinois,,,84.0
+2024,Canada,25 à 54 ans,Hommes,,,Noirs,,,80.6
+2024,Canada,25 à 54 ans,Hommes,,,Philippin,,,90.7
+2024,Canada,25 à 54 ans,Hommes,,,Arabe,,,83.4
+2024,Canada,25 à 54 ans,Hommes,,,Latino-Américain,,,84.2
+2024,Canada,25 à 54 ans,Hommes,,,Asiatique du Sud-Est,,,88.2
+2024,Canada,25 à 54 ans,Hommes,,,Asiatique occidental,,,82.4
+2024,Canada,25 à 54 ans,Hommes,,,Coréen,,,85.9
+2024,Canada,25 à 54 ans,Hommes,,,Japonais,,,92.5
+2024,Canada,25 à 54 ans,Hommes,,,Minorité visible n.i.a,,,83.6
+2024,Canada,25 à 54 ans,Hommes,,,Minorités visible multiples,,,84.3
+2024,Canada,25 à 54 ans,Hommes,,,Pas une minorité visible,,,87.3
+2024,Canada,25 à 54 ans,Femmes,,,Population des minorités visibles,,,75.0
+2024,Canada,25 à 54 ans,Femmes,,,Sud-Asiatique,,,74.2
+2024,Canada,25 à 54 ans,Femmes,,,Chinois,,,76.0
+2024,Canada,25 à 54 ans,Femmes,,,Noirs,,,72.8
+2024,Canada,25 à 54 ans,Femmes,,,Philippin,,,86.4
+2024,Canada,25 à 54 ans,Femmes,,,Arabe,,,59.9
+2024,Canada,25 à 54 ans,Femmes,,,Latino-Américain,,,78.6
+2024,Canada,25 à 54 ans,Femmes,,,Asiatique du Sud-Est,,,79.8
+2024,Canada,25 à 54 ans,Femmes,,,Asiatique occidental,,,63.2
+2024,Canada,25 à 54 ans,Femmes,,,Coréen,,,75.6
+2024,Canada,25 à 54 ans,Femmes,,,Japonais,,,73.2
+2024,Canada,25 à 54 ans,Femmes,,,Minorité visible n.i.a,,,73.6
+2024,Canada,25 à 54 ans,Femmes,,,Minorités visible multiples,,,78.4
+2024,Canada,25 à 54 ans,Femmes,,,Pas une minorité visible,,,83.8
+2024,Canada,55 ans et plus,Les deux sexes,,,Population des minorités visibles,,,42.2
+2024,Canada,55 ans et plus,Les deux sexes,,,Sud-Asiatique,,,39.3
+2024,Canada,55 ans et plus,Les deux sexes,,,Chinois,,,35.1
+2024,Canada,55 ans et plus,Les deux sexes,,,Noirs,,,48.9
+2024,Canada,55 ans et plus,Les deux sexes,,,Philippin,,,55.6
+2024,Canada,55 ans et plus,Les deux sexes,,,Arabe,,,46.0
+2024,Canada,55 ans et plus,Les deux sexes,,,Latino-Américain,,,47.6
+2024,Canada,55 ans et plus,Les deux sexes,,,Asiatique du Sud-Est,,,41.0
+2024,Canada,55 ans et plus,Les deux sexes,,,Asiatique occidental,,,40.9
+2024,Canada,55 ans et plus,Les deux sexes,,,Coréen,,,47.6
+2024,Canada,55 ans et plus,Les deux sexes,,,Japonais,,,42.4
+2024,Canada,55 ans et plus,Les deux sexes,,,Minorité visible n.i.a,,,42.6
+2024,Canada,55 ans et plus,Les deux sexes,,,Minorités visible multiples,,,47.7
+2024,Canada,55 ans et plus,Les deux sexes,,,Pas une minorité visible,,,32.9
+2024,Canada,55 ans et plus,Hommes,,,Population des minorités visibles,,,49.2
+2024,Canada,55 ans et plus,Hommes,,,Sud-Asiatique,,,48.0
+2024,Canada,55 ans et plus,Hommes,,,Chinois,,,42.2
+2024,Canada,55 ans et plus,Hommes,,,Noirs,,,54.0
+2024,Canada,55 ans et plus,Hommes,,,Philippin,,,59.3
+2024,Canada,55 ans et plus,Hommes,,,Arabe,,,51.2
+2024,Canada,55 ans et plus,Hommes,,,Latino-Américain,,,55.5
+2024,Canada,55 ans et plus,Hommes,,,Asiatique du Sud-Est,,,47.7
+2024,Canada,55 ans et plus,Hommes,,,Asiatique occidental,,,51.6
+2024,Canada,55 ans et plus,Hommes,,,Coréen,,,56.2
+2024,Canada,55 ans et plus,Hommes,,,Japonais,,,50.5
+2024,Canada,55 ans et plus,Hommes,,,Minorité visible n.i.a,,,52.1
+2024,Canada,55 ans et plus,Hommes,,,Minorités visible multiples,,,50.9
+2024,Canada,55 ans et plus,Hommes,,,Pas une minorité visible,,,37.6
+2024,Canada,55 ans et plus,Femmes,,,Population des minorités visibles,,,35.9
+2024,Canada,55 ans et plus,Femmes,,,Sud-Asiatique,,,30.4
+2024,Canada,55 ans et plus,Femmes,,,Chinois,,,29.1
+2024,Canada,55 ans et plus,Femmes,,,Noirs,,,44.0
+2024,Canada,55 ans et plus,Femmes,,,Philippin,,,53.1
+2024,Canada,55 ans et plus,Femmes,,,Arabe,,,39.5
+2024,Canada,55 ans et plus,Femmes,,,Latino-Américain,,,40.6
+2024,Canada,55 ans et plus,Femmes,,,Asiatique du Sud-Est,,,35.3
+2024,Canada,55 ans et plus,Femmes,,,Asiatique occidental,,,29.2
+2024,Canada,55 ans et plus,Femmes,,,Coréen,,,41.1
+2024,Canada,55 ans et plus,Femmes,,,Japonais,,,37.5
+2024,Canada,55 ans et plus,Femmes,,,Minorité visible n.i.a,,,33.3
+2024,Canada,55 ans et plus,Femmes,,,Minorités visible multiples,,,43.7
+2024,Canada,55 ans et plus,Femmes,,,Pas une minorité visible,,,28.5
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Population des minorités visibles,,,59.1
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Sud-Asiatique,,,77.7
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Chinois,,,33.3
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Noirs,,,55.6
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Philippin,,,51.7
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Arabe,,,36.4
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Latino-Américain,,,50.0
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Asiatique du Sud-Est,,,68.0
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Asiatique occidental,,,42.9
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Coréen,,,33.3
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Japonais,,,
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Minorité visible n.i.a,,,42.9
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Minorités visible multiples,,,
+2024,Région de l'Atlantique,15 à 24 ans,Les deux sexes,,,Pas une minorité visible,,,55.9
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Population des minorités visibles,,,58.9
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Sud-Asiatique,,,77.8
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Chinois,,,36.8
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Noirs,,,51.6
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Philippin,,,57.1
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Arabe,,,45.5
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Latino-Américain,,,62.5
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Asiatique du Sud-Est,,,63.6
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Asiatique occidental,,,
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Coréen,,,
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Japonais,,,
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Minorité visible n.i.a,,,
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Minorités visible multiples,,,
+2024,Région de l'Atlantique,15 à 24 ans,Hommes,,,Pas une minorité visible,,,54.6
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Population des minorités visibles,,,59.5
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Sud-Asiatique,,,78.9
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Chinois,,,27.3
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Noirs,,,59.3
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Philippin,,,46.7
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Arabe,,,27.3
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Latino-Américain,,,44.4
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Asiatique du Sud-Est,,,71.4
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Asiatique occidental,,,
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Coréen,,,
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Japonais,,,
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Minorité visible n.i.a,,,
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Minorités visible multiples,,,
+2024,Région de l'Atlantique,15 à 24 ans,Femmes,,,Pas une minorité visible,,,57.1
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Population des minorités visibles,,,81.5
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Sud-Asiatique,,,82.3
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Chinois,,,76.7
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Noirs,,,80.4
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Philippin,,,87.6
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Arabe,,,72.2
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Latino-Américain,,,83.6
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Asiatique du Sud-Est,,,86.9
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Asiatique occidental,,,81.8
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Coréen,,,73.9
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Japonais,,,85.7
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Minorité visible n.i.a,,,77.1
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Minorités visible multiples,,,90.9
+2024,Région de l'Atlantique,25 à 54 ans,Les deux sexes,,,Pas une minorité visible,,,82.5
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Population des minorités visibles,,,85.6
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Sud-Asiatique,,,88.0
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Chinois,,,73.8
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Noirs,,,83.6
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Philippin,,,89.3
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Arabe,,,84.3
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Latino-Américain,,,85.3
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Asiatique du Sud-Est,,,93.5
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Asiatique occidental,,,91.7
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Coréen,,,87.5
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Japonais,,,100.0
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Minorité visible n.i.a,,,73.3
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Minorités visible multiples,,,83.3
+2024,Région de l'Atlantique,25 à 54 ans,Hommes,,,Pas une minorité visible,,,82.8
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Population des minorités visibles,,,77.1
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Sud-Asiatique,,,75.0
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Chinois,,,80.9
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Noirs,,,76.9
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Philippin,,,86.5
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Arabe,,,56.4
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Latino-Américain,,,78.8
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Asiatique du Sud-Est,,,80.0
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Asiatique occidental,,,70.0
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Coréen,,,66.7
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Japonais,,,80.0
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Minorité visible n.i.a,,,80.0
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Minorités visible multiples,,,83.3
+2024,Région de l'Atlantique,25 à 54 ans,Femmes,,,Pas une minorité visible,,,82.3
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Population des minorités visibles,,,45.9
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Sud-Asiatique,,,33.3
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Chinois,,,55.0
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Noirs,,,49.0
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Philippin,,,40.0
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Arabe,,,45.0
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Latino-Américain,,,50.0
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Asiatique du Sud-Est,,,50.0
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Asiatique occidental,,,42.9
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Coréen,,,37.5
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Japonais,,,
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Minorité visible n.i.a,,,33.3
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Minorités visible multiples,,,
+2024,Région de l'Atlantique,55 ans et plus,Les deux sexes,,,Pas une minorité visible,,,30.2
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Population des minorités visibles,,,48.2
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Sud-Asiatique,,,
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Chinois,,,60.0
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Noirs,,,48.0
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Philippin,,,50.0
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Arabe,,,54.5
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Latino-Américain,,,
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Asiatique du Sud-Est,,,
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Asiatique occidental,,,
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Coréen,,,
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Japonais,,,
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Minorité visible n.i.a,,,37.5
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Minorités visible multiples,,,
+2024,Région de l'Atlantique,55 ans et plus,Hommes,,,Pas une minorité visible,,,33.9
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Population des minorités visibles,,,43.8
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Sud-Asiatique,,,
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Chinois,,,50.0
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Noirs,,,48.1
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Philippin,,,33.3
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Arabe,,,33.3
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Latino-Américain,,,
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Asiatique du Sud-Est,,,
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Asiatique occidental,,,
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Coréen,,,
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Japonais,,,
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Minorité visible n.i.a,,,28.6
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Minorités visible multiples,,,
+2024,Région de l'Atlantique,55 ans et plus,Femmes,,,Pas une minorité visible,,,26.9
+2024,Québec,15 à 24 ans,Les deux sexes,,,Population des minorités visibles,,24,46.9
+2024,Québec,15 à 24 ans,Les deux sexes,,,Sud-Asiatique,,24,49.3
+2024,Québec,15 à 24 ans,Les deux sexes,,,Chinois,,24,36.6
+2024,Québec,15 à 24 ans,Les deux sexes,,,Noirs,,24,51.7
+2024,Québec,15 à 24 ans,Les deux sexes,,,Philippin,,24,55.7
+2024,Québec,15 à 24 ans,Les deux sexes,,,Arabe,,24,43.2
+2024,Québec,15 à 24 ans,Les deux sexes,,,Latino-Américain,,24,50.4
+2024,Québec,15 à 24 ans,Les deux sexes,,,Asiatique du Sud-Est,,24,49.2
+2024,Québec,15 à 24 ans,Les deux sexes,,,Asiatique occidental,,24,27.5
+2024,Québec,15 à 24 ans,Les deux sexes,,,Coréen,,24,
+2024,Québec,15 à 24 ans,Les deux sexes,,,Japonais,,24,
+2024,Québec,15 à 24 ans,Les deux sexes,,,Minorité visible n.i.a,,24,49.6
+2024,Québec,15 à 24 ans,Les deux sexes,,,Minorités visible multiples,,24,
+2024,Québec,15 à 24 ans,Les deux sexes,,,Pas une minorité visible,,24,66.5
+2024,Québec,15 à 24 ans,Hommes,,,Population des minorités visibles,,24,43.9
+2024,Québec,15 à 24 ans,Hommes,,,Sud-Asiatique,,24,46.1
+2024,Québec,15 à 24 ans,Hommes,,,Chinois,,24,
+2024,Québec,15 à 24 ans,Hommes,,,Noirs,,24,50.0
+2024,Québec,15 à 24 ans,Hommes,,,Philippin,,24,
+2024,Québec,15 à 24 ans,Hommes,,,Arabe,,24,44.5
+2024,Québec,15 à 24 ans,Hommes,,,Latino-Américain,,24,47.2
+2024,Québec,15 à 24 ans,Hommes,,,Asiatique du Sud-Est,,24,
+2024,Québec,15 à 24 ans,Hommes,,,Asiatique occidental,,24,
+2024,Québec,15 à 24 ans,Hommes,,,Coréen,,24,
+2024,Québec,15 à 24 ans,Hommes,,,Japonais,,24,
+2024,Québec,15 à 24 ans,Hommes,,,Minorité visible n.i.a,,24,50.0
+2024,Québec,15 à 24 ans,Hommes,,,Minorités visible multiples,,24,
+2024,Québec,15 à 24 ans,Hommes,,,Pas une minorité visible,,24,65.8
+2024,Québec,15 à 24 ans,Femmes,,,Population des minorités visibles,,24,50.1
+2024,Québec,15 à 24 ans,Femmes,,,Sud-Asiatique,,24,52.7
+2024,Québec,15 à 24 ans,Femmes,,,Chinois,,24,
+2024,Québec,15 à 24 ans,Femmes,,,Noirs,,24,53.5
+2024,Québec,15 à 24 ans,Femmes,,,Philippin,,24,
+2024,Québec,15 à 24 ans,Femmes,,,Arabe,,24,42.2
+2024,Québec,15 à 24 ans,Femmes,,,Latino-Américain,,24,53.5
+2024,Québec,15 à 24 ans,Femmes,,,Asiatique du Sud-Est,,24,
+2024,Québec,15 à 24 ans,Femmes,,,Asiatique occidental,,24,
+2024,Québec,15 à 24 ans,Femmes,,,Coréen,,24,
+2024,Québec,15 à 24 ans,Femmes,,,Japonais,,24,
+2024,Québec,15 à 24 ans,Femmes,,,Minorité visible n.i.a,,24,47.3
+2024,Québec,15 à 24 ans,Femmes,,,Minorités visible multiples,,24,
+2024,Québec,15 à 24 ans,Femmes,,,Pas une minorité visible,,24,67.3
+2024,Québec,25 à 54 ans,Les deux sexes,,,Population des minorités visibles,,24,79.2
+2024,Québec,25 à 54 ans,Les deux sexes,,,Sud-Asiatique,,24,72.9
+2024,Québec,25 à 54 ans,Les deux sexes,,,Chinois,,24,83.0
+2024,Québec,25 à 54 ans,Les deux sexes,,,Noirs,,24,81.3
+2024,Québec,25 à 54 ans,Les deux sexes,,,Philippin,,24,84.4
+2024,Québec,25 à 54 ans,Les deux sexes,,,Arabe,,24,76.0
+2024,Québec,25 à 54 ans,Les deux sexes,,,Latino-Américain,,24,78.5
+2024,Québec,25 à 54 ans,Les deux sexes,,,Asiatique du Sud-Est,,24,85.9
+2024,Québec,25 à 54 ans,Les deux sexes,,,Asiatique occidental,,24,77.3
+2024,Québec,25 à 54 ans,Les deux sexes,,,Coréen,,24,72.4
+2024,Québec,25 à 54 ans,Les deux sexes,,,Japonais,,24,65.7
+2024,Québec,25 à 54 ans,Les deux sexes,,,Minorité visible n.i.a,,24,80.9
+2024,Québec,25 à 54 ans,Les deux sexes,,,Minorités visible multiples,,24,87.2
+2024,Québec,25 à 54 ans,Les deux sexes,,,Pas une minorité visible,,24,87.8
+2024,Québec,25 à 54 ans,Hommes,,,Population des minorités visibles,,24,83.9
+2024,Québec,25 à 54 ans,Hommes,,,Sud-Asiatique,,24,77.6
+2024,Québec,25 à 54 ans,Hommes,,,Chinois,,24,84.3
+2024,Québec,25 à 54 ans,Hommes,,,Noirs,,24,84.9
+2024,Québec,25 à 54 ans,Hommes,,,Philippin,,24,85.7
+2024,Québec,25 à 54 ans,Hommes,,,Arabe,,24,85.7
+2024,Québec,25 à 54 ans,Hommes,,,Latino-Américain,,24,79.7
+2024,Québec,25 à 54 ans,Hommes,,,Asiatique du Sud-Est,,24,89.3
+2024,Québec,25 à 54 ans,Hommes,,,Asiatique occidental,,24,85.8
+2024,Québec,25 à 54 ans,Hommes,,,Coréen,,24,
+2024,Québec,25 à 54 ans,Hommes,,,Japonais,,24,
+2024,Québec,25 à 54 ans,Hommes,,,Minorité visible n.i.a,,24,85.6
+2024,Québec,25 à 54 ans,Hommes,,,Minorités visible multiples,,24,86.4
+2024,Québec,25 à 54 ans,Hommes,,,Pas une minorité visible,,24,88.0
+2024,Québec,25 à 54 ans,Femmes,,,Population des minorités visibles,,24,74.4
+2024,Québec,25 à 54 ans,Femmes,,,Sud-Asiatique,,24,67.9
+2024,Québec,25 à 54 ans,Femmes,,,Chinois,,24,82.0
+2024,Québec,25 à 54 ans,Femmes,,,Noirs,,24,77.7
+2024,Québec,25 à 54 ans,Femmes,,,Philippin,,24,83.5
+2024,Québec,25 à 54 ans,Femmes,,,Arabe,,24,63.5
+2024,Québec,25 à 54 ans,Femmes,,,Latino-Américain,,24,77.4
+2024,Québec,25 à 54 ans,Femmes,,,Asiatique du Sud-Est,,24,82.5
+2024,Québec,25 à 54 ans,Femmes,,,Asiatique occidental,,24,68.8
+2024,Québec,25 à 54 ans,Femmes,,,Coréen,,24,
+2024,Québec,25 à 54 ans,Femmes,,,Japonais,,24,
+2024,Québec,25 à 54 ans,Femmes,,,Minorité visible n.i.a,,24,75.9
+2024,Québec,25 à 54 ans,Femmes,,,Minorités visible multiples,,24,90.5
+2024,Québec,25 à 54 ans,Femmes,,,Pas une minorité visible,,24,87.6
+2024,Québec,55 ans et plus,Les deux sexes,,,Population des minorités visibles,,24,46.0
+2024,Québec,55 ans et plus,Les deux sexes,,,Sud-Asiatique,,24,32.9
+2024,Québec,55 ans et plus,Les deux sexes,,,Chinois,,24,37.5
+2024,Québec,55 ans et plus,Les deux sexes,,,Noirs,,24,49.0
+2024,Québec,55 ans et plus,Les deux sexes,,,Philippin,,24,48.6
+2024,Québec,55 ans et plus,Les deux sexes,,,Arabe,,24,54.8
+2024,Québec,55 ans et plus,Les deux sexes,,,Latino-Américain,,24,46.3
+2024,Québec,55 ans et plus,Les deux sexes,,,Asiatique du Sud-Est,,24,42.4
+2024,Québec,55 ans et plus,Les deux sexes,,,Asiatique occidental,,24,38.8
+2024,Québec,55 ans et plus,Les deux sexes,,,Coréen,,24,
+2024,Québec,55 ans et plus,Les deux sexes,,,Japonais,,24,
+2024,Québec,55 ans et plus,Les deux sexes,,,Minorité visible n.i.a,,24,48.4
+2024,Québec,55 ans et plus,Les deux sexes,,,Minorités visible multiples,,24,73.3
+2024,Québec,55 ans et plus,Les deux sexes,,,Pas une minorité visible,,24,31.6
+2024,Québec,55 ans et plus,Hommes,,,Population des minorités visibles,,24,53.7
+2024,Québec,55 ans et plus,Hommes,,,Sud-Asiatique,,24,36.4
+2024,Québec,55 ans et plus,Hommes,,,Chinois,,24,46.7
+2024,Québec,55 ans et plus,Hommes,,,Noirs,,24,57.3
+2024,Québec,55 ans et plus,Hommes,,,Philippin,,24,46.7
+2024,Québec,55 ans et plus,Hommes,,,Arabe,,24,57.8
+2024,Québec,55 ans et plus,Hommes,,,Latino-Américain,,24,52.7
+2024,Québec,55 ans et plus,Hommes,,,Asiatique du Sud-Est,,24,60.8
+2024,Québec,55 ans et plus,Hommes,,,Asiatique occidental,,24,
+2024,Québec,55 ans et plus,Hommes,,,Coréen,,24,
+2024,Québec,55 ans et plus,Hommes,,,Japonais,,24,
+2024,Québec,55 ans et plus,Hommes,,,Minorité visible n.i.a,,24,55.4
+2024,Québec,55 ans et plus,Hommes,,,Minorités visible multiples,,24,
+2024,Québec,55 ans et plus,Hommes,,,Pas une minorité visible,,24,35.9
+2024,Québec,55 ans et plus,Femmes,,,Population des minorités visibles,,24,38.2
+2024,Québec,55 ans et plus,Femmes,,,Sud-Asiatique,,24,29.3
+2024,Québec,55 ans et plus,Femmes,,,Chinois,,24,29.9
+2024,Québec,55 ans et plus,Femmes,,,Noirs,,24,39.9
+2024,Québec,55 ans et plus,Femmes,,,Philippin,,24,50.0
+2024,Québec,55 ans et plus,Femmes,,,Arabe,,24,51.4
+2024,Québec,55 ans et plus,Femmes,,,Latino-Américain,,24,39.6
+2024,Québec,55 ans et plus,Femmes,,,Asiatique du Sud-Est,,24,27.8
+2024,Québec,55 ans et plus,Femmes,,,Asiatique occidental,,24,
+2024,Québec,55 ans et plus,Femmes,,,Coréen,,24,
+2024,Québec,55 ans et plus,Femmes,,,Japonais,,24,
+2024,Québec,55 ans et plus,Femmes,,,Minorité visible n.i.a,,24,40.2
+2024,Québec,55 ans et plus,Femmes,,,Minorités visible multiples,,24,
+2024,Québec,55 ans et plus,Femmes,,,Pas une minorité visible,,24,27.5
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Population des minorités visibles,,35,43.6
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Sud-Asiatique,,35,49.8
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Chinois,,35,31.4
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Noirs,,35,42.6
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Philippin,,35,46.7
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Arabe,,35,39.7
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Latino-Américain,,35,49.3
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Asiatique du Sud-Est,,35,45.4
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Asiatique occidental,,35,40.2
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Coréen,,35,38.9
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Japonais,,35,60.5
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Minorité visible n.i.a,,35,45.9
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Minorités visible multiples,,35,42.3
+2024,Ontario,15 à 24 ans,Les deux sexes,,,Pas une minorité visible,,35,55.6
+2024,Ontario,15 à 24 ans,Hommes,,,Population des minorités visibles,,35,43.0
+2024,Ontario,15 à 24 ans,Hommes,,,Sud-Asiatique,,35,49.9
+2024,Ontario,15 à 24 ans,Hommes,,,Chinois,,35,28.2
+2024,Ontario,15 à 24 ans,Hommes,,,Noirs,,35,41.3
+2024,Ontario,15 à 24 ans,Hommes,,,Philippin,,35,42.6
+2024,Ontario,15 à 24 ans,Hommes,,,Arabe,,35,39.3
+2024,Ontario,15 à 24 ans,Hommes,,,Latino-Américain,,35,49.7
+2024,Ontario,15 à 24 ans,Hommes,,,Asiatique du Sud-Est,,35,48.5
+2024,Ontario,15 à 24 ans,Hommes,,,Asiatique occidental,,35,40.2
+2024,Ontario,15 à 24 ans,Hommes,,,Coréen,,35,34.9
+2024,Ontario,15 à 24 ans,Hommes,,,Japonais,,35,
+2024,Ontario,15 à 24 ans,Hommes,,,Minorité visible n.i.a,,35,50.0
+2024,Ontario,15 à 24 ans,Hommes,,,Minorités visible multiples,,35,43.8
+2024,Ontario,15 à 24 ans,Hommes,,,Pas une minorité visible,,35,54.5
+2024,Ontario,15 à 24 ans,Femmes,,,Population des minorités visibles,,35,44.3
+2024,Ontario,15 à 24 ans,Femmes,,,Sud-Asiatique,,35,49.6
+2024,Ontario,15 à 24 ans,Femmes,,,Chinois,,35,34.9
+2024,Ontario,15 à 24 ans,Femmes,,,Noirs,,35,44.0
+2024,Ontario,15 à 24 ans,Femmes,,,Philippin,,35,50.4
+2024,Ontario,15 à 24 ans,Femmes,,,Arabe,,35,40.3
+2024,Ontario,15 à 24 ans,Femmes,,,Latino-Américain,,35,48.9
+2024,Ontario,15 à 24 ans,Femmes,,,Asiatique du Sud-Est,,35,41.7
+2024,Ontario,15 à 24 ans,Femmes,,,Asiatique occidental,,35,40.1
+2024,Ontario,15 à 24 ans,Femmes,,,Coréen,,35,42.3
+2024,Ontario,15 à 24 ans,Femmes,,,Japonais,,35,
+2024,Ontario,15 à 24 ans,Femmes,,,Minorité visible n.i.a,,35,42.6
+2024,Ontario,15 à 24 ans,Femmes,,,Minorités visible multiples,,35,40.0
+2024,Ontario,15 à 24 ans,Femmes,,,Pas une minorité visible,,35,56.7
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Population des minorités visibles,,35,79.5
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Sud-Asiatique,,35,81.2
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Chinois,,35,79.3
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Noirs,,35,74.1
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Philippin,,35,87.3
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Arabe,,35,70.9
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Latino-Américain,,35,82.6
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Asiatique du Sud-Est,,35,84.5
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Asiatique occidental,,35,72.2
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Coréen,,35,83.3
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Japonais,,35,70.3
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Minorité visible n.i.a,,35,77.8
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Minorités visible multiples,,35,76.4
+2024,Ontario,25 à 54 ans,Les deux sexes,,,Pas une minorité visible,,35,85.6
+2024,Ontario,25 à 54 ans,Hommes,,,Population des minorités visibles,,35,85.1
+2024,Ontario,25 à 54 ans,Hommes,,,Sud-Asiatique,,35,87.9
+2024,Ontario,25 à 54 ans,Hommes,,,Chinois,,35,82.8
+2024,Ontario,25 à 54 ans,Hommes,,,Noirs,,35,77.2
+2024,Ontario,25 à 54 ans,Hommes,,,Philippin,,35,90.2
+2024,Ontario,25 à 54 ans,Hommes,,,Arabe,,35,82.6
+2024,Ontario,25 à 54 ans,Hommes,,,Latino-Américain,,35,85.8
+2024,Ontario,25 à 54 ans,Hommes,,,Asiatique du Sud-Est,,35,90.0
+2024,Ontario,25 à 54 ans,Hommes,,,Asiatique occidental,,35,82.3
+2024,Ontario,25 à 54 ans,Hommes,,,Coréen,,35,89.7
+2024,Ontario,25 à 54 ans,Hommes,,,Japonais,,35,93.3
+2024,Ontario,25 à 54 ans,Hommes,,,Minorité visible n.i.a,,35,83.8
+2024,Ontario,25 à 54 ans,Hommes,,,Minorités visible multiples,,35,85.6
+2024,Ontario,25 à 54 ans,Hommes,,,Pas une minorité visible,,35,87.1
+2024,Ontario,25 à 54 ans,Femmes,,,Population des minorités visibles,,35,74.1
+2024,Ontario,25 à 54 ans,Femmes,,,Sud-Asiatique,,35,73.6
+2024,Ontario,25 à 54 ans,Femmes,,,Chinois,,35,76.2
+2024,Ontario,25 à 54 ans,Femmes,,,Noirs,,35,71.4
+2024,Ontario,25 à 54 ans,Femmes,,,Philippin,,35,84.9
+2024,Ontario,25 à 54 ans,Femmes,,,Arabe,,35,59.3
+2024,Ontario,25 à 54 ans,Femmes,,,Latino-Américain,,35,79.5
+2024,Ontario,25 à 54 ans,Femmes,,,Asiatique du Sud-Est,,35,79.9
+2024,Ontario,25 à 54 ans,Femmes,,,Asiatique occidental,,35,62.0
+2024,Ontario,25 à 54 ans,Femmes,,,Coréen,,35,77.2
+2024,Ontario,25 à 54 ans,Femmes,,,Japonais,,35,54.5
+2024,Ontario,25 à 54 ans,Femmes,,,Minorité visible n.i.a,,35,72.6
+2024,Ontario,25 à 54 ans,Femmes,,,Minorités visible multiples,,35,69.3
+2024,Ontario,25 à 54 ans,Femmes,,,Pas une minorité visible,,35,84.0
+2024,Ontario,55 ans et plus,Les deux sexes,,,Population des minorités visibles,,35,42.1
+2024,Ontario,55 ans et plus,Les deux sexes,,,Sud-Asiatique,,35,41.4
+2024,Ontario,55 ans et plus,Les deux sexes,,,Chinois,,35,35.2
+2024,Ontario,55 ans et plus,Les deux sexes,,,Noirs,,35,46.1
+2024,Ontario,55 ans et plus,Les deux sexes,,,Philippin,,35,55.1
+2024,Ontario,55 ans et plus,Les deux sexes,,,Arabe,,35,42.7
+2024,Ontario,55 ans et plus,Les deux sexes,,,Latino-Américain,,35,45.7
+2024,Ontario,55 ans et plus,Les deux sexes,,,Asiatique du Sud-Est,,35,43.4
+2024,Ontario,55 ans et plus,Les deux sexes,,,Asiatique occidental,,35,42.1
+2024,Ontario,55 ans et plus,Les deux sexes,,,Coréen,,35,47.6
+2024,Ontario,55 ans et plus,Les deux sexes,,,Japonais,,35,45.9
+2024,Ontario,55 ans et plus,Les deux sexes,,,Minorité visible n.i.a,,35,41.6
+2024,Ontario,55 ans et plus,Les deux sexes,,,Minorités visible multiples,,35,40.7
+2024,Ontario,55 ans et plus,Les deux sexes,,,Pas une minorité visible,,35,33.2
+2024,Ontario,55 ans et plus,Hommes,,,Population des minorités visibles,,35,49.2
+2024,Ontario,55 ans et plus,Hommes,,,Sud-Asiatique,,35,50.3
+2024,Ontario,55 ans et plus,Hommes,,,Chinois,,35,42.3
+2024,Ontario,55 ans et plus,Hommes,,,Noirs,,35,49.7
+2024,Ontario,55 ans et plus,Hommes,,,Philippin,,35,61.6
+2024,Ontario,55 ans et plus,Hommes,,,Arabe,,35,48.6
+2024,Ontario,55 ans et plus,Hommes,,,Latino-Américain,,35,52.1
+2024,Ontario,55 ans et plus,Hommes,,,Asiatique du Sud-Est,,35,51.9
+2024,Ontario,55 ans et plus,Hommes,,,Asiatique occidental,,35,52.4
+2024,Ontario,55 ans et plus,Hommes,,,Coréen,,35,52.7
+2024,Ontario,55 ans et plus,Hommes,,,Japonais,,35,
+2024,Ontario,55 ans et plus,Hommes,,,Minorité visible n.i.a,,35,51.4
+2024,Ontario,55 ans et plus,Hommes,,,Minorités visible multiples,,35,41.9
+2024,Ontario,55 ans et plus,Hommes,,,Pas une minorité visible,,35,38.3
+2024,Ontario,55 ans et plus,Femmes,,,Population des minorités visibles,,35,35.6
+2024,Ontario,55 ans et plus,Femmes,,,Sud-Asiatique,,35,32.2
+2024,Ontario,55 ans et plus,Femmes,,,Chinois,,35,29.0
+2024,Ontario,55 ans et plus,Femmes,,,Noirs,,35,42.9
+2024,Ontario,55 ans et plus,Femmes,,,Philippin,,35,50.8
+2024,Ontario,55 ans et plus,Femmes,,,Arabe,,35,35.3
+2024,Ontario,55 ans et plus,Femmes,,,Latino-Américain,,35,40.9
+2024,Ontario,55 ans et plus,Femmes,,,Asiatique du Sud-Est,,35,35.7
+2024,Ontario,55 ans et plus,Femmes,,,Asiatique occidental,,35,30.4
+2024,Ontario,55 ans et plus,Femmes,,,Coréen,,35,44.1
+2024,Ontario,55 ans et plus,Femmes,,,Japonais,,35,
+2024,Ontario,55 ans et plus,Femmes,,,Minorité visible n.i.a,,35,31.4
+2024,Ontario,55 ans et plus,Femmes,,,Minorités visible multiples,,35,39.3
+2024,Ontario,55 ans et plus,Femmes,,,Pas une minorité visible,,35,28.5
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Population des minorités visibles,,,58.6
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Sud-Asiatique,,,66.7
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Chinois,,,43.3
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Noirs,,,47.6
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Philippin,,,57.5
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Arabe,,,53.3
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Latino-Américain,,,55.6
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Asiatique du Sud-Est,,,70.0
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Asiatique occidental,,,71.4
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Coréen,,,78.6
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Japonais,,,75.0
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Minorité visible n.i.a,,,60.0
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Minorités visible multiples,,,
+2024,Région des Prairies,15 à 24 ans,Les deux sexes,,,Pas une minorité visible,,,57.2
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Population des minorités visibles,,,59.0
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Sud-Asiatique,,,68.5
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Chinois,,,41.0
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Noirs,,,48.0
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Philippin,,,56.4
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Arabe,,,50.0
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Latino-Américain,,,60.0
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Asiatique du Sud-Est,,,70.8
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Asiatique occidental,,,66.7
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Coréen,,,
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Japonais,,,
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Minorité visible n.i.a,,,
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Minorités visible multiples,,,
+2024,Région des Prairies,15 à 24 ans,Hommes,,,Pas une minorité visible,,,57.0
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Population des minorités visibles,,,58.1
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Sud-Asiatique,,,62.9
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Chinois,,,52.4
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Noirs,,,47.2
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Philippin,,,59.0
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Arabe,,,60.0
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Latino-Américain,,,52.4
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Asiatique du Sud-Est,,,69.2
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Asiatique occidental,,,70.0
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Coréen,,,
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Japonais,,,
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Minorité visible n.i.a,,,
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Minorités visible multiples,,,
+2024,Région des Prairies,15 à 24 ans,Femmes,,,Pas une minorité visible,,,57.5
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Population des minorités visibles,,,84.0
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Sud-Asiatique,,,83.7
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Chinois,,,78.0
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Noirs,,,79.0
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Philippin,,,91.0
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Arabe,,,66.3
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Latino-Américain,,,82.8
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Asiatique du Sud-Est,,,88.8
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Asiatique occidental,,,76.8
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Coréen,,,80.6
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Japonais,,,85.7
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Minorité visible n.i.a,,,84.3
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Minorités visible multiples,,,82.4
+2024,Région des Prairies,25 à 54 ans,Les deux sexes,,,Pas une minorité visible,,,85.0
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Population des minorités visibles,,,88.8
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Sud-Asiatique,,,91.5
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Chinois,,,84.1
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Noirs,,,84.8
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Philippin,,,93.6
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Arabe,,,77.1
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Latino-Américain,,,86.5
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Asiatique du Sud-Est,,,91.5
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Asiatique occidental,,,79.4
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Coréen,,,71.4
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Japonais,,,
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Minorité visible n.i.a,,,86.2
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Minorités visible multiples,,,81.8
+2024,Région des Prairies,25 à 54 ans,Hommes,,,Pas une minorité visible,,,88.2
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Population des minorités visibles,,,79.2
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Sud-Asiatique,,,74.6
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Chinois,,,71.6
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Noirs,,,73.6
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Philippin,,,88.6
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Arabe,,,51.4
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Latino-Américain,,,79.5
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Asiatique du Sud-Est,,,86.4
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Asiatique occidental,,,74.3
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Coréen,,,87.0
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Japonais,,,
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Minorité visible n.i.a,,,81.8
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Minorités visible multiples,,,71.4
+2024,Région des Prairies,25 à 54 ans,Femmes,,,Pas une minorité visible,,,81.8
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Population des minorités visibles,,,46.8
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Sud-Asiatique,,,39.7
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Chinois,,,33.3
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Noirs,,,52.2
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Philippin,,,56.5
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Arabe,,,45.5
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Latino-Américain,,,29.2
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Asiatique du Sud-Est,,,54.3
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Asiatique occidental,,,
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Coréen,,,
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Japonais,,,
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Minorité visible n.i.a,,,34.6
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Minorités visible multiples,,,
+2024,Région des Prairies,55 ans et plus,Les deux sexes,,,Pas une minorité visible,,,34.0
+2024,Région des Prairies,55 ans et plus,Hommes,,,Population des minorités visibles,,,53.6
+2024,Région des Prairies,55 ans et plus,Hommes,,,Sud-Asiatique,,,50.0
+2024,Région des Prairies,55 ans et plus,Hommes,,,Chinois,,,40.0
+2024,Région des Prairies,55 ans et plus,Hommes,,,Noirs,,,60.4
+2024,Région des Prairies,55 ans et plus,Hommes,,,Philippin,,,57.4
+2024,Région des Prairies,55 ans et plus,Hommes,,,Arabe,,,
+2024,Région des Prairies,55 ans et plus,Hommes,,,Latino-Américain,,,
+2024,Région des Prairies,55 ans et plus,Hommes,,,Asiatique du Sud-Est,,,61.1
+2024,Région des Prairies,55 ans et plus,Hommes,,,Asiatique occidental,,,
+2024,Région des Prairies,55 ans et plus,Hommes,,,Coréen,,,
+2024,Région des Prairies,55 ans et plus,Hommes,,,Japonais,,,
+2024,Région des Prairies,55 ans et plus,Hommes,,,Minorité visible n.i.a,,,
+2024,Région des Prairies,55 ans et plus,Hommes,,,Minorités visible multiples,,,
+2024,Région des Prairies,55 ans et plus,Hommes,,,Pas une minorité visible,,,39.1
+2024,Région des Prairies,55 ans et plus,Femmes,,,Population des minorités visibles,,,40.7
+2024,Région des Prairies,55 ans et plus,Femmes,,,Sud-Asiatique,,,29.8
+2024,Région des Prairies,55 ans et plus,Femmes,,,Chinois,,,28.6
+2024,Région des Prairies,55 ans et plus,Femmes,,,Noirs,,,42.9
+2024,Région des Prairies,55 ans et plus,Femmes,,,Philippin,,,55.5
+2024,Région des Prairies,55 ans et plus,Femmes,,,Arabe,,,
+2024,Région des Prairies,55 ans et plus,Femmes,,,Latino-Américain,,,
+2024,Région des Prairies,55 ans et plus,Femmes,,,Asiatique du Sud-Est,,,38.9
+2024,Région des Prairies,55 ans et plus,Femmes,,,Asiatique occidental,,,
+2024,Région des Prairies,55 ans et plus,Femmes,,,Coréen,,,
+2024,Région des Prairies,55 ans et plus,Femmes,,,Japonais,,,
+2024,Région des Prairies,55 ans et plus,Femmes,,,Minorité visible n.i.a,,,
+2024,Région des Prairies,55 ans et plus,Femmes,,,Minorités visible multiples,,,
+2024,Région des Prairies,55 ans et plus,Femmes,,,Pas une minorité visible,,,29.3
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Population des minorités visibles,,48,52.0
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Sud-Asiatique,,48,55.8
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Chinois,,48,37.3
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Noirs,,48,39.3
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Philippin,,48,61.5
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Arabe,,48,49.0
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Latino-Américain,,48,53.8
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Asiatique du Sud-Est,,48,59.1
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Asiatique occidental,,48,57.1
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Coréen,,48,43.6
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Japonais,,48,
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Minorité visible n.i.a,,48,
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Minorités visible multiples,,48,78.9
+2024,Alberta,15 à 24 ans,Les deux sexes,,,Pas une minorité visible,,48,56.3
+2024,Alberta,15 à 24 ans,Hommes,,,Population des minorités visibles,,48,51.0
+2024,Alberta,15 à 24 ans,Hommes,,,Sud-Asiatique,,48,52.1
+2024,Alberta,15 à 24 ans,Hommes,,,Chinois,,48,35.1
+2024,Alberta,15 à 24 ans,Hommes,,,Noirs,,48,46.7
+2024,Alberta,15 à 24 ans,Hommes,,,Philippin,,48,55.7
+2024,Alberta,15 à 24 ans,Hommes,,,Arabe,,48,57.4
+2024,Alberta,15 à 24 ans,Hommes,,,Latino-Américain,,48,
+2024,Alberta,15 à 24 ans,Hommes,,,Asiatique du Sud-Est,,48,52.9
+2024,Alberta,15 à 24 ans,Hommes,,,Asiatique occidental,,48,47.6
+2024,Alberta,15 à 24 ans,Hommes,,,Coréen,,48,
+2024,Alberta,15 à 24 ans,Hommes,,,Japonais,,48,
+2024,Alberta,15 à 24 ans,Hommes,,,Minorité visible n.i.a,,48,
+2024,Alberta,15 à 24 ans,Hommes,,,Minorités visible multiples,,48,
+2024,Alberta,15 à 24 ans,Hommes,,,Pas une minorité visible,,48,55.5
+2024,Alberta,15 à 24 ans,Femmes,,,Population des minorités visibles,,48,53.1
+2024,Alberta,15 à 24 ans,Femmes,,,Sud-Asiatique,,48,61.0
+2024,Alberta,15 à 24 ans,Femmes,,,Chinois,,48,39.3
+2024,Alberta,15 à 24 ans,Femmes,,,Noirs,,48,31.9
+2024,Alberta,15 à 24 ans,Femmes,,,Philippin,,48,68.8
+2024,Alberta,15 à 24 ans,Femmes,,,Arabe,,48,39.5
+2024,Alberta,15 à 24 ans,Femmes,,,Latino-Américain,,48,
+2024,Alberta,15 à 24 ans,Femmes,,,Asiatique du Sud-Est,,48,64.6
+2024,Alberta,15 à 24 ans,Femmes,,,Asiatique occidental,,48,64.3
+2024,Alberta,15 à 24 ans,Femmes,,,Coréen,,48,
+2024,Alberta,15 à 24 ans,Femmes,,,Japonais,,48,
+2024,Alberta,15 à 24 ans,Femmes,,,Minorité visible n.i.a,,48,
+2024,Alberta,15 à 24 ans,Femmes,,,Minorités visible multiples,,48,
+2024,Alberta,15 à 24 ans,Femmes,,,Pas une minorité visible,,48,57.1
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Population des minorités visibles,,48,80.5
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Sud-Asiatique,,48,81.2
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Chinois,,48,80.6
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Noirs,,48,72.6
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Philippin,,48,89.0
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Arabe,,48,64.5
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Latino-Américain,,48,81.0
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Asiatique du Sud-Est,,48,83.8
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Asiatique occidental,,48,67.0
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Coréen,,48,79.4
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Japonais,,48,87.9
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Minorité visible n.i.a,,48,75.9
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Minorités visible multiples,,48,92.5
+2024,Alberta,25 à 54 ans,Les deux sexes,,,Pas une minorité visible,,48,84.9
+2024,Alberta,25 à 54 ans,Hommes,,,Population des minorités visibles,,48,86.9
+2024,Alberta,25 à 54 ans,Hommes,,,Sud-Asiatique,,48,92.3
+2024,Alberta,25 à 54 ans,Hommes,,,Chinois,,48,84.1
+2024,Alberta,25 à 54 ans,Hommes,,,Noirs,,48,79.8
+2024,Alberta,25 à 54 ans,Hommes,,,Philippin,,48,89.8
+2024,Alberta,25 à 54 ans,Hommes,,,Arabe,,48,80.1
+2024,Alberta,25 à 54 ans,Hommes,,,Latino-Américain,,48,86.9
+2024,Alberta,25 à 54 ans,Hommes,,,Asiatique du Sud-Est,,48,87.8
+2024,Alberta,25 à 54 ans,Hommes,,,Asiatique occidental,,48,75.4
+2024,Alberta,25 à 54 ans,Hommes,,,Coréen,,48,85.3
+2024,Alberta,25 à 54 ans,Hommes,,,Japonais,,48,100.0
+2024,Alberta,25 à 54 ans,Hommes,,,Minorité visible n.i.a,,48,78.3
+2024,Alberta,25 à 54 ans,Hommes,,,Minorités visible multiples,,48,
+2024,Alberta,25 à 54 ans,Hommes,,,Pas une minorité visible,,48,88.8
+2024,Alberta,25 à 54 ans,Femmes,,,Population des minorités visibles,,48,74.4
+2024,Alberta,25 à 54 ans,Femmes,,,Sud-Asiatique,,48,69.6
+2024,Alberta,25 à 54 ans,Femmes,,,Chinois,,48,77.2
+2024,Alberta,25 à 54 ans,Femmes,,,Noirs,,48,65.8
+2024,Alberta,25 à 54 ans,Femmes,,,Philippin,,48,88.3
+2024,Alberta,25 à 54 ans,Femmes,,,Arabe,,48,47.7
+2024,Alberta,25 à 54 ans,Femmes,,,Latino-Américain,,48,75.3
+2024,Alberta,25 à 54 ans,Femmes,,,Asiatique du Sud-Est,,48,80.8
+2024,Alberta,25 à 54 ans,Femmes,,,Asiatique occidental,,48,56.9
+2024,Alberta,25 à 54 ans,Femmes,,,Coréen,,48,72.1
+2024,Alberta,25 à 54 ans,Femmes,,,Japonais,,48,81.8
+2024,Alberta,25 à 54 ans,Femmes,,,Minorité visible n.i.a,,48,74.1
+2024,Alberta,25 à 54 ans,Femmes,,,Minorités visible multiples,,48,
+2024,Alberta,25 à 54 ans,Femmes,,,Pas une minorité visible,,48,80.7
+2024,Alberta,55 ans et plus,Les deux sexes,,,Population des minorités visibles,,48,43.9
+2024,Alberta,55 ans et plus,Les deux sexes,,,Sud-Asiatique,,48,39.6
+2024,Alberta,55 ans et plus,Les deux sexes,,,Chinois,,48,36.6
+2024,Alberta,55 ans et plus,Les deux sexes,,,Noirs,,48,64.9
+2024,Alberta,55 ans et plus,Les deux sexes,,,Philippin,,48,54.5
+2024,Alberta,55 ans et plus,Les deux sexes,,,Arabe,,48,28.6
+2024,Alberta,55 ans et plus,Les deux sexes,,,Latino-Américain,,48,55.3
+2024,Alberta,55 ans et plus,Les deux sexes,,,Asiatique du Sud-Est,,48,37.9
+2024,Alberta,55 ans et plus,Les deux sexes,,,Asiatique occidental,,48,
+2024,Alberta,55 ans et plus,Les deux sexes,,,Coréen,,48,48.6
+2024,Alberta,55 ans et plus,Les deux sexes,,,Japonais,,48,47.1
+2024,Alberta,55 ans et plus,Les deux sexes,,,Minorité visible n.i.a,,48,41.7
+2024,Alberta,55 ans et plus,Les deux sexes,,,Minorités visible multiples,,48,
+2024,Alberta,55 ans et plus,Les deux sexes,,,Pas une minorité visible,,48,36.2
+2024,Alberta,55 ans et plus,Hommes,,,Population des minorités visibles,,48,48.0
+2024,Alberta,55 ans et plus,Hommes,,,Sud-Asiatique,,48,46.5
+2024,Alberta,55 ans et plus,Hommes,,,Chinois,,48,41.6
+2024,Alberta,55 ans et plus,Hommes,,,Noirs,,48,68.8
+2024,Alberta,55 ans et plus,Hommes,,,Philippin,,48,56.5
+2024,Alberta,55 ans et plus,Hommes,,,Arabe,,48,
+2024,Alberta,55 ans et plus,Hommes,,,Latino-Américain,,48,71.9
+2024,Alberta,55 ans et plus,Hommes,,,Asiatique du Sud-Est,,48,32.4
+2024,Alberta,55 ans et plus,Hommes,,,Asiatique occidental,,48,
+2024,Alberta,55 ans et plus,Hommes,,,Coréen,,48,
+2024,Alberta,55 ans et plus,Hommes,,,Japonais,,48,
+2024,Alberta,55 ans et plus,Hommes,,,Minorité visible n.i.a,,48,
+2024,Alberta,55 ans et plus,Hommes,,,Minorités visible multiples,,48,
+2024,Alberta,55 ans et plus,Hommes,,,Pas une minorité visible,,48,42.2
+2024,Alberta,55 ans et plus,Femmes,,,Population des minorités visibles,,48,40.2
+2024,Alberta,55 ans et plus,Femmes,,,Sud-Asiatique,,48,31.7
+2024,Alberta,55 ans et plus,Femmes,,,Chinois,,48,32.5
+2024,Alberta,55 ans et plus,Femmes,,,Noirs,,48,60.2
+2024,Alberta,55 ans et plus,Femmes,,,Philippin,,48,53.5
+2024,Alberta,55 ans et plus,Femmes,,,Arabe,,48,
+2024,Alberta,55 ans et plus,Femmes,,,Latino-Américain,,48,39.7
+2024,Alberta,55 ans et plus,Femmes,,,Asiatique du Sud-Est,,48,42.3
+2024,Alberta,55 ans et plus,Femmes,,,Asiatique occidental,,48,
+2024,Alberta,55 ans et plus,Femmes,,,Coréen,,48,
+2024,Alberta,55 ans et plus,Femmes,,,Japonais,,48,
+2024,Alberta,55 ans et plus,Femmes,,,Minorité visible n.i.a,,48,
+2024,Alberta,55 ans et plus,Femmes,,,Minorités visible multiples,,48,
+2024,Alberta,55 ans et plus,Femmes,,,Pas une minorité visible,,48,30.5
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Population des minorités visibles,,59,52.4
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Sud-Asiatique,,59,60.0
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Chinois,,59,41.8
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Noirs,,59,55.0
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Philippin,,59,59.4
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Arabe,,59,46.6
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Latino-Américain,,59,49.6
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Asiatique du Sud-Est,,59,59.4
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Asiatique occidental,,59,41.5
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Coréen,,59,45.8
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Japonais,,59,56.0
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Minorité visible n.i.a,,59,
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Minorités visible multiples,,59,39.5
+2024,Colombie-Britannique,15 à 24 ans,Les deux sexes,,,Pas une minorité visible,,59,57.9
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Population des minorités visibles,,59,52.7
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Sud-Asiatique,,59,62.1
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Chinois,,59,40.5
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Noirs,,59,52.7
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Philippin,,59,62.2
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Arabe,,59,
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Latino-Américain,,59,48.7
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Asiatique du Sud-Est,,59,49.4
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Asiatique occidental,,59,44.4
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Coréen,,59,
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Japonais,,59,
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Minorité visible n.i.a,,59,
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Minorités visible multiples,,59,
+2024,Colombie-Britannique,15 à 24 ans,Hommes,,,Pas une minorité visible,,59,56.7
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Population des minorités visibles,,59,52.0
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Sud-Asiatique,,59,58.0
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Chinois,,59,43.6
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Noirs,,59,57.4
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Philippin,,59,56.4
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Arabe,,59,
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Latino-Américain,,59,50.0
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Asiatique du Sud-Est,,59,67.0
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Asiatique occidental,,59,40.4
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Coréen,,59,
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Japonais,,59,
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Minorité visible n.i.a,,59,
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Minorités visible multiples,,59,
+2024,Colombie-Britannique,15 à 24 ans,Femmes,,,Pas une minorité visible,,59,59.3
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Population des minorités visibles,,59,82.1
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Sud-Asiatique,,59,85.6
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Chinois,,59,79.9
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Noirs,,59,80.3
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Philippin,,59,88.6
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Arabe,,59,67.3
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Latino-Américain,,59,83.3
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Asiatique du Sud-Est,,59,78.3
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Asiatique occidental,,59,74.1
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Coréen,,59,77.8
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Japonais,,59,81.9
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Minorité visible n.i.a,,59,77.8
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Minorités visible multiples,,59,83.7
+2024,Colombie-Britannique,25 à 54 ans,Les deux sexes,,,Pas une minorité visible,,59,84.0
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Population des minorités visibles,,59,87.1
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Sud-Asiatique,,59,90.2
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Chinois,,59,85.9
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Noirs,,59,83.4
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Philippin,,59,91.9
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Arabe,,59,76.5
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Latino-Américain,,59,85.7
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Asiatique du Sud-Est,,59,81.7
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Asiatique occidental,,59,84.4
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Coréen,,59,82.0
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Japonais,,59,92.4
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Minorité visible n.i.a,,59,84.1
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Minorités visible multiples,,59,78.6
+2024,Colombie-Britannique,25 à 54 ans,Hommes,,,Pas une minorité visible,,59,87.1
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Population des minorités visibles,,59,77.3
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Sud-Asiatique,,59,80.7
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Chinois,,59,74.4
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Noirs,,59,76.4
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Philippin,,59,85.8
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Arabe,,59,57.1
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Latino-Américain,,59,80.9
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Asiatique du Sud-Est,,59,75.9
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Asiatique occidental,,59,63.8
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Coréen,,59,74.8
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Japonais,,59,76.7
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Minorité visible n.i.a,,59,71.3
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Minorités visible multiples,,59,90.5
+2024,Colombie-Britannique,25 à 54 ans,Femmes,,,Pas une minorité visible,,59,80.8
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Population des minorités visibles,,59,39.0
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Sud-Asiatique,,59,34.4
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Chinois,,59,34.3
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Noirs,,59,60.7
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Philippin,,59,59.1
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Arabe,,59,35.7
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Latino-Américain,,59,53.2
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Asiatique du Sud-Est,,59,35.5
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Asiatique occidental,,59,43.5
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Coréen,,59,48.0
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Japonais,,59,41.4
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Minorité visible n.i.a,,59,41.2
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Minorités visible multiples,,59,
+2024,Colombie-Britannique,55 ans et plus,Les deux sexes,,,Pas une minorité visible,,59,33.4
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Population des minorités visibles,,59,46.6
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Sud-Asiatique,,59,44.4
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Chinois,,59,41.7
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Noirs,,59,60.0
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Philippin,,59,61.3
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Arabe,,59,
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Latino-Américain,,59,62.7
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Asiatique du Sud-Est,,59,40.4
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Asiatique occidental,,59,53.8
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Coréen,,59,65.2
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Japonais,,59,52.4
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Minorité visible n.i.a,,59,
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Minorités visible multiples,,59,
+2024,Colombie-Britannique,55 ans et plus,Hommes,,,Pas une minorité visible,,59,37.1
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Population des minorités visibles,,59,32.5
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Sud-Asiatique,,59,25.0
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Chinois,,59,28.3
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Noirs,,59,61.5
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Philippin,,59,57.4
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Arabe,,59,
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Latino-Américain,,59,43.2
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Asiatique du Sud-Est,,59,31.7
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Asiatique occidental,,59,34.2
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Coréen,,59,34.1
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Japonais,,59,35.1
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Minorité visible n.i.a,,59,
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Minorités visible multiples,,59,
+2024,Colombie-Britannique,55 ans et plus,Femmes,,,Pas une minorité visible,,59,30.0
 2015,Canada,"Total, 15 ans et plus",,,,,Immigrants reçus,,58.2
 2015,Canada,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,,59.2
 2015,Canada,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,66.9
@@ -12269,6 +14467,86 @@ Year,Géographie,Groupe d'âge,Sexe,Groupe autochtone,Niveau de scolarité attei
 2023,"Vancouver, Colombie-Britannique","Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,73.4
 2023,"Vancouver, Colombie-Britannique","Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,,59.2
 2023,"Vancouver, Colombie-Britannique","Total, 15 ans et plus",,,,,Populations nées au Canada,,65.6
+2024,Canada,"Total, 15 ans et plus",,,,,Immigrants reçus,,61.7
+2024,Canada,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,,69.3
+2024,Canada,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,72.3
+2024,Canada,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,,57.6
+2024,Canada,"Total, 15 ans et plus",,,,,Populations nées au Canada,,60.6
+2024,Région de l'Atlantique,"Total, 15 ans et plus",,,,,Immigrants reçus,,67.4
+2024,Région de l'Atlantique,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,,74.3
+2024,Région de l'Atlantique,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,77.0
+2024,Région de l'Atlantique,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,,57.2
+2024,Région de l'Atlantique,"Total, 15 ans et plus",,,,,Populations nées au Canada,,54.8
+2024,Terre-Neuve-et-Labrador,"Total, 15 ans et plus",,,,,Immigrants reçus,10,69.7
+2024,Terre-Neuve-et-Labrador,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,10,77.5
+2024,Terre-Neuve-et-Labrador,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,10,75.7
+2024,Terre-Neuve-et-Labrador,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,10,58.5
+2024,Terre-Neuve-et-Labrador,"Total, 15 ans et plus",,,,,Populations nées au Canada,10,51.0
+2024,Île-du-Prince-Édouard,"Total, 15 ans et plus",,,,,Immigrants reçus,11,67.6
+2024,Île-du-Prince-Édouard,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,11,73.2
+2024,Île-du-Prince-Édouard,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,11,74.4
+2024,Île-du-Prince-Édouard,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,11,56.9
+2024,Île-du-Prince-Édouard,"Total, 15 ans et plus",,,,,Populations nées au Canada,11,59.8
+2024,Nouvelle-Écosse,"Total, 15 ans et plus",,,,,Immigrants reçus,12,67.5
+2024,Nouvelle-Écosse,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,12,76.2
+2024,Nouvelle-Écosse,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,12,77.5
+2024,Nouvelle-Écosse,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,12,56.5
+2024,Nouvelle-Écosse,"Total, 15 ans et plus",,,,,Populations nées au Canada,12,56.0
+2024,Nouveau-Brunswick,"Total, 15 ans et plus",,,,,Immigrants reçus,13,66.6
+2024,Nouveau-Brunswick,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,13,70.6
+2024,Nouveau-Brunswick,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,13,77.2
+2024,Nouveau-Brunswick,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,13,58.6
+2024,Nouveau-Brunswick,"Total, 15 ans et plus",,,,,Populations nées au Canada,13,55.0
+2024,Québec,"Total, 15 ans et plus",,,,,Immigrants reçus,24,64.6
+2024,Québec,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,24,69.0
+2024,Québec,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,24,71.9
+2024,Québec,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,24,61.8
+2024,Québec,"Total, 15 ans et plus",,,,,Populations nées au Canada,24,60.0
+2024,"Montréal, Québec","Total, 15 ans et plus",,,,,Immigrants reçus,,63.1
+2024,"Montréal, Québec","Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,,66.2
+2024,"Montréal, Québec","Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,70.1
+2024,"Montréal, Québec","Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,,60.9
+2024,"Montréal, Québec","Total, 15 ans et plus",,,,,Populations nées au Canada,,61.5
+2024,Ontario,"Total, 15 ans et plus",,,,,Immigrants reçus,35,59.3
+2024,Ontario,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,35,67.7
+2024,Ontario,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,35,70.1
+2024,Ontario,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,35,55.6
+2024,Ontario,"Total, 15 ans et plus",,,,,Populations nées au Canada,35,61.1
+2024,"Toronto, Ontario","Total, 15 ans et plus",,,,,Immigrants reçus,,60.2
+2024,"Toronto, Ontario","Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,,67.1
+2024,"Toronto, Ontario","Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,69.8
+2024,"Toronto, Ontario","Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,,57.2
+2024,"Toronto, Ontario","Total, 15 ans et plus",,,,,Populations nées au Canada,,62.9
+2024,Manitoba and Saskatchewan,"Total, 15 ans et plus",,,,,Immigrants reçus,,70.0
+2024,Manitoba and Saskatchewan,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,,73.8
+2024,Manitoba and Saskatchewan,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,77.9
+2024,Manitoba and Saskatchewan,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,,65.1
+2024,Manitoba and Saskatchewan,"Total, 15 ans et plus",,,,,Populations nées au Canada,,61.2
+2024,Manitoba,"Total, 15 ans et plus",,,,,Immigrants reçus,46,69.2
+2024,Manitoba,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,46,73.7
+2024,Manitoba,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,46,77.2
+2024,Manitoba,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,46,64.4
+2024,Manitoba,"Total, 15 ans et plus",,,,,Populations nées au Canada,46,60.8
+2024,Saskatchewan,"Total, 15 ans et plus",,,,,Immigrants reçus,47,71.4
+2024,Saskatchewan,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,47,73.9
+2024,Saskatchewan,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,47,78.8
+2024,Saskatchewan,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,47,66.4
+2024,Saskatchewan,"Total, 15 ans et plus",,,,,Populations nées au Canada,47,61.7
+2024,Alberta,"Total, 15 ans et plus",,,,,Immigrants reçus,48,65.4
+2024,Alberta,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,48,68.1
+2024,Alberta,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,48,74.5
+2024,Alberta,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,48,62.1
+2024,Alberta,"Total, 15 ans et plus",,,,,Populations nées au Canada,48,64.0
+2024,Colombie-Britannique,"Total, 15 ans et plus",,,,,Immigrants reçus,59,60.4
+2024,Colombie-Britannique,"Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,59,71.7
+2024,Colombie-Britannique,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,59,74.2
+2024,Colombie-Britannique,"Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,59,55.7
+2024,Colombie-Britannique,"Total, 15 ans et plus",,,,,Populations nées au Canada,59,60.6
+2024,"Vancouver, Colombie-Britannique","Total, 15 ans et plus",,,,,Immigrants reçus,,61.5
+2024,"Vancouver, Colombie-Britannique","Total, 15 ans et plus",,,,,Immigrants reçus 5 ans et moins auparavant,,70.1
+2024,"Vancouver, Colombie-Britannique","Total, 15 ans et plus",,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,72.6
+2024,"Vancouver, Colombie-Britannique","Total, 15 ans et plus",,,,,Immigrants reçus plus de 10 ans auparavant,,57.9
+2024,"Vancouver, Colombie-Britannique","Total, 15 ans et plus",,,,,Populations nées au Canada,,64.0
 2015,Canada,25 à 54 ans,,,,,Immigrants reçus,,77.3
 2015,Canada,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,,66.7
 2015,Canada,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,76.6
@@ -12989,3 +15267,83 @@ Year,Géographie,Groupe d'âge,Sexe,Groupe autochtone,Niveau de scolarité attei
 2023,"Vancouver, Colombie-Britannique",25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,83.1
 2023,"Vancouver, Colombie-Britannique",25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,,84.9
 2023,"Vancouver, Colombie-Britannique",25 à 54 ans,,,,,Populations nées au Canada,,85.5
+2024,Canada,25 à 54 ans,,,,,Immigrants reçus,,81.5
+2024,Canada,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,,77.2
+2024,Canada,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,81.2
+2024,Canada,25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,,83.4
+2024,Canada,25 à 54 ans,,,,,Populations nées au Canada,,85.8
+2024,Région de l'Atlantique,25 à 54 ans,,,,,Immigrants reçus,,83.1
+2024,Région de l'Atlantique,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,,80.7
+2024,Région de l'Atlantique,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,84.4
+2024,Région de l'Atlantique,25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,,86.2
+2024,Région de l'Atlantique,25 à 54 ans,,,,,Populations nées au Canada,,82.6
+2024,Terre-Neuve-et-Labrador,25 à 54 ans,,,,,Immigrants reçus,10,83.8
+2024,Terre-Neuve-et-Labrador,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,10,81.4
+2024,Terre-Neuve-et-Labrador,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,10,84.0
+2024,Terre-Neuve-et-Labrador,25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,10,87.9
+2024,Terre-Neuve-et-Labrador,25 à 54 ans,,,,,Populations nées au Canada,10,80.2
+2024,Île-du-Prince-Édouard,25 à 54 ans,,,,,Immigrants reçus,11,80.2
+2024,Île-du-Prince-Édouard,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,11,76.6
+2024,Île-du-Prince-Édouard,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,11,81.5
+2024,Île-du-Prince-Édouard,25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,11,81.8
+2024,Île-du-Prince-Édouard,25 à 54 ans,,,,,Populations nées au Canada,11,84.3
+2024,Nouvelle-Écosse,25 à 54 ans,,,,,Immigrants reçus,12,84.2
+2024,Nouvelle-Écosse,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,12,82.2
+2024,Nouvelle-Écosse,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,12,85.3
+2024,Nouvelle-Écosse,25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,12,86.4
+2024,Nouvelle-Écosse,25 à 54 ans,,,,,Populations nées au Canada,12,83.5
+2024,Nouveau-Brunswick,25 à 54 ans,,,,,Immigrants reçus,13,81.9
+2024,Nouveau-Brunswick,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,13,79.3
+2024,Nouveau-Brunswick,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,13,82.4
+2024,Nouveau-Brunswick,25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,13,86.3
+2024,Nouveau-Brunswick,25 à 54 ans,,,,,Populations nées au Canada,13,82.8
+2024,Québec,25 à 54 ans,,,,,Immigrants reçus,24,82.2
+2024,Québec,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,24,76.7
+2024,Québec,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,24,80.5
+2024,Québec,25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,24,85.3
+2024,Québec,25 à 54 ans,,,,,Populations nées au Canada,24,87.9
+2024,"Montréal, Québec",25 à 54 ans,,,,,Immigrants reçus,,81.4
+2024,"Montréal, Québec",25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,,74.7
+2024,"Montréal, Québec",25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,79.1
+2024,"Montréal, Québec",25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,,84.9
+2024,"Montréal, Québec",25 à 54 ans,,,,,Populations nées au Canada,,87.7
+2024,Ontario,25 à 54 ans,,,,,Immigrants reçus,35,80.6
+2024,Ontario,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,35,76.4
+2024,Ontario,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,35,79.8
+2024,Ontario,25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,35,82.4
+2024,Ontario,25 à 54 ans,,,,,Populations nées au Canada,35,85.7
+2024,"Toronto, Ontario",25 à 54 ans,,,,,Immigrants reçus,,80.5
+2024,"Toronto, Ontario",25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,,75.9
+2024,"Toronto, Ontario",25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,79.5
+2024,"Toronto, Ontario",25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,,82.4
+2024,"Toronto, Ontario",25 à 54 ans,,,,,Populations nées au Canada,,85.3
+2024,Manitoba and Saskatchewan,25 à 54 ans,,,,,Immigrants reçus,,84.6
+2024,Manitoba and Saskatchewan,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,,80.9
+2024,Manitoba and Saskatchewan,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,86.6
+2024,Manitoba and Saskatchewan,25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,,86.0
+2024,Manitoba and Saskatchewan,25 à 54 ans,,,,,Populations nées au Canada,,85.9
+2024,Manitoba,25 à 54 ans,,,,,Immigrants reçus,46,85.3
+2024,Manitoba,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,46,80.8
+2024,Manitoba,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,46,86.7
+2024,Manitoba,25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,46,87.3
+2024,Manitoba,25 à 54 ans,,,,,Populations nées au Canada,46,85.8
+2024,Saskatchewan,25 à 54 ans,,,,,Immigrants reçus,47,83.5
+2024,Saskatchewan,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,47,81.3
+2024,Saskatchewan,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,47,86.4
+2024,Saskatchewan,25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,47,83.7
+2024,Saskatchewan,25 à 54 ans,,,,,Populations nées au Canada,47,86.1
+2024,Alberta,25 à 54 ans,,,,,Immigrants reçus,48,81.1
+2024,Alberta,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,48,74.6
+2024,Alberta,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,48,81.8
+2024,Alberta,25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,48,83.5
+2024,Alberta,25 à 54 ans,,,,,Populations nées au Canada,48,85.2
+2024,Colombie-Britannique,25 à 54 ans,,,,,Immigrants reçus,59,82.5
+2024,Colombie-Britannique,25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,59,79.2
+2024,Colombie-Britannique,25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,59,83.0
+2024,Colombie-Britannique,25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,59,83.5
+2024,Colombie-Britannique,25 à 54 ans,,,,,Populations nées au Canada,59,84.5
+2024,"Vancouver, Colombie-Britannique",25 à 54 ans,,,,,Immigrants reçus,,81.9
+2024,"Vancouver, Colombie-Britannique",25 à 54 ans,,,,,Immigrants reçus 5 ans et moins auparavant,,78.2
+2024,"Vancouver, Colombie-Britannique",25 à 54 ans,,,,,Immigrants reçus plus de 5 à 10 ans auparavant,,82.1
+2024,"Vancouver, Colombie-Britannique",25 à 54 ans,,,,,Immigrants reçus plus de 10 ans auparavant,,83.2
+2024,"Vancouver, Colombie-Britannique",25 à 54 ans,,,,,Populations nées au Canada,,86.7
