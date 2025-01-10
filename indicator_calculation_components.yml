@@ -495,11 +495,11 @@
 5-5-1:
   base_value: '0.84'
   base_year: '2015'
-  current_value: '0.86'
-  current_year: '2023'
+  current_value: '0.88'
+  current_year: '2024'
   direction: positive
-  progress_calculation_value: '0.002945642079091204'
-  progress_status: negligible_progress
+  progress_calculation_value: '0.005182272387604048'
+  progress_status: moderate_progress
   target: None
   target_year: '2030'
 6-1-1:
@@ -579,21 +579,21 @@
 8-1-1:
   base_value: '6.9'
   base_year: '2015'
-  current_value: '5.4'
-  current_year: '2023'
+  current_value: '6.4'
+  current_year: '2024'
   direction: negative
-  progress_calculation_value: '0.030175650870685966'
-  progress_status: substantial_progress
+  progress_calculation_value: '0.008323325625566924'
+  progress_status: moderate_progress
   target: None
   target_year: '2030'
 8-2-1:
   base_value: '61.6'
   base_year: '2015'
-  current_value: '62.1'
-  current_year: '2023'
+  current_value: '61.1'
+  current_year: '2024'
   direction: positive
-  progress_calculation_value: '0.0010110255420983094'
-  progress_status: negligible_progress
+  progress_calculation_value: '-0.0009051461480789058'
+  progress_status: deterioration
   target: None
   target_year: '2030'
 8-3-1:
@@ -609,10 +609,10 @@
 8-4-1:
   base_value: '26.49'
   base_year: '2015'
-  current_value: '15.68'
-  current_year: '2023'
+  current_value: '17.77'
+  current_year: '2024'
   direction: negative
-  progress_calculation_value: '0.06344559146612694'
+  progress_calculation_value: '0.043392148566347766'
   progress_status: substantial_progress
   target: None
   target_year: '2030'
@@ -687,12 +687,12 @@
   target: None
   target_year: '2030'
 9-6-1:
-  base_value: '14661'
+  base_value: '14654'
   base_year: '2024'
-  current_value: '14680'
+  current_value: '14712'
   current_year: '2025'
   direction: positive
-  progress_calculation_value: '0.0043201455206915'
+  progress_calculation_value: '0.013166855845630212'
   progress_status: negligible_progress
   target: '19059'
   target_year: '2025'
