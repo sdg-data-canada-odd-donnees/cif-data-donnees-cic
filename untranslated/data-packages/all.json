@@ -846,6 +846,10 @@
             }
           },
           {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
             "name": "Value",
             "type": "number"
           }
@@ -950,6 +954,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -4113,6 +4121,10 @@
             }
           },
           {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
@@ -4834,16 +4846,6 @@
           {
             "name": "Year",
             "type": "integer"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.Canada",
-                ""
-              ]
-            }
           },
           {
             "name": "data.Type of perpetrator",

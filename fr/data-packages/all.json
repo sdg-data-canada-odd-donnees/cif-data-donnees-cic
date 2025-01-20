@@ -906,6 +906,11 @@
             "title": "Géographie"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -1015,6 +1020,11 @@
               ]
             },
             "title": "Principal mode de transport pour la navette"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -4407,6 +4417,11 @@
             "title": "Géographie"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Valeur"
@@ -5178,17 +5193,6 @@
             "name": "Year",
             "type": "integer",
             "title": "Année"
-          },
-          {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                ""
-              ]
-            },
-            "title": "Géographie"
           },
           {
             "name": "data.Type of perpetrator",

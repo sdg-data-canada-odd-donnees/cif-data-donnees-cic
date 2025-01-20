@@ -103,6 +103,11 @@
             "title": "Principal mode de transport pour la navette"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"

@@ -16,17 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                ""
-              ]
-            },
-            "title": "Geography"
-          },
-          {
             "name": "data.Type of perpetrator",
             "type": "string",
             "constraints": {
