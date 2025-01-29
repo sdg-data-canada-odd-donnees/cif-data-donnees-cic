@@ -7,9 +7,9 @@ library(cansim)
 
 # load CODR table from stc api
 Raw_data <- get_cansim("14-10-0327-01", factors = FALSE)
-Raw_data2 <- get_cansim("14-10-0364-01", factors = FALSE) 
-Raw_data3 <- get_cansim("14-10-0083-01", factors = FALSE)
-Raw_data4 <- get_cansim("14-10-0393-01", factors = FALSE)
+Raw_data2 <- get_cansim("14-10-0470-01", factors = FALSE)
+Raw_data3 <- get_cansim("14-10-0472-01", factors = FALSE)
+Raw_data4 <- get_cansim("14-10-0464-01", factors = FALSE)
 
 
 # load geocode
@@ -17,6 +17,7 @@ geocodes <- read.csv("geocodes.csv")
 
 
 # Total population
+# for the provinces, disaggregated by gender and age group
 total_pop <-
   Raw_data %>%
   filter(
@@ -26,15 +27,16 @@ total_pop <-
   select(
     Year = REF_DATE,
     Geography = GEO,
-    Sex,
+    Gender,
     `Age group`,
     Value = VALUE
   ) %>%
   mutate(Population = "Total population") %>%
-  relocate(Population, .before = "Sex")
+  relocate(Population, .before = "Gender")
 
 
-# Add Yukon, NWT and Nunavut 
+# Add Yukon, NWT and Nunavut
+# disaggregation by gender and age group not available
 Territories <- 
   Raw_data4 %>% 
   filter(
@@ -50,7 +52,7 @@ Territories <-
   mutate(
     Population = "Total population",
     `Age group` = "15 years and over",
-    Sex = "Both sexes"
+    Gender = "Total - Gender"
   )
 
 
@@ -59,17 +61,22 @@ Indigenous <-
   Raw_data2 %>% 
   filter(
     REF_DATE >= 2015,
-    `Indigenous group` == "Indigenous population",
+    `Indigenous group` %in% c(
+      "Non-Indigenous people",
+      "Indigenous peoples",
+      "First Nations",
+      "Métis"
+    ),
     `Labour force characteristics` == "Unemployment rate",
   ) %>% 
   select(
     Year = REF_DATE,
     Geography = GEO,
-    Sex,
-    `Age group`,
+    Gender,
+    `Age group` = Age,
     Value = VALUE
   ) %>% 
-  mutate(Population = "Indigenous population")
+  mutate(Population = "Indigenous peoples")
 
 
 # Immigrant status table 
@@ -80,6 +87,10 @@ Immigrant <-
     GEO %in% c(
       "Canada",
       "Atlantic region",
+      "Newfoundland and Labrador",
+      "Prince Edward Island",
+      "Nova Scotia",
+      "New Brunswick",
       "Quebec",
       "Ontario",
       "Manitoba",
@@ -88,6 +99,7 @@ Immigrant <-
       "British Columbia"
     ),
     `Immigrant status` %in% c(
+      "Born in Canada",
       "Landed immigrants",
       "Immigrants, landed 5 or less years earlier",
       "Immigrants, landed more than 5 to 10 years earlier",
@@ -102,7 +114,7 @@ Immigrant <-
     `Age group`,
     Value = VALUE
   ) %>%
-  mutate(Sex = "Both sexes")
+  mutate(Gender = "Total - Gender")
 
 
 # Add everything together in one dataframe
@@ -112,29 +124,26 @@ Total_unemployment <-
   relocate(GeoCode, .before = Value)
 
 # Complete the aggregate and non=aggregate data to get final data 
-total <- 
-  Total_unemployment %>% 
+total <- Total_unemployment %>% 
   filter(
     Geography == "Canada",
     Population == "Total population",
-    Sex == "Both sexes",
+    Gender == "Total - Gender",
     `Age group` == "15 years and over"
   ) %>% 
   mutate_at(2:(ncol(.)-2), ~ "")
 
 
-non_total <- 
-  Total_unemployment %>% 
-  filter(!(Geography == "Canada"&
-           Population == "Total population" &
-           Sex == "Both sexes" &
-           `Age group` == "15 years and over")) %>% 
-  mutate_at(2:(ncol(.)-2), ~ paste0("data.", .x))
+non_total <- Total_unemployment %>% 
+  filter(
+    !(Geography == "Canada"&
+      Population == "Total population" &
+      Gender == "Total - Gender" &
+      `Age group` == "15 years and over")
+  )
 
 
-final_data <- 
-  bind_rows(total, non_total) %>% 
-  rename_at(2:(ncol(.)-2), ~ paste0("data.", .x))
+final_data <- bind_rows(total, non_total)
 
 
 write.csv(
