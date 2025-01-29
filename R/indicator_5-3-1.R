@@ -108,9 +108,7 @@ repr_in_chiefs <-
 # Combine data ------------------------------------------------------------
 
 data_final <-
-  bind_rows(repr_in_gov, repr_in_mgmt, repr_in_judges, repr_in_chiefs) %>% 
-  mutate_at(2, ~ paste0("data.", .x)) %>% 
-  rename_at(2, ~ paste0("data.", .x))
+  bind_rows(repr_in_gov, repr_in_mgmt, repr_in_judges, repr_in_chiefs)
 
 
 write.csv(
