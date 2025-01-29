@@ -54,7 +54,7 @@ repr_in_mgmt <-
     GEO == "Canada",
     `Labour force characteristics` == "Proportion of employment", 
     `National Occupational Classification (NOC)` %in% selected_occupations,
-    Sex == "Females"
+    Gender == "Women+"
   ) %>% 
   select(
     Year = REF_DATE,
