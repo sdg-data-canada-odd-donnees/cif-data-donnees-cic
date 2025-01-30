@@ -41,7 +41,7 @@ repr_in_gov <-
 
 selected_occupations <- c(
   "Management occupations [00, 10, 20, 30, 40, 50, 60, 70, 80, 90]",
-  "Legislative and senior management occupations [00]",
+  "Legislative and senior management occupations [0]",
   "Specialized middle management occupations [10, 20, 30, 40, 50]",
   "Middle management occupations in retail and wholesale trade and customer services [60]",
   "Middle management occupations in trades, transportation, production and utilities [70, 80, 90]"
