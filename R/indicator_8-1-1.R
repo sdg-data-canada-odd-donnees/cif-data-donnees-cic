@@ -73,10 +73,10 @@ Indigenous <-
     Year = REF_DATE,
     Geography = GEO,
     Gender,
+    Population = `Indigenous group`,
     `Age group` = Age,
     Value = VALUE
-  ) %>% 
-  mutate(Population = "Indigenous peoples")
+  )
 
 
 # Immigrant status table 
