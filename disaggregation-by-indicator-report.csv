@@ -55,19 +55,19 @@ Indicator,Disaggregations,Number of disaggregations
 #4-3-1,Geography,1
 #5-1-1,"data.Sex, data.Type of perpetrator",2
 #5-2-1,"Geography, Age group, Visible minority, Indigenous group, Immigrant status, Type of intimate partner violence, Disability, Highest degree earned, Household income, Location of residence, Marital status",11
-#5-3-1,data.Leadership position,1
+#5-3-1,Leadership position,1
 #5-4-1,"Geography, Gender, Age group",3
-#5-5-1,"data.Geography, data.Type of work, data.National Occupational Classification (NOC), data.Age",4
+#5-5-1,"Geography, Type of work, National Occupational Classification (NOC), Age",4
 #6-1-1,data.Geography,1
 #6-2-1,data.Geography,1
 #6-3-1,Sector,1
 #6-4-1,"data.Geography, data.Land use category, data.Water quality",3
 #7-2-1,"data.Geography, data.Type of electricity generation",2
 #7-3-1,data.Geography,1
-#8-1-1,"data.Geography, data.Age group, data.Sex, data.Population",4
-#8-2-1,"Geography, Age group, Sex, Visible minority, Indigenous group, Educational attainment, Immigrant status",7
+#8-1-1,"Geography, Gender, Age group, Population",4
+#8-2-1,"Geography, Gender, Age group, Visible minority, Indigenous group, Educational attainment, Immigrant status",7
 #8-3-1,"data.Geography, data.Age group, data.Sex",3
-#8-4-1,"data.Geography, data.Age group, data.Sex",3
+#8-4-1,"Geography, Gender, Age group",3
 #8-5-1,data.Geography,1
 #8-6-1,data.Geography,1
 #9-1-1,"Geography, Industry, Enterprise size, Innovations with environmental benefits",4

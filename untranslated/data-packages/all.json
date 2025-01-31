@@ -2561,66 +2561,66 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
                 ""
               ]
             }
           },
           {
-            "name": "data.Type of work",
+            "name": "Type of work",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Both full- and part-time employees",
-                "data.Full-time employees",
-                "data.Part-time employees",
+                "Both full- and part-time employees",
+                "Full-time employees",
+                "Part-time employees",
                 ""
               ]
             }
           },
           {
-            "name": "data.National Occupational Classification (NOC)",
+            "name": "National Occupational Classification (NOC)",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total employees, all occupations",
-                "data.Management occupations",
-                "data.Business, finance and administration occupations",
-                "data.Natural and applied sciences and related occupations",
-                "data.Health occupations",
-                "data.Occupations in education, law and social, community and government services",
-                "data.Occupations in art, culture, recreation and sport",
-                "data.Sales and service occupations",
-                "data.Trades, transport and equipment operators and related occupations",
-                "data.Natural resources, agriculture and related production occupations",
-                "data.Occupations in manufacturing and utilities",
+                "Total employees, all occupations",
+                "Management occupations",
+                "Business, finance and administration occupations",
+                "Natural and applied sciences and related occupations",
+                "Health occupations",
+                "Occupations in education, law and social, community and government services",
+                "Occupations in art, culture, recreation and sport",
+                "Sales and service occupations",
+                "Trades, transport and equipment operators and related occupations",
+                "Natural resources, agriculture and related production occupations",
+                "Occupations in manufacturing and utilities",
                 ""
               ]
             }
           },
           {
-            "name": "data.Age",
+            "name": "Age",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.15 to 24 years",
-                "data.25 to 54 years",
-                "data.55 years and over",
-                "data.15 years and over",
+                "15 to 24 years",
+                "25 to 54 years",
+                "55 years and over",
+                "15 years and over",
                 ""
               ]
             }
@@ -2726,51 +2726,51 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Nova Scotia",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
                 ""
               ]
             }
           },
           {
-            "name": "data.Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Both sexes",
-                "data.Females",
-                "data.Males",
+                "Men+",
+                "Total - Gender",
+                "Women+",
                 ""
               ]
             }
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.15 to 24 years",
-                "data.15 years and over",
-                "data.25 to 44 years",
-                "data.25 to 54 years",
-                "data.25 years and over",
-                "data.45 years and over",
-                "data.55 to 64 years",
-                "data.55 years and over",
-                "data.65 years and over",
+                "15 to 24 years",
+                "15 years and over",
+                "25 to 44 years",
+                "25 to 54 years",
+                "25 years and over",
+                "45 years and over",
+                "55 to 64 years",
+                "55 years and over",
+                "65 years and over",
                 ""
               ]
             }
@@ -3736,20 +3736,20 @@
             "type": "integer"
           },
           {
-            "name": "data.Leadership position",
+            "name": "Leadership position",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Members of national Parliament",
-                "data.Members of federal Cabinet",
-                "data.All management occupations",
-                "data.Legislative and senior management occupations",
-                "data.Specialized middle management occupations",
-                "data.Middle management occupations in retail and wholesale trade and customer services",
-                "data.Middle management occupations in trades, transportation, production and utilities",
-                "data.Federally appointed judges",
-                "data.Chiefs in First Nation communities",
-                "data.First Nations council members",
+                "Members of national Parliament",
+                "Members of federal Cabinet",
+                "All management occupations",
+                "Legislative and senior management occupations",
+                "Specialized middle management occupations",
+                "Middle management occupations in retail and wholesale trade and customer services",
+                "Middle management occupations in trades, transportation, production and utilities",
+                "Federally appointed judges",
+                "Chiefs in First Nation communities",
+                "First Nations council members",
                 ""
               ]
             }
@@ -3916,7 +3916,7 @@
                 "Northwest Territories",
                 "Nunavut",
                 "Avalon Peninsula, Newfoundland and Labrador",
-                "South Coast-Burin Peninsula and Notre Dame-Central Bonavista Bay, Newfoundland and Labrador",
+                "South Coast-Burin Peninsula and Notre Dame-Central-Bonavista Bay, Newfoundland and Labrador",
                 "West Coast-Northern Peninsula-Labrador, Newfoundland and Labrador",
                 "Cape Breton, Nova Scotia",
                 "North Shore, Nova Scotia",
@@ -3985,8 +3985,10 @@
                 "Western provinces",
                 "Prairie region",
                 "Atlantic region",
+                "Montréal, Quebec CMA",
+                "Toronto, Ontario CMA",
                 "Manitoba and Saskatchewan",
-                "Vancouver, British Columbia",
+                "Vancouver, British Columbia CMA",
                 ""
               ]
             }
@@ -4023,13 +4025,13 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Males",
-                "Females",
-                "Both sexes",
+                "Men+",
+                "Women+",
+                "Total - Gender",
                 ""
               ]
             }
@@ -4040,10 +4042,10 @@
             "constraints": {
               "enum": [
                 "Total population",
-                "Indigenous population",
+                "Indigenous peoples",
                 "First Nations",
                 "Métis",
-                "Non-Indigenous population",
+                "Non-Indigenous people",
                 ""
               ]
             }
@@ -4683,83 +4685,87 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
-                "data.Atlantic region",
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                "Atlantic region",
                 ""
               ]
             }
           },
           {
-            "name": "data.Population",
+            "name": "Population",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total population",
-                "data.Indigenous population",
-                "data.Landed immigrants",
-                "data.Immigrants, landed 5 or less years earlier",
-                "data.Immigrants, landed more than 5 to 10 years earlier",
-                "data.Immigrants, landed more than 10 years earlier",
+                "Total population",
+                "Indigenous peoples",
+                "First Nations",
+                "Métis",
+                "Non-Indigenous people",
+                "Landed immigrants",
+                "Immigrants, landed 5 or less years earlier",
+                "Immigrants, landed more than 5 to 10 years earlier",
+                "Immigrants, landed more than 10 years earlier",
+                "Born in Canada",
                 ""
               ]
             }
           },
           {
-            "name": "data.Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Both sexes",
-                "data.Males",
-                "data.Females",
+                "Total - Gender",
+                "Men+",
+                "Women+",
                 ""
               ]
             }
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.15 to 24 years",
-                "data.25 years and over",
-                "data.25 to 44 years",
-                "data.45 to 64 years",
-                "data.45 years and over",
-                "data.25 to 54 years",
-                "data.55 years and over",
-                "data.15 to 64 years",
-                "data.15 to 19 years",
-                "data.20 to 24 years",
-                "data.25 to 29 years",
-                "data.30 to 34 years",
-                "data.35 to 39 years",
-                "data.40 to 44 years",
-                "data.45 to 49 years",
-                "data.50 to 54 years",
-                "data.55 to 59 years",
-                "data.60 to 64 years",
-                "data.65 years and over",
-                "data.65 to 69 years",
-                "data.70 years and over",
-                "data.15 years and over",
+                "15 to 24 years",
+                "25 years and over",
+                "25 to 44 years",
+                "45 to 64 years",
+                "45 years and over",
+                "25 to 54 years",
+                "55 years and over",
+                "15 to 64 years",
+                "15 to 19 years",
+                "20 to 24 years",
+                "25 to 29 years",
+                "30 to 34 years",
+                "35 to 39 years",
+                "40 to 44 years",
+                "45 to 49 years",
+                "50 to 54 years",
+                "55 to 59 years",
+                "60 to 64 years",
+                "65 years and over",
+                "65 to 69 years",
+                "70 years and over",
+                "15 years and over",
                 ""
               ]
             }

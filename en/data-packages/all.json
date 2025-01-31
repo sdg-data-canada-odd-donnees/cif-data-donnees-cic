@@ -2748,7 +2748,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2769,7 +2769,7 @@
             "title": "Geography"
           },
           {
-            "name": "data.Type of work",
+            "name": "Type of work",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2782,7 +2782,7 @@
             "title": "Type of work"
           },
           {
-            "name": "data.National Occupational Classification (NOC)",
+            "name": "National Occupational Classification (NOC)",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2803,7 +2803,7 @@
             "title": "National Occupational Classification (NOC)"
           },
           {
-            "name": "data.Age",
+            "name": "Age",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2926,7 +2926,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2947,20 +2947,20 @@
             "title": "Geography"
           },
           {
-            "name": "data.Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Females",
-                "Males",
+                "Men+",
+                "Total - Gender",
+                "Women+",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Gender"
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4010,7 +4010,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Leadership position",
+            "name": "Leadership position",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4202,7 +4202,7 @@
                 "Northwest Territories",
                 "Nunavut",
                 "Avalon Peninsula, Newfoundland and Labrador",
-                "South Coast-Burin Peninsula and Notre Dame-Central Bonavista Bay, Newfoundland and Labrador",
+                "South Coast-Burin Peninsula and Notre Dame-Central-Bonavista Bay, Newfoundland and Labrador",
                 "West Coast-Northern Peninsula-Labrador, Newfoundland and Labrador",
                 "Cape Breton, Nova Scotia",
                 "North Shore, Nova Scotia",
@@ -4271,8 +4271,10 @@
                 "Western provinces",
                 "Prairie region",
                 "Atlantic region",
+                "Montréal, Quebec CMA",
+                "Toronto, Ontario CMA",
                 "Manitoba and Saskatchewan",
-                "Vancouver, British Columbia",
+                "Vancouver, British Columbia CMA",
                 ""
               ]
             },
@@ -4311,17 +4313,17 @@
             "title": "Age group"
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Males",
-                "Females",
-                "Both sexes",
+                "Men+",
+                "Women+",
+                "Total - Gender",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Gender"
           },
           {
             "name": "Indigenous group",
@@ -4329,10 +4331,10 @@
             "constraints": {
               "enum": [
                 "Total population",
-                "Indigenous population",
+                "Indigenous peoples",
                 "First Nations",
                 "Métis",
-                "Non-Indigenous population",
+                "Non-Indigenous people",
                 ""
               ]
             },
@@ -5022,7 +5024,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5047,36 +5049,40 @@
             "title": "Geography"
           },
           {
-            "name": "data.Population",
+            "name": "Population",
             "type": "string",
             "constraints": {
               "enum": [
                 "Total population",
-                "Indigenous population",
+                "Indigenous peoples",
+                "First Nations",
+                "Métis",
+                "Non-Indigenous people",
                 "Landed immigrants",
                 "Immigrants, landed 5 or less years earlier",
                 "Immigrants, landed more than 5 to 10 years earlier",
                 "Immigrants, landed more than 10 years earlier",
+                "Born in Canada",
                 ""
               ]
             },
             "title": "Population"
           },
           {
-            "name": "data.Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Males",
-                "Females",
+                "Total - Gender",
+                "Men+",
+                "Women+",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Gender"
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [

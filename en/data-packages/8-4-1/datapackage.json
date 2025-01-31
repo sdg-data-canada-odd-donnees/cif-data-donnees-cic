@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -37,20 +37,20 @@
             "title": "Geography"
           },
           {
-            "name": "data.Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Females",
-                "Males",
+                "Men+",
+                "Total - Gender",
+                "Women+",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Gender"
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [

@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -41,36 +41,40 @@
             "title": "Geography"
           },
           {
-            "name": "data.Population",
+            "name": "Population",
             "type": "string",
             "constraints": {
               "enum": [
                 "Total population",
-                "Indigenous population",
+                "Indigenous peoples",
+                "First Nations",
+                "Métis",
+                "Non-Indigenous people",
                 "Landed immigrants",
                 "Immigrants, landed 5 or less years earlier",
                 "Immigrants, landed more than 5 to 10 years earlier",
                 "Immigrants, landed more than 10 years earlier",
+                "Born in Canada",
                 ""
               ]
             },
             "title": "Population"
           },
           {
-            "name": "data.Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Males",
-                "Females",
+                "Total - Gender",
+                "Men+",
+                "Women+",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Gender"
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [

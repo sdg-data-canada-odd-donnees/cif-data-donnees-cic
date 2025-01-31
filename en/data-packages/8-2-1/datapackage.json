@@ -34,7 +34,7 @@
                 "Northwest Territories",
                 "Nunavut",
                 "Avalon Peninsula, Newfoundland and Labrador",
-                "South Coast-Burin Peninsula and Notre Dame-Central Bonavista Bay, Newfoundland and Labrador",
+                "South Coast-Burin Peninsula and Notre Dame-Central-Bonavista Bay, Newfoundland and Labrador",
                 "West Coast-Northern Peninsula-Labrador, Newfoundland and Labrador",
                 "Cape Breton, Nova Scotia",
                 "North Shore, Nova Scotia",
@@ -103,8 +103,10 @@
                 "Western provinces",
                 "Prairie region",
                 "Atlantic region",
+                "Montréal, Quebec CMA",
+                "Toronto, Ontario CMA",
                 "Manitoba and Saskatchewan",
-                "Vancouver, British Columbia",
+                "Vancouver, British Columbia CMA",
                 ""
               ]
             },
@@ -143,17 +145,17 @@
             "title": "Age group"
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Males",
-                "Females",
-                "Both sexes",
+                "Men+",
+                "Women+",
+                "Total - Gender",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Gender"
           },
           {
             "name": "Indigenous group",
@@ -161,10 +163,10 @@
             "constraints": {
               "enum": [
                 "Total population",
-                "Indigenous population",
+                "Indigenous peoples",
                 "First Nations",
                 "Métis",
-                "Non-Indigenous population",
+                "Non-Indigenous people",
                 ""
               ]
             },
