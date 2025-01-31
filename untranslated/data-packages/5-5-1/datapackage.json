@@ -15,66 +15,66 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Quebec",
-                "Ontario",
-                "Manitoba",
-                "Saskatchewan",
-                "Alberta",
-                "British Columbia",
+                "data.Canada",
+                "data.Newfoundland and Labrador",
+                "data.Prince Edward Island",
+                "data.Nova Scotia",
+                "data.New Brunswick",
+                "data.Quebec",
+                "data.Ontario",
+                "data.Manitoba",
+                "data.Saskatchewan",
+                "data.Alberta",
+                "data.British Columbia",
                 ""
               ]
             }
           },
           {
-            "name": "Type of work",
+            "name": "data.Type of work",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both full- and part-time employees",
-                "Full-time employees",
-                "Part-time employees",
+                "data.Both full- and part-time employees",
+                "data.Full-time employees",
+                "data.Part-time employees",
                 ""
               ]
             }
           },
           {
-            "name": "National Occupational Classification (NOC)",
+            "name": "data.National Occupational Classification (NOC)",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total employees, all occupations",
-                "Management occupations",
-                "Business, finance and administration occupations",
-                "Natural and applied sciences and related occupations",
-                "Health occupations",
-                "Occupations in education, law and social, community and government services",
-                "Occupations in art, culture, recreation and sport",
-                "Sales and service occupations",
-                "Trades, transport and equipment operators and related occupations",
-                "Natural resources, agriculture and related production occupations",
-                "Occupations in manufacturing and utilities",
+                "data.Total employees, all occupations",
+                "data.Management occupations",
+                "data.Business, finance and administration occupations",
+                "data.Natural and applied sciences and related occupations",
+                "data.Health occupations",
+                "data.Occupations in education, law and social, community and government services",
+                "data.Occupations in art, culture, recreation and sport",
+                "data.Sales and service occupations",
+                "data.Trades, transport and equipment operators and related occupations",
+                "data.Natural resources, agriculture and related production occupations",
+                "data.Occupations in manufacturing and utilities",
                 ""
               ]
             }
           },
           {
-            "name": "Age",
+            "name": "data.Age",
             "type": "string",
             "constraints": {
               "enum": [
-                "15 to 24 years",
-                "25 to 54 years",
-                "55 years and over",
-                "15 years and over",
+                "data.15 to 24 years",
+                "data.25 to 54 years",
+                "data.55 years and over",
+                "data.15 years and over",
                 ""
               ]
             }

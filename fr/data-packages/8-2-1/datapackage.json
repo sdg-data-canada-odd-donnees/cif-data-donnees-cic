@@ -34,7 +34,7 @@
                 "Territoires du Nord-Ouest",
                 "Nunavut",
                 "Avalon Peninsula,  Terre-Neuve-et-Labrador",
-                "South Coast-Burin Peninsula and Notre Dame-Central-Bonavista Bay, Newfoundland and Labrador",
+                "Côte-sud-Burin Peninsula et Notre Dame-Central Bonavista Bay,  Terre-Neuve-et-Labrador",
                 "Côte-ouest-Northern Peninsula-Labrador,  Terre-Neuve-et-Labrador",
                 "Cape Breton, Nouvelle-Écosse",
                 "Côte-nord, Nouvelle-Écosse",
@@ -103,10 +103,8 @@
                 "Provinces de l'Ouest",
                 "Région des Prairies",
                 "Région de l'Atlantique",
-                "Montréal, Quebec CMA",
-                "Toronto, Ontario CMA",
                 "Manitoba and Saskatchewan",
-                "Vancouver, British Columbia CMA",
+                "Vancouver, Colombie-Britannique",
                 ""
               ]
             },
@@ -145,17 +143,17 @@
             "title": "Groupe d'âge"
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes+",
-                "Femmes+",
-                "Total - Genre",
+                "Hommes",
+                "Femmes",
+                "Les deux sexes",
                 ""
               ]
             },
-            "title": "Genre"
+            "title": "Sexe"
           },
           {
             "name": "Indigenous group",
@@ -163,10 +161,10 @@
             "constraints": {
               "enum": [
                 "Population totale",
-                "Peuples autochtones",
+                "Population autochtone",
                 "Premières Nations",
                 "Métis",
-                "Non-autochtones",
+                "Population non autochtone",
                 ""
               ]
             },

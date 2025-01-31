@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "Leadership position",
+            "name": "data.Leadership position",
             "type": "string",
             "constraints": {
               "enum": [

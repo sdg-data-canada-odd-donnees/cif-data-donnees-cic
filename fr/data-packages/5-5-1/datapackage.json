@@ -16,7 +16,7 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "data.Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -37,7 +37,7 @@
             "title": "Géographie"
           },
           {
-            "name": "Type of work",
+            "name": "data.Type of work",
             "type": "string",
             "constraints": {
               "enum": [
@@ -50,7 +50,7 @@
             "title": "Genre de travail"
           },
           {
-            "name": "National Occupational Classification (NOC)",
+            "name": "data.National Occupational Classification (NOC)",
             "type": "string",
             "constraints": {
               "enum": [
@@ -71,7 +71,7 @@
             "title": "Classification nationale des professions (CNP)"
           },
           {
-            "name": "Age",
+            "name": "data.Age",
             "type": "string",
             "constraints": {
               "enum": [
