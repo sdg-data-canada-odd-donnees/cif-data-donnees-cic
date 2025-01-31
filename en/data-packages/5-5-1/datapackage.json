@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -37,7 +37,7 @@
             "title": "Geography"
           },
           {
-            "name": "data.Type of work",
+            "name": "Type of work",
             "type": "string",
             "constraints": {
               "enum": [
@@ -50,7 +50,7 @@
             "title": "Type of work"
           },
           {
-            "name": "data.National Occupational Classification (NOC)",
+            "name": "National Occupational Classification (NOC)",
             "type": "string",
             "constraints": {
               "enum": [
@@ -71,7 +71,7 @@
             "title": "National Occupational Classification (NOC)"
           },
           {
-            "name": "data.Age",
+            "name": "Age",
             "type": "string",
             "constraints": {
               "enum": [

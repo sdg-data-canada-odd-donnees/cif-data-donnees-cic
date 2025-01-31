@@ -2748,7 +2748,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2769,7 +2769,7 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Type of work",
+            "name": "Type of work",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2782,7 +2782,7 @@
             "title": "Genre de travail"
           },
           {
-            "name": "data.National Occupational Classification (NOC)",
+            "name": "National Occupational Classification (NOC)",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2803,7 +2803,7 @@
             "title": "Classification nationale des professions (CNP)"
           },
           {
-            "name": "data.Age",
+            "name": "Age",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2926,7 +2926,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2947,20 +2947,20 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Femmes",
-                "Hommes",
+                "Hommes+",
+                "Total - Genre",
+                "Femmes+",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Genre"
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4010,7 +4010,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Leadership position",
+            "name": "Leadership position",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4202,7 +4202,7 @@
                 "Territoires du Nord-Ouest",
                 "Nunavut",
                 "Avalon Peninsula,  Terre-Neuve-et-Labrador",
-                "Côte-sud-Burin Peninsula et Notre Dame-Central Bonavista Bay,  Terre-Neuve-et-Labrador",
+                "South Coast-Burin Peninsula and Notre Dame-Central-Bonavista Bay, Newfoundland and Labrador",
                 "Côte-ouest-Northern Peninsula-Labrador,  Terre-Neuve-et-Labrador",
                 "Cape Breton, Nouvelle-Écosse",
                 "Côte-nord, Nouvelle-Écosse",
@@ -4271,8 +4271,10 @@
                 "Provinces de l'Ouest",
                 "Région des Prairies",
                 "Région de l'Atlantique",
+                "Montréal, Quebec CMA",
+                "Toronto, Ontario CMA",
                 "Manitoba and Saskatchewan",
-                "Vancouver, Colombie-Britannique",
+                "Vancouver, British Columbia CMA",
                 ""
               ]
             },
@@ -4311,17 +4313,17 @@
             "title": "Groupe d'âge"
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes",
-                "Femmes",
-                "Les deux sexes",
+                "Hommes+",
+                "Femmes+",
+                "Total - Genre",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Genre"
           },
           {
             "name": "Indigenous group",
@@ -4329,10 +4331,10 @@
             "constraints": {
               "enum": [
                 "Population totale",
-                "Population autochtone",
+                "Peuples autochtones",
                 "Premières Nations",
                 "Métis",
-                "Population non autochtone",
+                "Non-autochtones",
                 ""
               ]
             },
