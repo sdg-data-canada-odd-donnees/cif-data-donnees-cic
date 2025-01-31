@@ -1,6 +1,12 @@
 ## Global
 Year: Year
 Value: Value
+Total: Total
+Total population: Total population
+
+## Units
+Percentage: Percentage
+Number: Number
 
 ## Sex/Gender
 Sex: Sex
@@ -16,6 +22,7 @@ Women+: Women+
 Both: Both
 Both sexes: Both sexes
 Total, all persons: Total, all persons
+Total - Gender: Total - Gender
 #Non-binary: Non-binary
 
 ## Geo
@@ -88,6 +95,16 @@ Oceania: Oceania
 # Cities and Census metropolitan areas
 Total Census metropolitan area: Total Census metropolitan area
 Total Non-Census metropolitan area: Total Non-Census metropolitan area
+Large urban population centres: Large urban population centres
+Large population centres: Large population centres
+Medium population centres: Medium population centres
+Small population centres: Small population centres
+Urban centres: Urban centres
+Rural communities: Rural communities
+Rural areas: Rural areas
+Census metropolitan areas: Census metropolitan areas
+Census agglomerations: Census agglomerations
+Outside census metropolitan areas and census agglomerations: Outside census metropolitan areas and census agglomerations
 St. John's, Newfoundland and Labrador: St. John's, Newfoundland and Labrador
 Halifax, Nova Scotia: Halifax, Nova Scotia
 Fredericton, New Brunswick: Fredericton, New Brunswick
@@ -239,6 +256,61 @@ Under 1 year: Under 1 years
 80 to 84 years: 80 to 84 years
 85 to 89 years: 85 to 89 years
 Age, not stated: Age, not stated
+
+## Indigenous groups
+Indigenous group: Indigenous group
+Indigenous status: Indigenous status
+Indigenous peoples: Indigenous peoples
+Non-Indigenous people: Non-Indigenous people
+Indigenous identity: Indigenous identity
+Non-Indigenous identity: Non-Indigenous identity
+Indigenous person: Indigenous person
+Non-Indigenous person: Non-Indigenous person
+Indigenous population: Indigenous population
+Non-Indigenous population: Non-Indigenous population
+Indigenous: Indigenous
+First Nations: First Nations
+First Nations (North American Indian): First Nations (North American Indian)
+Métis: Métis
+Inuk (Inuit): Inuk (Inuit)
+First Nations, Métis, or Inuit: First Nations, Métis, or Inuit
+
+## Immigrant status
+Immigrant status: Immigrant status
+Landed immigrants: Landed immigrants
+Born in Canada: Born in Canada
+Immigrants, landed 5 or less years earlier: Immigrants, landed 5 or less years earlier
+Immigrants, landed more than 5 to 10 years earlier: Immigrants, landed more than 5 to 10 years earlier
+Immigrants, landed more than 10 years earlier: Immigrants, landed more than 10 years earlier
+Immigrants: Immigrants
+Immigrant: Immigrant
+Non immigrants: Non immigrants
+Non-immigrants: Non-immigrants
+Non-immigrant: Non-immigrant
+Non-permanent residents: Non-permanent residents
+
+## Visible minorities
+Total visible minority population: Total visible minority population
+Not a visible minority: Not a visible minority
+Other visible minority: Other visible minority
+Visible minority: Visible minority
+Non-visible minority: Non-visible minority
+Arab: Arab
+Black: Black
+Chinese: Chinese
+Filipino: Filipino
+Japanese: Japanese
+Korean: Korean
+Latin American: Latin American
+South Asian: South Asian
+Southeast Asian: Southeast Asian
+West Asian: West Asian
+Group not indicated elsewhere: Group not indicated elsewhere
+Visible minority population: Visible minority population
+Visible minority n.i.e: Visible minority n.i.e
+Multiple visible minorities: Multiple visible minorities
+Other group designated as visible minority: Other group designated as visible minority
+
 
 ## 1-1-1
 Persons in low income: Persons in low income
@@ -410,7 +482,6 @@ Persons 25 to 34 years: Persons 25 to 34 years
 Persons 35 to 44 years: Persons 35 to 44 years
 Persons 45 to 54 years: Persons 45 to 54 years
 Persons 55 to 64 years: Persons 55 to 64 years
-Other visible minority: Other visible minority
 Not a visible minority nor Indigenous: Not a visible minority nor Indigenous
 All persons aged 15 years and over: All persons aged 15 years and over
 Indigenous population aged 15 years and over: Indigenous population aged 15 years and over
@@ -455,9 +526,6 @@ With nicotine: With nicotine
 Without nicotine: Without nicotine
 Secondary I-III: Secondary I-III
 Secondary IV-V: Secondary IV-V
-Indigenous status: Indigenous status
-Indigenous identity: Indigenous identity
-Non-Indigenous identity: Non-Indigenous identity
 Sex at birth: Sex at birth
 Immigration status: Immigration status
 Less than high school diploma or its equivalent: Less than high school diploma or its equivalent
@@ -553,7 +621,6 @@ Chronic lower respiratory diseases [J40-J47]: Chronic lower respiratory diseases
 Chronic liver disease and cirrhosis [K70, K73-K74]: Chronic liver disease and cirrhosis
 Accidents (unintentional injuries) [V01-X59, Y85-Y86]: Accidents (unintentional injuries)
 Intentional self-harm (suicide) [X60-X84, Y87.0]: Intentional self-harm (suicide)
-Indigenous: Indigenous
 
 ## 3-13-1
 Rate per 100,000 population: Rate per 100,000 population
@@ -566,19 +633,8 @@ Apparent stimulant toxicity deaths: Apparent stimulant toxicity deaths
 Accidental apparent opioid toxicity deaths: Accidental apparent opioid toxicity deaths
 
 ## 4-1-1
-Total: Total
 Total, persons aged 15 years and over: Total, persons aged 15 years and over
 Selected demographic characteristics: Selected demographic characteristics
-Non immigrants: Non immigrants
-Immigrants: Immigrants
-Non-permanent residents: Non-permanent residents
-Total visible minority population: Total visible minority population
-Not a visible minority: Not a visible minority
-Indigenous identity: Indigenous identity
-First Nations (North American Indian): First Nations (North American Indian)
-Métis: Métis
-Inuk (Inuit): Inuk (Inuit)
-Non-Indigenous identity: Non-Indigenous identity
 
 ## 4-2-1
 Educational attainment level: Educational attainment level
@@ -589,7 +645,6 @@ Master's or Doctoral level: Master's or Doctoral level
 Total, 25 to 64 years: Total, 25 to 64 years
 Off-reserve Indigenous population: Off-reserve Indigenous population
 Population characteristics: Population characteristics
-Total population: Total population
 University: University
 
 ## 5-1-1
@@ -615,24 +670,8 @@ Age 45 to 54: Age 45 to 54
 Age 55 to 64: Age 55 to 64
 Age 65 to 74: Age 65 to 74
 Age 75 and older: Age 75 and older
-Indigenous person: Indigenous person
-Non-Indigenous person: Non-Indigenous person
 LGBTQ2 person: LGBTQ2 person
 Non-LGBTQ2 person: Non-LGBTQ2 person
-Visible minority: Visible minority
-Arab: Arab
-Black: Black
-Chinese: Chinese
-Filipino: Filipino
-Japanese: Japanese
-Korean: Korean
-Latin American: Latin American
-South Asian: South Asian
-Southeast Asian: Southeast Asian
-West Asian: West Asian
-Group not indicated elsewhere: Group not indicated elsewhere
-Immigrant: Immigrant
-Non-immigrant: Non-immigrant
 Person with disability: Person with disability
 Person without disability: Person without disability
 Highest degree earned: Highest degree earned
@@ -763,14 +802,12 @@ Wholesale trade: Wholesale trade
 ## 6-4-1
 Land use category: Land use category
 Water quality: Water quality
-Percentage: Percentage
 Number of sites: Number of sites
 Atlantic Ocean: Atlantic Ocean
 Great Lakes and St. Lawrence River: Great Lakes and St. Lawrence River
 Hudson Bay: Hudson Bay
 Mackenzie River: Mackenzie River
 Pacific Ocean: Pacific Ocean
-Total: Total
 Agriculture: Agriculture
 Forestry: Forestry
 Mining: Mining
@@ -792,8 +829,7 @@ Solar: Solar
 Other types of electricity generation: Other types of electricity generation
 Total hydro, tidal, wind, solar and other generation: Total hydro, tidal, wind, solar and other generation
 Total renewable and non-greenhouse gas emitting sources: Total renewable and non-greenhouse gas emitting sources
-Nuclear steam turbine: |
-    Nuclear steam turbine
+Nuclear steam turbine: Nuclear steam turbine
 Total electricity production from biomass: Total electricity production from biomass
 
 ## 7-3-1
@@ -824,12 +860,6 @@ Agriculture, fishing, hunting and trapping: Agriculture, fishing, hunting and tr
 
 # 8-1-1
 Population: Population
-Total population: Total population
-Indigenous population: Indigenous population
-Landed immigrants: Landed immigrants
-Immigrants, landed 5 or less years earlier: Immigrants, landed 5 or less years earlier
-Immigrants, landed more than 5 to 10 years earlier: Immigrants, landed more than 5 to 10 years earlier
-Immigrants, landed more than 10 years earlier: Immigrants, landed more than 10 years earlier
 
 ## 8-2-1
 Employment rate: Employment rate
@@ -894,32 +924,14 @@ Total population, with and without disabilities: Total population, with and with
 Persons with disabilities: Persons with disabilities
 Persons without disabilities: Persons without disabilities
 Disability: Disability
-Non-Indigenous population: Non-Indigenous population
 Total, all education levels: Total, all education levels
 Less than high school: Less than high school
 High school graduate or some post-secondary: High school graduate or some post-secondary
 Completed post-secondary education: Completed post-secondary education
 Educational attainment: Educational attainment
-Indigenous group: Indigenous group
-First Nations: First Nations
 Eastern and central provinces: Eastern and central provinces
 Western provinces: Western provinces
 Prairie region: Prairie region
-Visible minority population: Visible minority population
-South Asian: South Asian
-Chinese: Chinese
-Black: Black
-Filipino: Filipino
-Arab: Arab
-Latin American: Latin American
-Southeast Asian: Southeast Asian
-West Asian: West Asian
-Korean: Korean
-Japanese: Japanese
-Visible minority n.i.e: Visible minority n.i.e
-Multiple visible minorities: Multiple visible minorities
-Born in Canada: Born in Canada
-Immigrant status: Immigrant status
 
 ## 8-3-1
 ## nothing new
@@ -974,13 +986,6 @@ Population centres: Population centres
 First Nations reserves: First Nations reserves
 First Nations reserves Urban centres: First Nations reserves Urban centres
 First Nations reserves Rural areas: First Nations reserves Rural areas
-All regions: All regions
-Large population centres: Large population centres
-Medium population centres: Medium population centres
-Small population centres: Small population centres
-Rural areas: Rural areas
-Urban centres: Urban centres
-Rural communities: Rural communities
 Major roads and highways: Major roads and highways
 Total population centre: Total population centre 
 
@@ -1075,11 +1080,6 @@ Offence: Offence
 Hate crime: Hate crime
 Total police-reported hate crime: Total police-reported hate crime
 
-15 years and over: 15 years and over
-15 to 24 years: 15 to 24 years
-25 to 54 years: 25 to 54 years
-55 years and over: 55 years and over
-
 ## 11-1-1
 Estimates: Estimates
 Growth since 2016: Growth since 2016
@@ -1089,13 +1089,6 @@ Percent change since 2016: Percent change since 2016
 
 ## 11-2-1
 Type of region: Type of region
-Large urban population centres: Large urban population centres
-Medium population centres: Medium population centres
-Small population centres: Small population centres
-Rural areas: Rural areas
-Census metropolitan areas: Census metropolitan areas
-Census agglomerations: Census agglomerations
-Outside census metropolitan areas and census agglomerations: Outside census metropolitan areas and census agglomerations
 Other census metropolitan areas, New Brunswick: Other census metropolitan areas, New Brunswick
 Other census metropolitan areas, Quebec: Other census metropolitan areas, Quebec
 Other census metropolitan areas, Ontario: Other census metropolitan areas, Ontario
@@ -1128,8 +1121,6 @@ Geographic location: Geographic location
 
 Tenure: Tenure
 Selected census metropolitan areas: Selected census metropolitan areas
-Provinces and territories: Provinces and territories
-Census metropolitan areas: Census metropolitan areas
 Total, tenure: Total, tenure
 Owner: Owner
 Owner who is a first-time homebuyer: Owner who is a first-time homebuyer
@@ -1147,7 +1138,6 @@ Type of commute: Main mode of commuting
 Sustainable transportation: Sustainable transportation
 Public transit: Public transit
 Active transportation: Active transportation
-Total - Gender: Total - Gender
 
 ## 11-6-1
 Sources of waste for disposal: Sources of waste for disposal
@@ -1191,7 +1181,6 @@ Transportation equipment manufacturing: Transportation equipment manufacturing
 Wood product manufacturing: Wood product manufacturing
 
 ## 12-3-1
-Territories: Territories
 Type of materials diverted: Type of materials diverted
 All materials diverted: All materials diverted
 All paper fibres: All paper fibres
@@ -1249,8 +1238,6 @@ Waste: Waste
 Agriculture: Agriculture
 
 # 13-3-1
-Number: Number
-Percentage: Percentage
 Core public infrastructure assets: Core public infrastructure assets
 Bridges and tunnels: Bridges and tunnels
 Culture, recreation and sports facilities: Culture, recreation and sports facilities
@@ -1368,17 +1355,7 @@ By system: By system
 System: System
 
 ## 16-1-1
-Visible minority: Visible minority
 Sociodemographic characteristics: Sociodemographic characteristics
-South Asian: South Asian
-Chinese: Chinese
-Black: Black
-Filipino: Filipino
-Arab: Arab
-Latin American: Latin American
-Southeast Asian: Southeast Asian
-Non-immigrants: Non-immigrants
-Immigrants: Immigrants
 
 ## 16-2-1
 Violations: Violations
@@ -1429,11 +1406,6 @@ Total, age of accused: Total, age of accused
 16 and 17 years: 16 and 17 years
 Other ages: Other ages
 Age not applicable: Age not applicable
-18 to 24 years: 18 to 24 years
-25 to 34 years: 25 to 34 years
-35 to 44 years: 35 to 44 years
-45 to 54 years: 45 to 54 years
-55 years and over: 55 years and over
 Sex of accused: Sex of accused
 Total, sex of accused: Total, sex of accused
 Company: Company
@@ -1446,22 +1418,12 @@ Youth courts: Youth courts
 Institutions: Institutions
 Police: Police
 Characteristics: Characteristics
-Total population: Total population
-Male: Male
-Female: Female
-Indigenous person: Indigenous person
-Non-Indigenous person: Non-Indigenous person
-Visible minority: Visible minority
-Non-visible minority: Non-visible minority
 Level of confidence: Level of confidence
 A great deal of confidence: A great deal of confidence
 Some confidence: Some confidence
 Not very much or no confidence: Not very much or no confidence
 Confident: Confident
 Not confident: Not confident
-Black: Black
-First Nations, Métis, or Inuit: First Nations, Métis, or Inuit
-Other group designated as visible minority: Other group designated as visible minority
 Non-Indigenous, non-visible minority: Non-Indigenous, non-visible minority
 Justice system and courts: Justice system and courts
 School system: School system

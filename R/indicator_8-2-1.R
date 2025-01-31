@@ -1,4 +1,4 @@
-#CIF 8.2.1
+# CIF 8.2.1
 
 library(dplyr)
 library(cansim)
@@ -6,16 +6,11 @@ library(stringr)
 library(tidyr)
 
 age <- get_cansim("14-10-0327-01", factors = FALSE)
-
 # disability <- get_cansim("13-10-0377-01", factors = FALSE)
-
 indigenous <- get_cansim("14-10-0359-01", factors = FALSE)
-
 visible_minority <- get_cansim("14-10-0440-01", factors = FALSE)
-
-immigrant <- get_cansim("14-10-0083-01", factors = FALSE)
-
-labour <- get_cansim("14-10-0393-01", factors = FALSE)
+immigrant <- get_cansim("14-10-0472-01", factors = FALSE)
+labour <- get_cansim("14-10-0464-01", factors = FALSE)
 
 geocodes <- read.csv("geocodes.csv")
 
@@ -70,14 +65,14 @@ labour_combined <-
 age_filtered <-
   age %>%
   filter(
-    !(Sex == "Both sexes" & `Age group` == "15 years and over"),
+    !(Gender == "Total - Gender" & `Age group` == "15 years and over"),
     REF_DATE >= 2015,
     `Labour force characteristics` == "Employment rate"
   ) %>%
   select(
     Year = REF_DATE,
     Geography = GEO,
-    Sex,
+    Gender,
     `Age group`,
     Value = VALUE
   )
@@ -204,7 +199,7 @@ visible_minority_filtered <-
     Year = REF_DATE,
     Geography = GEO,
     `Visible minority` = `Population group`,
-    Sex,
+    Gender,
     `Age group` = Age,
     Value = VALUE
   )
@@ -234,12 +229,14 @@ immigrant_filtered <-
   filter(
     !`Immigrant status` == "Total population",
     REF_DATE >= 2015,
-    `Labour force characteristics` == "Employment rate"
+    `Labour force characteristics` == "Employment rate",
+    `Country of birth` == "Total - Country of birth",
   ) %>%
   select(
     Year = REF_DATE,
     Geography = GEO,
     `Immigrant status`,
+    Gender,
     `Age group`,
     Value = VALUE
   )
@@ -285,7 +282,7 @@ data_final <-
     Year,
     Geography,
     `Age group`,
-    Sex,
+    Gender,
     `Indigenous group`,
     `Educational attainment`,
     `Visible minority`,

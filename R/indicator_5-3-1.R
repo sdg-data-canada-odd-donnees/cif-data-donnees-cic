@@ -41,7 +41,7 @@ repr_in_gov <-
 
 selected_occupations <- c(
   "Management occupations [00, 10, 20, 30, 40, 50, 60, 70, 80, 90]",
-  "Legislative and senior management occupations [00]",
+  "Legislative and senior management occupations [0]",
   "Specialized middle management occupations [10, 20, 30, 40, 50]",
   "Middle management occupations in retail and wholesale trade and customer services [60]",
   "Middle management occupations in trades, transportation, production and utilities [70, 80, 90]"
@@ -108,9 +108,7 @@ repr_in_chiefs <-
 # Combine data ------------------------------------------------------------
 
 data_final <-
-  bind_rows(repr_in_gov, repr_in_mgmt, repr_in_judges, repr_in_chiefs) %>% 
-  mutate_at(2, ~ paste0("data.", .x)) %>% 
-  rename_at(2, ~ paste0("data.", .x))
+  bind_rows(repr_in_gov, repr_in_mgmt, repr_in_judges, repr_in_chiefs)
 
 
 write.csv(
