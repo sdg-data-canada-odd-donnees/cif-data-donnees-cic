@@ -15,6 +15,19 @@ Raw_data4 <- get_cansim("14-10-0464-01", factors = FALSE)
 # load geocode
 geocodes <- read.csv("geocodes.csv")
 
+provinces_and_canada <- c(
+  "Canada",
+  "Newfoundland and Labrador",
+  "Prince Edward Island",
+  "New Brunswick",
+  "Nova Scotia",
+  "Quebec",
+  "Ontario",
+  "Manitoba",
+  "Saskatchewan",
+  "Alberta",
+  "British Columbia"
+)
 
 # Total population
 # for the provinces, disaggregated by gender and age group
@@ -61,12 +74,9 @@ Indigenous <-
   Raw_data2 %>% 
   filter(
     REF_DATE >= 2015,
-    `Indigenous group` %in% c(
-      "Non-Indigenous people",
-      "Indigenous peoples",
-      "First Nations",
-      "Métis"
-    ),
+    # Filter out total population for provinces and Canada because we already have it...
+    # but keep total population for Atlantic region
+    !(GEO %in% provinces_and_canada & `Indigenous group` == "Total population"),
     `Labour force characteristics` == "Unemployment rate",
   ) %>% 
   select(
@@ -98,6 +108,7 @@ Immigrant <-
       "Alberta",
       "British Columbia"
     ),
+    # Filter out total population because we already have it for all geographies
     `Immigrant status` %in% c(
       "Born in Canada",
       "Landed immigrants",
@@ -105,16 +116,17 @@ Immigrant <-
       "Immigrants, landed more than 5 to 10 years earlier",
       "Immigrants, landed more than 10 years earlier"
     ),
-    `Labour force characteristics` == "Unemployment rate"
+    `Labour force characteristics` == "Unemployment rate",
+    `Country of birth` == "Total - Country of birth",
   ) %>%
   select(
     Year = REF_DATE,
     Geography = GEO,
+    Gender,
     Population = `Immigrant status`,
     `Age group`,
     Value = VALUE
-  ) %>%
-  mutate(Gender = "Total - Gender")
+  )
 
 
 # Add everything together in one dataframe
