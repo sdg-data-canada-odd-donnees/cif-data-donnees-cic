@@ -70,8 +70,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Autochtone",
-                "Première Nation (Indien de l'Amérique du Nord)",
+                "Personne autochtone",
+                "Premières Nations (Indien de l'Amérique du Nord)",
                 "Métis",
                 "Inuk (Inuit)",
                 "Personne non autochtone",
@@ -87,7 +87,7 @@
               "enum": [
                 "Population des minorités visibles",
                 "Arabe",
-                "Noirs",
+                "Noir",
                 "Chinois",
                 "Philippin",
                 "Latino-Américain",
