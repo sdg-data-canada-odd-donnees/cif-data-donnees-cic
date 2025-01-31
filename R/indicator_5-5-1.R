@@ -35,7 +35,7 @@ wage_ratio <-
     REF_DATE >= 2015,
     Wages == "Median hourly gender wage ratio",
     `National Occupational Classification (NOC)` %in% selected_occupations,
-    Sex == "Females"
+    Gender == "Women+"
   ) %>%
   select(
     Year = REF_DATE,
@@ -71,8 +71,7 @@ total <-
   mutate_at(2:(ncol(.) - 2), ~ "")
 
 
-non_total <-
-  wage_ratio %>%
+non_total <- wage_ratio %>%
   filter(
     !(
       Geography == "Canada" &
@@ -80,14 +79,11 @@ non_total <-
         `National Occupational Classification (NOC)` == "Total employees, all occupations" &
         Age == "15 years and over"
     )
-  ) %>%
-  mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+  )
 
 
 # Format the final table
-final_data <-
-  bind_rows(total, non_total) %>%
-  rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+final_data <- bind_rows(total, non_total)
 
 
 write.csv(
