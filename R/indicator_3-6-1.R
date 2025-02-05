@@ -5,7 +5,7 @@ library(dplyr)
 library(cansim)
 
 # load CODR table from stc api
-Raw_data <- get_cansim("13-10-0096-01", factors = FALSE)
+Raw_data <- get_cansim("13-10-0905-01", factors = FALSE)
 
 # load geocode
 geocodes <- read.csv("geocodes.csv")
@@ -29,7 +29,7 @@ life_satisfied <-
 total <-
   life_satisfied %>%
   filter(Geography == "Canada",
-         `Age group` == "Total, 12 years and over",
+         `Age group` == "Total, 18 years and over",
          Sex == "Both sexes") %>%
   mutate_at(2:(ncol(.) - 2), ~ "")
 
@@ -37,14 +37,12 @@ non_agg_line <-
   life_satisfied %>%
   filter(!(
     Geography == "Canada" &
-      `Age group` == "Total, 12 years and over" &
+      `Age group` == "Total, 18 years and over" &
       Sex == "Both sexes"
-  )) %>%
-  mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+  )) 
 
 final_data <-
-  bind_rows(total, non_agg_line) %>%
-  rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+  bind_rows(total, non_agg_line)
 
 write.csv(final_data,
           "data/indicator_3-6-1.csv",
