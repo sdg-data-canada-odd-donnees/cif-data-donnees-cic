@@ -5,7 +5,7 @@ library(dplyr)
 library(cansim)
 
 # load CODR table from stc api
-Raw_data <- get_cansim("13-10-0096-01", factors = FALSE)
+Raw_data <- get_cansim("13-10-0905-01", factors = FALSE)
 
 
 # load geocode
@@ -29,7 +29,7 @@ overall_health <-
 total <-
   overall_health %>%
   filter(Geography == "Canada",
-         `Age group` == "Total, 12 years and over",
+         `Age group` == "Total, 18 years and over",
          Sex == "Both sexes") %>%
   mutate_at(2:(ncol(.) - 2), ~ "")
 
@@ -38,7 +38,7 @@ non_total <-
   overall_health %>%
   filter(!(
     Geography == "Canada" &
-      `Age group` == "Total, 12 years and over" &
+      `Age group` == "Total, 18 years and over" &
       Sex == "Both sexes"
   ))
 
