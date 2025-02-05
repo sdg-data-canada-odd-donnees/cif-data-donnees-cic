@@ -1,23 +1,30 @@
 Year,Maladies,Value
-2010,Cancer,538.3
-2011,Cancer,542.2
-2012,Cancer,530.4
-2013,Cancer,524.4
-2014,Cancer,519.1
-2015,Cancer,517.1
-2016,Cancer,514.4
-2017,Cancer,495.9
+2010,Cancer,620.6
+2011,Cancer,623.5
+2012,Cancer,606.9
+2013,Cancer,599.2
+2014,Cancer,593.8
+2015,Cancer,590.5
+2016,Cancer,590.3
+2017,Cancer,589.5
+2018,Cancer,587.6
+2019,Cancer,582.2
+2020,Cancer,528.6
+2021,Cancer,574.8
+2022,Cancer,563.1
 2010,Maladie pulmonaire obstructive chronique,977.0
-2011,Maladie pulmonaire obstructive chronique,917.0
+2011,Maladie pulmonaire obstructive chronique,918.0
 2012,Maladie pulmonaire obstructive chronique,882.0
 2013,Maladie pulmonaire obstructive chronique,845.0
 2014,Maladie pulmonaire obstructive chronique,858.0
 2015,Maladie pulmonaire obstructive chronique,825.0
 2016,Maladie pulmonaire obstructive chronique,823.0
-2017,Maladie pulmonaire obstructive chronique,800.0
+2017,Maladie pulmonaire obstructive chronique,801.0
 2018,Maladie pulmonaire obstructive chronique,738.0
-2019,Maladie pulmonaire obstructive chronique,710.0
-2020,Maladie pulmonaire obstructive chronique,472.0
+2019,Maladie pulmonaire obstructive chronique,711.0
+2020,Maladie pulmonaire obstructive chronique,471.0
+2021,Maladie pulmonaire obstructive chronique,500.0
+2022,Maladie pulmonaire obstructive chronique,554.0
 2010,Creutzfeldt-Jakob,0.11
 2011,Creutzfeldt-Jakob,0.15
 2012,Creutzfeldt-Jakob,0.18
@@ -38,33 +45,37 @@ Year,Maladies,Value
 2014,"Démence, y compris la maladie d'Alzheimer",1482.0
 2015,"Démence, y compris la maladie d'Alzheimer",1463.0
 2016,"Démence, y compris la maladie d'Alzheimer",1440.0
-2017,"Démence, y compris la maladie d'Alzheimer",1419.0
-2018,"Démence, y compris la maladie d'Alzheimer",1419.0
-2019,"Démence, y compris la maladie d'Alzheimer",1407.0
-2020,"Démence, y compris la maladie d'Alzheimer",1300.0
-2010,Diabète,692.0
-2011,Diabète,668.0
+2017,"Démence, y compris la maladie d'Alzheimer",1418.0
+2018,"Démence, y compris la maladie d'Alzheimer",1420.0
+2019,"Démence, y compris la maladie d'Alzheimer",1408.0
+2020,"Démence, y compris la maladie d'Alzheimer",1307.0
+2021,"Démence, y compris la maladie d'Alzheimer",1392.0
+2022,"Démence, y compris la maladie d'Alzheimer",1411.0
+2010,Diabète,691.0
+2011,Diabète,667.0
 2012,Diabète,623.0
-2013,Diabète,633.0
-2014,Diabète,621.0
+2013,Diabète,632.0
+2014,Diabète,620.0
 2015,Diabète,619.0
-2016,Diabète,623.0
+2016,Diabète,622.0
 2017,Diabète,603.0
 2018,Diabète,608.0
 2019,Diabète,619.0
-2020,Diabète,574.0
-2010,VIH et SIDA,6.31
-2011,VIH et SIDA,6.17
-2012,VIH et SIDA,5.5
-2013,VIH et SIDA,5.49
-2014,VIH et SIDA,5.36
-2015,VIH et SIDA,5.42
-2016,VIH et SIDA,5.95
-2017,VIH et SIDA,5.85
-2018,VIH et SIDA,6.16
-2019,VIH et SIDA,5.52
-2020,VIH et SIDA,4.3
-2021,VIH et SIDA,3.85
+2020,Diabète,571.0
+2021,Diabète,660.0
+2022,Diabète,686.0
+2012,VIH et SIDA,5.2
+2013,VIH et SIDA,5.2
+2014,VIH et SIDA,5.0
+2015,VIH et SIDA,4.9
+2016,VIH et SIDA,5.2
+2017,VIH et SIDA,5.0
+2018,VIH et SIDA,5.0
+2019,VIH et SIDA,4.7
+2020,VIH et SIDA,3.5
+2021,VIH et SIDA,3.8
+2022,VIH et SIDA,4.7
+2023,VIH et SIDA,6.1
 2010,Hypertension,2526.0
 2011,Hypertension,2400.0
 2012,Hypertension,2236.0
@@ -73,9 +84,11 @@ Year,Maladies,Value
 2015,Hypertension,2049.0
 2016,Hypertension,1988.0
 2017,Hypertension,1944.0
-2018,Hypertension,1979.0
-2019,Hypertension,1947.0
-2020,Hypertension,1660.0
+2018,Hypertension,1980.0
+2019,Hypertension,1948.0
+2020,Hypertension,1657.0
+2021,Hypertension,1767.0
+2022,Hypertension,2062.0
 2010,Cardiopathies ischémiques,737.0
 2011,Cardiopathies ischémiques,710.0
 2012,Cardiopathies ischémiques,680.0
@@ -86,7 +99,9 @@ Year,Maladies,Value
 2017,Cardiopathies ischémiques,611.0
 2018,Cardiopathies ischémiques,590.0
 2019,Cardiopathies ischémiques,589.0
-2020,Cardiopathies ischémiques,547.0
+2020,Cardiopathies ischémiques,546.0
+2021,Cardiopathies ischémiques,569.0
+2022,Cardiopathies ischémiques,553.0
 2010,Salmonellose,20.63
 2011,Salmonellose,19.28
 2012,Salmonellose,19.67
@@ -96,9 +111,10 @@ Year,Maladies,Value
 2016,Salmonellose,21.38
 2017,Salmonellose,19.54
 2018,Salmonellose,19.27
-2019,Salmonellose,15.98
+2019,Salmonellose,15.97
 2020,Salmonellose,12.04
-2021,Salmonellose,8.68
+2021,Salmonellose,8.69
+2022,Salmonellose,11.62
 2010,Tuberculose,4.66
 2011,Tuberculose,4.72
 2012,Tuberculose,4.9
@@ -109,5 +125,6 @@ Year,Maladies,Value
 2017,Tuberculose,5.01
 2018,Tuberculose,4.85
 2019,Tuberculose,5.11
-2020,Tuberculose,4.66
-2021,Tuberculose,4.98
+2020,Tuberculose,4.65
+2021,Tuberculose,4.94
+2022,Tuberculose,5.06

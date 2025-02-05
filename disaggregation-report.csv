@@ -9,7 +9,6 @@ data.Age of accused,1,10
 data.Asset,1,13
 data.Characteristics,1,11
 data.Core public infrastructure assets,1,4
-data.Disease,1,10
 data.Economic family type,1,20
 data.Educational attainment level,1,5
 data.Elapsed time,1,6
@@ -30,7 +29,6 @@ data.Sex,5,9
 data.Sources of waste for disposal,1,3
 data.Species group,1,52
 data.Statistics,1,3
-data.Trend,1,2
 data.Type of case,1,3
 data.Type of commute,1,3
 data.Type of electricity generation,1,7
@@ -40,6 +38,7 @@ data.Violations,1,14
 data.Water quality,1,6
 Demographic characteristics,1,38
 Disability,1,2
+Disease,1,10
 Economic family type,1,20
 Education level of parent or legal guardian,1,7
 Education level of parent's or legal guardian's spouse,1,7
@@ -91,6 +90,7 @@ Stock group,1,8
 System,1,3
 Target population,1,5
 Tenure,1,7
+Trend,1,2
 Type of beverage,1,5
 Type of charging or fuelling stations,1,8
 Type of household,1,2

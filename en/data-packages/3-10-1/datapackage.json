@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Disease",
+            "name": "Disease",
             "type": "string",
             "constraints": {
               "enum": [

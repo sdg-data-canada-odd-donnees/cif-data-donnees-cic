@@ -15,12 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "data.Trend",
+            "name": "Trend",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Mixed evidence",
-                "data.Do not show progress",
+                "Mixed evidence",
+                "Do not show progress",
                 ""
               ]
             }
