@@ -6,7 +6,7 @@ library(cansim)
 
 
 # load CODR table from stc api
-Raw_data <- get_cansim("13-10-0096-01", factors = FALSE)
+Raw_data <- get_cansim("13-10-0905-01", factors = FALSE)
 
 
 # load geocode
@@ -47,15 +47,13 @@ non_total_line <-
   smoking %>%
   filter(!(
     Geography == "Canada" &
-    `Age group` == "Total, 18 years and over" &
-    Sex == "Both sexes"
-  )) %>%
-  mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+      `Age group` == "Total, 18 years and over" &
+      Sex == "Both sexes"
+  ))
 
 
 final_data <-
-  bind_rows(total, non_total_line) %>% 
-  rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+  bind_rows(total, non_total_line)
 
 
 write.csv(final_data,
