@@ -41,8 +41,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, 12 ans et plus",
-                "12 à 17 ans",
+                "Total, 18 ans et plus",
                 "18 à 34 ans",
                 "35 à 49 ans",
                 "50 à 64 ans",
