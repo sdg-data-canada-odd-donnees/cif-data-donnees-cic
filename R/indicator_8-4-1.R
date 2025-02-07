@@ -31,7 +31,7 @@ involuntary_work <-
     Year = REF_DATE,
     Geography = GEO,
     `Reason for part-time work`,
-    Sex,
+    Gender,
     `Age group`,
     Value = VALUE
   ) %>%
@@ -42,14 +42,14 @@ involuntary_work <-
       "Involuntary"
     )
   ) %>%
-  group_by(Year, Geography, `Reason for part-time work`, Sex, `Age group`) %>%
+  group_by(Year, Geography, `Reason for part-time work`, Gender, `Age group`) %>%
   summarise(Value = sum(Value, na.rm = T)) %>%
   tidyr::pivot_wider(names_from = `Reason for part-time work`,
                      values_from = Value) %>%
   mutate(Value = round((Involuntary / `All part-time`) * 100, 2)) %>%
   select(Year,
          Geography,
-         Sex,
+         Gender,
          `Age group`,
          Value) %>%
   ungroup() %>%
@@ -61,7 +61,7 @@ involuntary_work <-
 total <-
   involuntary_work %>%
   filter(Geography == "Canada",
-         Sex == "Both sexes",
+         Gender == "Total - Gender",
          `Age group` == "15 years and over") %>%
   mutate_at(2:(ncol(.) - 2), ~ "")
 
@@ -70,16 +70,13 @@ non_total <-
   involuntary_work %>%
   filter(!(
     Geography == "Canada" &
-      Sex == "Both sexes" &
-      `Age group` == "15 years and over"
-  )) %>%
-  mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+    Gender == "Total - Gender" &
+    `Age group` == "15 years and over"
+  ))
 
 
 # Create the final table and export to csv
-final_data <-
-  bind_rows(total, non_total) %>%
-  rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+final_data <- bind_rows(total, non_total)
 
 
 write.csv(final_data,

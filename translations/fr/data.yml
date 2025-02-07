@@ -1,6 +1,12 @@
 ## Global
 Year: Année
 Value: Valeur
+Total: Total
+Total population: Population totale
+
+## Units
+Percentage: Pourcentage
+Number: Nombre
 
 ## Sex/Gender
 Sex: Sexe
@@ -16,6 +22,7 @@ Women+: Femmes+
 Both: Les deux sexes
 Both sexes: Les deux sexes
 Total, all persons: Total, toutes les personnes
+Total - Gender: Total - Genre
 #Non-binary: Personnes non binaires
 
 ## Geo
@@ -87,6 +94,16 @@ Oceania: Océanie
 # Cities and census metropolitan areas
 Total Census metropolitan area: Total pour les régions métropolitaines de recensement
 Total Non-Census metropolitan area: Total pour les régions autres que les régions métropolitaines de recensement
+Large urban population centres: Grands centres de population urbains
+Large population centres: Grands centres de population
+Medium population centres: Moyens centres de population
+Small population centres: Petits centres de population
+Urban centres: Régions urbaines
+Rural communities: Communautés rurales
+Rural areas: Régions rurales
+Census metropolitan areas: Régions métropolitaines de recensement
+Census agglomerations: Agglomérations de recensement
+Outside census metropolitan areas and census agglomerations: À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement
 St. John's, Newfoundland and Labrador: St. John's, Terre-Neuve-et-Labrador
 Halifax, Nova Scotia: Halifax, Nouvelle-Écosse
 Fredericton, New Brunswick: Fredericton, Nouveau-Brunswick
@@ -238,6 +255,61 @@ Under 1 year: Moins d'un an
 80 to 84 years: 80 à 84 ans
 85 to 89 years: 85 à 89 ans
 Age, not stated: Âge, non déclaré
+
+## Indigenous groups
+Indigenous group: Groupe autochtone
+Indigenous status: Statut d'autochtone
+Indigenous peoples: Peuples autochtones
+Non-Indigenous people: Non-autochtones
+Indigenous identity: Identité autochtone
+Non-Indigenous identity: Identité non autochtone
+Indigenous person: Personne autochtone
+Non-Indigenous person: Personne non autochtone
+Indigenous population: Population autochtone
+Non-Indigenous population: Population non autochtone
+Indigenous: Autochtone
+First Nations: Premières Nations
+First Nations (North American Indian): Premières Nations (Indien de l'Amérique du Nord)
+Métis: Métis
+Inuk (Inuit): Inuk (Inuit)
+First Nations, Métis, or Inuit: Premières Nations, Métis ou Inuits
+
+## Immigrant status
+Immigrant status: Status d'immigrant
+Landed immigrants: Immigrants reçus
+Born in Canada: Populations nées au Canada
+Immigrants, landed 5 or less years earlier: Immigrants reçus 5 ans et moins auparavant
+Immigrants, landed more than 5 to 10 years earlier: Immigrants reçus plus de 5 à 10 ans auparavant
+Immigrants, landed more than 10 years earlier: Immigrants reçus plus de 10 ans auparavant
+Immigrants: Immigrants
+Immigrant: Personne immigrante
+Non immigrants: Non-immigrants
+Non-immigrants: Non-immigrants
+Non-immigrant: Personne non immigrante
+Non-permanent residents: Résidents non permanents
+
+## Visible minorities
+Total visible minority population: Total de la population des minorités visibles
+Not a visible minority: Pas une minorité visible
+Other visible minority: Autre minorité visible
+Visible minority: Minorité visible
+Non-visible minority: N’appartenant pas à une minorité visible
+Arab: Arabe
+Black: Noir
+Chinese: Chinois
+Filipino: Philippin
+Japanese: Japonais
+Korean: Coréen
+Latin American: Latino-Américain
+South Asian: Sud-Asiatique
+Southeast Asian: Asiatique du Sud-Est
+West Asian: Asiatique occidental
+Group not indicated elsewhere: Groupe non indiqué ailleurs
+Visible minority population: Population des minorités visibles
+Visible minority n.i.e: Minorité visible n.i.a
+Multiple visible minorities: Minorités visible multiples
+Other group designated as visible minority: Autres groupes désignés comme minorités visibles
+
 
 ## 1-1-1
 Persons in low income: Personnes à faible revenu
@@ -409,7 +481,6 @@ Persons 25 to 34 years: Personnes de 25 à 34 ans
 Persons 35 to 44 years: Personnes de 35 à 44 ans
 Persons 45 to 54 years: Personnes de 45 à 54 ans
 Persons 55 to 64 years: Personnes de 55 à 64 ans
-Other visible minority: Autre minorité visible
 Not a visible minority nor Indigenous: Pas une minorité visible ni autochtone
 All persons aged 15 years and over: Toutes les personnes de 15 ans et plus
 Indigenous population aged 15 years and over: Population autochtone âgée de 15 ans et plus
@@ -454,9 +525,6 @@ With nicotine: Avec nicotine
 Without nicotine: Sans nicotine
 Secondary I-III: De la 1re à la 3e année du secondaire
 Secondary IV-V: De la 4re à la 5e année du secondaire
-Indigenous status: Statut d'autochtone
-Indigenous identity: Identité autochtone
-Non-Indigenous identity: Identité non autochtone
 Sex at birth: Sexe à la naissance
 Immigration status: Statut d'immigration
 Less than high school diploma or its equivalent: Moins d'un diplôme d'études secondaires ou son équivalent
@@ -554,7 +622,6 @@ Chronic lower respiratory diseases [J40-J47]: Maladies chroniques des voies resp
 Chronic liver disease and cirrhosis [K70, K73-K74]: Maladie chronique et cirrhose du foie
 Accidents (unintentional injuries) [V01-X59, Y85-Y86]: Accidents (blessures involontaires)
 Intentional self-harm (suicide) [X60-X84, Y87.0]: Lésions auto-infligées
-Indigenous: Autochtone
 
 ## 3-13-1
 Rate per 100,000 population: Taux par 100 000 personnes
@@ -567,19 +634,9 @@ Apparent stimulant toxicity deaths: Décès totaux apparemment liés à une into
 Accidental apparent opioid toxicity deaths: Décès accidentels apparemment liés à une intoxication aux opioïdes
 
 ## 4-1-1
-Total: Total
 Total, persons aged 15 years and over: Total, personnes âgées de 15 ans et plus
 Selected demographic characteristics: Caractéristiques démographiques déterminées
-Non immigrants: Non-immigrants
-Immigrants: Immigrants
-Non-permanent residents: Résidents non permanents
-Total visible minority population: Total de la population des minorités visibles
-Not a visible minority: Pas une minorité visible
-Indigenous identity: Identité autochtone
-First Nations (North American Indian): Première Nation (Indien de l'Amérique du Nord)
-Métis: Métis
-Inuk (Inuit): Inuk (Inuit)
-Non-Indigenous identity: Identité non autochtone
+
 
 ## 4-2-1
 Educational attainment level: Niveau de scolarité
@@ -590,7 +647,6 @@ Master's or Doctoral level: Maîtrise ou doctorat
 Total, 25 to 64 years: Total, 25 à 64 ans
 Off-reserve Indigenous population: "Population autochtone hors réserve"
 Population characteristics: Caractéristiques de la population
-Total population: Population totale
 University: Université
 
 ## 5-1-1
@@ -616,24 +672,8 @@ Age 45 to 54: Âgée de 45 à 54 ans
 Age 55 to 64: Âgée de 55 à 64 ans
 Age 65 to 74: Âgée de 65 à 74 ans
 Age 75 and older: Âgée de 75 ans et plus
-Indigenous person: Personne autochtone
-Non-Indigenous person: Personne non autochtone
 LGBTQ2 person: Personne LGBTQ2
 Non-LGBTQ2 person: Personne non LGBTQ2
-Visible minority: Minorité visible
-Arab: Arabes
-Black: Noirs
-Chinese: Chinois
-Filipino: Philippins
-Japanese: Japonais
-Korean: Coréens
-Latin American: Latino-Américains
-South Asian: Asiatiques du Sud
-Southeast Asian: Asiatiques du Sud-Est
-West Asian: Asiatiques occidentaux
-Group not indicated elsewhere: Groupe non indiqué ailleurs
-Immigrant: Personne immigrante
-Non-immigrant: Personne non immigrante
 Person with disability: Personne ayant une incapacité
 Person without disability: Personne n’ayant aucune incapacité
 Highest degree earned: Plus haut grade obtenu
@@ -718,10 +758,6 @@ Sales and service occupations: Vente et services
 Trades, transport and equipment operators and related occupations: Métiers, transport, machinerie et domaines apparentés
 Natural resources, agriculture and related production occupations: Ressources naturelles, agriculture et production connexe
 Occupations in manufacturing and utilities: Fabrication et services d'utilité publique
-15 years and over: 15 ans et plus
-15 to 24 years: 15 à 24 ans
-25 to 54 years: 25 à 54 ans
-55 years and over: 55 ans et plus
 
 ## 6-3-1
 Growth rate: Taux de croissance
@@ -769,14 +805,12 @@ Wholesale trade: Commerce de gros
 ## 6-4-1
 Land use category: Catégorie d'utilisation des sols
 Water quality: Qualité de l'eau
-Percentage: Pourcentage
 Number of sites: Nombre de sites
 Atlantic Ocean: Océan Atlantique
 Great Lakes and St. Lawrence River: Grands Lacs et fleuve Saint-Laurent
 Hudson Bay: Baie d'Hudson
 Mackenzie River: Fleuve Mackenzie
 Pacific Ocean: Océan Pacifique
-Total: Total
 Agriculture: Agriculture
 Forestry: Foresterie
 Mining: Exploitation minière
@@ -798,10 +832,8 @@ Solar: Solaire
 Other types of electricity generation: Autres types de production électrique
 Total hydro, tidal, wind, solar and other generation: Total, tous les genres de production d'électricité
 Total renewable and non-greenhouse gas emitting sources: Total, sources renouvelables et non émettrices de gaz à effet de serre
-Nuclear steam turbine: |
-    Turbine à vapeur-nucléaire
-Total electricity production from biomass: |
-    Production totale d’électricité provenant de la biomasse
+Nuclear steam turbine: Turbine à vapeur-nucléaire
+Total electricity production from biomass: Production totale d’électricité provenant de la biomasse
 
 ## 7-3-1
 Demand characteristics: Caractéristiques d’écoulement
@@ -831,12 +863,6 @@ Agriculture, fishing, hunting and trapping: Agriculture, pêche, chasse et piég
 
 # 8-1-1
 Population: Population
-Total population: Population totale
-Indigenous population: Population autochtone
-Landed immigrants: Immigrants reçus
-Immigrants, landed 5 or less years earlier: Immigrants reçus 5 ans et moins auparavant
-Immigrants, landed more than 5 to 10 years earlier: Immigrants reçus plus de 5 à 10 ans auparavant
-Immigrants, landed more than 10 years earlier: Immigrants reçus plus de 10 ans auparavant
 
 ## 8-2-1
 Employment rate: Taux d'emploi
@@ -901,32 +927,14 @@ Total population, with and without disabilities: Population totale, avec et sans
 Persons with disabilities: Personnes ayant une incapacité
 Persons without disabilities: Personnes sans incapacité
 Disability: Incapacité
-Non-Indigenous population: Population non autochtone
 Total, all education levels: Total, tous les niveaux de scolarité
 Less than high school: Études secondaires partielles ou moins
 High school graduate or some post-secondary: Études secondaires complétées ou postsecondaires partielles
 Completed post-secondary education: Études postsecondaires complétées
 Educational attainment: Niveau de scolarité atteint
-Indigenous group: Groupe autochtone
-First Nations: Premières Nation
 Eastern and central provinces: Provinces de l'Est et du centre
 Western provinces: Provinces de l'Ouest
 Prairie region: Région des Prairies
-Visible minority population: Population des minorités visibles
-South Asian: Sud-Asiatique
-Chinese: Chinois
-Black: Noir
-Filipino: Philippin
-Arab: Arabe
-Latin American: Latino-Américain
-Southeast Asian: Asiatique du Sud-Est
-West Asian: Asiatique occidental
-Korean: Coréen
-Japanese: Japonais
-Visible minority n.i.e: Minorité visible n.i.a
-Multiple visible minorities: Minorités visible multiples
-Born in Canada: Populations nées au Canada
-Immigrant status: Status d'immigrant
 
 ## 8-3-1
 ##  rien de nouveau
@@ -982,13 +990,6 @@ Population centres: Centres de population
 First Nations reserves: Réserves des Premières Nations
 First Nations reserves Urban centres: Réserves des Premières Nations Régions urbaines
 First Nations reserves Rural areas: Réserves des Premières Nations Régions rurales
-All regions: Toutes les régions
-Large population centres: Grands centres de population
-Medium population centres: Moyens centres de population
-Small population centres: Petits centres de population
-Rural areas: Régions rurales
-Urban centres: Régions urbaines
-Rural communities: Communautés rurales
 Major roads and highways: Principales routes et autoroutes
 Total population centre: Total centre de population 
 
@@ -1092,19 +1093,11 @@ Percent change since 2016: Changement en pourcentage comparé à 2016
 
 ## 11-2-1
 Type of region: Type de région
-Large urban population centres: Grands centres de population urbains
-Medium population centres: Moyens centres de population
-Small population centres: Petits centres de population
-Rural areas: Régions rurales
-Census metropolitan areas: Régions métropolitaines de recensement
-Census agglomerations: Agglomérations de recensement
-Outside census metropolitan areas and census agglomerations: À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement
 Other census metropolitan areas, New Brunswick: Autres régions métropolitaines de recensement, Nouveau-Brunswick
 Other census metropolitan areas, Quebec: Autres régions métropolitaines de recensement, Québec
 Other census metropolitan areas, Ontario: Autres régions métropolitaines de recensement, Ontario
 Other census metropolitan areas, Alberta: Autres régions métropolitaines de recensement, Alberta
 Other census metropolitan areas, British Columbia: Autres régions métropolitaines de recensement, Colombie-Britannique
-
 Selected housing vulnerable populations: Certaines populations vulnérables en matière de logement
 Select housing-vulnerable populations: Certaines populations vulnérables en matière de logement
 All households: Tous les ménages
@@ -1137,8 +1130,6 @@ Total, rural areas: Total, régions rurales
 Geographic location: Situation géographique
 Tenure: Mode d'occupation
 Selected census metropolitan areas: Régions métropolitaines de recensement sélectionnées
-Provinces and territories: Provinces et territoires
-Census metropolitan areas: Régions métropolitaines de recensement
 Total, tenure: Total, mode d'occupation
 Owner: Propriétaire
 Owner who is a first-time homebuyer: Propriétaire qui est un accédant à la propriété
@@ -1156,7 +1147,6 @@ Type of commute: Principal mode de transport pour la navette
 Sustainable transportation: Transport durable
 Public transit: Transport en commun
 Active transportation: Transport actif
-Total - Gender: Total - Genre
 
 ## 11-6-1
 Sources of waste for disposal: Sources des déchets à des fins d'élimination
@@ -1200,7 +1190,6 @@ Transportation equipment manufacturing: Fabrication de matériel de transport
 Wood product manufacturing: Fabrication de produits en bois
 
 ## 12-3-1
-Territories: Territoires
 Type of materials diverted: Type de matières récupérées
 All materials diverted: Toutes les matières
 All paper fibres: Toutes les fibres cellulosiques
@@ -1258,8 +1247,6 @@ Waste: Déchets et autres
 Agriculture: Agriculture
 
 # 13-3-1
-Number: Nombre
-Percentage: Pourcentage
 Type of municipality by population size: Type de municipalité par taille de population
 All municipalities: Toutes les municipalités
 All urban municipalities: Toutes les municipalités urbaines
@@ -1374,17 +1361,7 @@ By system: Par système
 System: Système
 
 ## 16-1-1
-Visible minority: Minorité visible
 Sociodemographic characteristics: Caractéristiques sociodémographiques
-South Asian: Sud-Asiatique
-Chinese: Chinois
-Black: Noir
-Filipino: Philippin
-Arab: Arabe
-Latin American: Latino-Américain
-Southeast Asian: Asiatique du Sud-Est
-Non-immigrants: Non-immigrants
-Immigrants: Immigrants
 
 ## 16-2-1
 Violations: Infractions
@@ -1435,11 +1412,6 @@ Total, age of accused: Total, l'âge de l'accusé
 16 and 17 years: 16 et 17 ans
 Other ages: Autres âges
 Age not applicable: Âge n'ayant pas lieu de figurer
-18 to 24 years: 18 à 24 ans
-25 to 34 years: 25 à 34 ans
-35 to 44 years: 35 à 44 ans
-45 to 54 years: 45 à 54 ans
-55 years and over: 55 ans et plus
 Sex of accused: Sexe de l'accusé
 Total, sex of accused: Total, le sexe de l'accusé
 Company: Sociétés
@@ -1452,20 +1424,12 @@ Youth courts: Tribunaux de la jeunesse
 Institutions: Institutions
 Police: Police
 Characteristics: Caractéristiques
-Total population: Population totale
-Indigenous person: Autochtone
-Non-Indigenous person: Personne non autochtone
-Visible minority: Minorité visible
-Non-visible minority: N’appartenant pas à une minorité visible
 Level of confidence: Niveau de confiance
 A great deal of confidence: Une grande confiance
 Some confidence: Une certaine confiance
 Not very much or no confidence: Très peu confiance ou aucune confiance
 Confident: Confiance
 Not confident: Aucune confiance
-Black: Noirs
-First Nations, Métis, or Inuit: Premières Nations, Métis ou Inuits
-Other group designated as visible minority: Autres groupes désignés comme minorités visibles
 Non-Indigenous, non-visible minority: Non-Autochtones n’appartenant pas à une minorité visible
 Justice system and courts: Système de justice et tribunaux
 School system: Système scolaire

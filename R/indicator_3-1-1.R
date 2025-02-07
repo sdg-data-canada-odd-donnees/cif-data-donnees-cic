@@ -4,14 +4,11 @@
 library(dplyr)
 library(cansim)
 
-
 # load CODR table from stc api
-raw_data <- get_cansim("13-10-0096-01", factors = FALSE)
-
+raw_data <- get_cansim("13-10-0905-01", factors = FALSE)
 
 # load geocode
 geocodes <- read.csv("geocodes.csv")
-
 
 #Format table 
 fruits_veg <-
@@ -30,24 +27,21 @@ fruits_veg <-
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value) 
 
-
 #Create the aggregate line
 total <-
   fruits_veg %>%
   filter(Geography == "Canada",
-         `Age group` == "Total, 12 years and over",
+         `Age group` == "Total, 18 years and over",
          Sex == "Both sexes") %>%
   mutate_at(2:(ncol(.) - 2), ~ "")
-
 
 #Create the non - aggregate line
 fruits_veggies <-
   fruits_veg %>%
   filter(!(
-    Geography == "Canada" & `Age group` == "Total, 12 years and over" &
+    Geography == "Canada" & `Age group` == "Total, 18 years and over" &
       Sex == "Both sexes"
   ))
-
 
 #Add the two rows together 
 final_data <-
