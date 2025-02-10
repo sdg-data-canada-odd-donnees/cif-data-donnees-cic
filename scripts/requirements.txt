@@ -1,5 +1,5 @@
 git+https://github.com/dougmet/yamlmd
-git+https://github.com/open-sdg/sdg-build@2.3.1
+git+https://github.com/tristanmenard/sdg-build@progress-measure-dev
 frictionless==4.40.8
 pydantic==1.*
 numpy==1.26.4
