@@ -65,6 +65,46 @@
             "title": "Sexe"
           },
           {
+            "name": "Household income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Premier quintile",
+                "Deuxième quintile",
+                "Troisième quintile",
+                "Quatrième quintile",
+                "Cinquième quintile",
+                ""
+              ]
+            },
+            "title": "Revenu du ménage"
+          },
+          {
+            "name": "Highest level of education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Études secondaires partielles",
+                "Diplôme d'études secondaires, aucune étude postsecondaire",
+                "Certificat/diplôme d'études postsecondaires ou grade universitaire",
+                ""
+              ]
+            },
+            "title": "Plus haut niveau de scolarité"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Âgés de 18 ans et plus",
+                "Âgés de 12 à 17 ans",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"

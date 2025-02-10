@@ -65,6 +65,46 @@
             "title": "Sex"
           },
           {
+            "name": "Household income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "First quintile",
+                "Second quintile",
+                "Third quintile",
+                "Fourth quintile",
+                "Fifth quintile",
+                ""
+              ]
+            },
+            "title": "Household income"
+          },
+          {
+            "name": "Highest level of education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than secondary school graduation",
+                "Secondary school graduation, no post-secondary education",
+                "Post-secondary certificate/diploma or university degree",
+                ""
+              ]
+            },
+            "title": "Highest level of education"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Aged 18 years and older",
+                "Aged 12 to 17 years",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"

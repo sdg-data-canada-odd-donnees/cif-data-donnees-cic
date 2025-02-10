@@ -61,6 +61,64 @@
             }
           },
           {
+            "name": "Household income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "First quintile",
+                "Second quintile",
+                "Third quintile",
+                "Fourth quintile",
+                "Fifth quintile",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Highest level of education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than secondary school graduation",
+                "Secondary school graduation, no post-secondary education",
+                "Post-secondary certificate/diploma or university degree",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All persons",
+                "Visible minority",
+                "South Asian",
+                "Chinese",
+                "Black",
+                "Filipino",
+                "Arab",
+                "Latin American",
+                "Southeast Asian",
+                "Not a visible minority",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Immigration status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Non-immigrants",
+                "Immigrants",
+                "Admitted to Canada in the last 10 years",
+                "Admitted to Canada more than 10 years ago",
+                ""
+              ]
+            }
+          },
+          {
             "name": "GeoCode",
             "type": "string"
           },

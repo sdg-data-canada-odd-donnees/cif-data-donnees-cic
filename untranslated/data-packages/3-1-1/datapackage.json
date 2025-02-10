@@ -61,6 +61,32 @@
             }
           },
           {
+            "name": "Household income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "First quintile",
+                "Second quintile",
+                "Third quintile",
+                "Fourth quintile",
+                "Fifth quintile",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Highest level of education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than secondary school graduation",
+                "Secondary school graduation, no post-secondary education",
+                "Post-secondary certificate/diploma or university degree",
+                ""
+              ]
+            }
+          },
+          {
             "name": "GeoCode",
             "type": "string"
           },

@@ -65,6 +65,68 @@
             "title": "Sexe"
           },
           {
+            "name": "Household income",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Premier quintile",
+                "Deuxième quintile",
+                "Troisième quintile",
+                "Quatrième quintile",
+                "Cinquième quintile",
+                ""
+              ]
+            },
+            "title": "Revenu du ménage"
+          },
+          {
+            "name": "Highest level of education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Études secondaires partielles",
+                "Diplôme d'études secondaires, aucune étude postsecondaire",
+                "Certificat/diplôme d'études postsecondaires ou grade universitaire",
+                ""
+              ]
+            },
+            "title": "Plus haut niveau de scolarité"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les personnes",
+                "Minorité visible",
+                "Sud-Asiatique",
+                "Chinois",
+                "Noir",
+                "Philippin",
+                "Arabe",
+                "Latino-Américain",
+                "Asiatique du Sud-Est",
+                "Pas une minorité visible",
+                ""
+              ]
+            },
+            "title": "Minorité visible"
+          },
+          {
+            "name": "Immigration status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Non-immigrants",
+                "Immigrants",
+                "Admis au Canada au cours des 10 dernières années",
+                "Admis au Canada depuis plus de 10 ans",
+                ""
+              ]
+            },
+            "title": "Statut d'immigration"
+          },
+          {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
