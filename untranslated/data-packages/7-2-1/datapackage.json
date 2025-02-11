@@ -15,40 +15,40 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Canada",
-                "data.Manitoba",
-                "data.New Brunswick",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Nova Scotia",
-                "data.Nunavut",
-                "data.Ontario",
-                "data.Prince Edward Island",
-                "data.Quebec",
-                "data.Saskatchewan",
-                "data.Yukon",
+                "Alberta",
+                "British Columbia",
+                "Canada",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Northwest Territories",
+                "Nova Scotia",
+                "Nunavut",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon",
                 ""
               ]
             }
           },
           {
-            "name": "data.Type of electricity generation",
+            "name": "Type of electricity generation",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Hydraulic turbine",
-                "data.Total renewable and non-greenhouse gas emitting sources",
-                "data.Wind power turbine",
-                "data.Nuclear steam turbine",
-                "data.Solar",
-                "data.Tidal power turbine",
-                "data.Total electricity production from biomass",
+                "Hydraulic turbine",
+                "Total renewable and non-greenhouse gas emitting sources",
+                "Wind power turbine",
+                "Nuclear steam turbine",
+                "Solar",
+                "Tidal power turbine",
+                "Total electricity production from biomass",
                 ""
               ]
             }

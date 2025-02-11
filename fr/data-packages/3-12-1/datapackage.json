@@ -16,16 +16,16 @@
             "title": "Année"
           },
           {
-            "name": "data.Sex",
+            "name": "Population",
             "type": "string",
             "constraints": {
               "enum": [
-                "Femme",
-                "Homme",
+                "Inuit",
+                "Non Inuit",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Population"
           },
           {
             "name": "Value",

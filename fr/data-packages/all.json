@@ -1438,7 +1438,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1462,7 +1462,7 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Type of electricity generation",
+            "name": "Type of electricity generation",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5261,16 +5261,16 @@
             "title": "Année"
           },
           {
-            "name": "data.Sex",
+            "name": "Population",
             "type": "string",
             "constraints": {
               "enum": [
-                "Femme",
-                "Homme",
+                "Inuit",
+                "Non Inuit",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Population"
           },
           {
             "name": "Value",
