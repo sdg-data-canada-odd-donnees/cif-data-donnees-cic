@@ -4,152 +4,89 @@
 library(dplyr)
 library(cansim)
 
-proximity_data <- get_cansim("23-10-0286-01", factors = FALSE)
-convenient_access <- get_cansim("23-10-0311-01", factors = FALSE)
-
-#load geocode
+# load geocode
 geocodes <- read.csv("geocodes.csv")
 
-geographies <- c(
+canada_prov_terr <- c(
   "Canada",
   "Newfoundland and Labrador",
-  "St. John's, Newfoundland and Labrador",
   "Prince Edward Island",
   "Nova Scotia",
-  "Halifax, Nova Scotia",
   "New Brunswick",
-  "Moncton, New Brunswick",
-  "Saint John, New Brunswick",
   "Quebec",
-  "Montréal, Quebec",
-  "Ottawa - Gatineau (Quebec part), Quebec",
-  "Québec, Quebec",
-  "Saguenay, Quebec",
-  "Sherbrooke, Quebec",
-  "Trois-Rivières, Quebec",
   "Ontario",
-  "Barrie, Ontario",
-  "Belleville, Ontario",
-  "Brantford, Ontario",
-  "Greater Sudbury / Grand Sudbury, Ontario",
-  "Guelph, Ontario",
-  "Hamilton, Ontario",
-  "Kingston, Ontario",
-  "Kitchener - Cambridge - Waterloo, Ontario",
-  "London, Ontario",
-  "Oshawa, Ontario",
-  "Ottawa - Gatineau (Ontario part), Ontario",
-  "Peterborough, Ontario",
-  "St. Catharines - Niagara, Ontario",
-  "Thunder Bay, Ontario",
-  "Toronto, Ontario",
-  "Windsor, Ontario",
   "Manitoba",
-  "Winnipeg, Manitoba",
   "Saskatchewan",
-  "Regina, Saskatchewan",
-  "Saskatoon, Saskatchewan",
   "Alberta",
-  "Calgary, Alberta",
-  "Edmonton, Alberta",
-  "Lethbridge, Alberta",
   "British Columbia",
-  "Abbotsford - Mission, British Columbia",
-  "Kelowna, British Columbia",
-  "Vancouver, British Columbia",
-  "Victoria, British Columbia",
   "Yukon",
   "Northwest Territories",
   "Nunavut"
 )
 
-proximity_data_filtered <-
-  proximity_data %>%
-  filter(
-    GEO %in% geographies,
-    `Demographic, geodemographic and commuting` == "Percentage of population near public transit stop"
-  ) %>%
-  select(Year = REF_DATE,
-         Geography = GEO,
-         Value = VALUE)
+demographics <- c(
+  "Total - Age groups of the population - 100% data",
+  "0 to 14 years",
+  "15 to 64 years",
+  "15 to 19 years",
+  "20 to 24 years",
+  "65 years and over"
+)
 
-convenient_access_filtered <-
-  convenient_access %>%
+# Connect to large CODR table
+connection <- get_cansim_sqlite("23-10-0313-01")
+data <- connection %>%
   filter(
-    `Demographic and geodemographic` == "Percentage of population within 500 metres of a public transit stop"
+    `Demographic and socio-economic` %in% demographics,
+    `Distance-capacity public transit service area` == "500 metres from all public transit stops",
+    `Sustainable Development Goals (SDGs) 11.2.1 indicator` == "Proportion of population within service area"
   ) %>%
-  select(Year = REF_DATE,
-         Geography = GEO,
-         Value = VALUE) %>%
+  collect_and_normalize()
+
+disconnect_cansim_sqlite(connection)
+
+# Create mapping of province/territory names to geo hierarchy codes
+# ex: Ontario -> 1.469
+prov_terr <- data %>%
+  filter(GEO %in% canada_prov_terr[-1]) %>%
+  select(GEO, `Hierarchy for GEO`) %>%
+  distinct()
+prov_terr_hierarchy_map <- setNames(as.character(prov_terr$GEO), prov_terr$`Hierarchy for GEO`)
+
+data_filtered <- data %>%
+  filter(
+    (GEO %in% canada_prov_terr) | (grepl("Census metropolitan area", GEO)),
+  ) %>%
+  # Replace "Census metropolitan area (CMA)" in city name with appropriate province/territory
+  # ex: Toronto, Census metropolitan area (CMA) -> Toronto, Ontario
   mutate(
-    Geography = case_when(
-      Geography == "St. John's" ~ "St. John's, Newfoundland and Labrador",
-      Geography == "Halifax" ~ "Halifax, Nova Scotia",
-      Geography == "Moncton" ~ "Moncton, New Brunswick",
-      Geography == "Saint John" ~ "Saint John, New Brunswick",
-      Geography == "Montréal" ~ "Montréal, Quebec",
-      Geography == "Ottawa - Gatineau (partie du Québec / Quebec part)" ~ "Ottawa - Gatineau (Quebec part), Quebec",
-      Geography == "Québec" ~ "Québec, Quebec",
-      Geography == "Saguenay" ~ "Saguenay, Quebec",
-      Geography == "Sherbrooke" ~ "Sherbrooke, Quebec",
-      Geography == "Trois-Rivières" ~ "Trois-Rivières, Quebec",
-      Geography == "Barrie" ~ "Barrie, Ontario",
-      Geography == "Belleville - Quinte West" ~ "Belleville, Ontario",
-      Geography == "Brantford" ~ "Brantford, Ontario",
-      Geography == "Greater Sudbury / Grand Sudbury" ~ "Greater Sudbury / Grand Sudbury, Ontario",
-      Geography == "Guelph" ~ "Guelph, Ontario",
-      Geography == "Hamilton" ~ "Hamilton, Ontario",
-      Geography == "Kingston" ~ "Kingston, Ontario",
-      Geography == "Kitchener - Cambridge - Waterloo" ~ "Kitchener - Cambridge - Waterloo, Ontario",
-      Geography == "London" ~ "London, Ontario",
-      Geography == "Oshawa" ~ "Oshawa, Ontario",
-      Geography == "Ottawa - Gatineau (Ontario part / partie de l'Ontario)" ~ "Ottawa - Gatineau (Ontario part), Ontario",
-      Geography == "Peterborough" ~ "Peterborough, Ontario",
-      Geography == "St. Catharines - Niagara" ~ "St. Catharines - Niagara, Ontario",
-      Geography == "Thunder Bay" ~ "Thunder Bay, Ontario",
-      Geography == "Toronto" ~ "Toronto, Ontario",
-      Geography == "Windsor" ~ "Windsor, Ontario",
-      Geography == "Winnipeg" ~ "Winnipeg, Manitoba",
-      Geography == "Regina" ~ "Regina, Saskatchewan",
-      Geography == "Saskatoon" ~ "Saskatoon, Saskatchewan",
-      Geography == "Calgary" ~ "Calgary, Alberta",
-      Geography == "Edmonton" ~ "Edmonton, Alberta",
-      Geography == "Lethbridge" ~ "Lethbridge, Alberta",
-      Geography == "Abbotsford - Mission" ~ "Abbotsford - Mission, British Columbia",
-      Geography == "Kelowna" ~ "Kelowna, British Columbia",
-      Geography == "Vancouver" ~ "Vancouver, British Columbia",
-      Geography == "Victoria" ~ "Victoria, British Columbia",
-      TRUE ~ Geography
+    GEO = case_when(
+      !(GEO %in% canada_prov_terr) ~ paste(str_remove(GEO, ",.+"), unlist(prov_terr_hierarchy_map[str_extract(`Hierarchy for GEO`, "^1\\.\\d+")]), sep = ", "),
+      .default = GEO
     )
   ) %>%
-  filter(
-    Geography %in% geographies
-  )
-
-combined <-
-  bind_rows(proximity_data_filtered, convenient_access_filtered) %>%
-  left_join(geocodes, by = "Geography") %>%
-  relocate(GeoCode, .before = Value)
-
-total_line <-
-  combined %>%
-  filter(
-    Geography == "Canada"
+  select(
+    Year = REF_DATE,
+    Geography = GEO,
+    Location,
+    Gender,
+    `Demographic and socio-economic`,
+    GeoCode = GeoUID,
+    Value = VALUE
   ) %>%
   mutate(
-    Geography = ""
+    across(
+      c(Geography, Location, Gender, `Demographic and socio-economic`, GeoCode),
+      ~ replace(.,
+                Geography == "Canada" &
+                Location == "Total, location" &
+                Gender == "Total, gender" &
+                `Demographic and socio-economic` == "Total - Age groups of the population - 100% data",
+                NA)
+    )
   )
 
-non_total <-
-  combined %>%
-  filter(
-    !Geography == "Canada"
-  )
-
-data_final <-
-  bind_rows(total_line,non_total)
-
-write.csv(data_final,
+write.csv(data_filtered,
           "data/indicator_11-4-1.csv",
           na = "",
           row.names = FALSE,
