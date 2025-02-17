@@ -156,8 +156,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Milieu rural",
-                "Milieu urbain",
+                "Rurale",
+                "Urbain",
                 ""
               ]
             },

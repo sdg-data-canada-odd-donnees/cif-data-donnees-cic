@@ -1791,15 +1791,18 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
                 "Newfoundland and Labrador",
                 "St. John's, Newfoundland and Labrador",
                 "Prince Edward Island",
                 "Nova Scotia",
                 "Halifax, Nova Scotia",
                 "New Brunswick",
+                "Fredericton, New Brunswick",
                 "Moncton, New Brunswick",
                 "Saint John, New Brunswick",
                 "Quebec",
+                "Drummondville, Quebec",
                 "Montréal, Quebec",
                 "Ottawa - Gatineau (Quebec part), Quebec",
                 "Québec, Quebec",
@@ -1808,9 +1811,9 @@
                 "Trois-Rivières, Quebec",
                 "Ontario",
                 "Barrie, Ontario",
-                "Belleville, Ontario",
+                "Belleville - Quinte West, Ontario",
                 "Brantford, Ontario",
-                "Greater Sudbury / Grand Sudbury, Ontario",
+                "Greater Sudbury, Ontario",
                 "Guelph, Ontario",
                 "Hamilton, Ontario",
                 "Kingston, Ontario",
@@ -1832,14 +1835,56 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Lethbridge, Alberta",
+                "Red Deer, Alberta",
                 "British Columbia",
                 "Abbotsford - Mission, British Columbia",
+                "Chilliwack, British Columbia",
+                "Kamloops, British Columbia",
                 "Kelowna, British Columbia",
+                "Nanaimo, British Columbia",
                 "Vancouver, British Columbia",
                 "Victoria, British Columbia",
                 "Yukon",
                 "Northwest Territories",
-                "Nunavut",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Location",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, location",
+                "Urban",
+                "Rural",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, gender",
+                "Men+",
+                "Women+",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Demographic and socio-economic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0 to 14 years",
+                "15 to 64 years",
+                "15 to 19 years",
+                "20 to 24 years",
+                "65 years and over",
+                "Total - Age groups of the population - 100% data",
                 ""
               ]
             }
