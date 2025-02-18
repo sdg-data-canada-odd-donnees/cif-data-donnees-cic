@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -33,10 +33,24 @@
                 "Yukon",
                 "Northwest Territories",
                 "Nunavut",
+                "Canada",
                 ""
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "Type of municipality",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All municipalities",
+                "All urban municipalities",
+                "All rural municipalities",
+                ""
+              ]
+            },
+            "title": "Type of municipality"
           },
           {
             "name": "GeoCode",

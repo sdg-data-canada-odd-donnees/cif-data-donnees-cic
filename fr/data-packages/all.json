@@ -2136,7 +2136,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2153,10 +2153,24 @@
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
+                "Canada",
                 ""
               ]
             },
             "title": "Géographie"
+          },
+          {
+            "name": "Type of municipality",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les municipalités",
+                "Toutes les municipalités urbaines",
+                "Toutes les municipalités rurales",
+                ""
+              ]
+            },
+            "title": "Type de municipalité"
           },
           {
             "name": "GeoCode",
