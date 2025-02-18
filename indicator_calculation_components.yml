@@ -529,12 +529,12 @@
   target: '0.001'
   target_year: '2030'
 6-2-1:
-  base_value: '3.6'
+  base_value: '4.1'
   base_year: '2016'
-  current_value: '4.5'
-  current_year: '2018'
+  current_value: '4.2'
+  current_year: '2022'
   direction: negative
-  progress_calculation_value: '-0.1180339887498949'
+  progress_calculation_value: '-0.004024334571181898'
   progress_status: deterioration
   target: None
   target_year: '2030'
