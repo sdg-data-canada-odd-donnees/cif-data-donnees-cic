@@ -3,6 +3,7 @@
 #load libraries
 library(dplyr)
 library(cansim)
+library(stringr)
 
 # load geocode
 geocodes <- read.csv("geocodes.csv")
@@ -24,6 +25,7 @@ canada_prov_terr <- c(
   "Nunavut"
 )
 
+# only choosing demographics given at the individual level - no household statistics
 demographics <- c(
   "Total - Age groups of the population - 100% data",
   "0 to 14 years",
@@ -54,6 +56,7 @@ prov_terr <- data %>%
 prov_terr_hierarchy_map <- setNames(as.character(prov_terr$GEO), prov_terr$`Hierarchy for GEO`)
 
 data_filtered <- data %>%
+  # Filter to keep only Canada, provinces/territories, and CMAs
   filter(
     (GEO %in% canada_prov_terr) | (grepl("Census metropolitan area", GEO)),
   ) %>%
