@@ -38,7 +38,7 @@ proportion_municipalities_2020_ <- raw_data %>%
     `Total organizations who own the assets` == 0 ~ NA,
     # else, calculate percentage of municipal orgs factoring climate change
     # .default = (`Climate change adaptation` + `Both adaptation and mitigation`) / `Total organizations who own the assets` * 100
-    .default = (`Total of organizations that factor in climate change adaptation or mitigation into decision making` - `Climate change mitigation`) / `Total organizations who own the assets` * 100
+    .default = round((`Total of organizations that factor in climate change adaptation or mitigation into decision making` - `Climate change mitigation`) / `Total organizations who own the assets` * 100, digits = 2)
     )
   ) %>%
   select(-one_of(assets))
@@ -84,7 +84,7 @@ proportion_municipalities_2016_2018 <-
       # if denominator is zero, return NA
       `Total municipalities` == 0 ~ NA,
       # else, calculate percentage of municipal orgs factoring climate change
-      .default = `Count of municipal organizations who factored climate change adaptation into decision-making process` / `Total municipalities` * 100
+      .default = round(`Count of municipal organizations who factored climate change adaptation into decision-making process` / `Total municipalities` * 100, digits = 2)
     )
   ) %>%
   select(
