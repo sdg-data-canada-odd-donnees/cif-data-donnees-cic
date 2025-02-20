@@ -1277,15 +1277,7 @@ Waste: Déchets et autres
 Agriculture: Agriculture
 
 # 13-3-1
-Type of municipality by population size: Type de municipalité par taille de population
-All municipalities: Toutes les municipalités
-All urban municipalities: Toutes les municipalités urbaines
-Urban municipalities, population 1 to 4,999: Municipalités urbaines, population de 1 à 4 999
-Urban municipalities, population 5,000 to 29,999: Municipalités urbaines, population de 5 000 à 29 999
-Urban municipalities, population 30,000 or more: Municipalités urbaines, population de 30 000 et plus
-All rural municipalities: Toutes les municipalités rurales
-Rural municipalities, population 1 to 4,999: Municipalités rurales, population 1 à 4 999
-Rural municipalities, population 5,000 or more: Municipalités rurales, population 5 000 et plus
+Core public infrastructure assets: Actifs d'infrastructures publiques essentielles
 Public transit assets: Actifs de transport en commun
 Potable water assets: Actifs relatifs à l'eau potable
 Stormwater assets: Actifs relatifs aux eaux pluviales
@@ -1297,7 +1289,18 @@ Social and affordable housing: Logement social et abordable
 Culture, recreation and sports facilities: Installations culturelles, sportives et de loisirs
 Shelters and homeless services assets: Refuges et actifs relatifs aux services aux sans-abri
 Active transportation assets: Actifs de transport actif
-Core public infrastructure assets: Actifs d'infrastructures publiques essentielles
+Type of municipality by population size: Type de municipalité par taille de population
+All municipalities: Toutes les municipalités
+All urban municipalities: Toutes les municipalités urbaines
+Urban municipalities, population less than 5000: Municipalités urbaines, population moins de 5 000
+Urban municipalities, population greater than 5000 to 30,000: Municipalités urbaines, population plus de 5 000 à 30 000
+Urban municipalities, population greater than 30,000: Municipalités urbaines, population 30 000 et plus
+Urban municipalities, population greater than 30,000 to 100,000: Municipalités urbaines, population plus de 30 000 à 100 000
+Urban municipalities, population greater than 100,000 to 200,000: Municipalités urbaines, population plus de 100 000 à 200 000
+Urban municipalities, population greater than 200,000: Municipalités urbaines, population 200 000 et plus
+All rural municipalities: Toutes les municipalités rurales
+Rural municipalities, population less than 5000: Municipalités rurales, population moins de 5 000
+Rural municipalities, population greater than 5000: Municipalités rurales, population 5 000 et plus
 
 ## 14-2-1
 Number of stocks: Nombre de stocks
