@@ -5421,7 +5421,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5445,21 +5445,28 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Core public infrastructure assets",
+            "name": "Core public infrastructure assets",
             "type": "string",
             "constraints": {
               "enum": [
-                "Eau potable",
-                "Eaux pluviales",
-                "Eaux usées",
-                "Déchets solides",
+                "Actifs de transport en commun",
+                "Actifs relatifs à l'eau potable",
+                "Actifs relatifs aux eaux pluviales",
+                "Actifs relatifs aux eaux usées",
+                "Actifs relatifs aux déchets solides",
+                "Routes",
+                "Ponts et tunnels",
+                "Logement social et abordable",
+                "Installations culturelles, sportives et de loisirs",
+                "Refuges et actifs relatifs aux services aux sans-abri",
+                "Actifs de transport actif",
                 ""
               ]
             },
             "title": "Actifs d'infrastructures publiques essentielles"
           },
           {
-            "name": "data.Type of municipality by population size",
+            "name": "Type of municipality by population size",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5471,6 +5478,13 @@
                 "Toutes les municipalités rurales",
                 "Municipalités rurales, population 1 à 4 999",
                 "Municipalités rurales, population 5 000 et plus",
+                "Urban municipalities, population less than 5000",
+                "Urban municipalities, population greater than 5000 to 30,000",
+                "Urban municipalities, population greater than 30,000 to 100,000",
+                "Urban municipalities, population greater than 100,000 to 200,000",
+                "Urban municipalities, population greater than 200,000",
+                "Rural municipalities, population less than 5000",
+                "Rural municipalities, population greater than 5000",
                 ""
               ]
             },

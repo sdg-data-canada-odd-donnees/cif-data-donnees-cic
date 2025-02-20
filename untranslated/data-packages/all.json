@@ -5054,54 +5054,68 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Newfoundland and Labrador",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Quebec",
-                "data.Ontario",
-                "data.Manitoba",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
+                "Canada",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             }
           },
           {
-            "name": "data.Core public infrastructure assets",
+            "name": "Core public infrastructure assets",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Potable water",
-                "data.Stormwater",
-                "data.Wastewater",
-                "data.Solid waste",
+                "Public transit assets",
+                "Potable water assets",
+                "Stormwater assets",
+                "Wastewater assets",
+                "Solid waste assets",
+                "Roads",
+                "Bridges and tunnels",
+                "Social and affordable housing",
+                "Culture, recreation and sports facilities",
+                "Shelters and homeless services assets",
+                "Active transportation assets",
                 ""
               ]
             }
           },
           {
-            "name": "data.Type of municipality by population size",
+            "name": "Type of municipality by population size",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.All municipalities",
-                "data.All urban municipalities",
-                "data.Urban municipalities, population 1 to 4,999",
-                "data.Urban municipalities, population 5,000 to 29,999",
-                "data.Urban municipalities, population 30,000 or more",
-                "data.All rural municipalities",
-                "data.Rural municipalities, population 1 to 4,999",
-                "data.Rural municipalities, population 5,000 or more",
+                "All municipalities",
+                "All urban municipalities",
+                "Urban municipalities, population 1 to 4,999",
+                "Urban municipalities, population 5,000 to 29,999",
+                "Urban municipalities, population 30,000 or more",
+                "All rural municipalities",
+                "Rural municipalities, population 1 to 4,999",
+                "Rural municipalities, population 5,000 or more",
+                "Urban municipalities, population less than 5000",
+                "Urban municipalities, population greater than 5000 to 30,000",
+                "Urban municipalities, population greater than 30,000 to 100,000",
+                "Urban municipalities, population greater than 100,000 to 200,000",
+                "Urban municipalities, population greater than 200,000",
+                "Rural municipalities, population less than 5000",
+                "Rural municipalities, population greater than 5000",
                 ""
               ]
             }
