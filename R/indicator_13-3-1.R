@@ -92,13 +92,18 @@ proportion_municipalities_2016_2018 <-
     -`Total municipalities`
   ) %>%
   mutate(
-    # Rename core public infrastructure asset categories to match new table
+    # Rename core public infrastructure asset categories to match new table scheme
     # ex: Public transit --> Public transit assets
     `Core public infrastructure assets` = case_when(
       `Core public infrastructure assets` %in% c("Public transit", "Potable water", "Stormwater", "Wastewater", "Solid waste") 
       ~ paste(`Core public infrastructure assets`, "assets"),
       .default = `Core public infrastructure assets`
-    )
+    ),
+    # Rename municipality type by population size to match new table scheme
+    `Type of municipality by population size` = str_replace(`Type of municipality by population size`, "1 to 4,999", "less than 5000"),
+    `Type of municipality by population size` = str_replace(`Type of municipality by population size`, "5,000 to 29,999", "greater than 5000 to 30,000"),
+    `Type of municipality by population size` = str_replace(`Type of municipality by population size`, "5,000 or more", "greater than 5000"),
+    `Type of municipality by population size` = str_replace(`Type of municipality by population size`, "30,000 or more", "greater than 30,000")
   )
 
 
