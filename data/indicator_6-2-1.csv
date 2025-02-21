@@ -1,29 +1,169 @@
-Year,data.Geography,GeoCode,Value
-2016,,,3.6
-2018,,,4.5
-2016,data.Newfoundland and Labrador,10,27.3
-2018,data.Newfoundland and Labrador,10,20.6
-2016,data.Prince Edward Island,11,0
-2018,data.Prince Edward Island,11,0
-2016,data.Nova Scotia,12,1.4
-2018,data.Nova Scotia,12,3.4
-2016,data.New Brunswick,13,2.4
-2018,data.New Brunswick,13,3.6
-2016,data.Quebec,24,5.7
-2018,data.Quebec,24,6.5
-2016,data.Ontario,35,0.7
-2018,data.Ontario,35,0.6
-2016,data.Manitoba,46,0
-2018,data.Manitoba,46,2.7
-2016,data.Saskatchewan,47,6.3
-2018,data.Saskatchewan,47,5.9
-2016,data.Alberta,48,0
-2018,data.Alberta,48,0.9
-2016,data.British Columbia,59,4.3
-2018,data.British Columbia,59,3.9
-2016,data.Yukon,60,0
-2018,data.Yukon,60,0
-2016,data.Northwest Territories,61,0
-2018,data.Northwest Territories,61,0
-2016,data.Nunavut,62,0
-2018,data.Nunavut,62,0
+"Year","Geography","Type of municipality","GeoCode","Value"
+2016,"","",,4.1
+2018,"","",,4.3
+2020,"","",,4
+2016,"Newfoundland and Labrador","All municipalities",10,19.4
+2018,"Newfoundland and Labrador","All municipalities",10,14.1
+2020,"Newfoundland and Labrador","All municipalities",10,18.9
+2016,"Prince Edward Island","All municipalities",11,0
+2018,"Prince Edward Island","All municipalities",11,0
+2020,"Prince Edward Island","All municipalities",11,0
+2016,"Nova Scotia","All municipalities",12,3.3
+2018,"Nova Scotia","All municipalities",12,3.8
+2020,"Nova Scotia","All municipalities",12,3.4
+2016,"New Brunswick","All municipalities",13,2
+2018,"New Brunswick","All municipalities",13,4
+2020,"New Brunswick","All municipalities",13,4.5
+2016,"Quebec","All municipalities",24,6.1
+2018,"Quebec","All municipalities",24,5.1
+2020,"Quebec","All municipalities",24,3.4
+2016,"Ontario","All municipalities",35,1.2
+2018,"Ontario","All municipalities",35,0.3
+2020,"Ontario","All municipalities",35,0
+2016,"Manitoba","All municipalities",46,0
+2018,"Manitoba","All municipalities",46,3.4
+2020,"Manitoba","All municipalities",46,5.2
+2016,"Saskatchewan","All municipalities",47,5.4
+2018,"Saskatchewan","All municipalities",47,2.9
+2020,"Saskatchewan","All municipalities",47,2.5
+2016,"Alberta","All municipalities",48,0
+2018,"Alberta","All municipalities",48,0.9
+2020,"Alberta","All municipalities",48,0
+2016,"British Columbia","All municipalities",59,3.3
+2018,"British Columbia","All municipalities",59,5
+2020,"British Columbia","All municipalities",59,2.7
+2016,"Yukon","All municipalities",60,
+2018,"Yukon","All municipalities",60,0
+2020,"Yukon","All municipalities",60,0
+2016,"Northwest Territories","All municipalities",61,
+2018,"Northwest Territories","All municipalities",61,0
+2020,"Northwest Territories","All municipalities",61,
+2016,"Nunavut","All municipalities",62,0
+2018,"Nunavut","All municipalities",62,0
+2020,"Nunavut","All municipalities",62,0
+2016,"Canada","All urban municipalities",,3.8
+2018,"Canada","All urban municipalities",,3.3
+2020,"Canada","All urban municipalities",,1.3
+2016,"Newfoundland and Labrador","All urban municipalities",10,19.2
+2018,"Newfoundland and Labrador","All urban municipalities",10,13.5
+2020,"Newfoundland and Labrador","All urban municipalities",10,
+2016,"Prince Edward Island","All urban municipalities",11,0
+2018,"Prince Edward Island","All urban municipalities",11,0
+2020,"Prince Edward Island","All urban municipalities",11,0
+2016,"Nova Scotia","All urban municipalities",12,11.1
+2018,"Nova Scotia","All urban municipalities",12,0
+2020,"Nova Scotia","All urban municipalities",12,0
+2016,"New Brunswick","All urban municipalities",13,0
+2018,"New Brunswick","All urban municipalities",13,0
+2020,"New Brunswick","All urban municipalities",13,0
+2016,"Quebec","All urban municipalities",24,3.8
+2018,"Quebec","All urban municipalities",24,1.9
+2020,"Quebec","All urban municipalities",24,1.9
+2016,"Ontario","All urban municipalities",35,2.8
+2018,"Ontario","All urban municipalities",35,0
+2020,"Ontario","All urban municipalities",35,0
+2016,"Manitoba","All urban municipalities",46,0
+2018,"Manitoba","All urban municipalities",46,0
+2020,"Manitoba","All urban municipalities",46,
+2016,"Saskatchewan","All urban municipalities",47,7.7
+2018,"Saskatchewan","All urban municipalities",47,3.1
+2020,"Saskatchewan","All urban municipalities",47,0
+2016,"Alberta","All urban municipalities",48,0
+2018,"Alberta","All urban municipalities",48,0.7
+2020,"Alberta","All urban municipalities",48,0
+2016,"British Columbia","All urban municipalities",59,1.6
+2018,"British Columbia","All urban municipalities",59,8.1
+2020,"British Columbia","All urban municipalities",59,2.2
+2016,"Yukon","All urban municipalities",60,
+2018,"Yukon","All urban municipalities",60,0
+2020,"Yukon","All urban municipalities",60,0
+2016,"Northwest Territories","All urban municipalities",61,
+2018,"Northwest Territories","All urban municipalities",61,0
+2020,"Northwest Territories","All urban municipalities",61,
+2016,"Nunavut","All urban municipalities",62,
+2018,"Nunavut","All urban municipalities",62,
+2020,"Nunavut","All urban municipalities",62,0
+2016,"Canada","All rural municipalities",,4.4
+2018,"Canada","All rural municipalities",,4.8
+2020,"Canada","All rural municipalities",,4.8
+2016,"Newfoundland and Labrador","All rural municipalities",10,19.4
+2018,"Newfoundland and Labrador","All rural municipalities",10,14.6
+2020,"Newfoundland and Labrador","All rural municipalities",10,20.5
+2016,"Prince Edward Island","All rural municipalities",11,
+2018,"Prince Edward Island","All rural municipalities",11,0
+2020,"Prince Edward Island","All rural municipalities",11,0
+2016,"Nova Scotia","All rural municipalities",12,0
+2018,"Nova Scotia","All rural municipalities",12,8
+2020,"Nova Scotia","All rural municipalities",12,9.1
+2016,"New Brunswick","All rural municipalities",13,3.6
+2018,"New Brunswick","All rural municipalities",13,5.5
+2020,"New Brunswick","All rural municipalities",13,7
+2016,"Quebec","All rural municipalities",24,7.2
+2018,"Quebec","All rural municipalities",24,5.6
+2020,"Quebec","All rural municipalities",24,3.8
+2016,"Ontario","All rural municipalities",35,0
+2018,"Ontario","All rural municipalities",35,0.5
+2020,"Ontario","All rural municipalities",35,0.5
+2016,"Manitoba","All rural municipalities",46,0
+2018,"Manitoba","All rural municipalities",46,4.3
+2020,"Manitoba","All rural municipalities",46,5.6
+2016,"Saskatchewan","All rural municipalities",47,3.3
+2018,"Saskatchewan","All rural municipalities",47,2.6
+2020,"Saskatchewan","All rural municipalities",47,2.9
+2016,"Alberta","All rural municipalities",48,0
+2018,"Alberta","All rural municipalities",48,1.6
+2020,"Alberta","All rural municipalities",48,0
+2016,"British Columbia","All rural municipalities",59,5.4
+2018,"British Columbia","All rural municipalities",59,1.9
+2020,"British Columbia","All rural municipalities",59,3.5
+2016,"Yukon","All rural municipalities",60,
+2018,"Yukon","All rural municipalities",60,0
+2020,"Yukon","All rural municipalities",60,0
+2016,"Northwest Territories","All rural municipalities",61,
+2018,"Northwest Territories","All rural municipalities",61,0
+2020,"Northwest Territories","All rural municipalities",61,0
+2016,"Nunavut","All rural municipalities",62,0
+2018,"Nunavut","All rural municipalities",62,0
+2020,"Nunavut","All rural municipalities",62,0
+2022,"","",,4.2
+2022,"Newfoundland and Labrador","All municipalities",10,11.6
+2022,"Prince Edward Island","All municipalities",11,0
+2022,"Nova Scotia","All municipalities",12,0
+2022,"New Brunswick","All municipalities",13,5.2
+2022,"Quebec","All municipalities",24,2.7
+2022,"Ontario","All municipalities",35,2.6
+2022,"Manitoba","All municipalities",46,8.5
+2022,"Saskatchewan","All municipalities",47,3.9
+2022,"Alberta","All municipalities",48,1.9
+2022,"British Columbia","All municipalities",59,5.5
+2022,"Yukon","All municipalities",60,0
+2022,"Northwest Territories","All municipalities",61,
+2022,"Nunavut","All municipalities",62,
+2022,"Canada","All urban municipalities",,2.6
+2022,"Newfoundland and Labrador","All urban municipalities",10,11.1
+2022,"Prince Edward Island","All urban municipalities",11,0
+2022,"Nova Scotia","All urban municipalities",12,0
+2022,"New Brunswick","All urban municipalities",13,0
+2022,"Quebec","All urban municipalities",24,1.2
+2022,"Ontario","All urban municipalities",35,0
+2022,"Manitoba","All urban municipalities",46,7.4
+2022,"Saskatchewan","All urban municipalities",47,1.6
+2022,"Alberta","All urban municipalities",48,1
+2022,"British Columbia","All urban municipalities",59,6.4
+2022,"Yukon","All urban municipalities",60,0
+2022,"Northwest Territories","All urban municipalities",61,0
+2022,"Nunavut","All urban municipalities",62,
+2022,"Canada","All rural municipalities",,4.8
+2022,"Newfoundland and Labrador","All rural municipalities",10,11.6
+2022,"Prince Edward Island","All rural municipalities",11,0
+2022,"Nova Scotia","All rural municipalities",12,0
+2022,"New Brunswick","All rural municipalities",13,9.1
+2022,"Quebec","All rural municipalities",24,3.2
+2022,"Ontario","All rural municipalities",35,3.9
+2022,"Manitoba","All rural municipalities",46,8.8
+2022,"Saskatchewan","All rural municipalities",47,4.3
+2022,"Alberta","All rural municipalities",48,2.4
+2022,"British Columbia","All rural municipalities",59,3.9
+2022,"Yukon","All rural municipalities",60,0
+2022,"Northwest Territories","All rural municipalities",61,
+2022,"Nunavut","All rural municipalities",62,
