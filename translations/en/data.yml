@@ -24,6 +24,7 @@ Both: Both
 Both sexes: Both sexes
 Total, all persons: Total, all persons
 Total - Gender: Total - Gender
+Total, gender: Total, gender
 #Non-binary: Non-binary
 
 ## Geo
@@ -125,6 +126,7 @@ Sherbrooke, Quebec: Sherbrooke, Quebec
 Barrie, Ontario: Barrie, Ontario
 Belleville, Ontario: Belleville, Ontario
 Belleville-Quinte West, Ontario: Belleville-Quinte West, Ontario
+Belleville - Quinte West, Ontario: Belleville - Quinte West, Ontario
 Brantford, Ontario: Brantford, Ontario
 Greater Sudbury, Ontario: Greater Sudbury, Ontario
 Greater Sudbury / Grand Sudbury, Ontario: Greater Sudbury, Ontario
@@ -775,6 +777,12 @@ Trades, transport and equipment operators and related occupations: Trades, trans
 Natural resources, agriculture and related production occupations: Natural resources, agriculture and related production occupations
 Occupations in manufacturing and utilities: Occupations in manufacturing and utilities
 
+## 6-2-1
+Type of municipality: Type of municipality
+All municipalities: All municipalities
+All urban municipalities: All urban municipalities
+All rural municipalities: All rural municipalities
+
 ## 6-3-1
 Growth rate: Growth rate
 Cubic metres: Cubic metres
@@ -1148,6 +1156,12 @@ Renter in social and affordable housing: Renter in social and affordable housing
 ## 11-4-1
 Demographic and geodemographic: Demographic and geodemographic
 Percentage of population within 500 metres of a public transit stop: Percentage of population within 500 metres of a public transit stop
+Location: Location
+Total, location: Total, location
+Urban: Urban
+Rural: Rural
+Demographic and socio-economic: Demographic and socio-economic
+Total - Age groups of the population - 100% data: Total - Age groups of the population - 100% data
 
 ## 11-5-1
 Type of commute: Main mode of commuting
@@ -1255,23 +1269,29 @@ Agriculture: Agriculture
 
 # 13-3-1
 Core public infrastructure assets: Core public infrastructure assets
-Bridges and tunnels: Bridges and tunnels
-Culture, recreation and sports facilities: Culture, recreation and sports facilities
-Potable water: Potable water
-Public transit: Public transit
+Public transit assets: Public transit assets
+Potable water assets: Potable water assets
+Stormwater assets: Stormwater assets
+Wastewater assets: Wastewater assets
+Solid waste assets: Solid waste assets
 Roads: Roads
-Solid waste: Solid waste
-Stormwater: Stormwater
-Wastewater: Wastewater
+Bridges and tunnels: Bridges and tunnels
+Social and affordable housing: Social and affordable housing
+Culture, recreation and sports facilities: Culture, recreation and sports facilities
+Shelters and homeless services assets: Shelters and homeless services assets
+Active transportation assets: Active transportation assets
 Type of municipality by population size: Type of municipality by population size
 All municipalities: All municipalities
 All urban municipalities: All urban municipalities
-Urban municipalities, population 1 to 4,999: Urban municipalities, population 1 to 4,999
-Urban municipalities, population 5,000 to 29,999: Urban municipalities, population 5,000 to 29,999
-Urban municipalities, population 30,000 or more: Urban municipalities, population 30,000 or more
+Urban municipalities, population less than 5000: Urban municipalities, population less than 5000
+Urban municipalities, population greater than 5000 to 30,000: Urban municipalities, population greater than 5000 to 30,000
+Urban municipalities, population greater than 30,000: Urban municipalities, population greater than 30,000
+Urban municipalities, population greater than 30,000 to 100,000: Urban municipalities, population greater than 30,000 to 100,000
+Urban municipalities, population greater than 100,000 to 200,000: Urban municipalities, population greater than 100,000 to 200,000
+Urban municipalities, population greater than 200,000: Urban municipalities, population greater than 200,000
 All rural municipalities: All rural municipalities
-Rural municipalities, population 1 to 4,999: Rural municipalities, population 1 to 4,999
-Rural municipalities, population 5,000 or more: Rural municipalities, population 5,000 or more
+Rural municipalities, population less than 5000: Rural municipalities, population less than 5000
+Rural municipalities, population greater than 5000: Rural municipalities, population greater than 5000
 
 ## 14-2-1
 Number of stocks: Number of stocks

@@ -89,7 +89,15 @@
   target: '85'
   target_year: '2030'
 11-4-1:
-  progress_status: not_available
+  base_value: '75.2'
+  base_year: '2023'
+  current_value: '74.6'
+  current_year: '2024'
+  direction: positive
+  progress_calculation_value: '-0.007978723404255428'
+  progress_status: deterioration
+  target: None
+  target_year: '2030'
 11-5-1:
   base_value: '19.3'
   base_year: '2016'
@@ -173,15 +181,7 @@
   target: None
   target_year: '2030'
 13-3-1:
-  base_value: '51.4'
-  base_year: '2018'
-  current_value: '58.5'
-  current_year: '2020'
-  direction: positive
-  progress_calculation_value: '0.06683283400907958'
-  progress_status: substantial_progress
-  target: None
-  target_year: '2030'
+  progress_status: not_available
 13-4-1:
   base_value: '895.7'
   base_year: '2018'
@@ -331,12 +331,12 @@
   target: None
   target_year: '2030'
 17-3-1:
-  base_value: '1035.33'
+  base_value: '1035.264'
   base_year: '2015'
-  current_value: '1254.43'
+  current_value: '1252.392'
   current_year: '2022'
   direction: positive
-  progress_calculation_value: '0.027802481498974796'
+  progress_calculation_value: '0.02757312894653552'
   progress_status: substantial_progress
   target: None
   target_year: '2030'
@@ -521,12 +521,12 @@
   target: '0.001'
   target_year: '2030'
 6-2-1:
-  base_value: '3.6'
+  base_value: '4.1'
   base_year: '2016'
-  current_value: '4.5'
-  current_year: '2018'
+  current_value: '4.2'
+  current_year: '2022'
   direction: negative
-  progress_calculation_value: '-0.1180339887498949'
+  progress_calculation_value: '-0.004024334571181898'
   progress_status: deterioration
   target: None
   target_year: '2030'
@@ -695,12 +695,12 @@
   target: None
   target_year: '2030'
 9-6-1:
-  base_value: '14571'
+  base_value: '14536'
   base_year: '2024'
-  current_value: '14857'
+  current_value: '14869'
   current_year: '2025'
   direction: positive
-  progress_calculation_value: '0.06372549019607825'
+  progress_calculation_value: '0.07362370108335205'
   progress_status: negligible_progress
   target: '19059'
   target_year: '2025'
