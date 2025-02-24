@@ -17,7 +17,7 @@ Raw_data <- get_cansim("25-10-0015-01", factors = FALSE) %>%
 # i.e. all months up to December are available
 if (substr(last(Raw_data$REF_DATE), 6, 7) != "12") {
   # If last year not complete, filter out last year
-  Raw_data <- filter(Raw_data, REF_DATE < as.numeric(substr(Sys.Date(), 1, 4)) - 1)
+  Raw_data <- filter(Raw_data, REF_DATE < substr(max(REF_DATE), 1, 4))
 }
 
 # load geocode
