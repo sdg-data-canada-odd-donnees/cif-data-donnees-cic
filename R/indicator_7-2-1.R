@@ -6,12 +6,19 @@ library(cansim)
 library(hablar)
 
 # load CODR table from stc api
-Raw_data <- 
-  get_cansim("25-10-0015-01", factors = FALSE) %>% 
+Raw_data <- get_cansim("25-10-0015-01", factors = FALSE) %>% 
   filter(
+    # Filter for reference years 2015 to current year - 1
     REF_DATE >= 2015 & REF_DATE < substr(Sys.Date(), 1, 4),
     `Class of electricity producer` == "Total all classes of electricity producer"
   )
+
+# Check if last year in raw data is complete
+# i.e. all months up to December are available
+if (substr(last(Raw_data$REF_DATE), 6, 7) != "12") {
+  # If last year not complete, filter out last year
+  Raw_data <- filter(Raw_data, REF_DATE < as.numeric(substr(Sys.Date(), 1, 4)) - 1)
+}
 
 # load geocode
 geocodes <- read.csv("geocodes.csv")
@@ -26,7 +33,7 @@ generation_types <- c(
   "Solar"
 )
 
-total_electricty <-
+total_electricity <-
   Raw_data %>%
   filter(
     `Type of electricity generation` == "Total all types of electricity generation"
@@ -60,7 +67,7 @@ total_renewable_electricity <-
 renewable <- 
   renewable_electricity %>% 
   bind_rows(total_renewable_electricity) %>% 
-  left_join(total_electricty) %>% 
+  left_join(total_electricity) %>% 
   mutate(Value = Renewable / Total * 100) %>% 
   mutate(
     Year = substr(Year, 1, 4)
