@@ -3,14 +3,22 @@
 # load libraries
 library(dplyr)
 library(cansim)
+library(hablar)
 
 # load CODR table from stc api
-Raw_data <- 
-  get_cansim("25-10-0015-01", factors = FALSE) %>% 
+Raw_data <- get_cansim("25-10-0015-01", factors = FALSE) %>% 
   filter(
+    # Filter for reference years 2015 to current year - 1
     REF_DATE >= 2015 & REF_DATE < substr(Sys.Date(), 1, 4),
     `Class of electricity producer` == "Total all classes of electricity producer"
   )
+
+# Check if last year in raw data is complete
+# i.e. all months up to December are available
+if (substr(last(Raw_data$REF_DATE), 6, 7) != "12") {
+  # If last year not complete, filter out last year
+  Raw_data <- filter(Raw_data, REF_DATE < substr(max(REF_DATE), 1, 4))
+}
 
 # load geocode
 geocodes <- read.csv("geocodes.csv")
@@ -25,7 +33,7 @@ generation_types <- c(
   "Solar"
 )
 
-total_electricty <-
+total_electricity <-
   Raw_data %>%
   filter(
     `Type of electricity generation` == "Total all types of electricity generation"
@@ -52,20 +60,20 @@ renewable_electricity <-
 total_renewable_electricity <-
   renewable_electricity %>% 
     group_by(Year, Geography) %>% 
-    summarise(Renewable = sum(Renewable), .groups = "drop") %>% 
+    summarise(Renewable = sum_(Renewable), .groups = "drop") %>% 
     mutate(`Type of electricity generation` = "Total renewable and non-greenhouse gas emitting sources")
 
 
 renewable <- 
   renewable_electricity %>% 
   bind_rows(total_renewable_electricity) %>% 
-  left_join(total_electricty) %>% 
-  mutate(Value = round((Renewable / Total)*100, digits = 3)) %>% 
+  left_join(total_electricity) %>% 
+  mutate(Value = Renewable / Total * 100) %>% 
   mutate(
     Year = substr(Year, 1, 4)
   ) %>% 
   group_by(Year, Geography, `Type of electricity generation`) %>% 
-  summarise(Value = mean(Value), .groups = "drop") %>% 
+  summarise(Value = round(mean_(Value), digits = 3), .groups = "drop") %>% 
   left_join(geocodes, by = "Geography") %>% 
   relocate(GeoCode, .before = Value)
 
@@ -85,13 +93,10 @@ non_total_line <-
       Geography == "Canada" &
         `Type of electricity generation` == "Total renewable and non-greenhouse gas emitting sources"
     )
-  ) %>%
-  mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+  )
 
 
-final_data <-
-  bind_rows(total_line, non_total_line) %>%
-  rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+final_data <- bind_rows(total_line, non_total_line)
 
 
 write.csv(final_data,

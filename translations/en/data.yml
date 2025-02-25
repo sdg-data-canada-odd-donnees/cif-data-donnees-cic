@@ -3,6 +3,7 @@ Year: Year
 Value: Value
 Total: Total
 Total population: Total population
+Population: Population
 
 ## Units
 Percentage: Percentage
@@ -23,6 +24,7 @@ Both: Both
 Both sexes: Both sexes
 Total, all persons: Total, all persons
 Total - Gender: Total - Gender
+Total, gender: Total, gender
 #Non-binary: Non-binary
 
 ## Geo
@@ -124,6 +126,7 @@ Sherbrooke, Quebec: Sherbrooke, Quebec
 Barrie, Ontario: Barrie, Ontario
 Belleville, Ontario: Belleville, Ontario
 Belleville-Quinte West, Ontario: Belleville-Quinte West, Ontario
+Belleville - Quinte West, Ontario: Belleville - Quinte West, Ontario
 Brantford, Ontario: Brantford, Ontario
 Greater Sudbury, Ontario: Greater Sudbury, Ontario
 Greater Sudbury / Grand Sudbury, Ontario: Greater Sudbury, Ontario
@@ -273,6 +276,8 @@ First Nations: First Nations
 First Nations (North American Indian): First Nations (North American Indian)
 Métis: Métis
 Inuk (Inuit): Inuk (Inuit)
+Inuit: Inuit
+Non-Inuit: Non-Inuit
 First Nations, Métis, or Inuit: First Nations, Métis, or Inuit
 
 ## Immigrant status
@@ -513,6 +518,22 @@ Risk of Water Contamination by Pesticides: Risk of Water Contamination by Pestic
 Agricultural Greenhouse gas: Agricultural Greenhouse gas
 Agricultural Ammonia Emissions: Agricultural Ammonia Emissions
 Agricultural Particulate Matter Emissions: Agricultural Particulate Matter Emissions
+
+## 3-1-1
+Aged 18 years and older: Aged 18 years and older
+Aged 12 to 17 years: Aged 12 to 17 years
+Household income: Household income
+Highest level of education: Highest level of education
+First quintile: First quintile
+Second quintile: Second quintile
+Third quintile: Third quintile
+Fourth quintile: Fourth quintile
+Fifth quintile: Fifth quintile
+Less than secondary school graduation: Less than secondary school graduation
+Secondary school graduation, no post-secondary education: Secondary school graduation, no post-secondary education
+Post-secondary certificate/diploma or university degree: Post-secondary certificate/diploma or university degree
+Admitted to Canada in the last 10 years: Admitted to Canada in the last 10 years
+Admitted to Canada more than 10 years ago: Admitted to Canada more than 10 years ago
 
 ## 3-2-1
 Grade: Grade
@@ -756,6 +777,12 @@ Trades, transport and equipment operators and related occupations: Trades, trans
 Natural resources, agriculture and related production occupations: Natural resources, agriculture and related production occupations
 Occupations in manufacturing and utilities: Occupations in manufacturing and utilities
 
+## 6-2-1
+Type of municipality: Type of municipality
+All municipalities: All municipalities
+All urban municipalities: All urban municipalities
+All rural municipalities: All rural municipalities
+
 ## 6-3-1
 Growth rate: Growth rate
 Cubic metres: Cubic metres
@@ -857,9 +884,6 @@ Terajoules: Terajoules
 Per capita: Per capita
 Primary electricity, hydro and nuclear: Primary electricity, hydro and nuclear
 Agriculture, fishing, hunting and trapping: Agriculture, fishing, hunting and trapping
-
-# 8-1-1
-Population: Population
 
 ## 8-2-1
 Employment rate: Employment rate
@@ -1132,6 +1156,12 @@ Renter in social and affordable housing: Renter in social and affordable housing
 ## 11-4-1
 Demographic and geodemographic: Demographic and geodemographic
 Percentage of population within 500 metres of a public transit stop: Percentage of population within 500 metres of a public transit stop
+Location: Location
+Total, location: Total, location
+Urban: Urban
+Rural: Rural
+Demographic and socio-economic: Demographic and socio-economic
+Total - Age groups of the population - 100% data: Total - Age groups of the population - 100% data
 
 ## 11-5-1
 Type of commute: Main mode of commuting
@@ -1239,23 +1269,29 @@ Agriculture: Agriculture
 
 # 13-3-1
 Core public infrastructure assets: Core public infrastructure assets
-Bridges and tunnels: Bridges and tunnels
-Culture, recreation and sports facilities: Culture, recreation and sports facilities
-Potable water: Potable water
-Public transit: Public transit
+Public transit assets: Public transit assets
+Potable water assets: Potable water assets
+Stormwater assets: Stormwater assets
+Wastewater assets: Wastewater assets
+Solid waste assets: Solid waste assets
 Roads: Roads
-Solid waste: Solid waste
-Stormwater: Stormwater
-Wastewater: Wastewater
+Bridges and tunnels: Bridges and tunnels
+Social and affordable housing: Social and affordable housing
+Culture, recreation and sports facilities: Culture, recreation and sports facilities
+Shelters and homeless services assets: Shelters and homeless services assets
+Active transportation assets: Active transportation assets
 Type of municipality by population size: Type of municipality by population size
 All municipalities: All municipalities
 All urban municipalities: All urban municipalities
-Urban municipalities, population 1 to 4,999: Urban municipalities, population 1 to 4,999
-Urban municipalities, population 5,000 to 29,999: Urban municipalities, population 5,000 to 29,999
-Urban municipalities, population 30,000 or more: Urban municipalities, population 30,000 or more
+Urban municipalities, population less than 5000: Urban municipalities, population less than 5000
+Urban municipalities, population greater than 5000 to 30,000: Urban municipalities, population greater than 5000 to 30,000
+Urban municipalities, population greater than 30,000: Urban municipalities, population greater than 30,000
+Urban municipalities, population greater than 30,000 to 100,000: Urban municipalities, population greater than 30,000 to 100,000
+Urban municipalities, population greater than 100,000 to 200,000: Urban municipalities, population greater than 100,000 to 200,000
+Urban municipalities, population greater than 200,000: Urban municipalities, population greater than 200,000
 All rural municipalities: All rural municipalities
-Rural municipalities, population 1 to 4,999: Rural municipalities, population 1 to 4,999
-Rural municipalities, population 5,000 or more: Rural municipalities, population 5,000 or more
+Rural municipalities, population less than 5000: Rural municipalities, population less than 5000
+Rural municipalities, population greater than 5000: Rural municipalities, population greater than 5000
 
 ## 14-2-1
 Number of stocks: Number of stocks
