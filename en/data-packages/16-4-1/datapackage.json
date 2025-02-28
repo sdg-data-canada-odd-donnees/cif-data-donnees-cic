@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -37,7 +37,7 @@
             "title": "Geography"
           },
           {
-            "name": "data.Type of case",
+            "name": "Type of case",
             "type": "string",
             "constraints": {
               "enum": [
@@ -50,7 +50,7 @@
             "title": "Type of case"
           },
           {
-            "name": "data.Elapsed time",
+            "name": "Elapsed time",
             "type": "string",
             "constraints": {
               "enum": [
@@ -64,6 +64,11 @@
               ]
             },
             "title": "Number of months"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
           },
           {
             "name": "GeoCode",

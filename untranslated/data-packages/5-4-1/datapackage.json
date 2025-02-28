@@ -59,6 +59,10 @@
             }
           },
           {
+            "name": "Progress",
+            "type": "string"
+          },
+          {
             "name": "GeoCode",
             "type": "string"
           },

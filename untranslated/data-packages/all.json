@@ -989,6 +989,10 @@
             }
           },
           {
+            "name": "Progress",
+            "type": "string"
+          },
+          {
             "name": "Value",
             "type": "number"
           }
@@ -3452,6 +3456,10 @@
             }
           },
           {
+            "name": "Progress",
+            "type": "string"
+          },
+          {
             "name": "GeoCode",
             "type": "string"
           },
@@ -4236,51 +4244,55 @@
             "type": "string"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.New Brunswick",
-                "data.Ontario",
-                "data.Saskatchewan",
-                "data.Alberta",
-                "data.British Columbia",
-                "data.Yukon",
-                "data.Northwest Territories",
-                "data.Nunavut",
+                "Canada",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Ontario",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             }
           },
           {
-            "name": "data.Type of case",
+            "name": "Type of case",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Total cases",
-                "data.General civil cases",
-                "data.Family cases",
+                "Total cases",
+                "General civil cases",
+                "Family cases",
                 ""
               ]
             }
           },
           {
-            "name": "data.Elapsed time",
+            "name": "Elapsed time",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Less than or equal to 3 months",
-                "data.Greater than 3 months to 6 months",
-                "data.Greater than 6 months to 12 months",
-                "data.Greater than 12 months to 24 months",
-                "data.Greater than 24 months",
-                "data.Unknown",
+                "Less than or equal to 3 months",
+                "Greater than 3 months to 6 months",
+                "Greater than 6 months to 12 months",
+                "Greater than 12 months to 24 months",
+                "Greater than 24 months",
+                "Unknown",
                 ""
               ]
             }
+          },
+          {
+            "name": "Progress",
+            "type": "string"
           },
           {
             "name": "GeoCode",

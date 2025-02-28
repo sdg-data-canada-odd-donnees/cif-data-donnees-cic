@@ -1064,6 +1064,11 @@
             "title": "Système"
           },
           {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"
@@ -3706,6 +3711,11 @@
             "title": "Genre"
           },
           {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
@@ -4547,7 +4557,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4568,7 +4578,7 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Type of case",
+            "name": "Type of case",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4581,7 +4591,7 @@
             "title": "Type de cause"
           },
           {
-            "name": "data.Elapsed time",
+            "name": "Elapsed time",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4595,6 +4605,11 @@
               ]
             },
             "title": "Nombre de mois"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
           },
           {
             "name": "GeoCode",

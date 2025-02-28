@@ -54,6 +54,11 @@
             "title": "System"
           },
           {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

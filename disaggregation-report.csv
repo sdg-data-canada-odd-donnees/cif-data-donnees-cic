@@ -11,9 +11,8 @@ data.Asset,1,13
 data.Characteristics,1,11
 data.Economic family type,1,20
 data.Educational attainment level,1,5
-data.Elapsed time,1,6
 data.Gender,1,3
-data.Geography,20,68
+data.Geography,19,68
 data.Index,1,4
 data.Institutions,1,8
 data.Land use category,1,8
@@ -29,7 +28,6 @@ data.Sex,4,7
 data.Sources of waste for disposal,1,3
 data.Species group,1,52
 data.Statistics,1,3
-data.Type of case,1,3
 data.Type of commute,1,3
 data.Type of perpetrator,1,3
 data.Violations,1,14
@@ -42,12 +40,13 @@ Economic family type,1,20
 Education level of parent or legal guardian,1,7
 Education level of parent's or legal guardian's spouse,1,7
 Educational attainment,1,4
+Elapsed time,1,6
 Enterprise size,1,4
 Environmental protection activities or management practices,1,7
 Gender,8,10
 Generation,1,4
 Geographic location,1,7
-Geography,38,146
+Geography,39,146
 Goods and services (products),1,3
 Highest degree earned,1,4
 Highest level of education,6,3
@@ -93,6 +92,7 @@ Target population,1,5
 Tenure,1,7
 Trend,1,2
 Type of beverage,1,5
+Type of case,1,3
 Type of charging or fuelling stations,1,8
 Type of electricity generation,1,7
 Type of household,1,2
