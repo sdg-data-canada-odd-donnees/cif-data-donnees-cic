@@ -39,10 +39,29 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r scripts/requirements.txt
     - name: Build data
-      env: 
-        ELECTRIC_CHARGING_STATIONS: ${{ secrets.ELECTRIC_CHARGING_STATIONS }}
       run: |
         python scripts/build_data.py
+    - name: Check if there are any changes to files
+      id: verify_diff
+      run: |
+        if [[ `git status -s` ]]; then
+          echo "DIFF=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "DIFF=false" >> "$GITHUB_OUTPUT"
+        fi
+    - name: Commit files
+      if: steps.verify_diff.outputs.DIFF == 'true'
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add .
+        git commit -m "Add new progress measure updates"
+    - name: Push changes
+      if: steps.verify_diff.outputs.DIFF == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: ${{ github.ref }}
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
