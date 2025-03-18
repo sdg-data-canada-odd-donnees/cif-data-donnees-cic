@@ -223,18 +223,18 @@
   12-1-1:
     base_value: 0.37
     base_year: 2015.0
-    current_value: 13.47
+    current_value: 14.63
     current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 1.2155822776424685
-    score: 4.397082650972388
+    progress_value: 1.249622415033452
+    score: 4.640227948342444
     sign: 1
     status: substantial_progress
     target: 60.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 4.397082650972388
+  score: 4.640227948342444
 12-2-1:
   12-2-1:
     base_value: 90.3
@@ -271,18 +271,18 @@
   12-4-1:
     base_value: 0.83
     base_year: 2015.0
-    current_value: 0.82
-    current_year: 2020.0
+    current_value: 0.81
+    current_year: 2021.0
     direction: -1
     limit: null
-    progress_value: 0.0024213359320204297
-    score: -1.2893320339897851
+    progress_value: 0.004056990276131822
+    score: -0.4715048619340889
     sign: 1
     status: limited_progress
     target: null
     target_year: 2030.0
   progress_status: limited_progress
-  score: -1.2893320339897851
+  score: -0.4715048619340889
 13-1-1:
   progress_status: not_available
   score: null
@@ -1731,13 +1731,13 @@
   score: 5.0
 9-5-1:
   9-5-1:
-    base_value: 0.2393
+    base_value: 0.242
     base_year: 2015.0
-    current_value: 0.1676
-    current_year: 2023.0
+    current_value: 0.1647
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.043540875877620455
+    progress_value: 0.04185571219268347
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -1747,29 +1747,29 @@
   score: 5.0
 9-6-1:
   9-6-1:
-    base_value: 712.0
+    base_value: 707.0
     base_year: 2015.0
-    current_value: 15113.0
+    current_value: 15139.0
     current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 1.1775159587321884
-    score: 4.125178741628147
+    progress_value: 1.1790586997355759
+    score: 4.1361983863412455
     sign: 1
     status: substantial_progress
     target: 37929.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 4.125178741628147
+  score: 4.1361983863412455
 9-7-1:
   9-7-1:
-    base_value: 58.0
+    base_value: 58.2
     base_year: 2015.0
-    current_value: 59.4
-    current_year: 2023.0
+    current_value: 59.3
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.3032590318192592
+    progress_value: 0.20674954164419648
     score: 5.0
     sign: 1
     status: target_achieved
