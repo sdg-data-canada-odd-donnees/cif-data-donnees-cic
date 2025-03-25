@@ -3,6 +3,7 @@
 # load libraries
 library(dplyr)
 library(cansim)
+library(tidyr)
 
 # load CODR table from stc api
 raw_data_2015 <- get_cansim("45-10-0014-01", factors = FALSE) #archived and inactive
@@ -55,5 +56,19 @@ domestic_care <- bind_rows(filtered_2015, filtered_2022) %>%
 
 domestic_care$GeoCode <- as.integer(domestic_care$GeoCode)
 
-write.csv(domestic_care, "data/indicator_5-4-1.csv",
+progress <- domestic_care %>%
+  filter(
+    Gender != "Total, all persons"
+  ) %>%
+  pivot_wider(names_from = "Gender", values_from = "Value") %>%
+  mutate(
+    Progress = `Women+` / `Men+`,
+    Gender = "Total, all persons"
+  ) %>%
+  select(-`Men+`, -`Women+`)
+
+domestic_care_with_progress <- left_join(domestic_care, progress) %>%
+  relocate(Progress, .before = GeoCode)
+
+write.csv(domestic_care_with_progress, "data/indicator_5-4-1.csv",
           na = "", row.names = FALSE, fileEncoding = "UTF-8")

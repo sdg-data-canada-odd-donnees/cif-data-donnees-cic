@@ -127,10 +127,20 @@ data_final <-
     `Species group`,
     `System`,
     Value
-  )
+  ) %>%
+  mutate_at("Value", as.numeric)
+
+data_final_with_progress <- data_final %>%
+  mutate(
+    # Percent change since 1970 values are not valid for the progress calculation because they can be positive and negative.
+    # Choose 1970 value to be 1 and use percent change since 1970 values to calculate a valid apparent value for each year.
+    # The apparent values can be used for the progress calculation as they are all positive.
+    Progress = 1*(1+Value/100)
+  ) %>%
+  relocate(Progress, .before = "Value")
 
 # Write data to csv
-write.csv(data_final,
+write.csv(data_final_with_progress,
           "data/indicator_15-3-1.csv",
           na = "",
           row.names = FALSE,
