@@ -631,18 +631,18 @@
   16-4-1 / Canada / Total cases / Less than or equal to 3 months:
     base_value: 71.32
     base_year: 2015.0
-    current_value: 62.94
-    current_year: 2022.0
+    current_value: 65.38
+    current_year: 2023.0
     direction: 1
     limit: null
-    progress_value: -0.01769793341396486
-    score: -4.712241676745608
+    progress_value: -0.010811183463488527
+    score: -3.8513979329360657
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -4.712241676745608
+  score: -3.8513979329360657
 16-5-1:
   16-5-1 / Adult criminal courts:
     base_value: 126.0
@@ -1747,20 +1747,20 @@
   score: 5.0
 9-6-1:
   9-6-1:
-    base_value: 707.0
+    base_value: 695.0
     base_year: 2015.0
-    current_value: 15139.0
+    current_value: 15205.0
     current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 1.1790586997355759
-    score: 4.1361983863412455
+    progress_value: 1.1828679063554524
+    score: 4.16340716830636
     sign: 1
     status: substantial_progress
     target: 37929.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 4.1361983863412455
+  score: 4.16340716830636
 9-7-1:
   9-7-1:
     base_value: 58.2
