@@ -125,11 +125,11 @@ update_sdg_data <- function() {
     # get data that's currently available in data hub
     current_data <- read_hub_data(indicator)
     
-    # get codr table(s) from automation file 
+    # get codr table(s) from automation file
     # codr_tbls <- get_codr_table(indicator)
     
     # check if new data is available for codr table
-      required_updates <- c(required_updates, indicator)  
+    required_updates <- c(required_updates, indicator)
 
   }
   
@@ -139,19 +139,18 @@ update_sdg_data <- function() {
                  paste0(required_updates, collapse = ", ")))
     
     for (indicator in required_updates) {
-      
-      source(file.path("R", paste0("indicator_", indicator, ".R")))
-      print(paste0("indicator ", indicator, " has been updated"))
-      
+      tryCatch(
+        {
+          source(file.path("R", paste0("indicator_", indicator, ".R")))
+          print(paste0("indicator ", indicator, " has been updated"))
+        },
+        error = function(e) {
+          message("An error occured while updating ", indicator)
+          print(e)
+        }
+      )
     }
-    
-    # quit(status = 0)
-    
   }
-  
 }
 
 update_sdg_data()
-
-
-
