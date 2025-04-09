@@ -138,7 +138,7 @@ update_sdg_data <- function() {
     print(paste0("data to be updated:",
                  paste0(required_updates, collapse = ", ")))
     
-    errors <- c() # keep running list of indicators that failed to update due to error
+    caught_errors <<- c() # keep running list of indicators that failed to update due to error
     
     for (indicator in required_updates) {
       # try running the automation script for each indicator
@@ -150,14 +150,14 @@ update_sdg_data <- function() {
         },
         error = function(e) {
           message("An error occured while updating ", indicator)
-          errors <- c(errors, indicator)
+          caught_errors <<- c(caught_errors, indicator)
           print(e)
         }
       )
     }
     # print list of indicators that were skipped to due error
-    if (length(errors) > 0) {
-      message("!!! INDICATORS SKIPPED DUE TO ERROR: ", paste(errors, collapse = ", "))
+    if (length(caught_errors) > 0) {
+      message("!!! INDICATORS SKIPPED DUE TO ERROR: ", paste(caught_errors, collapse = ", "))
     }
     
   }
