@@ -34,18 +34,18 @@
   1-3-1:
     base_value: 178.2
     base_year: 2015.0
-    current_value: 175.0
-    current_year: 2023.0
+    current_value: 169.7
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.0022625043091815122
-    score: -1.3687478454092439
+    progress_value: 0.005415764117429278
+    score: 0.10394102935731953
     sign: 1
-    status: limited_progress
+    status: moderate_progress
     target: null
     target_year: 2030.0
-  progress_status: limited_progress
-  score: -1.3687478454092439
+  progress_status: moderate_progress
+  score: 0.10394102935731953
 1-4-1:
   1-4-1:
     base_value: 66700.0
@@ -631,18 +631,18 @@
   16-4-1 / Canada / Total cases / Less than or equal to 3 months:
     base_value: 71.32
     base_year: 2015.0
-    current_value: 62.94
-    current_year: 2022.0
+    current_value: 65.38
+    current_year: 2023.0
     direction: 1
     limit: null
-    progress_value: -0.01769793341396486
-    score: -4.712241676745608
+    progress_value: -0.010811183463488527
+    score: -3.8513979329360657
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -4.712241676745608
+  score: -3.8513979329360657
 16-5-1:
   16-5-1 / Adult criminal courts:
     base_value: 126.0
@@ -1747,20 +1747,20 @@
   score: 5.0
 9-6-1:
   9-6-1:
-    base_value: 707.0
+    base_value: 695.0
     base_year: 2015.0
-    current_value: 15139.0
+    current_value: 15245.0
     current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 1.1790586997355759
-    score: 4.1361983863412455
+    progress_value: 1.1840386288199638
+    score: 4.171769521798119
     sign: 1
     status: substantial_progress
     target: 37929.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 4.1361983863412455
+  score: 4.171769521798119
 9-7-1:
   9-7-1:
     base_value: 58.2

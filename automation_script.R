@@ -125,11 +125,11 @@ update_sdg_data <- function() {
     # get data that's currently available in data hub
     current_data <- read_hub_data(indicator)
     
-    # get codr table(s) from automation file 
+    # get codr table(s) from automation file
     # codr_tbls <- get_codr_table(indicator)
     
     # check if new data is available for codr table
-      required_updates <- c(required_updates, indicator)  
+    required_updates <- c(required_updates, indicator)
 
   }
   
@@ -138,20 +138,29 @@ update_sdg_data <- function() {
     print(paste0("data to be updated:",
                  paste0(required_updates, collapse = ", ")))
     
+    caught_errors <<- c() # keep running list of indicators that failed to update due to error
+    
     for (indicator in required_updates) {
-      
-      source(file.path("R", paste0("indicator_", indicator, ".R")))
-      print(paste0("indicator ", indicator, " has been updated"))
-      
+      # try running the automation script for each indicator
+      # if an error is encountered, record the indicator number and skip to the next one
+      tryCatch(
+        {
+          source(file.path("R", paste0("indicator_", indicator, ".R")))
+          print(paste0("indicator ", indicator, " has been updated"))
+        },
+        error = function(e) {
+          message("An error occured while updating ", indicator)
+          caught_errors <<- c(caught_errors, indicator)
+          print(e)
+        }
+      )
+    }
+    # print list of indicators that were skipped to due error
+    if (length(caught_errors) > 0) {
+      message("!!! INDICATORS SKIPPED DUE TO ERROR: ", paste(caught_errors, collapse = ", "))
     }
     
-    # quit(status = 0)
-    
   }
-  
 }
 
 update_sdg_data()
-
-
-

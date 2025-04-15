@@ -86,7 +86,7 @@ hs_completion_2016_all <- hs_completion_2016 %>%
 
 # 2021 high school completion data from CODR table
 
-connection <- get_cansim_sqlite("98-10-0420-01")
+connection <- get_cansim_connection("98-10-0420-01", format='sqlite')
 
 raw_data_2021 <- connection %>%
   filter(`Age (15A)` %in% age_groups,

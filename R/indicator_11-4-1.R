@@ -36,7 +36,7 @@ demographics <- c(
 )
 
 # Connect to large CODR table
-connection <- get_cansim_sqlite("23-10-0313-01")
+connection <- get_cansim_connection("23-10-0313-01", format='sqlite')
 data <- connection %>%
   filter(
     `Demographic and socio-economic` %in% demographics,

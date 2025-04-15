@@ -3,7 +3,7 @@
 library(dplyr)
 library(cansim)
 
-connection <- get_cansim_sqlite("13-10-0156-01")
+connection <- get_cansim_connection("13-10-0156-01", format='sqlite')
 
 data <- connection %>%
   filter(`Cause of death (ICD-10)` == "Exposure to excessive natural heat [X30]") %>%
