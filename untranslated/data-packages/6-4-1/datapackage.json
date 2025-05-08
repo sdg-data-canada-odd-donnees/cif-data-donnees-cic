@@ -19,55 +19,54 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Percentage",
-                "data.Number of sites",
+                "Percentage",
+                "Number of sites",
                 ""
               ]
             }
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.Atlantic Ocean",
-                "data.Great Lakes and St. Lawrence River",
-                "data.Hudson Bay",
-                "data.Mackenzie River",
-                "data.Pacific Ocean",
+                "Canada",
+                "Atlantic Ocean",
+                "Great Lakes and St. Lawrence River",
+                "Hudson Bay",
+                "Mackenzie River",
+                "Pacific Ocean",
                 ""
               ]
             }
           },
           {
-            "name": "data.Land use category",
+            "name": "Land use category",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Agriculture",
-                "data.Forestry",
-                "data.Mining",
-                "data.Populated",
-                "data.Mixed pressures",
-                "data.Undeveloped",
-                "data.Total",
-                "data.Mixed Pressures",
+                "Agriculture",
+                "Forestry",
+                "Mining",
+                "Populated",
+                "Mixed pressures",
+                "Undeveloped",
+                "Total",
+                "Mixed Pressures",
                 ""
               ]
             }
           },
           {
-            "name": "data.Water quality",
+            "name": "Water quality",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Excellent",
-                "data.Good",
-                "data.Fair",
-                "data.Marginal",
-                "data.Poor",
-                "data.Total",
+                "Excellent",
+                "Good",
+                "Fair",
+                "Marginal",
+                "Poor",
                 ""
               ]
             }

@@ -28,7 +28,7 @@
             "title": "Units"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -44,7 +44,7 @@
             "title": "Geography"
           },
           {
-            "name": "data.Land use category",
+            "name": "Land use category",
             "type": "string",
             "constraints": {
               "enum": [
@@ -55,14 +55,14 @@
                 "Mixed pressures",
                 "Undeveloped",
                 "Total",
-                "data.Mixed Pressures",
+                "Mixed Pressures",
                 ""
               ]
             },
             "title": "Land use category"
           },
           {
-            "name": "data.Water quality",
+            "name": "Water quality",
             "type": "string",
             "constraints": {
               "enum": [
@@ -71,7 +71,6 @@
                 "Fair",
                 "Marginal",
                 "Poor",
-                "Total",
                 ""
               ]
             },

@@ -28,13 +28,13 @@
             "title": "Unités"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
                 "Canada",
                 "Océan Atlantique",
-                "data.Great Lakes and St. Lawrence River",
+                "Grands Lacs et fleuve Saint-Laurent",
                 "Baie d'Hudson",
                 "Fleuve Mackenzie",
                 "Océan Pacifique",
@@ -44,7 +44,7 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Land use category",
+            "name": "Land use category",
             "type": "string",
             "constraints": {
               "enum": [
@@ -55,14 +55,14 @@
                 "Pressions mixtes",
                 "Non aménagés",
                 "Total",
-                "data.Mixed Pressures",
+                "Mixed Pressures",
                 ""
               ]
             },
             "title": "Catégorie d'utilisation des sols"
           },
           {
-            "name": "data.Water quality",
+            "name": "Water quality",
             "type": "string",
             "constraints": {
               "enum": [
@@ -71,7 +71,6 @@
                 "Satisfaisante",
                 "Douteuse",
                 "Mauvaise",
-                "Total",
                 ""
               ]
             },
