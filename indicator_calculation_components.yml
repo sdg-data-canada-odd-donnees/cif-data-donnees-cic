@@ -130,18 +130,18 @@
   11-3-1:
     base_value: 63.0
     base_year: 2005.0
-    current_value: 85.0
-    current_year: 2019.0
+    current_value: 74.0
+    current_year: 2020.0
     direction: 1
     limit: null
-    progress_value: 1.7941623827186668
-    score: 5.0
+    progress_value: 0.8949392974311927
+    score: 2.106761907621266
     sign: 1
-    status: target_achieved
+    status: moderate_progress
     target: 85.0
     target_year: 2030.0
-  progress_status: target_achieved
-  score: 5.0
+  progress_status: moderate_progress
+  score: 2.106761907621266
 11-4-1:
   11-4-1:
     base_value: 75.2
@@ -546,20 +546,20 @@
   score: -2.8669253254527938
 15-4-1:
   15-4-1:
-    base_value: 10.2
+    base_value: 10.1
     base_year: 2015.0
     current_value: 13.7
     current_year: 2023.0
     direction: 1
     limit: null
-    progress_value: 0.5037459518252861
-    score: -0.40104174252958025
+    progress_value: 0.5160064971944834
+    score: -0.34995572813974585
     sign: 1
     status: limited_progress
     target: 30.0
     target_year: 2030.0
   progress_status: limited_progress
-  score: -0.40104174252958025
+  score: -0.34995572813974585
 15-5-1:
   15-5-1:
     base_value: 70.0
@@ -743,11 +743,11 @@
   2-1-1:
     base_value: 11.6
     base_year: 2018.0
-    current_value: 16.9
-    current_year: 2022.0
+    current_value: 19.1
+    current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: -0.09864448214644805
+    progress_value: -0.10487990674870318
     score: -5.0
     sign: 1
     status: deterioration
@@ -1747,20 +1747,20 @@
   score: 5.0
 9-6-1:
   9-6-1:
-    base_value: 695.0
+    base_value: 694.0
     base_year: 2015.0
-    current_value: 15168.0
+    current_value: 15315.0
     current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 1.1817825176427423
-    score: 4.155654345270344
+    progress_value: 1.1862362595892308
+    score: 4.187466978619916
     sign: 1
     status: substantial_progress
     target: 37929.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 4.155654345270344
+  score: 4.187466978619916
 9-7-1:
   9-7-1:
     base_value: 58.2
