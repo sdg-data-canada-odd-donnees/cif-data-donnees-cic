@@ -15,14 +15,14 @@
             "type": "integer"
           },
           {
-            "name": "data.Index",
+            "name": "Index",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Biodiversity",
-                "data.Soil Quality",
-                "data.Water Quality",
-                "data.Air Quality",
+                "Biodiversity",
+                "Soil Quality",
+                "Water Quality",
+                "Air Quality",
                 ""
               ]
             }
