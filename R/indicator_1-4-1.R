@@ -45,14 +45,12 @@ non_total <-
       Geography == "Canada" &
         `Economic family type` == "Economic families and persons not in an economic family"
     )
-  ) %>%
-  mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
-
+  )
+  
 
 # Format the final table and write the csv
 final_data <-
-  bind_rows(total, non_total) %>%
-  rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
+  bind_rows(total, non_total)
 
 
 write.csv(final_data,
