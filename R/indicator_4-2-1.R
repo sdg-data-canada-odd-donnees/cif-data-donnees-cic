@@ -84,7 +84,7 @@ final_indg <-
   bind_rows(indg_pop1, total_indg_pop) %>% 
   mutate(
     `Age group` = "Total, 25 to 64 years",
-    Sex = "Both sexes"
+    Gender = "Total - Gender"
   )
 
 
