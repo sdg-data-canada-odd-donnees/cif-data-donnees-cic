@@ -25,15 +25,15 @@ Total_pop <-
   Raw_data %>% 
   filter(
     REF_DATE >= 2010,
-    `Educational attainment level` %in% selected_education,
+    `Education attainment level` %in% selected_education,
     !(GEO == "Organisation for Economic Co-operation and Development (OECD) - average")
   ) %>% 
   select(
     Year = REF_DATE,
     Geography = GEO,
-    `Educational attainment level`,
+    `Education attainment level`,
     `Age group`,
-    Sex,
+    Gender,
     Value = VALUE
   ) %>% 
   mutate(`Population characteristics` = "Total population") %>% 
@@ -45,21 +45,21 @@ indg_pop1 <-
   Raw_data2 %>%
   mutate(
     `Educational attainment level` = ifelse(
-      `Educational attainment level` == "College",
+      `Educational attainment` == "College",
       "Short-cycle tertiary",
-      `Educational attainment level`
+      `Educational attainment`
     )
   ) %>%
   filter(
     REF_DATE >= 2010,
-    `Population characteristics` == "Off-reserve Indigenous  population",
-    `Educational attainment level` %in% c("Short-cycle tertiary", "University")
+    `Characteristics of the Indigenous group aged 25 to 64` == "Indigenous peoples",
+    `Educational attainment` %in% c("Short-cycle tertiary", "University")
   ) %>%
   select(
     Year = REF_DATE,
     Geography = GEO,
-    `Population characteristics`,
-    `Educational attainment level`,
+    `Population characteristics` = `Characteristics of the Indigenous group aged 25 to 64`,
+    `Education attainment level` = `Educational attainment`,
     Value = VALUE
   ) %>% 
   mutate(
@@ -76,7 +76,7 @@ total_indg_pop <-
     `Population characteristics`
   ) %>% 
   summarise(Value = sum(Value, na.rm = TRUE)) %>%
-  mutate(`Educational attainment level` = "Tertiary education")
+  mutate(`Education attainment level` = "Tertiary education")
 
 
 # Bind the total to the total population dataframe 
@@ -101,9 +101,9 @@ total_line <-
   filter(
     Geography == "Canada",
     `Population characteristics` == "Total population",
-    `Educational attainment level` == "Tertiary education",
+    `Education attainment level` == "Tertiary education",
     `Age group` == "Total, 25 to 64 years",
-    Sex == "Both sexes"
+    Gender == "Total - Gender"
   ) %>%
   mutate_at(2:6, ~ "")
 
@@ -114,18 +114,16 @@ non_total_line <-
     !(
       Geography == "Canada" &
         `Population characteristics` == "Total population" &
-        `Educational attainment level` == "Tertiary education" &
+        `Education attainment level` == "Tertiary education" &
         `Age group` == "Total, 25 to 64 years" &
-        Sex == "Both sexes"
+        Gender == "Total - Gender"
     )
-  ) %>%
-  mutate_at(2:6, ~ paste0("data.", .x)) 
+  )
 
 
 # Bind and format all the total and non-total together 
 final_data <- 
-  bind_rows(total_line, non_total_line) %>% 
-  rename_at(2:6, ~ paste0("data.", .x)) 
+  bind_rows(total_line, non_total_line)
 
 
 write.csv(
@@ -135,10 +133,3 @@ write.csv(
   row.names = FALSE,
   fileEncoding = "UTF-8"
 )
-
-
-
-
-
-
-
