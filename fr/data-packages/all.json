@@ -2287,17 +2287,6 @@
             "title": "GeoCode"
           },
           {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Les deux sexes",
-                ""
-              ]
-            },
-            "title": "Sexe"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Valeur"

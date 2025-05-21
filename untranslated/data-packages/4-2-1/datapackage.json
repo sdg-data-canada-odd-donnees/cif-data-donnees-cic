@@ -94,16 +94,6 @@
             "type": "string"
           },
           {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Both sexes",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "number"
           }
