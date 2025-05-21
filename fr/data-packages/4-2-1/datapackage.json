@@ -16,7 +16,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -40,7 +40,7 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Population characteristics",
+            "name": "Population characteristics",
             "type": "string",
             "constraints": {
               "enum": [
@@ -52,7 +52,7 @@
             "title": "Caractéristiques de la population"
           },
           {
-            "name": "data.Educational attainment level",
+            "name": "Education attainment level",
             "type": "string",
             "constraints": {
               "enum": [
@@ -64,10 +64,10 @@
                 ""
               ]
             },
-            "title": "Niveau de scolarité"
+            "title": "Education attainment level"
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -83,22 +83,33 @@
             "title": "Groupe d'âge"
           },
           {
-            "name": "data.Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Homme",
-                "Femme",
-                "Les deux sexes",
+                "Hommes+",
+                "Femmes+",
+                "Total - Genre",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Genre"
           },
           {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Les deux sexes",
+                ""
+              ]
+            },
+            "title": "Sexe"
           },
           {
             "name": "Value",

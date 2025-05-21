@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
@@ -40,7 +40,7 @@
             "title": "Geography"
           },
           {
-            "name": "data.Population characteristics",
+            "name": "Population characteristics",
             "type": "string",
             "constraints": {
               "enum": [
@@ -52,7 +52,7 @@
             "title": "Population characteristics"
           },
           {
-            "name": "data.Educational attainment level",
+            "name": "Education attainment level",
             "type": "string",
             "constraints": {
               "enum": [
@@ -64,10 +64,10 @@
                 ""
               ]
             },
-            "title": "Educational attainment level"
+            "title": "Education attainment level"
           },
           {
-            "name": "data.Age group",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -83,22 +83,33 @@
             "title": "Age group"
           },
           {
-            "name": "data.Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
-                "Both sexes",
+                "Men+",
+                "Women+",
+                "Total - Gender",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Gender"
           },
           {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Both sexes",
+                ""
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "Value",
