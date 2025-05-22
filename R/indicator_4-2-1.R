@@ -96,8 +96,8 @@ all_characteristics <-
     Geography,
     `Education attainment level`,
     Gender,
-    `Population characteristics`,
     `Age group`,
+    `Population characteristics`,
     Value
   ) %>%
   left_join(geocodes, by = "Geography") %>% 
