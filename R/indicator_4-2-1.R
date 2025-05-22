@@ -91,6 +91,15 @@ final_indg <-
 # Bind the total population with the indigenous population
 all_characteristics <- 
   bind_rows(Total_pop, final_indg) %>% 
+  select(
+    Year,
+    Geography,
+    `Education attainment level`,
+    Gender,
+    `Population characteristics`,
+    `Age group`,
+    Value
+  ) %>%
   left_join(geocodes, by = "Geography") %>% 
   relocate(GeoCode, .before = Value)
 
@@ -100,8 +109,8 @@ total_line <-
   all_characteristics %>%
   filter(
     Geography == "Canada",
-    `Population characteristics` == "Total population",
     `Education attainment level` == "Tertiary education",
+    `Population characteristics` == "Total population",
     `Age group` == "Total, 25 to 64 years",
     Gender == "Total - Gender"
   ) %>%
