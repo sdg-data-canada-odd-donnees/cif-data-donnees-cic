@@ -62,16 +62,27 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
+            "name": "Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Atlantic",
-                "Quebec",
-                "Ontario",
-                "Prairies",
-                "British Columbia",
+                "Total, unpaid work activities",
+                "Unpaid household work",
+                "Care of children under 18 years",
+                "Care of adults",
+                "Shopping for goods or services",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, all persons",
+                "Men+",
+                "Women+",
                 ""
               ]
             }
@@ -94,23 +105,26 @@
             }
           },
           {
-            "name": "Gender",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, all persons",
-                "Men+",
-                "Women+",
+                "Canada",
+                "Atlantic",
+                "Quebec",
+                "Ontario",
+                "Prairies",
+                "British Columbia",
                 ""
               ]
             }
           },
           {
-            "name": "Progress",
+            "name": "GeoCode",
             "type": "string"
           },
           {
-            "name": "GeoCode",
+            "name": "Progress",
             "type": "string"
           },
           {

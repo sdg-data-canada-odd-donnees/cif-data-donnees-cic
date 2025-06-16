@@ -16,20 +16,32 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Atlantique",
-                "Québec",
-                "Ontario",
-                "Prairies",
-                "Colombie-Britannique",
+                "Total, activités de travail non-rémunéré",
+                "Tâches ménagères",
+                "Soins des enfants de moins de 18 ans",
+                "Soins des adultes",
+                "Magasinage de biens ou de services",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Groupe d'activité"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, toutes les personnes",
+                "Hommes+",
+                "Femmes+",
+                ""
+              ]
+            },
+            "title": "Genre"
           },
           {
             "name": "Age group",
@@ -50,27 +62,30 @@
             "title": "Groupe d'âge"
           },
           {
-            "name": "Gender",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, toutes les personnes",
-                "Hommes+",
-                "Femmes+",
+                "Canada",
+                "Atlantique",
+                "Québec",
+                "Ontario",
+                "Prairies",
+                "Colombie-Britannique",
                 ""
               ]
             },
-            "title": "Genre"
-          },
-          {
-            "name": "Progress",
-            "type": "string",
-            "title": "Progress"
+            "title": "Géographie"
           },
           {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
           },
           {
             "name": "Value",

@@ -16,20 +16,32 @@
             "title": "Year"
           },
           {
-            "name": "Geography",
+            "name": "Activity group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
-                "Atlantic",
-                "Quebec",
-                "Ontario",
-                "Prairies",
-                "British Columbia",
+                "Total, unpaid work activities",
+                "Unpaid household work",
+                "Care of children under 18 years",
+                "Care of adults",
+                "Shopping for goods or services",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Activity group"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, all persons",
+                "Men+",
+                "Women+",
+                ""
+              ]
+            },
+            "title": "Gender"
           },
           {
             "name": "Age group",
@@ -50,27 +62,30 @@
             "title": "Age group"
           },
           {
-            "name": "Gender",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total, all persons",
-                "Men+",
-                "Women+",
+                "Canada",
+                "Atlantic",
+                "Quebec",
+                "Ontario",
+                "Prairies",
+                "British Columbia",
                 ""
               ]
             },
-            "title": "Gender"
-          },
-          {
-            "name": "Progress",
-            "type": "string",
-            "title": "Progress"
+            "title": "Geography"
           },
           {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
           },
           {
             "name": "Value",
