@@ -200,6 +200,9 @@ prose:
               - name: 'notapplicable'
                 value: 'notapplicable'
                 translation_key: status.not_applicable
+              - name: 'notavailable'
+                value: 'notavailable'
+                translation_key: status.not_available
             scope: data
       - name: data_non_statistical
         field:

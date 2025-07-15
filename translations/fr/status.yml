@@ -1,10 +1,11 @@
-exploring_data_sources: Explorer les sources de données
-overall_reporting_status: Statut général de rapport
+exploring_data_sources: En recherche de sources de données
+overall_reporting_status: État général des rapports
 reported_online: Diffusé en ligne
-reporting_status: Statut de rapport
+reporting_status: État des rapports
 statistics_in_progress: Statistiques en cours
 not_applicable: Non applicable
-status_by_goal: Statut par but
+not_available: Non disponible
+status_by_goal: Statut par objectif
 status_by_field: Statut par %field
 disaggregation_status: 'Statut de désagrégation'
 disaggregation_status_overall: 'Statut de désagrégation globale'
@@ -14,6 +15,7 @@ disaggregation_status_notstarted: 'Non désagrégé'
 disaggregation_status_notapplicable: 'Hors champ'
 disaggregation_status_by_field: 'Désagrégation par % de champ'
 not_specified: Non spécifié
+
 # progress_header: <strong>État du progrès actuel</strong>
 progress_status: <strong>État du progrès actuel</strong>
 target_achieved: Cible atteinte
@@ -27,5 +29,6 @@ progress_not_available: Évaluation impossible
 # moderate_deterioration: Détérioration modérée
 # significant_deterioration: Détérioration significative
 # substantial_deterioration: Détérioration substantielle
+
 data-currently-unavailable: Données actuellement indisponibles
 data-currently-unavailable-11-4-1: Les données pour cet indicateur sont actuellement en cours de révision par Statistique Canada. Les données révisées seront disponibles en automne 2025.<br>Veuillez <a href="mailto:statcan.sdg-odd.statcan@statcan.gc.ca">communiquer avec nous</a> si vous avez des questions.
