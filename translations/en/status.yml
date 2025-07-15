@@ -1,3 +1,21 @@
+exploring_data_sources: Exploring data sources
+overall_reporting_status: Overall reporting status
+reported_online: Reported online
+reporting_status: Reporting status
+statistics_in_progress: Statistics in progress
+not_applicable: Not applicable
+not_available: Not available
+status_by_goal: Status by goal
+status_by_field: Status by %field
+disaggregation_status: Disaggregation status
+disaggregation_status_overall: Overall disaggregation status
+disaggregation_status_complete: Fully disaggregated
+disaggregation_status_inprogress: Partially disaggregated
+disaggregation_status_notstarted: Not disaggregated
+disaggregation_status_notapplicable: Out of scope
+disaggregation_status_by_field: Disaggregation by %field
+not_specified: Not specified
+
 substantial_progress: On track
 moderate_progress: Progress made but acceleration needed
 negligible_progress: Limited progress
@@ -11,3 +29,6 @@ progress_not_available: Unable to assess
 progress_status: <strong>Current progress status</strong>
 target_achieved: Target achieved
 not_available_manual: Not available
+
+data-currently-unavailable: Data currently unavailable
+data-currently-unavailable-11-4-1: The data to report on this indicator are currently being revised by Statistics Canada. Updated data are expected to be released in Fall 2025.<br>Please <a href="mailto:statcan.sdg-odd.statcan@statcan.gc.ca">contact us</a> if you have any questions.
