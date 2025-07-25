@@ -152,9 +152,9 @@ data_2021 <- connection.parquet %>%
     # Simplify "Total - Gender" as "Total"
     Gender = case_match(Gender, "Total - Gender" ~ "Total", .default = Gender),
     # Calculate the percentages of each form of sustainable transportation
-    `Sustainable transportation` = round(`Sustainable transportation` / `Total - Main mode of commuting` * 100, 2),
-    `Public transit` = round(`Public transit` / `Total - Main mode of commuting` * 100, 2),
-    `Active transportation` = round(`Active transportation` / `Total - Main mode of commuting` * 100, 2)
+    `Sustainable transportation` = round(`Sustainable transportation` / `Total - Main mode of commuting` * 100, 1),
+    `Public transit` = round(`Public transit` / `Total - Main mode of commuting` * 100, 1),
+    `Active transportation` = round(`Active transportation` / `Total - Main mode of commuting` * 100, 1)
   ) %>%
   gather(key = "Type of commute", value = Value, `Sustainable transportation`, `Public transit`, `Active transportation`) %>%
   # Re-organize dataframe nicely
