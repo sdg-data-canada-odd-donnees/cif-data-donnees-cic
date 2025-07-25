@@ -33,10 +33,24 @@
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
+                "Canada",
                 ""
               ]
             },
             "title": "Géographie"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Femme",
+                "Homme",
+                ""
+              ]
+            },
+            "title": "Sexe"
           },
           {
             "name": "GeoCode",

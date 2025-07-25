@@ -16,11 +16,10 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Newfoundland and Labrador",
                 "St. John's (CMA), N.L.",
                 "Prince Edward Island",
@@ -38,7 +37,7 @@
                 "Trois-Rivières (CMA), Que.",
                 "Ontario",
                 "Barrie (CMA), Ont.",
-                "Belleville - Quinte West (CMA), Ont.",
+                "Belleville (CMA), Ont.",
                 "Brantford (CMA), Ont.",
                 "Greater Sudbury (CMA), Ont.",
                 "Guelph (CMA), Ont.",
@@ -70,14 +69,22 @@
                 "Yukon",
                 "Northwest Territories",
                 "Nunavut",
+                "Canada",
+                "Fredericton (CMA), N.B.",
+                "Drummondville (CMA), Que.",
+                "Belleville - Quinte West (CMA), Ont.",
                 "Ottawa - Gatineau (CMA), Ont./Que.",
+                "Red Deer (CMA), Alta.",
+                "Chilliwack (CMA), B.C.",
+                "Kamloops (CMA), B.C.",
+                "Nanaimo (CMA), B.C.",
                 ""
               ]
             },
             "title": "Geography"
           },
           {
-            "name": "data.Gender",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
@@ -90,13 +97,13 @@
             "title": "Gender"
           },
           {
-            "name": "data.Type of commute",
+            "name": "Type of commute",
             "type": "string",
             "constraints": {
               "enum": [
+                "Sustainable transportation",
                 "Public transit",
                 "Active transportation",
-                "Sustainable transportation",
                 ""
               ]
             },

@@ -32,6 +32,19 @@
                 "Yukon",
                 "Northwest Territories",
                 "Nunavut",
+                "Canada",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Female",
+                "Male",
                 ""
               ]
             }

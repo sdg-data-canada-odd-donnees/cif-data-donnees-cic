@@ -16,11 +16,10 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "Canada",
                 "Terre-Neuve-et-Labrador",
                 "St. John's (RMR), T.-N.-L.",
                 "Île-du-Prince-Édouard",
@@ -38,7 +37,7 @@
                 "Trois-Rivières (RMR), Qc",
                 "Ontario",
                 "Barrie (RMR), Ont.",
-                "Belleville - Quinte West (RMR), Ont.",
+                "Belleville (CMA), Ont.",
                 "Brantford (RMR), Ont.",
                 "Grand Sudbury (RMR), Ont.",
                 "Guelph (RMR), Ont.",
@@ -70,14 +69,22 @@
                 "Yukon",
                 "Territoires du Nord-Ouest",
                 "Nunavut",
+                "Canada",
+                "Fredericton (CMA), N.B.",
+                "Drummondville (CMA), Que.",
+                "Belleville - Quinte West (RMR), Ont.",
                 "Ottawa - Gatineau (RMR), Ont./Qc",
+                "Red Deer (CMA), Alta.",
+                "Chilliwack (CMA), B.C.",
+                "Kamloops (CMA), B.C.",
+                "Nanaimo (CMA), B.C.",
                 ""
               ]
             },
             "title": "Géographie"
           },
           {
-            "name": "data.Gender",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
@@ -90,13 +97,13 @@
             "title": "Genre"
           },
           {
-            "name": "data.Type of commute",
+            "name": "Type of commute",
             "type": "string",
             "constraints": {
               "enum": [
+                "Transport durable",
                 "Transport en commun",
                 "Transport actif",
-                "Transport durable",
                 ""
               ]
             },

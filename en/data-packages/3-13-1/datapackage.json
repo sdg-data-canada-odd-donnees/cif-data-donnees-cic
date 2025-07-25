@@ -33,10 +33,24 @@
                 "Yukon",
                 "Northwest Territories",
                 "Nunavut",
+                "Canada",
                 ""
               ]
             },
             "title": "Geography"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Female",
+                "Male",
+                ""
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "GeoCode",
