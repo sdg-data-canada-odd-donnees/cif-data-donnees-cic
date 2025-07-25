@@ -10,11 +10,11 @@
 source("automation_helper_functions.R")
 library(stringr)
 
-get_data_table <- function(indicator) {
+# get_data_table <- function(indicator) {
 
-  file <- paste0("indicator_", indicator, ".R")
-  code <- readLines(file.path("R", file))
-}
+#   file <- paste0("indicator_", indicator, ".R")
+#   code <- readLines(file.path("R", file))
+# }
 
 # get_codr_table <- function(indicator) {
 #   
@@ -123,7 +123,7 @@ update_sdg_data <- function() {
     print(indicator)
     
     # get data that's currently available in data hub
-    current_data <- read_hub_data(indicator)
+    # current_data <- read_hub_data(indicator)
     
     # get codr table(s) from automation file
     # codr_tbls <- get_codr_table(indicator)
@@ -147,11 +147,15 @@ update_sdg_data <- function() {
         {
           source(file.path("R", paste0("indicator_", indicator, ".R")))
           print(paste0("indicator ", indicator, " has been updated"))
+          # CLEANUP AFTER EACH SUCCESSFUL SCRIPT RUN
+          cleanup_temp_files(indicator)
         },
         error = function(e) {
           message("An error occured while updating ", indicator)
           caught_errors <<- c(caught_errors, indicator)
           print(e)
+          # CLEANUP EVEN AFTER ERROR TO FREE UP SPACE
+          cleanup_temp_files(indicator)
         }
       )
     }
