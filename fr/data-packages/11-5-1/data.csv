@@ -50,9 +50,9 @@ Year,Géographie,Genre,Principal mode de transport pour la navette,GeoCode,Value
 2016,"Barrie (RMR), Ont.",Total,Transport durable,568,8.4
 2016,"Barrie (RMR), Ont.",Total,Transport en commun,568,4.3
 2016,"Barrie (RMR), Ont.",Total,Transport actif,568,4.1
-2016,"Belleville (CMA), Ont.",Total,Transport durable,522,8.5
-2016,"Belleville (CMA), Ont.",Total,Transport en commun,522,2.3
-2016,"Belleville (CMA), Ont.",Total,Transport actif,522,6.2
+2016,"Belleville (RMR), Ont.",Total,Transport durable,522,8.5
+2016,"Belleville (RMR), Ont.",Total,Transport en commun,522,2.3
+2016,"Belleville (RMR), Ont.",Total,Transport actif,522,6.2
 2016,"Brantford (RMR), Ont.",Total,Transport durable,543,7.7
 2016,"Brantford (RMR), Ont.",Total,Transport en commun,543,3.1
 2016,"Brantford (RMR), Ont.",Total,Transport actif,543,4.6
@@ -212,15 +212,15 @@ Year,Géographie,Genre,Principal mode de transport pour la navette,GeoCode,Value
 2021,Nouveau-Brunswick,Femmes+,Transport durable,13,6.49
 2021,Nouveau-Brunswick,Femmes+,Transport en commun,13,1.67
 2021,Nouveau-Brunswick,Femmes+,Transport actif,13,4.82
-2021,"Fredericton (CMA), N.B.",Hommes+,Transport durable,320,7.56
-2021,"Fredericton (CMA), N.B.",Hommes+,Transport en commun,320,1.82
-2021,"Fredericton (CMA), N.B.",Hommes+,Transport actif,320,5.74
-2021,"Fredericton (CMA), N.B.",Total,Transport durable,320,8.33
-2021,"Fredericton (CMA), N.B.",Total,Transport en commun,320,2.28
-2021,"Fredericton (CMA), N.B.",Total,Transport actif,320,6.05
-2021,"Fredericton (CMA), N.B.",Femmes+,Transport durable,320,9.14
-2021,"Fredericton (CMA), N.B.",Femmes+,Transport en commun,320,2.77
-2021,"Fredericton (CMA), N.B.",Femmes+,Transport actif,320,6.37
+2021,"Fredericton (RMR), N.-B.",Hommes+,Transport durable,320,7.56
+2021,"Fredericton (RMR), N.-B.",Hommes+,Transport en commun,320,1.82
+2021,"Fredericton (RMR), N.-B.",Hommes+,Transport actif,320,5.74
+2021,"Fredericton (RMR), N.-B.",Total,Transport durable,320,8.33
+2021,"Fredericton (RMR), N.-B.",Total,Transport en commun,320,2.28
+2021,"Fredericton (RMR), N.-B.",Total,Transport actif,320,6.05
+2021,"Fredericton (RMR), N.-B.",Femmes+,Transport durable,320,9.14
+2021,"Fredericton (RMR), N.-B.",Femmes+,Transport en commun,320,2.77
+2021,"Fredericton (RMR), N.-B.",Femmes+,Transport actif,320,6.37
 2021,"Moncton (RMR), N.-B.",Hommes+,Transport durable,305,6.8
 2021,"Moncton (RMR), N.-B.",Hommes+,Transport en commun,305,1.7
 2021,"Moncton (RMR), N.-B.",Hommes+,Transport actif,305,5.1
@@ -554,15 +554,15 @@ Year,Géographie,Genre,Principal mode de transport pour la navette,GeoCode,Value
 2021,"Lethbridge (RMR), Alb.",Femmes+,Transport durable,810,7.18
 2021,"Lethbridge (RMR), Alb.",Femmes+,Transport en commun,810,2.55
 2021,"Lethbridge (RMR), Alb.",Femmes+,Transport actif,810,4.62
-2021,"Red Deer (CMA), Alta.",Hommes+,Transport durable,830,5.78
-2021,"Red Deer (CMA), Alta.",Hommes+,Transport en commun,830,1.89
-2021,"Red Deer (CMA), Alta.",Hommes+,Transport actif,830,3.9
-2021,"Red Deer (CMA), Alta.",Total,Transport durable,830,6.45
-2021,"Red Deer (CMA), Alta.",Total,Transport en commun,830,2.54
-2021,"Red Deer (CMA), Alta.",Total,Transport actif,830,3.91
-2021,"Red Deer (CMA), Alta.",Femmes+,Transport durable,830,7.19
-2021,"Red Deer (CMA), Alta.",Femmes+,Transport en commun,830,3.26
-2021,"Red Deer (CMA), Alta.",Femmes+,Transport actif,830,3.93
+2021,"Red Deer (RMR), Alb.",Hommes+,Transport durable,830,5.78
+2021,"Red Deer (RMR), Alb.",Hommes+,Transport en commun,830,1.89
+2021,"Red Deer (RMR), Alb.",Hommes+,Transport actif,830,3.9
+2021,"Red Deer (RMR), Alb.",Total,Transport durable,830,6.45
+2021,"Red Deer (RMR), Alb.",Total,Transport en commun,830,2.54
+2021,"Red Deer (RMR), Alb.",Total,Transport actif,830,3.91
+2021,"Red Deer (RMR), Alb.",Femmes+,Transport durable,830,7.19
+2021,"Red Deer (RMR), Alb.",Femmes+,Transport en commun,830,3.26
+2021,"Red Deer (RMR), Alb.",Femmes+,Transport actif,830,3.93
 2021,Colombie-Britannique,Hommes+,Transport durable,59,14.72
 2021,Colombie-Britannique,Hommes+,Transport en commun,59,7.26
 2021,Colombie-Britannique,Hommes+,Transport actif,59,7.45
@@ -581,24 +581,24 @@ Year,Géographie,Genre,Principal mode de transport pour la navette,GeoCode,Value
 2021,"Abbotsford - Mission (RMR), C.-B.",Femmes+,Transport durable,932,7.77
 2021,"Abbotsford - Mission (RMR), C.-B.",Femmes+,Transport en commun,932,3.23
 2021,"Abbotsford - Mission (RMR), C.-B.",Femmes+,Transport actif,932,4.55
-2021,"Chilliwack (CMA), B.C.",Hommes+,Transport durable,930,5.8
-2021,"Chilliwack (CMA), B.C.",Hommes+,Transport en commun,930,1.08
-2021,"Chilliwack (CMA), B.C.",Hommes+,Transport actif,930,4.74
-2021,"Chilliwack (CMA), B.C.",Total,Transport durable,930,6.9
-2021,"Chilliwack (CMA), B.C.",Total,Transport en commun,930,1.5
-2021,"Chilliwack (CMA), B.C.",Total,Transport actif,930,5.4
-2021,"Chilliwack (CMA), B.C.",Femmes+,Transport durable,930,8.22
-2021,"Chilliwack (CMA), B.C.",Femmes+,Transport en commun,930,2.03
-2021,"Chilliwack (CMA), B.C.",Femmes+,Transport actif,930,6.21
-2021,"Kamloops (CMA), B.C.",Hommes+,Transport durable,925,8.44
-2021,"Kamloops (CMA), B.C.",Hommes+,Transport en commun,925,3.17
-2021,"Kamloops (CMA), B.C.",Hommes+,Transport actif,925,5.27
-2021,"Kamloops (CMA), B.C.",Total,Transport durable,925,10.13
-2021,"Kamloops (CMA), B.C.",Total,Transport en commun,925,4.01
-2021,"Kamloops (CMA), B.C.",Total,Transport actif,925,6.12
-2021,"Kamloops (CMA), B.C.",Femmes+,Transport durable,925,12.1
-2021,"Kamloops (CMA), B.C.",Femmes+,Transport en commun,925,4.99
-2021,"Kamloops (CMA), B.C.",Femmes+,Transport actif,925,7.13
+2021,"Chilliwack (RMR), C.-B.",Hommes+,Transport durable,930,5.8
+2021,"Chilliwack (RMR), C.-B.",Hommes+,Transport en commun,930,1.08
+2021,"Chilliwack (RMR), C.-B.",Hommes+,Transport actif,930,4.74
+2021,"Chilliwack (RMR), C.-B.",Total,Transport durable,930,6.9
+2021,"Chilliwack (RMR), C.-B.",Total,Transport en commun,930,1.5
+2021,"Chilliwack (RMR), C.-B.",Total,Transport actif,930,5.4
+2021,"Chilliwack (RMR), C.-B.",Femmes+,Transport durable,930,8.22
+2021,"Chilliwack (RMR), C.-B.",Femmes+,Transport en commun,930,2.03
+2021,"Chilliwack (RMR), C.-B.",Femmes+,Transport actif,930,6.21
+2021,"Kamloops (RMR), C.-B.",Hommes+,Transport durable,925,8.44
+2021,"Kamloops (RMR), C.-B.",Hommes+,Transport en commun,925,3.17
+2021,"Kamloops (RMR), C.-B.",Hommes+,Transport actif,925,5.27
+2021,"Kamloops (RMR), C.-B.",Total,Transport durable,925,10.13
+2021,"Kamloops (RMR), C.-B.",Total,Transport en commun,925,4.01
+2021,"Kamloops (RMR), C.-B.",Total,Transport actif,925,6.12
+2021,"Kamloops (RMR), C.-B.",Femmes+,Transport durable,925,12.1
+2021,"Kamloops (RMR), C.-B.",Femmes+,Transport en commun,925,4.99
+2021,"Kamloops (RMR), C.-B.",Femmes+,Transport actif,925,7.13
 2021,"Kelowna (RMR), C.-B.",Hommes+,Transport durable,915,9.0
 2021,"Kelowna (RMR), C.-B.",Hommes+,Transport en commun,915,2.38
 2021,"Kelowna (RMR), C.-B.",Hommes+,Transport actif,915,6.64
@@ -608,15 +608,15 @@ Year,Géographie,Genre,Principal mode de transport pour la navette,GeoCode,Value
 2021,"Kelowna (RMR), C.-B.",Femmes+,Transport durable,915,12.35
 2021,"Kelowna (RMR), C.-B.",Femmes+,Transport en commun,915,4.09
 2021,"Kelowna (RMR), C.-B.",Femmes+,Transport actif,915,8.27
-2021,"Nanaimo (CMA), B.C.",Hommes+,Transport durable,938,9.37
-2021,"Nanaimo (CMA), B.C.",Hommes+,Transport en commun,938,3.11
-2021,"Nanaimo (CMA), B.C.",Hommes+,Transport actif,938,6.24
-2021,"Nanaimo (CMA), B.C.",Total,Transport durable,938,9.9
-2021,"Nanaimo (CMA), B.C.",Total,Transport en commun,938,3.58
-2021,"Nanaimo (CMA), B.C.",Total,Transport actif,938,6.32
-2021,"Nanaimo (CMA), B.C.",Femmes+,Transport durable,938,10.52
-2021,"Nanaimo (CMA), B.C.",Femmes+,Transport en commun,938,4.08
-2021,"Nanaimo (CMA), B.C.",Femmes+,Transport actif,938,6.44
+2021,"Nanaimo (RMR), C.-B.",Hommes+,Transport durable,938,9.37
+2021,"Nanaimo (RMR), C.-B.",Hommes+,Transport en commun,938,3.11
+2021,"Nanaimo (RMR), C.-B.",Hommes+,Transport actif,938,6.24
+2021,"Nanaimo (RMR), C.-B.",Total,Transport durable,938,9.9
+2021,"Nanaimo (RMR), C.-B.",Total,Transport en commun,938,3.58
+2021,"Nanaimo (RMR), C.-B.",Total,Transport actif,938,6.32
+2021,"Nanaimo (RMR), C.-B.",Femmes+,Transport durable,938,10.52
+2021,"Nanaimo (RMR), C.-B.",Femmes+,Transport en commun,938,4.08
+2021,"Nanaimo (RMR), C.-B.",Femmes+,Transport actif,938,6.44
 2021,"Vancouver (RMR), C.-B.",Hommes+,Transport durable,933,18.68
 2021,"Vancouver (RMR), C.-B.",Hommes+,Transport en commun,933,11.55
 2021,"Vancouver (RMR), C.-B.",Hommes+,Transport actif,933,7.13
