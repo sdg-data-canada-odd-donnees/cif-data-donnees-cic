@@ -1,11 +1,10 @@
-#CIF 3.13.1
+# CIF 3.13.1
 
 library(dplyr)
 library(stringr)
-library(tidyr)
 library(archive)
 
-opioids <- read.csv(archive_read("https://health-infobase.canada.ca/src/doc/SRHD/HealthInfobase-SubstanceHarmsData.zip", file="SubstanceHarmsData.csv"))
+opioids <- read.csv(archive_read("https://health-infobase.canada.ca/src/doc/SRHD/HealthInfobase-SubstanceHarmsData.zip", file = "SubstanceHarmsData.csv"))
 geocodes <- read.csv("geocodes.csv")
 
 opioids_filtered <-
@@ -15,62 +14,50 @@ opioids_filtered <-
     Time_Period == "By year",
     Unit == "Crude rate",
     Source == "Deaths",
-    Type_Event == "Total apparent opioid toxicity deaths",
+    # Type_Event == "Total apparent opioid toxicity deaths", # this column no longer exists in source data
     # filter out incomplete years, i.e. "2024 (Jan to Mar)"
     str_detect(Year_Quarter, "^\\d{4}$")
   ) %>%
   select(
     Year = Year_Quarter,
     Geography = Region,
-    Specific_Measure,
-    Disaggregator,
+    # Specific_Measure,
+    Sex = Disaggregator,
     Value
   ) %>%
   mutate(
     Value = str_remove_all(Value, "Suppr."),
     Value = str_remove_all(Value, "n/a"),
-    Value = as.numeric(Value)
+    Value = as.numeric(Value),
+    Sex = case_match(Sex, "" ~ "Total", .default = Sex)
   ) %>%
   na.omit() %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
 
-#filter_for_sex <-
-#  opioids_filtered %>%
-#  filter(
-#    Specific_Measure == "Sex"
-#  ) %>%
-#  select(
-#    Year,
-#    Geography,
-#    Sex = Disaggregator,
-#    GeoCode,
-#    Value
-#  )
-
 total_line <-
   opioids_filtered %>%
   filter(
     Geography == "Canada",
-  ) %>% 
-  mutate(Geography = "")
+    Sex == "Total"
+  ) %>%
+  mutate(
+    Geography = NA,
+    Sex = NA
+  )
 
 non_total <-
   opioids_filtered %>%
   filter(
-    !(Geography == "Canada")
+    !(Geography == "Canada" & Sex == "Total")
   )
-#  ) %>%
-#  filter(
-#    !(Specific_Measure == "Sex")
-#  )
 
 data_final <-
-  bind_rows(total_line,non_total)%>% #,filter_for_sex) %>%
+  bind_rows(total_line, non_total) %>%
   select(
     Year,
     Geography,
-#    Sex,
+    Sex,
     GeoCode,
     Value
   )
