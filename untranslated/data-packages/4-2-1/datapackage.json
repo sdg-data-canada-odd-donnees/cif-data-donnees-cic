@@ -38,17 +38,6 @@
             }
           },
           {
-            "name": "Population characteristics",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total population",
-                "Off-reserve Indigenous population",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Education attainment level",
             "type": "string",
             "constraints": {
@@ -58,6 +47,18 @@
                 "Bachelor's level",
                 "Master's or Doctoral level",
                 "University",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Men+",
+                "Women+",
+                "Total - Gender",
                 ""
               ]
             }
@@ -78,13 +79,12 @@
             }
           },
           {
-            "name": "Gender",
+            "name": "Population characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Men+",
-                "Women+",
-                "Total - Gender",
+                "Total population",
+                "Off-reserve Indigenous population",
                 ""
               ]
             }

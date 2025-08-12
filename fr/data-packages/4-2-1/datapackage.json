@@ -40,18 +40,6 @@
             "title": "Géographie"
           },
           {
-            "name": "Population characteristics",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Population totale",
-                "Population autochtone hors réserve",
-                ""
-              ]
-            },
-            "title": "Caractéristiques de la population"
-          },
-          {
             "name": "Education attainment level",
             "type": "string",
             "constraints": {
@@ -65,6 +53,19 @@
               ]
             },
             "title": "Niveau de scolarité"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hommes+",
+                "Femmes+",
+                "Total - Genre",
+                ""
+              ]
+            },
+            "title": "Genre"
           },
           {
             "name": "Age group",
@@ -83,17 +84,16 @@
             "title": "Groupe d'âge"
           },
           {
-            "name": "Gender",
+            "name": "Population characteristics",
             "type": "string",
             "constraints": {
               "enum": [
-                "Hommes+",
-                "Femmes+",
-                "Total - Genre",
+                "Population totale",
+                "Population autochtone hors réserve",
                 ""
               ]
             },
-            "title": "Genre"
+            "title": "Caractéristiques de la population"
           },
           {
             "name": "GeoCode",
