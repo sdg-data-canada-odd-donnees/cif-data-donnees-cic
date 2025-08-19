@@ -4892,7 +4892,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Marine Mammals",
+                "Marine mammals",
                 "Groundfish",
                 "Small pelagics",
                 "Large pelagics",
@@ -4900,6 +4900,7 @@
                 "Crustaceans",
                 "Molluscs",
                 "Others",
+                "Marine Mammals",
                 ""
               ]
             }

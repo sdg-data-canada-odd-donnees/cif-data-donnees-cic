@@ -5246,7 +5246,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Mammifères marins",
+                "Marine mammals",
                 "Poissons de fond",
                 "Petits poissons pélagiques",
                 "Grands poissons pélagiques",
@@ -5254,6 +5254,7 @@
                 "Crustacés",
                 "Mollusques",
                 "Autres",
+                "Mammifères marins",
                 ""
               ]
             },

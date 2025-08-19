@@ -11,11 +11,12 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2020,Pourcentage,Zone saine,Canada,,31.1111111111111
 2021,Pourcentage,Zone saine,Canada,,34.375
 2022,Pourcentage,Zone saine,Canada,,33.8461538461538
+2023,Pourcentage,Zone saine,Canada,,35.1758793969849
 2011,Pourcentage,Zone de prudence,Canada,,20.0
 2012,Pourcentage,Zone de prudence,Canada,,23.8709677419355
 2013,Pourcentage,Zone de prudence,Canada,,26.4516129032258
 2014,Pourcentage,Zone de prudence,Canada,,25.974025974026
-2015,Pourcentage,Zone de prudence,Canada,,19.496855345912
+2015,Pourcentage,Zone de prudence,Canada,,19.4968553459119
 2016,Pourcentage,Zone de prudence,Canada,,18.2352941176471
 2017,Pourcentage,Zone de prudence,Canada,,13.9664804469274
 2018,Pourcentage,Zone de prudence,Canada,,15.2542372881356
@@ -23,6 +24,7 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2020,Pourcentage,Zone de prudence,Canada,,12.7777777777778
 2021,Pourcentage,Zone de prudence,Canada,,14.0625
 2022,Pourcentage,Zone de prudence,Canada,,12.3076923076923
+2023,Pourcentage,Zone de prudence,Canada,,11.5577889447236
 2011,Pourcentage,Zone critique,Canada,,10.9677419354839
 2012,Pourcentage,Zone critique,Canada,,9.67741935483871
 2013,Pourcentage,Zone critique,Canada,,10.3225806451613
@@ -35,18 +37,20 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2020,Pourcentage,Zone critique,Canada,,12.7777777777778
 2021,Pourcentage,Zone critique,Canada,,11.4583333333333
 2022,Pourcentage,Zone critique,Canada,,11.7948717948718
+2023,Pourcentage,Zone critique,Canada,,15.5778894472362
 2011,Pourcentage,État incertain,Canada,,22.5806451612903
 2012,Pourcentage,État incertain,Canada,,18.0645161290323
 2013,Pourcentage,État incertain,Canada,,15.4838709677419
 2014,Pourcentage,État incertain,Canada,,15.5844155844156
-2015,Pourcentage,État incertain,Canada,,19.496855345912
+2015,Pourcentage,État incertain,Canada,,19.4968553459119
 2016,Pourcentage,État incertain,Canada,,24.7058823529412
 2017,Pourcentage,État incertain,Canada,,40.7821229050279
 2018,Pourcentage,État incertain,Canada,,41.2429378531073
 2019,Pourcentage,État incertain,Canada,,39.7727272727273
 2020,Pourcentage,État incertain,Canada,,43.3333333333333
 2021,Pourcentage,État incertain,Canada,,40.1041666666667
-2022,Pourcentage,État incertain,Canada,,42.051282051282
+2022,Pourcentage,État incertain,Canada,,42.0512820512821
+2023,Pourcentage,État incertain,Canada,,37.6884422110553
 2011,Pourcentage,,,,66.4516129032258
 2012,Pourcentage,,,,72.258064516129
 2013,Pourcentage,,,,74.1935483870968
@@ -59,6 +63,11 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2020,Pourcentage,,,,43.8888888888889
 2021,Pourcentage,,,,48.4375
 2022,Pourcentage,,,,46.1538461538462
+2023,Pourcentage,,,,46.7336683417085
+2023,Pourcentage,Zone saine,Pacifique,,43.859649122807
+2023,Pourcentage,Zone de prudence,Pacifique,,17.5438596491228
+2023,Pourcentage,Zone critique,Pacifique,,14.0350877192982
+2023,Pourcentage,État incertain,Pacifique,,24.5614035087719
 2022,Pourcentage,Zone saine,Pacifique,,42.1052631578947
 2022,Pourcentage,Zone de prudence,Pacifique,,22.8070175438596
 2022,Pourcentage,Zone critique,Pacifique,,8.7719298245614
@@ -67,6 +76,10 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Pourcentage,Zone de prudence,Pacifique,,28.0701754385965
 2021,Pourcentage,Zone critique,Pacifique,,7.01754385964912
 2021,Pourcentage,État incertain,Pacifique,,24.5614035087719
+2023,Pourcentage,Zone saine,Arctique,,20.0
+2023,Pourcentage,Zone de prudence,Arctique,,8.0
+2023,Pourcentage,Zone critique,Arctique,,0.0
+2023,Pourcentage,État incertain,Arctique,,72.0
 2022,Pourcentage,Zone saine,Arctique,,9.52380952380952
 2022,Pourcentage,Zone de prudence,Arctique,,4.76190476190476
 2022,Pourcentage,Zone critique,Arctique,,0.0
@@ -75,6 +88,10 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Pourcentage,Zone de prudence,Arctique,,4.76190476190476
 2021,Pourcentage,Zone critique,Arctique,,0.0
 2021,Pourcentage,État incertain,Arctique,,85.7142857142857
+2023,Pourcentage,Zone saine,Atlantique,,34.1880341880342
+2023,Pourcentage,Zone de prudence,Atlantique,,9.4017094017094
+2023,Pourcentage,Zone critique,Atlantique,,19.6581196581197
+2023,Pourcentage,État incertain,Atlantique,,36.7521367521368
 2022,Pourcentage,Zone saine,Atlantique,,34.1880341880342
 2022,Pourcentage,Zone de prudence,Atlantique,,8.54700854700855
 2022,Pourcentage,Zone critique,Atlantique,,15.3846153846154
@@ -83,12 +100,23 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Pourcentage,Zone de prudence,Atlantique,,8.7719298245614
 2021,Pourcentage,Zone critique,Atlantique,,15.7894736842105
 2021,Pourcentage,État incertain,Atlantique,,39.4736842105263
+2023,Pourcentage,Zone de prudence et la zone saine,Pacifique,,61.4035087719298
 2022,Pourcentage,Zone de prudence et la zone saine,Pacifique,,64.9122807017544
-2021,Pourcentage,Zone de prudence et la zone saine,Pacifique,,68.421052631579
+2021,Pourcentage,Zone de prudence et la zone saine,Pacifique,,68.4210526315789
+2023,Pourcentage,Zone de prudence et la zone saine,Arctique,,28.0
 2022,Pourcentage,Zone de prudence et la zone saine,Arctique,,14.2857142857143
 2021,Pourcentage,Zone de prudence et la zone saine,Arctique,,14.2857142857143
+2023,Pourcentage,Zone de prudence et la zone saine,Atlantique,,43.5897435897436
 2022,Pourcentage,Zone de prudence et la zone saine,Atlantique,,42.7350427350427
 2021,Pourcentage,Zone de prudence et la zone saine,Atlantique,,44.7368421052632
+2023,Pourcentage,Zone saine,,Marine mammals,11.7647058823529
+2023,Pourcentage,Zone saine,,Poissons de fond,33.3333333333333
+2023,Pourcentage,Zone saine,,Petits poissons pélagiques,8.33333333333333
+2023,Pourcentage,Zone saine,,Grands poissons pélagiques,50.0
+2023,Pourcentage,Zone saine,,Salmonidés,24.0
+2023,Pourcentage,Zone saine,,Crustacés,57.1428571428571
+2023,Pourcentage,Zone saine,,Mollusques,38.8888888888889
+2023,Pourcentage,Zone saine,,Autres,50.0
 2022,Pourcentage,Zone saine,,Mammifères marins,11.7647058823529
 2022,Pourcentage,Zone saine,,Poissons de fond,33.3333333333333
 2022,Pourcentage,Zone saine,,Petits poissons pélagiques,8.33333333333333
@@ -105,6 +133,14 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Pourcentage,Zone saine,,Crustacés,55.7692307692308
 2021,Pourcentage,Zone saine,,Mollusques,33.3333333333333
 2021,Pourcentage,Zone saine,,Autres,66.6666666666667
+2023,Pourcentage,Zone de prudence,,Marine mammals,0.0
+2023,Pourcentage,Zone de prudence,,Poissons de fond,19.6078431372549
+2023,Pourcentage,Zone de prudence,,Petits poissons pélagiques,20.8333333333333
+2023,Pourcentage,Zone de prudence,,Grands poissons pélagiques,0.0
+2023,Pourcentage,Zone de prudence,,Salmonidés,16.0
+2023,Pourcentage,Zone de prudence,,Crustacés,7.14285714285714
+2023,Pourcentage,Zone de prudence,,Mollusques,0.0
+2023,Pourcentage,Zone de prudence,,Autres,0.0
 2022,Pourcentage,Zone de prudence,,Mammifères marins,0.0
 2022,Pourcentage,Zone de prudence,,Poissons de fond,15.6862745098039
 2022,Pourcentage,Zone de prudence,,Petits poissons pélagiques,20.8333333333333
@@ -121,6 +157,14 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Pourcentage,Zone de prudence,,Crustacés,5.76923076923077
 2021,Pourcentage,Zone de prudence,,Mollusques,5.55555555555556
 2021,Pourcentage,Zone de prudence,,Autres,0.0
+2023,Pourcentage,Zone critique,,Marine mammals,0.0
+2023,Pourcentage,Zone critique,,Poissons de fond,19.6078431372549
+2023,Pourcentage,Zone critique,,Petits poissons pélagiques,20.8333333333333
+2023,Pourcentage,Zone critique,,Grands poissons pélagiques,0.0
+2023,Pourcentage,Zone critique,,Salmonidés,32.0
+2023,Pourcentage,Zone critique,,Crustacés,8.92857142857143
+2023,Pourcentage,Zone critique,,Mollusques,16.6666666666667
+2023,Pourcentage,Zone critique,,Autres,0.0
 2022,Pourcentage,Zone critique,,Mammifères marins,0.0
 2022,Pourcentage,Zone critique,,Poissons de fond,21.5686274509804
 2022,Pourcentage,Zone critique,,Petits poissons pélagiques,16.6666666666667
@@ -137,6 +181,14 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Pourcentage,Zone critique,,Crustacés,3.84615384615385
 2021,Pourcentage,Zone critique,,Mollusques,5.55555555555556
 2021,Pourcentage,Zone critique,,Autres,0.0
+2023,Pourcentage,État incertain,,Marine mammals,88.2352941176471
+2023,Pourcentage,État incertain,,Poissons de fond,27.4509803921569
+2023,Pourcentage,État incertain,,Petits poissons pélagiques,50.0
+2023,Pourcentage,État incertain,,Grands poissons pélagiques,50.0
+2023,Pourcentage,État incertain,,Salmonidés,28.0
+2023,Pourcentage,État incertain,,Crustacés,26.7857142857143
+2023,Pourcentage,État incertain,,Mollusques,44.4444444444444
+2023,Pourcentage,État incertain,,Autres,50.0
 2022,Pourcentage,État incertain,,Mammifères marins,88.2352941176471
 2022,Pourcentage,État incertain,,Poissons de fond,29.4117647058824
 2022,Pourcentage,État incertain,,Petits poissons pélagiques,54.1666666666667
@@ -153,6 +205,14 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Pourcentage,État incertain,,Crustacés,34.6153846153846
 2021,Pourcentage,État incertain,,Mollusques,55.5555555555556
 2021,Pourcentage,État incertain,,Autres,33.3333333333333
+2023,Pourcentage,Zone de prudence et la zone saine,,Marine mammals,11.7647058823529
+2023,Pourcentage,Zone de prudence et la zone saine,,Poissons de fond,52.9411764705882
+2023,Pourcentage,Zone de prudence et la zone saine,,Petits poissons pélagiques,29.1666666666667
+2023,Pourcentage,Zone de prudence et la zone saine,,Grands poissons pélagiques,50.0
+2023,Pourcentage,Zone de prudence et la zone saine,,Salmonidés,40.0
+2023,Pourcentage,Zone de prudence et la zone saine,,Crustacés,64.2857142857143
+2023,Pourcentage,Zone de prudence et la zone saine,,Mollusques,38.8888888888889
+2023,Pourcentage,Zone de prudence et la zone saine,,Autres,50.0
 2022,Pourcentage,Zone de prudence et la zone saine,,Mammifères marins,11.7647058823529
 2022,Pourcentage,Zone de prudence et la zone saine,,Poissons de fond,49.0196078431373
 2022,Pourcentage,Zone de prudence et la zone saine,,Petits poissons pélagiques,29.1666666666667
@@ -181,6 +241,7 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2020,Nombre de stocks,Zone saine,Canada,,56.0
 2021,Nombre de stocks,Zone saine,Canada,,66.0
 2022,Nombre de stocks,Zone saine,Canada,,66.0
+2023,Nombre de stocks,Zone saine,Canada,,70.0
 2011,Nombre de stocks,Zone de prudence,Canada,,31.0
 2012,Nombre de stocks,Zone de prudence,Canada,,37.0
 2013,Nombre de stocks,Zone de prudence,Canada,,41.0
@@ -193,6 +254,7 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2020,Nombre de stocks,Zone de prudence,Canada,,23.0
 2021,Nombre de stocks,Zone de prudence,Canada,,27.0
 2022,Nombre de stocks,Zone de prudence,Canada,,24.0
+2023,Nombre de stocks,Zone de prudence,Canada,,23.0
 2011,Nombre de stocks,Zone critique,Canada,,17.0
 2012,Nombre de stocks,Zone critique,Canada,,15.0
 2013,Nombre de stocks,Zone critique,Canada,,16.0
@@ -205,6 +267,7 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2020,Nombre de stocks,Zone critique,Canada,,23.0
 2021,Nombre de stocks,Zone critique,Canada,,22.0
 2022,Nombre de stocks,Zone critique,Canada,,23.0
+2023,Nombre de stocks,Zone critique,Canada,,31.0
 2011,Nombre de stocks,État incertain,Canada,,35.0
 2012,Nombre de stocks,État incertain,Canada,,28.0
 2013,Nombre de stocks,État incertain,Canada,,24.0
@@ -217,6 +280,7 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2020,Nombre de stocks,État incertain,Canada,,78.0
 2021,Nombre de stocks,État incertain,Canada,,77.0
 2022,Nombre de stocks,État incertain,Canada,,82.0
+2023,Nombre de stocks,État incertain,Canada,,75.0
 2011,Nombre de stocks,,,,103.0
 2012,Nombre de stocks,,,,112.0
 2013,Nombre de stocks,,,,115.0
@@ -229,6 +293,11 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2020,Nombre de stocks,,,,79.0
 2021,Nombre de stocks,,,,93.0
 2022,Nombre de stocks,,,,90.0
+2023,Nombre de stocks,,,,93.0
+2023,Nombre de stocks,Zone saine,Pacifique,,25.0
+2023,Nombre de stocks,Zone de prudence,Pacifique,,10.0
+2023,Nombre de stocks,Zone critique,Pacifique,,8.0
+2023,Nombre de stocks,État incertain,Pacifique,,14.0
 2022,Nombre de stocks,Zone saine,Pacifique,,24.0
 2022,Nombre de stocks,Zone de prudence,Pacifique,,13.0
 2022,Nombre de stocks,Zone critique,Pacifique,,5.0
@@ -237,6 +306,10 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Nombre de stocks,Zone de prudence,Pacifique,,16.0
 2021,Nombre de stocks,Zone critique,Pacifique,,4.0
 2021,Nombre de stocks,État incertain,Pacifique,,14.0
+2023,Nombre de stocks,Zone saine,Arctique,,5.0
+2023,Nombre de stocks,Zone de prudence,Arctique,,2.0
+2023,Nombre de stocks,Zone critique,Arctique,,0.0
+2023,Nombre de stocks,État incertain,Arctique,,18.0
 2022,Nombre de stocks,Zone saine,Arctique,,2.0
 2022,Nombre de stocks,Zone de prudence,Arctique,,1.0
 2022,Nombre de stocks,Zone critique,Arctique,,0.0
@@ -245,6 +318,10 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Nombre de stocks,Zone de prudence,Arctique,,1.0
 2021,Nombre de stocks,Zone critique,Arctique,,0.0
 2021,Nombre de stocks,État incertain,Arctique,,18.0
+2023,Nombre de stocks,Zone saine,Atlantique,,40.0
+2023,Nombre de stocks,Zone de prudence,Atlantique,,11.0
+2023,Nombre de stocks,Zone critique,Atlantique,,23.0
+2023,Nombre de stocks,État incertain,Atlantique,,43.0
 2022,Nombre de stocks,Zone saine,Atlantique,,40.0
 2022,Nombre de stocks,Zone de prudence,Atlantique,,10.0
 2022,Nombre de stocks,Zone critique,Atlantique,,18.0
@@ -253,12 +330,23 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Nombre de stocks,Zone de prudence,Atlantique,,10.0
 2021,Nombre de stocks,Zone critique,Atlantique,,18.0
 2021,Nombre de stocks,État incertain,Atlantique,,45.0
+2023,Nombre de stocks,Zone de prudence et la zone saine,Pacifique,,35.0
 2022,Nombre de stocks,Zone de prudence et la zone saine,Pacifique,,37.0
 2021,Nombre de stocks,Zone de prudence et la zone saine,Pacifique,,39.0
+2023,Nombre de stocks,Zone de prudence et la zone saine,Arctique,,7.0
 2022,Nombre de stocks,Zone de prudence et la zone saine,Arctique,,3.0
 2021,Nombre de stocks,Zone de prudence et la zone saine,Arctique,,3.0
+2023,Nombre de stocks,Zone de prudence et la zone saine,Atlantique,,51.0
 2022,Nombre de stocks,Zone de prudence et la zone saine,Atlantique,,50.0
 2021,Nombre de stocks,Zone de prudence et la zone saine,Atlantique,,51.0
+2023,Nombre de stocks,Zone saine,,Marine mammals,2.0
+2023,Nombre de stocks,Zone saine,,Poissons de fond,17.0
+2023,Nombre de stocks,Zone saine,,Petits poissons pélagiques,2.0
+2023,Nombre de stocks,Zone saine,,Grands poissons pélagiques,1.0
+2023,Nombre de stocks,Zone saine,,Salmonidés,6.0
+2023,Nombre de stocks,Zone saine,,Crustacés,32.0
+2023,Nombre de stocks,Zone saine,,Mollusques,7.0
+2023,Nombre de stocks,Zone saine,,Autres,3.0
 2022,Nombre de stocks,Zone saine,,Mammifères marins,2.0
 2022,Nombre de stocks,Zone saine,,Poissons de fond,17.0
 2022,Nombre de stocks,Zone saine,,Petits poissons pélagiques,2.0
@@ -275,6 +363,14 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Nombre de stocks,Zone saine,,Crustacés,29.0
 2021,Nombre de stocks,Zone saine,,Mollusques,6.0
 2021,Nombre de stocks,Zone saine,,Autres,6.0
+2023,Nombre de stocks,Zone de prudence,,Marine mammals,0.0
+2023,Nombre de stocks,Zone de prudence,,Poissons de fond,10.0
+2023,Nombre de stocks,Zone de prudence,,Petits poissons pélagiques,5.0
+2023,Nombre de stocks,Zone de prudence,,Grands poissons pélagiques,0.0
+2023,Nombre de stocks,Zone de prudence,,Salmonidés,4.0
+2023,Nombre de stocks,Zone de prudence,,Crustacés,4.0
+2023,Nombre de stocks,Zone de prudence,,Mollusques,0.0
+2023,Nombre de stocks,Zone de prudence,,Autres,0.0
 2022,Nombre de stocks,Zone de prudence,,Mammifères marins,0.0
 2022,Nombre de stocks,Zone de prudence,,Poissons de fond,8.0
 2022,Nombre de stocks,Zone de prudence,,Petits poissons pélagiques,5.0
@@ -291,6 +387,14 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Nombre de stocks,Zone de prudence,,Crustacés,3.0
 2021,Nombre de stocks,Zone de prudence,,Mollusques,1.0
 2021,Nombre de stocks,Zone de prudence,,Autres,0.0
+2023,Nombre de stocks,Zone critique,,Marine mammals,0.0
+2023,Nombre de stocks,Zone critique,,Poissons de fond,10.0
+2023,Nombre de stocks,Zone critique,,Petits poissons pélagiques,5.0
+2023,Nombre de stocks,Zone critique,,Grands poissons pélagiques,0.0
+2023,Nombre de stocks,Zone critique,,Salmonidés,8.0
+2023,Nombre de stocks,Zone critique,,Crustacés,5.0
+2023,Nombre de stocks,Zone critique,,Mollusques,3.0
+2023,Nombre de stocks,Zone critique,,Autres,0.0
 2022,Nombre de stocks,Zone critique,,Mammifères marins,0.0
 2022,Nombre de stocks,Zone critique,,Poissons de fond,11.0
 2022,Nombre de stocks,Zone critique,,Petits poissons pélagiques,4.0
@@ -307,6 +411,14 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Nombre de stocks,Zone critique,,Crustacés,2.0
 2021,Nombre de stocks,Zone critique,,Mollusques,1.0
 2021,Nombre de stocks,Zone critique,,Autres,0.0
+2023,Nombre de stocks,État incertain,,Marine mammals,15.0
+2023,Nombre de stocks,État incertain,,Poissons de fond,14.0
+2023,Nombre de stocks,État incertain,,Petits poissons pélagiques,12.0
+2023,Nombre de stocks,État incertain,,Grands poissons pélagiques,1.0
+2023,Nombre de stocks,État incertain,,Salmonidés,7.0
+2023,Nombre de stocks,État incertain,,Crustacés,15.0
+2023,Nombre de stocks,État incertain,,Mollusques,8.0
+2023,Nombre de stocks,État incertain,,Autres,3.0
 2022,Nombre de stocks,État incertain,,Mammifères marins,15.0
 2022,Nombre de stocks,État incertain,,Poissons de fond,15.0
 2022,Nombre de stocks,État incertain,,Petits poissons pélagiques,13.0
@@ -323,6 +435,14 @@ Year,Units,État des stocks,Région,Groupe de stocks,Value
 2021,Nombre de stocks,État incertain,,Crustacés,18.0
 2021,Nombre de stocks,État incertain,,Mollusques,10.0
 2021,Nombre de stocks,État incertain,,Autres,3.0
+2023,Nombre de stocks,Zone de prudence et la zone saine,,Marine mammals,2.0
+2023,Nombre de stocks,Zone de prudence et la zone saine,,Poissons de fond,27.0
+2023,Nombre de stocks,Zone de prudence et la zone saine,,Petits poissons pélagiques,7.0
+2023,Nombre de stocks,Zone de prudence et la zone saine,,Grands poissons pélagiques,1.0
+2023,Nombre de stocks,Zone de prudence et la zone saine,,Salmonidés,10.0
+2023,Nombre de stocks,Zone de prudence et la zone saine,,Crustacés,36.0
+2023,Nombre de stocks,Zone de prudence et la zone saine,,Mollusques,7.0
+2023,Nombre de stocks,Zone de prudence et la zone saine,,Autres,3.0
 2022,Nombre de stocks,Zone de prudence et la zone saine,,Mammifères marins,2.0
 2022,Nombre de stocks,Zone de prudence et la zone saine,,Poissons de fond,25.0
 2022,Nombre de stocks,Zone de prudence et la zone saine,,Petits poissons pélagiques,7.0
