@@ -130,7 +130,13 @@ stock_groups <- bind_rows(stocks_data_2023, stocks_data_2022, stocks_data_2021, 
   gather(key = "Status", value = "Number of stocks", -Year, -`Stock group`) %>%
   group_by(Year, `Stock group`) %>%
   mutate(Percentage = `Number of stocks` / sum(`Number of stocks`) * 100) %>%
-  gather(key = "Units", value = "Value", -Year, -Status, -`Stock group`)
+  gather(key = "Units", value = "Value", -Year, -Status, -`Stock group`) %>%
+  mutate(
+    `Stock group` = case_when(
+      `Stock group` == "Marine Mammals" ~ "Marine mammals",
+      TRUE ~ `Stock group`
+    )
+  )
 
 stock_groups_healthy_and_cautious <- stock_groups %>%
   filter(Status %in% c("Healthy zone", "Cautious zone")) %>%
