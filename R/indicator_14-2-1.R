@@ -17,6 +17,7 @@ regions_data_2023_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/c
 stocks_data_2025_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2025/6_By-species-group.csv"
 stocks_data_2024_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2024/3_Fish-stocks-groups.csv"
 stocks_data_2023_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2023/3_Fish-stocks-groups.csv"
+stocks_data_2022_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2022/Fish-stocks-groups.csv"
 
 national_data <- read_csv(national_data_url, skip = 2, show_col_types = FALSE) %>%
   na.omit()
@@ -72,6 +73,15 @@ stocks_data_2021 <- read_csv(stocks_data_2023_url, skip = 2, show_col_types = FA
   na.omit() %>%
   mutate(Year = "2021")
 
+stocks_data_2020 <- read_csv(stocks_data_2022_url, skip = 2, show_col_types = FALSE) %>%
+  select(`Stock group`,
+         `Healthy zone (number of stocks)`,
+         `Cautious zone (number of stocks)`,
+         `Critical zone (number of stocks)`,
+         `Status uncertain (number of stocks)`
+  ) %>%
+  na.omit() %>%
+  mutate(Year = "2020")
 
 
 fish_stocks <- national_data %>%
@@ -114,7 +124,7 @@ regions_stocks_healthy_and_cautious <- regions_stocks %>%
   summarise(Value = sum(Value), .by = c(Year, Units, Region)) %>%
   mutate(Status = "Healthy and cautious zones")
 
-stock_groups <- bind_rows(stocks_data_2023, stocks_data_2022, stocks_data_2021) %>%
+stock_groups <- bind_rows(stocks_data_2023, stocks_data_2022, stocks_data_2021, stocks_data_2020) %>%
   rename_at(vars(ends_with("(number of stocks)")), ~ substr(., 1, nchar(.)-19)) %>%
   filter(`Stock group` != "Total") %>%
   gather(key = "Status", value = "Number of stocks", -Year, -`Stock group`) %>%
