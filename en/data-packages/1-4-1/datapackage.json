@@ -47,6 +47,17 @@
             "title": "Geography"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2023 constant dollars",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Economic family type",
             "type": "string",
             "constraints": {
