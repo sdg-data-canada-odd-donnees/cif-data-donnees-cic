@@ -20,8 +20,8 @@ After_tax_income <-
          `Income concept` == "Median after-tax income") %>%
   select(
     Year = REF_DATE,
-    Geography = GEO,
     Units = UOM,
+    Geography = GEO,
     `Economic family type`,
     Value = VALUE
   )  %>%
