@@ -36,7 +36,7 @@ total <-
     Geography == "Canada",
     `Economic family type` == "Economic families and persons not in an economic family"
   ) %>%
-  mutate_at(2:(ncol(.) - 2), ~ NA)
+  mutate_at(3:(ncol(.) - 2), ~ NA)
 
 
 non_total <-
