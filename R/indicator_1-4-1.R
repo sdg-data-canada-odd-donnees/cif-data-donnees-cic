@@ -21,9 +21,10 @@ After_tax_income <-
   select(
     Year = REF_DATE,
     Geography = GEO,
+    Units = UOM,
     `Economic family type`,
     Value = VALUE
-  ) %>%
+  )  %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
 
