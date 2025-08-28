@@ -16,6 +16,17 @@
             "title": "Année"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Dollars constants de 2023",
+                ""
+              ]
+            },
+            "title": "Unités"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -45,17 +56,6 @@
               ]
             },
             "title": "Géographie"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Dollars constants de 2023",
-                ""
-              ]
-            },
-            "title": "Unités"
           },
           {
             "name": "Economic family type",
