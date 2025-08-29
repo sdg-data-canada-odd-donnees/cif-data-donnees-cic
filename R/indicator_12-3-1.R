@@ -4,7 +4,7 @@
 library(dplyr)
 library(cansim)
 
-Raw_data <- get_cansim("38-10-0138-01", factors = FALSE)
+Raw_data <- get_cansim("38-10-0179-01", factors = FALSE)
 Raw_data2 <- get_cansim("17-10-0005-01", factors = FALSE)
 
 # load geocode

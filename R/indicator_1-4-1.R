@@ -20,10 +20,11 @@ After_tax_income <-
          `Income concept` == "Median after-tax income") %>%
   select(
     Year = REF_DATE,
+    Units = UOM,
     Geography = GEO,
     `Economic family type`,
     Value = VALUE
-  ) %>%
+  )  %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
 
@@ -35,7 +36,7 @@ total <-
     Geography == "Canada",
     `Economic family type` == "Economic families and persons not in an economic family"
   ) %>%
-  mutate_at(2:(ncol(.) - 2), ~ "")
+  mutate_at(3:(ncol(.) - 2), ~ NA)
 
 
 non_total <-

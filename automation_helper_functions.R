@@ -66,3 +66,40 @@ check_data_update <- function(data, table_no) {
   return(any(data_max_year < tbl_max_ref_date))
 }
 
+cleanup_temp_files <- function(indicator = NULL) {
+
+  # Print disk usage before cleanup
+  if (!is.null(indicator)) {
+    cat("Cleaning up after indicator:", indicator, "\n")
+  }
+
+  # Force garbage collection
+  gc()
+
+  # Remove R temporary files
+  temp_files <- list.files(tempdir(), full.names = TRUE, recursive = TRUE)
+  if (length(temp_files) > 0) {
+    unlink(temp_files, recursive = TRUE, force = TRUE)
+    cat("Removed", length(temp_files), "temporary files\n")
+  }
+
+  # Clear R workspace objects (except essential ones)
+  essential_objects <- c("automation_scripts", "required_updates", "caught_errors", 
+                        "cleanup_temp_files", "read_hub_data", "update_sdg_data",
+                        "get_data_table")  # Add any other functions you need
+
+  all_objects <- ls(envir = .GlobalEnv)
+  objects_to_remove <- setdiff(all_objects, essential_objects)
+
+  if (length(objects_to_remove) > 0) {
+    rm(list = objects_to_remove, envir = .GlobalEnv)
+    cat("Removed", length(objects_to_remove), "workspace objects\n")
+  }
+
+  # Force another garbage collection
+  gc()
+
+  # Optional: Print memory usage
+  cat("Memory usage after cleanup:\n")
+  print(gc())
+}
