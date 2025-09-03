@@ -840,9 +840,7 @@
                 "Montréal, Quebec",
                 "New Brunswick",
                 "Newfoundland and Labrador",
-                "Northwest Territories",
                 "Nova Scotia",
-                "Nunavut",
                 "Ontario",
                 "Ottawa-Gatineau, Ontario/Quebec",
                 "Prairie provinces",
@@ -853,29 +851,49 @@
                 "Toronto, Ontario",
                 "Vancouver, British Columbia",
                 "Winnipeg, Manitoba",
-                "Yukon",
-                "Yukon and Northwest Territories",
                 ""
               ]
             }
           },
           {
-            "name": "Persons in low income",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "All persons",
-                "Females",
-                "Females, 18 to 64 years",
-                "Females, 65 years and over",
-                "Females, under 18 years",
-                "Males",
-                "Males, 18 to 64 years",
-                "Males, 65 years and over",
-                "Males, under 18 years",
-                "Persons 18 to 64 years",
-                "Persons 65 years and over",
-                "Persons under 18 years",
+                "Total",
+                "Under 18 years",
+                "18 to 64 years",
+                "65 years and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Both sexes",
+                "Male",
+                "Female",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Persons in economic families",
+                "Persons in couple families with children",
+                "Persons in female lone-parent families",
+                "Persons not in an economic family",
+                "Seniors not in an economic family",
+                "Non-seniors not in an economic family",
+                "Seniors in economic families",
+                "Persons in all other economic families",
                 ""
               ]
             }

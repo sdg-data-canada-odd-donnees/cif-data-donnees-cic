@@ -30,9 +30,7 @@
                 "Montréal, Québec",
                 "Nouveau-Brunswick",
                 "Terre-Neuve-et-Labrador",
-                "Territoires du Nord-Ouest",
                 "Nouvelle-Écosse",
-                "Nunavut",
                 "Ontario",
                 "Ottawa-Gatineau, Ontario/Québec",
                 "Provinces des Prairies",
@@ -43,34 +41,56 @@
                 "Toronto, Ontario",
                 "Vancouver, Colombie-Britannique",
                 "Winnipeg, Manitoba",
-                "Yukon",
-                "Yukon and Northwest Territories",
                 ""
               ]
             },
             "title": "Géographie"
           },
           {
-            "name": "Persons in low income",
+            "name": "Age group",
             "type": "string",
             "constraints": {
               "enum": [
-                "Toutes les personnes",
-                "Femmes",
-                "Femmes, 18 à 64 ans",
-                "Femmes, 65 ans et plus",
-                "Femmes, moins de 18 ans",
-                "Hommes",
-                "Hommes, 18 à 64 ans",
-                "Hommes, 65 ans et plus",
-                "Hommes, moins de 18 ans",
-                "Personnes de 18 à 64 ans",
-                "Personnes de 65 ans et plus",
-                "Personnes de moins de 18 ans",
+                "Total",
+                "Under 18 years",
+                "18 to 64 years",
+                "65 ans et plus",
                 ""
               ]
             },
-            "title": "Personnes à faible revenu"
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Les deux sexes",
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Sexe"
+          },
+          {
+            "name": "Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Personnes dans les familles économiques",
+                "Personnes dans les familles comptant un couple avec des enfants",
+                "Personnes dans les familles monoparentales ayant une femme à leur tête",
+                "Personnes hors famille économique",
+                "Personnes âgées hors famille économique",
+                "Personnes non âgées hors famille économique",
+                "Personnes âgées dans les familles économiques",
+                "Personnes dans l'ensemble des autres familles économiques",
+                ""
+              ]
+            },
+            "title": "Type de famille économique"
           },
           {
             "name": "GeoCode",
