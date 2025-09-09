@@ -1230,8 +1230,191 @@
   progress_status: deterioration
   score: -5.0
 3-9-1:
-  progress_status: not_available
-  score: null
+  3-9-1 / Diphtheria / Recommended vaccines for 2-year-old children / Canada / Total - Gender:
+    base_value: 76.9
+    base_year: 2015.0
+    current_value: 77.1
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 0.020269306498664433
+    score: -2.415543880612015
+    sign: 1
+    status: limited_progress
+    target: 95.0
+    target_year: 2025.0
+  3-9-1 / Diphtheria / Recommended vaccines for 7-year-old children / Canada / Total - Gender:
+    base_value: 74.6
+    base_year: 2015.0
+    current_value: 71.9
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: -0.2503333723340373
+    score: -3.543064062504233
+    sign: 1
+    status: deterioration
+    target: 95.0
+    target_year: 2025.0
+  ? 3-9-1 / Diphtheria, Tetanus, acellular Pertussis (Tdap) booster / Recommended
+    vaccines for 17-year-old children / Canada / Total - Gender
+  : base_value: 89.3
+    base_year: 2017.0
+    current_value: 92.8
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 9.89004807601919
+    score: 5.0
+    sign: 1
+    status: target_achieved
+    target: 90.0
+    target_year: 2025.0
+  3-9-1 / Hepatitis B / Recommended vaccines for 14-year-old children / Canada / Total - Gender:
+    base_value: 83.1
+    base_year: 2017.0
+    current_value: 89.0
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 1.7260414193640878
+    score: 5.0
+    sign: 1
+    status: substantial_progress
+    target: 90.0
+    target_year: 2025.0
+  3-9-1 / Hepatitis B / Recommended vaccines for 2-year-old children / Canada / Total - Gender:
+    base_value: 69.2
+    base_year: 2015.0
+    current_value: 82.6
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 0.9299875425576409
+    score: 2.357108017734973
+    sign: 1
+    status: moderate_progress
+    target: 95.0
+    target_year: 2025.0
+  3-9-1 / Human Papillomavirus (HPV) / Recommended vaccines for 14-year-old children / Canada / Total - Gender:
+    base_value: 80.2
+    base_year: 2019.0
+    current_value: 84.0
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 1.2070325634661578
+    score: 4.336012897582419
+    sign: 1
+    status: substantial_progress
+    target: 90.0
+    target_year: 2025.0
+  3-9-1 / Meningococcal type C / Recommended vaccines for 17-year-old children / Canada / Total - Gender:
+    base_value: 89.3
+    base_year: 2019.0
+    current_value: 89.0
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: -1.2909924104749682
+    score: -5.0
+    sign: 1
+    status: deterioration
+    target: 90.0
+    target_year: 2025.0
+  3-9-1 / Meningococcal type C / Recommended vaccines for 2-year-old children / Canada / Total - Gender:
+    base_value: 87.8
+    base_year: 2015.0
+    current_value: 90.5
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 0.6395836985040276
+    score: 0.282782400044419
+    sign: 1
+    status: moderate_progress
+    target: 95.0
+    target_year: 2025.0
+  3-9-1 / Mumps / Recommended vaccines for 2-year-old children / Canada / Total - Gender:
+    base_value: 88.9
+    base_year: 2015.0
+    current_value: 91.5
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 0.7232858727727359
+    score: 0.8806586606283755
+    sign: 1
+    status: moderate_progress
+    target: 95.0
+    target_year: 2025.0
+  3-9-1 / Mumps / Recommended vaccines for 7-year-old children / Canada / Total - Gender:
+    base_value: 86.2
+    base_year: 2015.0
+    current_value: 79.5
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: -1.3713049632952559
+    score: -5.0
+    sign: 1
+    status: deterioration
+    target: 95.0
+    target_year: 2025.0
+  3-9-1 / Pneumococcal / Recommended vaccines for 2-year-old children / Canada / Total - Gender:
+    base_value: 80.3
+    base_year: 2015.0
+    current_value: 85.1
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 0.5735447253566258
+    score: -0.11021119285654724
+    sign: 1
+    status: limited_progress
+    target: 95.0
+    target_year: 2025.0
+  3-9-1 / Polio / Recommended vaccines for 2-year-old children / Canada / Total - Gender:
+    base_value: 91.2
+    base_year: 2015.0
+    current_value: 91.8
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 0.26732331867157816
+    score: -1.3861439280911354
+    sign: 1
+    status: limited_progress
+    target: 95.0
+    target_year: 2025.0
+  3-9-1 / Polio / Recommended vaccines for 7-year-old children / Canada / Total - Gender:
+    base_value: 90.2
+    base_year: 2015.0
+    current_value: 87.3
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: -1.0449151239449763
+    score: -5.0
+    sign: 1
+    status: deterioration
+    target: 95.0
+    target_year: 2025.0
+  3-9-1 / Varicella / Recommended vaccines for 2-year-old children / Canada / Total - Gender:
+    base_value: 82.9
+    base_year: 2017.0
+    current_value: 87.5
+    current_year: 2021.0
+    direction: 1
+    limit: null
+    progress_value: 0.7913615937783701
+    score: 1.36691672819952
+    sign: 1
+    status: moderate_progress
+    target: 95.0
+    target_year: 2025.0
+  progress_status: limited_progress
+  score: -0.23082031141958748
 4-1-1:
   4-1-1:
     base_value: 79.3
@@ -1736,18 +1919,18 @@
   9-6-1:
     base_value: 686.0
     base_year: 2015.0
-    current_value: 15512.0
+    current_value: 15533.0
     current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 1.193174114823067
-    score: 4.237023384769685
+    progress_value: 1.1937766815285544
+    score: 4.241327458490311
     sign: 1
     status: substantial_progress
     target: 37929.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 4.237023384769685
+  score: 4.241327458490311
 9-7-1:
   9-7-1:
     base_value: 58.2
