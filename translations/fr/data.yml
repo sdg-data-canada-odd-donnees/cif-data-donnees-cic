@@ -232,6 +232,7 @@ All ages: Tous les âges
 85 and over: 85 ans et plus
 90 years and over: 90 ans et plus
 Under 1 year: Moins d'un an 
+Under 18 years: Moins de 18 ans
 0 to 14 years: 0 à 14 ans
 1 to 4 years: 1 à 4 ans
 1 to 14 years: 1 à 14 ans
@@ -244,6 +245,7 @@ Under 1 year: Moins d'un an
 15 to 64 years: 15 à 64 ans
 18 to 24 years: 18 à 24 ans
 18 to 34 years: 18 à 34 ans
+18 to 64 years: 18 à 64 ans
 20 to 24 years: 20 à 24 ans
 25 to 29 years: 25 à 29 ans
 25 to 34 years: 25 à 34 ans
@@ -363,6 +365,7 @@ Elderly females not in an economic family: Femmes âgées hors famille économiq
 Non-elderly persons not in an economic family: Personnes non âgées hors famille économique
 Non-elderly males not in an economic family: Hommes non âgés hors famille économique
 Non-elderly females not in an economic family: Femmes non âgées hors famille économique
+
 
 ## 1-2-1
 Age group and family type: "Groupe d'âge et type de famille"
@@ -497,6 +500,8 @@ Persons in lone-parent families: Personnes dans les familles monoparentales
 Persons in male lone-parent families: Personnes dans les familles monoparentales ayant un homme à leur tête
 Persons in female lone-parent families: Personnes dans les familles monoparentales ayant une femme à leur tête
 Persons in other non-elderly families: Personnes dans les autres familles de personnes non âgées
+Persons in all other economic families: Personnes dans l'ensemble des autres familles économiques
+Seniors in economic families: Personnes âgées dans les familles économiques
 Persons not in an economic family: Personnes hors famille économique
 Elderly persons not in an economic family: Personnes âgées hors famille économique
 Elderly males not in an economic family: Hommes âgés hors famille économique
@@ -617,11 +622,11 @@ Polio: Polio
 Haemophilus influenzae type B: Haemophilus influenzae de type B
 Diphtheria - Pertussis and tetanus: Diphtérie, la coqueluche et le tétanos
 Measles: Rougeole
-Mumps: Rubéole
-Rubella: Oreillons
+Mumps: Oreillons
+Rubella: Rubéole
 Hepatitis B: Hépatite B
 Varicella: Varicelle
-Meningococcal type C: Méningite de type C
+Meningococcal type C: Méningocoque de type C
 Pneumococcal: Pneumocoque
 Rotavirus: Rotavirus
 Human Papillomavirus: Virus du papillome humain
