@@ -1,20 +1,20 @@
 Year,Géographie,Type de poste de recharge ou de ravitaillement,GeoCode,Value
 2010,,,,109
 2011,,,,125
-2012,,,,160
-2013,,,,237
-2014,,,,352
-2015,,,,685
-2016,,,,873
-2017,,,,1367
-2018,,,,1823
-2019,,,,3860
-2020,,,,4677
-2021,,,,5989
-2022,,,,8257
-2023,,,,11523
-2024,,,,13976
-2025,,,,15663
+2012,,,,159
+2013,,,,238
+2014,,,,353
+2015,,,,686
+2016,,,,874
+2017,,,,1368
+2018,,,,1824
+2019,,,,3857
+2020,,,,4671
+2021,,,,5984
+2022,,,,8253
+2023,,,,11487
+2024,,,,13916
+2025,,,,15686
 2010,Alberta,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,48,26
 2010,Alberta,Propane,48,26
 2011,Alberta,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,48,27
@@ -58,11 +58,11 @@ Year,Géographie,Type de poste de recharge ou de ravitaillement,GeoCode,Value
 2023,Alberta,Gaz naturel comprimé,48,13
 2023,Alberta,Électrique,48,575
 2023,Alberta,Propane,48,142
-2024,Alberta,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,48,907
-2024,Alberta,Électrique,48,751
+2024,Alberta,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,48,904
+2024,Alberta,Électrique,48,748
 2024,Alberta,Propane,48,143
-2025,Alberta,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,48,999
-2025,Alberta,Électrique,48,841
+2025,Alberta,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,48,1002
+2025,Alberta,Électrique,48,844
 2025,Alberta,Propane,48,145
 2010,Colombie-Britannique,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,59,37
 2010,Colombie-Britannique,Biodiesel,59,1
@@ -95,30 +95,30 @@ Year,Géographie,Type de poste de recharge ou de ravitaillement,GeoCode,Value
 2019,Colombie-Britannique,Électrique,59,476
 2019,Colombie-Britannique,Hydrogène,59,2
 2019,Colombie-Britannique,Propane,59,108
-2020,Colombie-Britannique,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,59,736
-2020,Colombie-Britannique,Électrique,59,618
+2020,Colombie-Britannique,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,59,737
+2020,Colombie-Britannique,Électrique,59,619
 2020,Colombie-Britannique,Hydrogène,59,3
 2020,Colombie-Britannique,Propane,59,110
-2021,Colombie-Britannique,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,59,1029
+2021,Colombie-Britannique,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,59,1030
 2021,Colombie-Britannique,Gaz naturel comprimé,59,5
-2021,Colombie-Britannique,Électrique,59,908
+2021,Colombie-Britannique,Électrique,59,909
 2021,Colombie-Britannique,Hydrogène,59,4
 2021,Colombie-Britannique,Propane,59,111
-2022,Colombie-Britannique,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,59,1497
-2022,Colombie-Britannique,Électrique,59,1372
+2022,Colombie-Britannique,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,59,1498
+2022,Colombie-Britannique,Électrique,59,1373
 2022,Colombie-Britannique,Hydrogène,59,5
 2022,Colombie-Britannique,Propane,59,114
-2023,Colombie-Britannique,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,59,2028
+2023,Colombie-Britannique,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,59,2018
 2023,Colombie-Britannique,Gaz naturel comprimé,59,7
-2023,Colombie-Britannique,Électrique,59,1899
+2023,Colombie-Britannique,Électrique,59,1889
 2023,Colombie-Britannique,Éthanol,59,1
 2023,Colombie-Britannique,Hydrogène,59,6
-2024,Colombie-Britannique,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,59,2484
-2024,Colombie-Britannique,Électrique,59,2351
+2024,Colombie-Britannique,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,59,2475
+2024,Colombie-Britannique,Électrique,59,2340
 2024,Colombie-Britannique,Hydrogène,59,7
-2024,Colombie-Britannique,Propane,59,117
-2025,Colombie-Britannique,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,59,2763
-2025,Colombie-Britannique,Électrique,59,2624
+2024,Colombie-Britannique,Propane,59,119
+2025,Colombie-Britannique,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,59,2771
+2025,Colombie-Britannique,Électrique,59,2632
 2025,Colombie-Britannique,Hydrogène,59,9
 2025,Colombie-Britannique,Propane,59,121
 2010,Canada,Biodiesel,,1
@@ -126,53 +126,53 @@ Year,Géographie,Type de poste de recharge ou de ravitaillement,GeoCode,Value
 2010,Canada,Propane,,103
 2011,Canada,Électrique,,20
 2011,Canada,Propane,,104
-2012,Canada,Électrique,,51
+2012,Canada,Électrique,,50
 2012,Canada,Propane,,108
 2013,Canada,Gaz naturel comprimé,,2
-2013,Canada,Électrique,,122
+2013,Canada,Électrique,,123
 2013,Canada,Propane,,112
 2014,Canada,Gaz naturel comprimé,,3
-2014,Canada,Électrique,,233
+2014,Canada,Électrique,,234
 2014,Canada,Propane,,115
 2015,Canada,Gaz naturel comprimé,,7
-2015,Canada,Électrique,,549
+2015,Canada,Électrique,,550
 2015,Canada,Propane,,128
-2016,Canada,Électrique,,732
+2016,Canada,Électrique,,733
 2016,Canada,Hydrogène,,1
 2016,Canada,Propane,,132
 2017,Canada,Gaz naturel comprimé,,13
-2017,Canada,Électrique,,986
+2017,Canada,Électrique,,987
 2017,Canada,Propane,,366
 2018,Canada,Gaz naturel comprimé,,26
-2018,Canada,Électrique,,1212
+2018,Canada,Électrique,,1213
 2018,Canada,Hydrogène,,3
 2018,Canada,Propane,,581
 2019,Canada,Gaz naturel comprimé,,29
-2019,Canada,Électrique,,3227
+2019,Canada,Électrique,,3224
 2019,Canada,Hydrogène,,4
 2019,Canada,Propane,,599
 2020,Canada,Gaz naturel comprimé,,30
-2020,Canada,Électrique,,4029
+2020,Canada,Électrique,,4023
 2020,Canada,Hydrogène,,5
 2020,Canada,Propane,,612
 2021,Canada,Gaz naturel comprimé,,32
-2021,Canada,Électrique,,5330
+2021,Canada,Électrique,,5325
 2021,Canada,Hydrogène,,6
 2021,Canada,Propane,,620
 2022,Canada,Gaz naturel comprimé,,40
-2022,Canada,Électrique,,7568
+2022,Canada,Électrique,,7564
 2022,Canada,Hydrogène,,8
 2022,Canada,Propane,,640
 2023,Canada,Gaz naturel comprimé,,44
-2023,Canada,Électrique,,10820
+2023,Canada,Électrique,,10784
 2023,Canada,Éthanol,,1
 2023,Canada,Hydrogène,,10
 2023,Canada,Propane,,647
-2024,Canada,Électrique,,13253
+2024,Canada,Électrique,,13190
 2024,Canada,Hydrogène,,12
-2024,Canada,Propane,,665
-2025,Canada,Gaz naturel comprimé,,46
-2025,Canada,Électrique,,14914
+2024,Canada,Propane,,668
+2025,Canada,Gaz naturel comprimé,,47
+2025,Canada,Électrique,,14936
 2025,Canada,Hydrogène,,16
 2025,Canada,Propane,,685
 2010,Manitoba,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,46,3
@@ -262,11 +262,11 @@ Year,Géographie,Type de poste de recharge ou de ravitaillement,GeoCode,Value
 2023,Terre-Neuve-et-Labrador,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,10,122
 2023,Terre-Neuve-et-Labrador,Électrique,10,121
 2023,Terre-Neuve-et-Labrador,Propane,10,1
-2024,Terre-Neuve-et-Labrador,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,10,130
+2024,Terre-Neuve-et-Labrador,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,10,131
 2024,Terre-Neuve-et-Labrador,Électrique,10,129
-2025,Terre-Neuve-et-Labrador,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,10,153
-2025,Terre-Neuve-et-Labrador,Électrique,10,151
-2025,Terre-Neuve-et-Labrador,Propane,10,2
+2024,Terre-Neuve-et-Labrador,Propane,10,2
+2025,Terre-Neuve-et-Labrador,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,10,154
+2025,Terre-Neuve-et-Labrador,Électrique,10,152
 2015,Territoires du Nord-Ouest,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,61,1
 2015,Territoires du Nord-Ouest,Propane,61,1
 2020,Territoires du Nord-Ouest,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,61,2
@@ -303,13 +303,13 @@ Year,Géographie,Type de poste de recharge ou de ravitaillement,GeoCode,Value
 2022,Nouvelle-Écosse,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,12,149
 2022,Nouvelle-Écosse,Électrique,12,145
 2022,Nouvelle-Écosse,Propane,12,4
-2023,Nouvelle-Écosse,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,12,222
-2023,Nouvelle-Écosse,Électrique,12,218
-2024,Nouvelle-Écosse,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,12,271
-2024,Nouvelle-Écosse,Électrique,12,266
+2023,Nouvelle-Écosse,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,12,219
+2023,Nouvelle-Écosse,Électrique,12,215
+2024,Nouvelle-Écosse,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,12,268
+2024,Nouvelle-Écosse,Électrique,12,263
 2024,Nouvelle-Écosse,Propane,12,5
-2025,Nouvelle-Écosse,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,12,305
-2025,Nouvelle-Écosse,Électrique,12,300
+2025,Nouvelle-Écosse,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,12,306
+2025,Nouvelle-Écosse,Électrique,12,301
 2010,Ontario,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,35,30
 2010,Ontario,Électrique,35,2
 2010,Ontario,Propane,35,28
@@ -344,26 +344,26 @@ Year,Géographie,Type de poste de recharge ou de ravitaillement,GeoCode,Value
 2019,Ontario,Gaz naturel comprimé,35,8
 2019,Ontario,Électrique,35,692
 2019,Ontario,Propane,35,80
-2020,Ontario,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,35,1001
-2020,Ontario,Électrique,35,905
+2020,Ontario,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,35,998
+2020,Ontario,Électrique,35,902
 2020,Ontario,Propane,35,87
-2021,Ontario,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,35,1445
+2021,Ontario,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,35,1442
 2021,Ontario,Gaz naturel comprimé,35,9
-2021,Ontario,Électrique,35,1347
+2021,Ontario,Électrique,35,1344
 2021,Ontario,Propane,35,88
-2022,Ontario,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,35,2242
+2022,Ontario,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,35,2240
 2022,Ontario,Gaz naturel comprimé,35,12
-2022,Ontario,Électrique,35,2128
+2022,Ontario,Électrique,35,2126
 2022,Ontario,Propane,35,101
 2023,Ontario,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,35,3574
 2023,Ontario,Électrique,35,3456
 2023,Ontario,Propane,35,105
-2024,Ontario,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,35,4456
-2024,Ontario,Électrique,35,4329
+2024,Ontario,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,35,4450
+2024,Ontario,Électrique,35,4323
 2024,Ontario,Hydrogène,35,2
 2024,Ontario,Propane,35,113
-2025,Ontario,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,35,5032
-2025,Ontario,Électrique,35,4894
+2025,Ontario,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,35,5040
+2025,Ontario,Électrique,35,4902
 2025,Ontario,Propane,35,124
 2013,Île-du-Prince-Édouard,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,11,2
 2013,Île-du-Prince-Édouard,Électrique,11,2
@@ -395,54 +395,54 @@ Year,Géographie,Type de poste de recharge ou de ravitaillement,GeoCode,Value
 2010,Québec,Électrique,24,2
 2011,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,10
 2011,Québec,Électrique,24,3
-2012,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,20
-2012,Québec,Électrique,24,13
-2013,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,35
+2012,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,19
+2012,Québec,Électrique,24,12
+2013,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,36
 2013,Québec,Gaz naturel comprimé,24,2
-2013,Québec,Électrique,24,26
-2014,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,69
-2014,Québec,Électrique,24,59
+2013,Québec,Électrique,24,27
+2014,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,70
+2014,Québec,Électrique,24,60
 2014,Québec,Propane,24,8
-2015,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,158
+2015,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,159
 2015,Québec,Gaz naturel comprimé,24,3
-2015,Québec,Électrique,24,140
+2015,Québec,Électrique,24,141
 2015,Québec,Propane,24,15
-2016,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,249
-2016,Québec,Électrique,24,230
+2016,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,250
+2016,Québec,Électrique,24,231
 2016,Québec,Propane,24,16
-2017,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,426
+2017,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,427
 2017,Québec,Gaz naturel comprimé,24,4
-2017,Québec,Électrique,24,284
+2017,Québec,Électrique,24,285
 2017,Québec,Propane,24,138
-2018,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,463
+2018,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,464
 2018,Québec,Gaz naturel comprimé,24,5
-2018,Québec,Électrique,24,315
+2018,Québec,Électrique,24,316
 2018,Québec,Hydrogène,24,1
 2018,Québec,Propane,24,142
-2019,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,1907
+2019,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,1904
 2019,Québec,Gaz naturel comprimé,24,7
-2019,Québec,Électrique,24,1753
+2019,Québec,Électrique,24,1750
 2019,Québec,Propane,24,146
-2020,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,2283
-2020,Québec,Électrique,24,2129
-2021,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,2659
-2021,Québec,Électrique,24,2503
+2020,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,2279
+2020,Québec,Électrique,24,2125
+2021,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,2656
+2021,Québec,Électrique,24,2500
 2021,Québec,Propane,24,148
-2022,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,3194
+2022,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,3191
 2022,Québec,Gaz naturel comprimé,24,9
-2022,Québec,Électrique,24,3035
+2022,Québec,Électrique,24,3032
 2022,Québec,Hydrogène,24,2
-2023,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,3999
+2023,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,3976
 2023,Québec,Gaz naturel comprimé,24,10
-2023,Québec,Électrique,24,3837
+2023,Québec,Électrique,24,3814
 2023,Québec,Hydrogène,24,3
 2023,Québec,Propane,24,149
-2024,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,4705
-2024,Québec,Électrique,24,4542
+2024,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,4666
+2024,Québec,Électrique,24,4503
 2024,Québec,Propane,24,150
-2025,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,5248
-2025,Québec,Gaz naturel comprimé,24,12
-2025,Québec,Électrique,24,5080
+2025,Québec,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,24,5251
+2025,Québec,Gaz naturel comprimé,24,13
+2025,Québec,Électrique,24,5082
 2025,Québec,Hydrogène,24,5
 2025,Québec,Propane,24,151
 2014,Saskatchewan,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,47,8
@@ -483,7 +483,7 @@ Year,Géographie,Type de poste de recharge ou de ravitaillement,GeoCode,Value
 2022,Yukon,Électrique,60,12
 2023,Yukon,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,60,35
 2023,Yukon,Électrique,60,33
-2024,Yukon,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,60,41
-2024,Yukon,Électrique,60,39
-2025,Yukon,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,60,49
-2025,Yukon,Électrique,60,47
+2024,Yukon,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,60,40
+2024,Yukon,Électrique,60,38
+2025,Yukon,Stations de recharge et de stations de ravitaillement en carburants de remplacement total,60,48
+2025,Yukon,Électrique,60,46
