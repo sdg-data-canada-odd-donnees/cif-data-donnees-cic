@@ -27,7 +27,7 @@ prop_youth <-
   select(Year = REF_DATE,
          Geography = GEO,
          `Age group`,
-         Sex,
+         Gender,
          Value = VALUE) %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
@@ -38,7 +38,7 @@ total <-
   prop_youth %>%
   filter(Geography == "Canada",
          `Age group` == "Total, 15 to 29 years",
-         Sex == "Both sexes") %>%
+         Gender == "Both genders") %>%
   mutate_at(2:(ncol(.) - 2), ~ "")
 
 
@@ -48,7 +48,7 @@ non_total <-
   filter(!(
     Geography == "Canada" &
       `Age group` == "Total, 15 to 29 years" &
-      Sex == "Both sexes"
+      Gender == "Both genders"
   )) %>%
   mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
 
