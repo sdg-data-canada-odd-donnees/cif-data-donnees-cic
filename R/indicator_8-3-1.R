@@ -38,7 +38,7 @@ total <-
   prop_youth %>%
   filter(Geography == "Canada",
          `Age group` == "Total, 15 to 29 years",
-         Gender == "Both genders") %>%
+         Gender == "Total - Gender") %>%
   mutate_at(2:(ncol(.) - 2), ~ "")
 
 
@@ -48,7 +48,7 @@ non_total <-
   filter(!(
     Geography == "Canada" &
       `Age group` == "Total, 15 to 29 years" &
-      Gender == "Both genders"
+      Gender == "Total - Gender"
   )) %>%
   mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
 
