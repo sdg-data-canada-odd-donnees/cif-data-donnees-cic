@@ -6,6 +6,7 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,,,,89.7
 2021,,,,91.4
 2022,,,,93.1
+2023,,,,95.8
 2016,data.Canada,data.First Nations reserves,,27.3
 2017,data.Canada,data.First Nations reserves,,27.7
 2018,data.Canada,data.First Nations reserves,,31.3
@@ -13,8 +14,9 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Canada,data.First Nations reserves,,39.1
 2021,data.Canada,data.First Nations reserves,,43.3
 2022,data.Canada,data.First Nations reserves,,50.1
-2016,data.Canada,data.First Nations reserves Urban centres,,73
-2017,data.Canada,data.First Nations reserves Urban centres,,73
+2023,data.Canada,data.First Nations reserves,,61.0
+2016,data.Canada,data.First Nations reserves Urban centres,,73.0
+2017,data.Canada,data.First Nations reserves Urban centres,,73.0
 2018,data.Canada,data.First Nations reserves Urban centres,,75.6
 2019,data.Canada,data.First Nations reserves Urban centres,,80.7
 2020,data.Canada,data.First Nations reserves Urban centres,,84.2
@@ -39,8 +41,9 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2018,data.Canada,data.Rural areas,,40.7
 2019,data.Canada,data.Rural areas,,45.6
 2020,data.Canada,data.Rural areas,,54.4
-2021,data.Canada,data.Rural areas,,62
-2022,data.Canada,data.Rural areas,,67.4
+2021,data.Canada,data.Rural areas,,62.0
+2022,data.Canada,data.Rural areas,,67.6
+2023,data.Canada,data.Rural areas,,80.5
 2016,data.British Columbia,data.First Nations reserves,59,60.01
 2017,data.British Columbia,data.First Nations reserves,59,62.13
 2018,data.British Columbia,data.First Nations reserves,59,66.68
@@ -320,7 +323,8 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2019,data.British Columbia,data.Rural areas,59,62.5
 2020,data.British Columbia,data.Rural areas,59,63.24
 2021,data.British Columbia,data.Rural areas,59,65.79
-2022,data.British Columbia,data.Rural areas,59,66.24
+2022,data.British Columbia,data.Rural areas,59,66.00
+2023,data.British Columbia,data.Rural areas,59,76.2
 2016,data.Alberta,data.Rural areas,48,9.86
 2017,data.Alberta,data.Rural areas,48,8.76
 2018,data.Alberta,data.Rural areas,48,21.06
@@ -328,41 +332,47 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Alberta,data.Rural areas,48,33.69
 2021,data.Alberta,data.Rural areas,48,40.74
 2022,data.Alberta,data.Rural areas,48,42.2
+2023,data.Alberta,data.Rural areas,48,71.5
 2016,data.Saskatchewan,data.Rural areas,47,1.15
 2017,data.Saskatchewan,data.Rural areas,47,1.36
 2018,data.Saskatchewan,data.Rural areas,47,1.53
 2019,data.Saskatchewan,data.Rural areas,47,23.95
 2020,data.Saskatchewan,data.Rural areas,47,38.99
 2021,data.Saskatchewan,data.Rural areas,47,48.09
-2022,data.Saskatchewan,data.Rural areas,47,43.07
+2022,data.Saskatchewan,data.Rural areas,47,43.2
+2023,data.Saskatchewan,data.Rural areas,47,59.2
 2016,data.Manitoba,data.Rural areas,46,6.78
 2017,data.Manitoba,data.Rural areas,46,10.27
 2018,data.Manitoba,data.Rural areas,46,12.97
 2019,data.Manitoba,data.Rural areas,46,14.41
 2020,data.Manitoba,data.Rural areas,46,28.09
 2021,data.Manitoba,data.Rural areas,46,38.78
-2022,data.Manitoba,data.Rural areas,46,45.96
+2022,data.Manitoba,data.Rural areas,46,46.7
+2023,data.Manitoba,data.Rural areas,46,70.4
 2016,data.Ontario,data.Rural areas,35,31.79
 2017,data.Ontario,data.Rural areas,35,27.77
 2018,data.Ontario,data.Rural areas,35,29.5
 2019,data.Ontario,data.Rural areas,35,30.46
 2020,data.Ontario,data.Rural areas,35,41.3
 2021,data.Ontario,data.Rural areas,35,57.1
-2022,data.Ontario,data.Rural areas,35,62.87
+2022,data.Ontario,data.Rural areas,35,63.2
+2023,data.Ontario,data.Rural areas,35,75.9
 2016,data.Quebec,data.Rural areas,24,52.11
 2017,data.Quebec,data.Rural areas,24,53.45
 2018,data.Quebec,data.Rural areas,24,58.73
 2019,data.Quebec,data.Rural areas,24,62.25
 2020,data.Quebec,data.Rural areas,24,73.38
 2021,data.Quebec,data.Rural areas,24,76.88
-2022,data.Quebec,data.Rural areas,24,84.51
+2022,data.Quebec,data.Rural areas,24,84.9
+2023,data.Quebec,data.Rural areas,24,92.9
 2016,data.New Brunswick,data.Rural areas,13,67.61
 2017,data.New Brunswick,data.Rural areas,13,63.45
 2018,data.New Brunswick,data.Rural areas,13,63.42
 2019,data.New Brunswick,data.Rural areas,13,63.61
 2020,data.New Brunswick,data.Rural areas,13,85.79
 2021,data.New Brunswick,data.Rural areas,13,78.91
-2022,data.New Brunswick,data.Rural areas,13,82.43
+2022,data.New Brunswick,data.Rural areas,13,82.4
+2023,data.New Brunswick,data.Rural areas,13,91.1
 2016,data.Prince Edward Island,data.Rural areas,11,42.92
 2017,data.Prince Edward Island,data.Rural areas,11,30.72
 2018,data.Prince Edward Island,data.Rural areas,11,31.41
@@ -370,6 +380,7 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Prince Edward Island,data.Rural areas,11,64.17
 2021,data.Prince Edward Island,data.Rural areas,11,79.12
 2022,data.Prince Edward Island,data.Rural areas,11,84.08
+2023,data.Prince Edward Island,data.Rural areas,11,94.7
 2016,data.Nova Scotia,data.Rural areas,12,57.45
 2017,data.Nova Scotia,data.Rural areas,12,51.28
 2018,data.Nova Scotia,data.Rural areas,12,51.63
@@ -377,13 +388,15 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Nova Scotia,data.Rural areas,12,58.37
 2021,data.Nova Scotia,data.Rural areas,12,65.55
 2022,data.Nova Scotia,data.Rural areas,12,79
+2023,data.Nova Scotia,data.Rural areas,12,90.1
 2016,data.Newfoundland and Labrador,data.Rural areas,10,49.03
 2017,data.Newfoundland and Labrador,data.Rural areas,10,46.53
 2018,data.Newfoundland and Labrador,data.Rural areas,10,46.15
 2019,data.Newfoundland and Labrador,data.Rural areas,10,49.62
 2020,data.Newfoundland and Labrador,data.Rural areas,10,48.77
 2021,data.Newfoundland and Labrador,data.Rural areas,10,53.98
-2022,data.Newfoundland and Labrador,data.Rural areas,10,63.52
+2022,data.Newfoundland and Labrador,data.Rural areas,10,63.3
+2023,data.Newfoundland and Labrador,data.Rural areas,10,73.1
 2016,data.Northwest Territories,data.Rural areas,61,
 2017,data.Northwest Territories,data.Rural areas,61,
 2018,data.Northwest Territories,data.Rural areas,61,
@@ -391,6 +404,7 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Northwest Territories,data.Rural areas,61,16.89
 2021,data.Northwest Territories,data.Rural areas,61,17.66
 2022,data.Northwest Territories,data.Rural areas,61,50.38
+2023,data.Northwest Territories,data.Rural areas,61,62.2
 2016,data.Yukon,data.Rural areas,60,
 2017,data.Yukon,data.Rural areas,60,
 2018,data.Yukon,data.Rural areas,60,
@@ -398,6 +412,7 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Yukon,data.Rural areas,60,12.49
 2021,data.Yukon,data.Rural areas,60,23.98
 2022,data.Yukon,data.Rural areas,60,34.19
+2023,data.Yukon,data.Rural areas,60,80.0
 2016,data.Nunavut,data.Rural areas,62,
 2017,data.Nunavut,data.Rural areas,62,
 2018,data.Nunavut,data.Rural areas,62,
@@ -405,13 +420,15 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Nunavut,data.Rural areas,62,
 2021,data.Nunavut,data.Rural areas,62,0
 2022,data.Nunavut,data.Rural areas,62,0
+2023,data.Nunavut,data.Rural areas,62,
 2016,data.British Columbia,data.Urban centres,59,97.95
 2017,data.British Columbia,data.Urban centres,59,98.06
 2018,data.British Columbia,data.Urban centres,59,98.94
 2019,data.British Columbia,data.Urban centres,59,99.3
 2020,data.British Columbia,data.Urban centres,59,99.45
 2021,data.British Columbia,data.Urban centres,59,99.43
-2022,data.British Columbia,data.Urban centres,59,99.44
+2022,data.British Columbia,data.Urban centres,59,99.5
+2023,data.British Columbia,data.Urban centres,59,99.7
 2016,data.Alberta,data.Urban centres,48,97.06
 2017,data.Alberta,data.Urban centres,48,94.59
 2018,data.Alberta,data.Urban centres,48,97.62
@@ -419,6 +436,7 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Alberta,data.Urban centres,48,98.51
 2021,data.Alberta,data.Urban centres,48,98.65
 2022,data.Alberta,data.Urban centres,48,99.34
+2023,data.Alberta,data.Urban centres,48,99.7
 2016,data.Saskatchewan,data.Urban centres,47,65.5
 2017,data.Saskatchewan,data.Urban centres,47,69.47
 2018,data.Saskatchewan,data.Urban centres,47,75.18
@@ -426,13 +444,15 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Saskatchewan,data.Urban centres,47,98.29
 2021,data.Saskatchewan,data.Urban centres,47,99.02
 2022,data.Saskatchewan,data.Urban centres,47,98.62
+2023,data.Saskatchewan,data.Urban centres,47,99.3
 2016,data.Manitoba,data.Urban centres,46,85.63
 2017,data.Manitoba,data.Urban centres,46,92.61
 2018,data.Manitoba,data.Urban centres,46,94.68
 2019,data.Manitoba,data.Urban centres,46,95.51
 2020,data.Manitoba,data.Urban centres,46,98.54
 2021,data.Manitoba,data.Urban centres,46,97.39
-2022,data.Manitoba,data.Urban centres,46,97.78
+2022,data.Manitoba,data.Urban centres,46,98.1
+2023,data.Manitoba,data.Urban centres,46,98.6
 2016,data.Ontario,data.Urban centres,35,98.71
 2017,data.Ontario,data.Urban centres,35,98.27
 2018,data.Ontario,data.Urban centres,35,98.31
@@ -440,6 +460,7 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Ontario,data.Urban centres,35,99.2
 2021,data.Ontario,data.Urban centres,35,99.22
 2022,data.Ontario,data.Urban centres,35,99.55
+2023,data.Ontario,data.Urban centres,35,99.7
 2016,data.Quebec,data.Urban centres,24,96.94
 2017,data.Quebec,data.Urban centres,24,98.12
 2018,data.Quebec,data.Urban centres,24,98.59
@@ -447,6 +468,7 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Quebec,data.Urban centres,24,99.67
 2021,data.Quebec,data.Urban centres,24,99.74
 2022,data.Quebec,data.Urban centres,24,99.72
+2023,data.Quebec,data.Urban centres,24,99.8
 2016,data.New Brunswick,data.Urban centres,13,100
 2017,data.New Brunswick,data.Urban centres,13,99.77
 2018,data.New Brunswick,data.Urban centres,13,99.7
@@ -454,6 +476,7 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.New Brunswick,data.Urban centres,13,99.89
 2021,data.New Brunswick,data.Urban centres,13,99.85
 2022,data.New Brunswick,data.Urban centres,13,99.99
+2023,data.New Brunswick,data.Urban centres,13,100
 2016,data.Prince Edward Island,data.Urban centres,11,100
 2017,data.Prince Edward Island,data.Urban centres,11,99.98
 2018,data.Prince Edward Island,data.Urban centres,11,99.98
@@ -461,13 +484,15 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Prince Edward Island,data.Urban centres,11,99.98
 2021,data.Prince Edward Island,data.Urban centres,11,100
 2022,data.Prince Edward Island,data.Urban centres,11,99.99
+2023,data.Prince Edward Island,data.Urban centres,11,100
 2016,data.Nova Scotia,data.Urban centres,12,99.49
 2017,data.Nova Scotia,data.Urban centres,12,99.28
 2018,data.Nova Scotia,data.Urban centres,12,99.29
 2019,data.Nova Scotia,data.Urban centres,12,99.4
 2020,data.Nova Scotia,data.Urban centres,12,99.42
 2021,data.Nova Scotia,data.Urban centres,12,99.28
-2022,data.Nova Scotia,data.Urban centres,12,99.64
+2022,data.Nova Scotia,data.Urban centres,12,99.8
+2023,data.Nova Scotia,data.Urban centres,12,99.8
 2016,data.Newfoundland and Labrador,data.Urban centres,10,93.71
 2017,data.Newfoundland and Labrador,data.Urban centres,10,93.25
 2018,data.Newfoundland and Labrador,data.Urban centres,10,94.1
@@ -475,6 +500,7 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Newfoundland and Labrador,data.Urban centres,10,97.92
 2021,data.Newfoundland and Labrador,data.Urban centres,10,98.24
 2022,data.Newfoundland and Labrador,data.Urban centres,10,99.49
+2023,data.Newfoundland and Labrador,data.Urban centres,10,99.9
 2016,data.Northwest Territories,data.Urban centres,61,
 2017,data.Northwest Territories,data.Urban centres,61,
 2018,data.Northwest Territories,data.Urban centres,61,
@@ -482,6 +508,7 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Northwest Territories,data.Urban centres,61,84.84
 2021,data.Northwest Territories,data.Urban centres,61,97.87
 2022,data.Northwest Territories,data.Urban centres,61,99.47
+2023,data.Northwest Territories,data.Urban centres,61,99.5
 2016,data.Yukon,data.Urban centres,60,
 2017,data.Yukon,data.Urban centres,60,
 2018,data.Yukon,data.Urban centres,60,
@@ -489,6 +516,7 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Yukon,data.Urban centres,60,99.2
 2021,data.Yukon,data.Urban centres,60,99.2
 2022,data.Yukon,data.Urban centres,60,98.66
+2023,data.Yukon,data.Urban centres,60,99.7
 2016,data.Nunavut,data.Urban centres,62,
 2017,data.Nunavut,data.Urban centres,62,
 2018,data.Nunavut,data.Urban centres,62,
@@ -496,13 +524,15 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Nunavut,data.Urban centres,62,
 2021,data.Nunavut,data.Urban centres,62,0
 2022,data.Nunavut,data.Urban centres,62,0
+2023,data.Nunavut,data.Urban centres,62,
 2016,data.British Columbia,data.Total population centre,59,91.07
 2017,data.British Columbia,data.Total population centre,59,90.97
 2018,data.British Columbia,data.Total population centre,59,92.56
 2019,data.British Columbia,data.Total population centre,59,93.51
 2020,data.British Columbia,data.Total population centre,59,93.76
 2021,data.British Columbia,data.Total population centre,59,94.14
-2022,data.British Columbia,data.Total population centre,59,94.65
+2022,data.British Columbia,data.Total population centre,59,94.6
+2023,data.British Columbia,data.Total population centre,59,96.4
 2016,data.Alberta,data.Total population centre,48,82.58
 2017,data.Alberta,data.Total population centre,48,80.34
 2018,data.Alberta,data.Total population centre,48,84.91
@@ -510,6 +540,7 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Alberta,data.Total population centre,48,87.75
 2021,data.Alberta,data.Total population centre,48,89.03
 2022,data.Alberta,data.Total population centre,48,90.47
+2023,data.Alberta,data.Total population centre,48,95.3
 2016,data.Saskatchewan,data.Total population centre,47,42.73
 2017,data.Saskatchewan,data.Total population centre,47,45.36
 2018,data.Saskatchewan,data.Total population centre,47,49.12
@@ -517,13 +548,15 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Saskatchewan,data.Total population centre,47,77.3
 2021,data.Saskatchewan,data.Total population centre,47,80.99
 2022,data.Saskatchewan,data.Total population centre,47,79.76
+2023,data.Saskatchewan,data.Total population centre,47,85.7
 2016,data.Manitoba,data.Total population centre,46,63.74
 2017,data.Manitoba,data.Total population centre,46,69.75
 2018,data.Manitoba,data.Total population centre,46,71.99
 2019,data.Manitoba,data.Total population centre,46,73
 2020,data.Manitoba,data.Total population centre,46,78.98
 2021,data.Manitoba,data.Total population centre,46,81.12
-2022,data.Manitoba,data.Total population centre,46,84.11
+2022,data.Manitoba,data.Total population centre,46,84.6
+2023,data.Manitoba,data.Total population centre,46,91.1
 2016,data.Ontario,data.Total population centre,35,87.88
 2017,data.Ontario,data.Total population centre,35,86.86
 2018,data.Ontario,data.Total population centre,35,87.18
@@ -531,13 +564,15 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Ontario,data.Total population centre,35,89.83
 2021,data.Ontario,data.Total population centre,35,92.41
 2022,data.Ontario,data.Total population centre,35,93.99
+2023,data.Ontario,data.Total population centre,35,96.0
 2016,data.Quebec,data.Total population centre,24,87.27
 2017,data.Quebec,data.Total population centre,24,88.47
 2018,data.Quebec,data.Total population centre,24,89.98
 2019,data.Quebec,data.Total population centre,24,91.78
 2020,data.Quebec,data.Total population centre,24,93.99
 2021,data.Quebec,data.Total population centre,24,94.8
-2022,data.Quebec,data.Total population centre,24,96.58
+2022,data.Quebec,data.Total population centre,24,96.7
+2023,data.Quebec,data.Total population centre,24,98.4
 2016,data.New Brunswick,data.Total population centre,13,83.4
 2017,data.New Brunswick,data.Total population centre,13,81.16
 2018,data.New Brunswick,data.Total population centre,13,81.11
@@ -545,34 +580,39 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.New Brunswick,data.Total population centre,13,92.66
 2021,data.New Brunswick,data.Total population centre,13,89.12
 2022,data.New Brunswick,data.Total population centre,13,91.34
+2023,data.New Brunswick,data.Total population centre,13,95.6
 2016,data.Prince Edward Island,data.Total population centre,11,66.88
 2017,data.Prince Edward Island,data.Total population centre,11,59.79
 2018,data.Prince Edward Island,data.Total population centre,11,60.19
 2019,data.Prince Edward Island,data.Total population centre,11,61.27
 2020,data.Prince Edward Island,data.Total population centre,11,79.2
 2021,data.Prince Edward Island,data.Total population centre,11,87.89
-2022,data.Prince Edward Island,data.Total population centre,11,91.05
+2022,data.Prince Edward Island,data.Total population centre,11,91.1
+2023,data.Prince Edward Island,data.Total population centre,11,97.0
 2016,data.Nova Scotia,data.Total population centre,12,80.68
 2017,data.Nova Scotia,data.Total population centre,12,77.8
 2018,data.Nova Scotia,data.Total population centre,12,77.96
 2019,data.Nova Scotia,data.Total population centre,12,78.37
 2020,data.Nova Scotia,data.Total population centre,12,81.05
 2021,data.Nova Scotia,data.Total population centre,12,84.19
-2022,data.Nova Scotia,data.Total population centre,12,90.71
+2022,data.Nova Scotia,data.Total population centre,12,90.8
+2023,data.Nova Scotia,data.Total population centre,12,95.6
 2016,data.Newfoundland and Labrador,data.Total population centre,10,72.35
 2017,data.Newfoundland and Labrador,data.Total population centre,10,70.91
 2018,data.Newfoundland and Labrador,data.Total population centre,10,71.17
 2019,data.Newfoundland and Labrador,data.Total population centre,10,73.9
 2020,data.Newfoundland and Labrador,data.Total population centre,10,74.41
 2021,data.Newfoundland and Labrador,data.Total population centre,10,77.07
-2022,data.Newfoundland and Labrador,data.Total population centre,10,82.83
+2022,data.Newfoundland and Labrador,data.Total population centre,10,82.7
+2023,data.Newfoundland and Labrador,data.Total population centre,10,87.5
 2016,data.Northwest Territories,data.Total population centre,61,
 2017,data.Northwest Territories,data.Total population centre,61,
 2018,data.Northwest Territories,data.Total population centre,61,
 2019,data.Northwest Territories,data.Total population centre,61,
 2020,data.Northwest Territories,data.Total population centre,61,58.92
 2021,data.Northwest Territories,data.Total population centre,61,67.28
-2022,data.Northwest Territories,data.Total population centre,61,81.35
+2022,data.Northwest Territories,data.Total population centre,61,81.3
+2023,data.Northwest Territories,data.Total population centre,61,85.7
 2016,data.Yukon,data.Total population centre,60,
 2017,data.Yukon,data.Total population centre,60,
 2018,data.Yukon,data.Total population centre,60,
@@ -580,6 +620,7 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Yukon,data.Total population centre,60,57.55
 2021,data.Yukon,data.Total population centre,60,63.07
 2022,data.Yukon,data.Total population centre,60,70.42
+2023,data.Yukon,data.Total population centre,60,91.1
 2016,data.Nunavut,data.Total population centre,62,
 2017,data.Nunavut,data.Total population centre,62,
 2018,data.Nunavut,data.Total population centre,62,
@@ -587,3 +628,4 @@ Year,data.Geography,data.Population centres,GeoCode,Value
 2020,data.Nunavut,data.Total population centre,62,
 2021,data.Nunavut,data.Total population centre,62,0
 2022,data.Nunavut,data.Total population centre,62,0
+2023,data.Nunavut,data.Total population centre,62,
