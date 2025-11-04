@@ -689,13 +689,13 @@
             }
           },
           {
-            "name": "data.Sex",
+            "name": "data.Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Males",
-                "data.Females",
-                "data.Both sexes",
+                "data.Men+",
+                "data.Women+",
+                "data.Total - Gender",
                 ""
               ]
             }

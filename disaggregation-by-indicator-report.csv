@@ -52,7 +52,7 @@ Indicator,Disaggregations,Number of disaggregations
 #4-1-1,"Geography, Age group, Gender, Selected demographic characteristics",4
 #4-2-1,"Geography, Age group, Gender, Education attainment level, Population characteristics",5
 #4-3-1,Geography,1
-#5-1-1,"data.Sex, data.Type of perpetrator",2
+#5-1-1,"data.Type of perpetrator, data.Sex",2
 #5-2-1,"Geography, Age group, Household income, Visible minority, Type of intimate partner violence, Indigenous group, Immigrant status, Disability, Highest degree earned, Location of residence, Marital status",11
 #5-3-1,Leadership position,1
 #5-4-1,"Geography, Age group, Gender, Activity group",4
@@ -65,7 +65,7 @@ Indicator,Disaggregations,Number of disaggregations
 #7-3-1,data.Geography,1
 #8-1-1,"Geography, Age group, Gender, Population",4
 #8-2-1,"Geography, Age group, Gender, Visible minority, Indigenous group, Immigrant status, Educational attainment",7
-#8-3-1,"data.Geography, data.Age group, data.Sex",3
+#8-3-1,"data.Geography, data.Age group, data.Gender",3
 #8-4-1,"Geography, Age group, Gender",3
 #8-5-1,data.Geography,1
 #8-6-1,data.Geography,1
