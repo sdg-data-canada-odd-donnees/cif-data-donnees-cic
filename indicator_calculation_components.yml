@@ -1256,9 +1256,8 @@
     status: deterioration
     target: 95.0
     target_year: 2025.0
-  ? 3-9-1 / Diphtheria, Tetanus, acellular Pertussis (Tdap) booster / Recommended
-    vaccines for 17-year-old children / Canada / Total - Gender
-  : base_value: 89.3
+  3-9-1 / Diphtheria, Tetanus, acellular Pertussi... / Recommended vaccines for 17-year-old chi... / Canada / Total - Gender:
+    base_value: 89.3
     base_year: 2017.0
     current_value: 92.8
     current_year: 2021.0
@@ -1807,18 +1806,18 @@
   8-5-1:
     base_value: 57591.0
     base_year: 2015.0
-    current_value: 59563.0
-    current_year: 2023.0
+    current_value: 59529.0
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.004217402118540381
-    score: -0.39129894072980953
+    progress_value: 0.003684246130864821
+    score: -0.6578769345675894
     sign: 1
     status: limited_progress
     target: null
     target_year: 2030.0
   progress_status: limited_progress
-  score: -0.39129894072980953
+  score: -0.6578769345675894
 8-6-1:
   8-6-1:
     base_value: 195772.0
@@ -1919,18 +1918,18 @@
   9-6-1:
     base_value: 686.0
     base_year: 2015.0
-    current_value: 15874.0
+    current_value: 15897.0
     current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 1.2034599826948897
-    score: 4.310494310391327
+    progress_value: 1.204106348514425
+    score: 4.315111236803686
     sign: 1
     status: substantial_progress
     target: 37929.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 4.310494310391327
+  score: 4.315111236803686
 9-7-1:
   9-7-1:
     base_value: 58.2
