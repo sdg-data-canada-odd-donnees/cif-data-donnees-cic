@@ -1,31 +1,8 @@
 Year,Géographie,Type de famille économique,Caractéristiques démographiques,Niveau de sécurité alimentaire du ménage,GeoCode,Value
-2018,,,,,,11.6
-2019,,,,,,10.8
-2020,,,,,,11.2
-2021,,,,,,12.9
-2022,,,,,,16.9
-2023,,,,,,19.1
-2020,Yukon,,,Insécurité alimentaire,60,21.2
-2020,Territoires du Nord-Ouest,,,Insécurité alimentaire,61,20.4
-2020,Nunavut,,,Insécurité alimentaire,62,49.5
-2021,Yukon,,,Insécurité alimentaire,60,12.8
-2021,Territoires du Nord-Ouest,,,Insécurité alimentaire,61,22.2
-2021,Nunavut,,,Insécurité alimentaire,62,46.1
-2022,Yukon,,,Insécurité alimentaire,60,21.4
-2022,Territoires du Nord-Ouest,,,Insécurité alimentaire,61,27.6
-2022,Nunavut,,,Insécurité alimentaire,62,62.6
-2020,Yukon,,,Sécurité alimentaire,60,78.8
-2020,Territoires du Nord-Ouest,,,Sécurité alimentaire,61,79.6
-2020,Nunavut,,,Sécurité alimentaire,62,50.5
-2021,Yukon,,,Sécurité alimentaire,60,87.2
-2021,Territoires du Nord-Ouest,,,Sécurité alimentaire,61,77.8
-2021,Nunavut,,,Sécurité alimentaire,62,53.9
-2022,Yukon,,,Sécurité alimentaire,60,78.6
-2022,Territoires du Nord-Ouest,,,Sécurité alimentaire,61,72.4
-2022,Nunavut,,,Sécurité alimentaire,62,37.4
 2018,Canada,Toutes les personnes,,Sécurité alimentaire,,83.2
 2018,Canada,Toutes les personnes,,Insécurité alimentaire,,16.8
 2018,Canada,Toutes les personnes,,Insécurité alimentaire marginale,,5.2
+2018,,,,,,11.6
 2018,Canada,Toutes les personnes,,Insécurité alimentaire modérée,,8.0
 2018,Canada,Toutes les personnes,,Insécurité alimentaire grave,,3.6
 2018,Canada,Personnes dans les familles économiques,,Sécurité alimentaire,,83.9
@@ -1585,6 +1562,7 @@ Year,Géographie,Type de famille économique,Caractéristiques démographiques,N
 2019,Canada,Toutes les personnes,,Sécurité alimentaire,,84.1
 2019,Canada,Toutes les personnes,,Insécurité alimentaire,,15.9
 2019,Canada,Toutes les personnes,,Insécurité alimentaire marginale,,5.1
+2019,,,,,,10.8
 2019,Canada,Toutes les personnes,,Insécurité alimentaire modérée,,7.6
 2019,Canada,Toutes les personnes,,Insécurité alimentaire grave,,3.2
 2019,Canada,Personnes dans les familles économiques,,Sécurité alimentaire,,84.9
@@ -3144,6 +3122,7 @@ Year,Géographie,Type de famille économique,Caractéristiques démographiques,N
 2020,Canada,Toutes les personnes,,Sécurité alimentaire,,84.3
 2020,Canada,Toutes les personnes,,Insécurité alimentaire,,15.7
 2020,Canada,Toutes les personnes,,Insécurité alimentaire marginale,,4.6
+2020,,,,,,11.2
 2020,Canada,Toutes les personnes,,Insécurité alimentaire modérée,,7.6
 2020,Canada,Toutes les personnes,,Insécurité alimentaire grave,,3.6
 2020,Canada,Personnes dans les familles économiques,,Sécurité alimentaire,,84.9
@@ -4703,6 +4682,7 @@ Year,Géographie,Type de famille économique,Caractéristiques démographiques,N
 2021,Canada,Toutes les personnes,,Sécurité alimentaire,,81.6
 2021,Canada,Toutes les personnes,,Insécurité alimentaire,,18.4
 2021,Canada,Toutes les personnes,,Insécurité alimentaire marginale,,5.6
+2021,,,,,,12.9
 2021,Canada,Toutes les personnes,,Insécurité alimentaire modérée,,8.9
 2021,Canada,Toutes les personnes,,Insécurité alimentaire grave,,4.0
 2021,Canada,Personnes dans les familles économiques,,Sécurité alimentaire,,81.9
@@ -6262,6 +6242,7 @@ Year,Géographie,Type de famille économique,Caractéristiques démographiques,N
 2022,Canada,Toutes les personnes,,Sécurité alimentaire,,77.1
 2022,Canada,Toutes les personnes,,Insécurité alimentaire,,22.9
 2022,Canada,Toutes les personnes,,Insécurité alimentaire marginale,,6.0
+2022,,,,,,16.9
 2022,Canada,Toutes les personnes,,Insécurité alimentaire modérée,,10.9
 2022,Canada,Toutes les personnes,,Insécurité alimentaire grave,,6.0
 2022,Canada,Personnes dans les familles économiques,,Sécurité alimentaire,,77.7
@@ -7821,6 +7802,7 @@ Year,Géographie,Type de famille économique,Caractéristiques démographiques,N
 2023,Canada,Toutes les personnes,,Sécurité alimentaire,,74.5
 2023,Canada,Toutes les personnes,,Insécurité alimentaire,,25.5
 2023,Canada,Toutes les personnes,,Insécurité alimentaire marginale,,6.4
+2023,,,,,,19.1
 2023,Canada,Toutes les personnes,,Insécurité alimentaire modérée,,12.4
 2023,Canada,Toutes les personnes,,Insécurité alimentaire grave,,6.7
 2023,Canada,Personnes dans les familles économiques,,Sécurité alimentaire,,74.8
@@ -9380,191 +9362,229 @@ Year,Géographie,Type de famille économique,Caractéristiques démographiques,N
 2018,Canada,,Personnes de moins de 18 ans,Sécurité alimentaire,,77.8
 2018,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire,,22.2
 2018,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire marginale,,7.6
+2018,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire modérée ou grave,,14.6
 2018,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire modérée,,10.8
 2018,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire grave,,3.8
 2018,Canada,,Personnes de 18 à 64 ans,Sécurité alimentaire,,82.5
 2018,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire,,17.5
 2018,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire marginale,,5.0
+2018,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire modérée ou grave,,12.5
 2018,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire modérée,,8.3
 2018,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire grave,,4.1
 2018,Canada,,Personnes de 18 à 24 ans,Sécurité alimentaire,,80.9
 2018,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire,,19.1
 2018,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire marginale,,5.1
+2018,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire modérée ou grave,,14.1
 2018,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire modérée,,9.8
 2018,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire grave,,4.2
 2018,Canada,,Personnes de 25 à 34 ans,Sécurité alimentaire,,82.0
 2018,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire,,18.0
 2018,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire marginale,,5.3
+2018,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire modérée ou grave,,12.8
 2018,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire modérée,,8.5
 2018,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire grave,,4.3
 2018,Canada,,Personnes de 35 à 44 ans,Sécurité alimentaire,,80.5
 2018,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire,,19.5
 2018,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire marginale,,6.5
+2018,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire modérée ou grave,,13.0
 2018,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire modérée,,8.6
 2018,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire grave,,4.5
 2018,Canada,,Personnes de 45 à 54 ans,Sécurité alimentaire,,82.6
 2018,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire,,17.4
 2018,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire marginale,,4.6
+2018,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire modérée ou grave,,12.8
 2018,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire modérée,,8.6
 2018,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire grave,,4.2
 2018,Canada,,Personnes de 55 à 64 ans,Sécurité alimentaire,,86.0
 2018,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire,,14.0
 2018,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire marginale,,3.7
+2018,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire modérée ou grave,,10.3
 2018,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire modérée,,6.8
 2018,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire grave,,3.5
 2018,Canada,,Personnes de 65 ans et plus,Sécurité alimentaire,,91.9
 2018,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire,,8.1
 2018,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire marginale,,3.1
+2018,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire modérée ou grave,,5.0
 2018,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire modérée,,3.5
 2018,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire grave,,1.5
 2018,Canada,,Hommes,Sécurité alimentaire,,83.3
 2018,Canada,,Hommes,Insécurité alimentaire,,16.7
 2018,Canada,,Hommes,Insécurité alimentaire marginale,,5.1
+2018,Canada,,Hommes,Insécurité alimentaire modérée ou grave,,11.7
 2018,Canada,,Hommes,Insécurité alimentaire modérée,,7.9
 2018,Canada,,Hommes,Insécurité alimentaire grave,,3.7
 2018,Canada,,"Hommes, moins de 18 ans",Sécurité alimentaire,,77.9
 2018,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire,,22.1
 2018,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire marginale,,7.1
+2018,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire modérée ou grave,,15.1
 2018,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire modérée,,11.1
 2018,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire grave,,4.0
 2018,Canada,,"Hommes, 18 à 64 ans",Sécurité alimentaire,,82.8
 2018,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire,,17.2
 2018,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire marginale,,5.0
+2018,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire modérée ou grave,,12.2
 2018,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire modérée,,8.0
 2018,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire grave,,4.2
 2018,Canada,,"Hommes, 65 ans et plus",Sécurité alimentaire,,91.8
 2018,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire,,8.2
 2018,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire marginale,,3.0
+2018,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire modérée ou grave,,5.1
 2018,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire modérée,,3.5
 2018,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire grave,,1.6
 2018,Canada,,Femmes,Sécurité alimentaire,,83.2
 2018,Canada,,Femmes,Insécurité alimentaire,,16.8
 2018,Canada,,Femmes,Insécurité alimentaire marginale,,5.3
+2018,Canada,,Femmes,Insécurité alimentaire modérée ou grave,,11.6
 2018,Canada,,Femmes,Insécurité alimentaire modérée,,8.1
 2018,Canada,,Femmes,Insécurité alimentaire grave,,3.5
 2018,Canada,,"Femmes, moins de 18 ans",Sécurité alimentaire,,77.8
 2018,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire,,22.2
 2018,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire marginale,,8.1
+2018,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire modérée ou grave,,14.1
 2018,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire modérée,,10.4
 2018,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire grave,,3.7
 2018,Canada,,"Femmes, 18 à 64 ans",Sécurité alimentaire,,82.2
 2018,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire,,17.8
 2018,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire marginale,,5.0
+2018,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire modérée ou grave,,12.7
 2018,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire modérée,,8.7
 2018,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire grave,,4.0
 2018,Canada,,"Femmes, 65 ans et plus",Sécurité alimentaire,,92.0
 2018,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire,,8.0
 2018,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire marginale,,3.1
+2018,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire modérée ou grave,,4.9
 2018,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire modérée,,3.5
 2018,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire grave,,1.4
 2018,Canada,,Population des minorités visibles,Sécurité alimentaire,,
 2018,Canada,,Population des minorités visibles,Insécurité alimentaire,,
 2018,Canada,,Population des minorités visibles,Insécurité alimentaire marginale,,
+2018,Canada,,Population des minorités visibles,Insécurité alimentaire modérée ou grave,,
 2018,Canada,,Population des minorités visibles,Insécurité alimentaire modérée,,
 2018,Canada,,Population des minorités visibles,Insécurité alimentaire grave,,
 2018,Canada,,Sud-Asiatique,Sécurité alimentaire,,
 2018,Canada,,Sud-Asiatique,Insécurité alimentaire,,
 2018,Canada,,Sud-Asiatique,Insécurité alimentaire marginale,,
+2018,Canada,,Sud-Asiatique,Insécurité alimentaire modérée ou grave,,
 2018,Canada,,Sud-Asiatique,Insécurité alimentaire modérée,,
 2018,Canada,,Sud-Asiatique,Insécurité alimentaire grave,,
 2018,Canada,,Chinois,Sécurité alimentaire,,
 2018,Canada,,Chinois,Insécurité alimentaire,,
 2018,Canada,,Chinois,Insécurité alimentaire marginale,,
+2018,Canada,,Chinois,Insécurité alimentaire modérée ou grave,,
 2018,Canada,,Chinois,Insécurité alimentaire modérée,,
 2018,Canada,,Chinois,Insécurité alimentaire grave,,
 2018,Canada,,Noir,Sécurité alimentaire,,
 2018,Canada,,Noir,Insécurité alimentaire,,
 2018,Canada,,Noir,Insécurité alimentaire marginale,,
+2018,Canada,,Noir,Insécurité alimentaire modérée ou grave,,
 2018,Canada,,Noir,Insécurité alimentaire modérée,,
 2018,Canada,,Noir,Insécurité alimentaire grave,,
 2018,Canada,,Philippin,Sécurité alimentaire,,
 2018,Canada,,Philippin,Insécurité alimentaire,,
 2018,Canada,,Philippin,Insécurité alimentaire marginale,,
+2018,Canada,,Philippin,Insécurité alimentaire modérée ou grave,,
 2018,Canada,,Philippin,Insécurité alimentaire modérée,,
 2018,Canada,,Philippin,Insécurité alimentaire grave,,
 2018,Canada,,Arabe,Sécurité alimentaire,,
 2018,Canada,,Arabe,Insécurité alimentaire,,
 2018,Canada,,Arabe,Insécurité alimentaire marginale,,
+2018,Canada,,Arabe,Insécurité alimentaire modérée ou grave,,
 2018,Canada,,Arabe,Insécurité alimentaire modérée,,
 2018,Canada,,Arabe,Insécurité alimentaire grave,,
 2018,Canada,,Latino-Américain,Sécurité alimentaire,,
 2018,Canada,,Latino-Américain,Insécurité alimentaire,,
 2018,Canada,,Latino-Américain,Insécurité alimentaire marginale,,
+2018,Canada,,Latino-Américain,Insécurité alimentaire modérée ou grave,,
 2018,Canada,,Latino-Américain,Insécurité alimentaire modérée,,
 2018,Canada,,Latino-Américain,Insécurité alimentaire grave,,
 2018,Canada,,Asiatique du Sud-Est,Sécurité alimentaire,,
 2018,Canada,,Asiatique du Sud-Est,Insécurité alimentaire,,
 2018,Canada,,Asiatique du Sud-Est,Insécurité alimentaire marginale,,
+2018,Canada,,Asiatique du Sud-Est,Insécurité alimentaire modérée ou grave,,
 2018,Canada,,Asiatique du Sud-Est,Insécurité alimentaire modérée,,
 2018,Canada,,Asiatique du Sud-Est,Insécurité alimentaire grave,,
 2018,Canada,,Autre minorité visible,Sécurité alimentaire,,
 2018,Canada,,Autre minorité visible,Insécurité alimentaire,,
 2018,Canada,,Autre minorité visible,Insécurité alimentaire marginale,,
+2018,Canada,,Autre minorité visible,Insécurité alimentaire modérée ou grave,,
 2018,Canada,,Autre minorité visible,Insécurité alimentaire modérée,,
 2018,Canada,,Autre minorité visible,Insécurité alimentaire grave,,
 2018,Canada,,Pas une minorité visible,Sécurité alimentaire,,
 2018,Canada,,Pas une minorité visible,Insécurité alimentaire,,
 2018,Canada,,Pas une minorité visible,Insécurité alimentaire marginale,,
+2018,Canada,,Pas une minorité visible,Insécurité alimentaire modérée ou grave,,
 2018,Canada,,Pas une minorité visible,Insécurité alimentaire modérée,,
 2018,Canada,,Pas une minorité visible,Insécurité alimentaire grave,,
 2018,Canada,,Population autochtone,Sécurité alimentaire,,
 2018,Canada,,Population autochtone,Insécurité alimentaire,,
 2018,Canada,,Population autochtone,Insécurité alimentaire marginale,,
+2018,Canada,,Population autochtone,Insécurité alimentaire modérée ou grave,,
 2018,Canada,,Population autochtone,Insécurité alimentaire modérée,,
 2018,Canada,,Population autochtone,Insécurité alimentaire grave,,
 2018,Canada,,Population non autochtone,Sécurité alimentaire,,
 2018,Canada,,Population non autochtone,Insécurité alimentaire,,
 2018,Canada,,Population non autochtone,Insécurité alimentaire marginale,,
+2018,Canada,,Population non autochtone,Insécurité alimentaire modérée ou grave,,
 2018,Canada,,Population non autochtone,Insécurité alimentaire modérée,,
 2018,Canada,,Population non autochtone,Insécurité alimentaire grave,,
 2018,Canada,,Pas une minorité visible ni autochtone,Sécurité alimentaire,,
 2018,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire,,
 2018,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire marginale,,
+2018,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire modérée ou grave,,
 2018,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire modérée,,
 2018,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire grave,,
 2018,Canada,,Toutes les personnes de 15 ans et plus,Sécurité alimentaire,,84.4
 2018,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire,,15.6
 2018,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire marginale,,4.6
+2018,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire modérée ou grave,,11.0
 2018,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire modérée,,7.4
 2018,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire grave,,3.6
 2018,Canada,,Population autochtone âgée de 15 ans et plus,Sécurité alimentaire,,71.4
 2018,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire,,28.6
 2018,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire marginale,,5.1
+2018,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée ou grave,,23.5
 2018,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée,,13.1
 2018,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire grave,,10.3
 2018,Canada,,Premières Nations âgées de 15 ans et plus,Sécurité alimentaire,,69.9
 2018,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire,,30.1
 2018,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire marginale,,5.0
+2018,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire modérée ou grave,,25.1
 2018,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire modérée,,14.0
 2018,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire grave,,11.1
 2018,Canada,,Métis âgés de 15 ans et plus,Sécurité alimentaire,,73.0
 2018,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire,,27.0
 2018,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire marginale,,4.8
+2018,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,22.2
 2018,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire modérée,,12.5
 2018,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire grave,,9.7
 2018,Canada,,Population non autochtone âgée de 15 ans et plus,Sécurité alimentaire,,84.7
 2018,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire,,15.3
 2018,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire marginale,,4.6
+2018,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée ou grave,,10.7
 2018,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée,,7.3
 2018,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire grave,,3.4
 2018,Canada,,Immigrants âgés de 15 ans et plus,Sécurité alimentaire,,82.9
 2018,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire,,17.1
 2018,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire marginale,,6.2
+2018,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,10.9
 2018,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire modérée,,8.5
 2018,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire grave,,2.4
 2018,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Sécurité alimentaire,,77.8
 2018,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire,,22.2
 2018,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire marginale,,8.6
+2018,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,13.6
 2018,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée,,10.9
 2018,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire grave,,2.7
 2018,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Sécurité alimentaire,,78.0
 2018,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire,,22.0
 2018,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire marginale,,9.0
+2018,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,13.0
 2018,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée,,10.1
 2018,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire grave,,2.9
 2018,Canada,,Personnes de 15 ans et plus nées au Canada,Sécurité alimentaire,,84.9
 2018,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire,,15.1
 2018,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire marginale,,4.0
+2018,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée ou grave,,11.1
 2018,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée,,7.0
 2018,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire grave,,4.1
 2018,Provinces de l'Atlantique,,Personnes de moins de 18 ans,Sécurité alimentaire,,73.2
@@ -12306,191 +12326,229 @@ Year,Géographie,Type de famille économique,Caractéristiques démographiques,N
 2019,Canada,,Personnes de moins de 18 ans,Sécurité alimentaire,,80.0
 2019,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire,,20.0
 2019,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire marginale,,6.7
+2019,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire modérée ou grave,,13.3
 2019,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire modérée,,10.2
 2019,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire grave,,3.1
 2019,Canada,,Personnes de 18 à 64 ans,Sécurité alimentaire,,83.2
 2019,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire,,16.8
 2019,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire marginale,,5.2
+2019,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire modérée ou grave,,11.6
 2019,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire modérée,,7.8
 2019,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire grave,,3.8
 2019,Canada,,Personnes de 18 à 24 ans,Sécurité alimentaire,,82.2
 2019,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire,,17.8
 2019,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire marginale,,6.1
+2019,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire modérée ou grave,,11.8
 2019,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire modérée,,8.2
 2019,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire grave,,3.6
 2019,Canada,,Personnes de 25 à 34 ans,Sécurité alimentaire,,81.9
 2019,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire,,18.1
 2019,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire marginale,,5.5
+2019,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire modérée ou grave,,12.6
 2019,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire modérée,,8.3
 2019,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire grave,,4.3
 2019,Canada,,Personnes de 35 à 44 ans,Sécurité alimentaire,,80.2
 2019,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire,,19.8
 2019,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire marginale,,6.4
+2019,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire modérée ou grave,,13.4
 2019,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire modérée,,9.6
 2019,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire grave,,3.8
 2019,Canada,,Personnes de 45 à 54 ans,Sécurité alimentaire,,84.5
 2019,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire,,15.5
 2019,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire marginale,,4.8
+2019,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire modérée ou grave,,10.8
 2019,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire modérée,,7.1
 2019,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire grave,,3.6
 2019,Canada,,Personnes de 55 à 64 ans,Sécurité alimentaire,,87.0
 2019,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire,,13.0
 2019,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire marginale,,3.5
+2019,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire modérée ou grave,,9.5
 2019,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire modérée,,5.9
 2019,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire grave,,3.6
 2019,Canada,,Personnes de 65 ans et plus,Sécurité alimentaire,,92.0
 2019,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire,,8.0
 2019,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire marginale,,2.9
+2019,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire modérée ou grave,,5.1
 2019,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire modérée,,3.9
 2019,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire grave,,1.2
 2019,Canada,,Hommes,Sécurité alimentaire,,84.4
 2019,Canada,,Hommes,Insécurité alimentaire,,15.6
 2019,Canada,,Hommes,Insécurité alimentaire marginale,,5.0
+2019,Canada,,Hommes,Insécurité alimentaire modérée ou grave,,10.6
 2019,Canada,,Hommes,Insécurité alimentaire modérée,,7.4
 2019,Canada,,Hommes,Insécurité alimentaire grave,,3.1
 2019,Canada,,"Hommes, moins de 18 ans",Sécurité alimentaire,,79.8
 2019,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire,,20.2
 2019,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire marginale,,7.2
+2019,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire modérée ou grave,,13.0
 2019,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire modérée,,10.1
 2019,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire grave,,2.9
 2019,Canada,,"Hommes, 18 à 64 ans",Sécurité alimentaire,,83.8
 2019,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire,,16.2
 2019,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire marginale,,4.9
+2019,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire modérée ou grave,,11.3
 2019,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire modérée,,7.6
 2019,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire grave,,3.7
 2019,Canada,,"Hommes, 65 ans et plus",Sécurité alimentaire,,92.3
 2019,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire,,7.7
 2019,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire marginale,,2.7
+2019,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire modérée ou grave,,5.0
 2019,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire modérée,,3.8
 2019,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire grave,,1.2
 2019,Canada,,Femmes,Sécurité alimentaire,,83.9
 2019,Canada,,Femmes,Insécurité alimentaire,,16.1
 2019,Canada,,Femmes,Insécurité alimentaire marginale,,5.1
+2019,Canada,,Femmes,Insécurité alimentaire modérée ou grave,,11.0
 2019,Canada,,Femmes,Insécurité alimentaire modérée,,7.7
 2019,Canada,,Femmes,Insécurité alimentaire grave,,3.3
 2019,Canada,,"Femmes, moins de 18 ans",Sécurité alimentaire,,80.3
 2019,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire,,19.7
 2019,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire marginale,,6.1
+2019,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire modérée ou grave,,13.6
 2019,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire modérée,,10.2
 2019,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire grave,,3.4
 2019,Canada,,"Femmes, 18 à 64 ans",Sécurité alimentaire,,82.6
 2019,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire,,17.4
 2019,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire marginale,,5.4
+2019,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire modérée ou grave,,12.0
 2019,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire modérée,,8.1
 2019,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire grave,,3.9
 2019,Canada,,"Femmes, 65 ans et plus",Sécurité alimentaire,,91.7
 2019,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire,,8.3
 2019,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire marginale,,3.0
+2019,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire modérée ou grave,,5.3
 2019,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire modérée,,4.1
 2019,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire grave,,1.2
 2019,Canada,,Population des minorités visibles,Sécurité alimentaire,,
 2019,Canada,,Population des minorités visibles,Insécurité alimentaire,,
 2019,Canada,,Population des minorités visibles,Insécurité alimentaire marginale,,
+2019,Canada,,Population des minorités visibles,Insécurité alimentaire modérée ou grave,,
 2019,Canada,,Population des minorités visibles,Insécurité alimentaire modérée,,
 2019,Canada,,Population des minorités visibles,Insécurité alimentaire grave,,
 2019,Canada,,Sud-Asiatique,Sécurité alimentaire,,
 2019,Canada,,Sud-Asiatique,Insécurité alimentaire,,
 2019,Canada,,Sud-Asiatique,Insécurité alimentaire marginale,,
+2019,Canada,,Sud-Asiatique,Insécurité alimentaire modérée ou grave,,
 2019,Canada,,Sud-Asiatique,Insécurité alimentaire modérée,,
 2019,Canada,,Sud-Asiatique,Insécurité alimentaire grave,,
 2019,Canada,,Chinois,Sécurité alimentaire,,
 2019,Canada,,Chinois,Insécurité alimentaire,,
 2019,Canada,,Chinois,Insécurité alimentaire marginale,,
+2019,Canada,,Chinois,Insécurité alimentaire modérée ou grave,,
 2019,Canada,,Chinois,Insécurité alimentaire modérée,,
 2019,Canada,,Chinois,Insécurité alimentaire grave,,
 2019,Canada,,Noir,Sécurité alimentaire,,
 2019,Canada,,Noir,Insécurité alimentaire,,
 2019,Canada,,Noir,Insécurité alimentaire marginale,,
+2019,Canada,,Noir,Insécurité alimentaire modérée ou grave,,
 2019,Canada,,Noir,Insécurité alimentaire modérée,,
 2019,Canada,,Noir,Insécurité alimentaire grave,,
 2019,Canada,,Philippin,Sécurité alimentaire,,
 2019,Canada,,Philippin,Insécurité alimentaire,,
 2019,Canada,,Philippin,Insécurité alimentaire marginale,,
+2019,Canada,,Philippin,Insécurité alimentaire modérée ou grave,,
 2019,Canada,,Philippin,Insécurité alimentaire modérée,,
 2019,Canada,,Philippin,Insécurité alimentaire grave,,
 2019,Canada,,Arabe,Sécurité alimentaire,,
 2019,Canada,,Arabe,Insécurité alimentaire,,
 2019,Canada,,Arabe,Insécurité alimentaire marginale,,
+2019,Canada,,Arabe,Insécurité alimentaire modérée ou grave,,
 2019,Canada,,Arabe,Insécurité alimentaire modérée,,
 2019,Canada,,Arabe,Insécurité alimentaire grave,,
 2019,Canada,,Latino-Américain,Sécurité alimentaire,,
 2019,Canada,,Latino-Américain,Insécurité alimentaire,,
 2019,Canada,,Latino-Américain,Insécurité alimentaire marginale,,
+2019,Canada,,Latino-Américain,Insécurité alimentaire modérée ou grave,,
 2019,Canada,,Latino-Américain,Insécurité alimentaire modérée,,
 2019,Canada,,Latino-Américain,Insécurité alimentaire grave,,
 2019,Canada,,Asiatique du Sud-Est,Sécurité alimentaire,,
 2019,Canada,,Asiatique du Sud-Est,Insécurité alimentaire,,
 2019,Canada,,Asiatique du Sud-Est,Insécurité alimentaire marginale,,
+2019,Canada,,Asiatique du Sud-Est,Insécurité alimentaire modérée ou grave,,
 2019,Canada,,Asiatique du Sud-Est,Insécurité alimentaire modérée,,
 2019,Canada,,Asiatique du Sud-Est,Insécurité alimentaire grave,,
 2019,Canada,,Autre minorité visible,Sécurité alimentaire,,
 2019,Canada,,Autre minorité visible,Insécurité alimentaire,,
 2019,Canada,,Autre minorité visible,Insécurité alimentaire marginale,,
+2019,Canada,,Autre minorité visible,Insécurité alimentaire modérée ou grave,,
 2019,Canada,,Autre minorité visible,Insécurité alimentaire modérée,,
 2019,Canada,,Autre minorité visible,Insécurité alimentaire grave,,
 2019,Canada,,Pas une minorité visible,Sécurité alimentaire,,
 2019,Canada,,Pas une minorité visible,Insécurité alimentaire,,
 2019,Canada,,Pas une minorité visible,Insécurité alimentaire marginale,,
+2019,Canada,,Pas une minorité visible,Insécurité alimentaire modérée ou grave,,
 2019,Canada,,Pas une minorité visible,Insécurité alimentaire modérée,,
 2019,Canada,,Pas une minorité visible,Insécurité alimentaire grave,,
 2019,Canada,,Population autochtone,Sécurité alimentaire,,
 2019,Canada,,Population autochtone,Insécurité alimentaire,,
 2019,Canada,,Population autochtone,Insécurité alimentaire marginale,,
+2019,Canada,,Population autochtone,Insécurité alimentaire modérée ou grave,,
 2019,Canada,,Population autochtone,Insécurité alimentaire modérée,,
 2019,Canada,,Population autochtone,Insécurité alimentaire grave,,
 2019,Canada,,Population non autochtone,Sécurité alimentaire,,
 2019,Canada,,Population non autochtone,Insécurité alimentaire,,
 2019,Canada,,Population non autochtone,Insécurité alimentaire marginale,,
+2019,Canada,,Population non autochtone,Insécurité alimentaire modérée ou grave,,
 2019,Canada,,Population non autochtone,Insécurité alimentaire modérée,,
 2019,Canada,,Population non autochtone,Insécurité alimentaire grave,,
 2019,Canada,,Pas une minorité visible ni autochtone,Sécurité alimentaire,,
 2019,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire,,
 2019,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire marginale,,
+2019,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire modérée ou grave,,
 2019,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire modérée,,
 2019,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire grave,,
 2019,Canada,,Toutes les personnes de 15 ans et plus,Sécurité alimentaire,,85.0
 2019,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire,,15.0
 2019,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire marginale,,4.7
+2019,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire modérée ou grave,,10.3
 2019,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire modérée,,7.0
 2019,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire grave,,3.2
 2019,Canada,,Population autochtone âgée de 15 ans et plus,Sécurité alimentaire,,71.5
 2019,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire,,28.5
 2019,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire marginale,,6.2
+2019,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée ou grave,,22.3
 2019,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée,,14.0
 2019,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire grave,,8.3
 2019,Canada,,Premières Nations âgées de 15 ans et plus,Sécurité alimentaire,,68.3
 2019,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire,,31.7
 2019,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire marginale,,6.7
+2019,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire modérée ou grave,,25.0
 2019,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire modérée,,17.4
 2019,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire grave,,7.5
 2019,Canada,,Métis âgés de 15 ans et plus,Sécurité alimentaire,,74.9
 2019,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire,,25.1
 2019,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire marginale,,6.0
+2019,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,19.1
 2019,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire modérée,,10.8
 2019,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire grave,,8.4
 2019,Canada,,Population non autochtone âgée de 15 ans et plus,Sécurité alimentaire,,85.4
 2019,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire,,14.6
 2019,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire marginale,,4.7
+2019,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée ou grave,,10.0
 2019,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée,,6.9
 2019,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire grave,,3.1
 2019,Canada,,Immigrants âgés de 15 ans et plus,Sécurité alimentaire,,82.2
 2019,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire,,17.8
 2019,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire marginale,,5.9
+2019,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,11.8
 2019,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire modérée,,9.3
 2019,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire grave,,2.5
 2019,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Sécurité alimentaire,,75.1
 2019,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire,,24.9
 2019,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire marginale,,9.4
+2019,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,15.6
 2019,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée,,13.6
 2019,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire grave,,2.0
 2019,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Sécurité alimentaire,,76.7
 2019,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire,,23.3
 2019,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire marginale,,9.4
+2019,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,13.9
 2019,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée,,11.4
 2019,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire grave,,2.5
 2019,Canada,,Personnes de 15 ans et plus nées au Canada,Sécurité alimentaire,,86.3
 2019,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire,,13.7
 2019,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire marginale,,4.1
+2019,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée ou grave,,9.5
 2019,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée,,6.0
 2019,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire grave,,3.5
 2019,Provinces de l'Atlantique,,Personnes de moins de 18 ans,Sécurité alimentaire,,76.1
@@ -15232,191 +15290,229 @@ Year,Géographie,Type de famille économique,Caractéristiques démographiques,N
 2020,Canada,,Personnes de moins de 18 ans,Sécurité alimentaire,,80.4
 2020,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire,,19.6
 2020,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire marginale,,6.0
+2020,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire modérée ou grave,,13.6
 2020,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire modérée,,9.8
 2020,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire grave,,3.8
 2020,Canada,,Personnes de 18 à 64 ans,Sécurité alimentaire,,83.4
 2020,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire,,16.6
 2020,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire marginale,,4.6
+2020,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire modérée ou grave,,12.0
 2020,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire modérée,,7.9
 2020,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire grave,,4.1
 2020,Canada,,Personnes de 18 à 24 ans,Sécurité alimentaire,,82.0
 2020,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire,,18.0
 2020,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire marginale,,4.3
+2020,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire modérée ou grave,,13.7
 2020,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire modérée,,9.4
 2020,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire grave,,4.3
 2020,Canada,,Personnes de 25 à 34 ans,Sécurité alimentaire,,82.7
 2020,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire,,17.3
 2020,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire marginale,,4.5
+2020,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire modérée ou grave,,12.9
 2020,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire modérée,,8.4
 2020,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire grave,,4.4
 2020,Canada,,Personnes de 35 à 44 ans,Sécurité alimentaire,,81.7
 2020,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire,,18.3
 2020,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire marginale,,5.7
+2020,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire modérée ou grave,,12.7
 2020,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire modérée,,8.8
 2020,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire grave,,3.9
 2020,Canada,,Personnes de 45 à 54 ans,Sécurité alimentaire,,83.6
 2020,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire,,16.4
 2020,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire marginale,,4.5
+2020,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire modérée ou grave,,11.9
 2020,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire modérée,,7.5
 2020,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire grave,,4.5
 2020,Canada,,Personnes de 55 à 64 ans,Sécurité alimentaire,,86.6
 2020,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire,,13.4
 2020,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire marginale,,3.9
+2020,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire modérée ou grave,,9.5
 2020,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire modérée,,6.0
 2020,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire grave,,3.5
 2020,Canada,,Personnes de 65 ans et plus,Sécurité alimentaire,,91.3
 2020,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire,,8.7
 2020,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire marginale,,3.0
+2020,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire modérée ou grave,,5.7
 2020,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire modérée,,4.1
 2020,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire grave,,1.6
 2020,Canada,,Hommes,Sécurité alimentaire,,84.7
 2020,Canada,,Hommes,Insécurité alimentaire,,15.3
 2020,Canada,,Hommes,Insécurité alimentaire marginale,,4.5
+2020,Canada,,Hommes,Insécurité alimentaire modérée ou grave,,10.8
 2020,Canada,,Hommes,Insécurité alimentaire modérée,,7.3
 2020,Canada,,Hommes,Insécurité alimentaire grave,,3.5
 2020,Canada,,"Hommes, moins de 18 ans",Sécurité alimentaire,,80.2
 2020,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire,,19.8
 2020,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire marginale,,6.3
+2020,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire modérée ou grave,,13.5
 2020,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire modérée,,9.6
 2020,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire grave,,3.9
 2020,Canada,,"Hommes, 18 à 64 ans",Sécurité alimentaire,,84.1
 2020,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire,,15.9
 2020,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire marginale,,4.4
+2020,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire modérée ou grave,,11.5
 2020,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire modérée,,7.5
 2020,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire grave,,3.9
 2020,Canada,,"Hommes, 65 ans et plus",Sécurité alimentaire,,91.8
 2020,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire,,8.2
 2020,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire marginale,,3.0
+2020,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire modérée ou grave,,5.3
 2020,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire modérée,,4.0
 2020,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire grave,,1.3
 2020,Canada,,Femmes,Sécurité alimentaire,,83.9
 2020,Canada,,Femmes,Insécurité alimentaire,,16.1
 2020,Canada,,Femmes,Insécurité alimentaire marginale,,4.6
+2020,Canada,,Femmes,Insécurité alimentaire modérée ou grave,,11.5
 2020,Canada,,Femmes,Insécurité alimentaire modérée,,7.8
 2020,Canada,,Femmes,Insécurité alimentaire grave,,3.7
 2020,Canada,,"Femmes, moins de 18 ans",Sécurité alimentaire,,80.7
 2020,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire,,19.3
 2020,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire marginale,,5.7
+2020,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire modérée ou grave,,13.6
 2020,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire modérée,,10.0
 2020,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire grave,,3.6
 2020,Canada,,"Femmes, 18 à 64 ans",Sécurité alimentaire,,82.7
 2020,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire,,17.3
 2020,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire marginale,,4.7
+2020,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire modérée ou grave,,12.6
 2020,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire modérée,,8.3
 2020,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire grave,,4.3
 2020,Canada,,"Femmes, 65 ans et plus",Sécurité alimentaire,,90.9
 2020,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire,,9.1
 2020,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire marginale,,3.1
+2020,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire modérée ou grave,,6.0
 2020,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire modérée,,4.2
 2020,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire grave,,1.8
 2020,Canada,,Population des minorités visibles,Sécurité alimentaire,,79.3
 2020,Canada,,Population des minorités visibles,Insécurité alimentaire,,20.7
 2020,Canada,,Population des minorités visibles,Insécurité alimentaire marginale,,6.0
+2020,Canada,,Population des minorités visibles,Insécurité alimentaire modérée ou grave,,14.6
 2020,Canada,,Population des minorités visibles,Insécurité alimentaire modérée,,11.0
 2020,Canada,,Population des minorités visibles,Insécurité alimentaire grave,,3.6
 2020,Canada,,Sud-Asiatique,Sécurité alimentaire,,84.3
 2020,Canada,,Sud-Asiatique,Insécurité alimentaire,,15.7
 2020,Canada,,Sud-Asiatique,Insécurité alimentaire marginale,,5.3
+2020,Canada,,Sud-Asiatique,Insécurité alimentaire modérée ou grave,,10.4
 2020,Canada,,Sud-Asiatique,Insécurité alimentaire modérée,,8.3
 2020,Canada,,Sud-Asiatique,Insécurité alimentaire grave,,2.1
 2020,Canada,,Chinois,Sécurité alimentaire,,85.1
 2020,Canada,,Chinois,Insécurité alimentaire,,14.9
 2020,Canada,,Chinois,Insécurité alimentaire marginale,,5.8
+2020,Canada,,Chinois,Insécurité alimentaire modérée ou grave,,9.1
 2020,Canada,,Chinois,Insécurité alimentaire modérée,,7.0
 2020,Canada,,Chinois,Insécurité alimentaire grave,,2.1
 2020,Canada,,Noir,Sécurité alimentaire,,77.6
 2020,Canada,,Noir,Insécurité alimentaire,,22.4
 2020,Canada,,Noir,Insécurité alimentaire marginale,,5.2
+2020,Canada,,Noir,Insécurité alimentaire modérée ou grave,,17.2
 2020,Canada,,Noir,Insécurité alimentaire modérée,,11.5
 2020,Canada,,Noir,Insécurité alimentaire grave,,5.7
 2020,Canada,,Philippin,Sécurité alimentaire,,71.9
 2020,Canada,,Philippin,Insécurité alimentaire,,28.1
 2020,Canada,,Philippin,Insécurité alimentaire marginale,,7.8
+2020,Canada,,Philippin,Insécurité alimentaire modérée ou grave,,20.4
 2020,Canada,,Philippin,Insécurité alimentaire modérée,,16.7
 2020,Canada,,Philippin,Insécurité alimentaire grave,,
 2020,Canada,,Arabe,Sécurité alimentaire,,73.4
 2020,Canada,,Arabe,Insécurité alimentaire,,26.6
 2020,Canada,,Arabe,Insécurité alimentaire marginale,,5.6
+2020,Canada,,Arabe,Insécurité alimentaire modérée ou grave,,21.0
 2020,Canada,,Arabe,Insécurité alimentaire modérée,,15.7
 2020,Canada,,Arabe,Insécurité alimentaire grave,,5.3
 2020,Canada,,Latino-Américain,Sécurité alimentaire,,71.0
 2020,Canada,,Latino-Américain,Insécurité alimentaire,,29.0
 2020,Canada,,Latino-Américain,Insécurité alimentaire marginale,,6.6
+2020,Canada,,Latino-Américain,Insécurité alimentaire modérée ou grave,,22.4
 2020,Canada,,Latino-Américain,Insécurité alimentaire modérée,,15.7
 2020,Canada,,Latino-Américain,Insécurité alimentaire grave,,6.7
 2020,Canada,,Asiatique du Sud-Est,Sécurité alimentaire,,77.2
 2020,Canada,,Asiatique du Sud-Est,Insécurité alimentaire,,22.8
 2020,Canada,,Asiatique du Sud-Est,Insécurité alimentaire marginale,,
+2020,Canada,,Asiatique du Sud-Est,Insécurité alimentaire modérée ou grave,,15.7
 2020,Canada,,Asiatique du Sud-Est,Insécurité alimentaire modérée,,11.9
 2020,Canada,,Asiatique du Sud-Est,Insécurité alimentaire grave,,
 2020,Canada,,Autre minorité visible,Sécurité alimentaire,,77.3
 2020,Canada,,Autre minorité visible,Insécurité alimentaire,,22.7
 2020,Canada,,Autre minorité visible,Insécurité alimentaire marginale,,7.1
+2020,Canada,,Autre minorité visible,Insécurité alimentaire modérée ou grave,,15.6
 2020,Canada,,Autre minorité visible,Insécurité alimentaire modérée,,12.0
 2020,Canada,,Autre minorité visible,Insécurité alimentaire grave,,3.6
 2020,Canada,,Pas une minorité visible,Sécurité alimentaire,,86.1
 2020,Canada,,Pas une minorité visible,Insécurité alimentaire,,13.9
 2020,Canada,,Pas une minorité visible,Insécurité alimentaire marginale,,4.0
+2020,Canada,,Pas une minorité visible,Insécurité alimentaire modérée ou grave,,9.9
 2020,Canada,,Pas une minorité visible,Insécurité alimentaire modérée,,6.3
 2020,Canada,,Pas une minorité visible,Insécurité alimentaire grave,,3.6
 2020,Canada,,Population autochtone,Sécurité alimentaire,,69.3
 2020,Canada,,Population autochtone,Insécurité alimentaire,,30.7
 2020,Canada,,Population autochtone,Insécurité alimentaire marginale,,6.4
+2020,Canada,,Population autochtone,Insécurité alimentaire modérée ou grave,,24.3
 2020,Canada,,Population autochtone,Insécurité alimentaire modérée,,15.5
 2020,Canada,,Population autochtone,Insécurité alimentaire grave,,8.8
 2020,Canada,,Population non autochtone,Sécurité alimentaire,,84.7
 2020,Canada,,Population non autochtone,Insécurité alimentaire,,15.3
 2020,Canada,,Population non autochtone,Insécurité alimentaire marginale,,4.5
+2020,Canada,,Population non autochtone,Insécurité alimentaire modérée ou grave,,10.8
 2020,Canada,,Population non autochtone,Insécurité alimentaire modérée,,7.3
 2020,Canada,,Population non autochtone,Insécurité alimentaire grave,,3.4
 2020,Canada,,Pas une minorité visible ni autochtone,Sécurité alimentaire,,86.8
 2020,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire,,13.2
 2020,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire marginale,,3.9
+2020,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire modérée ou grave,,9.3
 2020,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire modérée,,5.9
 2020,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire grave,,3.4
 2020,Canada,,Toutes les personnes de 15 ans et plus,Sécurité alimentaire,,85.1
 2020,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire,,14.9
 2020,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire marginale,,4.3
+2020,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire modérée ou grave,,10.6
 2020,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire modérée,,7.1
 2020,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire grave,,3.5
 2020,Canada,,Population autochtone âgée de 15 ans et plus,Sécurité alimentaire,,72.1
 2020,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire,,27.9
 2020,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire marginale,,5.9
+2020,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée ou grave,,21.9
 2020,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée,,12.9
 2020,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire grave,,9.0
 2020,Canada,,Premières Nations âgées de 15 ans et plus,Sécurité alimentaire,,70.2
 2020,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire,,29.8
 2020,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire marginale,,6.1
+2020,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire modérée ou grave,,23.7
 2020,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire modérée,,15.0
 2020,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire grave,,8.7
 2020,Canada,,Métis âgés de 15 ans et plus,Sécurité alimentaire,,74.3
 2020,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire,,25.7
 2020,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire marginale,,5.5
+2020,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,20.2
 2020,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire modérée,,10.9
 2020,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire grave,,9.3
 2020,Canada,,Population non autochtone âgée de 15 ans et plus,Sécurité alimentaire,,85.4
 2020,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire,,14.6
 2020,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire marginale,,4.3
+2020,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée ou grave,,10.4
 2020,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée,,7.0
 2020,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire grave,,3.4
 2020,Canada,,Immigrants âgés de 15 ans et plus,Sécurité alimentaire,,81.8
 2020,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire,,18.2
 2020,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire marginale,,5.5
+2020,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,12.7
 2020,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire modérée,,9.5
 2020,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire grave,,3.3
 2020,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Sécurité alimentaire,,75.7
 2020,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire,,24.3
 2020,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire marginale,,6.6
+2020,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,17.8
 2020,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée,,13.8
 2020,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire grave,,4.0
 2020,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Sécurité alimentaire,,76.6
 2020,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire,,23.4
 2020,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire marginale,,7.2
+2020,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,16.2
 2020,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée,,12.7
 2020,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire grave,,3.5
 2020,Canada,,Personnes de 15 ans et plus nées au Canada,Sécurité alimentaire,,86.5
 2020,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire,,13.5
 2020,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire marginale,,3.8
+2020,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée ou grave,,9.7
 2020,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée,,6.1
 2020,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire grave,,3.7
 2020,Provinces de l'Atlantique,,Personnes de moins de 18 ans,Sécurité alimentaire,,74.6
@@ -18158,191 +18254,229 @@ Year,Géographie,Type de famille économique,Caractéristiques démographiques,N
 2021,Canada,,Personnes de moins de 18 ans,Sécurité alimentaire,,75.7
 2021,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire,,24.3
 2021,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire marginale,,7.5
+2021,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire modérée ou grave,,16.8
 2021,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire modérée,,12.6
 2021,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire grave,,4.2
 2021,Canada,,Personnes de 18 à 64 ans,Sécurité alimentaire,,81.0
 2021,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire,,19.0
 2021,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire marginale,,5.4
+2021,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire modérée ou grave,,13.6
 2021,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire modérée,,9.0
 2021,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire grave,,4.6
 2021,Canada,,Personnes de 18 à 24 ans,Sécurité alimentaire,,80.2
 2021,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire,,19.8
 2021,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire marginale,,6.2
+2021,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire modérée ou grave,,13.6
 2021,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire modérée,,8.9
 2021,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire grave,,4.6
 2021,Canada,,Personnes de 25 à 34 ans,Sécurité alimentaire,,80.1
 2021,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire,,19.9
 2021,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire marginale,,5.1
+2021,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire modérée ou grave,,14.8
 2021,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire modérée,,9.6
 2021,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire grave,,5.2
 2021,Canada,,Personnes de 35 à 44 ans,Sécurité alimentaire,,78.8
 2021,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire,,21.2
 2021,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire marginale,,6.5
+2021,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire modérée ou grave,,14.8
 2021,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire modérée,,10.3
 2021,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire grave,,4.5
 2021,Canada,,Personnes de 45 à 54 ans,Sécurité alimentaire,,80.9
 2021,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire,,19.1
 2021,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire marginale,,5.4
+2021,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire modérée ou grave,,13.7
 2021,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire modérée,,9.2
 2021,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire grave,,4.5
 2021,Canada,,Personnes de 55 à 64 ans,Sécurité alimentaire,,84.6
 2021,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire,,15.4
 2021,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire marginale,,4.4
+2021,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire modérée ou grave,,11.0
 2021,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire modérée,,6.9
 2021,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire grave,,4.2
 2021,Canada,,Personnes de 65 ans et plus,Sécurité alimentaire,,89.7
 2021,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire,,10.3
 2021,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire marginale,,4.0
+2021,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire modérée ou grave,,6.3
 2021,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire modérée,,4.6
 2021,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire grave,,1.7
 2021,Canada,,Hommes,Sécurité alimentaire,,81.8
 2021,Canada,,Hommes,Insécurité alimentaire,,18.2
 2021,Canada,,Hommes,Insécurité alimentaire marginale,,5.5
+2021,Canada,,Hommes,Insécurité alimentaire modérée ou grave,,12.7
 2021,Canada,,Hommes,Insécurité alimentaire modérée,,8.7
 2021,Canada,,Hommes,Insécurité alimentaire grave,,4.0
 2021,Canada,,"Hommes, moins de 18 ans",Sécurité alimentaire,,74.8
 2021,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire,,25.2
 2021,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire marginale,,8.1
+2021,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire modérée ou grave,,17.2
 2021,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire modérée,,13.1
 2021,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire grave,,4.1
 2021,Canada,,"Hommes, 18 à 64 ans",Sécurité alimentaire,,81.8
 2021,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire,,18.2
 2021,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire marginale,,5.1
+2021,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire modérée ou grave,,13.1
 2021,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire modérée,,8.5
 2021,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire grave,,4.6
 2021,Canada,,"Hommes, 65 ans et plus",Sécurité alimentaire,,90.1
 2021,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire,,9.9
 2021,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire marginale,,4.0
+2021,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire modérée ou grave,,5.9
 2021,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire modérée,,4.2
 2021,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire grave,,1.8
 2021,Canada,,Femmes,Sécurité alimentaire,,81.3
 2021,Canada,,Femmes,Insécurité alimentaire,,18.7
 2021,Canada,,Femmes,Insécurité alimentaire marginale,,5.6
+2021,Canada,,Femmes,Insécurité alimentaire modérée ou grave,,13.1
 2021,Canada,,Femmes,Insécurité alimentaire modérée,,9.1
 2021,Canada,,Femmes,Insécurité alimentaire grave,,4.0
 2021,Canada,,"Femmes, moins de 18 ans",Sécurité alimentaire,,76.6
 2021,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire,,23.4
 2021,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire marginale,,6.9
+2021,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire modérée ou grave,,16.5
 2021,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire modérée,,12.2
 2021,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire grave,,4.3
 2021,Canada,,"Femmes, 18 à 64 ans",Sécurité alimentaire,,80.2
 2021,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire,,19.8
 2021,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire marginale,,5.8
+2021,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire modérée ou grave,,14.0
 2021,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire modérée,,9.4
 2021,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire grave,,4.6
 2021,Canada,,"Femmes, 65 ans et plus",Sécurité alimentaire,,89.4
 2021,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire,,10.6
 2021,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire marginale,,4.0
+2021,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire modérée ou grave,,6.6
 2021,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire modérée,,5.0
 2021,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire grave,,1.6
 2021,Canada,,Population des minorités visibles,Sécurité alimentaire,,75.5
 2021,Canada,,Population des minorités visibles,Insécurité alimentaire,,24.5
 2021,Canada,,Population des minorités visibles,Insécurité alimentaire marginale,,7.7
+2021,Canada,,Population des minorités visibles,Insécurité alimentaire modérée ou grave,,16.8
 2021,Canada,,Population des minorités visibles,Insécurité alimentaire modérée,,12.8
 2021,Canada,,Population des minorités visibles,Insécurité alimentaire grave,,4.0
 2021,Canada,,Sud-Asiatique,Sécurité alimentaire,,79.0
 2021,Canada,,Sud-Asiatique,Insécurité alimentaire,,21.0
 2021,Canada,,Sud-Asiatique,Insécurité alimentaire marginale,,5.9
+2021,Canada,,Sud-Asiatique,Insécurité alimentaire modérée ou grave,,15.1
 2021,Canada,,Sud-Asiatique,Insécurité alimentaire modérée,,12.8
 2021,Canada,,Sud-Asiatique,Insécurité alimentaire grave,,2.3
 2021,Canada,,Chinois,Sécurité alimentaire,,82.1
 2021,Canada,,Chinois,Insécurité alimentaire,,17.9
 2021,Canada,,Chinois,Insécurité alimentaire marginale,,4.8
+2021,Canada,,Chinois,Insécurité alimentaire modérée ou grave,,13.0
 2021,Canada,,Chinois,Insécurité alimentaire modérée,,9.8
 2021,Canada,,Chinois,Insécurité alimentaire grave,,3.2
 2021,Canada,,Noir,Sécurité alimentaire,,60.8
 2021,Canada,,Noir,Insécurité alimentaire,,39.2
 2021,Canada,,Noir,Insécurité alimentaire marginale,,12.0
+2021,Canada,,Noir,Insécurité alimentaire modérée ou grave,,27.2
 2021,Canada,,Noir,Insécurité alimentaire modérée,,17.9
 2021,Canada,,Noir,Insécurité alimentaire grave,,9.4
 2021,Canada,,Philippin,Sécurité alimentaire,,70.8
 2021,Canada,,Philippin,Insécurité alimentaire,,29.2
 2021,Canada,,Philippin,Insécurité alimentaire marginale,,10.5
+2021,Canada,,Philippin,Insécurité alimentaire modérée ou grave,,18.7
 2021,Canada,,Philippin,Insécurité alimentaire modérée,,14.3
 2021,Canada,,Philippin,Insécurité alimentaire grave,,
 2021,Canada,,Arabe,Sécurité alimentaire,,73.0
 2021,Canada,,Arabe,Insécurité alimentaire,,27.0
 2021,Canada,,Arabe,Insécurité alimentaire marginale,,13.8
+2021,Canada,,Arabe,Insécurité alimentaire modérée ou grave,,13.2
 2021,Canada,,Arabe,Insécurité alimentaire modérée,,10.4
 2021,Canada,,Arabe,Insécurité alimentaire grave,,
 2021,Canada,,Latino-Américain,Sécurité alimentaire,,80.0
 2021,Canada,,Latino-Américain,Insécurité alimentaire,,20.0
 2021,Canada,,Latino-Américain,Insécurité alimentaire marginale,,4.6
+2021,Canada,,Latino-Américain,Insécurité alimentaire modérée ou grave,,15.4
 2021,Canada,,Latino-Américain,Insécurité alimentaire modérée,,11.5
 2021,Canada,,Latino-Américain,Insécurité alimentaire grave,,3.9
 2021,Canada,,Asiatique du Sud-Est,Sécurité alimentaire,,78.0
 2021,Canada,,Asiatique du Sud-Est,Insécurité alimentaire,,22.0
 2021,Canada,,Asiatique du Sud-Est,Insécurité alimentaire marginale,,4.2
+2021,Canada,,Asiatique du Sud-Est,Insécurité alimentaire modérée ou grave,,17.8
 2021,Canada,,Asiatique du Sud-Est,Insécurité alimentaire modérée,,13.9
 2021,Canada,,Asiatique du Sud-Est,Insécurité alimentaire grave,,3.9
 2021,Canada,,Autre minorité visible,Sécurité alimentaire,,77.9
 2021,Canada,,Autre minorité visible,Insécurité alimentaire,,22.1
 2021,Canada,,Autre minorité visible,Insécurité alimentaire marginale,,7.2
+2021,Canada,,Autre minorité visible,Insécurité alimentaire modérée ou grave,,14.9
 2021,Canada,,Autre minorité visible,Insécurité alimentaire modérée,,11.5
 2021,Canada,,Autre minorité visible,Insécurité alimentaire grave,,
 2021,Canada,,Pas une minorité visible,Sécurité alimentaire,,84.0
 2021,Canada,,Pas une minorité visible,Insécurité alimentaire,,16.0
 2021,Canada,,Pas une minorité visible,Insécurité alimentaire marginale,,4.7
+2021,Canada,,Pas une minorité visible,Insécurité alimentaire modérée ou grave,,11.3
 2021,Canada,,Pas une minorité visible,Insécurité alimentaire modérée,,7.3
 2021,Canada,,Pas une minorité visible,Insécurité alimentaire grave,,4.0
 2021,Canada,,Population autochtone,Sécurité alimentaire,,66.6
 2021,Canada,,Population autochtone,Insécurité alimentaire,,33.4
 2021,Canada,,Population autochtone,Insécurité alimentaire marginale,,7.9
+2021,Canada,,Population autochtone,Insécurité alimentaire modérée ou grave,,25.5
 2021,Canada,,Population autochtone,Insécurité alimentaire modérée,,13.9
 2021,Canada,,Population autochtone,Insécurité alimentaire grave,,11.6
 2021,Canada,,Population non autochtone,Sécurité alimentaire,,82.0
 2021,Canada,,Population non autochtone,Insécurité alimentaire,,18.0
 2021,Canada,,Population non autochtone,Insécurité alimentaire marginale,,5.5
+2021,Canada,,Population non autochtone,Insécurité alimentaire modérée ou grave,,12.5
 2021,Canada,,Population non autochtone,Insécurité alimentaire modérée,,8.7
 2021,Canada,,Population non autochtone,Insécurité alimentaire grave,,3.8
 2021,Canada,,Pas une minorité visible ni autochtone,Sécurité alimentaire,,84.7
 2021,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire,,15.3
 2021,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire marginale,,4.6
+2021,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire modérée ou grave,,10.7
 2021,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire modérée,,7.0
 2021,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire grave,,3.7
 2021,Canada,,Toutes les personnes de 15 ans et plus,Sécurité alimentaire,,82.8
 2021,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire,,17.2
 2021,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire marginale,,5.2
+2021,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire modérée ou grave,,12.1
 2021,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire modérée,,8.1
 2021,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire grave,,3.9
 2021,Canada,,Population autochtone âgée de 15 ans et plus,Sécurité alimentaire,,69.1
 2021,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire,,30.9
 2021,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire marginale,,6.8
+2021,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée ou grave,,24.1
 2021,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée,,13.0
 2021,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire grave,,11.1
 2021,Canada,,Premières Nations âgées de 15 ans et plus,Sécurité alimentaire,,64.4
 2021,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire,,35.6
 2021,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire marginale,,6.2
+2021,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire modérée ou grave,,29.5
 2021,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire modérée,,15.2
 2021,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire grave,,14.3
 2021,Canada,,Métis âgés de 15 ans et plus,Sécurité alimentaire,,73.5
 2021,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire,,26.5
 2021,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire marginale,,6.6
+2021,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,19.9
 2021,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire modérée,,11.5
 2021,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire grave,,8.3
 2021,Canada,,Population non autochtone âgée de 15 ans et plus,Sécurité alimentaire,,83.1
 2021,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire,,16.9
 2021,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire marginale,,5.1
+2021,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée ou grave,,11.8
 2021,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée,,8.0
 2021,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire grave,,3.8
 2021,Canada,,Immigrants âgés de 15 ans et plus,Sécurité alimentaire,,78.8
 2021,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire,,21.2
 2021,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire marginale,,7.1
+2021,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,14.0
 2021,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire modérée,,10.5
 2021,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire grave,,3.5
 2021,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Sécurité alimentaire,,73.8
 2021,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire,,26.2
 2021,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire marginale,,9.3
+2021,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,16.8
 2021,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée,,12.1
 2021,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire grave,,4.8
 2021,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Sécurité alimentaire,,74.2
 2021,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire,,25.8
 2021,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire marginale,,8.0
+2021,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,17.8
 2021,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée,,12.4
 2021,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire grave,,5.4
 2021,Canada,,Personnes de 15 ans et plus nées au Canada,Sécurité alimentaire,,84.4
 2021,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire,,15.6
 2021,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire marginale,,4.4
+2021,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée ou grave,,11.2
 2021,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée,,7.1
 2021,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire grave,,4.1
 2021,Provinces de l'Atlantique,,Personnes de moins de 18 ans,Sécurité alimentaire,,69.5
@@ -21084,191 +21218,229 @@ Year,Géographie,Type de famille économique,Caractéristiques démographiques,N
 2022,Canada,,Personnes de moins de 18 ans,Sécurité alimentaire,,71.6
 2022,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire,,28.4
 2022,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire marginale,,7.5
+2022,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire modérée ou grave,,21.0
 2022,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire modérée,,14.5
 2022,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire grave,,6.4
 2022,Canada,,Personnes de 18 à 64 ans,Sécurité alimentaire,,75.5
 2022,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire,,24.5
 2022,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire marginale,,6.1
+2022,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire modérée ou grave,,18.4
 2022,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire modérée,,11.3
 2022,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire grave,,7.0
 2022,Canada,,Personnes de 18 à 24 ans,Sécurité alimentaire,,75.6
 2022,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire,,24.4
 2022,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire marginale,,6.7
+2022,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire modérée ou grave,,17.7
 2022,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire modérée,,10.3
 2022,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire grave,,7.4
 2022,Canada,,Personnes de 25 à 34 ans,Sécurité alimentaire,,72.0
 2022,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire,,28.0
 2022,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire marginale,,6.8
+2022,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire modérée ou grave,,21.2
 2022,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire modérée,,13.7
 2022,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire grave,,7.5
 2022,Canada,,Personnes de 35 à 44 ans,Sécurité alimentaire,,73.1
 2022,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire,,26.9
 2022,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire marginale,,6.4
+2022,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire modérée ou grave,,20.5
 2022,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire modérée,,13.4
 2022,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire grave,,7.1
 2022,Canada,,Personnes de 45 à 54 ans,Sécurité alimentaire,,76.7
 2022,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire,,23.3
 2022,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire marginale,,6.0
+2022,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire modérée ou grave,,17.3
 2022,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire modérée,,10.0
 2022,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire grave,,7.3
 2022,Canada,,Personnes de 55 à 64 ans,Sécurité alimentaire,,80.4
 2022,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire,,19.6
 2022,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire marginale,,5.0
+2022,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire modérée ou grave,,14.6
 2022,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire modérée,,8.7
 2022,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire grave,,5.9
 2022,Canada,,Personnes de 65 ans et plus,Sécurité alimentaire,,88.3
 2022,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire,,11.7
 2022,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire marginale,,3.8
+2022,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire modérée ou grave,,8.0
 2022,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire modérée,,5.6
 2022,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire grave,,2.4
 2022,Canada,,Hommes,Sécurité alimentaire,,77.4
 2022,Canada,,Hommes,Insécurité alimentaire,,22.6
 2022,Canada,,Hommes,Insécurité alimentaire marginale,,5.9
+2022,Canada,,Hommes,Insécurité alimentaire modérée ou grave,,16.7
 2022,Canada,,Hommes,Insécurité alimentaire modérée,,10.6
 2022,Canada,,Hommes,Insécurité alimentaire grave,,6.1
 2022,Canada,,"Hommes, moins de 18 ans",Sécurité alimentaire,,71.4
 2022,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire,,28.6
 2022,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire marginale,,7.2
+2022,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire modérée ou grave,,21.4
 2022,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire modérée,,14.7
 2022,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire grave,,6.7
 2022,Canada,,"Hommes, 18 à 64 ans",Sécurité alimentaire,,76.2
 2022,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire,,23.8
 2022,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire marginale,,6.1
+2022,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire modérée ou grave,,17.7
 2022,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire modérée,,10.8
 2022,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire grave,,6.9
 2022,Canada,,"Hommes, 65 ans et plus",Sécurité alimentaire,,88.5
 2022,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire,,11.5
 2022,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire marginale,,3.7
+2022,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire modérée ou grave,,7.9
 2022,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire modérée,,5.4
 2022,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire grave,,2.4
 2022,Canada,,Femmes,Sécurité alimentaire,,76.9
 2022,Canada,,Femmes,Insécurité alimentaire,,23.1
 2022,Canada,,Femmes,Insécurité alimentaire marginale,,6.0
+2022,Canada,,Femmes,Insécurité alimentaire modérée ou grave,,17.1
 2022,Canada,,Femmes,Insécurité alimentaire modérée,,11.1
 2022,Canada,,Femmes,Insécurité alimentaire grave,,6.0
 2022,Canada,,"Femmes, moins de 18 ans",Sécurité alimentaire,,71.7
 2022,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire,,28.3
 2022,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire marginale,,7.8
+2022,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire modérée ou grave,,20.5
 2022,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire modérée,,14.4
 2022,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire grave,,6.1
 2022,Canada,,"Femmes, 18 à 64 ans",Sécurité alimentaire,,74.8
 2022,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire,,25.2
 2022,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire marginale,,6.2
+2022,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire modérée ou grave,,19.0
 2022,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire modérée,,11.9
 2022,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire grave,,7.1
 2022,Canada,,"Femmes, 65 ans et plus",Sécurité alimentaire,,88.1
 2022,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire,,11.9
 2022,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire marginale,,3.9
+2022,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire modérée ou grave,,8.0
 2022,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire modérée,,5.7
 2022,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire grave,,2.4
 2022,Canada,,Population des minorités visibles,Sécurité alimentaire,,72.7
 2022,Canada,,Population des minorités visibles,Insécurité alimentaire,,27.3
 2022,Canada,,Population des minorités visibles,Insécurité alimentaire marginale,,6.6
+2022,Canada,,Population des minorités visibles,Insécurité alimentaire modérée ou grave,,20.7
 2022,Canada,,Population des minorités visibles,Insécurité alimentaire modérée,,14.5
 2022,Canada,,Population des minorités visibles,Insécurité alimentaire grave,,6.2
 2022,Canada,,Sud-Asiatique,Sécurité alimentaire,,76.2
 2022,Canada,,Sud-Asiatique,Insécurité alimentaire,,23.8
 2022,Canada,,Sud-Asiatique,Insécurité alimentaire marginale,,6.2
+2022,Canada,,Sud-Asiatique,Insécurité alimentaire modérée ou grave,,17.6
 2022,Canada,,Sud-Asiatique,Insécurité alimentaire modérée,,11.3
 2022,Canada,,Sud-Asiatique,Insécurité alimentaire grave,,6.3
 2022,Canada,,Chinois,Sécurité alimentaire,,81.0
 2022,Canada,,Chinois,Insécurité alimentaire,,19.0
 2022,Canada,,Chinois,Insécurité alimentaire marginale,,5.7
+2022,Canada,,Chinois,Insécurité alimentaire modérée ou grave,,13.4
 2022,Canada,,Chinois,Insécurité alimentaire modérée,,10.1
 2022,Canada,,Chinois,Insécurité alimentaire grave,,3.3
 2022,Canada,,Noir,Sécurité alimentaire,,59.6
 2022,Canada,,Noir,Insécurité alimentaire,,40.4
 2022,Canada,,Noir,Insécurité alimentaire marginale,,8.5
+2022,Canada,,Noir,Insécurité alimentaire modérée ou grave,,31.9
 2022,Canada,,Noir,Insécurité alimentaire modérée,,20.1
 2022,Canada,,Noir,Insécurité alimentaire grave,,11.8
 2022,Canada,,Philippin,Sécurité alimentaire,,73.0
 2022,Canada,,Philippin,Insécurité alimentaire,,27.0
 2022,Canada,,Philippin,Insécurité alimentaire marginale,,6.4
+2022,Canada,,Philippin,Insécurité alimentaire modérée ou grave,,20.6
 2022,Canada,,Philippin,Insécurité alimentaire modérée,,16.4
 2022,Canada,,Philippin,Insécurité alimentaire grave,,4.1
 2022,Canada,,Arabe,Sécurité alimentaire,,74.2
 2022,Canada,,Arabe,Insécurité alimentaire,,25.8
 2022,Canada,,Arabe,Insécurité alimentaire marginale,,7.5
+2022,Canada,,Arabe,Insécurité alimentaire modérée ou grave,,18.3
 2022,Canada,,Arabe,Insécurité alimentaire modérée,,14.9
 2022,Canada,,Arabe,Insécurité alimentaire grave,,3.4
 2022,Canada,,Latino-Américain,Sécurité alimentaire,,68.9
 2022,Canada,,Latino-Américain,Insécurité alimentaire,,31.1
 2022,Canada,,Latino-Américain,Insécurité alimentaire marginale,,7.6
+2022,Canada,,Latino-Américain,Insécurité alimentaire modérée ou grave,,23.5
 2022,Canada,,Latino-Américain,Insécurité alimentaire modérée,,15.6
 2022,Canada,,Latino-Américain,Insécurité alimentaire grave,,7.8
 2022,Canada,,Asiatique du Sud-Est,Sécurité alimentaire,,74.7
 2022,Canada,,Asiatique du Sud-Est,Insécurité alimentaire,,25.3
 2022,Canada,,Asiatique du Sud-Est,Insécurité alimentaire marginale,,8.7
+2022,Canada,,Asiatique du Sud-Est,Insécurité alimentaire modérée ou grave,,16.6
 2022,Canada,,Asiatique du Sud-Est,Insécurité alimentaire modérée,,11.1
 2022,Canada,,Asiatique du Sud-Est,Insécurité alimentaire grave,,
 2022,Canada,,Autre minorité visible,Sécurité alimentaire,,68.6
 2022,Canada,,Autre minorité visible,Insécurité alimentaire,,31.4
 2022,Canada,,Autre minorité visible,Insécurité alimentaire marginale,,4.6
+2022,Canada,,Autre minorité visible,Insécurité alimentaire modérée ou grave,,26.8
 2022,Canada,,Autre minorité visible,Insécurité alimentaire modérée,,20.2
 2022,Canada,,Autre minorité visible,Insécurité alimentaire grave,,6.7
 2022,Canada,,Pas une minorité visible,Sécurité alimentaire,,79.0
 2022,Canada,,Pas une minorité visible,Insécurité alimentaire,,21.0
 2022,Canada,,Pas une minorité visible,Insécurité alimentaire marginale,,5.7
+2022,Canada,,Pas une minorité visible,Insécurité alimentaire modérée ou grave,,15.4
 2022,Canada,,Pas une minorité visible,Insécurité alimentaire modérée,,9.4
 2022,Canada,,Pas une minorité visible,Insécurité alimentaire grave,,5.9
 2022,Canada,,Population autochtone,Sécurité alimentaire,,63.2
 2022,Canada,,Population autochtone,Insécurité alimentaire,,36.8
 2022,Canada,,Population autochtone,Insécurité alimentaire marginale,,7.8
+2022,Canada,,Population autochtone,Insécurité alimentaire modérée ou grave,,29.0
 2022,Canada,,Population autochtone,Insécurité alimentaire modérée,,14.7
 2022,Canada,,Population autochtone,Insécurité alimentaire grave,,14.3
 2022,Canada,,Population non autochtone,Sécurité alimentaire,,77.6
 2022,Canada,,Population non autochtone,Insécurité alimentaire,,22.4
 2022,Canada,,Population non autochtone,Insécurité alimentaire marginale,,5.9
+2022,Canada,,Population non autochtone,Insécurité alimentaire modérée ou grave,,16.5
 2022,Canada,,Population non autochtone,Insécurité alimentaire modérée,,10.8
 2022,Canada,,Population non autochtone,Insécurité alimentaire grave,,5.8
 2022,Canada,,Pas une minorité visible ni autochtone,Sécurité alimentaire,,79.7
 2022,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire,,20.3
 2022,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire marginale,,5.6
+2022,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire modérée ou grave,,14.7
 2022,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire modérée,,9.2
 2022,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire grave,,5.6
 2022,Canada,,Toutes les personnes de 15 ans et plus,Sécurité alimentaire,,78.2
 2022,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire,,21.8
 2022,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire marginale,,5.7
+2022,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire modérée ou grave,,16.1
 2022,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire modérée,,10.1
 2022,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire grave,,6.0
 2022,Canada,,Population autochtone âgée de 15 ans et plus,Sécurité alimentaire,,64.3
 2022,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire,,35.7
 2022,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire marginale,,7.1
+2022,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée ou grave,,28.6
 2022,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée,,13.4
 2022,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire grave,,15.2
 2022,Canada,,Premières Nations âgées de 15 ans et plus,Sécurité alimentaire,,59.9
 2022,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire,,40.1
 2022,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire marginale,,7.1
+2022,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire modérée ou grave,,33.0
 2022,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire modérée,,16.1
 2022,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire grave,,16.9
 2022,Canada,,Métis âgés de 15 ans et plus,Sécurité alimentaire,,68.8
 2022,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire,,31.2
 2022,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire marginale,,7.5
+2022,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,23.8
 2022,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire modérée,,10.5
 2022,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire grave,,13.3
 2022,Canada,,Population non autochtone âgée de 15 ans et plus,Sécurité alimentaire,,78.6
 2022,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire,,21.4
 2022,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire marginale,,5.6
+2022,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée ou grave,,15.7
 2022,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée,,10.0
 2022,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire grave,,5.7
 2022,Canada,,Immigrants âgés de 15 ans et plus,Sécurité alimentaire,,76.8
 2022,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire,,23.2
 2022,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire marginale,,6.0
+2022,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,17.2
 2022,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire modérée,,12.2
 2022,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire grave,,5.1
 2022,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Sécurité alimentaire,,71.6
 2022,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire,,28.4
 2022,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire marginale,,7.2
+2022,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,21.2
 2022,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée,,16.1
 2022,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire grave,,5.2
 2022,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Sécurité alimentaire,,73.1
 2022,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire,,26.9
 2022,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire marginale,,7.6
+2022,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,19.3
 2022,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée,,13.9
 2022,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire grave,,5.4
 2022,Canada,,Personnes de 15 ans et plus nées au Canada,Sécurité alimentaire,,79.2
 2022,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire,,20.8
 2022,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire marginale,,5.4
+2022,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée ou grave,,15.4
 2022,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée,,9.1
 2022,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire grave,,6.3
 2022,Provinces de l'Atlantique,,Personnes de moins de 18 ans,Sécurité alimentaire,,63.4
@@ -24010,191 +24182,229 @@ Year,Géographie,Type de famille économique,Caractéristiques démographiques,N
 2023,Canada,,Personnes de moins de 18 ans,Sécurité alimentaire,,67.1
 2023,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire,,32.9
 2023,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire marginale,,8.2
+2023,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire modérée ou grave,,24.7
 2023,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire modérée,,17.3
 2023,Canada,,Personnes de moins de 18 ans,Insécurité alimentaire grave,,7.4
 2023,Canada,,Personnes de 18 à 64 ans,Sécurité alimentaire,,72.9
 2023,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire,,27.1
 2023,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire marginale,,6.6
+2023,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire modérée ou grave,,20.5
 2023,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire modérée,,12.8
 2023,Canada,,Personnes de 18 à 64 ans,Insécurité alimentaire grave,,7.7
 2023,Canada,,Personnes de 18 à 24 ans,Sécurité alimentaire,,71.8
 2023,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire,,28.2
 2023,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire marginale,,6.2
+2023,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire modérée ou grave,,22.0
 2023,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire modérée,,13.9
 2023,Canada,,Personnes de 18 à 24 ans,Insécurité alimentaire grave,,8.1
 2023,Canada,,Personnes de 25 à 34 ans,Sécurité alimentaire,,69.8
 2023,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire,,30.2
 2023,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire marginale,,7.7
+2023,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire modérée ou grave,,22.6
 2023,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire modérée,,13.8
 2023,Canada,,Personnes de 25 à 34 ans,Insécurité alimentaire grave,,8.8
 2023,Canada,,Personnes de 35 à 44 ans,Sécurité alimentaire,,69.6
 2023,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire,,30.4
 2023,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire marginale,,7.3
+2023,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire modérée ou grave,,23.1
 2023,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire modérée,,14.8
 2023,Canada,,Personnes de 35 à 44 ans,Insécurité alimentaire grave,,8.3
 2023,Canada,,Personnes de 45 à 54 ans,Sécurité alimentaire,,74.0
 2023,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire,,26.0
 2023,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire marginale,,6.2
+2023,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire modérée ou grave,,19.8
 2023,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire modérée,,12.5
 2023,Canada,,Personnes de 45 à 54 ans,Insécurité alimentaire grave,,7.2
 2023,Canada,,Personnes de 55 à 64 ans,Sécurité alimentaire,,79.3
 2023,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire,,20.7
 2023,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire marginale,,5.5
+2023,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire modérée ou grave,,15.2
 2023,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire modérée,,8.9
 2023,Canada,,Personnes de 55 à 64 ans,Insécurité alimentaire grave,,6.3
 2023,Canada,,Personnes de 65 ans et plus,Sécurité alimentaire,,87.4
 2023,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire,,12.6
 2023,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire marginale,,3.5
+2023,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire modérée ou grave,,9.0
 2023,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire modérée,,6.2
 2023,Canada,,Personnes de 65 ans et plus,Insécurité alimentaire grave,,2.8
 2023,Canada,,Hommes,Sécurité alimentaire,,75.0
 2023,Canada,,Hommes,Insécurité alimentaire,,25.0
 2023,Canada,,Hommes,Insécurité alimentaire marginale,,6.2
+2023,Canada,,Hommes,Insécurité alimentaire modérée ou grave,,18.8
 2023,Canada,,Hommes,Insécurité alimentaire modérée,,12.0
 2023,Canada,,Hommes,Insécurité alimentaire grave,,6.8
 2023,Canada,,"Hommes, moins de 18 ans",Sécurité alimentaire,,67.4
 2023,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire,,32.6
 2023,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire marginale,,7.9
+2023,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire modérée ou grave,,24.7
 2023,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire modérée,,17.2
 2023,Canada,,"Hommes, moins de 18 ans",Insécurité alimentaire grave,,7.5
 2023,Canada,,"Hommes, 18 à 64 ans",Sécurité alimentaire,,73.7
 2023,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire,,26.3
 2023,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire marginale,,6.4
+2023,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire modérée ou grave,,19.8
 2023,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire modérée,,12.1
 2023,Canada,,"Hommes, 18 à 64 ans",Insécurité alimentaire grave,,7.8
 2023,Canada,,"Hommes, 65 ans et plus",Sécurité alimentaire,,87.9
 2023,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire,,12.1
 2023,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire marginale,,3.5
+2023,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire modérée ou grave,,8.6
 2023,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire modérée,,5.8
 2023,Canada,,"Hommes, 65 ans et plus",Insécurité alimentaire grave,,2.8
 2023,Canada,,Femmes,Sécurité alimentaire,,74.0
 2023,Canada,,Femmes,Insécurité alimentaire,,26.0
 2023,Canada,,Femmes,Insécurité alimentaire marginale,,6.5
+2023,Canada,,Femmes,Insécurité alimentaire modérée ou grave,,19.5
 2023,Canada,,Femmes,Insécurité alimentaire modérée,,12.8
 2023,Canada,,Femmes,Insécurité alimentaire grave,,6.6
 2023,Canada,,"Femmes, moins de 18 ans",Sécurité alimentaire,,66.7
 2023,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire,,33.3
 2023,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire marginale,,8.6
+2023,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire modérée ou grave,,24.7
 2023,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire modérée,,17.5
 2023,Canada,,"Femmes, moins de 18 ans",Insécurité alimentaire grave,,7.2
 2023,Canada,,"Femmes, 18 à 64 ans",Sécurité alimentaire,,72.0
 2023,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire,,28.0
 2023,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire marginale,,6.9
+2023,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire modérée ou grave,,21.2
 2023,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire modérée,,13.5
 2023,Canada,,"Femmes, 18 à 64 ans",Insécurité alimentaire grave,,7.7
 2023,Canada,,"Femmes, 65 ans et plus",Sécurité alimentaire,,87.0
 2023,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire,,13.0
 2023,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire marginale,,3.6
+2023,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire modérée ou grave,,9.4
 2023,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire modérée,,6.6
 2023,Canada,,"Femmes, 65 ans et plus",Insécurité alimentaire grave,,2.8
 2023,Canada,,Population des minorités visibles,Sécurité alimentaire,,67.8
 2023,Canada,,Population des minorités visibles,Insécurité alimentaire,,32.2
 2023,Canada,,Population des minorités visibles,Insécurité alimentaire marginale,,7.4
+2023,Canada,,Population des minorités visibles,Insécurité alimentaire modérée ou grave,,24.7
 2023,Canada,,Population des minorités visibles,Insécurité alimentaire modérée,,17.3
 2023,Canada,,Population des minorités visibles,Insécurité alimentaire grave,,7.4
 2023,Canada,,Sud-Asiatique,Sécurité alimentaire,,72.9
 2023,Canada,,Sud-Asiatique,Insécurité alimentaire,,27.1
 2023,Canada,,Sud-Asiatique,Insécurité alimentaire marginale,,5.6
+2023,Canada,,Sud-Asiatique,Insécurité alimentaire modérée ou grave,,21.5
 2023,Canada,,Sud-Asiatique,Insécurité alimentaire modérée,,14.0
 2023,Canada,,Sud-Asiatique,Insécurité alimentaire grave,,7.5
 2023,Canada,,Chinois,Sécurité alimentaire,,78.7
 2023,Canada,,Chinois,Insécurité alimentaire,,21.3
 2023,Canada,,Chinois,Insécurité alimentaire marginale,,4.5
+2023,Canada,,Chinois,Insécurité alimentaire modérée ou grave,,16.8
 2023,Canada,,Chinois,Insécurité alimentaire modérée,,12.1
 2023,Canada,,Chinois,Insécurité alimentaire grave,,4.7
 2023,Canada,,Noir,Sécurité alimentaire,,53.3
 2023,Canada,,Noir,Insécurité alimentaire,,46.7
 2023,Canada,,Noir,Insécurité alimentaire marginale,,9.0
+2023,Canada,,Noir,Insécurité alimentaire modérée ou grave,,37.7
 2023,Canada,,Noir,Insécurité alimentaire modérée,,26.1
 2023,Canada,,Noir,Insécurité alimentaire grave,,11.6
 2023,Canada,,Philippin,Sécurité alimentaire,,62.8
 2023,Canada,,Philippin,Insécurité alimentaire,,37.2
 2023,Canada,,Philippin,Insécurité alimentaire marginale,,13.1
+2023,Canada,,Philippin,Insécurité alimentaire modérée ou grave,,24.1
 2023,Canada,,Philippin,Insécurité alimentaire modérée,,19.9
 2023,Canada,,Philippin,Insécurité alimentaire grave,,4.2
 2023,Canada,,Arabe,Sécurité alimentaire,,68.4
 2023,Canada,,Arabe,Insécurité alimentaire,,31.6
 2023,Canada,,Arabe,Insécurité alimentaire marginale,,7.0
+2023,Canada,,Arabe,Insécurité alimentaire modérée ou grave,,24.6
 2023,Canada,,Arabe,Insécurité alimentaire modérée,,16.6
 2023,Canada,,Arabe,Insécurité alimentaire grave,,8.0
 2023,Canada,,Latino-Américain,Sécurité alimentaire,,62.6
 2023,Canada,,Latino-Américain,Insécurité alimentaire,,37.4
 2023,Canada,,Latino-Américain,Insécurité alimentaire marginale,,7.7
+2023,Canada,,Latino-Américain,Insécurité alimentaire modérée ou grave,,29.7
 2023,Canada,,Latino-Américain,Insécurité alimentaire modérée,,23.2
 2023,Canada,,Latino-Américain,Insécurité alimentaire grave,,6.5
 2023,Canada,,Asiatique du Sud-Est,Sécurité alimentaire,,73.0
 2023,Canada,,Asiatique du Sud-Est,Insécurité alimentaire,,27.0
 2023,Canada,,Asiatique du Sud-Est,Insécurité alimentaire marginale,,4.9
+2023,Canada,,Asiatique du Sud-Est,Insécurité alimentaire modérée ou grave,,22.1
 2023,Canada,,Asiatique du Sud-Est,Insécurité alimentaire modérée,,16.7
 2023,Canada,,Asiatique du Sud-Est,Insécurité alimentaire grave,,5.4
 2023,Canada,,Autre minorité visible,Sécurité alimentaire,,63.8
 2023,Canada,,Autre minorité visible,Insécurité alimentaire,,36.2
 2023,Canada,,Autre minorité visible,Insécurité alimentaire marginale,,10.4
+2023,Canada,,Autre minorité visible,Insécurité alimentaire modérée ou grave,,25.9
 2023,Canada,,Autre minorité visible,Insécurité alimentaire modérée,,16.7
 2023,Canada,,Autre minorité visible,Insécurité alimentaire grave,,9.1
 2023,Canada,,Pas une minorité visible,Sécurité alimentaire,,77.6
 2023,Canada,,Pas une minorité visible,Insécurité alimentaire,,22.4
 2023,Canada,,Pas une minorité visible,Insécurité alimentaire marginale,,5.8
+2023,Canada,,Pas une minorité visible,Insécurité alimentaire modérée ou grave,,16.6
 2023,Canada,,Pas une minorité visible,Insécurité alimentaire modérée,,10.1
 2023,Canada,,Pas une minorité visible,Insécurité alimentaire grave,,6.4
 2023,Canada,,Population autochtone,Sécurité alimentaire,,60.1
 2023,Canada,,Population autochtone,Insécurité alimentaire,,39.9
 2023,Canada,,Population autochtone,Insécurité alimentaire marginale,,6.2
+2023,Canada,,Population autochtone,Insécurité alimentaire modérée ou grave,,33.7
 2023,Canada,,Population autochtone,Insécurité alimentaire modérée,,18.1
 2023,Canada,,Population autochtone,Insécurité alimentaire grave,,15.6
 2023,Canada,,Population non autochtone,Sécurité alimentaire,,74.9
 2023,Canada,,Population non autochtone,Insécurité alimentaire,,25.1
 2023,Canada,,Population non autochtone,Insécurité alimentaire marginale,,6.4
+2023,Canada,,Population non autochtone,Insécurité alimentaire modérée ou grave,,18.7
 2023,Canada,,Population non autochtone,Insécurité alimentaire modérée,,12.2
 2023,Canada,,Population non autochtone,Insécurité alimentaire grave,,6.5
 2023,Canada,,Pas une minorité visible ni autochtone,Sécurité alimentaire,,78.4
 2023,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire,,21.6
 2023,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire marginale,,5.8
+2023,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire modérée ou grave,,15.8
 2023,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire modérée,,9.8
 2023,Canada,,Pas une minorité visible ni autochtone,Insécurité alimentaire grave,,6.0
 2023,Canada,,Toutes les personnes de 15 ans et plus,Sécurité alimentaire,,76.0
 2023,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire,,24.0
 2023,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire marginale,,6.0
+2023,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire modérée ou grave,,18.1
 2023,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire modérée,,11.5
 2023,Canada,,Toutes les personnes de 15 ans et plus,Insécurité alimentaire grave,,6.6
 2023,Canada,,Population autochtone âgée de 15 ans et plus,Sécurité alimentaire,,61.4
 2023,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire,,38.6
 2023,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire marginale,,5.5
+2023,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée ou grave,,33.1
 2023,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée,,17.7
 2023,Canada,,Population autochtone âgée de 15 ans et plus,Insécurité alimentaire grave,,15.4
 2023,Canada,,Premières Nations âgées de 15 ans et plus,Sécurité alimentaire,,62.1
 2023,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire,,37.9
 2023,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire marginale,,3.7
+2023,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire modérée ou grave,,34.2
 2023,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire modérée,,20.1
 2023,Canada,,Premières Nations âgées de 15 ans et plus,Insécurité alimentaire grave,,14.1
 2023,Canada,,Métis âgés de 15 ans et plus,Sécurité alimentaire,,60.8
 2023,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire,,39.2
 2023,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire marginale,,7.6
+2023,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,31.6
 2023,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire modérée,,14.5
 2023,Canada,,Métis âgés de 15 ans et plus,Insécurité alimentaire grave,,17.1
 2023,Canada,,Population non autochtone âgée de 15 ans et plus,Sécurité alimentaire,,76.4
 2023,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire,,23.6
 2023,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire marginale,,6.0
+2023,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée ou grave,,17.6
 2023,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire modérée,,11.3
 2023,Canada,,Population non autochtone âgée de 15 ans et plus,Insécurité alimentaire grave,,6.3
 2023,Canada,,Immigrants âgés de 15 ans et plus,Sécurité alimentaire,,72.6
 2023,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire,,27.4
 2023,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire marginale,,6.8
+2023,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,20.6
 2023,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire modérée,,14.2
 2023,Canada,,Immigrants âgés de 15 ans et plus,Insécurité alimentaire grave,,6.4
 2023,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Sécurité alimentaire,,65.6
 2023,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire,,34.4
 2023,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire marginale,,9.5
+2023,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,25.0
 2023,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée,,17.2
 2023,Canada,,Immigrants récents (10 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire grave,,7.8
 2023,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Sécurité alimentaire,,65.4
 2023,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire,,34.6
 2023,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire marginale,,9.5
+2023,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée ou grave,,25.1
 2023,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire modérée,,17.5
 2023,Canada,,Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus,Insécurité alimentaire grave,,7.6
 2023,Canada,,Personnes de 15 ans et plus nées au Canada,Sécurité alimentaire,,77.9
 2023,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire,,22.1
 2023,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire marginale,,5.6
+2023,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée ou grave,,16.5
 2023,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée,,9.8
 2023,Canada,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire grave,,6.6
 2023,Provinces de l'Atlantique,,Personnes de moins de 18 ans,Sécurité alimentaire,,61.5
@@ -26933,3 +27143,21 @@ Year,Géographie,Type de famille économique,Caractéristiques démographiques,N
 2023,Colombie-Britannique,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée ou grave,59,17.6
 2023,Colombie-Britannique,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire modérée,59,9.8
 2023,Colombie-Britannique,,Personnes de 15 ans et plus nées au Canada,Insécurité alimentaire grave,59,7.8
+2020,Yukon,,,Insécurité alimentaire,60,21.2
+2020,Territoires du Nord-Ouest,,,Insécurité alimentaire,61,20.4
+2020,Nunavut,,,Insécurité alimentaire,62,49.5
+2021,Yukon,,,Insécurité alimentaire,60,12.8
+2021,Territoires du Nord-Ouest,,,Insécurité alimentaire,61,22.2
+2021,Nunavut,,,Insécurité alimentaire,62,46.1
+2022,Yukon,,,Insécurité alimentaire,60,21.4
+2022,Territoires du Nord-Ouest,,,Insécurité alimentaire,61,27.6
+2022,Nunavut,,,Insécurité alimentaire,62,62.6
+2020,Yukon,,,Sécurité alimentaire,60,78.8
+2020,Territoires du Nord-Ouest,,,Sécurité alimentaire,61,79.6
+2020,Nunavut,,,Sécurité alimentaire,62,50.5
+2021,Yukon,,,Sécurité alimentaire,60,87.2
+2021,Territoires du Nord-Ouest,,,Sécurité alimentaire,61,77.8
+2021,Nunavut,,,Sécurité alimentaire,62,53.9
+2022,Yukon,,,Sécurité alimentaire,60,78.6
+2022,Territoires du Nord-Ouest,,,Sécurité alimentaire,61,72.4
+2022,Nunavut,,,Sécurité alimentaire,62,37.4

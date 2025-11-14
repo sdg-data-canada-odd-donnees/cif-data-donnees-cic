@@ -2974,9 +2974,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Yukon",
-                "Northwest Territories",
-                "Nunavut",
                 "Canada",
                 "Atlantic provinces",
                 "Newfoundland and Labrador",
@@ -2990,6 +2987,9 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             }
@@ -3075,8 +3075,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Food insecure",
                 "Food secure",
+                "Food insecure",
                 "Food insecure, marginal",
                 "Food insecure, moderate",
                 "Food insecure, severe",
