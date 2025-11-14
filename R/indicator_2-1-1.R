@@ -75,25 +75,17 @@ food_insecurity <- bind_rows(filter_economic_families,
                              filter_demographic_characteristics) %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value) %>%
-  relocate(`Demographic characteristics`, .before = `Household food security status`)
-
-# Create the aggregate line
-total_line <- 
-  food_insecurity %>%
-  filter(Geography == "Canada", `Economic family type` == "All persons",
-         `Household food security status` == "Food insecure, moderate or severe") %>%
-  mutate_at(2:(ncol(.)-2), ~ NA)
-
-# Create the non - aggregate data 
-food_insecurity <-
-  food_insecurity %>%
-  filter(!(Geography == "Canada" & `Economic family type` == "All persons" & 
-             `Household food security status` == "Food insecure, moderate or severe"))
+  relocate(`Demographic characteristics`, .before = `Household food security status`) %>%
+  # Replace headline categories with NA
+  mutate(
+    across(
+      c(Geography, `Economic family type`, `Household food security status`),
+      ~ replace(., Geography == "Canada" & `Economic family type` == "All persons" & `Household food security status` == "Food insecure, moderate or severe", NA)
+    )
+  )
 
 # Add the aggregate and non - aggregate data
-data_final <- bind_rows(total_line, 
-                        df_territories, 
-                        food_insecurity)
+data_final <- bind_rows(food_insecurity, df_territories)
 
 # Write the csv file
 write.csv(data_final, "data/indicator_2-1-1.csv",
