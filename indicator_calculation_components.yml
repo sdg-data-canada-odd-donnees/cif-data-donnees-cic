@@ -143,7 +143,20 @@
   progress_status: moderate_progress
   score: 2.106761907621266
 11-4-1:
-  progress_status: not_available_manual
+  11-4-1:
+    base_value: null
+    base_year: 2015.0
+    current_value: null
+    current_year: null
+    direction: 1
+    limit: 100
+    progress_value: null
+    score: null
+    sign: null
+    status: not_available
+    target: null
+    target_year: 2030.0
+  progress_status: not_available
   score: null
 11-5-1:
   11-5-1:
