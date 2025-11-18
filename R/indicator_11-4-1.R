@@ -1,6 +1,5 @@
 # CIF 11.4.1 --------------------------------------------------------------------
 
-stop("Temporary skip 11.4.1") # This indicator is currently under review.
 
 #load libraries
 library(dplyr)
