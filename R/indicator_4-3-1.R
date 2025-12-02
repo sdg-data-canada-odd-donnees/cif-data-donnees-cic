@@ -5,14 +5,15 @@ library(cansim)
 library(stringr)
 library(tidyr)
 
-early_learning <- get_cansim("42-10-0004-01", factors = FALSE)
+early_learning <- get_cansim("42-10-0103-01", factors = FALSE)
 
 geocodes <- read.csv("geocodes.csv")
 
 early_learning_filtered <-
   early_learning %>%
   filter(
-    Statistics == "Percentage of children in child care"
+    Statistics == "Percentage of children in child care",
+    `Age group` == "Total, age groups"
   ) %>%
   select(
     Year = REF_DATE,
