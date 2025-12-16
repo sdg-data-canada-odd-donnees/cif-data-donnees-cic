@@ -2,29 +2,29 @@ Year,Geography,Sex,GeoCode,Value
 2016,,,,7.8
 2017,,,,10.7
 2018,,,,11.5
-2019,,,,10.0
-2020,,,,17.0
-2021,,,,20.9
-2022,,,,19.4
-2023,,,,21.0
-2024,,,,17.6
+2019,,,,9.4
+2020,,,,15.9
+2021,,,,19.4
+2022,,,,18.5
+2023,,,,20.0
+2024,,,,17.7
 2016,British Columbia,Total,59,16.6
 2017,British Columbia,Total,59,26.3
 2018,British Columbia,Total,59,27.6
-2019,British Columbia,Total,59,20.2
-2020,British Columbia,Total,59,34.8
-2021,British Columbia,Total,59,44.6
-2022,British Columbia,Total,59,45.1
-2023,British Columbia,Total,59,47.4
-2024,British Columbia,Total,59,41.0
+2019,British Columbia,Total,59,16.3
+2020,British Columbia,Total,59,27.8
+2021,British Columbia,Total,59,35.3
+2022,British Columbia,Total,59,38.3
+2023,British Columbia,Total,59,40.2
+2024,British Columbia,Total,59,41.3
 2016,Alberta,Total,48,14.3
 2017,Alberta,Total,48,17.6
 2018,Alberta,Total,48,18.8
 2019,Alberta,Total,48,14.4
 2020,Alberta,Total,48,27.0
 2021,Alberta,Total,48,37.1
-2022,Alberta,Total,48,33.8
-2023,Alberta,Total,48,39.9
+2022,Alberta,Total,48,33.7
+2023,Alberta,Total,48,39.8
 2024,Alberta,Total,48,24.3
 2016,Saskatchewan,Total,47,7.3
 2017,Saskatchewan,Total,47,7.4
@@ -33,8 +33,8 @@ Year,Geography,Sex,GeoCode,Value
 2020,Saskatchewan,Total,47,21.4
 2021,Saskatchewan,Total,47,28.0
 2022,Saskatchewan,Total,47,25.2
-2023,Saskatchewan,Total,47,28.7
-2024,Saskatchewan,Total,47,19.1
+2023,Saskatchewan,Total,47,28.8
+2024,Saskatchewan,Total,47,20.7
 2016,Manitoba,Total,46,6.7
 2017,Manitoba,Total,46,7.9
 2018,Manitoba,Total,46,6.9
@@ -46,13 +46,13 @@ Year,Geography,Sex,GeoCode,Value
 2024,Manitoba,Total,46,24.8
 2016,Ontario,Total,35,6.2
 2017,Ontario,Total,35,9.0
-2018,Ontario,Total,35,10.7
-2019,Ontario,Total,35,10.9
-2020,Ontario,Total,35,17.1
-2021,Ontario,Total,35,19.9
+2018,Ontario,Total,35,10.6
+2019,Ontario,Total,35,10.7
+2020,Ontario,Total,35,16.8
+2021,Ontario,Total,35,19.4
 2022,Ontario,Total,35,16.7
 2023,Ontario,Total,35,16.9
-2024,Ontario,Total,35,13.9
+2024,Ontario,Total,35,14.0
 2016,Quebec,Total,24,3.2
 2017,Quebec,Total,24,3.4
 2018,Quebec,Total,24,2.5
@@ -60,8 +60,8 @@ Year,Geography,Sex,GeoCode,Value
 2020,Quebec,Total,24,3.8
 2021,Quebec,Total,24,3.5
 2022,Quebec,Total,24,3.6
-2023,Quebec,Total,24,3.4
-2024,Quebec,Total,24,7.1
+2023,Quebec,Total,24,3.5
+2024,Quebec,Total,24,7.2
 2016,New Brunswick,Total,13,4.5
 2017,New Brunswick,Total,13,5.0
 2018,New Brunswick,Total,13,3.9
@@ -70,14 +70,14 @@ Year,Geography,Sex,GeoCode,Value
 2021,New Brunswick,Total,13,5.9
 2022,New Brunswick,Total,13,9.4
 2023,New Brunswick,Total,13,11.8
-2024,New Brunswick,Total,13,9.6
+2024,New Brunswick,Total,13,9.8
 2016,Nova Scotia,Total,12,5.6
 2017,Nova Scotia,Total,12,6.7
 2018,Nova Scotia,Total,12,5.7
 2019,Nova Scotia,Total,12,5.7
 2020,Nova Scotia,Total,12,5.0
 2021,Nova Scotia,Total,12,4.0
-2022,Nova Scotia,Total,12,6.0
+2022,Nova Scotia,Total,12,6.1
 2023,Nova Scotia,Total,12,6.9
 2024,Nova Scotia,Total,12,6.2
 2016,Prince Edward Island,Total,11,3.4
@@ -106,7 +106,7 @@ Year,Geography,Sex,GeoCode,Value
 2021,Yukon,Total,60,53.5
 2022,Yukon,Total,60,43.3
 2023,Yukon,Total,60,37.4
-2024,Yukon,Total,60,30.0
+2024,Yukon,Total,60,29.4
 2016,Northwest Territories,Total,61,11.2
 2017,Northwest Territories,Total,61,2.2
 2018,Northwest Territories,Total,61,4.5
@@ -115,7 +115,7 @@ Year,Geography,Sex,GeoCode,Value
 2021,Northwest Territories,Total,61,9.0
 2022,Northwest Territories,Total,61,15.7
 2023,Northwest Territories,Total,61,6.7
-2024,Northwest Territories,Total,61,13.4
+2024,Northwest Territories,Total,61,15.5
 2016,Nunavut,Total,62,0.0
 2017,Nunavut,Total,62,0.0
 2018,Nunavut,Total,62,0.0
@@ -124,38 +124,38 @@ Year,Geography,Sex,GeoCode,Value
 2016,Canada,Male,,11.1
 2017,Canada,Female,,5.6
 2017,Canada,Male,,15.9
-2018,Canada,Female,,6.3
+2018,Canada,Female,,6.2
 2018,Canada,Male,,16.7
-2019,Canada,Female,,5.4
-2019,Canada,Male,,13.3
+2019,Canada,Female,,5.3
+2019,Canada,Male,,13.5
 2020,Canada,Female,,7.9
 2020,Canada,Male,,23.9
 2021,Canada,Female,,10.3
-2021,Canada,Male,,28.8
+2021,Canada,Male,,28.6
 2022,Canada,Female,,9.7
 2022,Canada,Male,,27.3
 2023,Canada,Female,,11.3
-2023,Canada,Male,,28.5
-2024,Canada,Female,,9.0
-2024,Canada,Male,,22.8
+2023,Canada,Male,,28.6
+2024,Canada,Female,,9.2
+2024,Canada,Male,,23.6
 2016,British Columbia,Female,59,6.4
 2016,British Columbia,Male,59,27.0
 2017,British Columbia,Female,59,9.4
 2017,British Columbia,Male,59,43.6
 2018,British Columbia,Female,59,11.0
 2018,British Columbia,Male,59,44.5
-2019,British Columbia,Female,59,7.3
-2019,British Columbia,Male,59,24.0
-2020,British Columbia,Female,59,10.2
-2020,British Columbia,Male,59,44.6
-2021,British Columbia,Female,59,15.1
-2021,British Columbia,Male,59,54.9
-2022,British Columbia,Female,59,16.2
-2022,British Columbia,Male,59,60.4
+2019,British Columbia,Female,59,7.5
+2019,British Columbia,Male,59,25.3
+2020,British Columbia,Female,59,10.4
+2020,British Columbia,Male,59,45.5
+2021,British Columbia,Female,59,15.2
+2021,British Columbia,Male,59,55.6
+2022,British Columbia,Female,59,16.4
+2022,British Columbia,Male,59,60.7
 2023,British Columbia,Female,59,17.7
-2023,British Columbia,Male,59,62.6
-2024,British Columbia,Female,59,14.9
-2024,British Columbia,Male,59,43.7
+2023,British Columbia,Male,59,63.0
+2024,British Columbia,Female,59,16.0
+2024,British Columbia,Male,59,48.4
 2016,Alberta,Female,48,8.5
 2016,Alberta,Male,48,20.1
 2017,Alberta,Female,48,9.1
@@ -169,11 +169,11 @@ Year,Geography,Sex,GeoCode,Value
 2021,Alberta,Female,48,20.2
 2021,Alberta,Male,48,53.6
 2022,Alberta,Female,48,18.7
-2022,Alberta,Male,48,48.7
+2022,Alberta,Male,48,48.6
 2023,Alberta,Female,48,25.4
 2023,Alberta,Male,48,54.1
-2024,Alberta,Female,48,13.9
-2024,Alberta,Male,48,34.6
+2024,Alberta,Female,48,14.0
+2024,Alberta,Male,48,34.5
 2016,Saskatchewan,Female,47,6.7
 2016,Saskatchewan,Male,47,7.9
 2017,Saskatchewan,Female,47,6.9
@@ -188,10 +188,10 @@ Year,Geography,Sex,GeoCode,Value
 2021,Saskatchewan,Male,47,36.4
 2022,Saskatchewan,Female,47,18.1
 2022,Saskatchewan,Male,47,32.2
-2023,Saskatchewan,Female,47,21.3
+2023,Saskatchewan,Female,47,21.5
 2023,Saskatchewan,Male,47,35.9
-2024,Saskatchewan,Female,47,15.1
-2024,Saskatchewan,Male,47,23.0
+2024,Saskatchewan,Female,47,16.5
+2024,Saskatchewan,Male,47,24.8
 2016,Manitoba,Female,46,6.1
 2016,Manitoba,Male,46,7.3
 2017,Manitoba,Female,46,5.8
@@ -207,26 +207,26 @@ Year,Geography,Sex,GeoCode,Value
 2022,Manitoba,Female,46,14.6
 2022,Manitoba,Male,46,26.5
 2023,Manitoba,Female,46,21.8
-2023,Manitoba,Male,46,30.6
+2023,Manitoba,Male,46,30.7
 2024,Manitoba,Female,46,19.1
-2024,Manitoba,Male,46,30.3
+2024,Manitoba,Male,46,30.4
 2016,Ontario,Female,35,3.9
 2016,Ontario,Male,35,8.7
 2017,Ontario,Female,35,4.9
 2017,Ontario,Male,35,13.1
-2018,Ontario,Female,35,6.3
-2018,Ontario,Male,35,15.3
-2019,Ontario,Female,35,6.5
-2019,Ontario,Male,35,15.4
-2020,Ontario,Female,35,8.4
-2020,Ontario,Male,35,25.9
-2021,Ontario,Female,35,10.4
-2021,Ontario,Male,35,29.7
+2018,Ontario,Female,35,6.2
+2018,Ontario,Male,35,15.0
+2019,Ontario,Female,35,6.3
+2019,Ontario,Male,35,15.3
+2020,Ontario,Female,35,8.3
+2020,Ontario,Male,35,25.6
+2021,Ontario,Female,35,10.1
+2021,Ontario,Male,35,28.8
 2022,Ontario,Female,35,8.4
-2022,Ontario,Male,35,25.1
+2022,Ontario,Male,35,25.0
 2023,Ontario,Female,35,9.0
 2023,Ontario,Male,35,24.8
-2024,Ontario,Female,35,7.5
+2024,Ontario,Female,35,7.6
 2024,Ontario,Male,35,20.3
 2016,Quebec,Female,24,2.7
 2016,Quebec,Male,24,3.7
@@ -243,9 +243,9 @@ Year,Geography,Sex,GeoCode,Value
 2022,Quebec,Female,24,2.4
 2022,Quebec,Male,24,4.9
 2023,Quebec,Female,24,2.6
-2023,Quebec,Male,24,4.3
+2023,Quebec,Male,24,4.4
 2024,Quebec,Female,24,3.6
-2024,Quebec,Male,24,10.6
+2024,Quebec,Male,24,10.7
 2016,New Brunswick,Female,13,4.1
 2016,New Brunswick,Male,13,4.8
 2017,New Brunswick,Female,13,4.6
@@ -262,8 +262,8 @@ Year,Geography,Sex,GeoCode,Value
 2022,New Brunswick,Male,13,11.8
 2023,New Brunswick,Female,13,8.3
 2023,New Brunswick,Male,13,15.3
-2024,New Brunswick,Female,13,5.6
-2024,New Brunswick,Male,13,13.7
+2024,New Brunswick,Female,13,5.8
+2024,New Brunswick,Male,13,13.9
 2016,Nova Scotia,Female,12,3.3
 2016,Nova Scotia,Male,12,8.0
 2017,Nova Scotia,Female,12,4.1
@@ -279,9 +279,9 @@ Year,Geography,Sex,GeoCode,Value
 2022,Nova Scotia,Female,12,4.2
 2022,Nova Scotia,Male,12,7.9
 2023,Nova Scotia,Female,12,3.2
-2023,Nova Scotia,Male,12,10.7
+2023,Nova Scotia,Male,12,10.8
 2024,Nova Scotia,Female,12,4.6
-2024,Nova Scotia,Male,12,7.9
+2024,Nova Scotia,Male,12,7.8
 2016,Newfoundland and Labrador,Female,10,2.6
 2016,Newfoundland and Labrador,Male,10,4.2
 2017,Newfoundland and Labrador,Female,10,4.1
@@ -303,11 +303,11 @@ Year,Geography,Sex,GeoCode,Value
 2021,Yukon,Female,60,42.1
 2021,Yukon,Male,60,64.9
 2022,Yukon,Female,60,45.7
-2022,Yukon,Male,60,40.8
-2023,Yukon,Female,60,22.1
-2023,Yukon,Male,60,52.4
-2024,Yukon,Female,60,21.6
-2024,Yukon,Male,60,38.3
+2022,Yukon,Male,60,40.9
+2023,Yukon,Female,60,22.2
+2023,Yukon,Male,60,52.5
+2024,Yukon,Female,60,21.2
+2024,Yukon,Male,60,37.5
 2016,Northwest Territories,Female,61,4.6
 2016,Northwest Territories,Male,61,17.4
 2021,Northwest Territories,Female,61,4.6
@@ -316,8 +316,8 @@ Year,Geography,Sex,GeoCode,Value
 2022,Northwest Territories,Male,61,17.5
 2023,Northwest Territories,Female,61,9.2
 2023,Northwest Territories,Male,61,4.4
-2024,Northwest Territories,Female,61,13.8
-2024,Northwest Territories,Male,61,13.1
+2024,Northwest Territories,Female,61,13.6
+2024,Northwest Territories,Male,61,17.2
 2016,Nunavut,Female,62,0.0
 2016,Nunavut,Male,62,0.0
 2017,Nunavut,Female,62,0.0
