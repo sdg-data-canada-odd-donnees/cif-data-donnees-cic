@@ -10,7 +10,7 @@ Raw_data <- get_cansim("36-10-0681-01", factors = FALSE)
 
 # Format the data
 jobs <- Raw_data %>%
-  filter(`Economic variable` == "Employment",
+  filter(`Economic variable` == "Jobs",
          `Goods and services (products)` == "Total, clean technology products") %>%
   select(Year = REF_DATE,
          data.Geography = GEO,
