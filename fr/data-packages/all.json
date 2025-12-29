@@ -42,22 +42,22 @@
             "title": "Année"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
                 "Canada",
-                "Colombie-Britannique",
-                "Alberta",
-                "Saskatchewan",
-                "Manitoba",
-                "Ontario",
-                "Québec",
                 "Nouveau-Brunswick",
-                "Île-du-Prince-Édouard",
+                "Colombie-Britannique",
+                "Québec",
                 "Nouvelle-Écosse",
-                "Terre-Neuve-et-Labrador",
+                "Saskatchewan",
+                "Ontario",
+                "Manitoba",
+                "Île-du-Prince-Édouard",
                 "Territoires du Nord-Ouest",
+                "Alberta",
+                "Terre-Neuve-et-Labrador",
                 "Yukon",
                 "Nunavut",
                 ""
@@ -66,7 +66,7 @@
             "title": "Géographie"
           },
           {
-            "name": "data.Population centres",
+            "name": "Population centres",
             "type": "string",
             "constraints": {
               "enum": [

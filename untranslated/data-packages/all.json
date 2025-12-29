@@ -39,39 +39,39 @@
             "type": "integer"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.Canada",
-                "data.British Columbia",
-                "data.Alberta",
-                "data.Saskatchewan",
-                "data.Manitoba",
-                "data.Ontario",
-                "data.Quebec",
-                "data.New Brunswick",
-                "data.Prince Edward Island",
-                "data.Nova Scotia",
-                "data.Newfoundland and Labrador",
-                "data.Northwest Territories",
-                "data.Yukon",
-                "data.Nunavut",
+                "Canada",
+                "New Brunswick",
+                "British Columbia",
+                "Quebec",
+                "Nova Scotia",
+                "Saskatchewan",
+                "Ontario",
+                "Manitoba",
+                "Prince Edward Island",
+                "Northwest Territories",
+                "Alberta",
+                "Newfoundland and Labrador",
+                "Yukon",
+                "Nunavut",
                 ""
               ]
             }
           },
           {
-            "name": "data.Population centres",
+            "name": "Population centres",
             "type": "string",
             "constraints": {
               "enum": [
-                "data.First Nations reserves",
-                "data.First Nations reserves Urban centres",
-                "data.First Nations reserves Rural areas",
-                "data.Urban centres",
-                "data.Rural areas",
-                "data.Total population centre",
+                "First Nations reserves",
+                "First Nations reserves Urban centres",
+                "First Nations reserves Rural areas",
+                "Urban centres",
+                "Rural areas",
+                "Total population centre",
                 ""
               ]
             }

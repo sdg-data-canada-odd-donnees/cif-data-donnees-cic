@@ -16,22 +16,22 @@
             "title": "Year"
           },
           {
-            "name": "data.Geography",
+            "name": "Geography",
             "type": "string",
             "constraints": {
               "enum": [
                 "Canada",
-                "British Columbia",
-                "Alberta",
-                "Saskatchewan",
-                "Manitoba",
-                "Ontario",
-                "Quebec",
                 "New Brunswick",
-                "Prince Edward Island",
+                "British Columbia",
+                "Quebec",
                 "Nova Scotia",
-                "Newfoundland and Labrador",
+                "Saskatchewan",
+                "Ontario",
+                "Manitoba",
+                "Prince Edward Island",
                 "Northwest Territories",
+                "Alberta",
+                "Newfoundland and Labrador",
                 "Yukon",
                 "Nunavut",
                 ""
@@ -40,7 +40,7 @@
             "title": "Geography"
           },
           {
-            "name": "data.Population centres",
+            "name": "Population centres",
             "type": "string",
             "constraints": {
               "enum": [

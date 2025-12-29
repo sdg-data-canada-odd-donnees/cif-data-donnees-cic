@@ -7,14 +7,16 @@ Year,Geography,Population centres,GeoCode,Value
 2021,,,,91.4
 2022,,,,93.1
 2023,,,,95.8
+2024,,,,96.4
 2016,Canada,First Nations reserves,,27.3
 2017,Canada,First Nations reserves,,27.7
 2018,Canada,First Nations reserves,,31.3
 2019,Canada,First Nations reserves,,34.8
 2020,Canada,First Nations reserves,,39.1
 2021,Canada,First Nations reserves,,43.3
-2022,Canada,First Nations reserves,,50.1
+2022,Canada,First Nations reserves,,50.7
 2023,Canada,First Nations reserves,,61.0
+2024,Canada,First Nations reserves,,65.7
 2016,Canada,First Nations reserves Urban centres,,73.0
 2017,Canada,First Nations reserves Urban centres,,73.0
 2018,Canada,First Nations reserves Urban centres,,75.6
@@ -22,6 +24,8 @@ Year,Geography,Population centres,GeoCode,Value
 2020,Canada,First Nations reserves Urban centres,,84.2
 2021,Canada,First Nations reserves Urban centres,,81.8
 2022,Canada,First Nations reserves Urban centres,,81.7
+2023,Canada,First Nations reserves Urban centres,,
+2024,Canada,First Nations reserves Urban centres,,
 2016,Canada,First Nations reserves Rural areas,,14.2
 2017,Canada,First Nations reserves Rural areas,,14.8
 2018,Canada,First Nations reserves Rural areas,,18.7
@@ -29,13 +33,123 @@ Year,Geography,Population centres,GeoCode,Value
 2020,Canada,First Nations reserves Rural areas,,26.2
 2021,Canada,First Nations reserves Rural areas,,32.3
 2022,Canada,First Nations reserves Rural areas,,37.8
+2023,Canada,First Nations reserves Rural areas,,
+2024,Canada,First Nations reserves Rural areas,,
+2018,New Brunswick,First Nations reserves Urban centres,13,100.0
+2018,British Columbia,First Nations reserves Urban centres,59,98.5
+2018,Quebec,First Nations reserves Urban centres,24,60.1
+2018,Nova Scotia,First Nations reserves Urban centres,12,48.3
+2018,Saskatchewan,First Nations reserves Urban centres,47,
+2018,Ontario,First Nations reserves Urban centres,35,5.8
+2018,Manitoba,First Nations reserves Urban centres,46,
+2019,New Brunswick,First Nations reserves Urban centres,13,100.0
+2019,British Columbia,First Nations reserves Urban centres,59,99.2
+2019,Quebec,First Nations reserves Urban centres,24,80.5
+2019,Nova Scotia,First Nations reserves Urban centres,12,48.3
+2019,Saskatchewan,First Nations reserves Urban centres,47,
+2019,Ontario,First Nations reserves Urban centres,35,5.8
+2019,Manitoba,First Nations reserves Urban centres,46,0.4
+2020,New Brunswick,First Nations reserves Urban centres,13,100.0
+2020,British Columbia,First Nations reserves Urban centres,59,99.48
+2020,Quebec,First Nations reserves Urban centres,24,80.53
+2020,Nova Scotia,First Nations reserves Urban centres,12,75.49
+2020,Saskatchewan,First Nations reserves Urban centres,47,6.56
+2020,Ontario,First Nations reserves Urban centres,35,43.66
+2020,Manitoba,First Nations reserves Urban centres,46,0.41
+2021,New Brunswick,First Nations reserves Urban centres,13,100.0
+2021,British Columbia,First Nations reserves Urban centres,59,98.79
+2021,Quebec,First Nations reserves Urban centres,24,84.75
+2021,Nova Scotia,First Nations reserves Urban centres,12,48.33
+2021,Saskatchewan,First Nations reserves Urban centres,47,6.56
+2021,Ontario,First Nations reserves Urban centres,35,5.78
+2021,Manitoba,First Nations reserves Urban centres,46,0.0
+2022,New Brunswick,First Nations reserves Urban centres,13,100.0
+2022,British Columbia,First Nations reserves Urban centres,59,99.2
+2022,Quebec,First Nations reserves Urban centres,24,83.5
+2022,Nova Scotia,First Nations reserves Urban centres,12,100.0
+2022,Saskatchewan,First Nations reserves Urban centres,47,30.2
+2022,Ontario,First Nations reserves Urban centres,35,3.6
+2022,Manitoba,First Nations reserves Urban centres,46,13.1
+2023,New Brunswick,First Nations reserves Urban centres,13,100.0
+2023,British Columbia,First Nations reserves Urban centres,59,99.8
+2023,Quebec,First Nations reserves Urban centres,24,82.8
+2023,Nova Scotia,First Nations reserves Urban centres,12,100.0
+2023,Saskatchewan,First Nations reserves Urban centres,47,31.0
+2023,Ontario,First Nations reserves Urban centres,35,22.9
+2023,Manitoba,First Nations reserves Urban centres,46,12.9
+2024,New Brunswick,First Nations reserves Urban centres,13,100.0
+2024,British Columbia,First Nations reserves Urban centres,59,100.0
+2024,Quebec,First Nations reserves Urban centres,24,86.4
+2024,Nova Scotia,First Nations reserves Urban centres,12,99.7
+2024,Saskatchewan,First Nations reserves Urban centres,47,31.0
+2024,Ontario,First Nations reserves Urban centres,35,43.4
+2024,Manitoba,First Nations reserves Urban centres,46,24.3
+2020,Prince Edward Island,First Nations reserves Rural areas,11,50.38
+2020,New Brunswick,First Nations reserves Rural areas,13,96.52
+2020,Northwest Territories,First Nations reserves Rural areas,61,74.89
+2020,Quebec,First Nations reserves Rural areas,24,52.44
+2020,British Columbia,First Nations reserves Rural areas,59,46.1
+2020,Nova Scotia,First Nations reserves Rural areas,12,62.95
+2020,Ontario,First Nations reserves Rural areas,35,26.89
+2020,Alberta,First Nations reserves Rural areas,48,17.13
+2020,Newfoundland and Labrador,First Nations reserves Rural areas,10,0.0
+2020,Manitoba,First Nations reserves Rural areas,46,4.46
+2020,Saskatchewan,First Nations reserves Rural areas,47,3.82
+2020,Yukon,First Nations reserves Rural areas,60,0.0
+2021,Prince Edward Island,First Nations reserves Rural areas,11,97.61
+2021,New Brunswick,First Nations reserves Rural areas,13,94.45
+2021,Northwest Territories,First Nations reserves Rural areas,61,74.89
+2021,Quebec,First Nations reserves Rural areas,24,50.45
+2021,British Columbia,First Nations reserves Rural areas,59,48.15
+2021,Nova Scotia,First Nations reserves Rural areas,12,42.77
+2021,Ontario,First Nations reserves Rural areas,35,35.13
+2021,Alberta,First Nations reserves Rural areas,48,26.91
+2021,Newfoundland and Labrador,First Nations reserves Rural areas,10,25.92
+2021,Manitoba,First Nations reserves Rural areas,46,15.3
+2021,Saskatchewan,First Nations reserves Rural areas,47,10.36
+2021,Yukon,First Nations reserves Rural areas,60,0.0
+2022,Prince Edward Island,First Nations reserves Rural areas,11,
+2022,New Brunswick,First Nations reserves Rural areas,13,
+2022,Northwest Territories,First Nations reserves Rural areas,61,
+2022,Quebec,First Nations reserves Rural areas,24,
+2022,British Columbia,First Nations reserves Rural areas,59,
+2022,Nova Scotia,First Nations reserves Rural areas,12,
+2022,Ontario,First Nations reserves Rural areas,35,
+2022,Alberta,First Nations reserves Rural areas,48,
+2022,Newfoundland and Labrador,First Nations reserves Rural areas,10,
+2022,Manitoba,First Nations reserves Rural areas,46,
+2022,Saskatchewan,First Nations reserves Rural areas,47,
+2022,Yukon,First Nations reserves Rural areas,60,
+2023,Prince Edward Island,First Nations reserves Rural areas,11,
+2023,New Brunswick,First Nations reserves Rural areas,13,
+2023,Northwest Territories,First Nations reserves Rural areas,61,
+2023,Quebec,First Nations reserves Rural areas,24,
+2023,British Columbia,First Nations reserves Rural areas,59,
+2023,Nova Scotia,First Nations reserves Rural areas,12,
+2023,Ontario,First Nations reserves Rural areas,35,
+2023,Alberta,First Nations reserves Rural areas,48,
+2023,Newfoundland and Labrador,First Nations reserves Rural areas,10,
+2023,Manitoba,First Nations reserves Rural areas,46,
+2023,Saskatchewan,First Nations reserves Rural areas,47,
+2023,Yukon,First Nations reserves Rural areas,60,
+2024,Prince Edward Island,First Nations reserves Rural areas,11,
+2024,New Brunswick,First Nations reserves Rural areas,13,
+2024,Northwest Territories,First Nations reserves Rural areas,61,
+2024,Quebec,First Nations reserves Rural areas,24,
+2024,British Columbia,First Nations reserves Rural areas,59,
+2024,Nova Scotia,First Nations reserves Rural areas,12,
+2024,Ontario,First Nations reserves Rural areas,35,
+2024,Alberta,First Nations reserves Rural areas,48,
+2024,Newfoundland and Labrador,First Nations reserves Rural areas,10,
+2024,Manitoba,First Nations reserves Rural areas,46,
+2024,Saskatchewan,First Nations reserves Rural areas,47,
+2024,Yukon,First Nations reserves Rural areas,60,
 2016,Canada,Urban centres,,96.4
 2017,Canada,Urban centres,,96.6
 2018,Canada,Urban centres,,97.4
 2019,Canada,Urban centres,,98.6
 2020,Canada,Urban centres,,99.2
 2021,Canada,Urban centres,,99.2
-2022,Canada,Urban centres,,99.4
 2016,Canada,Rural areas,,38.9
 2017,Canada,Rural areas,,37.2
 2018,Canada,Rural areas,,40.7
@@ -44,588 +158,277 @@ Year,Geography,Population centres,GeoCode,Value
 2021,Canada,Rural areas,,62.0
 2022,Canada,Rural areas,,67.6
 2023,Canada,Rural areas,,80.5
-2016,British Columbia,First Nations reserves,59,60.01
-2017,British Columbia,First Nations reserves,59,62.13
-2018,British Columbia,First Nations reserves,59,66.68
-2019,British Columbia,First Nations reserves,59,68.32
-2020,British Columbia,First Nations reserves,59,70.73
-2021,British Columbia,First Nations reserves,59,71.52
-2022,British Columbia,First Nations reserves,59,74.82
-2016,Alberta,First Nations reserves,48,1.13
-2017,Alberta,First Nations reserves,48,0.3
-2018,Alberta,First Nations reserves,48,12.02
-2019,Alberta,First Nations reserves,48,19.6
-2020,Alberta,First Nations reserves,48,17.13
-2021,Alberta,First Nations reserves,48,26.91
-2022,Alberta,First Nations reserves,48,29.74
-2016,Saskatchewan,First Nations reserves,47,
-2017,Saskatchewan,First Nations reserves,47,
-2018,Saskatchewan,First Nations reserves,47,
-2019,Saskatchewan,First Nations reserves,47,1.65
-2020,Saskatchewan,First Nations reserves,47,4.04
-2021,Saskatchewan,First Nations reserves,47,10.05
-2022,Saskatchewan,First Nations reserves,47,10.65
-2016,Manitoba,First Nations reserves,46,2.29
-2017,Manitoba,First Nations reserves,46,1.48
-2018,Manitoba,First Nations reserves,46,1.82
-2019,Manitoba,First Nations reserves,46,2.04
-2020,Manitoba,First Nations reserves,46,4.27
-2021,Manitoba,First Nations reserves,46,14.58
-2022,Manitoba,First Nations reserves,46,24.04
-2016,Ontario,First Nations reserves,35,18.03
-2017,Ontario,First Nations reserves,35,14.79
-2018,Ontario,First Nations reserves,35,16.98
-2019,Ontario,First Nations reserves,35,16.11
-2020,Ontario,First Nations reserves,35,27.87
-2021,Ontario,First Nations reserves,35,33.41
-2022,Ontario,First Nations reserves,35,34.9
-2016,Quebec,First Nations reserves,24,31.79
-2017,Quebec,First Nations reserves,24,38.35
-2018,Quebec,First Nations reserves,24,44.72
-2019,Quebec,First Nations reserves,24,62.76
-2020,Quebec,First Nations reserves,24,65.75
-2021,Quebec,First Nations reserves,24,66.7
-2022,Quebec,First Nations reserves,24,81.98
-2016,New Brunswick,First Nations reserves,13,87.8
-2017,New Brunswick,First Nations reserves,13,87.18
-2018,New Brunswick,First Nations reserves,13,87.18
-2019,New Brunswick,First Nations reserves,13,92.89
-2020,New Brunswick,First Nations reserves,13,97.35
-2021,New Brunswick,First Nations reserves,13,95.77
-2022,New Brunswick,First Nations reserves,13,96.25
-2016,Prince Edward Island,First Nations reserves,11,29.72
-2017,Prince Edward Island,First Nations reserves,11,29.74
-2018,Prince Edward Island,First Nations reserves,11,29.74
-2019,Prince Edward Island,First Nations reserves,11,30.43
-2020,Prince Edward Island,First Nations reserves,11,50.38
-2021,Prince Edward Island,First Nations reserves,11,97.61
-2022,Prince Edward Island,First Nations reserves,11,97.99
-2016,Nova Scotia,First Nations reserves,12,45.03
-2017,Nova Scotia,First Nations reserves,12,43.92
-2018,Nova Scotia,First Nations reserves,12,43.92
-2019,Nova Scotia,First Nations reserves,12,44.14
-2020,Nova Scotia,First Nations reserves,12,67.68
-2021,Nova Scotia,First Nations reserves,12,44.87
-2022,Nova Scotia,First Nations reserves,12,79.31
-2016,Newfoundland and Labrador,First Nations reserves,10,26.74
-2017,Newfoundland and Labrador,First Nations reserves,10,24.4
-2018,Newfoundland and Labrador,First Nations reserves,10,
-2019,Newfoundland and Labrador,First Nations reserves,10,
-2020,Newfoundland and Labrador,First Nations reserves,10,
-2021,Newfoundland and Labrador,First Nations reserves,10,25.92
-2022,Newfoundland and Labrador,First Nations reserves,10,36.83
-2016,Northwest Territories,First Nations reserves,61,
-2017,Northwest Territories,First Nations reserves,61,
-2018,Northwest Territories,First Nations reserves,61,
-2019,Northwest Territories,First Nations reserves,61,
-2020,Northwest Territories,First Nations reserves,61,74.89
-2021,Northwest Territories,First Nations reserves,61,74.89
-2022,Northwest Territories,First Nations reserves,61,73.59
-2016,Yukon,First Nations reserves,60,
-2017,Yukon,First Nations reserves,60,
-2018,Yukon,First Nations reserves,60,
-2019,Yukon,First Nations reserves,60,
-2020,Yukon,First Nations reserves,60,
-2021,Yukon,First Nations reserves,60,0.0
-2022,Yukon,First Nations reserves,60,
-2016,Nunavut,First Nations reserves,62,
-2017,Nunavut,First Nations reserves,62,
-2018,Nunavut,First Nations reserves,62,
-2019,Nunavut,First Nations reserves,62,
-2020,Nunavut,First Nations reserves,62,
-2021,Nunavut,First Nations reserves,62,
-2022,Nunavut,First Nations reserves,62,
-2016,British Columbia,First Nations reserves Rural areas,59,27.91
-2017,British Columbia,First Nations reserves Rural areas,59,31.7
-2018,British Columbia,First Nations reserves Rural areas,59,39.41
-2019,British Columbia,First Nations reserves Rural areas,59,41.88
-2020,British Columbia,First Nations reserves Rural areas,59,46.1
-2021,British Columbia,First Nations reserves Rural areas,59,48.15
-2022,British Columbia,First Nations reserves Rural areas,59,49.76
-2016,Alberta,First Nations reserves Rural areas,48,1.13
-2017,Alberta,First Nations reserves Rural areas,48,0.3
-2018,Alberta,First Nations reserves Rural areas,48,12.02
-2019,Alberta,First Nations reserves Rural areas,48,19.6
-2020,Alberta,First Nations reserves Rural areas,48,17.13
-2021,Alberta,First Nations reserves Rural areas,48,26.91
-2022,Alberta,First Nations reserves Rural areas,48,29.74
-2016,Saskatchewan,First Nations reserves Rural areas,47,
-2017,Saskatchewan,First Nations reserves Rural areas,47,
-2018,Saskatchewan,First Nations reserves Rural areas,47,
-2019,Saskatchewan,First Nations reserves Rural areas,47,1.8
-2020,Saskatchewan,First Nations reserves Rural areas,47,3.82
-2021,Saskatchewan,First Nations reserves Rural areas,47,10.36
-2022,Saskatchewan,First Nations reserves Rural areas,47,8.83
-2016,Manitoba,First Nations reserves Rural areas,46,2.08
-2017,Manitoba,First Nations reserves Rural areas,46,1.53
-2018,Manitoba,First Nations reserves Rural areas,46,1.91
-2019,Manitoba,First Nations reserves Rural areas,46,2.12
-2020,Manitoba,First Nations reserves Rural areas,46,4.46
-2021,Manitoba,First Nations reserves Rural areas,46,15.3
-2022,Manitoba,First Nations reserves Rural areas,46,25.77
-2016,Ontario,First Nations reserves Rural areas,35,18.79
-2017,Ontario,First Nations reserves Rural areas,35,15.35
-2018,Ontario,First Nations reserves Rural areas,35,17.67
-2019,Ontario,First Nations reserves Rural areas,35,16.76
-2020,Ontario,First Nations reserves Rural areas,35,26.89
-2021,Ontario,First Nations reserves Rural areas,35,35.13
-2022,Ontario,First Nations reserves Rural areas,35,38.01
-2016,Quebec,First Nations reserves Rural areas,24,14.45
-2017,Quebec,First Nations reserves Rural areas,24,26.93
-2018,Quebec,First Nations reserves Rural areas,24,30.83
-2019,Quebec,First Nations reserves Rural areas,24,46.76
-2020,Quebec,First Nations reserves Rural areas,24,52.44
-2021,Quebec,First Nations reserves Rural areas,24,50.45
-2022,Quebec,First Nations reserves Rural areas,24,80.18
-2016,New Brunswick,First Nations reserves Rural areas,13,83.99
-2017,New Brunswick,First Nations reserves Rural areas,13,83.18
-2018,New Brunswick,First Nations reserves Rural areas,13,83.18
-2019,New Brunswick,First Nations reserves Rural areas,13,90.68
-2020,New Brunswick,First Nations reserves Rural areas,13,96.52
-2021,New Brunswick,First Nations reserves Rural areas,13,94.45
-2022,New Brunswick,First Nations reserves Rural areas,13,94.79
-2016,Prince Edward Island,First Nations reserves Rural areas,11,29.72
-2017,Prince Edward Island,First Nations reserves Rural areas,11,29.74
-2018,Prince Edward Island,First Nations reserves Rural areas,11,29.74
-2019,Prince Edward Island,First Nations reserves Rural areas,11,30.43
-2020,Prince Edward Island,First Nations reserves Rural areas,11,50.38
-2021,Prince Edward Island,First Nations reserves Rural areas,11,97.61
-2022,Prince Edward Island,First Nations reserves Rural areas,11,97.99
-2016,Nova Scotia,First Nations reserves Rural areas,12,42.87
-2017,Nova Scotia,First Nations reserves Rural areas,12,41.25
-2018,Nova Scotia,First Nations reserves Rural areas,12,41.25
-2019,Nova Scotia,First Nations reserves Rural areas,12,41.6
-2020,Nova Scotia,First Nations reserves Rural areas,12,62.95
-2021,Nova Scotia,First Nations reserves Rural areas,12,42.77
-2022,Nova Scotia,First Nations reserves Rural areas,12,80.63
-2016,Newfoundland and Labrador,First Nations reserves Rural areas,10,26.74
-2017,Newfoundland and Labrador,First Nations reserves Rural areas,10,24.4
-2018,Newfoundland and Labrador,First Nations reserves Rural areas,10,
-2019,Newfoundland and Labrador,First Nations reserves Rural areas,10,
-2020,Newfoundland and Labrador,First Nations reserves Rural areas,10,0.0
-2021,Newfoundland and Labrador,First Nations reserves Rural areas,10,25.92
-2022,Newfoundland and Labrador,First Nations reserves Rural areas,10,4.11
-2016,Northwest Territories,First Nations reserves Rural areas,61,
-2017,Northwest Territories,First Nations reserves Rural areas,61,
-2018,Northwest Territories,First Nations reserves Rural areas,61,
-2019,Northwest Territories,First Nations reserves Rural areas,61,
-2020,Northwest Territories,First Nations reserves Rural areas,61,74.89
-2021,Northwest Territories,First Nations reserves Rural areas,61,74.89
-2022,Northwest Territories,First Nations reserves Rural areas,61,73.59
-2016,Yukon,First Nations reserves Rural areas,60,
-2017,Yukon,First Nations reserves Rural areas,60,
-2018,Yukon,First Nations reserves Rural areas,60,
-2019,Yukon,First Nations reserves Rural areas,60,
-2020,Yukon,First Nations reserves Rural areas,60,0.0
-2021,Yukon,First Nations reserves Rural areas,60,0.0
-2022,Yukon,First Nations reserves Rural areas,60,
-2016,Nunavut,First Nations reserves Rural areas,62,
-2017,Nunavut,First Nations reserves Rural areas,62,
-2018,Nunavut,First Nations reserves Rural areas,62,
-2019,Nunavut,First Nations reserves Rural areas,62,
-2020,Nunavut,First Nations reserves Rural areas,62,
-2021,Nunavut,First Nations reserves Rural areas,62,
-2022,Nunavut,First Nations reserves Rural areas,62,
-2016,British Columbia,First Nations reserves Urban centres,59,97.46
-2017,British Columbia,First Nations reserves Urban centres,59,97.65
-2018,British Columbia,First Nations reserves Urban centres,59,98.51
-2019,British Columbia,First Nations reserves Urban centres,59,99.17
-2020,British Columbia,First Nations reserves Urban centres,59,99.48
-2021,British Columbia,First Nations reserves Urban centres,59,98.79
-2022,British Columbia,First Nations reserves Urban centres,59,99.18
-2016,Alberta,First Nations reserves Urban centres,48,
-2017,Alberta,First Nations reserves Urban centres,48,
-2018,Alberta,First Nations reserves Urban centres,48,
-2019,Alberta,First Nations reserves Urban centres,48,
-2020,Alberta,First Nations reserves Urban centres,48,
-2021,Alberta,First Nations reserves Urban centres,48,
-2022,Alberta,First Nations reserves Urban centres,48,
-2016,Saskatchewan,First Nations reserves Urban centres,47,
-2017,Saskatchewan,First Nations reserves Urban centres,47,
-2018,Saskatchewan,First Nations reserves Urban centres,47,
-2019,Saskatchewan,First Nations reserves Urban centres,47,
-2020,Saskatchewan,First Nations reserves Urban centres,47,6.56
-2021,Saskatchewan,First Nations reserves Urban centres,47,6.56
-2022,Saskatchewan,First Nations reserves Urban centres,47,30.16
-2016,Manitoba,First Nations reserves Urban centres,46,6.58
-2017,Manitoba,First Nations reserves Urban centres,46,0.43
-2018,Manitoba,First Nations reserves Urban centres,46,
-2019,Manitoba,First Nations reserves Urban centres,46,0.43
-2020,Manitoba,First Nations reserves Urban centres,46,0.41
-2021,Manitoba,First Nations reserves Urban centres,46,0.0
-2022,Manitoba,First Nations reserves Urban centres,46,13.05
-2016,Ontario,First Nations reserves Urban centres,35,5.78
-2017,Ontario,First Nations reserves Urban centres,35,5.78
-2018,Ontario,First Nations reserves Urban centres,35,5.78
-2019,Ontario,First Nations reserves Urban centres,35,5.78
-2020,Ontario,First Nations reserves Urban centres,35,43.66
-2021,Ontario,First Nations reserves Urban centres,35,5.78
-2022,Ontario,First Nations reserves Urban centres,35,3.55
-2016,Quebec,First Nations reserves Urban centres,24,51.04
-2017,Quebec,First Nations reserves Urban centres,24,51.04
-2018,Quebec,First Nations reserves Urban centres,24,60.15
-2019,Quebec,First Nations reserves Urban centres,24,80.53
-2020,Quebec,First Nations reserves Urban centres,24,80.53
-2021,Quebec,First Nations reserves Urban centres,24,84.75
-2022,Quebec,First Nations reserves Urban centres,24,83.48
-2016,New Brunswick,First Nations reserves Urban centres,13,100.0
-2017,New Brunswick,First Nations reserves Urban centres,13,100.0
-2018,New Brunswick,First Nations reserves Urban centres,13,100.0
-2019,New Brunswick,First Nations reserves Urban centres,13,100.0
-2020,New Brunswick,First Nations reserves Urban centres,13,100.0
-2021,New Brunswick,First Nations reserves Urban centres,13,100.0
-2022,New Brunswick,First Nations reserves Urban centres,13,100.0
-2016,Prince Edward Island,First Nations reserves Urban centres,11,
-2017,Prince Edward Island,First Nations reserves Urban centres,11,
-2018,Prince Edward Island,First Nations reserves Urban centres,11,
-2019,Prince Edward Island,First Nations reserves Urban centres,11,
-2020,Prince Edward Island,First Nations reserves Urban centres,11,
-2021,Prince Edward Island,First Nations reserves Urban centres,11,
-2022,Prince Edward Island,First Nations reserves Urban centres,11,
-2016,Nova Scotia,First Nations reserves Urban centres,12,48.59
-2017,Nova Scotia,First Nations reserves Urban centres,12,48.33
-2018,Nova Scotia,First Nations reserves Urban centres,12,48.33
-2019,Nova Scotia,First Nations reserves Urban centres,12,48.33
-2020,Nova Scotia,First Nations reserves Urban centres,12,75.49
-2021,Nova Scotia,First Nations reserves Urban centres,12,48.33
-2022,Nova Scotia,First Nations reserves Urban centres,12,78.18
-2016,Newfoundland and Labrador,First Nations reserves Urban centres,10,
-2017,Newfoundland and Labrador,First Nations reserves Urban centres,10,
-2018,Newfoundland and Labrador,First Nations reserves Urban centres,10,
-2019,Newfoundland and Labrador,First Nations reserves Urban centres,10,
-2020,Newfoundland and Labrador,First Nations reserves Urban centres,10,
-2021,Newfoundland and Labrador,First Nations reserves Urban centres,10,
-2022,Newfoundland and Labrador,First Nations reserves Urban centres,10,100.0
-2016,Northwest Territories,First Nations reserves Urban centres,61,
-2017,Northwest Territories,First Nations reserves Urban centres,61,
-2018,Northwest Territories,First Nations reserves Urban centres,61,
-2019,Northwest Territories,First Nations reserves Urban centres,61,
-2020,Northwest Territories,First Nations reserves Urban centres,61,
-2021,Northwest Territories,First Nations reserves Urban centres,61,
-2022,Northwest Territories,First Nations reserves Urban centres,61,
-2016,Yukon,First Nations reserves Urban centres,60,
-2017,Yukon,First Nations reserves Urban centres,60,
-2018,Yukon,First Nations reserves Urban centres,60,
-2019,Yukon,First Nations reserves Urban centres,60,
-2020,Yukon,First Nations reserves Urban centres,60,
-2021,Yukon,First Nations reserves Urban centres,60,
-2022,Yukon,First Nations reserves Urban centres,60,
-2016,Nunavut,First Nations reserves Urban centres,62,
-2017,Nunavut,First Nations reserves Urban centres,62,
-2018,Nunavut,First Nations reserves Urban centres,62,
-2019,Nunavut,First Nations reserves Urban centres,62,
-2020,Nunavut,First Nations reserves Urban centres,62,
-2021,Nunavut,First Nations reserves Urban centres,62,
-2022,Nunavut,First Nations reserves Urban centres,62,
-2016,British Columbia,Rural areas,59,54.19
-2017,British Columbia,Rural areas,59,52.96
-2018,British Columbia,Rural areas,59,58.36
-2019,British Columbia,Rural areas,59,62.5
-2020,British Columbia,Rural areas,59,63.24
-2021,British Columbia,Rural areas,59,65.79
-2022,British Columbia,Rural areas,59,66.0
-2023,British Columbia,Rural areas,59,76.2
-2016,Alberta,Rural areas,48,9.86
-2017,Alberta,Rural areas,48,8.76
-2018,Alberta,Rural areas,48,21.06
-2019,Alberta,Rural areas,48,33.24
-2020,Alberta,Rural areas,48,33.69
-2021,Alberta,Rural areas,48,40.74
-2022,Alberta,Rural areas,48,42.2
-2023,Alberta,Rural areas,48,71.5
-2016,Saskatchewan,Rural areas,47,1.15
-2017,Saskatchewan,Rural areas,47,1.36
-2018,Saskatchewan,Rural areas,47,1.53
-2019,Saskatchewan,Rural areas,47,23.95
-2020,Saskatchewan,Rural areas,47,38.99
-2021,Saskatchewan,Rural areas,47,48.09
-2022,Saskatchewan,Rural areas,47,43.2
-2023,Saskatchewan,Rural areas,47,59.2
-2016,Manitoba,Rural areas,46,6.78
-2017,Manitoba,Rural areas,46,10.27
-2018,Manitoba,Rural areas,46,12.97
-2019,Manitoba,Rural areas,46,14.41
-2020,Manitoba,Rural areas,46,28.09
-2021,Manitoba,Rural areas,46,38.78
-2022,Manitoba,Rural areas,46,46.7
-2023,Manitoba,Rural areas,46,70.4
-2016,Ontario,Rural areas,35,31.79
-2017,Ontario,Rural areas,35,27.77
-2018,Ontario,Rural areas,35,29.5
-2019,Ontario,Rural areas,35,30.46
-2020,Ontario,Rural areas,35,41.3
-2021,Ontario,Rural areas,35,57.1
-2022,Ontario,Rural areas,35,63.2
-2023,Ontario,Rural areas,35,75.9
-2016,Quebec,Rural areas,24,52.11
-2017,Quebec,Rural areas,24,53.45
-2018,Quebec,Rural areas,24,58.73
-2019,Quebec,Rural areas,24,62.25
-2020,Quebec,Rural areas,24,73.38
-2021,Quebec,Rural areas,24,76.88
-2022,Quebec,Rural areas,24,84.9
-2023,Quebec,Rural areas,24,92.9
-2016,New Brunswick,Rural areas,13,67.61
-2017,New Brunswick,Rural areas,13,63.45
-2018,New Brunswick,Rural areas,13,63.42
-2019,New Brunswick,Rural areas,13,63.61
-2020,New Brunswick,Rural areas,13,85.79
-2021,New Brunswick,Rural areas,13,78.91
-2022,New Brunswick,Rural areas,13,82.4
-2023,New Brunswick,Rural areas,13,91.1
-2016,Prince Edward Island,Rural areas,11,42.92
-2017,Prince Edward Island,Rural areas,11,30.72
-2018,Prince Edward Island,Rural areas,11,31.41
-2019,Prince Edward Island,Rural areas,11,33.26
-2020,Prince Edward Island,Rural areas,11,64.17
-2021,Prince Edward Island,Rural areas,11,79.12
-2022,Prince Edward Island,Rural areas,11,84.08
-2023,Prince Edward Island,Rural areas,11,94.7
-2016,Nova Scotia,Rural areas,12,57.45
-2017,Nova Scotia,Rural areas,12,51.28
-2018,Nova Scotia,Rural areas,12,51.63
-2019,Nova Scotia,Rural areas,12,52.41
-2020,Nova Scotia,Rural areas,12,58.37
-2021,Nova Scotia,Rural areas,12,65.55
-2022,Nova Scotia,Rural areas,12,79.0
-2023,Nova Scotia,Rural areas,12,90.1
-2016,Newfoundland and Labrador,Rural areas,10,49.03
-2017,Newfoundland and Labrador,Rural areas,10,46.53
-2018,Newfoundland and Labrador,Rural areas,10,46.15
-2019,Newfoundland and Labrador,Rural areas,10,49.62
-2020,Newfoundland and Labrador,Rural areas,10,48.77
-2021,Newfoundland and Labrador,Rural areas,10,53.98
-2022,Newfoundland and Labrador,Rural areas,10,63.3
-2023,Newfoundland and Labrador,Rural areas,10,73.1
-2016,Northwest Territories,Rural areas,61,
-2017,Northwest Territories,Rural areas,61,
-2018,Northwest Territories,Rural areas,61,
-2019,Northwest Territories,Rural areas,61,
-2020,Northwest Territories,Rural areas,61,16.89
-2021,Northwest Territories,Rural areas,61,17.66
-2022,Northwest Territories,Rural areas,61,50.38
-2023,Northwest Territories,Rural areas,61,62.2
-2016,Yukon,Rural areas,60,
-2017,Yukon,Rural areas,60,
-2018,Yukon,Rural areas,60,
-2019,Yukon,Rural areas,60,
-2020,Yukon,Rural areas,60,12.49
-2021,Yukon,Rural areas,60,23.98
-2022,Yukon,Rural areas,60,34.19
-2023,Yukon,Rural areas,60,80.0
-2016,Nunavut,Rural areas,62,
-2017,Nunavut,Rural areas,62,
-2018,Nunavut,Rural areas,62,
-2019,Nunavut,Rural areas,62,
-2020,Nunavut,Rural areas,62,
-2021,Nunavut,Rural areas,62,0.0
-2022,Nunavut,Rural areas,62,0.0
-2023,Nunavut,Rural areas,62,
-2016,British Columbia,Urban centres,59,97.95
-2017,British Columbia,Urban centres,59,98.06
-2018,British Columbia,Urban centres,59,98.94
-2019,British Columbia,Urban centres,59,99.3
-2020,British Columbia,Urban centres,59,99.45
-2021,British Columbia,Urban centres,59,99.43
-2022,British Columbia,Urban centres,59,99.5
-2023,British Columbia,Urban centres,59,99.7
-2016,Alberta,Urban centres,48,97.06
-2017,Alberta,Urban centres,48,94.59
-2018,Alberta,Urban centres,48,97.62
-2019,Alberta,Urban centres,48,98.69
-2020,Alberta,Urban centres,48,98.51
-2021,Alberta,Urban centres,48,98.65
-2022,Alberta,Urban centres,48,99.34
-2023,Alberta,Urban centres,48,99.7
-2016,Saskatchewan,Urban centres,47,65.5
-2017,Saskatchewan,Urban centres,47,69.47
-2018,Saskatchewan,Urban centres,47,75.18
-2019,Saskatchewan,Urban centres,47,96.98
-2020,Saskatchewan,Urban centres,47,98.29
-2021,Saskatchewan,Urban centres,47,99.02
-2022,Saskatchewan,Urban centres,47,98.62
-2023,Saskatchewan,Urban centres,47,99.3
-2016,Manitoba,Urban centres,46,85.63
-2017,Manitoba,Urban centres,46,92.61
-2018,Manitoba,Urban centres,46,94.68
-2019,Manitoba,Urban centres,46,95.51
-2020,Manitoba,Urban centres,46,98.54
-2021,Manitoba,Urban centres,46,97.39
-2022,Manitoba,Urban centres,46,98.1
-2023,Manitoba,Urban centres,46,98.6
-2016,Ontario,Urban centres,35,98.71
-2017,Ontario,Urban centres,35,98.27
-2018,Ontario,Urban centres,35,98.31
-2019,Ontario,Urban centres,35,98.78
-2020,Ontario,Urban centres,35,99.2
-2021,Ontario,Urban centres,35,99.22
-2022,Ontario,Urban centres,35,99.55
-2023,Ontario,Urban centres,35,99.7
-2016,Quebec,Urban centres,24,96.94
-2017,Quebec,Urban centres,24,98.12
-2018,Quebec,Urban centres,24,98.59
-2019,Quebec,Urban centres,24,99.09
-2020,Quebec,Urban centres,24,99.67
-2021,Quebec,Urban centres,24,99.74
-2022,Quebec,Urban centres,24,99.72
-2023,Quebec,Urban centres,24,99.8
-2016,New Brunswick,Urban centres,13,100.0
-2017,New Brunswick,Urban centres,13,99.77
-2018,New Brunswick,Urban centres,13,99.7
-2019,New Brunswick,Urban centres,13,99.71
-2020,New Brunswick,Urban centres,13,99.89
-2021,New Brunswick,Urban centres,13,99.85
-2022,New Brunswick,Urban centres,13,99.99
-2023,New Brunswick,Urban centres,13,100.0
-2016,Prince Edward Island,Urban centres,11,100.0
-2017,Prince Edward Island,Urban centres,11,99.98
-2018,Prince Edward Island,Urban centres,11,99.98
-2019,Prince Edward Island,Urban centres,11,99.98
-2020,Prince Edward Island,Urban centres,11,99.98
-2021,Prince Edward Island,Urban centres,11,100.0
-2022,Prince Edward Island,Urban centres,11,99.99
-2023,Prince Edward Island,Urban centres,11,100.0
-2016,Nova Scotia,Urban centres,12,99.49
-2017,Nova Scotia,Urban centres,12,99.28
-2018,Nova Scotia,Urban centres,12,99.29
-2019,Nova Scotia,Urban centres,12,99.4
-2020,Nova Scotia,Urban centres,12,99.42
-2021,Nova Scotia,Urban centres,12,99.28
-2022,Nova Scotia,Urban centres,12,99.8
-2023,Nova Scotia,Urban centres,12,99.8
-2016,Newfoundland and Labrador,Urban centres,10,93.71
-2017,Newfoundland and Labrador,Urban centres,10,93.25
+2024,Canada,Rural areas,,83.0
 2018,Newfoundland and Labrador,Urban centres,10,94.1
-2019,Newfoundland and Labrador,Urban centres,10,96.16
-2020,Newfoundland and Labrador,Urban centres,10,97.92
-2021,Newfoundland and Labrador,Urban centres,10,98.24
-2022,Newfoundland and Labrador,Urban centres,10,99.49
-2023,Newfoundland and Labrador,Urban centres,10,99.9
-2016,Northwest Territories,Urban centres,61,
-2017,Northwest Territories,Urban centres,61,
-2018,Northwest Territories,Urban centres,61,
-2019,Northwest Territories,Urban centres,61,
-2020,Northwest Territories,Urban centres,61,84.84
-2021,Northwest Territories,Urban centres,61,97.87
-2022,Northwest Territories,Urban centres,61,99.47
-2023,Northwest Territories,Urban centres,61,99.5
-2016,Yukon,Urban centres,60,
-2017,Yukon,Urban centres,60,
+2018,Prince Edward Island,Urban centres,11,100.0
+2018,Nova Scotia,Urban centres,12,99.3
+2018,New Brunswick,Urban centres,13,99.7
+2018,Quebec,Urban centres,24,98.6
+2018,Ontario,Urban centres,35,98.3
+2018,Manitoba,Urban centres,46,94.7
+2018,Saskatchewan,Urban centres,47,75.2
+2018,Alberta,Urban centres,48,97.6
+2018,British Columbia,Urban centres,59,98.9
 2018,Yukon,Urban centres,60,
-2019,Yukon,Urban centres,60,
-2020,Yukon,Urban centres,60,99.2
-2021,Yukon,Urban centres,60,99.2
-2022,Yukon,Urban centres,60,98.66
-2023,Yukon,Urban centres,60,99.7
-2016,Nunavut,Urban centres,62,
-2017,Nunavut,Urban centres,62,
+2018,Northwest Territories,Urban centres,61,
 2018,Nunavut,Urban centres,62,
+2019,Newfoundland and Labrador,Urban centres,10,96.2
+2019,Prince Edward Island,Urban centres,11,100.0
+2019,Nova Scotia,Urban centres,12,99.4
+2019,New Brunswick,Urban centres,13,99.7
+2019,Quebec,Urban centres,24,99.1
+2019,Ontario,Urban centres,35,98.8
+2019,Manitoba,Urban centres,46,95.5
+2019,Saskatchewan,Urban centres,47,97.0
+2019,Alberta,Urban centres,48,98.7
+2019,British Columbia,Urban centres,59,99.3
+2019,Yukon,Urban centres,60,
+2019,Northwest Territories,Urban centres,61,
 2019,Nunavut,Urban centres,62,
+2020,Newfoundland and Labrador,Urban centres,10,97.9
+2020,Prince Edward Island,Urban centres,11,100.0
+2020,Nova Scotia,Urban centres,12,99.4
+2020,New Brunswick,Urban centres,13,99.9
+2020,Quebec,Urban centres,24,99.7
+2020,Ontario,Urban centres,35,99.2
+2020,Manitoba,Urban centres,46,98.5
+2020,Saskatchewan,Urban centres,47,98.3
+2020,Alberta,Urban centres,48,98.5
+2020,British Columbia,Urban centres,59,99.5
+2020,Yukon,Urban centres,60,99.2
+2020,Northwest Territories,Urban centres,61,84.8
 2020,Nunavut,Urban centres,62,
-2021,Nunavut,Urban centres,62,0.0
-2022,Nunavut,Urban centres,62,0.0
+2021,Newfoundland and Labrador,Urban centres,10,98.2
+2021,Prince Edward Island,Urban centres,11,100.0
+2021,Nova Scotia,Urban centres,12,99.3
+2021,New Brunswick,Urban centres,13,99.8
+2021,Quebec,Urban centres,24,99.7
+2021,Ontario,Urban centres,35,99.2
+2021,Manitoba,Urban centres,46,97.4
+2021,Saskatchewan,Urban centres,47,99.0
+2021,Alberta,Urban centres,48,98.6
+2021,British Columbia,Urban centres,59,99.4
+2021,Yukon,Urban centres,60,99.2
+2021,Northwest Territories,Urban centres,61,97.9
+2021,Nunavut,Urban centres,62,
+2022,Newfoundland and Labrador,Urban centres,10,99.5
+2022,Prince Edward Island,Urban centres,11,100.0
+2022,Nova Scotia,Urban centres,12,99.8
+2022,New Brunswick,Urban centres,13,100.0
+2022,Quebec,Urban centres,24,99.7
+2022,Ontario,Urban centres,35,99.6
+2022,Manitoba,Urban centres,46,98.1
+2022,Saskatchewan,Urban centres,47,98.6
+2022,Alberta,Urban centres,48,99.3
+2022,British Columbia,Urban centres,59,99.5
+2022,Yukon,Urban centres,60,98.7
+2022,Northwest Territories,Urban centres,61,99.5
+2022,Nunavut,Urban centres,62,
+2023,Newfoundland and Labrador,Urban centres,10,99.9
+2023,Prince Edward Island,Urban centres,11,100.0
+2023,Nova Scotia,Urban centres,12,99.8
+2023,New Brunswick,Urban centres,13,100.0
+2023,Quebec,Urban centres,24,99.8
+2023,Ontario,Urban centres,35,99.7
+2023,Manitoba,Urban centres,46,98.6
+2023,Saskatchewan,Urban centres,47,99.3
+2023,Alberta,Urban centres,48,99.7
+2023,British Columbia,Urban centres,59,99.7
+2023,Yukon,Urban centres,60,99.7
+2023,Northwest Territories,Urban centres,61,99.5
 2023,Nunavut,Urban centres,62,
-2016,British Columbia,Total population centre,59,91.07
-2017,British Columbia,Total population centre,59,90.97
-2018,British Columbia,Total population centre,59,92.56
-2019,British Columbia,Total population centre,59,93.51
-2020,British Columbia,Total population centre,59,93.76
-2021,British Columbia,Total population centre,59,94.14
-2022,British Columbia,Total population centre,59,94.6
-2023,British Columbia,Total population centre,59,96.4
-2016,Alberta,Total population centre,48,82.58
-2017,Alberta,Total population centre,48,80.34
-2018,Alberta,Total population centre,48,84.91
-2019,Alberta,Total population centre,48,87.82
-2020,Alberta,Total population centre,48,87.75
-2021,Alberta,Total population centre,48,89.03
-2022,Alberta,Total population centre,48,90.47
-2023,Alberta,Total population centre,48,95.3
-2016,Saskatchewan,Total population centre,47,42.73
-2017,Saskatchewan,Total population centre,47,45.36
-2018,Saskatchewan,Total population centre,47,49.12
-2019,Saskatchewan,Total population centre,47,71.13
-2020,Saskatchewan,Total population centre,47,77.3
-2021,Saskatchewan,Total population centre,47,80.99
-2022,Saskatchewan,Total population centre,47,79.76
-2023,Saskatchewan,Total population centre,47,85.7
-2016,Manitoba,Total population centre,46,63.74
-2017,Manitoba,Total population centre,46,69.75
-2018,Manitoba,Total population centre,46,71.99
-2019,Manitoba,Total population centre,46,73.0
-2020,Manitoba,Total population centre,46,78.98
-2021,Manitoba,Total population centre,46,81.12
-2022,Manitoba,Total population centre,46,84.6
-2023,Manitoba,Total population centre,46,91.1
-2016,Ontario,Total population centre,35,87.88
-2017,Ontario,Total population centre,35,86.86
-2018,Ontario,Total population centre,35,87.18
-2019,Ontario,Total population centre,35,87.73
-2020,Ontario,Total population centre,35,89.83
-2021,Ontario,Total population centre,35,92.41
-2022,Ontario,Total population centre,35,93.99
-2023,Ontario,Total population centre,35,96.0
-2016,Quebec,Total population centre,24,87.27
-2017,Quebec,Total population centre,24,88.47
-2018,Quebec,Total population centre,24,89.98
-2019,Quebec,Total population centre,24,91.78
-2020,Quebec,Total population centre,24,93.99
-2021,Quebec,Total population centre,24,94.8
-2022,Quebec,Total population centre,24,96.7
-2023,Quebec,Total population centre,24,98.4
-2016,New Brunswick,Total population centre,13,83.4
-2017,New Brunswick,Total population centre,13,81.16
-2018,New Brunswick,Total population centre,13,81.11
-2019,New Brunswick,Total population centre,13,81.22
-2020,New Brunswick,Total population centre,13,92.66
-2021,New Brunswick,Total population centre,13,89.12
-2022,New Brunswick,Total population centre,13,91.34
-2023,New Brunswick,Total population centre,13,95.6
-2016,Prince Edward Island,Total population centre,11,66.88
-2017,Prince Edward Island,Total population centre,11,59.79
-2018,Prince Edward Island,Total population centre,11,60.19
-2019,Prince Edward Island,Total population centre,11,61.27
-2020,Prince Edward Island,Total population centre,11,79.2
-2021,Prince Edward Island,Total population centre,11,87.89
-2022,Prince Edward Island,Total population centre,11,91.1
-2023,Prince Edward Island,Total population centre,11,97.0
-2016,Nova Scotia,Total population centre,12,80.68
-2017,Nova Scotia,Total population centre,12,77.8
-2018,Nova Scotia,Total population centre,12,77.96
-2019,Nova Scotia,Total population centre,12,78.37
-2020,Nova Scotia,Total population centre,12,81.05
-2021,Nova Scotia,Total population centre,12,84.19
-2022,Nova Scotia,Total population centre,12,90.8
-2023,Nova Scotia,Total population centre,12,95.6
-2016,Newfoundland and Labrador,Total population centre,10,72.35
-2017,Newfoundland and Labrador,Total population centre,10,70.91
-2018,Newfoundland and Labrador,Total population centre,10,71.17
-2019,Newfoundland and Labrador,Total population centre,10,73.9
-2020,Newfoundland and Labrador,Total population centre,10,74.41
-2021,Newfoundland and Labrador,Total population centre,10,77.07
-2022,Newfoundland and Labrador,Total population centre,10,82.7
-2023,Newfoundland and Labrador,Total population centre,10,87.5
-2016,Northwest Territories,Total population centre,61,
-2017,Northwest Territories,Total population centre,61,
-2018,Northwest Territories,Total population centre,61,
-2019,Northwest Territories,Total population centre,61,
-2020,Northwest Territories,Total population centre,61,58.92
-2021,Northwest Territories,Total population centre,61,67.28
-2022,Northwest Territories,Total population centre,61,81.3
-2023,Northwest Territories,Total population centre,61,85.7
-2016,Yukon,Total population centre,60,
-2017,Yukon,Total population centre,60,
+2024,Newfoundland and Labrador,Urban centres,10,100.0
+2024,Prince Edward Island,Urban centres,11,100.0
+2024,Nova Scotia,Urban centres,12,99.8
+2024,New Brunswick,Urban centres,13,100.0
+2024,Quebec,Urban centres,24,99.9
+2024,Ontario,Urban centres,35,99.7
+2024,Manitoba,Urban centres,46,99.2
+2024,Saskatchewan,Urban centres,47,99.6
+2024,Alberta,Urban centres,48,99.9
+2024,British Columbia,Urban centres,59,99.9
+2024,Yukon,Urban centres,60,99.7
+2024,Northwest Territories,Urban centres,61,99.5
+2024,Nunavut,Urban centres,62,
+2018,Newfoundland and Labrador,Rural areas,10,46.1
+2018,Prince Edward Island,Rural areas,11,31.4
+2018,Nova Scotia,Rural areas,12,51.6
+2018,New Brunswick,Rural areas,13,63.4
+2018,Quebec,Rural areas,24,58.7
+2018,Ontario,Rural areas,35,29.5
+2018,Manitoba,Rural areas,46,13.0
+2018,Saskatchewan,Rural areas,47,1.5
+2018,Alberta,Rural areas,48,21.1
+2018,British Columbia,Rural areas,59,58.4
+2018,Yukon,Rural areas,60,
+2018,Northwest Territories,Rural areas,61,
+2018,Nunavut,Rural areas,62,
+2019,Newfoundland and Labrador,Rural areas,10,49.6
+2019,Prince Edward Island,Rural areas,11,33.3
+2019,Nova Scotia,Rural areas,12,52.4
+2019,New Brunswick,Rural areas,13,63.6
+2019,Quebec,Rural areas,24,65.2
+2019,Ontario,Rural areas,35,30.5
+2019,Manitoba,Rural areas,46,14.4
+2019,Saskatchewan,Rural areas,47,23.9
+2019,Alberta,Rural areas,48,33.2
+2019,British Columbia,Rural areas,59,62.5
+2019,Yukon,Rural areas,60,
+2019,Northwest Territories,Rural areas,61,
+2019,Nunavut,Rural areas,62,
+2020,Newfoundland and Labrador,Rural areas,10,48.8
+2020,Prince Edward Island,Rural areas,11,64.2
+2020,Nova Scotia,Rural areas,12,58.4
+2020,New Brunswick,Rural areas,13,85.8
+2020,Quebec,Rural areas,24,73.4
+2020,Ontario,Rural areas,35,41.3
+2020,Manitoba,Rural areas,46,28.1
+2020,Saskatchewan,Rural areas,47,39.0
+2020,Alberta,Rural areas,48,33.7
+2020,British Columbia,Rural areas,59,63.2
+2020,Yukon,Rural areas,60,12.5
+2020,Northwest Territories,Rural areas,61,16.9
+2020,Nunavut,Rural areas,62,
+2021,Newfoundland and Labrador,Rural areas,10,54.0
+2021,Prince Edward Island,Rural areas,11,79.1
+2021,Nova Scotia,Rural areas,12,65.6
+2021,New Brunswick,Rural areas,13,78.9
+2021,Quebec,Rural areas,24,76.9
+2021,Ontario,Rural areas,35,57.1
+2021,Manitoba,Rural areas,46,38.8
+2021,Saskatchewan,Rural areas,47,48.1
+2021,Alberta,Rural areas,48,40.7
+2021,British Columbia,Rural areas,59,65.8
+2021,Yukon,Rural areas,60,24.0
+2021,Northwest Territories,Rural areas,61,17.7
+2021,Nunavut,Rural areas,62,
+2022,Newfoundland and Labrador,Rural areas,10,63.3
+2022,Prince Edward Island,Rural areas,11,84.1
+2022,Nova Scotia,Rural areas,12,79.0
+2022,New Brunswick,Rural areas,13,82.4
+2022,Quebec,Rural areas,24,84.9
+2022,Ontario,Rural areas,35,63.2
+2022,Manitoba,Rural areas,46,46.7
+2022,Saskatchewan,Rural areas,47,43.2
+2022,Alberta,Rural areas,48,42.2
+2022,British Columbia,Rural areas,59,66.0
+2022,Yukon,Rural areas,60,34.2
+2022,Northwest Territories,Rural areas,61,50.4
+2022,Nunavut,Rural areas,62,
+2023,Newfoundland and Labrador,Rural areas,10,73.1
+2023,Prince Edward Island,Rural areas,11,94.7
+2023,Nova Scotia,Rural areas,12,90.1
+2023,New Brunswick,Rural areas,13,91.1
+2023,Quebec,Rural areas,24,92.9
+2023,Ontario,Rural areas,35,75.9
+2023,Manitoba,Rural areas,46,70.4
+2023,Saskatchewan,Rural areas,47,59.2
+2023,Alberta,Rural areas,48,71.5
+2023,British Columbia,Rural areas,59,76.2
+2023,Yukon,Rural areas,60,80.0
+2023,Northwest Territories,Rural areas,61,62.2
+2023,Nunavut,Rural areas,62,
+2024,Newfoundland and Labrador,Rural areas,10,73.6
+2024,Prince Edward Island,Rural areas,11,94.8
+2024,Nova Scotia,Rural areas,12,92.4
+2024,New Brunswick,Rural areas,13,91.6
+2024,Quebec,Rural areas,24,94.6
+2024,Ontario,Rural areas,35,77.5
+2024,Manitoba,Rural areas,46,75.0
+2024,Saskatchewan,Rural areas,47,63.3
+2024,Alberta,Rural areas,48,79.5
+2024,British Columbia,Rural areas,59,78.2
+2024,Yukon,Rural areas,60,82.9
+2024,Northwest Territories,Rural areas,61,75.8
+2024,Nunavut,Rural areas,62,
+2018,Newfoundland and Labrador,Total population centre,10,71.2
+2018,Prince Edward Island,Total population centre,11,60.2
+2018,Nova Scotia,Total population centre,12,78.0
+2018,New Brunswick,Total population centre,13,81.1
+2018,Quebec,Total population centre,24,90.0
+2018,Ontario,Total population centre,35,87.2
+2018,Manitoba,Total population centre,46,72.0
+2018,Saskatchewan,Total population centre,47,49.1
+2018,Alberta,Total population centre,48,84.9
+2018,British Columbia,Total population centre,59,92.6
 2018,Yukon,Total population centre,60,
-2019,Yukon,Total population centre,60,
-2020,Yukon,Total population centre,60,57.55
-2021,Yukon,Total population centre,60,63.07
-2022,Yukon,Total population centre,60,70.42
-2023,Yukon,Total population centre,60,91.1
-2016,Nunavut,Total population centre,62,
-2017,Nunavut,Total population centre,62,
+2018,Northwest Territories,Total population centre,61,
 2018,Nunavut,Total population centre,62,
+2019,Newfoundland and Labrador,Total population centre,10,73.9
+2019,Prince Edward Island,Total population centre,11,61.3
+2019,Nova Scotia,Total population centre,12,78.4
+2019,New Brunswick,Total population centre,13,81.2
+2019,Quebec,Total population centre,24,91.8
+2019,Ontario,Total population centre,35,87.7
+2019,Manitoba,Total population centre,46,73.0
+2019,Saskatchewan,Total population centre,47,71.1
+2019,Alberta,Total population centre,48,87.8
+2019,British Columbia,Total population centre,59,93.5
+2019,Yukon,Total population centre,60,
+2019,Northwest Territories,Total population centre,61,
 2019,Nunavut,Total population centre,62,
+2020,Newfoundland and Labrador,Total population centre,10,74.4
+2020,Prince Edward Island,Total population centre,11,79.2
+2020,Nova Scotia,Total population centre,12,81.1
+2020,New Brunswick,Total population centre,13,92.7
+2020,Quebec,Total population centre,24,94.0
+2020,Ontario,Total population centre,35,89.8
+2020,Manitoba,Total population centre,46,79.0
+2020,Saskatchewan,Total population centre,47,77.3
+2020,Alberta,Total population centre,48,87.7
+2020,British Columbia,Total population centre,59,93.8
+2020,Yukon,Total population centre,60,57.6
+2020,Northwest Territories,Total population centre,61,58.9
 2020,Nunavut,Total population centre,62,
-2021,Nunavut,Total population centre,62,0.0
-2022,Nunavut,Total population centre,62,0.0
+2021,Newfoundland and Labrador,Total population centre,10,77.1
+2021,Prince Edward Island,Total population centre,11,87.9
+2021,Nova Scotia,Total population centre,12,84.2
+2021,New Brunswick,Total population centre,13,89.1
+2021,Quebec,Total population centre,24,94.8
+2021,Ontario,Total population centre,35,92.4
+2021,Manitoba,Total population centre,46,81.1
+2021,Saskatchewan,Total population centre,47,81.0
+2021,Alberta,Total population centre,48,89.0
+2021,British Columbia,Total population centre,59,94.1
+2021,Yukon,Total population centre,60,63.1
+2021,Northwest Territories,Total population centre,61,67.3
+2021,Nunavut,Total population centre,62,
+2022,Newfoundland and Labrador,Total population centre,10,82.7
+2022,Prince Edward Island,Total population centre,11,91.1
+2022,Nova Scotia,Total population centre,12,90.8
+2022,New Brunswick,Total population centre,13,91.3
+2022,Quebec,Total population centre,24,96.7
+2022,Ontario,Total population centre,35,94.0
+2022,Manitoba,Total population centre,46,84.6
+2022,Saskatchewan,Total population centre,47,79.8
+2022,Alberta,Total population centre,48,90.5
+2022,British Columbia,Total population centre,59,94.6
+2022,Yukon,Total population centre,60,70.4
+2022,Northwest Territories,Total population centre,61,81.3
+2022,Nunavut,Total population centre,62,
+2023,Newfoundland and Labrador,Total population centre,10,87.5
+2023,Prince Edward Island,Total population centre,11,97.0
+2023,Nova Scotia,Total population centre,12,95.6
+2023,New Brunswick,Total population centre,13,95.6
+2023,Quebec,Total population centre,24,98.4
+2023,Ontario,Total population centre,35,96.0
+2023,Manitoba,Total population centre,46,91.1
+2023,Saskatchewan,Total population centre,47,85.7
+2023,Alberta,Total population centre,48,95.3
+2023,British Columbia,Total population centre,59,96.4
+2023,Yukon,Total population centre,60,91.1
+2023,Northwest Territories,Total population centre,61,85.7
 2023,Nunavut,Total population centre,62,
+2024,Newfoundland and Labrador,Total population centre,10,87.7
+2024,Prince Edward Island,Total population centre,11,97.1
+2024,Nova Scotia,Total population centre,12,96.6
+2024,New Brunswick,Total population centre,13,95.8
+2024,Quebec,Total population centre,24,98.8
+2024,Ontario,Total population centre,35,96.3
+2024,Manitoba,Total population centre,46,92.8
+2024,Saskatchewan,Total population centre,47,87.3
+2024,Alberta,Total population centre,48,96.7
+2024,British Columbia,Total population centre,59,96.7
+2024,Yukon,Total population centre,60,92.4
+2024,Northwest Territories,Total population centre,61,90.7
+2024,Nunavut,Total population centre,62,
