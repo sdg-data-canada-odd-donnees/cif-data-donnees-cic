@@ -131,8 +131,8 @@ Year,Sexe,Groupe d'âge,Value
 2001,Les deux sexes,"Âge, non déclaré",0
 2001,Hommes,"Âge, non déclaré",0
 2001,Femmes,"Âge, non déclaré",0
-2002,,,32
-2002,Hommes,"Total, tous les âges",18
+2002,,,33
+2002,Hommes,"Total, tous les âges",19
 2002,Femmes,"Total, tous les âges",14
 2002,Les deux sexes,Moins d'un an,0
 2002,Hommes,Moins d'un an,0
@@ -152,8 +152,8 @@ Year,Sexe,Groupe d'âge,Value
 2002,Les deux sexes,20 à 24 ans,1
 2002,Hommes,20 à 24 ans,0
 2002,Femmes,20 à 24 ans,1
-2002,Les deux sexes,25 à 29 ans,0
-2002,Hommes,25 à 29 ans,0
+2002,Les deux sexes,25 à 29 ans,1
+2002,Hommes,25 à 29 ans,1
 2002,Femmes,25 à 29 ans,0
 2002,Les deux sexes,30 à 34 ans,0
 2002,Hommes,30 à 34 ans,0
@@ -593,8 +593,8 @@ Year,Sexe,Groupe d'âge,Value
 2008,Les deux sexes,"Âge, non déclaré",0
 2008,Hommes,"Âge, non déclaré",0
 2008,Femmes,"Âge, non déclaré",0
-2009,,,4
-2009,Hommes,"Total, tous les âges",3
+2009,,,5
+2009,Hommes,"Total, tous les âges",4
 2009,Femmes,"Total, tous les âges",1
 2009,Les deux sexes,Moins d'un an,0
 2009,Hommes,Moins d'un an,0
@@ -629,8 +629,8 @@ Year,Sexe,Groupe d'âge,Value
 2009,Les deux sexes,45 à 49 ans,1
 2009,Hommes,45 à 49 ans,1
 2009,Femmes,45 à 49 ans,0
-2009,Les deux sexes,50 à 54 ans,0
-2009,Hommes,50 à 54 ans,0
+2009,Les deux sexes,50 à 54 ans,1
+2009,Hommes,50 à 54 ans,1
 2009,Femmes,50 à 54 ans,0
 2009,Les deux sexes,55 à 59 ans,1
 2009,Hommes,55 à 59 ans,0
@@ -659,8 +659,8 @@ Year,Sexe,Groupe d'âge,Value
 2009,Les deux sexes,"Âge, non déclaré",0
 2009,Hommes,"Âge, non déclaré",0
 2009,Femmes,"Âge, non déclaré",0
-2010,,,48
-2010,Hommes,"Total, tous les âges",30
+2010,,,50
+2010,Hommes,"Total, tous les âges",32
 2010,Femmes,"Total, tous les âges",18
 2010,Les deux sexes,Moins d'un an,0
 2010,Hommes,Moins d'un an,0
@@ -689,14 +689,14 @@ Year,Sexe,Groupe d'âge,Value
 2010,Les deux sexes,35 à 39 ans,2
 2010,Hommes,35 à 39 ans,2
 2010,Femmes,35 à 39 ans,0
-2010,Les deux sexes,40 à 44 ans,1
-2010,Hommes,40 à 44 ans,1
+2010,Les deux sexes,40 à 44 ans,2
+2010,Hommes,40 à 44 ans,2
 2010,Femmes,40 à 44 ans,0
 2010,Les deux sexes,45 à 49 ans,4
 2010,Hommes,45 à 49 ans,4
 2010,Femmes,45 à 49 ans,0
-2010,Les deux sexes,50 à 54 ans,4
-2010,Hommes,50 à 54 ans,2
+2010,Les deux sexes,50 à 54 ans,5
+2010,Hommes,50 à 54 ans,3
 2010,Femmes,50 à 54 ans,2
 2010,Les deux sexes,55 à 59 ans,8
 2010,Hommes,55 à 59 ans,6
@@ -791,8 +791,8 @@ Year,Sexe,Groupe d'âge,Value
 2011,Les deux sexes,"Âge, non déclaré",0
 2011,Hommes,"Âge, non déclaré",0
 2011,Femmes,"Âge, non déclaré",0
-2012,,,9
-2012,Hommes,"Total, tous les âges",9
+2012,,,8
+2012,Hommes,"Total, tous les âges",8
 2012,Femmes,"Total, tous les âges",0
 2012,Les deux sexes,Moins d'un an,0
 2012,Hommes,Moins d'un an,0
@@ -830,8 +830,8 @@ Year,Sexe,Groupe d'âge,Value
 2012,Les deux sexes,50 à 54 ans,1
 2012,Hommes,50 à 54 ans,1
 2012,Femmes,50 à 54 ans,0
-2012,Les deux sexes,55 à 59 ans,2
-2012,Hommes,55 à 59 ans,2
+2012,Les deux sexes,55 à 59 ans,1
+2012,Hommes,55 à 59 ans,1
 2012,Femmes,55 à 59 ans,0
 2012,Les deux sexes,60 à 64 ans,0
 2012,Hommes,60 à 64 ans,0
@@ -1055,11 +1055,11 @@ Year,Sexe,Groupe d'âge,Value
 2015,Les deux sexes,"Âge, non déclaré",0
 2015,Hommes,"Âge, non déclaré",0
 2015,Femmes,"Âge, non déclaré",0
-2016,,,4
-2016,Hommes,"Total, tous les âges",2
+2016,,,5
+2016,Hommes,"Total, tous les âges",3
 2016,Femmes,"Total, tous les âges",2
-2016,Les deux sexes,Moins d'un an,1
-2016,Hommes,Moins d'un an,0
+2016,Les deux sexes,Moins d'un an,2
+2016,Hommes,Moins d'un an,1
 2016,Femmes,Moins d'un an,1
 2016,Les deux sexes,1 à 4 ans,0
 2016,Hommes,1 à 4 ans,0
@@ -1583,3 +1583,69 @@ Year,Sexe,Groupe d'âge,Value
 2023,Les deux sexes,"Âge, non déclaré",0
 2023,Hommes,"Âge, non déclaré",0
 2023,Femmes,"Âge, non déclaré",0
+2024,,,46
+2024,Hommes,"Total, tous les âges",29
+2024,Femmes,"Total, tous les âges",17
+2024,Les deux sexes,Moins d'un an,0
+2024,Hommes,Moins d'un an,0
+2024,Femmes,Moins d'un an,0
+2024,Les deux sexes,1 à 4 ans,0
+2024,Hommes,1 à 4 ans,0
+2024,Femmes,1 à 4 ans,0
+2024,Les deux sexes,5 à 9 ans,0
+2024,Hommes,5 à 9 ans,0
+2024,Femmes,5 à 9 ans,0
+2024,Les deux sexes,10 à 14 ans,0
+2024,Hommes,10 à 14 ans,0
+2024,Femmes,10 à 14 ans,0
+2024,Les deux sexes,15 à 19 ans,0
+2024,Hommes,15 à 19 ans,0
+2024,Femmes,15 à 19 ans,0
+2024,Les deux sexes,20 à 24 ans,1
+2024,Hommes,20 à 24 ans,1
+2024,Femmes,20 à 24 ans,0
+2024,Les deux sexes,25 à 29 ans,0
+2024,Hommes,25 à 29 ans,0
+2024,Femmes,25 à 29 ans,0
+2024,Les deux sexes,30 à 34 ans,1
+2024,Hommes,30 à 34 ans,1
+2024,Femmes,30 à 34 ans,0
+2024,Les deux sexes,35 à 39 ans,2
+2024,Hommes,35 à 39 ans,2
+2024,Femmes,35 à 39 ans,0
+2024,Les deux sexes,40 à 44 ans,0
+2024,Hommes,40 à 44 ans,0
+2024,Femmes,40 à 44 ans,0
+2024,Les deux sexes,45 à 49 ans,3
+2024,Hommes,45 à 49 ans,3
+2024,Femmes,45 à 49 ans,0
+2024,Les deux sexes,50 à 54 ans,1
+2024,Hommes,50 à 54 ans,1
+2024,Femmes,50 à 54 ans,0
+2024,Les deux sexes,55 à 59 ans,1
+2024,Hommes,55 à 59 ans,1
+2024,Femmes,55 à 59 ans,0
+2024,Les deux sexes,60 à 64 ans,2
+2024,Hommes,60 à 64 ans,2
+2024,Femmes,60 à 64 ans,0
+2024,Les deux sexes,65 à 69 ans,9
+2024,Hommes,65 à 69 ans,5
+2024,Femmes,65 à 69 ans,4
+2024,Les deux sexes,70 à 74 ans,5
+2024,Hommes,70 à 74 ans,3
+2024,Femmes,70 à 74 ans,2
+2024,Les deux sexes,75 à 79 ans,7
+2024,Hommes,75 à 79 ans,4
+2024,Femmes,75 à 79 ans,3
+2024,Les deux sexes,80 à 84 ans,7
+2024,Hommes,80 à 84 ans,4
+2024,Femmes,80 à 84 ans,3
+2024,Les deux sexes,85 à 89 ans,5
+2024,Hommes,85 à 89 ans,2
+2024,Femmes,85 à 89 ans,3
+2024,Les deux sexes,90 ans et plus,2
+2024,Hommes,90 ans et plus,0
+2024,Femmes,90 ans et plus,2
+2024,Les deux sexes,"Âge, non déclaré",0
+2024,Hommes,"Âge, non déclaré",0
+2024,Femmes,"Âge, non déclaré",0
