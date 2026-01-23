@@ -59,7 +59,7 @@ country_name_map <- list("Bolivia (Plurinational State of)" = "Bolivia",
 
 developing_countries <- fromJSON(resptext) %>%
   filter(year >= 2015,
-         value < 0.8, # HDI values < 0.8 represent developing countries
+         value < 0.8, # HDI values < 0.8 represent developing countries. No value for somalia 2018
          !startsWith(countryIsoCode, "ZZ"), # country codes starting with ZZ represent larger regions, e.g. Sub-Saharan Africa, not relevant to this analysis
          ) %>%
   select(Year = year,
