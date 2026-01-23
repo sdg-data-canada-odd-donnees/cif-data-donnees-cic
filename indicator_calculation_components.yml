@@ -290,11 +290,11 @@
   13-2-1:
     base_value: 8.0
     base_year: 2015.0
-    current_value: 18.0
-    current_year: 2023.0
+    current_value: 46.0
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.10668191970032148
+    progress_value: -0.21452801879345396
     score: -5.0
     sign: 1
     status: deterioration
@@ -922,137 +922,137 @@
   score: -0.6469659353990729
 3-11-1:
   3-11-1 / All ages / Both sexes / Accidents (unintentional injuries):
-    base_value: 33.0
+    base_value: 34.0
     base_year: 2015.0
-    current_value: 51.4
-    current_year: 2023.0
+    current_value: 49.5
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.056954147791497656
+    progress_value: -0.04261781758288907
     score: -5.0
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   3-11-1 / All ages / Both sexes / Alzheimer's disease:
-    base_value: 18.4
+    base_value: 18.5
     base_year: 2015.0
-    current_value: 13.1
-    current_year: 2023.0
+    current_value: 12.8
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.04157819872057855
+    progress_value: 0.04009894001862979
     score: 5.0
     sign: 1
     status: substantial_progress
     target: null
     target_year: 2030.0
   3-11-1 / All ages / Both sexes / Cerebrovascular diseases:
-    base_value: 38.5
+    base_value: 38.7
     base_year: 2015.0
-    current_value: 34.5
-    current_year: 2023.0
+    current_value: 33.2
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.01361877843596182
-    score: 2.154694608990455
+    progress_value: 0.01688796379260038
+    score: 3.4439818963001905
     sign: 1
-    status: moderate_progress
+    status: substantial_progress
     target: null
     target_year: 2030.0
   3-11-1 / All ages / Both sexes / Chronic liver disease and cirrhosis:
     base_value: 8.9
     base_year: 2015.0
-    current_value: 10.9
-    current_year: 2023.0
+    current_value: 11.2
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.02566269877035743
+    progress_value: -0.02586922534915681
     score: -5.0
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   3-11-1 / All ages / Both sexes / Chronic lower respiratory diseases:
-    base_value: 35.1
+    base_value: 35.2
     base_year: 2015.0
-    current_value: 32.4
-    current_year: 2023.0
+    current_value: 32.0
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.009955451577359775
-    score: 1.2388628943399436
+    progress_value: 0.010534143136259333
+    score: 1.3835357840648332
     sign: 1
     status: moderate_progress
     target: null
     target_year: 2030.0
   3-11-1 / All ages / Both sexes / Diabetes mellitus:
-    base_value: 20.0
+    base_value: 20.1
     base_year: 2015.0
-    current_value: 18.1
-    current_year: 2023.0
+    current_value: 16.7
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.012400020146213886
-    score: 1.8500050365534717
-    sign: 1
-    status: moderate_progress
-    target: null
-    target_year: 2030.0
-  3-11-1 / All ages / Both sexes / Diseases of heart:
-    base_value: 143.8
-    base_year: 2015.0
-    current_value: 144.4
-    current_year: 2023.0
-    direction: -1
-    limit: null
-    progress_value: -0.0005206081158619646
-    score: -2.5650760144827456
-    sign: 1
-    status: deterioration
-    target: null
-    target_year: 2030.0
-  3-11-1 / All ages / Both sexes / Influenza and pneumonia:
-    base_value: 21.3
-    base_year: 2015.0
-    current_value: 15.9
-    current_year: 2023.0
-    direction: -1
-    limit: null
-    progress_value: 0.03588866223721754
+    progress_value: 0.020379592597534968
     score: 5.0
     sign: 1
     status: substantial_progress
     target: null
     target_year: 2030.0
-  3-11-1 / All ages / Both sexes / Intentional self-harm (suicide):
-    base_value: 12.3
+  3-11-1 / All ages / Both sexes / Diseases of heart:
+    base_value: 144.6
     base_year: 2015.0
-    current_value: 9.5
-    current_year: 2023.0
+    current_value: 140.5
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.031772726869282564
+    progress_value: 0.00319087839766663
+    score: -0.904560801166685
+    sign: 1
+    status: limited_progress
+    target: null
+    target_year: 2030.0
+  3-11-1 / All ages / Both sexes / Influenza and pneumonia:
+    base_value: 21.4
+    base_year: 2015.0
+    current_value: 18.6
+    current_year: 2024.0
+    direction: -1
+    limit: null
+    progress_value: 0.015460281535237819
+    score: 2.7301407676189093
+    sign: 1
+    status: substantial_progress
+    target: null
+    target_year: 2030.0
+  3-11-1 / All ages / Both sexes / Intentional self-harm (suicide):
+    base_value: 12.6
+    base_year: 2015.0
+    current_value: 9.3
+    current_year: 2024.0
+    direction: -1
+    limit: null
+    progress_value: 0.03317956189225035
     score: 5.0
     sign: 1
     status: substantial_progress
     target: null
     target_year: 2030.0
   3-11-1 / All ages / Both sexes / Malignant neoplasms:
-    base_value: 215.0
+    base_value: 215.9
     base_year: 2015.0
-    current_value: 211.1
-    current_year: 2023.0
+    current_value: 207.4
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.002285643089978917
-    score: -1.3571784550105415
+    progress_value: 0.004452949614101143
+    score: -0.2735251929494287
     sign: 1
     status: limited_progress
     target: null
     target_year: 2030.0
   progress_status: moderate_progress
-  score: 0.6321308070390584
+  score: 1.137957245386782
 3-12-1:
   3-12-1:
     base_value: 184.4
@@ -1511,12 +1511,12 @@
   5-3-1 / All management occupations:
     base_value: 34.8
     base_year: 2015.0
-    current_value: 36.4
-    current_year: 2024.0
+    current_value: 36.8
+    current_year: 2025.0
     direction: 1
     limit: 100
-    progress_value: 0.005007092451051687
-    score: 0.013418639125135412
+    progress_value: 0.005603688090563219
+    score: 0.16395511480401614
     sign: 1
     status: moderate_progress
     target: null
@@ -1587,7 +1587,7 @@
     target: null
     target_year: 2030.0
   progress_status: moderate_progress
-  score: 0.9798467111970842
+  score: 1.0049361238102315
 5-4-1:
   5-4-1 / Canada / Total, unpaid work activities / Total, 15 years and over / Total, all persons:
     base_value: 1.5
@@ -1608,18 +1608,18 @@
   5-5-1:
     base_value: 0.83
     base_year: 2015.0
-    current_value: 0.88
-    current_year: 2024.0
+    current_value: 0.87
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 0.006520746617034057
-    score: 0.38018665425851417
+    progress_value: 0.004717845237665053
+    score: -0.1410773811674737
     sign: 1
-    status: moderate_progress
+    status: limited_progress
     target: null
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 0.38018665425851417
+  progress_status: limited_progress
+  score: -0.1410773811674737
 6-1-1:
   6-1-1:
     base_value: 103.0
@@ -1675,11 +1675,11 @@
   6-5-1:
     base_value: 78.2
     base_year: 2016.0
-    current_value: 66.7
-    current_year: 2022.0
+    current_value: 71.1
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -4.3796797086188
+    progress_value: -1.9799265407780686
     score: -5.0
     sign: 1
     status: deterioration
@@ -1691,18 +1691,18 @@
   6-6-1:
     base_value: 77.0
     base_year: 2016.0
-    current_value: 76.8
-    current_year: 2022.0
+    current_value: 77.7
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.03957817910533357
-    score: -2.6649103988781935
+    progress_value: 0.10336979304555655
+    score: -2.0692890833170794
     sign: 1
-    status: deterioration
+    status: limited_progress
     target: 100.0
     target_year: 2040.0
-  progress_status: deterioration
-  score: -2.6649103988781935
+  progress_status: limited_progress
+  score: -2.0692890833170794
 7-1-1:
   7-1-1:
     base_value: 20.0
@@ -1755,34 +1755,34 @@
   8-1-1:
     base_value: 7.0
     base_year: 2015.0
-    current_value: 6.3
-    current_year: 2024.0
+    current_value: 6.8
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: 0.011638466884251741
-    score: 1.6596167210629353
+    progress_value: 0.002894556357509903
+    score: -1.0527218212450484
     sign: 1
-    status: moderate_progress
+    status: limited_progress
     target: null
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 1.6596167210629353
+  progress_status: limited_progress
+  score: -1.0527218212450484
 8-2-1:
   8-2-1:
     base_value: 61.4
     base_year: 2015.0
-    current_value: 61.3
-    current_year: 2024.0
+    current_value: 60.8
+    current_year: 2025.0
     direction: 1
     limit: 100
-    progress_value: -0.00018109384618847368
-    score: -2.5226367307735593
+    progress_value: -0.000981522609353691
+    score: -2.622690326169211
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -2.5226367307735593
+  score: -2.622690326169211
 8-3-1:
   8-3-1:
     base_value: 13.0
@@ -1803,11 +1803,11 @@
   8-4-1:
     base_value: 26.5
     base_year: 2015.0
-    current_value: 17.81
-    current_year: 2024.0
+    current_value: 18.41
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: 0.04319325704716792
+    progress_value: 0.035769662670696145
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -1931,18 +1931,18 @@
   9-6-1:
     base_value: 682.0
     base_year: 2015.0
-    current_value: 16117.0
-    current_year: 2025.0
+    current_value: 16164.0
+    current_year: 2026.0
     direction: 1
     limit: null
-    progress_value: 1.2108504143696253
-    score: 4.363283424800796
+    progress_value: 1.0854277219370476
+    score: 3.4674016750241368
     sign: 1
     status: substantial_progress
     target: 37929.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 4.363283424800796
+  score: 3.4674016750241368
 9-7-1:
   9-7-1:
     base_value: 58.2
