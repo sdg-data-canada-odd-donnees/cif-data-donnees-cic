@@ -8,14 +8,14 @@
 2016,"","",,869
 2017,"","",,1361
 2018,"","",,1810
-2019,"","",,3818
-2020,"","",,4616
-2021,"","",,5922
-2022,"","",,8180
-2023,"","",,11354
-2024,"","",,13781
-2025,"","",,16117
-2026,"","",,16131
+2019,"","",,3811
+2020,"","",,4609
+2021,"","",,5913
+2022,"","",,8169
+2023,"","",,11321
+2024,"","",,13742
+2025,"","",,16072
+2026,"","",,16164
 2010,"Alberta","Total electric charging and alternative fuelling stations",48,26
 2010,"Alberta","Propane",48,26
 2011,"Alberta","Total electric charging and alternative fuelling stations",48,27
@@ -59,13 +59,13 @@
 2023,"Alberta","Compressed natural gas",48,13
 2023,"Alberta","Electric",48,573
 2023,"Alberta","Propane",48,141
-2024,"Alberta","Total electric charging and alternative fuelling stations",48,901
-2024,"Alberta","Electric",48,744
+2024,"Alberta","Total electric charging and alternative fuelling stations",48,900
+2024,"Alberta","Electric",48,743
 2024,"Alberta","Propane",48,144
-2025,"Alberta","Total electric charging and alternative fuelling stations",48,1067
-2025,"Alberta","Electric",48,910
-2026,"Alberta","Total electric charging and alternative fuelling stations",48,1079
-2026,"Alberta","Electric",48,922
+2025,"Alberta","Total electric charging and alternative fuelling stations",48,1066
+2025,"Alberta","Electric",48,909
+2026,"Alberta","Total electric charging and alternative fuelling stations",48,1080
+2026,"Alberta","Electric",48,923
 2010,"British Columbia","Total electric charging and alternative fuelling stations",59,36
 2010,"British Columbia","Biodiesel",59,1
 2010,"British Columbia","Propane",59,35
@@ -93,37 +93,37 @@
 2018,"British Columbia","Electric",59,261
 2018,"British Columbia","Hydrogen",59,1
 2018,"British Columbia","Propane",59,104
-2019,"British Columbia","Total electric charging and alternative fuelling stations",59,577
-2019,"British Columbia","Electric",59,463
+2019,"British Columbia","Total electric charging and alternative fuelling stations",59,576
+2019,"British Columbia","Electric",59,462
 2019,"British Columbia","Hydrogen",59,2
 2019,"British Columbia","Propane",59,107
-2020,"British Columbia","Total electric charging and alternative fuelling stations",59,716
-2020,"British Columbia","Electric",59,599
+2020,"British Columbia","Total electric charging and alternative fuelling stations",59,715
+2020,"British Columbia","Electric",59,598
 2020,"British Columbia","Hydrogen",59,3
 2020,"British Columbia","Propane",59,109
-2021,"British Columbia","Total electric charging and alternative fuelling stations",59,1004
+2021,"British Columbia","Total electric charging and alternative fuelling stations",59,1003
 2021,"British Columbia","Compressed natural gas",59,5
-2021,"British Columbia","Electric",59,884
+2021,"British Columbia","Electric",59,883
 2021,"British Columbia","Hydrogen",59,4
 2021,"British Columbia","Propane",59,110
-2022,"British Columbia","Total electric charging and alternative fuelling stations",59,1456
-2022,"British Columbia","Electric",59,1332
+2022,"British Columbia","Total electric charging and alternative fuelling stations",59,1455
+2022,"British Columbia","Electric",59,1331
 2022,"British Columbia","Hydrogen",59,5
 2022,"British Columbia","Propane",59,113
-2023,"British Columbia","Total electric charging and alternative fuelling stations",59,1962
+2023,"British Columbia","Total electric charging and alternative fuelling stations",59,1960
 2023,"British Columbia","Compressed natural gas",59,7
-2023,"British Columbia","Electric",59,1834
+2023,"British Columbia","Electric",59,1832
 2023,"British Columbia","Ethanol",59,1
 2023,"British Columbia","Hydrogen",59,6
-2024,"British Columbia","Total electric charging and alternative fuelling stations",59,2415
-2024,"British Columbia","Electric",59,2282
+2024,"British Columbia","Total electric charging and alternative fuelling stations",59,2413
+2024,"British Columbia","Electric",59,2280
 2024,"British Columbia","Propane",59,118
-2025,"British Columbia","Total electric charging and alternative fuelling stations",59,2849
-2025,"British Columbia","Electric",59,2710
+2025,"British Columbia","Total electric charging and alternative fuelling stations",59,2844
+2025,"British Columbia","Electric",59,2705
 2025,"British Columbia","Hydrogen",59,9
 2025,"British Columbia","Propane",59,121
-2026,"British Columbia","Total electric charging and alternative fuelling stations",59,2850
-2026,"British Columbia","Electric",59,2711
+2026,"British Columbia","Total electric charging and alternative fuelling stations",59,2861
+2026,"British Columbia","Electric",59,2722
 2010,"Canada","Biodiesel",,1
 2010,"Canada","Electric",,5
 2010,"Canada","Propane",,102
@@ -151,34 +151,34 @@
 2018,"Canada","Hydrogen",,3
 2018,"Canada","Propane",,579
 2019,"Canada","Compressed natural gas",,29
-2019,"Canada","Electric",,3187
+2019,"Canada","Electric",,3180
 2019,"Canada","Hydrogen",,4
 2019,"Canada","Propane",,597
 2020,"Canada","Compressed natural gas",,30
-2020,"Canada","Electric",,3970
+2020,"Canada","Electric",,3963
 2020,"Canada","Hydrogen",,5
 2020,"Canada","Propane",,610
 2021,"Canada","Compressed natural gas",,32
-2021,"Canada","Electric",,5265
+2021,"Canada","Electric",,5256
 2021,"Canada","Hydrogen",,6
 2021,"Canada","Propane",,618
 2022,"Canada","Compressed natural gas",,40
-2022,"Canada","Electric",,7493
+2022,"Canada","Electric",,7482
 2022,"Canada","Hydrogen",,8
 2022,"Canada","Propane",,638
 2023,"Canada","Compressed natural gas",,44
-2023,"Canada","Electric",,10653
+2023,"Canada","Electric",,10620
 2023,"Canada","Ethanol",,1
 2023,"Canada","Hydrogen",,10
 2023,"Canada","Propane",,645
-2024,"Canada","Electric",,13046
+2024,"Canada","Electric",,13008
 2024,"Canada","Hydrogen",,11
-2024,"Canada","Propane",,678
+2024,"Canada","Propane",,677
 2025,"Canada","Compressed natural gas",,47
-2025,"Canada","Electric",,15368
+2025,"Canada","Electric",,15324
 2025,"Canada","Hydrogen",,16
-2025,"Canada","Propane",,684
-2026,"Canada","Electric",,15382
+2025,"Canada","Propane",,683
+2026,"Canada","Electric",,15416
 2010,"Manitoba","Total electric charging and alternative fuelling stations",46,3
 2010,"Manitoba","Electric",46,1
 2013,"Manitoba","Total electric charging and alternative fuelling stations",46,8
@@ -209,8 +209,10 @@
 2024,"Manitoba","Total electric charging and alternative fuelling stations",46,315
 2024,"Manitoba","Electric",46,261
 2024,"Manitoba","Propane",46,53
-2025,"Manitoba","Total electric charging and alternative fuelling stations",46,373
-2025,"Manitoba","Electric",46,319
+2025,"Manitoba","Total electric charging and alternative fuelling stations",46,374
+2025,"Manitoba","Electric",46,320
+2026,"Manitoba","Total electric charging and alternative fuelling stations",46,377
+2026,"Manitoba","Electric",46,323
 2011,"New Brunswick","Total electric charging and alternative fuelling stations",13,1
 2011,"New Brunswick","Electric",13,1
 2012,"New Brunswick","Total electric charging and alternative fuelling stations",13,4
@@ -245,6 +247,8 @@
 2024,"New Brunswick","Propane",13,5
 2025,"New Brunswick","Total electric charging and alternative fuelling stations",13,290
 2025,"New Brunswick","Electric",13,285
+2026,"New Brunswick","Total electric charging and alternative fuelling stations",13,294
+2026,"New Brunswick","Electric",13,289
 2012,"Newfoundland and Labrador","Total electric charging and alternative fuelling stations",10,1
 2012,"Newfoundland and Labrador","Electric",10,1
 2013,"Newfoundland and Labrador","Total electric charging and alternative fuelling stations",10,5
@@ -271,6 +275,8 @@
 2024,"Newfoundland and Labrador","Propane",10,2
 2025,"Newfoundland and Labrador","Total electric charging and alternative fuelling stations",10,156
 2025,"Newfoundland and Labrador","Electric",10,154
+2026,"Newfoundland and Labrador","Total electric charging and alternative fuelling stations",10,158
+2026,"Newfoundland and Labrador","Electric",10,156
 2015,"Northwest Territories","Total electric charging and alternative fuelling stations",61,1
 2015,"Northwest Territories","Propane",61,1
 2020,"Northwest Territories","Total electric charging and alternative fuelling stations",61,2
@@ -359,18 +365,18 @@
 2022,"Ontario","Compressed natural gas",35,12
 2022,"Ontario","Electric",35,2118
 2022,"Ontario","Propane",35,101
-2023,"Ontario","Total electric charging and alternative fuelling stations",35,3523
-2023,"Ontario","Electric",35,3405
+2023,"Ontario","Total electric charging and alternative fuelling stations",35,3503
+2023,"Ontario","Electric",35,3385
 2023,"Ontario","Propane",35,105
-2024,"Ontario","Total electric charging and alternative fuelling stations",35,4408
-2024,"Ontario","Electric",35,4272
+2024,"Ontario","Total electric charging and alternative fuelling stations",35,4387
+2024,"Ontario","Electric",35,4252
 2024,"Ontario","Hydrogen",35,2
-2024,"Ontario","Propane",35,122
-2025,"Ontario","Total electric charging and alternative fuelling stations",35,5164
-2025,"Ontario","Electric",35,5026
-2025,"Ontario","Propane",35,124
-2026,"Ontario","Total electric charging and alternative fuelling stations",35,5165
-2026,"Ontario","Electric",35,5027
+2024,"Ontario","Propane",35,121
+2025,"Ontario","Total electric charging and alternative fuelling stations",35,5140
+2025,"Ontario","Electric",35,5003
+2025,"Ontario","Propane",35,123
+2026,"Ontario","Total electric charging and alternative fuelling stations",35,5179
+2026,"Ontario","Electric",35,5042
 2013,"Prince Edward Island","Total electric charging and alternative fuelling stations",11,1
 2013,"Prince Edward Island","Electric",11,1
 2014,"Prince Edward Island","Total electric charging and alternative fuelling stations",11,5
@@ -387,16 +393,18 @@
 2020,"Prince Edward Island","Electric",11,25
 2021,"Prince Edward Island","Total electric charging and alternative fuelling stations",11,52
 2021,"Prince Edward Island","Electric",11,52
-2022,"Prince Edward Island","Total electric charging and alternative fuelling stations",11,89
-2022,"Prince Edward Island","Electric",11,88
+2022,"Prince Edward Island","Total electric charging and alternative fuelling stations",11,88
+2022,"Prince Edward Island","Electric",11,87
 2022,"Prince Edward Island","Propane",11,1
-2023,"Prince Edward Island","Total electric charging and alternative fuelling stations",11,145
-2023,"Prince Edward Island","Electric",11,144
-2024,"Prince Edward Island","Total electric charging and alternative fuelling stations",11,160
-2024,"Prince Edward Island","Electric",11,158
+2023,"Prince Edward Island","Total electric charging and alternative fuelling stations",11,144
+2023,"Prince Edward Island","Electric",11,143
+2024,"Prince Edward Island","Total electric charging and alternative fuelling stations",11,159
+2024,"Prince Edward Island","Electric",11,157
 2024,"Prince Edward Island","Propane",11,2
-2025,"Prince Edward Island","Total electric charging and alternative fuelling stations",11,176
-2025,"Prince Edward Island","Electric",11,174
+2025,"Prince Edward Island","Total electric charging and alternative fuelling stations",11,175
+2025,"Prince Edward Island","Electric",11,173
+2026,"Prince Edward Island","Total electric charging and alternative fuelling stations",11,176
+2026,"Prince Edward Island","Electric",11,174
 2010,"Quebec","Total electric charging and alternative fuelling stations",24,9
 2010,"Quebec","Electric",24,2
 2011,"Quebec","Total electric charging and alternative fuelling stations",24,10
@@ -425,32 +433,34 @@
 2018,"Quebec","Electric",24,316
 2018,"Quebec","Hydrogen",24,1
 2018,"Quebec","Propane",24,142
-2019,"Quebec","Total electric charging and alternative fuelling stations",24,1895
+2019,"Quebec","Total electric charging and alternative fuelling stations",24,1889
 2019,"Quebec","Compressed natural gas",24,7
-2019,"Quebec","Electric",24,1741
+2019,"Quebec","Electric",24,1735
 2019,"Quebec","Propane",24,146
-2020,"Quebec","Total electric charging and alternative fuelling stations",24,2268
-2020,"Quebec","Electric",24,2114
-2021,"Quebec","Total electric charging and alternative fuelling stations",24,2642
-2021,"Quebec","Electric",24,2486
+2020,"Quebec","Total electric charging and alternative fuelling stations",24,2262
+2020,"Quebec","Electric",24,2108
+2021,"Quebec","Total electric charging and alternative fuelling stations",24,2634
+2021,"Quebec","Electric",24,2478
 2021,"Quebec","Propane",24,148
-2022,"Quebec","Total electric charging and alternative fuelling stations",24,3176
+2022,"Quebec","Total electric charging and alternative fuelling stations",24,3167
 2022,"Quebec","Compressed natural gas",24,9
-2022,"Quebec","Electric",24,3017
+2022,"Quebec","Electric",24,3008
 2022,"Quebec","Hydrogen",24,2
-2023,"Quebec","Total electric charging and alternative fuelling stations",24,3959
+2023,"Quebec","Total electric charging and alternative fuelling stations",24,3949
 2023,"Quebec","Compressed natural gas",24,10
-2023,"Quebec","Electric",24,3797
+2023,"Quebec","Electric",24,3787
 2023,"Quebec","Hydrogen",24,3
 2023,"Quebec","Propane",24,149
-2024,"Quebec","Total electric charging and alternative fuelling stations",24,4646
-2024,"Quebec","Electric",24,4483
+2024,"Quebec","Total electric charging and alternative fuelling stations",24,4632
+2024,"Quebec","Electric",24,4469
 2024,"Quebec","Propane",24,150
-2025,"Quebec","Total electric charging and alternative fuelling stations",24,5379
+2025,"Quebec","Total electric charging and alternative fuelling stations",24,5364
 2025,"Quebec","Compressed natural gas",24,13
-2025,"Quebec","Electric",24,5210
+2025,"Quebec","Electric",24,5195
 2025,"Quebec","Hydrogen",24,5
 2025,"Quebec","Propane",24,151
+2026,"Quebec","Total electric charging and alternative fuelling stations",24,5375
+2026,"Quebec","Electric",24,5206
 2014,"Saskatchewan","Total electric charging and alternative fuelling stations",47,8
 2014,"Saskatchewan","Electric",47,3
 2014,"Saskatchewan","Propane",47,5
@@ -480,6 +490,8 @@
 2024,"Saskatchewan","Electric",47,169
 2025,"Saskatchewan","Total electric charging and alternative fuelling stations",47,284
 2025,"Saskatchewan","Electric",47,209
+2026,"Saskatchewan","Total electric charging and alternative fuelling stations",47,285
+2026,"Saskatchewan","Electric",47,210
 2019,"Yukon","Total electric charging and alternative fuelling stations",60,4
 2019,"Yukon","Electric",60,2
 2019,"Yukon","Propane",60,2
