@@ -1,9 +1,10 @@
+
 library(yaml)
 library(readtext)
 library(dplyr)
 
 # Get list of .md files from meta folder
-md_files <- list.files("C:/Users/plamjer/Documents/cif-data-donnees-cic/meta/", #changer le lien selon la personne qui le fait. C'est local sur l'ordi.
+md_files <- list.files("C:/Users/plamjer/Documents/cif-data-donnees-cic/meta/fr", #changer le lien selon la personne qui le fait. C'est local sur l'ordi.
                        pattern = "\\.md$", 
                        full.names = TRUE)
 
@@ -104,14 +105,15 @@ results$progress_status <- sapply(results$indicator_number, function(ind_num) {
 })
 
 # renommer les mesures de progrès
+
 results$progress_status <-  recode(results$progress_status,
-                             "deterioration" = "Deterioration",
-                             "moderate_progress" = "Progress made but acceleration needed",
-                             "target_achieved" = "Target achieved",
-                             "limited_progress" = "Limited progress",
-                             "negligible_progress" = "Limited progress",
-                             "not_available_manual" = "Not available",
-                             "substantial_progress" = "On track"
+                             "deterioration" = "Détérioration",
+                             "moderate_progress" = "Des progrès ont été réalisés, mais une accélération est nécessaire",
+                             "target_achieved" = "Cible atteinte",
+                             "limited_progress" = "Progrès limités",
+                             "negligible_progress" = "Progrès limités",
+                             "not_available_manual" = "Non disponible",
+                             "substantial_progress" = "Sur la bonne voie"
                             )
 
 # Reorder columns to put computation_units after current_value
@@ -129,4 +131,4 @@ results <- results[order(
 
 # Remove filename column and write to CSV
 results_final <- results[, !names(results) %in% "filename"]
-write.csv(results_final, "cif_metadata.csv", row.names = FALSE)
+write.csv(results_final, "cif_metadata_fr.csv", row.names = FALSE)
