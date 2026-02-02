@@ -45,7 +45,7 @@ total_line_protection <-
     !is.na(`Environmental protection activities`),
     `Environmental protection activities` == "Total, environmental protection activities"
   ) %>% 
-  mutate(across(c(Geography, Industries, `Environmental protection activities`), ~ NA_character_))
+  mutate(across(c(Geography, Industries), ~ NA_character_))
 
 # create total line: management practices
 total_line_management <- 
@@ -56,7 +56,7 @@ total_line_management <-
     !is.na(`Environmental management practices`),
     `Environmental management practices` == "Reported using one or more environmental management practices"
   ) %>% 
-  mutate(across(c(Geography, Industries, `Environmental management practices`), ~ NA_character_))
+  mutate(across(c(Geography, Industries), ~ NA_character_))
 
 # bind total lines to rest of data
 data_final <- 
