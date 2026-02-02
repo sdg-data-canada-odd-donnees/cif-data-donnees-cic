@@ -6102,24 +6102,24 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Reported using one or more environmental management practices",
-                "Environmental management system",
-                "Pollution prevention plan",
-                "Life cycle management",
-                "ISO 14000 family certification",
-                "Environmental voluntary agreements or programs",
-                "Green procurements policy or guidelines",
-                "Environmental supply chain management policy",
-                "New or improved environmental supply chain management policy",
-                "Environmental incentive programs, grants, loans, or tax credits",
-                "Greenhouse gas emission inventory",
-                "Purchased carbon offset credits only or purchased more than sold",
-                "Redevances écologiques",
-                "Other environmental management practices",
+                "A déclaré utiliser une ou plusieurs pratiques de gestion de l'environnement",
+                "Système de gestion de l’environnement",
+                "Plan de prévention de la pollution",
+                "Gestion du cycle de vie",
+                "Certification de la famille ISO 14000",
+                "Participation à des ententes ou programmes volontaires sur l’environnement",
+                "Politique ou lignes directrices d’achats de produits écologiques",
+                "Politique de gestion environnementale de la chaîne d’approvisionnement",
+                "Implémentation ou amélioration d'une politique de gestion environnementale de la chaîne d’approvisionnement",
+                "Utilisation de programmes incitatifs, de subventions, de prêts ou de crédits d’impôt",
+                "Réalisation d'un inventaire des émissions de gaz à effet de serre",
+                "Achats de crédits compensatoires de droits d'émission de carbone supérieurs aux ventes",
+                "Ventes de crédits compensatoires de droits d'émission de carbone supérieures aux achats",
+                "Autres pratiques de gestion de l'environnement",
                 ""
               ]
             },
-            "title": "Environmental management practices"
+            "title": "Pratiques de gestion de l’environnement"
           },
           {
             "name": "GeoCode",
@@ -6132,20 +6132,20 @@
             "constraints": {
               "enum": [
                 "Total, activités de protection de l'environnement",
-                "Solid waste management",
+                "Gestion des déchets solides",
                 "Gestion des eaux usées",
                 "Gestion de la pollution atmosphérique",
                 "Protection et assainissement du sol, des eaux souterraines et des eaux de surface",
                 "Protection de la biodiversité et de l'habitat",
                 "Lutte contre le bruit et les vibrations",
                 "Protection against radiation",
-                "Environmental charges",
-                "Clean vehicles and transportation technologies",
-                "Other environmental protection activities",
+                "Redevances écologiques",
+                "Biens et technologies liés au transport et aux véhicules économes en carburant",
+                "Autres activités de protection de l’environnement",
                 ""
               ]
             },
-            "title": "Environmental protection activities"
+            "title": "Activités de protection de l'environnement"
           },
           {
             "name": "Value",
