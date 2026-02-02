@@ -1,4 +1,3 @@
-
 # 12.2.1 ------------------------------------------------------------------
 
 # load libraries
@@ -12,69 +11,69 @@ geocodes <- read.csv("geocodes.csv")
 env_protection <- get_cansim("38-10-0132-01", factors = FALSE)
 env_management <- get_cansim("38-10-0137-01", factors = FALSE)
 
-# selected environmental activities
-activities <- c(
-  "Wastewater management",
-  "Air pollution management",
-  "Protection and remediation of soil, groundwater and surface water",
-  "Protection of biodiversity and habitat",
-  "Noise and vibration abatement",
-  "Total, environmental protection activities",
-  "Sold carbon offset credits only or sold more than purchased"
-)
-
 env_protection_filtered <-
   env_protection %>%
-  filter(`Environmental protection activities` %in% activities) %>%
   mutate(Industries = str_trim(str_remove(Industries, "\\[\\w*\\]"))) %>%
   select(
     Year = REF_DATE,
     Geography = GEO,
     Industries,
-    `Environmental protection activities or management practices` = `Environmental protection activities`,
+    `Environmental protection activities` = `Environmental protection activities`,
     Value = VALUE
   )
 
 env_management_filtered <-
   env_management %>%
-  filter(
-    `Environmental management practices` %in% activities
-  ) %>%
   mutate(Industries = str_trim(str_remove(Industries, "\\[\\w*\\]"))) %>%
   select(
     Year = REF_DATE,
     Geography = GEO,
     Industries,
-    `Environmental protection activities or management practices` = `Environmental management practices`,
+    `Environmental management practices` = `Environmental management practices`,
     Value = VALUE
   )
 
-combined <-
-  bind_rows(env_management_filtered,env_protection_filtered) %>%
-  na.omit()
+# Don't use na.omit() here - it removes everything!
+combined <- bind_rows(env_management_filtered, env_protection_filtered)
 
-# create total line
-total_line <- 
+# create total line: protection activities
+total_line_protection <- 
   combined %>% 
   filter(
     Geography == "Canada",
     Industries == "Total, industries",
-    `Environmental protection activities or management practices` == "Total, environmental protection activities"
+    !is.na(`Environmental protection activities`),
+    `Environmental protection activities` == "Total, environmental protection activities"
   ) %>% 
-  mutate_at(2:4, ~ NA)
+  mutate(across(c(Geography, Industries), ~ NA_character_))
 
-# bind total line to rest of data
+# create total line: management practices
+total_line_management <- 
+  combined %>% 
+  filter(
+    Geography == "Canada",
+    Industries == "Total, industries",
+    !is.na(`Environmental management practices`),
+    `Environmental management practices` == "Reported using one or more environmental management practices"
+  ) %>% 
+  mutate(across(c(Geography, Industries), ~ NA_character_))
+
+# bind total lines to rest of data
 data_final <- 
   bind_rows(
-    total_line,
+    total_line_protection,
+    total_line_management,
     combined %>% 
       filter(
         !( Geography == "Canada" &
            Industries == "Total, industries" &
-           `Environmental protection activities or management practices` == "Total, environmental protection activities"
+           ((!is.na(`Environmental protection activities`) & 
+             `Environmental protection activities` == "Total, environmental protection activities") |
+            (!is.na(`Environmental management practices`) & 
+             `Environmental management practices` == "Reported using one or more environmental management practices"))
         )
       ) %>%
-      filter(!Geography == "British Columbia and the territories")
+      filter(Geography != "British Columbia and the territories")
   ) %>%
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = "Value")
