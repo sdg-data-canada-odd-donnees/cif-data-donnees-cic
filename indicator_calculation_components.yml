@@ -237,20 +237,20 @@
   score: 4.640227948342444
 12-2-1:
   12-2-1:
-    base_value: 90.3
-    base_year: 2018.0
-    current_value: 86.4
-    current_year: 2023.0
+    base_value: null
+    base_year: 2015.0
+    current_value: null
+    current_year: null
     direction: 1
     limit: 100
-    progress_value: -0.008791087342664095
-    score: -3.598885917833012
-    sign: 1
-    status: deterioration
+    progress_value: null
+    score: null
+    sign: null
+    status: not_available
     target: null
     target_year: 2030.0
-  progress_status: deterioration
-  score: -3.598885917833012
+  progress_status: not_available
+  score: null
 12-3-1:
   12-3-1:
     base_value: 257.635662113981
