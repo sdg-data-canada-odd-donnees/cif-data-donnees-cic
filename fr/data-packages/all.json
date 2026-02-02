@@ -6049,7 +6049,10 @@
               "enum": [
                 "Canada",
                 "Provinces de l'Atlantique",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
                 "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
                 "Québec",
                 "Ontario",
                 "Provinces des Prairies",
@@ -6057,10 +6060,7 @@
                 "Saskatchewan",
                 "Alberta",
                 "Colombie-Britannique",
-                "Terre-Neuve-et-Labrador",
-                "Île-du-Prince-Édouard",
                 "Territoires",
-                "Nouveau-Brunswick",
                 ""
               ]
             },
@@ -6072,6 +6072,7 @@
             "constraints": {
               "enum": [
                 "Total, industries",
+                "Exploitation forestière (sauf à forfait)",
                 "Extraction de pétrole et de gaz",
                 "Extraction minière et exploitation en carrière",
                 "Production, transport et distribution d'électricité",
@@ -6081,43 +6082,70 @@
                 "Fabrication de produits en bois",
                 "Fabrication du papier",
                 "Fabrication de produits du pétrole et du charbon",
+                "Fabrication de produits chimiques",
+                "Fabrication de produits minéraux non métalliques",
                 "Première transformation des métaux",
                 "Fabrication de produits métalliques",
                 "Fabrication de matériel de transport",
-                "Fabrication de machines",
-                "Autres industries de fabrication",
-                "Exploitation forestière (sauf à forfait)",
-                "Fabrication de meubles et de produits connexes",
-                "Transport par pipeline",
-                "Fabrication de produits minéraux non métalliques",
                 "Fabrication de produits en plastique et en caoutchouc",
-                "Fabrication de produits chimiques",
+                "Fabrication de machines",
+                "Fabrication de meubles et de produits connexes",
+                "Autres industries de fabrication",
+                "Transport par pipeline",
                 ""
               ]
             },
             "title": "Industries"
           },
           {
-            "name": "Environmental protection activities or management practices",
+            "name": "Environmental management practices",
             "type": "string",
             "constraints": {
               "enum": [
+                "Reported using one or more environmental management practices",
+                "Environmental management system",
+                "Pollution prevention plan",
+                "Life cycle management",
+                "ISO 14000 family certification",
+                "Environmental voluntary agreements or programs",
+                "Green procurements policy or guidelines",
+                "Environmental supply chain management policy",
+                "New or improved environmental supply chain management policy",
+                "Environmental incentive programs, grants, loans, or tax credits",
+                "Greenhouse gas emission inventory",
+                "Purchased carbon offset credits only or purchased more than sold",
                 "Redevances écologiques",
-                "Gestion des eaux usées",
-                "Gestion de la pollution atmosphérique",
-                "Protection et assainissement du sol, des eaux souterraines et des eaux de surface",
-                "Protection de la biodiversité et de l'habitat",
-                "Lutte contre le bruit et les vibrations",
-                "Total, activités de protection de l'environnement",
+                "Other environmental management practices",
                 ""
               ]
             },
-            "title": "Activités de protection ou pratiques de gestion de l'environnement"
+            "title": "Environmental management practices"
           },
           {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
+          },
+          {
+            "name": "Environmental protection activities",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, activités de protection de l'environnement",
+                "Solid waste management",
+                "Gestion des eaux usées",
+                "Gestion de la pollution atmosphérique",
+                "Protection et assainissement du sol, des eaux souterraines et des eaux de surface",
+                "Protection de la biodiversité et de l'habitat",
+                "Lutte contre le bruit et les vibrations",
+                "Protection against radiation",
+                "Environmental charges",
+                "Clean vehicles and transportation technologies",
+                "Other environmental protection activities",
+                ""
+              ]
+            },
+            "title": "Environmental protection activities"
           },
           {
             "name": "Value",

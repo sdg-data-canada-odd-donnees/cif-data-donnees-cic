@@ -6049,7 +6049,10 @@
               "enum": [
                 "Canada",
                 "Atlantic provinces",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
                 "Nova Scotia",
+                "New Brunswick",
                 "Quebec",
                 "Ontario",
                 "Prairie provinces",
@@ -6057,10 +6060,7 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
-                "Newfoundland and Labrador",
-                "Prince Edward Island",
                 "Territories",
-                "New Brunswick",
                 ""
               ]
             },
@@ -6072,6 +6072,7 @@
             "constraints": {
               "enum": [
                 "Total, industries",
+                "Logging (except contract)",
                 "Oil and gas extraction",
                 "Mining and quarrying",
                 "Electric power generation, transmission and distribution",
@@ -6081,43 +6082,70 @@
                 "Wood product manufacturing",
                 "Paper manufacturing",
                 "Petroleum and coal product manufacturing",
+                "Chemical manufacturing",
+                "Non-metallic mineral product manufacturing",
                 "Primary metal manufacturing",
                 "Fabricated metal product manufacturing",
                 "Transportation equipment manufacturing",
-                "Machinery manufacturing",
-                "Other manufacturing industries",
-                "Logging (except contract)",
-                "Furniture and related product manufacturing",
-                "Pipeline transportation",
-                "Non-metallic mineral product manufacturing",
                 "Plastics and rubber products manufacturing",
-                "Chemical manufacturing",
+                "Machinery manufacturing",
+                "Furniture and related product manufacturing",
+                "Other manufacturing industries",
+                "Pipeline transportation",
                 ""
               ]
             },
             "title": "Industries"
           },
           {
-            "name": "Environmental protection activities or management practices",
+            "name": "Environmental management practices",
             "type": "string",
             "constraints": {
               "enum": [
+                "Reported using one or more environmental management practices",
+                "Environmental management system",
+                "Pollution prevention plan",
+                "Life cycle management",
+                "ISO 14000 family certification",
+                "Environmental voluntary agreements or programs",
+                "Green procurements policy or guidelines",
+                "Environmental supply chain management policy",
+                "New or improved environmental supply chain management policy",
+                "Environmental incentive programs, grants, loans, or tax credits",
+                "Greenhouse gas emission inventory",
+                "Purchased carbon offset credits only or purchased more than sold",
                 "Sold carbon offset credits only or sold more than purchased",
-                "Wastewater management",
-                "Air pollution management",
-                "Protection and remediation of soil, groundwater and surface water",
-                "Protection of biodiversity and habitat",
-                "Noise and vibration abatement",
-                "Total, environmental protection activities",
+                "Other environmental management practices",
                 ""
               ]
             },
-            "title": "Environmental protection activities or management practices"
+            "title": "Environmental management practices"
           },
           {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
+          },
+          {
+            "name": "Environmental protection activities",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, environmental protection activities",
+                "Solid waste management",
+                "Wastewater management",
+                "Air pollution management",
+                "Protection and remediation of soil, groundwater and surface water",
+                "Protection of biodiversity and habitat",
+                "Noise and vibration abatement",
+                "Protection against radiation",
+                "Environmental charges",
+                "Clean vehicles and transportation technologies",
+                "Other environmental protection activities",
+                ""
+              ]
+            },
+            "title": "Environmental protection activities"
           },
           {
             "name": "Value",
