@@ -78,6 +78,9 @@ data_final <-
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = "Value")
 
+# Reorder columns
+data_final <- data_final[, c("Year","Geography","Industries","Environmental management practices","Environmental protection activities","GeoCode","Value")]
+
 # write to csv
 write.csv(
   data_final, 
