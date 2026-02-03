@@ -44,8 +44,7 @@ total_line_protection <-
     Industries == "Total, industries",
     !is.na(`Environmental protection activities`),
     `Environmental protection activities` == "Total, environmental protection activities"
-  ) %>% 
-  mutate(across(c(Geography, Industries), ~ NA_character_))
+  )
 
 # create total line: management practices
 total_line_management <- 
@@ -55,8 +54,7 @@ total_line_management <-
     Industries == "Total, industries",
     !is.na(`Environmental management practices`),
     `Environmental management practices` == "Reported using one or more environmental management practices"
-  ) %>% 
-  mutate(across(c(Geography, Industries), ~ NA_character_))
+  )
 
 # bind total lines to rest of data
 data_final <- 
@@ -74,12 +72,12 @@ data_final <-
         )
       ) %>%
       filter(Geography != "British Columbia and the territories")
-  ) %>%
-  left_join(geocodes, by = "Geography") %>%
-  relocate(GeoCode, .before = "Value")
+  )  %>%
+  left_join(geocodes, by = "Geography")
 
 # Reorder columns
 data_final <- data_final[, c("Year","Geography","Industries","Environmental management practices","Environmental protection activities","GeoCode","Value")]
+
 
 # write to csv
 write.csv(
