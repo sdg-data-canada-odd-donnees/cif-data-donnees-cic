@@ -79,7 +79,7 @@ data_final <-
   relocate(GeoCode, .before = "Value")
 
 # Reorder columns
-data_final <- data_final[, c("Year","Geography", "GeoCode","Industries","Environmental management practices","Environmental protection activities", "Value")]
+data_final <- data_final[, c("Year","Geography","Industries","Environmental management practices","Environmental protection activities","GeoCode","Value")]
 
 # write to csv
 write.csv(
