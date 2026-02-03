@@ -5714,10 +5714,6 @@
             }
           },
           {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
             "name": "Environmental protection activities",
             "type": "string",
             "constraints": {
@@ -5736,6 +5732,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

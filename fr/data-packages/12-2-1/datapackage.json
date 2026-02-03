@@ -95,11 +95,6 @@
             "title": "Pratiques de gestion de l’environnement"
           },
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
             "name": "Environmental protection activities",
             "type": "string",
             "constraints": {
@@ -119,6 +114,11 @@
               ]
             },
             "title": "Activités de protection de l'environnement"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

@@ -6122,11 +6122,6 @@
             "title": "Environmental management practices"
           },
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
             "name": "Environmental protection activities",
             "type": "string",
             "constraints": {
@@ -6146,6 +6141,11 @@
               ]
             },
             "title": "Environmental protection activities"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
