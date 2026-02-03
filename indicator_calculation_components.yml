@@ -236,34 +236,34 @@
   progress_status: substantial_progress
   score: 4.640227948342444
 12-2-1:
-  12-2-1 / Canada / Total, industries / Total, environmental protection activities:
-    base_value: 
-    base_year: 
-    current_value: 
-    current_year: 
-    direction: 
-    limit: 
-    progress_value: 
-    score: 
-    sign: 
-    status: 
-    target: 
-    target_year: 
   12-2-1 / Canada / Total, industries / Reported using one or more environmental management practices:
-    base_value: 
-    base_year: 
-    current_value: 
-    current_year: 
-    direction: 
-    limit: 
-    progress_value: 
-    score: 
-    sign:
-    status: 
-    target: 
-    target_year: 
-  progress_status: 
-  score: 
+    base_value: null
+    base_year: 2015.0
+    current_value: null
+    current_year: null
+    direction: 1
+    limit: 100
+    progress_value: null
+    score: null
+    sign: null
+    status: not_available
+    target: null
+    target_year: 2030.0
+  12-2-1 / Canada / Total, industries / Total, environmental protection activities:
+    base_value: null
+    base_year: 2015.0
+    current_value: null
+    current_year: null
+    direction: 1
+    limit: 100
+    progress_value: null
+    score: null
+    sign: null
+    status: not_available
+    target: null
+    target_year: 2030.0
+  progress_status: not_available
+  score: null
 12-3-1:
   12-3-1:
     base_value: 257.635662113981
