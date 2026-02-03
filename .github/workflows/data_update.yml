@@ -2,7 +2,7 @@
 # NOTES:
 #
 # Workflow for updating data in data repository.
-#
+# 
 #
 # ****************************************************************************
 
@@ -14,7 +14,7 @@ on:
   schedule:
 # run at 9:30am on tuesday
 # edit cron helper: https://crontab.guru/
-   - cron: '30 13 * * 2'
+   - cron: 30 13 * * 2
     
 # on:
 #   push:
