@@ -31,7 +31,7 @@ physical_activity_2024_final <-
   physical_activity_2024 %>%
   filter(
     REF_DATE >= 2015,
-    Measures == "Meets Canadian 24-Hour Movement Guidelines",
+    Measures == "Meets physical activity recommendation (measured)",
     Characteristics == "Percent"
   ) %>% 
   select(
