@@ -1180,16 +1180,16 @@
   score: 5.0
 3-5-1:
   3-5-1 / Both sexes / Ages 18 to 79:
-    base_value: 41.8
+    base_value: null
     base_year: 2015.0
-    current_value: 46.2
-    current_year: 2024.0
+    current_value: null
+    current_year: null
     direction: 1
     limit: 100
-    progress_value: 0.011182445592611945
-    score: 1.6049896251250457
-    sign: 1
-    status: moderate_progress
+    progress_value: null
+    score: null
+    sign: null
+    status: not_available
     target: null
     target_year: 2030.0
   3-5-1 / Both sexes / Ages 5 to 17:
@@ -1206,7 +1206,7 @@
     target: null
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 3.302494812562523
+  score: 5.0
 3-6-1:
   3-6-1:
     base_value: 92.8
@@ -1942,20 +1942,20 @@
   score: 5.0
 9-6-1:
   9-6-1:
-    base_value: 684.0
+    base_value: 675.0
     base_year: 2015.0
-    current_value: 16181.0
+    current_value: 16176.0
     current_year: 2026.0
     direction: 1
     limit: null
-    progress_value: 1.0855887734096727
-    score: 3.4685520495879514
+    progress_value: 1.0866125276854877
+    score: 3.47586462400467
     sign: 1
     status: substantial_progress
     target: 37929.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 3.4685520495879514
+  score: 3.47586462400467
 9-7-1:
   9-7-1:
     base_value: 58.2
