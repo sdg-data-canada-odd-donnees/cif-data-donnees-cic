@@ -6,16 +6,19 @@ library(cansim)
 library(stringr)
 library(tidyr)
 
-# Retrieve data from CANSIM table 13-10-0821-01
+# Retrieve data from CANSIM tables
 physical_activity <- get_cansim("13-10-0821-01", factors = FALSE)
 physical_activity_2024 <- get_cansim("13-10-0969-01", factors = FALSE)
+names(physical_activity)
 
 # Filter and select relevant data
 physical_activity_final <-
   physical_activity %>%
   filter(
     REF_DATE >= 2015,
+    `Age group` %in% c("Ages 5 to 17", "Ages 18 to 64", "Ages 65 to 79"),
     Categories == "Meeting guidelines",
+    Measures == "Canadian 24-Hour Movement Guidelines",
     Characteristics == "Estimate"
   ) %>% 
   select(
@@ -31,7 +34,8 @@ physical_activity_2024_final <-
   physical_activity_2024 %>%
   filter(
     REF_DATE >= 2015,
-    Measures == "Meets physical activity recommendation (measured)",
+    `Age group` %in% c("Ages 3 to 4", "Ages 5 to 17", "Ages 18 to 64", "Ages 65 to 79"),
+    Measures == "Meets Canadian 24-Hour Movement Guidelines",
     Characteristics == "Percent"
   ) %>% 
   select(
