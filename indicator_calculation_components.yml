@@ -1182,14 +1182,14 @@
   3-5-1 / Both sexes / Ages 18 to 64:
     base_value: 45.2
     base_year: 2015.0
-    current_value: 15.4
+    current_value: 50.2
     current_year: 2024.0
     direction: 1
     limit: 100
-    progress_value: -0.11275721531625871
-    score: -5.0
+    progress_value: 0.011725762907919934
+    score: 1.7703341529044656
     sign: 1
-    status: deterioration
+    status: moderate_progress
     target: null
     target_year: 2030.0
   3-5-1 / Both sexes / Ages 5 to 17:
@@ -1205,8 +1205,8 @@
     status: substantial_progress
     target: null
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 0.0
+  progress_status: substantial_progress
+  score: 3.385167076452233
 3-6-1:
   3-6-1:
     base_value: 92.8
