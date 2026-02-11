@@ -4990,6 +4990,8 @@
             "constraints": {
               "enum": [
                 "Ages 5 to 17",
+                "Ages 5 to 11",
+                "Ages 12 to 17",
                 "Ages 18 to 64",
                 "Ages 65 to 79",
                 "Ages 3 to 4",
@@ -5005,7 +5007,7 @@
           }
         ]
       },
-      "title": "Proportion of Canadians meeting the 2020 Canadian physical activity guidelines"
+      "title": "Proportion of Canadians meeting the Canadian physical activity guidelines"
     },
     {
       "path": "7-2-1/data.csv",
