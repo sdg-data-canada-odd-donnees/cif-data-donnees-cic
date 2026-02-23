@@ -7,8 +7,6 @@ inactive_vehicle_data <- get_cansim("20-10-0021-01", factors = FALSE)
 new_vehicle_data <- get_cansim("20-10-0025-01", factors = FALSE)
 geocodes <- read.csv("geocodes.csv")
 
-head(new_vehicle_data)
-
 # i.e. all quarters of the year are available
 if (substr(last(new_vehicle_data$REF_DATE), 6, 7) != "04") {
   # If last year not complete, filter out last year
