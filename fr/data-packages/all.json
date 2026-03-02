@@ -4184,7 +4184,7 @@
             "title": "Année"
           },
           {
-            "name": "data.Species group",
+            "name": "Species group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4218,23 +4218,25 @@
                 "Éponges",
                 "Plécoptères",
                 "Plantes vasculaires",
-                "data.Yellowjackets and relatives",
-                "data.Bivalves",
-                "data.Caddisflies",
+                "Yellowjackets and relatives",
+                "Bivalves",
+                "Caddisflies",
                 "Céphalopodes",
                 "Vers de terre",
                 "Puces",
                 "Opiliones",
+                "Horseshoe crabs",
                 "Sangsues",
                 "Lichens",
                 "Macro-champignons",
                 "Myriapodes",
                 "Pseudoscorpiones",
                 "Tenthrèdes",
-                "data.Scorpionflies",
+                "Scorpionflies",
                 "Étoiles de mer",
                 "Certaines mouches",
                 "Moules visqueux",
+                "Solifuges",
                 "Collemboles",
                 "Escargots et limaces terrestres et d'eau douce",
                 "Tiques",
@@ -4244,6 +4246,34 @@
               ]
             },
             "title": "Groupe d'espèces"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ontario",
+                "Colombie-Britannique",
+                "Québec",
+                "Alberta",
+                "Manitoba",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Saskatchewan",
+                "Newfoundland",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Île-du-Prince-Édouard",
+                "Labrador",
+                "Nunavut",
+                "Océan Pacifique",
+                "Océan Atlantique",
+                "Eastern Arctic Ocean",
+                "Western Arctic Ocean",
+                ""
+              ]
+            },
+            "title": "Région"
           },
           {
             "name": "Value",

@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "data.Species group",
+            "name": "Species group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -57,6 +57,7 @@
                 "Earthworms",
                 "Fleas",
                 "Harvestmen",
+                "Horseshoe crabs",
                 "Leeches",
                 "Lichens",
                 "Macrofungi",
@@ -67,6 +68,7 @@
                 "Sea stars",
                 "Selected flies",
                 "Slime moulds",
+                "Solifuges",
                 "Springtails",
                 "Terrestrial and freshwater snails and slugs",
                 "Ticks",
@@ -76,6 +78,34 @@
               ]
             },
             "title": "Species group"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ontario",
+                "British Columbia",
+                "Quebec",
+                "Alberta",
+                "Manitoba",
+                "Nova Scotia",
+                "New Brunswick",
+                "Saskatchewan",
+                "Newfoundland",
+                "Yukon",
+                "Northwest Territories",
+                "Prince Edward Island",
+                "Labrador",
+                "Nunavut",
+                "Pacific Ocean",
+                "Atlantic Ocean",
+                "Eastern Arctic Ocean",
+                "Western Arctic Ocean",
+                ""
+              ]
+            },
+            "title": "Region"
           },
           {
             "name": "Value",
