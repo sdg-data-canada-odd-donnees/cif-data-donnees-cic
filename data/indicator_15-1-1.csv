@@ -1,78 +1,98 @@
-Year,data.Species group,Value
-2015,,79.82
-2015,data.Amphibians,63.83
-2015,data.Ants,95.14
-2015,data.Bee flies,50.77
-2015,data.Bees,74.89
-2015,data.Beetles,91.68
-2015,data.Birds,79.04
-2015,data.Black flies,83.05
-2015,data.Bryophytes,68.7
-2015,data.Corals,33.33
-2015,data.Decapods,93.84
-2015,data.Dragonflies and damselflies,73.63
-2015,data.Fishes,82.51
-2015,data.Freshwater bivalves,58.82
-2015,data.Grasshoppers and relatives,76.26
-2015,data.Horse flies,84.43
-2015,data.Lacewings,81.82
-2015,data.Macrolichens,70.98
-2015,data.Mammals,71.58
-2015,data.Mayflies,93.42
-2015,data.Mosquitoes,98.46
-2015,data.Moths and butterflies,83.01
-2015,data.Non-marine snails and slugs,62.5
-2015,data.Reptiles,31.82
-2015,data.Sea cucumbers,100
-2015,data.Sea urchins,95.45
-2015,data.Selected macrofungi,100
-2015,data.Spiders,89.29
-2015,data.Sponges,90.91
-2015,data.Stoneflies,100
-2015,data.Vascular plants,69.92
-2015,data.Yellowjackets and relatives,45.12
-2020,,80
-2020,data.Amphibians,60.87
-2020,data.Ants,96.43
-2020,data.Bees,89.08
-2020,data.Beetles,87.76
-2020,data.Birds,77.75
-2020,data.Bivalves,80.34
-2020,data.Bryophytes,62.78
-2020,data.Caddisflies,99.11
-2020,data.Cephalopods,100
-2020,data.Corals,26.79
-2020,data.Decapods,93.33
-2020,data.Dragonflies and damselflies,76.47
-2020,data.Earthworms,25
-2020,data.Fishes,86.67
-2020,data.Fleas,75
-2020,data.Grasshoppers and relatives,76.92
-2020,data.Harvestmen,66.67
-2020,data.Lacewings,75
-2020,data.Leeches,100
-2020,data.Lichens,76.85
-2020,data.Macrofungi,77.79
-2020,data.Mammals,70.74
-2020,data.Mayflies,96.39
-2020,data.Moths and butterflies,82.81
-2020,data.Myriapods,88.89
-2020,data.Pseudoscorpions,66.67
-2020,data.Reptiles,27.5
-2020,data.Sawflies,98.82
-2020,data.Scorpionflies,70.59
-2020,data.Sea cucumbers,100
-2020,data.Sea stars,81.48
-2020,data.Sea urchins,100
-2020,data.Selected flies,75.88
-2020,data.Slime moulds,44
-2020,data.Spiders,89.91
-2020,data.Sponges,72.73
-2020,data.Springtails,100
-2020,data.Stoneflies,97.41
-2020,data.Terrestrial and freshwater snails and slugs,63.69
-2020,data.Ticks,77.27
-2020,data.True bugs,87.36
-2020,data.Vascular plants,74.65
-2020,data.Water mites,56.91
-2020,data.Yellowjackets and relatives,43.53
+Year;data.Species group;Region;Value
+2015;;;79.82
+2015;data.Amphibians;;63.83
+2015;data.Ants;;95.14
+2015;data.Bee flies;;50.77
+2015;data.Bees;;74.89
+2015;data.Beetles;;91.68
+2015;data.Birds;;79.04
+2015;data.Black flies;;83.05
+2015;data.Bryophytes;;68.7
+2015;data.Corals;;33.33
+2015;data.Decapods;;93.84
+2015;data.Dragonflies and damselflies;;73.63
+2015;data.Fishes;;82.51
+2015;data.Freshwater bivalves;;58.82
+2015;data.Grasshoppers and relatives;;76.26
+2015;data.Horse flies;;84.43
+2015;data.Lacewings;;81.82
+2015;data.Macrolichens;;70.98
+2015;data.Mammals;;71.58
+2015;data.Mayflies;;93.42
+2015;data.Mosquitoes;;98.46
+2015;data.Moths and butterflies;;83.01
+2015;data.Non-marine snails and slugs;;62.5
+2015;data.Reptiles;;31.82
+2015;data.Sea cucumbers;;100
+2015;data.Sea urchins;;95.45
+2015;data.Selected macrofungi;;100
+2015;data.Spiders;;89.29
+2015;data.Sponges;;90.91
+2015;data.Stoneflies;;100
+2015;data.Vascular plants;;69.92
+2015;data.Yellowjackets and relatives;;45.12
+2020;;;80
+2020;data.Amphibians;;60.87
+2020;data.Ants;;96.43
+2020;data.Bees;;89.08
+2020;data.Beetles;;87.76
+2020;data.Birds;;77.75
+2020;data.Bivalves;;80.34
+2020;data.Bryophytes;;62.78
+2020;data.Caddisflies;;99.11
+2020;data.Cephalopods;;100
+2020;data.Corals;;26.79
+2020;data.Decapods;;93.33
+2020;data.Dragonflies and damselflies;;76.47
+2020;data.Earthworms;;25
+2020;data.Fishes;;86.67
+2020;data.Fleas;;75
+2020;data.Grasshoppers and relatives;;76.92
+2020;data.Harvestmen;;66.67
+2020;data.Horseshoe crabs;;0
+2020;data.Lacewings;;75
+2020;data.Leeches;;100
+2020;data.Lichens;;76.85
+2020;data.Macrofungi;;77.79
+2020;data.Mammals;;70.74
+2020;data.Mayflies;;96.39
+2020;data.Moths and butterflies;;82.81
+2020;data.Myriapods;;88.89
+2020;data.Pseudoscorpions;;66.67
+2020;data.Reptiles;;27.5
+2020;data.Sawflies;;98.82
+2020;data.Scorpionflies;;70.59
+2020;data.Sea cucumbers;;100
+2020;data.Sea stars;;81.48
+2020;data.Sea urchins;;100
+2020;data.Selected flies;;75.88
+2020;data.Slime moulds;;44
+2020;data.Solifuges;;0
+2020;data.Spiders;;89.91
+2020;data.Sponges;;72.73
+2020;data.Springtails;;100
+2020;data.Stoneflies;;97.41
+2020;data.Terrestrial and freshwater snails and slugs;;63.69
+2020;data.Ticks;;77.27
+2020;data.True bugs;;87.36
+2020;data.Vascular plants;;74.65
+2020;data.Water mites;;56.91
+2020;data.Yellowjackets and relatives;;43.53
+2020;;Ontario;76.48
+2020;;British Columbia;71.78
+2020;;Quebec;67.97
+2020;;Alberta;55.86
+2020;;Manitoba;53.58
+2020;;Nova Scotia;69.16
+2020;;New Brunswick;72.13
+2020;;Saskatchewan;62.67
+2020;;Newfoundland;54.51
+2020;;Yukon;69.21
+2020;;Northwest Territories;68.61
+2020;;Prince Edward Island;59.29
+2020;;Labrador;47.13
+2020;;Nunavut;53.71
+2020;;Pacific Ocean;79.32
+2020;;Atlantic Ocean;86.44
+2020;;Eastern Arctic Ocean;84.30
+2020;;Western Arctic Ocean;82.61
