@@ -131,17 +131,17 @@
     base_value: 63.0
     base_year: 2005.0
     current_value: 74.0
-    current_year: 2021.0
+    current_year: 2020.0
     direction: 1
     limit: null
-    progress_value: 0.838723856641909
-    score: 1.7052206356074908
+    progress_value: 0.8949392974311927
+    score: 2.106761907621266
     sign: 1
     status: moderate_progress
     target: 85.0
     target_year: 2030.0
   progress_status: moderate_progress
-  score: 1.7052206356074908
+  score: 2.106761907621266
 11-4-1:
   11-4-1:
     base_value: 75.3
@@ -465,11 +465,11 @@
   13-4-1:
     base_value: 895.7
     base_year: 2018.0
-    current_value: 2089.3
-    current_year: 2023.0
+    current_value: 2196.5
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.18458886501215588
+    progress_value: 0.16125636000158572
     score: 5.0
     sign: 1
     status: substantial_progress
@@ -1736,18 +1736,18 @@
   7-2-1:
     base_value: 81.444
     base_year: 2015.0
-    current_value: 79.398
-    current_year: 2024.0
+    current_value: 78.398
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: -0.4224820732912941
-    score: -4.260356054782835
+    progress_value: -0.5693758628116666
+    score: -4.872418407577371
     sign: 1
     status: deterioration
     target: 90.0
     target_year: 2030.0
   progress_status: deterioration
-  score: -4.260356054782835
+  score: -4.872418407577371
 7-3-1:
   7-3-1:
     base_value: 0.23
@@ -1944,18 +1944,18 @@
   9-6-1:
     base_value: 675.0
     base_year: 2015.0
-    current_value: 16199.0
+    current_value: 16160.0
     current_year: 2026.0
     direction: 1
     limit: null
-    progress_value: 1.0871721459543076
-    score: 3.479861921337023
+    progress_value: 1.0862228012284405
+    score: 3.4730808468946277
     sign: 1
     status: substantial_progress
     target: 37929.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 3.479861921337023
+  score: 3.4730808468946277
 9-7-1:
   9-7-1:
     base_value: 58.2
