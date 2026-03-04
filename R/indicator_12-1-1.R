@@ -4,8 +4,15 @@ library(dplyr)
 library(cansim)
 
 inactive_vehicle_data <- get_cansim("20-10-0021-01", factors = FALSE)
-new_vehicle_data <- get_cansim("20-10-0024-01", factors = FALSE)
+new_vehicle_data <- get_cansim("20-10-0025-01", factors = FALSE)
 geocodes <- read.csv("geocodes.csv")
+
+# i.e. all quarters of the year are available
+if (substr(last(new_vehicle_data$REF_DATE), 6, 7) != "04") {
+  # If last year not complete, filter out last year
+  new_vehicle_data <- filter(new_vehicle_data, REF_DATE < substr(max(REF_DATE), 1, 4))
+}
+
 
 selected_fuel_types <- c("All fuel types",
                          "Battery electric",
@@ -35,6 +42,7 @@ new_vehicle_data_filtered <-
   filter(
     REF_DATE <= current_year,
     `Vehicle type` == "Total, vehicle type",
+    GEO %in% c("Canada", "Newfoundland and Labrador", "Prince Edward Island", "Nova Scotia", "New Brunswick", "Quebec", "Ontario", "Manitoba", "Saskatchewan", "Alberta", "British Columbia", "Yukon", "Northwest Territories", "Nunavut"),
     `Fuel type` %in% selected_fuel_types
   ) %>%
   mutate(Year = substr(REF_DATE, 1, 4)) %>%
