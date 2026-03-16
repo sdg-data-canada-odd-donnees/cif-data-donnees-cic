@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "cp1252",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -42,9 +42,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "First Nations reserves",
-                "First Nations reserves Urban centres",
-                "First Nations reserves Rural areas",
+                "First Nations reserves areas",
+                "First Nations reserves areas Urban centres",
+                "First Nations reserves areas Rural areas",
                 "Urban centres",
                 "Rural areas",
                 "Total population centre",

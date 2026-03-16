@@ -9,7 +9,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "cp1252",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -77,7 +77,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "cp1252",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -1071,7 +1071,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "cp1252",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -1107,7 +1107,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "cp1252",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -2824,9 +2824,9 @@
             "constraints": {
               "enum": [
                 "Total centre de population",
-                "Réserves des Premières Nations Régions rurales",
-                "Réserves des Premières Nations",
-                "Réserves des Premières Nations Régions urbaines",
+                "Secteurs des Réserves des Premières Nations, Régions rurales",
+                "Secteurs des Réserves des Premières Nations",
+                "Secteurs des Réserves des Premières Nations, Régions urbaines",
                 "Principales routes et autoroutes",
                 "Communautés rurales",
                 "Régions urbaines",
@@ -3396,7 +3396,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "cp1252",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -3863,9 +3863,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Réserves des Premières Nations",
-                "Réserves des Premières Nations Régions urbaines",
-                "Réserves des Premières Nations Régions rurales",
+                "First Nations reserves areas",
+                "First Nations reserves areas Urban centres",
+                "First Nations reserves areas Rural areas",
                 "Régions urbaines",
                 "Régions rurales",
                 "Total centre de population",
@@ -4869,7 +4869,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "cp1252",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -5642,7 +5642,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "cp1252",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -5939,7 +5939,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "cp1252",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
