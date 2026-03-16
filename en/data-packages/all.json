@@ -2824,9 +2824,9 @@
             "constraints": {
               "enum": [
                 "Total population centre",
-                "First Nations reserves areas, Rural areas",
-                "First Nations reserves areas",
-                "First Nations reserves areas, Urban centres",
+                "data.First Nations reserves Rural areas",
+                "data.First Nations reserves",
+                "data.First Nations reserves Urban centres",
                 "Major roads and highways",
                 "Rural communities",
                 "Urban centres",
@@ -3864,8 +3864,8 @@
             "constraints": {
               "enum": [
                 "First Nations reserves areas",
-                "First Nations reserves areas Urban centres",
-                "First Nations reserves areas Rural areas",
+                "First Nations reserves areas, Urban centres",
+                "First Nations reserves areas, Rural areas",
                 "Urban centres",
                 "Rural areas",
                 "Total population centre",

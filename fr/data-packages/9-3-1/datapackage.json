@@ -44,9 +44,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "First Nations reserves areas",
-                "First Nations reserves areas Urban centres",
-                "First Nations reserves areas Rural areas",
+                "Secteurs des Réserves des Premières Nations",
+                "Secteurs des Réserves des Premières Nations, Régions urbaines",
+                "Secteurs des Réserves des Premières Nations, Régions rurales",
                 "Régions urbaines",
                 "Régions rurales",
                 "Total centre de population",

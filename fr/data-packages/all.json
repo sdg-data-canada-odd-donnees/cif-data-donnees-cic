@@ -2824,9 +2824,9 @@
             "constraints": {
               "enum": [
                 "Total centre de population",
-                "Secteurs des Réserves des Premières Nations, Régions rurales",
-                "Secteurs des Réserves des Premières Nations",
-                "Secteurs des Réserves des Premières Nations, Régions urbaines",
+                "data.First Nations reserves Rural areas",
+                "data.First Nations reserves",
+                "data.First Nations reserves Urban centres",
                 "Principales routes et autoroutes",
                 "Communautés rurales",
                 "Régions urbaines",
@@ -3863,9 +3863,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "First Nations reserves areas",
-                "First Nations reserves areas Urban centres",
-                "First Nations reserves areas Rural areas",
+                "Secteurs des Réserves des Premières Nations",
+                "Secteurs des Réserves des Premières Nations, Régions urbaines",
+                "Secteurs des Réserves des Premières Nations, Régions rurales",
                 "Régions urbaines",
                 "Régions rurales",
                 "Total centre de population",
