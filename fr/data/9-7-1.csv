@@ -9,6 +9,7 @@ Year,Géographie,Actif,GeoCode,Value
 2022,,,,59.3
 2023,,,,59.4
 2024,,,,59.4
+2025,,,,59.5
 2015,Canada,Immeubles commerciaux,,56.8
 2015,Canada,Installations sportives avec capacité d'accueil de spectateurs,,59.1
 2015,Canada,Installations récréatives intérieures,,60.0
@@ -6510,8 +6511,8 @@ Year,Géographie,Actif,GeoCode,Value
 2023,Canada,Lieux historiques,,55.8
 2023,Canada,Bibliothèques,,51.0
 2023,Canada,Installations de sécurité publique,,55.8
-2023,Canada,Infrastructures de génie maritime,,58.1
-2023,Canada,Ports de mer,,69.3
+2023,Canada,Infrastructures de génie maritime,,58.0
+2023,Canada,Ports de mer,,69.1
 2023,Canada,Ports de plaisance et ports de commerce,,30.5
 2023,Canada,Canaux et voies navigables,,56.1
 2023,Canada,Autres infrastructures de génie maritime,,52.7
@@ -6980,10 +6981,10 @@ Year,Géographie,Actif,GeoCode,Value
 2023,Saskatchewan,Lieux historiques,47,84.2
 2023,Saskatchewan,Bibliothèques,47,64.2
 2023,Saskatchewan,Installations de sécurité publique,47,67.1
-2023,Saskatchewan,Infrastructures de génie maritime,47,56.2
-2023,Saskatchewan,Ports de mer,47,78.8
+2023,Saskatchewan,Infrastructures de génie maritime,47,36.1
+2023,Saskatchewan,Ports de mer,47,28.8
 2023,Saskatchewan,Ports de plaisance et ports de commerce,47,42.5
-2023,Saskatchewan,Canaux et voies navigables,47,67.2
+2023,Saskatchewan,Canaux et voies navigables,47,67.3
 2023,Saskatchewan,Autres infrastructures de génie maritime,47,24.7
 2023,Saskatchewan,Infrastructures de génie liées aux transports,47,62.7
 2023,Saskatchewan,Structures et réseaux autoroutiers et routiers,47,60.3
@@ -7306,814 +7307,1627 @@ Year,Géographie,Actif,GeoCode,Value
 2023,Nunavut,Machines et matériel de transport,62,79.9
 2023,Nunavut,Autobus,62,69.8
 2023,Nunavut,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",62,82.6
-2024,Canada,Immeubles commerciaux,,55.5
-2024,Canada,Installations sportives avec capacité d'accueil de spectateurs,,57.4
-2024,Canada,Installations récréatives intérieures,,55.0
-2024,Canada,Résidences d'étudiants,,57.3
-2024,Canada,Aéroports et autres gares de voyageurs,,55.2
-2024,Canada,Édifices de communications,,55.8
+2024,Canada,Immeubles commerciaux,,55.9
+2024,Canada,Installations sportives avec capacité d'accueil de spectateurs,,59.3
+2024,Canada,Installations récréatives intérieures,,54.8
+2024,Canada,Résidences d'étudiants,,56.4
+2024,Canada,Aéroports et autres gares de voyageurs,,55.8
+2024,Canada,Édifices de communications,,56.1
 2024,Canada,Bâtiments institutionnels,,58.4
 2024,Canada,"Écoles, collèges, universités et autres bâtiments d'enseignement",,58.5
-2024,Canada,Hôpitaux,,59.8
-2024,Canada,Maisons de soins infirmiers et résidences pour personnes âgées,,58.2
-2024,Canada,Centres religieux et lieux commémoratifs,,47.8
-2024,Canada,Musées,,63.8
-2024,Canada,Lieux historiques,,55.4
-2024,Canada,Bibliothèques,,49.7
-2024,Canada,Installations de sécurité publique,,55.6
-2024,Canada,Infrastructures de génie maritime,,58.4
-2024,Canada,Ports de mer,,68.9
-2024,Canada,Ports de plaisance et ports de commerce,,29.8
-2024,Canada,Canaux et voies navigables,,56.0
-2024,Canada,Autres infrastructures de génie maritime,,53.6
-2024,Canada,Infrastructures de génie liées aux transports,,59.2
-2024,Canada,Structures et réseaux autoroutiers et routiers,,53.3
-2024,Canada,Ponts,,61.0
-2024,Canada,Tunnels,,81.5
+2024,Canada,Hôpitaux,,59.9
+2024,Canada,Maisons de soins infirmiers et résidences pour personnes âgées,,57.9
+2024,Canada,Centres religieux et lieux commémoratifs,,47.6
+2024,Canada,Musées,,64.5
+2024,Canada,Lieux historiques,,55.2
+2024,Canada,Bibliothèques,,49.8
+2024,Canada,Installations de sécurité publique,,55.5
+2024,Canada,Infrastructures de génie maritime,,58.2
+2024,Canada,Ports de mer,,68.6
+2024,Canada,Ports de plaisance et ports de commerce,,30.0
+2024,Canada,Canaux et voies navigables,,56.6
+2024,Canada,Autres infrastructures de génie maritime,,53.0
+2024,Canada,Infrastructures de génie liées aux transports,,59.3
+2024,Canada,Structures et réseaux autoroutiers et routiers,,53.4
+2024,Canada,Ponts,,60.6
+2024,Canada,Tunnels,,81.3
 2024,Canada,Lignes de chemins de fer,,70.0
-2024,Canada,Pistes d'atterrissage et de décollage,,64.4
+2024,Canada,Pistes d'atterrissage et de décollage,,64.9
 2024,Canada,Infrastructure d'adduction et de distribution d'eau,,57.5
-2024,Canada,Usines de filtration de l'eau,,52.7
-2024,Canada,Autres infrastructure d'eau,,59.3
+2024,Canada,Usines de filtration de l'eau,,52.5
+2024,Canada,Autres infrastructure d'eau,,59.4
 2024,Canada,Infrastructures pour les eaux usées,,53.2
-2024,Canada,Usines d'épuration des eaux d'égout,,54.9
-2024,Canada,Autres infrastructure d'égout,,52.6
+2024,Canada,Usines d'épuration des eaux d'égout,,55.2
+2024,Canada,Autres infrastructure d'égout,,52.4
 2024,Canada,Réseaux de communication,,60.1
-2024,Canada,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",,58.0
-2024,Canada,Fibre optique,,59.3
-2024,Canada,Structures de support pour la transmission,,64.0
-2024,Canada,Autres structures de communication,,59.3
+2024,Canada,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",,57.7
+2024,Canada,Fibre optique,,59.4
+2024,Canada,Structures de support pour la transmission,,64.3
+2024,Canada,Autres structures de communication,,58.8
 2024,Canada,Infrastructure liées à l'énergie électrique,,61.2
-2024,Canada,Centrales éoliennes et panneaux solaires,,69.7
-2024,Canada,Centrale énergétique thermale,,67.9
-2024,Canada,Centrale énergétique nucléaire,,67.4
-2024,Canada,Centrale énergétique hydraulique,,63.0
+2024,Canada,Centrales éoliennes et panneaux solaires,,69.2
+2024,Canada,Centrale énergétique thermale,,68.8
+2024,Canada,Centrale énergétique nucléaire,,68.0
+2024,Canada,Centrale énergétique hydraulique,,62.7
 2024,Canada,Réseaux de transport d'électricité,,60.0
-2024,Canada,Réseau de distribution d'électricité,,57.9
-2024,Canada,Autres constructions de l'énergie électrique,,69.7
-2024,Canada,Construction liée aux installations de pétrole et de gaz,,71.1
-2024,Canada,Oléoducs,,71.1
-2024,Canada,Autres travaux de génie,,59.5
-2024,Canada,Installations d'élimination des déchets,,61.1
-2024,Canada,Installations récréatives de plein air,,62.5
-2024,Canada,Dépollution,,42.8
+2024,Canada,Réseau de distribution d'électricité,,58.0
+2024,Canada,Autres constructions de l'énergie électrique,,69.2
+2024,Canada,Construction liée aux installations de pétrole et de gaz,,70.6
+2024,Canada,Oléoducs,,70.6
+2024,Canada,Autres travaux de génie,,60.0
+2024,Canada,Installations d'élimination des déchets,,61.5
+2024,Canada,Installations récréatives de plein air,,63.0
+2024,Canada,Dépollution,,43.3
 2024,Canada,Autres machines et matériel,,54.0
-2024,Canada,"Turbines, turbogénérateurs et groupes générateurs de turbine",,55.4
-2024,Canada,"Systèmes d'alimentation en vapeur, de réacteur nucléaire",,68.6
-2024,Canada,Matériel de traitement de l'eau,,53.9
-2024,Canada,Transformateurs de puissance et de distribution,,50.7
-2024,Canada,Machines et matériel de transport,,57.2
+2024,Canada,"Turbines, turbogénérateurs et groupes générateurs de turbine",,55.3
+2024,Canada,"Systèmes d'alimentation en vapeur, de réacteur nucléaire",,68.2
+2024,Canada,Matériel de traitement de l'eau,,55.6
+2024,Canada,Transformateurs de puissance et de distribution,,50.8
+2024,Canada,Machines et matériel de transport,,57.3
 2024,Canada,Autobus,,42.6
 2024,Canada,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",,64.4
-2024,Terre-Neuve-et-Labrador,Total des actifs,10,64.6
-2024,Terre-Neuve-et-Labrador,Immeubles commerciaux,10,56.6
-2024,Terre-Neuve-et-Labrador,Installations sportives avec capacité d'accueil de spectateurs,10,70.4
-2024,Terre-Neuve-et-Labrador,Installations récréatives intérieures,10,56.0
+2024,Terre-Neuve-et-Labrador,Total des actifs,10,64.5
+2024,Terre-Neuve-et-Labrador,Immeubles commerciaux,10,56.5
+2024,Terre-Neuve-et-Labrador,Installations sportives avec capacité d'accueil de spectateurs,10,67.2
+2024,Terre-Neuve-et-Labrador,Installations récréatives intérieures,10,56.5
 2024,Terre-Neuve-et-Labrador,Résidences d'étudiants,10,71.3
-2024,Terre-Neuve-et-Labrador,Aéroports et autres gares de voyageurs,10,56.3
-2024,Terre-Neuve-et-Labrador,Édifices de communications,10,54.5
-2024,Terre-Neuve-et-Labrador,Bâtiments institutionnels,10,61.8
+2024,Terre-Neuve-et-Labrador,Aéroports et autres gares de voyageurs,10,55.5
+2024,Terre-Neuve-et-Labrador,Édifices de communications,10,54.7
+2024,Terre-Neuve-et-Labrador,Bâtiments institutionnels,10,61.9
 2024,Terre-Neuve-et-Labrador,"Écoles, collèges, universités et autres bâtiments d'enseignement",10,55.8
-2024,Terre-Neuve-et-Labrador,Hôpitaux,10,71.1
-2024,Terre-Neuve-et-Labrador,Maisons de soins infirmiers et résidences pour personnes âgées,10,67.1
-2024,Terre-Neuve-et-Labrador,Centres religieux et lieux commémoratifs,10,78.0
-2024,Terre-Neuve-et-Labrador,Musées,10,43.9
-2024,Terre-Neuve-et-Labrador,Lieux historiques,10,80.5
+2024,Terre-Neuve-et-Labrador,Hôpitaux,10,71.0
+2024,Terre-Neuve-et-Labrador,Maisons de soins infirmiers et résidences pour personnes âgées,10,67.4
+2024,Terre-Neuve-et-Labrador,Centres religieux et lieux commémoratifs,10,75.1
+2024,Terre-Neuve-et-Labrador,Musées,10,43.8
+2024,Terre-Neuve-et-Labrador,Lieux historiques,10,83.3
 2024,Terre-Neuve-et-Labrador,Bibliothèques,10,85.3
-2024,Terre-Neuve-et-Labrador,Installations de sécurité publique,10,57.8
-2024,Terre-Neuve-et-Labrador,Infrastructures de génie maritime,10,54.2
-2024,Terre-Neuve-et-Labrador,Ports de mer,10,63.8
-2024,Terre-Neuve-et-Labrador,Ports de plaisance et ports de commerce,10,34.1
+2024,Terre-Neuve-et-Labrador,Installations de sécurité publique,10,58.6
+2024,Terre-Neuve-et-Labrador,Infrastructures de génie maritime,10,54.3
+2024,Terre-Neuve-et-Labrador,Ports de mer,10,64.0
+2024,Terre-Neuve-et-Labrador,Ports de plaisance et ports de commerce,10,33.8
 2024,Terre-Neuve-et-Labrador,Canaux et voies navigables,10,49.1
-2024,Terre-Neuve-et-Labrador,Autres infrastructures de génie maritime,10,52.2
+2024,Terre-Neuve-et-Labrador,Autres infrastructures de génie maritime,10,51.4
 2024,Terre-Neuve-et-Labrador,Infrastructures de génie liées aux transports,10,51.3
 2024,Terre-Neuve-et-Labrador,Structures et réseaux autoroutiers et routiers,10,51.7
-2024,Terre-Neuve-et-Labrador,Ponts,10,56.5
+2024,Terre-Neuve-et-Labrador,Ponts,10,57.2
 2024,Terre-Neuve-et-Labrador,Tunnels,10,32.2
-2024,Terre-Neuve-et-Labrador,Lignes de chemins de fer,10,53.1
+2024,Terre-Neuve-et-Labrador,Lignes de chemins de fer,10,53.0
 2024,Terre-Neuve-et-Labrador,Pistes d'atterrissage et de décollage,10,47.4
 2024,Terre-Neuve-et-Labrador,Infrastructure d'adduction et de distribution d'eau,10,52.6
-2024,Terre-Neuve-et-Labrador,Usines de filtration de l'eau,10,61.9
-2024,Terre-Neuve-et-Labrador,Autres infrastructure d'eau,10,52.3
+2024,Terre-Neuve-et-Labrador,Usines de filtration de l'eau,10,61.1
+2024,Terre-Neuve-et-Labrador,Autres infrastructure d'eau,10,52.4
 2024,Terre-Neuve-et-Labrador,Infrastructures pour les eaux usées,10,48.5
-2024,Terre-Neuve-et-Labrador,Usines d'épuration des eaux d'égout,10,73.3
-2024,Terre-Neuve-et-Labrador,Autres infrastructure d'égout,10,48.0
+2024,Terre-Neuve-et-Labrador,Usines d'épuration des eaux d'égout,10,79.6
+2024,Terre-Neuve-et-Labrador,Autres infrastructure d'égout,10,47.6
 2024,Terre-Neuve-et-Labrador,Réseaux de communication,10,61.9
-2024,Terre-Neuve-et-Labrador,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",10,60.0
-2024,Terre-Neuve-et-Labrador,Fibre optique,10,60.4
-2024,Terre-Neuve-et-Labrador,Structures de support pour la transmission,10,61.0
-2024,Terre-Neuve-et-Labrador,Autres structures de communication,10,81.5
+2024,Terre-Neuve-et-Labrador,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",10,59.6
+2024,Terre-Neuve-et-Labrador,Fibre optique,10,60.3
+2024,Terre-Neuve-et-Labrador,Structures de support pour la transmission,10,61.7
+2024,Terre-Neuve-et-Labrador,Autres structures de communication,10,81.1
 2024,Terre-Neuve-et-Labrador,Infrastructure liées à l'énergie électrique,10,72.1
 2024,Terre-Neuve-et-Labrador,Centrales éoliennes et panneaux solaires,10,68.7
-2024,Terre-Neuve-et-Labrador,Centrale énergétique thermale,10,80.5
+2024,Terre-Neuve-et-Labrador,Centrale énergétique thermale,10,80.3
 2024,Terre-Neuve-et-Labrador,Centrale énergétique hydraulique,10,71.8
-2024,Terre-Neuve-et-Labrador,Réseaux de transport d'électricité,10,71.7
-2024,Terre-Neuve-et-Labrador,Réseau de distribution d'électricité,10,79.2
+2024,Terre-Neuve-et-Labrador,Réseaux de transport d'électricité,10,71.6
+2024,Terre-Neuve-et-Labrador,Réseau de distribution d'électricité,10,79.6
 2024,Terre-Neuve-et-Labrador,Autres constructions de l'énergie électrique,10,68.7
 2024,Terre-Neuve-et-Labrador,Construction liée aux installations de pétrole et de gaz,10,57.5
 2024,Terre-Neuve-et-Labrador,Oléoducs,10,57.5
-2024,Terre-Neuve-et-Labrador,Autres travaux de génie,10,53.3
-2024,Terre-Neuve-et-Labrador,Installations d'élimination des déchets,10,63.0
-2024,Terre-Neuve-et-Labrador,Installations récréatives de plein air,10,52.3
-2024,Terre-Neuve-et-Labrador,Dépollution,10,39.2
-2024,Terre-Neuve-et-Labrador,Autres machines et matériel,10,58.6
+2024,Terre-Neuve-et-Labrador,Autres travaux de génie,10,52.3
+2024,Terre-Neuve-et-Labrador,Installations d'élimination des déchets,10,57.6
+2024,Terre-Neuve-et-Labrador,Installations récréatives de plein air,10,52.0
+2024,Terre-Neuve-et-Labrador,Dépollution,10,39.3
+2024,Terre-Neuve-et-Labrador,Autres machines et matériel,10,58.7
 2024,Terre-Neuve-et-Labrador,"Turbines, turbogénérateurs et groupes générateurs de turbine",10,75.9
-2024,Terre-Neuve-et-Labrador,Matériel de traitement de l'eau,10,68.6
-2024,Terre-Neuve-et-Labrador,Transformateurs de puissance et de distribution,10,48.2
+2024,Terre-Neuve-et-Labrador,Matériel de traitement de l'eau,10,64.6
+2024,Terre-Neuve-et-Labrador,Transformateurs de puissance et de distribution,10,48.5
 2024,Terre-Neuve-et-Labrador,Machines et matériel de transport,10,44.9
 2024,Terre-Neuve-et-Labrador,Autobus,10,48.8
 2024,Terre-Neuve-et-Labrador,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",10,40.9
 2024,Île-du-Prince-Édouard,Total des actifs,11,58.5
-2024,Île-du-Prince-Édouard,Immeubles commerciaux,11,79.9
-2024,Île-du-Prince-Édouard,Installations sportives avec capacité d'accueil de spectateurs,11,58.5
-2024,Île-du-Prince-Édouard,Installations récréatives intérieures,11,77.2
+2024,Île-du-Prince-Édouard,Immeubles commerciaux,11,79.3
+2024,Île-du-Prince-Édouard,Installations sportives avec capacité d'accueil de spectateurs,11,58.6
+2024,Île-du-Prince-Édouard,Installations récréatives intérieures,11,80.1
 2024,Île-du-Prince-Édouard,Résidences d'étudiants,11,89.5
-2024,Île-du-Prince-Édouard,Aéroports et autres gares de voyageurs,11,92.2
-2024,Île-du-Prince-Édouard,Édifices de communications,11,66.9
-2024,Île-du-Prince-Édouard,Bâtiments institutionnels,11,56.3
+2024,Île-du-Prince-Édouard,Aéroports et autres gares de voyageurs,11,86.0
+2024,Île-du-Prince-Édouard,Édifices de communications,11,70.2
+2024,Île-du-Prince-Édouard,Bâtiments institutionnels,11,56.4
 2024,Île-du-Prince-Édouard,"Écoles, collèges, universités et autres bâtiments d'enseignement",11,55.1
-2024,Île-du-Prince-Édouard,Hôpitaux,11,57.7
-2024,Île-du-Prince-Édouard,Maisons de soins infirmiers et résidences pour personnes âgées,11,50.1
-2024,Île-du-Prince-Édouard,Centres religieux et lieux commémoratifs,11,51.8
-2024,Île-du-Prince-Édouard,Musées,11,58.4
+2024,Île-du-Prince-Édouard,Hôpitaux,11,58.1
+2024,Île-du-Prince-Édouard,Maisons de soins infirmiers et résidences pour personnes âgées,11,51.3
+2024,Île-du-Prince-Édouard,Centres religieux et lieux commémoratifs,11,52.1
+2024,Île-du-Prince-Édouard,Musées,11,63.1
 2024,Île-du-Prince-Édouard,Lieux historiques,11,90.4
 2024,Île-du-Prince-Édouard,Bibliothèques,11,89.6
-2024,Île-du-Prince-Édouard,Installations de sécurité publique,11,58.4
+2024,Île-du-Prince-Édouard,Installations de sécurité publique,11,57.0
 2024,Île-du-Prince-Édouard,Infrastructures de génie maritime,11,53.1
 2024,Île-du-Prince-Édouard,Ports de mer,11,54.5
-2024,Île-du-Prince-Édouard,Ports de plaisance et ports de commerce,11,48.4
-2024,Île-du-Prince-Édouard,Canaux et voies navigables,11,27.2
-2024,Île-du-Prince-Édouard,Autres infrastructures de génie maritime,11,39.9
+2024,Île-du-Prince-Édouard,Ports de plaisance et ports de commerce,11,44.3
+2024,Île-du-Prince-Édouard,Canaux et voies navigables,11,48.4
+2024,Île-du-Prince-Édouard,Autres infrastructures de génie maritime,11,39.8
 2024,Île-du-Prince-Édouard,Infrastructures de génie liées aux transports,11,52.3
-2024,Île-du-Prince-Édouard,Structures et réseaux autoroutiers et routiers,11,52.6
-2024,Île-du-Prince-Édouard,Ponts,11,51.4
+2024,Île-du-Prince-Édouard,Structures et réseaux autoroutiers et routiers,11,52.5
+2024,Île-du-Prince-Édouard,Ponts,11,52.0
 2024,Île-du-Prince-Édouard,Tunnels,11,28.9
-2024,Île-du-Prince-Édouard,Lignes de chemins de fer,11,56.2
+2024,Île-du-Prince-Édouard,Lignes de chemins de fer,11,56.1
 2024,Île-du-Prince-Édouard,Pistes d'atterrissage et de décollage,11,51.6
 2024,Île-du-Prince-Édouard,Infrastructure d'adduction et de distribution d'eau,11,63.0
 2024,Île-du-Prince-Édouard,Usines de filtration de l'eau,11,49.9
 2024,Île-du-Prince-Édouard,Autres infrastructure d'eau,11,66.0
 2024,Île-du-Prince-Édouard,Infrastructures pour les eaux usées,11,55.0
-2024,Île-du-Prince-Édouard,Usines d'épuration des eaux d'égout,11,52.0
-2024,Île-du-Prince-Édouard,Autres infrastructure d'égout,11,57.1
+2024,Île-du-Prince-Édouard,Usines d'épuration des eaux d'égout,11,52.5
+2024,Île-du-Prince-Édouard,Autres infrastructure d'égout,11,56.8
 2024,Île-du-Prince-Édouard,Réseaux de communication,11,59.9
 2024,Île-du-Prince-Édouard,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",11,56.4
 2024,Île-du-Prince-Édouard,Fibre optique,11,60.3
-2024,Île-du-Prince-Édouard,Structures de support pour la transmission,11,56.0
+2024,Île-du-Prince-Édouard,Structures de support pour la transmission,11,56.1
 2024,Île-du-Prince-Édouard,Autres structures de communication,11,85.7
-2024,Île-du-Prince-Édouard,Infrastructure liées à l'énergie électrique,11,64.5
-2024,Île-du-Prince-Édouard,Centrales éoliennes et panneaux solaires,11,77.5
+2024,Île-du-Prince-Édouard,Infrastructure liées à l'énergie électrique,11,64.3
+2024,Île-du-Prince-Édouard,Centrales éoliennes et panneaux solaires,11,78.5
 2024,Île-du-Prince-Édouard,Centrale énergétique thermale,11,55.1
-2024,Île-du-Prince-Édouard,Réseaux de transport d'électricité,11,60.2
-2024,Île-du-Prince-Édouard,Réseau de distribution d'électricité,11,65.4
-2024,Île-du-Prince-Édouard,Autres constructions de l'énergie électrique,11,77.5
+2024,Île-du-Prince-Édouard,Réseaux de transport d'électricité,11,59.6
+2024,Île-du-Prince-Édouard,Réseau de distribution d'électricité,11,64.8
+2024,Île-du-Prince-Édouard,Autres constructions de l'énergie électrique,11,78.5
 2024,Île-du-Prince-Édouard,Construction liée aux installations de pétrole et de gaz,11,45.8
 2024,Île-du-Prince-Édouard,Oléoducs,11,45.8
-2024,Île-du-Prince-Édouard,Autres travaux de génie,11,59.4
-2024,Île-du-Prince-Édouard,Installations d'élimination des déchets,11,40.0
-2024,Île-du-Prince-Édouard,Installations récréatives de plein air,11,68.4
+2024,Île-du-Prince-Édouard,Autres travaux de génie,11,59.7
+2024,Île-du-Prince-Édouard,Installations d'élimination des déchets,11,41.1
+2024,Île-du-Prince-Édouard,Installations récréatives de plein air,11,68.5
 2024,Île-du-Prince-Édouard,Dépollution,11,27.6
-2024,Île-du-Prince-Édouard,Autres machines et matériel,11,48.1
+2024,Île-du-Prince-Édouard,Autres machines et matériel,11,47.8
 2024,Île-du-Prince-Édouard,"Turbines, turbogénérateurs et groupes générateurs de turbine",11,45.4
-2024,Île-du-Prince-Édouard,Matériel de traitement de l'eau,11,46.2
+2024,Île-du-Prince-Édouard,Matériel de traitement de l'eau,11,39.9
 2024,Île-du-Prince-Édouard,Transformateurs de puissance et de distribution,11,49.4
 2024,Île-du-Prince-Édouard,Machines et matériel de transport,11,66.5
 2024,Île-du-Prince-Édouard,Autobus,11,73.5
 2024,Île-du-Prince-Édouard,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",11,30.9
-2024,Nouvelle-Écosse,Total des actifs,12,57.2
-2024,Nouvelle-Écosse,Immeubles commerciaux,12,59.0
-2024,Nouvelle-Écosse,Installations sportives avec capacité d'accueil de spectateurs,12,53.5
-2024,Nouvelle-Écosse,Installations récréatives intérieures,12,59.2
+2024,Nouvelle-Écosse,Total des actifs,12,57.3
+2024,Nouvelle-Écosse,Immeubles commerciaux,12,59.7
+2024,Nouvelle-Écosse,Installations sportives avec capacité d'accueil de spectateurs,12,70.1
+2024,Nouvelle-Écosse,Installations récréatives intérieures,12,59.0
 2024,Nouvelle-Écosse,Résidences d'étudiants,12,80.2
-2024,Nouvelle-Écosse,Aéroports et autres gares de voyageurs,12,62.2
-2024,Nouvelle-Écosse,Édifices de communications,12,47.4
+2024,Nouvelle-Écosse,Aéroports et autres gares de voyageurs,12,58.5
+2024,Nouvelle-Écosse,Édifices de communications,12,47.9
 2024,Nouvelle-Écosse,Bâtiments institutionnels,12,59.8
 2024,Nouvelle-Écosse,"Écoles, collèges, universités et autres bâtiments d'enseignement",12,61.6
-2024,Nouvelle-Écosse,Hôpitaux,12,64.6
-2024,Nouvelle-Écosse,Maisons de soins infirmiers et résidences pour personnes âgées,12,53.2
-2024,Nouvelle-Écosse,Centres religieux et lieux commémoratifs,12,58.4
-2024,Nouvelle-Écosse,Musées,12,61.3
-2024,Nouvelle-Écosse,Lieux historiques,12,56.7
-2024,Nouvelle-Écosse,Bibliothèques,12,41.6
-2024,Nouvelle-Écosse,Installations de sécurité publique,12,42.1
+2024,Nouvelle-Écosse,Hôpitaux,12,65.8
+2024,Nouvelle-Écosse,Maisons de soins infirmiers et résidences pour personnes âgées,12,50.6
+2024,Nouvelle-Écosse,Centres religieux et lieux commémoratifs,12,60.5
+2024,Nouvelle-Écosse,Musées,12,62.5
+2024,Nouvelle-Écosse,Lieux historiques,12,57.8
+2024,Nouvelle-Écosse,Bibliothèques,12,43.4
+2024,Nouvelle-Écosse,Installations de sécurité publique,12,42.2
 2024,Nouvelle-Écosse,Infrastructures de génie maritime,12,54.0
-2024,Nouvelle-Écosse,Ports de mer,12,56.5
-2024,Nouvelle-Écosse,Ports de plaisance et ports de commerce,12,37.8
-2024,Nouvelle-Écosse,Canaux et voies navigables,12,53.1
-2024,Nouvelle-Écosse,Autres infrastructures de génie maritime,12,51.8
+2024,Nouvelle-Écosse,Ports de mer,12,55.9
+2024,Nouvelle-Écosse,Ports de plaisance et ports de commerce,12,47.6
+2024,Nouvelle-Écosse,Canaux et voies navigables,12,58.3
+2024,Nouvelle-Écosse,Autres infrastructures de génie maritime,12,49.6
 2024,Nouvelle-Écosse,Infrastructures de génie liées aux transports,12,56.2
 2024,Nouvelle-Écosse,Structures et réseaux autoroutiers et routiers,12,54.7
 2024,Nouvelle-Écosse,Ponts,12,65.9
 2024,Nouvelle-Écosse,Tunnels,12,31.4
 2024,Nouvelle-Écosse,Lignes de chemins de fer,12,55.9
-2024,Nouvelle-Écosse,Pistes d'atterrissage et de décollage,12,55.2
+2024,Nouvelle-Écosse,Pistes d'atterrissage et de décollage,12,54.2
 2024,Nouvelle-Écosse,Infrastructure d'adduction et de distribution d'eau,12,48.1
-2024,Nouvelle-Écosse,Usines de filtration de l'eau,12,45.9
-2024,Nouvelle-Écosse,Autres infrastructure d'eau,12,48.2
+2024,Nouvelle-Écosse,Usines de filtration de l'eau,12,43.8
+2024,Nouvelle-Écosse,Autres infrastructure d'eau,12,48.3
 2024,Nouvelle-Écosse,Infrastructures pour les eaux usées,12,46.5
-2024,Nouvelle-Écosse,Usines d'épuration des eaux d'égout,12,63.8
-2024,Nouvelle-Écosse,Autres infrastructure d'égout,12,44.5
+2024,Nouvelle-Écosse,Usines d'épuration des eaux d'égout,12,61.3
+2024,Nouvelle-Écosse,Autres infrastructure d'égout,12,44.9
 2024,Nouvelle-Écosse,Réseaux de communication,12,58.5
 2024,Nouvelle-Écosse,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",12,58.2
-2024,Nouvelle-Écosse,Fibre optique,12,56.4
-2024,Nouvelle-Écosse,Structures de support pour la transmission,12,55.9
+2024,Nouvelle-Écosse,Fibre optique,12,56.2
+2024,Nouvelle-Écosse,Structures de support pour la transmission,12,56.2
 2024,Nouvelle-Écosse,Autres structures de communication,12,78.6
-2024,Nouvelle-Écosse,Infrastructure liées à l'énergie électrique,12,58.9
-2024,Nouvelle-Écosse,Centrales éoliennes et panneaux solaires,12,53.5
-2024,Nouvelle-Écosse,Centrale énergétique thermale,12,52.3
-2024,Nouvelle-Écosse,Centrale énergétique hydraulique,12,60.6
-2024,Nouvelle-Écosse,Réseaux de transport d'électricité,12,60.0
-2024,Nouvelle-Écosse,Réseau de distribution d'électricité,12,62.7
-2024,Nouvelle-Écosse,Autres constructions de l'énergie électrique,12,53.5
+2024,Nouvelle-Écosse,Infrastructure liées à l'énergie électrique,12,59.0
+2024,Nouvelle-Écosse,Centrales éoliennes et panneaux solaires,12,52.4
+2024,Nouvelle-Écosse,Centrale énergétique thermale,12,52.2
+2024,Nouvelle-Écosse,Centrale énergétique hydraulique,12,57.9
+2024,Nouvelle-Écosse,Réseaux de transport d'électricité,12,60.5
+2024,Nouvelle-Écosse,Réseau de distribution d'électricité,12,63.8
+2024,Nouvelle-Écosse,Autres constructions de l'énergie électrique,12,52.4
 2024,Nouvelle-Écosse,Construction liée aux installations de pétrole et de gaz,12,27.5
 2024,Nouvelle-Écosse,Oléoducs,12,27.5
-2024,Nouvelle-Écosse,Autres travaux de génie,12,74.3
-2024,Nouvelle-Écosse,Installations d'élimination des déchets,12,83.7
-2024,Nouvelle-Écosse,Installations récréatives de plein air,12,70.1
+2024,Nouvelle-Écosse,Autres travaux de génie,12,73.3
+2024,Nouvelle-Écosse,Installations d'élimination des déchets,12,82.8
+2024,Nouvelle-Écosse,Installations récréatives de plein air,12,69.0
 2024,Nouvelle-Écosse,Dépollution,12,44.6
-2024,Nouvelle-Écosse,Autres machines et matériel,12,64.1
-2024,Nouvelle-Écosse,"Turbines, turbogénérateurs et groupes générateurs de turbine",12,64.8
-2024,Nouvelle-Écosse,Matériel de traitement de l'eau,12,48.9
+2024,Nouvelle-Écosse,Autres machines et matériel,12,63.2
+2024,Nouvelle-Écosse,"Turbines, turbogénérateurs et groupes générateurs de turbine",12,62.2
+2024,Nouvelle-Écosse,Matériel de traitement de l'eau,12,51.5
 2024,Nouvelle-Écosse,Transformateurs de puissance et de distribution,12,65.6
 2024,Nouvelle-Écosse,Machines et matériel de transport,12,45.6
 2024,Nouvelle-Écosse,Autobus,12,45.8
 2024,Nouvelle-Écosse,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",12,44.9
-2024,Nouveau-Brunswick,Total des actifs,13,53.0
-2024,Nouveau-Brunswick,Immeubles commerciaux,13,57.9
-2024,Nouveau-Brunswick,Installations sportives avec capacité d'accueil de spectateurs,13,60.9
-2024,Nouveau-Brunswick,Installations récréatives intérieures,13,60.2
-2024,Nouveau-Brunswick,Résidences d'étudiants,13,52.8
-2024,Nouveau-Brunswick,Aéroports et autres gares de voyageurs,13,52.3
-2024,Nouveau-Brunswick,Édifices de communications,13,59.1
+2024,Nouveau-Brunswick,Total des actifs,13,53.1
+2024,Nouveau-Brunswick,Immeubles commerciaux,13,58.4
+2024,Nouveau-Brunswick,Installations sportives avec capacité d'accueil de spectateurs,13,62.4
+2024,Nouveau-Brunswick,Installations récréatives intérieures,13,58.6
+2024,Nouveau-Brunswick,Résidences d'étudiants,13,59.0
+2024,Nouveau-Brunswick,Aéroports et autres gares de voyageurs,13,53.1
+2024,Nouveau-Brunswick,Édifices de communications,13,60.5
 2024,Nouveau-Brunswick,Bâtiments institutionnels,13,51.8
 2024,Nouveau-Brunswick,"Écoles, collèges, universités et autres bâtiments d'enseignement",13,52.1
-2024,Nouveau-Brunswick,Hôpitaux,13,53.3
-2024,Nouveau-Brunswick,Maisons de soins infirmiers et résidences pour personnes âgées,13,38.8
-2024,Nouveau-Brunswick,Centres religieux et lieux commémoratifs,13,50.0
-2024,Nouveau-Brunswick,Musées,13,84.0
-2024,Nouveau-Brunswick,Lieux historiques,13,73.9
-2024,Nouveau-Brunswick,Bibliothèques,13,54.8
-2024,Nouveau-Brunswick,Installations de sécurité publique,13,63.4
-2024,Nouveau-Brunswick,Infrastructures de génie maritime,13,62.2
-2024,Nouveau-Brunswick,Ports de mer,13,65.3
-2024,Nouveau-Brunswick,Ports de plaisance et ports de commerce,13,47.5
-2024,Nouveau-Brunswick,Canaux et voies navigables,13,43.0
+2024,Nouveau-Brunswick,Hôpitaux,13,53.4
+2024,Nouveau-Brunswick,Maisons de soins infirmiers et résidences pour personnes âgées,13,38.9
+2024,Nouveau-Brunswick,Centres religieux et lieux commémoratifs,13,51.1
+2024,Nouveau-Brunswick,Musées,13,85.2
+2024,Nouveau-Brunswick,Lieux historiques,13,70.9
+2024,Nouveau-Brunswick,Bibliothèques,13,53.6
+2024,Nouveau-Brunswick,Installations de sécurité publique,13,62.8
+2024,Nouveau-Brunswick,Infrastructures de génie maritime,13,62.0
+2024,Nouveau-Brunswick,Ports de mer,13,65.2
+2024,Nouveau-Brunswick,Ports de plaisance et ports de commerce,13,49.8
+2024,Nouveau-Brunswick,Canaux et voies navigables,13,43.5
 2024,Nouveau-Brunswick,Autres infrastructures de génie maritime,13,45.7
-2024,Nouveau-Brunswick,Infrastructures de génie liées aux transports,13,49.9
-2024,Nouveau-Brunswick,Structures et réseaux autoroutiers et routiers,13,48.5
-2024,Nouveau-Brunswick,Ponts,13,60.5
+2024,Nouveau-Brunswick,Infrastructures de génie liées aux transports,13,50.1
+2024,Nouveau-Brunswick,Structures et réseaux autoroutiers et routiers,13,48.6
+2024,Nouveau-Brunswick,Ponts,13,60.0
 2024,Nouveau-Brunswick,Tunnels,13,29.1
-2024,Nouveau-Brunswick,Lignes de chemins de fer,13,52.3
-2024,Nouveau-Brunswick,Pistes d'atterrissage et de décollage,13,56.2
+2024,Nouveau-Brunswick,Lignes de chemins de fer,13,53.7
+2024,Nouveau-Brunswick,Pistes d'atterrissage et de décollage,13,57.5
 2024,Nouveau-Brunswick,Infrastructure d'adduction et de distribution d'eau,13,57.1
-2024,Nouveau-Brunswick,Usines de filtration de l'eau,13,49.2
+2024,Nouveau-Brunswick,Usines de filtration de l'eau,13,48.9
 2024,Nouveau-Brunswick,Autres infrastructure d'eau,13,59.7
 2024,Nouveau-Brunswick,Infrastructures pour les eaux usées,13,50.2
-2024,Nouveau-Brunswick,Usines d'épuration des eaux d'égout,13,63.8
-2024,Nouveau-Brunswick,Autres infrastructure d'égout,13,46.5
+2024,Nouveau-Brunswick,Usines d'épuration des eaux d'égout,13,64.0
+2024,Nouveau-Brunswick,Autres infrastructure d'égout,13,46.4
 2024,Nouveau-Brunswick,Réseaux de communication,13,68.1
-2024,Nouveau-Brunswick,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",13,61.5
-2024,Nouveau-Brunswick,Fibre optique,13,69.2
-2024,Nouveau-Brunswick,Structures de support pour la transmission,13,69.7
-2024,Nouveau-Brunswick,Autres structures de communication,13,71.9
-2024,Nouveau-Brunswick,Infrastructure liées à l'énergie électrique,13,53.7
-2024,Nouveau-Brunswick,Centrales éoliennes et panneaux solaires,13,72.7
-2024,Nouveau-Brunswick,Centrale énergétique thermale,13,54.8
-2024,Nouveau-Brunswick,Centrale énergétique nucléaire,13,50.9
-2024,Nouveau-Brunswick,Centrale énergétique hydraulique,13,54.6
-2024,Nouveau-Brunswick,Réseaux de transport d'électricité,13,52.2
-2024,Nouveau-Brunswick,Réseau de distribution d'électricité,13,55.0
-2024,Nouveau-Brunswick,Autres constructions de l'énergie électrique,13,72.7
+2024,Nouveau-Brunswick,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",13,60.6
+2024,Nouveau-Brunswick,Fibre optique,13,69.3
+2024,Nouveau-Brunswick,Structures de support pour la transmission,13,70.3
+2024,Nouveau-Brunswick,Autres structures de communication,13,70.7
+2024,Nouveau-Brunswick,Infrastructure liées à l'énergie électrique,13,53.9
+2024,Nouveau-Brunswick,Centrales éoliennes et panneaux solaires,13,69.8
+2024,Nouveau-Brunswick,Centrale énergétique thermale,13,55.4
+2024,Nouveau-Brunswick,Centrale énergétique nucléaire,13,51.2
+2024,Nouveau-Brunswick,Centrale énergétique hydraulique,13,56.5
+2024,Nouveau-Brunswick,Réseaux de transport d'électricité,13,51.9
+2024,Nouveau-Brunswick,Réseau de distribution d'électricité,13,56.2
+2024,Nouveau-Brunswick,Autres constructions de l'énergie électrique,13,69.8
 2024,Nouveau-Brunswick,Construction liée aux installations de pétrole et de gaz,13,34.9
 2024,Nouveau-Brunswick,Oléoducs,13,34.9
-2024,Nouveau-Brunswick,Autres travaux de génie,13,57.8
-2024,Nouveau-Brunswick,Installations d'élimination des déchets,13,51.8
-2024,Nouveau-Brunswick,Installations récréatives de plein air,13,58.6
-2024,Nouveau-Brunswick,Dépollution,13,78.7
-2024,Nouveau-Brunswick,Autres machines et matériel,13,36.9
-2024,Nouveau-Brunswick,"Turbines, turbogénérateurs et groupes générateurs de turbine",13,52.2
-2024,Nouveau-Brunswick,Matériel de traitement de l'eau,13,59.3
+2024,Nouveau-Brunswick,Autres travaux de génie,13,58.7
+2024,Nouveau-Brunswick,Installations d'élimination des déchets,13,51.9
+2024,Nouveau-Brunswick,Installations récréatives de plein air,13,59.7
+2024,Nouveau-Brunswick,Dépollution,13,78.8
+2024,Nouveau-Brunswick,Autres machines et matériel,13,36.6
+2024,Nouveau-Brunswick,"Turbines, turbogénérateurs et groupes générateurs de turbine",13,50.1
+2024,Nouveau-Brunswick,"Systèmes d'alimentation en vapeur, de réacteur nucléaire",13,100.0
+2024,Nouveau-Brunswick,Matériel de traitement de l'eau,13,62.3
 2024,Nouveau-Brunswick,Transformateurs de puissance et de distribution,13,26.6
 2024,Nouveau-Brunswick,Machines et matériel de transport,13,66.0
 2024,Nouveau-Brunswick,Autobus,13,60.7
 2024,Nouveau-Brunswick,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",13,69.9
 2024,Québec,Total des actifs,24,57.4
-2024,Québec,Immeubles commerciaux,24,58.9
-2024,Québec,Installations sportives avec capacité d'accueil de spectateurs,24,55.1
-2024,Québec,Installations récréatives intérieures,24,55.0
-2024,Québec,Résidences d'étudiants,24,52.6
-2024,Québec,Aéroports et autres gares de voyageurs,24,65.1
-2024,Québec,Édifices de communications,24,49.9
+2024,Québec,Immeubles commerciaux,24,59.2
+2024,Québec,Installations sportives avec capacité d'accueil de spectateurs,24,56.1
+2024,Québec,Installations récréatives intérieures,24,55.1
+2024,Québec,Résidences d'étudiants,24,50.9
+2024,Québec,Aéroports et autres gares de voyageurs,24,65.2
+2024,Québec,Édifices de communications,24,50.3
 2024,Québec,Bâtiments institutionnels,24,63.0
 2024,Québec,"Écoles, collèges, universités et autres bâtiments d'enseignement",24,62.5
-2024,Québec,Hôpitaux,24,67.5
-2024,Québec,Maisons de soins infirmiers et résidences pour personnes âgées,24,67.4
-2024,Québec,Centres religieux et lieux commémoratifs,24,49.0
-2024,Québec,Musées,24,81.7
-2024,Québec,Lieux historiques,24,84.4
-2024,Québec,Bibliothèques,24,51.7
-2024,Québec,Installations de sécurité publique,24,50.0
+2024,Québec,Hôpitaux,24,67.4
+2024,Québec,Maisons de soins infirmiers et résidences pour personnes âgées,24,67.3
+2024,Québec,Centres religieux et lieux commémoratifs,24,49.6
+2024,Québec,Musées,24,82.6
+2024,Québec,Lieux historiques,24,83.0
+2024,Québec,Bibliothèques,24,51.8
+2024,Québec,Installations de sécurité publique,24,49.7
 2024,Québec,Infrastructures de génie maritime,24,53.6
-2024,Québec,Ports de mer,24,65.1
-2024,Québec,Ports de plaisance et ports de commerce,24,23.9
-2024,Québec,Canaux et voies navigables,24,57.2
-2024,Québec,Autres infrastructures de génie maritime,24,79.3
+2024,Québec,Ports de mer,24,64.9
+2024,Québec,Ports de plaisance et ports de commerce,24,23.6
+2024,Québec,Canaux et voies navigables,24,58.0
+2024,Québec,Autres infrastructures de génie maritime,24,77.9
 2024,Québec,Infrastructures de génie liées aux transports,24,57.4
 2024,Québec,Structures et réseaux autoroutiers et routiers,24,49.9
-2024,Québec,Ponts,24,74.6
-2024,Québec,Tunnels,24,89.5
-2024,Québec,Lignes de chemins de fer,24,71.8
-2024,Québec,Pistes d'atterrissage et de décollage,24,84.1
+2024,Québec,Ponts,24,75.2
+2024,Québec,Tunnels,24,88.9
+2024,Québec,Lignes de chemins de fer,24,71.7
+2024,Québec,Pistes d'atterrissage et de décollage,24,85.2
 2024,Québec,Infrastructure d'adduction et de distribution d'eau,24,53.6
-2024,Québec,Usines de filtration de l'eau,24,64.3
+2024,Québec,Usines de filtration de l'eau,24,64.1
 2024,Québec,Autres infrastructure d'eau,24,52.3
 2024,Québec,Infrastructures pour les eaux usées,24,49.3
-2024,Québec,Usines d'épuration des eaux d'égout,24,59.5
-2024,Québec,Autres infrastructure d'égout,24,47.9
+2024,Québec,Usines d'épuration des eaux d'égout,24,60.4
+2024,Québec,Autres infrastructure d'égout,24,47.8
 2024,Québec,Réseaux de communication,24,59.8
 2024,Québec,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",24,66.1
-2024,Québec,Fibre optique,24,55.9
-2024,Québec,Structures de support pour la transmission,24,65.6
-2024,Québec,Autres structures de communication,24,58.1
-2024,Québec,Infrastructure liées à l'énergie électrique,24,54.7
-2024,Québec,Centrales éoliennes et panneaux solaires,24,55.6
-2024,Québec,Centrale énergétique thermale,24,56.1
+2024,Québec,Fibre optique,24,55.8
+2024,Québec,Structures de support pour la transmission,24,66.3
+2024,Québec,Autres structures de communication,24,57.8
+2024,Québec,Infrastructure liées à l'énergie électrique,24,54.8
+2024,Québec,Centrales éoliennes et panneaux solaires,24,54.9
+2024,Québec,Centrale énergétique thermale,24,58.7
 2024,Québec,Centrale énergétique nucléaire,24,59.9
-2024,Québec,Centrale énergétique hydraulique,24,53.7
+2024,Québec,Centrale énergétique hydraulique,24,53.8
 2024,Québec,Réseaux de transport d'électricité,24,55.0
-2024,Québec,Réseau de distribution d'électricité,24,55.4
-2024,Québec,Autres constructions de l'énergie électrique,24,55.6
-2024,Québec,Construction liée aux installations de pétrole et de gaz,24,66.1
-2024,Québec,Oléoducs,24,66.1
-2024,Québec,Autres travaux de génie,24,67.4
-2024,Québec,Installations d'élimination des déchets,24,85.7
-2024,Québec,Installations récréatives de plein air,24,64.3
-2024,Québec,Dépollution,24,87.7
-2024,Québec,Autres machines et matériel,24,47.4
+2024,Québec,Réseau de distribution d'électricité,24,55.3
+2024,Québec,Autres constructions de l'énergie électrique,24,54.9
+2024,Québec,Construction liée aux installations de pétrole et de gaz,24,66.0
+2024,Québec,Oléoducs,24,66.0
+2024,Québec,Autres travaux de génie,24,68.1
+2024,Québec,Installations d'élimination des déchets,24,85.9
+2024,Québec,Installations récréatives de plein air,24,65.1
+2024,Québec,Dépollution,24,89.2
+2024,Québec,Autres machines et matériel,24,48.3
 2024,Québec,"Turbines, turbogénérateurs et groupes générateurs de turbine",24,47.8
-2024,Québec,"Systèmes d'alimentation en vapeur, de réacteur nucléaire",24,26.7
-2024,Québec,Matériel de traitement de l'eau,24,59.4
-2024,Québec,Transformateurs de puissance et de distribution,24,44.5
+2024,Québec,"Systèmes d'alimentation en vapeur, de réacteur nucléaire",24,26.0
+2024,Québec,Matériel de traitement de l'eau,24,64.3
+2024,Québec,Transformateurs de puissance et de distribution,24,44.7
 2024,Québec,Machines et matériel de transport,24,56.8
 2024,Québec,Autobus,24,36.7
 2024,Québec,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",24,63.3
-2024,Ontario,Total des actifs,35,58.7
-2024,Ontario,Immeubles commerciaux,35,54.0
-2024,Ontario,Installations sportives avec capacité d'accueil de spectateurs,35,66.3
-2024,Ontario,Installations récréatives intérieures,35,51.7
-2024,Ontario,Résidences d'étudiants,35,48.1
-2024,Ontario,Aéroports et autres gares de voyageurs,35,53.4
-2024,Ontario,Édifices de communications,35,61.8
+2024,Ontario,Total des actifs,35,58.8
+2024,Ontario,Immeubles commerciaux,35,54.4
+2024,Ontario,Installations sportives avec capacité d'accueil de spectateurs,35,66.4
+2024,Ontario,Installations récréatives intérieures,35,51.8
+2024,Ontario,Résidences d'étudiants,35,46.6
+2024,Ontario,Aéroports et autres gares de voyageurs,35,54.3
+2024,Ontario,Édifices de communications,35,61.9
 2024,Ontario,Bâtiments institutionnels,35,56.6
 2024,Ontario,"Écoles, collèges, universités et autres bâtiments d'enseignement",35,57.7
-2024,Ontario,Hôpitaux,35,56.0
-2024,Ontario,Maisons de soins infirmiers et résidences pour personnes âgées,35,56.4
-2024,Ontario,Centres religieux et lieux commémoratifs,35,40.8
-2024,Ontario,Musées,35,68.4
-2024,Ontario,Lieux historiques,35,51.5
-2024,Ontario,Bibliothèques,35,66.0
-2024,Ontario,Installations de sécurité publique,35,52.1
+2024,Ontario,Hôpitaux,35,56.1
+2024,Ontario,Maisons de soins infirmiers et résidences pour personnes âgées,35,55.9
+2024,Ontario,Centres religieux et lieux commémoratifs,35,40.3
+2024,Ontario,Musées,35,70.3
+2024,Ontario,Lieux historiques,35,51.3
+2024,Ontario,Bibliothèques,35,65.3
+2024,Ontario,Installations de sécurité publique,35,52.0
 2024,Ontario,Infrastructures de génie maritime,35,42.2
-2024,Ontario,Ports de mer,35,56.1
+2024,Ontario,Ports de mer,35,55.8
 2024,Ontario,Ports de plaisance et ports de commerce,35,25.9
 2024,Ontario,Canaux et voies navigables,35,55.1
-2024,Ontario,Autres infrastructures de génie maritime,35,43.3
-2024,Ontario,Infrastructures de génie liées aux transports,35,63.1
-2024,Ontario,Structures et réseaux autoroutiers et routiers,35,55.2
-2024,Ontario,Ponts,35,61.2
-2024,Ontario,Tunnels,35,48.4
-2024,Ontario,Lignes de chemins de fer,35,74.3
-2024,Ontario,Pistes d'atterrissage et de décollage,35,56.3
+2024,Ontario,Autres infrastructures de génie maritime,35,43.4
+2024,Ontario,Infrastructures de génie liées aux transports,35,63.2
+2024,Ontario,Structures et réseaux autoroutiers et routiers,35,55.4
+2024,Ontario,Ponts,35,60.1
+2024,Ontario,Tunnels,35,50.7
+2024,Ontario,Lignes de chemins de fer,35,74.4
+2024,Ontario,Pistes d'atterrissage et de décollage,35,55.6
 2024,Ontario,Infrastructure d'adduction et de distribution d'eau,35,59.8
-2024,Ontario,Usines de filtration de l'eau,35,50.5
-2024,Ontario,Autres infrastructure d'eau,35,66.9
+2024,Ontario,Usines de filtration de l'eau,35,50.1
+2024,Ontario,Autres infrastructure d'eau,35,67.0
 2024,Ontario,Infrastructures pour les eaux usées,35,52.1
-2024,Ontario,Usines d'épuration des eaux d'égout,35,51.3
+2024,Ontario,Usines d'épuration des eaux d'égout,35,51.2
 2024,Ontario,Autres infrastructure d'égout,35,52.7
 2024,Ontario,Réseaux de communication,35,62.1
-2024,Ontario,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",35,57.3
-2024,Ontario,Fibre optique,35,61.8
-2024,Ontario,Structures de support pour la transmission,35,65.5
-2024,Ontario,Autres structures de communication,35,65.4
+2024,Ontario,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",35,57.0
+2024,Ontario,Fibre optique,35,61.9
+2024,Ontario,Structures de support pour la transmission,35,65.7
+2024,Ontario,Autres structures de communication,35,64.6
 2024,Ontario,Infrastructure liées à l'énergie électrique,35,61.2
-2024,Ontario,Centrales éoliennes et panneaux solaires,35,77.2
-2024,Ontario,Centrale énergétique thermale,35,65.1
-2024,Ontario,Centrale énergétique nucléaire,35,69.9
-2024,Ontario,Centrale énergétique hydraulique,35,72.5
-2024,Ontario,Réseaux de transport d'électricité,35,68.7
+2024,Ontario,Centrales éoliennes et panneaux solaires,35,75.9
+2024,Ontario,Centrale énergétique thermale,35,67.1
+2024,Ontario,Centrale énergétique nucléaire,35,70.6
+2024,Ontario,Centrale énergétique hydraulique,35,71.8
+2024,Ontario,Réseaux de transport d'électricité,35,68.2
 2024,Ontario,Réseau de distribution d'électricité,35,54.3
-2024,Ontario,Autres constructions de l'énergie électrique,35,77.2
+2024,Ontario,Autres constructions de l'énergie électrique,35,75.9
 2024,Ontario,Construction liée aux installations de pétrole et de gaz,35,39.4
 2024,Ontario,Oléoducs,35,39.4
-2024,Ontario,Autres travaux de génie,35,51.8
-2024,Ontario,Installations d'élimination des déchets,35,52.8
-2024,Ontario,Installations récréatives de plein air,35,59.2
-2024,Ontario,Dépollution,35,39.3
+2024,Ontario,Autres travaux de génie,35,52.2
+2024,Ontario,Installations d'élimination des déchets,35,53.2
+2024,Ontario,Installations récréatives de plein air,35,59.7
+2024,Ontario,Dépollution,35,39.4
 2024,Ontario,Autres machines et matériel,35,56.7
 2024,Ontario,"Turbines, turbogénérateurs et groupes générateurs de turbine",35,56.4
-2024,Ontario,"Systèmes d'alimentation en vapeur, de réacteur nucléaire",35,68.7
-2024,Ontario,Matériel de traitement de l'eau,35,51.1
-2024,Ontario,Transformateurs de puissance et de distribution,35,53.4
-2024,Ontario,Machines et matériel de transport,35,56.0
+2024,Ontario,"Systèmes d'alimentation en vapeur, de réacteur nucléaire",35,68.3
+2024,Ontario,Matériel de traitement de l'eau,35,51.9
+2024,Ontario,Transformateurs de puissance et de distribution,35,53.5
+2024,Ontario,Machines et matériel de transport,35,55.9
 2024,Ontario,Autobus,35,42.0
-2024,Ontario,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",35,63.5
+2024,Ontario,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",35,63.4
 2024,Manitoba,Total des actifs,46,58.6
-2024,Manitoba,Immeubles commerciaux,46,50.8
-2024,Manitoba,Installations sportives avec capacité d'accueil de spectateurs,46,50.5
-2024,Manitoba,Installations récréatives intérieures,46,48.3
-2024,Manitoba,Résidences d'étudiants,46,65.1
+2024,Manitoba,Immeubles commerciaux,46,51.4
+2024,Manitoba,Installations sportives avec capacité d'accueil de spectateurs,46,59.5
+2024,Manitoba,Installations récréatives intérieures,46,47.4
+2024,Manitoba,Résidences d'étudiants,46,72.3
 2024,Manitoba,Aéroports et autres gares de voyageurs,46,54.0
-2024,Manitoba,Édifices de communications,46,69.2
+2024,Manitoba,Édifices de communications,46,69.1
 2024,Manitoba,Bâtiments institutionnels,46,56.7
 2024,Manitoba,"Écoles, collèges, universités et autres bâtiments d'enseignement",46,56.2
-2024,Manitoba,Hôpitaux,46,60.0
-2024,Manitoba,Maisons de soins infirmiers et résidences pour personnes âgées,46,45.6
-2024,Manitoba,Centres religieux et lieux commémoratifs,46,59.6
-2024,Manitoba,Musées,46,61.9
-2024,Manitoba,Lieux historiques,46,63.3
+2024,Manitoba,Hôpitaux,46,60.2
+2024,Manitoba,Maisons de soins infirmiers et résidences pour personnes âgées,46,45.0
+2024,Manitoba,Centres religieux et lieux commémoratifs,46,58.7
+2024,Manitoba,Musées,46,62.3
+2024,Manitoba,Lieux historiques,46,67.2
 2024,Manitoba,Bibliothèques,46,69.7
-2024,Manitoba,Installations de sécurité publique,46,58.8
+2024,Manitoba,Installations de sécurité publique,46,59.0
 2024,Manitoba,Infrastructures de génie maritime,46,46.0
-2024,Manitoba,Ports de mer,46,46.7
+2024,Manitoba,Ports de mer,46,47.8
 2024,Manitoba,Ports de plaisance et ports de commerce,46,28.8
 2024,Manitoba,Canaux et voies navigables,46,45.8
-2024,Manitoba,Autres infrastructures de génie maritime,46,88.5
+2024,Manitoba,Autres infrastructures de génie maritime,46,87.3
 2024,Manitoba,Infrastructures de génie liées aux transports,46,55.8
-2024,Manitoba,Structures et réseaux autoroutiers et routiers,46,54.7
-2024,Manitoba,Ponts,46,48.3
+2024,Manitoba,Structures et réseaux autoroutiers et routiers,46,54.6
+2024,Manitoba,Ponts,46,48.6
 2024,Manitoba,Tunnels,46,40.2
-2024,Manitoba,Lignes de chemins de fer,46,61.5
-2024,Manitoba,Pistes d'atterrissage et de décollage,46,60.7
+2024,Manitoba,Lignes de chemins de fer,46,61.4
+2024,Manitoba,Pistes d'atterrissage et de décollage,46,61.6
 2024,Manitoba,Infrastructure d'adduction et de distribution d'eau,46,56.9
-2024,Manitoba,Usines de filtration de l'eau,46,60.5
-2024,Manitoba,Autres infrastructure d'eau,46,56.3
+2024,Manitoba,Usines de filtration de l'eau,46,58.6
+2024,Manitoba,Autres infrastructure d'eau,46,56.6
 2024,Manitoba,Infrastructures pour les eaux usées,46,48.0
-2024,Manitoba,Usines d'épuration des eaux d'égout,46,55.6
-2024,Manitoba,Autres infrastructure d'égout,46,46.0
+2024,Manitoba,Usines d'épuration des eaux d'égout,46,61.4
+2024,Manitoba,Autres infrastructure d'égout,46,43.8
 2024,Manitoba,Réseaux de communication,46,65.6
-2024,Manitoba,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",46,64.8
-2024,Manitoba,Fibre optique,46,66.7
-2024,Manitoba,Structures de support pour la transmission,46,68.6
-2024,Manitoba,Autres structures de communication,46,63.5
+2024,Manitoba,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",46,64.3
+2024,Manitoba,Fibre optique,46,67.0
+2024,Manitoba,Structures de support pour la transmission,46,69.2
+2024,Manitoba,Autres structures de communication,46,63.4
 2024,Manitoba,Infrastructure liées à l'énergie électrique,46,63.8
-2024,Manitoba,Centrales éoliennes et panneaux solaires,46,44.2
-2024,Manitoba,Centrale énergétique thermale,46,65.8
-2024,Manitoba,Centrale énergétique hydraulique,46,64.1
-2024,Manitoba,Réseaux de transport d'électricité,46,61.4
-2024,Manitoba,Réseau de distribution d'électricité,46,67.7
-2024,Manitoba,Autres constructions de l'énergie électrique,46,44.2
+2024,Manitoba,Centrales éoliennes et panneaux solaires,46,43.0
+2024,Manitoba,Centrale énergétique thermale,46,71.0
+2024,Manitoba,Centrale énergétique hydraulique,46,63.8
+2024,Manitoba,Réseaux de transport d'électricité,46,61.9
+2024,Manitoba,Réseau de distribution d'électricité,46,67.8
+2024,Manitoba,Autres constructions de l'énergie électrique,46,43.0
 2024,Manitoba,Construction liée aux installations de pétrole et de gaz,46,48.9
 2024,Manitoba,Oléoducs,46,48.9
-2024,Manitoba,Autres travaux de génie,46,64.4
-2024,Manitoba,Installations d'élimination des déchets,46,59.4
-2024,Manitoba,Installations récréatives de plein air,46,68.3
-2024,Manitoba,Dépollution,46,57.3
-2024,Manitoba,Autres machines et matériel,46,47.2
+2024,Manitoba,Autres travaux de génie,46,66.0
+2024,Manitoba,Installations d'élimination des déchets,46,59.5
+2024,Manitoba,Installations récréatives de plein air,46,70.6
+2024,Manitoba,Dépollution,46,57.2
+2024,Manitoba,Autres machines et matériel,46,47.3
 2024,Manitoba,"Turbines, turbogénérateurs et groupes générateurs de turbine",46,17.3
-2024,Manitoba,Matériel de traitement de l'eau,46,54.6
+2024,Manitoba,Matériel de traitement de l'eau,46,57.1
 2024,Manitoba,Transformateurs de puissance et de distribution,46,47.8
 2024,Manitoba,Machines et matériel de transport,46,63.8
 2024,Manitoba,Autobus,46,51.6
 2024,Manitoba,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",46,68.7
-2024,Saskatchewan,Total des actifs,47,58.0
-2024,Saskatchewan,Immeubles commerciaux,47,51.9
-2024,Saskatchewan,Installations sportives avec capacité d'accueil de spectateurs,47,70.0
-2024,Saskatchewan,Installations récréatives intérieures,47,50.9
-2024,Saskatchewan,Résidences d'étudiants,47,46.6
-2024,Saskatchewan,Aéroports et autres gares de voyageurs,47,49.4
-2024,Saskatchewan,Édifices de communications,47,52.2
+2024,Saskatchewan,Total des actifs,47,57.9
+2024,Saskatchewan,Immeubles commerciaux,47,52.8
+2024,Saskatchewan,Installations sportives avec capacité d'accueil de spectateurs,47,75.2
+2024,Saskatchewan,Installations récréatives intérieures,47,51.3
+2024,Saskatchewan,Résidences d'étudiants,47,47.7
+2024,Saskatchewan,Aéroports et autres gares de voyageurs,47,48.8
+2024,Saskatchewan,Édifices de communications,47,52.7
 2024,Saskatchewan,Bâtiments institutionnels,47,52.6
 2024,Saskatchewan,"Écoles, collèges, universités et autres bâtiments d'enseignement",47,53.2
-2024,Saskatchewan,Hôpitaux,47,48.3
-2024,Saskatchewan,Maisons de soins infirmiers et résidences pour personnes âgées,47,52.6
-2024,Saskatchewan,Centres religieux et lieux commémoratifs,47,50.1
+2024,Saskatchewan,Hôpitaux,47,49.3
+2024,Saskatchewan,Maisons de soins infirmiers et résidences pour personnes âgées,47,50.3
+2024,Saskatchewan,Centres religieux et lieux commémoratifs,47,49.3
 2024,Saskatchewan,Musées,47,52.3
-2024,Saskatchewan,Lieux historiques,47,81.6
-2024,Saskatchewan,Bibliothèques,47,63.4
-2024,Saskatchewan,Installations de sécurité publique,47,69.2
-2024,Saskatchewan,Infrastructures de génie maritime,47,65.0
-2024,Saskatchewan,Ports de mer,47,85.1
-2024,Saskatchewan,Ports de plaisance et ports de commerce,47,48.1
-2024,Saskatchewan,Canaux et voies navigables,47,65.8
+2024,Saskatchewan,Lieux historiques,47,81.9
+2024,Saskatchewan,Bibliothèques,47,62.8
+2024,Saskatchewan,Installations de sécurité publique,47,68.9
+2024,Saskatchewan,Infrastructures de génie maritime,47,36.8
+2024,Saskatchewan,Ports de mer,47,29.2
+2024,Saskatchewan,Ports de plaisance et ports de commerce,47,42.7
+2024,Saskatchewan,Canaux et voies navigables,47,66.7
 2024,Saskatchewan,Autres infrastructures de génie maritime,47,25.0
 2024,Saskatchewan,Infrastructures de génie liées aux transports,47,61.7
 2024,Saskatchewan,Structures et réseaux autoroutiers et routiers,47,59.3
-2024,Saskatchewan,Ponts,47,65.3
+2024,Saskatchewan,Ponts,47,64.5
 2024,Saskatchewan,Tunnels,47,71.3
 2024,Saskatchewan,Lignes de chemins de fer,47,65.4
-2024,Saskatchewan,Pistes d'atterrissage et de décollage,47,68.9
+2024,Saskatchewan,Pistes d'atterrissage et de décollage,47,68.3
 2024,Saskatchewan,Infrastructure d'adduction et de distribution d'eau,47,56.2
-2024,Saskatchewan,Usines de filtration de l'eau,47,45.3
-2024,Saskatchewan,Autres infrastructure d'eau,47,72.4
+2024,Saskatchewan,Usines de filtration de l'eau,47,46.5
+2024,Saskatchewan,Autres infrastructure d'eau,47,71.5
 2024,Saskatchewan,Infrastructures pour les eaux usées,47,53.8
-2024,Saskatchewan,Usines d'épuration des eaux d'égout,47,69.6
-2024,Saskatchewan,Autres infrastructure d'égout,47,50.6
+2024,Saskatchewan,Usines d'épuration des eaux d'égout,47,69.2
+2024,Saskatchewan,Autres infrastructure d'égout,47,50.7
 2024,Saskatchewan,Réseaux de communication,47,69.7
-2024,Saskatchewan,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",47,62.7
-2024,Saskatchewan,Fibre optique,47,70.3
-2024,Saskatchewan,Structures de support pour la transmission,47,80.0
-2024,Saskatchewan,Autres structures de communication,47,59.0
-2024,Saskatchewan,Infrastructure liées à l'énergie électrique,47,63.0
-2024,Saskatchewan,Centrales éoliennes et panneaux solaires,47,56.4
-2024,Saskatchewan,Centrale énergétique thermale,47,74.7
-2024,Saskatchewan,Centrale énergétique hydraulique,47,57.0
-2024,Saskatchewan,Réseaux de transport d'électricité,47,60.7
-2024,Saskatchewan,Réseau de distribution d'électricité,47,63.5
-2024,Saskatchewan,Autres constructions de l'énergie électrique,47,56.4
-2024,Saskatchewan,Construction liée aux installations de pétrole et de gaz,47,51.0
-2024,Saskatchewan,Oléoducs,47,51.0
-2024,Saskatchewan,Autres travaux de génie,47,57.8
-2024,Saskatchewan,Installations d'élimination des déchets,47,71.5
-2024,Saskatchewan,Installations récréatives de plein air,47,54.5
-2024,Saskatchewan,Dépollution,47,50.6
-2024,Saskatchewan,Autres machines et matériel,47,64.5
+2024,Saskatchewan,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",47,62.8
+2024,Saskatchewan,Fibre optique,47,70.5
+2024,Saskatchewan,Structures de support pour la transmission,47,79.9
+2024,Saskatchewan,Autres structures de communication,47,57.7
+2024,Saskatchewan,Infrastructure liées à l'énergie électrique,47,62.9
+2024,Saskatchewan,Centrales éoliennes et panneaux solaires,47,57.0
+2024,Saskatchewan,Centrale énergétique thermale,47,74.6
+2024,Saskatchewan,Centrale énergétique hydraulique,47,56.9
+2024,Saskatchewan,Réseaux de transport d'électricité,47,60.8
+2024,Saskatchewan,Réseau de distribution d'électricité,47,62.9
+2024,Saskatchewan,Autres constructions de l'énergie électrique,47,57.0
+2024,Saskatchewan,Construction liée aux installations de pétrole et de gaz,47,50.9
+2024,Saskatchewan,Oléoducs,47,50.9
+2024,Saskatchewan,Autres travaux de génie,47,56.6
+2024,Saskatchewan,Installations d'élimination des déchets,47,69.9
+2024,Saskatchewan,Installations récréatives de plein air,47,53.6
+2024,Saskatchewan,Dépollution,47,50.7
+2024,Saskatchewan,Autres machines et matériel,47,64.6
 2024,Saskatchewan,"Turbines, turbogénérateurs et groupes générateurs de turbine",47,66.3
-2024,Saskatchewan,Matériel de traitement de l'eau,47,65.2
+2024,Saskatchewan,Matériel de traitement de l'eau,47,68.3
 2024,Saskatchewan,Transformateurs de puissance et de distribution,47,61.2
 2024,Saskatchewan,Machines et matériel de transport,47,61.5
 2024,Saskatchewan,Autobus,47,47.8
 2024,Saskatchewan,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",47,63.8
 2024,Alberta,Total des actifs,48,60.9
-2024,Alberta,Immeubles commerciaux,48,54.2
-2024,Alberta,Installations sportives avec capacité d'accueil de spectateurs,48,53.4
-2024,Alberta,Installations récréatives intérieures,48,57.6
-2024,Alberta,Résidences d'étudiants,48,54.8
-2024,Alberta,Aéroports et autres gares de voyageurs,48,49.9
-2024,Alberta,Édifices de communications,48,62.0
+2024,Alberta,Immeubles commerciaux,48,55.1
+2024,Alberta,Installations sportives avec capacité d'accueil de spectateurs,48,55.3
+2024,Alberta,Installations récréatives intérieures,48,57.8
+2024,Alberta,Résidences d'étudiants,48,52.3
+2024,Alberta,Aéroports et autres gares de voyageurs,48,51.2
+2024,Alberta,Édifices de communications,48,60.1
 2024,Alberta,Bâtiments institutionnels,48,58.8
 2024,Alberta,"Écoles, collèges, universités et autres bâtiments d'enseignement",48,59.7
-2024,Alberta,Hôpitaux,48,53.6
+2024,Alberta,Hôpitaux,48,53.7
 2024,Alberta,Maisons de soins infirmiers et résidences pour personnes âgées,48,70.9
-2024,Alberta,Centres religieux et lieux commémoratifs,48,62.9
-2024,Alberta,Musées,48,57.0
-2024,Alberta,Lieux historiques,48,49.8
-2024,Alberta,Bibliothèques,48,55.9
-2024,Alberta,Installations de sécurité publique,48,71.0
-2024,Alberta,Infrastructures de génie maritime,48,19.2
+2024,Alberta,Centres religieux et lieux commémoratifs,48,62.8
+2024,Alberta,Musées,48,56.4
+2024,Alberta,Lieux historiques,48,53.1
+2024,Alberta,Bibliothèques,48,57.6
+2024,Alberta,Installations de sécurité publique,48,70.6
+2024,Alberta,Infrastructures de génie maritime,48,19.6
 2024,Alberta,Ports de mer,48,21.2
-2024,Alberta,Ports de plaisance et ports de commerce,48,30.3
-2024,Alberta,Canaux et voies navigables,48,54.4
+2024,Alberta,Ports de plaisance et ports de commerce,48,32.7
+2024,Alberta,Canaux et voies navigables,48,54.6
 2024,Alberta,Autres infrastructures de génie maritime,48,0.5
 2024,Alberta,Infrastructures de génie liées aux transports,48,56.9
 2024,Alberta,Structures et réseaux autoroutiers et routiers,48,55.2
 2024,Alberta,Ponts,48,45.6
-2024,Alberta,Tunnels,48,49.2
-2024,Alberta,Lignes de chemins de fer,48,66.4
-2024,Alberta,Pistes d'atterrissage et de décollage,48,74.3
+2024,Alberta,Tunnels,48,48.6
+2024,Alberta,Lignes de chemins de fer,48,66.5
+2024,Alberta,Pistes d'atterrissage et de décollage,48,73.3
 2024,Alberta,Infrastructure d'adduction et de distribution d'eau,48,56.3
-2024,Alberta,Usines de filtration de l'eau,48,51.6
-2024,Alberta,Autres infrastructure d'eau,48,57.6
+2024,Alberta,Usines de filtration de l'eau,48,51.2
+2024,Alberta,Autres infrastructure d'eau,48,57.7
 2024,Alberta,Infrastructures pour les eaux usées,48,59.1
-2024,Alberta,Usines d'épuration des eaux d'égout,48,70.4
+2024,Alberta,Usines d'épuration des eaux d'égout,48,70.5
 2024,Alberta,Autres infrastructure d'égout,48,56.7
 2024,Alberta,Réseaux de communication,48,50.9
-2024,Alberta,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",48,49.5
-2024,Alberta,Fibre optique,48,49.3
-2024,Alberta,Structures de support pour la transmission,48,55.1
-2024,Alberta,Autres structures de communication,48,50.8
-2024,Alberta,Infrastructure liées à l'énergie électrique,48,64.9
-2024,Alberta,Centrales éoliennes et panneaux solaires,48,82.8
-2024,Alberta,Centrale énergétique thermale,48,78.8
-2024,Alberta,Centrale énergétique hydraulique,48,75.2
+2024,Alberta,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",48,48.3
+2024,Alberta,Fibre optique,48,50.3
+2024,Alberta,Structures de support pour la transmission,48,55.0
+2024,Alberta,Autres structures de communication,48,49.7
+2024,Alberta,Infrastructure liées à l'énergie électrique,48,65.0
+2024,Alberta,Centrales éoliennes et panneaux solaires,48,82.5
+2024,Alberta,Centrale énergétique thermale,48,79.5
+2024,Alberta,Centrale énergétique hydraulique,48,77.7
 2024,Alberta,Réseaux de transport d'électricité,48,59.1
-2024,Alberta,Réseau de distribution d'électricité,48,61.1
-2024,Alberta,Autres constructions de l'énergie électrique,48,82.8
-2024,Alberta,Construction liée aux installations de pétrole et de gaz,48,68.3
-2024,Alberta,Oléoducs,48,68.3
-2024,Alberta,Autres travaux de génie,48,58.4
-2024,Alberta,Installations d'élimination des déchets,48,59.2
-2024,Alberta,Installations récréatives de plein air,48,64.3
-2024,Alberta,Dépollution,48,41.6
-2024,Alberta,Autres machines et matériel,48,46.7
+2024,Alberta,Réseau de distribution d'électricité,48,61.3
+2024,Alberta,Autres constructions de l'énergie électrique,48,82.5
+2024,Alberta,Construction liée aux installations de pétrole et de gaz,48,68.1
+2024,Alberta,Oléoducs,48,68.1
+2024,Alberta,Autres travaux de génie,48,58.3
+2024,Alberta,Installations d'élimination des déchets,48,59.3
+2024,Alberta,Installations récréatives de plein air,48,63.9
+2024,Alberta,Dépollution,48,41.9
+2024,Alberta,Autres machines et matériel,48,46.8
 2024,Alberta,"Turbines, turbogénérateurs et groupes générateurs de turbine",48,47.0
-2024,Alberta,Matériel de traitement de l'eau,48,57.5
+2024,Alberta,Matériel de traitement de l'eau,48,60.8
 2024,Alberta,Transformateurs de puissance et de distribution,48,45.8
-2024,Alberta,Machines et matériel de transport,48,61.1
+2024,Alberta,Machines et matériel de transport,48,61.4
 2024,Alberta,Autobus,48,45.9
-2024,Alberta,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",48,68.2
-2024,Colombie-Britannique,Total des actifs,59,63.0
-2024,Colombie-Britannique,Immeubles commerciaux,59,54.5
-2024,Colombie-Britannique,Installations sportives avec capacité d'accueil de spectateurs,59,52.5
-2024,Colombie-Britannique,Installations récréatives intérieures,59,59.9
-2024,Colombie-Britannique,Résidences d'étudiants,59,79.2
-2024,Colombie-Britannique,Aéroports et autres gares de voyageurs,59,47.9
-2024,Colombie-Britannique,Édifices de communications,59,57.6
+2024,Alberta,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",48,68.5
+2024,Colombie-Britannique,Total des actifs,59,62.9
+2024,Colombie-Britannique,Immeubles commerciaux,59,55.0
+2024,Colombie-Britannique,Installations sportives avec capacité d'accueil de spectateurs,59,55.9
+2024,Colombie-Britannique,Installations récréatives intérieures,59,58.9
+2024,Colombie-Britannique,Résidences d'étudiants,59,78.4
+2024,Colombie-Britannique,Aéroports et autres gares de voyageurs,59,49.2
+2024,Colombie-Britannique,Édifices de communications,59,59.9
 2024,Colombie-Britannique,Bâtiments institutionnels,59,57.9
 2024,Colombie-Britannique,"Écoles, collèges, universités et autres bâtiments d'enseignement",59,56.2
 2024,Colombie-Britannique,Hôpitaux,59,67.3
 2024,Colombie-Britannique,Maisons de soins infirmiers et résidences pour personnes âgées,59,46.9
-2024,Colombie-Britannique,Centres religieux et lieux commémoratifs,59,57.1
-2024,Colombie-Britannique,Musées,59,85.5
-2024,Colombie-Britannique,Lieux historiques,59,83.4
+2024,Colombie-Britannique,Centres religieux et lieux commémoratifs,59,56.7
+2024,Colombie-Britannique,Musées,59,86.4
+2024,Colombie-Britannique,Lieux historiques,59,80.2
 2024,Colombie-Britannique,Bibliothèques,59,39.1
 2024,Colombie-Britannique,Installations de sécurité publique,59,63.1
 2024,Colombie-Britannique,Infrastructures de génie maritime,59,70.9
-2024,Colombie-Britannique,Ports de mer,59,73.0
-2024,Colombie-Britannique,Ports de plaisance et ports de commerce,59,41.4
-2024,Colombie-Britannique,Canaux et voies navigables,59,66.1
-2024,Colombie-Britannique,Autres infrastructures de génie maritime,59,73.9
+2024,Colombie-Britannique,Ports de mer,59,73.1
+2024,Colombie-Britannique,Ports de plaisance et ports de commerce,59,42.0
+2024,Colombie-Britannique,Canaux et voies navigables,59,66.0
+2024,Colombie-Britannique,Autres infrastructures de génie maritime,59,73.4
 2024,Colombie-Britannique,Infrastructures de génie liées aux transports,59,57.3
-2024,Colombie-Britannique,Structures et réseaux autoroutiers et routiers,59,51.8
-2024,Colombie-Britannique,Ponts,59,70.3
-2024,Colombie-Britannique,Tunnels,59,97.9
+2024,Colombie-Britannique,Structures et réseaux autoroutiers et routiers,59,52.2
+2024,Colombie-Britannique,Ponts,59,68.7
+2024,Colombie-Britannique,Tunnels,59,98.9
 2024,Colombie-Britannique,Lignes de chemins de fer,59,61.6
-2024,Colombie-Britannique,Pistes d'atterrissage et de décollage,59,57.4
+2024,Colombie-Britannique,Pistes d'atterrissage et de décollage,59,60.8
 2024,Colombie-Britannique,Infrastructure d'adduction et de distribution d'eau,59,60.4
-2024,Colombie-Britannique,Usines de filtration de l'eau,59,58.7
-2024,Colombie-Britannique,Autres infrastructure d'eau,59,60.9
+2024,Colombie-Britannique,Usines de filtration de l'eau,59,59.0
+2024,Colombie-Britannique,Autres infrastructure d'eau,59,60.8
 2024,Colombie-Britannique,Infrastructures pour les eaux usées,59,55.9
-2024,Colombie-Britannique,Usines d'épuration des eaux d'égout,59,52.2
-2024,Colombie-Britannique,Autres infrastructure d'égout,59,59.4
+2024,Colombie-Britannique,Usines d'épuration des eaux d'égout,59,52.4
+2024,Colombie-Britannique,Autres infrastructure d'égout,59,59.2
 2024,Colombie-Britannique,Réseaux de communication,59,54.8
-2024,Colombie-Britannique,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",59,51.3
-2024,Colombie-Britannique,Fibre optique,59,57.1
+2024,Colombie-Britannique,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",59,50.9
+2024,Colombie-Britannique,Fibre optique,59,57.2
 2024,Colombie-Britannique,Structures de support pour la transmission,59,62.1
-2024,Colombie-Britannique,Autres structures de communication,59,40.9
+2024,Colombie-Britannique,Autres structures de communication,59,41.8
 2024,Colombie-Britannique,Infrastructure liées à l'énergie électrique,59,67.0
-2024,Colombie-Britannique,Centrales éoliennes et panneaux solaires,59,68.2
+2024,Colombie-Britannique,Centrales éoliennes et panneaux solaires,59,68.9
 2024,Colombie-Britannique,Centrale énergétique thermale,59,58.8
-2024,Colombie-Britannique,Centrale énergétique hydraulique,59,67.9
-2024,Colombie-Britannique,Réseaux de transport d'électricité,59,65.3
-2024,Colombie-Britannique,Réseau de distribution d'électricité,59,65.9
-2024,Colombie-Britannique,Autres constructions de l'énergie électrique,59,68.2
-2024,Colombie-Britannique,Construction liée aux installations de pétrole et de gaz,59,84.9
-2024,Colombie-Britannique,Oléoducs,59,84.9
-2024,Colombie-Britannique,Autres travaux de génie,59,61.7
-2024,Colombie-Britannique,Installations d'élimination des déchets,59,60.6
-2024,Colombie-Britannique,Installations récréatives de plein air,59,62.4
-2024,Colombie-Britannique,Dépollution,59,56.6
-2024,Colombie-Britannique,Autres machines et matériel,59,44.0
+2024,Colombie-Britannique,Centrale énergétique hydraulique,59,67.4
+2024,Colombie-Britannique,Réseaux de transport d'électricité,59,66.4
+2024,Colombie-Britannique,Réseau de distribution d'électricité,59,66.5
+2024,Colombie-Britannique,Autres constructions de l'énergie électrique,59,68.9
+2024,Colombie-Britannique,Construction liée aux installations de pétrole et de gaz,59,84.3
+2024,Colombie-Britannique,Oléoducs,59,84.3
+2024,Colombie-Britannique,Autres travaux de génie,59,62.8
+2024,Colombie-Britannique,Installations d'élimination des déchets,59,62.0
+2024,Colombie-Britannique,Installations récréatives de plein air,59,63.4
+2024,Colombie-Britannique,Dépollution,59,56.3
+2024,Colombie-Britannique,Autres machines et matériel,59,43.7
 2024,Colombie-Britannique,"Turbines, turbogénérateurs et groupes générateurs de turbine",59,49.3
-2024,Colombie-Britannique,Matériel de traitement de l'eau,59,53.2
-2024,Colombie-Britannique,Transformateurs de puissance et de distribution,59,37.5
+2024,Colombie-Britannique,Matériel de traitement de l'eau,59,50.8
+2024,Colombie-Britannique,Transformateurs de puissance et de distribution,59,37.4
 2024,Colombie-Britannique,Machines et matériel de transport,59,54.2
 2024,Colombie-Britannique,Autobus,59,40.0
 2024,Colombie-Britannique,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",59,63.5
-2024,Yukon,Total des actifs,60,57.0
-2024,Yukon,Immeubles commerciaux,60,77.1
-2024,Yukon,Installations sportives avec capacité d'accueil de spectateurs,60,71.2
-2024,Yukon,Installations récréatives intérieures,60,80.3
-2024,Yukon,Aéroports et autres gares de voyageurs,60,68.0
-2024,Yukon,Édifices de communications,60,47.7
-2024,Yukon,Bâtiments institutionnels,60,57.1
+2024,Yukon,Total des actifs,60,56.9
+2024,Yukon,Immeubles commerciaux,60,77.0
+2024,Yukon,Installations sportives avec capacité d'accueil de spectateurs,60,86.4
+2024,Yukon,Installations récréatives intérieures,60,77.1
+2024,Yukon,Aéroports et autres gares de voyageurs,60,67.6
+2024,Yukon,Édifices de communications,60,47.5
+2024,Yukon,Bâtiments institutionnels,60,57.4
 2024,Yukon,"Écoles, collèges, universités et autres bâtiments d'enseignement",60,50.6
-2024,Yukon,Hôpitaux,60,67.4
-2024,Yukon,Maisons de soins infirmiers et résidences pour personnes âgées,60,63.0
-2024,Yukon,Centres religieux et lieux commémoratifs,60,28.0
-2024,Yukon,Musées,60,59.1
-2024,Yukon,Lieux historiques,60,86.5
+2024,Yukon,Hôpitaux,60,69.8
+2024,Yukon,Maisons de soins infirmiers et résidences pour personnes âgées,60,63.1
+2024,Yukon,Centres religieux et lieux commémoratifs,60,27.5
+2024,Yukon,Musées,60,58.8
+2024,Yukon,Lieux historiques,60,92.2
 2024,Yukon,Bibliothèques,60,43.2
-2024,Yukon,Installations de sécurité publique,60,84.9
-2024,Yukon,Infrastructures de génie maritime,60,43.9
-2024,Yukon,Ports de mer,60,69.1
-2024,Yukon,Ports de plaisance et ports de commerce,60,20.0
-2024,Yukon,Canaux et voies navigables,60,61.0
-2024,Yukon,Autres infrastructures de génie maritime,60,89.0
-2024,Yukon,Infrastructures de génie liées aux transports,60,50.9
-2024,Yukon,Structures et réseaux autoroutiers et routiers,60,44.5
+2024,Yukon,Installations de sécurité publique,60,84.1
+2024,Yukon,Infrastructures de génie maritime,60,42.8
+2024,Yukon,Ports de mer,60,66.0
+2024,Yukon,Ports de plaisance et ports de commerce,60,16.5
+2024,Yukon,Canaux et voies navigables,60,61.2
+2024,Yukon,Autres infrastructures de génie maritime,60,88.9
+2024,Yukon,Infrastructures de génie liées aux transports,60,50.8
+2024,Yukon,Structures et réseaux autoroutiers et routiers,60,44.6
 2024,Yukon,Ponts,60,50.8
-2024,Yukon,Lignes de chemins de fer,60,98.8
+2024,Yukon,Lignes de chemins de fer,60,96.6
 2024,Yukon,Pistes d'atterrissage et de décollage,60,73.5
 2024,Yukon,Infrastructure d'adduction et de distribution d'eau,60,61.7
-2024,Yukon,Usines de filtration de l'eau,60,67.3
-2024,Yukon,Autres infrastructure d'eau,60,57.5
+2024,Yukon,Usines de filtration de l'eau,60,65.0
+2024,Yukon,Autres infrastructure d'eau,60,59.5
 2024,Yukon,Infrastructures pour les eaux usées,60,42.2
-2024,Yukon,Usines d'épuration des eaux d'égout,60,32.8
-2024,Yukon,Autres infrastructure d'égout,60,61.1
+2024,Yukon,Usines d'épuration des eaux d'égout,60,34.7
+2024,Yukon,Autres infrastructure d'égout,60,58.7
 2024,Yukon,Réseaux de communication,60,68.5
-2024,Yukon,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",60,47.3
+2024,Yukon,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",60,47.4
 2024,Yukon,Fibre optique,60,77.8
-2024,Yukon,Structures de support pour la transmission,60,51.0
-2024,Yukon,Autres structures de communication,60,49.2
-2024,Yukon,Infrastructure liées à l'énergie électrique,60,60.9
-2024,Yukon,Centrales éoliennes et panneaux solaires,60,62.9
-2024,Yukon,Centrale énergétique thermale,60,59.3
-2024,Yukon,Centrale énergétique hydraulique,60,57.8
-2024,Yukon,Réseaux de transport d'électricité,60,65.2
-2024,Yukon,Réseau de distribution d'électricité,60,60.0
-2024,Yukon,Autres constructions de l'énergie électrique,60,62.9
+2024,Yukon,Structures de support pour la transmission,60,51.2
+2024,Yukon,Autres structures de communication,60,48.0
+2024,Yukon,Infrastructure liées à l'énergie électrique,60,61.3
+2024,Yukon,Centrales éoliennes et panneaux solaires,60,61.3
+2024,Yukon,Centrale énergétique thermale,60,61.3
+2024,Yukon,Centrale énergétique hydraulique,60,57.0
+2024,Yukon,Réseaux de transport d'électricité,60,66.7
+2024,Yukon,Réseau de distribution d'électricité,60,61.5
+2024,Yukon,Autres constructions de l'énergie électrique,60,61.3
 2024,Yukon,Construction liée aux installations de pétrole et de gaz,60,0.0
 2024,Yukon,Oléoducs,60,0.0
-2024,Yukon,Autres travaux de génie,60,73.1
-2024,Yukon,Installations d'élimination des déchets,60,39.4
-2024,Yukon,Installations récréatives de plein air,60,88.9
+2024,Yukon,Autres travaux de génie,60,69.0
+2024,Yukon,Installations d'élimination des déchets,60,48.5
+2024,Yukon,Installations récréatives de plein air,60,85.3
 2024,Yukon,Dépollution,60,40.1
-2024,Yukon,Autres machines et matériel,60,56.8
+2024,Yukon,Autres machines et matériel,60,55.5
 2024,Yukon,"Turbines, turbogénérateurs et groupes générateurs de turbine",60,62.1
-2024,Yukon,Matériel de traitement de l'eau,60,83.3
+2024,Yukon,Matériel de traitement de l'eau,60,78.7
 2024,Yukon,Transformateurs de puissance et de distribution,60,37.0
-2024,Yukon,Machines et matériel de transport,60,73.7
-2024,Yukon,Autobus,60,75.8
+2024,Yukon,Machines et matériel de transport,60,73.8
+2024,Yukon,Autobus,60,75.9
 2024,Yukon,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",60,22.2
-2024,Territoires du Nord-Ouest,Total des actifs,61,66.6
-2024,Territoires du Nord-Ouest,Immeubles commerciaux,61,72.3
-2024,Territoires du Nord-Ouest,Installations sportives avec capacité d'accueil de spectateurs,61,56.9
-2024,Territoires du Nord-Ouest,Installations récréatives intérieures,61,85.0
+2024,Territoires du Nord-Ouest,Total des actifs,61,67.0
+2024,Territoires du Nord-Ouest,Immeubles commerciaux,61,72.5
+2024,Territoires du Nord-Ouest,Installations sportives avec capacité d'accueil de spectateurs,61,76.7
+2024,Territoires du Nord-Ouest,Installations récréatives intérieures,61,84.3
 2024,Territoires du Nord-Ouest,Résidences d'étudiants,61,51.8
-2024,Territoires du Nord-Ouest,Aéroports et autres gares de voyageurs,61,88.1
-2024,Territoires du Nord-Ouest,Édifices de communications,61,38.1
+2024,Territoires du Nord-Ouest,Aéroports et autres gares de voyageurs,61,82.5
+2024,Territoires du Nord-Ouest,Édifices de communications,61,37.8
 2024,Territoires du Nord-Ouest,Bâtiments institutionnels,61,66.8
 2024,Territoires du Nord-Ouest,"Écoles, collèges, universités et autres bâtiments d'enseignement",61,62.4
 2024,Territoires du Nord-Ouest,Hôpitaux,61,72.1
-2024,Territoires du Nord-Ouest,Maisons de soins infirmiers et résidences pour personnes âgées,61,73.5
-2024,Territoires du Nord-Ouest,Centres religieux et lieux commémoratifs,61,89.6
-2024,Territoires du Nord-Ouest,Musées,61,59.8
-2024,Territoires du Nord-Ouest,Lieux historiques,61,79.1
+2024,Territoires du Nord-Ouest,Maisons de soins infirmiers et résidences pour personnes âgées,61,74.8
+2024,Territoires du Nord-Ouest,Centres religieux et lieux commémoratifs,61,85.7
+2024,Territoires du Nord-Ouest,Musées,61,70.5
+2024,Territoires du Nord-Ouest,Lieux historiques,61,81.0
 2024,Territoires du Nord-Ouest,Bibliothèques,61,55.7
-2024,Territoires du Nord-Ouest,Installations de sécurité publique,61,62.3
+2024,Territoires du Nord-Ouest,Installations de sécurité publique,61,62.4
 2024,Territoires du Nord-Ouest,Infrastructures de génie maritime,61,53.3
 2024,Territoires du Nord-Ouest,Ports de mer,61,37.4
-2024,Territoires du Nord-Ouest,Ports de plaisance et ports de commerce,61,41.7
+2024,Territoires du Nord-Ouest,Ports de plaisance et ports de commerce,61,43.7
 2024,Territoires du Nord-Ouest,Canaux et voies navigables,61,57.9
 2024,Territoires du Nord-Ouest,Autres infrastructures de génie maritime,61,46.4
-2024,Territoires du Nord-Ouest,Infrastructures de génie liées aux transports,61,59.1
-2024,Territoires du Nord-Ouest,Structures et réseaux autoroutiers et routiers,61,57.0
-2024,Territoires du Nord-Ouest,Ponts,61,50.9
-2024,Territoires du Nord-Ouest,Lignes de chemins de fer,61,70.1
-2024,Territoires du Nord-Ouest,Pistes d'atterrissage et de décollage,61,68.3
-2024,Territoires du Nord-Ouest,Infrastructure d'adduction et de distribution d'eau,61,68.6
-2024,Territoires du Nord-Ouest,Usines de filtration de l'eau,61,64.1
-2024,Territoires du Nord-Ouest,Autres infrastructure d'eau,61,74.3
+2024,Territoires du Nord-Ouest,Infrastructures de génie liées aux transports,61,59.3
+2024,Territoires du Nord-Ouest,Structures et réseaux autoroutiers et routiers,61,56.4
+2024,Territoires du Nord-Ouest,Ponts,61,55.6
+2024,Territoires du Nord-Ouest,Lignes de chemins de fer,61,70.0
+2024,Territoires du Nord-Ouest,Pistes d'atterrissage et de décollage,61,69.2
+2024,Territoires du Nord-Ouest,Infrastructure d'adduction et de distribution d'eau,61,68.5
+2024,Territoires du Nord-Ouest,Usines de filtration de l'eau,61,64.3
+2024,Territoires du Nord-Ouest,Autres infrastructure d'eau,61,74.2
 2024,Territoires du Nord-Ouest,Infrastructures pour les eaux usées,61,69.4
-2024,Territoires du Nord-Ouest,Usines d'épuration des eaux d'égout,61,75.8
-2024,Territoires du Nord-Ouest,Autres infrastructure d'égout,61,69.2
+2024,Territoires du Nord-Ouest,Usines d'épuration des eaux d'égout,61,87.2
+2024,Territoires du Nord-Ouest,Autres infrastructure d'égout,61,68.4
 2024,Territoires du Nord-Ouest,Réseaux de communication,61,56.0
-2024,Territoires du Nord-Ouest,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",61,45.4
-2024,Territoires du Nord-Ouest,Fibre optique,61,62.2
-2024,Territoires du Nord-Ouest,Structures de support pour la transmission,61,48.8
-2024,Territoires du Nord-Ouest,Autres structures de communication,61,71.4
-2024,Territoires du Nord-Ouest,Infrastructure liées à l'énergie électrique,61,77.9
-2024,Territoires du Nord-Ouest,Centrales éoliennes et panneaux solaires,61,82.4
-2024,Territoires du Nord-Ouest,Centrale énergétique thermale,61,69.7
-2024,Territoires du Nord-Ouest,Centrale énergétique hydraulique,61,85.5
-2024,Territoires du Nord-Ouest,Réseaux de transport d'électricité,61,69.8
-2024,Territoires du Nord-Ouest,Réseau de distribution d'électricité,61,74.1
-2024,Territoires du Nord-Ouest,Autres constructions de l'énergie électrique,61,82.4
-2024,Territoires du Nord-Ouest,Construction liée aux installations de pétrole et de gaz,61,72.0
-2024,Territoires du Nord-Ouest,Oléoducs,61,72.0
-2024,Territoires du Nord-Ouest,Autres travaux de génie,61,67.3
-2024,Territoires du Nord-Ouest,Installations d'élimination des déchets,61,59.5
-2024,Territoires du Nord-Ouest,Installations récréatives de plein air,61,69.2
+2024,Territoires du Nord-Ouest,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",61,45.5
+2024,Territoires du Nord-Ouest,Fibre optique,61,62.4
+2024,Territoires du Nord-Ouest,Structures de support pour la transmission,61,48.9
+2024,Territoires du Nord-Ouest,Autres structures de communication,61,68.7
+2024,Territoires du Nord-Ouest,Infrastructure liées à l'énergie électrique,61,78.0
+2024,Territoires du Nord-Ouest,Centrales éoliennes et panneaux solaires,61,81.5
+2024,Territoires du Nord-Ouest,Centrale énergétique thermale,61,69.9
+2024,Territoires du Nord-Ouest,Centrale énergétique hydraulique,61,85.6
+2024,Territoires du Nord-Ouest,Réseaux de transport d'électricité,61,70.0
+2024,Territoires du Nord-Ouest,Réseau de distribution d'électricité,61,73.9
+2024,Territoires du Nord-Ouest,Autres constructions de l'énergie électrique,61,81.5
+2024,Territoires du Nord-Ouest,Construction liée aux installations de pétrole et de gaz,61,71.9
+2024,Territoires du Nord-Ouest,Oléoducs,61,71.9
+2024,Territoires du Nord-Ouest,Autres travaux de génie,61,70.1
+2024,Territoires du Nord-Ouest,Installations d'élimination des déchets,61,70.9
+2024,Territoires du Nord-Ouest,Installations récréatives de plein air,61,71.4
 2024,Territoires du Nord-Ouest,Dépollution,61,52.1
-2024,Territoires du Nord-Ouest,Autres machines et matériel,61,65.8
-2024,Territoires du Nord-Ouest,"Turbines, turbogénérateurs et groupes générateurs de turbine",61,60.7
-2024,Territoires du Nord-Ouest,Matériel de traitement de l'eau,61,50.8
+2024,Territoires du Nord-Ouest,Autres machines et matériel,61,65.7
+2024,Territoires du Nord-Ouest,"Turbines, turbogénérateurs et groupes générateurs de turbine",61,60.3
+2024,Territoires du Nord-Ouest,Matériel de traitement de l'eau,61,47.7
 2024,Territoires du Nord-Ouest,Transformateurs de puissance et de distribution,61,68.6
 2024,Territoires du Nord-Ouest,Machines et matériel de transport,61,37.1
 2024,Territoires du Nord-Ouest,Autobus,61,33.0
 2024,Territoires du Nord-Ouest,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",61,39.4
-2024,Nunavut,Total des actifs,62,69.6
-2024,Nunavut,Immeubles commerciaux,62,68.3
-2024,Nunavut,Installations sportives avec capacité d'accueil de spectateurs,62,66.4
-2024,Nunavut,Installations récréatives intérieures,62,69.8
+2024,Nunavut,Total des actifs,62,69.3
+2024,Nunavut,Immeubles commerciaux,62,68.0
+2024,Nunavut,Installations sportives avec capacité d'accueil de spectateurs,62,67.1
+2024,Nunavut,Installations récréatives intérieures,62,69.2
 2024,Nunavut,Résidences d'étudiants,62,59.4
 2024,Nunavut,Aéroports et autres gares de voyageurs,62,67.9
-2024,Nunavut,Édifices de communications,62,80.9
-2024,Nunavut,Bâtiments institutionnels,62,70.6
+2024,Nunavut,Édifices de communications,62,76.7
+2024,Nunavut,Bâtiments institutionnels,62,70.0
 2024,Nunavut,"Écoles, collèges, universités et autres bâtiments d'enseignement",62,70.6
 2024,Nunavut,Hôpitaux,62,55.5
-2024,Nunavut,Maisons de soins infirmiers et résidences pour personnes âgées,62,79.0
-2024,Nunavut,Centres religieux et lieux commémoratifs,62,88.0
-2024,Nunavut,Musées,62,76.8
-2024,Nunavut,Lieux historiques,62,70.6
-2024,Nunavut,Bibliothèques,62,98.2
-2024,Nunavut,Installations de sécurité publique,62,79.4
+2024,Nunavut,Maisons de soins infirmiers et résidences pour personnes âgées,62,77.7
+2024,Nunavut,Centres religieux et lieux commémoratifs,62,85.0
+2024,Nunavut,Musées,62,73.6
+2024,Nunavut,Lieux historiques,62,81.0
+2024,Nunavut,Bibliothèques,62,96.0
+2024,Nunavut,Installations de sécurité publique,62,78.9
 2024,Nunavut,Infrastructures de génie maritime,62,80.0
 2024,Nunavut,Ports de mer,62,79.9
-2024,Nunavut,Ports de plaisance et ports de commerce,62,74.1
-2024,Nunavut,Canaux et voies navigables,62,87.3
-2024,Nunavut,Autres infrastructures de génie maritime,62,78.7
+2024,Nunavut,Ports de plaisance et ports de commerce,62,66.7
+2024,Nunavut,Canaux et voies navigables,62,87.4
+2024,Nunavut,Autres infrastructures de génie maritime,62,78.0
 2024,Nunavut,Infrastructures de génie liées aux transports,62,59.0
-2024,Nunavut,Structures et réseaux autoroutiers et routiers,62,58.5
-2024,Nunavut,Ponts,62,55.5
+2024,Nunavut,Structures et réseaux autoroutiers et routiers,62,58.2
+2024,Nunavut,Ponts,62,57.5
 2024,Nunavut,Lignes de chemins de fer,62,56.6
 2024,Nunavut,Pistes d'atterrissage et de décollage,62,61.9
-2024,Nunavut,Infrastructure d'adduction et de distribution d'eau,62,74.5
+2024,Nunavut,Infrastructure d'adduction et de distribution d'eau,62,74.4
 2024,Nunavut,Usines de filtration de l'eau,62,70.2
 2024,Nunavut,Autres infrastructure d'eau,62,75.9
 2024,Nunavut,Infrastructures pour les eaux usées,62,65.5
-2024,Nunavut,Usines d'épuration des eaux d'égout,62,60.0
-2024,Nunavut,Autres infrastructure d'égout,62,69.8
+2024,Nunavut,Usines d'épuration des eaux d'égout,62,59.9
+2024,Nunavut,Autres infrastructure d'égout,62,69.9
 2024,Nunavut,Réseaux de communication,62,58.9
-2024,Nunavut,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",62,52.3
-2024,Nunavut,Fibre optique,62,81.3
-2024,Nunavut,Structures de support pour la transmission,62,48.8
-2024,Nunavut,Autres structures de communication,62,67.3
+2024,Nunavut,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",62,52.5
+2024,Nunavut,Fibre optique,62,81.7
+2024,Nunavut,Structures de support pour la transmission,62,48.5
+2024,Nunavut,Autres structures de communication,62,60.3
 2024,Nunavut,Infrastructure liées à l'énergie électrique,62,81.6
 2024,Nunavut,Centrales éoliennes et panneaux solaires,62,70.8
-2024,Nunavut,Centrale énergétique thermale,62,85.8
+2024,Nunavut,Centrale énergétique thermale,62,85.6
 2024,Nunavut,Centrale énergétique hydraulique,62,77.2
 2024,Nunavut,Réseaux de transport d'électricité,62,74.6
-2024,Nunavut,Réseau de distribution d'électricité,62,79.8
+2024,Nunavut,Réseau de distribution d'électricité,62,80.4
 2024,Nunavut,Autres constructions de l'énergie électrique,62,70.8
-2024,Nunavut,Autres travaux de génie,62,68.1
-2024,Nunavut,Installations d'élimination des déchets,62,78.1
-2024,Nunavut,Installations récréatives de plein air,62,54.9
+2024,Nunavut,Autres travaux de génie,62,66.5
+2024,Nunavut,Installations d'élimination des déchets,62,77.4
+2024,Nunavut,Installations récréatives de plein air,62,51.5
 2024,Nunavut,Dépollution,62,55.9
 2024,Nunavut,Autres machines et matériel,62,33.6
 2024,Nunavut,"Turbines, turbogénérateurs et groupes générateurs de turbine",62,25.9
-2024,Nunavut,Matériel de traitement de l'eau,62,27.6
-2024,Nunavut,Transformateurs de puissance et de distribution,62,39.3
+2024,Nunavut,Matériel de traitement de l'eau,62,28.6
+2024,Nunavut,Transformateurs de puissance et de distribution,62,39.2
 2024,Nunavut,Machines et matériel de transport,62,77.0
 2024,Nunavut,Autobus,62,68.9
 2024,Nunavut,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",62,79.3
+2025,Canada,Immeubles commerciaux,,56.1
+2025,Canada,Installations sportives avec capacité d'accueil de spectateurs,,60.8
+2025,Canada,Installations récréatives intérieures,,54.2
+2025,Canada,Résidences d'étudiants,,55.7
+2025,Canada,Aéroports et autres gares de voyageurs,,56.2
+2025,Canada,Édifices de communications,,56.2
+2025,Canada,Bâtiments institutionnels,,58.4
+2025,Canada,"Écoles, collèges, universités et autres bâtiments d'enseignement",,58.5
+2025,Canada,Hôpitaux,,60.3
+2025,Canada,Maisons de soins infirmiers et résidences pour personnes âgées,,57.8
+2025,Canada,Centres religieux et lieux commémoratifs,,47.3
+2025,Canada,Musées,,65.1
+2025,Canada,Lieux historiques,,54.7
+2025,Canada,Bibliothèques,,48.8
+2025,Canada,Installations de sécurité publique,,55.2
+2025,Canada,Infrastructures de génie maritime,,58.4
+2025,Canada,Ports de mer,,68.1
+2025,Canada,Ports de plaisance et ports de commerce,,29.7
+2025,Canada,Canaux et voies navigables,,57.0
+2025,Canada,Autres infrastructures de génie maritime,,53.2
+2025,Canada,Infrastructures de génie liées aux transports,,59.3
+2025,Canada,Structures et réseaux autoroutiers et routiers,,52.9
+2025,Canada,Ponts,,60.5
+2025,Canada,Tunnels,,82.3
+2025,Canada,Lignes de chemins de fer,,70.5
+2025,Canada,Pistes d'atterrissage et de décollage,,65.5
+2025,Canada,Infrastructure d'adduction et de distribution d'eau,,57.1
+2025,Canada,Usines de filtration de l'eau,,51.3
+2025,Canada,Autres infrastructure d'eau,,59.2
+2025,Canada,Infrastructures pour les eaux usées,,53.3
+2025,Canada,Usines d'épuration des eaux d'égout,,55.5
+2025,Canada,Autres infrastructure d'égout,,52.5
+2025,Canada,Réseaux de communication,,59.7
+2025,Canada,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",,56.3
+2025,Canada,Fibre optique,,59.3
+2025,Canada,Structures de support pour la transmission,,64.4
+2025,Canada,Autres structures de communication,,57.9
+2025,Canada,Infrastructure liées à l'énergie électrique,,61.8
+2025,Canada,Centrales éoliennes et panneaux solaires,,70.2
+2025,Canada,Centrale énergétique thermale,,70.5
+2025,Canada,Centrale énergétique nucléaire,,69.8
+2025,Canada,Centrale énergétique hydraulique,,62.8
+2025,Canada,Réseaux de transport d'électricité,,60.3
+2025,Canada,Réseau de distribution d'électricité,,58.6
+2025,Canada,Autres constructions de l'énergie électrique,,70.2
+2025,Canada,Construction liée aux installations de pétrole et de gaz,,69.6
+2025,Canada,Oléoducs,,69.6
+2025,Canada,Autres travaux de génie,,60.1
+2025,Canada,Installations d'élimination des déchets,,61.3
+2025,Canada,Installations récréatives de plein air,,63.2
+2025,Canada,Dépollution,,42.3
+2025,Canada,Autres machines et matériel,,52.9
+2025,Canada,"Turbines, turbogénérateurs et groupes générateurs de turbine",,54.7
+2025,Canada,"Systèmes d'alimentation en vapeur, de réacteur nucléaire",,65.9
+2025,Canada,Matériel de traitement de l'eau,,54.6
+2025,Canada,Transformateurs de puissance et de distribution,,49.4
+2025,Canada,Machines et matériel de transport,,57.3
+2025,Canada,Autobus,,41.1
+2025,Canada,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",,64.0
+2025,Terre-Neuve-et-Labrador,Total des actifs,10,63.8
+2025,Terre-Neuve-et-Labrador,Immeubles commerciaux,10,55.4
+2025,Terre-Neuve-et-Labrador,Installations sportives avec capacité d'accueil de spectateurs,10,64.8
+2025,Terre-Neuve-et-Labrador,Installations récréatives intérieures,10,55.8
+2025,Terre-Neuve-et-Labrador,Résidences d'étudiants,10,68.5
+2025,Terre-Neuve-et-Labrador,Aéroports et autres gares de voyageurs,10,54.3
+2025,Terre-Neuve-et-Labrador,Édifices de communications,10,53.1
+2025,Terre-Neuve-et-Labrador,Bâtiments institutionnels,10,62.0
+2025,Terre-Neuve-et-Labrador,"Écoles, collèges, universités et autres bâtiments d'enseignement",10,54.9
+2025,Terre-Neuve-et-Labrador,Hôpitaux,10,71.7
+2025,Terre-Neuve-et-Labrador,Maisons de soins infirmiers et résidences pour personnes âgées,10,66.0
+2025,Terre-Neuve-et-Labrador,Centres religieux et lieux commémoratifs,10,73.8
+2025,Terre-Neuve-et-Labrador,Musées,10,42.6
+2025,Terre-Neuve-et-Labrador,Lieux historiques,10,83.3
+2025,Terre-Neuve-et-Labrador,Bibliothèques,10,82.7
+2025,Terre-Neuve-et-Labrador,Installations de sécurité publique,10,60.3
+2025,Terre-Neuve-et-Labrador,Infrastructures de génie maritime,10,54.9
+2025,Terre-Neuve-et-Labrador,Ports de mer,10,65.4
+2025,Terre-Neuve-et-Labrador,Ports de plaisance et ports de commerce,10,32.0
+2025,Terre-Neuve-et-Labrador,Canaux et voies navigables,10,47.5
+2025,Terre-Neuve-et-Labrador,Autres infrastructures de génie maritime,10,49.8
+2025,Terre-Neuve-et-Labrador,Infrastructures de génie liées aux transports,10,51.8
+2025,Terre-Neuve-et-Labrador,Structures et réseaux autoroutiers et routiers,10,52.3
+2025,Terre-Neuve-et-Labrador,Ponts,10,57.8
+2025,Terre-Neuve-et-Labrador,Tunnels,10,29.8
+2025,Terre-Neuve-et-Labrador,Lignes de chemins de fer,10,51.1
+2025,Terre-Neuve-et-Labrador,Pistes d'atterrissage et de décollage,10,46.6
+2025,Terre-Neuve-et-Labrador,Infrastructure d'adduction et de distribution d'eau,10,51.3
+2025,Terre-Neuve-et-Labrador,Usines de filtration de l'eau,10,61.7
+2025,Terre-Neuve-et-Labrador,Autres infrastructure d'eau,10,51.0
+2025,Terre-Neuve-et-Labrador,Infrastructures pour les eaux usées,10,47.9
+2025,Terre-Neuve-et-Labrador,Usines d'épuration des eaux d'égout,10,81.9
+2025,Terre-Neuve-et-Labrador,Autres infrastructure d'égout,10,46.5
+2025,Terre-Neuve-et-Labrador,Réseaux de communication,10,61.6
+2025,Terre-Neuve-et-Labrador,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",10,59.0
+2025,Terre-Neuve-et-Labrador,Fibre optique,10,60.0
+2025,Terre-Neuve-et-Labrador,Structures de support pour la transmission,10,61.7
+2025,Terre-Neuve-et-Labrador,Autres structures de communication,10,79.5
+2025,Terre-Neuve-et-Labrador,Infrastructure liées à l'énergie électrique,10,70.9
+2025,Terre-Neuve-et-Labrador,Centrales éoliennes et panneaux solaires,10,67.1
+2025,Terre-Neuve-et-Labrador,Centrale énergétique thermale,10,79.9
+2025,Terre-Neuve-et-Labrador,Centrale énergétique hydraulique,10,70.4
+2025,Terre-Neuve-et-Labrador,Réseaux de transport d'électricité,10,70.2
+2025,Terre-Neuve-et-Labrador,Réseau de distribution d'électricité,10,80.3
+2025,Terre-Neuve-et-Labrador,Autres constructions de l'énergie électrique,10,67.1
+2025,Terre-Neuve-et-Labrador,Construction liée aux installations de pétrole et de gaz,10,56.9
+2025,Terre-Neuve-et-Labrador,Oléoducs,10,56.9
+2025,Terre-Neuve-et-Labrador,Autres travaux de génie,10,50.6
+2025,Terre-Neuve-et-Labrador,Installations d'élimination des déchets,10,55.4
+2025,Terre-Neuve-et-Labrador,Installations récréatives de plein air,10,50.6
+2025,Terre-Neuve-et-Labrador,Dépollution,10,35.6
+2025,Terre-Neuve-et-Labrador,Autres machines et matériel,10,57.0
+2025,Terre-Neuve-et-Labrador,"Turbines, turbogénérateurs et groupes générateurs de turbine",10,73.5
+2025,Terre-Neuve-et-Labrador,Matériel de traitement de l'eau,10,64.2
+2025,Terre-Neuve-et-Labrador,Transformateurs de puissance et de distribution,10,46.5
+2025,Terre-Neuve-et-Labrador,Machines et matériel de transport,10,42.2
+2025,Terre-Neuve-et-Labrador,Autobus,10,46.4
+2025,Terre-Neuve-et-Labrador,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",10,38.2
+2025,Île-du-Prince-Édouard,Total des actifs,11,59.3
+2025,Île-du-Prince-Édouard,Immeubles commerciaux,11,80.4
+2025,Île-du-Prince-Édouard,Installations sportives avec capacité d'accueil de spectateurs,11,61.4
+2025,Île-du-Prince-Édouard,Installations récréatives intérieures,11,82.0
+2025,Île-du-Prince-Édouard,Résidences d'étudiants,11,85.8
+2025,Île-du-Prince-Édouard,Aéroports et autres gares de voyageurs,11,84.7
+2025,Île-du-Prince-Édouard,Édifices de communications,11,74.3
+2025,Île-du-Prince-Édouard,Bâtiments institutionnels,11,57.3
+2025,Île-du-Prince-Édouard,"Écoles, collèges, universités et autres bâtiments d'enseignement",11,56.0
+2025,Île-du-Prince-Édouard,Hôpitaux,11,60.2
+2025,Île-du-Prince-Édouard,Maisons de soins infirmiers et résidences pour personnes âgées,11,51.5
+2025,Île-du-Prince-Édouard,Centres religieux et lieux commémoratifs,11,52.0
+2025,Île-du-Prince-Édouard,Musées,11,67.7
+2025,Île-du-Prince-Édouard,Lieux historiques,11,87.7
+2025,Île-du-Prince-Édouard,Bibliothèques,11,86.8
+2025,Île-du-Prince-Édouard,Installations de sécurité publique,11,58.0
+2025,Île-du-Prince-Édouard,Infrastructures de génie maritime,11,55.3
+2025,Île-du-Prince-Édouard,Ports de mer,11,56.7
+2025,Île-du-Prince-Édouard,Ports de plaisance et ports de commerce,11,44.5
+2025,Île-du-Prince-Édouard,Canaux et voies navigables,11,61.1
+2025,Île-du-Prince-Édouard,Autres infrastructures de génie maritime,11,39.6
+2025,Île-du-Prince-Édouard,Infrastructures de génie liées aux transports,11,53.4
+2025,Île-du-Prince-Édouard,Structures et réseaux autoroutiers et routiers,11,53.9
+2025,Île-du-Prince-Édouard,Ponts,11,52.8
+2025,Île-du-Prince-Édouard,Tunnels,11,26.3
+2025,Île-du-Prince-Édouard,Lignes de chemins de fer,11,54.1
+2025,Île-du-Prince-Édouard,Pistes d'atterrissage et de décollage,11,49.5
+2025,Île-du-Prince-Édouard,Infrastructure d'adduction et de distribution d'eau,11,63.2
+2025,Île-du-Prince-Édouard,Usines de filtration de l'eau,11,48.3
+2025,Île-du-Prince-Édouard,Autres infrastructure d'eau,11,66.4
+2025,Île-du-Prince-Édouard,Infrastructures pour les eaux usées,11,56.0
+2025,Île-du-Prince-Édouard,Usines d'épuration des eaux d'égout,11,52.8
+2025,Île-du-Prince-Édouard,Autres infrastructure d'égout,11,58.2
+2025,Île-du-Prince-Édouard,Réseaux de communication,11,59.0
+2025,Île-du-Prince-Édouard,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",11,56.0
+2025,Île-du-Prince-Édouard,Fibre optique,11,59.1
+2025,Île-du-Prince-Édouard,Structures de support pour la transmission,11,55.0
+2025,Île-du-Prince-Édouard,Autres structures de communication,11,83.2
+2025,Île-du-Prince-Édouard,Infrastructure liées à l'énergie électrique,11,64.2
+2025,Île-du-Prince-Édouard,Centrales éoliennes et panneaux solaires,11,79.9
+2025,Île-du-Prince-Édouard,Centrale énergétique thermale,11,53.3
+2025,Île-du-Prince-Édouard,Réseaux de transport d'électricité,11,58.4
+2025,Île-du-Prince-Édouard,Réseau de distribution d'électricité,11,64.8
+2025,Île-du-Prince-Édouard,Autres constructions de l'énergie électrique,11,79.9
+2025,Île-du-Prince-Édouard,Construction liée aux installations de pétrole et de gaz,11,43.2
+2025,Île-du-Prince-Édouard,Oléoducs,11,43.2
+2025,Île-du-Prince-Édouard,Autres travaux de génie,11,61.6
+2025,Île-du-Prince-Édouard,Installations d'élimination des déchets,11,41.0
+2025,Île-du-Prince-Édouard,Installations récréatives de plein air,11,70.1
+2025,Île-du-Prince-Édouard,Dépollution,11,25.4
+2025,Île-du-Prince-Édouard,Autres machines et matériel,11,45.9
+2025,Île-du-Prince-Édouard,"Turbines, turbogénérateurs et groupes générateurs de turbine",11,42.8
+2025,Île-du-Prince-Édouard,Matériel de traitement de l'eau,11,36.3
+2025,Île-du-Prince-Édouard,Transformateurs de puissance et de distribution,11,47.8
+2025,Île-du-Prince-Édouard,Machines et matériel de transport,11,66.5
+2025,Île-du-Prince-Édouard,Autobus,11,73.2
+2025,Île-du-Prince-Édouard,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",11,27.3
+2025,Nouvelle-Écosse,Total des actifs,12,58.1
+2025,Nouvelle-Écosse,Immeubles commerciaux,12,60.1
+2025,Nouvelle-Écosse,Installations sportives avec capacité d'accueil de spectateurs,12,76.6
+2025,Nouvelle-Écosse,Installations récréatives intérieures,12,57.7
+2025,Nouvelle-Écosse,Résidences d'étudiants,12,77.1
+2025,Nouvelle-Écosse,Aéroports et autres gares de voyageurs,12,58.0
+2025,Nouvelle-Écosse,Édifices de communications,12,47.0
+2025,Nouvelle-Écosse,Bâtiments institutionnels,12,61.4
+2025,Nouvelle-Écosse,"Écoles, collèges, universités et autres bâtiments d'enseignement",12,62.3
+2025,Nouvelle-Écosse,Hôpitaux,12,69.7
+2025,Nouvelle-Écosse,Maisons de soins infirmiers et résidences pour personnes âgées,12,52.8
+2025,Nouvelle-Écosse,Centres religieux et lieux commémoratifs,12,62.8
+2025,Nouvelle-Écosse,Musées,12,62.3
+2025,Nouvelle-Écosse,Lieux historiques,12,57.8
+2025,Nouvelle-Écosse,Bibliothèques,12,44.2
+2025,Nouvelle-Écosse,Installations de sécurité publique,12,41.3
+2025,Nouvelle-Écosse,Infrastructures de génie maritime,12,55.1
+2025,Nouvelle-Écosse,Ports de mer,12,56.6
+2025,Nouvelle-Écosse,Ports de plaisance et ports de commerce,12,54.3
+2025,Nouvelle-Écosse,Canaux et voies navigables,12,63.6
+2025,Nouvelle-Écosse,Autres infrastructures de génie maritime,12,48.1
+2025,Nouvelle-Écosse,Infrastructures de génie liées aux transports,12,56.2
+2025,Nouvelle-Écosse,Structures et réseaux autoroutiers et routiers,12,54.7
+2025,Nouvelle-Écosse,Ponts,12,65.6
+2025,Nouvelle-Écosse,Tunnels,12,28.4
+2025,Nouvelle-Écosse,Lignes de chemins de fer,12,55.8
+2025,Nouvelle-Écosse,Pistes d'atterrissage et de décollage,12,54.6
+2025,Nouvelle-Écosse,Infrastructure d'adduction et de distribution d'eau,12,47.5
+2025,Nouvelle-Écosse,Usines de filtration de l'eau,12,42.7
+2025,Nouvelle-Écosse,Autres infrastructure d'eau,12,47.8
+2025,Nouvelle-Écosse,Infrastructures pour les eaux usées,12,46.6
+2025,Nouvelle-Écosse,Usines d'épuration des eaux d'égout,12,63.2
+2025,Nouvelle-Écosse,Autres infrastructure d'égout,12,44.8
+2025,Nouvelle-Écosse,Réseaux de communication,12,58.2
+2025,Nouvelle-Écosse,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",12,58.0
+2025,Nouvelle-Écosse,Fibre optique,12,55.9
+2025,Nouvelle-Écosse,Structures de support pour la transmission,12,56.0
+2025,Nouvelle-Écosse,Autres structures de communication,12,77.2
+2025,Nouvelle-Écosse,Infrastructure liées à l'énergie électrique,12,60.0
+2025,Nouvelle-Écosse,Centrales éoliennes et panneaux solaires,12,51.6
+2025,Nouvelle-Écosse,Centrale énergétique thermale,12,51.0
+2025,Nouvelle-Écosse,Centrale énergétique hydraulique,12,56.6
+2025,Nouvelle-Écosse,Réseaux de transport d'électricité,12,61.3
+2025,Nouvelle-Écosse,Réseau de distribution d'électricité,12,66.6
+2025,Nouvelle-Écosse,Autres constructions de l'énergie électrique,12,51.6
+2025,Nouvelle-Écosse,Construction liée aux installations de pétrole et de gaz,12,25.1
+2025,Nouvelle-Écosse,Oléoducs,12,25.1
+2025,Nouvelle-Écosse,Autres travaux de génie,12,73.5
+2025,Nouvelle-Écosse,Installations d'élimination des déchets,12,81.6
+2025,Nouvelle-Écosse,Installations récréatives de plein air,12,70.3
+2025,Nouvelle-Écosse,Dépollution,12,41.8
+2025,Nouvelle-Écosse,Autres machines et matériel,12,60.0
+2025,Nouvelle-Écosse,"Turbines, turbogénérateurs et groupes générateurs de turbine",12,59.0
+2025,Nouvelle-Écosse,Matériel de traitement de l'eau,12,50.9
+2025,Nouvelle-Écosse,Transformateurs de puissance et de distribution,12,61.9
+2025,Nouvelle-Écosse,Machines et matériel de transport,12,44.0
+2025,Nouvelle-Écosse,Autobus,12,44.1
+2025,Nouvelle-Écosse,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",12,43.8
+2025,Nouveau-Brunswick,Total des actifs,13,53.3
+2025,Nouveau-Brunswick,Immeubles commerciaux,13,58.2
+2025,Nouveau-Brunswick,Installations sportives avec capacité d'accueil de spectateurs,13,62.3
+2025,Nouveau-Brunswick,Installations récréatives intérieures,13,56.7
+2025,Nouveau-Brunswick,Résidences d'étudiants,13,63.2
+2025,Nouveau-Brunswick,Aéroports et autres gares de voyageurs,13,52.2
+2025,Nouveau-Brunswick,Édifices de communications,13,61.3
+2025,Nouveau-Brunswick,Bâtiments institutionnels,13,51.9
+2025,Nouveau-Brunswick,"Écoles, collèges, universités et autres bâtiments d'enseignement",13,52.0
+2025,Nouveau-Brunswick,Hôpitaux,13,54.2
+2025,Nouveau-Brunswick,Maisons de soins infirmiers et résidences pour personnes âgées,13,38.5
+2025,Nouveau-Brunswick,Centres religieux et lieux commémoratifs,13,50.7
+2025,Nouveau-Brunswick,Musées,13,88.0
+2025,Nouveau-Brunswick,Lieux historiques,13,71.3
+2025,Nouveau-Brunswick,Bibliothèques,13,51.9
+2025,Nouveau-Brunswick,Installations de sécurité publique,13,62.2
+2025,Nouveau-Brunswick,Infrastructures de génie maritime,13,62.0
+2025,Nouveau-Brunswick,Ports de mer,13,65.1
+2025,Nouveau-Brunswick,Ports de plaisance et ports de commerce,13,51.4
+2025,Nouveau-Brunswick,Canaux et voies navigables,13,43.3
+2025,Nouveau-Brunswick,Autres infrastructures de génie maritime,13,44.4
+2025,Nouveau-Brunswick,Infrastructures de génie liées aux transports,13,50.0
+2025,Nouveau-Brunswick,Structures et réseaux autoroutiers et routiers,13,48.1
+2025,Nouveau-Brunswick,Ponts,13,60.3
+2025,Nouveau-Brunswick,Tunnels,13,26.3
+2025,Nouveau-Brunswick,Lignes de chemins de fer,13,55.1
+2025,Nouveau-Brunswick,Pistes d'atterrissage et de décollage,13,58.3
+2025,Nouveau-Brunswick,Infrastructure d'adduction et de distribution d'eau,13,56.5
+2025,Nouveau-Brunswick,Usines de filtration de l'eau,13,47.8
+2025,Nouveau-Brunswick,Autres infrastructure d'eau,13,59.1
+2025,Nouveau-Brunswick,Infrastructures pour les eaux usées,13,51.1
+2025,Nouveau-Brunswick,Usines d'épuration des eaux d'égout,13,66.4
+2025,Nouveau-Brunswick,Autres infrastructure d'égout,13,46.4
+2025,Nouveau-Brunswick,Réseaux de communication,13,67.7
+2025,Nouveau-Brunswick,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",13,59.1
+2025,Nouveau-Brunswick,Fibre optique,13,69.2
+2025,Nouveau-Brunswick,Structures de support pour la transmission,13,70.2
+2025,Nouveau-Brunswick,Autres structures de communication,13,69.2
+2025,Nouveau-Brunswick,Infrastructure liées à l'énergie électrique,13,54.3
+2025,Nouveau-Brunswick,Centrales éoliennes et panneaux solaires,13,69.2
+2025,Nouveau-Brunswick,Centrale énergétique thermale,13,56.4
+2025,Nouveau-Brunswick,Centrale énergétique nucléaire,13,50.9
+2025,Nouveau-Brunswick,Centrale énergétique hydraulique,13,58.6
+2025,Nouveau-Brunswick,Réseaux de transport d'électricité,13,51.7
+2025,Nouveau-Brunswick,Réseau de distribution d'électricité,13,57.6
+2025,Nouveau-Brunswick,Autres constructions de l'énergie électrique,13,69.2
+2025,Nouveau-Brunswick,Construction liée aux installations de pétrole et de gaz,13,32.2
+2025,Nouveau-Brunswick,Oléoducs,13,32.2
+2025,Nouveau-Brunswick,Autres travaux de génie,13,60.0
+2025,Nouveau-Brunswick,Installations d'élimination des déchets,13,49.9
+2025,Nouveau-Brunswick,Installations récréatives de plein air,13,61.8
+2025,Nouveau-Brunswick,Dépollution,13,74.6
+2025,Nouveau-Brunswick,Autres machines et matériel,13,36.6
+2025,Nouveau-Brunswick,"Turbines, turbogénérateurs et groupes générateurs de turbine",13,49.8
+2025,Nouveau-Brunswick,"Systèmes d'alimentation en vapeur, de réacteur nucléaire",13,95.8
+2025,Nouveau-Brunswick,Matériel de traitement de l'eau,13,58.8
+2025,Nouveau-Brunswick,Transformateurs de puissance et de distribution,13,26.6
+2025,Nouveau-Brunswick,Machines et matériel de transport,13,66.9
+2025,Nouveau-Brunswick,Autobus,13,60.0
+2025,Nouveau-Brunswick,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",13,71.2
+2025,Québec,Total des actifs,24,57.6
+2025,Québec,Immeubles commerciaux,24,59.6
+2025,Québec,Installations sportives avec capacité d'accueil de spectateurs,24,56.3
+2025,Québec,Installations récréatives intérieures,24,54.3
+2025,Québec,Résidences d'étudiants,24,50.5
+2025,Québec,Aéroports et autres gares de voyageurs,24,66.2
+2025,Québec,Édifices de communications,24,49.8
+2025,Québec,Bâtiments institutionnels,24,63.2
+2025,Québec,"Écoles, collèges, universités et autres bâtiments d'enseignement",24,63.1
+2025,Québec,Hôpitaux,24,66.8
+2025,Québec,Maisons de soins infirmiers et résidences pour personnes âgées,24,67.2
+2025,Québec,Centres religieux et lieux commémoratifs,24,49.4
+2025,Québec,Musées,24,82.4
+2025,Québec,Lieux historiques,24,80.8
+2025,Québec,Bibliothèques,24,50.9
+2025,Québec,Installations de sécurité publique,24,48.8
+2025,Québec,Infrastructures de génie maritime,24,53.6
+2025,Québec,Ports de mer,24,64.3
+2025,Québec,Ports de plaisance et ports de commerce,24,22.5
+2025,Québec,Canaux et voies navigables,24,57.0
+2025,Québec,Autres infrastructures de génie maritime,24,76.8
+2025,Québec,Infrastructures de génie liées aux transports,24,57.2
+2025,Québec,Structures et réseaux autoroutiers et routiers,24,49.1
+2025,Québec,Ponts,24,74.5
+2025,Québec,Tunnels,24,88.0
+2025,Québec,Lignes de chemins de fer,24,71.2
+2025,Québec,Pistes d'atterrissage et de décollage,24,86.2
+2025,Québec,Infrastructure d'adduction et de distribution d'eau,24,53.3
+2025,Québec,Usines de filtration de l'eau,24,63.1
+2025,Québec,Autres infrastructure d'eau,24,52.2
+2025,Québec,Infrastructures pour les eaux usées,24,49.0
+2025,Québec,Usines d'épuration des eaux d'égout,24,61.4
+2025,Québec,Autres infrastructure d'égout,24,47.2
+2025,Québec,Réseaux de communication,24,58.6
+2025,Québec,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",24,64.4
+2025,Québec,Fibre optique,24,54.7
+2025,Québec,Structures de support pour la transmission,24,65.8
+2025,Québec,Autres structures de communication,24,55.8
+2025,Québec,Infrastructure liées à l'énergie électrique,24,55.1
+2025,Québec,Centrales éoliennes et panneaux solaires,24,56.0
+2025,Québec,Centrale énergétique thermale,24,62.1
+2025,Québec,Centrale énergétique nucléaire,24,59.1
+2025,Québec,Centrale énergétique hydraulique,24,53.7
+2025,Québec,Réseaux de transport d'électricité,24,55.4
+2025,Québec,Réseau de distribution d'électricité,24,55.7
+2025,Québec,Autres constructions de l'énergie électrique,24,56.0
+2025,Québec,Construction liée aux installations de pétrole et de gaz,24,64.4
+2025,Québec,Oléoducs,24,64.4
+2025,Québec,Autres travaux de génie,24,68.4
+2025,Québec,Installations d'élimination des déchets,24,84.0
+2025,Québec,Installations récréatives de plein air,24,65.4
+2025,Québec,Dépollution,24,88.9
+2025,Québec,Autres machines et matériel,24,49.4
+2025,Québec,"Turbines, turbogénérateurs et groupes générateurs de turbine",24,49.3
+2025,Québec,"Systèmes d'alimentation en vapeur, de réacteur nucléaire",24,20.9
+2025,Québec,Matériel de traitement de l'eau,24,65.0
+2025,Québec,Transformateurs de puissance et de distribution,24,44.7
+2025,Québec,Machines et matériel de transport,24,56.3
+2025,Québec,Autobus,24,35.1
+2025,Québec,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",24,62.0
+2025,Ontario,Total des actifs,35,59.0
+2025,Ontario,Immeubles commerciaux,35,54.6
+2025,Ontario,Installations sportives avec capacité d'accueil de spectateurs,35,68.2
+2025,Ontario,Installations récréatives intérieures,35,51.1
+2025,Ontario,Résidences d'étudiants,35,44.8
+2025,Ontario,Aéroports et autres gares de voyageurs,35,54.8
+2025,Ontario,Édifices de communications,35,62.4
+2025,Ontario,Bâtiments institutionnels,35,56.2
+2025,Ontario,"Écoles, collèges, universités et autres bâtiments d'enseignement",35,57.4
+2025,Ontario,Hôpitaux,35,55.5
+2025,Ontario,Maisons de soins infirmiers et résidences pour personnes âgées,35,55.9
+2025,Ontario,Centres religieux et lieux commémoratifs,35,39.7
+2025,Ontario,Musées,35,72.1
+2025,Ontario,Lieux historiques,35,50.3
+2025,Ontario,Bibliothèques,35,64.1
+2025,Ontario,Installations de sécurité publique,35,51.4
+2025,Ontario,Infrastructures de génie maritime,35,43.2
+2025,Ontario,Ports de mer,35,59.3
+2025,Ontario,Ports de plaisance et ports de commerce,35,25.5
+2025,Ontario,Canaux et voies navigables,35,57.4
+2025,Ontario,Autres infrastructures de génie maritime,35,42.5
+2025,Ontario,Infrastructures de génie liées aux transports,35,63.6
+2025,Ontario,Structures et réseaux autoroutiers et routiers,35,55.1
+2025,Ontario,Ponts,35,60.5
+2025,Ontario,Tunnels,35,51.2
+2025,Ontario,Lignes de chemins de fer,35,74.9
+2025,Ontario,Pistes d'atterrissage et de décollage,35,54.1
+2025,Ontario,Infrastructure d'adduction et de distribution d'eau,35,59.0
+2025,Ontario,Usines de filtration de l'eau,35,48.7
+2025,Ontario,Autres infrastructure d'eau,35,66.5
+2025,Ontario,Infrastructures pour les eaux usées,35,52.0
+2025,Ontario,Usines d'épuration des eaux d'égout,35,51.2
+2025,Ontario,Autres infrastructure d'égout,35,52.5
+2025,Ontario,Réseaux de communication,35,61.6
+2025,Ontario,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",35,55.6
+2025,Ontario,Fibre optique,35,61.7
+2025,Ontario,Structures de support pour la transmission,35,65.5
+2025,Ontario,Autres structures de communication,35,63.6
+2025,Ontario,Infrastructure liées à l'énergie électrique,35,62.5
+2025,Ontario,Centrales éoliennes et panneaux solaires,35,75.9
+2025,Ontario,Centrale énergétique thermale,35,69.1
+2025,Ontario,Centrale énergétique nucléaire,35,72.4
+2025,Ontario,Centrale énergétique hydraulique,35,73.8
+2025,Ontario,Réseaux de transport d'électricité,35,69.4
+2025,Ontario,Réseau de distribution d'électricité,35,54.8
+2025,Ontario,Autres constructions de l'énergie électrique,35,75.9
+2025,Ontario,Construction liée aux installations de pétrole et de gaz,35,38.6
+2025,Ontario,Oléoducs,35,38.6
+2025,Ontario,Autres travaux de génie,35,51.6
+2025,Ontario,Installations d'élimination des déchets,35,52.0
+2025,Ontario,Installations récréatives de plein air,35,59.8
+2025,Ontario,Dépollution,35,37.1
+2025,Ontario,Autres machines et matériel,35,55.8
+2025,Ontario,"Turbines, turbogénérateurs et groupes générateurs de turbine",35,55.6
+2025,Ontario,"Systèmes d'alimentation en vapeur, de réacteur nucléaire",35,65.9
+2025,Ontario,Matériel de traitement de l'eau,35,49.7
+2025,Ontario,Transformateurs de puissance et de distribution,35,52.8
+2025,Ontario,Machines et matériel de transport,35,56.0
+2025,Ontario,Autobus,35,40.2
+2025,Ontario,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",35,63.2
+2025,Manitoba,Total des actifs,46,58.4
+2025,Manitoba,Immeubles commerciaux,46,52.0
+2025,Manitoba,Installations sportives avec capacité d'accueil de spectateurs,46,65.0
+2025,Manitoba,Installations récréatives intérieures,46,45.9
+2025,Manitoba,Résidences d'étudiants,46,75.3
+2025,Manitoba,Aéroports et autres gares de voyageurs,46,55.8
+2025,Manitoba,Édifices de communications,46,69.6
+2025,Manitoba,Bâtiments institutionnels,46,58.0
+2025,Manitoba,"Écoles, collèges, universités et autres bâtiments d'enseignement",46,56.9
+2025,Manitoba,Hôpitaux,46,64.6
+2025,Manitoba,Maisons de soins infirmiers et résidences pour personnes âgées,46,44.8
+2025,Manitoba,Centres religieux et lieux commémoratifs,46,56.6
+2025,Manitoba,Musées,46,60.6
+2025,Manitoba,Lieux historiques,46,68.7
+2025,Manitoba,Bibliothèques,46,67.4
+2025,Manitoba,Installations de sécurité publique,46,58.2
+2025,Manitoba,Infrastructures de génie maritime,46,48.3
+2025,Manitoba,Ports de mer,46,50.9
+2025,Manitoba,Ports de plaisance et ports de commerce,46,28.2
+2025,Manitoba,Canaux et voies navigables,46,46.3
+2025,Manitoba,Autres infrastructures de génie maritime,46,86.3
+2025,Manitoba,Infrastructures de génie liées aux transports,46,55.3
+2025,Manitoba,Structures et réseaux autoroutiers et routiers,46,53.7
+2025,Manitoba,Ponts,46,48.0
+2025,Manitoba,Tunnels,46,37.1
+2025,Manitoba,Lignes de chemins de fer,46,61.3
+2025,Manitoba,Pistes d'atterrissage et de décollage,46,63.7
+2025,Manitoba,Infrastructure d'adduction et de distribution d'eau,46,56.2
+2025,Manitoba,Usines de filtration de l'eau,46,57.3
+2025,Manitoba,Autres infrastructure d'eau,46,56.0
+2025,Manitoba,Infrastructures pour les eaux usées,46,49.1
+2025,Manitoba,Usines d'épuration des eaux d'égout,46,65.2
+2025,Manitoba,Autres infrastructure d'égout,46,43.2
+2025,Manitoba,Réseaux de communication,46,65.3
+2025,Manitoba,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",46,62.2
+2025,Manitoba,Fibre optique,46,67.8
+2025,Manitoba,Structures de support pour la transmission,46,70.3
+2025,Manitoba,Autres structures de communication,46,63.0
+2025,Manitoba,Infrastructure liées à l'énergie électrique,46,63.0
+2025,Manitoba,Centrales éoliennes et panneaux solaires,46,41.8
+2025,Manitoba,Centrale énergétique thermale,46,73.6
+2025,Manitoba,Centrale énergétique hydraulique,46,62.8
+2025,Manitoba,Réseaux de transport d'électricité,46,61.0
+2025,Manitoba,Réseau de distribution d'électricité,46,67.6
+2025,Manitoba,Autres constructions de l'énergie électrique,46,41.8
+2025,Manitoba,Construction liée aux installations de pétrole et de gaz,46,47.3
+2025,Manitoba,Oléoducs,46,47.3
+2025,Manitoba,Autres travaux de génie,46,67.3
+2025,Manitoba,Installations d'élimination des déchets,46,59.6
+2025,Manitoba,Installations récréatives de plein air,46,72.3
+2025,Manitoba,Dépollution,46,53.6
+2025,Manitoba,Autres machines et matériel,46,44.2
+2025,Manitoba,"Turbines, turbogénérateurs et groupes générateurs de turbine",46,17.0
+2025,Manitoba,Matériel de traitement de l'eau,46,53.2
+2025,Manitoba,Transformateurs de puissance et de distribution,46,44.6
+2025,Manitoba,Machines et matériel de transport,46,63.7
+2025,Manitoba,Autobus,46,51.9
+2025,Manitoba,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",46,67.9
+2025,Saskatchewan,Total des actifs,47,58.0
+2025,Saskatchewan,Immeubles commerciaux,47,53.1
+2025,Saskatchewan,Installations sportives avec capacité d'accueil de spectateurs,47,76.6
+2025,Saskatchewan,Installations récréatives intérieures,47,51.7
+2025,Saskatchewan,Résidences d'étudiants,47,46.7
+2025,Saskatchewan,Aéroports et autres gares de voyageurs,47,47.0
+2025,Saskatchewan,Édifices de communications,47,52.1
+2025,Saskatchewan,Bâtiments institutionnels,47,53.0
+2025,Saskatchewan,"Écoles, collèges, universités et autres bâtiments d'enseignement",47,52.9
+2025,Saskatchewan,Hôpitaux,47,51.0
+2025,Saskatchewan,Maisons de soins infirmiers et résidences pour personnes âgées,47,50.0
+2025,Saskatchewan,Centres religieux et lieux commémoratifs,47,51.9
+2025,Saskatchewan,Musées,47,50.9
+2025,Saskatchewan,Lieux historiques,47,79.5
+2025,Saskatchewan,Bibliothèques,47,61.4
+2025,Saskatchewan,Installations de sécurité publique,47,70.4
+2025,Saskatchewan,Infrastructures de génie maritime,47,37.6
+2025,Saskatchewan,Ports de mer,47,29.6
+2025,Saskatchewan,Ports de plaisance et ports de commerce,47,42.9
+2025,Saskatchewan,Canaux et voies navigables,47,66.0
+2025,Saskatchewan,Autres infrastructures de génie maritime,47,25.4
+2025,Saskatchewan,Infrastructures de génie liées aux transports,47,60.9
+2025,Saskatchewan,Structures et réseaux autoroutiers et routiers,47,58.5
+2025,Saskatchewan,Ponts,47,62.0
+2025,Saskatchewan,Tunnels,47,67.0
+2025,Saskatchewan,Lignes de chemins de fer,47,64.8
+2025,Saskatchewan,Pistes d'atterrissage et de décollage,47,66.8
+2025,Saskatchewan,Infrastructure d'adduction et de distribution d'eau,47,57.3
+2025,Saskatchewan,Usines de filtration de l'eau,47,46.5
+2025,Saskatchewan,Autres infrastructure d'eau,47,72.7
+2025,Saskatchewan,Infrastructures pour les eaux usées,47,54.3
+2025,Saskatchewan,Usines d'épuration des eaux d'égout,47,69.6
+2025,Saskatchewan,Autres infrastructure d'égout,47,51.0
+2025,Saskatchewan,Réseaux de communication,47,70.1
+2025,Saskatchewan,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",47,61.8
+2025,Saskatchewan,Fibre optique,47,71.3
+2025,Saskatchewan,Structures de support pour la transmission,47,79.8
+2025,Saskatchewan,Autres structures de communication,47,54.9
+2025,Saskatchewan,Infrastructure liées à l'énergie électrique,47,63.6
+2025,Saskatchewan,Centrales éoliennes et panneaux solaires,47,56.0
+2025,Saskatchewan,Centrale énergétique thermale,47,76.9
+2025,Saskatchewan,Centrale énergétique hydraulique,47,56.1
+2025,Saskatchewan,Réseaux de transport d'électricité,47,60.7
+2025,Saskatchewan,Réseau de distribution d'électricité,47,63.5
+2025,Saskatchewan,Autres constructions de l'énergie électrique,47,56.0
+2025,Saskatchewan,Construction liée aux installations de pétrole et de gaz,47,49.4
+2025,Saskatchewan,Oléoducs,47,49.4
+2025,Saskatchewan,Autres travaux de génie,47,54.3
+2025,Saskatchewan,Installations d'élimination des déchets,47,68.4
+2025,Saskatchewan,Installations récréatives de plein air,47,50.8
+2025,Saskatchewan,Dépollution,47,47.2
+2025,Saskatchewan,Autres machines et matériel,47,63.1
+2025,Saskatchewan,"Turbines, turbogénérateurs et groupes générateurs de turbine",47,64.4
+2025,Saskatchewan,Matériel de traitement de l'eau,47,64.9
+2025,Saskatchewan,Transformateurs de puissance et de distribution,47,60.4
+2025,Saskatchewan,Machines et matériel de transport,47,61.0
+2025,Saskatchewan,Autobus,47,46.7
+2025,Saskatchewan,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",47,63.1
+2025,Alberta,Total des actifs,48,60.5
+2025,Alberta,Immeubles commerciaux,48,54.6
+2025,Alberta,Installations sportives avec capacité d'accueil de spectateurs,48,56.0
+2025,Alberta,Installations récréatives intérieures,48,56.8
+2025,Alberta,Résidences d'étudiants,48,50.1
+2025,Alberta,Aéroports et autres gares de voyageurs,48,50.5
+2025,Alberta,Édifices de communications,48,58.2
+2025,Alberta,Bâtiments institutionnels,48,58.5
+2025,Alberta,"Écoles, collèges, universités et autres bâtiments d'enseignement",48,59.1
+2025,Alberta,Hôpitaux,48,53.5
+2025,Alberta,Maisons de soins infirmiers et résidences pour personnes âgées,48,70.6
+2025,Alberta,Centres religieux et lieux commémoratifs,48,62.6
+2025,Alberta,Musées,48,55.4
+2025,Alberta,Lieux historiques,48,55.4
+2025,Alberta,Bibliothèques,48,57.5
+2025,Alberta,Installations de sécurité publique,48,71.3
+2025,Alberta,Infrastructures de génie maritime,48,21.7
+2025,Alberta,Ports de mer,48,22.0
+2025,Alberta,Ports de plaisance et ports de commerce,48,36.6
+2025,Alberta,Canaux et voies navigables,48,56.0
+2025,Alberta,Autres infrastructures de génie maritime,48,0.0
+2025,Alberta,Infrastructures de génie liées aux transports,48,55.7
+2025,Alberta,Structures et réseaux autoroutiers et routiers,48,53.9
+2025,Alberta,Ponts,48,43.3
+2025,Alberta,Tunnels,48,46.8
+2025,Alberta,Lignes de chemins de fer,48,66.0
+2025,Alberta,Pistes d'atterrissage et de décollage,48,71.0
+2025,Alberta,Infrastructure d'adduction et de distribution d'eau,48,56.2
+2025,Alberta,Usines de filtration de l'eau,48,50.5
+2025,Alberta,Autres infrastructure d'eau,48,57.7
+2025,Alberta,Infrastructures pour les eaux usées,48,59.1
+2025,Alberta,Usines d'épuration des eaux d'égout,48,70.3
+2025,Alberta,Autres infrastructure d'égout,48,56.7
+2025,Alberta,Réseaux de communication,48,51.0
+2025,Alberta,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",48,46.5
+2025,Alberta,Fibre optique,48,51.3
+2025,Alberta,Structures de support pour la transmission,48,56.0
+2025,Alberta,Autres structures de communication,48,48.5
+2025,Alberta,Infrastructure liées à l'énergie électrique,48,65.3
+2025,Alberta,Centrales éoliennes et panneaux solaires,48,83.1
+2025,Alberta,Centrale énergétique thermale,48,79.8
+2025,Alberta,Centrale énergétique hydraulique,48,80.5
+2025,Alberta,Réseaux de transport d'électricité,48,58.6
+2025,Alberta,Réseau de distribution d'électricité,48,61.3
+2025,Alberta,Autres constructions de l'énergie électrique,48,83.1
+2025,Alberta,Construction liée aux installations de pétrole et de gaz,48,66.9
+2025,Alberta,Oléoducs,48,66.9
+2025,Alberta,Autres travaux de génie,48,57.3
+2025,Alberta,Installations d'élimination des déchets,48,58.2
+2025,Alberta,Installations récréatives de plein air,48,63.0
+2025,Alberta,Dépollution,48,40.0
+2025,Alberta,Autres machines et matériel,48,45.5
+2025,Alberta,"Turbines, turbogénérateurs et groupes générateurs de turbine",48,47.4
+2025,Alberta,Matériel de traitement de l'eau,48,61.6
+2025,Alberta,Transformateurs de puissance et de distribution,48,42.9
+2025,Alberta,Machines et matériel de transport,48,61.6
+2025,Alberta,Autobus,48,45.1
+2025,Alberta,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",48,67.9
+2025,Colombie-Britannique,Total des actifs,59,63.3
+2025,Colombie-Britannique,Immeubles commerciaux,59,55.1
+2025,Colombie-Britannique,Installations sportives avec capacité d'accueil de spectateurs,59,57.1
+2025,Colombie-Britannique,Installations récréatives intérieures,59,58.6
+2025,Colombie-Britannique,Résidences d'étudiants,59,77.5
+2025,Colombie-Britannique,Aéroports et autres gares de voyageurs,59,49.0
+2025,Colombie-Britannique,Édifices de communications,59,62.7
+2025,Colombie-Britannique,Bâtiments institutionnels,59,58.2
+2025,Colombie-Britannique,"Écoles, collèges, universités et autres bâtiments d'enseignement",59,55.6
+2025,Colombie-Britannique,Hôpitaux,59,69.1
+2025,Colombie-Britannique,Maisons de soins infirmiers et résidences pour personnes âgées,59,45.4
+2025,Colombie-Britannique,Centres religieux et lieux commémoratifs,59,56.0
+2025,Colombie-Britannique,Musées,59,86.0
+2025,Colombie-Britannique,Lieux historiques,59,80.4
+2025,Colombie-Britannique,Bibliothèques,59,37.4
+2025,Colombie-Britannique,Installations de sécurité publique,59,63.5
+2025,Colombie-Britannique,Infrastructures de génie maritime,59,69.8
+2025,Colombie-Britannique,Ports de mer,59,71.9
+2025,Colombie-Britannique,Ports de plaisance et ports de commerce,59,41.1
+2025,Colombie-Britannique,Canaux et voies navigables,59,63.8
+2025,Colombie-Britannique,Autres infrastructures de génie maritime,59,72.2
+2025,Colombie-Britannique,Infrastructures de génie liées aux transports,59,58.5
+2025,Colombie-Britannique,Structures et réseaux autoroutiers et routiers,59,52.7
+2025,Colombie-Britannique,Ponts,59,69.0
+2025,Colombie-Britannique,Tunnels,59,97.1
+2025,Colombie-Britannique,Lignes de chemins de fer,59,63.3
+2025,Colombie-Britannique,Pistes d'atterrissage et de décollage,59,62.7
+2025,Colombie-Britannique,Infrastructure d'adduction et de distribution d'eau,59,60.1
+2025,Colombie-Britannique,Usines de filtration de l'eau,59,57.7
+2025,Colombie-Britannique,Autres infrastructure d'eau,59,60.7
+2025,Colombie-Britannique,Infrastructures pour les eaux usées,59,56.5
+2025,Colombie-Britannique,Usines d'épuration des eaux d'égout,59,52.3
+2025,Colombie-Britannique,Autres infrastructure d'égout,59,60.4
+2025,Colombie-Britannique,Réseaux de communication,59,55.0
+2025,Colombie-Britannique,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",59,49.1
+2025,Colombie-Britannique,Fibre optique,59,57.5
+2025,Colombie-Britannique,Structures de support pour la transmission,59,62.6
+2025,Colombie-Britannique,Autres structures de communication,59,42.9
+2025,Colombie-Britannique,Infrastructure liées à l'énergie électrique,59,67.8
+2025,Colombie-Britannique,Centrales éoliennes et panneaux solaires,59,70.8
+2025,Colombie-Britannique,Centrale énergétique thermale,59,57.3
+2025,Colombie-Britannique,Centrale énergétique hydraulique,59,67.8
+2025,Colombie-Britannique,Réseaux de transport d'électricité,59,67.9
+2025,Colombie-Britannique,Réseau de distribution d'électricité,59,67.8
+2025,Colombie-Britannique,Autres constructions de l'énergie électrique,59,70.8
+2025,Colombie-Britannique,Construction liée aux installations de pétrole et de gaz,59,82.8
+2025,Colombie-Britannique,Oléoducs,59,82.8
+2025,Colombie-Britannique,Autres travaux de génie,59,63.5
+2025,Colombie-Britannique,Installations d'élimination des déchets,59,63.0
+2025,Colombie-Britannique,Installations récréatives de plein air,59,64.1
+2025,Colombie-Britannique,Dépollution,59,53.8
+2025,Colombie-Britannique,Autres machines et matériel,59,41.9
+2025,Colombie-Britannique,"Turbines, turbogénérateurs et groupes générateurs de turbine",59,47.0
+2025,Colombie-Britannique,Matériel de traitement de l'eau,59,46.8
+2025,Colombie-Britannique,Transformateurs de puissance et de distribution,59,36.1
+2025,Colombie-Britannique,Machines et matériel de transport,59,54.8
+2025,Colombie-Britannique,Autobus,59,38.1
+2025,Colombie-Britannique,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",59,63.9
+2025,Yukon,Total des actifs,60,57.9
+2025,Yukon,Immeubles commerciaux,60,77.6
+2025,Yukon,Installations sportives avec capacité d'accueil de spectateurs,60,89.4
+2025,Yukon,Installations récréatives intérieures,60,75.6
+2025,Yukon,Aéroports et autres gares de voyageurs,60,65.1
+2025,Yukon,Édifices de communications,60,45.5
+2025,Yukon,Bâtiments institutionnels,60,58.0
+2025,Yukon,"Écoles, collèges, universités et autres bâtiments d'enseignement",60,51.3
+2025,Yukon,Hôpitaux,60,72.4
+2025,Yukon,Maisons de soins infirmiers et résidences pour personnes âgées,60,60.8
+2025,Yukon,Centres religieux et lieux commémoratifs,60,26.9
+2025,Yukon,Musées,60,57.8
+2025,Yukon,Lieux historiques,60,93.7
+2025,Yukon,Bibliothèques,60,42.0
+2025,Yukon,Installations de sécurité publique,60,84.1
+2025,Yukon,Infrastructures de génie maritime,60,45.0
+2025,Yukon,Ports de mer,60,64.9
+2025,Yukon,Ports de plaisance et ports de commerce,60,18.0
+2025,Yukon,Canaux et voies navigables,60,61.7
+2025,Yukon,Autres infrastructures de génie maritime,60,85.5
+2025,Yukon,Infrastructures de génie liées aux transports,60,52.2
+2025,Yukon,Structures et réseaux autoroutiers et routiers,60,44.7
+2025,Yukon,Ponts,60,52.4
+2025,Yukon,Lignes de chemins de fer,60,93.7
+2025,Yukon,Pistes d'atterrissage et de décollage,60,75.2
+2025,Yukon,Infrastructure d'adduction et de distribution d'eau,60,62.0
+2025,Yukon,Usines de filtration de l'eau,60,63.6
+2025,Yukon,Autres infrastructure d'eau,60,60.9
+2025,Yukon,Infrastructures pour les eaux usées,60,43.2
+2025,Yukon,Usines d'épuration des eaux d'égout,60,35.9
+2025,Yukon,Autres infrastructure d'égout,60,58.8
+2025,Yukon,Réseaux de communication,60,69.4
+2025,Yukon,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",60,45.6
+2025,Yukon,Fibre optique,60,78.4
+2025,Yukon,Structures de support pour la transmission,60,48.1
+2025,Yukon,Autres structures de communication,60,44.2
+2025,Yukon,Infrastructure liées à l'énergie électrique,60,61.6
+2025,Yukon,Centrales éoliennes et panneaux solaires,60,60.9
+2025,Yukon,Centrale énergétique thermale,60,61.8
+2025,Yukon,Centrale énergétique hydraulique,60,55.7
+2025,Yukon,Réseaux de transport d'électricité,60,68.1
+2025,Yukon,Réseau de distribution d'électricité,60,62.6
+2025,Yukon,Autres constructions de l'énergie électrique,60,60.9
+2025,Yukon,Construction liée aux installations de pétrole et de gaz,60,2.5
+2025,Yukon,Oléoducs,60,2.5
+2025,Yukon,Autres travaux de génie,60,69.8
+2025,Yukon,Installations d'élimination des déchets,60,55.7
+2025,Yukon,Installations récréatives de plein air,60,82.2
+2025,Yukon,Dépollution,60,36.7
+2025,Yukon,Autres machines et matériel,60,53.1
+2025,Yukon,"Turbines, turbogénérateurs et groupes générateurs de turbine",60,62.3
+2025,Yukon,Matériel de traitement de l'eau,60,68.4
+2025,Yukon,Transformateurs de puissance et de distribution,60,33.5
+2025,Yukon,Machines et matériel de transport,60,75.6
+2025,Yukon,Autobus,60,77.3
+2025,Yukon,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",60,19.7
+2025,Territoires du Nord-Ouest,Total des actifs,61,66.5
+2025,Territoires du Nord-Ouest,Immeubles commerciaux,61,75.0
+2025,Territoires du Nord-Ouest,Installations sportives avec capacité d'accueil de spectateurs,61,82.1
+2025,Territoires du Nord-Ouest,Installations récréatives intérieures,61,84.8
+2025,Territoires du Nord-Ouest,Résidences d'étudiants,61,48.4
+2025,Territoires du Nord-Ouest,Aéroports et autres gares de voyageurs,61,79.7
+2025,Territoires du Nord-Ouest,Édifices de communications,61,34.9
+2025,Territoires du Nord-Ouest,Bâtiments institutionnels,61,64.8
+2025,Territoires du Nord-Ouest,"Écoles, collèges, universités et autres bâtiments d'enseignement",61,60.1
+2025,Territoires du Nord-Ouest,Hôpitaux,61,70.1
+2025,Territoires du Nord-Ouest,Maisons de soins infirmiers et résidences pour personnes âgées,61,74.4
+2025,Territoires du Nord-Ouest,Centres religieux et lieux commémoratifs,61,83.6
+2025,Territoires du Nord-Ouest,Musées,61,75.2
+2025,Territoires du Nord-Ouest,Lieux historiques,61,80.2
+2025,Territoires du Nord-Ouest,Bibliothèques,61,53.0
+2025,Territoires du Nord-Ouest,Installations de sécurité publique,61,60.4
+2025,Territoires du Nord-Ouest,Infrastructures de génie maritime,61,50.6
+2025,Territoires du Nord-Ouest,Ports de mer,61,34.7
+2025,Territoires du Nord-Ouest,Ports de plaisance et ports de commerce,61,42.9
+2025,Territoires du Nord-Ouest,Canaux et voies navigables,61,55.1
+2025,Territoires du Nord-Ouest,Autres infrastructures de génie maritime,61,43.4
+2025,Territoires du Nord-Ouest,Infrastructures de génie liées aux transports,61,58.4
+2025,Territoires du Nord-Ouest,Structures et réseaux autoroutiers et routiers,61,55.2
+2025,Territoires du Nord-Ouest,Ponts,61,58.2
+2025,Territoires du Nord-Ouest,Lignes de chemins de fer,61,70.5
+2025,Territoires du Nord-Ouest,Pistes d'atterrissage et de décollage,61,67.2
+2025,Territoires du Nord-Ouest,Infrastructure d'adduction et de distribution d'eau,61,66.8
+2025,Territoires du Nord-Ouest,Usines de filtration de l'eau,61,62.0
+2025,Territoires du Nord-Ouest,Autres infrastructure d'eau,61,72.9
+2025,Territoires du Nord-Ouest,Infrastructures pour les eaux usées,61,68.5
+2025,Territoires du Nord-Ouest,Usines d'épuration des eaux d'égout,61,89.9
+2025,Territoires du Nord-Ouest,Autres infrastructure d'égout,61,66.8
+2025,Territoires du Nord-Ouest,Réseaux de communication,61,54.7
+2025,Territoires du Nord-Ouest,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",61,43.4
+2025,Territoires du Nord-Ouest,Fibre optique,61,61.8
+2025,Territoires du Nord-Ouest,Structures de support pour la transmission,61,45.3
+2025,Territoires du Nord-Ouest,Autres structures de communication,61,68.8
+2025,Territoires du Nord-Ouest,Infrastructure liées à l'énergie électrique,61,77.7
+2025,Territoires du Nord-Ouest,Centrales éoliennes et panneaux solaires,61,82.9
+2025,Territoires du Nord-Ouest,Centrale énergétique thermale,61,68.1
+2025,Territoires du Nord-Ouest,Centrale énergétique hydraulique,61,85.6
+2025,Territoires du Nord-Ouest,Réseaux de transport d'électricité,61,68.2
+2025,Territoires du Nord-Ouest,Réseau de distribution d'électricité,61,72.7
+2025,Territoires du Nord-Ouest,Autres constructions de l'énergie électrique,61,82.9
+2025,Territoires du Nord-Ouest,Construction liée aux installations de pétrole et de gaz,61,68.8
+2025,Territoires du Nord-Ouest,Oléoducs,61,68.8
+2025,Territoires du Nord-Ouest,Autres travaux de génie,61,71.3
+2025,Territoires du Nord-Ouest,Installations d'élimination des déchets,61,74.8
+2025,Territoires du Nord-Ouest,Installations récréatives de plein air,61,72.2
+2025,Territoires du Nord-Ouest,Dépollution,61,48.1
+2025,Territoires du Nord-Ouest,Autres machines et matériel,61,64.2
+2025,Territoires du Nord-Ouest,"Turbines, turbogénérateurs et groupes générateurs de turbine",61,56.7
+2025,Territoires du Nord-Ouest,Matériel de traitement de l'eau,61,46.5
+2025,Territoires du Nord-Ouest,Transformateurs de puissance et de distribution,61,67.2
+2025,Territoires du Nord-Ouest,Machines et matériel de transport,61,35.3
+2025,Territoires du Nord-Ouest,Autobus,61,31.4
+2025,Territoires du Nord-Ouest,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",61,37.3
+2025,Nunavut,Total des actifs,62,68.3
+2025,Nunavut,Immeubles commerciaux,62,65.2
+2025,Nunavut,Installations sportives avec capacité d'accueil de spectateurs,62,64.4
+2025,Nunavut,Installations récréatives intérieures,62,65.6
+2025,Nunavut,Résidences d'étudiants,62,56.2
+2025,Nunavut,Aéroports et autres gares de voyageurs,62,65.2
+2025,Nunavut,Édifices de communications,62,73.3
+2025,Nunavut,Bâtiments institutionnels,62,69.3
+2025,Nunavut,"Écoles, collèges, universités et autres bâtiments d'enseignement",62,70.9
+2025,Nunavut,Hôpitaux,62,52.7
+2025,Nunavut,Maisons de soins infirmiers et résidences pour personnes âgées,62,74.9
+2025,Nunavut,Centres religieux et lieux commémoratifs,62,82.3
+2025,Nunavut,Musées,62,70.7
+2025,Nunavut,Lieux historiques,62,83.9
+2025,Nunavut,Bibliothèques,62,93.2
+2025,Nunavut,Installations de sécurité publique,62,77.3
+2025,Nunavut,Infrastructures de génie maritime,62,78.0
+2025,Nunavut,Ports de mer,62,77.8
+2025,Nunavut,Ports de plaisance et ports de commerce,62,63.8
+2025,Nunavut,Canaux et voies navigables,62,86.5
+2025,Nunavut,Autres infrastructures de génie maritime,62,74.8
+2025,Nunavut,Infrastructures de génie liées aux transports,62,57.3
+2025,Nunavut,Structures et réseaux autoroutiers et routiers,62,56.4
+2025,Nunavut,Ponts,62,57.9
+2025,Nunavut,Lignes de chemins de fer,62,53.9
+2025,Nunavut,Pistes d'atterrissage et de décollage,62,59.3
+2025,Nunavut,Infrastructure d'adduction et de distribution d'eau,62,73.4
+2025,Nunavut,Usines de filtration de l'eau,62,67.8
+2025,Nunavut,Autres infrastructure d'eau,62,75.2
+2025,Nunavut,Infrastructures pour les eaux usées,62,64.1
+2025,Nunavut,Usines d'épuration des eaux d'égout,62,57.2
+2025,Nunavut,Autres infrastructure d'égout,62,69.3
+2025,Nunavut,Réseaux de communication,62,61.3
+2025,Nunavut,"Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",62,51.6
+2025,Nunavut,Fibre optique,62,84.3
+2025,Nunavut,Structures de support pour la transmission,62,46.5
+2025,Nunavut,Autres structures de communication,62,60.7
+2025,Nunavut,Infrastructure liées à l'énergie électrique,62,80.3
+2025,Nunavut,Centrales éoliennes et panneaux solaires,62,68.3
+2025,Nunavut,Centrale énergétique thermale,62,84.4
+2025,Nunavut,Centrale énergétique hydraulique,62,74.8
+2025,Nunavut,Réseaux de transport d'électricité,62,72.1
+2025,Nunavut,Réseau de distribution d'électricité,62,79.2
+2025,Nunavut,Autres constructions de l'énergie électrique,62,68.3
+2025,Nunavut,Autres travaux de génie,62,67.1
+2025,Nunavut,Installations d'élimination des déchets,62,78.8
+2025,Nunavut,Installations récréatives de plein air,62,47.8
+2025,Nunavut,Dépollution,62,51.7
+2025,Nunavut,Autres machines et matériel,62,28.4
+2025,Nunavut,"Turbines, turbogénérateurs et groupes générateurs de turbine",62,22.3
+2025,Nunavut,Matériel de traitement de l'eau,62,19.3
+2025,Nunavut,Transformateurs de puissance et de distribution,62,36.1
+2025,Nunavut,Machines et matériel de transport,62,74.4
+2025,Nunavut,Autobus,62,68.1
+2025,Nunavut,"Locomotives, matériel ferroviaire roulant et de transport en commun rapide",62,76.1
