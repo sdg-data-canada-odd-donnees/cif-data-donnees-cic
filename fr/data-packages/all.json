@@ -951,6 +951,18 @@
             "title": "Année"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Activités de protection de l'environnement",
+                "Pratiques de gestion de l'environnement",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -1027,7 +1039,22 @@
                 ""
               ]
             },
-            "title": "Pratiques de gestion de l’environnement"
+            "title": "Pratiques de gestion de l'environnement"
+          },
+          {
+            "name": "Resource management activities",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, activités de gestion des ressources",
+                "Économies et gestion de la chaleur ou de l'énergie",
+                "Achat de biocarburants, de produits biochimiques ou de biomatériaux",
+                "Production d'énergie à partir de sources renouvelables",
+                "Production d'énergie nucléaire",
+                ""
+              ]
+            },
+            "title": "Activités de gestion des ressources"
           },
           {
             "name": "Environmental protection activities",

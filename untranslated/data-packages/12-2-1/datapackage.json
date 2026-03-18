@@ -15,6 +15,17 @@
             "type": "integer"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Environmental protection activities",
+                "Environmental management practices",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -86,6 +97,20 @@
                 "Purchased carbon offset credits only or purchased more than sold",
                 "Sold carbon offset credits only or sold more than purchased",
                 "Other environmental management practices",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Resource management activities",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, resource management activities",
+                "Heat or energy savings and management",
+                "Purchase of biofuels, biochemicals or biomaterials",
+                "Energy production from renewable sources",
+                "Nuclear energy production",
                 ""
               ]
             }

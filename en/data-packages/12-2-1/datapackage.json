@@ -16,6 +16,18 @@
             "title": "Year"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Environmental protection activities",
+                "Environmental management practices",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Geography",
             "type": "string",
             "constraints": {
@@ -93,6 +105,21 @@
               ]
             },
             "title": "Environmental management practices"
+          },
+          {
+            "name": "Resource management activities",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, resource management activities",
+                "Heat or energy savings and management",
+                "Purchase of biofuels, biochemicals or biomaterials",
+                "Energy production from renewable sources",
+                "Nuclear energy production",
+                ""
+              ]
+            },
+            "title": "Resource management activities"
           },
           {
             "name": "Environmental protection activities",
