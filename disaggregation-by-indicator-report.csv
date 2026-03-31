@@ -18,8 +18,8 @@ Indicator,Disaggregations,Number of disaggregations
 #13-2-1,"Age group, Sex",2
 #13-3-1,"Geography, Core public infrastructure assets, Type of municipality by population size",3
 #13-4-1,Geography,1
-#14-2-1,"Region, Status, Stock group",3
-#15-1-1,"Species group, Region",2
+#14-2-1,"Status, Region, Stock group",3
+#15-1-1,"Region, Species group",2
 #15-2-1,Trend,1
 #15-3-1,"Species group, System",2
 #15-4-1,Geography,1
@@ -42,7 +42,7 @@ Indicator,Disaggregations,Number of disaggregations
 #3-13-1,"Geography, Sex",2
 #3-14-1,"Geography, Age group, Sex, Household income, Highest level of education",5
 #3-15-1,"Geography, Age group, Sex",3
-#3-2-1,"Geography, Visible minority, Immigration status, Gender, Sex at birth, Indigenous status, Education level of parent or legal guardian, Education level of parent's or legal guardian's spouse, Labour market status of parent or legal guardian, Labour market status of parent's or legal guardian's spouse",10
+#3-2-1,"Geography, Gender, Visible minority, Immigration status, Sex at birth, Indigenous status, Education level of parent or legal guardian, Education level of parent's or legal guardian's spouse, Labour market status of parent or legal guardian, Labour market status of parent's or legal guardian's spouse",10
 #3-3-1,"Age group, Sex",2
 #3-4-1,"Geography, Type of beverage",2
 #3-5-1,"Age group, Sex",2
@@ -54,18 +54,18 @@ Indicator,Disaggregations,Number of disaggregations
 #4-2-1,"Geography, Age group, Gender, Education attainment level, Population characteristics",5
 #4-3-1,Geography,1
 #5-1-1,"data.Sex, data.Type of perpetrator",2
-#5-2-1,"Geography, Age group, Household income, Visible minority, Type of intimate partner violence, Indigenous group, Immigrant status, Disability, Highest degree earned, Location of residence, Marital status",11
+#5-2-1,"Geography, Age group, Household income, Type of intimate partner violence, Indigenous group, Visible minority, Immigrant status, Disability, Highest degree earned, Location of residence, Marital status",11
 #5-3-1,Leadership position,1
 #5-4-1,"Geography, Age group, Gender, Activity group",4
-#5-5-1,"Geography, Age, Type of work, National Occupational Classification (NOC)",4
+#5-5-1,"Geography, Type of work, National Occupational Classification (NOC), Age",4
 #6-1-1,data.Geography,1
 #6-2-1,"Geography, Type of municipality",2
 #6-3-1,Sector,1
 #6-4-1,"Geography, Land use category, Water quality",3
 #7-2-1,"Geography, Type of electricity generation",2
 #7-3-1,data.Geography,1
-#8-1-1,"Geography, Age group, Population, Gender",4
-#8-2-1,"Geography, Age group, Visible minority, Gender, Indigenous group, Immigrant status, Educational attainment",7
+#8-1-1,"Geography, Age group, Gender, Population",4
+#8-2-1,"Geography, Age group, Gender, Indigenous group, Visible minority, Immigrant status, Educational attainment",7
 #8-3-1,"data.Geography, data.Age group, data.Gender",3
 #8-4-1,"Geography, Age group, Gender",3
 #8-5-1,data.Geography,1
