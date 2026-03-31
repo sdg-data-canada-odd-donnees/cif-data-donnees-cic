@@ -1730,21 +1730,8 @@
   progress_status: limited_progress
   score: -2.0692890833170794
 7-1-1:
-  7-1-1:
-    base_value: 20.0
-    base_year: 2017.0
-    current_value: 124.2
-    current_year: 2023.0
-    direction: 1
-    limit: null
-    progress_value: 1.189638369541366
-    score: 4.211767909797022
-    sign: 1
-    status: substantial_progress
-    target: 600.0
-    target_year: 2030.0
-  progress_status: substantial_progress
-  score: 4.211767909797022
+  progress_status: ''
+  score: null
 7-2-1:
   7-2-1:
     base_value: 81.444
