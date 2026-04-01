@@ -236,7 +236,7 @@
   progress_status: substantial_progress
   score: 4.640227948342444
 12-2-1:
-  12-2-1 / Canada / Total, industries / None / Total, environmental protection activities:
+  12-2-1 / Canada / Total, industries / None / None / Total, environmental protection activities:
     base_value: 90.3
     base_year: 2018.0
     current_value: 86.4
@@ -249,7 +249,20 @@
     status: deterioration
     target: null
     target_year: 2030.0
-  12-2-1 / Canada / Total, industries / Reported using one or more environmental management practices / None:
+  12-2-1 / Canada / Total, industries / None / Total, resource management activities / None:
+    base_value: 18.1
+    base_year: 2018.0
+    current_value: 13.0
+    current_year: 2023.0
+    direction: 1
+    limit: null
+    progress_value: -0.06404933868300078
+    score: -5.0
+    sign: 1
+    status: deterioration
+    target: null
+    target_year: 2030.0
+  12-2-1 / Canada / Total, industries / Reported using one or more environmental management practices / None / None:
     base_value: 40.7
     base_year: 2018.0
     current_value: 36.5
@@ -263,7 +276,7 @@
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -4.299442958916506
+  score: -4.532961972611004
 12-3-1:
   12-3-1:
     base_value: 257.635662113981
@@ -282,20 +295,20 @@
   score: -3.679196353158371
 12-4-1:
   12-4-1:
-    base_value: 0.83
+    base_value: 1.43
     base_year: 2015.0
-    current_value: 0.81
-    current_year: 2021.0
+    current_value: 1.43
+    current_year: 2022.0
     direction: -1
     limit: null
-    progress_value: 0.004056990276131822
-    score: -0.4715048619340889
+    progress_value: -0.0
+    score: -2.5
     sign: 1
     status: limited_progress
     target: null
     target_year: 2030.0
   progress_status: limited_progress
-  score: -0.4715048619340889
+  score: -2.5
 13-1-1:
   progress_status: not_available_manual
   score: null
@@ -644,18 +657,18 @@
   16-4-1 / Canada / Total cases / Less than or equal to 3 months:
     base_value: 71.32
     base_year: 2015.0
-    current_value: 65.38
-    current_year: 2023.0
+    current_value: 55.71
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.010811183463488527
-    score: -3.8513979329360657
+    progress_value: -0.027073119045431082
+    score: -5.0
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -3.8513979329360657
+  score: -5.0
 16-5-1:
   16-5-1 / Adult criminal courts:
     base_value: 126.0
@@ -1460,18 +1473,18 @@
   4-2-1:
     base_value: 55.0
     base_year: 2015.0
-    current_value: 65.0
-    current_year: 2024.0
+    current_value: 64.0
+    current_year: 2025.0
     direction: 1
     limit: 100
-    progress_value: 0.01873490161507818
-    score: 5.0
+    progress_value: 0.015270408992566153
+    score: 3.212911287825454
     sign: 1
     status: substantial_progress
     target: null
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 5.0
+  score: 3.212911287825454
 4-3-1:
   4-3-1:
     base_value: 59.9
@@ -1717,21 +1730,8 @@
   progress_status: limited_progress
   score: -2.0692890833170794
 7-1-1:
-  7-1-1:
-    base_value: 20.0
-    base_year: 2017.0
-    current_value: 124.2
-    current_year: 2023.0
-    direction: 1
-    limit: null
-    progress_value: 1.189638369541366
-    score: 4.211767909797022
-    sign: 1
-    status: substantial_progress
-    target: 600.0
-    target_year: 2030.0
-  progress_status: substantial_progress
-  score: 4.211767909797022
+  progress_status: ''
+  score: null
 7-2-1:
   7-2-1:
     base_value: 81.444
@@ -1942,20 +1942,20 @@
   score: 5.0
 9-6-1:
   9-6-1:
-    base_value: 668.0
+    base_value: 662.0
     base_year: 2015.0
-    current_value: 16270.0
+    current_value: 16341.0
     current_year: 2026.0
     direction: 1
     limit: null
-    progress_value: 1.089788193606484
-    score: 3.498548088111754
+    progress_value: 1.0922680361597457
+    score: 3.5162613554854474
     sign: 1
     status: substantial_progress
     target: 37929.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 3.498548088111754
+  score: 3.5162613554854474
 9-7-1:
   9-7-1:
     base_value: 58.2

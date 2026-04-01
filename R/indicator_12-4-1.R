@@ -10,7 +10,7 @@ product_types <-
   plastic %>%
   filter(
     REF_DATE >= 2015,
-    Variable == "Plastic leaked permanently into the environment"
+    Variable == "Plastic leaked into the environment"
   ) %>%
   select(
     Year = REF_DATE,
