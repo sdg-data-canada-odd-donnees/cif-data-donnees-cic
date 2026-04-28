@@ -42,10 +42,10 @@ jobs:
     
     - name: Cache R packages
       id: cache
-      uses: actions/cache@v5
+      uses: actions/cache@v4
       with:
         path: ${{ env.R_LIBS_USER }}
-        key: ${{ runner.os }}-dataupdate
+        key: 
         restore-keys: |
           ${{ runner.os }}-
     
