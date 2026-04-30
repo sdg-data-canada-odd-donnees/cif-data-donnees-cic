@@ -27,11 +27,10 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v5
     - name: Set up Python 3.10
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v6
       with:
         python-version: '3.10'
     - name: Install dependencies
@@ -63,7 +62,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: ${{ github.ref }}
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
