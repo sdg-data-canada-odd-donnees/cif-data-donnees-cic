@@ -1,0 +1,155 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Provinces de l'Atlantique",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Provinces des Prairies",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Toutes les personnes",
+                "Personnes dans les familles économiques",
+                "Persons in senior families",
+                "Persons in senior couples",
+                "Persons in other senior families",
+                "Persons in non-senior families",
+                "Personnes dans les couples",
+                "Personnes dans les familles comptant un couple avec des enfants",
+                "Personnes dans les familles comptant un couple avec d'autres personnes apparentées",
+                "Personnes dans les familles monoparentales",
+                "Personnes dans les familles monoparentales ayant un homme à leur tête",
+                "Personnes dans les familles monoparentales ayant une femme à leur tête",
+                "Persons in other non-senior families",
+                "Personnes hors famille économique",
+                "Personnes âgées hors famille économique",
+                "Hommes âgés hors famille économique",
+                "Femmes âgées hors famille économique",
+                "Personnes non âgées hors famille économique",
+                "Hommes non âgés hors famille économique",
+                "Femmes non âgées hors famille économique",
+                ""
+              ]
+            },
+            "title": "Type de famille économique"
+          },
+          {
+            "name": "Demographic characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Personnes de moins de 18 ans",
+                "Personnes de 18 à 64 ans",
+                "Personnes de 18 à 24 ans",
+                "Personnes de 25 à 34 ans",
+                "Personnes de 35 à 44 ans",
+                "Personnes de 45 à 54 ans",
+                "Personnes de 55 à 64 ans",
+                "Personnes de 65 ans et plus",
+                "Hommes",
+                "Hommes, moins de 18 ans",
+                "Hommes, 18 à 64 ans",
+                "Hommes, 65 ans et plus",
+                "Femmes",
+                "Femmes, moins de 18 ans",
+                "Femmes, 18 à 64 ans",
+                "Femmes, 65 ans et plus",
+                "Population des minorités visibles",
+                "Sud-Asiatique",
+                "Chinois",
+                "Noir",
+                "Philippin",
+                "Arabe",
+                "Latino-Américain",
+                "Asiatique du Sud-Est",
+                "Autre minorité visible",
+                "Pas une minorité visible",
+                "Population autochtone",
+                "Population non autochtone",
+                "Pas une minorité visible ni autochtone",
+                "Toutes les personnes de 15 ans et plus",
+                "Population autochtone âgée de 15 ans et plus",
+                "Premières Nations âgées de 15 ans et plus",
+                "Métis âgés de 15 ans et plus",
+                "Population non autochtone âgée de 15 ans et plus",
+                "Immigrants âgés de 15 ans et plus",
+                "Immigrants récents (10 ans ou moins) âgés de 15 ans et plus",
+                "Immigrants très récents (5 ans ou moins) âgés de 15 ans et plus",
+                "Personnes de 15 ans et plus nées au Canada",
+                ""
+              ]
+            },
+            "title": "Caractéristiques démographiques"
+          },
+          {
+            "name": "Household food security status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sécurité alimentaire",
+                "Insécurité alimentaire",
+                "Insécurité alimentaire marginale",
+                "Insécurité alimentaire modérée",
+                "Insécurité alimentaire grave",
+                "Insécurité alimentaire modérée ou grave",
+                ""
+              ]
+            },
+            "title": "Niveau de sécurité alimentaire du ménage"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "2-1-1",
+  "title": "Prevalence of food insecurity"
+}

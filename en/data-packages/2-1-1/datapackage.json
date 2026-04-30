@@ -1,0 +1,155 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Atlantic provinces",
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Prairie provinces",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All persons",
+                "Persons in economic families",
+                "Persons in senior families",
+                "Persons in senior couples",
+                "Persons in other senior families",
+                "Persons in non-senior families",
+                "Persons in couples",
+                "Persons in couple families with children",
+                "Persons in couple families with other relatives",
+                "Persons in lone-parent families",
+                "Persons in male lone-parent families",
+                "Persons in female lone-parent families",
+                "Persons in other non-senior families",
+                "Persons not in an economic family",
+                "Seniors not in an economic family",
+                "Senior males not in an economic family",
+                "Senior females not in an economic family",
+                "Non-seniors not in an economic family",
+                "Non-senior males not in an economic family",
+                "Non-senior females not in an economic family",
+                ""
+              ]
+            },
+            "title": "Economic family type"
+          },
+          {
+            "name": "Demographic characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Persons under 18 years",
+                "Persons 18 to 64 years",
+                "Persons 18 to 24 years",
+                "Persons 25 to 34 years",
+                "Persons 35 to 44 years",
+                "Persons 45 to 54 years",
+                "Persons 55 to 64 years",
+                "Persons 65 years and over",
+                "Males",
+                "Males, under 18 years",
+                "Males, 18 to 64 years",
+                "Males, 65 years and over",
+                "Females",
+                "Females, under 18 years",
+                "Females, 18 to 64 years",
+                "Females, 65 years and over",
+                "Visible minority population",
+                "South Asian",
+                "Chinese",
+                "Black",
+                "Filipino",
+                "Arab",
+                "Latin American",
+                "Southeast Asian",
+                "Other visible minority",
+                "Not a visible minority",
+                "Indigenous population",
+                "Non-Indigenous population",
+                "Not a visible minority nor Indigenous",
+                "All persons aged 15 years and over",
+                "Indigenous population aged 15 years and over",
+                "First Nations aged 15 years and over",
+                "Métis aged 15 years and over",
+                "Non-Indigenous population aged 15 years and over",
+                "Immigrants aged 15 years and over",
+                "Recent immigrants (10 years or less) aged 15 years and over",
+                "Very recent immigrants (5 years or less) aged 15 years and over",
+                "Persons aged 15 years and over born in Canada",
+                ""
+              ]
+            },
+            "title": "Demographic characteristics"
+          },
+          {
+            "name": "Household food security status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Food secure",
+                "Food insecure",
+                "Food insecure, marginal",
+                "Food insecure, moderate",
+                "Food insecure, severe",
+                "Food insecure, moderate or severe",
+                ""
+              ]
+            },
+            "title": "Household food security status"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "2-1-1",
+  "title": "Prevalence of food insecurity"
+}

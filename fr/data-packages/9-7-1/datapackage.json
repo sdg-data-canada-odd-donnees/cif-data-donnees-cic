@@ -1,0 +1,129 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Asset",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Immeubles commerciaux",
+                "Installations sportives avec capacité d'accueil de spectateurs",
+                "Installations récréatives intérieures",
+                "Résidences d'étudiants",
+                "Aéroports et autres gares de voyageurs",
+                "Édifices de communications",
+                "Bâtiments institutionnels",
+                "Écoles, collèges, universités et autres bâtiments d'enseignement",
+                "Hôpitaux",
+                "Maisons de soins infirmiers et résidences pour personnes âgées",
+                "Centres religieux et lieux commémoratifs",
+                "Musées",
+                "Lieux historiques",
+                "Bibliothèques",
+                "Installations de sécurité publique",
+                "Infrastructures de génie maritime",
+                "Ports de mer",
+                "Ports de plaisance et ports de commerce",
+                "Canaux et voies navigables",
+                "Autres infrastructures de génie maritime",
+                "Infrastructures de génie liées aux transports",
+                "Structures et réseaux autoroutiers et routiers",
+                "Ponts",
+                "Tunnels",
+                "Lignes de chemins de fer",
+                "Pistes d'atterrissage et de décollage",
+                "Infrastructure d'adduction et de distribution d'eau",
+                "Usines de filtration de l'eau",
+                "Autres infrastructure d'eau",
+                "Infrastructures pour les eaux usées",
+                "Usines d'épuration des eaux d'égout",
+                "Autres infrastructure d'égout",
+                "Réseaux de communication",
+                "Câbles et lignes – coaxiaux, cuivre, aluminium, etc.",
+                "Fibre optique",
+                "Structures de support pour la transmission",
+                "Autres structures de communication",
+                "Infrastructure liées à l'énergie électrique",
+                "Centrales éoliennes et panneaux solaires",
+                "Centrale énergétique thermale",
+                "Centrale énergétique nucléaire",
+                "Centrale énergétique hydraulique",
+                "Réseaux de transport d'électricité",
+                "Réseau de distribution d'électricité",
+                "Autres constructions de l'énergie électrique",
+                "Construction liée aux installations de pétrole et de gaz",
+                "Oléoducs",
+                "Autres travaux de génie",
+                "Installations d'élimination des déchets",
+                "Installations récréatives de plein air",
+                "Dépollution",
+                "Autres machines et matériel",
+                "Turbines, turbogénérateurs et groupes générateurs de turbine",
+                "Systèmes d'alimentation en vapeur, de réacteur nucléaire",
+                "Matériel de traitement de l'eau",
+                "Transformateurs de puissance et de distribution",
+                "Machines et matériel de transport",
+                "Autobus",
+                "Locomotives, matériel ferroviaire roulant et de transport en commun rapide",
+                "Total des actifs",
+                ""
+              ]
+            },
+            "title": "Actif"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "9-7-1",
+  "title": "Remaining useful service life ratio of infrastructure assets"
+}

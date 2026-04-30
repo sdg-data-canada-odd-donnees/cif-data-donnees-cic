@@ -1,0 +1,183 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Sex at birth",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Sexe à la naissance"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Homme",
+                "Femme",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "Indigenous status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Identité autochtone",
+                "Identité non autochtone",
+                ""
+              ]
+            },
+            "title": "Statut d'autochtone"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sud-Asiatique",
+                "Chinois",
+                "Noir",
+                "Philippin",
+                "Arabe",
+                "Latino-Américain",
+                "Pas une minorité visible",
+                ""
+              ]
+            },
+            "title": "Minorité visible"
+          },
+          {
+            "name": "Immigration status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Personne non immigrante",
+                "Personne immigrante",
+                ""
+              ]
+            },
+            "title": "Statut d'immigration"
+          },
+          {
+            "name": "Education level of parent or legal guardian",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Moins d'un diplôme d'études secondaires ou son équivalent",
+                "Diplôme de fin d'études secondaires ou certificat d'équivalence de fin d'études secondaires",
+                "Certificat ou diplôme professionnel",
+                "Collège/CÉGEP/autre établissement non universitaire",
+                "Certificat ou diplôme universitaire inférieur au baccalauréat",
+                "Baccalauréat (ex. B.A., B.Sc., LL.B.)",
+                "Certificat universitaire, diplôme, grade supérieur au baccalauréat (BA)",
+                ""
+              ]
+            },
+            "title": "Niveau d'éducation du parent ou du tuteur légal"
+          },
+          {
+            "name": "Education level of parent's or legal guardian's spouse",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Moins d'un diplôme d'études secondaires ou son équivalent",
+                "Diplôme de fin d'études secondaires ou certificat d'équivalence de fin d'études secondaires",
+                "Certificat ou diplôme professionnel",
+                "Collège/CÉGEP/autre établissement non universitaire",
+                "Certificat ou diplôme universitaire inférieur au baccalauréat",
+                "Baccalauréat (ex. B.A., B.Sc., LL.B.)",
+                "Certificat universitaire, diplôme, grade supérieur au baccalauréat (BA)",
+                ""
+              ]
+            },
+            "title": "Niveau d'éducation du conjoint du parent ou du tuteur légal"
+          },
+          {
+            "name": "Labour market status of parent or legal guardian",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A travaillé dans un emploi ou une entreprise",
+                "A eu un emploi mais n'a pas travaillé (absent)",
+                "N'a pas eu d'emploi",
+                ""
+              ]
+            },
+            "title": "Statut du parent ou du tuteur légal sur le marché du travail"
+          },
+          {
+            "name": "Labour market status of parent's or legal guardian's spouse",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A travaillé dans un emploi ou une entreprise",
+                "A eu un emploi mais n'a pas travaillé (absent)",
+                "N'a pas eu d'emploi",
+                ""
+              ]
+            },
+            "title": "Statut du conjoint du parent ou du tuteur légal sur le marché du travail"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-2-1",
+  "title": "Percentage of youth (aged 12 to 17) who have used an e-cigarette in the past 30 days"
+}

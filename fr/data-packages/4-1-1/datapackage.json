@@ -1,0 +1,110 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Hommes",
+                "Femmes",
+                "Hommes+",
+                "Femmes+",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "15 à 24 ans",
+                "25 à 64 ans",
+                "65 à 74 ans",
+                "75 ans et plus",
+                ""
+              ]
+            },
+            "title": "Groupe d'âge"
+          },
+          {
+            "name": "Selected demographic characteristics",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Non-immigrants",
+                "Immigrants",
+                "Résidents non permanents",
+                "Total de la population des minorités visibles",
+                "Pas une minorité visible",
+                "Identité autochtone",
+                "Premières Nations (Indien de l'Amérique du Nord)",
+                "Métis",
+                "Inuk (Inuit)",
+                "Identité non autochtone",
+                "Total",
+                ""
+              ]
+            },
+            "title": "Caractéristiques démographiques déterminées"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-1-1",
+  "title": "High school completion rate"
+}

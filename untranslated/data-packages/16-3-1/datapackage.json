@@ -1,0 +1,97 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total Non-Census metropolitan area",
+                "Total Census metropolitan area",
+                "Newfoundland and Labrador",
+                "St. John's, Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "Halifax, Nova Scotia",
+                "New Brunswick",
+                "Moncton, New Brunswick",
+                "Quebec",
+                "Saguenay, Quebec",
+                "Sherbrooke, Quebec",
+                "Trois-Rivières, Quebec",
+                "Montréal, Quebec",
+                "Ottawa-Gatineau, Quebec part",
+                "Ontario",
+                "Ottawa-Gatineau, Ontario part",
+                "Kingston, Ontario",
+                "Peterborough, Ontario",
+                "Toronto, Ontario",
+                "Hamilton, Ontario",
+                "St. Catharines-Niagara, Ontario",
+                "Kitchener-Cambridge-Waterloo, Ontario",
+                "Brantford, Ontario",
+                "Guelph, Ontario",
+                "London, Ontario",
+                "Windsor, Ontario",
+                "Barrie, Ontario",
+                "Greater Sudbury, Ontario",
+                "Thunder Bay, Ontario",
+                "Manitoba",
+                "Winnipeg, Manitoba",
+                "Saskatchewan",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Alberta",
+                "Edmonton, Alberta",
+                "British Columbia",
+                "Kelowna, British Columbia",
+                "Abbotsford-Mission, British Columbia",
+                "Vancouver, British Columbia",
+                "Victoria, British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                "Québec, Quebec",
+                "Belleville-Quinte West, Ontario",
+                "Lethbridge, Alberta",
+                "Calgary, Alberta",
+                "Saint John, New Brunswick",
+                "Fredericton, New Brunswick",
+                "Drummondville, Quebec",
+                "Red Deer, Alberta",
+                "Kamloops, British Columbia",
+                "Chilliwack, British Columbia",
+                "Nanaimo, British Columbia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "16-3-1",
+  "title": "Incidence of cyber-crime"
+}

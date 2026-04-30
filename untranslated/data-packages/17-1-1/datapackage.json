@@ -1,0 +1,42 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Pillar",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pillar 1 - Data Use",
+                "Pillar 2 - Data Services",
+                "Pillar 3 - Data Products",
+                "Pillar 4 - Data Sources",
+                "Pillar 5 - Data Infrastructure",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "17-1-1",
+  "title": "Statistical Performance Indicators"
+}

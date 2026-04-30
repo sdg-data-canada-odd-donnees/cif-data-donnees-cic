@@ -1,0 +1,139 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada (provinces seulement)",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Québec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Geographic location",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Grands centres de population urbains",
+                "Petits centres de population",
+                "Régions rurales",
+                "Moyens centres de population",
+                "Agglomérations de recensement",
+                "À l'extérieur des régions métropolitaines de recensement et agglomérations de recensement",
+                ""
+              ]
+            },
+            "title": "Situation géographique"
+          },
+          {
+            "name": "Selected census metropolitan areas",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, régions métropolitaines de recensement",
+                "St. John's, Terre-Neuve-et-Labrador",
+                "Halifax, Nouvelle-Écosse",
+                "Moncton, Nouveau-Brunswick",
+                "Québec, Québec",
+                "Montréal, Québec",
+                "Ottawa-Gatineau, Ontario/Québec",
+                "Toronto, Ontario",
+                "Hamilton, Ontario",
+                "Kitchener-Cambridge-Waterloo, Ontario",
+                "London, Ontario",
+                "Winnipeg, Manitoba",
+                "Regina, Saskatchewan",
+                "Saskatoon, Saskatchewan",
+                "Calgary, Alberta",
+                "Edmonton, Alberta",
+                "Vancouver, Colombie-Britannique",
+                "Autres régions métropolitaines de recensement, Nouveau-Brunswick",
+                "Autres régions métropolitaines de recensement, Québec",
+                "Autres régions métropolitaines de recensement, Ontario",
+                "Autres régions métropolitaines de recensement, Alberta",
+                "Autres régions métropolitaines de recensement, Colombie-Britannique",
+                ""
+              ]
+            },
+            "title": "Régions métropolitaines de recensement sélectionnées"
+          },
+          {
+            "name": "Tenure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Propriétaire",
+                "Propriétaire qui est un accédant à la propriété",
+                "Propriétaire qui n'est pas un accédant à la propriété",
+                "Locataire",
+                "Locataire n'habitant pas dans un logement social et abordable",
+                "Locataire habitant dans un logement social et abordable",
+                "Total, mode d'occupation",
+                ""
+              ]
+            },
+            "title": "Mode d'occupation"
+          },
+          {
+            "name": "Select housing-vulnerable populations",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, ménages comptant une seule famille monoparentale",
+                "Ménages comptant une seule famille monoparentale dont la personne de référence est un homme+",
+                "Ménages comptant une seule famille monoparentale dont la personne de référence est une femme+",
+                "Total, ménages composés d'une seule personne",
+                "Hommes+ vivant seuls",
+                "Femmes+ vivant seules",
+                "Personnes de référence qui ont vécu une période d'itinérance",
+                ""
+              ]
+            },
+            "title": "Certaines populations vulnérables en matière de logement"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "11-2-1",
+  "title": "Proportion of households in core housing need"
+}

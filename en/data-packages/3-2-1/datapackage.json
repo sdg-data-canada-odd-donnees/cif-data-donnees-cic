@@ -1,0 +1,183 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Newfoundland and Labrador",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Quebec",
+                "Ontario",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "British Columbia",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Sex at birth",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Sex at birth"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Indigenous status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indigenous identity",
+                "Non-Indigenous identity",
+                ""
+              ]
+            },
+            "title": "Indigenous status"
+          },
+          {
+            "name": "Visible minority",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "South Asian",
+                "Chinese",
+                "Black",
+                "Filipino",
+                "Arab",
+                "Latin American",
+                "Not a visible minority",
+                ""
+              ]
+            },
+            "title": "Visible minority"
+          },
+          {
+            "name": "Immigration status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Non-immigrant",
+                "Immigrant",
+                ""
+              ]
+            },
+            "title": "Immigration status"
+          },
+          {
+            "name": "Education level of parent or legal guardian",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than high school diploma or its equivalent",
+                "High school diploma or a high school equivalency certificate",
+                "Trades certificate or diploma",
+                "College/CEGEP/other non-university",
+                "University certificate or diploma below the bachelor",
+                "Bachelor's degree (e.g. B.A., B.Sc., LL.B.)",
+                "University certificate, diploma, degree above the BA",
+                ""
+              ]
+            },
+            "title": "Education level of parent or legal guardian"
+          },
+          {
+            "name": "Education level of parent's or legal guardian's spouse",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than high school diploma or its equivalent",
+                "High school diploma or a high school equivalency certificate",
+                "Trades certificate or diploma",
+                "College/CEGEP/other non-university",
+                "University certificate or diploma below the bachelor",
+                "Bachelor's degree (e.g. B.A., B.Sc., LL.B.)",
+                "University certificate, diploma, degree above the BA",
+                ""
+              ]
+            },
+            "title": "Education level of parent's or legal guardian's spouse"
+          },
+          {
+            "name": "Labour market status of parent or legal guardian",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Worked at a job or business",
+                "Had a job but did not work (absent)",
+                "Did not have a job",
+                ""
+              ]
+            },
+            "title": "Labour market status of parent or legal guardian"
+          },
+          {
+            "name": "Labour market status of parent's or legal guardian's spouse",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Worked at a job or business",
+                "Had a job but did not work (absent)",
+                "Did not have a job",
+                ""
+              ]
+            },
+            "title": "Labour market status of parent's or legal guardian's spouse"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-2-1",
+  "title": "Percentage of youth (aged 12 to 17) who have used an e-cigarette in the past 30 days"
+}

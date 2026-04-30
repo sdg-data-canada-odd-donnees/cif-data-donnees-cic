@@ -1,0 +1,111 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Terre-Neuve-et-Labrador",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Ontario",
+                "Québec",
+                "Manitoba",
+                "Saskatchewan",
+                "Alberta",
+                "Colombie-Britannique",
+                "Yukon",
+                "Territoires du Nord-Ouest",
+                "Nunavut",
+                ""
+              ]
+            },
+            "title": "Géographie"
+          },
+          {
+            "name": "Selected diseases",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Diphtérie",
+                "Coqueluche",
+                "Tétanos",
+                "Polio",
+                "Haemophilus influenzae de type B (Hib)",
+                "Rougeole",
+                "Oreillons",
+                "Rubéole",
+                "Hépatite B",
+                "Varicelle",
+                "Méningocoque de type C",
+                "Pneumocoque",
+                "Rotavirus",
+                "Virus du papillome humain (VPH)",
+                "Vaccin de rappel contre la diphtérie, la coqueluche et le tétanos (dcaT)",
+                ""
+              ]
+            },
+            "title": "Antigène ou vaccin"
+          },
+          {
+            "name": "Target population",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Vaccins recommandés aux enfants de 2 ans",
+                "Vaccins recommandés aux enfants de 7 ans",
+                "Vaccins recommandés aux enfants de 14 ans",
+                "Vaccins recommandés aux enfants de 17 ans",
+                ""
+              ]
+            },
+            "title": "Population cible"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total - Genre",
+                "Femmes+",
+                "Hommes+",
+                ""
+              ]
+            },
+            "title": "Genre"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valeur"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-9-1",
+  "title": "Vaccination rates for selected diseases"
+}

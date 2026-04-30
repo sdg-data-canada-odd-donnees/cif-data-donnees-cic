@@ -1,0 +1,129 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Newfoundland and Labrador",
+                "St. John's (CMA), N.L.",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "Halifax (CMA), N.S.",
+                "New Brunswick",
+                "Moncton (CMA), N.B.",
+                "Saint John (CMA), N.B.",
+                "Quebec",
+                "Montréal (CMA), Que.",
+                "Ottawa - Gatineau (Quebec part) (CMA), Que.",
+                "Québec (CMA), Que.",
+                "Saguenay (CMA), Que.",
+                "Sherbrooke (CMA), Que.",
+                "Trois-Rivières (CMA), Que.",
+                "Ontario",
+                "Barrie (CMA), Ont.",
+                "Belleville (CMA), Ont.",
+                "Brantford (CMA), Ont.",
+                "Greater Sudbury (CMA), Ont.",
+                "Guelph (CMA), Ont.",
+                "Hamilton (CMA), Ont.",
+                "Kingston (CMA), Ont.",
+                "Kitchener - Cambridge - Waterloo (CMA), Ont.",
+                "London (CMA), Ont.",
+                "Oshawa (CMA), Ont.",
+                "Ottawa - Gatineau (Ontario part) (CMA), Ont.",
+                "Peterborough (CMA), Ont.",
+                "St. Catharines - Niagara (CMA), Ont.",
+                "Thunder Bay (CMA), Ont.",
+                "Toronto (CMA), Ont.",
+                "Windsor (CMA), Ont.",
+                "Manitoba",
+                "Winnipeg (CMA), Man.",
+                "Saskatchewan",
+                "Regina (CMA), Sask.",
+                "Saskatoon (CMA), Sask.",
+                "Alberta",
+                "Calgary (CMA), Alta.",
+                "Edmonton (CMA), Alta.",
+                "Lethbridge (CMA), Alta.",
+                "British Columbia",
+                "Abbotsford - Mission (CMA), B.C.",
+                "Kelowna (CMA), B.C.",
+                "Vancouver (CMA), B.C.",
+                "Victoria (CMA), B.C.",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                "Canada",
+                "Fredericton (CMA), N.B.",
+                "Drummondville (CMA), Que.",
+                "Belleville - Quinte West (CMA), Ont.",
+                "Ottawa - Gatineau (CMA), Ont./Que.",
+                "Red Deer (CMA), Alta.",
+                "Chilliwack (CMA), B.C.",
+                "Kamloops (CMA), B.C.",
+                "Nanaimo (CMA), B.C.",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Men+",
+                "Women+",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Type of commute",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sustainable transportation",
+                "Public transit",
+                "Active transportation",
+                ""
+              ]
+            },
+            "title": "Main mode of commuting"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "11-5-1",
+  "title": "Proportion of commuters using sustainable transportation"
+}

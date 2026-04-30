@@ -1,0 +1,112 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alberta",
+                "Atlantic provinces",
+                "British Columbia",
+                "Calgary, Alberta",
+                "Canada",
+                "Edmonton, Alberta",
+                "Manitoba",
+                "Montréal, Quebec",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "Ontario",
+                "Ottawa-Gatineau, Ontario/Quebec",
+                "Prairie provinces",
+                "Prince Edward Island",
+                "Quebec",
+                "Québec, Quebec",
+                "Saskatchewan",
+                "Toronto, Ontario",
+                "Vancouver, British Columbia",
+                "Winnipeg, Manitoba",
+                ""
+              ]
+            },
+            "title": "Geography"
+          },
+          {
+            "name": "Age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Under 18 years",
+                "18 to 64 years",
+                "65 years and over",
+                ""
+              ]
+            },
+            "title": "Age group"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Both sexes",
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Economic family type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Persons in economic families",
+                "Persons in couple families with children",
+                "Persons in female lone-parent families",
+                "Persons not in an economic family",
+                "Seniors not in an economic family",
+                "Non-seniors not in an economic family",
+                "Seniors in economic families",
+                "Persons in all other economic families",
+                ""
+              ]
+            },
+            "title": "Economic family type"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-1-1",
+  "title": "Poverty rate, as measured by Canada’s official poverty line"
+}
