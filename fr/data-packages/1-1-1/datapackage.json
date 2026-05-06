@@ -30,7 +30,9 @@
                 "Montréal, Québec",
                 "Nouveau-Brunswick",
                 "Terre-Neuve-et-Labrador",
+                "Territoires du Nord-Ouest",
                 "Nouvelle-Écosse",
+                "Nunavut",
                 "Ontario",
                 "Ottawa-Gatineau, Ontario/Québec",
                 "Provinces des Prairies",
@@ -38,9 +40,11 @@
                 "Québec",
                 "Québec, Québec",
                 "Saskatchewan",
+                "Territoires",
                 "Toronto, Ontario",
                 "Vancouver, Colombie-Britannique",
                 "Winnipeg, Manitoba",
+                "Yukon",
                 ""
               ]
             },
@@ -66,8 +70,6 @@
             "constraints": {
               "enum": [
                 "Les deux sexes",
-                "Homme",
-                "Femme",
                 ""
               ]
             },
@@ -81,7 +83,6 @@
                 "Total",
                 "Personnes dans les familles économiques",
                 "Personnes dans les familles comptant un couple avec des enfants",
-                "Personnes dans les familles monoparentales ayant une femme à leur tête",
                 "Personnes hors famille économique",
                 "Personnes âgées hors famille économique",
                 "Personnes non âgées hors famille économique",
