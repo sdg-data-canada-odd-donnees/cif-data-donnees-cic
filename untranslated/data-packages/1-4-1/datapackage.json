@@ -19,7 +19,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "2023 constant dollars",
+                "2024 constant dollars",
                 ""
               ]
             }
@@ -50,6 +50,10 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Vancouver, British Columbia",
+                "Territories",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             }
@@ -67,17 +71,17 @@
                 "Couples",
                 "Couples with children",
                 "Couples with other relatives",
-                "Lone-parent families",
-                "Male lone-parent families",
-                "Female lone-parent families",
+                "One-parent families",
+                "One-parent families in which the parent is a man+",
+                "One-parent families in which the parent is a woman+",
                 "Other non-senior families",
                 "Persons not in an economic family",
                 "Seniors not in an economic family",
-                "Senior males not in an economic family",
-                "Senior females not in an economic family",
+                "Senior men+ not in an economic family",
+                "Senior women+ not in an economic family",
                 "Non-seniors not in an economic family",
-                "Non-senior males not in an economic family",
-                "Non-senior females not in an economic family",
+                "Non-senior men+ not in an economic family",
+                "Non-senior women+ not in an economic family",
                 "Economic families and persons not in an economic family",
                 ""
               ]
