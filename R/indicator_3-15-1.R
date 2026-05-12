@@ -28,7 +28,7 @@ health_filtered <-
   select(
     Year = REF_DATE,
     Geography = GEO,
-    Sex,
+    Gender,
     Value = VALUE
   ) %>%
   left_join(geocodes, by = "Geography") %>%
@@ -50,7 +50,7 @@ filter_age <-
     Year,
     Geography,
     `Age group`,
-    Sex,
+    Gender,
     GeoCode,
     Value
   )
@@ -59,10 +59,10 @@ total_line <-
   health_filtered %>%
   filter(
     Geography == "Canada",
-    Sex == "Both sexes"
+    Gender == "Total - Gender"
   ) %>% 
   mutate(Geography = "",
-         Sex = "")
+         Gender = "")
 
 non_total <-
   health_filtered %>%
@@ -70,7 +70,7 @@ non_total <-
     !(Geography %in% age_group)
   ) %>%
   filter(
-    !(Geography == "Canada" & Sex == "Both sexes")
+    !(Geography == "Canada" & Gender == "Total - Gender")
   )
 
 data_final <-
@@ -79,7 +79,7 @@ data_final <-
     Year,
     Geography,
     `Age group`,
-    Sex,
+    Gender,
     GeoCode,
     Value
   )
