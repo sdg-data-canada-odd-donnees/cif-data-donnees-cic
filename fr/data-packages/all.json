@@ -4978,9 +4978,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "All genders",
-                "Man+",
-                "Woman+",
+                "Toutes les identités de genre",
+                "Homme+",
+                "Femme+",
                 ""
               ]
             },
