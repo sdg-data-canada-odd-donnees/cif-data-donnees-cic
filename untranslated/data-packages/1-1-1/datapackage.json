@@ -62,11 +62,13 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
+                "All genders",
+                "Man+",
+                "Woman+",
                 ""
               ]
             }

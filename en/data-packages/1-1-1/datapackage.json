@@ -65,15 +65,17 @@
             "title": "Age group"
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
+                "All genders",
+                "Man+",
+                "Woman+",
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Gender"
           },
           {
             "name": "Economic family type",
