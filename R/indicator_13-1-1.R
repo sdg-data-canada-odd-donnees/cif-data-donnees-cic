@@ -7,7 +7,7 @@ library(tidyr)
 
 geocodes <- read.csv("geocodes.csv")
 
-total_emissions <- read.csv("https://data-donnees.az.ec.gc.ca/api/file?path=%2Fsubstances%2Fmonitor%2Fcanada-s-official-greenhouse-gas-inventory%2FB-Economic-Sector%2FEN_GHG_Econ_Can_Prov_Terr.csv")
+total_emissions <- read.csv("https://data-donnees.az.ec.gc.ca/api/file?path=%2Fsubstances%2Fmonitor%2Fcanada-s-official-greenhouse-gas-inventory%2FB-Economic-Sector%2FGHG_Econ_Can_Prov_Terr.csv")
 
 total_emissions_filtered <-
   total_emissions %>%
@@ -19,7 +19,7 @@ total_emissions_filtered <-
     Sub.sub.sector == ""
   ) %>%
   mutate(
-    Value = round(as.numeric(CO2eq) / 1000, 2)
+    Value = round(as.numeric(Total..kt.CO2e.) / 1000, 3)
   ) %>%
   select(
     Year,
