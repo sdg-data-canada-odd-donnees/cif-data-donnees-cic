@@ -34,13 +34,13 @@ nvt_value <-
   nunavut_transposed %>%
   mutate(
     `Age group` = "Total",
-    Sex = "Both sexes"
+    Gender = "All genders"
   ) %>%
   select(
     Year,
     Geography,
     `Age group`,
-    `Sex`,
+    `Gender`,
     Value = `Nunavut_Val`
   )
 
@@ -48,13 +48,13 @@ nvt_under_18 <-
   nunavut_transposed %>%
   mutate(
     `Age group` = "Under 18 years",
-    Sex = "Both sexes"
+    Gender = "All genders"
   ) %>%
   select(
     Year,
     Geography,
     `Age group`,
-    `Sex`,
+    `Gender`,
     Value = `Persons under 18 years`
   )
 
@@ -62,13 +62,13 @@ nvt_18_to_64 <-
   nunavut_transposed %>%
   mutate(
     `Age group` = "18 to 64 years",
-    Sex = "Both sexes"
+    Gender = "Alll genders"
   ) %>%
   select(
     Year,
     Geography,
     `Age group`,
-    `Sex`,
+    `Gender`,
     Value = `Persons 18 to 64 years`
   )
 
@@ -76,13 +76,13 @@ nvt_over_65 <-
   nunavut_transposed %>%
   mutate(
     `Age group` = "65 years and over",
-    Sex = "Both sexes"
+    Gender = "All genders"
   ) %>%
   select(
     Year,
     Geography,
     `Age group`,
-    `Sex`,
+    `Gender`,
     Value = `Persons 65 years and over`
   )
 
@@ -118,13 +118,13 @@ YK_NT <-
   mutate(
     Geography = "Yukon and Northwest Territories",
     `Age group` = "All persons",
-    Sex = "Both sexes"
+    Gender = "All genders"
   ) %>%
   select(
     Year,
     Geography,
     `Age group`,
-    `Sex`,
+    `Gender`,
     Value = `Yukon and Northwest Territories`
   )
 
@@ -133,13 +133,13 @@ Yukon <-
   mutate(
     Geography = "Yukon",
     `Age group` = "All persons",
-    Sex = "Both sexes"
+    Gender = "All genders"
   ) %>%
   select(
     Year,
     Geography,
     `Age group`,
-    `Sex`,
+    `Gender`,
     Value = `Yukon`
   )
 
@@ -148,13 +148,13 @@ Northwest <-
   mutate(
     Geography = "Northwest Territories",
     `Age group` = "All persons",
-    Sex = "Both sexes"
+    Gender = "All genders"
   ) %>%
   select(
     Year,
     Geography,
     `Age group`,
-    `Sex`,
+    `Gender`,
     Value = `Northwest Territories`
   )
 
@@ -163,13 +163,13 @@ terr_under_18 <-
   mutate(
     Geography = "Yukon and Northwest Territories",
     `Age group` = "Under 18 years",
-    Sex = "Both sexes"
+    Gender = "All genders"
   ) %>%
   select(
     Year,
     Geography,
     `Age group`,
-    `Sex`,
+    `Gender`,
     Value = `Persons under 18 years`
   )
 
@@ -178,13 +178,13 @@ terr_18_to_64 <-
   mutate(
     Geography = "Yukon and Northwest Territories",
     `Age group` = "18 to 64 years",
-    Sex = "Both sexes"
+    Gender = "All genders"
   ) %>%
   select(
     Year,
     Geography,
     `Age group`,
-    `Sex`,
+    `Gender`,
     Value = `Persons 18 to 64 years`
   )
 
@@ -193,13 +193,13 @@ terr_over_65 <-
   mutate(
     Geography = "Yukon and Northwest Territories",
     `Age group` = "65 years and over",
-    Sex = "Both sexes"
+    Gender = "All genders"
   ) %>%
   select(
     Year,
     Geography,
     `Age group`,
-    `Sex`,
+    `Gender`,
     Value = `Persons 65 years and over`
   )
 
@@ -216,65 +216,65 @@ geocodes <- read.csv("geocodes.csv")
 
 demographics <- c(
   "All persons",
-  "Females",
-  "Females, 18 to 64 years",
-  "Females, 65 years and over",
-  "Females, under 18 years",
-  "Males",
-  "Males, 18 to 64 years",
-  "Males, 65 years and over",
-  "Males, under 18 years",
+  "Women+",
+  "Women+, 18 to 64 years",
+  "Women+, 65 years and over",
+  "Women+, under 18 years",
+  "Men+",
+  "Men+, 18 to 64 years",
+  "Men+, 65 years and over",
+  "Men+, under 18 years",
   "Persons 18 to 64 years",
   "Persons 65 years and over",
   "Persons under 18 years",
   "Persons in economic families",
-  "Males in economic families",
-  "Females in economic families",
+  "Men+ in economic families",
+  "Women+ in economic families",
   "Seniors in economic families",
-  "Senior males in economic families",
-  "Senior females in economic families",
+  "Senior men+ in economic families",
+  "Senior women+ in economic families",
   "Persons under 18 years in economic families",
   "Persons under 18 years in couple families with children",
-  "Persons under 18 years in female lone-parent families",
+  "Persons under 18 years in female one-parent families",
   "Persons under 18 years in all other economic families",
   "Persons 18 to 64 years in economic families",
-  "Males 18 to 64 years in economic families",
-  "Females 18 to 64 years in economic families",
+  "Men+ 18 to 64 years in economic families",
+  "Women+ 18 to 64 years in economic families",
   "Persons not in an economic family",
-  "Males not in an economic family",
-  "Females not in an economic family",
+  "Men+ not in an economic family",
+  "Women+ not in an economic family",
   "Seniors not in an economic family",
-  "Senior males not in an economic family",
-  "Senior females not in an economic family",
+  "Senior men+ not in an economic family",
+  "Senior women+ not in an economic family",
   "Non-seniors not in an economic family",
-  "Non-senior males not in an economic family",
-  "Non-senior females not in an economic family"
+  "Non-senior men+ not in an economic family",
+  "Non-senior women+ not in an economic family"
 )
 
 male <- c(
-  "Males",
-  "Males, 18 to 64 years",
-  "Males, 65 years and over",
-  "Males, under 18 years",
-  "Males in economic families",
-  "Senior males in economic families",
-  "Males 18 to 64 years in economic families",
-  "Males not in an economic family",
-  "Senior males not in an economic family",
-  "Non-senior males not in an economic family"
+  "Men+",
+  "Men+, 18 to 64 years",
+  "Men+, 65 years and over",
+  "Men+, under 18 years",
+  "Men+ in economic families",
+  "Senior men+ in economic families",
+  "Men+ 18 to 64 years in economic families",
+  "Men+ not in an economic family",
+  "Senior men+ not in an economic family",
+  "Non-senior men+ not in an economic family"
 )
 
 female <- c(
-  "Females",
-  "Females, 18 to 64 years",
-  "Females, 65 years and over",
-  "Females, under 18 years",
-  "Females in economic families",
-  "Senior females in economic families",
-  "Females 18 to 64 years in economic families",
-  "Females not in an economic family",
-  "Senior females not in an economic family",
-  "Non-senior females not in an economic family"
+  "Women+",
+  "Women+, 18 to 64 years",
+  "Women+, 65 years and over",
+  "Women+, under 18 years",
+  "Women+ in economic families",
+  "Senior women+ in economic families",
+  "Women+ 18 to 64 years in economic families",
+  "Women+ not in an economic family",
+  "Senior women+ not in an economic family",
+  "Non-senior women+ not in an economic family"
 )
 
 all_persons <- c(
@@ -286,7 +286,7 @@ all_persons <- c(
   "Seniors in economic families",
   "Persons under 18 years in economic families",
   "Persons under 18 years in couple families with children",
-  "Persons under 18 years in female lone-parent families",
+  "Persons under 18 years in female one-parent families",
   "Persons under 18 years in all other economic families",
   "Persons 18 to 64 years in economic families",
   "Persons not in an economic family",
@@ -296,70 +296,70 @@ all_persons <- c(
 
 all_age_group <- c(
   "All persons",
-  "Females",
-  "Males",
+  "Women+",
+  "Men+",
   "Persons in economic families",
   "Persons not in an economic family",
-  "Males in economic families",
-  "Females in economic families",
-  "Males not in an economic family",
-  "Females not in an economic family"
+  "Men+ in economic families",
+  "Women+ in economic families",
+  "Men+ not in an economic family",
+  "Women+ not in an economic family"
 )
 
 under_18 <- c(
-  "Females, under 18 years",
-  "Males, under 18 years",
+  "Women+, under 18 years",
+  "Men+, under 18 years",
   "Persons under 18 years",
   "Persons under 18 years in economic families",
   "Persons under 18 years in couple families with children",
-  "Persons under 18 years in female lone-parent families",
+  "Persons under 18 years in female one-parent families",
   "Persons under 18 years in all other economic families"
 )
 
 age_18_64 <- c(
-  "Females, 18 to 64 years",
-  "Males, 18 to 64 years",
+  "Women+, 18 to 64 years",
+  "Men+, 18 to 64 years",
   "Persons 18 to 64 years",
   "Persons 18 to 64 years in economic families",
-  "Males 18 to 64 years in economic families",
-  "Females 18 to 64 years in economic families"
+  "Men+ 18 to 64 years in economic families",
+  "Women+ 18 to 64 years in economic families"
 )
 
 age_65_over <- c(
-  "Females, 65 years and over",
-  "Males, 65 years and over",
+  "Women+, 65 years and over",
+  "Men+, 65 years and over",
   "Persons 65 years and over",
   "Seniors in economic families",
-  "Senior males in economic families",
-  "Senior females in economic families",
+  "Senior men+ in economic families",
+  "Senior women+ in economic families",
   "Seniors not in an economic family",
-  "Senior males not in an economic family",
-  "Senior females not in an economic family"
+  "Senior men+ not in an economic family",
+  "Senior women+ not in an economic family"
 )
 
 economic_family <- c(
   "Persons in economic families",
-  "Males in economic families",
-  "Females in economic families",
+  "Men+ in economic families",
+  "Women+ in economic families",
   "Seniors in economic families",
-  "Senior males in economic families",
-  "Senior females in economic families",
+  "Senior men+ in economic families",
+  "Senior women+ in economic families",
   "Persons under 18 years in economic families",
   "Persons under 18 years in couple families with children",
-  "Persons under 18 years in female lone-parent families",
+  "Persons under 18 years in female one-parent families",
   "Persons under 18 years in all other economic families",
   "Persons 18 to 64 years in economic families",
-  "Males 18 to 64 years in economic families",
-  "Females 18 to 64 years in economic families",
+  "Men+ 18 to 64 years in economic families",
+  "Women+ 18 to 64 years in economic families",
   "Persons not in an economic family",
-  "Males not in an economic family",
-  "Females not in an economic family",
+  "Men+ not in an economic family",
+  "Women+ not in an economic family",
   "Seniors not in an economic family",
-  "Senior males not in an economic family",
-  "Senior females not in an economic family",
+  "Senior men+ not in an economic family",
+  "Senior women+ not in an economic family",
   "Non-seniors not in an economic family",
-  "Non-senior males not in an economic family",
-  "Non-senior females not in an economic family"
+  "Non-senior men+ not in an economic family",
+  "Non-senior women+ not in an economic family"
 )
 
 all_family <- c(
@@ -367,48 +367,48 @@ all_family <- c(
   "Persons 18 to 64 years",
   "Persons 65 years and over",
   "Persons under 18 years",
-  "Males",
-  "Males, 18 to 64 years",
-  "Males, 65 years and over",
-  "Males, under 18 years",
-  "Females",
-  "Females, 18 to 64 years",
-  "Females, 65 years and over",
-  "Females, under 18 years"
+  "Men+",
+  "Men+, 18 to 64 years",
+  "Men+, 65 years and over",
+  "Men+, under 18 years",
+  "Women+",
+  "Women+, 18 to 64 years",
+  "Women+, 65 years and over",
+  "Women+, under 18 years"
 )
 
 in_economic_families <- c(
   "Persons in economic families",
-  "Males in economic families",
-  "Females in economic families",
+  "Men+ in economic families",
+  "Women+ in economic families",
   "Persons under 18 years in economic families",
   "Persons 18 to 64 years in economic families",
-  "Males 18 to 64 years in economic families",
-  "Females 18 to 64 years in economic families"
+  "Men+ 18 to 64 years in economic families",
+  "Women+ 18 to 64 years in economic families"
 )
 
 senior_in_econ <- c(
   "Seniors in economic families",
-  "Senior males in economic families",
-  "Senior females in economic families"
+  "Senior men+ in economic families",
+  "Senior women+ in economic families"
 )
 
 not_in_economic_families <- c(
   "Persons not in an economic family",
-  "Males not in an economic family",
-  "Females not in an economic family"
+  "Men+ not in an economic family",
+  "Women+ not in an economic family"
 )
 
 seniors_not_in_econ <- c(
   "Seniors not in an economic family",
-  "Senior males not in an economic family",
-  "Senior females not in an economic family"
+  "Senior men+ not in an economic family",
+  "Senior women+ not in an economic family"
 )
 
 non_seniors_not_in_econ <- c(
   "Non-seniors not in an economic family",
-  "Non-senior males not in an economic family",
-  "Non-senior females not in an economic family"
+  "Non-senior men+ not in an economic family",
+  "Non-senior women+ not in an economic family"
 )
 
 # filter for years past 2015 and the proportion (rather than number)
@@ -420,7 +420,7 @@ low_income <-
     REF_DATE >= 2015, 
     Statistics=="Percentage of persons in low income",
     `Persons in low income` %in% demographics,
-    `Low income lines` == "Market basket measure, 2018 base"
+    `Low income lines` == "Market basket measure, 2018 base" # "Market basket measure, 2023 base" is available, but only back to 2020.
   ) %>%
   select(
     Year = REF_DATE, 
@@ -436,17 +436,17 @@ low_income <-
       `Persons in low income` %in% age_65_over ~ "65 years and over",
       TRUE ~ ""
     ),
-    Sex = case_when(
-      `Persons in low income` %in% all_persons ~ "Both sexes",
-      `Persons in low income` %in% male ~ "Male",
-      `Persons in low income` %in% female ~ "Female",
+    Gender = case_when(
+      `Persons in low income` %in% all_persons ~ "All genders",
+      `Persons in low income` %in% male ~ "Man+",
+      `Persons in low income` %in% female ~ "Woman+",
       TRUE ~ ""
     ),
     `Economic family type` = case_when(
       `Persons in low income` %in% all_family ~ "Total",
       `Persons in low income` %in% in_economic_families ~ "Persons in economic families",
       `Persons in low income` == "Persons under 18 years in couple families with children" ~ "Persons in couple families with children",
-      `Persons in low income` == "Persons under 18 years in female lone-parent families" ~ "Persons in female lone-parent families",
+      `Persons in low income` == "Persons under 18 years in female one-parent families" ~ "Persons in female one-parent families",
       `Persons in low income` == "Persons under 18 years in all other economic families" ~ "Persons in all other economic families",
       `Persons in low income` %in% senior_in_econ ~ "Seniors in economic families",
       `Persons in low income` %in% not_in_economic_families ~ "Persons not in an economic family",
@@ -458,7 +458,7 @@ low_income <-
     Year, 
     Geography, 
     `Age group`,
-    Sex,
+    Gender,
     `Economic family type`,
     Value
   )
@@ -473,13 +473,13 @@ total_line <-
   filter(
     Geography=="Canada", 
     `Age group` == "Total",
-    Sex == "Both sexes",
+    Gender == "All genders",
     `Economic family type` == "Total"
   ) %>%
   mutate(
     Geography = "", 
     `Age group` ="",
-    Sex = "",
+    Gender = "",
     `Economic family type` = ""
   )
 
@@ -488,7 +488,7 @@ data_final <-
   bind_rows(
     total_line,
     combined %>% 
-      filter(!(Geography=="Canada" & `Age group` == "Total" & Sex == "Both sexes" & `Economic family type` == "Total")) %>%
+      filter(!(Geography=="Canada" & `Age group` == "Total" & Gender == "All genders" & `Economic family type` == "Total")) %>%
       arrange(Geography, Year)
   ) %>%
   left_join(geocodes, by = "Geography") %>%
