@@ -1793,17 +1793,17 @@
             "title": "Groupe d'âge"
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Hommes",
-                "Femmes",
+                "Total - Genre",
+                "Hommes+",
+                "Femmes+",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Genre"
           },
           {
             "name": "GeoCode",
@@ -6078,10 +6078,10 @@
                 "Exploitation pétrolière et gazière",
                 "Transports",
                 "Industrie lourde",
-                "Bâtiments",
-                "Agriculture",
-                "Déchets et autres",
                 "Fabrication légère, construction et ressources forestières",
+                "Bâtiments",
+                "Déchets et autres",
+                "Agriculture",
                 "Inventaire territorial",
                 ""
               ]

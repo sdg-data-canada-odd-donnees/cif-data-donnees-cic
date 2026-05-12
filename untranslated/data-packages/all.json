@@ -1672,13 +1672,13 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Males",
-                "Females",
+                "Total - Gender",
+                "Men+",
+                "Women+",
                 ""
               ]
             }
@@ -5669,10 +5669,10 @@
                 "Oil and Gas",
                 "Transport",
                 "Heavy Industry",
-                "Buildings",
-                "Agriculture",
-                "Waste",
                 "Light Manufacturing, Construction and Forest Resources",
+                "Buildings",
+                "Waste",
+                "Agriculture",
                 "Territorial Inventory Total",
                 ""
               ]
