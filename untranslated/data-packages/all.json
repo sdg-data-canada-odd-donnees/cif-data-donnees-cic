@@ -1672,13 +1672,13 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Males",
-                "Females",
+                "Total - Gender",
+                "Men+",
+                "Women+",
                 ""
               ]
             }
@@ -2064,7 +2064,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "2023 constant dollars",
+                "2024 constant dollars",
                 ""
               ]
             }
@@ -2095,6 +2095,10 @@
                 "Calgary, Alberta",
                 "Edmonton, Alberta",
                 "Vancouver, British Columbia",
+                "Territories",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
                 ""
               ]
             }
@@ -2112,17 +2116,17 @@
                 "Couples",
                 "Couples with children",
                 "Couples with other relatives",
-                "Lone-parent families",
-                "Male lone-parent families",
-                "Female lone-parent families",
+                "One-parent families",
+                "One-parent families in which the parent is a man+",
+                "One-parent families in which the parent is a woman+",
                 "Other non-senior families",
                 "Persons not in an economic family",
                 "Seniors not in an economic family",
-                "Senior males not in an economic family",
-                "Senior females not in an economic family",
+                "Senior men+ not in an economic family",
+                "Senior women+ not in an economic family",
                 "Non-seniors not in an economic family",
-                "Non-senior males not in an economic family",
-                "Non-senior females not in an economic family",
+                "Non-senior men+ not in an economic family",
+                "Non-senior women+ not in an economic family",
                 "Economic families and persons not in an economic family",
                 ""
               ]
@@ -4606,7 +4610,9 @@
                 "Montréal, Quebec",
                 "New Brunswick",
                 "Newfoundland and Labrador",
+                "Northwest Territories",
                 "Nova Scotia",
+                "Nunavut",
                 "Ontario",
                 "Ottawa-Gatineau, Ontario/Quebec",
                 "Prairie provinces",
@@ -4614,9 +4620,11 @@
                 "Quebec",
                 "Québec, Quebec",
                 "Saskatchewan",
+                "Territories",
                 "Toronto, Ontario",
                 "Vancouver, British Columbia",
                 "Winnipeg, Manitoba",
+                "Yukon",
                 ""
               ]
             }
@@ -4635,13 +4643,13 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Male",
-                "Female",
+                "All genders",
+                "Man+",
+                "Woman+",
                 ""
               ]
             }
@@ -4654,7 +4662,6 @@
                 "Total",
                 "Persons in economic families",
                 "Persons in couple families with children",
-                "Persons in female lone-parent families",
                 "Persons not in an economic family",
                 "Seniors not in an economic family",
                 "Non-seniors not in an economic family",
@@ -5662,10 +5669,10 @@
                 "Oil and Gas",
                 "Transport",
                 "Heavy Industry",
-                "Buildings",
-                "Agriculture",
-                "Waste",
                 "Light Manufacturing, Construction and Forest Resources",
+                "Buildings",
+                "Waste",
+                "Agriculture",
                 "Territorial Inventory Total",
                 ""
               ]
@@ -6030,6 +6037,7 @@
                 "Saskatchewan",
                 "Alberta",
                 "British Columbia",
+                "Territories",
                 "Yukon",
                 "Northwest Territories",
                 "Nunavut",
@@ -6051,17 +6059,17 @@
                 "Persons in couples",
                 "Persons in couple families with children",
                 "Persons in couple families with other relatives",
-                "Persons in lone-parent families",
-                "Persons in male lone-parent families",
-                "Persons in female lone-parent families",
+                "Persons in one-parent families",
+                "Persons in one-parent families where the parent is a man+",
+                "Persons in one-parent families where the parent is a woman+",
                 "Persons in other non-senior families",
                 "Persons not in an economic family",
                 "Seniors not in an economic family",
-                "Senior males not in an economic family",
-                "Senior females not in an economic family",
+                "Senior men+ not in an economic family",
+                "Senior women+ not in an economic family",
                 "Non-seniors not in an economic family",
-                "Non-senior males not in an economic family",
-                "Non-senior females not in an economic family",
+                "Non-senior men+ not in an economic family",
+                "Non-senior women+ not in an economic family",
                 ""
               ]
             }
@@ -6079,14 +6087,14 @@
                 "Persons 45 to 54 years",
                 "Persons 55 to 64 years",
                 "Persons 65 years and over",
-                "Males",
-                "Males, under 18 years",
-                "Males, 18 to 64 years",
-                "Males, 65 years and over",
-                "Females",
-                "Females, under 18 years",
-                "Females, 18 to 64 years",
-                "Females, 65 years and over",
+                "Men+",
+                "Men+, under 18 years",
+                "Men+, 18 to 64 years",
+                "Men+, 65 years and over",
+                "Women+",
+                "Women+, under 18 years",
+                "Women+, 18 to 64 years",
+                "Women+, 65 years and over",
                 "Visible minority population",
                 "South Asian",
                 "Chinese",
@@ -6104,6 +6112,7 @@
                 "Indigenous population aged 15 years and over",
                 "First Nations aged 15 years and over",
                 "Métis aged 15 years and over",
+                "Inuit aged 15 years and over",
                 "Non-Indigenous population aged 15 years and over",
                 "Immigrants aged 15 years and over",
                 "Recent immigrants (10 years or less) aged 15 years and over",

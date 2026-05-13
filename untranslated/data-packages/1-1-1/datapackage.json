@@ -29,7 +29,9 @@
                 "Montréal, Quebec",
                 "New Brunswick",
                 "Newfoundland and Labrador",
+                "Northwest Territories",
                 "Nova Scotia",
+                "Nunavut",
                 "Ontario",
                 "Ottawa-Gatineau, Ontario/Quebec",
                 "Prairie provinces",
@@ -37,9 +39,11 @@
                 "Quebec",
                 "Québec, Quebec",
                 "Saskatchewan",
+                "Territories",
                 "Toronto, Ontario",
                 "Vancouver, British Columbia",
                 "Winnipeg, Manitoba",
+                "Yukon",
                 ""
               ]
             }
@@ -58,13 +62,13 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Both sexes",
-                "Male",
-                "Female",
+                "All genders",
+                "Man+",
+                "Woman+",
                 ""
               ]
             }
@@ -77,7 +81,6 @@
                 "Total",
                 "Persons in economic families",
                 "Persons in couple families with children",
-                "Persons in female lone-parent families",
                 "Persons not in an economic family",
                 "Seniors not in an economic family",
                 "Non-seniors not in an economic family",

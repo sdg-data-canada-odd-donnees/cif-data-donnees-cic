@@ -56,17 +56,17 @@
             "title": "Groupe d'âge"
           },
           {
-            "name": "Sex",
+            "name": "Gender",
             "type": "string",
             "constraints": {
               "enum": [
-                "Les deux sexes",
-                "Hommes",
-                "Femmes",
+                "Total - Genre",
+                "Hommes+",
+                "Femmes+",
                 ""
               ]
             },
-            "title": "Sexe"
+            "title": "Genre"
           },
           {
             "name": "GeoCode",
