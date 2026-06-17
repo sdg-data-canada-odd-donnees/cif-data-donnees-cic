@@ -223,18 +223,18 @@
   12-1-1:
     base_value: 0.37
     base_year: 2015.0
-    current_value: 14.63
-    current_year: 2024.0
+    current_value: 9.53
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 1.249622415033452
-    score: 4.640227948342444
+    progress_value: 0.9504069883014249
+    score: 2.502962076738248
     sign: 1
     status: substantial_progress
     target: 60.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 4.640227948342444
+  score: 2.502962076738248
 12-2-1:
   12-2-1 / Canada / Total, industries / None / None / Total, environmental protection activities:
     base_value: 90.3
@@ -1099,11 +1099,11 @@
   3-13-1:
     base_value: 7.8
     base_year: 2016.0
-    current_value: 17.7
-    current_year: 2024.0
+    current_value: 13.5
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: -5.155591320251755
+    progress_value: -3.0040533889075847
     score: -5.0
     sign: 1
     status: deterioration
@@ -1928,11 +1928,11 @@
   9-5-1:
     base_value: 0.24
     base_year: 2015.0
-    current_value: 0.1529
+    current_value: 0.153
     current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: 0.044084234333910066
+    progress_value: 0.04402173370954321
     score: 5.0
     sign: 1
     status: substantial_progress
