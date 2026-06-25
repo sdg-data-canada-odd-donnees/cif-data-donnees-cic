@@ -7,9 +7,10 @@ Year,Geography,Sources of waste for disposal,GeoCode,Value
 2012,,,,711.0
 2014,,,,699.0
 2016,,,,690.7
-2018,,,,694.1
-2020,,,,686.5
-2022,,,,683.4
+2018,,,,696.8
+2020,,,,688.9
+2022,,,,695.8
+2024,,,,666.6
 2002,Canada,Residential sources of waste for disposal,,269.4
 2002,Canada,Non-residential sources of waste for disposal,,498.6
 2002,Newfoundland and Labrador,All sources of waste for disposal,10,725.0
@@ -291,7 +292,7 @@ Year,Geography,Sources of waste for disposal,GeoCode,Value
 2016,"Yukon, Northwest Territories and Nunavut",Residential sources of waste for disposal,,
 2016,"Yukon, Northwest Territories and Nunavut",Non-residential sources of waste for disposal,,
 2018,Canada,Residential sources of waste for disposal,,292.6
-2018,Canada,Non-residential sources of waste for disposal,,401.5
+2018,Canada,Non-residential sources of waste for disposal,,404.2
 2018,Newfoundland and Labrador,All sources of waste for disposal,10,707.2
 2018,Newfoundland and Labrador,Residential sources of waste for disposal,10,300.1
 2018,Newfoundland and Labrador,Non-residential sources of waste for disposal,10,407.0
@@ -307,9 +308,9 @@ Year,Geography,Sources of waste for disposal,GeoCode,Value
 2018,Quebec,All sources of waste for disposal,24,663.3
 2018,Quebec,Residential sources of waste for disposal,24,385.3
 2018,Quebec,Non-residential sources of waste for disposal,24,278.0
-2018,Ontario,All sources of waste for disposal,35,704.0
+2018,Ontario,All sources of waste for disposal,35,710.9
 2018,Ontario,Residential sources of waste for disposal,35,277.8
-2018,Ontario,Non-residential sources of waste for disposal,35,426.1
+2018,Ontario,Non-residential sources of waste for disposal,35,433.1
 2018,Manitoba,All sources of waste for disposal,46,712.1
 2018,Manitoba,Residential sources of waste for disposal,46,246.7
 2018,Manitoba,Non-residential sources of waste for disposal,46,465.4
@@ -326,7 +327,7 @@ Year,Geography,Sources of waste for disposal,GeoCode,Value
 2018,"Yukon, Northwest Territories and Nunavut",Residential sources of waste for disposal,,264.6
 2018,"Yukon, Northwest Territories and Nunavut",Non-residential sources of waste for disposal,,469.5
 2020,Canada,Residential sources of waste for disposal,,285.6
-2020,Canada,Non-residential sources of waste for disposal,,400.9
+2020,Canada,Non-residential sources of waste for disposal,,403.2
 2020,Newfoundland and Labrador,All sources of waste for disposal,10,693.2
 2020,Newfoundland and Labrador,Residential sources of waste for disposal,10,305.8
 2020,Newfoundland and Labrador,Non-residential sources of waste for disposal,10,387.3
@@ -342,9 +343,9 @@ Year,Geography,Sources of waste for disposal,GeoCode,Value
 2020,Quebec,All sources of waste for disposal,24,673.1
 2020,Quebec,Residential sources of waste for disposal,24,399.7
 2020,Quebec,Non-residential sources of waste for disposal,24,273.5
-2020,Ontario,All sources of waste for disposal,35,697.8
+2020,Ontario,All sources of waste for disposal,35,703.8
 2020,Ontario,Residential sources of waste for disposal,35,258.4
-2020,Ontario,Non-residential sources of waste for disposal,35,439.4
+2020,Ontario,Non-residential sources of waste for disposal,35,445.4
 2020,Manitoba,All sources of waste for disposal,46,677.1
 2020,Manitoba,Residential sources of waste for disposal,46,235.8
 2020,Manitoba,Non-residential sources of waste for disposal,46,441.2
@@ -360,26 +361,26 @@ Year,Geography,Sources of waste for disposal,GeoCode,Value
 2020,"Yukon, Northwest Territories and Nunavut",All sources of waste for disposal,,764.6
 2020,"Yukon, Northwest Territories and Nunavut",Residential sources of waste for disposal,,297.0
 2020,"Yukon, Northwest Territories and Nunavut",Non-residential sources of waste for disposal,,467.6
-2022,Canada,Residential sources of waste for disposal,,274.7
-2022,Canada,Non-residential sources of waste for disposal,,408.7
+2022,Canada,Residential sources of waste for disposal,,280.3
+2022,Canada,Non-residential sources of waste for disposal,,415.5
 2022,Newfoundland and Labrador,All sources of waste for disposal,10,685.8
 2022,Newfoundland and Labrador,Residential sources of waste for disposal,10,300.1
 2022,Newfoundland and Labrador,Non-residential sources of waste for disposal,10,385.7
-2022,Prince Edward Island,All sources of waste for disposal,11,
-2022,Prince Edward Island,Residential sources of waste for disposal,11,
-2022,Prince Edward Island,Non-residential sources of waste for disposal,11,
+2022,Prince Edward Island,All sources of waste for disposal,11,331.4
+2022,Prince Edward Island,Residential sources of waste for disposal,11,122.5
+2022,Prince Edward Island,Non-residential sources of waste for disposal,11,208.9
 2022,Nova Scotia,All sources of waste for disposal,12,403.3
 2022,Nova Scotia,Residential sources of waste for disposal,12,169.8
 2022,Nova Scotia,Non-residential sources of waste for disposal,12,233.4
 2022,New Brunswick,All sources of waste for disposal,13,624.0
 2022,New Brunswick,Residential sources of waste for disposal,13,302.5
 2022,New Brunswick,Non-residential sources of waste for disposal,13,321.5
-2022,Quebec,All sources of waste for disposal,24,677.7
-2022,Quebec,Residential sources of waste for disposal,24,378.5
-2022,Quebec,Non-residential sources of waste for disposal,24,299.2
-2022,Ontario,All sources of waste for disposal,35,708.6
-2022,Ontario,Residential sources of waste for disposal,35,245.6
-2022,Ontario,Non-residential sources of waste for disposal,35,462.9
+2022,Quebec,All sources of waste for disposal,24,684.3
+2022,Quebec,Residential sources of waste for disposal,24,379.5
+2022,Quebec,Non-residential sources of waste for disposal,24,304.8
+2022,Ontario,All sources of waste for disposal,35,726.7
+2022,Ontario,Residential sources of waste for disposal,35,255.1
+2022,Ontario,Non-residential sources of waste for disposal,35,471.7
 2022,Manitoba,All sources of waste for disposal,46,636.2
 2022,Manitoba,Residential sources of waste for disposal,46,222.8
 2022,Manitoba,Non-residential sources of waste for disposal,46,413.4
@@ -389,9 +390,44 @@ Year,Geography,Sources of waste for disposal,GeoCode,Value
 2022,Alberta,All sources of waste for disposal,48,879.2
 2022,Alberta,Residential sources of waste for disposal,48,281.6
 2022,Alberta,Non-residential sources of waste for disposal,48,597.6
-2022,British Columbia,All sources of waste for disposal,59,531.1
-2022,British Columbia,Residential sources of waste for disposal,59,198.5
-2022,British Columbia,Non-residential sources of waste for disposal,59,332.6
-2022,"Yukon, Northwest Territories and Nunavut",All sources of waste for disposal,,
-2022,"Yukon, Northwest Territories and Nunavut",Residential sources of waste for disposal,,
-2022,"Yukon, Northwest Territories and Nunavut",Non-residential sources of waste for disposal,,
+2022,British Columbia,All sources of waste for disposal,59,559.1
+2022,British Columbia,Residential sources of waste for disposal,59,211.1
+2022,British Columbia,Non-residential sources of waste for disposal,59,348.0
+2022,"Yukon, Northwest Territories and Nunavut",All sources of waste for disposal,,720.5
+2022,"Yukon, Northwest Territories and Nunavut",Residential sources of waste for disposal,,293.3
+2022,"Yukon, Northwest Territories and Nunavut",Non-residential sources of waste for disposal,,427.2
+2024,Canada,Residential sources of waste for disposal,,268.4
+2024,Canada,Non-residential sources of waste for disposal,,398.1
+2024,Newfoundland and Labrador,All sources of waste for disposal,10,668.6
+2024,Newfoundland and Labrador,Residential sources of waste for disposal,10,297.0
+2024,Newfoundland and Labrador,Non-residential sources of waste for disposal,10,371.6
+2024,Prince Edward Island,All sources of waste for disposal,11,336.1
+2024,Prince Edward Island,Residential sources of waste for disposal,11,117.5
+2024,Prince Edward Island,Non-residential sources of waste for disposal,11,218.6
+2024,Nova Scotia,All sources of waste for disposal,12,404.8
+2024,Nova Scotia,Residential sources of waste for disposal,12,166.4
+2024,Nova Scotia,Non-residential sources of waste for disposal,12,238.4
+2024,New Brunswick,All sources of waste for disposal,13,582.0
+2024,New Brunswick,Residential sources of waste for disposal,13,277.8
+2024,New Brunswick,Non-residential sources of waste for disposal,13,304.2
+2024,Quebec,All sources of waste for disposal,24,638.4
+2024,Quebec,Residential sources of waste for disposal,24,352.9
+2024,Quebec,Non-residential sources of waste for disposal,24,285.4
+2024,Ontario,All sources of waste for disposal,35,707.2
+2024,Ontario,Residential sources of waste for disposal,35,248.9
+2024,Ontario,Non-residential sources of waste for disposal,35,458.3
+2024,Manitoba,All sources of waste for disposal,46,620.0
+2024,Manitoba,Residential sources of waste for disposal,46,206.1
+2024,Manitoba,Non-residential sources of waste for disposal,46,414.0
+2024,Saskatchewan,All sources of waste for disposal,47,685.8
+2024,Saskatchewan,Residential sources of waste for disposal,47,319.9
+2024,Saskatchewan,Non-residential sources of waste for disposal,47,365.8
+2024,Alberta,All sources of waste for disposal,48,839.7
+2024,Alberta,Residential sources of waste for disposal,48,277.9
+2024,Alberta,Non-residential sources of waste for disposal,48,561.8
+2024,British Columbia,All sources of waste for disposal,59,526.4
+2024,British Columbia,Residential sources of waste for disposal,59,206.8
+2024,British Columbia,Non-residential sources of waste for disposal,59,319.6
+2024,"Yukon, Northwest Territories and Nunavut",All sources of waste for disposal,,685.3
+2024,"Yukon, Northwest Territories and Nunavut",Residential sources of waste for disposal,,274.8
+2024,"Yukon, Northwest Territories and Nunavut",Non-residential sources of waste for disposal,,410.5
