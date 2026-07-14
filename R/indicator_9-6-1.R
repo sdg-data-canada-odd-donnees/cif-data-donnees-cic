@@ -14,7 +14,7 @@ library(readr)
 ELECTRIC_CHARGING_STATIONS <- Sys.getenv("ELECTRIC_CHARGING_STATIONS")
 
 # Define the URL for the API endpoint
-URL <- "https://developer.nrel.gov/api/alt-fuel-stations/v1.csv?"
+URL <- "https://developer.nlr.gov/api/alt-fuel-stations/v1.csv?"
 
 # Load geocodes from a CSV file
 geocodes <- read.csv("geocodes.csv")
