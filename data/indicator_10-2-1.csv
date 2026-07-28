@@ -8,7 +8,8 @@
 "2021","",,8.8
 "2022","",,9.3
 "2023","",,12.1
-"2024","",,11.9
+"2024","",,11.8
+"2025","",,11.4
 "2015","Newfoundland and Labrador",10,0.8
 "2015","St. John's, Newfoundland and Labrador",,0.5
 "2015","Prince Edward Island",11,1.4
@@ -357,7 +358,7 @@
 "2022","New Brunswick",13,6.2
 "2022","Moncton, New Brunswick",,3.9
 "2022","Saint John, New Brunswick",,3.7
-"2022","Fredericton, New Brunswick",,12.3
+"2022","Fredericton, New Brunswick",,12.5
 "2022","Quebec",24,4.9
 "2022","Saguenay, Quebec",,8.2
 "2022","Québec, Quebec",,7
@@ -370,11 +371,11 @@
 "2022","Ottawa-Gatineau, Ontario part",,27
 "2022","Kingston, Ontario",,22.5
 "2022","Belleville-Quinte West, Ontario",,0.8
-"2022","Peterborough, Ontario",,14.1
-"2022","Toronto, Ontario",,14.9
+"2022","Peterborough, Ontario",,14
+"2022","Toronto, Ontario",,14.8
 "2022","Hamilton, Ontario",,20.6
 "2022","St. Catharines–Niagara, Ontario",,6.5
-"2022","Kitchener–Cambridge–Waterloo, Ontario",,22.9
+"2022","Kitchener–Cambridge–Waterloo, Ontario",,22.8
 "2022","Brantford, Ontario",,17.4
 "2022","Guelph, Ontario",,6.5
 "2022","London, Ontario",,13.6
@@ -383,35 +384,35 @@
 "2022","Greater Sudbury, Ontario",,17.3
 "2022","Thunder Bay, Ontario",,11
 "2022","Manitoba",46,4.3
-"2022","Winnipeg, Manitoba",,3.8
+"2022","Winnipeg, Manitoba",,3.7
 "2022","Saskatchewan",47,6.9
 "2022","Regina, Saskatchewan",,6.9
 "2022","Saskatoon, Saskatchewan",,13.5
-"2022","Alberta",48,7.1
+"2022","Alberta",48,7
 "2022","Lethbridge, Alberta",,8.4
-"2022","Calgary, Alberta",,8.8
+"2022","Calgary, Alberta",,8.7
 "2022","Red Deer, Alberta",,12.4
 "2022","Edmonton, Alberta",,5.8
 "2022","British Columbia",59,10.2
 "2022","Kelowna, British Columbia",,4.6
 "2022","Kamloops, British Columbia",,3.3
-"2022","Chilliwack, British Columbia",,10.7
-"2022","Abbotsford–Mission, British Columbia",,11.5
+"2022","Chilliwack, British Columbia",,10.6
+"2022","Abbotsford–Mission, British Columbia",,11.6
 "2022","Vancouver, British Columbia",,13
 "2022","Victoria, British Columbia",,9.3
 "2022","Nanaimo, British Columbia",,13
 "2022","Yukon",60,20.5
-"2022","Northwest Territories",61,33.6
-"2022","Nunavut",62,12.4
+"2022","Northwest Territories",61,33.9
+"2022","Nunavut",62,12.3
 "2023","Newfoundland and Labrador",10,3.5
 "2023","St. John's, Newfoundland and Labrador",,1.8
 "2023","Prince Edward Island",11,12.1
 "2023","Nova Scotia",12,18.4
-"2023","Halifax, Nova Scotia",,23.5
-"2023","New Brunswick",13,9.2
+"2023","Halifax, Nova Scotia",,23.7
+"2023","New Brunswick",13,9.3
 "2023","Moncton, New Brunswick",,12.3
 "2023","Saint John, New Brunswick",,6.3
-"2023","Fredericton, New Brunswick",,10.3
+"2023","Fredericton, New Brunswick",,10.5
 "2023","Quebec",24,8.3
 "2023","Saguenay, Quebec",,0.6
 "2023","Québec, Quebec",,12.1
@@ -424,12 +425,12 @@
 "2023","Ottawa-Gatineau, Ontario part",,30.9
 "2023","Kingston, Ontario",,23.7
 "2023","Belleville-Quinte West, Ontario",,1.6
-"2023","Peterborough, Ontario",,33.8
+"2023","Peterborough, Ontario",,33.7
 "2023","Toronto, Ontario",,18.4
 "2023","Hamilton, Ontario",,23.5
 "2023","St. Catharines–Niagara, Ontario",,6.5
 "2023","Kitchener–Cambridge–Waterloo, Ontario",,34.1
-"2023","Brantford, Ontario",,15.5
+"2023","Brantford, Ontario",,15.6
 "2023","Guelph, Ontario",,10.2
 "2023","London, Ontario",,18.7
 "2023","Windsor, Ontario",,7.9
@@ -439,7 +440,7 @@
 "2023","Manitoba",46,7.8
 "2023","Winnipeg, Manitoba",,5.5
 "2023","Saskatchewan",47,9.4
-"2023","Regina, Saskatchewan",,8.9
+"2023","Regina, Saskatchewan",,8.8
 "2023","Saskatoon, Saskatchewan",,19.1
 "2023","Alberta",48,7.9
 "2023","Lethbridge, Alberta",,8.2
@@ -449,65 +450,119 @@
 "2023","British Columbia",59,12.2
 "2023","Kelowna, British Columbia",,5.7
 "2023","Kamloops, British Columbia",,3.3
-"2023","Chilliwack, British Columbia",,13.7
-"2023","Abbotsford–Mission, British Columbia",,12.1
-"2023","Vancouver, British Columbia",,16.4
-"2023","Victoria, British Columbia",,12.4
+"2023","Chilliwack, British Columbia",,13.6
+"2023","Abbotsford–Mission, British Columbia",,12.2
+"2023","Vancouver, British Columbia",,16.5
+"2023","Victoria, British Columbia",,12.5
 "2023","Nanaimo, British Columbia",,8.8
 "2023","Yukon",60,13.2
 "2023","Northwest Territories",61,9
-"2023","Nunavut",62,17.2
-"2024","Newfoundland and Labrador",10,5.3
-"2024","St. John's, Newfoundland and Labrador",,3
-"2024","Prince Edward Island",11,10.1
-"2024","Nova Scotia",12,15.2
-"2024","Halifax, Nova Scotia",,20.7
-"2024","New Brunswick",13,8.4
-"2024","Moncton, New Brunswick",,8.1
+"2023","Nunavut",62,17.1
+"2024","Newfoundland and Labrador",10,4.4
+"2024","St. John's, Newfoundland and Labrador",,1.7
+"2024","Prince Edward Island",11,10.6
+"2024","Nova Scotia",12,16
+"2024","Halifax, Nova Scotia",,21
+"2024","New Brunswick",13,8.6
+"2024","Moncton, New Brunswick",,8.6
 "2024","Saint John, New Brunswick",,0
-"2024","Fredericton, New Brunswick",,15
-"2024","Quebec",24,8
-"2024","Saguenay, Quebec",,1.7
-"2024","Québec, Quebec",,10.5
-"2024","Sherbrooke, Quebec",,6.7
+"2024","Fredericton, New Brunswick",,15.9
+"2024","Quebec",24,7.7
+"2024","Saguenay, Quebec",,0.6
+"2024","Québec, Quebec",,9.9
+"2024","Sherbrooke, Quebec",,4
 "2024","Trois-Rivières, Quebec",,1.8
 "2024","Drummondville, Quebec",,1.7
 "2024","Montréal, Quebec",,10.9
-"2024","Ottawa-Gatineau, Quebec part",,9.6
-"2024","Ontario",35,16
-"2024","Ottawa-Gatineau, Ontario part",,27.7
+"2024","Ottawa-Gatineau, Quebec part",,9.7
+"2024","Ontario",35,16.1
+"2024","Ottawa-Gatineau, Ontario part",,27.4
 "2024","Kingston, Ontario",,12.6
 "2024","Belleville-Quinte West, Ontario",,3.2
-"2024","Peterborough, Ontario",,21.4
+"2024","Peterborough, Ontario",,21.3
 "2024","Toronto, Ontario",,20.1
-"2024","Hamilton, Ontario",,19.3
+"2024","Hamilton, Ontario",,21.2
 "2024","St. Catharines–Niagara, Ontario",,6.1
-"2024","Kitchener–Cambridge–Waterloo, Ontario",,22.2
-"2024","Brantford, Ontario",,2.4
+"2024","Kitchener–Cambridge–Waterloo, Ontario",,22.5
+"2024","Brantford, Ontario",,3.6
 "2024","Guelph, Ontario",,16.9
-"2024","London, Ontario",,18.2
-"2024","Windsor, Ontario",,9.1
+"2024","London, Ontario",,18.6
+"2024","Windsor, Ontario",,9.3
 "2024","Barrie, Ontario",,7.5
 "2024","Greater Sudbury, Ontario",,19.9
 "2024","Thunder Bay, Ontario",,16
-"2024","Manitoba",46,5.3
-"2024","Winnipeg, Manitoba",,4.8
-"2024","Saskatchewan",47,8.7
-"2024","Regina, Saskatchewan",,5
-"2024","Saskatoon, Saskatchewan",,18.6
-"2024","Alberta",48,8.1
-"2024","Lethbridge, Alberta",,6.5
-"2024","Calgary, Alberta",,11.8
+"2024","Manitoba",46,5.4
+"2024","Winnipeg, Manitoba",,5.3
+"2024","Saskatchewan",47,8.2
+"2024","Regina, Saskatchewan",,4.6
+"2024","Saskatoon, Saskatchewan",,18.8
+"2024","Alberta",48,7.5
+"2024","Lethbridge, Alberta",,7.9
+"2024","Calgary, Alberta",,10.2
 "2024","Red Deer, Alberta",,3.5
 "2024","Edmonton, Alberta",,5.9
-"2024","British Columbia",59,12.1
-"2024","Kelowna, British Columbia",,4.4
-"2024","Kamloops, British Columbia",,6.4
-"2024","Chilliwack, British Columbia",,17.4
-"2024","Abbotsford–Mission, British Columbia",,15.3
-"2024","Vancouver, British Columbia",,14.9
-"2024","Victoria, British Columbia",,18.1
+"2024","British Columbia",59,12.3
+"2024","Kelowna, British Columbia",,4
+"2024","Kamloops, British Columbia",,6.5
+"2024","Chilliwack, British Columbia",,17
+"2024","Abbotsford–Mission, British Columbia",,16
+"2024","Vancouver, British Columbia",,15
+"2024","Victoria, British Columbia",,18.8
 "2024","Nanaimo, British Columbia",,5.5
-"2024","Yukon",60,12.9
-"2024","Northwest Territories",61,24.6
-"2024","Nunavut",62,9.7
+"2024","Yukon",60,12.8
+"2024","Northwest Territories",61,24.5
+"2024","Nunavut",62,7.2
+"2025","Newfoundland and Labrador",10,6.2
+"2025","St. John's, Newfoundland and Labrador",,6.8
+"2025","Prince Edward Island",11,8.2
+"2025","Nova Scotia",12,16.8
+"2025","Halifax, Nova Scotia",,22.4
+"2025","New Brunswick",13,11.1
+"2025","Moncton, New Brunswick",,17.7
+"2025","Saint John, New Brunswick",,1.6
+"2025","Fredericton, New Brunswick",,6.6
+"2025","Quebec",24,7.7
+"2025","Saguenay, Quebec",,3.4
+"2025","Québec, Quebec",,13.3
+"2025","Sherbrooke, Quebec",,6.2
+"2025","Trois-Rivières, Quebec",,5.2
+"2025","Drummondville, Quebec",,4.3
+"2025","Montréal, Quebec",,9.3
+"2025","Ottawa-Gatineau, Quebec part",,10.1
+"2025","Ontario",35,13.1
+"2025","Ottawa-Gatineau, Ontario part",,21.3
+"2025","Kingston, Ontario",,12
+"2025","Belleville-Quinte West, Ontario",,0.8
+"2025","Peterborough, Ontario",,25.9
+"2025","Toronto, Ontario",,16.2
+"2025","Hamilton, Ontario",,14.5
+"2025","St. Catharines–Niagara, Ontario",,6
+"2025","Kitchener–Cambridge–Waterloo, Ontario",,23.8
+"2025","Brantford, Ontario",,10.6
+"2025","Guelph, Ontario",,14.9
+"2025","London, Ontario",,12.9
+"2025","Windsor, Ontario",,9
+"2025","Barrie, Ontario",,5
+"2025","Greater Sudbury, Ontario",,14.2
+"2025","Thunder Bay, Ontario",,14.4
+"2025","Manitoba",46,10.4
+"2025","Winnipeg, Manitoba",,12.6
+"2025","Saskatchewan",47,8.1
+"2025","Regina, Saskatchewan",,8.3
+"2025","Saskatoon, Saskatchewan",,15
+"2025","Alberta",48,8.1
+"2025","Lethbridge, Alberta",,9.2
+"2025","Calgary, Alberta",,9.9
+"2025","Red Deer, Alberta",,17.3
+"2025","Edmonton, Alberta",,6.6
+"2025","British Columbia",59,15.5
+"2025","Kelowna, British Columbia",,11.5
+"2025","Kamloops, British Columbia",,12.9
+"2025","Chilliwack, British Columbia",,15.2
+"2025","Abbotsford–Mission, British Columbia",,11.7
+"2025","Vancouver, British Columbia",,17.5
+"2025","Victoria, British Columbia",,23.8
+"2025","Nanaimo, British Columbia",,8.5
+"2025","Yukon",60,8.4
+"2025","Northwest Territories",61,11
+"2025","Nunavut",62,14.3
