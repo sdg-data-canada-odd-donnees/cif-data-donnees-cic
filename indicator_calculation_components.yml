@@ -1505,18 +1505,18 @@
   5-1-1 / Intimate partner / Women:
     base_value: 1.2
     base_year: 2018.0
-    current_value: 1.2
-    current_year: 2018.0
+    current_value: 2.0
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: null
-    score: null
+    progress_value: -0.07570373984278356
+    score: -5.0
     sign: 1
-    status: not_available
+    status: deterioration
     target: null
     target_year: 2030.0
-  progress_status: not_available
-  score: null
+  progress_status: deterioration
+  score: -5.0
 5-2-1:
   5-2-1:
     base_value: 12.1
