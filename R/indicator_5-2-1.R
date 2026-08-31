@@ -217,8 +217,19 @@ non_total <-
     )
   )
 
+# Manual input data for 2025
+# Source:
+# 2025: https://www150.statcan.gc.ca/n1/pub/85-002-x/2026001/article/00004-eng.htm
+
+data_2025 <- data.frame(
+  Year = 2025, 2025, 2025, 2025, 2025,
+  `Type of intimate partner violence` = 'Total, any type of intimate partner violence', 'Emotional, psychological violence or financial exploitation', 'Total, physical or sexual intimate partner violence', 'Physical violence', 'Sexual violence',
+  Value = 13.6, 13.2, 3.7, 2.5, 2.0
+)
+print(data_2025)
+
 data_final <-
-  bind_rows(total_line, non_total, indigenous_person, visible_minority_population, immigrant_status, disability_status, education_level, income, location_of_residence, marital) %>%
+  bind_rows(total_line, non_total, indigenous_person, visible_minority_population, immigrant_status, disability_status, education_level, income, location_of_residence, marital, data_2025) %>%
   select(
     Year,
     Geography,
