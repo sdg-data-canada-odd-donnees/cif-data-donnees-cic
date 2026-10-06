@@ -98,11 +98,11 @@
   11-1-1 / Number of shelter users experiencing chronic homelessness / Number:
     base_value: 26866.0
     base_year: 2016.0
-    current_value: 36058.0
-    current_year: 2024.0
+    current_value: 39208.0
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: -0.6675781357974336
+    progress_value: -0.7642972889764676
     score: -5.0
     sign: 1
     status: deterioration
@@ -115,17 +115,17 @@
     base_value: 11.3
     base_year: 2018.0
     current_value: 11.6
-    current_year: 2022.0
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.006572095158251079
-    score: -3.321511894781385
+    progress_value: -0.0043766115772563285
+    score: -3.047076447157041
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -3.321511894781385
+  score: -3.047076447157041
 11-3-1:
   11-3-1:
     base_value: 63.0
@@ -178,18 +178,18 @@
   11-6-1:
     base_value: 699.0
     base_year: 2014.0
-    current_value: 666.6
+    current_value: 668.2
     current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.21562879968968102
-    score: -1.601539480333006
+    progress_value: 0.20476132083203752
+    score: -1.6468210044891494
     sign: 1
     status: limited_progress
     target: 490.0
     target_year: 2030.0
   progress_status: limited_progress
-  score: -1.601539480333006
+  score: -1.6468210044891494
 11-7-1:
   11-7-1 / Aged 12 to 17 years:
     base_value: 83.8
@@ -281,18 +281,18 @@
   12-3-1:
     base_value: 224.964704409885
     base_year: 2018.0
-    current_value: 208.272562607894
+    current_value: 208.777202155365
     current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.012767116904636056
-    score: -4.095889613079507
+    progress_value: -0.012368845102910808
+    score: -4.046105637863851
     sign: 1
     status: deterioration
     target: null
     target_year: 2030.0
   progress_status: deterioration
-  score: -4.095889613079507
+  score: -4.046105637863851
 12-4-1:
   12-4-1:
     base_value: 1.43
@@ -1099,11 +1099,11 @@
   3-13-1:
     base_value: 7.8
     base_year: 2016.0
-    current_value: 13.5
+    current_value: 13.7
     current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: -3.0040533889075847
+    progress_value: -3.087134226658447
     score: -5.0
     sign: 1
     status: deterioration
@@ -1505,18 +1505,18 @@
   5-1-1 / Intimate partner / Women:
     base_value: 1.2
     base_year: 2018.0
-    current_value: 1.2
-    current_year: 2018.0
+    current_value: 2.0
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: null
-    score: null
+    progress_value: -0.07570373984278356
+    score: -5.0
     sign: 1
-    status: not_available
+    status: deterioration
     target: null
     target_year: 2030.0
-  progress_status: not_available
-  score: null
+  progress_status: deterioration
+  score: -5.0
 5-2-1:
   5-2-1:
     base_value: 12.1
@@ -1832,18 +1832,18 @@
   8-5-1:
     base_value: 57591.0
     base_year: 2015.0
-    current_value: 59529.0
+    current_value: 59673.0
     current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.003684246130864821
-    score: -0.6578769345675894
+    progress_value: 0.003953723345546667
+    score: -0.5231383272266665
     sign: 1
     status: limited_progress
     target: null
     target_year: 2030.0
   progress_status: limited_progress
-  score: -0.6578769345675894
+  score: -0.5231383272266665
 8-6-1:
   8-6-1:
     base_value: 195772.0
@@ -1942,20 +1942,20 @@
   score: 5.0
 9-6-1:
   9-6-1:
-    base_value: 664.0
+    base_value: 568.0
     base_year: 2015.0
-    current_value: 15330.0
+    current_value: 15224.0
     current_year: 2026.0
     direction: 1
     limit: null
-    progress_value: 1.066987909731233
-    score: 3.3356879404192235
+    progress_value: 1.0779594321790706
+    score: 3.4140564281118833
     sign: 1
     status: substantial_progress
     target: 37929.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 3.3356879404192235
+  score: 3.4140564281118833
 9-7-1:
   9-7-1:
     base_value: 58.2
