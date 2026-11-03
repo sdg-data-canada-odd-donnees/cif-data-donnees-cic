@@ -241,4 +241,3 @@ write.csv(data_final,
           na = '',
           row.names = FALSE,
           fileEncoding = "UTF-8")
-
