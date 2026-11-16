@@ -495,17 +495,17 @@
     base_value: 0.9
     base_year: 2015.0
     current_value: 15.5
-    current_year: 2024.0
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 1.412414035287888
-    score: 5.0
+    progress_value: 1.2502418625422527
+    score: 4.644652599953057
     sign: 1
     status: substantial_progress
     target: 30.0
     target_year: 2030.0
   progress_status: substantial_progress
-  score: 5.0
+  score: 4.644652599953057
 14-2-1:
   14-2-1 / Percentage:
     base_value: 68.5534591194968
@@ -542,18 +542,18 @@
   15-2-1:
     base_value: 42.0
     base_year: 2019.0
-    current_value: 40.0
-    current_year: 2024.0
+    current_value: 42.0
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: -0.18576295071190677
-    score: -3.274018486731302
+    progress_value: 0.0
+    score: -2.5
     sign: 1
-    status: deterioration
+    status: limited_progress
     target: 60.0
     target_year: 2026.0
-  progress_status: deterioration
-  score: -3.274018486731302
+  progress_status: limited_progress
+  score: -2.5
 15-3-1:
   15-3-1 / By species group:
     base_value: 0.9339
@@ -572,20 +572,20 @@
   score: -2.8669253254527938
 15-4-1:
   15-4-1:
-    base_value: 10.1
+    base_value: 10.0
     base_year: 2015.0
-    current_value: 13.7
-    current_year: 2023.0
+    current_value: 14.0
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 0.5160064971944834
-    score: -0.34995572813974585
+    progress_value: 0.4503206095972004
+    score: -0.6236491159913453
     sign: 1
     status: limited_progress
     target: 30.0
     target_year: 2030.0
   progress_status: limited_progress
-  score: -0.34995572813974585
+  score: -0.6236491159913453
 15-5-1:
   15-5-1:
     base_value: 70.0
