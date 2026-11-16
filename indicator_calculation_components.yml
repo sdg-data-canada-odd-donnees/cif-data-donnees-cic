@@ -542,18 +542,18 @@
   15-2-1:
     base_value: 42.0
     base_year: 2019.0
-    current_value: 42.0
+    current_value: 32.0
     current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 0.0
-    score: -2.5
+    progress_value: -0.8476594328197815
+    score: -5.0
     sign: 1
-    status: limited_progress
+    status: deterioration
     target: 60.0
     target_year: 2026.0
-  progress_status: limited_progress
-  score: -2.5
+  progress_status: deterioration
+  score: -5.0
 15-3-1:
   15-3-1 / By species group:
     base_value: 0.9339
