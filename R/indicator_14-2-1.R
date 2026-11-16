@@ -8,12 +8,14 @@ library(tidyr)
 
 # Get data from source
 # To fetch older or newer versions, change the year in the URL
-national_data_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2025/1_Status-of-key-fish-stocks.csv"
+national_data_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2026/1_Status-of-key-fish-stocks.csv"
 
+regions_data_2026_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2026/2_By-region.csv"
 regions_data_2025_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2025/2_By-region.csv"
 regions_data_2024_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2024/2_Fish-stocks-regions.csv"
 regions_data_2023_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2023/2_Fish-stocks-regions.csv"
 
+stocks_data_2026_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2026/6_By-species-group.csv"
 stocks_data_2025_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2025/6_By-species-group.csv"
 stocks_data_2024_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2024/3_Fish-stocks-groups.csv"
 stocks_data_2023_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/cesindicators/status-major-fish-stocks/2023/3_Fish-stocks-groups.csv"
@@ -21,6 +23,19 @@ stocks_data_2022_url <- "https://www.canada.ca/content/dam/eccc/documents/csv/ce
 
 national_data <- read_csv(national_data_url, skip = 2, show_col_types = FALSE) %>%
   na.omit()
+
+regions_data_2024 <- read_csv(regions_data_2026_url, skip = 2, show_col_types = FALSE) %>%
+  mutate(
+    Status = case_when(
+      Status == "Healthy Zone" ~ "Healthy zone",
+      Status == "Cautious Zone" ~ "Cautious zone",
+      Status == "Critical Zone" ~ "Critical zone",
+      TRUE ~ Status
+    )
+  ) %>%
+  na.omit() %>%
+  mutate(Year = "2024") %>%
+  slice(-n())
 
 regions_data_2023 <- read_csv(regions_data_2025_url, skip = 2, show_col_types = FALSE) %>%
   mutate(
@@ -42,6 +57,17 @@ regions_data_2022 <- read_csv(regions_data_2024_url, skip = 2, show_col_types = 
 regions_data_2021 <- read_csv(regions_data_2023_url, skip = 2, show_col_types = FALSE) %>%
   na.omit() %>%
   mutate(Year = "2021")
+
+stocks_data_2024 <- read_csv(stocks_data_2026_url, skip = 2, show_col_types = FALSE) %>%
+  select(`Stock group` = `Species group`,
+         `Healthy zone (number of stocks)` = `Healthy Zone (number of stocks)`,
+         `Cautious zone (number of stocks)` = `Cautious Zone  (number of stocks)`,
+         `Critical zone (number of stocks)` = `Critical Zone (number of stocks)`,
+         `Status uncertain (number of stocks)`
+  ) %>%
+  na.omit() %>%
+  mutate(Year = "2024")
+
 
 stocks_data_2023 <- read_csv(stocks_data_2025_url, skip = 2, show_col_types = FALSE) %>%
   select(`Stock group` = `Species group`,
@@ -111,7 +137,7 @@ fish_stocks_healthy_and_cautious <- fish_stocks %>%
   mutate(Status = NA,
          Region = NA)
 
-regions_stocks <- bind_rows(regions_data_2023, regions_data_2022, regions_data_2021) %>%
+regions_stocks <- bind_rows(regions_data_2024, regions_data_2023, regions_data_2022, regions_data_2021) %>%
   rename_at(vars(ends_with("(number of stocks)")), ~ substr(., 1, nchar(.)-19)) %>%
   gather(key = "Region", value = "Number of stocks", -Year, -Status) %>%
   group_by(Year, Region) %>%
@@ -124,7 +150,7 @@ regions_stocks_healthy_and_cautious <- regions_stocks %>%
   summarise(Value = sum(Value), .by = c(Year, Units, Region)) %>%
   mutate(Status = "Healthy and cautious zones")
 
-stock_groups <- bind_rows(stocks_data_2023, stocks_data_2022, stocks_data_2021, stocks_data_2020) %>%
+stock_groups <- bind_rows(stocks_data_2024, stocks_data_2023, stocks_data_2022, stocks_data_2021, stocks_data_2020) %>%
   rename_at(vars(ends_with("(number of stocks)")), ~ substr(., 1, nchar(.)-19)) %>%
   filter(`Stock group` != "Total") %>%
   gather(key = "Status", value = "Number of stocks", -Year, -`Stock group`) %>%
