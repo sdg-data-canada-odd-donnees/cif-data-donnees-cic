@@ -15,6 +15,7 @@ scores <- sapply(
   }
 )
 
+
 # Extract SDG number from indicator code
 # e.g. 1-2-1 -> 1, 10-3-1 -> 10
 sdg <- as.integer(sub("-.*$", "", indicator))
@@ -194,5 +195,149 @@ arrows(
   y1 = 9.5,
   length = 0.12,
   lwd = 2,
+  col = "black"
+)
+
+
+
+#
+#
+#--------------------------------------
+# Alternative: general progress score of framework
+
+# Mean score general CIF
+sdg_scores_gen <- aggregate(
+  score ~ scores,
+  data = indicator_scores,
+  FUN = mean,
+  na.rm = TRUE
+)
+
+score_gen=mean(sdg_scores_gen$score, na.rm = TRUE)
+
+print(score_gen)
+
+# ============================================================
+# SEMICIRCULAR GAUGE
+# Uses calculated score: score_gen
+# Scale: -5 to +5
+# ============================================================
+
+# Make sure score_gen is a single numeric value
+score <- as.numeric(score_gen)
+
+# Keep score within the gauge limits
+score <- max(-5, min(5, score))
+
+
+# ------------------------------------------------------------
+# Function to draw one curved section
+# ------------------------------------------------------------
+
+draw_segment <- function(start_angle, end_angle,
+                         inner_radius = 0.72,
+                         outer_radius = 1.08,
+                         colour) {
+  
+  theta <- seq(start_angle, end_angle, length.out = 100)
+  
+  x_outer <- outer_radius * cos(theta)
+  y_outer <- outer_radius * sin(theta)
+  
+  x_inner <- inner_radius * cos(rev(theta))
+  y_inner <- inner_radius * sin(rev(theta))
+  
+  polygon(
+    c(x_outer, x_inner),
+    c(y_outer, y_inner),
+    col = colour,
+    border = NA
+  )
+}
+
+
+# ------------------------------------------------------------
+# Create plot
+# ------------------------------------------------------------
+
+par(mar = c(1, 1, 1, 1))
+
+plot(
+  NA,
+  xlim = c(-1.25, 1.25),
+  ylim = c(-0.15, 1.20),
+  asp = 1,
+  axes = FALSE,
+  xlab = "",
+  ylab = "",
+  bty = "n"
+)
+
+
+# ------------------------------------------------------------
+# Four coloured sections
+#
+# -5   to -2.5 = Red
+# -2.5 to  0   = Orange
+#  0   to  2.5 = Yellow
+#  2.5 to  5   = Green
+# ------------------------------------------------------------
+
+gap <- 0.035
+
+draw_segment(
+  pi - pi/4 + gap,
+  pi - gap,
+  colour = "#DC2929"
+)
+
+draw_segment(
+  pi/2 + gap,
+  3*pi/4 - gap,
+  colour = "#FF8500"
+)
+
+draw_segment(
+  pi/4 + gap,
+  pi/2 - gap,
+  colour = "#FFC44D"
+)
+
+draw_segment(
+  gap,
+  pi/4 - gap,
+  colour = "#91C46C"
+)
+
+
+# ------------------------------------------------------------
+# Calculate needle position
+#
+# score = -5  --> 180 degrees
+# score =  0  -->  90 degrees
+# score = +5  -->   0 degrees
+# ------------------------------------------------------------
+
+needle_angle <- pi * (5 - score) / 10
+
+
+# Needle coordinates
+needle_length <- 0.89
+
+needle_x <- needle_length * cos(needle_angle)
+needle_y <- needle_length * sin(needle_angle)
+
+
+# ------------------------------------------------------------
+# Draw needle
+# ------------------------------------------------------------
+
+segments(
+  x0 = 0,
+  y0 = 0,
+  x1 = needle_x,
+  y1 = needle_y,
+  lwd = 7,
+  lend = "butt",
   col = "black"
 )
